@@ -1,6 +1,6 @@
 <msbt attribsize="8">
 	<message label="001" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Salut, <tag a="110" b="3" />! <delay20 /><anim id="Hello" target="actor" targetSpec="" />Tu sais ce que tu vas manger pour la collation, toi?<anim id="Shocked" target="subNpc" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" /></message>
-	<message label="002" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Dis-moi pas...<delay8 />! Vous parlez snack?!<20_2 arg="2" /><20_3 arg="7" /><anim id="EmotEnd" target="actor" targetSpec="" />
+	<message label="002" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Dis-moi pas<tag a="110" b="0" /><delay8 />! Vous parlez snack?!<20_2 arg="2" /><20_3 arg="7" /><anim id="EmotEnd" target="actor" targetSpec="" />
 <anim id="Silent" target="actor" targetSpec="" />Je peux débattre avec vous?
 <20_2 arg="8" />Alleeez! Soyez gentils!</message>
 	<message label="003" attrib="00 00 00 00 00 00 00 00"><anim id="ShyBoy" target="actor" targetSpec="" />Oh, mais je t'en prie! J'ai fait une
@@ -50,7 +50,7 @@ Pourquoi je t'aurais envoyé une
 lettre, <tag a="110" b="31" arg="0xcd01" />? <anim id="Worried" target="actor" targetSpec="" /><anim id="EmotEnd" target="actor" targetSpec="" /></message>
 	<message label="202" attrib="00 00 00 00 00 00 00 00">C'est quand même méga marrant!
 J'ai cru y voir ton style, dedans.
-<anim id="Thinking" target="actor" targetSpec="" /><size value="75" />Et les miettes de tes gâteaux...<size value="100" /><pageBreak /><anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="Explain" target="actor" targetSpec="" />Mais bon, je demande surtout parce
+<anim id="Thinking" target="actor" targetSpec="" /><size value="75" />Et les miettes de tes gâteaux<tag a="110" b="0" /><size value="100" /><pageBreak /><anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="Explain" target="actor" targetSpec="" />Mais bon, je demande surtout parce
 qu'elle est signée <anim id="Pardon" target="actor" targetSpec="" />« ⁠<tag a="110" b="5" /> »!<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Et « ⁠<tag a="110" b="5" /> », c'est quand
 même une expression méga classe.
 Mais si ça vient pas de toi<tag a="110" b="0" /><anim id="Shocked" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="mainNpc" targetSpec="" /></message>

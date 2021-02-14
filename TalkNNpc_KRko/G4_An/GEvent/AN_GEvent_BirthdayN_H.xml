@@ -48,8 +48,8 @@
 	<message label="016" attrib="00 00 00 00 00 00 00 00"><anim id="AbsentMindedness" target="actor" targetSpec="" />뭐가 들어 있을지 <delay20 />상상도 안 돼서<delay20 />
 엄청 두근거린다!<delay40 />
 <anim id="Greeting" target="actor" targetSpec="" />그럼 <delay20 />열어볼게!</message>
-	<message label="017" attrib="00 00 00 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />뭐가 들었나 했더니<tag a="110" b="0" /><delay20 />
-<anim id="HappyDance" target="actor" targetSpec="" />생일 케이크잖아!<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />역시 <delay20 /><tag a="110" b="3" />!<delay20 />
+	<message label="017" attrib="00 00 00 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />어어!<delay20 />
+<anim id="HappyDance" target="actor" targetSpec="" />이건 생일 케이크잖아!<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />역시 <delay20 /><tag a="110" b="3" />!<delay20 />
 <anim id="Laughing" target="actor" targetSpec="" />생일하면 케이크를 빼놓을 수 없지!<delay40 />
 <anim id="Blushing" target="actor" targetSpec="" />네 마음 <delay20 />잘 받았다!</message>
 	<message label="018" attrib="00 00 00 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />앗! <delay8 /><tag a="125" b="0" arg="0x0" /><gender5 m="이잖아" f="잖아" />!?<delay40 />
@@ -119,8 +119,8 @@
 <anim id="Laughing" target="actor" targetSpec="" />제법 <delay20 />수수한 걸<delay20 />
 선물로 골라줬구나!<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />받은 걸 되팔긴 좀 그러니까<delay20 />
 <anim id="Greeting" target="actor" targetSpec="" />이건 내가 맛있게 먹어야겠다</message>
-	<message label="030" attrib="00 00 00 00 00 00 00 00"><anim id="AbsentMindedness" target="actor" targetSpec="" />좋은 냄새가 나는 것 같더라니<delay20 />
-<anim id="EmotEnd" target="actor" targetSpec="" /><tag a="125" b="0" arg="0x0" /><gender5 m="이잖아" f="잖아" />!<delay frames="40" />
+	<message label="030" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />뭔가 했더니,<delay20 />
+<tag a="125" b="0" arg="0x0" /><gender5 m="이잖아" f="잖아" />!<delay frames="40" />
 <anim id="Greeting" target="actor" targetSpec="" />선물 고마워!</message>
 	<message label="031" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />헉!<delay40 />
 이거 <delay20 /><tag a="125" b="0" arg="0x0" />의
@@ -129,10 +129,16 @@ DIY 레시피잖아?!<pageBreak /><anim id="Worried" target="actor" targetSpec="
 네가 갖고 있는 게 좋겠어!<delay40 />
 레시피 중에는 <delay20 />귀중한 것도 있으니까!<pageBreak />네 마음만 받으마!
 고맙다, <delay20 /><tag a="110" b="4" />! <tag a="110" b="6" />!</message>
+	<message label="036" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />엇, 이건<tag a="110" b="0" /><delay20 />
+<anim id="BigSmile" target="actor" targetSpec="" /><tag a="125" b="0" arg="0x0" /><gender5 m="이" f="" />잖아!<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />맞아～<delay20 />
+<anim id="ShyBoy" target="actor" targetSpec="" />내 생일, <delay20 />밸런타인 데이랑
+딱 겹친단 말이지～<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />생일이랑 밸런타인 데이를<delay20 />
+<anim id="Smiling" target="actor" targetSpec="" />둘 다 챙겨주다니,<delay8 /> 엄청 기쁘다!<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" /><tag a="110" b="4" />!<delay20 />
+<anim id="Hello" target="actor" targetSpec="" />땡큐! <tag a="110" b="6" />!</message>
 	<message label="048" attrib="00 00 00 00 00 00 00 00"><tag a="110" b="3" />,<delay20 />
 이건 내가 답례로 주는<delay40 />
 <anim id="FaintSmile" target="actor" targetSpec="" /><tag a="125" b="4" arg="0x0" /><gender5 m="이야" f="야" />!<pageBreak /><anim id="ShyBoy" target="actor" targetSpec="" />대단한 건 아니지만<tag a="110" b="0" /><delay20 />
-<anim id="Greeting" target="actor" targetSpec="" />날 위해 선물을 줘서 정말 고마워!</message>
+<anim id="Greeting" target="actor" targetSpec="" />내 작은 성의라고 생각해 줘!</message>
 	<message label="049" attrib="00 00 00 00 00 00 00 00"><anim id="Blushing" target="actor" targetSpec="" />설마 <tag a="110" b="3" />한테<delay8 />
 선물을 받게 될 줄은 몰랐어<delay40 />
 <anim id="FaintSmile" target="actor" targetSpec="" />날 생각해줘서 정말 고마워!<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />지금 내가 가진 거라곤
@@ -233,4 +239,19 @@ DIY 레시피잖아?!<pageBreak /><anim id="Worried" target="actor" targetSpec="
 준비해 왔냐? <tag a="110" b="6" />?</message>
 	<message label="100_a" attrib="00 00 00 00 00 00 00 00">물론 준비해 왔지!</message>
 	<message label="100_b" attrib="00 00 00 00 00 00 00 00">준비 못 했어…</message>
+	<message label="101" attrib="00 00 02 00 00 00 00 00"><anim id="HappyDance" target="actor" targetSpec="" />오늘은 친구들이 잔뜩<delay8 />
+내 생일을 축하하러 와줘서 기쁘다!<delay40 />
+<anim id="ShyBoy" target="actor" targetSpec="" />다들, <delay8 />밸런타인 데이라 정신 없을 텐데<tag a="110" b="0" /></message>
+	<message label="101_a" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />이거 줄게!</message>
+	<message label="101_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />그러게!</message>
+	<message label="102" attrib="00 00 02 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />내 생일 파티이긴 하지만<delay20 />
+오늘은 밸런타인 데이이기도 하니까<delay40 />
+<anim id="Greeting" target="actor" targetSpec="" />마음껏 놀다 가라!<anim id="FaintSmile" target="actor" targetSpec="" /></message>
+	<message label="102_a" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />이거 줄게!</message>
+	<message label="102_b" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />고마워～</message>
+	<message label="103" attrib="00 00 02 00 00 00 00 00"><anim id="ShyBoy" target="actor" targetSpec="" />밸런타인 데이가 생일인 것도 나쁘지 않네<delay40 />
+<anim id="EmotEnd" target="actor" targetSpec="" />이벤트를 즐기는 녀석들도<delay20 />
+<anim id="Hello" target="actor" targetSpec="" />내 생일을<delay8 /> 축하해주는 것 같거든!</message>
+	<message label="103_a" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />이거 줄게!</message>
+	<message label="103_b" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />맞아맞아!</message>
 </msbt>

@@ -45,8 +45,9 @@ gebremst, <delay8 /><tag a="110" b="3" />!<setNpcTalkChoices chatOption="0" canc
 	<message label="031" attrib="00 00 0c 09 00 00 00 08"><anim id="Grin" target="actor" targetSpec="" />Regen, Schnee oder Hagel halten
 <tag a="110" b="3" /> nicht auf!<delay20 />
 <anim id="SmugFace" target="actor" targetSpec="" />Stimmt's oder hab ich recht?<setNpcTalkChoices chatOption="0" cancelOption="1" /></message>
-	<message label="033" attrib="00 00 0c 01 00 00 00 09"><anim id="Greeting" target="actor" targetSpec="" /><tag a="110" b="14" />Willkommen zurück in Château
-<tag a="110" b="10" /><endTag a="110" b="14" />!<delay20 /> <anim id="Grin" target="actor" targetSpec="" />Schön,<delay8 /> dich wieder hier zu haben!<setNpcTalkChoices chatOption="0" cancelOption="0" /></message>
+	<message label="033" attrib="00 00 0c 01 00 00 00 09"><anim id="Greeting" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="110" b="14" />Willkommen zurück<endTag a="110" b="14" />!<delay20 />
+<anim id="Grin" target="actor" targetSpec="" />Schön,<delay8 /> dich wieder hier im Château
+<tag a="110" b="10" /> zu sehen!</message>
 	<message label="034" attrib="00 00 0c 01 00 00 00 09"><anim id="EmotEnd" target="actor" targetSpec="" />Jetzt, da du hier bist, <delay8 />ist das die
 angesagteste Location hier auf
 <tag a="110" b="8" />, <delay8 /><tag a="110" b="5" />!<setNpcTalkChoices chatOption="0" cancelOption="1" /></message>

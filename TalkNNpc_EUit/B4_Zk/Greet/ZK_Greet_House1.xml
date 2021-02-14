@@ -45,11 +45,8 @@ eh, <tag a="110" b="3" />?<setNpcTalkChoices chatOption="0" cancelOption="1" /><
 	<message label="031" attrib="00 00 0c 09 00 00 00 08"><anim id="Grin" target="actor" targetSpec="" />Che piova, tiri vento o nevichi di
 brutto, tu trovi sempre la strada,
 <tag a="110" b="3" />!<delay20 /> <anim id="SmugFace" target="actor" targetSpec="" />Dico bene?<setNpcTalkChoices chatOption="0" cancelOption="1" /></message>
-	<message label="033" attrib="00 00 0c 01 00 00 00 09"><anim id="Greeting" target="actor" targetSpec="" />Benvenut<gender2 m="o" f="a" /> nella mia umile dimora!<delay20 />
-Alcuni la chiamano anche
-"Residencia di <tag a="110" b="10" />".
-<anim id="Grin" target="actor" targetSpec="" />Vederti qui mi fa sempre palpitare
-il corazón, <tag a="110" b="3" />!<setNpcTalkChoices chatOption="0" cancelOption="1" /></message>
+	<message label="033" attrib="00 00 0c 01 00 00 00 09"><anim id="Greeting" target="actor" targetSpec="" /><tag a="110" b="14" />Benvenut<gender2 m="o" f="a" /> nella famosa Residencia
+di <tag a="110" b="10" />!<endTag a="110" b="14" /> <delay20 /><anim id="Grin" target="actor" targetSpec="" />Que bueno rivederti, <tag a="110" b="3" />!<setNpcTalkChoices chatOption="0" cancelOption="1" /></message>
 	<message label="034" attrib="00 00 0c 01 00 00 00 09"><anim id="EmotEnd" target="actor" targetSpec="" />Se questo posto è già ultra esclusivo
 di suo,<delay8 /> con te qui arriviamo a livelli
 da paura per <tag a="110" b="8" />!<setNpcTalkChoices chatOption="0" cancelOption="1" /></message>

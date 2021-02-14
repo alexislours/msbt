@@ -132,7 +132,7 @@ island.<delay20 /><anim id="Smiling" target="mainNpc" targetSpec="" /><anim id="
 considering <colour id="1" />transferring users<colour id="65535" />
 between Nintendo Switch systems?<pageBreak /><anim id="Explain" target="mainNpc" targetSpec="" /><anim id="Explain" target="subNpc" targetSpec="" />If so, you should complete that
 transfer first by selecting "<colour id="1" />Transfer
-Your User Data<colour id="65535" />" in System Settings.<pageBreak /><anim id="Smiling" target="mainNpc" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" />We'd be happy to help process
+Your User<colour id="65535" />" in System Settings.<pageBreak /><anim id="Smiling" target="mainNpc" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" />We'd be happy to help process
 your move once that step is
 complete!<delay20 /><tag a="100" b="4" /><size value="75" /> ...lete!<size value="100" /><endTag a="100" b="4" /></message>
 	<message label="2002" attrib="04 00 00"><anim id="Smiling" target="mainNpc" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" />We'd be happy to help you with your
@@ -169,8 +169,8 @@ begin the moving process, <delay8 />which will
 send a <colour id="0" />Transfer Request<colour id="65535" />.</message>
 	<message label="2008" attrib="00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Oh!<delay frames="40" /><anim id="Explain" target="actor" targetSpec="" /> I have one more important detail
 in case you've already transferred
-user data from a different system.<anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak /><anim id="Nodding" target="actor" targetSpec="" />After you use "<colour id="1" />Transfer Your User
-Data<colour id="65535" />," <delay20 /><anim id="Explain" target="actor" targetSpec="" />then your user account won't
+user data from a different system.<anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak /><anim id="Nodding" target="actor" targetSpec="" />After you use "<colour id="1" />Transfer Your User<colour id="65535" />,"
+<delay20 /><anim id="Explain" target="actor" targetSpec="" />then your user account won't
 be on the source system anymore.<anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak />If that's the case, <delay20 /><anim id="Smiling" target="mainNpc" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" />please ask <colour id="1" />another
 resident from the source system<delay8 /> to
 start the process on your behalf<colour id="65535" />.</message>
@@ -180,6 +180,10 @@ moving process?<delay20 /><size value="75" /><tag a="100" b="4" /> ...process?<e
 	<message label="2009_a" attrib="00 00 00">Yes, please!</message>
 	<message label="2009_b" attrib="00 00 00">Can I hear it all again?</message>
 	<message label="2009_c" attrib="00 00 00">No, not right now.</message>
+	<message label="2010" attrib="00 00 00"><anim id="BigSmile" target="mainNpc" targetSpec="" /><anim id="BigSmile" target="subNpc" targetSpec="" />And there we go!<delay20 /> The moving
+process is complete!<pageBreak />However, there is one tiny detail to
+wrap up regarding your old home, so
+please wait one moment<tag a="110" b="0" /><size value="75" /><tag a="100" b="4" /> ...moment...<endTag a="100" b="4" /><size value="100" /></message>
 	<message label="2021" attrib="02 00 00">Oh!<delay20 /> <anim id="Hello" target="mainNpc" targetSpec="" /><anim id="Hello" target="subNpc" targetSpec="" />Do you want to cancel the
 moving process?</message>
 	<message label="2021_a" attrib="00 00 00">Cancel it.</message>

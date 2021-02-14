@@ -55,9 +55,12 @@ compiere gli anni più spesso!</message>
 	<message label="016" attrib="00 00 00 00 00 00 00 00"><anim id="OhGeez" target="actor" targetSpec="" />Non sopporto le persone curiose,<delay8 />
 <anim id="FaintSmile" target="actor" targetSpec="" />ma di fronte a un regalo incartato,
 mi trasformo in una di loro.</message>
-	<message label="017" attrib="00 00 00 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Non pensavo che fossi il tipo da
-regalare dolci!<delay frames="40" /><anim id="Laughing" target="actor" targetSpec="" /> Hai appena
-guadagnato un paio di punti!</message>
+	<message label="017" attrib="00 00 00 00 00 00 00 00"><anim id="TakenAback" target="actor" targetSpec="" />Come facevi a sapere che i dolci
+sono il mio punto debole?<pageBreak /><anim id="OhGeez" target="actor" targetSpec="" />Sai, <delay8 />di solito non vado a raccontarlo
+in giro, perché ho una reputazione
+da dura da mantenere<tag a="110" b="0" />
+<anim id="EmotEnd" target="actor" targetSpec="" />Però tu hai fatto centro! <delay20 /><anim id="Scheming" target="actor" targetSpec="" />Beh,
+grazie.</message>
 	<message label="018" attrib="00 00 00 00 00 00 00 00"><anim id="Laughing" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="50" b="2" /><tag a="125" b="0" arg="0x0" />?
 <delay frames="40" />Conosci bene i miei gusti. <delay20 />Ne
 ho comprat<tag a="50" b="17" arg="0x12 0xcd00 0x2 0x6f 0x2 0x61 0x0" /> un<tag a="50" b="17" arg="0x12 0xcd00 0x2 0x6f 0x2 0x61 0x0" /> giusto ieri!
@@ -114,15 +117,23 @@ regalo di compleanno?</message>
 	<message label="029" attrib="00 00 00 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Diciamo che mi aspettavo di tutto,
 tranne che<tag a="110" b="0" /> delle rape.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Hanno un aspetto appetitoso, però.
 Dici che posso mangiarle?</message>
-	<message label="030" attrib="00 00 00 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="50" b="2" /><tag a="125" b="0" arg="0x0" />!<delay frames="40" />
-<anim id="FaintSmile" target="actor" targetSpec="" />Mi sembrava di aver sentito odore
-di cibo<tag a="110" b="0" /></message>
+	<message label="030" attrib="00 00 00 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Lo sapevo che mi avresti portato
+qualcosa di niente male. <delay frames="40" /><anim id="Nodding" target="actor" targetSpec="" />Si tratta
+di <tag a="50" b="2" /><tag a="125" b="0" arg="0x0" />!</message>
 	<message label="031" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Uau! <delay20 />Uno schema fai da te per
 <tag a="50" b="2" /><tag a="125" b="0" arg="0x0" />?!<pageBreak /><anim id="BigSmile" target="actor" targetSpec="" />È davvero <delay20 />troppo bello!<pageBreak /><anim id="Worried" target="actor" targetSpec="" />Già<tag a="110" b="0" /><delay20 /> fin troppo, a dire il vero.<delay frames="40" /> <anim id="Negative" target="actor" targetSpec="" />Non
 posso accettarlo. <delay20 />Questi schemi mica
 crescono sugli alberi. <delay20 />Tienilo tu.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Dopotutto è il pensiero che conta,
 e tu <delay20 />hai dato <delay20 />del tuo meglio!<delay frames="40" /> <anim id="Grin" target="actor" targetSpec="" />Sei
 veramente grande, <tag a="110" b="5" />.</message>
+	<message label="036" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Ma dai!<delay8 /> Davvero mi regali
+<tag a="50" b="2" /><tag a="125" b="0" arg="0x0" />?<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Beh<tag a="110" b="0" /> grazie!<delay8 /> Ti sei ricordat<gender2 m="o" f="a" /> del
+mio compleanno.<pageBreak /><anim id="OhGeez" target="actor" targetSpec="" />Di solito se lo dimenticano tutti
+nel trambusto di San Valentino<tag a="110" b="0" /><pageBreak /><anim id="Explain" target="actor" targetSpec="" />Compiere gli anni in un giorno festivo
+è dura.<delay20 /> La gente celebra quell'evento
+e tu pensi:<delay20 /><anim id="Outraged" target="actor" targetSpec="" /> "Ma oggi è il mio giorno"!<pageBreak /><anim id="Grin" target="actor" targetSpec="" />Comunque, sei grande.<delay20 /><anim id="HappyDance" target="actor" targetSpec="" /> Hai reso
+felice anche una dura come me,
+<tag a="110" b="6" />!</message>
 	<message label="048" attrib="00 00 00 00 00 00 00 00"><anim id="ShyBoy" target="actor" targetSpec="" />Ho una cosina per ricambiare:
 <tag a="50" b="2" /><tag a="125" b="4" arg="0x0" />.<pageBreak /><anim id="ShyBoy" target="actor" targetSpec="" />Non è granché, ma in fin dei conti
 è il mio compleanno, <delay8 />non il tuo.</message>
@@ -225,4 +236,22 @@ contenta? <anim id="Pardon" target="actor" targetSpec="" />Avere un regalo da pa
 tua, <tag a="110" b="6" />.</message>
 	<message label="100_a" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Giusto, ecco qui!</message>
 	<message label="100_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Scusa, non ho niente.</message>
+	<message label="101" attrib="00 00 02 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />È troppo bello che oggi siano tutti
+qui per il mio compleanno!<pageBreak /><anim id="Thinking" target="actor" targetSpec="" />Almeno spero sia così e che non
+siano qui<tag a="110" b="0" /> solo per San Valentino!<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Ma no, dev'essere per me. <delay20 /><anim id="BigSmile" target="actor" targetSpec="" />Non c'è
+altra spiegazione, <delay20 />basta guardarsi
+intorno per capirlo, <tag a="110" b="6" />!</message>
+	<message label="101_a" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Ecco, tutto per te!</message>
+	<message label="101_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Ma sicuramente...</message>
+	<message label="102" attrib="00 00 02 00 00 00 00 00"><anim id="SmugFace" target="actor" targetSpec="" />Sì, non stai sognando: <delay8 />oggi è il mio
+compleanno e anche San Valentino.<pageBreak /><anim id="Blushing" target="actor" targetSpec="" />Quando nasci in un giorno così
+speciale, <delay20 /><anim id="EmotEnd" target="actor" targetSpec="" />festeggiare diventa parte
+della tua vita!</message>
+	<message label="102_a" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Questo è per te!</message>
+	<message label="102_b" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Lo credo anch'io.</message>
+	<message label="103" attrib="00 00 02 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Sinceramente è grandioso che il mio
+compleanno cada il giorno di San
+Valentino.<delay20 /> Doppia festa!<delay20 /> <anim id="Laughing" target="actor" targetSpec="" />Ah ah ah!</message>
+	<message label="103_a" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Ecco, è per te!</message>
+	<message label="103_b" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Immagino.</message>
 </msbt>

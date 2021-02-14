@@ -76,7 +76,7 @@ Tu voudrais bien que je te l'achète?</message>
 ça te va?</message>
 	<message label="110_a" attrib="00 00 00 00 00 00 00 00">Marché conclu.</message>
 	<message label="110_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Laisse tomber.</message>
-	<message label="111" attrib="00 00 00 00 00 00 00 00"><anim id="Sighing" target="actor" targetSpec="" />Désolé,<delay8 /> c'est tout ce que...<anim id="Aha" target="actor" targetSpec="" /><delay8 /> Attends!<delay20 />
+	<message label="111" attrib="00 00 00 00 00 00 00 00"><anim id="Sighing" target="actor" targetSpec="" />Désolé,<delay8 /> c'est tout ce que<tag a="110" b="0" /><anim id="Aha" target="actor" targetSpec="" /><delay8 /> Attends!<delay20 />
 Tu as dit « marché conclu »?<delay20 /><anim id="HappyDance" target="actor" targetSpec="" /> Ouais!<delay8 />
 Je suis trop content!</message>
 	<message label="112" attrib="00 00 00 00 00 00 00 00"><anim id="OhGeez" target="actor" targetSpec="" />Toujours pas<tag a="110" b="0" /> Tant pis, je vais
@@ -109,7 +109,7 @@ Qu'est-ce que tu dirais de
 <tag a="90" b="21" arg="0x1" />?</message>
 	<message label="201_a" attrib="00 00 00 00 00 00 00 00">D'accord.</message>
 	<message label="201_b" attrib="00 00 00 00 00 00 00 00">Je crois pas, non.</message>
-	<message label="202" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Super!<delay20 /> Attends...<anim id="EmotEnd" target="actor" targetSpec="" /><delay20 /><anim id="Oops" target="actor" targetSpec="" /> Tu as dit non?<delay20 />
+	<message label="202" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Super!<delay20 /> Attends<tag a="110" b="0" /><anim id="EmotEnd" target="actor" targetSpec="" /><delay20 /><anim id="Oops" target="actor" targetSpec="" /> Tu as dit non?<delay20 />
 Eh ben tant pis<tag a="110" b="0" /><delay20 /><anim id="ShyBoy" target="actor" targetSpec="" /> Désolé de t'avoir
 dérangé<gender2 m="" f="e" /> avec ça<tag a="110" b="0" /><pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Je vais aller embêter quelqu'un
 d'autre, <delay20 />peut-être que j'aurai plus

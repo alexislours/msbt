@@ -58,11 +58,11 @@
 	<message label="017" attrib="00 00 00 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Никогда бы не подумала, что ты
 мне подаришь сладости!<delay frames="40" /> <anim id="Laughing" target="actor" targetSpec="" />Выглядит
 очень вкусно, спасибо!</message>
-	<message label="018" attrib="00 00 00 00 00 00 00 00"><anim id="Laughing" target="actor" targetSpec="" />О! <tag a="50" b="3" /><tag a="125" b="0" arg="0x0" />?<delay frames="40" />
-<anim id="Greeting" target="actor" targetSpec="" />Ты меня хорошо знаешь! Я вчера
-только такое же купила.<pageBreak /><anim id="Blushing" target="actor" targetSpec="" />Мне нравится, что у нас мысли
-сходятся. Буду беречь как зеницу
-ока!</message>
+	<message label="018" attrib="00 00 00 00 00 00 00 00"><anim id="Laughing" target="actor" targetSpec="" />О! <tag a="50" b="3" /><tag a="125" b="0" arg="0x0" />?!<delay frames="40" />
+<anim id="Blushing" target="actor" targetSpec="" />Ты меня хорошо знаешь! <delay40 />У меня
+уже как раз так<tag a="50" b="24" arg="0x12 0xcd00 0x4 0x43e 0x439 0x4 0x430 0x44f 0x4 0x43e 0x435 0x4 0x438 0x435" /> есть.<pageBreak /><anim id="Greeting" target="actor" targetSpec="" />Не страшно!<delay20 /> <anim id="Nodding" target="actor" targetSpec="" />Даже наоборот, мне
+нравится, что у нас мысли сходятся.
+<delay20 /><anim id="Smiling" target="actor" targetSpec="" />Буду беречь как зеницу ока!</message>
 	<message label="019" attrib="00 00 00 00 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="125" b="0" arg="0x0" />?!<delay frames="40" />
 <anim id="Laughing" target="actor" targetSpec="" />А-ха-ха! Ты не заметил<gender2 m="" f="а" />, что
 на мне такая же одежда?<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Здорово! Теперь у меня есть вещь
@@ -119,8 +119,8 @@
 не репу.<delay frames="40" /><anim id="Laughing" target="actor" targetSpec="" /> Спасибо, наверное.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Хотя вид у нее аппетитный.<delay20 />
 Приготовлю завтра на обед.</message>
 	<message label="030" attrib="00 00 00 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="125" b="0" arg="0x0" />!<delay frames="40" />
-<anim id="Smiling" target="actor" targetSpec="" />Ух ты! А я все думаю, что это
-так вкусно пахнет. Спасибо!</message>
+<anim id="Nodding" target="actor" targetSpec="" />Я так и знала, что ты мне
+вкуснятину принесешь!</message>
 	<message label="031" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Ого! <delay20 />Инструкция «Сделай сам» для
 <tag a="50" b="23" arg="0xcd03" /><tag a="125" b="0" arg="0x0" />?!<pageBreak /><anim id="BigSmile" target="actor" targetSpec="" />Вот это просто <delay20 />нереально круто!
 <anim id="Worried" target="actor" targetSpec="" />Даже<tag a="110" b="0" /><delay20 /> слишком.<delay frames="40" /><pageBreak /><anim id="Negative" target="actor" targetSpec="" />Я не могу ее принять. <delay20 />Все-таки
@@ -128,6 +128,14 @@
 <delay20 />Тебе еще само<gender2 m="му" f="й" /> она пригодится.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Но важен не подарок, а внимание.
 <delay20 />Ты вложил<gender2 m="" f="а" /><delay20 /> в подарок всю душу.<delay frames="40" />
 <anim id="Grin" target="actor" targetSpec="" />И это самое ценное. <tag a="50" b="3" /><tag a="110" b="5" />!</message>
+	<message label="036" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Ого!<delay8 /> Ничего себе!<delay8 /> Круть какая!<delay20 />
+Спасибочки за <tag a="50" b="23" arg="0xcd01" /><tag a="125" b="0" arg="0x0" />!!!<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Я в шоке,<delay8 /> ты вспомнил<gender2 m="" f="а" /> про мой
+день рождения!<delay20 /> Ко Дню Валентина
+такой переполох, все забывают.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Дни рождения в праздники — как
+мороженое с горчицей.<delay20 /> Вместе они
+фу!<delay20 /> <anim id="Outraged" target="actor" targetSpec="" />Соседям просто не до меня!<pageBreak /><anim id="Grin" target="actor" targetSpec="" />Ты просто класс.<delay20 /> Огромное
+спасибо еще раз!<delay20 /> Нет, погоди!<delay8 />
+<anim id="HappyDance" target="actor" targetSpec="" />Пусть лучше будет преогромное!</message>
 	<message label="048" attrib="00 00 00 00 00 00 00 00"><anim id="ShyBoy" target="actor" targetSpec="" />Держи! Это тебе.
 Это <tag a="125" b="4" arg="0x0" />.<pageBreak /><anim id="ShyBoy" target="actor" targetSpec="" />Мелочь, конечно, но ведь
 день рождения сегодня
@@ -232,4 +240,21 @@
 тебя!</message>
 	<message label="100_a" attrib="00 00 00 00 00 00 00 00">Держи!</message>
 	<message label="100_b" attrib="00 00 00 00 00 00 00 00">А я без подарка.</message>
+	<message label="101" attrib="00 00 02 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Круто, что все сегодня решили
+отметить мой день рождения.<delay frames="40" /> <anim id="Thinking" target="actor" targetSpec="" />Или<tag a="110" b="0" />
+они День Валентина отмечают?<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Да нет, они тут точно из-за меня.
+<anim id="BigSmile" target="actor" targetSpec="" />Еще бы, такая вечеринка! Просто
+отпад! <tag a="50" b="3" /><tag a="110" b="6" />!</message>
+	<message label="101_a" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Это тебе!</message>
+	<message label="101_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Ты просто класс!</message>
+	<message label="102" attrib="00 00 02 00 00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Я хочу, чтобы все веселились
+вдвойне. <anim id="Smiling" target="actor" targetSpec="" />Не каждый день рождения
+совпадает с Днем Валентина!</message>
+	<message label="102_a" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Это тебе!</message>
+	<message label="102_b" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Буду веселиться!</message>
+	<message label="103" attrib="00 00 02 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Мне нравится, что у меня день
+рождения в День Валентина! <delay20 />Две
+вечеринки в одной!<delay20 /> <anim id="Laughing" target="actor" targetSpec="" />А-ха-ха!</message>
+	<message label="103_a" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Держи!</message>
+	<message label="103_b" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Еще бы!</message>
 </msbt>

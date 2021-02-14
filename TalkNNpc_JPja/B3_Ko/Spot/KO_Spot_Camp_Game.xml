@@ -6,8 +6,8 @@
 	<message label="001_a" attrib="00 00 00 00 00 00 00 00">やるやる</message>
 	<message label="001_b" attrib="00 00 00 00 00 00 00 00"><ruby a="2" b="4">いま</ruby>今はいいや</message>
 	<message label="002" attrib="00 00 01 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />よっしゃ！<delay frames="40" />　
-<anim id="FaintSmile" target="actor" targetSpec="" />そんじゃあ<delay20 />　まず　<ruby a="2" b="4">はじ</ruby>始める<ruby a="2" b="4">まえ</ruby>前に
-ルールを　<ruby a="4" b="8">せつめい</ruby>説明するぜ、<tag a="110" b="6" /></message>
+<anim id="EmotEnd" target="actor" targetSpec="" />そんじゃあ<delay20 />　まず　<ruby a="2" b="4">はじ</ruby>始める<ruby a="2" b="4">まえ</ruby>前に
+<anim id="Nodding" target="actor" targetSpec="" />ルールを　<ruby a="4" b="8">せつめい</ruby>説明するぜ、<tag a="110" b="6" /></message>
 	<message label="002_a" attrib="00 00 00 00 00 00 00 00">お<ruby a="2" b="4">ねが</ruby>願いします</message>
 	<message label="002_b" attrib="00 00 00 00 00 00 00 00"><ruby a="2" b="2">し</ruby>知ってるよ</message>
 	<message label="003" attrib="00 00 00 00 00 00 00 00">そいつぁ　<ruby a="4" b="8">ざんねん</ruby>残念だが、<delay20 />
@@ -29,18 +29,18 @@
 <anim id="FaintSmile" target="actor" targetSpec="" /><ruby a="2" b="4">つぎ</ruby>次こそは<delay8 />　オレが<ruby a="2" b="2">か</ruby>勝つからな！　<tag a="110" b="6" /></message>
 	<message label="007_03" attrib="00 00 00 00 00 00 00 00"><ruby a="4" b="8">こんかい</ruby>今回は　オレの<ruby a="2" b="2">か</ruby>勝ちだったけど<delay20 />
 <anim id="FaintSmile" target="actor" targetSpec="" />これにこりず、<delay8 />また<ruby a="2" b="4">つぎ</ruby>次も　<ruby a="4" b="8">しょうぶ</ruby>勝負しようぜ！<delay frames="40" />
-オメェのリベンジ　<ruby a="2" b="2">ま</ruby>待ってるからな、<tag a="110" b="6" /></message>
+<anim id="EmotEnd" target="actor" targetSpec="" />オメェのリベンジ　<ruby a="2" b="2">ま</ruby>待ってるからな、<tag a="110" b="6" /></message>
 	<message label="008" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />おう！<delay20 />　いい<ruby a="4" b="6">へんじ</ruby>返事だ！<delay frames="40" />
 <anim id="FaintSmile" target="actor" targetSpec="" />それじゃ、<delay8 />さっそくやるとすっか！<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" /><tag a="110" b="0" /><anim id="Silent" target="actor" targetSpec="" />と、<delay8 /><ruby a="2" b="2">ま</ruby>待てよ？<10_4 />
 <anim id="OhGeez" target="actor" targetSpec="" />オメェ、もちものが　いっぱいじゃねぇか！<delay40 />
 <ruby a="2" b="2">か</ruby>勝つつもりねぇだろ、<delay8 />オイ？
 <anim id="Silent" target="actor" targetSpec="" />オレと　ゲームをやりたきゃ<delay8 />
-<ruby a="2" b="2">あ</ruby>空きを　<ruby a="2" b="4">つく</ruby>作ってこい！<delay40 />
+ポケットに　<ruby a="2" b="2">あ</ruby>空きを　<ruby a="2" b="4">つく</ruby>作ってこい！<delay40 />
 <anim id="Grin" target="actor" targetSpec="" /><ruby a="2" b="6">はなし</ruby>話はそれからだ！　<tag a="110" b="6" /></message>
 	<message label="100" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />ここに<delay8 />　<colour id="6" />♥♦<colour id="65535" /><colour id="7" />♠♣<colour id="65535" />  4<ruby a="4" b="8">しゅるい</ruby>種類の<ruby a="2" b="2">え</ruby>絵が
 <ruby a="2" b="2">か</ruby>描かれた　カードがあるだろ<tag a="110" b="0" /><pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />オレが　この<ruby a="2" b="4">なか</ruby>中から　カードを1<ruby a="2" b="4">まい</ruby>枚ひくから、<delay20 />
 オメェは<delay8 />　そのカードの<ruby a="4" b="8">しゅるい</ruby>種類が
-<ruby a="4" b="8">いったい</ruby>一体　<ruby a="2" b="4">なん</ruby>何なのかを　<ruby a="4" b="6">よそう</ruby>予想してくれ！
+<ruby a="4" b="8">いったい</ruby>一体　なんなのかを　<ruby a="4" b="6">よそう</ruby>予想してくれ！
 <anim id="EmotEnd" target="actor" targetSpec="" />もしも　オメェの<ruby a="4" b="6">よそう</ruby>予想が　<ruby a="2" b="2">あ</ruby>当たったら、<delay20 />
 <anim id="Smiling" target="actor" targetSpec="" />オレの　<tag a="125" b="0" arg="0x0" />を<delay8 />
 オメェに　プレゼントするぜ！
@@ -57,7 +57,7 @@
 	<message label="102_01" attrib="00 00 00 00 00 00 00 00"><anim id="Clapping" target="actor" targetSpec="" /><ruby a="4" b="6">おおあ</ruby>大当たり！<delay20 />　<tag a="140" b="14" arg="0xcd00" />だ！<delay frames="40" />
 オメェ　やるじゃねぇか！　<tag a="110" b="6" /></message>
 	<message label="102_02" attrib="00 00 00 00 00 00 00 00"><anim id="Pardon" target="actor" targetSpec="" /><ruby a="4" b="8">ざんねん</ruby>残念！<delay20 />　<ruby a="4" b="8">せいかい</ruby>正解は　<tag a="140" b="14" arg="0xcd00" />だぜ！<delay frames="40" />
-<anim id="WrySmile" target="actor" targetSpec="" /><ruby a="4" b="6">きょう</ruby>今日は　カンがさえてなかったな、<tag a="110" b="6" /></message>
+<anim id="WrySmile" target="actor" targetSpec="" /><ruby a="4" b="6">きょう</ruby>今日は　カンがさえなかったな、<tag a="110" b="6" /></message>
 	<message label="200" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />ここに<delay8 />　<colour id="6" />♥♦<colour id="65535" /><colour id="7" />♠♣<colour id="65535" />  4<ruby a="4" b="8">しゅるい</ruby>種類の<ruby a="2" b="2">え</ruby>絵が
 <ruby a="2" b="2">か</ruby>描かれた　カードがあるだろ<tag a="110" b="0" /><pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />オレが　この<ruby a="2" b="4">なか</ruby>中から　カードを1<ruby a="2" b="4">まい</ruby>枚ひくから<delay20 />
 オメェは<delay8 />　そのカードの<ruby a="2" b="4">いろ</ruby>色が
@@ -79,6 +79,6 @@
 <anim id="WrySmile" target="actor" targetSpec="" /><colour id="7" />くろい<colour id="65535" />から　<ruby a="6" b="10">ふせいかい</ruby>不正解だな！</message>
 	<message label="202_03" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />おおっ、<delay20 /><tag a="140" b="14" arg="0xcd00" />だ！<delay frames="40" />
 <anim id="Clapping" target="actor" targetSpec="" /><colour id="7" />くろい<colour id="65535" />から　<ruby a="4" b="8">せいかい</ruby>正解だな！</message>
-	<message label="202_04" attrib="00 00 00 00 00 00 00 00"><anim id="Worried" target="actor" targetSpec="" /><ruby a="4" b="8">ざんねん</ruby>残念、<delay20 /><tag a="140" b="14" arg="0xcd00" />だ！<delay frames="40" />
+	<message label="202_04" attrib="00 00 00 00 00 00 00 00"><anim id="Pardon" target="actor" targetSpec="" /><ruby a="4" b="8">ざんねん</ruby>残念、<delay20 /><tag a="140" b="14" arg="0xcd00" />だ！<delay frames="40" />
 <anim id="WrySmile" target="actor" targetSpec="" /><colour id="6" />あかい<colour id="65535" />から　<ruby a="6" b="10">ふせいかい</ruby>不正解だな！</message>
 </msbt>
