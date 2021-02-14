@@ -37,6 +37,10 @@ Tu es <tag a="110" b="1" /> <gender4 m="de " f="d'" />⁠<tag a="110" b="33" />,
 nouvelles, même en ces piètres circonstances.<endTag a="100" b="5" /></message>
 	<message label="021_03" attrib="00 00 13"><tag a="100" b="5" />Attends un peu<tag a="110" b="0" /><delay20 /> Tu es encore
 dans le pétrin?<delay20 /><anim id="Nodding" target="player" targetSpec="" /><endTag a="100" b="5" /></message>
+	<message label="021_04" attrib="00 00 13"><tag a="100" b="5" />Tu es <tag a="110" b="1" /> <gender4 m="de " f="d'" />⁠<tag a="110" b="34" />, c'est bien ça?<endTag a="100" b="5" /></message>
+	<message label="021_05" attrib="00 00 13"><tag a="100" b="5" />Voyons un peu<tag a="110" b="0" /> Ah, c'est bon!<delay20 />
+Tu es <tag a="110" b="1" /> <gender4 m="de " f="d'" />⁠<tag a="110" b="34" />, c'est bien ça?<pageBreak /><anim id="Nodding" target="player" targetSpec="" /><delay frames="30" />Ça me fait plaisir d'avoir de tes
+nouvelles, même en ces piètres circonstances.<endTag a="100" b="5" /></message>
 	<message label="022" attrib="00 00 13" />
 	<message label="023_01" attrib="02 00 13"><tag a="100" b="5" />Le système est plutôt simple :
 je te sors de là pour <colour id="1" />100<colour id="65535" /> points
@@ -151,6 +155,18 @@ sur une de ces <colour id="1" />îles labyrinthiques
 <colour id="65535" />que <colour id="3" />Tom Nook <colour id="65535" />a imaginées.<pageBreak />Mon rapport indique une situation grave, 
 mais pas désespérée<tag a="110" b="0" /><pageBreak />On va réinitialiser l'île et je te
 déposerai ensuite <colour id="1" />là où l'avion atterrit<colour id="65535" />. Boucle ta ceinture!<endTag a="100" b="5" /></message>
+	<message label="049_02" attrib="02 00 13"><tag a="100" b="5" />Bizarre, bizarre<tag a="110" b="0" /> Excuse-moi, mais<tag a="110" b="0" />
+j'ai du mal à te localiser.<delay frames="40" /> Où donc
+es-tu allé<gender2 m="" f="e" /> te perdre?<pageBreak />Eh bien, <delay8 />je n'ai pas le choix.<delay20 /> Je vais
+devoir te déposer sur la <colour id="1" />place la plus
+proche<colour id="65535" />.<delay20 /> Ça te convient?<endTag a="100" b="5" /></message>
+	<message label="049_02_a" attrib="00 00 13">Oui, s'il te plaît!</message>
+	<message label="049_02_b" attrib="00 00 13"><anim id="Negative" target="player" targetSpec="" />Euh... j'annule!</message>
+	<message label="049_03" attrib="00 00 13"><tag a="100" b="5" />Merci pour la confirmation. <delay20 />Je vais te
+déposer sur la place la plus proche
+de là où tu te trouves.<pageBreak />Et comme tu ne peux pas choisir la
+destination, <delay8 />c'est gratuit pour cette
+fois.<delay20 /> Ça t'économisera des points!<endTag a="100" b="5" /></message>
 	<message label="050_01" attrib="00 00 13"><tag a="100" b="5" />À ta tente?<delay20 /> Aucun problème.<endTag a="100" b="5" /></message>
 	<message label="050_02" attrib="00 00 13"><tag a="100" b="5" />Chez toi?<delay20 /> D'accord!<endTag a="100" b="5" /></message>
 	<message label="050_03" attrib="00 00 13"><tag a="100" b="5" />Sur la place? <delay20 />OK!<endTag a="100" b="5" /></message>
@@ -206,6 +222,12 @@ je fais du yoga.<endTag a="100" b="5" /></message>
 	<message label="064_03" attrib="00 00 13"><tag a="100" b="5" />Tu te sers bien tous les jours
 du <colour id="1" />Nook Stop<colour id="65535" /> au bureau des
 résidents pour gagner des points?<pageBreak />Il faut le faire, c'est vraiment la base.<endTag a="100" b="5" /></message>
+	<message label="065" attrib="00 00 13"><tag a="60" b="20" /></message>
+	<message label="065_01" attrib="00 00 13"><tag a="100" b="5" />Alors, on utilise le service d'aide
+gratuit sans arrêt<tag a="110" b="0" /> Tu te prends
+pour qui?!<pageBreak />Bah.<delay20 /> Quand on veut du gratuit, on
+finit toujours par en payer le prix.
+Alors viens pas pleurer!<endTag a="100" b="5" /></message>
 	<message label="2001" attrib="00 00 13"><tag a="100" b="5" />Oui? Ce n'est pas comme
 d'habitude, c'est ça?<delay frames="30" /> Je pensais
 bien que tu le remarquerais.

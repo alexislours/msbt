@@ -27,6 +27,12 @@ necesitas que te ayude?</message>
 	<message label="021" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />¿Quieres que te ayude con los
 ajustes de los datos de guardado?<delay8 />
 ¡Ningún problema!</message>
+	<message label="022" attrib="06 00 00 00">A ver, ¿con qué tipo de ajustes
+necesitas que te ayude?</message>
+	<message label="022_a" attrib="00 00 00 00">Datos de guardado</message>
+	<message label="022_b" attrib="00 00 00 00">NookLink</message>
+	<message label="022_c" attrib="00 00 00 00"> Copia de seguridad</message>
+	<message label="022_d" attrib="00 00 00 00">Nada, ahí te quedas</message>
 	<message label="051" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Claro, claro, lo entiendo.<10_4 /> En tal caso,
 vamos a volver a la pantalla
 del título.
@@ -72,6 +78,15 @@ los demás residentes.</message>
 	<message label="062_03" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Así que te sugiero que recurras
 a esta opción solo cuando sea
 absolutamente necesario.</message>
+	<message label="062_04" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Y, si has habilitado la copia de
+seguridad de datos de guardado,<delay8 />
+¡esta se deshabilitará!</message>
+	<message label="062_05" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Y, si <tag a="115" b="0" arg="0xcd00" /> ha habilitado
+la copia de seguridad de datos de
+guardado,<delay8 /> ¡esta se deshabilitará!</message>
+	<message label="062_06" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Y, si se habilitó la copia de seguridad
+de datos de guardado con esa cuenta
+de usuario,<delay8 /> ¡esta se deshabilitará!</message>
 	<message label="063_01" attrib="00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />A continuación voy a explicarte
 lo que implica borrar los datos
 de otros residentes<tag a="110" b="0" />
@@ -205,6 +220,15 @@ de residente quieres borrar?</message>
 	<message label="112_b" attrib="00 00 00 00">Borrar los datos de otro</message>
 	<message label="112_c" attrib="00 00 00 00">¿Borrar al portavoz?</message>
 	<message label="112_d" attrib="00 00 00 00">He cambiado de idea</message>
+	<message label="113" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Si borras los datos de residente
+de <tag a="115" b="0" arg="0xcd00" />,<delay8 /> <anim id="Negative" target="actor" targetSpec="" />eso ya no será posible.</message>
+	<message label="114" attrib="01 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Te recomiendo que recurras a esta
+opción solo cuando sea totalmente
+necesario, ¿sí?
+<anim id="Serious" target="actor" targetSpec="" />¿Aún deseas borrar los datos de
+<tag a="115" b="0" arg="0xcd00" />?</message>
+	<message label="114_a" attrib="00 00 00 00">He cambiado de idea</message>
+	<message label="114_b" attrib="00 00 00 00"><colour id="6" />Sí, borra los datos<colour id="65535" /></message>
 	<message label="201" attrib="00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Quieres borrar datos de residente,
 ¿sí?<delay20 /> Bien, has acudido al mapache
 indicado.

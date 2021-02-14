@@ -60,8 +60,6 @@ tu ne peux rien porter de plus!</message>
 	<message label="0301_a" attrib="01 06">OK</message>
 	<message label="0303_a" attrib="01 06">OK</message>
 	<message label="0304_a" attrib="01 06">OK</message>
-	<message label="0307" attrib="04 00">Réception du courrier<tag a="110" b="0" /></message>
-	<message label="0308" attrib="02 00">Vérification des données<tag a="110" b="0" /></message>
 	<message label="0310" attrib="02 00">Un peu de patience, d'accord?</message>
 	<message label="0321" attrib="01 09">Tu ne peux pas ajouter à tes favoris un
 message que tu n'as pas encore lu!</message>
@@ -177,6 +175,36 @@ envoyée. Si le problème persiste,
 prend une nouvelle photo de profil
 et réessaie.</message>
 	<message label="0820_a" attrib="01 06">Fermer</message>
+	<message label="0830" attrib="12 09"><colour id="6" />Informations importantes sur les rêves<colour id="65535" />
+Lorsque tu partages ton île en rêve,
+d'autres joueurs, dont certains que
+tu ne connais pas, visitent une
+version de ton île.<pageBreak /><colour id="1" />Cela signifie que les données
+générées par l'utilisateur et relatives
+à ton île et à ses résidents, telles
+qu'elles sont au moment du partage
+du rêve, sont rendues publiques.<colour id="65535" /><pageBreak /><colour id="6" />Ces données incluent entre autres
+ton nom, le contenu du passeport de
+tous les résidents, l'apparence générale
+de l'île, les pièces dans les maisons,
+tes motifs perso et le contenu du
+panneau d'affichage.<colour id="65535" /></message>
+	<message label="0830_a" attrib="01 00">OK</message>
+	<message label="0831" attrib="12 09"><colour id="6" />Informations importantes sur les rêves<colour id="65535" />
+Lorsque tu partages ton île en rêve,
+d'autres joueurs, dont certains que
+tu ne connais pas, visitent une
+version de ton île.<pageBreak /><colour id="1" />Cela signifie que les données
+relatives à ton île et à ses résidents,
+telles qu'elles sont au moment du
+partage du rêve, sont rendues
+publiques.<colour id="65535" /><pageBreak /><colour id="6" />Ces données incluent entre autres
+ton nom, le contenu du passeport de
+tous les résidents, l'apparence générale
+de l'île, les pièces dans les maisons,
+tes motifs perso et le contenu du
+panneau d'affichage.<colour id="65535" /></message>
+	<message label="0831_a" attrib="01 00">OK</message>
 	<message label="0921" attrib="06 06">Tu peux publier jusqu'à deux
 messages au cours d'un voyage.</message>
 	<message label="0921_a" attrib="01 06">OK</message>
@@ -270,6 +298,9 @@ pour le moment. Désactive les
 communications depuis le guichet
 de l'aéroport.</message>
 	<message label="1124_a" attrib="01 00">OK</message>
+	<message label="1125" attrib="01 09">Tu ne peux rien commander
+pour le moment.</message>
+	<message label="1125_a" attrib="01 00">OK</message>
 	<message label="1201" attrib="08 00">Veux-tu vraiment effacer le motif
 « <tag a="115" b="3" arg="0xcd00" /> »?</message>
 	<message label="1201_a" attrib="01 00">Euh, non!</message>
@@ -919,7 +950,7 @@ Veux-tu partager cette information
 sur les réseaux sociaux?</message>
 	<message label="2422_a" attrib="01 00">Non.</message>
 	<message label="2422_b" attrib="01 00">Oui!</message>
-	<message label="2423" attrib="08 00">Ton motif n'a pas pu être publié.
+	<message label="2423" attrib="08 09">Ton motif n'a pas pu être publié.
 Veux-tu réessayer?</message>
 	<message label="2423_a" attrib="01 00">Non.</message>
 	<message label="2423_b" attrib="01 00">Oui!</message>
@@ -940,11 +971,9 @@ Passeport dans ton NookPhone.</message>
 	<message label="2428" attrib="01 09">Tu ne peux pas publier d'autres
 motifs perso. Tu dois d'abord en
 effacer un. Choisis le motif à effacer.</message>
-	<message label="2428_a" attrib="01 00">Compris!</message>
 	<message label="2429" attrib="01 09">On dirait que tu n'as pas encore créé
 de motifs perso. Crée un motif perso
 et réessaie.</message>
-	<message label="2429_a" attrib="01 00">Compris!</message>
 	<message label="2430" attrib="06 09">Il semble que ce motif a déjà été
 publié.
 <colour id="0" />Si tu le modifies, tu peux le publier
@@ -956,18 +985,21 @@ entré est le tien. Veux-tu voir tes
 propres créations, <colour id="2" /><tag a="110" b="1" /><colour id="65535" />?</message>
 	<message label="2432_a" attrib="01 00">Retour</message>
 	<message label="2432_b" attrib="01 00">Oui, oui.</message>
-	<message label="2433" attrib="08 00">La recherche de l'identifiant
+	<message label="2433" attrib="08 09">La recherche de l'identifiant
 <colour id="1" /><tag a="140" b="15" arg="0xcd00" /><colour id="65535" /> n'a donné
 aucun résultat. Veux-tu entrer
 l'identifiant à nouveau?</message>
 	<message label="2433_a" attrib="01 00">Menu</message>
 	<message label="2433_b" attrib="01 00">Modifier</message>
-	<message label="2434" attrib="08 00">Aucun motif n'est associé à l'identifiant
-<colour id="1" /><tag a="140" b="17" arg="0xcd00" /><colour id="65535" />. Veux-tu
+	<message label="2434" attrib="08 09">Aucun motif n'est associé à l'ID de
+styliste <colour id="1" /><tag a="140" b="17" arg="0xcd00" /><colour id="65535" />. Veux-tu
 entrer l'identifiant à nouveau?</message>
 	<message label="2434_a" attrib="01 00">Menu</message>
 	<message label="2434_b" attrib="01 00">Modifier</message>
-	<message label="2435" attrib="01 09">Le motif perso a été effacé.</message>
+	<message label="2434_01" attrib="05 09">Aucun motif n'est associé à
+l'ID de styliste <colour id="1" /><tag a="140" b="17" arg="0xcd00" /><colour id="65535" />.</message>
+	<message label="2434_01_a" attrib="01 00">Retour</message>
+	<message label="2435" attrib="01 00">Le motif perso a été effacé.</message>
 	<message label="2436" attrib="01 00">Choisis le motif que tu veux publier.</message>
 	<message label="2437" attrib="08 00">« <colour id="1" /><tag a="50" b="3" /><tag a="115" b="3" arg="0xcd00" /><colour id="65535" /> »...
 Es-tu sûr<gender2 m="" f="e" /> de vouloir effacer
@@ -987,6 +1019,51 @@ motif?</message>
 	<message label="2440_b" attrib="01 00">Voir mon motif</message>
 	<message label="2441" attrib="01 00">Le partage sur les réseaux sociaux a
 échoué car une erreur est survenue.</message>
+	<message label="2442" attrib="08 00">Veux-tu retirer <colour id="2" /><tag a="115" b="0" arg="0xcd00" /><colour id="65535" />
+de tes favoris?</message>
+	<message label="2442_a" attrib="01 00">Non.</message>
+	<message label="2442_b" attrib="01 00">Oui.</message>
+	<message label="2444" attrib="01 00"><tag a="50" b="3" /><colour id="2" /><tag a="115" b="0" arg="0xcd00" /><colour id="65535" /> a été retiré<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x65 0x0" />
+de tes favoris.</message>
+	<message label="2445" attrib="01 09">Ta liste de stylistes favoris est
+pleine. Tu ne peux pas en ajouter
+d'autres pour le moment.</message>
+	<message label="2446" attrib="08 09">Tes critères de recherche ne
+correspondent à aucun motif. Veux-tu
+réessayer avec d'autres critères?</message>
+	<message label="2447" attrib="01 00"><colour id="0" />Nouvelles options de recherche<colour id="65535" />
+Tu peux désormais rechercher des
+motifs perso parmi ceux de tes
+stylistes favoris ou par critères.<pageBreak /><colour id="1" />Recherche par critères<colour id="65535" />
+Cette option permet de chercher
+des motifs en fonction de leur nom
+ou de leur type.<pageBreak /><colour id="1" />Recherche par favoris<colour id="65535" />
+Cette option permet de chercher
+des motifs créés par des stylistes
+figurant dans ta liste de favoris.<pageBreak />Tu peux ajouter un styliste à tes
+favoris lorsque tu vois un de ses
+motifs. Nous espérons que ces
+nouvelles fonctions te seront utiles!</message>
+	<message label="2448" attrib="0e 00"><colour id="0" />Types de motifs perso<colour id="65535" />
+Tu peux attribuer un type à tous
+les motifs perso (excepté les motifs
+pro) pour faciliter la recherche.
+Appuie sur <colour id="1" /><colour id="65535" /> pour attribuer un type
+à un motif. Tu peux aussi attribuer
+un type à un motif déjà publié.<pageBreak /><colour id="0" />Attribuer un type ne limite en rien
+l'utilisation d'un motif perso. Il est
+également possible de changer le
+type d'un motif après la publication
+de ce dernier.<colour id="65535" /></message>
+	<message label="2449" attrib="01 00">Le type de motif a été modifié.</message>
+	<message label="2450" attrib="08 09">Aucun motif n'est associé à
+l'ID de styliste <colour id="1" /><tag a="140" b="17" arg="0xcd00" /><colour id="65535" />.
+Veux-tu procéder à une
+autre sélection?</message>
+	<message label="2450_a" attrib="01 00">Menu</message>
+	<message label="2450_b" attrib="01 00">Nouvel ID</message>
+	<message label="2446_a" attrib="01 00">Menu</message>
+	<message label="2446_b" attrib="01 00">Modifier</message>
 	<message label="2501" attrib="01 09">Chaque joueur ne peut envoyer que
 deux messages par jour en ligne
 avec Catalogue Nook.</message>
@@ -1077,6 +1154,11 @@ divers filtres et effets sur tes clichés.<pageBreak /><colour id="0" />Les phot
 l'album accessible depuis le menu
 HOME, et sont visibles par les autres
 utilisateurs de la console.<colour id="65535" /></message>
+	<message label="5002" attrib="01 00"><colour id="1" />Affichage de l'aide
+Appuie sur <colour id="65535" /> pour afficher
+ou masquer l'aide.<pageBreak /><colour id="0" />Tu ne peux pas la masquer avec
+une manette Joy-Con tenue
+horizontalement.<colour id="65535" /></message>
 	<message label="5011" attrib="01 00"><colour id="1" />Points Nook<colour id="65535" />
 Tu as rejoint le programme
 Points Nook!<pageBreak />Gagne des <colour id="1" />points Nook<colour id="65535" /> en prenant
@@ -1431,6 +1513,12 @@ modifié.
 Si tu veux porter le nouveau motif,
 applique-le à nouveau en
 sélectionnant <colour id="1" />Porter<colour id="65535" />.</message>
+	<message label="5302_01" attrib="0e 09">Tu as écrasé un motif perso que
+tu es en train de porter.
+
+Si tu veux porter ce nouveau motif,
+choisis-le puis sélectionne <colour id="1" />Porter<colour id="65535" />
+après avoir quitté le rêve.</message>
 	<message label="5303" attrib="01 09">Un motif perso a été assigné à une
 baguette. Un motif perso enregistré
 dans une tenue n'est pas effacé ou
@@ -1561,4 +1649,20 @@ effectuer cette vérification.</message>
 	<message label="8020_a" attrib="01 00">Non</message>
 	<message label="8020_b" attrib="01 00">OK</message>
 	<message label="8019" attrib="01 00">Reprise de la partie.</message>
+	<message label="9001" attrib="08 00">Veux-tu commencer la restauration
+des données de sauvegarde à partir
+de l'archive?</message>
+	<message label="9001_a" attrib="01 00">Annuler</message>
+	<message label="9001_b" attrib="01 00">Commencer</message>
+	<message label="9015" attrib="05 00">Le jeu va maintenant démarrer.</message>
+	<message label="9015_a" attrib="01 00">OK</message>
+	<message label="9012" attrib="05 00">Vérification des données de l'archive...</message>
+	<message label="9012_a" attrib="01 00">OK</message>
+	<message label="9013" attrib="05 00">La vérification des données de
+l'archive est terminée. Le jeu
+va reprendre.</message>
+	<message label="9013_a" attrib="01 00">OK</message>
+	<message label="9016" attrib="02 00">Sauvegarde...
+<colour id="0" />N'appuie pas sur
+le bouton POWER .<colour id="65535" /></message>
 </msbt>

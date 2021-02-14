@@ -35,6 +35,12 @@
 	<message label="021_03" attrib="00 00 13"><tag a="100" b="5" />Так-так<tag a="110" b="0" /><delay20 /> А, это ты,
 <tag a="110" b="1" />!<delay20 />
 Опять неприятности?<anim id="Nodding" target="player" targetSpec="" /><endTag a="100" b="5" /></message>
+	<message label="021_04" attrib="00 00 13"><tag a="100" b="5" />Связь есть! <delay20 />Ты <tag a="110" b="1" />
+с острова <tag a="110" b="34" />,
+правильно?<endTag a="100" b="5" /></message>
+	<message label="021_05" attrib="00 00 13"><tag a="100" b="5" />Так<tag a="110" b="0" /> Есть связь!<delay20 /> <tag a="50" b="3" /><tag a="110" b="1" />
+с острова <tag a="110" b="34" />?
+<anim id="Nodding" target="player" targetSpec="" /><delay frames="30" />Рад тебя слышать.<endTag a="100" b="5" /></message>
 	<message label="022" attrib="00 00 13" />
 	<message label="023_01" attrib="02 00 13"><tag a="100" b="5" />Система простая: <colour id="1" />100<colour id="65535" /> миль,
 и я тебя спасаю.<delay20 /> Идет?<endTag a="100" b="5" /></message>
@@ -139,6 +145,18 @@
 мая<colour id="65535" />, которые <colour id="3" />Том Нук<colour id="65535" /> организовал.<pageBreak />И похоже, ты там совсем замаял<gender2 m="ся" f="ась" />!<delay20 /><pageBreak />По правилам я должен оборудовать
 остров заново и высадить тебя там,
 <colour id="1" />где садятся самолеты<colour id="65535" /><tag a="110" b="0" /> Ну, айда!<endTag a="100" b="5" /></message>
+	<message label="049_02" attrib="02 00 13"><tag a="100" b="5" />Ерунда какая-то. <delay20 />Извини, дружище.<delay20 />
+Куда это тебя занесло?<delay frames="40" /> Не могу
+определить, где ты<tag a="110" b="0" /><pageBreak />Да что ж такое! <delay20 />Я могу безопасно
+доставить тебя разве что на
+<colour id="1" />ближайшую площадь<colour id="65535" />.<delay20 /> Соглас<gender2 m="ен" f="на" />?<endTag a="100" b="5" /></message>
+	<message label="049_02_a" attrib="00 00 13">По рукам.</message>
+	<message label="049_02_b" attrib="00 00 13"><anim id="Negative" target="player" targetSpec="" />Отменить.</message>
+	<message label="049_03" attrib="00 00 13"><tag a="100" b="5" />Благодарю за подтверждение.<delay20 />
+Сейчас я доставлю тебя на площадь
+острова<tag a="110" b="0" /> где там тебя носит.<pageBreak />Безвозмездно, так как выбора
+у тебя все равно нет.<delay20 /> Прибереги
+мили на черный день!<endTag a="100" b="5" /></message>
 	<message label="050_01" attrib="00 00 13"><tag a="100" b="5" />К палатке, так к палатке.<endTag a="100" b="5" /></message>
 	<message label="050_02" attrib="00 00 13"><tag a="100" b="5" />Домой? Как скажешь.<endTag a="100" b="5" /></message>
 	<message label="050_03" attrib="00 00 13"><tag a="100" b="5" />На площадь? <delay20 />В путь!<endTag a="100" b="5" /></message>
@@ -189,6 +207,10 @@
 	<message label="064_03" attrib="00 00 13"><tag a="100" b="5" />Ты же не забываешь использовать
 <colour id="1" />Нук-терминал<colour id="65535" /> в бюро услуг
 и получать мили?<delay frames="40" /> Это важно.<endTag a="100" b="5" /></message>
+	<message label="065" attrib="00 00 13"><tag a="60" b="20" /></message>
+	<message label="065_01" attrib="00 00 13"><tag a="100" b="5" />Повадил<gender2 m="ся" f="ась" /> бесплатно использовать
+службу<tag a="110" b="0" /> Но что поделать!<pageBreak />Только смотри,<delay20 /> особого сервиса
+не ожидай!<endTag a="100" b="5" /></message>
 	<message label="2001" attrib="00 00 13"><tag a="100" b="5" />Привет! Удивлен<gender2 m="" f="а" />?<delay frames="30" /> Спорю, что
 ты сразу заметил<gender2 m="" f="а" /> разницу.<pageBreak />Да, <delay20 />от тебя ничего не скрыть,<tag a="110" b="1" />.<pageBreak />Этот крот, <colour id="3" />Ресе<colour id="65535" /><tag a="110" b="0" /> ну, диспетчер
 этот<delay20 />, оставил что-то на включенной

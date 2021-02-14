@@ -38,6 +38,11 @@
 	<message label="021_03" attrib="00 00 13"><tag a="100" b="5" />咦？<delay20 />
 <tag a="110" b="1" />，<delay20 />
 您又碰上麻煩了啊！？<anim id="Nodding" target="player" targetSpec="" /><endTag a="100" b="5" /></message>
+	<message label="021_04" attrib="00 00 13"><tag a="100" b="5" />好的，<delay20 />您是<tag a="110" b="34" />的
+<tag a="110" b="1" />吧！<anim id="Nodding" target="player" targetSpec="" /><endTag a="100" b="5" /></message>
+	<message label="021_05" attrib="00 00 13"><tag a="100" b="5" />啊～<delay8 />好的，<delay20 />
+您是<tag a="110" b="34" />的
+<tag a="110" b="1" />吧。<anim id="Nodding" target="player" targetSpec="" /><delay frames="30" />歡迎您再次使用！<endTag a="100" b="5" /></message>
 	<message label="022" attrib="00 00 13"><tag a="100" b="5" />這位客人，<delay20 />我想您是第一次使用本服務，<delay frames="30" />
 就讓我簡單為您說明一下吧。<pageBreak />本服務可在遇上道路封閉，<delay20 />
 或是因為某些原因<delay8 />
@@ -147,6 +152,19 @@
 身處<colour id="3" />狸克<colour id="65535" />準備的<delay20 /><colour id="1" />迷宮離島<colour id="65535" />？<pageBreak />這樣的話，<delay8 />他說過<delay8 />
 要把您送到<colour id="1" />飛機著陸點<colour id="65535" />，<delay20 />
 好讓您能重新開始，<delay20 />那我就照做囉！<endTag a="100" b="5" /></message>
+	<message label="049_02" attrib="02 00 13"><tag a="100" b="5" /><tag a="110" b="0" />咦？<delay20 />什麼啊，<delay20 />
+客人您是不是身處在奇怪的地方？<delay frames="40" />
+那個地方模模糊糊的，看不太清楚<tag a="110" b="0" />
+嗯，<delay8 />狀況有點難以掌握，<delay20 />
+那這次就先把您送到<colour id="1" />附近的廣場<colour id="65535" />，<delay8 />
+可以嗎？希望您能諒解。<endTag a="100" b="5" /></message>
+	<message label="049_02_a" attrib="00 00 13">拜託你了！</message>
+	<message label="049_02_b" attrib="00 00 13"><anim id="Negative" target="player" targetSpec="" />還是算了</message>
+	<message label="049_03" attrib="00 00 13"><tag a="100" b="5" />那麼，抱歉了，<delay20 />
+這次就先把您送到<delay8 />
+目前所在的那座島的廣場了。
+畢竟這次的目的地是由這裡指定的，<delay20 />
+就不向您收取哩數了！<endTag a="100" b="5" /></message>
 	<message label="050_01" attrib="00 00 13"><tag a="100" b="5" />傳送到客人自己的帳篷嗎？<delay20 />知道了～<endTag a="100" b="5" /></message>
 	<message label="050_02" attrib="00 00 13"><tag a="100" b="5" />傳送到客人自己的家嗎？<delay20 />知道了～<endTag a="100" b="5" /></message>
 	<message label="050_03" attrib="00 00 13"><tag a="100" b="5" />傳送到島上的廣場嗎？<delay20 />知道了～<endTag a="100" b="5" /></message>
@@ -187,6 +205,10 @@
 其實有更聰明的訣竅喔！<pageBreak />總之，<delay8 />只要每天登入<colour id="1" />狸端機<colour id="65535" />，<colour id="1" />
 <colour id="65535" />就能得到哩數，<delay20 />
 <100_3 arg="Katsu" />要記住喔！<endTag a="100" b="5" /></message>
+	<message label="065" attrib="00 00 13"><tag a="60" b="20" /></message>
+	<message label="065_01" attrib="00 00 13"><tag a="100" b="5" />無限次免費使用緊急逃脫服務，<delay20 />
+這種<delay8 />像夢境一樣美好的事，<delay frames="40" />
+現實世界裡<delay8 />怎麼可能<delay8 />會有啊！<endTag a="100" b="5" /></message>
 	<message label="201" attrib="06 00 18">是否要使用<colour id="1" />島嶼創作家<colour id="65535" />，
 開始進行土木施工？</message>
 	<message label="201_a" attrib="00 00 18">開始施工</message>
@@ -363,5 +385,9 @@
 似乎不能在這個地方看。</message>
 	<message label="321" attrib="00 00 18">派對模式中，
 無法開啟聊天記錄<tag a="110" b="0" /></message>
+	<message label="332" attrib="00 00 18">在夢境裡似乎無法使用<tag a="110" b="0" /></message>
+	<message label="333" attrib="00 00 18">咦？<delay20 />
+是因為收訊不好嗎，<delay20 />
+現在似乎無法開啟<tag a="110" b="0" /></message>
 	<message label="999" attrib="00 00 13"><colour id="1" />100<colour id="65535" />哩數</message>
 </msbt>

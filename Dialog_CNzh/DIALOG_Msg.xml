@@ -49,8 +49,6 @@
 	<message label="0301_a" attrib="01 06">OK</message>
 	<message label="0303_a" attrib="01 06">OK</message>
 	<message label="0304_a" attrib="01 06">OK</message>
-	<message label="0307" attrib="04 00">正在接收新信息。</message>
-	<message label="0308" attrib="02 00">正在确认发布数据。</message>
 	<message label="0310" attrib="02 00">请等一下！</message>
 	<message label="0321" attrib="01 09">未读的信息
 是无法设置为喜爱的哦！</message>
@@ -140,6 +138,22 @@
 如果多次失败，
 请重新拍摄后再试。</message>
 	<message label="0820_a" attrib="01 06">明白了</message>
+	<message label="0830" attrib="12 09"><colour id="6" />〔提供梦境时的注意事项〕<colour id="65535" />
+如果提供你所在岛屿的梦境，
+其他玩家或不认识的人
+就能以梦境的形式访问你的岛屿。
+<colour id="1" />※提供梦境时的岛、居民的各种信息<colour id="65535" />
+<colour id="6" />（你的名字、护照、整座岛、房子、
+布告栏和我的设计等）<colour id="65535" /><colour id="1" />都会被公开。<colour id="65535" /></message>
+	<message label="0830_a" attrib="01 00">明白了</message>
+	<message label="0831" attrib="12 09"><colour id="6" />〔提供梦境时的注意事项〕<colour id="65535" />
+如果提供你所在岛屿的梦境，
+其他玩家或不认识的人
+就能以梦境的形式访问你的岛屿。
+<colour id="1" />※提供梦境时的岛、你和居民的各种信息<colour id="65535" />
+<colour id="6" />（居民的名字、护照、整座岛、房子、
+布告栏和我的设计等）<colour id="65535" /><colour id="1" />都会被公开。<colour id="65535" /></message>
+	<message label="0831_a" attrib="01 00">明白了</message>
 	<message label="0921" attrib="06 06">一次外出
 最多只能发布2张。</message>
 	<message label="0921_a" attrib="01 06">OK！</message>
@@ -224,6 +238,8 @@
 	<message label="1124" attrib="06 09">现在无法订购商品。
 请在机场柜台结束连接。</message>
 	<message label="1124_a" attrib="01 00">OK</message>
+	<message label="1125" attrib="01 09">现在无法订购商品。</message>
+	<message label="1125_a" attrib="01 00">OK</message>
 	<message label="1201" attrib="08 00">真的要删除
 <colour id="1" /><tag a="115" b="3" arg="0xcd00" /><colour id="65535" />吗？</message>
 	<message label="1201_a" attrib="01 00">还是算了</message>
@@ -761,7 +777,7 @@ Nintendo Account的使用条款。
 分享到社交平台吗？</message>
 	<message label="2422_a" attrib="01 00">算了</message>
 	<message label="2422_b" attrib="01 00">分享</message>
-	<message label="2423" attrib="08 00">发布失败。
+	<message label="2423" attrib="08 09">发布失败。
 要再试着发布一次吗？</message>
 	<message label="2423_a" attrib="01 00">算了</message>
 	<message label="2423_b" attrib="01 00">再试一次</message>
@@ -779,10 +795,8 @@ Nintendo Account的使用条款。
 	<message label="2427_b" attrib="01 00">发布</message>
 	<message label="2428" attrib="01 09">发布的作品数已达到上限。
 请选择要删除的作品。</message>
-	<message label="2428_a" attrib="01 00">明白了</message>
 	<message label="2429" attrib="01 09">好像没有你自己制作的“我的设计。
 请制作完“我的设计”后使用。</message>
-	<message label="2429_a" attrib="01 00">明白了</message>
 	<message label="2430" attrib="06 09">此作品已发布完毕。
 <colour id="0" />※可以通过重新描绘来发布。<colour id="65535" /></message>
 	<message label="2430_a" attrib="01 00">返回</message>
@@ -792,17 +806,20 @@ Nintendo Account的使用条款。
 是要查看自己的作品吗？</message>
 	<message label="2432_a" attrib="01 00">返回</message>
 	<message label="2432_b" attrib="01 00">查看自己的作品</message>
-	<message label="2433" attrib="08 00">没有找到作品ID
+	<message label="2433" attrib="08 09">没有找到作品ID
 <colour id="1" /><tag a="140" b="15" arg="0xcd00" /><colour id="65535" />的作品。
 要重新输入吗？</message>
 	<message label="2433_a" attrib="01 00">前往菜单</message>
 	<message label="2433_b" attrib="01 00">重新输入</message>
-	<message label="2434" attrib="08 00">没有找到作者ID
+	<message label="2434" attrib="08 09">没有找到作者ID
 <colour id="1" /><tag a="140" b="17" arg="0xcd00" /><colour id="65535" />的作品。
 要重新输入吗？</message>
 	<message label="2434_a" attrib="01 00">前往菜单</message>
 	<message label="2434_b" attrib="01 00">重新输入</message>
-	<message label="2435" attrib="01 09">已删除“我的设计”的作品。</message>
+	<message label="2434_01" attrib="05 09">没有找到作者ID
+<colour id="1" /><tag a="140" b="17" arg="0xcd00" /><colour id="65535" />的作品。</message>
+	<message label="2434_01_a" attrib="01 00">返回</message>
+	<message label="2435" attrib="01 00">已删除“我的设计”的作品。</message>
 	<message label="2436" attrib="01 00">请选择要发布的“我的设计”。</message>
 	<message label="2437" attrib="08 00">真的要删除名为
 <colour id="1" /><tag a="115" b="3" arg="0xcd00" /><colour id="65535" />的
@@ -819,6 +836,40 @@ Nintendo Account的使用条款。
 	<message label="2440_a" attrib="01 00">返回</message>
 	<message label="2440_b" attrib="01 00">查看自己的作品</message>
 	<message label="2441" attrib="01 00">社交平台分享失败。</message>
+	<message label="2442" attrib="08 00">要将<colour id="2" /><tag a="115" b="0" arg="0xcd00" /><colour id="65535" />
+从喜爱的作者中删除吗？</message>
+	<message label="2442_a" attrib="01 00">还是算了</message>
+	<message label="2442_b" attrib="01 00">删除</message>
+	<message label="2444" attrib="01 00">已将<colour id="2" /><tag a="115" b="0" arg="0xcd00" /><colour id="65535" />
+从喜爱的作者中删除。</message>
+	<message label="2445" attrib="01 09">喜爱的作者人数已满，
+无法添加。</message>
+	<message label="2446" attrib="08 09">找不到符合输入条件的作品。
+要再次输入吗？</message>
+	<message label="2447" attrib="01 00"><colour id="0" />＜已新增搜索方式＞<colour id="65535" />
+新增加了“按条件搜索”
+和“从喜爱中搜索”。<pageBreak /><colour id="1" />＜按条件搜索＞<colour id="65535" />
+可以通过“我的设计”的名字
+和用途搜索作品。<pageBreak /><colour id="1" />＜从喜爱中搜索＞
+<colour id="65535" />可以搜索已添加到喜爱中的
+作者的作品。<pageBreak />在搜索后的作品画面上
+可以添加喜爱的作者。
+请务必用用看！</message>
+	<message label="2448" attrib="0e 00"><colour id="0" />＜“我的设计”的用途＞<colour id="65535" />
+对于“我的设计”作品（“专业设计”除外），
+像地面图案或脸部彩绘等，
+可以设置推荐的用途。
+请按<colour id="1" /><colour id="65535" />选择看看。
+<colour id="0" />※并非用来限制使用方法的设置。
+※发布后也可以更改设置。<colour id="65535" /></message>
+	<message label="2449" attrib="01 00">已更新用途。</message>
+	<message label="2450" attrib="08 09">没有找到
+作者ID：<colour id="1" /><tag a="140" b="17" arg="0xcd00" /><colour id="65535" />的作品。
+要重新选择吗？</message>
+	<message label="2450_a" attrib="01 00">前往菜单</message>
+	<message label="2450_b" attrib="01 00">重新选择</message>
+	<message label="2446_a" attrib="01 00">前往菜单</message>
+	<message label="2446_b" attrib="01 00">重新输入</message>
 	<message label="2501" attrib="01 09">每人每天最多能
 通过互联网
 从Nook购物发送2封。</message>
@@ -902,6 +953,10 @@ DIY手册集。
 会保存在HOME菜单的相册中，
 使用同一主机的其他用户
 也能查看这些相片。<colour id="65535" /></message>
+	<message label="5002" attrib="01 00">〔<colour id="1" />操作说明的打开/关闭<colour id="65535" />〕
+通过<colour id="1" />按下<colour id="65535" />，
+可以打开/关闭操作说明。
+<colour id="0" />※横握Joy-Con时无法关闭。<colour id="65535" /></message>
 	<message label="5011" attrib="01 00">〔<colour id="1" />Nook集里游<colour id="65535" />〕
 欢迎参加
 Nook集里游计划！<pageBreak />本项计划
@@ -1198,6 +1253,12 @@ Nook购物已成为
 
 想要换上新的设计时，
 请再次通过“<colour id="1" />穿戴<colour id="65535" />”来换上。</message>
+	<message label="5302_01" attrib="0e 09">穿戴中的“我的设计”数据
+已被重新描绘。
+
+想要换上新的设计时，
+请从梦境里出来后，
+再次通过“<colour id="1" />穿戴<colour id="65535" />”来换上。</message>
 	<message label="5303" attrib="01 09">变身棒里添加了“我的设计”。
 添加到搭配中的“我的设计”
 即使通过编辑重新描绘，
@@ -1322,4 +1383,16 @@ Nintendo Account
 	<message label="8020_a" attrib="01 00">取消</message>
 	<message label="8020_b" attrib="01 00">OK</message>
 	<message label="8019" attrib="01 00">重新开始游玩。</message>
+	<message label="9001" attrib="08 00">要开始恢复保存数据吗？</message>
+	<message label="9001_a" attrib="01 00">算了</message>
+	<message label="9001_b" attrib="01 00">开始</message>
+	<message label="9015" attrib="05 00">开始游戏。</message>
+	<message label="9015_a" attrib="01 00">OK</message>
+	<message label="9012" attrib="05 00">即将检查已恢复的数据。</message>
+	<message label="9012_a" attrib="01 00">OK</message>
+	<message label="9013" attrib="05 00">数据检查完毕。
+即将重新开始游戏。</message>
+	<message label="9013_a" attrib="01 00">OK</message>
+	<message label="9016" attrib="02 00">正在保存<tag a="110" b="0" />
+<colour id="0" />请勿触碰电源键。<colour id="65535" /></message>
 </msbt>

@@ -137,12 +137,40 @@
 	<message label="204" attrib="00 00 00 00 00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Хм, <delay8 />что-то меня потянуло на
 фруктовый сок. <tag a="50" b="3" /><tag a="110" b="5" />.<delay20 />
 <anim id="OhGeez" target="actor" targetSpec="" />С чего бы?</message>
+	<message label="205" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="7" arg="0xfd10 0xfe00 0xcd00" /></message>
+	<message label="206" attrib="00 00 00 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" /><delay20 />Вот это я понимаю — настоящ<gender2 m="ий" f="ая" />
+пират<gender2 m="" f="ка" />!<delay8 /> Гроза всех морей,
+велик<gender2 m="ий" f="ая" /> и ужасн<gender2 m="ый" f="ая" />! <tag a="50" b="3" /><tag a="110" b="6" />!</message>
+	<message label="207" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Тебя прям как волной на берег
+из сказки выбросило.<delay frames="40" /> <anim id="Hello" target="actor" targetSpec="" />Сверкающая
+русалка! <tag a="50" b="3" /><tag a="110" b="6" />!</message>
+	<message label="208" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Ничего у тебя гидрокостюмчик.<delay20 />
+Мне даже завидно. <tag a="50" b="3" /><tag a="110" b="6" />.<pageBreak /><anim id="OhGeez" target="actor" targetSpec="" />Я тоже хотела себе купить,<delay8 /> но
+пойди найди подходящий размер
+для <tag a="50" b="23" arg="0xcd03" /><tag a="110" b="15" />?<delay frames="40" /> <anim id="SadSpiral" target="actor" targetSpec="" />Без шансов.</message>
+	<message label="209" attrib="00 00 00 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Вот это да!<delay8 /> Какие классные узоры!<delay8 />
+Это ручная работа? <tag a="50" b="3" /><tag a="110" b="6" />?<delay20 />
+<anim id="Smiling" target="actor" targetSpec="" />Очень круто!</message>
+	<message label="210" attrib="00 00 00 00 00 00 00 00"><anim id="Grin" target="actor" targetSpec="" />Да, ничего не скажешь, классный
+наряд. Абсолютно классный.
+<tag a="50" b="3" /><tag a="110" b="6" />.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Самой не верится, но захотелось
+пересмотреть свой стиль одежды.<delay frames="40" />
+<anim id="FaintSmile" target="actor" targetSpec="" />Но вот с носками или обувью никак.</message>
+	<message label="211" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Ух ты! <delay8 />Теперь я поняла, что такое
+«элегантная простота».<delay20 /> Очень круто
+выглядит. <tag a="50" b="3" /><tag a="110" b="6" />!</message>
 	<message label="251" attrib="00 00 00 00 00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Что, подлизываешься? Думаешь,
 кошачий наряд сработает? <delay20 /><anim id="Smiling" target="actor" targetSpec="" />Да,
 он работает. <tag a="50" b="3" /><tag a="110" b="5" />.<delay20 /> <anim id="Laughing" target="actor" targetSpec="" />А-ха-ха!</message>
 	<message label="252" attrib="00 00 00 00 00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Хм, неплохо<tag a="110" b="0" /> Кошки классные.
 Кошка кошкой, но у <delay frames="40" /><anim id="ShyBoy" target="actor" targetSpec="" /><tag a="50" b="23" arg="0xcd03" /><tag a="110" b="15" />
 <delay8 />все равно нет равных!</message>
+	<message label="253" attrib="00 00 00 00 00 00 00 00"><anim id="Laughing" target="actor" targetSpec="" /><delay8 />Лягушачий наряд тебе идет больше,
+чем мне.<delay frames="40" /> У меня свой есть. <delay frames="40" />А-ха-ха!<delay frames="40" />
+Напоминаешь мне<delay8 /><anim id="Grin" target="actor" targetSpec="" /> одн<gender2 m="ого" f="у" /> <gender2 m="" f="по" />друг<gender2 m="а" f="у" />.</message>
+	<message label="254" attrib="00 00 00 00 00 00 00 00"><anim id="OhGeez" target="actor" targetSpec="" />Ух, я думала, что обозналась.
+<delay20 />Твой лягушачий наряд сбил
+меня с толку. <tag a="50" b="3" /><tag a="110" b="6" />.</message>
 	<message label="301" attrib="00 00 00 00 00 00 00 00"><anim id="Restless" target="actor" targetSpec="" />Слушай, не пойми меня превратно<tag a="110" b="0" /><delay8 />
 Мне кажется, или одежда на тебе
 потрепанная?<pageBreak /><anim id="QuestionMark" target="actor" targetSpec="" />Или это стиль «потертый шик»?
@@ -156,6 +184,20 @@
 Какой цвет! <delay8 />А вышивка? <delay8 />Это
 просто<tag a="110" b="0" /> <anim id="BigSmile" target="actor" targetSpec="" />отпад!<pageBreak /><anim id="Grin" target="actor" targetSpec="" />Теперь я знаю, к кому забежать
 за модным советом! <tag a="50" b="3" /><tag a="110" b="5" />!</message>
+	<message label="304" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="125" b="0" arg="0x0" /> очень удобно выгляд<tag a="50" b="24" arg="0x12 0xcd00 0x2 0x438 0x2 0x438 0x2 0x438 0x2 0x44f" />т.<pageBreak /><anim id="Eh" target="actor" targetSpec="" />Стоп! <delay8 />У тебя сейчас тренировка,
+что ли?<delay20 /> <anim id="Explain" target="actor" targetSpec="" />Не хочу тебя отвлекать.<delay8 />
+Держи пульс. <tag a="50" b="3" /><tag a="110" b="6" />!</message>
+	<message label="305" attrib="00 00 00 00 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Ты почему так нарядил<gender2 m="ся" f="ась" />?<delay8 /> Ремонт
+дома затеял<gender2 m="" f="а" />? <tag a="50" b="3" /><tag a="110" b="6" />?<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Ты меня заинтриговал<gender2 m="" f="а" />. <delay8 />Покажешь
+потом, ладно? Ты только аккуратно
+там.<delay20 /> <anim id="Smiling" target="actor" targetSpec="" />Хорошо?</message>
+	<message label="306" attrib="00 00 00 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Ого! Вот это круть!<delay20 /> Ты похож<gender2 m="" f="а" /> на
+гитариста группы «Помпезный
+самовар»!<pageBreak /><anim id="Love" target="actor" targetSpec="" />Эх, они такие концерты закатывали.<delay8 />
+С гигантскими паровыми машинами
+в стиле аниме.<pageBreak /><anim id="OhGeez" target="actor" targetSpec="" />Досадно, что группа распалась.<delay8 />
+<tag a="50" b="3" /><tag a="135" b="4" arg="0xcd00" /> в стимпанке многое
+потерял<tag a="50" b="24" arg="0x21 0xcd00 0x0 0x2 0x430 0x2 0x43e 0x2 0x438" /> с тех пор. <tag a="50" b="3" /><tag a="110" b="6" />.</message>
 	<message label="401" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
 	<message label="401_01" attrib="00 00 00 00 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Вижу, тебе нравится этот наряд.
 <delay20 />Это уже прямо твой фирменный

@@ -34,6 +34,13 @@ souhaites des informations?</message>
 	<message label="020_c" attrib="00 00 00 00">Aucun pour le moment.</message>
 	<message label="021" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Les paramètres de sauvegarde, hm?
 Avec plaisir, oui, oui!</message>
+	<message label="022" attrib="06 00 00 00">Alors les paramètres, parlons-en.<delay20 />
+Quels sont ceux sur lesquels tu
+souhaites des informations?</message>
+	<message label="022_a" attrib="00 00 00 00">Les données de sauvegarde.</message>
+	<message label="022_b" attrib="00 00 00 00">NookLink.</message>
+	<message label="022_c" attrib="00 00 00 00"> L'archivage de l'île?</message>
+	<message label="022_d" attrib="00 00 00 00">En fait, laisse tomber.</message>
 	<message label="051" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Oui, oui, je comprends. <delay20 />Dans ce cas,
 le plus simple est de retourner à
 l'écran titre.<pageBreak /><anim id="Greeting" target="actor" targetSpec="" />En espérant te revoir bientôt à
@@ -84,6 +91,13 @@ moi et les autres.</message>
 	<message label="062_03" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" /><tag a="110" b="0" /> Je te suggère donc de n'avoir
 recours à cette solution radicale
 qu'en cas d'absolue nécessité.</message>
+	<message label="062_04" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />De plus, si tu as activé l'archivage
+de l'île,<delay frames="30" /> <anim id="Serious" target="actor" targetSpec="" />ce dernier sera à nouveau
+désactivé par défaut.</message>
+	<message label="062_05" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />De plus, si <tag a="115" b="0" arg="0xcd00" /> a activé l'archivage de l'île, <delay frames="30" /><anim id="Serious" target="actor" targetSpec="" />ce dernier sera à nouveau désactivé par défaut.</message>
+	<message label="062_06" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />De plus, si ce résident a activé
+l'archivage de l'île,<delay frames="30" /> <anim id="Serious" target="actor" targetSpec="" />ce dernier sera
+à nouveau désactivé par défaut.</message>
 	<message label="063_01" attrib="00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Je m'apprête à te fournir quelques
 informations sur la suppression du
 dossier d'inscription de résident<tag a="110" b="0" />
@@ -231,6 +245,16 @@ quel résident penses-tu supprimer?</message>
 	<message label="112_b" attrib="00 00 00 00">Effacer données d'un autre.</message>
 	<message label="112_c" attrib="00 00 00 00">Effacer le dél. insulaire?</message>
 	<message label="112_d" attrib="00 00 00 00">En fait, non.</message>
+	<message label="113" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Par contre, si le dossier d'inscription
+<gender4 m="de " f="d'⁠" /><tag a="115" b="0" arg="0xcd00" /> est supprimé,<delay8 /><anim id="Negative" target="actor" targetSpec="" /> tu ne pourras plus jamais faire cela.</message>
+	<message label="114" attrib="01 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />C'est donc une démarche qu'il ne
+convient d'effectuer qu'en cas
+d'absolue nécessité.
+<anim id="Serious" target="actor" targetSpec="" />Alors, je te le demande à nouveau :<delay8 />
+souhaites-tu effacer le dossier
+d'inscription <gender4 m="de " f="d'⁠" /><tag a="115" b="0" arg="0xcd00" />?</message>
+	<message label="114_a" attrib="00 00 00 00">En fait, non.</message>
+	<message label="114_b" attrib="00 00 00 00"><colour id="6" />Supprimer le dossier.<colour id="65535" /></message>
 	<message label="201" attrib="00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Tu souhaites supprimer le dossier
 d'un résident?<delay20 /> Oui, oui, c'est dans
 mes cordes.<pageBreak /><anim id="Worried" target="actor" targetSpec="" />Mais tu es notre délégué<gender2 m="" f="e" /> insulaire,

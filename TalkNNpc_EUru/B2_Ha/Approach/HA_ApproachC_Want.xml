@@ -87,9 +87,8 @@
 сбылась! <tag a="50" b="3" /><tag a="110" b="6" />!</message>
 	<message label="116" attrib="00 00 00 00 00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Ну больше я никак дать не могу<tag a="110" b="0" /><pageBreak /><anim id="Negative" target="actor" targetSpec="" />Вот досада.<delay frames="40" /><anim id="Greeting" target="actor" targetSpec="" /> Дай мне отмашку,
 если вдруг передумаешь.</message>
-	<message label="117" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Благодаря тебе у меня наконец-то
-есть <delay8 /><tag a="125" b="0" arg="0x0" />.
-<delay frames="40" /><anim id="BigSmile" target="actor" targetSpec="" />Спасибо! <tag a="50" b="3" /><tag a="110" b="6" />!</message>
+	<message label="117" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Благодаря тебе <delay20 />он<tag a="50" b="24" arg="0x12 0xcd00 0x0 0x2 0x430 0x2 0x43e 0x2 0x438" /> наконец у меня!<delay frames="40" />
+<anim id="Greeting" target="actor" targetSpec="" />Спасибо! <tag a="50" b="3" /><tag a="110" b="6" />!</message>
 	<message label="118" attrib="00 00 00 00 00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Хм...<delay20 /><anim id="Negative" target="actor" targetSpec="" /> Извини, что поставил тебя
 в неловкое положение,
 <tag a="110" b="3" />.<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Наверное, я лучше просто уйду
@@ -114,7 +113,7 @@
 Ну, тут уж ничего не поделаешь<tag a="110" b="0" /><pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Поищу в другом месте.<delay20 />
 <anim id="Greeting" target="actor" targetSpec="" />Увидимся, <tag a="110" b="3" />!</message>
 	<message label="205" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Спасибо, <delay8 /><tag a="110" b="3" />!<delay20 />
-<anim id="FaintSmile" target="actor" targetSpec="" />Не пропадай! <tag a="50" b="3" /><tag a="110" b="6" />!</message>
+<anim id="FaintSmile" target="actor" targetSpec="" />Я у тебя в долгу! <tag a="50" b="3" /><tag a="110" b="6" />!</message>
 	<message label="300" attrib="00 00 02 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Так, могу дать<tag a="110" b="0" /> <anim id="QuestionMark" target="actor" targetSpec="" /><tag a="90" b="21" arg="0x2" />?</message>
 	<message label="300_a" attrib="00 00 00 00 00 00 00 00">Конечно!</message>
 	<message label="300_b" attrib="00 00 00 00 00 00 00 00">Так не пойдет.</message>
@@ -134,9 +133,9 @@
 	<message label="306" attrib="00 00 00 00 00 00 00 00"><anim id="SadSpiral" target="actor" targetSpec="" />Эх<tag a="110" b="0" /> Слишком мало?<delay frames="40" />
 <anim id="Worried" target="actor" targetSpec="" />Если бы только бумажник можно
 было накачать так же, как мышцы<tag a="110" b="0" /></message>
-	<message label="307" attrib="00 00 00 00 00 00 00 00"><anim id="HappyDance" target="actor" targetSpec="" />Класс!!! Наконец-то у меня есть
-<tag a="125" b="0" arg="0x0" />!<pageBreak /><anim id="SmugFace" target="actor" targetSpec="" />Это точно пригодится мне на
-занятиях по пилатесу, <tag a="110" b="6" />!</message>
+	<message label="307" attrib="00 00 00 00 00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />Класс!!! <delay20 />Наконец-то у меня есть
+<tag a="125" b="0" arg="0x0" />!<delay frames="40" /> <anim id="FaintSmile" target="actor" targetSpec="" />Я уж
+о н<tag a="50" b="24" arg="0x12 0xcd00 0x4 0x435 0x43c 0x4 0x435 0x439 0x4 0x435 0x43c 0x4 0x438 0x445" /> позабочусь. <tag a="50" b="3" /><tag a="110" b="6" />!</message>
 	<message label="400" attrib="00 00 02 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Что, правда? Отлично! Хм<tag a="110" b="0" /><delay frames="40" />
 <anim id="Serious" target="actor" targetSpec="" />Сможешь отдать за <anim id="QuestionMark" target="actor" targetSpec="" /><tag a="90" b="21" arg="0x2" />?</message>
 	<message label="400_a" attrib="00 00 00 00 00 00 00 00">Конечно!</message>
@@ -156,7 +155,7 @@
 	<message label="405" attrib="00 00 00 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Правда? <delay frames="40" /><anim id="Smiling" target="actor" targetSpec="" />Ты просто чемпион!
 <tag a="50" b="3" /><tag a="110" b="6" />!</message>
 	<message label="406" attrib="00 00 00 00 00 00 00 00"><anim id="BrokenHeart" target="actor" targetSpec="" />Уф. <delay frames="50" /><anim id="WrySmile" target="actor" targetSpec="" />Ну тогда матч окончен.</message>
-	<message label="407" attrib="00 00 00 00 00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />Сегодня у меня классный день. Все
-благодаря тебе!<delay20 /><anim id="BigSmile" target="actor" targetSpec="" /> Теперь твоя вещь
-в хороших руках. <tag a="50" b="3" /><tag a="110" b="6" />!</message>
+	<message label="407" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Если бы не ты, <delay8 />я бы<delay8 /> ни за что не
+добыл такое сокровище!<delay frames="40" /> <anim id="Nodding" target="actor" targetSpec="" />Спасибо,
+вот выручил<gender2 m="" f="а" />! <tag a="50" b="3" /><tag a="110" b="6" />.</message>
 </msbt>

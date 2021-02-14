@@ -38,7 +38,7 @@
 	<message label="011_b" attrib="00 00 00 00 00 00 00 00">Идти в ногу с модой!</message>
 	<message label="011_c" attrib="00 00 00 00 00 00 00 00">Мне все равно.</message>
 	<message label="012" attrib="00 00 00 00 00 00 00 00"><anim id="Surprised" target="actor" targetSpec="" />Еще чего!<delay frames="40" /> <anim id="Fuming" target="actor" targetSpec="" />Вы об<gender2 m="а" f="е" /> так отстали от
-жизни! <20_2 arg="5" />Мои друзья не ждут от меня
+жизни! <delay20 /><20_2 arg="5" />Мои друзья не ждут от меня
 извинений! <delay20 />Они<delay8 /> следят за<delay8 /> модой!</message>
 	<message label="013" attrib="00 00 00 00 00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Ну<tag a="110" b="0" /> если ты не хочешь, чтобы
 извинения вошли в моду,
@@ -89,13 +89,11 @@
 кампанию острову устрою!</message>
 	<message label="105" attrib="00 00 00 00 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Серьезно? И как ты планируешь это
 сделать?</message>
-	<message label="106" attrib="00 00 00 00 00 00 00 00"><anim id="HappyDance" target="actor" targetSpec="" />Мы выпустим журнал, посвященный
-острову! <delay20 />И весь мир узнает, какое
-<tag a="110" b="8" /> модное место!<anim id="EmotEnd" target="mainNpc" targetSpec="" /><pageBreak /><20_3 arg="8" /><anim id="Nodding" target="actor" targetSpec="" />Так, <tag a="110" b="3" />,<20_2 arg="6" /><delay20 /> назначаю
-тебя редактором. <delay20 /><20_2 arg="7" /><anim id="BigSmile" target="actor" targetSpec="" /><delay20 /><tag a="110" b="31" arg="0xcd00" />, <anim id="Eh" target="mainNpc" targetSpec="" />ты
-будешь фотографом.<anim id="EmotEnd" target="mainNpc" targetSpec="" /><pageBreak /><20_2 arg="8" />Первый выпуск посвятим молодой
-и перспективной звездочке острова
-<tag a="110" b="8" /><tag a="110" b="0" /><anim id="Dance" target="actor" targetSpec="" /><delay frames="60" /> — мне!<anim id="EmotEnd" target="actor" targetSpec="" /><anim id="EmotEnd" target="mainNpc" targetSpec="" /></message>
+	<message label="106" attrib="00 00 00 00 00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />Так, <delay8 /><tag a="110" b="31" arg="0xcd00" />,<delay8 /> ты у нас
+будешь за фотографа.<pageBreak /><20_2 arg="8" /><anim id="Grin" target="actor" targetSpec="" />А тебя, <tag a="110" b="3" />, назначаю
+редактором.<20_2 arg="6" /><pageBreak /><anim id="HappyDance" target="actor" targetSpec="" />Я на вас рассчитываю!<delay20 /> Мой шарм
+должен быть заметен читателям
+с первого взгляда! <20_2 arg="5" /><tag a="50" b="3" /><tag a="110" b="6" />!</message>
 	<message label="107" attrib="00 00 01 00 00 00 00 00"><anim id="Surprised" target="actor" targetSpec="" />Прости, что?<delay frames="40" /> <anim id="Confused" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="110" b="3" />,
 с-скажи что-нибудь, не молчи!</message>
 	<message label="107_a" attrib="00 00 00 00 00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Нет! Не выйдет.</message>

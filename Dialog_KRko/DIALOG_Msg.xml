@@ -47,8 +47,6 @@
 	<message label="0301_a" attrib="01 06">오케이</message>
 	<message label="0303_a" attrib="01 06">오케이</message>
 	<message label="0304_a" attrib="01 06">오케이</message>
-	<message label="0307" attrib="04 00">새 메시지를 수신하고 있습니다.</message>
-	<message label="0308" attrib="02 00">배포 데이터를 확인하고 있습니다.</message>
 	<message label="0310" attrib="02 00">잠시만 기다려주세요!</message>
 	<message label="0321" attrib="01 09">아직 읽지 않은 메시지 카드는
 즐겨찾기에 등록할 수 없어요!</message>
@@ -143,6 +141,22 @@ Nintendo Switch 본체에 저장됩니다.
 여러 번 실패할 경우, 프로필 사진을
 다시 찍은 후에 시도해 주세요.</message>
 	<message label="0820_a" attrib="01 06">알겠습니다</message>
+	<message label="0830" attrib="12 09"><colour id="6" />〔꿈 제공 시 주의사항〕<colour id="65535" />
+당신의 섬을 꿈으로 제공하면
+다른 플레이어나 모르는 분이 당신의 섬에
+꿈을 통해 방문할 수 있게 됩니다.
+<colour id="1" />※제공한 시점의 섬과 주민에 대한 정보
+ <colour id="6" />(당신의 이름과 여권, 섬 전체・집・
+  게시판・마이 디자인 등)<colour id="1" />가 공개됩니다.<colour id="65535" /></message>
+	<message label="0830_a" attrib="01 00">알겠습니다</message>
+	<message label="0831" attrib="12 09"><colour id="6" />〔꿈 제공 시 주의사항〕<colour id="65535" />
+당신의 섬을 꿈으로 제공하면
+다른 플레이어나 모르는 분이 당신의 섬에
+꿈을 통해 방문할 수 있게 됩니다.
+<colour id="1" />※제공한 시점의 섬과 주민에 대한 정보
+ <colour id="6" />(주민의 이름과 여권, 섬 전체・집・
+  게시판・마이 디자인 등)<colour id="1" />가 공개됩니다.<colour id="65535" /></message>
+	<message label="0831_a" attrib="01 00">알겠습니다</message>
 	<message label="0921" attrib="06 06">한 번 외출할 때
 2개까지 등록할 수 있습니다.</message>
 	<message label="0921_a" attrib="01 06">오케이!</message>
@@ -230,6 +244,8 @@ Nintendo Switch 본체에 저장됩니다.
 비행장 카운터에서
 통신을 종료해주세요.</message>
 	<message label="1124_a" attrib="01 00">오케이</message>
+	<message label="1125" attrib="01 09">지금은 상품을 주문할 수 없습니다.</message>
+	<message label="1125_a" attrib="01 00">오케이</message>
 	<message label="1201" attrib="08 00"><colour id="1" /><tag a="115" b="3" arg="0xcd00" /><colour id="65535" />
 이 작품을 정말 지워도 될까?</message>
 	<message label="1201_a" attrib="01 00">그만둘래</message>
@@ -816,7 +832,7 @@ PRO를 위한 마이 디자인입니다.<pageBreak />PRO 디자인을 새로 만
 SNS에 공유하시겠습니까?</message>
 	<message label="2422_a" attrib="01 00">그만두기</message>
 	<message label="2422_b" attrib="01 00">공유하기</message>
-	<message label="2423" attrib="08 00">등록에 실패했습니다.
+	<message label="2423" attrib="08 09">등록에 실패했습니다.
 다시 한번 등록하시겠습니까?</message>
 	<message label="2423_a" attrib="01 00">그만두기</message>
 	<message label="2423_b" attrib="01 00">다시 등록해보기</message>
@@ -835,10 +851,8 @@ SNS에 공유하시겠습니까?</message>
 	<message label="2428" attrib="01 09">등록할 수 있는 최대 수의 작품이 등록
 되어 있습니다. 새로 등록하기 위해서는
 삭제할 작품을 선택해주세요.</message>
-	<message label="2428_a" attrib="01 00">알겠습니다</message>
 	<message label="2429" attrib="01 09">직접 만든 마이 디자인이 없습니다.
 마이 디자인을 만든 후에 이용해주세요.</message>
-	<message label="2429_a" attrib="01 00">알겠습니다</message>
 	<message label="2430" attrib="06 09">이 작품은 이미 등록되어 있습니다.
 <colour id="0" />※작품을 편집하면 다시 등록할 수 있습니다.<colour id="65535" /></message>
 	<message label="2430_a" attrib="01 00">뒤로</message>
@@ -848,17 +862,20 @@ SNS에 공유하시겠습니까?</message>
 본인의 작품을 보시겠습니까?</message>
 	<message label="2432_a" attrib="01 00">뒤로</message>
 	<message label="2432_b" attrib="01 00">나의 작품 보기</message>
-	<message label="2433" attrib="08 00">작품 ID: <colour id="1" /><tag a="140" b="15" arg="0xcd00" /><colour id="65535" />의
+	<message label="2433" attrib="08 09">작품 ID: <colour id="1" /><tag a="140" b="15" arg="0xcd00" /><colour id="65535" />의
 작품을 찾지 못했습니다.
 다시 입력하시겠습니까?</message>
 	<message label="2433_a" attrib="01 00">메뉴로 돌아가기</message>
 	<message label="2433_b" attrib="01 00">잘못 썼어</message>
-	<message label="2434" attrib="08 00">작성자 ID: <colour id="1" /><tag a="140" b="17" arg="0xcd00" /><colour id="65535" />의
+	<message label="2434" attrib="08 09">작성자 ID: <colour id="1" /><tag a="140" b="17" arg="0xcd00" /><colour id="65535" />의
 작품을 찾지 못했습니다.
 다시 입력하시겠습니까?</message>
 	<message label="2434_a" attrib="01 00">메뉴로 돌아가기</message>
 	<message label="2434_b" attrib="01 00">잘못 썼어</message>
-	<message label="2435" attrib="01 09">마이 디자인 작품을 삭제했습니다.</message>
+	<message label="2434_01" attrib="05 09">작성자 ID: <colour id="1" /><tag a="140" b="17" arg="0xcd00" /><colour id="65535" />의
+작품을 찾지 못했습니다.</message>
+	<message label="2434_01_a" attrib="01 00">뒤로</message>
+	<message label="2435" attrib="01 00">마이 디자인 작품을 삭제했습니다.</message>
 	<message label="2436" attrib="01 00">등록할 마이 디자인을 선택해주세요.</message>
 	<message label="2437" attrib="08 00"><colour id="1" /><tag a="115" b="3" arg="0xcd00" /><colour id="65535" />
 이 마이 디자인을 정말로 삭제하시겠습니까?</message>
@@ -875,6 +892,41 @@ SNS에 공유하시겠습니까?</message>
 	<message label="2440_a" attrib="01 00">뒤로</message>
 	<message label="2440_b" attrib="01 00">나의 작품 보기</message>
 	<message label="2441" attrib="01 00">SNS 공유에 실패했습니다.</message>
+	<message label="2442" attrib="08 00"><tag a="115" b="0" arg="0xcd00" /> 님을
+즐겨 찾는 작성자에서 삭제하시겠습니까?</message>
+	<message label="2442_a" attrib="01 00">그만두기</message>
+	<message label="2442_b" attrib="01 00">삭제하기</message>
+	<message label="2444" attrib="01 00"><tag a="115" b="0" arg="0xcd00" /> 님을
+즐겨 찾는 작성자에서 삭제했습니다</message>
+	<message label="2445" attrib="01 09">즐겨 찾는 작성자가 가득 차서
+더 이상 등록할 수 없습니다</message>
+	<message label="2446" attrib="08 09">입력한 조건에 맞는
+작품을 찾을 수 없습니다.
+다시 한번 입력하시겠습니까?</message>
+	<message label="2447" attrib="01 00"><colour id="0" />＜마이 디자인 검색 방법이 추가되었습니다＞<colour id="65535" />
+'조건으로 검색'과 '즐겨 찾는 작성자'
+기능이 새롭게 추가되었습니다.<pageBreak /><colour id="1" />＜조건으로 검색＞<colour id="65535" />
+마이 디자인의 이름이나 용도를 지정해서
+작품을 검색할 수 있습니다.<pageBreak /><colour id="1" />＜즐겨찾기에서 검색＞<colour id="65535" />
+즐겨찾기로 등록한 작성자의 작품을
+검색할 수 있습니다.<pageBreak />즐겨찾기는 검색으로 발견한 마이 디자인의
+저장 화면에서 등록할 수 있습니다.
+꼭 한번 이용해 보세요!</message>
+	<message label="2448" attrib="0e 00"><colour id="0" />＜마이 디자인의 용도＞<colour id="65535" />
+PRO 디자인을 제외한 마이 디자인 작품은
+바닥 장식이나 페이스 페인팅 등,
+추천하는 용도를 설정할 수 있습니다
+를 눌러 설정해주세요.
+<colour id="0" />※용도를 제한하는 설정이 아닙니다.
+※등록 후에도 설정을 변경할 수 있습니다.<colour id="65535" /></message>
+	<message label="2449" attrib="01 00">용도를 갱신했습니다</message>
+	<message label="2450" attrib="08 09">작성자 ID: <colour id="1" /><tag a="140" b="17" arg="0xcd00" /><colour id="65535" />의
+작품을 찾지 못했습니다.
+다시 선택하시겠습니까?</message>
+	<message label="2450_a" attrib="01 00">메뉴로 돌아가기</message>
+	<message label="2450_b" attrib="01 00">다시 선택하기</message>
+	<message label="2446_a" attrib="01 00">메뉴로 돌아가기</message>
+	<message label="2446_b" attrib="01 00">잘못 썼어</message>
 	<message label="2501" attrib="01 09">너굴 쇼핑에서는
 인터넷을 통해 한 사람당
 하루에 2통까지 보낼 수 있습니다.</message>
@@ -966,6 +1018,10 @@ SNS에 공유하시겠습니까?</message>
 HOME 메뉴의 앨범에 저장되므로
 같은 본체를 사용하는 다른 유저도
 볼 수 있습니다.<colour id="65535" /></message>
+	<message label="5002" attrib="01 00">〔<colour id="1" />조작 가이드 ON/OFF<colour id="65535" />〕
+<colour id="1" />을 눌러서 <colour id="65535" />조작 가이드를 
+ON/OFF할 수 있게 되었습니다.<pageBreak /><colour id="0" />※Joy-Con 가로 잡기 중에는
+OFF할 수 없습니다.<colour id="65535" /></message>
 	<message label="5011" attrib="01 00">〔<colour id="1" />너굴 마일리지<colour id="65535" />〕
 너굴 마일리지 프로그램에
 가입해 주셔서 감사합니다!<pageBreak />이 프로그램에서는 당신의
@@ -1271,6 +1327,12 @@ Game-Specific Services에서
 새로운 디자인을 반영시키려면
 다시 한번 마이 디자인을
 '<colour id="1" />착용하기<colour id="65535" />' 해주세요.</message>
+	<message label="5302_01" attrib="0e 09">착용 중인 마이 디자인 데이터가
+변경되었습니다.
+
+새로운 디자인을 반영시키려면
+꿈에서 깬 후에 다시 한번 마이 디자인을
+'<colour id="1" />착용하기<colour id="65535" />' 해주세요.</message>
 	<message label="5303" attrib="01 09">지팡이에 마이 디자인을 등록했습니다.
 코디로 등록한 마이 디자인은
 에디터로 편집해도 사라지지 않습니다.<pageBreak />단, 코디로 등록한 마이 디자인은
@@ -1399,4 +1461,16 @@ HOME 메뉴에서
 	<message label="8020_a" attrib="01 00">그만두기</message>
 	<message label="8020_b" attrib="01 00">오케이</message>
 	<message label="8019" attrib="01 00">다시 플레이합니다.</message>
+	<message label="9001" attrib="08 00">저장 데이터 복원을 시작하시겠습니까?</message>
+	<message label="9001_a" attrib="01 00">그만둘래</message>
+	<message label="9001_b" attrib="01 00">시작할래</message>
+	<message label="9015" attrib="05 00">게임을 시작합니다.</message>
+	<message label="9015_a" attrib="01 00">오케이</message>
+	<message label="9012" attrib="05 00">복원한 데이터를 확인하고 있습니다…</message>
+	<message label="9012_a" attrib="01 00">오케이</message>
+	<message label="9013" attrib="05 00">데이터 확인이 완료되었습니다.
+게임을 재개합니다.</message>
+	<message label="9013_a" attrib="01 00">오케이</message>
+	<message label="9016" attrib="02 00">저장하고 있습니다<tag a="110" b="0" />
+<colour id="0" />전원 버튼을 건드리지 마십시오<colour id="65535" /></message>
 </msbt>

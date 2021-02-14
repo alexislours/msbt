@@ -42,6 +42,10 @@ tu sors, c'est compris ?<endTag a="100" b="5" /></message>
 Ah, c'est bon !<delay20 /><pageBreak /><tag a="50" b="3" /><tag a="110" b="1" /> <gender4 m="de " f="d'⁠" /><tag a="110" b="33" />, c'est ça ?
 <delay frames="30" />Et t'es coincé<gender2 m="" f="e" /> ?<endTag a="100" b="5" /></message>
 	<message label="021_03" attrib="00 00 13"><tag a="100" b="5" />Hein ? <delay20 /><tag a="50" b="3" /><tag a="110" b="1" /> ?<delay20 /> Encore toi ? T'es à nouveau coincé<gender2 m="" f="e" />, c'est ça ?<endTag a="100" b="5" /></message>
+	<message label="021_04" attrib="00 00 13"><tag a="100" b="5" />Bon alors,<delay20 /> j'ai affaire à <tag a="110" b="1" /> <gender4 m="de " f="d'⁠" /><tag a="110" b="34" />, c'est juste ?<endTag a="100" b="5" /></message>
+	<message label="021_05" attrib="00 00 13"><tag a="100" b="5" />Une seconde, veux-tu<tag a="110" b="0" /><delay8 />
+Ah, c'est bon !<delay20 /><pageBreak /><tag a="50" b="3" /><tag a="110" b="1" /> <gender4 m="de " f="d'⁠" /><tag a="110" b="34" />, c'est ça ?
+<delay frames="30" />Et t'es coincé<gender2 m="" f="e" /> ?<endTag a="100" b="5" /></message>
 	<message label="022" attrib="00 00 13"><tag a="100" b="5" />C'est la première fois que tu as
 recours à mon service, non ?<delay frames="30" />
 Alors je te fais un topo rapide.
@@ -165,6 +169,19 @@ ces <colour id="1" />îles labyrinthiques <colour id="65535" />que <colour id="3
 a imaginées ?<pageBreak />Dans ce cas, je vais te déposer <colour id="1" />là
 où l'avion atterrit<colour id="65535" />, et tu pourras
 recommencer !<endTag a="100" b="5" /></message>
+	<message label="049_02" attrib="02 00 13"><tag a="100" b="5" />Mais que se passe-t-il ? <delay20 />Tu es<tag a="110" b="0" /> dans
+un tunnel ?<delay frames="40" /> C'est un peu comme
+regarder à travers un filtre.
+Eh bien, <delay8 />je n'ai pas le choix.<delay20 /> Je vais
+devoir te déposer sur la <colour id="1" />place la plus
+proche<colour id="65535" />.<delay20 /> Ça te convient ?<endTag a="100" b="5" /></message>
+	<message label="049_02_a" attrib="00 00 13">Oui, s'il te plaît !</message>
+	<message label="049_02_b" attrib="00 00 13"><anim id="Negative" target="player" targetSpec="" />Euh... j'annule !</message>
+	<message label="049_03" attrib="00 00 13"><tag a="100" b="5" />Bien, alors c'est décidé. <delay20 />Je vais te
+déposer sur la place la plus proche
+de là où tu te trouves.<pageBreak />Et comme tu n'as pas le choix de la
+destination, <delay8 />c'est gratuit pour cette
+fois.<delay20 /> Ça t'économisera des miles !<endTag a="100" b="5" /></message>
 	<message label="050_01" attrib="00 00 13"><tag a="100" b="5" />À ta tente ?<delay20 /> Aucun problème.<endTag a="100" b="5" /></message>
 	<message label="050_02" attrib="00 00 13"><tag a="100" b="5" />Chez toi ?<delay20 /> C'est comme si c'était fait.<endTag a="100" b="5" /></message>
 	<message label="050_03" attrib="00 00 13"><tag a="100" b="5" />Sur la place ? <delay20 />OK !<endTag a="100" b="5" /></message>
@@ -210,6 +227,10 @@ guise,<delay20 /> sur <tag a="110" b="33" />.<endTag a="100" b="5" /></message>
 c'est un peu à la portée
 du premier gus.<pageBreak />Il suffit d'aller tous les jours
 au <colour id="1" />Nook Stop<colour id="65535" /> !<endTag a="100" b="5" /></message>
+	<message label="065" attrib="00 00 13"><tag a="60" b="20" /></message>
+	<message label="065_01" attrib="00 00 13"><tag a="100" b="5" />Va pas commencer à croire que le
+service d'aide est gratuit ! <delay20 />Dans tes
+rêves, mon ami<gender2 m="" f="e" /> !<pageBreak />Rien n'est gratuit dans la vie. <delay8 />Ha !<endTag a="100" b="5" /></message>
 	<message label="201" attrib="06 00 18">Veux-tu démarrer <colour id="1" />Remod'île<colour id="65535" />
 et faire des travaux ?</message>
 	<message label="201_a" attrib="00 00 18">Oui !</message>
@@ -408,5 +429,10 @@ couvert par ce service.</message>
 	<message label="321" attrib="00 00 18">On dirait que tu ne peux pas utiliser
 l'historique de tchat lorsque tu joues
 en groupe<tag a="110" b="0" /></message>
+	<message label="332" attrib="00 00 18">On dirait que tu ne peux pas utiliser
+cette appli pendant un rêve<tag a="110" b="0" /></message>
+	<message label="333" attrib="00 00 18">Hmm<tag a="110" b="0" /> la réception n'est pas terrible
+ici.<delay20 /> Il semble que tu ne puisses pas
+utiliser l'appli pour le moment.</message>
 	<message label="999" attrib="00 00 13"><colour id="1" />100 <colour id="65535" />miles</message>
 </msbt>

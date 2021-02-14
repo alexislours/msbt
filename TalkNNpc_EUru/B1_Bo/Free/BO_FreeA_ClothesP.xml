@@ -137,12 +137,6 @@
 или ты себя так раскрасил<gender2 m="" f="а" />?<10_4 /><anim id="EmotEnd" target="actor" targetSpec="" />
 Если да, я тоже так хочу<tag a="110" b="0" /></message>
 	<message label="201" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="7" arg="0xfb00 0xfc00 0xcd00" /></message>
-	<message label="251" attrib="00 00 00 00 00 00 00 00"><anim id="HappyDance" target="actor" targetSpec="" />Эй! <delay20 />Ты только посмотри на нас<tag a="110" b="0" />
-Мы же похожи! <delay20 />Мы с тобой
-как будто коты! <tag a="50" b="3" /><tag a="110" b="5" />!<pageBreak /><anim id="Oops" target="actor" targetSpec="" />Правда, я-то и на самом деле кот.</message>
-	<message label="252" attrib="00 00 00 00 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Мяу? <delay20 />Мяу, мяу, мяу?<pageBreak /><anim id="OhGeez" target="actor" targetSpec="" />Извини, я по-кошачьи не говорю
-на самом деле.<delay20 /> Это просто так,
-в тему. <tag a="50" b="3" /><tag a="110" b="5" />!</message>
 	<message label="202" attrib="00 00 00 00 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Ты что, фанат<gender2 m="" f="ка" /> Дня зайцев?<delay frames="40" /><anim id="WrySmile" target="actor" targetSpec="" />
 Или ты просто говорящее яйцо?<pageBreak /><anim id="Frantic" target="actor" targetSpec="" />Очень надеюсь, что фанат<gender2 m="" f="ка" /><tag a="110" b="0" /></message>
 	<message label="203" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Какой у тебя сегодня классный
@@ -154,6 +148,49 @@
 <anim id="Clapping" target="actor" targetSpec="" />Он такой фруктовый!<pageBreak /><anim id="AbsentMindedness" target="actor" targetSpec="" />А мне ведь однажды приснился
 огромный фрукт с ногами<tag a="110" b="0" /><delay20 />
 <anim id="Negative" target="actor" targetSpec="" />Несъедобный. <tag a="50" b="3" /><tag a="110" b="5" />.</message>
+	<message label="205" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="7" arg="0xfd10 0xfe00 0xcd00" /></message>
+	<message label="206" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Какой у тебя хороший пиратский
+костюм, <tag a="110" b="3" />.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Я раньше хотел быть пиратом,
+но потом в них разочаровался<tag a="110" b="0" /><delay20 />
+<anim id="Negative" target="actor" targetSpec="" />Напрочь.<pageBreak /><anim id="Worried" target="actor" targetSpec="" />У них в сундуках золото и алмазы,
+а не леденцы и шоколадные
+монетки в золотой фольге.</message>
+	<message label="207" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Однажды я видел русалку, похожую
+на тебя сейчас, <tag a="110" b="3" /><tag a="110" b="0" /><pageBreak /><anim id="Laughing" target="actor" targetSpec="" />У-ху-ху! Я пошутил.<delay20 /> <anim id="Smiling" target="actor" targetSpec="" />Я знаю, что
+русалок не бывает. <delay8 />Это просто
+глупая выдумка.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Под водой жить нельзя, потому что
+все вкусняшки размокнут и будут
+соленой кашей.</message>
+	<message label="208" attrib="00 00 00 00 00 00 00 00">Ты купаться идешь?<delay20 /> <anim id="Eh" target="actor" targetSpec="" />Так ты для
+этого гидрокостюм надел<gender2 m="" f="а" />?
+<tag a="50" b="3" /><tag a="110" b="6" />?<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />А я уж было подумал, как можно
+устраивать праздники под водой?
+Все вкусняшки размокнут.</message>
+	<message label="209" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Твой наряд как глоток свежего
+горного воздуха. <tag a="50" b="3" /><tag a="110" b="6" />!<pageBreak /><anim id="AbsentMindedness" target="actor" targetSpec="" />Если закрыть глаза, сразу пахнет
+елками и теплым штруделем.<delay8 />
+Ой! А это что?<pageBreak />Гора из <tag a="50" b="23" arg="0xcd03" /><tag a="135" b="7" arg="0xcd00" />!</message>
+	<message label="210" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Мне нравится твоя одежда.<delay8 />
+Выглядит очень прилично.
+<tag a="50" b="3" /><tag a="110" b="6" />!<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Так говорят про тех, <anim id="Grin" target="actor" targetSpec="" />кто салфеткой
+пользуется.</message>
+	<message label="211" attrib="00 00 00 00 00 00 00 00"><anim id="Hesitate" target="actor" targetSpec="" />Я редко говорю слово «элегантно».<delay8 />
+Потренируюсь-ка! <anim id="Love" target="actor" targetSpec="" />Ты так<delay8 /> элегантно
+выглядишь!</message>
+	<message label="251" attrib="00 00 00 00 00 00 00 00"><anim id="HappyDance" target="actor" targetSpec="" />Эй! <delay20 />Ты только посмотри на нас<tag a="110" b="0" />
+Мы же похожи! <delay20 />Мы с тобой
+как будто коты! <tag a="50" b="3" /><tag a="110" b="5" />!<pageBreak /><anim id="Oops" target="actor" targetSpec="" />Правда, я-то и на самом деле кот.</message>
+	<message label="252" attrib="00 00 00 00 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Мяу? <delay20 />Мяу, мяу, мяу?<pageBreak /><anim id="OhGeez" target="actor" targetSpec="" />Извини, я по-кошачьи не говорю
+на самом деле.<delay20 /> Это просто так,
+в тему. <tag a="50" b="3" /><tag a="110" b="5" />!</message>
+	<message label="253" attrib="00 00 00 00 00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />Тебе очень идет лягушачий наряд.<delay20 />
+<anim id="EmotEnd" target="actor" targetSpec="" />Я тебя как увидел, подумал: <anim id="Shocked" target="actor" targetSpec="" />«Ух ты!
+<delay8 />Это я? <delay8 />У меня голодный вид».</message>
+	<message label="254" attrib="00 00 00 00 00 00 00 00">Какой реалистичный наряд.<delay8 /> <anim id="Serious" target="actor" targetSpec="" />Если ты хотел<gender2 m="" f="а" /> притвориться лягушкой, то
+у тебя получилось. <tag a="50" b="3" /><tag a="110" b="6" />!<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Серьезно. <delay8 />Я бы не удивился, если
+бы ты сейчас муху языком поймал<gender2 m="" f="а" />.<pageBreak /><anim id="Pardon" target="actor" targetSpec="" />Хотя нет, удивился бы, наверное.<delay8 />
+<anim id="BigSmile" target="actor" targetSpec="" />Такое все же не каждый может.
+Я не могу, например.</message>
 	<message label="301" attrib="00 00 00 00 00 00 00 00"><anim id="Surprised" target="actor" targetSpec="" />Ух ты<tag a="110" b="0" /><delay frames="40" /> <anim id="Love" target="actor" targetSpec="" />Это же ты!<delay20 /> Я твой фанат!<pageBreak /><anim id="HappyDance" target="actor" targetSpec="" />Ты патрулируешь? <delay8 />А у тебя есть
 лазерный пистолет? <delay8 />А космолет?<delay8 />
 А можно автограф? <delay20 /><anim id="Laughing" target="actor" targetSpec="" />У-ху-ху<tag a="110" b="0" /></message>
@@ -165,6 +202,18 @@
 вкусный наряд!<pageBreak /><anim id="Silent" target="actor" targetSpec="" />Ты ведь точно <tag a="110" b="3" />,
 да? А то прямо<tag a="110" b="0" /> укусить
 захотелось.<delay20 /> <anim id="Sighing" target="actor" targetSpec="" />Уф-ф.</message>
+	<message label="304" attrib="00 00 00 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Ты в гонках участвовать будешь?<delay20 />
+<anim id="Worried" target="actor" targetSpec="" />Можно я за тебя болеть буду?
+Ну пожалуйста! <tag a="50" b="3" /><tag a="110" b="6" />!<pageBreak /><anim id="Serious" target="actor" targetSpec="" />Я обещаю, что не буду кричать
+«<tag a="135" b="3" arg="0xcd00" />».<delay8 /> <anim id="Negative" target="actor" targetSpec="" />Я так вообще никогда не делаю, ты что!</message>
+	<message label="305" attrib="00 00 00 00 00 00 00 00"><anim id="Hesitate" target="actor" targetSpec="" />Ты переодел<gender2 m="ся" f="ась" /> в суши или у меня
+голодные галлюцинации?<10_4 />
+<anim id="Worried" target="actor" targetSpec="" />Я лучше отойду, а то мало ли чего<tag a="110" b="0" /></message>
+	<message label="306" attrib="00 00 00 00 00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />Как поживаешь, <tag a="110" b="3" />?<pageBreak /><anim id="Eh" target="actor" targetSpec="" />Ой!<delay20 /> <anim id="Blushing" target="actor" targetSpec="" />Извини, Ваше Величество.<delay20 />
+<anim id="Shocked" target="actor" targetSpec="" />Ой! <delay20 />Забыл, что нужно выкать.
+<tag a="50" b="3" /><tag a="110" b="6" />.
+<anim id="Frantic" target="actor" targetSpec="" />Не велите казнить, велите
+миловать!</message>
 	<message label="401" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
 	<message label="401_01" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Классно выглядишь! <delay20 />Это, наверное,
 твой любимый наряд, да?<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Вижу <tag a="50" b="23" arg="0xcd01" /><tag a="125" b="0" arg="0x0" /> и сразу понимаю, что это ты!</message>

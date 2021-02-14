@@ -1,0 +1,365 @@
+<msbt attribsize="4">
+	<message label="001" attrib="00 00 00 00"><tag a="100" b="10" />Bienvenue<tag a="110" b="0" /><endTag a="100" b="10" /><10_8 arg="55" /></message>
+	<message label="001_01" attrib="01 00 00 00"><tag a="50" b="3" /><tag a="110" b="9" /><tag a="110" b="0" /> C'est de là que tu viens,<delay8 /> n'est-ce pas? <delay20 />Tu dois être <gender2 m="le" f="la" /> célèbre <tag a="110" b="1" />.</message>
+	<message label="001_01_a" attrib="00 00 00 00">Exact!</message>
+	<message label="001_01_b" attrib="00 00 00 00">Comment tu sais ça?</message>
+	<message label="001_02" attrib="01 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Hmmm<tag a="110" b="0" /><delay8 /> <tag a="110" b="9" /> est source de bien des rêves des plus plaisants.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Excuse-moi. <delay8 />Je ne me suis même pas
+présentée.<delay20 /> <anim id="Hello" target="actor" targetSpec="" />Je suis <colour id="3" />Serena<colour id="65535" />,<delay8 /> et
+j'administre la librairie onirique.</message>
+	<message label="001_02_a" attrib="00 00 00 00">La librairie onirique?</message>
+	<message label="001_02_b" attrib="00 00 00 00">Pardon?</message>
+	<message label="001_03" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Les rêves sont l'incarnation de
+souvenirs que l'on chérit<tag a="110" b="0" /><delay8 /><anim id="WrySmile" target="actor" targetSpec="" /> et que
+l'on a partagés sur <colour id="1" />Internet<colour id="65535" />.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Mon rôle est d'orienter les voyageurs
+oniriques, <delay8 />afin de leur permettre de
+rêver de l'île d'un autre joueur.<anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak />Une fois au sein d'un rêve, <delay8 />ce sera
+comme si tu étais réellement sur
+l'île de ce joueur.<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />C'est fascinant, n'est-ce pas?<delay20 /> Pour
+rêver d'une île, dis-moi simplement
+« <colour id="1" />Je veux rêver<colour id="65535" /> ».</message>
+	<message label="001_04" attrib="00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Si tu veux toi aussi contribuer à la
+librairie onirique, <delay8 />je serai ravie
+d'enregistrer un rêve de ton île. <pageBreak /><anim id="AbsentMindedness" target="actor" targetSpec="" />Les rêves sont extraits par fibre
+optique et ajoutés au catalogue
+onirique à disposition des joueurs.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Pour faire simple, <delay8 />pour partager le
+rêve de ta ville,<delay8 /> il te suffit de me dire
+<anim id="Hello" target="actor" targetSpec="" />« <colour id="1" />Je veux partager un rêve <colour id="65535" />».<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Bien,<delay8 /> maintenant que les
+présentations sont faites<tag a="110" b="0" /></message>
+	<message label="001_05" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Bienvenue.<delay20 /> <anim id="FaintSmile" target="actor" targetSpec="" />Les champs oniriques
+regorgent de rêves magnifiques!</message>
+	<message label="001_06" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Bienvenue.<delay20 /> <anim id="FaintSmile" target="actor" targetSpec="" />Les rêves patientent
+paisiblement sur les serveurs,<delay8 /> en
+attente de visiteurs.</message>
+	<message label="002" attrib="06 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Que puis-je faire pour toi?</message>
+	<message label="002_a" attrib="00 00 00 00">Je veux rêver.</message>
+	<message label="002_b" attrib="00 00 00 00">Je veux partager un rêve.</message>
+	<message label="002_c" attrib="00 00 00 00">Où suis-je?</message>
+	<message label="002_d" attrib="00 00 00 00">Je veux me réveiller.</message>
+	<message label="002_01" attrib="06 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Que puis-je faire pour toi?</message>
+	<message label="002_01_a" attrib="00 00 00 00">Je veux rêver.</message>
+	<message label="002_01_b" attrib="00 00 00 00">Le rêve que j'ai partagé...</message>
+	<message label="002_01_c" attrib="00 00 00 00">Où suis-je?</message>
+	<message label="002_01_d" attrib="00 00 00 00">Je veux me réveiller.</message>
+	<message label="002_02" attrib="06 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Puis-je faire quoi que ce soit d'autre
+pour toi?</message>
+	<message label="002_02_a" attrib="00 00 00 00">Je veux rêver.</message>
+	<message label="002_02_b" attrib="00 00 00 00">Je veux partager un rêve.</message>
+	<message label="002_02_c" attrib="00 00 00 00">Où suis-je?</message>
+	<message label="002_02_d" attrib="00 00 00 00">Je veux me réveiller.</message>
+	<message label="002_03" attrib="06 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Puis-je faire quoi que ce soit d'autre
+pour toi?</message>
+	<message label="002_03_a" attrib="00 00 00 00">Je veux rêver.</message>
+	<message label="002_03_b" attrib="00 00 00 00">Le rêve que j'ai partagé...</message>
+	<message label="002_03_c" attrib="00 00 00 00">Où suis-je?</message>
+	<message label="002_03_d" attrib="00 00 00 00">Je veux me réveiller.</message>
+	<message label="002_04" attrib="06 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Que puis-je faire pour toi?</message>
+	<message label="002_04_a" attrib="00 00 00 00">Je veux rêver.</message>
+	<message label="002_04_b" attrib="00 00 00 00">Je veux partager un rêve.</message>
+	<message label="002_04_c" attrib="00 00 00 00">Et donc... où suis-je?</message>
+	<message label="002_04_d" attrib="00 00 00 00">Je veux me réveiller.</message>
+	<message label="002_05" attrib="06 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Que puis-je faire pour toi?</message>
+	<message label="002_05_a" attrib="00 00 00 00">Je veux rêver.</message>
+	<message label="002_05_b" attrib="00 00 00 00">Le rêve que j'ai partagé...</message>
+	<message label="002_05_c" attrib="00 00 00 00">Et donc... où suis-je?</message>
+	<message label="002_05_d" attrib="00 00 00 00">Je veux me réveiller.</message>
+	<message label="002_06" attrib="06 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Puis-je faire quoi que ce soit d'autre
+pour toi?</message>
+	<message label="002_06_a" attrib="00 00 00 00">Je veux rêver.</message>
+	<message label="002_06_b" attrib="00 00 00 00">Je veux partager un rêve.</message>
+	<message label="002_06_c" attrib="00 00 00 00">Et donc... où suis-je?</message>
+	<message label="002_06_d" attrib="00 00 00 00">Je veux me réveiller.</message>
+	<message label="002_07" attrib="06 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Puis-je faire quoi que ce soit d'autre
+pour toi?</message>
+	<message label="002_07_a" attrib="00 00 00 00">Je veux rêver.</message>
+	<message label="002_07_b" attrib="00 00 00 00">Le rêve que j'ai partagé...</message>
+	<message label="002_07_c" attrib="00 00 00 00">Et donc... où suis-je?</message>
+	<message label="002_07_d" attrib="00 00 00 00">Je veux me réveiller.</message>
+	<message label="003" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Comme il te plaira. <delay8 />N'hésite pas
+à revenir.<delay8 /> <anim id="FaintSmile" target="actor" targetSpec="" />Tu seras toujours <gender2 m="le" f="la" />
+bienvenu<gender2 m="" f="e" /> ici.</message>
+	<message label="1000" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Bien sûr! <delay8 />Mais je me dois de clarifier
+quelques points avant de t'orienter
+vers un rêve.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Les rêves, <delay8 />comme nombre de choses,
+<delay8 />sont téléchargés sur <colour id="1" />Internet<colour id="65535" />.<delay8 /> Ce qui
+nécessite une connexion à Internet.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />De plus, <delay8 />le <colour id="1" />code onirique<colour id="65535" /> du rêve est
+requis.<delay20 /> C'est le code d'identification
+unique propre à chaque rêve.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Et donc, avant de rêver, <delay8 />assure-toi
+d'avoir le <colour id="1" />code onirique <colour id="65535" />de ton choix
+à disposition.</message>
+	<message label="1000_01" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Oh! <delay8 />Encore une petite pensée<tag a="110" b="0" /><pageBreak /><anim id="Serious" target="actor" targetSpec="" />Les rêves sont des entités fragiles.<delay8 />
+Pour éviter les interférences,<delay8 /> tu dois
+te délester de tes possessions.<pageBreak /><anim id="Hello" target="actor" targetSpec="" />Mais ne t'inquiète pas. <delay20 />Je veillerai
+sur tes trésors et te les restituerai
+à ton réveil.</message>
+	<message label="1001" attrib="02 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Je crois avoir tout dit.<delay20 /> <anim id="QuestionMark" target="actor" targetSpec="" />Bien, es-tu
+prêt<gender2 m="" f="e" /> à te connecter à la librairie
+onirique?</message>
+	<message label="1001_a" attrib="00 00 00 00">Absolument!</message>
+	<message label="1001_b" attrib="00 00 00 00">Pas maintenant.</message>
+	<message label="1002" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Je vais donc établir une connexion
+à <colour id="1" />Internet <colour id="65535" />pour initialiser le
+téléchargement d'un rêve.</message>
+	<message label="1003" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Quel est le <colour id="1" />code onirique <colour id="65535" />du rêve
+de ton choix?</message>
+	<message label="1004" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Merci.<delay20 /> <anim id="Silent" target="actor" targetSpec="" />Je te prierai de patienter un
+instant pendant que j'explore la
+librairie onirique<tag a="110" b="0" /></message>
+	<message label="1005" attrib="02 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Le <colour id="1" />code onirique<colour id="65535" /> que tu m'as fourni
+correspond à une île appelée
+<tag a="115" b="2" arg="0xcd00" />.<delay20 /> <anim id="QuestionMark" target="actor" targetSpec="" />Est-ce correct?</message>
+	<message label="1005_a" attrib="00 00 00 00">C'est correct!</message>
+	<message label="1005_b" attrib="00 00 00 00">Non.</message>
+	<message label="1006" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Parfait! <delay20 />Tout est donc prêt.<delay20 />
+<anim id="AbsentMindedness" target="actor" targetSpec="" /><delay20 />Ferme les yeux<tag a="110" b="0" /> Détends-toi<tag a="110" b="0" /><anim id="EmotEnd" target="actor" targetSpec="" /></message>
+	<message label="1006_01" attrib="00 00 00 00">Connecte-toi<tag a="110" b="0" /><delay8 /> au rêve de l'île
+<tag a="115" b="2" arg="0xcd00" /><tag a="110" b="0" /><10_8 arg="75" /></message>
+	<message label="1031" attrib="02 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Excuse-moi, <delay8 />mais il n'y a aucun rêve
+correspondant à ce <colour id="1" />code onirique<colour id="65535" />.</message>
+	<message label="1031_a" attrib="00 00 00 00">Réessayons.</message>
+	<message label="1031_b" attrib="00 00 00 00">Laissons tomber.</message>
+	<message label="1032" attrib="02 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Excuse-moi, <delay8 />mais je n'ai pas
+réussi à me connecter à <colour id="1" />Internet<colour id="65535" />.<delay20 />
+<anim id="QuestionMark" target="actor" targetSpec="" />Veux-tu que je réessaie?</message>
+	<message label="1032_a" attrib="00 00 00 00">Je veux bien.</message>
+	<message label="1032_b" attrib="00 00 00 00">Laissons tomber.</message>
+	<message label="1033" attrib="02 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Hmm<tag a="110" b="0" /> Ce <colour id="1" />code onirique<colour id="65535" /> correspond
+à ta propre île.<pageBreak /><anim id="Negative" target="actor" targetSpec="" />Je suis désolée, <delay8 />mais il est tout aussi
+impossible de rêver de ta propre île
+que de diviser par zéro.<pageBreak /><anim id="QuestionMark" target="actor" targetSpec="" />Y a-t-il un autre rêve auquel tu
+désirerais accéder?</message>
+	<message label="1033_a" attrib="00 00 00 00">Oui.</message>
+	<message label="1033_b" attrib="00 00 00 00">Non, laissons tomber.</message>
+	<message label="1041" attrib="00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Excuse-moi,<delay8 /> mais pour rêver, tu dois
+activer la communication libre entre
+utilisateurs via le contrôle parental.<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Reviens me voir lorsque tu seras
+prêt<gender2 m="" f="e" />.</message>
+	<message label="2001" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Bien sûr. <delay20 /><anim id="Serious" target="actor" targetSpec="" />Mais avant de procéder,<delay8 />
+je dois te communiquer quelques
+<colour id="1" />informations importantes<colour id="65535" />.</message>
+	<message label="2002" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />C'est tout! <anim id="Explain" target="actor" targetSpec="" />À partir de là, tout est
+simple.<delay8 /> D'abord,<delay8 /> je numériserai ton
+île sous forme de rêve.<anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak />Ensuite, je me connecterai à <colour id="1" />Internet<colour id="65535" />
+pour ajouter ton rêve à la librairie.</message>
+	<message label="2002_01" attrib="00 00 00 00"><anim id="Aha" target="actor" targetSpec="" /><delay20 />Oh! <delay8 />J'ai une autre information qui
+pourrait t'intéresser<tag a="110" b="0" /><pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Les joueurs visitant le rêve d'une île
+peuvent emporter des créations du
+<colour id="1" />portail des motifs perso<colour id="65535" />.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Rends-toi à ton <colour id="1" />portail des motifs
+perso <colour id="65535" />avant de mettre ton rêve en
+ligne et choisis les motifs à partager.<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Songe par exemple aux motifs qui
+feraient honneur à <tag a="110" b="9" />.</message>
+	<message label="2003" attrib="02 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Mais trêve d'explications! <delay20 />Je vais
+procéder à la numérisation du rêve
+de ton île.<delay20 /> <anim id="Hello" target="actor" targetSpec="" />Es-tu prêt<gender2 m="" f="e" />?</message>
+	<message label="2003_a" attrib="00 00 00 00">Absolument!</message>
+	<message label="2003_b" attrib="00 00 00 00">Pas encore.</message>
+	<message label="2003_01" attrib="02 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Trêve d'explications! <delay20 />L'heure est
+venue de procéder à la numérisation
+de ton île.<delay20 /> <anim id="Serious" target="actor" targetSpec="" />Sauf que<tag a="110" b="0" /><pageBreak /><anim id="Eh" target="actor" targetSpec="" />Il semblerait qu'un autre résident ait
+déjà enregistré un rêve de l'île
+<tag a="110" b="9" /> dans la librairie.<pageBreak /><anim id="Negative" target="actor" targetSpec="" />La seule solution serait d'<colour id="1" />écraser <colour id="65535" />le
+rêve existant avec une version
+<colour id="1" />plus récente<colour id="65535" />.<delay20 /> <anim id="QuestionMark" target="actor" targetSpec="" />Cela te convient-il?</message>
+	<message label="2003_01_a" attrib="00 00 00 00">Ça me convient!</message>
+	<message label="2003_01_b" attrib="00 00 00 00">Pas encore.</message>
+	<message label="2004" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Splendide! <delay20 />Je vais me connecter à
+<colour id="1" />Internet<colour id="65535" /> et accéder à la librairie
+onirique.</message>
+	<message label="2005" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />La connexion est établie. <delay8 />Je vais 
+maintenant numériser <tag a="110" b="9" /> en un rêve<tag a="110" b="0" /></message>
+	<message label="2005_01" attrib="00 00 00 00"><anim id="AbsentMindedness" target="actor" targetSpec="" />Ferme les yeux<tag a="110" b="0" /><delay8 /> Pense à ce que tu
+aimes le plus à <tag a="110" b="9" /><tag a="110" b="0" /><delay20 />
+<tag a="100" b="10" />Détends-toi. <delay20 />Lààà<tag a="110" b="0" /><endTag a="100" b="10" /></message>
+	<message label="2006" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Et voilà! <delay20 />La numérisation et le
+téléchargement ont réussi! <delay8 />Ton rêve
+est installé sur le serveur.<delay20 /> <anim id="Hello" target="actor" targetSpec="" />Bravo.</message>
+	<message label="2007" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Le <colour id="1" />code onirique<colour id="65535" /> <tag a="140" b="17" arg="0xcd00" /> a été attribué
+au rêve associé à <tag a="110" b="9" />.<anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak />Pour partager ton rêve avec d'autres
+joueurs, communique-leur ce <colour id="1" />code
+onirique<colour id="65535" />.<delay20 /> Oui, <anim id="FaintSmile" target="actor" targetSpec="" /><tag a="140" b="17" arg="0xcd00" />.</message>
+	<message label="2008" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Tes paramètres font actuellement
+apparaître ton <colour id="1" />code onirique<colour id="65535" /> sur ton
+<colour id="1" />passeport<colour id="65535" /> et sur la <colour id="1" />carte<colour id="65535" /> de ton île.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Si tu préfères que ton <colour id="1" />code onirique<colour id="65535" />
+n'apparaisse pas sur ton <colour id="1" />passeport<colour id="65535" />
+ou la <colour id="1" />carte<colour id="65535" /> de ton île,<delay8 /> préviens-moi.</message>
+	<message label="2009" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Sache enfin que tout changement
+survenu sur l'île après numérisation
+ne sera pas reflété dans le rêve.<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Cependant, tu peux tout à fait mettre
+à jour le rêve de ton île<tag a="110" b="0" /> <anim id="Hello" target="actor" targetSpec="" />dans la
+limite d'<colour id="1" />une fois par jour<colour id="65535" />.</message>
+	<message label="2010" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Eh bien,<delay8 /> je crois que c'est tout! <delay20 />
+Merci pour ta patience,<delay8 /> et j'espère
+que ton rêve fera des heureux.</message>
+	<message label="2031" attrib="02 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Excuse-moi, <delay8 />mais je n'ai pas
+réussi à me connecter à <colour id="1" />Internet<colour id="65535" />.<delay20 />
+<anim id="QuestionMark" target="actor" targetSpec="" />Veux-tu que je réessaie?</message>
+	<message label="2031_a" attrib="00 00 00 00">Je veux bien.</message>
+	<message label="2031_b" attrib="00 00 00 00">Laissons tomber.</message>
+	<message label="2032" attrib="00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Malheureusement, je ne peux mettre
+à jour un rêve qu'<colour id="1" />une fois par jour<colour id="65535" />.<delay20 /> <anim id="Explain" target="actor" targetSpec="" />
+Reviens demain, s'il te plaît.</message>
+	<message label="2033" attrib="00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Après effacement d'un rêve,<delay8 /> la
+librairie onirique a besoin de repos.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Si tu veux enregistrer un nouveau
+rêve,<delay8 /> reviens demain,<delay8 /> s'il te plaît.</message>
+	<message label="2034" attrib="00 00 00 00"><anim id="Aha" target="actor" targetSpec="" /><delay20 />Splendide! <delay8 />Oh, je voulais également
+te parler de quelque chose qui
+pourrait t'intéresser<tag a="110" b="0" /><pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Les joueurs visitant le rêve d'une île
+peuvent emporter des créations du
+<colour id="1" />portail des motifs perso<colour id="65535" />.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Rends-toi à ton <colour id="1" />portail des motifs
+perso <colour id="65535" />avant de mettre ton rêve en
+ligne et choisis les motifs à partager.<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Songe par exemple aux motifs qui
+feraient honneur à <tag a="110" b="9" />.</message>
+	<message label="2035" attrib="02 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Voilà,<delay8 /> je t'ai tout dit.<delay20 /> Nous pouvons
+donc procéder à la numérisation du
+rêve de ton île. <delay20 /><anim id="Hello" target="actor" targetSpec="" />Es-tu prêt<gender2 m="" f="e" />?</message>
+	<message label="2035_a" attrib="00 00 00 00">Je suis prêt<gender2 m="" f="e" />.</message>
+	<message label="2035_b" attrib="00 00 00 00">Pas encore.</message>
+	<message label="2036" attrib="00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Je suis au regret de t'informer que je
+n'ai pas réussi à compiler le rêve de
+ton île, <tag a="110" b="9" />.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Tu devras revenir un autre jour.<delay20 />
+Nous pourrons alors réessayer.</message>
+	<message label="2041" attrib="00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Excuse-moi,<delay8 /> mais pour rêver, tu dois
+activer la communication libre entre
+utilisateurs via le contrôle parental.<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Reviens me voir lorsque tu seras
+prêt<gender2 m="" f="e" />.</message>
+	<message label="3001" attrib="06 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Le rêve de l'île <tag a="110" b="9" /> est archivé sous le <colour id="1" />code onirique<colour id="65535" /> <tag a="140" b="17" arg="0xcd00" />.<pageBreak />As-tu une requête?</message>
+	<message label="3001_a" attrib="00 00 00 00">Mettre à jour le rêve.</message>
+	<message label="3001_b" attrib="00 00 00 00">Confidentialité du code.</message>
+	<message label="3001_c" attrib="00 00 00 00">Effacer le rêve.</message>
+	<message label="3001_d" attrib="00 00 00 00">Non, rien.</message>
+	<message label="3001_01" attrib="06 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />As-tu une autre requête concernant
+un rêve en ligne?</message>
+	<message label="3001_01_a" attrib="00 00 00 00">Mettre à jour le rêve.</message>
+	<message label="3001_01_b" attrib="00 00 00 00">Confidentialité du code.</message>
+	<message label="3001_01_c" attrib="00 00 00 00">Effacer le rêve.</message>
+	<message label="3001_01_d" attrib="00 00 00 00">Non, rien.</message>
+	<message label="3101" attrib="02 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Confirmes-tu vouloir mettre à jour le
+rêve de l'île <tag a="110" b="9" />?</message>
+	<message label="3101_a" attrib="00 00 00 00">Oui. Mettons-le à jour!</message>
+	<message label="3101_b" attrib="00 00 00 00">En fait, non.</message>
+	<message label="3102" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Splendide! <delay8 />Je vais donc me
+connecter à <colour id="1" />Internet<colour id="65535" /> et accéder
+à la librairie des rêves.</message>
+	<message label="3103" attrib="00 00 00 00"><anim id="AbsentMindedness" target="actor" targetSpec="" />Ferme les yeux<tag a="110" b="0" /><delay8 /> Pense à ce que tu
+aimes le plus à <tag a="110" b="9" /><tag a="110" b="0" /><delay20 />
+<tag a="100" b="10" />Détends-toi. <delay20 />Lààà<tag a="110" b="0" /><endTag a="100" b="10" /></message>
+	<message label="3104" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Et voilà! <delay20 />La numérisation et le
+téléchargement ont réussi! <delay8 />Ton rêve
+est installé sur le serveur.<delay20 /> <anim id="Hello" target="actor" targetSpec="" />Bravo.</message>
+	<message label="3105" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Le même <colour id="1" />code onirique<colour id="65535" /> <tag a="140" b="17" arg="0xcd00" /> reste attribué au rêve associé à <tag a="110" b="9" />.<anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />J'espère que le rêve de ton île
+fera des heureux.</message>
+	<message label="3131" attrib="02 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Excuse-moi, <delay8 />mais je n'ai pas
+réussi à me connecter à <colour id="1" />Internet<colour id="65535" />.<delay20 />
+<anim id="QuestionMark" target="actor" targetSpec="" />Veux-tu que je réessaie?</message>
+	<message label="3131_a" attrib="00 00 00 00">Je veux bien.</message>
+	<message label="3131_b" attrib="00 00 00 00">Laissons tomber.</message>
+	<message label="3132" attrib="00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Malheureusement, je ne peux mettre
+à jour un rêve qu'<colour id="1" />une fois par jour<colour id="65535" />.<delay20 /> <anim id="Explain" target="actor" targetSpec="" />
+Reviens demain, s'il te plaît.</message>
+	<message label="3133" attrib="00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Je suis au regret de t'informer que je
+n'ai pas réussi à compiler le rêve de
+ton île, <tag a="110" b="9" />.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Tu devras revenir un autre jour.<delay20 />
+Nous pourrons alors réessayer.</message>
+	<message label="3301" attrib="02 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Oh! <delay8 />Vraiment? <delay8 />Tu désires effacer
+ton rêve de la librairie?<delay20 /> <anim id="Worried" target="actor" targetSpec="" />Un si beau
+rêve, quel dommage<tag a="110" b="0" /><pageBreak /><anim id="Serious" target="actor" targetSpec="" />Il va sans dire qu'une fois effacé,<delay8 />
+personne ne pourra plus visiter ton
+rêve de l'île <tag a="110" b="9" />.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Il est certes possible d'enregistrer un
+nouveau rêve, <delay8 />mais <colour id="1" />pas avant demain<colour id="65535" />
+pour des raisons techniques.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Sachant cela,<delay20 /> <anim id="QuestionMark" target="actor" targetSpec="" />es-tu absolument
+certain<gender2 m="" f="e" /> de vouloir effacer ton rêve
+de l'île <tag a="110" b="9" />?</message>
+	<message label="3301_a" attrib="00 00 00 00">Oui, je veux l'effacer!</message>
+	<message label="3301_b" attrib="00 00 00 00">En fait, non.</message>
+	<message label="3304" attrib="00 00 00 00"><anim id="OhGeez" target="actor" targetSpec="" />Les rêves sont fugaces<tag a="110" b="0" /> <delay8 />et les rêves
+numériques d'autant plus. <delay20 />Je vais
+effacer le rêve de ton île.</message>
+	<message label="3305" attrib="00 00 00 00"><anim id="Silent" target="actor" targetSpec="" />Merci d'avoir patienté. <delay8 />Ton rêve de
+l'île <tag a="110" b="9" /> a été effacé.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Je te rappelle que si tu désires
+enregistrer un nouveau rêve, <delay8 />ce
+sera possible dès demain.</message>
+	<message label="3306" attrib="00 00 00 00"><anim id="Sighing" target="actor" targetSpec="" /><delay20 />Je suis soulagée d'entendre ça.<delay8 />
+Ton rêve fait peut-être le bonheur
+de quelqu'un en ce moment même!</message>
+	<message label="3331" attrib="02 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Excuse-moi, <delay8 />mais je n'ai pas
+réussi à me connecter à <colour id="1" />Internet<colour id="65535" />.<delay20 />
+<anim id="QuestionMark" target="actor" targetSpec="" />Veux-tu que je réessaie?</message>
+	<message label="3331_a" attrib="00 00 00 00">Je veux bien.</message>
+	<message label="3331_b" attrib="00 00 00 00">Laissons tomber.</message>
+	<message label="3341" attrib="00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Excuse-moi,<delay8 /> mais pour rêver, tu dois
+activer la communication libre entre
+utilisateurs via le contrôle parental.<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Reviens me voir lorsque tu seras
+prêt<gender2 m="" f="e" />.</message>
+	<message label="3401" attrib="01 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Ton <colour id="1" />code onirique<colour id="65535" /> est public.
+D'autres joueurs peuvent donc le voir
+sur ton <colour id="1" />passeport<colour id="65535" /> et ta <colour id="1" />carte<colour id="65535" /> de l'île.<pageBreak /><anim id="QuestionMark" target="actor" targetSpec="" />Désires-tu faire de ton <colour id="1" />code onirique
+<colour id="65535" />une information privée?<delay20 /> Les autres
+joueurs ne pourront ainsi plus le voir.</message>
+	<message label="3401_a" attrib="00 00 00 00">Non. Ne changeons rien.</message>
+	<message label="3401_b" attrib="00 00 00 00">Oui. Je veux qu'il soit privé.</message>
+	<message label="3402" attrib="01 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Ton <colour id="1" />code onirique<colour id="65535" /> est privé. Les
+autres joueurs ne peuvent donc pas
+le voir.<pageBreak /><anim id="QuestionMark" target="actor" targetSpec="" />Désires-tu rendre ton <colour id="1" />code onirique
+<colour id="65535" />public?<delay20 /> D'autres joueurs le verront
+sur ton <colour id="1" />passeport<colour id="65535" /> et ta <colour id="1" />carte<colour id="65535" /> de l'île.</message>
+	<message label="3402_a" attrib="00 00 00 00">Non. Ne changeons rien.</message>
+	<message label="3402_b" attrib="00 00 00 00">Oui. Rends-le public.</message>
+	<message label="3403" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Compris. <delay8 />Je ne toucherai pas au
+paramètre de confidentialité de
+ton <colour id="1" />code onirique<colour id="65535" />.</message>
+	<message label="3404" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Très bien! <delay20 />Ton <colour id="1" />code onirique<colour id="65535" /> est
+désormais privé,<delay8 /> et n'apparaîtra plus
+sur ton <colour id="1" />passeport <colour id="65535" />ni la <colour id="1" />carte<colour id="65535" /> de l'île.</message>
+	<message label="3405" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Voilà! <delay20 />Ton <colour id="1" />code onirique<colour id="65535" /> est public.<delay20 />
+D'autres joueurs pourront le voir sur
+ton <colour id="1" />passeport <colour id="65535" />et ta <colour id="1" />carte<colour id="65535" /> de l'île.</message>
+	<message label="4000" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Ceci est l'entremonde<delay8 /> où rêves
+digitaux et rêveurs se rencontrent.
+<delay20 /><anim id="Nodding" target="actor" targetSpec="" />Quant à moi, j'en suis la guide.<pageBreak /><anim id="AbsentMindedness" target="actor" targetSpec="" />Je peux t'aider à rêver de l'île d'un
+d'autre, ou à partager ton rêve. <delay20 />Que
+le monde puisse bien rêver<tag a="110" b="0" /></message>
+	<message label="4001" attrib="04 00 00 00">Si tu veux savoir quoi que ce soit<tag a="110" b="0" /><anim id="Hello" target="actor" targetSpec="" />
+n'hésite pas à me demander.</message>
+	<message label="4001_a" attrib="00 00 00 00">Rêver d'autres îles.</message>
+	<message label="4001_b" attrib="00 00 00 00">Partager le rêve de mon île.</message>
+	<message label="4001_c" attrib="00 00 00 00">Rien, en fait.</message>
+	<message label="4001_01" attrib="04 00 00 00">Si tu veux savoir quoi que ce soit<tag a="110" b="0" /><anim id="Hello" target="actor" targetSpec="" />
+n'hésite pas à me demander.</message>
+	<message label="4001_01_a" attrib="00 00 00 00">Rêver d'autres îles.</message>
+	<message label="4001_01_b" attrib="00 00 00 00">Partager le rêve de mon île.</message>
+	<message label="4001_01_c" attrib="00 00 00 00">Non, c'est bon.</message>
+	<message label="4002" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Alors<tag a="110" b="0" /> <anim id="AbsentMindedness" target="actor" targetSpec="" /><colour id="1" />Rêver d'une autre île<colour id="65535" />, cela
+consiste à voyager sans voyager.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Un rêve, <delay8 />c'est le souvenir d'une île.<delay20 />
+Après avoir été enregistré sur le
+serveur,<delay8 /> ce rêve peut être visité.<anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak />Et lorsque tu seras dans le rêve
+d'une île,<delay8 /> tu auras l'impression de
+la visiter comme dans la réalité.<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Cependant,<delay8 /> les rêves d'îles sont
+statiques,<delay8 /> et tes actions n'auront
+aucun impact sur l'île réelle.</message>
+	<message label="4002_00" attrib="00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Un détail cependant<tag a="110" b="0" /><delay8 /> Pour visiter le
+rêve d'une île,<delay8 /> tu dois te délester de
+tes possessions.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Mais ne t'inquiète pas. <delay20 />Je veillerai
+sur tes trésors et te les restituerai
+à ton réveil.</message>
+	<message label="4002_01" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />J'ajouterai que tu as besoin d'une
+<colour id="1" />connexion Internet<colour id="65535" /> et du <colour id="1" />code
+onirique<colour id="65535" /> du rêve que tu veux visiter.<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Voilà,<delay8 /> je crois que j'ai tout dit!</message>
+	<message label="4003" attrib="00 00 00 00"><anim id="Grin" target="actor" targetSpec="" />Ah!<delay20 /> <colour id="1" />Partager le rêve de ton île
+<colour id="65535" />permettra à d'autres visiteurs de
+la visiter.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />D'abord, <delay8 />je créerai un rêve de ton île,
+<tag a="110" b="9" />, à partir de ta mémoire.<anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak />Je me connecterai ensuite à Internet
+pour publier ton rêve sur le serveur
+et permettre à d'autres de le visiter.<pageBreak /><anim id="WrySmile" target="actor" targetSpec="" />Et comme ce n'est qu'un rêve,<delay8 /> rien
+de ce que les visiteurs y feront
+n'impactera <tag a="110" b="9" />.</message>
+	<message label="4003_01" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Et comme mentionné précédemment,<delay8 />
+tu as besoin d'un <colour id="1" />accès à Internet<colour id="65535" />,<delay8 />
+alors assure-toi que tout soit prêt.</message>
+	<message label="4003_02" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Et les joueurs visitant le rêve d'une
+île peuvent emporter des créations
+du <colour id="1" />portail des motifs perso<colour id="65535" />.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Rends-toi à ton <colour id="1" />portail des motifs
+perso <colour id="65535" />avant de mettre ton rêve en
+ligne et choisis les motifs à partager.<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Songe par exemple aux motifs qui
+feraient honneur à <tag a="110" b="9" />.</message>
+	<message label="4003_03" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Bien, je crois que maintenant, 
+tu sais tout!</message>
+</msbt>

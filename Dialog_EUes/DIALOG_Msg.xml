@@ -59,8 +59,6 @@ porque tienes los bolsillos llenos.</message>
 	<message label="0301_a" attrib="01 06">¡Vale!</message>
 	<message label="0303_a" attrib="01 06">¡Vale!</message>
 	<message label="0304_a" attrib="01 06">¡Vale!</message>
-	<message label="0307" attrib="04 00">Recibiendo el correo...</message>
-	<message label="0308" attrib="02 00">Se van a verificar los datos.</message>
 	<message label="0310" attrib="02 00">Espera un momento...</message>
 	<message label="0321" attrib="01 09">No es posible añadir una postal a
 tus favoritas sin haberla leído antes.</message>
@@ -178,6 +176,36 @@ Si el error no se soluciona,
 hazte una foto de perfil nueva
 y vuelve a intentarlo.</message>
 	<message label="0820_a" attrib="01 06">Vale</message>
+	<message label="0830" attrib="12 09"><colour id="6" />Información importante sobre sueños<colour id="65535" />
+Al compartir tu isla como un sueño,
+otros jugadores podrán visitar esa
+versión onírica de tu isla, tanto si
+los conoces como si no.<pageBreak /><colour id="1" />Eso significa que se harán públicos
+los datos generados por usuarios
+acerca de tu isla y sus residentes
+tal cual eran en el momento en
+que compartiste el sueño.<colour id="65535" /><pageBreak /><colour id="6" />Estos datos incluyen tu nombre,
+la información de tu pasaporte,
+el aspecto de toda la isla (incluido
+el interior de las casas), tus diseños
+personalizados y los mensajes
+del tablón de anuncios, entre otros.<colour id="65535" /></message>
+	<message label="0830_a" attrib="01 00">Aceptar</message>
+	<message label="0831" attrib="12 09"><colour id="6" />Información importante sobre sueños<colour id="65535" />
+Al compartir tu isla como un sueño,
+otros jugadores podrán visitar esa
+versión onírica de tu isla, tanto si
+los conoces como si no.<pageBreak /><colour id="1" />Eso significa que se harán públicos
+los datos de tu isla y sus residentes
+tal cual eran en el momento en que
+compartiste el sueño.<colour id="65535" /><pageBreak /><colour id="6" />Estos datos incluyen los nombres
+y la información de los pasaportes
+de todos los residentes, el aspecto
+de toda la isla (incluido el interior
+de las casas), los diseños
+personalizados y los mensajes
+del tablón de anuncios, entre otros.<colour id="65535" /></message>
+	<message label="0831_a" attrib="01 00">Aceptar</message>
 	<message label="0921" attrib="06 06">Solo es posible publicar un máximo
 de dos anuncios por visita.</message>
 	<message label="0921_a" attrib="01 06">¡Vale!</message>
@@ -271,6 +299,9 @@ en este momento. Para hacerlo,
 ve al mostrador del <colour id="1" />aeródromo<colour id="65535" />
 y desactiva las comunicaciones.</message>
 	<message label="1124_a" attrib="01 00">¡Vale!</message>
+	<message label="1125" attrib="01 09">No es posible realizar pedidos
+en este momento.</message>
+	<message label="1125_a" attrib="01 00">¡Vale!</message>
 	<message label="1201" attrib="08 00">¿Seguro que quieres
 sobrescribir el diseño
 <colour id="1" /><tag a="115" b="3" arg="0xcd00" /><colour id="65535" />?</message>
@@ -907,7 +938,7 @@ el ID <colour id="1" /><tag a="140" b="15" arg="0xcd00" /><colour id="65535" />.
 en tus redes sociales?</message>
 	<message label="2422_a" attrib="01 00">No</message>
 	<message label="2422_b" attrib="01 00">Sí</message>
-	<message label="2423" attrib="08 00">No se ha podido publicar tu diseño.
+	<message label="2423" attrib="08 09">No se ha podido publicar tu diseño.
 ¿Quieres volver a intentarlo?</message>
 	<message label="2423_a" attrib="01 00">No</message>
 	<message label="2423_b" attrib="01 00">Sí</message>
@@ -927,11 +958,9 @@ aplicación Pasaporte del <colour id="1" />Nookófono<colour id="65535" />.</mes
 	<message label="2428" attrib="01 09">Has alcanzado el límite de diseños
 personalizados que puedes publicar.
 Elige uno para borrarlo.</message>
-	<message label="2428_a" attrib="01 00">Entendido</message>
 	<message label="2429" attrib="01 09">No has creado ningún diseño
 personalizado. Podrás usar este
 servicio cuando hayas creado uno.</message>
-	<message label="2429_a" attrib="01 00">Entendido</message>
 	<message label="2430" attrib="06 09">Ya has publicado este diseño.
 <colour id="0" />Podrás volver a publicarlo si lo
 modificas.<colour id="65535" /></message>
@@ -942,17 +971,20 @@ modificas.<colour id="65535" /></message>
 <colour id="2" /><tag a="110" b="1" /><colour id="65535" />?</message>
 	<message label="2432_a" attrib="01 00">Atrás</message>
 	<message label="2432_b" attrib="01 00">Sí</message>
-	<message label="2433" attrib="08 00">No hay ningún diseño asociado
+	<message label="2433" attrib="08 09">No hay ningún diseño asociado
 al ID <colour id="1" /><tag a="140" b="15" arg="0xcd00" /><colour id="65535" />.
 ¿Quieres cambiar el ID?</message>
 	<message label="2433_a" attrib="01 00">Volver al menú</message>
 	<message label="2433_b" attrib="01 00">Cambiar</message>
-	<message label="2434" attrib="08 00">No hay diseños asociados al ID de
+	<message label="2434" attrib="08 09">No hay diseños asociados al ID de
 creador <colour id="1" /><tag a="140" b="17" arg="0xcd00" /><colour id="65535" />.
 ¿Quieres cambiar el ID?</message>
 	<message label="2434_a" attrib="01 00">Volver al menú</message>
 	<message label="2434_b" attrib="01 00">Cambiar</message>
-	<message label="2435" attrib="01 09">Se ha borrado el diseño.</message>
+	<message label="2434_01" attrib="05 09">No hay diseños asociados al ID de
+creador <colour id="1" /><tag a="140" b="17" arg="0xcd00" /><colour id="65535" />.</message>
+	<message label="2434_01_a" attrib="01 00">Atrás</message>
+	<message label="2435" attrib="01 00">Se ha borrado el diseño.</message>
 	<message label="2436" attrib="01 00">Elige el diseño que quieres publicar.</message>
 	<message label="2437" attrib="08 00">¿Seguro que quieres borrar el diseño
 <colour id="1" /><tag a="115" b="3" arg="0xcd00" /><colour id="65535" />?</message>
@@ -971,6 +1003,51 @@ tu propio diseño, <colour id="2" /><tag a="110" b="1" /><colour id="65535" />?<
 	<message label="2441" attrib="01 00">Se ha producido un error.
 No se ha podido compartir
 el diseño en redes sociales.</message>
+	<message label="2442" attrib="08 00">¿Quieres borrar a <colour id="2" /><tag a="115" b="0" arg="0xcd00" /><colour id="65535" />
+de tu lista de creadores favoritos?</message>
+	<message label="2442_a" attrib="01 00">No</message>
+	<message label="2442_b" attrib="01 00">Sí</message>
+	<message label="2444" attrib="01 00">Has borrado a <colour id="2" /><tag a="115" b="0" arg="0xcd00" /><colour id="65535" />
+de tu lista de creadores favoritos.</message>
+	<message label="2445" attrib="01 09">Tu lista de creadores favoritos
+está llena y no permite añadir
+más nombres.</message>
+	<message label="2446" attrib="08 09">Los criterios de búsqueda elegidos
+no han producido ningún resultado.
+¿Quieres cambiarlos y volver
+a intentarlo?</message>
+	<message label="2447" attrib="01 00"><colour id="0" />Nuevas opciones de búsqueda
+de diseños personalizados<colour id="65535" />
+Ahora podrás buscar palabras clave
+y diseños de tus creadores favoritos.<pageBreak /><colour id="1" />Búsqueda avanzada<colour id="65535" />
+Te permite introducir criterios
+de búsqueda para filtrar según
+el nombre del diseño o su categoría.<pageBreak /><colour id="1" />Favoritos<colour id="65535" />
+Te permite buscar diseños de
+tus creadores favoritos.<pageBreak />Puedes añadir a un creador a tu lista
+de favoritos desde cualquiera de los
+diseños que haya publicado.
+¡Disfruta de las nuevas funciones!</message>
+	<message label="2448" attrib="0e 00"><colour id="0" />Categorías de diseños<colour id="65535" />
+Basta pulsar <colour id="1" /><colour id="65535" /> para asignarle una
+categoría a un diseño personalizado,
+con excepción de los profesionales.
+Esto te ayudará a realizar búsquedas.<pageBreak />La categoría sirve como referencia
+o recomendación, pero no limita los
+posibles usos del diseño. Además,
+es posible cambiar la categoría
+asignada a un diseño incluso
+después de publicado.</message>
+	<message label="2449" attrib="01 00">Se ha asignado una categoría
+al diseño.</message>
+	<message label="2450" attrib="08 09">No se ha encontrado ningún diseño
+asociado a la ID de creador
+<colour id="1" /><tag a="140" b="17" arg="0xcd00" /><colour id="65535" />.
+¿Quieres elegir otro favorito?</message>
+	<message label="2450_a" attrib="01 00">Volver al menú</message>
+	<message label="2450_b" attrib="01 00">Elegir otro</message>
+	<message label="2446_a" attrib="01 00">Volver al menú</message>
+	<message label="2446_b" attrib="01 00">Cambiar</message>
 	<message label="2501" attrib="01 09">Ya le has enviado a este usuario
 el máximo de 2 postales diarias
 a través de internet.</message>
@@ -1058,6 +1135,10 @@ Te permite sacar fotos y aplicarles
 diversos filtros y efectos.<pageBreak /><colour id="0" />Las imágenes se guardarán en el
 álbum del menú HOME y cualquiera
 que utilice la consola podrá verlas.<colour id="65535" /></message>
+	<message label="5002" attrib="01 00"><colour id="1" />Guía de controles en pantalla<colour id="65535" />
+<colour id="1" />Pulsa  <colour id="65535" />para mostrar u ocultar la guía
+de controles. <colour id="0" />No podrás ocultarla
+si usas el Joy-Con en horizontal.<colour id="65535" /></message>
 	<message label="5011" attrib="01 00"><colour id="1" />Millas Nook<colour id="65535" />
 ¡Te has inscrito en el
 programa de millas Nook!<pageBreak />Obtendrás <colour id="1" />millas Nook<colour id="65535" /> al completar
@@ -1414,6 +1495,12 @@ que está en uso. Para utilizar
 el nuevo diseño, es necesario
 aplicarlo de nuevo mediante
 la opción <colour id="1" />Equipar<colour id="65535" />.</message>
+	<message label="5302_01" attrib="0e 09">Se ha sobrescrito un diseño
+que está en uso. Para utilizar
+el nuevo diseño, es necesario
+abandonar el sueño y, después,
+aplicarlo de nuevo mediante
+la opción <colour id="1" />Equipar<colour id="65535" />.</message>
 	<message label="5303" attrib="01 09">Este conjunto de varita utiliza un
 diseño personalizado. El conjunto
 no cambiará aunque modifiques
@@ -1550,4 +1637,19 @@ dicha verificación.</message>
 	<message label="8020_a" attrib="01 00">No</message>
 	<message label="8020_b" attrib="01 00">¡Vale!</message>
 	<message label="8019" attrib="01 00">Volver a empezar la partida</message>
+	<message label="9001" attrib="08 00">¿Quieres comenzar el proceso de
+recuperación de datos de guardado?</message>
+	<message label="9001_a" attrib="01 00">Cancelar</message>
+	<message label="9001_b" attrib="01 00">Aceptar</message>
+	<message label="9015" attrib="05 00">A continuación se iniciará el juego.</message>
+	<message label="9015_a" attrib="01 00">¡Vale!</message>
+	<message label="9012" attrib="05 00">Comprobando los datos
+de la copia de seguridad...</message>
+	<message label="9012_a" attrib="01 00">Aceptar</message>
+	<message label="9013" attrib="05 00">La comprobación de la copia
+de seguridad ha concluido.
+A continuación se volverá al juego.</message>
+	<message label="9013_a" attrib="01 00">Aceptar</message>
+	<message label="9016" attrib="02 00">Guardando<tag a="110" b="0" /><delay8 />
+<colour id="0" />No toques .<colour id="65535" /></message>
 </msbt>

@@ -57,8 +57,6 @@ perché hai le tasche piene.</message>
 	<message label="0301_a" attrib="01 06">OK</message>
 	<message label="0303_a" attrib="01 06">OK</message>
 	<message label="0304_a" attrib="01 06">OK</message>
-	<message label="0307" attrib="04 00">Ricezione della posta in corso.</message>
-	<message label="0308" attrib="02 00">Verifica dei dati in corso.</message>
 	<message label="0310" attrib="02 00">Aspetta un attimo, OK?</message>
 	<message label="0321" attrib="01 09">Non puoi aggiungere ai tuoi
 preferiti un messaggio che
@@ -176,6 +174,34 @@ tuo profilo. Se il problema persiste,
 scatta un'altra foto per il profilo e
 riprova.</message>
 	<message label="0820_a" attrib="01 06">Ho capito</message>
+	<message label="0830" attrib="12 09"><colour id="6" />Informazioni importanti sui sogni<colour id="65535" />
+Quando condividi la tua isola in
+sogno, altri giocatori, inclusi quelli
+che non conosci, potranno visitare
+una versione dell'isola.<pageBreak /><colour id="1" />Ciò significa che i dati generati dagli
+utenti relativi alla tua isola e ai suoi
+residenti, salvati al momento della
+condivisione del sogno, saranno
+resi pubblici.<pageBreak /><colour id="65535" /><colour id="6" />Tali dati includono nomi, informazioni
+del passaporto, l'aspetto dell'intera
+isola, stanze delle case, modelli
+personalizzati, messaggi della
+bacheca degli annunci e altro.<colour id="65535" /></message>
+	<message label="0830_a" attrib="01 00">Ho capito</message>
+	<message label="0831" attrib="12 09"><colour id="6" />Informazioni importanti sui sogni<colour id="65535" />
+Quando condividi la tua isola in
+sogno, altri giocatori, inclusi quelli
+che non conosci, potranno visitare
+una versione dell'isola.<pageBreak /><colour id="1" />Ciò significa che i dati relativi alla
+tua isola e ai suoi residenti, salvati
+al momento della condivisione del
+sogno, saranno resi pubblici.<pageBreak /><colour id="65535" /><colour id="6" />Tali dati includono nomi, informazioni
+del passaporto di tutti i residenti,
+l'aspetto dell'intera isola, stanze
+delle case, modelli personalizzati,
+messaggi della bacheca degli
+annunci e altro.<colour id="65535" /></message>
+	<message label="0831_a" attrib="01 00">Ho capito</message>
 	<message label="0921" attrib="06 06">Puoi pubblicare fino a due
 annunci durante una visita.</message>
 	<message label="0921_a" attrib="01 06">OK</message>
@@ -269,6 +295,8 @@ quando il gate dell'aeroporto
 ordine. Devi prima disattivare
 la comunicazione all'aeroporto.</message>
 	<message label="1124_a" attrib="01 00">OK</message>
+	<message label="1125" attrib="01 09">Al momento non puoi ordinare nulla.</message>
+	<message label="1125_a" attrib="01 00">OK</message>
 	<message label="1201" attrib="08 00">Vuoi davvero cancellare il modello
 <colour id="1" /><tag a="115" b="3" arg="0xcd00" /><colour id="65535" />?</message>
 	<message label="1201_a" attrib="01 00">In realtà, no</message>
@@ -915,7 +943,7 @@ Vuoi condividere questa informazione
 tramite i social network?</message>
 	<message label="2422_a" attrib="01 00">No</message>
 	<message label="2422_b" attrib="01 00">Condividi</message>
-	<message label="2423" attrib="08 00">Impossibile caricare il modello.
+	<message label="2423" attrib="08 09">Impossibile caricare il modello.
 Vuoi riprovare?</message>
 	<message label="2423_a" attrib="01 00">No</message>
 	<message label="2423_b" attrib="01 00">Riprova</message>
@@ -935,12 +963,10 @@ Passaporto del tuo Nook Phone.</message>
 di modelli personalizzati che
 puoi caricare. Selezionane uno
 da cancellare.</message>
-	<message label="2428_a" attrib="01 00">Ho capito</message>
 	<message label="2429" attrib="01 09">A quanto pare, non hai ancora creato
 alcun modello personalizzato. Per
 usare questo servizio, devi prima
 crearne uno.</message>
-	<message label="2429_a" attrib="01 00">Ho capito</message>
 	<message label="2430" attrib="06 09">Sembra che questo modello sia già
 stato caricato.
 <colour id="0" />Se lo modifichi, puoi caricarlo
@@ -953,19 +979,22 @@ Vuoi vedere i modelli personalizzati
 creati da te, <colour id="2" /><tag a="110" b="1" /><colour id="65535" />?</message>
 	<message label="2432_a" attrib="01 00">Indietro</message>
 	<message label="2432_b" attrib="01 00">Sì</message>
-	<message label="2433" attrib="08 00">La ricerca di modelli associati all'ID
+	<message label="2433" attrib="08 09">La ricerca di modelli associati all'ID
 stilista <colour id="1" /><tag a="140" b="15" arg="0xcd00" /><colour id="65535" />
 non ha prodotto alcun risultato.
 Vuoi riprovare a inserire l'ID stilista?</message>
 	<message label="2433_a" attrib="01 00">Torna al menu</message>
 	<message label="2433_b" attrib="01 00">Modifica</message>
-	<message label="2434" attrib="08 00">La ricerca di modelli associati all'ID
+	<message label="2434" attrib="08 09">La ricerca di modelli associati all'ID
 stilista <colour id="1" /><tag a="140" b="17" arg="0xcd00" /><colour id="65535" />
 non ha prodotto alcun risultato.
 Vuoi inserire l'ID stilista di nuovo?</message>
 	<message label="2434_a" attrib="01 00">Torna al menu</message>
 	<message label="2434_b" attrib="01 00">Modifica</message>
-	<message label="2435" attrib="01 09">Il modello personalizzato
+	<message label="2434_01" attrib="05 09">Non sono presenti modelli per
+l'ID stilista <colour id="1" /><tag a="140" b="17" arg="0xcd00" /><colour id="65535" />.</message>
+	<message label="2434_01_a" attrib="01 00">Indietro</message>
+	<message label="2435" attrib="01 00">Il modello personalizzato
 è stato cancellato.</message>
 	<message label="2436" attrib="01 00">Seleziona il modello personalizzato
 che vuoi caricare.</message>
@@ -989,6 +1018,51 @@ personalizzati creati da te?</message>
 	<message label="2441" attrib="01 00">Si è verificato un errore per cui la
 condivisione del modello sui social
 network non è andata a buon fine.</message>
+	<message label="2442" attrib="08 00">Vuoi rimuovere <colour id="2" /><tag a="115" b="0" arg="0xcd00" /><colour id="65535" />
+dai tuoi preferiti?</message>
+	<message label="2442_a" attrib="01 00">No</message>
+	<message label="2442_b" attrib="01 00">Sì</message>
+	<message label="2444" attrib="01 00">Hai rimosso <colour id="2" /><tag a="115" b="0" arg="0xcd00" /><colour id="65535" />
+dai tuoi preferiti.</message>
+	<message label="2445" attrib="01 09">Il tuo elenco di creatori preferiti
+è pieno. Al momento non puoi
+aggiungere altri preferiti.</message>
+	<message label="2446" attrib="08 09">I criteri di ricerca dei modelli non
+hanno prodotto alcun risultato.
+Vuoi effettuare nuovamente la
+ricerca con altri criteri?</message>
+	<message label="2447" attrib="01 00"><colour id="0" />Nuove opzioni di ricerca dei modelli<colour id="65535" />
+Ora puoi cercare modelli
+personalizzati tra i tuoi stilisti
+preferiti o tramite i criteri di ricerca.<pageBreak /><colour id="1" />Ricerca avanzata
+<colour id="65535" />Usa questa opzione per cercare
+i modelli per nome o per tipo.<pageBreak /><colour id="1" />Ricerca preferiti<colour id="65535" />
+Usa questa opzione per cercare i
+modelli degli stilisti che hai aggiunto
+ai preferiti.<pageBreak />Puoi aggiungere uno stilista ai
+preferiti mentre consulti uno dei
+suoi modelli. Goditi le nuove
+funzioni di ricerca!</message>
+	<message label="2448" attrib="0e 00"><colour id="0" />Tipi di modelli personalizzati<colour id="65535" />
+Ora puoi assegnare un tipo a tutti i
+modelli personalizzati (esclusi quelli
+pro) per facilitare la ricerca.
+Premi <colour id="1" /><colour id="65535" /> per assegnare un tipo al
+tuo modello. Puoi assegnare un tipo
+anche ai modelli caricati in passato.
+<colour id="0" />Assegnare un tipo a un modello non
+limita il modo in cui puoi usarlo. È
+inoltre possibile cambiare il tipo del
+modello anche dopo averlo caricato.<colour id="65535" /></message>
+	<message label="2449" attrib="01 00">Hai modificato il tipo del modello.</message>
+	<message label="2450" attrib="08 09">Non è presente alcun modello
+assegnato all'ID stilista
+<colour id="1" /><tag a="140" b="17" arg="0xcd00" /><colour id="65535" />.
+Vuoi selezionare un'altra voce?</message>
+	<message label="2450_a" attrib="01 00">Torna al menu</message>
+	<message label="2450_b" attrib="01 00">Sì</message>
+	<message label="2446_a" attrib="01 00">Torna al menu</message>
+	<message label="2446_b" attrib="01 00">Modifica</message>
 	<message label="2501" attrib="01 09">Ogni giocatore può inviare fino a
 2 messaggi online al giorno tramite
 il Catalogo Nook.</message>
@@ -1081,6 +1155,10 @@ e applicarvi vari filtri ed effetti.<pageBreak /><colour id="0" />Le immagini sa
 nell'album del menu HOME e
 potranno essere viste dagli altri
 utenti che usano la stessa console.<colour id="65535" /></message>
+	<message label="5002" attrib="01 00"><colour id="1" />Attivare/disattivare la guida dei comandi<colour id="65535" />
+<colour id="1" />Premi  <colour id="65535" />per attivare o meno la guida.
+<colour id="0" />Se impugni il Joy-Con in orizzontale,
+la guida non può essere disattivata.<colour id="65535" /></message>
 	<message label="5011" attrib="01 00"><colour id="1" />Miglia di Nook<colour id="65535" />
 Hai deciso di partecipare
 al programma miglia di Nook!<pageBreak />Guadagna <colour id="1" />miglia di Nook <colour id="65535" />portando
@@ -1425,6 +1503,12 @@ personalizzato che hai modificato.
 Se vuoi sfoggiare le modifiche a un
 modello personalizzato, seleziona il
 modello modificato, quindi <colour id="1" />Indossa<colour id="65535" />.</message>
+	<message label="5302_01" attrib="0e 09">Hai salvato il modello personalizzato
+che indossi al momento.
+
+Se vuoi indossare il nuovo modello,
+sceglilo e poi seleziona <colour id="1" />Indossa
+<colour id="65535" />quando il sogno è finito.</message>
 	<message label="5303" attrib="01 09">Il completo creato con la bacchetta
 include un modello personalizzato.<pageBreak />Il modello incluso nel completo
 non scomparirà nemmeno se
@@ -1559,4 +1643,17 @@ a Internet per avviare la procedura.</message>
 	<message label="8020_a" attrib="01 00">No</message>
 	<message label="8020_b" attrib="01 00">OK</message>
 	<message label="8019" attrib="01 00">Riavvio del gioco in corso.</message>
+	<message label="9001" attrib="08 00">Vuoi avviare il processo di ripristino
+dei dati di backup dell'isola?</message>
+	<message label="9001_a" attrib="01 00">No</message>
+	<message label="9001_b" attrib="01 00">Sì</message>
+	<message label="9015" attrib="05 00">Il software verrà ora avviato.</message>
+	<message label="9015_a" attrib="01 00">OK</message>
+	<message label="9012" attrib="05 00">Verifica dei dati di backup dell'isola...</message>
+	<message label="9012_a" attrib="01 00">OK</message>
+	<message label="9013" attrib="05 00">Verifica dei dati di backup dell'isola
+ultimata. Ora tornerai al gioco.</message>
+	<message label="9013_a" attrib="01 00">OK</message>
+	<message label="9016" attrib="02 00">Salvataggio in corso.
+<colour id="0" />Non toccare il pulsante POWER .<colour id="65535" /></message>
 </msbt>

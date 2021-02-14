@@ -31,6 +31,8 @@ chiaro?<endTag a="100" b="5" /></message>
 	<message label="021_01" attrib="00 00 13"><tag a="100" b="5" />OK,<delay20 /> sei <tag a="110" b="1" /> di <tag a="110" b="33" />, giusto?<endTag a="100" b="5" /></message>
 	<message label="021_02" attrib="00 00 13"><tag a="100" b="5" />Vediamo<tag a="110" b="0" /> <delay20 />Sei <tag a="110" b="1" /> di <tag a="110" b="33" />, giusto?<pageBreak /><anim id="Nodding" target="player" targetSpec="" /><delay frames="30" />Molto bene.<endTag a="100" b="5" /></message>
 	<message label="021_03" attrib="00 00 13"><tag a="100" b="5" />Un secondo<tag a="110" b="0" /><delay20 /> Oh, ehi, <tag a="110" b="1" />.<delay20 /> Sei di nuovo nei guai?<anim id="Nodding" target="player" targetSpec="" /><endTag a="100" b="5" /></message>
+	<message label="021_04" attrib="00 00 13"><tag a="100" b="5" />OK,<delay20 /> sei <tag a="110" b="1" /> di <tag a="110" b="34" />, giusto?<endTag a="100" b="5" /></message>
+	<message label="021_05" attrib="00 00 13"><tag a="100" b="5" />Vediamo<tag a="110" b="0" /> <delay20 />Sei <tag a="110" b="1" /> di <tag a="110" b="34" />, giusto?<pageBreak /><anim id="Nodding" target="player" targetSpec="" /><delay frames="30" />Molto bene.<endTag a="100" b="5" /></message>
 	<message label="022" attrib="00 00 13" />
 	<message label="023_01" attrib="02 00 13"><tag a="100" b="5" />È molto semplice: un soccorso costa
 <colour id="1" />100<colour id="65535" /> miglia.<delay20 /> Che ne dici?<endTag a="100" b="5" /></message>
@@ -144,6 +146,19 @@ dato, devo lasciarti <colour id="1" />dove atterrano
 gli aerei<colour id="65535" />.
 In questo modo, puoi ricominciare
 da capo. <delay20 />Preparati!<endTag a="100" b="5" /></message>
+	<message label="049_02" attrib="02 00 13"><tag a="100" b="5" />Che strano. <delay20 />Scusa, <delay20 />sei finit<gender2 m="o" f="a" />
+un po' fuori dai radar o sbaglio?<delay frames="40" />
+Non riesco a rintracciarti<tag a="110" b="0" />
+Uhm. <delay20 />Per stare sicuri, sarà meglio
+se ti riporto alla <colour id="1" />piazza più vicina<colour id="65535" />.<delay20 />
+Per te va bene?<endTag a="100" b="5" /></message>
+	<message label="049_02_a" attrib="00 00 13">Sì, grazie!</message>
+	<message label="049_02_b" attrib="00 00 13"><anim id="Negative" target="player" targetSpec="" />Lascio perdere.</message>
+	<message label="049_03" attrib="00 00 13"><tag a="100" b="5" />Grazie della conferma. <delay20 />Allora
+adesso ti riporto alla piazza della
+tua isola.<pageBreak />E dato che la destinazione è decisa
+dal regolamento, non devi pagare.<delay20 />
+Tieni quelle miglia per un'altra volta!<endTag a="100" b="5" /></message>
 	<message label="050_01" attrib="00 00 13"><tag a="100" b="5" />Alla tua tenda? <delay20 />Ma certo.<endTag a="100" b="5" /></message>
 	<message label="050_02" attrib="00 00 13"><tag a="100" b="5" />A casa dolce casa? <delay20 />Agli ordini.<endTag a="100" b="5" /></message>
 	<message label="050_03" attrib="00 00 13"><tag a="100" b="5" />In piazza? <delay20 />Nessun problema.<endTag a="100" b="5" /></message>
@@ -208,6 +223,10 @@ esistenziali.<endTag a="100" b="5" /></message>
 	<message label="064_03" attrib="00 00 13"><tag a="100" b="5" />Stai usando il <colour id="1" />Punto Nook<colour id="65535" /> al centro
 servizi ogni giorno per guadagnare
 miglia, vero?<delay frames="40" /> Sono le basi, eh.<endTag a="100" b="5" /></message>
+	<message label="065" attrib="00 00 13"><tag a="60" b="20" /></message>
+	<message label="065_01" attrib="00 00 13"><tag a="100" b="5" />Usare il soccorso gratuitamente<tag a="110" b="0" />
+Ma chi ti credi di essere?!<pageBreak />Bah.<delay20 /> Magari nei tuoi sogni è così,
+ma non nella realtà!<endTag a="100" b="5" /></message>
 	<message label="2001" attrib="00 00 13"><tag a="100" b="5" />Noti qualcosa di diverso dal solito?<delay frames="30" />
 Immaginavo che questo particolare
 non ti sarebbe sfuggito.
