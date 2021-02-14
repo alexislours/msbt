@@ -4,7 +4,7 @@
 	<message label="001_a" attrib="04 00 00 00 00 00 00 00">Конечно, знаю.</message>
 	<message label="001_b" attrib="05 00 00 00 00 00 00 00">Нет, не знаю.</message>
 	<message label="002" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="23" arg="0xd 0xe 0xf 0xffff" /></message>
-	<message label="003" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x1 0x10 0x11 0x12" /></message>
+	<message label="003" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x13 0x10 0x11 0x14" /></message>
 	<message label="004" attrib="00 00 00 00 00 00 00 00"><anim id="Clapping" target="actor" targetSpec="" />Я впечатлена!<delay20 /> <anim id="FaintSmile" target="actor" targetSpec="" />Друзья всегда просят
 <delay20 />привезти им <tag a="50" b="23" arg="0xcd01" /><tag a="110" b="7" arg="0xcd01" /><delay8 /> с острова
 <tag a="110" b="8" /><delay8 /><tag a="110" b="0" /><pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Ты их тоже обязательно попробуй!</message>
@@ -28,6 +28,17 @@
 будет в настоящем здании с кучей
 экспонатов. <anim id="Nodding" target="actor" targetSpec="" />Уже жду не дождусь!</message>
 	<message label="017" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="3" arg="0x15 0x16 0x17 0x18 0x19" /></message>
+	<message label="018" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" /><colour id="1" />Музей <colour id="65535" />на этом острове
+потрясающий. <delay8 /><tag a="50" b="3" /><tag a="110" b="5" />!<pageBreak />Я просто влюбилась в это место
+<delay20 /><anim id="Love" target="actor" targetSpec="" />с самого первого дня!<pageBreak /><anim id="Blushing" target="actor" targetSpec="" />Я не преувеличиваю!<delay20 /><anim id="Eh" target="actor" targetSpec="" /> Если не
+веришь,<delay8 /> сходи и убедишься сам<gender2 m="" f="а" />!</message>
+	<message label="019" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Как же мне повезло жить на этом
+острове!<delay40 /><anim id="HappyFlower" target="actor" targetSpec="" /> Каждый день просыпаться
+в таком райском уголке!<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Я бы хотела узнать побольше обо
+всем, что нас окружает. <delay20 /><anim id="AbsentMindedness" target="actor" targetSpec="" />Например,
+изучить местную флору и фауну.<pageBreak /><anim id="Oops" target="actor" targetSpec="" />Пока я даже не представляю, с чего
+начать.</message>
+	<message label="020" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="4" arg="0x15 0x16 0x17 0x18 0x19 0x12" /></message>
 	<message label="021" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1c00 0x1900 0xcd00" /></message>
 	<message label="022" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1d01 0x1900 0xcd00" /></message>
 	<message label="023" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1e02 0x1900 0xcd00" /></message>
@@ -47,6 +58,14 @@
 <colour id="1" />музее<colour id="65535" /> сейчас выставляют
 <anim id="Pardon" target="actor" targetSpec="" /><tag a="50" b="23" arg="0xcd01" /><tag a="135" b="13" arg="0x2" />?<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Весь остров гордится, <delay20 /><anim id="SmugFace" target="actor" targetSpec="" />что у нас есть
 такой экспонат.</message>
+	<message label="031" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />В нашем музее есть
+<tag a="135" b="13" arg="0x3" />.<delay20 /> <anim id="Nodding" target="actor" targetSpec="" />В нем
+обязательно стоит побывать.<pageBreak /><anim id="Negative" target="actor" targetSpec="" />Рассматривать произведение
+искусства на фотографии — <anim id="FaintSmile" target="actor" targetSpec="" />совсем
+не то, что увидеть оригинал.<pageBreak /><anim id="AbsentMindedness" target="actor" targetSpec="" />В музее чувствуешь контакт
+с художником<tag a="110" b="0" /><pageBreak /><anim id="Greeting" target="actor" targetSpec="" />Очень рекомендую музей всем
+посетителям нашего острова.
+<delay8 /><tag a="50" b="3" /><tag a="110" b="5" />!</message>
 	<message label="201" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="0" arg="0xca 0xcd" /></message>
 	<message label="202" attrib="00 00 02 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Мы живем на разных островах,<delay20 /> но
 я надеюсь<tag a="110" b="0" /> <anim id="Hesitate" target="actor" targetSpec="" />что ты вспоминаешь

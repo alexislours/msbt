@@ -125,6 +125,14 @@
 	<message label="106" attrib="00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />우와!<delay frames="30" />
 <anim id="Smiling" target="actor" targetSpec="" />한꺼번에 가지고 오셨군요!<delay frames="40" />
 <tag a="10" b="6" /><anim id="Thinking" target="actor" targetSpec="" />어디 보자<tag a="110" b="0" /><delay20 /><endTag a="10" b="6" /><10_8 arg="30" /></message>
+	<message label="107" attrib="00 00 00 06"><tag a="10" b="12" /><anim id="Surprised" target="actor" targetSpec="" /><size value="150" />아앗!<size value="100" /><delay frames="15" /><10_9 />
+<anim id="Confused" target="actor" targetSpec="" />그런데 이것들은 <delay20 />전부 가짜네요<tag a="110" b="0" /><pageBreak /><anim id="Worried" target="actor" targetSpec="" />죄송합니다만 <delay20 /><anim id="Negative" target="actor" targetSpec="" />위조품을
+전시할 수는 없기 때문에<delay20 />
+<anim id="Serious" target="actor" targetSpec="" />이 물건들은 사양하겠습니다<tag a="110" b="0" /><anim id="EmotEnd" target="actor" targetSpec="" /></message>
+	<message label="108" attrib="00 00 00 06"><tag a="10" b="12" /><anim id="Surprised" target="actor" targetSpec="" /><size value="150" />아앗!<size value="100" /><10_8 arg="5" /><10_9 /><pageBreak /><anim id="Confused" target="actor" targetSpec="" />그런데 이거<delay20 /> 가짜 미술품도
+섞여 있네요<tag a="110" b="0" /><pageBreak /><anim id="Worried" target="actor" targetSpec="" />죄송합니다만 <delay20 /><anim id="Negative" target="actor" targetSpec="" />위조품을
+전시할 수는 없기 때문에<tag a="110" b="0" /><pageBreak /><anim id="Nodding" target="actor" targetSpec="" />그 이외의 작품만<delay20 />
+<anim id="Smiling" target="actor" targetSpec="" />감사히 받겠습니다!<anim id="EmotEnd" target="actor" targetSpec="" /></message>
 	<message label="109" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />네!<delay frames="30" />
 <anim id="Smiling" target="actor" targetSpec="" />그럼 감사히<delay20 /> <anim id="EmotEnd" target="actor" targetSpec="" />잘 받겠습니다!</message>
 	<message label="110" attrib="00 00 00 00"><tag a="110" b="0" /><anim id="Shocked" target="actor" targetSpec="" />앗, <delay20 />번거롭게
@@ -210,6 +218,38 @@
 <anim id="ShyBoy" target="actor" targetSpec="" />그럼 다음에 기회가 될 때에<delay20 />
 말씀드리겠습니다<tag a="110" b="0" /><pageBreak /><anim id="Nodding" target="actor" targetSpec="" />이 기증품은<delay20 />
 <anim id="FaintSmile" target="actor" targetSpec="" />소중히 보관하도록 하겠습니다!</message>
+	<message label="135" attrib="00 00 00 00"><tag a="60" b="20" /></message>
+	<message label="135_01" attrib="00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />오호～ <delay8 />이것은!<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" /><tag a="125" b="0" arg="0x0" /><gender5 m="이군요" f="군요" />?!<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />허, 뭐라고 말을 해야 할까요<tag a="110" b="0" /><delay8 />
+이 정도로<delay8 />
+<anim id="Smiling" target="actor" targetSpec="" /><tag a="125" b="0" arg="0x0" />일 줄이야!</message>
+	<message label="135_02" attrib="00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />오호～!<delay8 />
+이것은 그 유명한<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" /><tag a="125" b="0" arg="0x0" /><gender5 m="이군요" f="군요" />?!
+<anim id="Nodding" target="actor" targetSpec="" />상상했던 것보다<delay8 />
+<anim id="Smiling" target="actor" targetSpec="" />훨씬 <tag a="125" b="0" arg="0x0" /><gender5 m="이란" f="란" />
+느낌이 드는군요, <delay8 />네!</message>
+	<message label="135_03" attrib="00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />오호～! <delay8 />이것은 바로<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" /><tag a="125" b="0" arg="0x0" />
+아닙니까!
+<anim id="Nodding" target="actor" targetSpec="" />이야～ <delay8 />실물은 저도 처음 봤습니다!<delay20 />
+<anim id="Smiling" target="actor" targetSpec="" />'<tag a="125" b="0" arg="0x0" />!'<delay8 />
+이 말밖에는 할 수가 없습니다!</message>
+	<message label="147" attrib="00 00 00 00">이 기증품은<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />감사히 받도록 하겠습니다!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />전시실의 작품 앞에<delay8 />
+작품에 대한 설명을 준비해둘 테니<delay frames="30" />
+<anim id="Hello" target="actor" targetSpec="" />시간 되실 때 천천히 읽어보세요!</message>
+	<message label="138" attrib="00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />오호～!<delay8 />
+이것은 그 유명한<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" /><tag a="125" b="0" arg="0x0" /> 아닙니까!</message>
+	<message label="148" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />상상했던 것보다<delay8 /> 훨씬
+<anim id="Smiling" target="actor" targetSpec="" /><tag a="125" b="0" arg="0x0" /> 느낌이
+물씬 풍깁니다, <delay8 />네<tag a="110" b="0" /></message>
+	<message label="139" attrib="00 00 00 00"><tag a="10" b="12" />음? <delay8 /><anim id="Surprised" target="actor" targetSpec="" /><10_10 /><size value="150" />아앗!!<size value="100" /><10_9 /><delay20 />
+<anim id="Frantic" target="actor" targetSpec="" />자세히 보니 이건<delay8 /> 가짜네요!</message>
+	<message label="140" attrib="00 00 00 00"><anim id="Serious" target="actor" targetSpec="" /><tag a="110" b="0" />저희가 <delay20 /><anim id="Negative" target="actor" targetSpec="" />위조품을
+전시할 수는 없기 때문에<delay20 />
+<anim id="Nodding" target="actor" targetSpec="" />이건 돌려드리겠습니다, <delay8 /><anim id="EmotEnd" target="actor" targetSpec="" />네<tag a="110" b="0" /></message>
 	<message label="141" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />오호! <delay8 />감사합니다! <delay20 /><tag a="110" b="0" /><delay8 /><anim id="Shocked" target="actor" targetSpec="" />어라?<delay20 />
 <anim id="Thinking" target="actor" targetSpec="" />죄송합니다만 제가 보기엔<delay20 />
 기증받을 만한 물건이 없는 것 같습니다<tag a="110" b="0" /></message>
@@ -218,6 +258,9 @@
 <anim id="EmotEnd" target="actor" targetSpec="" />이런 것들입니다!</message>
 	<message label="143" attrib="00 00 00 00">컬렉션으로서 보관하고 있는 것은<delay20 />
 <anim id="AbsentMindedness" target="actor" targetSpec="" /><colour id="1" />곤충<colour id="65535" />, <delay20 /><colour id="1" />물고기<colour id="65535" />, <delay20 />그리고 <colour id="1" />화석<colour id="65535" /><tag a="110" b="0" /><delay20 />
+<anim id="EmotEnd" target="actor" targetSpec="" />이런 것들입니다!</message>
+	<message label="146" attrib="00 00 00 00">컬렉션으로서 보관하고 있는 것은<delay20 />
+<anim id="AbsentMindedness" target="actor" targetSpec="" /><colour id="1" />곤충<colour id="65535" />, <delay20 /><colour id="1" />물고기<colour id="65535" />, <delay20 /><colour id="1" />화석<colour id="65535" />, <delay20 />그리고 <colour id="1" />미술품<colour id="65535" /><tag a="110" b="0" /><delay20 />
 <anim id="EmotEnd" target="actor" targetSpec="" />이런 것들입니다!</message>
 	<message label="144" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />참고로 <delay8 />화석은 <colour id="1" />감정<colour id="65535" />이 필요하기 때문에<delay20 />
 <anim id="EmotEnd" target="actor" targetSpec="" />정체불명의 화석을 가지고 계시다면<delay8 />
@@ -354,6 +397,18 @@
 	<message label="306" attrib="00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />오호～!<delay frames="30" />
 이건<anim id="Smiling" target="actor" targetSpec="" /> <tag a="125" b="0" arg="0x0" /><gender5 m="이" f="가" />
 아닙니까!</message>
+	<message label="315" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />전시실에 있는 작품 앞에<delay8 />
+작품에 대한 설명을 적어 두었습니다!<delay frames="30" />
+<anim id="Hello" target="actor" targetSpec="" />시간 되실 때 천천히 읽어보세요!</message>
+	<message label="316" attrib="00 00 00 00"><tag a="125" b="0" arg="0x0" /><gender5 m="은" f="는" /><delay20 />
+<anim id="Thinking" target="actor" targetSpec="" />아직 저희 박물관에 없는 작품입니다<tag a="110" b="0" /><pageBreak /><anim id="Nodding" target="actor" targetSpec="" />미술품에 대한 설명은<delay8 />
+전시 작품 앞에 준비할 예정이니<delay frames="30" />
+<anim id="Smiling" target="actor" targetSpec="" />우선은 기증을 부탁드리겠습니다!</message>
+	<message label="307" attrib="00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />오호～!<delay frames="30" />
+이건<anim id="Smiling" target="actor" targetSpec="" /> <tag a="125" b="0" arg="0x0" /><gender5 m="이" f="가" />
+아닙니까<tag a="110" b="0" /><pageBreak /><anim id="Eh" target="actor" targetSpec="" /><delay frames="60" /><anim id="Worried" target="actor" targetSpec="" />근데 이거 <delay20 />자세히 보니 좀<tag a="110" b="0" /><10_4 />
+<anim id="Confused" target="actor" targetSpec="" />아닛! <delay8 />역시 그랬군요!<delay20 />
+이건 위작<tag a="110" b="0" /><delay20 /> 그러니까 가짜입니다!</message>
 	<message label="308" attrib="02 00 00 00"><anim id="Eh" target="actor" targetSpec="" />오호, <delay frames="30" /><anim id="Thinking" target="actor" targetSpec="" />이건 제대로 감정을 해보지 않으면<delay frames="30" />
 어떤 '화석'인지 알 수가 없겠군요<tag a="110" b="0" />
 <anim id="EmotEnd" target="actor" targetSpec="" />괜찮으시면<delay8 /> 지금 <anim id="QuestionMark" target="actor" targetSpec="" />감정을 해드릴까요?</message>
@@ -367,6 +422,9 @@
 	<message label="313" attrib="00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />오옷!<delay frames="40" />
 그건 <tag a="125" b="0" arg="0x0" /><gender5 m="이" f="가" />
 아닙니까!</message>
+	<message label="351" attrib="00 00 00 00"><anim id="WrySmile" target="actor" targetSpec="" />뭐, 어쨌든 미술품 중에는
+이런 가짜가 섞여 있으니
+주의하시기를 바랍니다<tag a="110" b="0" /></message>
 	<message label="352" attrib="00 00 00 00"><tag a="110" b="0" />네, <delay20 /><anim id="Serious" target="actor" targetSpec="" />대충 이 정도에서<10_4 />
 <anim id="Worried" target="actor" targetSpec="" />그 <tag a="125" b="0" arg="0x0" /><gender5 m="은" f="는" /><delay20 />
 슬슬 정리하도록 하지요<tag a="110" b="0" /></message>
@@ -443,6 +501,13 @@
 드디어 해내셨군요!
 <anim id="EmotEnd" target="actor" targetSpec="" /><delay20 />이걸로 화석은 전부 다 모였습니다!<delay frames="30" />
 <anim id="Laughing" target="actor" targetSpec="" />이런 걸 완벽하다고 하는 거군요!<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />이야～ <delay20 />정말로 <delay8 /><anim id="BigSmile" target="actor" targetSpec="" />감사드립니다!<delay8 /> 네!<delay20 /><anim id="FaintSmile" target="actor" targetSpec="" /></message>
+	<message label="406" attrib="00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />우와앗?!<delay20 />
+이걸 마지막으로 미술품을<delay frames="30" />
+전부 다 모은 것 같습니다!<pageBreak /><anim id="Clapping" target="actor" targetSpec="" />이것 참 어떻게 감사를 드려야 할지!<delay20 />
+아트 컬렉션이<delay8 /> 완성되었군요!<delay frames="40" />
+오호～!<delay20 /> 기쁜 일입니다!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />마지막 작품을 <delay8 />채워주신
+<tag a="110" b="1" />님을<delay frames="30" />
+<anim id="EmotEnd" target="actor" targetSpec="" />전설이라고 불러야겠습니다!<pageBreak /><anim id="BigSmile" target="actor" targetSpec="" />협력해주셔서 정말 감사드립니다!<delay20 /><anim id="FaintSmile" target="actor" targetSpec="" /></message>
 	<message label="501" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />우리 박물관에는 <delay20 />이 세상에 존재하는
 다양한 명품과 진귀한 물품 여러 가지가<delay frames="30" />
 전시되어 있습니다!<pageBreak /><anim id="HappyFlower" target="actor" targetSpec="" />박물관이 자랑하는 컬렉션을<delay20 />

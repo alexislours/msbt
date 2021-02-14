@@ -5,7 +5,7 @@
 	<message label="001_a" attrib="04 00 00 00 00 00 00 00">알아!</message>
 	<message label="001_b" attrib="05 00 00 00 00 00 00 00">몰라</message>
 	<message label="002" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="23" arg="0xd 0xe 0xf 0xffff" /></message>
-	<message label="003" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x1 0x10 0x11 0x12" /></message>
+	<message label="003" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x1 0x10 0x11 0x14" /></message>
 	<message label="004" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />이런, 실례했군<delay frames="40" />
 <anim id="Nodding" target="actor" targetSpec="" />알고 있다면 됐어<tag a="110" b="0" />
 맛있으니까 먹어보고 가라구! <tag a="110" b="6" />!</message>
@@ -28,12 +28,18 @@
 <anim id="EmotEnd" target="actor" targetSpec="" />이름하여 <colour id="1" />너굴 상점<colour id="65535" />!<pageBreak /><anim id="Scheming" target="actor" targetSpec="" />그대의 <tag a="110" b="32" />에 없는 물건이 있을지도 몰라<tag a="110" b="0" /><10_4 />
 <anim id="Nodding" target="actor" targetSpec="" />백문이 불여일견!<delay20 />
 한번 방문해보라구, <tag a="110" b="6" />～</message>
-	<message label="016" attrib="00 00 00 00 00 00 00 00"><anim id="Hello" target="actor" targetSpec="" />이 <tag a="110" b="8" />에<delay20 />
-<colour id="3" />부엉<colour id="65535" />의 텐트가 있다는 거
+	<message label="016" attrib="00 00 00 00 00 00 00 00"><anim id="Hello" target="actor" targetSpec="" />이 <tag a="110" b="33" />에<delay20 />
+<colour id="3" />부엉<colour id="65535" />씨의 텐트가 있다는 거
 알고 있나?<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />지금은 귀여운 텐트지만<delay20 />
 언젠가 그곳에 <colour id="1" />박물관<colour id="65535" />을 세울 모양이더군<delay frames="40" />
 <anim id="Nodding" target="actor" targetSpec="" />꿈이 있다는 건 정말 멋지다니까, <tag a="110" b="6" /></message>
 	<message label="017" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="3" arg="0x15 0x16 0x17 0x18 0x19" /></message>
+	<message label="018" attrib="00 00 00 00 00 00 00 00"><anim id="Hello" target="actor" targetSpec="" />그대는 혹시 가 봤나?<delay frames="40" />
+<anim id="Serious" target="actor" targetSpec="" /><tag a="110" b="33" /><gender5 m="이" f="가" /> 자랑하는<delay20 />
+<colour id="1" />박물관<colour id="65535" />에 말이야<tag a="110" b="0" /><pageBreak /><anim id="Explain" target="actor" targetSpec="" />우리 <tag a="110" b="32" />에 서식하는 생물들뿐만 아니라<delay20 />
+<anim id="Explain" target="actor" targetSpec="" />미술품도 전시하고 있지<delay frames="40" />
+<anim id="Nodding" target="actor" targetSpec="" />마음이 내키면 한번 방문해줘, <tag a="110" b="6" />!</message>
+	<message label="020" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="4" arg="0x15 0x16 0x17 0x18 0x19 0x12" /></message>
 	<message label="021" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1c00 0x1900 0xcd00" /></message>
 	<message label="022" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1d01 0x1900 0xcd00" /></message>
 	<message label="023" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1e02 0x1900 0xcd00" /></message>
@@ -63,6 +69,11 @@
 <anim id="AbsentMindedness" target="actor" targetSpec="" /><delay frames="20" />오랜 세월을 거쳐 변한 모습엔<delay20 />
 강한 메시지마저 담겨 있는 것 같아<tag a="110" b="0" /><delay20 />
 <anim id="Nodding" target="actor" targetSpec="" />그야말로 낭만의 결정체라구, <tag a="110" b="6" /></message>
+	<message label="031" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />예술품을 감상하면 <delay20 />마음이 깨끗해지는 것 같아<10_4 />
+<anim id="Silent" target="actor" targetSpec="" />그중에서도 내가 추천하는 건<tag a="110" b="0" /><delay frames="30" />
+<anim id="SmugFace" target="actor" targetSpec="" />역시 <tag a="135" b="13" arg="0x3" /><gender5 m="이" f="" />야!<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />궁금하면 그대도<delay20 />
+<tag a="110" b="34" />의 <colour id="1" />박물관<colour id="65535" />에서<delay frames="40" />
+<anim id="Nodding" target="actor" targetSpec="" />예술가의 소울을 느껴보라구, <tag a="110" b="6" />!</message>
 	<message label="201" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="0" arg="0xca 0xce" /></message>
 	<message label="202" attrib="00 00 03 00 00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />하나 물어봐도 될까?<delay20 />
 <tag a="110" b="4" /><gender2 m="군" f="양" /><tag a="110" b="0" /><pageBreak /><anim id="Hesitate" target="actor" targetSpec="" />내가 이사 간 후에<delay20 />

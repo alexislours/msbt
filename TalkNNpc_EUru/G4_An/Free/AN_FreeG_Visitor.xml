@@ -5,7 +5,7 @@
 	<message label="001_a" attrib="04 00 00 00 00 00 00 00">Ой! М-м, этот!</message>
 	<message label="001_b" attrib="05 00 00 00 00 00 00 00">Может, тот?</message>
 	<message label="002" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="23" arg="0xd 0xe 0xf 0xffff" /></message>
-	<message label="003" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x1 0x10 0x11 0x12" /></message>
+	<message label="003" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x13 0x10 0x11 0x14" /></message>
 	<message label="004" attrib="00 00 00 00 00 00 00 00"><anim id="Scheming" target="actor" targetSpec="" />И<tag a="110" b="0" /> ты угадал<gender2 m="" f="а" />!<delay frames="40" /> <anim id="Explain" target="actor" targetSpec="" />Конечно же, это
 <tag a="110" b="7" arg="0xcd01" />. Не забудь купить
 хотя бы парочку! <tag a="50" b="3" /><tag a="110" b="5" />!</message>
@@ -34,6 +34,16 @@
 увидишь, скоро здесь будет так
 круто<tag a="110" b="0" /><delay8 /> <anim id="BigSmile" target="actor" targetSpec="" />Ага, очень круто!</message>
 	<message label="017" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="3" arg="0x15 0x16 0x17 0x18 0x19" /></message>
+	<message label="018" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Слушай!<delay8 /> Ты уже видел<gender2 m="" f="а" /> нашу
+художественную галерею в <colour id="1" />музее<colour id="65535" />?<delay20 />
+Если нет, обязательно сходи туда.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Во-первых, там классно.<delay20 /> Во-вторых,
+там классные художества.<delay20 /> <anim id="Hello" target="actor" targetSpec="" />Дважды
+классно! <tag a="50" b="3" /><tag a="110" b="6" />!</message>
+	<message label="019" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Зачем ты к нам? Наловить на
+острове <tag a="110" b="8" /> рыбы и насекомых и увезти домой?<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />В таком случае тебе повезло.<delay frames="40" />
+<anim id="SmugFace" target="actor" targetSpec="" />У нас этого добра хоть завались!
+<tag a="50" b="3" /><tag a="110" b="6" />!</message>
+	<message label="020" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="4" arg="0x15 0x16 0x17 0x18 0x19 0x12" /></message>
 	<message label="021" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1c00 0x1900 0xcd00" /></message>
 	<message label="022" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1d01 0x1900 0xcd00" /></message>
 	<message label="023" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1e02 0x1900 0xcd00" /></message>
@@ -52,6 +62,11 @@
 	<message label="030" attrib="00 00 00 00 00 00 00 00"><anim id="Pardon" target="actor" targetSpec="" />Обязательно сходи в наш <colour id="1" />музей <colour id="65535" />на
 выставку окаменелостей. Там есть
 так<tag a="50" b="24" arg="0x29 0xcd00 0x4 0x43e 0x439 0x4 0x430 0x44f 0x4 0x43e 0x435 0x4 0x438 0x435" /> <tag a="135" b="13" arg="0x2" />!</message>
+	<message label="031" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />На меня находит такое вдохновение, стоит мне только посмотреть на
+<tag a="50" b="23" arg="0xcd01" /><tag a="135" b="13" arg="0x3" />.<pageBreak /><anim id="AbsentMindedness" target="actor" targetSpec="" />Ну, <delay8 />новые рецепты,<delay8 /> новые идеи для
+сада<delay8 /> — всего не перечислить<tag a="110" b="0" /><delay20 />
+<anim id="Greeting" target="actor" targetSpec="" />Хоть беги и сразу внедряй в жизнь!<pageBreak /><anim id="BigSmile" target="actor" targetSpec="" />Я и не знала, что <colour id="1" />музей <colour id="65535" />будет так
+на меня действовать! <tag a="50" b="3" /><tag a="110" b="6" />!</message>
 	<message label="201" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="0" arg="0xca 0xd2" /></message>
 	<message label="202" attrib="00 00 01 00 00 00 00 00"><anim id="WrySmile" target="actor" targetSpec="" />Так и знала, что ты еще приедешь!<delay frames="40" />
 <anim id="Smiling" target="actor" targetSpec="" />Ты здесь, чтобы повидать меня<delay8 />

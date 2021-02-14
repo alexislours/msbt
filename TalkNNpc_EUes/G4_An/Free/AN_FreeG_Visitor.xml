@@ -5,7 +5,7 @@ de <tag a="110" b="8" />?</message>
 	<message label="001_a" attrib="04 00 00 00 00 00 00 00">¡Esa de ahí!</message>
 	<message label="001_b" attrib="05 00 00 00 00 00 00 00">Una... muy rica</message>
 	<message label="002" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="23" arg="0xd 0xe 0xf 0xffff" /></message>
-	<message label="003" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x1 0x10 0x11 0x12" /></message>
+	<message label="003" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x13 0x10 0x11 0x14" /></message>
 	<message label="004" attrib="00 00 00 00 00 00 00 00"><anim id="Frantic" target="actor" targetSpec="" />¡Y yo que pensaba que te iba a pillar!<delay8 />
 <anim id="OhGeez" target="actor" targetSpec="" />Pues nada, esta vez ganas tú.<delay8 />
 ¡Claro que es <anim id="EmotEnd" target="actor" targetSpec="" /><tag a="50" b="1" /><tag a="110" b="7" arg="0xcd00" />!</message>
@@ -41,6 +41,21 @@ en la isla. <delay8 /><anim id="Blushing" target="actor" targetSpec="" />¡Qué 
 peña a visitarlo. <anim id="SmugFace" target="actor" targetSpec="" />¡Menudo ambientazo
 vamos a tener por aquí!</message>
 	<message label="017" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="3" arg="0x15 0x16 0x17 0x18 0x19" /></message>
+	<message label="018" attrib="00 00 00 00 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" /><anim id="OhGeez" target="actor" targetSpec="" />¿Ya te has pasado a ver la galería
+de arte del <colour id="1" />museo<colour id="65535" />? <delay8 />Porque si no,
+¡te estás perdiendo algo muy gordo!
+<anim id="Negative" target="actor" targetSpec="" />Mira que yo no controlo mucho de
+arte, <delay8 /><anim id="SmugFace" target="actor" targetSpec="" />pero aun así creo que merece
+la pena culturizarse a menudo.
+<anim id="Scheming" target="actor" targetSpec="" />Además, nunca está de más
+documentarse por si tienes que
+organizar un fiestón temático.</message>
+	<message label="019" attrib="00 00 00 00 00 00 00 00">Bueno, <anim id="QuestionMark" target="actor" targetSpec="" />¿y qué te trae por aquí?<delay8 />
+¿Vienes a por bichos y peces que
+te puedas llevar a casa, maj<gender2 m="o" f="a" />?
+Normal, <anim id="SmugFace" target="actor" targetSpec="" />¡si es que la fauna local
+de <tag a="110" b="8" /> es la más flipante del mundo mundial!</message>
+	<message label="020" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="4" arg="0x15 0x16 0x17 0x18 0x19 0x12" /></message>
 	<message label="021" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1c00 0x1900 0xcd00" /></message>
 	<message label="022" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1d01 0x1900 0xcd00" /></message>
 	<message label="023" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1e02 0x1900 0xcd00" /></message>
@@ -63,6 +78,13 @@ un rato largo, pásate a verl<tag a="50" b="17" arg="0x29 0xcd00 0x2 0x6f 0x2 0x
 <tag a="110" b="8" /> sin ir al <colour id="1" />museo<colour id="65535" />!<pageBreak /><anim id="SmugFace" target="actor" targetSpec="" />En la sección de fósiles tienen
 una movida que te dejará flipando:<delay8 />
 ¡<tag a="50" b="2" /><tag a="135" b="13" arg="0x2" />!</message>
+	<message label="031" attrib="00 00 00 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Me flipa a saquísimo pasarme a ver
+<tag a="50" b="1" /><tag a="135" b="13" arg="0x3" />.<pageBreak /><anim id="ColdChill" target="actor" targetSpec="" />A veces me entra una sensación
+parecida al aburrimiento, <delay8 /><anim id="Nodding" target="actor" targetSpec="" />pero
+entonces voy al <colour id="1" />museo<colour id="65535" /> y se me pasa.
+<anim id="Scheming" target="actor" targetSpec="" />¡Es broma! <delay8 />¿Aburrirme, yo? <delay8 />¡Jamás!<delay8 />
+<anim id="Greeting" target="actor" targetSpec="" />En fin, <delay8 />el caso es que te recomiendo
+que vayas al museo. <anim id="EmotEnd" target="actor" targetSpec="" /><delay8 />¡Te va a molar!</message>
 	<message label="201" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="0" arg="0xca 0xd2" /></message>
 	<message label="202" attrib="00 00 01 00 00 00 00 00"><anim id="OhGeez" target="actor" targetSpec="" />Ahora que no nos oye nadie más,
 confiesa: <delay8 /><anim id="Scheming" target="actor" targetSpec="" />¿has venido a verme a

@@ -15,9 +15,7 @@ nur um bei mir einzukaufen?
 	<message label="003_a" attrib="00 00 00 00">Ich will was verkaufen!</message>
 	<message label="003_b" attrib="00 00 00 00">Ich will was kaufen!</message>
 	<message label="003_c" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Nichts...</message>
-	<message label="011" attrib="06 00 00 00"><anim id="Smiling" target="mainNpc" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" />Willkommen, <delay8 /><tag a="110" b="1" />!
-<tag a="100" b="4" /><delay20 /><size value="75" />Herzlich willkommen!<size value="100" /><endTag a="100" b="4" /><10_4 />
-<anim id="EmotEnd" target="actor" targetSpec="" />Was können wir heute für dich tun?</message>
+	<message label="011" attrib="06 00 00 00"><anim id="Smiling" target="mainNpc" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" />Willkommen, <delay8 /><tag a="110" b="1" />! <tag a="100" b="4" /><delay20 /><size value="75" />Herzlich willkommen!<size value="100" /> <endTag a="100" b="4" /><10_4 /><anim id="EmotEnd" target="actor" targetSpec="" />Was können wir heute für dich tun?</message>
 	<message label="011_a" attrib="00 00 00 00">Ich will was verkaufen!</message>
 	<message label="011_b" attrib="00 00 00 00">Rübenpreise?</message>
 	<message label="011_c" attrib="00 00 00 00">Heutiger Top-Ankauf?</message>
@@ -59,6 +57,11 @@ ankaufen.<delay20 /> <anim id="Nodding" target="subNpc" targetSpec="" />Das vers
 ist es Sonntag geworden,<delay8 /> und wir
 können keine Rüben mehr ankaufen.<pageBreak /><anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" />Möchtest du etwas anderes zum
 Verkauf auswählen?</message>
+	<message label="025" attrib="00 00 00 00"><anim id="Worried" target="mainNpc" targetSpec="" /><anim id="Worried" target="subNpc" targetSpec="" />Oh<tag a="110" b="0" /><delay8 /> Tut uns wirklich leid, <delay8 />aber<tag a="110" b="0" /><delay8 />
+Der Handel mit Fälschungen wurde
+uns untersagt.
+<anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" />Bitte wähle etwas anderes zum
+Verkauf aus.</message>
 	<message label="031" attrib="02 00 00 00"><anim id="Nodding" target="mainNpc" targetSpec="" /><anim id="FaintSmile" target="subNpc" targetSpec="" /><tag a="50" b="3" /><tag a="50" b="2" /><tag a="125" b="0" arg="0x0" />!<10_4 />
 <anim id="FaintSmile" target="mainNpc" targetSpec="" />Dafür können wir dir
 <tag a="90" b="26" arg="0x0" /> anbieten.</message>
@@ -296,7 +299,7 @@ Dinge mit dir herumzutragen.<delay20 /> <size value="75" />Zu viele!<size value=
 Platz in deiner Tasche hast!<anim id="Nodding" target="subNpc" targetSpec="" />
 <tag a="100" b="4" /><delay20 /><size value="75" />Ganz viel Platz!<size value="100" /><endTag a="100" b="4" /></message>
 	<message label="113" attrib="00 00 00 00"><anim id="BigSmile" target="mainNpc" targetSpec="" /><anim id="BigSmile" target="subNpc" targetSpec="" />Vielen Dank für deinen Einkauf!
-<anim id="BigSmile" target="subNpc" targetSpec="" /><tag a="100" b="4" /><delay20 /><size value="75" />Danke schön!<size value="100" /><endTag a="100" b="4" /></message>
+<tag a="100" b="4" /><delay20 /><size value="75" />Danke schön!<size value="100" /><endTag a="100" b="4" /></message>
 	<message label="114" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Ich bestätige hiermit, <delay8 />von dir
 <tag a="90" b="26" arg="0x0" /> erhalten zu
 haben!<anim id="Nodding" target="subNpc" targetSpec="" /> <delay20 /><tag a="100" b="4" /><size value="75" />Ich auch!<size value="100" /><endTag a="100" b="4" /></message>
@@ -316,7 +319,7 @@ Wir zahlen dir den doppelten Preis<tag a="110" b="0" /><delay20 />
 	<message label="131_a" attrib="00 00 00 00">1 (<colour id="1" /><tag a="90" b="12" arg="0x0" /> <colour id="65535" />).</message>
 	<message label="131_b" attrib="00 00 00 00">5 (<colour id="1" /><tag a="90" b="13" arg="0x1" /> <colour id="65535" />).</message>
 	<message label="131_c" attrib="00 00 00 00">Doch nicht...</message>
-	<message label="200" attrib="00 00 00 00"><anim id="Smiling" target="mainNpc" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" />Vielen Dank!<tag a="100" b="4" /><delay8 /> <size value="75" />...Danke schön!<size value="100" /><endTag a="100" b="4" /><10_7 arg="90" /></message>
+	<message label="200" attrib="00 00 00 00"><anim id="Smiling" target="mainNpc" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" />Vielen Dank!<tag a="100" b="4" /><delay8 /> <size value="75" />...Danke schön!<size value="100" /><endTag a="100" b="4" /><anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" /><10_7 arg="90" /></message>
 	<message label="201" attrib="00 00 00 00"><anim id="FaintSmile" target="mainNpc" targetSpec="" /><delay8 /><anim id="FaintSmile" target="subNpc" targetSpec="" />Hallo!<tag a="100" b="4" /><delay8 /> <size value="75" />...hallo!<size value="100" /><endTag a="100" b="4" />
 <delay40 />Willkommen in <colour id="1" />Nooks Laden<colour id="65535" />!</message>
 	<message label="202" attrib="00 00 00 00"><anim id="Smiling" target="mainNpc" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" />Willkommen! <tag a="100" b="4" /><size value="75" />...ja, ja!<size value="100" /><endTag a="100" b="4" /><pageBreak /><anim id="Shocked" target="mainNpc" targetSpec="" /><anim id="Shocked" target="subNpc" targetSpec="" />Oh,<delay20 /> <tag a="110" b="1" />!<delay40 /><anim id="BigSmile" target="mainNpc" targetSpec="" /><anim id="BigSmile" target="subNpc" targetSpec="" /> Du bist hier,<delay8 />

@@ -4,7 +4,7 @@
 	<message label="001_a" attrib="04 00 00 00 00 00 00 00">Bien sûr!</message>
 	<message label="001_b" attrib="05 00 00 00 00 00 00 00">Pas encore.</message>
 	<message label="002" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="23" arg="0xd 0xe 0xf 0xffff" /></message>
-	<message label="003" attrib="09 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x1 0x10 0x11 0x12" /></message>
+	<message label="003" attrib="09 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x13 0x10 0x11 0x14" /></message>
 	<message label="004" attrib="00 00 00 00 00 00 00 00"><anim id="IdeaBulb" target="actor" targetSpec="" />Tu n'as pas perdu de temps, <tag a="110" b="3" />! <delay frames="40" /><anim id="Smiling" target="actor" targetSpec="" />Elles sont délicieuses, pas vrai?<pageBreak /><anim id="HappyDance" target="actor" targetSpec="" />Moi aussi, je les adore.<delay20 /> Manges-en
 autant que tu veux, <tag a="110" b="6" />!</message>
 	<message label="005" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Hein?<delay8 /> Mais pourquoi?<delay20 /><anim id="Smiling" target="actor" targetSpec="" /> Elles font la
@@ -26,10 +26,21 @@ fermés, <tag a="110" b="6" />!</message>
 qui travaille très dur pour ouvrir
 un <colour id="1" />musée<colour id="65535" />.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Mais d'abord,<delay20 /> il faut qu'il trouve des
 trucs à exposer,<delay20 /> comme des fossiles,
-des insectes, ou des œuvres d'art<tag a="110" b="0" /><pageBreak /><anim id="Greeting" target="actor" targetSpec="" />Si tu pouvais faire don au musée de
+des insectes, ou des poissons<tag a="110" b="0" /><pageBreak /><anim id="Greeting" target="actor" targetSpec="" />Si tu pouvais faire don au musée de
 quelque chose à exposer,<delay20 /> je suis sûr
 qu'il te serait très reconnaissant.</message>
 	<message label="017" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="3" arg="0x15 0x16 0x17 0x18 0x19" /></message>
+	<message label="018" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Dans notre <colour id="1" />musée<colour id="65535" />, y a toute une
+zone pour les toiles et les statues,
+c'est trop bien, <tag a="110" b="5" />!
+<anim id="Restless" target="actor" targetSpec="" />Par contre, oublie pas de te laver les
+pattes avant d'y toucher. Sinon, ils
+ont tendance à se fâcher<tag a="110" b="0" /></message>
+	<message label="019" attrib="00 00 00 00 00 00 00 00"><anim id="Hello" target="actor" targetSpec="" />Dis-moi, tu te plais bien
+à <tag a="110" b="8" />?<delay20 /> Je trouve
+qu'on est pas trop mal, ici.<pageBreak /><anim id="AbsentMindedness" target="actor" targetSpec="" />Je dirais même que la vie est
+de plus en plus savoureuse<tag a="110" b="0" /><pageBreak /><anim id="HappyFlower" target="actor" targetSpec="" />Un peu comme des bouchées <gender4 m="de " f="d'⁠" /><tag a="135" b="7" arg="0xcd00" /> par une journée très chaude.</message>
+	<message label="020" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="4" arg="0x15 0x16 0x17 0x18 0x19 0x12" /></message>
 	<message label="021" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1c00 0x1900 0xcd00" /></message>
 	<message label="022" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1d01 0x1900 0xcd00" /></message>
 	<message label="023" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1e02 0x1900 0xcd00" /></message>
@@ -49,6 +60,12 @@ gracieu<tag a="50" b="17" arg="0x29 0xcd00 0x2 0x78 0x4 0x73 0x65 0x0" />!<delay
 <gender4 m="de " f="d'" />⁠<tag a="135" b="13" arg="0x2" />!<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Je pourrais l'admirer pendant des
 heures,<delay20 /> ça me donne l'impression de
 voyager dans le temps<tag a="110" b="0" /></message>
+	<message label="031" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Au <colour id="1" />musée<colour id="65535" />,<delay20 /> il y a <tag a="50" b="2" />
+<tag a="135" b="13" arg="0x3" /> en exposition.<pageBreak /><anim id="ShyBoy" target="actor" targetSpec="" />Les peintures et les sculptures, c'est
+joli, <delay20 />mais j'ai toujours l'impression
+qu'elles me regardent<tag a="110" b="0" />
+<anim id="Smiling" target="actor" targetSpec="" />Enfin,<delay8 /> tu devrais quand même aller
+les admirer, <tag a="110" b="6" />!</message>
 	<message label="201" attrib="00 00 10 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Dis, <tag a="110" b="3" />,<delay20 /><anim id="Hello" target="actor" targetSpec="" /> qu'est-ce que tu fais pour t'amuser à <tag a="110" b="9" />?</message>
 	<message label="201_a" attrib="ca 00 00 00 00 00 00 00">Je pêche... des poissons.</message>
 	<message label="201_b" attrib="cb 00 00 00 00 00 00 00">J'attrape des insectes.</message>

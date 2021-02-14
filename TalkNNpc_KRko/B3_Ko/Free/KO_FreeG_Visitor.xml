@@ -5,7 +5,7 @@
 	<message label="001_a" attrib="04 00 00 00 00 00 00 00">물론이지!</message>
 	<message label="001_b" attrib="05 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />뭔데?</message>
 	<message label="002" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="23" arg="0xd 0xe 0xf 0xffff" /></message>
-	<message label="003" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x1 0x10 0x11 0x12" /></message>
+	<message label="003" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x1 0x10 0x11 0x14" /></message>
 	<message label="004" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />뭐야, 이미 알고 있었냐?<delay20 />
 <anim id="FaintSmile" target="actor" targetSpec="" />그럼 됐어!<delay frames="40" />
 <anim id="ShyBoy" target="actor" targetSpec="" />내가 괜한 걸 물어봤네<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" /><tag a="110" b="7" arg="0xcd00" /> 좋아하면<delay8 />
@@ -36,6 +36,13 @@
 훌륭한 <colour id="1" />박물관<colour id="65535" />이 될 테니<delay20 />
 <anim id="Smiling" target="actor" targetSpec="" />그때 꼭 구경하러 와라! <tag a="110" b="6" />!</message>
 	<message label="017" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="3" arg="0x15 0x16 0x17 0x18 0x19" /></message>
+	<message label="018" attrib="00 00 00 00 00 00 00 00"><anim id="Silent" target="actor" targetSpec="" />너 그거 아냐?<delay40 />
+<anim id="Greeting" target="actor" targetSpec="" />이 <tag a="110" b="32" />의 <colour id="1" />박물관<colour id="65535" />은 말이야,<delay20 />
+미술품 전시도<delay8 /> 하고 있다고! <delay20 /><anim id="FaintSmile" target="actor" targetSpec="" />대단하지?
+<anim id="ShyBoy" target="actor" targetSpec="" />미술품의 가치나 <delay8 />의미나<delay8 />
+그런 자세한 건 잘 모르지만<delay20 />
+<anim id="AbsentMindedness" target="actor" targetSpec="" />역사가 느껴져서 좋아, <tag a="110" b="6" />!</message>
+	<message label="020" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="4" arg="0x15 0x16 0x17 0x18 0x19 0x12" /></message>
 	<message label="021" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1c00 0x1900 0xcd00" /></message>
 	<message label="022" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1d01 0x1900 0xcd00" /></message>
 	<message label="023" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1e02 0x1900 0xcd00" /></message>
@@ -65,6 +72,12 @@
 <anim id="Nodding" target="actor" targetSpec="" />아직 못 봤으면
 이 <tag a="110" b="32" /> <colour id="1" />박물관<colour id="65535" />에 가봐<delay20 />
 <anim id="Grin" target="actor" targetSpec="" /><tag a="110" b="0" />각오 단단히 해야 된다, <tag a="110" b="6" />?</message>
+	<message label="031" attrib="00 00 00 00 00 00 00 00"><anim id="ShyBoy" target="actor" targetSpec="" />나는 <delay20 />이 <tag a="110" b="32" /> <colour id="1" />박물관<colour id="65535" />에 기증된<delay8 />
+<tag a="135" b="13" arg="0x3" /><gender5 m="을" f="를" /><delay8 />
+보는 걸 <delay20 />좋아해서 말이다<tag a="110" b="0" />
+<anim id="Hesitate" target="actor" targetSpec="" />그래서 사실은 <delay20 />종종
+미술 전시실을 찾아가곤 해<delay40 />
+<tag a="110" b="0" /><anim id="Blushing" target="actor" targetSpec="" />헤헷, <delay20 />나랑 안 어울리냐, <tag a="110" b="6" />?</message>
 	<message label="201" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="0" arg="0xca 0xcd" /></message>
 	<message label="202" attrib="00 00 02 00 00 00 00 00">너 <delay8 />설마<delay20 /> <anim id="WrySmile" target="actor" targetSpec="" />내가 보고 싶어서
 <tag a="110" b="33" />에<delay8 /> 놀러 온 거냐?</message>
@@ -92,7 +105,7 @@
 <anim id="WrySmile" target="actor" targetSpec="" />하하, <delay8 />이게 향수라는 건가? <tag a="110" b="6" />?</message>
 	<message label="208" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />엥? <delay20 />그 반응은 또 뭐야<delay frames="30" />
 <anim id="EmotEnd" target="actor" targetSpec="" />모두에게 무슨 일이라도 생긴 거냐?<10_4 />
-<anim id="Angry" target="actor" targetSpec="" />아, 알겠다~ <delay8 />지금 날 놀리려는 거지?<pageBreak /><anim id="WrySmile" target="actor" targetSpec="" />너는 <delay8 />모르겠지만<delay20 />
+<anim id="Angry" target="actor" targetSpec="" />아, 알겠다! <delay8 />지금 날 놀리려는 거지?<pageBreak /><anim id="WrySmile" target="actor" targetSpec="" />너는 <delay8 />모르겠지만<delay20 />
 넌 옛날부터 거짓말을 하면<delay20 />
 <anim id="Laughing" target="actor" targetSpec="" />얼굴에 다 티가 난다고! <tag a="110" b="6" />!</message>
 </msbt>

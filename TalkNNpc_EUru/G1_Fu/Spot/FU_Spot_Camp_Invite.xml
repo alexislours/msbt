@@ -83,6 +83,38 @@
 на этот остров!<pageBreak /><anim id="Thinking" target="actor" targetSpec="" />Ой!<delay8 /> Но сперва, наверное,<delay20 /> нужно
 спросить разрешения в <colour id="1" />бюро услуг<colour id="65535" />.
 <delay20 /><anim id="Smiling" target="actor" targetSpec="" />Так и сделаю!</message>
+	<message label="207_01" attrib="00 00 01 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Серьезно?<delay20 /> Даже несмотря на то, что
+в тот раз я отказалась?<pageBreak /><anim id="Blushing" target="actor" targetSpec="" />Я очень тронута. <delay40 />Но<tag a="110" b="0" /><delay20 /> <anim id="Hesitate" target="actor" targetSpec="" />Я не готова
+так сразу принять такое важное
+решение.<pageBreak /><anim id="IdeaBulb" target="actor" targetSpec="" /><delay20 />Придумала! <delay20 /><anim id="FaintSmile" target="actor" targetSpec="" />А почему бы нам не
+сыграть в игру?<delay20 /> Если ты выиграешь,<delay8 />
+я выполню твою просьбу и перееду.<pageBreak /><anim id="Hello" target="actor" targetSpec="" />Договорились? <tag a="50" b="3" /><tag a="110" b="5" />!</message>
+	<message label="207_01_a" attrib="00 00 00 00 00 00 00 00">Давай сыграем!</message>
+	<message label="207_01_b" attrib="00 00 00 00 00 00 00 00">Я пас.</message>
+	<message label="207_02" attrib="00 00 01 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Ты настойчив<gender2 m="ый" f="ая" />, <tag a="110" b="3" />.<delay20 />
+Но это так мило! <tag a="50" b="3" /><tag a="110" b="5" />!<pageBreak /><anim id="Hesitate" target="actor" targetSpec="" />Даже не знаю, <delay20 />переезжать или нет!
+<delay20 />Что делать?<delay20 /> <anim id="Sighing" target="actor" targetSpec="" />Не могу решить!
+<delay40 /><anim id="Thinking" target="actor" targetSpec="" /><delay20 />А давай<tag a="110" b="0" /><delay20 /> сыграем в одну игру?<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />И от результата будет зависеть вся
+моя дальнейшая жизнь! <delay40 /><anim id="Eh" target="actor" targetSpec="" />А что,
+хорошая идея!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Если ты выиграешь,<delay8 /> я перееду.<delay20 /> Если
+проиграешь<tag a="110" b="0" /><delay20 /> посмотрим.<delay40 /> <anim id="QuestionMark" target="actor" targetSpec="" />Соглас<gender2 m="ен" f="на" />?</message>
+	<message label="207_02_a" attrib="00 00 00 00 00 00 00 00">Да! Я выиграю!</message>
+	<message label="207_02_b" attrib="00 00 00 00 00 00 00 00">Нет, спасибо.</message>
+	<message label="207_03" attrib="00 00 01 00 00 00 00 00"><anim id="Hesitate" target="actor" targetSpec="" />С одной стороны, звучит заманчиво.<delay40 /><anim id="OhGeez" target="actor" targetSpec="" />
+Но с другой —<delay8 /> я всегда уступаю,
+когда меня о чем-то просят.<pageBreak /><anim id="Aha" target="actor" targetSpec="" />Придумала!<delay20 /> Давай положимся на
+волю случая?<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Сыграем в игру. Если ты выиграешь,<delay20 />
+<anim id="Smiling" target="actor" targetSpec="" />остров <tag a="110" b="9" /> станет
+моим новым домом.<delay40 /><anim id="BigSmile" target="actor" targetSpec="" /> Готов<gender2 m="" f="а" />?</message>
+	<message label="207_03_a" attrib="00 00 00 00 00 00 00 00">Я всегда готов<gender2 m="" f="а" />!</message>
+	<message label="207_03_b" attrib="00 00 00 00 00 00 00 00">Нет.</message>
+	<message label="208_01" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Нет?<delay20 /> Жалко.<delay frames="40" /> <anim id="Worried" target="actor" targetSpec="" />Я совсем не
+расстроилась<tag a="110" b="0" /></message>
+	<message label="208_02" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Значит, нет? <delay40 />Я понимаю: <delay8 /><anim id="Explain" target="actor" targetSpec="" />ни время,
+ни место не подходят для таких игр.</message>
+	<message label="208_03" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Не ожидала такого ответа,<delay20 />
+но я уважаю твое мнение.
+<delay40 /><anim id="FaintSmile" target="actor" targetSpec="" />Наверное, сейчас не время.</message>
 	<message label="302" attrib="00 00 01 00 00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />Прости, что заставила ждать!<delay frames="40" />
 Я зашла в <colour id="1" />бюро услуг<colour id="65535" /><delay20 /> и узнала
 удручающие новости<tag a="110" b="0" /><pageBreak /><anim id="Worried" target="actor" targetSpec="" />На данный момент на острове нет
@@ -139,6 +171,11 @@
 не могут помочь<delay8 /><tag a="110" b="0" /><pageBreak /><anim id="Restless" target="actor" targetSpec="" />Они сказали, что на данный момент<delay20 />
 <anim id="BrokenHeart" target="actor" targetSpec="" />не могут принять новых жителей.<pageBreak /><anim id="Worried" target="actor" targetSpec="" />Я разочарована,<delay20 /> <anim id="FaintSmile" target="actor" targetSpec="" />но рада, что хотя
 бы попыталась.</message>
+	<message label="405" attrib="00 00 00 00 00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />Прости, что заставила тебя ждать!<delay frames="40" />
+<anim id="Explain" target="actor" targetSpec="" />Я заходила в <colour id="1" />бюро услуг<colour id="65535" />,<delay20 /> но у меня
+не очень хорошие новости<delay8 /><tag a="110" b="0" /><pageBreak /><anim id="Restless" target="actor" targetSpec="" />На данный момент<delay20 /> <anim id="BrokenHeart" target="actor" targetSpec="" />на острове нет
+свободных участков!<pageBreak /><anim id="Worried" target="actor" targetSpec="" />В этот раз ничего не вышло,<delay20 /><anim id="FaintSmile" target="actor" targetSpec="" /> но
+я рада, что хотя бы попыталась.</message>
 	<message label="406" attrib="00 00 00 00 00 00 00 00"><anim id="Hesitate" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="110" b="3" />!<delay8 /> Тебя ведь так звали?<pageBreak /><anim id="Greeting" target="actor" targetSpec="" />Прости, что заставила ждать!<delay frames="40" />
 <anim id="Explain" target="actor" targetSpec="" />Я была в <colour id="1" />бюро услуг<colour id="65535" />,<delay20 /> и у меня
 хорошие новости<delay8 /><tag a="110" b="0" /><pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Я могу переехать!<delay frames="40" /> <anim id="FaintSmile" target="actor" targetSpec="" />Может, мне
@@ -158,6 +195,10 @@
 	<message label="423" attrib="00 00 00 00 00 00 00 00">Остров <anim id="Nodding" target="actor" targetSpec="" /><tag a="110" b="9" />, похоже,
 пользуется успехом,<delay20 /> раз здесь так
 сложно поселиться!</message>
+	<message label="424" attrib="00 00 00 00 00 00 00 00"><anim id="Restless" target="actor" targetSpec="" />Эх, вот бы на острове
+<tag a="110" b="9" /> был свободный
+участок на продажу!<delay40 /><pageBreak /><anim id="Love" target="actor" targetSpec="" />Я бы с удовольствием сюда
+переехала! <delay8 /><tag a="50" b="3" /><tag a="110" b="5" />!</message>
 	<message label="504" attrib="00 00 01 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />На этом острове все прекрасно!<delay frames="30" /> <anim id="FaintSmile" target="actor" targetSpec="" />Мне
 тут так нравится!<pageBreak /><anim id="AbsentMindedness" target="actor" targetSpec="" />Надеюсь, что когда-нибудь<delay20 /> я тоже
 буду жить на таком прекрасном

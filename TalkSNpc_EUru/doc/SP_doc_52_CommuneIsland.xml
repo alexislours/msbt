@@ -2,6 +2,8 @@
 	<message label="001" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Образцовая посадка.<delay20 /> Проще, чем
 <tag a="135" b="8" arg="0xcd00" />!<delay20 /><anim id="Assent" target="actor" targetSpec="" /> Захочешь
 обратно — крякни мне!</message>
+	<message label="002" attrib="00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Что за помехи?!<delay20 /><anim id="EmotEnd" target="actor" targetSpec="" /> Похоже, тут
+что-то важное транслируют<tag a="110" b="0" /></message>
 	<message label="101" attrib="02 00 00 00">Привет, пассажир! <delay20 /><anim id="QuestionMark" target="actor" targetSpec="" />Чем могу быть
 полезен?<anim id="EmotEnd" target="actor" targetSpec="" /></message>
 	<message label="101_a" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Я хочу домой.</message>
@@ -14,4 +16,71 @@
 и взлетаем!</message>
 	<message label="104" attrib="00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Все понял.<delay frames="40" /> <anim id="Smiling" target="actor" targetSpec="" />Не спеши, пассажир<gender2 m="" f="ка" />.<delay20 />
 Я без тебя не улечу.</message>
+	<message label="105" attrib="00 00 00 00"><anim id="IdeaBulb" target="actor" targetSpec="" />Попрошу внимания, цыпленок!<delay40 /><anim id="EmotEnd" target="actor" targetSpec="" />
+У меня для тебя важное сообщение.
+Да, для тебя, <tag a="110" b="1" /><tag a="110" b="0" />
+<anim id="BigSmile" target="actor" targetSpec="" />Авиакомпания Dodo Airlines с этого
+момента предоставляет услуги по
+<colour id="1" />доставке и ликвидации<colour id="65535" /> <colour id="1" />предметов<colour id="65535" />!<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Потому что как крыльями не маши,
+<anim id="Oops" target="actor" targetSpec="" />а с полными карманами добра
+взлететь не выйдет.<delay20 /><anim id="EmotEnd" target="actor" targetSpec="" /> Прием!<pageBreak /><anim id="Angry" target="actor" targetSpec="" />Намек понятен?<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Иногда чтобы взмыть ввысь
+приходится сбросить балласт.<delay20 />
+Прием?<delay20 /> <anim id="Aha" target="actor" targetSpec="" />Прием!
+<anim id="Pardon" target="actor" targetSpec="" />В общем!<delay20 /><anim id="FaintSmile" target="actor" targetSpec="" /> Если хочешь, можешь
+сдавать нам свое добро.<delay20 /><anim id="BigSmile" target="actor" targetSpec="" /> А мы его
+доставим тебе на базу или купим.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Такие дела. <delay20 />Сейчас проверю
+курс по клюву и ознакомлю
+тебя с планом полетов<tag a="110" b="0" /><anim id="Aha" target="actor" targetSpec="" /></message>
+	<message label="106" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Сначала о <colour id="1" />доставке<colour id="65535" />.<delay20 /><anim id="BigSmile" target="actor" targetSpec="" /> Мы доставим
+твой груз в целости и сохранности
+к тебе домой в хранилище.<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />И даже диней за это не попросим<anim id="Greeting" target="actor" targetSpec="" />,
+так что мотай на пропеллер и не
+стесняйся к нам обращаться!</message>
+	<message label="107" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Теперь о <colour id="1" />ликвидации<colour id="65535" />. Додо —
+заядлые коллекционеры.<delay20 />
+<anim id="Negative" target="actor" targetSpec="" />Хоть об этом и мало кто знает.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Но шило в дирижабле не утаишь!<delay20 />
+Этот сервис — для тех, кто хочет
+продать лишний багаж.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />В сотрудничестве с <colour id="1" />лавкой Нука
+<colour id="65535" />мы будем скупать у тебя все по
+расценкам их комиссионного ящика.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />А дини завтра прилетят прямиком
+к тебе на счет в Нук-банке. <delay20 />Держи
+эту информацию на своем радаре.</message>
+	<message label="108" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Это вся додоступная информация
+на данный момент.<pageBreak /><anim id="Greeting" target="actor" targetSpec="" />Авиакомпания Dodo Airlines,
+конец связи!</message>
+	<message label="110" attrib="06 00 00 00">Привет, пассажир! <delay20 /><anim id="QuestionMark" target="actor" targetSpec="" />Чем могу быть
+полезен?<anim id="EmotEnd" target="actor" targetSpec="" /></message>
+	<message label="110_a" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Я хочу домой.</message>
+	<message label="110_b" attrib="00 00 00 00">Хочу отправить!</message>
+	<message label="110_c" attrib="00 00 00 00">Хочу продать!</message>
+	<message label="110_d" attrib="00 00 00 00">Знаешь, неважно.</message>
+	<message label="111" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Значит, доставка? Все понял,
+прием!<delay20 /><anim id="QuestionMark" target="actor" targetSpec="" /> Что будем грузить?</message>
+	<message label="112" attrib="00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Стоп! Вылет отменяется!<delay20 /><anim id="Thinking" target="actor" targetSpec="" /> У тебя
+на базе ведь все ангары заняты<tag a="110" b="0" />
+В хранилище места нет.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Но мы можем у тебя что-то купить.</message>
+	<message label="113" attrib="00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Задание отменяется?<delay20 /><anim id="EmotEnd" target="actor" targetSpec="" /> Понял.
+Если передумаешь, обращайся.
+Конец связи!</message>
+	<message label="116" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Все понял.<delay40 /><anim id="Smiling" target="actor" targetSpec="" /> Груз готов к отправке.</message>
+	<message label="118" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Рейс службы додоставки готов
+к вылету!<delay20 /><anim id="BigSmile" target="actor" targetSpec="" /> Мы додоставим твой
+груз в целости и сохранности!</message>
+	<message label="120" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Выгружаешь лишний багаж?<delay20 />
+<anim id="QuestionMark" target="actor" targetSpec="" />Ладно. Что хочешь продать?</message>
+	<message label="121" attrib="02 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Вылет отменяется!<delay20 /><anim id="Worried" target="actor" targetSpec="" /> Твой счет в Нук-
+банке полностью заполнен, так что
+сейчас наш сервис недоступен<tag a="110" b="0" /><pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Но хоть мы и не можем перечислять
+тебе средства, можем принять
+лишний багаж бесплатно.<delay20 /> Прием?</message>
+	<message label="121_a" attrib="00 00 00 00">Давай! Прием!</message>
+	<message label="121_b" attrib="00 00 00 00">Нет, спасибо. Конец связи!</message>
+	<message label="124" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Так точно!<delay20 /><anim id="QuestionMark" target="actor" targetSpec="" /> Что сдаешь?</message>
+	<message label="125" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Подтверждаю: груз получен!<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Оплата приземлится тебе
+на счет завтра утром.</message>
+	<message label="126" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Груз получен!<delay20 /><anim id="EmotEnd" target="actor" targetSpec="" /> Мы избавимся
+от твоего лишнего багажа.</message>
+	<message label="127" attrib="00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />Авиалиния Dodo Airlines!
+Мы летаем, потому что можем!</message>
+	<message label="200" attrib="00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Не проведешь рекогносцировку?</message>
 </msbt>

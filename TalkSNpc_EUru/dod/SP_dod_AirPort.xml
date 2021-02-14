@@ -121,7 +121,7 @@
 над облаками!<10_8 arg="60" /></message>
 	<message label="037_01" attrib="00 00 00 00"><tag a="10" b="12" /><snpcAnim id="DodWireless" target="actor" targetSpec="" /><delay frames="30" /><100_3 arg="PlaneAnnounceOn" /><delay20 /><size value="75" />«Додо-1», на связи «Додо-радар»! <delay8 /><colour id="3" />Уилбур<colour id="65535" />, как
 слышно?<delay20 /> У нас тут страус хочет в небо, <delay frames="30" />прием.<delay frames="90" />
-<colour id="5" />Вас понял!<delay20 /> Ко взлету готов! Прием!<colour id="65535" /><size value="100" /><delay20 /><100_3 arg="PlaneAnnounceOff" /><10_8 arg="80" /><pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" /><delay frames="50" /><anim id="FaintSmile" target="actor" targetSpec="" />Ну что ж, желаю<delay8 /> приятного полета!
+<colour id="5" />Вас понял!<delay20 /> Ко взлету готов! Прием!<colour id="65535" /><size value="100" /><delay20 /><100_3 arg="PlaneAnnounceOff" /><10_8 arg="150" /><pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" /><delay frames="50" /><anim id="FaintSmile" target="actor" targetSpec="" />Ну что ж, желаю<delay8 /> приятного полета!
 <delay frames="40" />И не забывай<tag a="110" b="0" /><snpcAnim id="DodRoger" target="actor" targetSpec="" /> наша авиалиния
 додомчит куда угодно в два счета!<delay frames="60" /><anim id="FaintSmile" target="actor" targetSpec="" /></message>
 	<message label="037_02" attrib="00 00 00 00" />
@@ -406,4 +406,51 @@
 они только жителям острова.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Хоть шалаш, хоть палатка, <delay20 />но у тебя
 должно быть жилище на острове.
 <delay frames="40" /><anim id="FaintSmile" target="actor" targetSpec="" />Милости просим, когда будет.</message>
+	<message label="1300" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Между прочим, у меня тут
+<colour id="1" />майская путевка <colour id="65535" />на твое имя —
+можешь воспользоваться!</message>
+	<message label="1301" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" /><colour id="3" />Том Нук<colour id="65535" /> передал мне <colour id="1" />майскую
+путевку<colour id="65535" />, оформленную на имя
+«<tag a="110" b="1" />». <delay20 /><anim id="FaintSmile" target="actor" targetSpec="" />Твою, значит.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Если захочешь ее использовать,
+скажи «Хочу в путешествие».<delay20 /><anim id="FaintSmile" target="actor" targetSpec="" />
+Ладно?</message>
+	<message label="1302" attrib="04 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Так<tag a="110" b="0" /><delay20 /> последняя формальность:
+<anim id="QuestionMark" target="actor" targetSpec="" />куда ты отправиться-то хотел<gender2 m="" f="а" />?</message>
+	<message label="1302_a" attrib="00 00 00 00">Хочу в гости.</message>
+	<message label="1302_b" attrib="00 00 00 00"><colour id="1" />Майская путевка<colour id="65535" />!</message>
+	<message label="1302_c" attrib="00 00 00 00">Я передумал<gender2 m="" f="а" />.</message>
+	<message label="1302_02" attrib="06 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Так<tag a="110" b="0" /><delay20 /> последняя формальность:
+<anim id="QuestionMark" target="actor" targetSpec="" />куда ты отправиться-то хотел<gender2 m="" f="а" />?</message>
+	<message label="1302_02_a" attrib="00 00 00 00">Хочу в гости.</message>
+	<message label="1302_02_b" attrib="00 00 00 00"><colour id="1" />Майская путевка<colour id="65535" />!</message>
+	<message label="1302_02_c" attrib="00 00 00 00">Хочу на остров Харви.</message>
+	<message label="1302_02_d" attrib="00 00 00 00">Я передумал<gender2 m="" f="а" />.</message>
+	<message label="1302_04" attrib="06 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Так<tag a="110" b="0" /><delay20 /> последняя формальность:
+<anim id="QuestionMark" target="actor" targetSpec="" />куда ты отправиться-то хотел<gender2 m="" f="а" />?</message>
+	<message label="1302_04_a" attrib="00 00 00 00">Хочу в гости.</message>
+	<message label="1302_04_b" attrib="00 00 00 00"><colour id="1" />Майская путевка<colour id="65535" />!</message>
+	<message label="1302_04_c" attrib="00 00 00 00"><colour id="1" />Билет за мили Нука<colour id="65535" />.</message>
+	<message label="1302_04_d" attrib="00 00 00 00">Я передумал<gender2 m="" f="а" />.</message>
+	<message label="1302_06" attrib="08 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Так<tag a="110" b="0" /><delay20 /> последняя формальность:
+<anim id="QuestionMark" target="actor" targetSpec="" />куда ты отправиться-то хотел<gender2 m="" f="а" />?</message>
+	<message label="1302_06_a" attrib="00 00 00 00">Хочу в гости.</message>
+	<message label="1302_06_b" attrib="00 00 00 00"><colour id="1" />Майская путевка<colour id="65535" />!</message>
+	<message label="1302_06_c" attrib="00 00 00 00"><colour id="1" />Билет за мили Нука<colour id="65535" />.</message>
+	<message label="1302_06_d" attrib="00 00 00 00">Хочу на остров Харви.</message>
+	<message label="1302_06_e" attrib="00 00 00 00">Я передумал<gender2 m="" f="а" />.</message>
+	<message label="1303" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Хочешь отправиться в поездку
+по <colour id="1" />майской путевке<colour id="65535" />?<delay frames="40" /><snpcAnim id="DodRoger" target="actor" targetSpec="" /><delay20 /> Все понял!<delay frames="50" /><anim id="EmotEnd" target="actor" targetSpec="" /></message>
+	<message label="1304" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" /><colour id="1" />Поездка ко Дню мая<colour id="65535" /> — это особое
+путешествие на далекий остров.
+<delay20 />Это все <colour id="3" />Том Нук<colour id="65535" /> придумал!<pageBreak /><anim id="Serious" target="actor" targetSpec="" />А что тебя там ждет<tag a="110" b="0" /><anim id="Grin" target="actor" targetSpec="" /> Это ты
+узнаешь, когда приземлишься!<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />В это путешествие отправляются
+<colour id="1" />без багажа<colour id="65535" />.<anim id="Nodding" target="actor" targetSpec="" /> Все твои вещи будут
+ждать тебя здесь, у меня.<pageBreak /><anim id="Assent" target="actor" targetSpec="" />Не беспокойся! <delay8 /><anim id="EmotEnd" target="actor" targetSpec="" /><anim id="Smiling" target="actor" targetSpec="" />Мы гарантируем
+их возврат по возвращении!</message>
+	<message label="1305" attrib="02 00 00 00">Итак<tag a="110" b="0" /><anim id="QuestionMark" target="actor" targetSpec="" /> оставляешь тут свой багаж
+и вылетаешь в <colour id="1" />поездку ко Дню мая<colour id="65535" />?</message>
+	<message label="1305_a" attrib="00 00 00 00">Да!</message>
+	<message label="1305_b" attrib="00 00 00 00">Я передумал<gender2 m="" f="а" />.</message>
+	<message label="1306" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Все понял!<delay20 /><anim id="FaintSmile" target="actor" targetSpec="" /> Дай знать, когда
+будешь готов<gender2 m="" f="а" /> взмыть в небо!</message>
 </msbt>

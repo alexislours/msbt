@@ -56,4 +56,114 @@
 <100_3 arg="PlaneAnnounceOn" /><delay20 /><colour id="5" />(라져!<delay20 /> 계속해서 잘 부탁한다!)<delay20 /><100_3 arg="PlaneAnnounceOff" /><colour id="65535" /><10_7 arg="30" /><size value="100" />
 <anim id="EmotEnd" target="actor" targetSpec="" /><delay20 /><anim id="Nodding" target="actor" targetSpec="" />그럼 새로운 기분으로<tag a="110" b="0" /><delay20 />
 <snpcAnim id="DodRoger" target="actor" targetSpec="" />굿 럭!</message>
+	<message label="041" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />자, <delay8 />도착했습니다!<delay frames="40" />
+<anim id="Nodding" target="actor" targetSpec="" />여기가 <colour id="1" />근로자의 날 투어<colour id="65535" />를 하실 <tag a="110" b="32" />입니다!<pageBreak /><anim id="Serious" target="actor" targetSpec="" />이 투어는 조금 특별합니다!<10_4 />
+<anim id="SmugFace" target="actor" targetSpec="" />섬 전체가 하나의 <colour id="1" />미로<colour id="65535" />처럼 되어 있어서<delay20 />
+수수께끼를 풀어야 하거든요!<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" /><tag a="110" b="1" />님의 주머니 속 물건은<delay8 />
+<anim id="Nodding" target="actor" targetSpec="" />비행장 카운터에 맡겼기 때문에<delay frames="30" />
+<anim id="FaintSmile" target="actor" targetSpec="" /><colour id="1" />빈손<colour id="65535" />으로 시작하게 됩니다!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />수수께끼를 풀기 위해 필요한 물건은<delay20 />
+미리 모두 미로 안에 놓아두었으니까<delay20 />
+<anim id="Hello" target="actor" targetSpec="" />그걸 사용해서 탈출구를 찾으시기 바랍니다!<pageBreak /><anim id="Aha" target="actor" targetSpec="" />혹시 중간에 도저히 못 풀겠다 싶으시면<delay20 />
+<anim id="Nodding" target="actor" targetSpec="" />너무 걱정하지 말고 갖고 계신 스마트폰의
+<colour id="1" />긴급 탈출 서비스<colour id="65535" />를 이용해주세요!<pageBreak /><anim id="Explain" target="actor" targetSpec="" /><colour id="1" />긴급 탈출 서비스<colour id="65535" />를 이용하시면<delay20 />
+원래 상태로 되돌려놓은 섬에서<delay frames="30" /><anim id="Greeting" target="actor" targetSpec="" />
+처음부터 수수께끼를 다시 풀 수 있습니다!<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />또, 힌트가 필요하면<delay20 />
+<anim id="Nodding" target="actor" targetSpec="" />저에게 말을 걸어주십시오!<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />그럼 출발하겠습니다!<delay frames="40" />
+<snpcAnim id="DodRoger" target="actor" targetSpec="" />굿 럭!</message>
+	<message label="042" attrib="06 00 00 00"><anim id="Eh" target="actor" targetSpec="" />네!<delay frames="30" />
+<anim id="QuestionMark" target="actor" targetSpec="" />무슨 일이신가요?</message>
+	<message label="042_a" attrib="00 00 00 00">힌트가 필요해</message>
+	<message label="042_b" attrib="00 00 00 00">도구가 필요해</message>
+	<message label="042_c" attrib="00 00 00 00">돌아갈래</message>
+	<message label="042_d" attrib="00 00 00 00">아무것도 아니야</message>
+	<message label="043" attrib="02 00 00 00"><anim id="Serious" target="actor" targetSpec="" />이제 이 <colour id="1" />근로자의 날 투어<colour id="65535" />에는
+참가하실 수 없습니다만<delay frames="30" />
+<anim id="EmotEnd" target="actor" targetSpec="" />괜찮으시겠습니까?</message>
+	<message label="043_a" attrib="00 00 00 00"><anim id="Nodding" target="player" targetSpec="" />응</message>
+	<message label="043_b" attrib="00 00 00 00"><anim id="Negative" target="player" targetSpec="" />잠깐만</message>
+	<message label="044" attrib="00 00 00 00">그럼 마일과 교환<tag a="110" b="0" /><delay20 />
+해드리겠다고 말하고 싶지만<tag a="110" b="0" /><pageBreak />이 <colour id="1" />근로자의 날 투어<colour id="65535" />는 한정적인 물건으로
+탈출구를 찾는<delay20 /> 기획이라서<delay frames="30" />
+<anim id="Negative" target="actor" targetSpec="" />아쉽게도 도구를 드릴 수는 없습니다!<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />죄송하지만<delay20 />
+<anim id="Nodding" target="actor" targetSpec="" />모쪼록 양해 부탁드립니다!</message>
+	<message label="045" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />수수께끼의 힌트 말입니까? <delay20 /><anim id="Nodding" target="actor" targetSpec="" />알겠습니다!<10_4 />
+<anim id="Thinking" target="actor" targetSpec="" />음, 뭘 말씀드리면 좋을까요<tag a="110" b="0" /></message>
+	<message label="046_0" attrib="00 00 00 00"><colour id="1" />과일<colour id="65535" />을 먹었을 때 생기는
+일시적인 효과에 대해<delay8 /> <anim id="Hello" target="actor" targetSpec="" />알고 계신가요?<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />특별한 힘이 샘솟아서<delay20 />
+<anim id="Explain" target="actor" targetSpec="" />삽으로 <colour id="1" />나무를 뽑거나<colour id="65535" /><delay8 />
+삽 또는 도끼로 <colour id="1" />바위를 부술 <colour id="65535" />수 있습니다!<anim id="EmotEnd" target="actor" targetSpec="" /></message>
+	<message label="046_1" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />혹시 폭이 좁은 구멍은<delay20 /> 도구 없이도
+뛰어넘을 수 있다는 사실, <anim id="Hello" target="actor" targetSpec="" />알고 계신가요?<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />뛰어넘으려는 방향으로<delay20 />
+<colour id="1" /> 스틱<colour id="65535" />을 기울여보세요!<anim id="EmotEnd" target="actor" targetSpec="" /></message>
+	<message label="046_2" attrib="00 00 00 00">혹시 중간에 도저히 못 풀겠다 싶으시면<delay20 />
+<anim id="Nodding" target="actor" targetSpec="" />너무 걱정하지 말고 갖고 계신 스마트폰의
+<colour id="1" />긴급 탈출 서비스<colour id="65535" />를 이용해주세요!<pageBreak /><anim id="Explain" target="actor" targetSpec="" /><colour id="1" />긴급 탈출 서비스<colour id="65535" />를 이용하시면<delay20 />
+원래 상태로 되돌려놓은 섬에서<delay frames="30" /><anim id="Greeting" target="actor" targetSpec="" />
+처음부터 수수께끼를 다시 풀 수 있습니다!</message>
+	<message label="046_3" attrib="00 00 00 00">방해가 되는 나무를 제거하는 방법은<delay20 />
+<anim id="Greeting" target="actor" targetSpec="" />두 가지가 있습니다!<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />첫 번째로 <delay8 /><colour id="1" />과일<colour id="65535" />을 드신 다음에<delay8 />
+<colour id="1" />삽<colour id="65535" />으로 나무를 뽑거나<pageBreak /><anim id="Explain" target="actor" targetSpec="" />두 번째로는 <colour id="1" />도끼<colour id="65535" />로 나무를 벤 다음,<delay frames="30" />
+<anim id="Serious" target="actor" targetSpec="" />남아 있는 그루터기를<delay8 />
+<anim id="Hello" target="actor" targetSpec="" /><colour id="1" />삽<colour id="65535" />으로 뽑으시면 됩니다!</message>
+	<message label="046_4" attrib="00 00 00 00">필요한 도구를 찾지 못하시겠거든<delay20 />
+<anim id="Smiling" target="actor" targetSpec="" />직접 만드는 것도 방법입니다!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />재료를 모으고<delay20 />
+<colour id="1" />소박한 DIY 작업대<colour id="65535" />를 이용해서<delay8 />
+<anim id="Greeting" target="actor" targetSpec="" />DIY해보시는 건 어떨까요?</message>
+	<message label="047" attrib="01 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />아!<delay20 /> 혹시<delay20 />
+<anim id="Pardon" target="actor" targetSpec="" />미로를 클리어하셨나요?!<delay8 />
+<tag a="110" b="1" />님?!<delay20 /><anim id="EmotEnd" target="actor" targetSpec="" /></message>
+	<message label="047_a" attrib="00 00 00 00">클리어했지!</message>
+	<message label="047_b" attrib="00 00 00 00">생각보다 쉬웠어!</message>
+	<message label="048" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />축하합니다!!<delay frames="40" />
+<anim id="Smiling" target="actor" targetSpec="" />당장 <colour id="3" />너굴<colour id="65535" />님에게 보고해야겠어요!<pageBreak /><anim id="Eh" target="actor" targetSpec="" />게다가<tag a="110" b="0" />
+처음 보는 물건을 갖고 계신 것 같군요?<pageBreak /><anim id="Nodding" target="actor" targetSpec="" /><tag a="110" b="0" />그렇군요! 감이 옵니다!<delay frames="30" />
+<anim id="EmotEnd" target="actor" targetSpec="" />마침 이 섬에 놀러오신<delay8 />
+다른 손님에게 받으셨군요?!<pageBreak />그럼 그 물건은 <delay20 /><anim id="Assent" target="actor" targetSpec="" />저희 도도항공에서
+책임지고 댁으로 보내드리겠습니다!<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />이상으로<tag a="110" b="0" /><delay20 />
+<anim id="Nodding" target="actor" targetSpec="" /><colour id="1" />근로자의 날 투어<colour id="65535" />를 마치겠습니다!<10_4 />
+돌아가시려면 <anim id="Hello" target="actor" targetSpec="" />말을 걸어주십시오!<pageBreak /><anim id="Eh" target="actor" targetSpec="" />아! <delay8 />혹시 이 미로를 다시 한번
+처음부터 즐기시려면 <delay frames="30" /><anim id="Explain" target="actor" targetSpec="" />갖고 계신 스마트폰의
+<colour id="1" />긴급 탈출 서비스<colour id="65535" />를 이용해주세요!<pageBreak /><anim id="Grin" target="actor" targetSpec="" />클리어 기록을 없앨 수 있으니까요<tag a="110" b="0" /></message>
+	<message label="049" attrib="02 00 00 00"><anim id="Eh" target="actor" targetSpec="" />네!<delay frames="30" />
+<anim id="QuestionMark" target="actor" targetSpec="" />무슨 일이신가요?</message>
+	<message label="049_a" attrib="00 00 00 00">돌아갈래</message>
+	<message label="049_b" attrib="00 00 00 00">아무것도 아니야</message>
+	<message label="050" attrib="00 00 00 00"><anim id="Laughing" target="actor" targetSpec="" />오오, <delay8 /><tag a="110" b="1" />님!<delay20 />
+<colour id="1" />긴급 탈출 서비스<colour id="65535" />로<delay20 /> 무사히 돌아오셨군요!<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />섬도 원래 상태로 되돌려놓았으니까<delay20 />
+<anim id="Greeting" target="actor" targetSpec="" />몇 번이고 다시 도전하실 수 있습니다!<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />또 도저히 못 풀겠다 싶으실 땐<delay20 />
+언제든지 <colour id="1" />긴급 탈출 서비스<colour id="65535" />를 이용해주세요!<pageBreak /><anim id="Serious" target="actor" targetSpec="" />그럼 새로운 마음으로<tag a="110" b="0" /><delay20 />
+<snpcAnim id="DodRoger" target="actor" targetSpec="" />굿 럭!</message>
+	<message label="051" attrib="02 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" /><tag a="110" b="34" /><gender6 m="으로" f="로" /> 돌아가시나요?<10_4 />
+<anim id="EmotEnd" target="actor" targetSpec="" />수수께끼에 다시 도전하고 싶으실 땐<delay20 />
+<anim id="Hello" target="actor" targetSpec="" /><colour id="1" />긴급 탈출 서비스<colour id="65535" />를 이용해주세요!</message>
+	<message label="051_a" attrib="00 00 00 00">돌아갈래!</message>
+	<message label="051_b" attrib="00 00 00 00">잠깐만!</message>
+	<message label="052" attrib="02 00 00 00"><tag a="110" b="34" /><gender5 m="으로" f="로" /> 돌아가시면<delay20 />
+<anim id="Nodding" target="actor" targetSpec="" /><tag a="110" b="1" />님의 주머니도<delay8 />
+원래 상태로 되돌려놓겠습니다!<pageBreak /><anim id="Serious" target="actor" targetSpec="" />단, <delay8 />다른 손님에게 받은 <colour id="1" />선물<colour id="65535" />은<delay8 />
+<anim id="Explain" target="actor" targetSpec="" />따로 댁으로 보내드릴 테니까<delay20 />
+댁의 우편함에서 받아주세요!<pageBreak /><anim id="Hello" target="actor" targetSpec="" />그럼 출발하시겠습니까?</message>
+	<message label="052_a" attrib="00 00 00 00"><anim id="Nodding" target="player" targetSpec="" />응</message>
+	<message label="052_b" attrib="00 00 00 00"><anim id="Negative" target="player" targetSpec="" />잠깐만</message>
+	<message label="053" attrib="02 00 00 00"><tag a="110" b="34" /><gender5 m="으로" f="로" /> 돌아가시면<delay20 />
+<anim id="Nodding" target="actor" targetSpec="" /><tag a="110" b="1" />님의 주머니도<delay8 />
+원래 상태로 되돌려놓겠습니다!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />단, <delay8 />다른 손님에게 받은 <colour id="1" />선물<colour id="65535" />과<delay8 />
+이곳에서 주운 <colour id="1" />벨 교환권<colour id="65535" />은<delay8 />
+<anim id="EmotEnd" target="actor" targetSpec="" />따로 댁으로 보내드리겠습니다!<delay20 />
+<anim id="Nodding" target="actor" targetSpec="" />댁의 우편함에서 받아주세요!<10_4 />
+<anim id="Hello" target="actor" targetSpec="" />그럼 출발하시겠습니까?</message>
+	<message label="053_a" attrib="00 00 00 00"><anim id="Nodding" target="player" targetSpec="" />응</message>
+	<message label="053_b" attrib="00 00 00 00"><anim id="Negative" target="player" targetSpec="" />잠깐만</message>
+	<message label="054" attrib="02 00 00 00"><tag a="110" b="34" /><gender5 m="으로" f="로" /> 돌아가시면<delay20 />
+<anim id="Nodding" target="actor" targetSpec="" /><tag a="110" b="1" />님의 주머니도<delay8 />
+원래 상태로 되돌려놓겠습니다!<pageBreak /><anim id="Serious" target="actor" targetSpec="" />단, 이곳에서 주운 <colour id="1" />벨 교환권<colour id="65535" />은<delay8 />
+<anim id="Explain" target="actor" targetSpec="" />따로 댁으로 보내드릴 테니까<delay20 />
+댁의 우편함에서 받아주세요!<pageBreak /><anim id="Hello" target="actor" targetSpec="" />그럼 출발하시겠습니까?</message>
+	<message label="054_a" attrib="00 00 00 00"><anim id="Nodding" target="player" targetSpec="" />응</message>
+	<message label="054_b" attrib="00 00 00 00"><anim id="Negative" target="player" targetSpec="" />잠깐만</message>
+	<message label="055" attrib="02 00 00 00"><anim id="Serious" target="actor" targetSpec="" />이제 이 <colour id="1" />근로자의 날 투어<colour id="65535" />에는
+참가하실 수 없습니다만 <delay frames="30" /><anim id="EmotEnd" target="actor" targetSpec="" />괜찮으시겠습니까?<delay20 />
+<colour id="4" />어차피 할 일도 없고 말이죠<tag a="110" b="0" /><colour id="65535" /></message>
+	<message label="055_a" attrib="00 00 00 00"><anim id="Nodding" target="player" targetSpec="" />응</message>
+	<message label="055_b" attrib="00 00 00 00"><anim id="Negative" target="player" targetSpec="" />잠깐만</message>
 </msbt>

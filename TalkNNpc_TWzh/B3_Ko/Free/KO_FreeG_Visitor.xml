@@ -5,7 +5,7 @@
 	<message label="001_a" attrib="04 00 00 00 00 00 00 00">我當然知道！</message>
 	<message label="001_b" attrib="05 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />是什麼啊？</message>
 	<message label="002" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="23" arg="0xd 0xe 0xf 0xffff" /></message>
-	<message label="003" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x1 0x10 0x11 0x12" /></message>
+	<message label="003" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x1 0x10 0x11 0x14" /></message>
 	<message label="004" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />什麼啊，你早就知道啦？<delay20 />
 <anim id="FaintSmile" target="actor" targetSpec="" />那就沒關係了。<delay frames="30" />
 <anim id="ShyBoy" target="actor" targetSpec="" />看來是我太多事了啊……
@@ -36,6 +36,13 @@
 讓你大吃一驚的氣派<colour id="1" />博物館<colour id="65535" />，<delay20 />
 <anim id="Smiling" target="actor" targetSpec="" />到時候記得來看看啊！<tag a="110" b="6" />。</message>
 	<message label="017" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="3" arg="0x15 0x16 0x17 0x18 0x19" /></message>
+	<message label="018" attrib="00 00 00 00 00 00 00 00"><anim id="Silent" target="actor" targetSpec="" />你知道嗎？<delay40 />
+<anim id="Greeting" target="actor" targetSpec="" />這座島上的<colour id="1" />博物館<colour id="65535" /><delay20 />有在展示藝術品喔。<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />很有西洋的感覺對吧？
+<anim id="ShyBoy" target="actor" targetSpec="" />雖然我不是很懂藝術品的價值或意義，<delay20 />
+<anim id="AbsentMindedness" target="actor" targetSpec="" />但我很喜歡它們身上所散發出的
+充滿歷史的感覺，<tag a="110" b="6" />。</message>
+	<message label="020" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="4" arg="0x15 0x16 0x17 0x18 0x19 0x12" /></message>
 	<message label="021" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1c00 0x1900 0xcd00" /></message>
 	<message label="022" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1d01 0x1900 0xcd00" /></message>
 	<message label="023" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1e02 0x1900 0xcd00" /></message>
@@ -63,6 +70,10 @@
 <anim id="Nodding" target="actor" targetSpec="" />如果你還沒看過的話，
 就去我們島上的<colour id="1" />博物館<colour id="65535" />見識一下吧。<delay20 />
 <anim id="Grin" target="actor" targetSpec="" /><tag a="110" b="0" />不過你可別被嚇傻啦！<tag a="110" b="6" />。</message>
+	<message label="031" attrib="00 00 00 00 00 00 00 00"><anim id="ShyBoy" target="actor" targetSpec="" />看來我相當地喜歡觀賞捐贈給<colour id="1" />博物館<colour id="65535" />的<delay8 />
+<tag a="135" b="13" arg="0x3" />啊<tag a="110" b="0" />
+<anim id="Hesitate" target="actor" targetSpec="" />其實我現在不時地會去逛逛藝術展覽室喔。<delay40 />
+<anim id="Blushing" target="actor" targetSpec="" />嘿<tag a="110" b="0" /><delay20 />這樣會不會不適合我啊？<tag a="110" b="6" />。</message>
 	<message label="201" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="0" arg="0xca 0xcd" /></message>
 	<message label="202" attrib="00 00 02 00 00 00 00 00">你啊，<delay8 />難不成是因為<delay20 />
 <anim id="WrySmile" target="actor" targetSpec="" />太想見我才過來<delay8 />

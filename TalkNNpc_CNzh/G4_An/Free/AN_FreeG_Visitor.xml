@@ -4,7 +4,7 @@
 	<message label="001_a" attrib="04 00 00 00 00 00 00 00">是那个吧？</message>
 	<message label="001_b" attrib="05 00 00 00 00 00 00 00">不知道</message>
 	<message label="002" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="23" arg="0xd 0xe 0xf 0xffff" /></message>
-	<message label="003" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x1 0x10 0x11 0x12" /></message>
+	<message label="003" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x13 0x10 0x11 0x14" /></message>
 	<message label="004" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />原来<delay8 />你都知道啊！<delay frames="30" />
 <anim id="Nodding" target="actor" targetSpec="" />没错！<delay8 />就是<tag a="110" b="7" arg="0xcd00" />！<delay frames="30" />
 你多吃点哦！<anim id="FaintSmile" target="actor" targetSpec="" /><tag a="110" b="6" />。</message>
@@ -30,6 +30,15 @@
 展品还很少。<delay frames="40" />
 <anim id="BigSmile" target="actor" targetSpec="" />等它建成了，<delay20 />记得来看看哦！<tag a="110" b="6" />。<anim id="FaintSmile" target="actor" targetSpec="" /></message>
 	<message label="017" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="3" arg="0x15 0x16 0x17 0x18 0x19" /></message>
+	<message label="018" attrib="00 00 00 00 00 00 00 00"><anim id="Hello" target="actor" targetSpec="" />这座<tag a="110" b="32" />的<colour id="1" />博物馆<colour id="65535" /><delay8 />很不错啊！<delay frames="40" />
+<anim id="Explain" target="actor" targetSpec="" />生物的展览方法很讲究，<delay20 />
+<anim id="Smiling" target="actor" targetSpec="" />还能欣赏艺术品！<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />而且<delay20 /><anim id="Grin" target="actor" targetSpec="" />又大，<delay8 />又宽敞，<delay8 />又华丽！<delay frames="30" />
+<anim id="Laughing" target="actor" targetSpec="" />绝对有来看一次的价值！<tag a="110" b="6" />。</message>
+	<message label="019" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />在这座<tag a="110" b="33" />上，<delay20 />
+<anim id="SmugFace" target="actor" targetSpec="" />可以与自然生态的虫子和鱼儿<delay8 />
+认真地一决胜负！<pageBreak /><anim id="Eh" target="actor" targetSpec="" />你该不会<delay20 /><anim id="Grin" target="actor" targetSpec="" />也是为了这个目的
+才来这里的？<tag a="110" b="6" />。</message>
+	<message label="020" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="4" arg="0x15 0x16 0x17 0x18 0x19 0x12" /></message>
 	<message label="021" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1c00 0x1900 0xcd00" /></message>
 	<message label="022" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1d01 0x1900 0xcd00" /></message>
 	<message label="023" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1e02 0x1900 0xcd00" /></message>
@@ -52,6 +61,10 @@
 <tag a="135" b="13" arg="0x2" />呢？<pageBreak /><anim id="Explain" target="actor" targetSpec="" />它们都被放在<colour id="1" />博物馆<colour id="65535" />里展示，<delay20 />
 你如果有空<delay8 />就去看看吧！<delay frames="30" />
 <anim id="EmotEnd" target="actor" targetSpec="" />我强烈推荐哦！<tag a="110" b="6" />。</message>
+	<message label="031" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />对了对了，<delay20 /><anim id="Hello" target="actor" targetSpec="" />你已经去看过<delay8 />
+<tag a="135" b="13" arg="0x3" />了吗？<pageBreak /><anim id="AbsentMindedness" target="actor" targetSpec="" />看着它，<delay20 />我脑中就会感到一阵刺激，<delay8 />
+涌出许多新品种料理的创意呢～<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />如果你还没看过，<delay20 />
+<anim id="Smiling" target="actor" targetSpec="" />记得回去前到<delay8 /><colour id="1" />博物馆<colour id="65535" />去一趟！<tag a="110" b="6" />。</message>
 	<message label="201" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="0" arg="0xca 0xd2" /></message>
 	<message label="202" attrib="00 00 01 00 00 00 00 00"><anim id="SmugFace" target="actor" targetSpec="" />怎么样啊，<delay8 />这<tag a="110" b="33" />？<delay frames="40" />
 <anim id="FaintSmile" target="actor" targetSpec="" />是个好地方吧！<delay frames="30" />

@@ -62,8 +62,8 @@ porque no lo vas a poder recuperar.<delay20 />
 	<message label="004" attrib="00 00 00 00"><snpcAnim id="DodRoger" target="actor" targetSpec="" /><delay20 />¡Recibido!<delay frames="40" /> Arrancando motores.<delay20 />
 Despegamos en 3<tag a="110" b="0" /><delay8 /> 2<tag a="110" b="0" /><delay8 /> 1<tag a="110" b="0" /></message>
 	<message label="008" attrib="00 00 00 00"><anim id="Assent" target="actor" targetSpec="" />¡Recibido! <delay20 />Apagamos motores y
-abortamos la maniobra de despegue.<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Avísame si necesitas herramientas
-o que te lleve de vuelta.</message>
+abortamos la maniobra de despegue.<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Avísame si necesitas usar nuestros
+servicios.</message>
 	<message label="011" attrib="00 00 00 00">¿Necesitas herramientas?<delay20 />
 ¡Recibido! <delay20 /><anim id="Thinking" target="actor" targetSpec="" />A ver qué hay disponible en el programa de millas<tag a="110" b="0" /></message>
 	<message label="012" attrib="00 00 00 00">¿Necesitas herramientas?<delay20 /> <anim id="Serious" target="actor" targetSpec="" />Lo siento,<delay8 />
@@ -90,4 +90,194 @@ alerta roja.<delay20 /> Pasajer<gender2 m="o" f="a" /> san<gender2 m="o" f="a" /
 <anim id="EmotEnd" target="actor" targetSpec="" /><size value="100" />Cuando te hayas recuperado,<delay8 /> puedes
 seguir explorando la isla.<delay20 /> <anim id="FaintSmile" target="actor" targetSpec="" />Pero ve con
 cuidado y no descuides tu posición.</message>
+	<message label="041" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />¡Aquí estamos! <delay20 />Este es tu destino<colour id="1" />
+<colour id="65535" />de la <colour id="1" />escapada del Primero de Mayo<colour id="65535" />.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Lo primero que debes saber es que
+este destino sorpresa es distinto
+de los habituales.
+Verás, <delay8 /><anim id="Explain" target="actor" targetSpec="" />toda la isla es un <colour id="1" />laberinto<colour id="65535" />
+gigantesco. <delay20 />¡Tendrás que averiguar
+por dónde debes avanzar!
+<anim id="Aha" target="actor" targetSpec="" />Ah, también debo informarte de que
+hemos dejado tu equipaje guardado
+en el mostrador del aeródromo.
+<anim id="Serious" target="actor" targetSpec="" />Es decir, deberás explorar la isla
+con los <colour id="1" />bolsillos vacíos<colour id="65535" />.<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />¡Pero que eso no te dé miedo!<delay20 /> En
+el laberinto encontrarás todo lo que
+necesitas para llegar a su centro.
+<anim id="Nodding" target="actor" targetSpec="" />Si te quedas atascad<gender2 m="o" f="a" /> o no eres
+capaz de salir, <delay8 /><anim id="Hello" target="actor" targetSpec="" />ni que decir tiene que
+puedes llamar al <colour id="1" />servicio de rescate<colour id="65535" />.
+Nuestros<tag a="110" b="0" /><delay8 /><anim id="Blushing" target="actor" targetSpec="" /> amigos<delay8 /> topógrafos<delay8 /> se
+pondrán manos a la obra y <delay8 /><anim id="FaintSmile" target="actor" targetSpec="" />dejarán
+el laberinto como estaba al inicio.
+<anim id="Hello" target="actor" targetSpec="" />¡Así podrás volver a intentar
+recorrerlo de cero otra vez!<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Y si en algún momento crees que
+necesitas ayuda, puedo darte alguna
+pista<tag a="110" b="0" />
+<anim id="BigSmile" target="actor" targetSpec="" />Bien, creo que ya te he dado toda
+la información esencial, <delay8 /><anim id="Nodding" target="actor" targetSpec="" />así que te
+dejaré para que te concentres.
+<anim id="Hello" target="actor" targetSpec="" />¡Mucha suerte, papagay<gender2 m="o" f="a" />!<delay20 />
+<snpcAnim id="DodRoger" target="actor" targetSpec="" />Cambio y corto.</message>
+	<message label="042" attrib="06 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />¿Te has atascado? <delay20 />¿Te has perdido?
+¿Necesitas ayuda? <delay20 />Cambio.</message>
+	<message label="042_a" attrib="00 00 00 00">¡Dame una pista!</message>
+	<message label="042_b" attrib="00 00 00 00">Quiero herramientas</message>
+	<message label="042_c" attrib="00 00 00 00">¡Me vuelvo a casa!</message>
+	<message label="042_d" attrib="00 00 00 00">Nada, déjalo</message>
+	<message label="043" attrib="02 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Antes de emprender el vuelo de
+vuelta, debo advertirte una cosa.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Los destinos de la <colour id="1" />escapada del
+Primero de Mayo<colour id="65535" /> son distintos
+cada vez.
+<anim id="Negative" target="actor" targetSpec="" />Si nos marchamos, no podrás volver.<delay20 />
+<anim id="QuestionMark" target="actor" targetSpec="" />Bien, ¿despegamos?</message>
+	<message label="043_a" attrib="00 00 00 00">¡Sí, volvamos a casa!</message>
+	<message label="043_b" attrib="00 00 00 00">No, espera...</message>
+	<message label="044" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Mira que lo siento, papagay<gender2 m="o" f="a" />, <delay8 />pero
+no puedo proporcionarte ninguna
+herramienta durante esta visita.
+<anim id="FaintSmile" target="actor" targetSpec="" />Ahí está precisamente la gracia de
+la <colour id="1" />escapada del Primero de Mayo<colour id="65535" />:<delay8 />
+¡en salir adelante con lo justo!
+<anim id="Nodding" target="actor" targetSpec="" />Dispones de pocos recursos, pero
+deberían ser más que suficientes.<pageBreak /><anim id="Hello" target="actor" targetSpec="" />¡Confía en tus capacidades!<delay20 />
+Cambio y corto.</message>
+	<message label="045" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />¿Quieres alguna pista?<delay20 /> Recibido.<delay20 />
+<anim id="Thinking" target="actor" targetSpec="" />Veamos<tag a="110" b="0" /><delay20 /> Déjame ver qué puedo
+decirte, papagay<gender2 m="o" f="a" />.</message>
+	<message label="046_0" attrib="00 00 00 00"><anim id="IdeaBulb" target="actor" targetSpec="" />¡Ah, ya sé!<delay20 /> ¿Sabías que, <anim id="QuestionMark" target="actor" targetSpec="" />si comes
+<colour id="1" />fruta<colour id="65535" />, te sentirás con mucha más
+energía?
+<anim id="Explain" target="actor" targetSpec="" />Te volverás tan fuerte que serás
+capaz incluso de <colour id="1" />arrancar árboles<colour id="65535" />
+<colour id="1" />de cuajo <colour id="65535" />o de romper rocas.
+<anim id="Hello" target="actor" targetSpec="" />¡Y lo único que necesitas es la ayuda
+de una pala o hacha!<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Espero que te resulte útil la pista.<delay20 />
+Cambio y corto, papagay<gender2 m="o" f="a" />.</message>
+	<message label="046_1" attrib="00 00 00 00"><anim id="IdeaBulb" target="actor" targetSpec="" />¡Ah, ya sé!<delay20 /> ¿Sabías que, <anim id="QuestionMark" target="actor" targetSpec="" />si un río
+no es muy ancho, puedes cruzarlo
+de un simple salto?
+<anim id="Smiling" target="actor" targetSpec="" />Es tan sencillo como mover <colour id="1" /> <colour id="65535" />en
+la dirección que quieras<tag a="110" b="0" /><delay8 /> ¡y listo!<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Espero que te resulte útil la pista.<delay20 />
+Cambio y corto, papagay<gender2 m="o" f="a" />.</message>
+	<message label="046_2" attrib="00 00 00 00"><anim id="IdeaBulb" target="actor" targetSpec="" />¡Ah, ya sé!<delay20 /> ¿Sabías que, <anim id="QuestionMark" target="actor" targetSpec="" />si te atascas
+y no eres capaz de seguir adelante,
+puedes llamar al <colour id="1" />servicio de rescate<colour id="65535" />?
+<anim id="Greeting" target="actor" targetSpec="" />Se encargarán de devolver la isla a
+su estado original para que puedas
+enfrentarte al laberinto de cero.
+<anim id="Nodding" target="actor" targetSpec="" />Espero que te resulte útil la pista.<delay20 />
+Cambio y corto, papagay<gender2 m="o" f="a" />.</message>
+	<message label="046_3" attrib="00 00 00 00"><anim id="IdeaBulb" target="actor" targetSpec="" />¡Ah, ya sé!<delay20 /> ¿Sabías que, <anim id="QuestionMark" target="actor" targetSpec="" />si te topas
+con un árbol en el camino, tienes
+dos opciones?
+<anim id="Nodding" target="actor" targetSpec="" />La primera es comer fruta
+y arrancarlo con una<colour id="1" /> pala<colour id="65535" />.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />La segunda consiste en talarlo con
+ayuda de un <colour id="1" />hacha <colour id="65535" />y luego arrancar
+el tocón con una <colour id="1" />pala<colour id="65535" />.
+<anim id="Hello" target="actor" targetSpec="" />Espero que te resulte útil la pista.<delay20 />
+Cambio y corto, papagay<gender2 m="o" f="a" />.</message>
+	<message label="046_4" attrib="00 00 00 00"><anim id="IdeaBulb" target="actor" targetSpec="" />¡Ah, ya sé!<delay20 /> ¿Sabías que, <anim id="QuestionMark" target="actor" targetSpec="" />si necesitas
+alguna herramienta en concreto, te
+la puedes fabricar tú mism<gender2 m="o" f="a" />?
+<anim id="Explain" target="actor" targetSpec="" />Ya sabes cómo va lo del bricolaje:<delay20 />
+juntas los materiales necesarios,
+los llevas al <colour id="1" />banco<colour id="65535" /><tag a="110" b="0" /><delay8 /> ¡y a crear!
+<anim id="Nodding" target="actor" targetSpec="" />Espero que te resulte útil la pista.<delay20 />
+Cambio y corto, papagay<gender2 m="o" f="a" />.</message>
+	<message label="047" attrib="01 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Si no lo veo, no lo creo. <delay20 />¿Es posible
+que hayas logrado atravesar el
+laberinto, papagay<gender2 m="o" f="a" />?</message>
+	<message label="047_a" attrib="00 00 00 00">Así es</message>
+	<message label="047_b" attrib="00 00 00 00">¡Ha sido facilísimo!</message>
+	<message label="048" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />¡Qué águila!<delay20 /> Ya se lo estás contando
+a <colour id="3" />Tom Nook<colour id="65535" />;<delay20 /> seguro que le hace
+ilusión saberlo.
+A todo esto<tag a="110" b="0" /><delay8 /><anim id="Eh" target="actor" targetSpec="" /> No he podido evitar
+fijarme en que llevas encima algo
+que este dodo no había visto <anim id="Nodding" target="player" targetSpec="" /><delay8 />antes.
+<anim id="Thinking" target="actor" targetSpec="" />¿Y <anim id="EmotEnd" target="player" targetSpec="" />dices que te lo ha dado alguien
+que pasaba por ahí?<anim id="Nodding" target="player" targetSpec="" /><delay20 /> Qué curioso<tag a="110" b="0" /><delay8 /><anim id="EmotEnd" target="player" targetSpec="" /><pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Bien, será todo un placer para Dodo
+Airlines transportar algo tan preciado
+a tu hogar.
+<anim id="BigSmile" target="actor" targetSpec="" />Bien, pues con esto ya está todo
+listo para que termines tu <colour id="1" />escapada<colour id="65535" />
+<colour id="1" />del Primero de Mayo<colour id="65535" />.
+<anim id="Hello" target="actor" targetSpec="" />Avísame cuando quieras alzar
+el vuelo.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Por cierto, si te quedas atascad<gender2 m="o" f="a" /> o
+no eres capaz de salir, <delay8 /><anim id="Hello" target="actor" targetSpec="" />puedes llamar
+al <colour id="1" />servicio de rescate<colour id="65535" />.
+Nuestros<tag a="110" b="0" /><delay8 /><anim id="Blushing" target="actor" targetSpec="" /> amigos<delay8 /> topógrafos<delay8 /> se
+pondrán manos a la obra y <delay8 /><anim id="FaintSmile" target="actor" targetSpec="" />dejarán
+el laberinto como estaba al inicio.
+<anim id="Hello" target="actor" targetSpec="" />¡Así podrás volver a intentar
+recorrerlo de cero otra vez!<delay20 />
+Cambio y corto.</message>
+	<message label="049" attrib="02 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Aquí Delta Oscar Dos llamando a
+papagay<gender2 m="o" f="a" />, <delay20 /><anim id="QuestionMark" target="actor" targetSpec="" />¿list<gender2 m="o" f="a" /> para emprender
+el vuelo?<anim id="EmotEnd" target="actor" targetSpec="" /> <delay20 />Cambio.</message>
+	<message label="049_a" attrib="00 00 00 00">¡Vamos allá!</message>
+	<message label="049_b" attrib="00 00 00 00">Todavía no</message>
+	<message label="050" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Veo que nuestros amigos del <colour id="1" />servicio
+de rescate<colour id="65535" /> te han echado una mano,
+<tag a="110" b="1" />.
+<anim id="Nodding" target="actor" targetSpec="" />Verás que la isla ha vuelto a su
+estado original, así que puedes tratar
+de recorrer el laberinto de nuevo.
+<anim id="Smiling" target="actor" targetSpec="" />Y no te preocupes: si vuelves a
+atascarte o algo por el estilo, ¡el
+<colour id="1" />servicio de rescate<colour id="65535" /> acudirá de nuevo!
+<anim id="Serious" target="actor" targetSpec="" />Bien, ahora toca reunir valor y<tag a="110" b="0" /><delay8 />
+¡enfrentarse al reto otra vez!<delay20 />
+<snpcAnim id="DodRoger" target="actor" targetSpec="" />¡Suerte, papagay<gender2 m="o" f="a" />! <delay8 />Cambio y corto.</message>
+	<message label="051" attrib="02 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Ah, ¿echas de menos <tag a="110" b="9" />⁠?<pageBreak /><anim id="Hello" target="actor" targetSpec="" />Si quieres recorrer el laberinto de
+nuevo, debes ponerte en contacto
+con el <colour id="1" />servicio de rescate<colour id="65535" />.</message>
+	<message label="051_a" attrib="00 00 00 00">¡Quiero irme a casa!</message>
+	<message label="051_b" attrib="00 00 00 00">Me quedo un rato</message>
+	<message label="052" attrib="02 00 00 00"><anim id="Hello" target="actor" targetSpec="" />¡Recibido! <delay20 />Dodo Airlines se ocupará
+de que todo tu equipaje llegue sin
+problema a <tag a="110" b="9" />.
+<anim id="Explain" target="actor" targetSpec="" />Una vez en la isla, deberías tenerlo
+todo en los bolsillos,<delay8 /> aunque ese
+<colour id="1" />regalo<colour id="65535" /> especial irá directo al buzón.
+Bien, <delay8 />si ya está todo listo, <delay8 /><anim id="QuestionMark" target="actor" targetSpec="" />¿ponemos
+rumbo a casa? <delay20 />Cambio.</message>
+	<message label="052_a" attrib="00 00 00 00">¡Sí, porfa!</message>
+	<message label="052_b" attrib="00 00 00 00">Todavía no...</message>
+	<message label="053" attrib="02 00 00 00"><anim id="Hello" target="actor" targetSpec="" />¡Recibido! <delay20 />Dodo Airlines se ocupará
+de que todo tu equipaje llegue sin
+problema a <tag a="110" b="9" />.
+<anim id="Explain" target="actor" targetSpec="" />Una vez en la isla, deberías tenerlo
+todo en los bolsillos,<delay8 /> aunque ese
+<colour id="1" />regalo<colour id="65535" /> especial irá directo al buzón.
+<anim id="Nodding" target="actor" targetSpec="" />Lo mismo se aplica a cualquier
+<colour id="1" />cupón de bayas<colour id="65535" /> que hayas obtenido
+durante la visita. <delay8 />¿Me recibes?
+Bien, <delay8 />si ya está todo listo, <delay8 /><anim id="QuestionMark" target="actor" targetSpec="" />¿ponemos
+rumbo a casa? <delay20 />Cambio.</message>
+	<message label="053_a" attrib="00 00 00 00">¡Sí, porfa!</message>
+	<message label="053_b" attrib="00 00 00 00">Todavía no...</message>
+	<message label="054" attrib="02 00 00 00"><anim id="Hello" target="actor" targetSpec="" />¡Recibido! <delay20 />Dodo Airlines se ocupará
+de que todo tu equipaje llegue sin
+problema a <tag a="110" b="9" />.
+<anim id="Serious" target="actor" targetSpec="" />Una vez en la isla, deberías tenerlo
+todo en los bolsillos.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Bueno, todo menos los <colour id="1" />cupones de<colour id="65535" />
+<colour id="1" />bayas <colour id="65535" />que hayas podido encontrar
+durante tu visita.<colour id="1" />
+<anim id="Nodding" target="actor" targetSpec="" /><colour id="65535" />Esos irán<colour id="1" /> <colour id="65535" />directos al buzón, así que
+no te olvides de echarle un ojo.<pageBreak />Bien, <delay8 />si ya está todo listo, <delay8 /><anim id="QuestionMark" target="actor" targetSpec="" />¿ponemos
+rumbo a casa? <delay20 />Cambio.</message>
+	<message label="054_a" attrib="00 00 00 00">¡Sí, porfa!</message>
+	<message label="054_b" attrib="00 00 00 00">Todavía no...</message>
+	<message label="055" attrib="02 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Antes de emprender el vuelo de
+vuelta, debo advertirte de una cosa.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Los destinos de la <colour id="1" />escapada del
+Primero de Mayo<colour id="65535" /> son distintos
+cada vez.
+<anim id="Negative" target="actor" targetSpec="" />Si nos marchamos, no podrás volver.<delay20 />
+<anim id="Thinking" target="actor" targetSpec="" /><colour id="4" />(Aunque parece que ya le has sacado
+el máximo partido a esta isla<tag a="110" b="0" />)<colour id="65535" />
+<anim id="QuestionMark" target="actor" targetSpec="" />Bien, ¿despegamos?</message>
+	<message label="055_a" attrib="00 00 00 00">¡Sí, porfa!</message>
+	<message label="055_b" attrib="00 00 00 00">Todavía no...</message>
 </msbt>

@@ -2,6 +2,8 @@
 	<message label="001" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Aterrizamos sanos y salvos
 en nuestro destino.<delay20 /> <anim id="Assent" target="actor" targetSpec="" />Avísame cuando
 quieras regresar.<delay20 /> Cambio y fuera.</message>
+	<message label="002" attrib="00 00 00 00"><anim id="Surprised" target="actor" targetSpec="" />¡Radares alertas!<delay8 /> ¿Qué oigo por allí?<delay20 />
+<anim id="EmotEnd" target="actor" targetSpec="" />Parece que están hablando de algo<tag a="110" b="0" /></message>
 	<message label="101" attrib="02 00 00 00">Aquí Delta Oscar Delta Oscar
 llamando a copiloto, <delay20 /><anim id="QuestionMark" target="actor" targetSpec="" />¿en qué
 te puedo ayudar?<anim id="EmotEnd" target="actor" targetSpec="" /><delay20 /> Cambio.</message>
@@ -14,4 +16,91 @@ te puedo ayudar?<anim id="EmotEnd" target="actor" targetSpec="" /><delay20 /> Ca
 y despegamos en 3<tag a="110" b="0" /> 2<tag a="110" b="0" /> <delay8 />1<tag a="110" b="0" /></message>
 	<message label="104" attrib="00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Recibido.<delay frames="40" /> <anim id="Smiling" target="actor" targetSpec="" />Tranquil<gender2 m="o" f="a" />,<delay8 /> copiloto.
 No tengo prisa.</message>
+	<message label="105" attrib="00 00 00 00"><anim id="IdeaBulb" target="actor" targetSpec="" />¡Ah, <tag a="110" b="1" />!<delay8 />
+Te comento una cosa, copiloto.<pageBreak /><anim id="BigSmile" target="actor" targetSpec="" />En Dodo Airlines nos interesa
+hacerles la vida más fácil a nuestros
+clientes, así que se nos ocurrió algo.
+<anim id="Aha" target="actor" targetSpec="" />¡Me refiero a los <colour id="1" />servicios de
+paquetería y liquidación<colour id="65535" />! <delay20 />¿Recibido?<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Con este novedoso sistema,
+se elimina el problema de no poder
+alzar vuelo por exceso de equipaje. <delay20 /><anim id="Negative" target="actor" targetSpec="" />No más frustraciones.
+<anim id="Assent" target="actor" targetSpec="" />A partir de ahora, nos ocupamos
+de lo que te sobre.<pageBreak /><anim id="QuestionMark" target="actor" targetSpec="" />¿Hay algo que quieres conservar?<delay20 />
+<anim id="Assent" target="actor" targetSpec="" />¡Ningún problema!<delay20 /> <anim id="Nodding" target="actor" targetSpec="" />Te lo enviamos
+a tu casa.
+<anim id="QuestionMark" target="actor" targetSpec="" />¿Hay algo que ya no quieres tener?<delay20 />
+<anim id="Assent" target="actor" targetSpec="" />¡Ningún problema tampoco!<delay20 />
+<anim id="Nodding" target="actor" targetSpec="" />Nosotros te lo compramos.
+<anim id="BigSmile" target="actor" targetSpec="" />Te explico cómo funciona<tag a="110" b="0" /></message>
+	<message label="106" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Con nuestro <colour id="1" />servicio de paquetería
+<colour id="65535" />podrás enviar todo tipo de objetos
+al depósito de tu casa.
+<anim id="Nodding" target="actor" targetSpec="" />La satisfacción de nuestros pasajeros
+es nuestra prioridad número uno,<delay8 />
+por eso,<delay8 /> <anim id="Negative" target="actor" targetSpec="" />no cobramos por el servicio.
+Así que, <anim id="Smiling" target="actor" targetSpec="" />¡aprovéchalo y vuela
+livian<gender2 m="o" f="a" />, copiloto!</message>
+	<message label="107" attrib="00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />Pero no nos olvidemos de nuestro
+novedoso <colour id="1" />servicio de liquidación<colour id="65535" />,
+claro.
+<anim id="Explain" target="actor" targetSpec="" />Al usar este servicio,<delay8 /> podrás vender
+todo lo que ya no quieras.<pageBreak /><anim id="Greeting" target="actor" targetSpec="" />Vacías los bolsillos y de paso
+ganas unas cuantas bayas;<delay20 />
+¡todas ventajas!
+<anim id="Nodding" target="actor" targetSpec="" />Nos asociamos con <colour id="1" />MiniNook<colour id="65535" />,
+por lo que las tarifas son las mismas
+que las del buzón de compraventa.
+<anim id="Greeting" target="actor" targetSpec="" />Eso también significa que te
+depositamos las bayas en tu cuenta del Banco Nook al día siguiente.</message>
+	<message label="108" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Bien, ya estás enterad<gender2 m="o" f="a" /> de todas
+las novedades de nuestros servicios.<delay20 />
+<snpcAnim id="DodRoger" target="actor" targetSpec="" />¡Cambio y fuera, copiloto!</message>
+	<message label="110" attrib="06 00 00 00">Aquí Delta Oscar Delta Oscar
+llamando a copiloto, <delay20 /><anim id="QuestionMark" target="actor" targetSpec="" />¿en qué
+te puedo ayudar?<anim id="EmotEnd" target="actor" targetSpec="" /><delay20 /> Cambio.</message>
+	<message label="110_a" attrib="00 00 00 00">Me quiero ir a mi casa</message>
+	<message label="110_b" attrib="00 00 00 00">Servicio de paquetería</message>
+	<message label="110_c" attrib="00 00 00 00">Servicio de liquidación</message>
+	<message label="110_d" attrib="00 00 00 00">No, nada</message>
+	<message label="111" attrib="00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />¿Quieres usar nuestro servicio de
+paquetería?<delay20 /><anim id="Nodding" target="actor" targetSpec="" /> ¡Recibido! <delay8 />Dime qué
+quieres enviar al depósito, copiloto.</message>
+	<message label="112" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />¡Caramba!<delay20 /> Parece que tienes el
+depósito hasta el tope.<delay20 /> <anim id="Negative" target="actor" targetSpec="" />Así no podemos enviar nada.<pageBreak /><anim id="Thinking" target="actor" targetSpec="" />Recuerda que también puedes usar
+nuestro servicio de liquidación
+si prefieres.
+<anim id="Hello" target="actor" targetSpec="" />¡Cambio y fuera, copiloto!</message>
+	<message label="113" attrib="00 00 00 00">¿Cambiaste de parecer? <delay20 /><anim id="FaintSmile" target="actor" targetSpec="" />¡Recibido!<delay8 />
+Si necesitas cualquier otra cosa,
+aquí estoy. <delay20 /><anim id="Hello" target="actor" targetSpec="" />¡Cambio y fuera!</message>
+	<message label="116" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />¡Recibido!<delay40 /><anim id="Smiling" target="actor" targetSpec="" /> Bien, tu equipaje está
+listo para ser despachado<tag a="110" b="0" /></message>
+	<message label="118" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Ya está todo preparado para el
+envío.<delay20 /><anim id="BigSmile" target="actor" targetSpec="" /> El paquete llegará a tu
+hogar en menos que canta un dodo.
+<anim id="Assent" target="actor" targetSpec="" />Gracias por utilizar nuestro servicio
+de paquetería. <delay20 />¡Cambio y fuera!</message>
+	<message label="120" attrib="00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />¿Quieres usar nuestro servicio de
+liquidación?<delay20 /><anim id="Nodding" target="actor" targetSpec="" /> ¡Recibido!<delay8 /> Dime de
+qué te quieres deshacer, copiloto.</message>
+	<message label="121" attrib="02 00 00 00"><anim id="Eh" target="actor" targetSpec="" />¡Caramba!<delay20 /> Parece que tienes tu
+cuenta del Banco Nook hasta el tope.<delay20 />
+<anim id="Negative" target="actor" targetSpec="" />Así no podemos pagarte nada.
+<anim id="Thinking" target="actor" targetSpec="" />De todas formas, nos puedes dar
+lo que no quieras, aunque no
+recibas bayas a cambio.</message>
+	<message label="121_a" attrib="00 00 00 00">De acuerdo</message>
+	<message label="121_b" attrib="00 00 00 00">No hace falta, gracias</message>
+	<message label="124" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />¡Recibido! <delay20 />Bien, <anim id="QuestionMark" target="actor" targetSpec="" />¿de qué te quieres
+deshacer?</message>
+	<message label="125" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Bien, <delay8 />hemos recibido el equipaje.<delay20 />
+<anim id="BigSmile" target="actor" targetSpec="" />Mañana por la mañana se hará
+el depósito en tu cuenta.</message>
+	<message label="126" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Bien, <delay8 />hemos recibido el equipaje.<delay20 />
+<anim id="BigSmile" target="actor" targetSpec="" />Procederemos con las maniobras de
+descarte.</message>
+	<message label="127" attrib="00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />Gracias por utilizar nuestro servicio
+de liquidación. <delay20 />¡Cambio y fuera!</message>
+	<message label="200" attrib="00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />¿No te da curiosidad?<delay20 /> ¿Por qué
+no vas a investigar un poco?</message>
 </msbt>

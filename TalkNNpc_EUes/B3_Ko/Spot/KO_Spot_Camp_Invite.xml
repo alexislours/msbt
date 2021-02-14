@@ -95,6 +95,39 @@ si sería posible mudarme.
 a preguntar en la <colour id="1" />oficina de gestión<colour id="65535" />
 si me permiten mudarme aquí.
 <anim id="Hello" target="actor" targetSpec="" />¡Deséame suerte, <tag a="110" b="6" />!</message>
+	<message label="207_01" attrib="00 00 01 00 00 00 00 00"><anim id="Grin" target="actor" targetSpec="" />No estás dispuesto a renunciar
+a mí,<delay8 /> ¿eh?<delay20 /> ¡Ja, ja, ja!<delay20 /><pageBreak /><anim id="Hesitate" target="actor" targetSpec="" />Aprecio mucho tu interés,<delay8 /> jovencit<gender2 m="o" f="a" />,<delay8 />
+pero entiende que no es algo que
+pueda decidir sobre la marcha.<pageBreak /><anim id="WrySmile" target="actor" targetSpec="" />Un poco de seriedad.<delay20 /> ¿Por qué no
+lo decidimos con un juego?<delay20 /> <anim id="Laughing" target="actor" targetSpec="" />¡Ja, ja, ja!<delay20 /> Si ganas,<delay8 /> me mudo a tu isla.</message>
+	<message label="207_01_a" attrib="00 00 00 00 00 00 00 00">¡Juguemos!</message>
+	<message label="207_01_b" attrib="00 00 00 00 00 00 00 00">Mejor no...</message>
+	<message label="207_02" attrib="00 00 01 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />¡Madre mía,<delay8 /> qué solicitado estoy!<delay20 />
+Qué bien ha salido mi campaña
+de marketing.<delay20 /> <anim id="Laughing" target="actor" targetSpec="" />¡Ja, ja, ja!<delay20 /> Es broma.<pageBreak /><anim id="Thinking" target="actor" targetSpec="" />Bueno,<delay8 /> démosle de todos modos
+un toque de emoción.<pageBreak />Jugamos a un juego y,<delay8 /> si ganas,<delay8 />
+seré un nuevo vecino de tu isla.<delay20 />
+<anim id="QuestionMark" target="actor" targetSpec="" />¿Qué te parece?</message>
+	<message label="207_02_a" attrib="00 00 00 00 00 00 00 00">¡Me vale!</message>
+	<message label="207_02_b" attrib="00 00 00 00 00 00 00 00">Bah, déjalo</message>
+	<message label="207_03" attrib="00 00 01 00 00 00 00 00"><anim id="ShyBoy" target="actor" targetSpec="" />Admiro tu tenacidad,<delay8 /> jovencit<gender2 m="o" f="a" />.<delay20 />
+Y tu voluntad.<delay20 /> Y tu tozudez,<delay8 /> <tag a="110" b="5" />.<pageBreak /><anim id="Oops" target="actor" targetSpec="" />Pero ahora mismo soy incapaz
+de decidirme.<delay20 /> Creo que acabamos
+antes si lo dejo al azar.<pageBreak /><anim id="IdeaBulb" target="actor" targetSpec="" />¿Y si lo decidimos con un juego?<delay20 />
+Si ganas,<delay8 /> seré un nuevo residente
+de tu isla.</message>
+	<message label="207_03_a" attrib="00 00 00 00 00 00 00 00">Me parece bien</message>
+	<message label="207_03_b" attrib="00 00 00 00 00 00 00 00">No me convence</message>
+	<message label="208_01" attrib="00 00 00 00 00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Así que no estás para juegos<tag a="110" b="0" /><delay8 />
+<anim id="OhGeez" target="actor" targetSpec="" />Vaya,<delay8 /> si hasta voy tener una
+actitud más juvenil que la tuya.<delay20 />
+Bueno,<delay8 /> no pasa nada.<delay20 /> Me vuelvo
+a mi isla,<delay8 /> <tag a="110" b="5" />.</message>
+	<message label="208_02" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />¿No?<delay20 /> Pues nada,<delay8 /> quizá en otra
+ocasión.<delay20 /> <anim id="Greeting" target="actor" targetSpec="" />¡Nos vemos,<delay8 /> <tag a="110" b="5" />!</message>
+	<message label="208_03" attrib="00 00 00 00 00 00 00 00"><anim id="Sighing" target="actor" targetSpec="" />¿No te interesa?<delay20 /> Bueno,<delay8 /> yo solo no
+voy a jugar.<delay20 /> <anim id="Eh" target="actor" targetSpec="" />O sí,<delay8 /> a un solitario<tag a="110" b="0" /><delay8 /> Bah,<delay8 />
+si no tengo edad para estas cosas.</message>
 	<message label="302" attrib="00 00 01 00 00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Qué lástima,<delay8 /> jovencit<gender2 m="o" f="a" /><tag a="110" b="0" /><delay frames="20" /> En la <colour id="1" />oficina
 de gestión vecinal<colour id="65535" /> me han dicho que
 no puedo mudarme aquí.
@@ -160,6 +193,13 @@ ver si me puedo mudar aquí.
 la isla no cabe un alma más.<delay20 />
 ¡Un nuevo vecino,<delay8 /> y se hunde!
 <anim id="Thinking" target="actor" targetSpec="" />¿Puede hundirse una isla?<delay20 /> ¿Cuánto pesa el alma?<delay20 /> <anim id="OhGeez" target="actor" targetSpec="" />Mejor no correr riesgos<tag a="110" b="0" /></message>
+	<message label="405" attrib="00 00 00 00 00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Malas noticias,<delay8 /> jovencit<gender2 m="o" f="a" />.<delay20 /> He hablado
+con la <colour id="1" />oficina de gestión vecinal<colour id="65535" /> para ver si me puedo mudar aquí.<pageBreak /><anim id="Negative" target="actor" targetSpec="" />Pero no puede ser.<delay20 /> Parece que en
+la isla ya no quedan solares
+a la venta.
+<anim id="Angry" target="actor" targetSpec="" />Y,<delay8 /> como comprenderás,<delay8 /> no estoy
+dispuesto a dormir en la playa.<delay20 />
+<anim id="OhGeez" target="actor" targetSpec="" />Lo siento,<delay8 /> jovencit<gender2 m="o" f="a" />.</message>
 	<message label="406" attrib="00 00 00 00 00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />Disculpa que te haya hecho esperar.<delay20 />
 He preguntado en la <colour id="1" />oficina de
 gestión vecinal<colour id="65535" /><tag a="110" b="0" />
@@ -183,6 +223,15 @@ jovencit<gender2 m="o" f="a" />!<delay20 /> No hay ni un hueco
 para este abuelete.<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />De todos modos,<delay8 /> me honra haber
 recibido una invitación para un sitio
 tan popular, <tag a="110" b="5" />.</message>
+	<message label="424" attrib="00 00 00 00 00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />Ya no hay solares a la venta<tag a="110" b="0" /><delay frames="20" />
+¿A qué alcalde tengo que untar?<delay20 />
+<anim id="Laughing" target="actor" targetSpec="" />¡Ja, ja, ja!
+<anim id="OhGeez" target="actor" targetSpec="" />Es broma.<delay20 /> No me gusta nada eso
+de las recalificaciones.<delay20 /> Acepto con
+honestidad las circunstancias.
+<anim id="Smiling" target="actor" targetSpec="" />Gracias de todos modos por
+invitarme,<delay8 /> jovencit<gender2 m="o" f="a" />.<delay20 /> Me has hecho
+sentir muy apreciado.</message>
 	<message label="504" attrib="00 00 01 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />La primera vez que vine,<delay8 /> lo hice
 como mero turista.<delay20 /> <anim id="Grin" target="actor" targetSpec="" />¡Pero aquí son
 todos tan amables y generosos!<tag a="110" b="0" />

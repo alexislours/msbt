@@ -119,7 +119,7 @@
 <colour id="3" /><20_2 arg="10" /><20_2 arg="9" />부엉<colour id="65535" /> 아저씨가 열심인가봐아～<pageBreak /><20_3 arg="6" /><20_3 arg="3" /><anim id="Explain" target="actor" targetSpec="" />우선 전시한 물건이 몇 개 있다니까아<delay20 />
 괜찮으면 <tag a="110" b="4" />도<delay20 />
 <anim id="Greeting" target="actor" targetSpec="" />찾아가서 응원해줘어～ <tag a="110" b="6" />～</message>
-	<message label="025" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="2" arg="0x6f 0x70 0x71 0x74" /></message>
+	<message label="025" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="3" arg="0x6f 0x70 0x71 0x72 0x74" /></message>
 	<message label="029" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />이런 데서 뭐 하는 거야아?<delay frames="40" />
 <anim id="EmotEnd" target="actor" targetSpec="" /><20_2 arg="10" /><colour id="1" />안내소<colour id="65535" />에 무슨 볼일 있어～?<pageBreak /><20_3 arg="6" /><anim id="Aha" target="actor" targetSpec="" /><delay20 />앗, 혹시 <tag a="110" b="32" />을 발전시키려고<delay20 />
 뭔가 일을 하려는 거야아?!<pageBreak /><anim id="BigSmile" target="actor" targetSpec="" />역시 <delay20 /><tag a="110" b="4" /><gender5 m="이" f="" />야아!<delay frames="40" />
@@ -146,6 +146,7 @@
 	<message label="111" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x7700 0x7400 0xcd00" /></message>
 	<message label="112" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x7801 0x7400 0xcd00" /></message>
 	<message label="113" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x7902 0x7400 0xcd00" /></message>
+	<message label="114" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x7a03 0x7400 0xcd00" /></message>
 	<message label="116" attrib="00 00 00 00 00 00 00 00"><20_2 arg="10" /><anim id="Smiling" target="actor" targetSpec="" /><20_2 arg="9" />참 멋진 <colour id="1" />박물관<colour id="65535" />이지이～<delay frames="40" />
 <20_3 arg="6" /><20_3 arg="3" />하루 종일 아무 때나 열려 있으니까<delay20 />
 <anim id="Greeting" target="actor" targetSpec="" />언제든 올 수 있어서 더 좋아～ <tag a="110" b="6" />!</message>
@@ -164,4 +165,9 @@
 보러 오거드은～<pageBreak /><anim id="Restless" target="actor" targetSpec="" />계속 보다 보면 언젠가<delay20 />
 화석이 움직이는 순간을<delay8 />
 볼 수 있지 않을까아～? <tag a="110" b="6" />?</message>
+	<message label="122" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />난 말야아, <delay20 />가끔씩 <colour id="1" />박물관<colour id="65535" />에<delay20 />
+<tag a="135" b="13" arg="0x3" /><gender5 m="을" f="를" /><delay20 />
+보러 가고는 해～<pageBreak /><anim id="Thinking" target="actor" targetSpec="" /><colour id="1" />박물관<colour id="65535" />에 전시될 정도니까<delay20 />
+분명 엄～청난 작품이겠지이?<10_4 />
+<anim id="Laughing" target="actor" targetSpec="" />나는 봐도 잘 모르겠지만～ <tag a="110" b="6" /></message>
 </msbt>

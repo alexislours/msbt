@@ -5,7 +5,7 @@
 	<message label="001_a" attrib="04 00 00 00 00 00 00 00"><ruby a="2" b="2">た</ruby>食べたよ</message>
 	<message label="001_b" attrib="05 00 00 00 00 00 00 00">なんのこと？</message>
 	<message label="002" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="23" arg="0xd 0xe 0xf 0xffff" /></message>
-	<message label="003" attrib="09 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x1 0x10 0x11 0x12" /></message>
+	<message label="003" attrib="09 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x1 0x10 0x11 0x14" /></message>
 	<message label="004" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />まぁ、<delay8 />さすが<tag a="110" b="4" />、<delay40 />
 <anim id="EmotEnd" target="actor" targetSpec="" />アタシが　<ruby a="4" b="10">しょうかい</ruby>紹介するまでもなく、<delay20 />
 <anim id="FaintSmile" target="actor" targetSpec="" /><tag a="110" b="7" arg="0xcd00" />　もう<ruby a="2" b="2">た</ruby>食べたのね<pageBreak /><anim id="Love" target="actor" targetSpec="" />あの　<ruby a="2" b="4">あま</ruby>甘くって　さわやかな<ruby a="2" b="4">あじ</ruby>味は<delay20 />
@@ -32,6 +32,11 @@
 <ruby a="6" b="14">けいかくちゅう</ruby>計画中みたいなの<pageBreak /><anim id="Thinking" target="actor" targetSpec="" />でも、<colour id="3" /><delay8 />フータ<colour id="65535" />さんのラボも　テントだし<tag a="110" b="0" /><delay20 />
 <anim id="OhGeez" target="actor" targetSpec="" /><ruby a="4" b="6">きたい</ruby>期待しすぎないようにしてるわ、<tag a="110" b="6" /></message>
 	<message label="017" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="3" arg="0x15 0x16 0x17 0x18 0x19" /></message>
+	<message label="018" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />この<tag a="110" b="32" />の　<colour id="1" /><ruby a="6" b="12">はくぶつかん</ruby>博物館<colour id="65535" />ではね、<delay20 />
+<ruby a="6" b="12">びじゅつひん</ruby>美術品なんかも　<ruby a="2" b="2">み</ruby>見ることができるのよ<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />せっかく　<ruby a="2" b="4">あそ</ruby>遊びに<ruby a="2" b="2">き</ruby>来てくれたんだから<delay20 />
+ぜひ<delay8 />　<ruby a="2" b="2">み</ruby>見ていってちょうだい<delay frames="40" />
+<anim id="Greeting" target="actor" targetSpec="" />アタシの　おすすめスポットなの、<tag a="110" b="6" /></message>
+	<message label="020" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="4" arg="0x15 0x16 0x17 0x18 0x19 0x12" /></message>
 	<message label="021" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1c00 0x1900 0xcd00" /></message>
 	<message label="022" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1d01 0x1900 0xcd00" /></message>
 	<message label="023" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1e02 0x1900 0xcd00" /></message>
@@ -53,6 +58,11 @@
 <tag a="135" b="13" arg="0x2" />、<delay20 />
 <anim id="Love" target="actor" targetSpec="" />なんだか<ruby a="2" b="6">みょう</ruby>妙に　ひきつけられるの<tag a="110" b="0" /><pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />かせきって<delay20 />　<anim id="Nodding" target="actor" targetSpec="" /><ruby a="6" b="6">ふしぎ</ruby>不思議な<ruby a="4" b="8">みりょく</ruby>魅力が<delay8 />
 あるわよね、<tag a="110" b="6" /></message>
+	<message label="031" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />この<tag a="110" b="32" />の　<colour id="1" /><ruby a="6" b="12">はくぶつかん</ruby>博物館<colour id="65535" />に<delay20 />
+<tag a="135" b="13" arg="0x3" />が<delay8 />
+<ruby a="4" b="6">てんじ</ruby>展示されてるのは、<anim id="Hello" target="actor" targetSpec="" /><ruby a="2" b="2">し</ruby>知ってるかしら？<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />もし、<delay8 />まだ　<ruby a="2" b="2">み</ruby>見てないんだったら<delay20 />
+ぜひ　<ruby a="2" b="2">い</ruby>行ってみてほしいわ<delay frames="40" />
+<anim id="Nodding" target="actor" targetSpec="" />あれは　<ruby a="4" b="8">いっけん</ruby>一見の<ruby a="4" b="4">かち</ruby>価値があるわよ、<tag a="110" b="6" /></message>
 	<message label="201" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="0" arg="0xca 0xce" /></message>
 	<message label="202" attrib="00 00 03 00 00 00 00 00">ねぇ　<tag a="110" b="4" />、<delay20 />
 <anim id="QuestionMark" target="actor" targetSpec="" />アタシのいない<tag a="110" b="32" />には

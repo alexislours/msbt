@@ -33,7 +33,7 @@
 <20_2 arg="9" /><anim id="Nodding" target="actor" targetSpec="" />나름 <delay8 />괜찮은 것 같아<pageBreak /><20_3 arg="6" /><20_3 arg="3" /><anim id="HappyDance" target="actor" targetSpec="" />앞으로 조금씩 리모델링해서<delay20 />
 크게 만들 거잖아?<delay frames="40" />
 <anim id="Laughing" target="actor" targetSpec="" />크으～ <delay20 />상상만 해도 행복하다! <tag a="110" b="6" />!</message>
-	<message label="006" attrib="00 00 00 00 00 00 00 00"><20_2 arg="10" /><anim id="IdeaBulb" target="actor" targetSpec="" />그러고 보니까 너 <20_2 arg="9" /><delay20 /><colour id="3" />너굴<colour id="65535" />한테 부탁해서<delay8 />
+	<message label="006" attrib="00 00 00 00 00 00 00 00"><20_2 arg="10" /><anim id="IdeaBulb" target="actor" targetSpec="" />그러고 보니까 너 <20_2 arg="9" /><delay20 /><colour id="3" />너굴<colour id="65535" />씨한테 부탁해서<delay8 />
 <anim id="Nodding" target="actor" targetSpec="" />방을 더 넓게 만들었다면서?<pageBreak /><20_3 arg="6" /><20_3 arg="3" /><anim id="Thinking" target="actor" targetSpec="" />하긴, <delay20 />한곳에 자리 잡고 살다 보면<delay20 />
 짐이 늘면 늘었지 줄지는 않으니까<delay20 />
 <anim id="Smiling" target="actor" targetSpec="" />집을 넓히고 싶은 마음도 이해는 간다</message>
@@ -111,7 +111,7 @@
 <anim id="Smiling" target="actor" targetSpec="" />생각만으로도 <delay8 />두근거리지 않냐?<pageBreak /><20_3 arg="6" /><20_3 arg="3" /><anim id="Negative" target="actor" targetSpec="" />지금은 아직 모양새가 별로지만<delay20 />
 <anim id="Nodding" target="actor" targetSpec="" />어느 정도 전시품이 모이면<delay20 />
 <anim id="FaintSmile" target="actor" targetSpec="" />정식으로 <delay8 />공사에 들어간다더라! <tag a="110" b="6" />!</message>
-	<message label="025" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="2" arg="0x6f 0x70 0x71 0x74" /></message>
+	<message label="025" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="3" arg="0x6f 0x70 0x71 0x72 0x74" /></message>
 	<message label="029" attrib="00 00 00 00 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />응? <delay frames="40" />혹시<delay20 />
 <colour id="1" /><20_2 arg="10" />안내소<colour id="65535" />에 무슨<colour id="1" /><20_2 arg="9" /><colour id="65535" /> 볼일 있냐?<pageBreak /><anim id="Blushing" target="actor" targetSpec="" />조금이라도 <delay8 />곤란한 일이 있으면<delay20 />
 바로 도와주니까, <delay20 /><colour id="1" />안내소<colour id="65535" />가 있어서
@@ -142,6 +142,7 @@
 	<message label="111" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x7700 0x7400 0xcd00" /></message>
 	<message label="112" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x7801 0x7400 0xcd00" /></message>
 	<message label="113" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x7902 0x7400 0xcd00" /></message>
+	<message label="114" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x7a03 0x7400 0xcd00" /></message>
 	<message label="116" attrib="00 00 00 00 00 00 00 00"><20_2 arg="10" /><anim id="Greeting" target="actor" targetSpec="" />24시간 <delay8 /><colour id="1" /><20_2 arg="9" /><colour id="65535" />언제든지 들어갈 수 있고<delay20 />
 <anim id="Nodding" target="actor" targetSpec="" />입장료도 무료니까<delay20 />
 <20_2 arg="6" /><20_3 arg="3" /><anim id="Love" target="actor" targetSpec="" />이 섬의 <colour id="1" />박물관<colour id="65535" />은 정말 최고인 것 같아!<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />가볍게 산책할 마음으로 <delay8 />집을 나섰다가도<delay20 />
@@ -162,4 +163,8 @@
 이상한 기분이 <delay8 />들더라<pageBreak /><anim id="Blushing" target="actor" targetSpec="" /><tag a="135" b="13" arg="0x2" /> 같은 것도<delay8 />
 평소엔 <delay8 />보기 힘든 거라서 그런지<delay20 />
 <anim id="Smiling" target="actor" targetSpec="" />몇 시간이고 계속 보게 되더라구, <tag a="110" b="6" /></message>
+	<message label="122" attrib="00 00 00 00 00 00 00 00"><anim id="ShyBoy" target="actor" targetSpec="" />내가 <delay8 />예술은 잘 몰라도<delay20 />
+<colour id="1" /><anim id="Love" target="actor" targetSpec="" />박물관<colour id="65535" />의 <tag a="135" b="13" arg="0x3" />!<delay frames="30" />
+그건 진짜 맘에 들더라구～!<pageBreak /><anim id="SmugFace" target="actor" targetSpec="" />그걸 보고 있으면<delay8 /> 어쩐지 기운이 난달까?<delay frames="40" />
+<anim id="EmotEnd" target="actor" targetSpec="" />이게 <delay8 /><anim id="Grin" target="actor" targetSpec="" />예술의 힘이란 건가? <tag a="110" b="6" />?</message>
 </msbt>

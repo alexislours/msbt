@@ -43,8 +43,8 @@ qualcosa qua, perciò<tag a="110" b="0" />
 	<message label="004" attrib="00 00 00 00"><snpcAnim id="DodRoger" target="actor" targetSpec="" /><delay20 />Ricevuto!<delay frames="40" /> Prepararsi alla partenza.
 Orario previsto: Oscar Romeo Alfa!</message>
 	<message label="008" attrib="00 00 00 00"><anim id="Assent" target="actor" targetSpec="" />Ricevuto!<delay20 /> Motori spenti e in
-raffreddamento.<delay20 /><pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Fammi sapere se hai bisogno di
-strumenti<delay20 /> o se vuoi ripartire.</message>
+raffreddamento.<delay20 /><pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Fammi sapere se hai bisogno
+di qualcosa.</message>
 	<message label="011" attrib="00 00 00 00">Strumenti? <delay20 /><anim id="Assent" target="actor" targetSpec="" />Ricevuto!<delay20 /><anim id="Thinking" target="actor" targetSpec="" /> Apro subito
 il menu miglia di Nook<tag a="110" b="0" /></message>
 	<message label="012" attrib="00 00 00 00">Strumenti?<delay20 /> <anim id="Serious" target="actor" targetSpec="" />Spiacente <gender2 m="figliolo" f="figliola" /><delay20 />, hai
@@ -70,4 +70,165 @@ rientrato.<delay frames="90" /> Ripeto: allarme rosso rientrato.
 <anim id="EmotEnd" target="actor" targetSpec="" /><size value="100" />Puoi riprendere la missione quando
 vuoi. <delay frames="40" /><anim id="FaintSmile" target="actor" targetSpec="" />Ma ricordati di tenere sempre
 gli occhi ben aperti.</message>
+	<message label="041" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Missione compiuta!<delay frames="40" /> <anim id="Nodding" target="actor" targetSpec="" />Siamo arrivati
+alla destinazione del tuo <colour id="1" />viaggio
+Primo maggio<colour id="65535" />!<pageBreak /><anim id="Serious" target="actor" targetSpec="" />Questo viaggio è molto diverso
+dai soliti.<delay20 /> <anim id="SmugFace" target="actor" targetSpec="" />Tutta l'isola è un enorme
+<colour id="1" />labirinto<colour id="65535" />!<delay20 /><anim id="FaintSmile" target="actor" targetSpec="" /> Si vede bene dal cielo<tag a="110" b="0" />
+<anim id="Surprised" target="actor" targetSpec="" />Tu però sei a terra! <delay8 />Devi saperti
+orientare.<delay20 /> <anim id="Angry" target="actor" targetSpec="" />Ricevuto?<delay20 /> Devi riuscire
+a trovare la via d'uscita!<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Ah, <delay8 />i tuoi strumenti sono al sicuro,<delay8 />
+<anim id="Nodding" target="actor" targetSpec="" />al banco del check-in dell'aeroporto.<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />La tua missione prevede che tu
+esplori l'isola ad <colour id="1" />ali vuote<colour id="65535" />.<delay frames="40" /><anim id="EmotEnd" target="actor" targetSpec="" /> Sì,
+insomma,<delay8 /> con le tasche vuote<tag a="110" b="0" /><pageBreak /><anim id="Explain" target="actor" targetSpec="" />Noi volatili di un certo rango
+seguiamo il nostro radar interno,
+<delay20 />un trucchetto molto ingegnoso<tag a="110" b="0" />
+<anim id="Explain" target="actor" targetSpec="" />Ma quelli che come te non solcano
+i cieli,<delay8 /> devono fare affidamento su
+ciò che trovano nel labirinto.
+<anim id="Aha" target="actor" targetSpec="" />Niente paura, però! <delay20 />Se ti ritrovi
+bloccat<gender2 m="o" f="a" />, <delay8 />pers<gender2 m="o" f="a" /> in un banco di
+nebbia, <anim id="Nodding" target="actor" targetSpec="" />chiama il <colour id="1" /> Soccorso<colour id="65535" />.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Le nostre talpe alleate resetteranno
+la situazione <delay8 /><anim id="Greeting" target="actor" targetSpec="" />per farti riprendere
+fiato, fare rifornimento e ripartire.<pageBreak /><anim id="BigSmile" target="actor" targetSpec="" />E quando sei a corto di espedienti
+e non sai bene che fare, <delay8 />potrei avere
+qualche dritta per te.
+<anim id="EmotEnd" target="actor" targetSpec="" />Ora per me è tempo di riprendere
+il volo.<delay20 /> Pronti,<delay20 /> partenza<tag a="110" b="0" /> <anim id="Angry" target="actor" targetSpec="" />Alfa Delta
+Bravo Tango Tango,<delay20 /> <snpcAnim id="DodRoger" target="actor" targetSpec="" />passo e chiudo!</message>
+	<message label="042" attrib="06 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Sei in un banco di nebbia?<delay20 /> Stai
+perdendo quota?<delay20 /> Hai bisogno di
+aiuto?<delay20 /> Passo.</message>
+	<message label="042_a" attrib="00 00 00 00">Dammi un indizio.</message>
+	<message label="042_b" attrib="00 00 00 00">Vorrei uno strumento.</message>
+	<message label="042_c" attrib="00 00 00 00">Voglio tornare a casa.</message>
+	<message label="042_d" attrib="00 00 00 00">Sono a posto, grazie.</message>
+	<message label="043" attrib="02 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Giusto per essere sicuri di essere
+sulla stessa lunghezza d'onda: <delay20 />Alfa
+Bravo Delta, <delay8 />mi ricevi?<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Le destinazioni del <colour id="1" />viaggio Primo
+maggio<colour id="65535" /> cambiano ogni volta.<pageBreak /><anim id="Negative" target="actor" targetSpec="" />Se ora decolliamo da quest'isola,
+<delay8 />non potremo ritornarci.<delay20 /><anim id="QuestionMark" target="actor" targetSpec="" /> Sei <gender2 m="sicuro" f="sicura" />
+di voler tornare a casa?</message>
+	<message label="043_a" attrib="00 00 00 00">Sì!</message>
+	<message label="043_b" attrib="00 00 00 00">No, non ancora<tag a="110" b="0" /></message>
+	<message label="044" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Negativo. <delay8 />Nada. <delay8 />Nisba. <delay20 />Per voi
+civili questa missione Alfa Tango
+va affrontata senza strumenti.
+<anim id="Serious" target="actor" targetSpec="" />Il <colour id="1" />viaggio Primo maggio<colour id="65535" /><delay20 /> prevede che
+tu raggiunga l'obiettivo con delle
+risorse limitate. <delay8 />Ricevuto?
+<anim id="Negative" target="actor" targetSpec="" />Non posso darti strumenti. <delay8 />Nemmeno
+se lo chiedi gentilmente. <delay8 />Nemmeno
+se avessi più gradi di me. <delay20 /><anim id="Negative" target="actor" targetSpec="" />No e no.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Mi dispiace, <gender2 m="amico spiumato" f="amica spiumata" />.<delay20 /> <anim id="Nodding" target="actor" targetSpec="" />Spero
+proprio che capirai. <delay20 />Questa è la via
+dei dodo.<delay8 /> Siamo fatti così.</message>
+	<message label="045" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Un indizio hai detto?<delay20 /><anim id="Nodding" target="actor" targetSpec="" /> Ricevuto!
+<delay8 />Giusto il tempo di raccogliere le
+informazioni.<delay20 /> <anim id="Thinking" target="actor" targetSpec="" />Attendere prego<tag a="110" b="0" /></message>
+	<message label="046_0" attrib="00 00 00 00">Ecco qui: <delay8 /><anim id="Hello" target="actor" targetSpec="" />sapevi che puoi regalare
+propulsione ai tuoi reattori se mangi
+<colour id="1" />frutta<colour id="65535" />?
+<anim id="EmotEnd" target="actor" targetSpec="" />Con un carburante del genere,<delay8 /> sarai
+così forte da polverizzare il muro del
+suono!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />O almeno, potrai <colour id="1" />sradicare alberi
+<colour id="65535" />o <colour id="1" />spaccare rocce <colour id="65535" />armat<gender2 m="o" f="a" /> di una
+semplice pala o un'ascia.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Alfa Bravo Delta, <delay8 />passo e chiudo!</message>
+	<message label="046_1" attrib="00 00 00 00">Mi sembra mi sia stato richiesto di
+riaprire le comunicazioni dopo il mio
+ultimo "passo e chiudo."
+<anim id="Explain" target="actor" targetSpec="" />Va bene, <delay8 />parliamo di come superare
+delle piccole fosse. <delay20 />Ricevuto?<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Allora,<delay8 /> basta inclinare <colour id="1" /> <colour id="65535" />nella
+direzione voluta <delay8 />ed è fatta.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />È tutto. <delay20 />Direi "passo e chiudo", ma
+meglio lasciar perdere<tag a="110" b="0" /> Non si sa
+mai.</message>
+	<message label="046_2" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Se sei bloccat<gender2 m="o" f="a" /> e non sai come
+uscirne,<delay8 /><anim id="Nodding" target="actor" targetSpec="" /> usa il tuo telefono e
+chiama il <colour id="1" /> Soccorso<colour id="65535" />.
+<anim id="Explain" target="actor" targetSpec="" />L'isola verrà ripristinata al suo
+stato originale <delay20 /><anim id="Greeting" target="actor" targetSpec="" />e potrai affrontare
+il labirinto da capo.</message>
+	<message label="046_3" attrib="00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />Allora, <delay8 />immagina di avere un albero
+che ti sbarra la strada. <delay20 />Hai due
+diverse opzioni.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Opzione 1: <delay8 />mangiare <colour id="1" />frutta<colour id="65535" />, per
+poi estirpare l'albero intero con
+una <colour id="1" />pala<colour id="65535" />.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Opzione 2: <delay8 />abbatterlo con un'<colour id="1" />ascia
+<colour id="65535" />decente,<delay frames="30" /><anim id="Serious" target="actor" targetSpec="" /> quindi rimuovere la radice
+con una <colour id="1" />pala<colour id="65535" />.<delay20 /><anim id="Greeting" target="actor" targetSpec="" /> Passo e chiudo!</message>
+	<message label="046_4" attrib="00 00 00 00">Altra informazione in arrivo:<delay20 /><anim id="Smiling" target="actor" targetSpec="" /> se
+hai bisogno di strumenti, cerca
+di realizzarli <gender2 m="tu stesso" f="tu stessa" />.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Per seguire la rotta del fai da te devi:
+raccogliere materiali<delay20 /><anim id="Greeting" target="actor" targetSpec="" />, raggiungere un
+<colour id="1" />banco da lavoro grezzo <colour id="65535" />e via!</message>
+	<message label="047" attrib="01 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Per tutti i dodo, <tag a="110" b="1" />! <anim id="Pardon" target="actor" targetSpec="" />Hai messo le ali alle zampe e sei già <gender2 m="uscito" f="uscita" /> dal labirinto?<delay20 /><anim id="EmotEnd" target="actor" targetSpec="" /></message>
+	<message label="047_a" attrib="00 00 00 00">Certo!</message>
+	<message label="047_b" attrib="00 00 00 00">Niente di più facile!</message>
+	<message label="048" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Una manovra perfetta!<delay frames="40" /><anim id="Smiling" target="actor" targetSpec="" /> Dovrai subito
+farlo sapere al vecchio <colour id="3" />Tom<colour id="65535" /> <colour id="3" />Nook<colour id="65535" />.<pageBreak /><anim id="Eh" target="actor" targetSpec="" />Oh, <delay8 />attiva i flap e tira i freni.<delay20 /> Da dove
+salta fuori questa roba? <delay20 />A memoria
+di pilota, non l'ho mai vista.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Eviterò giri di parole.<delay frames="30" /><anim id="EmotEnd" target="actor" targetSpec="" /> Hai ottenuto
+questo oggetto da qualcuno che si
+trovava a passare su quest'isola?
+Bene, <delay20 /><anim id="Assent" target="actor" targetSpec="" />allora la Dodo Airlines sarà
+lieta di farti recapitare il premio
+direttamente a casa.
+<anim id="Nodding" target="actor" targetSpec="" />È stato un <colour id="1" />viaggio Primo maggio<colour id="65535" />
+da ricordare, eh?<delay20 /> A un tuo segnale,<delay8 /><anim id="Hello" target="actor" targetSpec="" />
+accendo i motori e si torna alla base.
+<anim id="Aha" target="actor" targetSpec="" />Oh! <delay8 />Se ti va di riprovare il labirinto
+un'altra volta<tag a="110" b="0" /><delay8 /><anim id="Nodding" target="actor" targetSpec="" /> chiama il <colour id="1" /> Soccorso
+<colour id="65535" />dal tuo telefono.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Le nostre talpe alleate riporteranno
+l'isola allo stato iniziale,<delay20 /><anim id="Greeting" target="actor" targetSpec="" /> così potrai
+fare rifornimento e ripartire.</message>
+	<message label="049" attrib="02 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Pilota <colour id="3" />Dodoardo<colour id="65535" /> a rapporto!<delay frames="30" /><anim id="QuestionMark" target="actor" targetSpec="" /> Quali
+sono i tuoi programmi di volo?</message>
+	<message label="049_a" attrib="00 00 00 00">Voglio tornare a casa.</message>
+	<message label="049_b" attrib="00 00 00 00">Non mi muovo per ora.</message>
+	<message label="050" attrib="00 00 00 00"><anim id="Laughing" target="actor" targetSpec="" />Pare che quelli del <colour id="1" /> Soccorso
+<colour id="65535" />ti abbiano dato una zampa,
+<tag a="110" b="1" />!<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />L'isola è tornata al suo aspetto di
+partenza, <delay20 /><anim id="Greeting" target="actor" targetSpec="" />perciò puoi riprovare ad
+affrontare la missione labirinto.
+<anim id="Smiling" target="actor" targetSpec="" />Se ti capita di rimanere di nuovo
+<gender2 m="bloccato" f="bloccata" />, <delay8 />sono certo che il servizio
+<colour id="1" /> Soccorso <colour id="65535" />ti verrà ancora in aiuto.<delay20 />
+<anim id="Laughing" target="actor" targetSpec="" />Per un po', non si annoieranno!<delay20 />
+<anim id="Serious" target="actor" targetSpec="" />Prenditi un attimo per recuperare
+la concentrazione e poi riparti.<delay20 />
+<snpcAnim id="DodRoger" target="actor" targetSpec="" />Vola alto e fai un volo sicuro!
+<delay8 />Alfa Delta Bravo. <delay8 />Passo e chiudo.</message>
+	<message label="051" attrib="02 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Ti manca <tag a="110" b="9" />?<delay20 /> <anim id="EmotEnd" target="actor" targetSpec="" />Se vuoi ricominciare il labirinto dal punto di partenza,<delay20 /> <anim id="Hello" target="actor" targetSpec="" />chiama il <colour id="1" /> Soccorso<colour id="65535" />.</message>
+	<message label="051_a" attrib="00 00 00 00">Voglio tornare a casa!</message>
+	<message label="051_b" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Ci penso un po'...</message>
+	<message label="052" attrib="02 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Ricevuto! <delay20 />Quando toccheremo il suolo di <tag a="110" b="9" />, <delay20 />riavrai tutto ciò che avevi nelle tue tasche.<pageBreak /><anim id="Serious" target="actor" targetSpec="" />Invece il <colour id="1" />regalo <colour id="65535" />che hai ricevuto dal
+tuo nuovo amico sull'isola<tag a="110" b="0" /><anim id="Explain" target="actor" targetSpec="" /> Beh, lo
+spediremo direttamente a casa tua.<pageBreak />Lo troverai presto nella tua cassetta
+delle lettere.<pageBreak /><anim id="Hello" target="actor" targetSpec="" />A questo punto, <delay8 />sei pront<gender2 m="o" f="a" /> per
+il decollo? <delay20 />Passo.</message>
+	<message label="052_a" attrib="00 00 00 00">Sì!</message>
+	<message label="052_b" attrib="00 00 00 00">No, aspetta un attimo.</message>
+	<message label="053" attrib="02 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Ricevuto! <delay20 />Quando toccheremo il suolo di <tag a="110" b="9" />, <delay20 />riavrai tutto ciò che avevi nelle tue tasche.<pageBreak /><anim id="Serious" target="actor" targetSpec="" />Invece il <colour id="1" />regalo <colour id="65535" />che hai ricevuto dal
+tuo nuovo amico sull'isola<tag a="110" b="0" /><anim id="Explain" target="actor" targetSpec="" /> Beh, lo
+spediremo direttamente a casa tua.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Lo stesso vale per i <colour id="1" />coupon stelline
+<colour id="65535" />che hai ottenuto durante la visita.<delay20 />
+Li troverai a breve nella tua cassetta.
+<anim id="Hello" target="actor" targetSpec="" />A questo punto, <delay8 />sei pront<gender2 m="o" f="a" /> per
+il decollo? <delay20 />Passo.</message>
+	<message label="053_a" attrib="00 00 00 00">Sì!</message>
+	<message label="053_b" attrib="00 00 00 00">No, aspetta un attimo.</message>
+	<message label="054" attrib="02 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Ricevuto! <delay20 />Quando toccheremo il suolo di <tag a="110" b="9" />, <delay20 />riavrai tutto ciò che avevi nelle tue tasche.<pageBreak /><anim id="Serious" target="actor" targetSpec="" />Per quanto riguarda i <colour id="1" />coupon stelline
+<colour id="65535" />che hai ottenuto durante la visita, <delay20 />li
+troverai a breve nella tua cassetta.
+<anim id="Hello" target="actor" targetSpec="" />A questo punto, <delay8 />sei pront<gender2 m="o" f="a" /> per
+il decollo? <delay20 />Passo.</message>
+	<message label="054_a" attrib="00 00 00 00">Sì!</message>
+	<message label="054_b" attrib="00 00 00 00">No, aspetta un attimo.</message>
+	<message label="055" attrib="02 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Prima di ripartire per tornare a casa,
+<delay8 />devo avvertirti di una cosa.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Le destinazioni del <colour id="1" />viaggio Primo
+maggio<colour id="65535" /> cambiano ogni volta.<pageBreak /><anim id="Negative" target="actor" targetSpec="" />Se ora decolliamo da quest'isola,
+<delay8 />non potremo ritornarci. <delay20 /><anim id="Thinking" target="actor" targetSpec="" /><colour id="4" />(Non che
+tu abbia altro da fare qui, mi pare<tag a="110" b="0" />)
+<anim id="QuestionMark" target="actor" targetSpec="" /><colour id="65535" />Allora, <delay8 />confermi di voler tornare
+a casa?</message>
+	<message label="055_a" attrib="00 00 00 00">Sì!</message>
+	<message label="055_b" attrib="00 00 00 00">No, aspetta un attimo.</message>
 </msbt>

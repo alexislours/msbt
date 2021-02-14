@@ -5,7 +5,7 @@
 	<message label="001_a" attrib="04 00 00 00 00 00 00 00"><ruby a="2" b="2">し</ruby>知ってるよ</message>
 	<message label="001_b" attrib="05 00 00 00 00 00 00 00"><ruby a="2" b="2">し</ruby>知らなーい</message>
 	<message label="002" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="23" arg="0xd 0xe 0xf 0xffff" /></message>
-	<message label="003" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x1 0x10 0x11 0x12" /></message>
+	<message label="003" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x13 0x10 0x11 0x14" /></message>
 	<message label="004" attrib="00 00 00 00 00 00 00 00"><anim id="Clapping" target="actor" targetSpec="" />よく　<delay8 />ご<ruby a="4" b="6">ぞんじ</ruby>存知ですね！<delay frames="60" />
 <anim id="EmotEnd" target="actor" targetSpec="" /><tag a="110" b="33" />の　<delay8 /><tag a="110" b="7" arg="0xcd00" />は<delay20 />
 <anim id="FaintSmile" target="actor" targetSpec="" />お<ruby a="4" b="6">みやげ</ruby>土産にも　<delay8 />ピッタリなんですよ
@@ -36,6 +36,14 @@
 たくさんの<ruby a="6" b="10">てんじひん</ruby>展示品に　<ruby a="2" b="4">かこ</ruby>囲まれて<delay20 />
 <anim id="Love" target="actor" targetSpec="" /><ruby a="6" b="14">いちにちじゅう</ruby>一日中　<delay8 /><ruby a="2" b="2">す</ruby>過ごしたいなぁ～、<tag a="110" b="6" /></message>
 	<message label="017" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="3" arg="0x15 0x16 0x17 0x18 0x19" /></message>
+	<message label="018" attrib="00 00 00 00 00 00 00 00"><anim id="SmugFace" target="actor" targetSpec="" />この<tag a="110" b="32" />の<colour id="1" /><ruby a="6" b="12">はくぶつかん</ruby>博物館<colour id="65535" />は　<ruby a="6" b="12">びじゅつひん</ruby>美術品の<ruby a="4" b="6">てんじ</ruby>展示も
+あるんですよ！<pageBreak /><anim id="Blushing" target="actor" targetSpec="" />すみません<tag a="110" b="0" />　<delay8 />つい<ruby a="4" b="6">じまん</ruby>自慢しちゃいました<delay frames="40" />
+<anim id="EmotEnd" target="actor" targetSpec="" />でも、<delay20 />もし　お<ruby a="4" b="6">じかん</ruby>時間があったら<delay8 />
+<anim id="Greeting" target="actor" targetSpec="" />ぜひ　<delay8 /><ruby a="2" b="2">み</ruby>見に<ruby a="2" b="2">い</ruby>行ってくださいね、<tag a="110" b="6" /></message>
+	<message label="019" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />わたし、<delay20 /><ruby a="4" b="6">しぜん</ruby>自然いっぱいの　この<tag a="110" b="32" />に<ruby a="2" b="2">す</ruby>住んで<delay8 />
+ほんとうに　よかったなぁ～って　<delay8 /><ruby a="2" b="4">おも</ruby>思うんです<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />この<ruby a="2" b="4">ゆた</ruby>豊かな<ruby a="4" b="6">しぜん</ruby>自然を　<ruby a="4" b="10">けんきゅう</ruby>研究してみたいんですけど<delay20 />
+<anim id="WrySmile" target="actor" targetSpec="" />わたし　ひとりでは　<ruby a="2" b="6">むずか</ruby>難しいですね、<tag a="110" b="6" /></message>
+	<message label="020" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="4" arg="0x15 0x16 0x17 0x18 0x19 0x12" /></message>
 	<message label="021" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1c00 0x1900 0xcd00" /></message>
 	<message label="022" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1d01 0x1900 0xcd00" /></message>
 	<message label="023" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1e02 0x1900 0xcd00" /></message>
@@ -58,6 +66,12 @@
 <ruby a="2" b="2">み</ruby>見ることができるんです
 <anim id="HappyDance" target="actor" targetSpec="" />この<tag a="110" b="32" />の　<delay8 /><ruby a="4" b="6">じまん</ruby>自慢の　ひとつと<ruby a="2" b="2">い</ruby>言って
 いいんじゃないでしょうか、<tag a="110" b="6" /></message>
+	<message label="031" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" /><colour id="1" /><ruby a="6" b="12">はくぶつかん</ruby>博物館<colour id="65535" />では<delay8 />
+<tag a="135" b="13" arg="0x3" />を
+みることができるんですよ
+<anim id="EmotEnd" target="actor" targetSpec="" /><ruby a="4" b="8">ほんもの</ruby>本物の<ruby a="4" b="8">びじゅつ</ruby>美術<ruby a="2" b="4">ひん</ruby>品を　<ruby a="4" b="10">かんしょう</ruby>鑑賞すると<delay8 />
+<anim id="Love" target="actor" targetSpec="" /><ruby a="2" b="6">こころ</ruby>心が<ruby a="2" b="4">ゆた</ruby>豊かになると　<ruby a="2" b="4">おも</ruby>思うんです<delay frames="40" />
+<anim id="Greeting" target="actor" targetSpec="" />おすすめの　<ruby a="4" b="8">かんこう</ruby>観光スポットですよ！　<tag a="110" b="6" /></message>
 	<message label="201" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="0" arg="0xca 0xcd" /></message>
 	<message label="202" attrib="00 00 02 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" /><tag a="110" b="4" />と　わたし、<delay20 />
 <ruby a="2" b="4">いま</ruby>今は　<ruby a="4" b="8">べつべつ</ruby>別々の<tag a="110" b="32" />で

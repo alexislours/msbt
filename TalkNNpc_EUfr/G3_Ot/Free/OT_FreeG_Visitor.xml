@@ -5,7 +5,7 @@ repartir sans y avoir goûté !</message>
 	<message label="001_a" attrib="04 00 00 00 00 00 00 00">C'est déjà fait.</message>
 	<message label="001_b" attrib="05 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Ah bon ?</message>
 	<message label="002" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="23" arg="0xd 0xe 0xf 0xffff" /></message>
-	<message label="003" attrib="09 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x1 0x10 0x11 0x12" /></message>
+	<message label="003" attrib="09 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x1 0x10 0x11 0x14" /></message>
 	<message label="004" attrib="00 00 00 00 00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />Tu es visiblement bien informé<gender2 m="" f="e" />,
 <tag a="110" b="3" /> !<delay40 /> <anim id="Smiling" target="actor" targetSpec="" />Ce n'est pas toi qui passerait à côté d'un tel festin.<pageBreak /><anim id="Love" target="actor" targetSpec="" />C'est bien simple, je n'ai jamais
 dégusté de fruit aussi juteux que
@@ -38,6 +38,13 @@ ils devraient en construire un ici.
 « recherches » dans une tente<tag a="110" b="0" />
 <anim id="WrySmile" target="actor" targetSpec="" />Pourvu que le projet aboutisse.</message>
 	<message label="017" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="3" arg="0x15 0x16 0x17 0x18 0x19" /></message>
+	<message label="018" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Savais-tu que tu pouvais admirer
+d'authentiques chefs-d'œuvre au
+<colour id="1" />musée <colour id="65535" />de notre île ?
+Tu as l'âme d'un<gender2 m="" f="e" /> artiste ou du moins
+d'un<gender2 m="" f="e" /> visiteu<gender2 m="r" f="se" /> de musée, je le sens.
+<anim id="Nodding" target="actor" targetSpec="" />Va donc y faire un tour, mon chou.</message>
+	<message label="020" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="4" arg="0x15 0x16 0x17 0x18 0x19 0x12" /></message>
 	<message label="021" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1c00 0x1900 0xcd00" /></message>
 	<message label="022" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1d01 0x1900 0xcd00" /></message>
 	<message label="023" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1e02 0x1900 0xcd00" /></message>
@@ -57,6 +64,9 @@ la salle des insectes. Il y a <tag a="50" b="2" /><tag a="135" b="13" arg="0x1" 
 avoir visité notre <colour id="1" />musée<colour id="65535" />.<delay20 /> Va au moins
 voir les fossiles<tag a="110" b="0" />
 <anim id="Love" target="actor" targetSpec="" />Rien que pour <tag a="50" b="1" /><tag a="135" b="13" arg="0x2" />, ça vaut le détour<tag a="110" b="0" /></message>
+	<message label="031" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Dis-moi, savais-tu que la <tag a="135" b="13" arg="0x3" /> est exposée au <colour id="1" />musée<colour id="65535" />, <tag a="110" b="6" /> ?<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Si tu ne l'as pas encore admirée, je
+te conseille d'y remédier rapidement.<delay20 />
+<anim id="HappyFlower" target="actor" targetSpec="" />Tu ne le regretteras pas, mon chou.</message>
 	<message label="201" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="0" arg="0xca 0xce" /></message>
 	<message label="202" attrib="00 00 03 00 00 00 00 00">Alors, <tag a="110" b="3" /> ? <delay8 /><anim id="QuestionMark" target="actor" targetSpec="" />Tu t'es fait<gender2 m="" f="e" /> à la vie sans moi ?</message>
 	<message label="202_a" attrib="cb 00 00 00 00 00 00 00">Oui, oui !</message>

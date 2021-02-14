@@ -32,8 +32,8 @@
 	<message label="003_b" attrib="00 00 00 00"><anim id="Negative" target="player" targetSpec="" />Нет, подожди<tag a="110" b="0" /></message>
 	<message label="004" attrib="00 00 00 00"><snpcAnim id="DodRoger" target="actor" targetSpec="" /><delay20 />Все понял!<delay frames="40" /> Сейчас будем в небе!</message>
 	<message label="008" attrib="00 00 00 00"><anim id="Assent" target="actor" targetSpec="" />Все понял! <delay20 />Не буду мешать.<delay20 />
-<anim id="FaintSmile" target="actor" targetSpec="" />Дай знать, если понадобится
-инструмент или транспорт.</message>
+<anim id="FaintSmile" target="actor" targetSpec="" />Крякни, если понадобятся
+наши услуги!</message>
 	<message label="011" attrib="00 00 00 00">Инструмент? <delay20 /><anim id="Assent" target="actor" targetSpec="" />Все понял! <delay20 /><anim id="Thinking" target="actor" targetSpec="" />Сейчас
 загружу сервис<tag a="110" b="0" /></message>
 	<message label="012" attrib="00 00 00 00">Инструмент?<delay20 /> <anim id="Serious" target="actor" targetSpec="" />Извини, пассажир,<delay20 />
@@ -58,4 +58,139 @@
 <100_3 arg="PlaneAnnounceOn" /><delay20 /><colour id="5" />Вас понял, «Додо-1»! <delay20 />Отбой. <delay20 /><100_3 arg="PlaneAnnounceOff" /><colour id="65535" /><10_7 arg="30" />
 <anim id="EmotEnd" target="actor" targetSpec="" /><size value="100" />Если хочешь, можешь гулять
 дальше. <delay frames="40" /><anim id="FaintSmile" target="actor" targetSpec="" />Только смотри в оба!</message>
+	<message label="041" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Пингвин в гнезде!<delay frames="40" /> <anim id="Nodding" target="actor" targetSpec="" />Мы прибыли
+на место назначения <colour id="1" />поездки
+ко Дню мая<colour id="65535" />!<pageBreak /><anim id="Serious" target="actor" targetSpec="" />У тебя необычная путевка.<10_4 />
+<anim id="SmugFace" target="actor" targetSpec="" />Весь остров — гигантский <colour id="1" />лабиринт<colour id="65535" />!<delay20 /><anim id="FaintSmile" target="actor" targetSpec="" />
+С высоты-то выход хорошо виден<tag a="110" b="0" />
+<anim id="Surprised" target="actor" targetSpec="" />Но кто тут ищет легких путей?
+Это навигационный мастер-класс!<delay20 />
+<anim id="Angry" target="actor" targetSpec="" />Прием?<delay20 /> Выход нужно найти само<gender2 m="му" f="й" />!<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Твое снаряжение<anim id="Nodding" target="actor" targetSpec="" /> мы оставили
+в аэропорту.<delay frames="30" /><anim id="FaintSmile" target="actor" targetSpec="" /> На задание выйдешь
+с <colour id="1" />пустыми крыльями<colour id="65535" />.<delay frames="40" /><anim id="EmotEnd" target="actor" targetSpec="" /> Или <colour id="1" />руками<colour id="65535" />.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />У нас, птиц высокого полета, есть
+внутренний радар для навигации.
+Это так удобно!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Но приземленным гусятам вроде
+тебя придется искать любые
+зацепки в лабиринте.<pageBreak /><anim id="Aha" target="actor" targetSpec="" />Если заблудишься или застрянешь
+в тумане, «<colour id="1" />Служба спасения<colour id="65535" />»<colour id="1" /> <colour id="65535" />на
+нукофоне тебя выручит!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Наши кроты-партнеры запросто
+оборудуют этот остров заново,
+<anim id="Greeting" target="actor" targetSpec="" />и ты сможешь начать с начала!<pageBreak /><anim id="BigSmile" target="actor" targetSpec="" />А если тебе потребуются
+разведданные, могу дать тебе
+совет или даже два.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Вроде все.<delay20 /> Вперед!<delay20 /> Раскручиваем
+пропеллер<tag a="110" b="0" /> <anim id="Angry" target="actor" targetSpec="" />от винта!<delay20 /> Освободить
+полосу!<delay20 /><snpcAnim id="DodRoger" target="actor" targetSpec="" /> Удачи!</message>
+	<message label="042" attrib="06 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Потерял<gender2 m="" f="а" /> курс из-за облачности?
+<delay frames="30" />Пролил<gender2 m="" f="а" /> <tag a="50" b="23" arg="0xcd01" /><tag a="135" b="1" arg="0xcd00" /> на план
+полетов?<delay frames="30" /><anim id="QuestionMark" target="actor" targetSpec="" /> Чем могу помочь?</message>
+	<message label="042_a" attrib="00 00 00 00">Нужен совет.</message>
+	<message label="042_b" attrib="00 00 00 00">Нужен инструмент.</message>
+	<message label="042_c" attrib="00 00 00 00">Хочу домой.</message>
+	<message label="042_d" attrib="00 00 00 00">Ничего не надо.</message>
+	<message label="043" attrib="02 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Так! Хочу удостовериться, что
+у нас планы полетов совпадают<tag a="110" b="0" /><pageBreak />Ты не сможешь вернуться именно
+на этот остров в <colour id="1" />поездку ко Дню
+мая<colour id="65535" />.<delay frames="30" /><anim id="EmotEnd" target="actor" targetSpec="" /> Точно улетаем?</message>
+	<message label="043_a" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Ага!</message>
+	<message label="043_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Нет, подожди<tag a="110" b="0" /></message>
+	<message label="044" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Э нет, можешь крыльями не махать!
+Здесь тебе придется разбираться
+с клювом наголо. Без инструментов.<pageBreak /><anim id="Serious" target="actor" targetSpec="" />Смысл <colour id="1" />поездки ко Дню мая<delay20 /> <colour id="65535" />в том,
+что тебе нужно добраться до цели с
+ограниченными средствами. Прием!<pageBreak /><anim id="Negative" target="actor" targetSpec="" />Так что нет, никаких инструментов.
+Даже если ты будешь выше меня по
+званию и скажешь «пожалуйста»!<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Уж прости, мо<gender2 m="й" f="я" /> приземленн<gender2 m="ый" f="ая" />
+<gender2 m="друг" f="подруга" />.<delay20 /> <anim id="Nodding" target="actor" targetSpec="" />Но таков кодекс додо.</message>
+	<message label="045" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Совет, значит?<delay20 /><anim id="Nodding" target="actor" targetSpec="" /> Вас понял, ждите
+дальнейших инструкций.<10_4 />
+<anim id="Thinking" target="actor" targetSpec="" />Идет сбор информации<tag a="110" b="0" /></message>
+	<message label="046_0" attrib="00 00 00 00">Вот тебе разведданные: <delay8 /><anim id="Hello" target="actor" targetSpec="" /><colour id="1" />фрукты
+<colour id="65535" />помогают ускориться!<delay20 /><anim id="Angry" target="actor" targetSpec="" /> И делают
+тебя сильнее!<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />С таким топливом<anim id="Explain" target="actor" targetSpec="" /> запросто можно
+<colour id="1" />выкорчевывать деревья <colour id="65535" />и <colour id="1" />разбивать
+камни <colour id="65535" />лопатой или топором.<anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak /><anim id="Laughing" target="actor" targetSpec="" />На сверхзвуковой скорости!</message>
+	<message label="046_1" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Вас понял, продолжаем сеанс связи.
+<anim id="Explain" target="actor" targetSpec="" />Пожалуй, расскажу про ямы.<delay20 /> И как
+их перепрыгивать, если они мелкие.<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />В двух словах,<delay20 /> просто наклони <colour id="1" />
+<colour id="65535" />в сторону, куда хочешь прыгнуть.<anim id="EmotEnd" target="actor" targetSpec="" />
+Я даже «отбой» говорить не буду<tag a="110" b="0" /></message>
+	<message label="046_2" attrib="00 00 00 00">Если застрянешь — и ни туда ни
+сюда —<delay8 /><anim id="Nodding" target="actor" targetSpec="" /> просто вызови <colour id="1" />Службу
+спасения <colour id="65535" />по нукофону.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Они весь остров заново оборудуют,<anim id="Greeting" target="actor" targetSpec="" />
+и ты сможешь попробовать пройти
+лабиринт снова.</message>
+	<message label="046_3" attrib="00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />Хм. Додопустим, у тебя на пути
+дерево. У тебя два варианта.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Ты можешь поесть <colour id="1" />фруктов<colour id="65535" />,
+а потом выкорчевать его <colour id="1" />лопатой<colour id="65535" />.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Или просто сруби хорошим <colour id="1" />топором<colour id="65535" />,<delay frames="30" /><anim id="Serious" target="actor" targetSpec="" />
+а потом <colour id="1" />лопатой<colour id="65535" /> выкорчуй пень.<delay20 /><anim id="Angry" target="actor" targetSpec="" />
+Конец связи!</message>
+	<message label="046_4" attrib="00 00 00 00">Вот тебе немного разведданных:<delay20 /><anim id="Smiling" target="actor" targetSpec="" />
+если нужны инструменты, можешь
+их смастерить.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />«Сделай сам» не подведет! Все
+просто. Собери материалы<delay20 /> <anim id="Greeting" target="actor" targetSpec="" />и лети
+к <colour id="1" />незамысловатому верстаку<colour id="65535" />!</message>
+	<message label="047" attrib="01 00 00 00"><anim id="Shocked" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="50" b="23" arg="0xcd01" /><tag a="135" b="3" arg="0xcd00" /> мне в турбину!
+<anim id="Pardon" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="110" b="1" />, ты на бреющем пролете весь лабиринт пролетел<gender2 m="" f="а" />?!<delay20 /><anim id="EmotEnd" target="actor" targetSpec="" /></message>
+	<message label="047_a" attrib="00 00 00 00">Ага!</message>
+	<message label="047_b" attrib="00 00 00 00">Да он простой был!</message>
+	<message label="048" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Отлично сработано!<delay frames="40" /><anim id="Smiling" target="actor" targetSpec="" /> Не забудь
+рапортовать <colour id="3" />Нуку<colour id="65535" />.<pageBreak /><anim id="Eh" target="actor" targetSpec="" />Ой<tag a="110" b="0" /> Радиопауза! Похоже, у тебя
+что-то новенькое. Если мои старые
+пилотские глаза меня не подводят.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Дай угадаю<tag a="110" b="0" /><delay frames="30" /><anim id="EmotEnd" target="actor" targetSpec="" /> Ты получил<gender2 m="" f="а" /> это от
+кого-то, кто совершенно случайно
+тоже оказался на этом острове?<pageBreak />В таком случае<delay20 /><anim id="Assent" target="actor" targetSpec="" /> авиакомпания
+Dodo Airlines с удовольствием
+додоставит твой приз тебе домой.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" /><anim id="Nodding" target="actor" targetSpec="" />Отличная <colour id="1" />поездка ко Дню мая<colour id="65535" />, а?<10_4 />
+В общем, крякни,<anim id="Hello" target="actor" targetSpec="" /> если захочешь
+вернуться на базу к себе домой.<pageBreak /><anim id="Aha" target="actor" targetSpec="" />А! Если застрянешь, заблудишься
+или еще что<tag a="110" b="0" /><anim id="Nodding" target="actor" targetSpec="" /> просто вызови
+<colour id="1" />Службу спасения <colour id="65535" />по нукофону.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Наши кроты-партнеры оборудуют
+весь остров заново, <anim id="Greeting" target="actor" targetSpec="" />и ты сможешь
+начать все с начала.</message>
+	<message label="049" attrib="02 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Прием!<delay frames="30" /><anim id="QuestionMark" target="actor" targetSpec="" /> Какой план полетов?</message>
+	<message label="049_a" attrib="00 00 00 00">Кря! Ну... домой хочу!</message>
+	<message label="049_b" attrib="00 00 00 00">Что-то я передумал<gender2 m="" f="а" />.</message>
+	<message label="050" attrib="00 00 00 00"><anim id="Laughing" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="110" b="1" />! Похоже, крутые
+кроты из <colour id="1" />Службы спасения <colour id="65535" />тебя
+выручили!<delay20 /><pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Остров обновили — <delay20 /><anim id="Greeting" target="actor" targetSpec="" />попробуй
+пройти лабиринт еще раз.<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />А если снова застрянешь, уверен,
+<colour id="1" />Служба спасения<colour id="65535" /> не подведет.<delay20 />
+<anim id="Laughing" target="actor" targetSpec="" />Нечего им расслабляться!<pageBreak /><anim id="Serious" target="actor" targetSpec="" />Ну, соберись с духом, почисти
+перья, и вперед!<delay20 /> <snpcAnim id="DodRoger" target="actor" targetSpec="" />Пари гордой
+птицей!</message>
+	<message label="051" attrib="02 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Назад на остров <tag a="110" b="9" />?<10_4 />
+<anim id="EmotEnd" target="actor" targetSpec="" />А если хочешь пройти лабиринт
+снова,<delay20 /> <anim id="Hello" target="actor" targetSpec="" />вызови <colour id="1" />Службу спасения<colour id="65535" />.</message>
+	<message label="051_a" attrib="00 00 00 00">Хочу домой!</message>
+	<message label="051_b" attrib="00 00 00 00">Стоп, я передумал<gender2 m="" f="а" />!</message>
+	<message label="052" attrib="02 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />По приземлении на острове
+<tag a="110" b="9" /> мы выдадим
+тебе весь твой багаж.<pageBreak /><anim id="Serious" target="actor" targetSpec="" />Но<delay8 /> <colour id="1" />подарок<colour id="65535" />, который ты получил<gender2 m="" f="а" />
+от твоего нового друга на острове<tag a="110" b="0" /><anim id="Explain" target="actor" targetSpec="" />
+Его мы отправим тебе домой.<pageBreak />Проверь потом почтовый ящик.<delay20 />
+Ну, вроде все.<delay8 /><anim id="Hello" target="actor" targetSpec="" /> Взлетаем?</message>
+	<message label="052_a" attrib="00 00 00 00"><anim id="Nodding" target="player" targetSpec="" />Ага!</message>
+	<message label="052_b" attrib="00 00 00 00"><anim id="Negative" target="player" targetSpec="" />Нет, подожди<tag a="110" b="0" /></message>
+	<message label="053" attrib="02 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />По приземлении на острове
+<tag a="110" b="9" /> мы выдадим
+тебе весь твой багаж.<pageBreak /><anim id="Serious" target="actor" targetSpec="" />Но<delay8 /> <colour id="1" />подарок<colour id="65535" />, который ты получил<gender2 m="" f="а" />
+от твоего нового друга на острове<tag a="110" b="0" /><anim id="Explain" target="actor" targetSpec="" />
+Его мы отправим тебе домой.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />И <colour id="1" />ваучеры на дини<colour id="65535" />, которые
+ты там получил<gender2 m="" f="а" />, тоже. Проверь
+потом почтовый ящик.<pageBreak />Ну, вроде все.<delay8 /><anim id="Hello" target="actor" targetSpec="" /> Взлетаем?</message>
+	<message label="053_a" attrib="00 00 00 00"><anim id="Nodding" target="player" targetSpec="" />Ага!</message>
+	<message label="053_b" attrib="00 00 00 00"><anim id="Negative" target="player" targetSpec="" />Нет, подожди<tag a="110" b="0" /></message>
+	<message label="054" attrib="02 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />По приземлении на острове
+<tag a="110" b="9" /> мы выдадим
+тебе весь твой багаж.<pageBreak /><anim id="Serious" target="actor" targetSpec="" />Но <colour id="1" />ваучеры на дини<colour id="65535" />, которые
+ты получил<gender2 m="" f="а" />, мы отправим тебе
+в почтовый ящик.<pageBreak />Ну, вроде все.<delay8 /><anim id="Hello" target="actor" targetSpec="" /> Взлетаем?</message>
+	<message label="054_a" attrib="00 00 00 00"><anim id="Nodding" target="player" targetSpec="" />Ага!</message>
+	<message label="054_b" attrib="00 00 00 00"><anim id="Negative" target="player" targetSpec="" />Нет, подожди<tag a="110" b="0" /></message>
+	<message label="055" attrib="02 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Вернуться именно на этот остров
+в <colour id="1" />поездке ко Дню мая<colour id="65535" /> ты больше
+не сможешь.<delay frames="30" /><pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" /><colour id="4" />Не то чтобы у тебя тут оставались
+дела<tag a="110" b="0" /> <delay20 /><colour id="65535" />Ну что, вылетаем?</message>
+	<message label="055_a" attrib="00 00 00 00"><anim id="Nodding" target="player" targetSpec="" />Ага!</message>
+	<message label="055_b" attrib="00 00 00 00"><anim id="Negative" target="player" targetSpec="" />Нет, подожди<tag a="110" b="0" /></message>
 </msbt>

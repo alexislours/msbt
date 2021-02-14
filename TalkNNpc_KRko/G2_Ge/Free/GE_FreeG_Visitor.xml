@@ -5,7 +5,7 @@
 	<message label="001_a" attrib="04 00 00 00 00 00 00 00">먹어봤지</message>
 	<message label="001_b" attrib="05 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />그게 뭔데?</message>
 	<message label="002" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="23" arg="0xd 0xe 0xf 0xffff" /></message>
-	<message label="003" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x1 0x10 0x11 0x12" /></message>
+	<message label="003" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x13 0x10 0x11 0x14" /></message>
 	<message label="004" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />역시 <delay20 /><tag a="110" b="4" /><gender5 m="이" f="" />야!<delay40 />
 <anim id="Nodding" target="actor" targetSpec="" /><tag a="110" b="7" arg="0xcd00" /> 과즙의 그 달콤함<tag a="110" b="0" /><delay20 />
 <anim id="Love" target="actor" targetSpec="" />한번 맛보면<delay20 /> 절대 못 잊는다구～ <tag a="110" b="6" />!</message>
@@ -41,6 +41,15 @@
 <anim id="Smiling" target="actor" targetSpec="" />미래의 관장님인 <delay8 /><colour id="3" />부엉 <colour id="65535" />아저씨를<delay8 />
 응원할 겸 텐트에 한번 찾아가봐! <tag a="110" b="6" />!</message>
 	<message label="017" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="3" arg="0x15 0x16 0x17 0x18 0x19" /></message>
+	<message label="018" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />이 <tag a="110" b="32" /> <colour id="1" />박물관<colour id="65535" />에는<delay20 />
+<anim id="Greeting" target="actor" targetSpec="" />미술품 전시 구역이 있어!<pageBreak /><anim id="HappyFlower" target="actor" targetSpec="" />그쪽은 분위기부터 세련돼서<delay20 />
+감상할 때도 정숙하도록<delay8 /> 노력하고 있지!<delay40 />
+<anim id="SmugFace" target="actor" targetSpec="" />어때? <delay20 />나 좀 어른스러워? <tag a="110" b="6" />?</message>
+	<message label="019" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" /><tag a="110" b="33" />에는 언젠가<delay20 />
+<anim id="Grin" target="actor" targetSpec="" />꼭 <delay8 />대표적인 관광 스폿이 생길 거야!<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />뭐<tag a="110" b="0" /> <delay20 /><anim id="Nodding" target="actor" targetSpec="" />'원래는 무인도였다'<delay8 />는
+느낌이 남아 있는 지금도 맘에 드니까<delay20 />
+<anim id="Laughing" target="actor" targetSpec="" />아무래도 좋지만 말야, <tag a="110" b="6" /></message>
+	<message label="020" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="4" arg="0x15 0x16 0x17 0x18 0x19 0x12" /></message>
 	<message label="021" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1c00 0x1900 0xcd00" /></message>
 	<message label="022" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1d01 0x1900 0xcd00" /></message>
 	<message label="023" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1e02 0x1900 0xcd00" /></message>
@@ -72,6 +81,12 @@
 <anim id="ShyBoy" target="actor" targetSpec="" />요즘 내가 빠진<delay8 />
 <tag a="135" b="13" arg="0x2" /><gender5 m="이" f="" />라는
 화석도 있으니까 <delay8 /><anim id="Smiling" target="actor" targetSpec="" />꼭 가서 봐～! <tag a="110" b="6" />!</message>
+	<message label="031" attrib="00 00 00 00 00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />이 <tag a="110" b="32" /> <colour id="1" />박물관<colour id="65535" />에 전시돼 있는<delay8 />
+<tag a="135" b="13" arg="0x3" /><gender5 m="은" f="는" /><delay20 />
+<anim id="BigSmile" target="actor" targetSpec="" />내가 제일 좋아하는 작품이야!
+<anim id="Explain" target="actor" targetSpec="" />그걸 언제든 볼 수 있다는 것만으로도<delay20 />
+<anim id="HappyDance" target="actor" targetSpec="" />이 <tag a="110" b="32" />에 살길 잘했어～하는<delay8 />
+생각이 들 정도거든, <tag a="110" b="6" /></message>
 	<message label="101" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="0" arg="0x66 0x69" /></message>
 	<message label="201" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="0" arg="0xca 0xcd" /></message>
 	<message label="202" attrib="00 00 02 00 00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" /><tag a="110" b="4" /><gender5 m="아" f="야" />!<delay40 />

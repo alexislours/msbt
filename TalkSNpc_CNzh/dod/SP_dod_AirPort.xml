@@ -17,10 +17,10 @@
 	<message label="001_03_01" attrib="00 00 00 00">话又说回来<tag a="110" b="0" /><delay40 />
 客人是<delay8 /><anim id="QuestionMark" target="actor" targetSpec="" /><tag a="110" b="1" />吧？<pageBreak /><anim id="BigSmile" target="actor" targetSpec="" />因为是个小岛，<delay20 />要记住居民的
 样子和名字，简直易如反掌！</message>
-	<message label="001_03_02" attrib="00 00 00 00">狸克社长在这里
-给<tag a="110" b="1" />
-放了一张<colour id="1" />里数旅行券<colour id="65535" />！<pageBreak />想要使用<colour id="1" />里数旅行券<colour id="65535" />时，
-就请跟我说一句<delay8 />
+	<message label="001_03_02" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" /><colour id="3" />狸克<colour id="65535" />社长在这里<delay20 />
+给<tag a="110" b="1" /><delay8 />
+放了一张<colour id="1" />里数旅行券<colour id="65535" />！<anim id="FaintSmile" target="actor" targetSpec="" /><pageBreak />想要使用<colour id="1" />里数旅行券<colour id="65535" />时，<delay20 />
+<anim id="Greeting" target="actor" targetSpec="" />就请跟我说一句<delay8 />
 “<colour id="1" />我想出门<colour id="65535" />”吧！</message>
 	<message label="001_03_03" attrib="00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />还有呢，<delay20 /><tag a="110" b="1" /><tag a="110" b="0" /><pageBreak /><anim id="ShyBoy" target="actor" targetSpec="" />虽然我刚才说明了很多，<delay20 />
 但要使用机场的各项服务，
@@ -408,4 +408,50 @@
 	<message label="999_02" attrib="00 00 00 00">要使用机场的各项服务，<delay20 />
 <anim id="Silent" target="actor" targetSpec="" />必须要确认您的住址。<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />虽说是住址，帐篷也完全没问题，<delay20 />
 <anim id="Smiling" target="actor" targetSpec="" />请决定好住处后再过来吧！</message>
+	<message label="1300" attrib="00 00 00 00">顺便说一下，<delay20 /><anim id="Nodding" target="actor" targetSpec="" />现在我这里有一张
+<tag a="110" b="1" />的<colour id="1" />劳动节旅行券<colour id="65535" />，<delay20 />
+请一定要使用看看哦！</message>
+	<message label="1301" attrib="00 00 00 00"><colour id="3" />狸克<colour id="65535" />社长在这里<delay20 />
+<anim id="BigSmile" target="actor" targetSpec="" />给<tag a="110" b="1" /><delay8 />
+放了一张<colour id="1" />劳动节旅行券<colour id="65535" />！<anim id="FaintSmile" target="actor" targetSpec="" /><pageBreak />想要使用<colour id="1" />劳动节旅行券<colour id="65535" />时，<delay20 />
+<anim id="Greeting" target="actor" targetSpec="" />就请跟我说一句<delay20 />
+“<colour id="1" />我想出门<colour id="65535" />”吧！</message>
+	<message label="1302" attrib="04 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />那么，<delay20 /><anim id="QuestionMark" target="actor" targetSpec="" />您要去哪里呢？</message>
+	<message label="1302_a" attrib="00 00 00 00">通过联机游戏外出</message>
+	<message label="1302_b" attrib="00 00 00 00">使用<colour id="1" />劳动节旅行券<colour id="65535" /></message>
+	<message label="1302_c" attrib="00 00 00 00">还是算了</message>
+	<message label="1302_02" attrib="06 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />那么，<delay20 /><anim id="QuestionMark" target="actor" targetSpec="" />您要去哪里呢？</message>
+	<message label="1302_02_a" attrib="00 00 00 00">通过联机游戏外出</message>
+	<message label="1302_02_b" attrib="00 00 00 00">使用<colour id="1" />劳动节旅行券<colour id="65535" /></message>
+	<message label="1302_02_c" attrib="00 00 00 00">前往巴猎岛</message>
+	<message label="1302_02_d" attrib="00 00 00 00">还是算了</message>
+	<message label="1302_04" attrib="06 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />那么，<delay20 /><anim id="QuestionMark" target="actor" targetSpec="" />您要去哪里呢？</message>
+	<message label="1302_04_a" attrib="00 00 00 00">通过联机游戏外出</message>
+	<message label="1302_04_b" attrib="00 00 00 00">使用<colour id="1" />劳动节旅行券<colour id="65535" /></message>
+	<message label="1302_04_c" attrib="00 00 00 00">使用<colour id="1" />里数旅行券<colour id="65535" /></message>
+	<message label="1302_04_d" attrib="00 00 00 00">还是算了</message>
+	<message label="1302_06" attrib="08 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />那么，<delay20 /><anim id="QuestionMark" target="actor" targetSpec="" />您要去哪里呢？</message>
+	<message label="1302_06_a" attrib="00 00 00 00">通过联机游戏外出</message>
+	<message label="1302_06_b" attrib="00 00 00 00">使用<colour id="1" />劳动节旅行券<colour id="65535" /></message>
+	<message label="1302_06_c" attrib="00 00 00 00">使用<colour id="1" />里数旅行券<colour id="65535" /></message>
+	<message label="1302_06_d" attrib="00 00 00 00">前往巴猎岛</message>
+	<message label="1302_06_e" attrib="00 00 00 00">还是算了</message>
+	<message label="1303" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />您要使用<colour id="1" />劳动节旅行券
+<colour id="65535" />参加旅行对吧！<delay frames="40" />
+<snpcAnim id="DodRoger" target="actor" targetSpec="" /><delay20 />收到！<delay frames="50" /><anim id="EmotEnd" target="actor" targetSpec="" /></message>
+	<message label="1304" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />这个<colour id="1" />劳动节旅行<colour id="65535" />，<delay20 />
+是<colour id="3" />狸克<colour id="65535" />社长亲自准备的<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />特别离岛旅行企划！<pageBreak /><anim id="Serious" target="actor" targetSpec="" />在离岛会有什么等着你呢，<delay20 />
+<anim id="Grin" target="actor" targetSpec="" />抵达之后就知道了，敬请期待！<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />另外，在这个旅行中，<delay20 />
+持有物会全部寄存在柜台上，<delay20 />
+<anim id="Nodding" target="actor" targetSpec="" />您将以<colour id="1" />空手状态<colour id="65535" />参加！<pageBreak /><anim id="Assent" target="actor" targetSpec="" />请放心！<delay frames="40" />
+<anim id="EmotEnd" target="actor" targetSpec="" />持有物会在您回来时<delay20 />
+<anim id="Smiling" target="actor" targetSpec="" />如数归还的！</message>
+	<message label="1305" attrib="02 00 00 00"><tag a="110" b="0" />那么，要寄存持有物，
+出发去<colour id="1" />劳动节旅行<colour id="65535" />吗？</message>
+	<message label="1305_a" attrib="00 00 00 00">出发～！</message>
+	<message label="1305_b" attrib="00 00 00 00">还是算了</message>
+	<message label="1306" attrib="00 00 00 00">明白了！
+请做好心理准备后，
+再来跟我说吧！</message>
 </msbt>

@@ -5,7 +5,7 @@ qui <tag a="50" b="15" /> <tag a="110" b="33" />?</message>
 	<message label="001_a" attrib="04 00 00 00 00 00 00 00">Sì!</message>
 	<message label="001_b" attrib="05 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Veramente no.</message>
 	<message label="002" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="23" arg="0xd 0xe 0xf 0xffff" /></message>
-	<message label="003" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x1 0x10 0x11 0x12" /></message>
+	<message label="003" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x1 0x10 0x11 0x14" /></message>
 	<message label="004" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Ah!<delay20 /> <tag a="50" b="3" /><tag a="50" b="1" /><tag a="110" b="7" arg="0xcd00" />?<delay20 /> <anim id="Grin" target="actor" targetSpec="" />In effetti non
 dovrebbe stupirmi che tu lo sappia.<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Beh, <delay8 />se poi ti capita di mangiarne,
 <delay8 />fammi sapere che gusto ha, <delay8 />OK?</message>
@@ -42,19 +42,30 @@ un museo vero!
 a visitarlo<tag a="110" b="0" /> se non altro per darmi
 ragione! <delay20 /><anim id="Laughing" target="actor" targetSpec="" />AHAHAH!</message>
 	<message label="017" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="3" arg="0x15 0x16 0x17 0x18 0x19" /></message>
+	<message label="018" attrib="00 00 00 00 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Ehi, hai sentito?<delay20 /> <anim id="Cheering" target="actor" targetSpec="" />Sembra che adesso
+il nostro <colour id="1" />museo <colour id="65535" />abbia uno spazio
+dedicato all'arte.
+<anim id="Explain" target="actor" targetSpec="" />Sai, quelle cose elitarie e cerebrali.<delay20 />
+Tele completamente bianche con un
+solo punto blu.<pageBreak /><anim id="Laughing" target="actor" targetSpec="" />AHAHAH!<delay20 /> Scherzo. <delay20 /><anim id="Grin" target="actor" targetSpec="" />Anche quella è
+arte <delay8 />e non lo dico solo perché anche
+io dipingo puntini blu<tag a="110" b="0" /></message>
+	<message label="020" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="4" arg="0x15 0x16 0x17 0x18 0x19 0x12" /></message>
 	<message label="021" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1c00 0x1900 0xcd00" /></message>
 	<message label="022" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1d01 0x1900 0xcd00" /></message>
 	<message label="023" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1e02 0x1900 0xcd00" /></message>
 	<message label="024" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1f03 0x1900 0xcd00" /></message>
-	<message label="025" attrib="00 00 00 00 00 00 00 00"><anim id="Scheming" target="actor" targetSpec="" />Che rimanga tra noi<tag a="110" b="0" /> Il <colour id="1" />museo <colour id="65535" />di <tag a="110" b="33" /> è ancora spoglio come un albero in autunno.<pageBreak /><anim id="Serious" target="actor" targetSpec="" />Se non si copre, <delay8 />molto presto si
-beccherà un bel raffreddore.
-<delay20 /><anim id="Laughing" target="actor" targetSpec="" />AHAHAH!
-<anim id="FaintSmile" target="actor" targetSpec="" />Però hanno fatto bene a costruirlo
-più grande del necessario. <delay20 />Presto
-sarà pieno come un uovo, vedrai!
-<anim id="Grin" target="actor" targetSpec="" />Fino ad allora, <delay8 />se proprio hai voglia
-di visitarlo, <delay8 />ti bastano cinque minuti
-per vedere tutto, <tag a="110" b="6" /><tag a="110" b="0" /></message>
+	<message label="025" attrib="00 00 00 00 00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Non posso dire di saperne molto
+su pesci e fossili,<delay8 /> però mi piace
+darci un'occhiata al <colour id="1" />museo<colour id="65535" />.<pageBreak /><anim id="Serious" target="actor" targetSpec="" />Me ne sto lì a osservare le varie
+esposizioni, <delay8 />cercando di assumere
+un'aria concentrata, <tag a="110" b="6" />.
+<anim id="Explain" target="actor" targetSpec="" />E ogni tanto butto lì un "ma certo"
+<delay8 />oppure un "affascinante!", <delay8 />così da
+darmi un tono con gli altri visitatori<tag a="110" b="0" />
+<anim id="Thinking" target="actor" targetSpec="" />Peccato che io sia stonato come una
+campana e scoprano subito che sto
+bluffando. <delay20 /><anim id="Laughing" target="actor" targetSpec="" />AHAHAH!<delay20 /><anim id="Smiling" target="actor" targetSpec="" /></message>
 	<message label="028" attrib="00 00 00 00 00 00 00 00"><anim id="WrySmile" target="actor" targetSpec="" />Ehi, ti piacciono i pesci? <delay20 />Fra quelli
 in esposizione qui, <delay8 />a me ne piace
 uno in particolare.
@@ -75,6 +86,9 @@ Incluso il mio preferito, <delay8 /><tag a="50" b="17" arg="0x29 0xcd00 0xc 0x75
 <tag a="135" b="13" arg="0x2" />.
 <anim id="BigSmile" target="actor" targetSpec="" />Al confronto, io sembro un pulcino!
 <delay20 /><anim id="Laughing" target="actor" targetSpec="" />AHAHAH!</message>
+	<message label="031" attrib="00 00 00 00 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Sai cosa mi piace fare?<delay20 /> <anim id="HappyFlower" target="actor" targetSpec="" />Ammirare <tag a="50" b="1" /><tag a="135" b="13" arg="0x3" /> del <colour id="1" />museo<colour id="65535" /> di quest'isola.<pageBreak /><anim id="WrySmile" target="actor" targetSpec="" />Non pensavi che fossi un esteta,
+eh? <delay20 />A proposito, pensi che anche gli
+estetisti siano esteti? <delay20 /><anim id="Laughing" target="actor" targetSpec="" />AHAHAH!</message>
 	<message label="201" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="0" arg="0xca 0xcd" /></message>
 	<message label="202" attrib="00 00 02 00 00 00 00 00">È la mia immaginazione<delay20 /> o sei venut<gender2 m="o" f="a" /> <anim id="WrySmile" target="actor" targetSpec="" /><tag a="50" b="15" /> <tag a="110" b="8" /> solo per vedere il sottoscritto?</message>
 	<message label="202_a" attrib="cb 00 00 00 00 00 00 00">Beh... sì.</message>

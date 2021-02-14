@@ -62,6 +62,11 @@
 무는 매입을 할 수 없어요<tag a="110" b="0" /><pageBreak /><anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" />죄송하지만<delay20 />
 매입을 원하시는 물건을
 다시 선택해주세요!</message>
+	<message label="025" attrib="00 00 00 00"><anim id="Worried" target="mainNpc" targetSpec="" /><anim id="Worried" target="subNpc" targetSpec="" />아<tag a="110" b="0" /><delay20 /> 죄송합니다<tag a="110" b="0" /><delay40 />
+<colour id="1" />가짜 <colour id="65535" />미술품은<delay20 />
+매입을 할 수 없어요<tag a="110" b="0" /><pageBreak /><anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" />죄송하지만<delay20 />
+매입을 원하시는 물건을<delay20 />
+다시 선택해주세요!</message>
 	<message label="031" attrib="02 00 00 00"><anim id="Nodding" target="mainNpc" targetSpec="" /><anim id="FaintSmile" target="subNpc" targetSpec="" /><tag a="125" b="0" arg="0x0" /><gender5 m="이군요" f="군요" />!<10_4 />
 <anim id="FaintSmile" target="mainNpc" targetSpec="" />이거라면 <tag a="90" b="26" arg="0x0" />에<delay20 />
 매입해 드릴게요!</message>
@@ -159,7 +164,7 @@ DIY 레시피잖아요－?<pageBreak /><anim id="Worried" target="mainNpc" targe
 	<message label="081" attrib="00 00 00 00">지금 시간대의 무 가격은<delay20 />
 <anim id="FaintSmile" target="mainNpc" targetSpec="" /><anim id="FaintSmile" target="subNpc" targetSpec="" />1개에 <tag a="90" b="20" arg="0x0" />입니다－! <tag a="100" b="4" /><delay8 /><size value="75" />입니다－!<size value="100" /><endTag a="100" b="4" /></message>
 	<message label="082" attrib="00 00 00 00">일요일에는 <delay20 />무 매입을<delay8 />
-하고 않지 않습니다－!<10_4 />
+하고 있지 않습니다－!<10_4 />
 <anim id="FaintSmile" target="mainNpc" targetSpec="" /><anim id="FaintSmile" target="subNpc" targetSpec="" />내일 다시 이용해주세요－! <tag a="100" b="4" /><delay8 /><size value="75" />주세요－!<size value="100" /><endTag a="100" b="4" /></message>
 	<message label="091" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />그럼 <delay20 /><anim id="Smiling" target="actor" targetSpec="" />이쪽을 봐주세요－!<anim id="EmotEnd" target="actor" targetSpec="" /></message>
 	<message label="092" attrib="00 00 00 00">그 밖에 <delay8 />필요한 물건은<delay20 />
@@ -319,7 +324,7 @@ DIY 레시피잖아요－?<pageBreak /><anim id="Worried" target="mainNpc" targe
 	<message label="131_a" attrib="00 00 00 00">1개(<colour id="1" /><tag a="90" b="12" arg="0x0" /><colour id="65535" />)</message>
 	<message label="131_b" attrib="00 00 00 00">5개(<colour id="1" /><tag a="90" b="13" arg="0x1" /><colour id="65535" />)</message>
 	<message label="131_c" attrib="00 00 00 00">역시 그만둘래</message>
-	<message label="200" attrib="00 00 00 00"><anim id="Smiling" target="mainNpc" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" />감사합니다－! <tag a="100" b="4" /><delay8 /><size value="75" />감사합니다－!<size value="100" /><endTag a="100" b="4" /><10_7 arg="90" /></message>
+	<message label="200" attrib="00 00 00 00"><anim id="Smiling" target="mainNpc" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" />감사합니다－! <tag a="100" b="4" /><delay8 /><size value="75" />감사합니다－!<size value="100" /><endTag a="100" b="4" /><anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" /><10_7 arg="90" /></message>
 	<message label="201" attrib="00 00 00 00"><anim id="FaintSmile" target="mainNpc" targetSpec="" /><anim id="FaintSmile" target="subNpc" targetSpec="" />어서 오세요－! <tag a="100" b="4" /><delay8 /><size value="75" />어서 오세요－!<size value="100" /><endTag a="100" b="4" /><delay40 />
 <colour id="1" />너굴 상점<colour id="65535" />에 오신 것을 환영합니다－! <tag a="100" b="4" /><delay8 /><size value="75" />합니다－!<size value="100" /><endTag a="100" b="4" /></message>
 	<message label="202" attrib="00 00 00 00"><anim id="Smiling" target="mainNpc" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" />어서 오세요－! <tag a="100" b="4" /><delay8 /><size value="75" />어서 오세요－!<size value="100" /><endTag a="100" b="4" /><pageBreak /><anim id="Shocked" target="mainNpc" targetSpec="" /><anim id="Shocked" target="subNpc" targetSpec="" />앗!<delay20 /> <tag a="110" b="1" />님!<delay40 />

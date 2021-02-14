@@ -2,6 +2,9 @@
 	<message label="001" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />네!<delay20 /> 도착했습니다!<delay20 /><anim id="EmotEnd" target="actor" targetSpec="" /><delay20 />
 <anim id="Assent" target="actor" targetSpec="" /><delay20 />저는 여기서 기다리고 있을 테니<delay frames="30" />
 <anim id="Nodding" target="actor" targetSpec="" />돌아가고 싶어지시면 말씀해주세요!</message>
+	<message label="002" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />앗?<delay20 />
+저쪽에서 뭔가<anim id="EmotEnd" target="actor" targetSpec="" />
+이야기를 나누고 있는 모양이군요<tag a="110" b="0" /></message>
 	<message label="101" attrib="02 00 00 00"><anim id="Eh" target="actor" targetSpec="" />네!<delay frames="40" />
 <anim id="QuestionMark" target="actor" targetSpec="" />무슨 일이신가요?</message>
 	<message label="101_a" attrib="00 00 00 00">돌아갈래</message>
@@ -14,4 +17,67 @@
 <anim id="Greeting" target="actor" targetSpec="" />그럼<delay8 /> 출발하겠습니다!</message>
 	<message label="104" attrib="00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />알겠습니다!<delay frames="40" />
 <anim id="FaintSmile" target="actor" targetSpec="" />용건이 생기시면<delay20 /> 다시 말을 걸어주세요!</message>
+	<message label="105" attrib="00 00 00 00"><anim id="IdeaBulb" target="actor" targetSpec="" />그렇지!<delay frames="60" />
+<anim id="EmotEnd" target="actor" targetSpec="" />실은 <tag a="110" b="1" />님께<delay8 />
+드릴 말씀이 있는데요<tag a="110" b="0" /><pageBreak /><anim id="Silent" target="actor" targetSpec="" />이번에<delay8 /> 도도항공에서는<delay frames="30" />
+<anim id="EmotEnd" target="actor" targetSpec="" />이곳 <colour id="3" />파니엘<colour id="65535" />님의 섬에서만 이용할 수 있는<delay20 />
+<anim id="SmugFace" target="actor" targetSpec="" /><colour id="1" />택배 및 매입 서비스<colour id="65535" />를 개시했습니다!<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />섬에 계시는 동안 <delay frames="30" /><anim id="Thinking" target="actor" targetSpec="" />짐이 너무 늘고
+주머니가 넘쳐서 곤란한 경험<tag a="110" b="0" /><delay20 />
+<anim id="EmotEnd" target="actor" targetSpec="" />한 번쯤은 있으실 거라고 생각합니다<pageBreak /><anim id="Pardon" target="actor" targetSpec="" />그래서!<delay frames="50" /> <anim id="Explain" target="actor" targetSpec="" />소지품을 댁으로 보내드리거나<delay8 />
+쓰지 않는 물건을 저희가 매입해서<delay20 />
+<anim id="Assent" target="actor" targetSpec="" />주머니 정리를 도와드리려고 합니다!<anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak /><anim id="Nodding" target="actor" targetSpec="" />각각의 서비스에 대해<delay20 />
+가볍게 설명을 해드릴게요!<delay20 />
+</message>
+	<message label="106" attrib="00 00 00 00">우선 <colour id="1" />택배 서비스<colour id="65535" />는<delay frames="30" />
+<anim id="Nodding" target="actor" targetSpec="" />맡기신 짐을 댁의 창고로
+<anim id="Greeting" target="actor" targetSpec="" />보내드리는 서비스입니다!<pageBreak /><anim id="Negative" target="actor" targetSpec="" />수수료 등의 비용은 전혀 들지 않으니까<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />안심하고 이용해주세요!</message>
+	<message label="107" attrib="00 00 00 00">그 다음 <colour id="1" />매입 서비스<colour id="65535" />는<delay frames="30" />
+<anim id="Nodding" target="actor" targetSpec="" />이름 그대로 <delay8 />고객님의 물건을
+저희가 매입해드리는 서비스입니다!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />이 서비스는 <colour id="1" />너굴 상점<colour id="65535" />과 제휴를 맺어서<delay20 />
+가게 앞에 놓여 있는 <colour id="1" />매입함<colour id="65535" />과<delay20 />
+<anim id="Greeting" target="actor" targetSpec="" />같은 가격에 매입해드리고 있습니다<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />판매 대금은 <delay20 /><anim id="Serious" target="actor" targetSpec="" />다음 날 한꺼번에<delay8 />
+너굴 은행의 계좌로 입금됩니다!<delay20 />
+<anim id="Nodding" target="actor" targetSpec="" />참고해주세요!</message>
+	<message label="108" attrib="00 00 00 00">신규 서비스에 대한 설명은 <anim id="Hello" target="actor" targetSpec="" />이상입니다!<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />앞으로도 <delay20 />도도항공에<delay20 />
+<snpcAnim id="DodRoger" target="actor" targetSpec="" />많은 사랑 부탁드립니다!<delay frames="30" /><anim id="EmotEnd" target="actor" targetSpec="" /></message>
+	<message label="110" attrib="06 00 00 00"><anim id="Eh" target="actor" targetSpec="" />네!<delay frames="40" />
+<anim id="QuestionMark" target="actor" targetSpec="" />무슨 일이신가요?</message>
+	<message label="110_a" attrib="00 00 00 00">돌아갈래</message>
+	<message label="110_b" attrib="00 00 00 00">택배 서비스를 이용할래</message>
+	<message label="110_c" attrib="00 00 00 00">매입 서비스를 이용할래</message>
+	<message label="110_d" attrib="00 00 00 00">아무것도 아니야</message>
+	<message label="111" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />택배 서비스를 이용하시는군요!<delay frames="40" />
+<anim id="QuestionMark" target="actor" targetSpec="" />어떤 걸 보내시겠습니까?</message>
+	<message label="112" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />어라?<delay frames="40" />
+<anim id="Thinking" target="actor" targetSpec="" />댁의 창고가 가득 차 있어서<delay20 />
+짐을 보낼 수가 없나 봅니다<tag a="110" b="0" /><pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />저희는 매입 서비스도 운영 중이니까<delay20 />
+<anim id="Nodding" target="actor" targetSpec="" />필요하시면 그쪽을 이용해주세요!</message>
+	<message label="113" attrib="00 00 00 00">그만두시나요?<delay20 /> 알겠습니다!<delay frames="30" />
+<anim id="FaintSmile" target="actor" targetSpec="" />그럼 나중에 또 이용해주세요!</message>
+	<message label="116" attrib="00 00 00 00"><snpcAnim id="DodRoger" target="actor" targetSpec="" />알겠습니다!<delay frames="40" />
+<anim id="FaintSmile" target="actor" targetSpec="" />보내실 물건을 잘 받았습니다!</message>
+	<message label="118" attrib="00 00 00 00">그럼 맡기신 물건은<delay20 />
+<anim id="BigSmile" target="actor" targetSpec="" />저희가 바로 <delay8 />댁 창고로<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />보내드리겠습니다!</message>
+	<message label="120" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />매입 서비스를 이용하시는군요!<delay frames="40" />
+<anim id="QuestionMark" target="actor" targetSpec="" />어떤 걸 파시겠습니까?</message>
+	<message label="121" attrib="02 00 00 00"><anim id="Eh" target="actor" targetSpec="" />어라?<delay frames="40" />
+<anim id="OhGeez" target="actor" targetSpec="" />너굴 은행의 계좌가 가득 차 있어서<delay20 />
+매입 서비스를 이용하실 수 없을 것 같습니다<pageBreak /><anim id="Worried" target="actor" targetSpec="" />매입은 못 해드리는 대신<delay8 />
+무료로 정리해드릴 수 있습니다만<delay frames="30" />
+<anim id="QuestionMark" target="actor" targetSpec="" />괜찮으신가요?</message>
+	<message label="121_a" attrib="00 00 00 00">괜찮아!</message>
+	<message label="121_b" attrib="00 00 00 00">그럼 됐어요</message>
+	<message label="124" attrib="00 00 00 00">알겠습니다!<delay frames="40" />
+<anim id="QuestionMark" target="actor" targetSpec="" />어떤 걸 정리하시겠습니까?</message>
+	<message label="125" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />네! 물건을 확인했습니다!<delay frames="40" />
+<anim id="EmotEnd" target="actor" targetSpec="" />그리고 오늘 판매하시는 물건의 판매 대금은<delay20 />
+<anim id="Serious" target="actor" targetSpec="" />내일 아침 한꺼번에 입금됩니다!<anim id="EmotEnd" target="actor" targetSpec="" /></message>
+	<message label="126" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />네!<delay20 />
+물건을 확인했습니다!<delay frames="40" />
+<anim id="EmotEnd" target="actor" targetSpec="" />저희가 책임지고 정리하도록 하겠습니다</message>
+	<message label="127" attrib="00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />이용해주셔서 <delay8 />감사합니다!</message>
+	<message label="200" attrib="00 00 00 00">저분들께서 무슨 이야기를 나누시는지
+<anim id="QuestionMark" target="actor" targetSpec="" /><delay8 />한번 보고 오시는 건 어떤가요?</message>
 </msbt>

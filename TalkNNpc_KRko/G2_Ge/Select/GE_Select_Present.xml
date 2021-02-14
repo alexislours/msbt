@@ -17,8 +17,8 @@
 	<message label="103" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />마침 나<delay8 /> 조만간
 인테리어 좀 바꿀까 하던 참인데<delay20 />
 <anim id="AbsentMindedness" target="actor" targetSpec="" />어디다 둘지 그때 정해야겠다! <tag a="110" b="6" />!</message>
-	<message label="104" attrib="00 00 00 00 00 00 00 00"><colour id="4" /><tag a="110" b="0" /><anim id="Worried" target="actor" targetSpec="" />근데 <delay8 />잘 보니까 이거<delay20 />
-전에 내가 준 거잖아～?!<colour id="65535" /><delay20 /><anim id="Negative" target="actor" targetSpec="" /><delay20 /><anim id="FaintSmile" target="actor" targetSpec="" /><delay20 /></message>
+	<message label="104" attrib="00 00 00 00 00 00 00 00"><colour id="4" /><anim id="QuestionMark" target="actor" targetSpec="" />어라, <delay20 />이거 어쩐지 낯이 익은데<tag a="110" b="0" /><delay frames="30" />
+<anim id="FaintSmile" target="actor" targetSpec="" />기분 탓인가!<colour id="65535" /></message>
 	<message label="111" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />완전 멋지다!<delay frames="40" />
 <anim id="ShyBoy" target="actor" targetSpec="" />진짜 받아도 돼?<delay frames="40" />
 <anim id="FaintSmile" target="actor" targetSpec="" />고마워! <tag a="110" b="6" />!</message>
@@ -31,6 +31,18 @@
 	<message label="114" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />야호～!<delay20 /> 멋진 선물 받았다～!<delay40 />
 <anim id="Nodding" target="actor" targetSpec="" />고대의 낭만이 담긴<delay8 /> 하나의 작품 같아!<delay40 />
 <anim id="Hello" target="actor" targetSpec="" />소중히 간직할게～<delay20 /> 땡큐! <tag a="110" b="6" />!</message>
+	<message label="121" attrib="00 00 00 00 00 00 00 00"><anim id="Hello" target="actor" targetSpec="" />이런 걸 선물해 주다니<delay20 /> 대박 센스 있어!<delay frames="40" />
+<anim id="Grin" target="actor" targetSpec="" />나 진짜로 받는다～?<delay frames="40" />
+<anim id="Greeting" target="actor" targetSpec="" />고마워～! <tag a="110" b="6" />!</message>
+	<message label="122" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />엄청 기뻐～!<delay40 />
+<tag a="110" b="0" /><anim id="EmotEnd" target="actor" targetSpec="" />그치만<delay20 />
+<anim id="Hello" target="actor" targetSpec="" />이번엔 <delay8 />마음만 받을게!<pageBreak /><anim id="Restless" target="actor" targetSpec="" />이거 <delay20 />귀중한 거잖아?<delay40 />
+<anim id="EmotEnd" target="actor" targetSpec="" />그러니까 <delay20 /><anim id="Nodding" target="actor" targetSpec="" /><tag a="110" b="4" /> 네가<delay8 />
+갖고 있는 게 좋을 것 같아! <tag a="110" b="6" />!</message>
+	<message label="123" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />고마워～!<delay40 />
+<anim id="Smiling" target="actor" targetSpec="" />진짜진짜 기뻐～<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />그치만 <delay20 /><anim id="Negative" target="actor" targetSpec="" />나만 보긴 아까우니까<delay20 />
+<colour id="3" /><anim id="FaintSmile" target="actor" targetSpec="" />부엉 <colour id="65535" />아저씨한테 가져가는 게<delay8 />
+좋을 것 같아, <tag a="110" b="6" />!</message>
 	<message label="201" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />그럼 <delay20 />얼른
 갈아입어봐야지!</message>
 	<message label="202" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />일단 <delay8 />갈아입어볼게!<delay40 />
@@ -124,6 +136,14 @@ DIY 레시피 아니야?!</message>
 레시피일지도 모른단 말이지～?<pageBreak /><anim id="Serious" target="actor" targetSpec="" /><tag a="110" b="4" />, <delay20 />
 역시 이건 <delay8 />네가 보관하는 게 낫겠어<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />난 <delay8 />네 마음만으로 <delay20 /><anim id="Assent" target="actor" targetSpec="" />충분하니까!<delay frames="40" />
 <anim id="FaintSmile" target="actor" targetSpec="" />정말 고마워, <tag a="110" b="6" />!</message>
+	<message label="509" attrib="00 00 00 00 00 00 00 00"><anim id="Hesitate" target="actor" targetSpec="" />아,<delay8 /> 아이참～ <delay20 />이거<delay frames="40" />
+<tag a="125" b="0" arg="0x0" /> 아냐?!</message>
+	<message label="510" attrib="00 00 00 00 00 00 00 00"><anim id="Blushing" target="actor" targetSpec="" />누가 보기라도 하면<delay20 />
+어떻게 하려구 그래～?!<delay40 />
+그치만 <delay20 /><anim id="Love" target="actor" targetSpec="" />엄청나게 기뻐!
+<anim id="ShyBoy" target="actor" targetSpec="" />팬을 편애하지 않는 게<delay8 />
+이쪽 업계 룰이지만 <delay20 /><anim id="Hesitate" target="actor" targetSpec="" /><tag a="110" b="4" /><gender5 m="은" f="는" />
+특별하니까<tag a="110" b="0" /><delay20 /><anim id="Blushing" target="actor" targetSpec="" /> 에헤헷～ <tag a="110" b="6" />!</message>
 	<message label="511" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />앗,<delay8 /> 이건<delay8 />
 <tag a="125" b="0" arg="0x0" /><gender5 m="이" f="" />잖아～</message>
 	<message label="512" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />고마워, <tag a="110" b="4" /><gender5 m="아" f="야" />!<delay40 />

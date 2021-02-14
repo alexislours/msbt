@@ -5,7 +5,7 @@
 	<message label="001_a" attrib="04 00 00 00 00 00 00 00">Знаю.</message>
 	<message label="001_b" attrib="05 00 00 00 00 00 00 00">Нет, не знаю.</message>
 	<message label="002" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="23" arg="0xd 0xe 0xf 0xffff" /></message>
-	<message label="003" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x1 0x10 0x11 0x12" /></message>
+	<message label="003" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x13 0x10 0x11 0x14" /></message>
 	<message label="004" attrib="00 00 00 00 00 00 00 00"><anim id="Laughing" target="actor" targetSpec="" />А! Ну ладно тогда!<delay frames="40" />
 <anim id="Greeting" target="actor" targetSpec="" />Приятного аппетита!</message>
 	<message label="005" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Это <tag a="110" b="7" arg="0xcd01" />!<delay frames="40" />
@@ -30,6 +30,19 @@
 нет, все равно нужно болеть
 за своих, правильно ведь?</message>
 	<message label="017" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="3" arg="0x15 0x16 0x17 0x18 0x19" /></message>
+	<message label="018" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Загляни в художественную галерею
+в <colour id="1" />музее<colour id="65535" />, если ты там еще не был<gender2 m="" f="а" />.<delay frames="40" />
+<anim id="AbsentMindedness" target="actor" targetSpec="" />Отличное место для медитации.<anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak />Правда, один раз, когда я качал
+внутренний покой<tag a="110" b="0" /><10_4 /> <anim id="Eh" target="actor" targetSpec="" />вокруг меня
+собралась толпа с блокнотами.<pageBreak /><anim id="Blushing" target="actor" targetSpec="" />Кто-то подумал, что я экспонат
+выставки<delay8 /> про эпоху Мускулатуры.<delay20 />
+Мне понравилось. <tag a="50" b="3" /><tag a="110" b="6" />.</message>
+	<message label="019" attrib="00 00 00 00 00 00 00 00"><anim id="Hello" target="actor" targetSpec="" />Как тебе на нашем острове
+<tag a="110" b="8" />?<delay20 /> Мощно?
+Я рад, что здесь поселился.<pageBreak /><anim id="Serious" target="actor" targetSpec="" />Честно говоря, я и не<delay8 /> знал, что
+ловля рыб и насекомых такая
+<anim id="Sighing" target="actor" targetSpec="" />тяжелая тренировка. <tag a="50" b="3" /><tag a="110" b="6" />!</message>
+	<message label="020" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="4" arg="0x15 0x16 0x17 0x18 0x19 0x12" /></message>
 	<message label="021" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1c00 0x1900 0xcd00" /></message>
 	<message label="022" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1d01 0x1900 0xcd00" /></message>
 	<message label="023" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1e02 0x1900 0xcd00" /></message>
@@ -51,6 +64,11 @@
 моя любимая окаменелость в <colour id="1" />музее<colour id="65535" />.<pageBreak /><anim id="Love" target="actor" targetSpec="" />Какой строгий, прекрасный рельеф!<delay20 />
 Даже без мышц круто смотрится!<delay frames="40" />
 <anim id="Frantic" target="actor" targetSpec="" />Невероятно, но факт! <tag a="50" b="3" /><tag a="110" b="5" />!</message>
+	<message label="031" attrib="00 00 00 00 00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Я уже столько раз предлагал музею
+показать свои мышцы в галерее,
+но<tag a="110" b="0" /> увы. Нет интереса.<pageBreak /><anim id="OhGeez" target="actor" targetSpec="" />А вот кто-то подарил музею
+<tag a="50" b="23" arg="0xcd01" /><tag a="135" b="13" arg="0x3" />,
+и сразу выставили. <anim id="Angry" target="actor" targetSpec="" />Так нечестно!</message>
 	<message label="201" attrib="ca 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Так здорово снова увидеться<tag a="110" b="0" /><delay frames="40" />
 <anim id="Grin" target="actor" targetSpec="" />Помнишь, как мы с тобой
 состязались?</message>

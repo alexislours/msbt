@@ -5,7 +5,7 @@ aquí en <tag a="110" b="8" />?</message>
 	<message label="001_a" attrib="04 00 00 00 00 00 00 00">¡Pues claro!</message>
 	<message label="001_b" attrib="05 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />No, ni idea</message>
 	<message label="002" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="23" arg="0xd 0xe 0xf 0xffff" /></message>
-	<message label="003" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x1 0x10 0x11 0x12" /></message>
+	<message label="003" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x1 0x10 0x11 0x14" /></message>
 	<message label="004" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />¿En serio?<delay20 /> ¿<tag a="50" b="17" arg="0x1 0xcd00 0x1c 0x45 0x6c 0x20 0x63 0x65 0x6c 0x65 0x62 0xe9 0x72 0x72 0x69 0x6d 0x6f 0x1c 0x4c 0x61 0x20 0x63 0x65 0x6c 0x65 0x62 0xe9 0x72 0x72 0x69 0x6d 0x61 0x0" /> <tag a="110" b="7" arg="0xcd00" />?<delay20 /> <anim id="Grin" target="actor" targetSpec="" />Bueno,<delay8 /> no debería
 sorprenderme que lo supieses.
 <anim id="FaintSmile" target="actor" targetSpec="" />Ya me dirás qué tal saben,<delay8 /> ¿vale?</message>
@@ -41,6 +41,15 @@ Bueno,<delay8 /> tú échale un ojo,<delay8 /> y espero
 <anim id="Smiling" target="actor" targetSpec="" />que vuelvas a visitarnos cuando
 tengamos un recinto decente.</message>
 	<message label="017" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="3" arg="0x15 0x16 0x17 0x18 0x19" /></message>
+	<message label="018" attrib="00 00 00 00 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />¿Te has enterado?<delay20 /> <anim id="Cheering" target="actor" targetSpec="" />Parece que en
+el <colour id="1" />museo<colour id="65535" /> han inaugurado una sala
+exclusivamente para obras de arte.
+<anim id="Explain" target="actor" targetSpec="" />Ya sabes,<delay8 /> cosas para hipsters y
+enterados: un lienzo en blanco con
+un salpicón en medio y cosas así.<pageBreak /><anim id="Laughing" target="actor" targetSpec="" />¡Ja, ja, ja!<delay20 /> Es broma.<delay20 /> <anim id="Grin" target="actor" targetSpec="" />Hay verdaderas
+obras de arte,<delay8 /> de las que se hacían
+antes.</message>
+	<message label="020" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="4" arg="0x15 0x16 0x17 0x18 0x19 0x12" /></message>
 	<message label="021" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1c00 0x1900 0xcd00" /></message>
 	<message label="022" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1d01 0x1900 0xcd00" /></message>
 	<message label="023" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1e02 0x1900 0xcd00" /></message>
@@ -48,7 +57,7 @@ tengamos un recinto decente.</message>
 	<message label="025" attrib="00 00 00 00 00 00 00 00"><anim id="Scheming" target="actor" targetSpec="" />Te cuento algo,<delay8 /> entre tú y yo<tag a="110" b="0" />
 El <colour id="1" />museo <colour id="65535" />de <tag a="110" b="8" /> tiene una política de excelencia, ¿sabes?<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />¡Eso quiere decir que fue construido
 con visión de futuro para reunir una
-enorme variedad de valiosos objetos!
+enorme variedad de peces y fósiles!
 <anim id="Smiling" target="actor" targetSpec="" />En unos cuantos añitos será como
 yo:<delay8 /> <anim id="Grin" target="actor" targetSpec="" />¡elegante y con solera!</message>
 	<message label="028" attrib="00 00 00 00 00 00 00 00"><anim id="WrySmile" target="actor" targetSpec="" />La verdad es que prefiero comerme
@@ -71,6 +80,10 @@ muy notables.<delay20 /> Mi favorito es
 <tag a="50" b="1" /><tag a="135" b="13" arg="0x2" />.
 <anim id="BigSmile" target="actor" targetSpec="" />Pues sí,<delay8 /> ¡en comparación yo estoy
 hecho un chaval!</message>
+	<message label="031" attrib="00 00 00 00 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />¿Sabes qué cosa es un placer para
+la vista,<delay8 /> jovencit<gender2 m="o" f="a" />?<delay20 /><pageBreak /><anim id="HappyFlower" target="actor" targetSpec="" />Contemplar <tag a="50" b="17" arg="0x29 0xcd00 0x14 0x65 0x6c 0x20 0x68 0x65 0x72 0x6d 0x6f 0x73 0x6f 0x14 0x6c 0x61 0x20 0x68 0x65 0x72 0x6d 0x6f 0x73 0x61 0x0" /> <tag a="135" b="13" arg="0x3" /> que alberga este <colour id="1" />museo<colour id="65535" />.<pageBreak /><anim id="WrySmile" target="actor" targetSpec="" />¿Qué?<delay20 /> ¿No me tenías por esteta?<delay20 />
+¿Ni conocías la palabra «esteta»?<delay20 />
+<anim id="Laughing" target="actor" targetSpec="" />¡Ja, ja, ja!</message>
 	<message label="201" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="0" arg="0xca 0xcd" /></message>
 	<message label="202" attrib="00 00 02 00 00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />Permíteme una pregunta un tanto
 indiscreta.<pageBreak /><anim id="QuestionMark" target="actor" targetSpec="" />¿Qué te trae por <tag a="110" b="8" />, el turismo o venir a charlar conmigo?</message>

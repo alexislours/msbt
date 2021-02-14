@@ -127,6 +127,37 @@ para cuando llegue a la isla!
 <anim id="Scheming" target="actor" targetSpec="" />Ahora mismo voy a hablar con
 los de la <colour id="1" />oficina de gestión<colour id="65535" /> y a
 pedirles permiso.</message>
+	<message label="207_01" attrib="00 00 01 00 00 00 00 00"><anim id="Scheming" target="actor" targetSpec="" />Sí que tienes ganas de que sea
+tu vecina, ¿eh?<delay8 /><anim id="Nodding" target="actor" targetSpec="" /> Pues si tan claro
+lo tienes, hagamos una cosa.
+<anim id="Thinking" target="actor" targetSpec="" />Echamos una partidita de un juego y,
+si ganas tú, ¡me mudo de inmediato!<delay8 />
+<anim id="EmotEnd" target="actor" targetSpec="" />¿Te parece, <tag a="110" b="5" />?</message>
+	<message label="207_01_a" attrib="00 00 00 00 00 00 00 00">¡Juguemos!</message>
+	<message label="207_01_b" attrib="00 00 00 00 00 00 00 00">Mejor paso...</message>
+	<message label="207_02" attrib="00 00 01 00 00 00 00 00"><anim id="TakenAback" target="actor" targetSpec="" />¿Todavía quieres que venga a vivir
+aquí aunque dije antes que no?<delay20 />
+¡Me siento muy halagada, tú!
+<anim id="Nodding" target="actor" targetSpec="" />Pues mira: decidámoslo en un juego.<delay20 />
+<anim id="SmugFace" target="actor" targetSpec="" />Si ganas tú, ¡me mudo aquí y punto,
+<tag a="110" b="5" />!</message>
+	<message label="207_02_a" attrib="00 00 00 00 00 00 00 00">¡A jugar!</message>
+	<message label="207_02_b" attrib="00 00 00 00 00 00 00 00">Mejor no</message>
+	<message label="207_03" attrib="00 00 01 00 00 00 00 00"><anim id="Blushing" target="actor" targetSpec="" />Ufff, al verte tan emocionad<gender2 m="o" f="a" />
+haces que me lo replantee todo.<delay8 />
+<anim id="EmotEnd" target="actor" targetSpec="" />Bueno, ¡segunda oportunidad!
+Lo dejamos a la suerte, <anim id="Nodding" target="actor" targetSpec="" />¿sí?<delay20 /> Si ganas
+tú, ¡me mudo cuanto antes! <delay8 /><anim id="QuestionMark" target="actor" targetSpec="" />¿Qué te
+parece?</message>
+	<message label="207_03_a" attrib="00 00 00 00 00 00 00 00">¡Juguemos!</message>
+	<message label="207_03_b" attrib="00 00 00 00 00 00 00 00">Mejor paso...</message>
+	<message label="208_01" attrib="00 00 00 00 00 00 00 00"><anim id="TakenAback" target="actor" targetSpec="" />¿Pasas?<delay8 /> ¿Así como así?<delay8 /> Bueno<tag a="110" b="0" /><delay8 />
+<anim id="OhGeez" target="actor" targetSpec="" />Al menos lo intenté, tú.</message>
+	<message label="208_02" attrib="00 00 00 00 00 00 00 00"><anim id="TakenAback" target="actor" targetSpec="" />¿Ah, no? <delay8 />¿De verdad?<delay8 /><anim id="OhGeez" target="actor" targetSpec="" /> Y yo que
+juraba que dirías que sí<tag a="110" b="0" /><delay8 /> En fin,
+otra vez será.</message>
+	<message label="208_03" attrib="00 00 00 00 00 00 00 00"><anim id="Frantic" target="actor" targetSpec="" />Osh, ni hablar<tag a="110" b="0" /> <delay8 /><anim id="OhGeez" target="actor" targetSpec="" />Pensaba que sí
+querrías<tag a="110" b="0" /><delay8 /> En fin.</message>
 	<message label="302" attrib="00 00 01 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />A ver, ya hablé con los de la <colour id="1" /><tag a="50" b="0" arg="0x202 0xcd04" />oficina de gestión vecinal<colour id="65535" /> y<tag a="110" b="0" /><delay8 /> no sé yo cómo le vamos a hacer.<pageBreak /><anim id="OhGeez" target="actor" targetSpec="" />Me dijeron que no hay espacio en
 la isla para que pueda vivir aquí.<pageBreak /><anim id="Thinking" target="actor" targetSpec="" />A menos de que uno de tus vecinos
 se vaya y me deje lugar a mí.<delay20 /> <anim id="Pardon" target="actor" targetSpec="" />¡Podría
@@ -175,7 +206,7 @@ que convencer para que se retire de
 la isla?</message>
 	<message label="312" attrib="00 00 00 00 00 00 00 00">Bueno, cuando uno cambia de
 opinión, cambia de opinión y ya.<pageBreak /><anim id="SmugFace" target="actor" targetSpec="" />¡Me conformo con que te lleves
-un buen recuerdo de mí!<pageBreak /><anim id="Scheming" target="actor" targetSpec="" /><colour id="4" />Como si fuera posible no llevárselo,<tag a="110" b="5" /><tag a="110" b="0" /><colour id="65535" /></message>
+un buen recuerdo de mí!<pageBreak /><anim id="Scheming" target="actor" targetSpec="" /><colour id="4" />Como si fuera posible no llevárselo, <tag a="110" b="5" /><tag a="110" b="0" /><colour id="65535" /></message>
 	<message label="313" attrib="00 00 01 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />A ver, los de la <colour id="1" />oficina de gestión<colour id="65535" />
 <colour id="1" />vecinal<colour id="65535" /> me dijeron que quizás
 <tag a="115" b="1" arg="0xcd00" /> se quiera mudar.
@@ -192,6 +223,13 @@ cabe ni un alfiler.
 Ni hablar<tag a="110" b="0" /><delay8 /> ¿Qué, <anim id="Scheming" target="actor" targetSpec="" />qué se siente al
 vivir en un lugar tan cotizado?<pageBreak /><anim id="SmugFace" target="actor" targetSpec="" />En fin, espero poder descubrirlo
 por mí misma algún día.</message>
+	<message label="405" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Pues ya hablé con los de la <colour id="1" /><tag a="50" b="0" arg="0x202 0xcd04" />oficina de gestión vecinal <colour id="65535" />y <delay8 /><anim id="OhGeez" target="actor" targetSpec="" />este no es buen
+momento para que me mude.<pageBreak /><anim id="Negative" target="actor" targetSpec="" />Al parecer no hay ningún terreno
+disponible donde pueda poner mi
+madriguera<tag a="110" b="0" />
+<anim id="Cheering" target="actor" targetSpec="" />¡Tú no pierdas la esperanza! <delay20 /><anim id="SmugFace" target="actor" targetSpec="" />Cuando
+me empeño en algo, ¡lo consigo
+porque lo consigo!</message>
 	<message label="406" attrib="00 00 00 00 00 00 00 00"><anim id="Blushing" target="actor" targetSpec="" />Pueees resulta que ya hablé con los
 de la <colour id="1" /><tag a="50" b="0" arg="0x202 0xcd04" />oficina de gestión vecinal<colour id="65535" /> y<tag a="110" b="0" /><delay8 />
 <anim id="Dance" target="actor" targetSpec="" />¡adivina <delay8 />quién<delay8 /> es<delay8 /> tu nueva vecina!
@@ -215,6 +253,11 @@ días, tú.
 Bueno, <anim id="Blushing" target="actor" targetSpec="" />a ver si cuando se pase
 esta popularidad tan loca tengo
 más suerte, <tag a="110" b="5" />.</message>
+	<message label="424" attrib="00 00 00 00 00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />Qué curioso que no quede ni
+un terrenito donde edificar en
+la isla.
+En fin, <anim id="EmotEnd" target="actor" targetSpec="" />a lo mejor luego podremos
+ser vecin<gender2 m="o" f="a" />s<tag a="110" b="0" /> a lo mejor.</message>
 	<message label="504" attrib="00 00 01 00 00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />Mira, vengo de una isla bien chévere,<delay8 />
 <anim id="Nodding" target="actor" targetSpec="" />pero las cosas hay que decirlas como son<tag a="110" b="0" /><delay8 /> <anim id="EmotEnd" target="actor" targetSpec="" />¡esta no se queda atrás!</message>
 	<message label="504_a" attrib="00 00 00 00 00 00 00 00">¡Pues múdate aquí!</message>

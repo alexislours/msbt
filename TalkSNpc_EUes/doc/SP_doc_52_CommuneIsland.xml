@@ -2,6 +2,8 @@
 	<message label="001" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Hemos amerizado sanos y salvos
 en nuestro destino.<delay20 /> <anim id="Assent" target="actor" targetSpec="" />Avísame cuando
 quieras regresar.<delay20 /> Cambio y corto.</message>
+	<message label="002" attrib="00 00 00 00"><anim id="Surprised" target="actor" targetSpec="" />¡Vaya!<delay8 /> ¿Qué se cuece por allí?<delay20 />
+<anim id="EmotEnd" target="actor" targetSpec="" />Parece que están hablando de algo<tag a="110" b="0" /></message>
 	<message label="101" attrib="02 00 00 00">Aquí Delta Oscar Dos llamando a
 papagay<gender2 m="o" f="a" />, <delay20 /><anim id="QuestionMark" target="actor" targetSpec="" />¿en qué puedo ayudarte?<anim id="EmotEnd" target="actor" targetSpec="" /><delay20 />
 Cambio.</message>
@@ -14,4 +16,95 @@ Cambio.</message>
 y despegamos en 3<tag a="110" b="0" /> 2<tag a="110" b="0" /> <delay8 />1<tag a="110" b="0" /></message>
 	<message label="104" attrib="00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Recibido.<delay frames="40" /> <anim id="Smiling" target="actor" targetSpec="" />Tranquil<gender2 m="o" f="a" />,<delay8 /> papagay<gender2 m="o" f="a" />.
 No hay prisa por regresar.</message>
+	<message label="105" attrib="00 00 00 00"><anim id="IdeaBulb" target="actor" targetSpec="" />¡Ah, <tag a="110" b="1" />!<delay8 /> Me gustaría comentarte una cosilla, papagay<gender2 m="o" f="a" />.<pageBreak /><anim id="BigSmile" target="actor" targetSpec="" />En Dodo Airlines queremos hacerles
+la vida más fácil a nuestros clientes,
+así que hemos ideado algo.
+<anim id="Aha" target="actor" targetSpec="" />¡Se trata de los <colour id="1" />servicios de
+paquetería y liquidación<colour id="65535" />! <delay20 />¿Recibido?<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Con este novedoso sistema, se acabó
+el no poder alzar el vuelo por exceso
+de equipaje. <delay20 />¡Adiós frustración!
+<anim id="Assent" target="actor" targetSpec="" />A partir de ahora, nos ocupamos
+de aquello que te sobre.<pageBreak /><anim id="Aha" target="actor" targetSpec="" />¿Que es algo de lo que no quieres
+deshacerte?<delay20 /><anim id="Nodding" target="actor" targetSpec="" /> ¡Sin problema!<delay8 /> Te lo
+enviamos a casa.
+<anim id="Aha" target="actor" targetSpec="" />¿Que es algo que ya no quieres
+tener?<delay20 /><anim id="Nodding" target="actor" targetSpec="" /> ¡Sin problema tampoco!<delay8 />
+Nosotros te lo compramos.
+<anim id="BigSmile" target="actor" targetSpec="" />¡Permíteme que te explique
+cómo funciona todo esto!</message>
+	<message label="106" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Con nuestro estupendo <colour id="1" />servicio de<colour id="65535" />
+<colour id="1" />paquetería <colour id="65535" />podrás enviar todo tipo
+de objetos al trastero de tu casa.
+<anim id="Assent" target="actor" targetSpec="" />La satisfacción de nuestros pasajeros
+es nuestra principal prioridad,<delay8 /> de
+modo que no cobramos comisiones.
+<anim id="Smiling" target="actor" targetSpec="" />¡Aprovecha este servicio tantas
+veces como quieras, papagay<gender2 m="o" f="a" />!</message>
+	<message label="107" attrib="00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />Pero no nos olvidemos de nuestro
+novedoso <colour id="1" />servicio de liquidación<colour id="65535" />,
+claro.
+<anim id="Explain" target="actor" targetSpec="" />Al utilizar este servicio,<delay8 /> podrás
+vender todo aquello que ya no
+quieras.
+<anim id="Greeting" target="actor" targetSpec="" />Aligeras los bolsillos y de paso
+te embolsas unas cuantas bayas;<delay20 />
+¡siempre sales ganando!
+<anim id="Nodding" target="actor" targetSpec="" />Nos hemos asociado con <colour id="1" />MiniNook<colour id="65535" />,
+por lo que las tarifas son las mismas
+que las del buzón de compraventa.
+<anim id="Greeting" target="actor" targetSpec="" />Esta colaboración también implica
+que te ingresaremos las bayas en
+tu cuenta del Banco Nook mañana.</message>
+	<message label="108" attrib="00 00 00 00"><anim id="Hello" target="actor" targetSpec="" />Bien, ya te he puesto al día de todas
+las novedades de nuestros servicios.<delay20 />
+<snpcAnim id="DodRoger" target="actor" targetSpec="" />¡Cambio y corto, papagay<gender2 m="o" f="a" />!</message>
+	<message label="110" attrib="06 00 00 00">Aquí Delta Oscar Dos llamando a
+papagay<gender2 m="o" f="a" />, <delay20 /><anim id="QuestionMark" target="actor" targetSpec="" />¿en qué puedo ayudarte?<anim id="EmotEnd" target="actor" targetSpec="" /><delay20 />
+Cambio.</message>
+	<message label="110_a" attrib="00 00 00 00">Quiero volver a casa</message>
+	<message label="110_b" attrib="00 00 00 00">Servicio de paquetería</message>
+	<message label="110_c" attrib="00 00 00 00">Servicio de liquidación</message>
+	<message label="110_d" attrib="00 00 00 00">No, nada</message>
+	<message label="111" attrib="00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />¿Quieres usar nuestro servicio de
+paquetería?<delay20 /><anim id="Nodding" target="actor" targetSpec="" /> ¡Recibido! <delay8 />Dime qué
+quieres enviar al trastero, papagay<gender2 m="o" f="a" />.</message>
+	<message label="112" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />¡Vaya!<delay20 /> Mucho me temo que tienes
+el trastero lleno hasta los topes,<delay8 />
+<anim id="Negative" target="actor" targetSpec="" />y así no podremos enviar nada.
+<anim id="Thinking" target="actor" targetSpec="" />Recuerda que también tienes
+la opción de usar nuestro servicio
+de liquidación si lo prefieres.
+<anim id="Hello" target="actor" targetSpec="" />¡Cambio y corto, papagay<gender2 m="o" f="a" />!</message>
+	<message label="113" attrib="00 00 00 00">¿Has cambiado de idea? <delay20 /><anim id="FaintSmile" target="actor" targetSpec="" />¡Recibido!<delay8 />
+Si necesitas cualquier otra cosa,
+aquí me tienes. <delay20 /><anim id="Hello" target="actor" targetSpec="" />¡Cambio y corto!</message>
+	<message label="116" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />¡Recibido!<delay40 /><anim id="Smiling" target="actor" targetSpec="" /> Bien, solo nos queda
+tramitarlo todo<tag a="110" b="0" /></message>
+	<message label="118" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />¡Y listo!<delay20 /> Ya está todo preparado para
+enviar tu paquete.<delay20 /> ¡Lo recibirás en
+casa cómodamente!
+<anim id="FaintSmile" target="actor" targetSpec="" />Gracias por utilizar nuestro servicio
+de paquetería. <delay20 />¡Cambio y corto!</message>
+	<message label="120" attrib="00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />¿Quieres usar nuestro servicio de
+liquidación?<delay20 /><anim id="Nodding" target="actor" targetSpec="" /> ¡Recibido!<delay8 /> Dime de
+qué quieres deshacerte, papagay<gender2 m="o" f="a" />.</message>
+	<message label="121" attrib="02 00 00 00"><anim id="Eh" target="actor" targetSpec="" />¡Vaya!<delay20 /> Mucho me temo que tienes
+la cuenta del Banco Nook a rebosar,<delay8 />
+<anim id="Negative" target="actor" targetSpec="" />y así no podremos pagarte nada.
+<anim id="Thinking" target="actor" targetSpec="" />De todas formas, puedes darnos todo
+aquello que no quieras, aunque no
+recibas bayas a cambio.</message>
+	<message label="121_a" attrib="00 00 00 00">¡Vale!</message>
+	<message label="121_b" attrib="00 00 00 00">No hace falta, gracias</message>
+	<message label="124" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />¡Recibido! <delay20 />Bien, <anim id="QuestionMark" target="actor" targetSpec="" />¿de qué quieres
+deshacerte?</message>
+	<message label="125" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Bien, <delay8 />hemos recibido la mercancía.<delay20 />
+<anim id="BigSmile" target="actor" targetSpec="" />Mañana por la mañana se hará
+efectivo el ingreso en tu cuenta.</message>
+	<message label="126" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Bien, <delay8 />hemos recibido la mercancía.<delay20 />
+<anim id="BigSmile" target="actor" targetSpec="" />Nos desharemos de ella por ti.</message>
+	<message label="127" attrib="00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />Gracias por utilizar nuestro servicio
+de liquidación. <delay20 />¡Cambio y corto!</message>
+	<message label="200" attrib="00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />¿No te pica la curiosidad?<delay20 /> ¿Por qué
+no vas a investigar un poco?</message>
 </msbt>

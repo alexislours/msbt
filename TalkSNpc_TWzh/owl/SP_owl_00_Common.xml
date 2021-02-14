@@ -71,7 +71,7 @@
 	<message label="018_b" attrib="00 00 00 00">這是什麼？</message>
 	<message label="018_c" attrib="00 00 00 00">沒什麼</message>
 	<message label="051" attrib="00 00 00 00"><anim id="IdeaBulb" target="actor" targetSpec="" /><delay8 />嗚咕咕！<delay40 />
-對了對了，<tag a="110" b="1" /><tag a="110" b="0" /><pageBreak /><anim id="Nodding" target="actor" targetSpec="" />多虧有你，博物館終於能開始展示化石了。<delay frames="30" />
+對了對了，<tag a="110" b="1" /><tag a="110" b="0" /><pageBreak /><anim id="Nodding" target="actor" targetSpec="" />多虧有您，博物館終於能開始展示化石了。<delay frames="30" />
 <anim id="Thinking" target="actor" targetSpec="" />今後，<delay20 />為了讓到訪博物館的大家<delay20 />
 享用到更方便的服務<tag a="110" b="0" /><pageBreak /><anim id="Silent" target="actor" targetSpec="" />以後捐贈展品的時候，<delay frames="30" /><anim id="HappyDance" target="actor" targetSpec="" />不用逐一捐贈，<delay20 />
 可以把<colour id="1" />多個種類<colour id="65535" />的展品<delay frames="30" />
@@ -130,6 +130,14 @@
 	<message label="106" attrib="00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />哇啊！<delay frames="30" />
 <anim id="Smiling" target="actor" targetSpec="" />您一次拿了那麼多過來啊！<delay frames="40" />
 <tag a="10" b="6" /><anim id="Thinking" target="actor" targetSpec="" />讓我看看<tag a="110" b="0" /><delay20 /><endTag a="10" b="6" /><10_8 arg="30" /></message>
+	<message label="107" attrib="00 00 00 06"><tag a="10" b="12" /><anim id="Surprised" target="actor" targetSpec="" /><size value="150" />啊啊！<size value="100" /><delay frames="15" /><10_9 />
+<anim id="Confused" target="actor" targetSpec="" />可是這些，<delay20 />全部都是贗品呢<tag a="110" b="0" /><pageBreak /><anim id="Worried" target="actor" targetSpec="" />十分抱歉，<delay20 />
+<anim id="Negative" target="actor" targetSpec="" />博物館是不能展示贗品的，<delay20 />
+<anim id="Serious" target="actor" targetSpec="" />這次我只能謝絕您的捐贈了。<anim id="EmotEnd" target="actor" targetSpec="" /></message>
+	<message label="108" attrib="00 00 00 06"><tag a="10" b="12" /><anim id="Surprised" target="actor" targetSpec="" /><size value="150" />啊啊！<size value="100" /><10_8 arg="5" /><10_9 /><pageBreak /><anim id="Confused" target="actor" targetSpec="" />可是，<delay20 />這裡面
+也有美術贗品參雜在其中呢<tag a="110" b="0" /><pageBreak /><anim id="Worried" target="actor" targetSpec="" />十分抱歉，<delay20 />
+<anim id="Negative" target="actor" targetSpec="" />博物館是不能展示贗品的<tag a="110" b="0" /><pageBreak /><anim id="Nodding" target="actor" targetSpec="" />除了贗品之外，其他的我就收下了。<delay20 />
+<anim id="Smiling" target="actor" targetSpec="" />十分感謝您的捐贈！<anim id="EmotEnd" target="actor" targetSpec="" /></message>
 	<message label="109" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />好的！<delay frames="30" />
 <anim id="Smiling" target="actor" targetSpec="" />那麼，我就收下了！<delay20 />
 <anim id="EmotEnd" target="actor" targetSpec="" />十分感謝您的捐贈！</message>
@@ -218,6 +226,38 @@
 <anim id="ShyBoy" target="actor" targetSpec="" />那下次有機會<delay20 />
 我再為您解說吧<tag a="110" b="0" /><pageBreak /><anim id="Nodding" target="actor" targetSpec="" />這件捐贈品，<delay20 />
 <anim id="FaintSmile" target="actor" targetSpec="" />我會好好保管的！</message>
+	<message label="135" attrib="00 00 00 00"><tag a="60" b="20" /></message>
+	<message label="135_01" attrib="00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />嗚咕咕！<delay8 />這，這是！<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" /><tag a="125" b="0" arg="0x0" />吧？！<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />哎呀，我該怎麼說<tag a="110" b="0" /><delay8 />
+沒想到竟然會是<delay8 />
+<anim id="Smiling" target="actor" targetSpec="" /><tag a="125" b="0" arg="0x0" />！</message>
+	<message label="135_02" attrib="00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />嗚咕咕！<delay8 />
+這就是那赫赫有名的<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" /><tag a="125" b="0" arg="0x0" />吧？！
+<anim id="Nodding" target="actor" targetSpec="" />比我想像的更加有<delay8 />
+<anim id="Smiling" target="actor" targetSpec="" /><tag a="125" b="0" arg="0x0" />的感覺，<delay8 />
+沒錯。</message>
+	<message label="135_03" attrib="00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />嗚咕咕！<delay8 />這，<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />這不就是
+<tag a="125" b="0" arg="0x0" />嗎！
+<anim id="Nodding" target="actor" targetSpec="" />哎呀～<delay8 />我還是第一次看見實物呢！<delay20 />
+<anim id="Smiling" target="actor" targetSpec="" />確實是「<tag a="125" b="0" arg="0x0" />」，<delay8 />
+毫無疑問！</message>
+	<message label="147" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />我們會小心保管<delay20 />捐贈品的！<pageBreak /><anim id="Explain" target="actor" targetSpec="" />相關的解說<delay8 />
+會寫在展覽室的作品前面，<delay frames="30" />
+<anim id="Hello" target="actor" targetSpec="" />有機會的話，請去看一下吧！</message>
+	<message label="138" attrib="00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />嗚咕咕！<delay8 />
+這就是那赫赫有名的<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" /><tag a="125" b="0" arg="0x0" />吧？！</message>
+	<message label="148" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />跟想像中的比起來，<delay8 />
+<anim id="Smiling" target="actor" targetSpec="" />還要更有<tag a="125" b="0" arg="0x0" />的
+感覺呢，<delay8 />沒錯。</message>
+	<message label="139" attrib="00 00 00 00"><tag a="10" b="12" />呃，<delay8 /><anim id="Surprised" target="actor" targetSpec="" /><10_10 /><size value="150" />啊啊！！<size value="100" /><10_9 /><delay20 />
+<anim id="Frantic" target="actor" targetSpec="" />仔細一看，<delay8 />
+這個不是贗品嗎！</message>
+	<message label="140" attrib="00 00 00 00"><anim id="Serious" target="actor" targetSpec="" /><tag a="110" b="0" />總之，<delay20 />
+<anim id="Negative" target="actor" targetSpec="" />博物館是不能收下假貨的，<delay20 />
+<anim id="Nodding" target="actor" targetSpec="" />這個我就先還給您了，<delay8 /><anim id="EmotEnd" target="actor" targetSpec="" />沒錯。</message>
 	<message label="141" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />嗚咕咕！<delay8 />謝謝！<delay20 /><tag a="110" b="0" /><delay8 /><anim id="Shocked" target="actor" targetSpec="" />咦？<delay20 />
 <anim id="Thinking" target="actor" targetSpec="" />可是，就我所見，<delay20 />
 您好像沒有可以捐贈的東西呢<tag a="110" b="0" /></message>
@@ -227,6 +267,9 @@
 	<message label="143" attrib="00 00 00 00">可以作為館藏的有<delay20 />
 <anim id="AbsentMindedness" target="actor" targetSpec="" /><colour id="1" />蟲子<colour id="65535" />、<delay20 /><colour id="1" />魚<colour id="65535" />、<delay20 />還有<colour id="1" />化石<colour id="65535" /><delay20 />
 <tag a="110" b="0" /><anim id="EmotEnd" target="actor" targetSpec="" />就是這些了。</message>
+	<message label="146" attrib="00 00 00 00">可以作為館藏的有<delay20 />
+<anim id="AbsentMindedness" target="actor" targetSpec="" /><colour id="1" />蟲子<colour id="65535" />、<delay20 /><colour id="1" />魚<colour id="65535" />、<delay20 /><colour id="1" />化石<colour id="65535" /><delay20 />還有<colour id="1" />美術品<colour id="65535" /><tag a="110" b="0" />
+<anim id="EmotEnd" target="actor" targetSpec="" />就是這些了。</message>
 	<message label="144" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />不過，<delay8 />化石必須先經過<colour id="1" />鑑定<colour id="65535" />。<delay20 />
 <anim id="EmotEnd" target="actor" targetSpec="" />要是找到來歷不明的化石，<delay8 />
 <anim id="Nodding" target="actor" targetSpec="" />請先拿來給我鑑定吧！</message>
@@ -275,7 +318,7 @@
 	<message label="211_b" attrib="00 00 00 00">不捐贈</message>
 	<message label="212" attrib="02 00 00 00"><anim id="Love" target="actor" targetSpec="" />話說回來，這真是太棒了<tag a="110" b="0" /><10_4 />
 <anim id="Explain" target="actor" targetSpec="" />這是<delay20 />十分稀有的化石，<delay frames="30" />
-尚未列入展覽計畫中的呢！<pageBreak /><anim id="HappyDance" target="actor" targetSpec="" />而且，<delay8 />告訴你一個好消息，<delay frames="40" />
+尚未列入展覽計畫中的呢！<pageBreak /><anim id="HappyDance" target="actor" targetSpec="" />而且，<delay8 />告訴您一個好消息，<delay frames="40" />
 距離申請建設博物館，<delay20 />
 現在只差1件必要展品了！<pageBreak /><anim id="Silent" target="actor" targetSpec="" />這個<tag a="125" b="0" arg="0x0" /><delay20 />
 將會成為<delay frames="40" /><anim id="Nodding" target="actor" targetSpec="" />博物館開幕的關鍵<tag a="110" b="0" /><pageBreak /><anim id="Serious" target="actor" targetSpec="" />怎麼樣呢？<delay frames="40" />
@@ -346,7 +389,7 @@
 	<message label="301" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />哎呀，<delay20 />您找到什麼<delay8 />
 稀有物品了嗎？<pageBreak /><anim id="Serious" target="actor" targetSpec="" />如果是我擅長的領域，<delay frames="30" />
 <anim id="FaintSmile" target="actor" targetSpec="" />只要讓我稍微看一下，<delay20 />
-我就可以幫你解說喔！</message>
+我就可以幫您解說喔！</message>
 	<message label="302" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />嗚咕咕！<delay frames="30" /><anim id="EmotEnd" target="actor" targetSpec="" />
 這次<delay20 />您拿了什麼來呢？</message>
 	<message label="303" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />哎呀，真的不用嗎？<delay frames="40" />
@@ -359,6 +402,18 @@
 	<message label="306" attrib="00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />嗚咕咕！<delay frames="30" />
 這不就是<anim id="Smiling" target="actor" targetSpec="" />
 <tag a="125" b="0" arg="0x0" />嗎！</message>
+	<message label="315" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />在展覽室作品前的板子上，<delay8 />
+記載著相關的解說，<delay frames="30" />
+<anim id="Hello" target="actor" targetSpec="" />有機會的話，請再去慢慢欣賞吧！</message>
+	<message label="316" attrib="00 00 00 00"><tag a="125" b="0" arg="0x0" />啊，<delay20 />
+<anim id="Thinking" target="actor" targetSpec="" />本博物館還沒有這項展品呢。<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />關於美術品的解說<delay8 />
+會記載在展覽作品前面的板子上，<delay frames="30" />
+<anim id="Smiling" target="actor" targetSpec="" />請先考慮一下要不要捐贈出來吧！</message>
+	<message label="307" attrib="00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />嗚咕咕！<delay frames="30" />
+這不就是<anim id="Smiling" target="actor" targetSpec="" />
+<tag a="125" b="0" arg="0x0" />嘛！<anim id="Shocked" target="actor" targetSpec="" /><pageBreak /><anim id="Eh" target="actor" targetSpec="" /><delay frames="60" /><anim id="Worried" target="actor" targetSpec="" />可是這個，<delay20 />仔細一看，好像跟印象中的<tag a="110" b="0" /><10_4 />
+<anim id="Confused" target="actor" targetSpec="" />啊啊！<delay8 />果然是這樣！<delay20 />
+這是贗品<tag a="110" b="0" /><delay20 />也就是假貨！</message>
 	<message label="308" attrib="02 00 00 00"><anim id="Eh" target="actor" targetSpec="" />嗚咕咕，<delay frames="30" /><anim id="Thinking" target="actor" targetSpec="" />這個要詳細鑑定<delay frames="30" />
 才能知道是什麼「化石」呢<tag a="110" b="0" /><10_4 />
 <anim id="EmotEnd" target="actor" targetSpec="" />您不介意的話，<delay8 /><anim id="QuestionMark" target="actor" targetSpec="" />我現在就來鑑定吧？</message>
@@ -372,6 +427,9 @@
 	<message label="313" attrib="00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />嗚咕咕！<delay frames="40" />
 那個不就是
 <tag a="125" b="0" arg="0x0" />嘛！</message>
+	<message label="351" attrib="00 00 00 00"><anim id="WrySmile" target="actor" targetSpec="" />唉，總之美術品裡面
+也會有這樣的東西，
+要小心呢……</message>
 	<message label="352" attrib="00 00 00 00"><tag a="110" b="0" />大致<delay20 /><anim id="Serious" target="actor" targetSpec="" />就是這樣了，<10_4 />
 <anim id="Worried" target="actor" targetSpec="" />那隻<tag a="125" b="0" arg="0x0" />，<delay20 />
 可以麻煩您收起來嗎<tag a="110" b="0" /></message>
@@ -450,6 +508,16 @@
 您終於成功了！<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" /><delay20 />這樣一來，化石就全部收集齊了！<delay frames="30" />
 <anim id="Laughing" target="actor" targetSpec="" />也就是說，已經全部完成了！<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />我，<delay20 />真的<delay8 />
 <anim id="BigSmile" target="actor" targetSpec="" />非常感謝您！<delay8 />沒錯！<delay20 /><anim id="FaintSmile" target="actor" targetSpec="" /></message>
+	<message label="406" attrib="00 00 00 00">咦咦咦？！
+這麼看來，難道……
+美術品已經全部收集齊了？！
+太感謝您了！
+這樣美術品的館藏就完成了！
+嗚咕咕！可喜可賀！
+捐贈出最後一件展品的
+<tag a="110" b="1" />，
+您的功績將永遠流傳！
+非常感謝您的幫忙！</message>
 	<message label="501" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />本博物館<delay20 />展出了
 這世界上各式各樣的<delay frames="30" />
 稀世珍寶！<pageBreak /><anim id="HappyFlower" target="actor" targetSpec="" />請盡情欣賞<delay20 />

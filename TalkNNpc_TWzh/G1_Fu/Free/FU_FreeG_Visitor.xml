@@ -5,7 +5,7 @@
 	<message label="001_a" attrib="04 00 00 00 00 00 00 00">我知道喔</message>
 	<message label="001_b" attrib="05 00 00 00 00 00 00 00">不～知道</message>
 	<message label="002" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="23" arg="0xd 0xe 0xf 0xffff" /></message>
-	<message label="003" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x1 0x10 0x11 0x12" /></message>
+	<message label="003" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x13 0x10 0x11 0x14" /></message>
 	<message label="004" attrib="00 00 00 00 00 00 00 00"><anim id="Clapping" target="actor" targetSpec="" />你還<delay8 />真清楚呢！<delay frames="60" />
 <anim id="EmotEnd" target="actor" targetSpec="" /><tag a="110" b="33" />的<delay8 /><tag a="110" b="7" arg="0xcd00" /><delay20 />
 <anim id="FaintSmile" target="actor" targetSpec="" />用來當伴手禮<delay8 />也非常適合喔。
@@ -36,6 +36,15 @@
 我希望<delay8 />能在許多展示品的圍繞下<delay20 />
 <anim id="Love" target="actor" targetSpec="" />度過一整天呢～<tag a="110" b="6" />。</message>
 	<message label="017" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="3" arg="0x15 0x16 0x17 0x18 0x19" /></message>
+	<message label="018" attrib="00 00 00 00 00 00 00 00"><anim id="SmugFace" target="actor" targetSpec="" />這座島的<colour id="1" />博物館
+<colour id="65535" />也有展示美術品喔！<pageBreak /><anim id="Blushing" target="actor" targetSpec="" />不好意思<tag a="110" b="0" /><delay8 />我不小心就得意起來了。<delay frames="40" />
+<anim id="EmotEnd" target="actor" targetSpec="" />不過，<delay20 />如果你有時間的話，<delay8 />
+<anim id="Greeting" target="actor" targetSpec="" />請務必<delay8 />去參觀一下喔，<tag a="110" b="6" />。</message>
+	<message label="019" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />我可以住在<delay20 />這座自然豐饒的島，<delay8 />
+真是太好了～<delay8 /><pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />雖然很想研究一下這片豐富的大自然，<delay20 />
+<anim id="WrySmile" target="actor" targetSpec="" />但只有我一個人的話，
+實在太困難了，<tag a="110" b="6" />。</message>
+	<message label="020" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="4" arg="0x15 0x16 0x17 0x18 0x19 0x12" /></message>
 	<message label="021" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1c00 0x1900 0xcd00" /></message>
 	<message label="022" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1d01 0x1900 0xcd00" /></message>
 	<message label="023" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1e02 0x1900 0xcd00" /></message>
@@ -58,6 +67,10 @@
 <tag a="135" b="13" arg="0x2" />喔！
 <anim id="HappyDance" target="actor" targetSpec="" />這應該可算是<delay8 />這座島上
 值得驕傲的一點呢，<tag a="110" b="6" />。</message>
+	<message label="031" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />在<colour id="1" />博物館<colour id="65535" /><delay8 />可以看到
+<tag a="135" b="13" arg="0x3" />喔。<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />我覺得鑑賞真正的美術品，<delay8 />
+<anim id="Love" target="actor" targetSpec="" />可以讓心靈得到滿足。<delay frames="40" />
+<anim id="Greeting" target="actor" targetSpec="" />這是我推薦的觀光景點！<tag a="110" b="6" />。</message>
 	<message label="201" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="0" arg="0xca 0xcd" /></message>
 	<message label="202" attrib="00 00 02 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />雖然<tag a="110" b="4" />跟我<delay20 />
 現在住在不同的島上<tag a="110" b="0" /><pageBreak /><anim id="Hesitate" target="actor" targetSpec="" />可是你會不會<delay8 />偶爾想起我，<delay20 />

@@ -125,6 +125,16 @@ welkom, mijn waarde!<delay frames="40" /><anim id="EmotEnd" target="actor" targe
 	<message label="106" attrib="00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Woehoe! <delay frames="13" />Een meervoudige donatie?
 Hoe groothartig!<delay frames="30" /> <anim id="EmotEnd" target="actor" targetSpec="" />Laten we dit alles
 <delay frames="30" /><tag a="10" b="6" /><anim id="Thinking" target="actor" targetSpec="" />eens nader bestuderen<tag a="110" b="0" /><delay20 /><endTag a="10" b="6" /><10_8 arg="30" /></message>
+	<message label="107" attrib="00 00 00 06"><tag a="10" b="12" /><anim id="Surprised" target="actor" targetSpec="" /><size value="150" />OEHOE-WAT?!<size value="100" /><delay frames="15" /><10_9 /><pageBreak /><anim id="Confused" target="actor" targetSpec="" />Al wat je me toont, komt uit handen
+van een verderfelijke vervalser.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Het spijt me zeer, maar<delay frames="13" /><anim id="Negative" target="actor" targetSpec="" /> we kunnen
+geen vervalsingen tentoonstellen.<delay frames="40" />
+<anim id="Serious" target="actor" targetSpec="" />Ik moet deze donaties dus afslaan.<anim id="EmotEnd" target="actor" targetSpec="" /></message>
+	<message label="108" attrib="00 00 00 06"><tag a="10" b="12" /><anim id="Surprised" target="actor" targetSpec="" /><size value="150" />OEHOE!!!<size value="100" /><10_8 arg="5" /><10_9 /><pageBreak /><anim id="Confused" target="actor" targetSpec="" />Ik moet tot mijn spijt vaststellen
+dat er zich tussen je donaties
+frauduleuze voorwerpen bevinden<tag a="110" b="0" />
+<anim id="Worried" target="actor" targetSpec="" />Excuses,<delay20 /> <anim id="Negative" target="actor" targetSpec="" />maar vervalsingen kunnen
+we helaas niet tentoonstellen<tag a="110" b="0" /><pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Je authentieke aanleveringen
+accepteren we echter met genoegen!<anim id="EmotEnd" target="actor" targetSpec="" /></message>
 	<message label="109" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Uitmuntend!<delay frames="30" /><anim id="Smiling" target="actor" targetSpec="" /> Deze giften nemen we
 graag aan!<anim id="EmotEnd" target="actor" targetSpec="" /></message>
 	<message label="110" attrib="00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />O, je hoeft niet alles tevoorschijn te
@@ -158,9 +168,9 @@ over deze soort?</message>
 	<message label="118" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Ah, uitstekend.<delay8 /> Het is uiteraard
 niet verplicht.<anim id="EmotEnd" target="actor" targetSpec="" /></message>
 	<message label="119" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Oe-hoe dan ook<tag a="110" b="0" /><delay20 /> <anim id="FaintSmile" target="actor" targetSpec="" />Mijn oprechte
-dank voor je donatie.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Hoewel insecten bij mij niets dan
-walging opwekken,<delay20 /> <anim id="Assent" target="actor" targetSpec="" />is het onding
-hier van de beste zorg verzekerd.</message>
+dank voor je gulle gift.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Hoewel deze donatie bij mij niets dan
+walging opwekt,<delay20 /> <anim id="Assent" target="actor" targetSpec="" />is het onding hier
+van de beste zorg verzekerd.</message>
 	<message label="120" attrib="00 00 00 00"><tag a="60" b="20" /></message>
 	<message label="120_01" attrib="00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Oehoehoe!<delay20 /> <anim id="Nodding" target="actor" targetSpec="" />Dit <tag a="50" b="19" arg="0x12 0xcd00 0x4 0x69 0x73 0x4 0x69 0x73 0x8 0x7a 0x69 0x6a 0x6e" /><tag a="110" b="0" /><delay20 /> <anim id="Smiling" target="actor" targetSpec="" /><tag a="50" b="2" /><tag a="125" b="0" arg="0x0" />!<anim id="EmotEnd" target="actor" targetSpec="" /></message>
 	<message label="120_02" attrib="00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Oehoehoe!<delay20 /> <anim id="Nodding" target="actor" targetSpec="" />Dit <tag a="50" b="19" arg="0x12 0xcd00 0x8 0x6d 0x6f 0x65 0x74 0x8 0x6d 0x6f 0x65 0x74 0xc 0x6d 0x6f 0x65 0x74 0x65 0x6e" /> wel<tag a="110" b="0" /><delay20 /> <anim id="Smiling" target="actor" targetSpec="" /><tag a="50" b="2" /><tag a="125" b="0" arg="0x0" /> zijn!<anim id="EmotEnd" target="actor" targetSpec="" /></message>
@@ -204,6 +214,28 @@ bij je <tag a="50" b="23" arg="0xcd03" /><tag a="125" b="0" arg="0x0" />?</messa
 	<message label="134" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Ah,<delay frames="13" /> begrepen.<10_4 /><anim id="ShyBoy" target="actor" targetSpec="" /> Wellicht een ander
 keertje<tag a="110" b="0" /><pageBreak />Ik kan je <anim id="Nodding" target="actor" targetSpec="" />hoe dan ook garanderen
 dat deze donatie bij ons in goede handen is.</message>
+	<message label="135" attrib="00 00 00 00"><tag a="60" b="20" /></message>
+	<message label="135_01" attrib="00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Wat?!<delay8 /> Oehoehoe!<delay20 /> <tag a="50" b="19" arg="0x12 0xcd00 0x4 0x49 0x73 0x4 0x49 0x73 0x8 0x5a 0x69 0x6a 0x6e" /> dat<tag a="110" b="0" /><anim id="QuestionMark" target="actor" targetSpec="" /> <tag a="50" b="2" /><tag a="50" b="19" arg="0x12 0xcd00 0x16 0x61 0x75 0x74 0x68 0x65 0x6e 0x74 0x69 0x65 0x6b 0x65 0x14 0x61 0x75 0x74 0x68 0x65 0x6e 0x74 0x69 0x65 0x6b 0x16 0x61 0x75 0x74 0x68 0x65 0x6e 0x74 0x69 0x65 0x6b 0x65" /> <tag a="125" b="0" arg="0x0" />?<pageBreak /><anim id="Clapping" target="actor" targetSpec="" />O ja, overduidelijk!<delay8 /><anim id="HappyFlower" target="actor" targetSpec="" /> En <tag a="50" b="19" arg="0x12 0xcd00 0xc 0x68 0x69 0x6a 0x20 0x69 0x73 0xc 0x68 0x65 0x74 0x20 0x69 0x73 0xe 0x7a 0x65 0x20 0x7a 0x69 0x6a 0x6e" /> nog
+voortreffelijker dan ik me
+had voorgesteld!</message>
+	<message label="135_02" attrib="00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Oehoe!<delay20 /> <anim id="EmotEnd" target="actor" targetSpec="" />Tenzij ik me vergis<delay8 /> (en dat gebeurt nooit)<delay8 /><anim id="Greeting" target="actor" targetSpec="" /> <tag a="50" b="19" arg="0x12 0xcd00 0x4 0x69 0x73 0x4 0x69 0x73 0x8 0x7a 0x69 0x6a 0x6e" /> dat <tag a="50" b="2" /><tag a="125" b="0" arg="0x0" />!<pageBreak /><anim id="Smiling" target="actor" targetSpec="" /><tag a="50" b="19" arg="0x12 0xcd00 0xc 0x48 0x69 0x6a 0x20 0x69 0x73 0xc 0x48 0x65 0x74 0x20 0x69 0x73 0xe 0x5a 0x65 0x20 0x7a 0x69 0x6a 0x6e" /> nog mooier dan ik had verwacht. <delay20 /><anim id="FaintSmile" target="actor" targetSpec="" />Wat een onverbloemd genoegen. Oehoe!</message>
+	<message label="135_03" attrib="00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Oehoehoe!<delay8 /> Dat <tag a="50" b="19" arg="0x12 0xcd00 0x20 0x69 0x73 0x20 0x65 0x65 0x6e 0x20 0x6f 0x72 0x69 0x67 0x69 0x6e 0x65 0x6c 0x65 0x20 0x69 0x73 0x20 0x65 0x65 0x6e 0x20 0x6f 0x72 0x69 0x67 0x69 0x6e 0x65 0x65 0x6c 0x1c 0x7a 0x69 0x6a 0x6e 0x20 0x6f 0x72 0x69 0x67 0x69 0x6e 0x65 0x6c 0x65" /> <tag a="125" b="0" arg="0x0" />,<delay8 /> als mijn ogen me niet bedriegen!<pageBreak /><anim id="Negative" target="actor" targetSpec="" />Ik had niet durven bevroeden dat ik
+<anim id="HappyDance" target="actor" targetSpec="" /><tag a="50" b="19" arg="0x12 0xcd00 0x6 0x64 0x69 0x65 0x6 0x64 0x61 0x74 0x6 0x64 0x69 0x65" /> ooit in het echt zou zien.</message>
+	<message label="147" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Ik zal deze donatie met de grootste
+zorg behandelen.<delay20 /> <anim id="SmugFace" target="actor" targetSpec="" />Uilenwoord!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Ik zal ook een informatieblad
+samenstellen, zodat iedereen
+er meer over te weten kan komen.
+<anim id="Smiling" target="actor" targetSpec="" />Oehoe! Kom over een poosje maar
+terug, dan kun je je donatie
+bewonderen in de tentoonstelling!</message>
+	<message label="138" attrib="00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Oehoe!<delay8 /> Goede genade,<delay20 /> <tag a="50" b="19" arg="0x12 0xcd00 0x4 0x69 0x73 0x4 0x69 0x73 0x8 0x7a 0x69 0x6a 0x6e" /> dat<anim id="FaintSmile" target="actor" targetSpec="" /> <tag a="50" b="2" /><tag a="125" b="0" arg="0x0" />?</message>
+	<message label="148" attrib="00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />Hmm<tag a="110" b="0" /> nu ik <tag a="50" b="19" arg="0x12 0xcd00 0x8 0x64 0x65 0x7a 0x65 0x6 0x64 0x69 0x74 0x8 0x64 0x65 0x7a 0x65" /> <tag a="50" b="23" arg="0xcd03" /><tag a="125" b="0" arg="0x0" /> van dichtbij zie, bekruipt mij enige twijfel.</message>
+	<message label="139" attrib="00 00 00 00"><tag a="10" b="12" />Eh,<delay8 /><anim id="Surprised" target="actor" targetSpec="" /><10_10 /> <size value="150" />OEHOE-WAT?!<size value="100" /><10_9 /><pageBreak /><anim id="Frantic" target="actor" targetSpec="" />Na nadere taxatie moet ik je helaas
+een droeve mededeling doen.<delay8 /> Dit
+kunstwerk<tag a="110" b="0" /> is een vervalsing!</message>
+	<message label="140" attrib="00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Oe-hoe het ook zij,<delay20 /><anim id="Negative" target="actor" targetSpec="" /> vervalsingen kan
+ik niet accepteren,<delay20 /><anim id="Nodding" target="actor" targetSpec="" /> dus deze geef ik
+je terug.<delay8 /><anim id="EmotEnd" target="actor" targetSpec="" /> Helaas!</message>
 	<message label="141" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Oehoehoe!<delay8 /> Hartelijk dank!
 <delay20 />Maar<tag a="110" b="0" /><delay8 /> <anim id="Shocked" target="actor" targetSpec="" />oei!<pageBreak /><anim id="Thinking" target="actor" targetSpec="" />Je hebt helaas niets bij je wat we
 nog voor onze collectie nodig
@@ -212,8 +244,11 @@ hebben<tag a="110" b="0" /></message>
 <colour id="1" />vissen<colour id="65535" /><delay frames="13" /> en deskundig geanalyseerde
 <colour id="1" />fossielen<colour id="65535" /><tag a="110" b="0" /><delay20 /><anim id="EmotEnd" target="actor" targetSpec="" /></message>
 	<message label="143" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Als donaties accepteren we <colour id="1" />insecten<colour id="65535" />,<delay frames="13" />
-<colour id="1" />vissen<colour id="65535" />,<delay frames="13" /> zeewezens<delay frames="13" /> en deskundig
-geanalyseerde <colour id="1" />fossielen<colour id="65535" /><tag a="110" b="0" /><anim id="EmotEnd" target="actor" targetSpec="" /></message>
+<colour id="1" />vissen<colour id="65535" /><delay frames="13" /> en deskundig geanalyseerde
+<colour id="1" />fossielen<colour id="65535" /><tag a="110" b="0" /><anim id="EmotEnd" target="actor" targetSpec="" /></message>
+	<message label="146" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Als donaties accepteren we <colour id="1" />insecten<colour id="65535" />,<delay8 />
+<colour id="1" />vissen<colour id="65535" />,<delay8 /> deskundig geanalyseerde
+<colour id="1" />fossielen<colour id="65535" /><delay8 /> en <colour id="1" />kunstwerken<colour id="65535" /><tag a="110" b="0" /></message>
 	<message label="144" attrib="00 00 00 00">Dat wil zeggen,<delay frames="13" /><anim id="SmugFace" target="actor" targetSpec="" /> fossielen dienen
 eerst door mij geanalyseerd te
 worden.<pageBreak />Dus mocht je in het bezit zijn van een
@@ -339,6 +374,17 @@ kennis graag met je.</message>
 niet uit zijn terrarium!<delay20 />
 <size value="75" /><anim id="Shaking" target="actor" targetSpec="" />Wat een horrorscenario zou dat zijn!<size value="100" /></message>
 	<message label="306" attrib="00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Oehoehoe!<delay20 /><anim id="Smiling" target="actor" targetSpec="" /> Wat een <tag a="50" b="19" arg="0x12 0xcd00 0x10 0x62 0x6f 0x65 0x69 0x65 0x6e 0x64 0x65 0xe 0x62 0x6f 0x65 0x69 0x65 0x6e 0x64 0x10 0x62 0x6f 0x65 0x69 0x65 0x6e 0x64 0x65" /> <tag a="125" b="0" arg="0x0" />!</message>
+	<message label="315" attrib="00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />Bij de kunstwerken zelf kun je meer
+informatie over ze vinden.<delay frames="30" /> <anim id="Nodding" target="actor" targetSpec="" />Relevante
+en interessante informatie.</message>
+	<message label="316" attrib="00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />Voor zover ik weet bevat onze
+collectie nog geen <tag a="125" b="0" arg="0x0" />.<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Ik zou het daarom enorm waarderen
+als je <tag a="50" b="19" arg="0x12 0xcd00 0x8 0x64 0x65 0x7a 0x65 0x6 0x64 0x69 0x74 0x8 0x64 0x65 0x7a 0x65" /> zou doneren!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Denk er ook aan om de informatie-
+bordjes bij elk kunstwerk te lezen.<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Je vindt er zeer interessante en
+belangwekkende bijzonderheden!</message>
+	<message label="307" attrib="00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />Oehoe!<delay frames="13" /> <tag a="50" b="19" arg="0x12 0xcd00 0x6 0x5a 0x6f 0x75 0x6 0x5a 0x6f 0x75 0xc 0x5a 0x6f 0x75 0x64 0x65 0x6e" /> dit <tag a="50" b="2" /><tag a="50" b="19" arg="0x12 0xcd00 0x12 0x6f 0x72 0x69 0x67 0x69 0x6e 0x65 0x6c 0x65 0x12 0x6f 0x72 0x69 0x67 0x69 0x6e 0x65 0x65 0x6c 0x12 0x6f 0x72 0x69 0x67 0x69 0x6e 0x65 0x6c 0x65" /> <tag a="125" b="0" arg="0x0" /> kunnen zijn?<pageBreak />Hmm, er rijst bij mij echter een
+donkerbruin vermoeden<tag a="110" b="0" /> <anim id="Eh" target="actor" targetSpec="" />O! <delay frames="13" />Hoe
+teleurstellend<tag a="110" b="0" /><delay20 /><anim id="Serious" target="actor" targetSpec="" /> <tag a="50" b="19" arg="0x12 0xcd00 0x1c 0x45 0x65 0x6e 0x20 0x76 0x65 0x72 0x76 0x61 0x6c 0x73 0x69 0x6e 0x67 0x1c 0x45 0x65 0x6e 0x20 0x76 0x65 0x72 0x76 0x61 0x6c 0x73 0x69 0x6e 0x67 0x18 0x56 0x65 0x72 0x76 0x61 0x6c 0x73 0x69 0x6e 0x67 0x65 0x6e" />!</message>
 	<message label="308" attrib="02 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Oehoe! <delay frames="13" />We moeten dit fossiel
 analyseren om uit te zoeken wat
 het is. <delay frames="30" /><anim id="QuestionMark" target="actor" targetSpec="" />Zal ik dat nu doen?</message>
@@ -350,6 +396,9 @@ deskundige analyses, hoor.</message>
 	<message label="310" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Uitstekend! <delay20 /><anim id="Greeting" target="actor" targetSpec="" />Laat me maar eens even
 kijken<tag a="110" b="0" /></message>
 	<message label="313" attrib="00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Alle snavels!<delay20 /> Als ik me niet vergis,<delay frames="13" /><anim id="BigSmile" target="actor" targetSpec="" /> heb je hier <tag a="50" b="2" /><tag a="125" b="0" arg="0x0" />!</message>
+	<message label="351" attrib="00 00 00 00"><anim id="WrySmile" target="actor" targetSpec="" />Er is tegenwoordig veel valse kunst
+in omloop. Je kunt niet voorzichtig
+genoeg zijn, mijn waarde.</message>
 	<message label="352" attrib="00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Meer heb ik hierover niet te melden. <delay20 /><anim id="Worried" target="actor" targetSpec="" />Kun je je <tag a="50" b="23" arg="0xcd03" /><tag a="125" b="0" arg="0x0" /> nu weer wegstoppen, alsjeblieft?</message>
 	<message label="353" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Mag ik overigens een beroep op je
 doen? Onze collectie bevat nog geen
@@ -467,6 +516,12 @@ aan het verzamelen en doneren van
 fossielen.
 <anim id="Smiling" target="actor" targetSpec="" />De reputatie van ons nederige
 <colour id="1" />museum<colour id="65535" /> groeit dankzij jou.</message>
+	<message label="406" attrib="00 00 00 00">Oehoehoe! Hemeltje<tag a="110" b="0" />
+Dit is het laatste stuk dat nog aan
+onze kunstcollectie ontbrak!<pageBreak />De kunsttentoonstelling is nu
+helemaal gevuld!<pageBreak />En jij, <tag a="110" b="1" />, hebt je een ware mecenas getoond. Je verdient een pluim voor je werk!<pageBreak />Hartelijk dank voor al je hulp bij het
+samenstellen van deze fraaie
+kunsttentoonstelling. Oehoehoe!</message>
 	<message label="501" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Ons edele instituut bevat een
 grote diversiteit aan fraaie
 tentoonstellingsobjecten.

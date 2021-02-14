@@ -3,7 +3,7 @@
 	<message label="001_a" attrib="04 00 00 00 00 00 00 00">Eccome!</message>
 	<message label="001_b" attrib="05 00 00 00 00 00 00 00">Ancora no.</message>
 	<message label="002" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="23" arg="0xd 0xe 0xf 0xffff" /></message>
-	<message label="003" attrib="09 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x1 0x10 0x11 0x12" /></message>
+	<message label="003" attrib="09 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x13 0x10 0x11 0x14" /></message>
 	<message label="004" attrib="00 00 00 00 00 00 00 00"><anim id="IdeaBulb" target="actor" targetSpec="" />Caspitina, <tag a="110" b="3" />!<delay20 />
 <anim id="Smiling" target="actor" targetSpec="" />Da leccarsi i baffi, <delay8 />non è vero?<pageBreak /><anim id="HappyDance" target="actor" targetSpec="" />Anch'io ne vado matto,
 <tag a="110" b="6" />!</message>
@@ -25,13 +25,27 @@ il servizio è davvero mitico.
 sopraffina della loro merci, <delay8 /><anim id="Hello" target="actor" targetSpec="" />in grado
 di soddisfare fior di collezionisti!</message>
 	<message label="015" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Il negozio di <tag a="110" b="33" /> è gigantesco! <delay40 />Hanno davvero di tutto!<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Facci un salto, <tag a="110" b="3" />! <delay40 /><anim id="SmugFace" target="actor" targetSpec="" />Sono convinto che non ne resterai <gender2 m="deluso" f="delusa" />, <tag a="110" b="6" />!</message>
-	<message label="016" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Ho un amico che si sta dando tanto da fare per aprire un <colour id="1" />museo <colour id="65535" /><tag a="50" b="15" /> <tag a="110" b="33" />.<pageBreak /><anim id="Hesitate" target="actor" targetSpec="" />Ehm, <delay8 />non ricordo se è un museo
-d'arte o di fossili o di altro ancora,
-<delay8 />ma è un museo di sicuro.
-<anim id="Explain" target="actor" targetSpec="" />Però ha bisogno di cose da esporre,
-<delay8 />quindi sarebbe mitico se potessi
+	<message label="016" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Ho un amico che si sta dando
+tanto da fare per aprire un
+<colour id="1" />museo <colour id="65535" /><tag a="50" b="15" /> <tag a="110" b="33" />.<pageBreak /><anim id="Hesitate" target="actor" targetSpec="" />Ehm, <delay8 />solo non ricordo se vuole
+riempirlo con fumetti o merendine
+d'epoca<tag a="110" b="0" />
+<anim id="Explain" target="actor" targetSpec="" />Comunque ha bisogno di roba da
+esporre, <delay8 />quindi<tag a="110" b="0" /><pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Beh, <delay8 />sarebbe mitico se potessi
 donare qualcosa, <tag a="110" b="3" />.</message>
 	<message label="017" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="3" arg="0x15 0x16 0x17 0x18 0x19" /></message>
+	<message label="018" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Nel nostro <colour id="1" />museo<colour id="65535" /> c'è tutta un'ala
+dedicata a quadri, sculture e altra
+roba artistica da paura!<pageBreak /><anim id="Worried" target="actor" targetSpec="" />Però ti avverto che si arrabbiano
+se tocchi le opere. <delay20 /><anim id="SadSpiral" target="actor" targetSpec="" />L'altro giorno
+me ne hanno dette di tutti i colori<tag a="110" b="0" />
+<anim id="IdeaBulb" target="actor" targetSpec="" />La prossima volta mi laverò le zampe.<delay20 />
+Almeno così <anim id="HappyFlower" target="actor" targetSpec="" />non lascerò più macchie
+di cioccolata ovunque, <tag a="110" b="6" />.</message>
+	<message label="019" attrib="00 00 00 00 00 00 00 00"><anim id="Hello" target="actor" targetSpec="" />Allora, <delay8 />come vanno le cose qui <tag a="50" b="15" /> <tag a="110" b="33" />?<delay20 /> Non è niente male questo posto, eh?<pageBreak /><anim id="AbsentMindedness" target="actor" targetSpec="" />Aaaah, scommetto che sarà sempre
+meglio<tag a="110" b="0" /> come l'ultimo morso di
+<tag a="135" b="7" arg="0xcd00" /> quando fa caldo.</message>
+	<message label="020" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="4" arg="0x15 0x16 0x17 0x18 0x19 0x12" /></message>
 	<message label="021" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1c00 0x1900 0xcd00" /></message>
 	<message label="022" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1d01 0x1900 0xcd00" /></message>
 	<message label="023" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1e02 0x1900 0xcd00" /></message>
@@ -53,6 +67,14 @@ di fissarlo.
 <anim id="Silent" target="actor" targetSpec="" />Mi sembrava quasi di penetrare
 con lo sguardo nelle nebbie
 del tempo<tag a="110" b="0" /></message>
+	<message label="031" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Lo sapevi che attualmente
+il <colour id="1" />museo <colour id="65535" />ha in esposizione
+<tag a="50" b="2" /><tag a="135" b="13" arg="0x3" />?<pageBreak /><anim id="Confused" target="actor" targetSpec="" />Mi piacciono dipinti e sculture, <delay8 />ma
+non riesco a togliermi l'impressione
+che mi stiano osservando in segreto.
+<anim id="FaintSmile" target="actor" targetSpec="" />Penso comunque che dovresti
+andare a darci un'occhiata<tag a="110" b="0" /><anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak />Senza farti spaventare dalle mie
+"impressioni", <tag a="110" b="6" />.</message>
 	<message label="201" attrib="00 00 10 00 00 00 00 00"><anim id="Hello" target="actor" targetSpec="" />Ehilà, <tag a="110" b="3" />. <delay20 /><anim id="FaintSmile" target="actor" targetSpec="" />Dimmi,
 <delay8 />che ti piace fare per divertirti
 o rilassarti <tag a="50" b="15" /> <tag a="110" b="34" />?</message>

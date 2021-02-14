@@ -5,7 +5,7 @@
 	<message label="001_a" attrib="04 00 00 00 00 00 00 00">Hab ich!</message>
 	<message label="001_b" attrib="05 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Sollte ich?</message>
 	<message label="002" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="23" arg="0xd 0xe 0xf 0xffff" /></message>
-	<message label="003" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x1 0x10 0x11 0x12" /></message>
+	<message label="003" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x13 0x10 0x11 0x14" /></message>
 	<message label="004" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Dann ist gut,<delay8 /> denn das darf man
 nicht verpassen! <delay20 /><anim id="Love" target="actor" targetSpec="" />Unsere <tag a="110" b="7" arg="0xcd01" />
 sind fast so süß wie ich!</message>
@@ -42,6 +42,25 @@ untergebracht ist! <delay40 /><anim id="Explain" target="actor" targetSpec="" />
 <anim id="EmotEnd" target="actor" targetSpec="" />Also, <delay8 />äh... <delay20 /><anim id="Smiling" target="actor" targetSpec="" /><colour id="3" />Eugen<colour id="65535" /> freut sich bestimmt,
 wenn du ihm einmal Huhu sagst!</message>
 	<message label="017" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="3" arg="0x15 0x16 0x17 0x18 0x19" /></message>
+	<message label="018" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Im <colour id="1" />Museum<colour id="65535" /> hier auf der Insel gibt's
+einen Extra-Bereich nur für Kunst!<delay20 />
+Für mich als Künstlerin perfekt!
+<anim id="AbsentMindedness" target="actor" targetSpec="" />Dort kann ich mich von den Werken
+anderer Kunstschaffender inspirieren
+lassen. <delay20 /><anim id="Smiling" target="actor" targetSpec="" />Und das für lau!
+<anim id="Thinking" target="actor" targetSpec="" />Schade, <delay8 />dass es dort keinen Raum
+gibt, <delay8 />in dem ich MICH und meine
+Songs ausstellen kann...
+<anim id="Laughing" target="actor" targetSpec="" />Wobei, <delay8 />24 Stunden am Tag in einer
+Glasvitrine hocken, das wär glaub
+ich nix für mich, <delay8 /><tag a="110" b="5" />.</message>
+	<message label="019" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="110" b="8" /> ist mittlerweile zu einem echten kulturellen Hotspot und supi Touri-Magnet geworden.<pageBreak />Der Hammer, <delay8 />dass ich auf so einer
+coolen Insel lebe. <delay20 /><anim id="SmugFace" target="actor" targetSpec="" />Und dass die ober-
+cool ist, <delay8 />war mir von Anfang an klar.
+Tja, <delay8 />schätze mal, <delay8 /><anim id="EmotEnd" target="actor" targetSpec="" />das macht mich
+dann zur coolsten Inselbewohnerin
+aller Zeiten, <delay8 /><tag a="110" b="5" />! </message>
+	<message label="020" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="4" arg="0x15 0x16 0x17 0x18 0x19 0x12" /></message>
 	<message label="021" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1c00 0x1900 0xcd00" /></message>
 	<message label="022" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1d01 0x1900 0xcd00" /></message>
 	<message label="023" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1e02 0x1900 0xcd00" /></message>
@@ -71,6 +90,11 @@ immer: <delay8 /><anim id="Greeting" target="actor" targetSpec="" />Ganz schön 
 Am süßesten von allen finde ich ja
 <tag a="50" b="17" arg="0x29 0xcd00 0x6 0x64 0x65 0x6e 0x6 0x64 0x69 0x65 0x6 0x64 0x61 0x73" /> <tag a="50" b="23" arg="0xcd01" /><tag a="135" b="13" arg="0x2" />.<delay20 />
 <anim id="Smiling" target="actor" targetSpec="" />Lass dir das nicht entgehen!</message>
+	<message label="031" attrib="00 00 00 00 00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />Hast du schon <tag a="50" b="17" arg="0x29 0xcd00 0xe 0x76 0x6f 0x6e 0x20 0x64 0x65 0x6d 0xe 0x76 0x6f 0x6e 0x20 0x64 0x65 0x72 0xe 0x76 0x6f 0x6e 0x20 0x64 0x65 0x6d" /> <tag a="50" b="23" arg="0xcd02" /><tag a="135" b="13" arg="0x3" /> im <colour id="1" />Museum<colour id="65535" /> gehört?<pageBreak /><anim id="Serious" target="actor" targetSpec="" /><tag a="50" b="17" arg="0x29 0xcd00 0x6 0x44 0x65 0x72 0x6 0x44 0x69 0x65 0x6 0x44 0x61 0x73" /> ist so mächtig,<delay8 /> <tag a="50" b="17" arg="0x29 0xcd00 0x6 0x64 0x65 0x72 0x6 0x64 0x69 0x65 0x6 0x64 0x61 0x73" /> rührt sogar
+mich glatt zu Tränen,<delay8 /> wann immer ich
+<tag a="50" b="17" arg="0x29 0xcd00 0x6 0x69 0x68 0x6e 0x6 0x73 0x69 0x65 0x4 0x65 0x73" /> in <tag a="50" b="17" arg="0x29 0xcd00 0xc 0x73 0x65 0x69 0x6e 0x65 0x72 0xa 0x69 0x68 0x72 0x65 0x72 0xc 0x73 0x65 0x69 0x6e 0x65 0x72" /> ganzen Pracht sehe.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Ich geh am liebsten bei geringer
+Besucherzahl hin,<delay8 /><anim id="Blushing" target="actor" targetSpec="" /> damit's nicht zu
+peinlich für mich wird,<delay8 /> <tag a="110" b="5" />.</message>
 	<message label="101" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="0" arg="0x66 0x69" /></message>
 	<message label="201" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="0" arg="0xca 0xcd" /></message>
 	<message label="202" attrib="00 00 02 00 00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="110" b="3" />!<delay20 /> <anim id="Grin" target="actor" targetSpec="" />Ooooooch, <delay8 />hast du mich etwa vermisst und besuchst mich deshalb?</message>

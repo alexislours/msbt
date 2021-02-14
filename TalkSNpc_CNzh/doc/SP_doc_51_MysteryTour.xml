@@ -14,8 +14,8 @@
 <anim id="Hello" target="actor" targetSpec="" />要说明的<delay8 />就是这么多了！</message>
 	<message label="001_03" attrib="00 00 00 00"><anim id="Assent" target="actor" targetSpec="" /><delay20 />我会在这里待命，<delay frames="30" />
 <anim id="Nodding" target="actor" targetSpec="" />想要回去或是需要道具时，<delay8 />
-请随时跟我说哦！<pageBreak /><anim id="Greeting" target="actor" targetSpec="" />祝你好运！</message>
-	<message label="002" attrib="04 00 00 00"><anim id="Eh" target="actor" targetSpec="" />你好！<delay frames="40" />
+请随时跟我说哦！<pageBreak /><anim id="Greeting" target="actor" targetSpec="" />祝您好运！</message>
+	<message label="002" attrib="04 00 00 00"><anim id="Eh" target="actor" targetSpec="" />您好！<delay frames="40" />
 <anim id="QuestionMark" target="actor" targetSpec="" />请问有什么需要呢？</message>
 	<message label="002_a" attrib="00 00 00 00">我想回去</message>
 	<message label="002_b" attrib="00 00 00 00">我想要道具</message>
@@ -55,5 +55,115 @@
 紧急异常状态取消！　<delay frames="30" />完毕<delay frames="90" />
 <100_3 arg="PlaneAnnounceOn" /><delay20 /><colour id="5" />（收到！<delay20 />请继续多多关照！）<delay20 /><100_3 arg="PlaneAnnounceOff" /><colour id="65535" /><10_7 arg="30" />
 <size value="100" /><anim id="EmotEnd" target="actor" targetSpec="" />那么，请重新打起精神<tag a="110" b="0" />
-<anim id="Greeting" target="actor" targetSpec="" />祝你好运！</message>
+<anim id="Greeting" target="actor" targetSpec="" />祝您好运！</message>
+	<message label="041" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />好，<delay8 />我们到了！<delay frames="40" />
+<anim id="Nodding" target="actor" targetSpec="" />这里就是<colour id="1" />劳动节旅行<colour id="65535" />的岛了！<pageBreak /><anim id="Serious" target="actor" targetSpec="" />这次的旅行有点与众不同哦！<10_4 />
+<anim id="SmugFace" target="actor" targetSpec="" />整座岛就像是一个<colour id="1" />迷宫<colour id="65535" />一样，<delay20 />
+是可以让人享受解谜乐趣的旅行！<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" /><tag a="110" b="1" />的持有物<delay8 />
+<anim id="Nodding" target="actor" targetSpec="" />已经寄存在机场的柜台了，<delay frames="30" />
+<anim id="FaintSmile" target="actor" targetSpec="" />所以会以<colour id="1" />空手的状态<colour id="65535" />开始旅行！<pageBreak /><anim id="Explain" target="actor" targetSpec="" />解谜所必须的物品，<delay20 />
+已经全部预先放在迷宫的路上了，<delay20 />
+<anim id="Hello" target="actor" targetSpec="" />灵活使用，到达终点吧！<pageBreak /><anim id="Aha" target="actor" targetSpec="" />如果中途迷路走不出来了，<delay20 />
+<anim id="Nodding" target="actor" targetSpec="" />不必犹豫，请使用手机的
+<colour id="1" />紧急逃脱服务<colour id="65535" />吧！<pageBreak /><anim id="Explain" target="actor" targetSpec="" />作为本次旅行的特别规则，
+一旦离开，岛的状态就会复原，<delay frames="30" />
+<anim id="Greeting" target="actor" targetSpec="" />可以从头开始重新解谜哦！<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />另外，想要提示的时候，<delay20 />
+<anim id="Nodding" target="actor" targetSpec="" />就请跟我说吧！<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />那么，这就出发吧！<delay frames="40" />
+<snpcAnim id="DodRoger" target="actor" targetSpec="" />祝您好运！</message>
+	<message label="042" attrib="06 00 00 00"><anim id="Eh" target="actor" targetSpec="" />您好！<delay frames="40" />
+<anim id="QuestionMark" target="actor" targetSpec="" />请问有什么需要呢？</message>
+	<message label="042_a" attrib="00 00 00 00">我想要提示</message>
+	<message label="042_b" attrib="00 00 00 00">我想要道具</message>
+	<message label="042_c" attrib="00 00 00 00">我想回去</message>
+	<message label="042_d" attrib="00 00 00 00">没什么事</message>
+	<message label="043" attrib="02 00 00 00"><anim id="Serious" target="actor" targetSpec="" />之后将无法返回
+这个<colour id="1" />劳动节旅行<colour id="65535" />，<delay frames="30" />
+<anim id="EmotEnd" target="actor" targetSpec="" />可以吗？</message>
+	<message label="043_a" attrib="00 00 00 00"><anim id="Nodding" target="player" targetSpec="" />是的</message>
+	<message label="043_b" attrib="00 00 00 00"><anim id="Negative" target="player" targetSpec="" />等一下</message>
+	<message label="044" attrib="00 00 00 00">虽然我很想说，<delay20 />
+用里数兑换吧<tag a="110" b="0" /><pageBreak />但这个<colour id="1" />劳动节旅行<colour id="65535" />的解谜企划，<delay20 />
+目的就是要用有限的持有物来过关，<delay frames="30" />
+<anim id="Negative" target="actor" targetSpec="" />所以我无法满足您的道具请求。<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />非常抱歉，<delay20 />
+<anim id="Nodding" target="actor" targetSpec="" />敬请谅解！</message>
+	<message label="045" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />解谜的提示啊，<delay20 /><anim id="Nodding" target="actor" targetSpec="" />明白了！<10_4 />
+<anim id="Thinking" target="actor" targetSpec="" />我想想<tag a="110" b="0" /></message>
+	<message label="046_0" attrib="00 00 00 00">通过吃<colour id="1" />水果<colour id="65535" />可以暂时获得某种效果，<delay8 />
+<anim id="Hello" target="actor" targetSpec="" />这个您知道吗？<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />身体会充满特别的力量，<delay20 />
+<anim id="Explain" target="actor" targetSpec="" />可以用铲子<colour id="1" />挖起树木<colour id="65535" />，<delay8 />
+用铲子或斧头<colour id="1" />破坏岩石<colour id="65535" />哦！<anim id="EmotEnd" target="actor" targetSpec="" /></message>
+	<message label="046_1" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />如果是小沟之类的，<delay20 />
+可以直接跳过去，<anim id="Hello" target="actor" targetSpec="" />您知道吗？<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />试着朝想要跳跃的方向<delay20 />
+推<colour id="1" />摇杆<colour id="65535" />吧！<anim id="EmotEnd" target="actor" targetSpec="" /></message>
+	<message label="046_2" attrib="00 00 00 00">要是中途迷路走出不来，<delay20 />
+<anim id="Nodding" target="actor" targetSpec="" />不要犹豫，请使用手机软件
+<colour id="1" />紧急逃脱服务<colour id="65535" />吧！<pageBreak /><anim id="Explain" target="actor" targetSpec="" />作为本次旅行的特别规则，<delay20 />
+岛的状态也会复原，<delay frames="30" />
+<anim id="Greeting" target="actor" targetSpec="" />所以会从头开始重新解谜哦！</message>
+	<message label="046_3" attrib="00 00 00 00">要去掉碍事的树木，<delay20 />
+<anim id="Greeting" target="actor" targetSpec="" />总共有两种方法！<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />一种是<delay8 />吃下<colour id="1" />水果<colour id="65535" />后，<delay8 />
+用<colour id="1" />铲子<colour id="65535" />把整棵树都挖起来！<pageBreak /><anim id="Explain" target="actor" targetSpec="" />还有一种是用<colour id="1" />斧头<colour id="65535" />砍倒树木后，<delay frames="30" />
+<anim id="Serious" target="actor" targetSpec="" />再用<colour id="1" />铲子<colour id="65535" /><delay8 />
+<anim id="Hello" target="actor" targetSpec="" />把剩下的树桩挖出来！</message>
+	<message label="046_4" attrib="00 00 00 00">如果找不到需要的道具，<delay20 />
+<anim id="Smiling" target="actor" targetSpec="" />自己制作也不失为一个办法哦！<pageBreak /><anim id="Explain" target="actor" targetSpec="" />收集材料后，<delay20 />
+用<colour id="1" />朴素DIY作业台<colour id="65535" /><delay8 />
+<anim id="Greeting" target="actor" targetSpec="" />进行DIY，意下如何？</message>
+	<message label="047" attrib="01 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />啊！<delay20 />难道说<delay20 />
+<anim id="Pardon" target="actor" targetSpec="" />您已经走出迷宫了？！<delay8 />
+<tag a="110" b="1" />！<delay20 /><anim id="EmotEnd" target="actor" targetSpec="" /></message>
+	<message label="047_a" attrib="00 00 00 00">走出了哦！</message>
+	<message label="047_b" attrib="00 00 00 00">小菜一碟哦！</message>
+	<message label="048" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />祝贺您！！<delay frames="40" />
+<anim id="Smiling" target="actor" targetSpec="" />我必须得向<colour id="3" />狸克<colour id="65535" />报告！<pageBreak /><anim id="Eh" target="actor" targetSpec="" />而且<tag a="110" b="0" />
+您好像拿着什么我没见过的东西？<pageBreak /><anim id="Nodding" target="actor" targetSpec="" /><tag a="110" b="0" />原来如此，<delay frames="30" />
+<anim id="EmotEnd" target="actor" targetSpec="" />是碰巧来这座岛旅游的其他客人<delay8 />
+赠送的物品啊！<pageBreak />那么，<delay20 /><anim id="Assent" target="actor" targetSpec="" />DodoAirLines会负责
+把东西送回家的！<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />那么<tag a="110" b="0" /><delay20 />
+<anim id="Nodding" target="actor" targetSpec="" /><colour id="1" />劳动节旅行<colour id="65535" />就到此结束了！<10_4 />
+想回去的时候，<anim id="Hello" target="actor" targetSpec="" />请跟我说一声吧！<pageBreak /><anim id="Eh" target="actor" targetSpec="" />另外，<delay8 />如果想再次
+从头开始玩解谜，<delay frames="30" /><anim id="Explain" target="actor" targetSpec="" />就请使用手机的
+<colour id="1" />紧急逃脱服务<colour id="65535" />吧！<pageBreak /><anim id="Grin" target="actor" targetSpec="" />这样就可以重置解谜的进度了<tag a="110" b="0" /></message>
+	<message label="049" attrib="02 00 00 00"><anim id="Eh" target="actor" targetSpec="" />您好！<delay frames="40" />
+<anim id="QuestionMark" target="actor" targetSpec="" />请问有什么需要呢？</message>
+	<message label="049_a" attrib="00 00 00 00">我想回去</message>
+	<message label="049_b" attrib="00 00 00 00">没什么事</message>
+	<message label="050" attrib="00 00 00 00"><anim id="Laughing" target="actor" targetSpec="" />哦哦，<delay8 /><tag a="110" b="1" />！<delay20 />
+您用<colour id="1" />紧急逃脱服务<colour id="65535" /><delay20 />顺利回来了啊！<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />岛的状态也已经复原了，<delay20 />
+<anim id="Greeting" target="actor" targetSpec="" />所以可以不断重新挑战哦！<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />如果中途又找不到出口，<delay20 />
+请使用<colour id="1" />紧急逃脱服务<colour id="65535" />哦！<pageBreak /><anim id="Serious" target="actor" targetSpec="" />那么，请做好准备<tag a="110" b="0" /><delay20 />
+<snpcAnim id="DodRoger" target="actor" targetSpec="" />祝您好运！</message>
+	<message label="051" attrib="02 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />要回<tag a="110" b="34" />了吗？<10_4 />
+<anim id="EmotEnd" target="actor" targetSpec="" />如果想要再次挑战解谜，<delay20 />
+<anim id="Hello" target="actor" targetSpec="" />请使用<colour id="1" />紧急逃脱服务<colour id="65535" />哦。</message>
+	<message label="051_a" attrib="00 00 00 00">我想回去！</message>
+	<message label="051_b" attrib="00 00 00 00">等一下</message>
+	<message label="052" attrib="02 00 00 00">只要返回<tag a="110" b="34" />，<delay20 />
+<anim id="Nodding" target="actor" targetSpec="" /><tag a="110" b="1" />的口袋<delay8 />
+也会恢复原来的状态！<pageBreak /><anim id="Serious" target="actor" targetSpec="" />但是，<delay8 />别的客人赠送的<colour id="1" />礼物<colour id="65535" /><delay8 />
+<anim id="Explain" target="actor" targetSpec="" />会另行送到您家中，<delay20 />
+所以请去自己家的邮箱收取吧！<pageBreak /><anim id="Hello" target="actor" targetSpec="" />那么，要出发了吗？</message>
+	<message label="052_a" attrib="00 00 00 00"><anim id="Nodding" target="player" targetSpec="" />是的</message>
+	<message label="052_b" attrib="00 00 00 00"><anim id="Negative" target="player" targetSpec="" />等一下</message>
+	<message label="053" attrib="02 00 00 00">只要返回<tag a="110" b="34" />，<delay20 />
+<anim id="Nodding" target="actor" targetSpec="" /><tag a="110" b="1" />的口袋<delay8 />
+也会恢复原来的状态！<pageBreak /><anim id="Explain" target="actor" targetSpec="" />但是，<delay8 />别的客人赠送的<colour id="1" />礼物<colour id="65535" /><delay8 />
+和在这里捡到的<colour id="1" />铃钱兑换券<colour id="65535" /><delay8 />
+<anim id="EmotEnd" target="actor" targetSpec="" />会另行送到您家中。<delay20 />
+<anim id="Nodding" target="actor" targetSpec="" />请去自己家的邮箱收取吧！<10_4 />
+<anim id="Hello" target="actor" targetSpec="" />那么，要出发了吗？</message>
+	<message label="053_a" attrib="00 00 00 00"><anim id="Nodding" target="player" targetSpec="" />是的</message>
+	<message label="053_b" attrib="00 00 00 00"><anim id="Negative" target="player" targetSpec="" />等一下</message>
+	<message label="054" attrib="02 00 00 00">只要返回<tag a="110" b="34" />，<delay20 />
+<anim id="Nodding" target="actor" targetSpec="" /><tag a="110" b="1" />的口袋<delay8 />
+也会恢复原来的状态！<pageBreak /><anim id="Serious" target="actor" targetSpec="" />但是，在这里捡到的<colour id="1" />铃钱兑换券<colour id="65535" /><delay8 />
+<anim id="Explain" target="actor" targetSpec="" />会另行送到您家中，<delay20 />
+所以请去自己家的邮箱收取吧！<pageBreak /><anim id="Hello" target="actor" targetSpec="" />那么，要出发了吗？</message>
+	<message label="054_a" attrib="00 00 00 00"><anim id="Nodding" target="player" targetSpec="" />是的</message>
+	<message label="054_b" attrib="00 00 00 00"><anim id="Negative" target="player" targetSpec="" />等一下</message>
+	<message label="055" attrib="02 00 00 00"><anim id="Serious" target="actor" targetSpec="" />之后将无法返回
+这个<colour id="1" />劳动节旅行<colour id="65535" />，<delay frames="30" /><anim id="EmotEnd" target="actor" targetSpec="" />可以吗？
+<colour id="4" />虽然我觉得也没什么事好做了<tag a="110" b="0" /><colour id="65535" /></message>
+	<message label="055_a" attrib="00 00 00 00"><anim id="Nodding" target="player" targetSpec="" />是的</message>
+	<message label="055_b" attrib="00 00 00 00"><anim id="Negative" target="player" targetSpec="" />等一下</message>
 </msbt>

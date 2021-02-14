@@ -5,7 +5,7 @@
 	<message label="001_a" attrib="04 00 00 00 00 00 00 00">물론 알지!</message>
 	<message label="001_b" attrib="05 00 00 00 00 00 00 00">모르겠어～</message>
 	<message label="002" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="23" arg="0xd 0xe 0xf 0xffff" /></message>
-	<message label="003" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x1 0x10 0x11 0x12" /></message>
+	<message label="003" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x13 0x10 0x11 0x14" /></message>
 	<message label="004" attrib="00 00 00 00 00 00 00 00"><anim id="Laughing" target="actor" targetSpec="" />아하, <delay8 />그럼 됐어!<delay frames="40" />
 <anim id="Greeting" target="actor" targetSpec="" /><tag a="110" b="7" arg="0xcd00" /><delay20 /> 많이 <delay8 />먹고 가－! <tag a="110" b="6" />!</message>
 	<message label="005" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />바로 <tag a="110" b="7" arg="0xcd00" /><gender5 m="이야" f="야" />!<delay frames="40" />
@@ -27,6 +27,15 @@
 <colour id="1" />박물관<colour id="65535" />이 될 예정이래!<pageBreak /><anim id="Laughing" target="actor" targetSpec="" />지금은 <delay8 />성장 단계인 것 같으니까<delay20 />
 계속해서 지켜보자고, <tag a="110" b="6" />!</message>
 	<message label="017" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="3" arg="0x15 0x16 0x17 0x18 0x19" /></message>
+	<message label="018" attrib="00 00 00 00 00 00 00 00">이 <tag a="110" b="32" />에 있는 <colour id="1" />박물관<colour id="65535" />은 가봤냐?<delay frames="30" />
+<anim id="Greeting" target="actor" targetSpec="" />내가 추천하는 곳은 미술실이야!<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />그 방에서 가만히 포즈를 취하고 있으면<delay frames="30" />
+<anim id="Blushing" target="actor" targetSpec="" />나도 예술 작품이 된 기분이라<delay20 />
+되게 신나거든－!! <tag a="110" b="6" />!!</message>
+	<message label="019" attrib="00 00 00 00 00 00 00 00"><anim id="Hello" target="actor" targetSpec="" /><tag a="110" b="33" /><gender5 m="은" f="는" /> <delay8 />어떠냐－?<delay40 />
+<anim id="Nodding" target="actor" targetSpec="" />나는 <delay8 />이 <tag a="110" b="32" />에 곤충이랑 물고기가<delay20 />
+얼마나 있는지 조사 중이야－!<pageBreak /><anim id="Worried" target="actor" targetSpec="" />근데 <delay8 />내가 뭘 잡았는지 금방 까먹어서<delay20 />
+<anim id="OhGeez" target="actor" targetSpec="" />매일 처음부터 다시 하고 있어, <tag a="110" b="6" /><tag a="110" b="0" /></message>
+	<message label="020" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="4" arg="0x15 0x16 0x17 0x18 0x19 0x12" /></message>
 	<message label="021" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1c00 0x1900 0xcd00" /></message>
 	<message label="022" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1d01 0x1900 0xcd00" /></message>
 	<message label="023" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1e02 0x1900 0xcd00" /></message>
@@ -51,6 +60,11 @@
 가장 좋아－!<pageBreak /><anim id="Love" target="actor" targetSpec="" />깎아 내린 듯한 <delay8 />아름다운 그 형태!<delay frames="40" />
 <anim id="Frantic" target="actor" targetSpec="" />근육이 없는데도 <delay8 />멋있다니
 <delay8 />부럽다－! <tag a="110" b="6" />!</message>
+	<message label="031" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />이 <tag a="110" b="32" />의 <delay8 /><colour id="1" />박물관<colour id="65535" />에 전시 중인<delay20 />
+<tag a="135" b="13" arg="0x3" /><gender5 m="은" f="는" /><delay8 />
+혹시 봤냐－?<pageBreak /><anim id="Blushing" target="actor" targetSpec="" />내 근육들도 <delay8 />언젠가는 저렇게<delay20 />
+예술 작품으로 장식되면 좋겠다－!<delay40 />
+<anim id="WrySmile" target="actor" targetSpec="" />헤헷, <delay8 />반하지 마라－?! <tag a="110" b="6" />!</message>
 	<message label="201" attrib="ca 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />니 얼굴을 보니까<delay20 />
 옛날 일들이<delay8 /> 떠오른다－<pageBreak /><anim id="Grin" target="actor" targetSpec="" />나랑 했던 수많은 대결을<delay20 />
 잊어먹은 건 아니겠지－?</message>

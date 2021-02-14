@@ -5,7 +5,7 @@ Quel fruit est la spécialité
 	<message label="001_a" attrib="04 00 00 00 00 00 00 00">Oh! Euh... Celui-là!</message>
 	<message label="001_b" attrib="05 00 00 00 00 00 00 00">Un de ceux-là?</message>
 	<message label="002" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="23" arg="0xd 0xe 0xf 0xffff" /></message>
-	<message label="003" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x1 0x10 0x11 0x12" /></message>
+	<message label="003" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x13 0x10 0x11 0x14" /></message>
 	<message label="004" attrib="00 00 00 00 00 00 00 00"><anim id="Scheming" target="actor" targetSpec="" />T'as gagné cette manche. <delay20 /><anim id="Explain" target="actor" targetSpec="" />Tout juste,
 les <tag a="110" b="7" arg="0xcd01" />. <delay20 />Oublie pas d'en acheter
 quelques-unes, <tag a="110" b="6" />!</message>
@@ -39,6 +39,17 @@ bonheur dans tous ces articles!</message>
 Y'a encore du boulot pour l'moment,
 mais un jour<tag a="110" b="0" /><anim id="BigSmile" target="actor" targetSpec="" /> Ouais, un jour!</message>
 	<message label="017" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="3" arg="0x15 0x16 0x17 0x18 0x19" /></message>
+	<message label="018" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Hé, t'as fait un tour dans la galerie
+d'art du <colour id="1" />musée<colour id="65535" />?<delay20 /> Tu rates un truc si
+c'est pas l'cas, <tag a="110" b="6" />.
+<anim id="Explain" target="actor" targetSpec="" />Y a des chefs-d'œuvre à t'en décoller
+les mirettes tellement ils sont beaux.<delay frames="40" />
+<anim id="Laughing" target="actor" targetSpec="" />Oublie pas tes lunettes!</message>
+	<message label="019" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Alors, qu'est-ce que tu viens faire
+à <tag a="110" b="8" />?<delay20 /> Chasser la p'tite bête et pêcher la poiscaille?<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Parce que si t'as d'la chance<tag a="110" b="0" /><anim id="SmugFace" target="actor" targetSpec="" /> On a
+des bestiaux pas piqués des vers
+dans l'coin, <tag a="110" b="6" />!</message>
+	<message label="020" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="4" arg="0x15 0x16 0x17 0x18 0x19 0x12" /></message>
 	<message label="021" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1c00 0x1900 0xcd00" /></message>
 	<message label="022" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1d01 0x1900 0xcd00" /></message>
 	<message label="023" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1e02 0x1900 0xcd00" /></message>
@@ -54,6 +65,13 @@ est parfaite pour s'prendre en photo.</message>
 	<message label="030" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />T'as pas intérêt à mettre les voiles
 sans être passé<gender2 m="" f="e" /> au <colour id="1" />musée<colour id="65535" /> voir
 <tag a="50" b="1" /><tag a="135" b="13" arg="0x2" />!</message>
+	<message label="031" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Ça me met la caboche en ébullition
+quand je m'trouve devant <tag a="50" b="2" />
+<tag a="135" b="13" arg="0x3" />.<pageBreak /><anim id="AbsentMindedness" target="actor" targetSpec="" />J'invente de nouvelles recettes,
+j'ai des idées jardinage, j'pense à
+des farces<tag a="110" b="0" /> Y a qu'à d'mander!
+<anim id="BigSmile" target="actor" targetSpec="" />J'pensais pas qu'la galerie d'art du
+<colour id="1" />musée<colour id="65535" /> me f'rait un tel effet!</message>
 	<message label="201" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="0" arg="0xca 0xd2" /></message>
 	<message label="202" attrib="00 00 01 00 00 00 00 00"><anim id="WrySmile" target="actor" targetSpec="" />Tiens,<delay20 /> comme on s'retrouve!<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />T'es venu<gender2 m="" f="e" /> visiter <tag a="110" b="8" />, ou t'es venu<gender2 m="" f="e" /> exprès pour me voir?</message>
 	<message label="202_a" attrib="cb 00 00 00 00 00 00 00">Je suis venu<gender2 m="" f="e" /> te voir!</message>

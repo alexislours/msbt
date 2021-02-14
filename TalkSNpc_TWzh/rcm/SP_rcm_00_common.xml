@@ -60,6 +60,11 @@
 今天是星期日，<delay20 />
 這裡無法收購大頭菜<tag a="110" b="0" /><pageBreak /><anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" />很抱歉給您添麻煩了，<delay20 />
 請重新選擇想進行交易的物品！</message>
+	<message label="025" attrib="00 00 00 00"><anim id="Worried" target="mainNpc" targetSpec="" /><anim id="Worried" target="subNpc" targetSpec="" />啊<tag a="110" b="0" /><delay20 />不好意思<tag a="110" b="0" /><delay40 />
+我們沒辦法收購<delay20 />
+<colour id="1" />假<colour id="65535" />的美術品<tag a="110" b="0" /><pageBreak /><anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" />造成您的不便，很抱歉，<delay20 />
+請您重新選擇<delay20 />
+希望我們收購的物品吧！</message>
 	<message label="031" attrib="02 00 00 00"><anim id="Nodding" target="mainNpc" targetSpec="" /><anim id="FaintSmile" target="subNpc" targetSpec="" />這是<tag a="125" b="0" arg="0x0" />吧！<10_4 />
 <anim id="FaintSmile" target="mainNpc" targetSpec="" />那麼，我可以用<tag a="90" b="26" arg="0x0" /><delay20 />
 跟您買下來！</message>
@@ -313,7 +318,7 @@
 	<message label="131_a" attrib="00 00 00 00">1個(<colour id="1" /><tag a="90" b="12" arg="0x0" /><colour id="65535" />)</message>
 	<message label="131_b" attrib="00 00 00 00">5個(<colour id="1" /><tag a="90" b="13" arg="0x1" /><colour id="65535" />)</message>
 	<message label="131_c" attrib="00 00 00 00">還是算了</message>
-	<message label="200" attrib="00 00 00 00"><anim id="Smiling" target="mainNpc" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" />謝謝光臨！<tag a="100" b="4" />　<delay8 /><size value="75" />光臨！<size value="100" /><endTag a="100" b="4" /><10_7 arg="90" /></message>
+	<message label="200" attrib="00 00 00 00"><anim id="Smiling" target="mainNpc" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" />謝謝光臨！<tag a="100" b="4" />　<delay8 /><size value="75" />光臨！<size value="100" /><endTag a="100" b="4" /><anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" /><10_7 arg="90" /></message>
 	<message label="201" attrib="00 00 00 00"><anim id="FaintSmile" target="mainNpc" targetSpec="" /><anim id="FaintSmile" target="subNpc" targetSpec="" />歡迎光臨！<tag a="100" b="4" />　<delay8 /><size value="75" />光臨！<size value="100" /><endTag a="100" b="4" /><delay40 />
 歡迎來到Nook商店！<tag a="100" b="4" />　<delay8 /><size value="75" />Nook商店！<size value="100" /><endTag a="100" b="4" /></message>
 	<message label="202" attrib="00 00 00 00"><anim id="Smiling" target="mainNpc" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" />歡迎光臨！<delay20 /><tag a="100" b="4" />　<delay8 /><size value="75" />光臨！<size value="100" /><endTag a="100" b="4" /><pageBreak /><anim id="Shocked" target="mainNpc" targetSpec="" /><anim id="Shocked" target="subNpc" targetSpec="" />啊！<delay20 /><tag a="110" b="1" />！<delay40 />

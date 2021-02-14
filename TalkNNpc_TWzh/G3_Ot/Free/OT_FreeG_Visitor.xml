@@ -5,7 +5,7 @@
 	<message label="001_a" attrib="04 00 00 00 00 00 00 00">我吃過了</message>
 	<message label="001_b" attrib="05 00 00 00 00 00 00 00">什麼水果？</message>
 	<message label="002" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="23" arg="0xd 0xe 0xf 0xffff" /></message>
-	<message label="003" attrib="09 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x1 0x10 0x11 0x12" /></message>
+	<message label="003" attrib="09 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x1 0x10 0x11 0x14" /></message>
 	<message label="004" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />哎呀，<delay8 />不愧是<tag a="110" b="4" />！<delay40 />
 <anim id="EmotEnd" target="actor" targetSpec="" />不需要我特別介紹<delay20 />
 <anim id="FaintSmile" target="actor" targetSpec="" />就已經吃過<tag a="110" b="7" arg="0xcd00" />了。<pageBreak /><anim id="Love" target="actor" targetSpec="" />那清爽香甜的滋味，<delay20 />
@@ -32,6 +32,11 @@
 要蓋一座<colour id="1" />博物館<colour id="65535" />喔。<pageBreak /><anim id="Thinking" target="actor" targetSpec="" />但是<delay8 />就連<colour id="3" />傅達<colour id="65535" />的研究室都還只是個帳篷<tag a="110" b="0" /><delay20 />
 <anim id="OhGeez" target="actor" targetSpec="" />所以我並沒有抱太大的期待呢，<tag a="110" b="6" />。</message>
 	<message label="017" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="3" arg="0x15 0x16 0x17 0x18 0x19" /></message>
+	<message label="018" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />在這座島上的<colour id="1" />博物館<colour id="65535" />裡，<delay20 />
+可以觀賞到藝術品喔。<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />既然你難得來這裡玩，<delay20 />
+請一定要去參觀一次。<delay frames="40" />
+<anim id="Greeting" target="actor" targetSpec="" />那裡可是我相當推薦的景點喔，<tag a="110" b="6" />。</message>
+	<message label="020" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="4" arg="0x15 0x16 0x17 0x18 0x19 0x12" /></message>
 	<message label="021" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1c00 0x1900 0xcd00" /></message>
 	<message label="022" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1d01 0x1900 0xcd00" /></message>
 	<message label="023" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1e02 0x1900 0xcd00" /></message>
@@ -53,6 +58,11 @@
 <tag a="135" b="13" arg="0x2" />，<delay20 />
 <anim id="Love" target="actor" targetSpec="" />不知道為什麼就是很吸引人呢<tag a="110" b="0" /><pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />果然化石這種東西，<delay20 />
 <anim id="Nodding" target="actor" targetSpec="" />就是有種<delay8 />不可思議的魅力吧，<tag a="110" b="6" />。</message>
+	<message label="031" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" /><anim id="Hello" target="actor" targetSpec="" />你知道嗎？<delay20 />
+在這座島上的<colour id="1" />博物館<colour id="65535" />裡，<delay8 />
+正展示著<tag a="135" b="13" arg="0x3" />喔。<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />如果你還沒參觀過的話，<delay20 />
+請務必去一次看看。<delay frames="40" />
+<anim id="Nodding" target="actor" targetSpec="" />那東西絕對有一看的價值！<tag a="110" b="6" />。</message>
 	<message label="201" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="0" arg="0xca 0xce" /></message>
 	<message label="202" attrib="00 00 03 00 00 00 00 00">那個，<tag a="110" b="4" />，<delay20 />
 <anim id="QuestionMark" target="actor" targetSpec="" />你已經習慣

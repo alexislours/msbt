@@ -4,7 +4,7 @@ Frucht gibt's auf <tag a="110" b="8" />?</message>
 	<message label="001_a" attrib="04 00 00 00 00 00 00 00">Öhm... Die da!</message>
 	<message label="001_b" attrib="05 00 00 00 00 00 00 00">Die da?</message>
 	<message label="002" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="23" arg="0xd 0xe 0xf 0xffff" /></message>
-	<message label="003" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x1 0x10 0x11 0x12" /></message>
+	<message label="003" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x13 0x10 0x11 0x14" /></message>
 	<message label="004" attrib="00 00 00 00 00 00 00 00"><anim id="Scheming" target="actor" targetSpec="" />Zack.<delay20 /> Gewonnen!<delay frames="40" /> <anim id="Explain" target="actor" targetSpec="" /><tag a="110" b="7" arg="0xcd00" /> is'
 die richtige Antwort.<delay20 /> <anim id="WrySmile" target="actor" targetSpec="" />Hab fast nich'
 gemerkt, <delay8 />dass du geraten hast.</message>
@@ -32,6 +32,19 @@ weiß ich auch nich', <delay8 /><tag a="110" b="5" />...</message>
 	<message label="016" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Unser <colour id="1" />Museum <colour id="65535" />wird DER Knüller!<delay20 />
 <anim id="Explain" target="actor" targetSpec="" /><size value="75" />Falls es jemals fertig wird...<size value="100" /></message>
 	<message label="017" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="3" arg="0x15 0x16 0x17 0x18 0x19" /></message>
+	<message label="018" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Hey! <delay20 />Haste schon die Kunstgalerie in
+unserem <colour id="1" />Museum<colour id="65535" /> abgecheckt? <delay20 />Falls
+nich', mach mal hinne,<delay8 /> <tag a="110" b="5" />!
+<anim id="Explain" target="actor" targetSpec="" />Ich find's endkrass dort. <delay20 />Gibt voll
+das uralte Zeug da zu sehen! <delay20 /><anim id="Hello" target="actor" targetSpec="" />Meine
+innere Kunstkritikerin feiert das hart!</message>
+	<message label="019" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Zu Besuch auf <tag a="110" b="8" />?<delay20 />
+Willst wohl ein paar fette Fische
+und Krabbeltiere abgreifen,<delay8 /> was?
+<anim id="Hello" target="actor" targetSpec="" />Dann hau mal rein! <delay frames="40" />Bei uns tummeln
+sich nämlich <anim id="SmugFace" target="actor" targetSpec="" />'n paar echt coole von
+den Viechern, <delay8 /><tag a="110" b="5" />!</message>
+	<message label="020" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="4" arg="0x15 0x16 0x17 0x18 0x19 0x12" /></message>
 	<message label="021" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1c00 0x1900 0xcd00" /></message>
 	<message label="022" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1d01 0x1900 0xcd00" /></message>
 	<message label="023" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1e02 0x1900 0xcd00" /></message>
@@ -54,6 +67,13 @@ erst wegdarfst, <delay8 />wenn du in unsrem
 <colour id="1" />Museum <colour id="65535" />vorbeigeschaut hast.
 <anim id="Grin" target="actor" targetSpec="" />Wir haben dort <tag a="50" b="17" arg="0x29 0xcd00 0x24 0x27 0x6e 0x65 0x6e 0x20 0x68 0x61 0x6d 0x6d 0x65 0x72 0x6d 0xe4 0xdf 0x69 0x67 0x65 0x6e 0x20 0x27 0x6e 0x65 0x20 0x68 0x61 0x6d 0x6d 0x65 0x72 0x6d 0xe4 0xdf 0x69 0x67 0x65 0x20 0x27 0x6e 0x20 0x68 0x61 0x6d 0x6d 0x65 0x72 0x6d 0xe4 0xdf 0x69 0x67 0x65 0x73" />
 <tag a="50" b="23" arg="0xcd01" /><tag a="135" b="13" arg="0x2" /> ausgestellt, <delay8 /><tag a="110" b="5" />.</message>
+	<message label="031" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Jedes Mal, <delay8 />wenn ich im <colour id="1" />Museum<colour id="65535" /> <tag a="50" b="17" arg="0x29 0xcd00 0x6 0x64 0x65 0x6e 0x6 0x64 0x69 0x65 0x6 0x64 0x61 0x73" />
+<tag a="50" b="23" arg="0xcd01" /><tag a="135" b="13" arg="0x3" /> sehe, <delay8 />legt mein Hirn den Turbo ein!<pageBreak />Da fallen mir direkt supertolle neue
+Sachen ein. <delay20 /><anim id="AbsentMindedness" target="actor" targetSpec="" />Neue Bastelanleitungen,<delay8 />
+neue Deko-Ideen, <anim id="WrySmile" target="actor" targetSpec="" /><delay20 />neue Streiche...
+Hätte nie gedacht, <delay8 /><anim id="BigSmile" target="actor" targetSpec="" />dass ich Party-
+nudel ausgerechnet an DEM Ort mal
+meine kreative Ader entdecken würd!</message>
 	<message label="201" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="0" arg="0xca 0xd2" /></message>
 	<message label="202" attrib="00 00 01 00 00 00 00 00"><anim id="WrySmile" target="actor" targetSpec="" />Naa, <delay8 />checkst du <tag a="110" b="8" /> aus?<delay frames="40" /> <anim id="Eh" target="actor" targetSpec="" />Sag bloß,<delay8 /> du willst auch hierherziehen!<pageBreak /><anim id="Grin" target="actor" targetSpec="" />Oder biste etwa rein meinetwegen
 da, <delay8 /><anim id="Laughing" target="actor" targetSpec="" />weil du mich so vermisst hast?</message>

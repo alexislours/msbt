@@ -7,7 +7,7 @@ question.
 	<message label="001_a" attrib="04 00 00 00 00 00 00 00">Oui!</message>
 	<message label="001_b" attrib="05 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Euh, non...</message>
 	<message label="002" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="23" arg="0xd 0xe 0xf 0xffff" /></message>
-	<message label="003" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x1 0x10 0x11 0x12" /></message>
+	<message label="003" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x1 0x10 0x11 0x14" /></message>
 	<message label="004" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Vraiment?<delay20 /> C'est <tag a="50" b="1" /><tag a="110" b="7" arg="0xcd00" />?!<delay20 />
 <anim id="Grin" target="actor" targetSpec="" />Eh ben, j'ai bien fait de me fier à
 ta tête de <gender2 m="monsieur" f="madame" /> Je-sais-tout!<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Si tu as l'occasion d'en goûter,<delay8 />
@@ -43,18 +43,26 @@ pierre et tout!
 la prochaine fois que tu seras de
 passage,<delay8 /><anim id="Laughing" target="actor" targetSpec="" /> sinon ça sera la honte!</message>
 	<message label="017" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="3" arg="0x15 0x16 0x17 0x18 0x19" /></message>
+	<message label="018" attrib="00 00 00 00 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Hé, tu connais la nouvelle?<10_4 /> <anim id="Cheering" target="actor" targetSpec="" />Notre
+<colour id="1" />musée <colour id="65535" />a ouvert une galerie pour
+exposer des œuvres d'art!
+<anim id="Explain" target="actor" targetSpec="" />On pourra peut-être y voir des trucs
+comme ce tableau tout blanc avec
+juste un point bleu.
+<anim id="Negative" target="actor" targetSpec="" />Et je dis pas ça pour me moquer.<delay frames="40" />
+<anim id="Laughing" target="actor" targetSpec="" />J'aime bien peindre des points bleus
+et me considérer comme un artiste!</message>
+	<message label="020" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="4" arg="0x15 0x16 0x17 0x18 0x19 0x12" /></message>
 	<message label="021" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1c00 0x1900 0xcd00" /></message>
 	<message label="022" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1d01 0x1900 0xcd00" /></message>
 	<message label="023" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1e02 0x1900 0xcd00" /></message>
 	<message label="024" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1f03 0x1900 0xcd00" /></message>
-	<message label="025" attrib="00 00 00 00 00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Je n'y connais rien en art, mais
-j'aime bien me balader au <colour id="1" />musée<colour id="65535" /> en
-faisant comme si c'était le cas.
-<anim id="Explain" target="actor" targetSpec="" />J'examine les pièces attentivement
-en hochant gravement la tête et en
-disant « ⁠Hmm... » ou « ⁠Je vois... »
-<anim id="Thinking" target="actor" targetSpec="" />Je me demande si tout le monde
-fait semblant, comme moi<tag a="110" b="0" /></message>
+	<message label="025" attrib="00 00 00 00 00 00 00 00"><anim id="Grin" target="actor" targetSpec="" />Je dois dire que le <colour id="1" />musée<colour id="65535" /> de notre
+île est fantastique et assez chic.<pageBreak /><anim id="OhGeez" target="actor" targetSpec="" />Bon, je ne sais pas trop ce qui est
+chic ou ce qui ne l'est pas<tag a="110" b="0" /><pageBreak />Mais ça, je suis capable de le
+reconnaître quand je l'ai sous
+les yeux.<delay frames="40" /> <anim id="Pardon" target="actor" targetSpec="" />Simple comme bonjour!<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />En tout cas, tu te dois d'y aller si
+tu n'y as jamais mis les pieds, <tag a="110" b="5" />!</message>
 	<message label="028" attrib="00 00 00 00 00 00 00 00"><anim id="WrySmile" target="actor" targetSpec="" />Tu vois, j'croyais avoir tout vu, côté
 poissons.<delay20 /> Mais j'suis tombé sur un
 drôle de poisson dans notre <colour id="1" />musée<colour id="65535" /><tag a="110" b="0" />
@@ -72,6 +80,11 @@ charme rétro.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Tu 
 d'apprendre que notre <colour id="1" />musée<colour id="65535" /> a
 <tag a="50" b="2" /><tag a="135" b="13" arg="0x2" />.<pageBreak /><anim id="BigSmile" target="actor" targetSpec="" />À côté d<tag a="50" b="17" arg="0x29 0xcd00 0xa 0x65 0x20 0x6c 0x75 0x69 0xa 0x27 0x65 0x6c 0x6c 0x65 0x0" />, même moi, je suis
 un perdreau de l'année!</message>
+	<message label="031" attrib="00 00 00 00 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Tu sais ce qui fait du bien aux yeux?<10_4 />
+<anim id="HappyFlower" target="actor" targetSpec="" />Pouvoir venir au <colour id="1" />musée <colour id="65535" />contempler
+<tag a="50" b="2" /><tag a="135" b="13" arg="0x3" />.<pageBreak /><anim id="WrySmile" target="actor" targetSpec="" />Tu savais pas que je m'intéressais à
+l'art, pas vrai?<delay frames="40" /> On en apprend tous
+les jours!<delay20 /><anim id="Laughing" target="actor" targetSpec="" /> Ha ha ah!</message>
 	<message label="201" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="0" arg="0xca 0xcd" /></message>
 	<message label="202" attrib="00 00 02 00 00 00 00 00">J'ai une question pour toi, <gender2 m="le jeune" f="la jeune" />.<delay20 />
 <anim id="QuestionMark" target="actor" targetSpec="" />Ça te manque de plus me croiser à

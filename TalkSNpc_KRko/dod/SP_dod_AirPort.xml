@@ -395,7 +395,7 @@
 	<message label="810" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />조심해서 들어가세요!<10_7 arg="60" /></message>
 	<message label="900_01" attrib="00 00 00 00"><anim id="Pardon" target="actor" targetSpec="" />네? <delay frames="30" />파니의 섬<tag a="110" b="0" />이요?<delay20 />
 <anim id="Thinking" target="actor" targetSpec="" />흐음<tag a="110" b="0" /><tag a="110" b="0" /><tag a="110" b="0" /><tag a="110" b="0" /><pageBreak /><anim id="IdeaBulb" target="actor" targetSpec="" /><delay20 />아하!<delay40 />
-<anim id="Smiling" target="actor" targetSpec="" /><colour id="3" />파니엘<colour id="65535" />씨가 사는 섬 말씀이시군요!<delay40 />
+<anim id="Smiling" target="actor" targetSpec="" /><colour id="3" />파니엘<colour id="65535" />님이 사시는 섬 말씀이시군요!<delay40 />
 <snpcAnim id="DodRoger" target="actor" targetSpec="" /><delay20 />알겠습니다!<delay frames="50" /><anim id="EmotEnd" target="actor" targetSpec="" /></message>
 	<message label="900_02" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />파니의 섬 말씀이시군요!<delay frames="40" />
 <snpcAnim id="DodRoger" target="actor" targetSpec="" /><delay20 />알겠습니다!<delay frames="50" /><anim id="EmotEnd" target="actor" targetSpec="" /></message>
@@ -416,4 +416,49 @@
 확인해야 합니다<tag a="110" b="0" /><pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />텐트만 세우셔도 충분하니까<delay20 />
 <anim id="Smiling" target="actor" targetSpec="" />거주지를 정하신 후에<delay8 />
 다시 방문해주시면 감사하겠습니다!</message>
+	<message label="1300" attrib="00 00 00 00">참고로 지금은 <delay20 /><anim id="Nodding" target="actor" targetSpec="" /><tag a="110" b="1" />님의
+<colour id="1" />근로자의 날 여행권<colour id="65535" />을 보관 중이니<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />이것을 이용해주시면 감사하겠습니다!<anim id="EmotEnd" target="actor" targetSpec="" /></message>
+	<message label="1301" attrib="00 00 00 00"><tag a="110" b="1" />님 앞으로<delay20 />
+<anim id="BigSmile" target="actor" targetSpec="" /><colour id="3" />너굴<colour id="65535" /> 사장님이 <colour id="1" />근로자의 날 여행권<colour id="65535" />을<delay8 />
+맡겨 두셨습니다!<anim id="FaintSmile" target="actor" targetSpec="" /><pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" /><colour id="1" />근로자의 날 여행권<colour id="65535" />을 이용하고 싶으시면<delay20 />
+<anim id="Greeting" target="actor" targetSpec="" />제게 <delay20 />'<colour id="1" />외출할래<colour id="65535" />'라고<delay8 /> 말씀해주세요!</message>
+	<message label="1302" attrib="04 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />그럼 <delay20 /><anim id="QuestionMark" target="actor" targetSpec="" />어디로 가시겠습니까?</message>
+	<message label="1302_a" attrib="00 00 00 00">누군가의 섬에 갈래</message>
+	<message label="1302_b" attrib="00 00 00 00"><colour id="1" />근로자의 날 여행권<colour id="65535" />을 쓸래</message>
+	<message label="1302_c" attrib="00 00 00 00">그만둘래</message>
+	<message label="1302_02" attrib="06 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />그럼 <delay20 /><anim id="QuestionMark" target="actor" targetSpec="" />어디로 가시겠습니까?</message>
+	<message label="1302_02_a" attrib="00 00 00 00">누군가의 섬에 갈래</message>
+	<message label="1302_02_b" attrib="00 00 00 00"><colour id="1" />근로자의 날 여행권<colour id="65535" />을 쓸래</message>
+	<message label="1302_02_c" attrib="00 00 00 00">파니의 섬에 갈래</message>
+	<message label="1302_02_d" attrib="00 00 00 00">그만둘래</message>
+	<message label="1302_04" attrib="06 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />그럼 <delay20 /><anim id="QuestionMark" target="actor" targetSpec="" />어디로 가시겠습니까?</message>
+	<message label="1302_04_a" attrib="00 00 00 00">누군가의 섬에 갈래</message>
+	<message label="1302_04_b" attrib="00 00 00 00"><colour id="1" />근로자의 날 여행권<colour id="65535" />을 쓸래</message>
+	<message label="1302_04_c" attrib="00 00 00 00"><colour id="1" />마일 여행권<colour id="65535" />을 쓸래</message>
+	<message label="1302_04_d" attrib="00 00 00 00">그만둘래</message>
+	<message label="1302_06" attrib="08 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />그럼 <delay20 /><anim id="QuestionMark" target="actor" targetSpec="" />어디로 가시겠습니까?</message>
+	<message label="1302_06_a" attrib="00 00 00 00">누군가의 섬에 갈래</message>
+	<message label="1302_06_b" attrib="00 00 00 00"><colour id="1" />근로자의 날 여행권<colour id="65535" />을 쓸래</message>
+	<message label="1302_06_c" attrib="00 00 00 00"><colour id="1" />마일 여행권<colour id="65535" />을 쓸래</message>
+	<message label="1302_06_d" attrib="00 00 00 00">파니의 섬에 갈래</message>
+	<message label="1302_06_e" attrib="00 00 00 00">그만둘래</message>
+	<message label="1303" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" /><colour id="1" />근로자의 날 여행권<colour id="65535" />을 이용해서<delay20 />
+<anim id="Nodding" target="actor" targetSpec="" />떠나시는 거로군요!<delay frames="40" />
+<snpcAnim id="DodRoger" target="actor" targetSpec="" /><delay20 />알겠습니다!<delay frames="50" /><anim id="EmotEnd" target="actor" targetSpec="" /></message>
+	<message label="1304" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />이 <colour id="1" />근로자의 날 투어<colour id="65535" />는<delay20 /> <colour id="3" />너굴 <colour id="65535" />사장님이
+기획하신,<delay20 /> <anim id="FaintSmile" target="actor" targetSpec="" />어느 먼 곳의 섬에서 펼쳐지는
+특별한 투어입니다!<pageBreak /><anim id="Serious" target="actor" targetSpec="" />그곳에서 무슨 일이 펼쳐질지는<tag a="110" b="0" /><delay20 />
+<anim id="Grin" target="actor" targetSpec="" />도착하기 전까지는 비밀입니다!<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />이 투어에 참가하려면<delay20 /> 소지품을
+저희 카운터에 맡기셔야 합니다!<delay20 />
+<anim id="Nodding" target="actor" targetSpec="" />부디 <colour id="1" />빈손<colour id="65535" />으로 즐겨주시기 바랍니다!<pageBreak /><anim id="Assent" target="actor" targetSpec="" />걱정 마세요!<delay frames="40" />
+<anim id="EmotEnd" target="actor" targetSpec="" />소지품은 돌아오실 때<delay20 />
+<anim id="Smiling" target="actor" targetSpec="" />빠짐없이 돌려드리겠습니다!</message>
+	<message label="1305" attrib="02 00 00 00"><tag a="110" b="0" />그럼 소지품을 맡기고<delay20 />
+<anim id="Hello" target="actor" targetSpec="" /><colour id="1" />근로자의 날 투어<colour id="65535" />로 떠나시겠습니까?</message>
+	<message label="1305_a" attrib="00 00 00 00">출발～!</message>
+	<message label="1305_b" attrib="00 00 00 00">그만둘래</message>
+	<message label="1306" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />알겠습니다!<delay frames="40" />
+<anim id="Nodding" target="actor" targetSpec="" />마음의 준비가 되면<delay20 />
+<anim id="Hello" target="actor" targetSpec="" />다시 말을 걸어주세요!</message>
 </msbt>

@@ -52,6 +52,10 @@
 <delay40 />по воскресеньям мы не покупаем
 некоторые товары, например репу.<pageBreak /><anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" />Ты не мог<gender2 m="" f="ла" /> бы выбрать на продажу
 что-нибудь другое?</message>
+	<message label="025" attrib="00 00 00 00"><anim id="Worried" target="mainNpc" targetSpec="" /><anim id="Worried" target="subNpc" targetSpec="" />Ой<tag a="110" b="0" /><delay20 /> Прости, но<tag a="110" b="0" /><delay40 /> мы не принимаем
+<colour id="1" />поддельные<colour id="65535" /> предметы искусства<tag a="110" b="0" /><pageBreak /><anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" />Извини за неудобство, но ты не
+мог<gender2 m="" f="ла" /> бы предложить на продажу
+что-нибудь другое?</message>
 	<message label="031" attrib="02 00 00 00"><anim id="Nodding" target="mainNpc" targetSpec="" /><anim id="FaintSmile" target="subNpc" targetSpec="" /><tag a="50" b="3" /><tag a="125" b="0" arg="0x0" />!<10_4 />
 <anim id="FaintSmile" target="mainNpc" targetSpec="" />Могу предложить тебе
 <tag a="90" b="26" arg="0x0" />.</message>
@@ -284,7 +288,7 @@
 	<message label="112" attrib="00 00 00 00"><anim id="Smiling" target="mainNpc" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" />Благодарю за покуп... <10_7 arg="20" /><pageBreak /><anim id="Shocked" target="mainNpc" targetSpec="" /><anim id="Shocked" target="subNpc" targetSpec="" />Ой!<delay frames="40" /><anim id="Worried" target="mainNpc" targetSpec="" /><anim id="Worried" target="subNpc" targetSpec="" /> Э-э... Ох, у тебя с собой
 слишком много вещей.<pageBreak /><anim id="Nodding" target="mainNpc" targetSpec="" /><anim id="FaintSmile" target="subNpc" targetSpec="" />Приходи,<delay8 /> <anim id="FaintSmile" target="mainNpc" targetSpec="" />когда у тебя будет место
 в карманах.<anim id="Nodding" target="subNpc" targetSpec="" /><tag a="100" b="4" /><delay8 /> <size value="75" />В карманах, да!<size value="100" /><endTag a="100" b="4" /></message>
-	<message label="113" attrib="00 00 00 00"><anim id="BigSmile" target="mainNpc" targetSpec="" /><anim id="BigSmile" target="subNpc" targetSpec="" />Отличный выбор!<anim id="BigSmile" target="subNpc" targetSpec="" /> <tag a="100" b="4" /><delay8 /><size value="75" />Молодец!<size value="100" /><endTag a="100" b="4" /></message>
+	<message label="113" attrib="00 00 00 00"><anim id="BigSmile" target="mainNpc" targetSpec="" /><anim id="BigSmile" target="subNpc" targetSpec="" />Отличный выбор! <tag a="100" b="4" /><delay8 /><size value="75" />Молодец!<size value="100" /><endTag a="100" b="4" /></message>
 	<message label="114" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Да, спасибо за <tag a="90" b="26" arg="0x0" />!<anim id="Nodding" target="subNpc" targetSpec="" /></message>
 	<message label="121" attrib="00 00 00 00"><anim id="Smiling" target="mainNpc" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" />Предмет дня сегодня —<delay8 />
 <tag a="125" b="0" arg="0x0" />!</message>
@@ -303,7 +307,7 @@
 	<message label="131_a" attrib="00 00 00 00">1 (<colour id="1" /><tag a="90" b="12" arg="0x0" /><colour id="65535" />)</message>
 	<message label="131_b" attrib="00 00 00 00">5 (<colour id="1" /><tag a="90" b="13" arg="0x1" /><colour id="65535" />)</message>
 	<message label="131_c" attrib="00 00 00 00">Я передумал<gender2 m="" f="а" />.</message>
-	<message label="200" attrib="00 00 00 00"><anim id="Smiling" target="mainNpc" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" />Спасибо!<tag a="100" b="4" /><delay8 /> <size value="75" />Спасибо тебе!<size value="100" /><endTag a="100" b="4" /><10_7 arg="90" /></message>
+	<message label="200" attrib="00 00 00 00"><anim id="Smiling" target="mainNpc" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" />Спасибо!<tag a="100" b="4" /><delay8 /> <size value="75" />Спасибо тебе!<size value="100" /><endTag a="100" b="4" /><anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" /><10_7 arg="90" /></message>
 	<message label="201" attrib="00 00 00 00"><anim id="FaintSmile" target="mainNpc" targetSpec="" /><delay8 /><anim id="FaintSmile" target="subNpc" targetSpec="" />Привет!<tag a="100" b="4" /><delay8 /> <size value="75" />Здравствуй!<size value="100" /><endTag a="100" b="4" /><delay40 />
 Приветствуем в <colour id="1" />лавке Нука<colour id="65535" />!</message>
 	<message label="202" attrib="00 00 00 00"><anim id="Smiling" target="mainNpc" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" />Приветствуем! <tag a="100" b="4" /><tag a="100" b="4" /><delay8 /><endTag a="100" b="4" /><size value="75" />Привет-привет!<size value="100" /><endTag a="100" b="4" /><pageBreak /><anim id="Shocked" target="mainNpc" targetSpec="" /><anim id="Shocked" target="subNpc" targetSpec="" />О, это ты,<delay20 /> <tag a="110" b="1" />!<delay40 /><anim id="BigSmile" target="mainNpc" targetSpec="" /><anim id="BigSmile" target="subNpc" targetSpec="" />

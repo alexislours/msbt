@@ -5,7 +5,7 @@
 	<message label="001_a" attrib="04 00 00 00 00 00 00 00">Évidemment.</message>
 	<message label="001_b" attrib="05 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Quoi?</message>
 	<message label="002" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="23" arg="0xd 0xe 0xf 0xffff" /></message>
-	<message label="003" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x1 0x10 0x11 0x12" /></message>
+	<message label="003" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x13 0x10 0x11 0x14" /></message>
 	<message label="004" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Super! J'avais peur que tu passes à
 côté!<anim id="Nodding" target="actor" targetSpec="" /> Nos <tag a="110" b="7" arg="0xcd01" /> ont vraiment <anim id="Love" target="actor" targetSpec="" />un
 goût inoubliable!</message>
@@ -39,6 +39,20 @@ différence<tag a="110" b="0" />
 tente, pour le moment. <anim id="EmotEnd" target="actor" targetSpec="" />Et <colour id="3" />Thibou
 <colour id="65535" /><anim id="Smiling" target="actor" targetSpec="" />doit être dedans, si tu veux le voir.</message>
 	<message label="017" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="3" arg="0x15 0x16 0x17 0x18 0x19" /></message>
+	<message label="018" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Sur cette île, le <colour id="1" />musée<colour id="65535" /> a une galerie
+réservée aux œuvres d'art.<pageBreak />En tant qu'artiste, je peux te dire<delay20 /><anim id="AbsentMindedness" target="actor" targetSpec="" />
+qu'observer le travail des autres est
+une super source d'inspiration.
+<anim id="Thinking" target="actor" targetSpec="" />Bien sûr, mon domaine, c'est les
+shows<tag a="110" b="0" /> Est-ce que je peux vraiment
+me comparer aux grands maîtres?
+<anim id="EmotEnd" target="actor" targetSpec="" />Évidemment, <tag a="110" b="5" />!</message>
+	<message label="019" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="110" b="8" /> est devenue une destination culturelle de premier plan. Et ça, j'adore!<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Je vis sur une île trop cool,<delay40 /><anim id="SmugFace" target="actor" targetSpec="" /> mais ça,
+je le savais depuis longtemps. Ça
+confirme aussi MA coolitude.<delay40 />
+Quand on y pense<tag a="110" b="0" /><delay40 /><anim id="IdeaBulb" target="actor" targetSpec="" /> le cool attire
+le cool!</message>
+	<message label="020" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="4" arg="0x15 0x16 0x17 0x18 0x19 0x12" /></message>
 	<message label="021" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1c00 0x1900 0xcd00" /></message>
 	<message label="022" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1d01 0x1900 0xcd00" /></message>
 	<message label="023" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1e02 0x1900 0xcd00" /></message>
@@ -55,6 +69,10 @@ pendant des heures!<delay40 /> <anim id="FaintSmile" target="actor" targetSpec="
 	<message label="029" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Tu as jeté un œil <tag a="50" b="17" arg="0x29 0xcd00 0x10 0x61 0x75 0x20 0x70 0x65 0x74 0x69 0x74 0x16 0xe0 0x20 0x6c 0x61 0x20 0x70 0x65 0x74 0x69 0x74 0x65 0x0" /> <tag a="135" b="13" arg="0x1" />, <anim id="FaintSmile" target="actor" targetSpec="" />au <colour id="1" />musée <gender4 m="de " f="d'⁠" /><colour id="65535" /><tag a="10" b="13" /><colour id="1" /><tag a="110" b="8" /><colour id="65535" /><endTag a="10" b="13" />?<pageBreak /><anim id="HappyDance" target="actor" targetSpec="" />Vas-y, moi, à chaque fois, ça me
 requinque pour la journée!⁠</message>
 	<message label="030" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Le <colour id="1" />musée <gender4 m="de " f="d'⁠" /><colour id="65535" /><tag a="10" b="13" /><colour id="1" /><tag a="110" b="8" /><colour id="65535" /><endTag a="10" b="13" /> a un espace entier consacré aux fossiles,<anim id="Greeting" target="actor" targetSpec="" /> et ils ont mis le paquet!<pageBreak />Celui que je préfère, c'est <tag a="50" b="1" /><tag a="135" b="13" arg="0x2" />! <anim id="Smiling" target="actor" targetSpec="" />Faut que t'ailles le voir, sérieux!</message>
+	<message label="031" attrib="00 00 00 00 00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />Tu sais qu'au <colour id="1" />musée<colour id="65535" />, ils exposent <tag a="50" b="2" /><tag a="135" b="13" arg="0x3" />, en ce moment?<delay40 /><pageBreak /><anim id="Serious" target="actor" targetSpec="" />C'est une œuvre tellement incroyable
+que si j'essayais de la décrire, je
+fondrais en larmes sur place.
+<anim id="Explain" target="actor" targetSpec="" />Heureusement,<delay8 /> on peut aller la voir quand on veut.<delay20 /><anim id="Blushing" target="actor" targetSpec="" /> Ça nous évite un moment pénible à tou<gender2 m="" f="te" />s les deux<tag a="110" b="0" /></message>
 	<message label="101" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="0" arg="0x66 0x69" /></message>
 	<message label="201" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="0" arg="0xca 0xcd" /></message>
 	<message label="202" attrib="00 00 02 00 00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="110" b="3" />!<delay20 /> Tu es venu<gender2 m="" f="e" /> sur cette île <anim id="Grin" target="actor" targetSpec="" />parce que je te manquais?</message>

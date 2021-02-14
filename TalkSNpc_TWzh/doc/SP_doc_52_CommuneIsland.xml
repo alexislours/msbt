@@ -2,6 +2,8 @@
 	<message label="001" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />OK！<delay20 />我們到了！<delay20 /><anim id="EmotEnd" target="actor" targetSpec="" /><delay20 />
 <anim id="Assent" target="actor" targetSpec="" /><delay20 />我會在這裡待命，<delay frames="30" />
 <anim id="Nodding" target="actor" targetSpec="" />您要回去的時候，就來跟我說一聲吧！</message>
+	<message label="002" attrib="00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />喔？<delay20 />
+那邊好像在<anim id="EmotEnd" target="actor" targetSpec="" />商量什麼呢<tag a="110" b="0" /></message>
 	<message label="101" attrib="02 00 00 00"><anim id="Eh" target="actor" targetSpec="" />是的！<delay frames="40" />
 <anim id="QuestionMark" target="actor" targetSpec="" />請問有什麼需要呢？</message>
 	<message label="101_a" attrib="00 00 00 00">我想回去</message>
@@ -13,4 +15,66 @@
 <anim id="Greeting" target="actor" targetSpec="" />那麼，<delay8 />我們出發吧！</message>
 	<message label="104" attrib="00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />好的！<delay frames="40" />
 <anim id="FaintSmile" target="actor" targetSpec="" />有需要的時候，<delay20 />請再跟我說。</message>
+	<message label="105" attrib="00 00 00 00"><anim id="IdeaBulb" target="actor" targetSpec="" />沒錯沒錯！<delay40 />
+<anim id="EmotEnd" target="actor" targetSpec="" />其實我有一件事<delay8 />
+想告訴<tag a="110" b="1" /><tag a="110" b="0" />
+<anim id="Silent" target="actor" targetSpec="" />那就是，<delay8 />DodoAirLines<delay frames="30" />
+<anim id="EmotEnd" target="actor" targetSpec="" />開始提供只有在這座<colour id="3" />巴獵<colour id="65535" />島<delay20 />
+<anim id="SmugFace" target="actor" targetSpec="" />才能使用的<colour id="1" />宅配及收購服務<colour id="65535" />了！<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />我想您在島上的時候，<delay frames="30" />
+<anim id="Thinking" target="actor" targetSpec="" />應該有遇到行李太多拿不了，<delay20 />
+<anim id="EmotEnd" target="actor" targetSpec="" />卻不知道該怎麼處理的情況吧<tag a="110" b="0" /><pageBreak /><anim id="Pardon" target="actor" targetSpec="" />所以呢！<delay frames="50" /><anim id="Explain" target="actor" targetSpec="" />我們可以幫您把持有物品寄回家，<delay8 />
+還可以收購您不用的物品，<delay20 /><anim id="Assent" target="actor" targetSpec="" />
+協助您整理口袋喔！<anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak /><anim id="Nodding" target="actor" targetSpec="" />關於各項服務，<delay20 />
+讓我來簡單說明一下！</message>
+	<message label="106" attrib="00 00 00 00">首先是<colour id="1" />宅配服務<colour id="65535" />，<delay frames="30" />
+<anim id="Nodding" target="actor" targetSpec="" />我們會把您寄放的行李<delay20 />
+<anim id="Greeting" target="actor" targetSpec="" />送到您家的收納空間！<pageBreak /><anim id="Negative" target="actor" targetSpec="" />這項服務不會收取任何手續費，<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />請安心使用喔！</message>
+	<message label="107" attrib="00 00 00 00">至於另一項<colour id="1" />收購服務<colour id="65535" />，<delay frames="30" />
+<anim id="Nodding" target="actor" targetSpec="" />正如其名，<delay8 />
+就是收購不用的物品！<pageBreak /><anim id="Explain" target="actor" targetSpec="" />我們會跟<colour id="1" />Nook商店<colour id="65535" />合作，<delay20 />
+參考設置在商店前面的<colour id="1" />收購箱<colour id="65535" />，<delay20 />
+<anim id="Greeting" target="actor" targetSpec="" />以同樣的價錢進行收購。<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />收購的款項<delay20 /><anim id="Serious" target="actor" targetSpec="" />會在第二天<delay8 />
+一併匯到您Nook銀行的戶頭裡。<delay20 />
+<anim id="Nodding" target="actor" targetSpec="" />敬請了解！</message>
+	<message label="108" attrib="00 00 00 00">關於新服務的說明
+<anim id="Hello" target="actor" targetSpec="" />就是這麼多了！<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />今後<delay20 />也請多多關照<delay20 />
+<snpcAnim id="DodRoger" target="actor" targetSpec="" />DodoAirLines！<delay frames="30" /><anim id="EmotEnd" target="actor" targetSpec="" /></message>
+	<message label="110" attrib="06 00 00 00"><anim id="Eh" target="actor" targetSpec="" />是的！<delay frames="40" />
+<anim id="QuestionMark" target="actor" targetSpec="" />請問有什麼需要呢？</message>
+	<message label="110_a" attrib="00 00 00 00">我想回去</message>
+	<message label="110_b" attrib="00 00 00 00">我想使用宅配服務</message>
+	<message label="110_c" attrib="00 00 00 00">我想使用收購服務</message>
+	<message label="110_d" attrib="00 00 00 00">沒事</message>
+	<message label="111" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />您要使用宅配服務，對吧！<delay20 />
+<anim id="QuestionMark" target="actor" targetSpec="" />請問要寄送什麼呢？</message>
+	<message label="112" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />喔喔！<delay frames="40" />
+<anim id="Thinking" target="actor" targetSpec="" />您家的收納空間已經滿了，<delay20 />
+無法寄送呢<tag a="110" b="0" /><pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />我們也有提供收購服務，<delay20 />
+<anim id="Nodding" target="actor" targetSpec="" />不介意的話，請使用收購服務吧！</message>
+	<message label="113" attrib="00 00 00 00">要取消對吧。<delay frames="30" />
+<anim id="FaintSmile" target="actor" targetSpec="" />歡迎下次再次使用！</message>
+	<message label="116" attrib="00 00 00 00"><snpcAnim id="DodRoger" target="actor" targetSpec="" />收到！<delay frames="40" />
+<anim id="FaintSmile" target="actor" targetSpec="" />我們確實收到委託了！</message>
+	<message label="118" attrib="00 00 00 00">那麼，我們稍後<delay20 /><anim id="BigSmile" target="actor" targetSpec="" />就會把收到的行李<delay8 />
+<anim id="FaintSmile" target="actor" targetSpec="" />送到您家的收納空間！</message>
+	<message label="120" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />您要使用收購服務，對吧！<delay20 />
+<anim id="QuestionMark" target="actor" targetSpec="" />請問要出售什麼呢？</message>
+	<message label="121" attrib="02 00 00 00"><anim id="Eh" target="actor" targetSpec="" />喔？<delay frames="40" /><anim id="OhGeez" target="actor" targetSpec="" />您的Nook銀行戶頭
+已經達到存款上限，<delay20 />
+無法使用收購服務呢。<pageBreak /><anim id="Worried" target="actor" targetSpec="" />雖然無法收購，<delay20 />
+但我們會免費收下物品，<delay frames="30" />
+<anim id="QuestionMark" target="actor" targetSpec="" />請問可以嗎？</message>
+	<message label="121_a" attrib="00 00 00 00">OK！</message>
+	<message label="121_b" attrib="00 00 00 00">那就算了</message>
+	<message label="124" attrib="00 00 00 00">我知道了！<delay frames="40" />
+<anim id="QuestionMark" target="actor" targetSpec="" />請問要我們收下什麼呢？</message>
+	<message label="125" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />確實收到了！<delay frames="40" />
+<anim id="EmotEnd" target="actor" targetSpec="" />另外，今天出售物品所得的款項，<delay20 />
+<anim id="Serious" target="actor" targetSpec="" />會在明天早上一併匯到您的戶頭！<anim id="EmotEnd" target="actor" targetSpec="" /></message>
+	<message label="126" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />好的！<delay20 />
+確實收到了！<delay frames="40" />
+<anim id="EmotEnd" target="actor" targetSpec="" />那麼，我們會處理掉的。</message>
+	<message label="127" attrib="00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />感謝<delay8 />您的使用！</message>
+	<message label="200" attrib="00 00 00 00">您可以<anim id="QuestionMark" target="actor" targetSpec="" /><delay8 />去看看他們的情況嗎？</message>
 </msbt>

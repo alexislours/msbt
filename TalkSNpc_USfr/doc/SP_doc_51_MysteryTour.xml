@@ -37,7 +37,7 @@ vadrouille.<delay frames="40" /> <anim id="QuestionMark" target="actor" targetSp
 	<message label="003" attrib="02 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Tu veux plier bagage et remettre le
 cap sur <tag a="110" b="34" />?<pageBreak /><anim id="Angry" target="actor" targetSpec="" />Sois sûr<gender2 m="" f="e" /> de toi, je m'en voudrais,
 si tu oubliais quelque chose derrière
-toi.<delay20 /> Alors,<anim id="QuestionMark" target="actor" targetSpec="" /> on est partis ?</message>
+toi.<delay20 /> Alors,<anim id="QuestionMark" target="actor" targetSpec="" /> on est partis?</message>
 	<message label="003_a" attrib="00 00 00 00"><anim id="Nodding" target="player" targetSpec="" />Oui!</message>
 	<message label="003_b" attrib="00 00 00 00"><anim id="Negative" target="player" targetSpec="" />Non, attends<tag a="110" b="0" /></message>
 	<message label="004" attrib="00 00 00 00"><snpcAnim id="DodRoger" target="actor" targetSpec="" /><delay20 />Bien reçu!<delay frames="40" /> Décollage immédiat.</message>
@@ -69,4 +69,180 @@ la verticale,<delay8 /> je répète le bipède est à la verticale.
 <100_3 arg="PlaneAnnounceOn" /><delay20 /><colour id="5" />Bien reçu, Dodo One! <delay20 />Je lève l'alerte. <delay20 /><100_3 arg="PlaneAnnounceOff" /><colour id="65535" /><10_7 arg="30" /><size value="100" /><pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Bon, sur ce, n'hésite pas à reprendre
 le large si tu te sens d'attaque. <delay frames="40" /><anim id="FaintSmile" target="actor" targetSpec="" />Et
 regarde où tu mets les pattes!</message>
+	<message label="041" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Atterrissage réussi!<delay20 /><anim id="Nodding" target="actor" targetSpec="" /> Bienvenue sur
+ta destination spéciale <colour id="1" />1 mai<colour id="65535" />!<pageBreak /><anim id="Serious" target="actor" targetSpec="" />Tu ne poses pas la patte sur une île
+ordinaire, civil<gender2 m="" f="e" />.<delay20 /><anim id="SmugFace" target="actor" targetSpec="" /> Ici, tu auras affaire
+à un <colour id="1" />labyrinthe<colour id="65535" />!<delay40 /><delay20 /> Bien reçu?
+<anim id="FaintSmile" target="actor" targetSpec="" />À toi d'en trouver la sortie par tes
+propres moyens. <delay20 /><anim id="Angry" target="actor" targetSpec="" />Pas de vue du ciel
+fournie par le génie aérien!
+<anim id="EmotEnd" target="actor" targetSpec="" />Ce dernier veillera sur tes affaires <anim id="Nodding" target="actor" targetSpec="" />à
+l'aéroport pendant que <delay20 /><anim id="FaintSmile" target="actor" targetSpec="" />tu pars en
+mission les <colour id="1" />ailes vides<colour id="65535" />. <delay20 /><anim id="EmotEnd" target="actor" targetSpec="" />Ou les <colour id="1" />mains<colour id="65535" />.
+<anim id="Explain" target="actor" targetSpec="" />Tu vois, nous autres, nous nous
+repérons grâce à notre radar interne, fierté de notre corps.
+<anim id="Explain" target="actor" targetSpec="" />Mais toi, simple bipède rivé au
+plancher, tu vas devoir te débrouiller
+autrement pour te sortir de là.
+<anim id="Aha" target="actor" targetSpec="" />Toutefois, si tu es bloqué<gender2 m="" f="e" /> ou perdu<gender2 m="" f="e" />
+dans un épais brouillard, pas de
+panique. <delay20 /><anim id="Nodding" target="actor" targetSpec="" />Appelle le <colour id="1" />service d'aide<colour id="65535" />.
+<anim id="Explain" target="actor" targetSpec="" />Nos alliés souterrains remettront
+les compteurs à zéro <anim id="Greeting" target="actor" targetSpec="" />pour que tu te
+ravitailles et repartes au combat.
+<anim id="BigSmile" target="actor" targetSpec="" />Et si jamais tu as besoin d'un petit
+coup de pouce, j'aurai peut-être
+un ou deux indices pour toi.
+<anim id="EmotEnd" target="actor" targetSpec="" />Bien. <delay20 />La présentation est terminée.<delay20 /> 
+À mon signal<tag a="110" b="0" /> Prêt<gender2 m="" f="e" /><tag a="110" b="0" /> <anim id="Angry" target="actor" targetSpec="" />Go, go, go!</message>
+	<message label="042" attrib="06 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Perdu<gender2 m="" f="e" /> dans un épais brouillard?
+Balloté<gender2 m="" f="e" /> par les turbulences? Besoin
+de ravitaillement?<delay20 /><anim id="Eh" target="actor" targetSpec="" /> Je suis à ta dispo.</message>
+	<message label="042_a" attrib="00 00 00 00">T'as pas un indice?</message>
+	<message label="042_b" attrib="00 00 00 00">Il me faut un outil.</message>
+	<message label="042_c" attrib="00 00 00 00">Je veux rentrer!</message>
+	<message label="042_d" attrib="00 00 00 00">Tout va bien, terminé.</message>
+	<message label="043" attrib="02 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Je répète pour prévenir toute
+interférence : tu ne reverras jamais
+exactement cette île.
+<anim id="EmotEnd" target="actor" targetSpec="" />L'<colour id="1" />escapade du 1 mai<colour id="65535" /> est unique.<delay20 />
+Tu confirmes tes ordres malgré
+tout?</message>
+	<message label="043_a" attrib="00 00 00 00"><anim id="Nodding" target="player" targetSpec="" />Oui!</message>
+	<message label="043_b" attrib="00 00 00 00"><anim id="Negative" target="player" targetSpec="" />Non, attends<tag a="110" b="0" /></message>
+	<message label="044" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Négatif. <delay20 />Cette mission doit être
+accomplie sans matériel. Vole vers
+la victoire, civil<gender2 m="" f="e" />, mais vole à vide.
+<anim id="Serious" target="actor" targetSpec="" />L'<colour id="1" />escapade du 1 mai<colour id="65535" /> implique une
+approche furtive vers l'objectif, qui
+exclut l'équipement. <delay20 />Bien reçu?
+<anim id="Negative" target="actor" targetSpec="" />Je ne te fournirai pas d'outils, même
+si tu le demandes poliment ou que tu
+deviens m<gender2 m="on" f="a" /> supérieur<gender2 m="" f="e" />.<delay20 /> C'est non.
+<anim id="EmotEnd" target="actor" targetSpec="" />Tu m'en vois navré, civil<gender2 m="" f="e" />, mais c'est
+la loi et le code des dodos ne connaît
+pas d'exception. <delay20 />C'est comme ça.</message>
+	<message label="045" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Un indice?<delay20 /> <anim id="Nodding" target="actor" targetSpec="" />Bien reçu.<delay20 />
+<anim id="Thinking" target="actor" targetSpec="" />Le temps d'effectuer un relevé
+d'informations<tag a="110" b="0" /></message>
+	<message label="046_0" attrib="00 00 00 00">Voici un renseignement :<anim id="Hello" target="actor" targetSpec="" /> les <colour id="1" />fruits<colour id="65535" />
+sont un puissant kérosène. <anim id="Angry" target="actor" targetSpec="" />Avales-en
+un et tu pulvériseras le mur du son!
+<anim id="Explain" target="actor" targetSpec="" />Ou du moins, tu pourras <colour id="1" />déraciner
+les arbres<colour id="65535" /> et <colour id="1" />briser les rochers <colour id="65535" />armé<gender2 m="" f="e" />
+d'une simple pelle ou d'une hache.</message>
+	<message label="046_1" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Il me semblait pourtant avoir dit
+« terminé », mais soit. <delay20 /><anim id="Explain" target="actor" targetSpec="" />Parlons un
+peu du franchissement de fossé.
+<anim id="Smiling" target="actor" targetSpec="" />Pour sauter au-dessus d'un fossé
+suffisamment étroit, incline <colour id="1" />
+<colour id="65535" />dans la direction voulue.
+<anim id="EmotEnd" target="actor" targetSpec="" />Voilà, c'est tout. <delay20 />Je dirais bien
+« terminé », mais Double Delta Oscar
+ne se fait pas avoir deux fois.</message>
+	<message label="046_2" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Si tu te retrouves bloqué<gender2 m="" f="e" />, garde ton
+sang-froid, déploie ton téléphone
+et appelle le <colour id="1" />service d'aide<colour id="65535" />.
+<anim id="Explain" target="actor" targetSpec="" />Il sera procédé à une réinitialisation
+de l'île en bonne et due forme, <anim id="Greeting" target="actor" targetSpec="" />et tu
+pourras réintégrer le labyrinthe.</message>
+	<message label="046_3" attrib="00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />Bien.<delay20 /> Dans l'éventualité où un
+arbre entraverait ta progression.<delay20 />
+Deux possibilités.
+<anim id="Nodding" target="actor" targetSpec="" />Option A : ingestion de <colour id="1" />fruit<colour id="65535" />, puis
+déracinement en règle à coups de
+<colour id="1" />pelle<colour id="65535" /> bien placés.
+<anim id="Explain" target="actor" targetSpec="" />Option B : abattage dudit arbre à
+l'aide d'une <colour id="1" />hache<colour id="65535" />, <anim id="Serious" target="actor" targetSpec="" />puis excavation
+de la souche à la <colour id="1" />pelle<colour id="65535" />.
+<anim id="Angry" target="actor" targetSpec="" />Terminé!</message>
+	<message label="046_4" attrib="00 00 00 00">Autre renseignement :<anim id="Smiling" target="actor" targetSpec="" /> si tu as
+besoin d'outils, fais appel à
+tes talents de bricoleu<gender2 m="r" f="se" />.
+<anim id="Explain" target="actor" targetSpec="" />La procédure est simple : collecte
+de matériaux, <anim id="Greeting" target="actor" targetSpec="" />identification d'un
+<colour id="1" />établi de bricolage simple<colour id="65535" />, et voilà.</message>
+	<message label="047" attrib="01 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Impressionnant! <delay20 /><anim id="Pardon" target="actor" targetSpec="" />Tu as réussi à
+quitter le labyrinthe de tes propres
+ailes, <tag a="110" b="1" />?<delay20 /><anim id="EmotEnd" target="actor" targetSpec="" /></message>
+	<message label="047_a" attrib="00 00 00 00">Ouais!</message>
+	<message label="047_b" attrib="00 00 00 00">C'était facile!</message>
+	<message label="048" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Mes compliments! <anim id="Smiling" target="actor" targetSpec="" />N'oublie pas de
+faire ton rapport à ce cher <colour id="3" />Nook<colour id="65535" /><tag a="110" b="0" /><pageBreak /><anim id="Eh" target="actor" targetSpec="" />Oh, enclenchez les aérofreins!<delay20 /> D'où
+sors-tu cette chose?<delay20 /> De mémoire de
+pilote, on n'a jamais vu ça<tag a="110" b="0" />
+<anim id="Nodding" target="actor" targetSpec="" />Je ne vais pas tourner autour du
+pot, civil<gender2 m="" f="e" />. <delay20 /><anim id="EmotEnd" target="actor" targetSpec="" />C'est un visiteur fortuit
+de l'île qui t'a donné cet objet?
+Eh bien, c'est avec une grande fierté
+que <anim id="Assent" target="actor" targetSpec="" />Dodo Airlines va livrer ta
+récompense à domicile.
+<anim id="EmotEnd" target="actor" targetSpec="" />Cette <colour id="1" />escapade du 1 mai<colour id="65535" /> valait le
+détour, non? <delay20 /><anim id="Hello" target="actor" targetSpec="" />J'attends maintenant
+ton signal pour rentrer au bercail.
+<anim id="Aha" target="actor" targetSpec="" />Toutefois, si tu es bloqué<gender2 m="" f="e" /> ou perdu<gender2 m="" f="e" />
+dans le brouillard, pas de panique. 
+<delay20 /><anim id="Nodding" target="actor" targetSpec="" />Appelle le <colour id="1" />service d'aide<colour id="65535" />.
+<anim id="Explain" target="actor" targetSpec="" />Nos alliés souterrains remettront
+les compteurs à zéro <anim id="Greeting" target="actor" targetSpec="" />pour que tu te
+ravitailles et repartes au combat.</message>
+	<message label="049" attrib="02 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Ton attention, s'il te plaît!<delay20 />
+<anim id="QuestionMark" target="actor" targetSpec="" />Quelle est la prochaine étape
+figurant sur ton plan de vol?</message>
+	<message label="049_a" attrib="00 00 00 00">On rentre à la maison.</message>
+	<message label="049_b" attrib="00 00 00 00">Laisse tomber, ça va.</message>
+	<message label="050" attrib="00 00 00 00"><anim id="Laughing" target="actor" targetSpec="" />Le <colour id="1" />service d'aide<colour id="65535" /> semble avoir pris
+bien soin de toi,<colour id="1" /> <colour id="65535" /><tag a="110" b="1" />!<delay20 /><pageBreak /><anim id="Nodding" target="actor" targetSpec="" />La procédure de réinitialisation de
+l'île est achevée. <delay20 /><anim id="Greeting" target="actor" targetSpec="" />Tu peux repartir
+dans le labyrinthe quand tu veux.
+<anim id="Smiling" target="actor" targetSpec="" />Et si tu es à nouveau bloqué<gender2 m="" f="e" />, le
+<colour id="1" />service d'aide<colour id="65535" /> te re-sauvera la
+mise. <delay20 /><anim id="Laughing" target="actor" targetSpec="" />Faudrait pas qu'ils s'ennuient!
+<anim id="Serious" target="actor" targetSpec="" />Alors accorde-toi un court instant de
+répit et repars au combat, civil<gender2 m="" f="e" />!<delay20 />
+<snpcAnim id="DodRoger" target="actor" targetSpec="" />Bonne chance!</message>
+	<message label="051" attrib="02 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Décollage pour <tag a="110" b="9" />?<delay20 />
+<anim id="EmotEnd" target="actor" targetSpec="" />Si tu veux refaire le labyrinthe,
+<delay20 /><anim id="Hello" target="actor" targetSpec="" />appelle le <colour id="1" />service d'aide<colour id="65535" />.</message>
+	<message label="051_a" attrib="00 00 00 00">Direction, la maison!</message>
+	<message label="051_b" attrib="00 00 00 00">Un instant.</message>
+	<message label="052" attrib="02 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Nous nous assurerons que tes
+affaires te soient restituées une fois
+de retour à <tag a="110" b="9" />.
+<anim id="Serious" target="actor" targetSpec="" />Par contre, le <colour id="1" />cadeau<colour id="65535" /> de ta nouvelle
+connaissance insulaire <anim id="Explain" target="actor" targetSpec="" />sera envoyé
+directement chez toi.
+Il ne devrait pas tarder à faire son
+apparition dans ta boîte aux lettres.<delay20 />
+<anim id="Hello" target="actor" targetSpec="" />En attendant, décollage imminent!</message>
+	<message label="052_a" attrib="00 00 00 00"><anim id="Nodding" target="player" targetSpec="" />Oui!</message>
+	<message label="052_b" attrib="00 00 00 00"><anim id="Negative" target="player" targetSpec="" />Non, attends<tag a="110" b="0" /></message>
+	<message label="053" attrib="02 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Nous nous assurerons que tes
+affaires te soient restituées une fois
+de retour à <tag a="110" b="9" />.
+<anim id="Serious" target="actor" targetSpec="" />Par contre, le <colour id="1" />cadeau<colour id="65535" /> de ta nouvelle
+connaissance insulaire <anim id="Explain" target="actor" targetSpec="" />sera envoyé
+directement chez toi.
+<anim id="EmotEnd" target="actor" targetSpec="" />Il en va de même pour les <colour id="1" />tickets
+clochettes<colour id="65535" /> obtenus au cours du
+périple. <delay20 />Direction ta boîte aux lettres.
+<anim id="Hello" target="actor" targetSpec="" />En attendant, décollage imminent!</message>
+	<message label="053_a" attrib="00 00 00 00"><anim id="Nodding" target="player" targetSpec="" />Oui!</message>
+	<message label="053_b" attrib="00 00 00 00"><anim id="Negative" target="player" targetSpec="" />Non, attends<tag a="110" b="0" /></message>
+	<message label="054" attrib="02 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Nous nous assurerons que tes
+affaires te soient restituées une fois
+de retour à <tag a="110" b="9" />.
+<anim id="Serious" target="actor" targetSpec="" />Quant aux <colour id="1" />tickets clochettes<colour id="65535" /> obtenus
+au cours de ton périple, ils seront
+directement envoyés chez toi.
+Pense à jeter un œil à ta boîte aux
+lettres régulièrement. <anim id="Hello" target="actor" targetSpec="" />En attendant,
+décollage imminent!</message>
+	<message label="054_a" attrib="00 00 00 00"><anim id="Nodding" target="player" targetSpec="" />Oui!</message>
+	<message label="054_b" attrib="00 00 00 00"><anim id="Negative" target="player" targetSpec="" />Non, attends<tag a="110" b="0" /></message>
+	<message label="055" attrib="02 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Tu ne pourras plus jamais visiter
+cette destination d'<colour id="1" />escapade du
+1 mai<colour id="65535" />. <delay20 /><anim id="EmotEnd" target="actor" targetSpec="" />Décollage immédiat?</message>
+	<message label="055_a" attrib="00 00 00 00"><anim id="Nodding" target="player" targetSpec="" />Oui!</message>
+	<message label="055_b" attrib="00 00 00 00"><anim id="Negative" target="player" targetSpec="" />Non, attends<tag a="110" b="0" /></message>
 </msbt>
