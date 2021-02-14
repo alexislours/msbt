@@ -35,7 +35,7 @@ tout ce que tu entendras, c'est
 <anim id="Grin" target="actor" targetSpec="" /><delay8 />« <tag a="110" b="10" /> a du goût! ».</message>
 	<message label="003" attrib="00 00 00 00 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />As-tu déjà eu l'occasion d'aller chez
 <tag a="115" b="1" arg="0xcd00" />?<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />J'ai été agréablement surprise par
-le soin avec lequel <tag a="50" b="17" arg="0xe 0xcd00 0x4 0x69 0x6c 0x8 0x65 0x6c 0x6c 0x65 0x0" /> a décoré
+le soin avec lequel <tag a="50" b="17" arg="0xf 0xcd00 0x4 0x69 0x6c 0x8 0x65 0x6c 0x6c 0x65 0x0" /> a décoré
 son intérieur.
 <anim id="Explain" target="actor" targetSpec="" />Pour moi,<delay8 /> une décoration se doit
 d'être le reflet de notre personnalité.<pageBreak /><anim id="Thinking" target="actor" targetSpec="" />Si je devais définir la mienne en deux
@@ -50,23 +50,21 @@ sur le meilleur emplacement de l'île!
 C'est magnifique ici. <delay frames="40" /><anim id="SmugFace" target="actor" targetSpec="" />C'est encore
 mieux que chez moi!</message>
 	<message label="005" attrib="00 00 00 00 00 00 00 00"><20_2 arg="10" /><20_2 arg="9" /><anim id="FaintSmile" target="actor" targetSpec="" />Comme c'est charmant ici,<delay8 /> <tag a="110" b="3" />.<delay20 /> J'ai l'impression d'être dans un cocon!<pageBreak /><20_3 arg="6" /><20_3 arg="3" /><anim id="EmotEnd" target="actor" targetSpec="" />Serait-ce une de ces mini-maisons
-dont on parle tant?<delay20 /> <anim id="Grin" target="actor" targetSpec="" /><colour id="4" />(Il en faut pour
-tous les goûts, j'imagine<tag a="110" b="0" />)<colour id="65535" /></message>
-	<message label="006" attrib="00 00 00 00 00 00 00 00"><20_2 arg="10" /><20_2 arg="9" /><anim id="Smiling" target="actor" targetSpec="" />Je me trompe ou cette maison
-n'était pas aussi grande avant,
-<tag a="110" b="3" />?
-<anim id="Greeting" target="actor" targetSpec="" />Attention,<delay20 /> quel que soit l'espace
+dont on parle tant?<delay20 /> <anim id="Grin" target="actor" targetSpec="" /><colour id="4" />Il en faut pour
+tous les goûts, j'imagine<tag a="110" b="0" /><colour id="65535" /></message>
+	<message label="006" attrib="00 00 00 00 00 00 00 00"><20_2 arg="10" /><20_2 arg="9" /><anim id="Smiling" target="actor" targetSpec="" />Aurais-tu agrandi ton chez-toi,
+<tag a="110" b="3" />?<pageBreak /><anim id="Greeting" target="actor" targetSpec="" />Attention,<delay20 /> quel que soit l'espace
 dont on dispose,<delay8 /> on trouve toujours
 le moyen de le remplir! <delay20 /><anim id="Grin" target="actor" targetSpec="" />Tu verras<tag a="110" b="0" /></message>
 	<message label="007" attrib="00 00 00 00 00 00 00 00"><20_2 arg="10" /><20_2 arg="9" /><anim id="FaintSmile" target="actor" targetSpec="" />Ooooh, tu vis dans un vrai petit
-palace!<delay20 /> <anim id="HappyFlower" target="actor" targetSpec="" />Une pièce en plus,<delay8 /> ça fait
-toute la différence,<delay8 /> n'est-ce pas?
-<20_3 arg="6" /><20_3 arg="3" /><anim id="EmotEnd" target="actor" targetSpec="" />Je suis curieuse<tag a="110" b="0" /><anim id="QuestionMark" target="actor" targetSpec="" /> Qu'as-tu fait de
-l'espace supplémentaire?<delay8 /> Cuisine?<delay8 /> 
-Salle de bain?
-<anim id="IdeaBulb" target="actor" targetSpec="" />Suis-je bête!<delay8 /> Un dressing, bien sûr!<delay frames="40" />
-<anim id="Grin" target="actor" targetSpec="" />Les placards suffisent rarement,
-<tag a="110" b="6" /><tag a="110" b="0" /></message>
+palais!<delay20 /> <anim id="HappyFlower" target="actor" targetSpec="" />Une deuxième pièce,<delay8 /> c'est
+le grand luxe,<delay8 /> n'est-ce pas?
+<20_3 arg="6" /><20_3 arg="3" /><anim id="EmotEnd" target="actor" targetSpec="" />Je suis curieuse<tag a="110" b="0" /><anim id="QuestionMark" target="actor" targetSpec="" /> Que fais-tu de tout
+cet espace?<delay8 /> Tu as aménagé une
+cuisine?<delay8 /> Une salle de bain?
+<anim id="IdeaBulb" target="actor" targetSpec="" />Suis-je bête!<delay8 /> Une pièce-penderie, 
+bien sûr!<delay frames="40" /> <anim id="Grin" target="actor" targetSpec="" />Les placards suffisent
+rarement, <tag a="110" b="6" /><tag a="110" b="0" /></message>
 	<message label="008" attrib="00 00 00 00 00 00 00 00"><20_2 arg="10" /><20_2 arg="9" /><anim id="Smiling" target="actor" targetSpec="" />Nom d'<tag a="50" b="2" /><tag a="110" b="15" />!<delay20 /> Tu as trois pièces dans ta maison?<pageBreak /><anim id="Thinking" target="actor" targetSpec="" />J'aime beaucoup ce petit côté
 asymétrique<tag a="110" b="0" /><delay20 /> <anim id="FaintSmile" target="actor" targetSpec="" />Tu m'épates,
 <tag a="110" b="6" />!</message>
@@ -79,8 +77,8 @@ beaucoup trop pour les confier
 	<message label="010" attrib="00 00 00 00 00 00 00 00"><20_2 arg="10" /><20_2 arg="9" /><anim id="HappyFlower" target="actor" targetSpec="" />Un étage,<delay20 /> c'est exactement ce
 qu'il manquait à cette maison, <tag a="110" b="3" />.<pageBreak /><anim id="Thinking" target="actor" targetSpec="" />Enfin,<delay8 /> j'espère que tu as de bons
 mollets,<delay8 /> <20_3 arg="6" /><20_3 arg="3" /><anim id="EmotEnd" target="actor" targetSpec="" />avec toutes ces marches,
-<tag a="110" b="5" /><tag a="110" b="0" /><pageBreak /><anim id="Grin" target="actor" targetSpec="" /><colour id="4" />(<gender2 m="Le" f="La" /> pauvre,<delay8 /> <gender2 m="il" f="elle" /> a pas fini d'avoir
-des courbatures<tag a="110" b="0" />)<colour id="65535" /></message>
+<tag a="110" b="5" /><tag a="110" b="0" /><pageBreak /><anim id="Grin" target="actor" targetSpec="" /><colour id="4" /><gender2 m="Le" f="La" /> pauvre,<delay8 /> <gender2 m="il" f="elle" /> a pas fini d'avoir
+des courbatures<tag a="110" b="0" /><colour id="65535" /></message>
 	<message label="011" attrib="00 00 00 00 00 00 00 00"><20_2 arg="10" /><20_2 arg="9" /><anim id="Explain" target="actor" targetSpec="" />Je vois que tu as fait creuser un
 sous-sol, <tag a="110" b="3" /><tag a="110" b="0" />?<pageBreak /><20_3 arg="6" /><20_3 arg="3" /><anim id="EmotEnd" target="actor" targetSpec="" />Est-ce que je peux te demander<tag a="110" b="0" />
 <anim id="QuestionMark" target="actor" targetSpec="" />ce que tu comptes y faire,<delay8 /> <tag a="110" b="6" />?<pageBreak /><20_3 arg="6" /><anim id="Negative" target="actor" targetSpec="" />Tu n'es pas obligé<gender2 m="" f="e" /> de répondre<tag a="110" b="0" /><delay20 />
@@ -90,30 +88,28 @@ mon imagination débordante.</message>
 <tag a="115" b="0" arg="0xcd00" /> habite dans une tente?<pageBreak /><20_3 arg="6" /><20_3 arg="3" /><anim id="OhGeez" target="actor" targetSpec="" />La communion avec la nature,<delay8 />
 le grand air<tag a="110" b="0" /> ça va cinq minutes,<delay8 /> non?<delay20 /><pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Bah, chacun ses goûts, <tag a="110" b="6" />!</message>
 	<message label="013" attrib="00 00 00 00 00 00 00 00"><20_2 arg="10" /><20_2 arg="9" /><anim id="Serious" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="115" b="0" arg="0xcd00" /> doit être un peu à l'étroit ici, <tag a="110" b="5" />.<pageBreak /><20_3 arg="6" /><20_3 arg="3" /><anim id="Eh" target="actor" targetSpec="" />Oh, <delay8 />je trouve ça très confortable!<delay20 /> Et
-je suis sûre <gender4 m="que " f="qu'" />⁠<tag a="115" b="0" arg="0xcd00" /> a tout ce qu'il lui faut!<pageBreak /><anim id="Grin" target="actor" targetSpec="" /><colour id="4" />(Si ce n'est un peu d'espace,<delay20 />
-peut-être?)<colour id="65535" /></message>
+je suis sûre <gender4 m="que " f="qu'" />⁠<tag a="115" b="0" arg="0xcd00" /> a tout ce qu'il lui faut!<pageBreak /><anim id="Grin" target="actor" targetSpec="" /><colour id="4" />Si ce n'est un peu d'espace,<delay20 />
+peut-être?<colour id="65535" /></message>
 	<message label="014" attrib="00 00 00 00 00 00 00 00"><20_2 arg="10" /><20_2 arg="9" /><anim id="Greeting" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="115" b="0" arg="0xcd00" /> a une grande maison! <delay20 /><anim id="OhGeez" target="actor" targetSpec="" />Rhô,<delay8 /> je suis jalouse<tag a="110" b="0" /><pageBreak /><20_3 arg="6" /><20_3 arg="3" />Ce que j'aimerais avoir autant de place<tag a="110" b="0" /><delay20 /><anim id="SmugFace" target="actor" targetSpec="" /> Mes meubles sont si massifs<delay8 /> et si luxueux!
 <anim id="Thinking" target="actor" targetSpec="" />Ils ont besoin d'espace pour 
 s'exprimer, <tag a="110" b="5" /><tag a="110" b="0" /></message>
-	<message label="015" attrib="00 00 00 00 00 00 00 00"><20_2 arg="10" /><20_2 arg="9" /><tag a="50" b="3" /><tag a="115" b="0" arg="0xcd00" /> a décidé de nous en mettre plein la vue,<delay8 /> on dirait!<delay20 /> <anim id="Aha" target="actor" targetSpec="" /><tag a="50" b="17" arg="0xd 0xcd00 0x4 0x49 0x6c 0x8 0x45 0x6c 0x6c 0x65 0x0" /> a une pièce en plus!<pageBreak /><20_3 arg="6" /><20_3 arg="3" /><anim id="QuestionMark" target="actor" targetSpec="" />Tu es déjà rentré<gender2 m="" f="e" /> chez <tag a="50" b="17" arg="0xd 0xcd00 0x6 0x6c 0x75 0x69 0x8 0x65 0x6c 0x6c 0x65 0x0" />?<delay frames="40" /> <anim id="HappyDance" target="actor" targetSpec="" />Je
+	<message label="015" attrib="00 00 00 00 00 00 00 00"><20_2 arg="10" /><20_2 arg="9" /><tag a="50" b="3" /><tag a="115" b="0" arg="0xcd00" /> a décidé de nous en mettre plein la vue,<delay8 /> on dirait!<delay20 /> <anim id="Aha" target="actor" targetSpec="" /><tag a="50" b="17" arg="0xe 0xcd00 0x4 0x49 0x6c 0x8 0x45 0x6c 0x6c 0x65 0x0" /> a une pièce en plus!<pageBreak /><20_3 arg="6" /><20_3 arg="3" /><anim id="QuestionMark" target="actor" targetSpec="" />Tu es déjà rentré<gender2 m="" f="e" /> chez <tag a="50" b="17" arg="0xe 0xcd00 0x6 0x6c 0x75 0x69 0x8 0x65 0x6c 0x6c 0x65 0x0" />?<delay frames="40" /> <anim id="HappyDance" target="actor" targetSpec="" />Je
 serais curieuse de savoir comment
 c'est aménagé, <tag a="110" b="6" /><tag a="110" b="0" />
 <anim id="IdeaBulb" target="actor" targetSpec="" />On sonne?</message>
-	<message label="016" attrib="00 00 00 00 00 00 00 00"><20_2 arg="10" /><20_2 arg="9" /><anim id="Eh" target="actor" targetSpec="" />La maison <gender4 m="de " f="d'" />⁠<tag a="115" b="0" arg="0xcd00" />
-ne serait-elle pas un peu<tag a="110" b="0" />
-disproportionnée?<pageBreak /><20_3 arg="6" /><20_3 arg="3" /><anim id="Grin" target="actor" targetSpec="" />L'île n'est pas immense non plus,
+	<message label="016" attrib="00 00 00 00 00 00 00 00"><20_2 arg="10" /><20_2 arg="9" /><anim id="Eh" target="actor" targetSpec="" />La maison <gender4 m="de " f="d'" />⁠<tag a="115" b="0" arg="0xcd00" /> ne serait-elle pas un peu<tag a="110" b="0" /> disproportionnée?<pageBreak /><20_3 arg="6" /><20_3 arg="3" /><anim id="Grin" target="actor" targetSpec="" />L'île n'est pas immense non plus,
 <tag a="110" b="6" />.</message>
 	<message label="017" attrib="00 00 00 00 00 00 00 00"><20_2 arg="10" /><20_3 arg="3" /><anim id="Eh" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="115" b="0" arg="0xcd00" /> a quatre pièces!<delay8 /> QUATRE!<pageBreak /><20_3 arg="6" /><20_3 arg="3" /><anim id="Grin" target="actor" targetSpec="" />Ça en fait, des mètres carrés à
 nettoyer<tag a="110" b="0" /><delay20 /> Je lui souhaite bien
 du courage.</message>
-	<message label="018" attrib="00 00 00 00 00 00 00 00"><20_2 arg="10" /><20_2 arg="9" /><anim id="FaintSmile" target="actor" targetSpec="" />Tu savais <gender4 m="que " f="qu'⁠" />⁠<tag a="115" b="0" arg="0xcd00" /> avait fait ajouter un étage à sa maison, <tag a="110" b="6" />?<pageBreak /><20_3 arg="6" /><20_3 arg="3" /><anim id="Greeting" target="actor" targetSpec="" />Je n'échangerais ma demeure pour
+	<message label="018" attrib="00 00 00 00 00 00 00 00"><20_2 arg="10" /><20_2 arg="9" /><anim id="FaintSmile" target="actor" targetSpec="" />Tu savais <gender4 m="que " f="qu'⁠" />⁠<tag a="115" b="0" arg="0xcd00" /> avait une maison avec étage, <tag a="110" b="6" />?<pageBreak /><20_3 arg="6" /><20_3 arg="3" /><anim id="Greeting" target="actor" targetSpec="" />Je n'échangerais ma demeure pour
 rien au monde<tag a="110" b="0" /> <anim id="Laughing" target="actor" targetSpec="" />mais j'aimerais bien
 prendre de la hauteur<delay8 /> moi aussi!<delay frames="13" /><anim id="FaintSmile" target="actor" targetSpec="" /></message>
-	<message label="019" attrib="00 00 00 00 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Tu es au courant, <tag a="110" b="5" />?<delay20 /> <anim id="Angry" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="115" b="0" arg="0xcd00" /> s'est fait construire un sous-sol!<pageBreak /><20_2 arg="10" /><20_2 arg="9" /><anim id="OhGeez" target="actor" targetSpec="" />Comme <tag a="50" b="17" arg="0xd 0xcd00 0x8 0x73 0x27 0x69 0x6c 0xe 0x73 0x69 0x20 0x65 0x6c 0x6c 0x65 0x0" /> n'avait pas déjà assez
-de place<tag a="110" b="0" /><delay20 /> <20_3 arg="6" /><20_3 arg="3" /><anim id="Eh" target="actor" targetSpec="" />On se demande ce qu'<tag a="50" b="17" arg="0xd 0xcd00 0x4 0x69 0x6c 0x8 0x65 0x6c 0x6c 0x65 0x0" />
+	<message label="019" attrib="00 00 00 00 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Tu es au courant, <tag a="110" b="5" />?<delay20 /> <anim id="Angry" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="115" b="0" arg="0xcd00" /> s'est fait construire un sous-sol!<pageBreak /><20_2 arg="10" /><20_2 arg="9" /><anim id="OhGeez" target="actor" targetSpec="" />Comme <tag a="50" b="17" arg="0xe 0xcd00 0x8 0x73 0x27 0x69 0x6c 0xe 0x73 0x69 0x20 0x65 0x6c 0x6c 0x65 0x0" /> n'avait pas déjà assez
+de place<tag a="110" b="0" /><delay20 /> <20_3 arg="6" /><20_3 arg="3" /><anim id="Eh" target="actor" targetSpec="" />On se demande ce qu'<tag a="50" b="17" arg="0xe 0xcd00 0x4 0x69 0x6c 0x8 0x65 0x6c 0x6c 0x65 0x0" />
 va en faire!
-<anim id="Outraged" target="actor" targetSpec="" />Si c'est un dressing<tag a="110" b="0" /><delay40 /> je suis verte
-de jalousie, <gender2 m="mon chou" f="ma chérie" />!<delay8 /><anim id="Worried" target="actor" targetSpec="" /></message>
+<anim id="Outraged" target="actor" targetSpec="" />Si c'est une pièce-penderie<tag a="110" b="0" /><delay40 /> je suis 
+verte de jalousie, <gender2 m="mon chou" f="ma chérie" />!<delay8 /><anim id="Worried" target="actor" targetSpec="" /></message>
 	<message label="020" attrib="00 00 00 00 00 00 00 00"><20_2 arg="10" /><colour id="3" /><20_2 arg="9" /><colour id="65535" /><anim id="QuestionMark" target="actor" targetSpec="" />Tu sais que <colour id="3" />Méli<colour id="65535" /> loue la tente de son
 magasin<delay8 /> à <colour id="3" />Tom Nook<colour id="65535" />?<pageBreak /><20_3 arg="6" /><20_3 arg="3" /><anim id="Explain" target="actor" targetSpec="" />C'est pas énorme, mais je trouve
 toujours ce qu'il me faut!<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Je croise les doigts pour que la
@@ -150,9 +146,7 @@ moi aussi<tag a="110" b="0" /><anim id="Aha" target="actor" targetSpec="" /> ell
 ma confidente.<delay20 /> <anim id="FaintSmile" target="actor" targetSpec="" />Je crois qu'elle
 apprécie cette marque de confiance.</message>
 	<message label="030" attrib="00 00 00 00 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Tu es en partance pour une autre
-île, <tag a="110" b="3" />? <anim id="FaintSmile" target="actor" targetSpec="" />À moins
-que tu n'aies un rendez-vous?
-<anim id="Greeting" target="actor" targetSpec="" />J'ai toujours aimé les <colour id="1" />aéroports<colour id="65535" />,
+île, <tag a="110" b="3" />? <anim id="FaintSmile" target="actor" targetSpec="" />À moins que tu n'aies un rendez-vous?<pageBreak /><anim id="Greeting" target="actor" targetSpec="" />J'ai toujours aimé les <colour id="1" />aéroports<colour id="65535" />,
 tous ces gens qui se font leurs
 adieux, qui ne sont pas vraiment là<tag a="110" b="0" />
 <anim id="Love" target="actor" targetSpec="" />C'est l'endroit le plus romantique au

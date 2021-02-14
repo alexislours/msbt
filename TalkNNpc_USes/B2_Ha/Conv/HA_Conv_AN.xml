@@ -21,7 +21,7 @@ tararear algo y yo lo rimo.
 Bueno, a ver<tag a="110" b="0" /><pageBreak /><anim id="Nodding" target="actor" targetSpec="" />¡Contento levantando pesas!</message>
 	<message label="005" attrib="00 00 00 00 00 00 00 00"><anim id="Dance" target="actor" targetSpec="" />¡Haciendo<delay8 /> sentadillas de esas!</message>
 	<message label="006" attrib="00 00 00 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />¡Tonificando hasta las orejas!</message>
-	<message label="007" attrib="00 00 05 00 00 00 00 00"><anim id="Clapping" target="actor" targetSpec="" />¡Es como mejor te expresas!<delay8 />
+	<message label="007" attrib="00 00 05 00 00 00 00 00"><20_2 arg="2" /><anim id="Clapping" target="actor" targetSpec="" />¡Es como mejor te expresas!<delay8 />
 ¡Bíceps duros como el acero!<delay8 />
 ¡En marzo, abril o febrero!
 <20_2 arg="8" /><anim id="EmotEnd" target="actor" targetSpec="" />¡Te toca, <tag a="110" b="3" />!</message>
@@ -32,7 +32,7 @@ Bueno, a ver<tag a="110" b="0" /><pageBreak /><anim id="Nodding" target="actor" 
 	<message label="008" attrib="00 00 00 00 00 00 00 00"><anim id="Cheering" target="actor" targetSpec="" />¡Qué temazo!<pageBreak /><anim id="Scheming" target="actor" targetSpec="" />¡Vaya, <tag a="110" b="3" />!<delay8 />
 Se nota que tienes el ritmo en
 las venas, guapura. <delay8 />¡Lo sabía!
-Y tú, <tag a="110" b="31" arg="0xcd00" /><tag a="110" b="0" /><delay8 />
+<20_3 arg="7" />Y tú, <tag a="110" b="31" arg="0xcd00" /><tag a="110" b="0" /><delay8 />
 <anim id="OhGeez" target="actor" targetSpec="" />No estuviste tan mal, pero aún
 puedes mejorar bastante.
 <anim id="SmugFace" target="actor" targetSpec="" />¡En fin, a ver cuándo repetimos
@@ -41,9 +41,9 @@ la jugada, amiguis!</message>
 como que sí es un poco sobre mí<tag a="110" b="0" /></message>
 	<message label="010" attrib="00 00 00 00 00 00 06 00"><10_14 arg="20" /><anim id="Outraged" target="actor" targetSpec="" />¡¿En seriooo?!<10_9 /><pageBreak /><anim id="OhGeez" target="actor" targetSpec="" /><20_2 arg="7" />Pero<tag a="110" b="0" /> <delay8 /><20_2 arg="8" />Con lo bien que íbamos
 y ahora me sales con una rima
-tan tonta<tag a="110" b="0" />
+tan tonta<anim id="Eh" target="player" targetSpec="" /><tag a="110" b="0" />
 <anim id="Negative" target="actor" targetSpec="" />Pues lo último que quiero es hacer
-canciones aburridas, ¿sabes?<pageBreak /><anim id="Angry" target="actor" targetSpec="" />¡Me niego a caer en temáticas básicas y letras tontas pero
+canciones aburridas, ¿sabes?<pageBreak /><anim id="EmotEnd" target="player" targetSpec="" /><anim id="Angry" target="actor" targetSpec="" />¡Me niego a caer en temáticas básicas y letras tontas pero
 pegajosas!<delay8 /> Eso no me gusta nada.
 <anim id="Sighing" target="actor" targetSpec="" />A lo mejor tenemos que pensar dos
 veces esto de iniciar una carrera

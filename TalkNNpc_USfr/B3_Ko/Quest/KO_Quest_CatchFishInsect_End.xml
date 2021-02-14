@@ -7,7 +7,7 @@
 	<message label="004_a" attrib="00 00 00 00 00 00 00 00">C'est un cadeau!
 Ça me fait plaisir.</message>
 	<message label="004_b" attrib="00 00 00 00 00 00 00 00">En fait non.
-J'ai changé d'avis.</message>
+<anim id="EmotEnd" target="actor" targetSpec="" />J'ai changé d'avis.</message>
 	<message label="005" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Eh bien,<delay8 /> puisque tu insistes<tag a="110" b="0" /><anim id="FaintSmile" target="actor" targetSpec="" /></message>
 	<message label="006" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Oh,<delay8 /> tu as changé d'avis?<delay8 />
 <anim id="FaintSmile" target="actor" targetSpec="" />T'en fais pas,<delay8 /> je comprends.<pageBreak /><anim id="Hesitate" target="actor" targetSpec="" />Fais-moi signe si tu captures un
@@ -51,8 +51,8 @@ tu sais?<delay20 /><anim id="Pardon" target="actor" targetSpec="" /> T'es sûr<g
 vouloir t'en séparer?</message>
 	<message label="024_a" attrib="00 00 00 00 00 00 00 00">C'est pour toi!
 Tiens, un cadeau!</message>
-	<message label="024_b" attrib="00 00 00 00 00 00 00 00">Euh, en fait...
-Euh, attends...</message>
+	<message label="024_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Euh, en fait...
+<anim id="EmotEnd" target="actor" targetSpec="" />Euh, attends...</message>
 	<message label="025" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Puisque tu insistes,<delay8 /> j'accepte avec
 plaisir!<delay frames="40" /> <anim id="FaintSmile" target="actor" targetSpec="" />Gaffe,<delay8 /> par contre<tag a="110" b="0" /> <anim id="Pardon" target="actor" targetSpec="" />donner
 c'est donner,<delay8 /> reprendre c'est voler!</message>
@@ -127,23 +127,23 @@ d'eau de mer.
 par mes propres moyens.</message>
 	<message label="201" attrib="00 00 00 00 00 00 00 00"><anim id="Hesitate" target="actor" targetSpec="" />Fais-moi signe si jamais tu trouves
 <tag a="50" b="2" /><tag a="125" b="2" arg="0xcd00" />!<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />J'en vois souvent se poser sur les
-arbres,<delay8 /> <anim id="Restless" target="actor" targetSpec="" />mais <tag a="50" b="17" arg="0x13 0xcd00 0x6 0x69 0x6c 0x73 0xa 0x65 0x6c 0x6c 0x65 0x73 0x0" /> s'enfuient toujours
+arbres,<delay8 /> <anim id="Restless" target="actor" targetSpec="" />mais <tag a="50" b="17" arg="0x14 0xcd00 0x6 0x69 0x6c 0x73 0xa 0x65 0x6c 0x6c 0x65 0x73 0x0" /> s'enfuient toujours
 à mon approche!</message>
 	<message label="202" attrib="00 00 00 00 00 00 00 00"><anim id="Hesitate" target="actor" targetSpec="" />Je compte sur toi pour m'attraper
 <tag a="50" b="2" /><tag a="125" b="2" arg="0xcd00" />.<pageBreak /><anim id="Thinking" target="actor" targetSpec="" />Je dois avoir le pas trop lourd<tag a="110" b="0" />
-<anim id="Worried" target="actor" targetSpec="" /><tag a="50" b="17" arg="0x13 0xcd00 0x6 0x49 0x6c 0x73 0xa 0x45 0x6c 0x6c 0x65 0x73 0x0" /> s'enfuient toujours de l'herbe
+<anim id="Worried" target="actor" targetSpec="" /><tag a="50" b="17" arg="0x14 0xcd00 0x6 0x49 0x6c 0x73 0xa 0x45 0x6c 0x6c 0x65 0x73 0x0" /> s'enfuient toujours de l'herbe
 avant que je puisse m'en approcher.</message>
 	<message label="203" attrib="00 00 00 00 00 00 00 00"><anim id="Hesitate" target="actor" targetSpec="" />Je compte sur toi pour m'attraper
-<tag a="50" b="2" /><tag a="125" b="2" arg="0xcd00" />.<pageBreak /><anim id="Explain" target="actor" targetSpec="" /><tag a="50" b="17" arg="0x13 0xcd00 0x6 0x49 0x6c 0x73 0xa 0x45 0x6c 0x6c 0x65 0x73 0x0" /> volettent un peu partout sur
+<tag a="50" b="2" /><tag a="125" b="2" arg="0xcd00" />.<pageBreak /><anim id="Explain" target="actor" targetSpec="" /><tag a="50" b="17" arg="0x14 0xcd00 0x6 0x49 0x6c 0x73 0xa 0x45 0x6c 0x6c 0x65 0x73 0x0" /> volettent un peu partout sur
 l'île.<delay frames="40" /> <anim id="Grin" target="actor" targetSpec="" />Ça te donnera une bonne raison
 de faire de l'exercice, <tag a="110" b="6" />!</message>
 	<message label="204" attrib="00 00 00 00 00 00 00 00"><anim id="Hesitate" target="actor" targetSpec="" />Je compte sur toi pour m'attraper
 <tag a="50" b="2" /><tag a="125" b="2" arg="0xcd00" />.<pageBreak /><anim id="Pardon" target="actor" targetSpec="" />C'est qu'elles sont rapides,<delay8 />
 ces bestioles!<delay20 /><anim id="Worried" target="actor" targetSpec="" /> Un peu trop
 pour moi,<delay8 /> même.</message>
-	<message label="205" attrib="00 00 00 00 00 00 00 00"><anim id="Hesitate" target="actor" targetSpec="" />J'espère que tu pourras m'attraper <tag a="50" b="2" /><tag a="125" b="2" arg="0xcd00" /> sur l'une des fleurs aux alentours.<pageBreak /><anim id="Explain" target="actor" targetSpec="" /><tag a="50" b="17" arg="0x13 0xcd00 0x6 0x49 0x6c 0x73 0xa 0x45 0x6c 0x6c 0x65 0x73 0x0" /> sont parfois difficiles à repérer,<delay8 />
+	<message label="205" attrib="00 00 00 00 00 00 00 00"><anim id="Hesitate" target="actor" targetSpec="" />J'espère que tu pourras m'attraper <tag a="50" b="2" /><tag a="125" b="2" arg="0xcd00" /> sur l'une des fleurs aux alentours.<pageBreak /><anim id="Explain" target="actor" targetSpec="" /><tag a="50" b="17" arg="0x14 0xcd00 0x6 0x49 0x6c 0x73 0xa 0x45 0x6c 0x6c 0x65 0x73 0x0" /> sont parfois difficiles à repérer,<delay8 />
 alors ouvre l'œil.</message>
-	<message label="206" attrib="00 00 00 00 00 00 00 00"><anim id="Hesitate" target="actor" targetSpec="" />Tu penses pouvoir m'attraper <tag a="50" b="2" /><tag a="125" b="2" arg="0xcd00" /> sur une souche d'arbre?<pageBreak /><anim id="Nodding" target="actor" targetSpec="" /><tag a="50" b="17" arg="0x13 0xcd00 0x6 0x49 0x6c 0x73 0xa 0x45 0x6c 0x6c 0x65 0x73 0x0" /> ont tendance à se fondre dans
+	<message label="206" attrib="00 00 00 00 00 00 00 00"><anim id="Hesitate" target="actor" targetSpec="" />Tu penses pouvoir m'attraper <tag a="50" b="2" /><tag a="125" b="2" arg="0xcd00" /> sur une souche d'arbre?<pageBreak /><anim id="Nodding" target="actor" targetSpec="" /><tag a="50" b="17" arg="0x14 0xcd00 0x6 0x49 0x6c 0x73 0xa 0x45 0x6c 0x6c 0x65 0x73 0x0" /> ont tendance à se fondre dans
 le décor,<delay8 /><anim id="Worried" target="actor" targetSpec="" /> j'ai un peu de mal à les
 repérer<tag a="110" b="0" /></message>
 	<message label="207" attrib="00 00 00 00 00 00 00 00"><anim id="Hesitate" target="actor" targetSpec="" />J'espère que tu me trouveras <tag a="50" b="2" /><tag a="125" b="2" arg="0xcd00" />, <gender2 m="le jeune" f="la jeune" />.<pageBreak /><anim id="Restless" target="actor" targetSpec="" />Ces vlimeux ont la fâcheuse manie
@@ -164,5 +164,5 @@ embouchures des rivières.</message>
 	<message label="214" attrib="00 00 00 00 00 00 00 00"><anim id="Hesitate" target="actor" targetSpec="" />Ça me ferait vraiment plaisir
 si tu pouvais me sortir <tag a="50" b="2" /><tag a="125" b="3" arg="0xcd00" /> de l'océan!<pageBreak /><anim id="Worried" target="actor" targetSpec="" />Je suis vraiment pas assez doué
 avec une canne pour pouvoir en
-remonter <tag a="50" b="17" arg="0x14 0xcd00 0x4 0x75 0x6e 0x6 0x75 0x6e 0x65 0x0" /> tout seul<tag a="110" b="0" /></message>
+remonter <tag a="50" b="17" arg="0x15 0xcd00 0x4 0x75 0x6e 0x6 0x75 0x6e 0x65 0x0" /> tout seul<tag a="110" b="0" /></message>
 </msbt>

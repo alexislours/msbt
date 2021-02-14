@@ -1,32 +1,31 @@
 <msbt attribsize="8">
-	<message label="001" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Hola, <tag a="110" b="3" /><tag a="110" b="0" />
-<anim id="Hello" target="actor" targetSpec="" />¿Ya sabes lo que vas a comer en
-tu próxima merienda?<anim id="Shocked" target="subNpc" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" /></message>
+	<message label="001" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Hola, <tag a="110" b="3" /><tag a="110" b="0" /><delay8 />
+<anim id="Hello" target="actor" targetSpec="" />¿Ya sabes lo que vas a comer
+en tu próxima merienda?<anim id="Shocked" target="subNpc" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" /></message>
 	<message label="002" attrib="00 00 00 00 00 00 00 00"><20_3 arg="7" /><10_5 />¡Oyeoyeoye!<endTag a="10" b="5" /><delay8 /> ¿Estáis hablando
 de merendar?<delay20 /> <20_2 arg="8" /><anim id="Outraged" target="actor" targetSpec="" />¿Y no me invitáis?</message>
 	<message label="003" attrib="00 00 00 00 00 00 00 00"><anim id="ShyBoy" target="actor" targetSpec="" />He hecho una lista<tag a="110" b="0" /><delay8 />
 <anim id="Greeting" target="actor" targetSpec="" />¿Cuál os gusta más?<pageBreak /><anim id="QuestionMark" target="actor" targetSpec="" />¿<tag a="50" b="3" /><tag a="135" b="7" arg="0xcd00" />, <tag a="135" b="7" arg="0xcd01" /><tag a="110" b="0" /><delay8 /> <20_2 arg="6" />o qué tal <tag a="135" b="7" arg="0xcd02" />?<anim id="EmotEnd" target="subNpc" targetSpec="" /><anim id="EmotEnd" target="mainNpc" targetSpec="" /><pageBreak /><anim id="Love" target="actor" targetSpec="" />¿O mejor, <tag a="135" b="7" arg="0xcd03" />?<20_2 arg="8" /><anim id="QuestionMark" target="subNpc" targetSpec="" /><delay20 />
-¿O, si acaso, <tag a="135" b="7" arg="0xcd04" />?<20_2 arg="4" /><anim id="QuestionMark" target="player" targetSpec="" /><pageBreak />O espera<tag a="110" b="0" /><delay8 /> <20_2 arg="1" /><anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" /><anim id="Laughing" target="actor" targetSpec="" />Ay, no que ya he dicho
+¿O, si acaso, <tag a="135" b="7" arg="0xcd04" />?<20_2 arg="4" /><anim id="QuestionMark" target="player" targetSpec="" /><pageBreak />O espera<tag a="110" b="0" /><delay8 /> <20_2 arg="1" /><anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" /><anim id="Laughing" target="actor" targetSpec="" />Ay, no,<delay8 /> que ya he dicho
 todo lo que tengo para merendar
 hoy<tag a="110" b="0" /></message>
-	<message label="004" attrib="00 00 00 00 00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />Es un dilemón,<delay8 /> <tag a="110" b="5" /><tag a="110" b="0" /></message>
-	<message label="005" attrib="00 00 00 00 00 00 00 00"><20_2 arg="6" /><anim id="Frantic" target="actor" targetSpec="" />Por eso,<delay8 /> dulce que pillo,
-dulce que me como<tag a="110" b="0" />
-<20_2 arg="5" />¡Decidir es superdifícil!<anim id="Aha" target="subNpc" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" /></message>
+	<message label="004" attrib="00 00 00 00 00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />Qué difícil lo pones, <tag a="110" b="6" /><tag a="110" b="0" /></message>
+	<message label="005" attrib="00 00 00 00 00 00 00 00"><20_2 arg="6" /><anim id="Frantic" target="actor" targetSpec="" />Por eso yo,<delay8 /> dulce que pillo,
+dulce que me zampo<tag a="110" b="0" />
+<20_2 arg="5" />¡Decidir es supercomplicado!<anim id="Aha" target="subNpc" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" /></message>
 	<message label="006" attrib="00 00 00 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" /><10_5 />¡Ya!<endTag a="10" b="5" /><delay20 /><anim id="Nodding" target="actor" targetSpec="" /> Lo mismo mismísimo me pasa
-a mí cuando voy de compras,
-que nunca puedo decidirme.
-<anim id="Confused" target="actor" targetSpec="" />Me pruebo algo,<delay8 /> me gusta,
+a mí cuando voy de compras,<delay8 />
+<anim id="Laughing" target="actor" targetSpec="" />que no me aclaro yo sola.
+<anim id="Confused" target="actor" targetSpec="" />Me pruebo algo,<delay8 /> me gusta,<delay8 />
 pero me pruebo otra cosa,<delay8 />
-¡y me gusta también!
+¡y me gusta <anim id="Laughing" target="mainNpc" targetSpec="" />también!
 <anim id="Dance" target="actor" targetSpec="" />¡Así que me lo compro todo
-y fuera dudas!</message>
+<anim id="Eh" target="mainNpc" targetSpec="" />y fuera dudas!</message>
 	<message label="007" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />¡Pues tienes razón!<delay8 />
 <20_2 arg="5" /><anim id="SmugFace" target="actor" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" />Voy a comérmelo todo y ya me
 preocuparé luego por la indigestión.</message>
 	<message label="101" attrib="00 00 00 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />¡Huy, <tag a="110" b="3" />!<delay8 />
-¡Apareces justo a tiempo!<pageBreak /><anim id="Explain" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="110" b="31" arg="0xcd01" /> y yo estábamos
-discutiendo una cosilla<tag a="110" b="0" /></message>
+¡Apareces justo a tiempo!<pageBreak /><anim id="Explain" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="110" b="31" arg="0xcd01" /> y yo estábamos discutiendo una cosilla<tag a="110" b="0" /></message>
 	<message label="102" attrib="00 00 02 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Sí, tenemos un superdilemón.<delay20 />
 <anim id="QuestionMark" target="actor" targetSpec="" />¿Nos echas una pata, <tag a="110" b="3" />?<pageBreak /><20_2 arg="6" /><anim id="EmotEnd" target="actor" targetSpec="" /><anim id="Worried" target="actor" targetSpec="" /><anim id="Worried" target="mainNpc" targetSpec="" />No sabemos qué es mejor: besar
 a un pez o morder a un gusano<tag a="110" b="0" /><anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="actor" targetSpec="" /></message>
@@ -34,14 +33,14 @@ a un pez o morder a un gusano<tag a="110" b="0" /><anim id="EmotEnd" target="mai
 	<message label="102_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Me voy</message>
 	<message label="103" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="mainNpc" targetSpec="" />¡No te me espantes, que es solo
 un juego, <tag a="110" b="5" />!<pageBreak /><anim id="BigSmile" target="actor" targetSpec="" />Nos damos a elegir entre dos
-opciones entre malas y fatalas.<pageBreak /><anim id="Laughing" target="actor" targetSpec="" />Elijas lo que elijas,<delay8 /> ¡siempre pierdes!<delay20 />
-Pero nos echamos unas risas.<pageBreak /><20_2 arg="7" /><20_2 arg="5" /><anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="Greeting" target="actor" targetSpec="" /><anim id="Greeting" target="actor" targetSpec="" />Te toca contestar, <tag a="110" b="31" arg="0xcd00" />.<delay20 /> ¡A ver qué eliges!<anim id="Smiling" target="mainNpc" targetSpec="" /></message>
-	<message label="104" attrib="00 00 00 00 00 00 00 00"><anim id="Laughing" target="actor" targetSpec="" />Je, je, je, vale<tag a="110" b="0" /><delay8 /> <anim id="QuestionMark" target="actor" targetSpec="" />¿Qué prefieres<tag a="110" b="0" />?<10_4 />
-A veeer<tag a="110" b="0" /><pageBreak /><20_2 arg="5" /><anim id="Thinking" target="actor" targetSpec="" />Ahora que lo pienso<tag a="110" b="0" /><delay8 /> lo de besar
+opciones:<delay20 /> una mala<delay8 /> <anim id="Laughing" target="actor" targetSpec="" />y la otra fatala.<pageBreak />Elijas lo que elijas,<delay8 /> ¡siempre pierdes!<delay20 />
+<anim id="WrySmile" target="actor" targetSpec="" />Pero nos echamos unas risas.<pageBreak /><20_2 arg="7" /><20_2 arg="5" /><anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="Greeting" target="actor" targetSpec="" />Te toca contestar, <tag a="110" b="31" arg="0xcd00" />.<delay20 /> ¡A ver qué eliges!<anim id="Smiling" target="mainNpc" targetSpec="" /></message>
+	<message label="104" attrib="00 00 00 00 00 00 00 00"><anim id="Laughing" target="actor" targetSpec="" />Je, je, je, vale<tag a="110" b="0" /><delay8 />
+<anim id="QuestionMark" target="actor" targetSpec="" />¿Qué prefiero?<delay20 /> Um<tag a="110" b="0" /><pageBreak /><20_2 arg="5" /><anim id="Thinking" target="actor" targetSpec="" />Ahora que lo pienso<tag a="110" b="0" /><delay8 /> lo de besar
 a un pez no estaría tan mal,<delay20 />
 <anim id="Nodding" target="actor" targetSpec="" />porque el pescado está buenísimo<tag a="110" b="0" /></message>
-	<message label="105" attrib="00 00 00 00 00 00 00 00"><anim id="OhGeez" target="actor" targetSpec="" /><anim id="OhGeez" target="mainNpc" targetSpec="" />Jo,<delay8 /> qué poco te enrollas, <tag a="110" b="3" />.<delay20 /> <20_2 arg="7" /><anim id="EmotEnd" target="actor" targetSpec="" />Ya jugamos <tag a="110" b="31" arg="0xcd00" /> y yo<tag a="110" b="0" /></message>
-	<message label="106" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />No te preocupes, <tag a="110" b="31" arg="0xcd01" />, que juego yo:<delay20 /> <anim id="HappyFlower" target="mainNpc" targetSpec="" /><anim id="HappyFlower" target="actor" targetSpec="" />¡elijo las dos cosas a la vez!</message>
+	<message label="105" attrib="00 00 00 00 00 00 00 00"><anim id="OhGeez" target="actor" targetSpec="" /><anim id="SadSpiral" target="mainNpc" targetSpec="" />Jo,<delay8 /> qué poco te enrollas, <tag a="110" b="3" />.<delay20 /> <20_2 arg="7" />Pues nada,<delay8 /> ya jugamos <tag a="110" b="31" arg="0xcd00" /> y yo<tag a="110" b="0" /></message>
+	<message label="106" attrib="00 00 00 00 00 00 00 00"><20_2 arg="5" /><anim id="Nodding" target="actor" targetSpec="" />No te preocupes, <tag a="110" b="31" arg="0xcd01" />,<delay8 /> que juego yo:<delay20 /> <anim id="HappyFlower" target="mainNpc" targetSpec="" /><anim id="HappyFlower" target="actor" targetSpec="" />¡elijo las dos cosas a la vez!</message>
 	<message label="201" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />¡<tag a="50" b="3" /><tag a="110" b="5" />!<pageBreak /><anim id="Frantic" target="actor" targetSpec="" />Que yo no te he enviado ninguna
 carta de fan enfervorecido,
 <tag a="110" b="31" arg="0xcd01" /><tag a="110" b="0" /><anim id="EmotEnd" target="actor" targetSpec="" /></message>
@@ -53,19 +52,21 @@ estaba firmada con «<tag a="50" b="3" /><tag a="110" b="5" />»
 <anim id="BigSmile" target="actor" targetSpec="" />¡y es una muletilla superguay!<anim id="Shocked" target="mainNpc" targetSpec="" />
 <anim id="Negative" target="actor" targetSpec="" />Pero si me dices que no la has
 escrito tú<tag a="110" b="0" /><anim id="EmotEnd" target="mainNpc" targetSpec="" /></message>
-	<message label="203" attrib="00 00 00 00 00 00 00 00"><anim id="Frantic" target="actor" targetSpec="" />¡Que sí, que la he escrito yo!<delay8 />
+	<message label="203" attrib="00 00 00 00 00 00 00 00"><anim id="Blushing" target="actor" targetSpec="" />Vale, me has pillado,<delay8 /> ¡la escribí yo!<delay20 />
 Con mis mejores ceras y en el papel
-más limpio que tenía<tag a="110" b="0" />
-<anim id="Sighing" target="actor" targetSpec="" />Oí que ahora te dedicabas a la
-canción y pensé que te haría ilusión
-la carta de uno de tus fans<tag a="110" b="0" />
-<anim id="Smiling" target="subNpc" targetSpec="" />Ahora me hace ilusión a mí que te
-haya gustado mi muletilla<tag a="110" b="0" /><delay8 />
-<anim id="Blushing" target="actor" targetSpec="" />¡A mí también me encanta!
-<anim id="Smiling" target="actor" targetSpec="" />Te la regalo para una
-de tus letras si quieres,
-<tag a="110" b="31" arg="0xcd01" /><tag a="110" b="0" /></message>
-	<message label="204" attrib="00 00 00 00 00 00 00 00"><anim id="Clapping" target="actor" targetSpec="" />¡Qué superilu!<delay20 /> <anim id="FaintSmile" target="actor" targetSpec="" />Voy a probar,<delay8 /> ¿vale?<pageBreak /><anim id="Serious" target="actor" targetSpec="" />Ejem<tag a="110" b="0" /><delay20 /> <anim id="HappyDance" target="actor" targetSpec="" />¡<tag a="50" b="3" /><tag a="110" b="5" /> lalaláaa!<pageBreak /><anim id="HappyFlower" target="actor" targetSpec="" /><anim id="HappyFlower" target="mainNpc" targetSpec="" /><10_5 />¡Qué chupichachi!<endTag a="10" b="5" /><delay8 /> ¡Es<delay8 /> como<delay8 /> <10_5 />ma<endTag a="10" b="5" /><delay8 /><10_5 />ra<endTag a="10" b="5" />vi<delay8 /><10_5 />llo<endTag a="10" b="5" /><delay8 /><10_5 />so<endTag a="10" b="5" />!<delay20 /> ¡Vale para cualquier letra!<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />¿Tú que crees, <tag a="110" b="31" arg="0xcd00" />?<anim id="EmotEnd" target="mainNpc" targetSpec="" /></message>
+más limpio que tenía<anim id="Grin" target="subNpc" targetSpec="" /><tag a="110" b="0" />
+<anim id="OhGeez" target="actor" targetSpec="" />Como sé que quieres ser cantante,<anim id="Eh" target="subNpc" targetSpec="" /><delay8 />
+se me ocurrió que te haría ilusión
+recibir correo de un fan<anim id="Love" target="actor" targetSpec="" /><tag a="110" b="0" />
+<anim id="HappyFlower" target="actor" targetSpec="" />Pero la alegría me la he llevado yo.<delay20 />
+¡Qué guay que te guste <anim id="Nodding" target="subNpc" targetSpec="" />mi muletilla!<delay20 />
+<anim id="ShyBoy" target="actor" targetSpec="" />A mí también me encanta<tag a="110" b="0" />
+<anim id="Hesitate" target="actor" targetSpec="" />Te la regalo para una de tus letras
+si quieres, <tag a="110" b="31" arg="0xcd01" /><tag a="110" b="0" /></message>
+	<message label="204" attrib="00 00 00 00 00 00 00 00"><anim id="Clapping" target="actor" targetSpec="" />¡Qué superilu!<delay20 /> <anim id="FaintSmile" target="actor" targetSpec="" />Voy a probar,<delay8 /> ¿vale?<pageBreak /><anim id="Serious" target="actor" targetSpec="" />Ejem<tag a="110" b="0" /><delay20 /> <anim id="HappyDance" target="actor" targetSpec="" />¡<tag a="50" b="3" /><tag a="110" b="5" /><delay8 /> <anim id="AbsentMindedness" target="mainNpc" targetSpec="" />lalaláaa!<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" /><10_5 />¡Qué chupichachi!<endTag a="10" b="5" /><anim id="HappyFlower" target="mainNpc" targetSpec="" /><delay20 />
+¡Es<delay8 /> como<delay8 /> <10_5 />ma<endTag a="10" b="5" /><delay8 /><10_5 />ra<endTag a="10" b="5" />vi<delay8 /><10_5 />llo<endTag a="10" b="5" /><delay8 /><10_5 />so<endTag a="10" b="5" />!<delay20 />
+¡Vale para cualquier letra!<anim id="EmotEnd" target="mainNpc" targetSpec="" />
+<anim id="EmotEnd" target="actor" targetSpec="" />¿Tú que crees, <tag a="110" b="31" arg="0xcd00" />?<anim id="EmotEnd" target="mainNpc" targetSpec="" /></message>
 	<message label="205" attrib="00 00 00 00 00 00 00 00"><anim id="Love" target="actor" targetSpec="" />Qué ilusión que me hace escucharlo
 en la boca de una estrella del pop
 de verdad,<anim id="Eh" target="subNpc" targetSpec="" /> <tag a="110" b="31" arg="0xcd01" /><tag a="110" b="0" /><anim id="EmotEnd" target="subNpc" targetSpec="" /><anim id="EmotEnd" target="mainNpc" targetSpec="" /></message>

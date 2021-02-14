@@ -1,8 +1,8 @@
 <msbt attribsize="8">
-	<message label="001" attrib="00 00 02 00 00 00 00 00">Secondo te, <anim id="QuestionMark" target="actor" targetSpec="" /><delay8 />che aspetto avrebbe <tag a="50" b="2" /><tag a="125" b="0" arg="0x0" /> <tag a="50" b="17" arg="0x11 0xcd00 0xa 0x66 0x61 0x74 0x74 0x6f 0xa 0x66 0x61 0x74 0x74 0x61 0x0" /> dalla gente di qui?</message>
+	<message label="001" attrib="00 00 02 00 00 00 00 00">Secondo te, <anim id="QuestionMark" target="actor" targetSpec="" /><delay8 />che aspetto avrebbe <tag a="50" b="2" /><tag a="125" b="0" arg="0x0" /> <tag a="50" b="17" arg="0x12 0xcd00 0xa 0x66 0x61 0x74 0x74 0x6f 0xa 0x66 0x61 0x74 0x74 0x61 0x0" /> dalla gente di qui?</message>
 	<message label="001_a" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Scopriamolo!</message>
 	<message label="001_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Non saprei.</message>
-	<message label="002" attrib="00 00 00 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Davvero!?<delay frames="40" /> Allora ne realizzerai <tag a="50" b="17" arg="0x11 0xcd00 0x6 0x75 0x6e 0x6f 0x6 0x75 0x6e 0x61 0x0" />
+	<message label="002" attrib="00 00 00 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Davvero!?<delay frames="40" /> Allora ne realizzerai <tag a="50" b="17" arg="0x12 0xcd00 0x6 0x75 0x6e 0x6f 0x6 0x75 0x6e 0x61 0x0" />
 per me?<delay frames="40" /> <anim id="BigSmile" target="actor" targetSpec="" />Mitico, <delay8 />meno male che mi è
 venuta questa idea, <tag a="110" b="6" />!<delay8 /><anim id="FaintSmile" target="actor" targetSpec="" />
 <anim id="Nodding" target="actor" targetSpec="" />Però dobbiamo fare tutto oggi<tag a="110" b="0" /><delay20 />
@@ -33,7 +33,7 @@ cambi idea.<delay20 /> <anim id="FaintSmile" target="actor" targetSpec="" />Sono
 tutto oggi, <tag a="110" b="6" />.</message>
 	<message label="101" attrib="00 00 02 00 00 00 00 00">Come procede con la ricerca dei materiali per realizzare <anim id="QuestionMark" target="actor" targetSpec="" /><delay8 /><tag a="50" b="2" /><tag a="125" b="0" arg="0x0" />?</message>
 	<message label="101_a" attrib="00 00 00 00 00 00 00 00">Bene!</message>
-	<message label="101_b" attrib="00 00 00 00 00 00 00 00">Veramente...</message>
+	<message label="101_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Veramente...</message>
 	<message label="102" attrib="00 00 00 00 00 00 00 00"><anim id="HappyDance" target="actor" targetSpec="" />Evvai!<delay20 /> Immagino che non sia facile
 come schiacciare un pisolino.<delay20 /> I miei
 complimenti, <tag a="110" b="6" />!</message>
@@ -45,8 +45,8 @@ sarà per un'altra volta, <tag a="110" b="6" />.</message>
 hai già costruito quella cosa
 di cui abbiamo parlato?</message>
 	<message label="201_a" attrib="00 00 00 00 00 00 00 00">Certo!</message>
-	<message label="201_b" attrib="00 00 00 00 00 00 00 00">Ci sono quasi...</message>
-	<message label="202" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Devi assolutamente accettare <tag a="50" b="17" arg="0x15 0xcd00 0xc 0x69 0x6c 0x20 0x6d 0x69 0x6f 0xc 0x6c 0x61 0x20 0x6d 0x69 0x61 0x0" /> <tag a="125" b="4" arg="0x0" /> come ringraziamento!</message>
+	<message label="201_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Ci sono quasi...</message>
+	<message label="202" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Devi assolutamente accettare <tag a="50" b="17" arg="0x16 0xcd00 0xc 0x69 0x6c 0x20 0x6d 0x69 0x6f 0xc 0x6c 0x61 0x20 0x6d 0x69 0x61 0x0" /> <tag a="125" b="4" arg="0x0" /> come ringraziamento!</message>
 	<message label="202_02" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Accetteresti questo pensiero come ringraziamento?<delay frames="40" /> Si tratta di <tag a="50" b="2" /><tag a="125" b="4" arg="0x0" /><tag a="110" b="0" /><pageBreak /><anim id="BigSmile" target="actor" targetSpec="" />Se al tatto sembra qualcosa di
 appiccicoso è solo colpa del mio
 ultimo spuntino, <tag a="110" b="6" /><tag a="110" b="0" /></message>
@@ -54,7 +54,7 @@ ultimo spuntino, <tag a="110" b="6" /><tag a="110" b="0" /></message>
 	<message label="204" attrib="00 00 00 00 00 00 00 00">Ci vuole ancora un po', eh?<delay20 /> OK!<delay frames="40" />
 <anim id="AbsentMindedness" target="actor" targetSpec="" />Sono sicuro che il risultato finale
 sarà fantastico, <tag a="110" b="6" />!</message>
-	<message label="205" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Ecco com'è fatt<tag a="50" b="17" arg="0x11 0xcd00 0x2 0x6f 0x2 0x61 0x0" /> <tag a="50" b="17" arg="0x11 0xcd00 0x18 0x75 0x6e 0x20 0x61 0x75 0x74 0x65 0x6e 0x74 0x69 0x63 0x6f 0x18 0x75 0x6e 0x27 0x61 0x75 0x74 0x65 0x6e 0x74 0x69 0x63 0x61 0x0" /> <tag a="125" b="0" arg="0x0" /> di <tag a="110" b="34" /><tag a="110" b="0" /><delay frames="40" /> <anim id="Smiling" target="actor" targetSpec="" />Troppo mitico!</message>
+	<message label="205" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Ecco com'è fatt<tag a="50" b="17" arg="0x12 0xcd00 0x2 0x6f 0x2 0x61 0x0" /> <tag a="50" b="17" arg="0x12 0xcd00 0x18 0x75 0x6e 0x20 0x61 0x75 0x74 0x65 0x6e 0x74 0x69 0x63 0x6f 0x18 0x75 0x6e 0x27 0x61 0x75 0x74 0x65 0x6e 0x74 0x69 0x63 0x61 0x0" /> <tag a="125" b="0" arg="0x0" /> di <tag a="110" b="34" /><tag a="110" b="0" /><delay frames="40" /> <anim id="Smiling" target="actor" targetSpec="" />Troppo mitico!</message>
 	<message label="206" attrib="00 00 00 00 00 00 00 00"><anim id="HappyFlower" target="actor" targetSpec="" />Evvai!<delay20 /> Adesso ho qualcosa di
 originale, prodotto artigianalmente
 <tag a="50" b="15" /> <tag a="110" b="34" />!</message>

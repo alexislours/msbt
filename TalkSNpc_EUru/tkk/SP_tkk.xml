@@ -1,7 +1,7 @@
 <msbt attribsize="4">
 	<message label="001" attrib="00 00 00 00">Извини, но я сейчас хочу
 отдохнуть.<delay frames="60" /> <snpcAnim id="TkkNodding" target="actor" targetSpec="" />Если хочешь попасть
-на концерт, забегай пораньше.</message>
+на концерт, забегай в другой раз.</message>
 	<message label="002" attrib="00 00 00 00"><snpcAnim id="TkkQuestionMark" target="actor" targetSpec="" />Что стоим?<delay frames="40" /> <anim id="EmotEnd" target="actor" targetSpec="" />Садись,<delay8 /> и я начну
 играть.</message>
 	<message label="003" attrib="00 00 00 00"><snpcAnim id="TkkQuestionMark" target="actor" targetSpec="" />Садись, в ногах правды нет.<10_4 /><anim id="EmotEnd" target="actor" targetSpec="" />
@@ -14,7 +14,7 @@
 <anim id="EmotEnd" target="actor" targetSpec="" />Передай всем, чтобы <delay20 /><snpcAnim id="TkkNodding" target="actor" targetSpec="" />садились.</message>
 	<message label="006" attrib="00 00 00 00">Я готов начать.<10_4 /><snpcAnim id="TkkQuestionMark" target="actor" targetSpec="" /> Давай-ка на свое
 место и готовься слушать!<delay20 /> Да.<delay20 /><snpcAnim id="TkkNodding" target="actor" targetSpec="" />
- Сейчас такое будет!</message>
+Сейчас такое будет!</message>
 	<message label="007" attrib="02 00 00 00"><snpcAnim id="TkkQuestionMark" target="actor" targetSpec="" />Ну что, <delay8 />готов<gender2 m="" f="а" /> проникнуться
 искусством?</message>
 	<message label="007_a" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Конечно!</message>
@@ -156,8 +156,7 @@
 	<message label="053" attrib="02 00 00 00"><snpcAnim id="TkkQuestionMark" target="actor" targetSpec="" />Хочешь послушать песню снова?</message>
 	<message label="053_a" attrib="00 00 00 00">Да!</message>
 	<message label="053_b" attrib="00 00 00 00">Нет, спасибо.</message>
-	<message label="054" attrib="00 00 00 00"><snpcAnim id="TkkEh" target="actor" targetSpec="" />Понимаю.<delay frames="30" /> И с удовольствием
-сыграю!</message>
+	<message label="054" attrib="00 00 00 00"><snpcAnim id="TkkEh" target="actor" targetSpec="" />Ясно.<delay frames="30" /> Выбор за тобой!</message>
 	<message label="060" attrib="00 00 00 00"><tag a="50" b="3" /><tag a="110" b="1" />,<delay20 /><snpcAnim id="TkkQuestionMark" target="actor" targetSpec="" /> есть минутка?<10_4 />
 Есть один вопросик.</message>
 	<message label="061" attrib="02 00 00 00"><snpcAnim id="TkkQuestionMark" target="actor" targetSpec="" />У вас на острове есть некто
@@ -169,7 +168,7 @@
 и поздравления.<delay40 /> <snpcAnim id="TkkQuestionMark" target="actor" targetSpec="" />Поучаствуешь?</message>
 	<message label="061_a" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Конечно!</message>
 	<message label="061_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Нет, спасибо.</message>
-	<message label="062" attrib="00 00 00 00">Класс.<delay frames="30" /><snpcAnim id="TkkQuestionMark" target="actor" targetSpec="" /> Что хочешь передать?</message>
+	<message label="062" attrib="00 00 00 00">Класс.<delay frames="30" /><snpcAnim id="TkkQuestionMark" target="actor" targetSpec="" /> Что хочешь пожелать?</message>
 	<message label="063" attrib="00 00 00 00"><snpcAnim id="TkkEh" target="actor" targetSpec="" />Нет?<10_4 /> Ну ладно, <delay20 />ты знаешь, где
 меня найти, <snpcAnim id="TkkNodding" target="actor" targetSpec="" />если передумаешь.</message>
 	<message label="065" attrib="00 00 00 00"><snpcAnim id="TkkEh" target="actor" targetSpec="" />Все понял.<delay40 /><snpcAnim id="TkkNodding" target="actor" targetSpec="" /> Передам.</message>
@@ -185,22 +184,22 @@
 Хочу заняться своими делами.<delay20 />
 Музыканты, мы такие.</message>
 	<message label="081" attrib="00 00 00 00">Заявки на песни я начну принимать
-в районе <colour id="1" />18.00<colour id="65535" />.<delay8 /><snpcAnim id="TkkNodding" target="actor" targetSpec="" /> Приходи тогда,
+в районе <colour id="1" />18:00<colour id="65535" />.<delay8 /><snpcAnim id="TkkNodding" target="actor" targetSpec="" /> Приходи тогда,
 договорились?</message>
 	<message label="082" attrib="00 00 00 00">Мне много не надо:<delay frames="30" /> стул, гитара<delay20 /><snpcAnim id="TkkNodding" target="actor" targetSpec="" />
 да благодарные слушатели.</message>
-	<message label="083" attrib="00 00 00 00"><snpcAnim id="TkkEh" target="actor" targetSpec="" />Привет, <delay8 />как жизнь?<10_4 /><anim id="EmotEnd" target="actor" targetSpec="" /> Меня звать
+	<message label="083" attrib="00 00 00 00"><snpcAnim id="TkkEh" target="actor" targetSpec="" />Привет, <delay8 />как жизнь?<10_4 /><anim id="EmotEnd" target="actor" targetSpec="" /> Меня зовут
 <colour id="3" />К. К. Слайдер<colour id="65535" />.<delay frames="40" /> Я проездом у вас
 на острове, играю помаленьку.<pageBreak />Сейчас у меня нет времени, извини.<delay20 /><snpcAnim id="TkkNodding" target="actor" targetSpec="" />
 Хочу заняться своими делами.<delay20 />
 Подготовиться надо, все такое.<pageBreak />Заявки на песни я начну принимать
-в районе <colour id="1" />18.00<colour id="65535" />.<delay8 /><snpcAnim id="TkkNodding" target="actor" targetSpec="" /> Приходи тогда,
+в районе <colour id="1" />18:00<colour id="65535" />.<delay8 /><snpcAnim id="TkkNodding" target="actor" targetSpec="" /> Приходи тогда,
 договорились?</message>
-	<message label="084" attrib="00 00 00 00"><snpcAnim id="TkkEh" target="actor" targetSpec="" />Привет, <delay8 />как жизнь? <10_4 />Я устраиваю
-сегодня концерт и отправляюсь
-дальше.<pageBreak />Сейчас у меня нет времени, извини.<delay20 /><snpcAnim id="TkkNodding" target="actor" targetSpec="" />
+	<message label="084" attrib="00 00 00 00"><snpcAnim id="TkkEh" target="actor" targetSpec="" />Привет, <delay8 />как жизнь? <10_4 />После
+сегодняшнего концерта
+я отправляюсь дальше.<pageBreak />Сейчас у меня нет времени, извини.<delay20 /><snpcAnim id="TkkNodding" target="actor" targetSpec="" />
 Хочу заняться своими делами.<delay20 />
 Подготовиться надо, все такое.<pageBreak />Заявки на песни я начну принимать
-в районе <colour id="1" />18.00<colour id="65535" />.<delay8 /><snpcAnim id="TkkNodding" target="actor" targetSpec="" /> Приходи тогда,
+в районе <colour id="1" />18:00<colour id="65535" />.<delay8 /><snpcAnim id="TkkNodding" target="actor" targetSpec="" /> Приходи тогда,
 договорились?</message>
 </msbt>

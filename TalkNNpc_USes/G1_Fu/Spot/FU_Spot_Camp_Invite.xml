@@ -1,6 +1,13 @@
 <msbt attribsize="8">
 	<message label="002" attrib="00 00 00 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />¿De verdad?<delay20 /> Pues si cuento con
 tu apoyo,<delay8 /><anim id="Hello" target="actor" targetSpec="" /> ¡lo haré!<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Voy a preguntar en la <colour id="1" /><tag a="50" b="0" arg="0x202 0xcd04" />oficina de gestión vecinal<colour id="65535" /> si sería posible.</message>
+	<message label="003" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />¿De verdad?<delay20 /> <anim id="Hesitate" target="actor" targetSpec="" />Sé que ya había dicho
+que no me parecía buena idea,<delay8 />
+pero no sé<tag a="110" b="0" />
+<anim id="Nodding" target="actor" targetSpec="" />Lo pensé mejor y creo que ya
+es momento de cambiar.<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Les voy a preguntar a los de la
+<colour id="1" />oficina de gestión vecinal<colour id="65535" /> si puedo
+vivir aquí, <tag a="110" b="6" />.</message>
 	<message label="101" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
 	<message label="101_01" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Es bonito soñar,<delay8 /> pero por muchas
 ganas que tenga,<delay8 /> <anim id="Negative" target="actor" targetSpec="" />creo que ahora
@@ -64,13 +71,18 @@ de maravilla.</message>
 ganaras tú<tag a="110" b="0" /><delay20 /><anim id="FaintSmile" target="actor" targetSpec="" /> ¡Otra vez será!</message>
 	<message label="206" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
 	<message label="206_01" attrib="00 00 00 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />¡Ganaste! <delay20 />Eso significa que<tag a="110" b="0" />
-<anim id="HappyFlower" target="actor" targetSpec="" />¡vamos a ser vecin<gender2 m="o" f="a" />s, <tag a="110" b="5" />!<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />A ti te conocen como <tag a="110" b="3" />, ¿no?<delay20 /> <anim id="Hesitate" target="actor" targetSpec="" />Espero que este sea el principio de una amistad.</message>
+<anim id="HappyFlower" target="actor" targetSpec="" />¡vamos a ser vecin<gender2 m="o" f="a" />s, <tag a="110" b="6" />!<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Aunque primero tengo que preguntar
+en la <colour id="1" />oficina de gestión vecinal<colour id="65535" /><tag a="110" b="0" /></message>
 	<message label="206_02" attrib="00 00 00 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />¡Rabanitos, ganaste!<delay20 /> Quizá el destino
-lo tenía escrito, <tag a="110" b="5" />.<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Te llaman <tag a="110" b="3" />, ¿no?<delay20 /> <anim id="HappyFlower" target="actor" targetSpec="" />¡Lo recordaré!<delay20 /> Tengo muchas ganas de empezar mi nueva vida en la isla.</message>
+lo tenía escrito, <tag a="110" b="6" />.<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Bueno, será mejor que hable con
+los de la <colour id="1" />oficina de gestión<colour id="65535" /> para
+preguntar si sería posible mudarme.</message>
 	<message label="206_03" attrib="00 00 00 00 00 00 00 00"><anim id="Surprised" target="actor" targetSpec="" />¿Quién lo iba a decir?<delay20 /> El destino
-quiso que me mudara a esta isla.<pageBreak /><anim id="Clapping" target="actor" targetSpec="" />Felicidades por la victoria.
-<anim id="FaintSmile" target="actor" targetSpec="" />Me dijiste que te llaman
-<tag a="110" b="3" />, ¿verdad?<pageBreak />Pues a partir de ahora cuenta conmigo para lo que necesites, <tag a="110" b="6" />.</message>
+quiso que me mudara a esta isla.
+<anim id="Clapping" target="actor" targetSpec="" />Felicidades por la victoria.
+<anim id="FaintSmile" target="actor" targetSpec="" />Ahora mismo hablaré con los
+de la <colour id="1" />oficina de gestión vecinal<colour id="65535" />
+para empezar con los papeles.</message>
 	<message label="302" attrib="00 00 01 00 00 00 00 00"><anim id="Hello" target="actor" targetSpec="" />¡Perdón por dejarte esperando!<delay20 />
 Hablé con los de la <colour id="1" /><tag a="50" b="0" arg="0x202 0xcd04" />oficina de gestión vecinal <colour id="65535" /><anim id="Negative" target="actor" targetSpec="" />y no traigo buenas noticias<tag a="110" b="0" />
 <anim id="Worried" target="actor" targetSpec="" />Parece que todas las casas están
@@ -113,40 +125,22 @@ realidad muy pronto, <tag a="110" b="5" />.</message>
 ocurre a quién podría preguntarle?</message>
 	<message label="312" attrib="00 00 00 00 00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Lo siento mucho. <delay20 />En ese caso
 me olvidaré del tema ahora mismito.</message>
-	<message label="402" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Me pasó algo muy extraño
-en la <colour id="1" /><tag a="50" b="0" arg="0x202 0xcd04" />oficina de gestión vecinal<colour id="65535" />
-de la isla<tag a="110" b="0" />
-Cuando les pregunté si podía
-mudarme,<delay8 /> <anim id="Surprised" target="actor" targetSpec="" />¡me dijeron que aquí
-ya vive alguien igualita a mí!
-<anim id="Frantic" target="actor" targetSpec="" />No sé qué pensar<tag a="110" b="0" /><delay20 /> ¡Esta situación
-es tan confusa!<pageBreak /><anim id="Restless" target="actor" targetSpec="" />En fin,<delay8 /> qué mal que esto no salió
-como esperábamos.</message>
-	<message label="403" attrib="00 00 00 00 00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Ya hablé con los de la <colour id="1" /><tag a="50" b="0" arg="0x202 0xcd04" />oficina de gestión vecinal<colour id="65535" /> y me dijeron algo
-muy pero muy raro.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Al parecer alguien que se es idéntica
-a mí está a punto de mudarse a la
-isla, <tag a="110" b="5" /><tag a="110" b="0" />
-<anim id="Worried" target="actor" targetSpec="" />Dicen que si hubiera dos vecinas
-idénticas,<delay8 /> los demás residentes
-quedarían muy desorientados.
-<anim id="WrySmile" target="actor" targetSpec="" />Qué extraño, ¿no?<delay20 /> Nunca me había
-pasado algo así.<delay20 /> El destino tiene
-caminos misteriosos a veces.
-<anim id="FaintSmile" target="actor" targetSpec="" />Bueno, qué mal que al final no
-pudo ser, <tag a="110" b="5" />.</message>
+	<message label="313" attrib="00 00 01 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />¿Sí?<delay20 /> <anim id="Serious" target="actor" targetSpec="" />En ese caso te diré que los
+de la <colour id="1" />oficina de gestión<colour id="65535" /> me contaron
+algo<tag a="110" b="0" />
+<anim id="Explain" target="actor" targetSpec="" />Parece que <tag a="50" b="17" arg="0xf 0xcd00 0x4 0x75 0x6e 0x6 0x75 0x6e 0x61 0x0" /> tal <tag a="115" b="1" arg="0xcd00" /> está pensando en mudarse.<pageBreak /><anim id="QuestionMark" target="actor" targetSpec="" />¿Crees que debería hablar con <tag a="50" b="17" arg="0xf 0xcd00 0x4 0xe9 0x6c 0x8 0x65 0x6c 0x6c 0x61 0x0" />
+para confirmarlo?</message>
+	<message label="313_a" attrib="00 00 00 00 00 00 00 00">¡Por supuesto!</message>
+	<message label="313_b" attrib="00 00 00 00 00 00 00 00">Mejor no</message>
+	<message label="314" attrib="00 00 00 00 00 00 00 00"><anim id="Oops" target="actor" targetSpec="" />Tienes razón.<delay20 /> No me gustaría que
+se sintiera presionad<tag a="50" b="17" arg="0xf 0xcd00 0x2 0x6f 0x2 0x61 0x0" /><tag a="110" b="0" /><pageBreak /><anim id="Worried" target="actor" targetSpec="" />Tendremos que postergar lo de
+mi mudanza por ahora, <tag a="110" b="6" />.</message>
 	<message label="404" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Ya estoy aquí, lechuguita. <delay20 />Me temo
 que lo de preguntar en la <colour id="1" /><tag a="50" b="0" arg="0x202 0xcd04" />oficina de gestión vecinal<colour id="65535" /> no salió muy bien.
 <anim id="Negative" target="actor" targetSpec="" />Dicen que no pueden recibir más
 residentes en estos momentos.<pageBreak /><anim id="Worried" target="actor" targetSpec="" />Qué mal<tag a="110" b="0" /><delay8 /> pero quizá pueda
 volver a intentarlo más adelante,
 <tag a="110" b="5" />.</message>
-	<message label="405" attrib="00 00 00 00 00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Bueno, calabacita,<delay8 /> ya me respondieron los de la <colour id="1" />oficina
-de gestión vecinal<colour id="65535" />.
-<anim id="Explain" target="actor" targetSpec="" />Resulta que en la isla ya no hay
-espacio para construir más casas,<delay8 />
-así que no me podré mudar.
-<anim id="Sighing" target="actor" targetSpec="" />Qué mal que no salió como lo
-esperaba, pero al menos lo intenté.</message>
 	<message label="406" attrib="00 00 00 00 00 00 00 00"><anim id="Hesitate" target="actor" targetSpec="" />Perdón la espera<tag a="110" b="0" /><delay20 /> Hablé con los de
 la <colour id="1" /><tag a="50" b="0" arg="0x202 0xcd04" />oficina de gestión vecinal<colour id="65535" /> y<tag a="110" b="0" /><delay8 />
 <anim id="Cheering" target="actor" targetSpec="" />¡me dijeron que puedo mudarme!
@@ -161,19 +155,8 @@ ajustado o algo<tag a="110" b="0" />
 	<message label="410_b" attrib="00 00 00 00 00 00 00 00">No lo creo...</message>
 	<message label="411" attrib="00 00 00 00 00 00 00 00"><anim id="Sighing" target="actor" targetSpec="" />Sí, mejor<tag a="110" b="0" /><delay20 /><anim id="Worried" target="actor" targetSpec="" /> No quisiera molestar
 a los de la <colour id="1" /><tag a="50" b="0" arg="0x202 0xcd04" />oficina de gestión vecinal<colour id="65535" />.</message>
-	<message label="421" attrib="00 00 00 00 00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />No sé cómo reaccionaría si me
-topara con alguien igual a mí.<delay20 /> Sería muy raro<anim id="Sleepy" target="actor" targetSpec="" /><tag a="110" b="0" /><pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Aunque lo aceptaría,<delay8 /> con tal
-de poder vivir aquí.</message>
-	<message label="422" attrib="00 00 00 00 00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Ya es casualidad que mi doble
-quiera mudarse a esta isla al mismo
-tiempo que yo.
-<anim id="Sighing" target="actor" targetSpec="" />Lástima que se me haya adelantado,<delay8 />
-me habría encantado vivir aquí.</message>
 	<message label="423" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />No me extraña que tengan tantas
 peticiones,<delay8 /> ¡esta isla es maravillosa!</message>
-	<message label="424" attrib="00 00 00 00 00 00 00 00"><anim id="WrySmile" target="actor" targetSpec="" />De haber sabido que se quedarían
-sin espacio,<delay8 /> habría intentado
-mudarme aquí mucho antes.</message>
 	<message label="504" attrib="00 00 01 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Esta isla es mágica<tag a="110" b="0" /><delay8 /> El paisaje
 es asombroso y la gente maravillosa.<pageBreak /><anim id="AbsentMindedness" target="actor" targetSpec="" />Me encantaría poder vivir en un lugar
 como este algún día, <tag a="110" b="5" />.</message>

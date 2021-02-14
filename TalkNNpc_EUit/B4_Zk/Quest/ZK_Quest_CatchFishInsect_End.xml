@@ -1,16 +1,16 @@
 <msbt attribsize="8">
 	<message label="001" attrib="00 00 00 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Finalmente!<delay20 /> È da un'eternità
-che aspetto <tag a="50" b="17" arg="0x13 0xcd00 0x1c 0x69 0x6c 0x20 0x6d 0x69 0x6f 0x20 0x70 0x69 0x63 0x63 0x6f 0x6c 0x6f 0x1c 0x6c 0x61 0x20 0x6d 0x69 0x61 0x20 0x70 0x69 0x63 0x63 0x6f 0x6c 0x61 0x0" />
+che aspetto <tag a="50" b="17" arg="0x14 0xcd00 0x1c 0x69 0x6c 0x20 0x6d 0x69 0x6f 0x20 0x70 0x69 0x63 0x63 0x6f 0x6c 0x6f 0x1c 0x6c 0x61 0x20 0x6d 0x69 0x61 0x20 0x70 0x69 0x63 0x63 0x6f 0x6c 0x61 0x0" />
 <tag a="125" b="2" arg="0xcd00" />!</message>
 	<message label="002" attrib="00 00 00 00 00 00 00 00"><anim id="Dance" target="actor" targetSpec="" />Benvenuto nell'incredibile mondo
 di <tag a="110" b="10" />, dolce <tag a="125" b="2" arg="0xcd00" />!</message>
-	<message label="003" attrib="00 00 00 00 00 00 00 00"><anim id="Grin" target="actor" targetSpec="" />Finalmente ci incontriamo<tag a="110" b="0" /> mi<tag a="50" b="17" arg="0x11 0xcd00 0x2 0x6f 0x2 0x61 0x0" />
-car<tag a="50" b="17" arg="0x11 0xcd00 0x2 0x6f 0x2 0x61 0x0" /> <tag a="125" b="0" arg="0x0" />!</message>
+	<message label="003" attrib="00 00 00 00 00 00 00 00"><anim id="Grin" target="actor" targetSpec="" />Finalmente ci incontriamo<tag a="110" b="0" /> mi<tag a="50" b="17" arg="0x12 0xcd00 0x2 0x6f 0x2 0x61 0x0" />
+car<tag a="50" b="17" arg="0x12 0xcd00 0x2 0x6f 0x2 0x61 0x0" /> <tag a="125" b="0" arg="0x0" />!</message>
 	<message label="004" attrib="00 00 02 00 00 00 00 00"><anim id="Surprised" target="actor" targetSpec="" />Sorbole, ma ne sei proprio sicur<gender2 m="o" f="a" />?<delay20 />
 Vuoi darmi davvero
 <tag a="50" b="2" /><tag a="125" b="0" arg="0x0" />?</message>
 	<message label="004_a" attrib="00 00 00 00 00 00 00 00">Certo!</message>
-	<message label="004_b" attrib="00 00 00 00 00 00 00 00">A pensarci bene...</message>
+	<message label="004_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="player" targetSpec="" />A pensarci bene...</message>
 	<message label="005" attrib="00 00 00 00 00 00 00 00">Evvai!</message>
 	<message label="006" attrib="00 00 00 00 00 00 00 00"><anim id="Sighing" target="actor" targetSpec="" />Sorbole... <delay20 />Ci mancherebbe, non
 ti preoccupare.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Se ti capita un altro esemplare,
@@ -29,14 +29,14 @@ dove trovarmi!</message>
 le mie zampe tremanti di emozione
 su <tag a="50" b="2" /><tag a="125" b="3" arg="0xcd00" />!</message>
 	<message label="022" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Mi prenderò molta cura di te,
-piccol<tag a="50" b="17" arg="0x14 0xcd00 0x2 0x6f 0x2 0x61 0x0" /> <tag a="125" b="3" arg="0xcd00" />.</message>
+piccol<tag a="50" b="17" arg="0x15 0xcd00 0x2 0x6f 0x2 0x61 0x0" /> <tag a="125" b="3" arg="0xcd00" />.</message>
 	<message label="023" attrib="00 00 00 00 00 00 00 00"><anim id="Grin" target="actor" targetSpec="" />Da paura!<delay20 /> Adesso yo también ho
 <tag a="50" b="2" /><tag a="125" b="0" arg="0x0" />.</message>
 	<message label="024" attrib="00 00 02 00 00 00 00 00"><anim id="Surprised" target="actor" targetSpec="" />Sorbole! Ma sei proprio sicur<gender2 m="o" f="a" /> di
 volermi dare una cosa del genere?
 È <tag a="50" b="2" /><tag a="125" b="0" arg="0x0" />!</message>
 	<message label="024_a" attrib="00 00 00 00 00 00 00 00">Certo!</message>
-	<message label="024_b" attrib="00 00 00 00 00 00 00 00">A pensarci bene...</message>
+	<message label="024_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="player" targetSpec="" />A pensarci bene...</message>
 	<message label="025" attrib="00 00 00 00 00 00 00 00">Evvai!</message>
 	<message label="026" attrib="00 00 00 00 00 00 00 00"><anim id="Sighing" target="actor" targetSpec="" />Sorbole... <delay20 />No te preocupes.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Se ti capita un altro pesce d'acqua
 dolce, sai dove trovarmi!</message>
@@ -53,25 +53,25 @@ un regalito per te<tag a="110" b="0" /></message>
 	<message label="034" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Fantastico, ci sei davvero riuscit<gender2 m="o" f="a" />!<delay20 />
 <anim id="Nodding" target="actor" targetSpec="" />Ecco a te, un regalito in segno di
 ringraziamento.</message>
-	<message label="041" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Ecco qua! <delay20 />Rifatti gli occhi con <tag a="50" b="17" arg="0x15 0xcd00 0xc 0x71 0x75 0x65 0x73 0x74 0x6f 0xc 0x71 0x75 0x65 0x73 0x74 0x61 0x0" />
+	<message label="041" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Ecco qua! <delay20 />Rifatti gli occhi con <tag a="50" b="17" arg="0x16 0xcd00 0xc 0x71 0x75 0x65 0x73 0x74 0x6f 0xc 0x71 0x75 0x65 0x73 0x74 0x61 0x0" />
 <tag a="125" b="4" arg="0x0" />!<pageBreak /><anim id="OhGeez" target="actor" targetSpec="" />Lo so, lo so<tag a="110" b="0" /> Sono generoso
 da paura!</message>
 	<message label="042" attrib="00 00 00 00 00 00 00 00"><anim id="WrySmile" target="actor" targetSpec="" />Forse ho esagerato un po' con
 la ricompensa, ma non penso
 che te ne avrai a male.
-<anim id="EmotEnd" target="actor" targetSpec="" />Ecco a te, goditi <tag a="50" b="17" arg="0x15 0xcd00 0xc 0x69 0x6c 0x20 0x74 0x75 0x6f 0xc 0x6c 0x61 0x20 0x74 0x75 0x61 0x0" />
+<anim id="EmotEnd" target="actor" targetSpec="" />Ecco a te, goditi <tag a="50" b="17" arg="0x16 0xcd00 0xc 0x69 0x6c 0x20 0x74 0x75 0x6f 0xc 0x6c 0x61 0x20 0x74 0x75 0x61 0x0" />
 <tag a="125" b="4" arg="0x0" />!</message>
 	<message label="043" attrib="00 00 00 00 00 00 00 00"><anim id="SmugFace" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="50" b="2" /><tag a="125" b="4" arg="0x0" />!
 Usato garantido, praticamente come
-nuov<tag a="50" b="17" arg="0x15 0xcd00 0x2 0x6f 0x2 0x61 0x0" />!</message>
-	<message label="044" attrib="00 00 00 00 00 00 00 00"><anim id="SmugFace" target="actor" targetSpec="" />L'ho tenut<tag a="50" b="17" arg="0x15 0xcd00 0x2 0x6f 0x2 0x61 0x0" /> come una reliquia e ora
-è tu<tag a="50" b="17" arg="0x15 0xcd00 0x2 0x6f 0x2 0x61 0x0" />. <delay20 /><anim id="Grin" target="actor" targetSpec="" />Dai il benvenuto <tag a="50" b="17" arg="0x15 0xcd00 0x18 0x61 0x6c 0x20 0x74 0x75 0x6f 0x20 0x6e 0x75 0x6f 0x76 0x6f 0x1c 0x61 0x6c 0x6c 0x61 0x20 0x74 0x75 0x61 0x20 0x6e 0x75 0x6f 0x76 0x61 0x0" />
+nuov<tag a="50" b="17" arg="0x16 0xcd00 0x2 0x6f 0x2 0x61 0x0" />!</message>
+	<message label="044" attrib="00 00 00 00 00 00 00 00"><anim id="SmugFace" target="actor" targetSpec="" />L'ho tenut<tag a="50" b="17" arg="0x16 0xcd00 0x2 0x6f 0x2 0x61 0x0" /> come una reliquia e ora
+è tu<tag a="50" b="17" arg="0x16 0xcd00 0x2 0x6f 0x2 0x61 0x0" />. <delay20 /><anim id="Grin" target="actor" targetSpec="" />Dai il benvenuto <tag a="50" b="17" arg="0x16 0xcd00 0x18 0x61 0x6c 0x20 0x74 0x75 0x6f 0x20 0x6e 0x75 0x6f 0x76 0x6f 0x1c 0x61 0x6c 0x6c 0x61 0x20 0x74 0x75 0x61 0x20 0x6e 0x75 0x6f 0x76 0x61 0x0" />
 <tag a="125" b="4" arg="0x0" />!</message>
 	<message label="045" attrib="00 00 00 00 00 00 00 00"><anim id="SmugFace" target="actor" targetSpec="" />Spalanca gli occhi sul tuo premio:<delay8 />
 <tag a="50" b="2" /><tag a="125" b="4" arg="0x0" />!<pageBreak /><anim id="Dance" target="actor" targetSpec="" />Ci farai un figurone con tutti...<delay20 />
 Dopotutto apparteneva a me!</message>
 	<message label="046" attrib="00 00 00 00 00 00 00 00"><anim id="ShyBoy" target="actor" targetSpec="" />Questo gioiellino era il mio preferito
-e spero che piacerà anche a te<tag a="110" b="0" /><pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Ti presento <tag a="50" b="17" arg="0x15 0xcd00 0x1c 0x69 0x6c 0x20 0x6d 0x69 0x6f 0x20 0x61 0x64 0x6f 0x72 0x61 0x74 0x6f 0x1c 0x6c 0x61 0x20 0x6d 0x69 0x61 0x20 0x61 0x64 0x6f 0x72 0x61 0x74 0x61 0x0" />
+e spero che piacerà anche a te<tag a="110" b="0" /><pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Ti presento <tag a="50" b="17" arg="0x16 0xcd00 0x1c 0x69 0x6c 0x20 0x6d 0x69 0x6f 0x20 0x61 0x64 0x6f 0x72 0x61 0x74 0x6f 0x1c 0x6c 0x61 0x20 0x6d 0x69 0x61 0x20 0x61 0x64 0x6f 0x72 0x61 0x74 0x61 0x0" />
 <tag a="125" b="4" arg="0x0" />!</message>
 	<message label="051" attrib="00 00 00 00 00 00 00 00"><anim id="TakenAback" target="actor" targetSpec="" />Come?! Davvero, <tag a="110" b="5" />?</message>
 	<message label="052" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Sorbole, ho veramente sentito

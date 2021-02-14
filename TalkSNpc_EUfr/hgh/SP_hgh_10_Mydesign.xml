@@ -1,6 +1,6 @@
 <msbt attribsize="4">
 	<message label="000" attrib="00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />C'est notre espace dédié aux <colour id="1" />motifs
-personnalisés <colour id="65535" />là-bas.<delay20 /><anim id="HappyFlower" target="actor" targetSpec="" /> Tu n'y verras
+personnalisés<colour id="65535" />.<delay20 /><anim id="HappyFlower" target="actor" targetSpec="" /> Tu n'y verras
 que des motifs<colour id="1" /> <colour id="65535" />originaux !
 <anim id="Explain" target="actor" targetSpec="" />Si tu en vois un qui te plaît,<delay20 /> copie-le
 dans ton <colour id="1" />NookPhone<colour id="65535" />.<delay8 /> Et fais-en ce
@@ -32,10 +32,20 @@ celle du bas ?</message>
 	<message label="003_a" attrib="00 00 00 00">Je veux ce motif.</message>
 	<message label="003_b" attrib="00 00 00 00">Exposer ma création ici.</message>
 	<message label="003_c" attrib="00 00 00 00">Je regarde simplement.</message>
+	<message label="003_01" attrib="06 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />« <tag a="50" b="3" /><tag a="115" b="3" arg="0xcd00" /> » ? C'est <tag a="115" b="0" arg="0xcd00" /> qui a dessiné ça<tag a="110" b="0" /><delay frames="40" /> <anim id="QuestionMark" target="actor" targetSpec="" />Que voulais-tu faire ?</message>
+	<message label="003_01_a" attrib="00 00 00 00">Je veux ce motif.</message>
+	<message label="003_01_b" attrib="00 00 00 00">Exposer ma création ici.</message>
+	<message label="003_01_c" attrib="00 00 00 00">Signaler.</message>
+	<message label="003_01_d" attrib="00 00 00 00">Je regarde simplement.</message>
 	<message label="004" attrib="04 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />« <tag a="50" b="3" /><tag a="115" b="3" arg="0xcd00" /> » ? C'est <gender4 m="de " f="d'⁠" /><tag a="115" b="0" arg="0xcd00" />, qui habite <tag a="115" b="5" arg="0xcd00" />.<pageBreak /><anim id="QuestionMark" target="actor" targetSpec="" />Alors ?<delay20 /> Que souhaites-tu faire ?</message>
 	<message label="004_a" attrib="00 00 00 00">Je veux ce motif.</message>
 	<message label="004_b" attrib="00 00 00 00">Exposer ma création ici.</message>
 	<message label="004_c" attrib="00 00 00 00">Je regarde simplement.</message>
+	<message label="004_01" attrib="06 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />« <tag a="50" b="3" /><tag a="115" b="3" arg="0xcd00" /> » ? C'est <gender4 m="de " f="d'⁠" /><tag a="115" b="0" arg="0xcd00" />, qui habite <tag a="115" b="5" arg="0xcd00" />.<pageBreak /><anim id="QuestionMark" target="actor" targetSpec="" />Alors ?<delay20 /> Que souhaites-tu faire ?</message>
+	<message label="004_01_a" attrib="00 00 00 00">Je veux ce motif.</message>
+	<message label="004_01_b" attrib="00 00 00 00">Exposer ma création ici.</message>
+	<message label="004_01_c" attrib="00 00 00 00">Signaler.</message>
+	<message label="004_01_d" attrib="00 00 00 00">Je regarde simplement.</message>
 	<message label="005" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Bien sûr !<delay20 /> Prends ton temps.</message>
 	<message label="006" attrib="02 00 00 00">Tu vas devoir effacer un motif
 personnalisé pour faire de la place.<delay20 />
@@ -56,7 +66,7 @@ tu veux<tag a="110" b="0" /><anim id="FaintSmile" target="actor" targetSpec="" /
 qui les aies créés.</message>
 	<message label="021" attrib="00 00 00 00">Bien sûr ! <delay20 /><anim id="QuestionMark" target="actor" targetSpec="" />Je peux voir le motif
 que tu veux exposer ?</message>
-	<message label="022" attrib="02 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Tu voudrais exposer « ⁠<tag a="115" b="3" arg="0xcd01" /> » ?<pageBreak />Tes désirs sont des ordres !
+	<message label="022" attrib="02 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Tu voudrais exposer « ⁠⁠<tag a="115" b="3" arg="0xcd01" /> ⁠» ?<pageBreak />Tes désirs sont des ordres !
 <anim id="EmotEnd" target="actor" targetSpec="" />Par contre, <delay8 /><anim id="QuestionMark" target="actor" targetSpec="" />qu'est-ce qu'on fait de
 l'ancien motif qui se trouvait là ?</message>
 	<message label="022_a" attrib="00 00 00 00">Je le prends.</message>
@@ -70,8 +80,8 @@ faire des adeptes !</message>
 	<message label="027" attrib="00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Et où aimerais-tu le sauvegarder ?</message>
 	<message label="028" attrib="02 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Oh, tu préfères t'arrêter là et faire
 ça une prochaine fois ?</message>
-	<message label="028_a" attrib="00 00 00 00">Arrêter</message>
-	<message label="028_b" attrib="00 00 00 00">Choisir à nouveau</message>
+	<message label="028_a" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Arrêter</message>
+	<message label="028_b" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Choisir à nouveau</message>
 	<message label="030" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Au fait ! Tu ne le sais peut-être pas
 <anim id="FaintSmile" target="actor" targetSpec="" />mais tu t'apprêtes à repartir avec un
 motif personnalisé <colour id="1" />pro<colour id="65535" />.
@@ -97,4 +107,10 @@ propre motif personnalisé pro,
 <anim id="Nodding" target="actor" targetSpec="" />Tu peux l'échanger contre des miles
 au <colour id="1" />Nook Stop<colour id="65535" /><delay8 /> du <colour id="1" />bureau des
 résidents<colour id="65535" />.<delay20 /><anim id="FaintSmile" target="actor" targetSpec="" /> Je te le conseille !</message>
+	<message label="040" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Entendu, je vais me charger
+de retirer ce motif perso.</message>
+	<message label="051" attrib="00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Au fait, <tag a="110" b="1" />,<delay20 /> <anim id="EmotEnd" target="actor" targetSpec="" />le motif perso que tu portes a été écrasé<tag a="110" b="0" /><pageBreak /><anim id="Explain" target="actor" targetSpec="" />Mais ce que tu as sur toi ne va pas
+changer d'un coup pour autant.<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Alors,<delay8 /> si tu veux porter le motif que
+tu viens de choisir,<delay20 /> sélectionne à
+nouveau <colour id="1" />Porter<colour id="65535" /> pour te changer !</message>
 </msbt>

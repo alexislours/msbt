@@ -32,10 +32,10 @@ dernier <colour id="1" />insectosafari<colour id="65535" />.
 Il te reste encore des points du
 dernier <colour id="1" />insectosafari<colour id="65535" />.
 <anim id="EmotEnd" target="actor" targetSpec="" />Tu as tout juste <colour id="1" /><tag a="90" b="8" arg="0x1" /> points<colour id="65535" />.<delay20 /> <anim id="QuestionMark" target="actor" targetSpec="" />Souhaites-tu les échanger contre une relique?</message>
-	<message label="005_a" attrib="00 00 00 00">Une relique, une relique!</message>
+	<message label="005_a" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Une relique, une relique!</message>
 	<message label="005_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Ça ira, merci.</message>
 	<message label="006" attrib="02 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Euh<tag a="110" b="0" /> Oui?<delay8 /> Que veux-tu?<anim id="EmotEnd" target="actor" targetSpec="" /></message>
-	<message label="006_a" attrib="00 00 00 00">Échanger mes points.</message>
+	<message label="006_a" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Échanger mes points.</message>
 	<message label="006_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />En fait, rien.</message>
 	<message label="010" attrib="00 00 00 00"><anim id="TakenAback" target="actor" targetSpec="" />Attends.<delay20 /> Tes poches sont pleines.<pageBreak /><anim id="Serious" target="actor" targetSpec="" />Tu sais ce qu'on dit.<delay20 /> « Poches
 encombrées,<delay20 /> relique oubliée. »<pageBreak />Reviens me voir quand tu pourras
@@ -158,7 +158,7 @@ Tu peux arriver les poches pleines.
 	<message label="029_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Pas maintenant.</message>
 	<message label="030" attrib="02 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Veux-tu te joindre à cette grande
 célébration qu'est l'<colour id="1" />insectosafari<colour id="65535" />?<delay40 /> <anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak />Si cela peut t'aider à te décider,
-<delay20 />le premier tour est gratuit.</message>
+<delay20 />le premier tour du jour est gratuit.</message>
 	<message label="030_a" attrib="00 00 00 00">Je veux jouer, oui!</message>
 	<message label="030_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Pas maintenant.</message>
 	<message label="031" attrib="00 00 00 00"><anim id="Cheering" target="actor" targetSpec="" />L'<colour id="1" />insectosafari<colour id="65535" /> se poursuit jusqu'à
@@ -198,7 +198,9 @@ de cette envergure,<delay20 /><anim id="AbsentMindedness" target="actor" targetS
 avaient besoin qu'on les représente!
 <anim id="Greeting" target="actor" targetSpec="" />Assez parlé, <delay20 />tu devrais jouer!<delay20 />
 <anim id="Cheering" target="actor" targetSpec="" />L'<colour id="1" />insectosafari<colour id="65535" /> nous rapproche des
-insectes, nous, terrestres mortels.</message>
+insectes, nous, terrestres mortels.
+Tu peux te joindre à la fête quand il
+te plaira. <delay20 />Elle se clôturera à <colour id="1" /><tag a="90" b="37" arg="0xcd01" /> h<colour id="65535" />.</message>
 	<message label="037" attrib="00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />C'est l'heure de l'<colour id="1" />insectosafari<colour id="65535" />!<delay20 />
 Levons la moustiquaire qui nous
 sépare du monde des insectes.
@@ -260,7 +262,7 @@ Alors parlons, euh<tag a="110" b="0" /><pageBreak /><anim id="Blushing" target="
 un bon prix et je te promets d'en prendre soin!<size value="100" /></message>
 	<message label="049_a" attrib="00 00 00 00">Ah, tu achètes?</message>
 	<message label="049_b" attrib="00 00 00 00">J'ai des points à échanger.</message>
-	<message label="049_c" attrib="00 00 00 00">Autre chose.</message>
+	<message label="049_c" attrib="00 00 00 00">L'insectosafari...</message>
 	<message label="049_d" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Laisser tomber.</message>
 	<message label="050" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Oh<tag a="110" b="0" /> Bien<tag a="110" b="0" /> bien sûr! <delay20 /><anim id="QuestionMark" target="actor" targetSpec="" />De quelle
 divine créature souhaites-tu te
@@ -276,7 +278,7 @@ absolu? Celui par qui tout arriva?<colour id="65535" /><pageBreak /><anim id="Qu
 	<message label="052" attrib="02 00 00 00"><anim id="Aha" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="50" b="2" /><tag a="125" b="0" arg="0x1" />!<delay20 />
 Je n'en ai encore jamais possédé<tag a="110" b="0" /><delay frames="40" />
 <colour id="4" />Du moins, pas de son vivant<tag a="110" b="0" /><colour id="65535" />
-<anim id="QuestionMark" target="actor" targetSpec="" />Peux-tu me vendre <tag a="50" b="17" arg="0x111 0xcd00 0x10 0x63 0x65 0x20 0x64 0x69 0x76 0x69 0x6e 0x18 0x63 0x65 0x74 0x74 0x65 0x20 0x64 0x69 0x76 0x69 0x6e 0x65 0x0" /> <tag a="125" b="0" arg="0x1" /> pour <tag a="90" b="26" arg="0x3" />?</message>
+<anim id="QuestionMark" target="actor" targetSpec="" />Peux-tu me vendre <tag a="50" b="17" arg="0x112 0xcd00 0x10 0x63 0x65 0x20 0x64 0x69 0x76 0x69 0x6e 0x18 0x63 0x65 0x74 0x74 0x65 0x20 0x64 0x69 0x76 0x69 0x6e 0x65 0x0" /> <tag a="125" b="0" arg="0x1" /> pour <tag a="90" b="26" arg="0x3" />?</message>
 	<message label="052_a" attrib="00 00 00 00">Vendu!</message>
 	<message label="052_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Euh... Non?</message>
 	<message label="053" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />L'achat d'insectes est mon péché
@@ -310,10 +312,18 @@ C'est assez problématique.<pageBreak /><anim id="Explain" target="actor" target
 un filet!<pageBreak /><anim id="Pardon" target="actor" targetSpec="" />Sans filet,<delay20 /> tu courrais droit à
 ta perte!</message>
 	<message label="061" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Oh!<delay20 /> Euh<tag a="110" b="0" /> Je m'excuse, mais tu n'as
-pas assez de clochettes.<pageBreak /><anim id="Worried" target="actor" targetSpec="" />Après le premier tour, il faut payer
+pas assez de clochettes.<pageBreak /><anim id="Worried" target="actor" targetSpec="" />Reviens me voir quand tu auras
 <colour id="1" /><tag a="90" b="21" arg="0x2" /><colour id="65535" />.<delay20 /> Désolé!</message>
-	<message label="062" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Très bien. <delay20 />Il t'en coûtera
-<colour id="1" /><tag a="90" b="21" arg="0x2" /><colour id="65535" />.</message>
+	<message label="062" attrib="02 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Super! <delay20 />Ça remplit le ciel d'autant de
+petites lucioles! <delay frames="40" /><anim id="Hesitate" target="actor" targetSpec="" />C'est une image,<delay frames="40" />
+on n'attrape pas que les lucioles.
+<anim id="ShyBoy" target="actor" targetSpec="" />Alors, après le premier tour, les frais
+de participation s'élèvent à
+<colour id="1" /><tag a="90" b="21" arg="0x2" /><colour id="65535" />. <delay20 /><anim id="QuestionMark" target="actor" targetSpec="" />Ça te convient?</message>
+	<message label="062_a" attrib="00 00 00 00">Aucun problème!</message>
+	<message label="062_b" attrib="00 00 00 00">Laisse tomber.</message>
+	<message label="062_01" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Parfait<tag a="110" b="0" /><delay20 /><anim id="Silent" target="actor" targetSpec="" /> Dans ce cas, laisse-moi te
+délester de ces <colour id="1" /><tag a="90" b="21" arg="0x2" /><colour id="65535" /><tag a="110" b="0" /></message>
 	<message label="063" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />OK<tag a="110" b="0" /> Le chronomètre est réglé sur
 <colour id="1" /><tag a="90" b="0" arg="0xe" /> minutes<colour id="65535" />.<delay20 /> Toi,<delay8 /> tu vas attraper
 des insectes.<pageBreak />Peu importe lesquels,<delay20 /> contente-toi
@@ -425,7 +435,7 @@ entomologiques?</message>
 	<message label="094_a" attrib="00 00 00 00">Oh oui, alors!</message>
 	<message label="094_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Ça ira, merci.</message>
 	<message label="100" attrib="02 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Est-ce que je peux,<delay20 /> euh<tag a="110" b="0" /> t'aider?</message>
-	<message label="100_a" attrib="00 00 00 00">J'ai des points à échanger.</message>
+	<message label="100_a" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />J'ai des points à échanger.</message>
 	<message label="100_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Pas vraiment, non.</message>
 	<message label="101" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Le prochain <colour id="1" />insectosafari <colour id="65535" />aura lieu
 en <colour id="1" /><tag a="90" b="35" arg="0xcd00" /><colour id="65535" />.<pageBreak />J'espère que tu suivras l'appel de la
@@ -477,7 +487,7 @@ le calcul.<pageBreak /><anim id="AbsentMindedness" target="actor" targetSpec="" 
 le sous-ordre<tag a="110" b="0" /><pageBreak /><anim id="QuestionMark" target="actor" targetSpec="" />Je t'en offre <tag a="90" b="26" arg="0x5" />.
 Qu'en penses-tu?</message>
 	<message label="123_a" attrib="00 00 00 00">Marché conclu!</message>
-	<message label="123_b" attrib="00 00 00 00">Il faut que je réfléchisse.</message>
+	<message label="123_b" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Il faut que je réfléchisse.</message>
 	<message label="124" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Oh<tag a="110" b="0" /> Tu n'as plus de place dans ton
 porte-monnaie. <delay20 /><anim id="Greeting" target="actor" targetSpec="" />Je vais envoyer cela
 sur ton compte en banque<tag a="110" b="0" /></message>
@@ -573,6 +583,47 @@ et à partir de <colour id="1" /><tag a="90" b="1" arg="0x4" /><colour id="65535
 autre bonus!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Le cumul de tes insectes capturés
 et de tes divers bonus te vaut<tag a="110" b="0" /><10_4 />
 <anim id="Shocked" target="actor" targetSpec="" />Waouh!<delay frames="30" /><anim id="BigSmile" target="actor" targetSpec="" /> Pas moins de <colour id="1" /><tag a="90" b="2" arg="0x7" /> points<colour id="65535" />!</message>
+	<message label="151" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Déjà <colour id="1" /><tag a="90" b="1" arg="0x8" /><colour id="65535" /> insectes. <delay20 /><anim id="FaintSmile" target="actor" targetSpec="" />La vélocité avec
+laquelle tu t'acquittes de ce
+sacerdoce m'emplit d'admiration.
+<anim id="Explain" target="actor" targetSpec="" />Cependant, il n'est guère prudent de
+conserver plus de 20 spécimens dans
+un espace confiné<tag a="110" b="0" />
+<anim id="Surprised" target="actor" targetSpec="" />Qui sait les phénomènes surnaturels
+que pourrait déclencher leur
+puissance combinée?
+<anim id="Hesitate" target="actor" targetSpec="" />C'est pourquoi j'ai pris la liberté d'en
+retirer quelques-uns de la <colour id="1" />cage à
+insectes<colour id="65535" />.
+<anim id="Nodding" target="actor" targetSpec="" />J'ai pris cette initiative pour le bien
+des insectes, et par extension, celui du monde.<delay20 />
+<anim id="ShyBoy" target="actor" targetSpec="" />Merci pour ce généreux don.
+<anim id="Eh" target="actor" targetSpec="" />Et n'aie crainte, cela ne change rien
+au pointage. <anim id="Thinking" target="actor" targetSpec="" />Lequel s'élève donc à
+<colour id="1" /><tag a="90" b="1" arg="0x8" /><colour id="65535" /> <colour id="1" />points<colour id="65535" /> de base<tag a="110" b="0" />
+<tag a="110" b="0" /> plus le bonus réglementaire <colour id="1" />à
+partir de <tag a="90" b="1" arg="0x4" /><colour id="65535" /> captures<tag a="110" b="0" /> <anim id="Silent" target="actor" targetSpec="" />Soit un
+admirable total de <colour id="1" /><tag a="90" b="2" arg="0x7" /><colour id="65535" /> <colour id="1" />points<colour id="65535" />!</message>
+	<message label="152" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Déjà <colour id="1" /><tag a="90" b="1" arg="0x8" /><colour id="65535" /> insectes. <delay20 /><anim id="FaintSmile" target="actor" targetSpec="" />La vélocité avec
+laquelle vous vous acquittez de ce
+sacerdoce m'emplit d'admiration.
+<anim id="Explain" target="actor" targetSpec="" />Cependant, il n'est guère prudent de
+conserver plus de 20 spécimens dans
+un espace confiné<tag a="110" b="0" />
+<anim id="Surprised" target="actor" targetSpec="" />Qui sait les phénomènes surnaturels
+que pourrait déclencher leur
+puissance combinée?
+<anim id="Hesitate" target="actor" targetSpec="" />C'est pourquoi j'ai pris la liberté d'en
+retirer quelques-uns de la <colour id="1" />cage à
+insectes<colour id="65535" />.
+<anim id="Nodding" target="actor" targetSpec="" />J'ai pris cette initiative pour le bien
+des insectes, et par extension, celui du monde.<delay20 />
+<anim id="ShyBoy" target="actor" targetSpec="" />Merci pour votre généreux don.
+<anim id="Eh" target="actor" targetSpec="" />N'ayez crainte, cela ne change rien à
+votre pointage.<pageBreak /> <anim id="Thinking" target="actor" targetSpec="" />Voyons<tag a="110" b="0" /> vous avez
+capturé <colour id="1" /><tag a="90" b="2" arg="0x9" /><colour id="65535" /> insectes en tout<tag a="110" b="0" /><pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Le <colour id="1" />seuil de<colour id="65535" /> <colour id="1" /><tag a="90" b="1" arg="0xa" /><colour id="65535" /> étant atteint,<delay20 /> <anim id="Serious" target="actor" targetSpec="" />le bonus
+d'équipe vous revient. Vous obtenez
+donc<tag a="110" b="0" /> <colour id="1" /><anim id="FaintSmile" target="actor" targetSpec="" /><colour id="65535" />un total de <colour id="1" /><tag a="90" b="2" arg="0x7" /><colour id="65535" /> <colour id="1" />points<colour id="65535" />!</message>
 	<message label="160" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />La <colour id="1" />cage à insectes<colour id="65535" /> se trouve près de
 la tente. <anim id="AbsentMindedness" target="actor" targetSpec="" />Suis la délicate fragrance de
 ces créatures, semblable au nectar.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Tous les insectes attrapés par
@@ -653,8 +704,8 @@ séparation de la larve et de la pupe.
 <delay20 /><anim id="Cheering" target="actor" targetSpec="" />Eh oui, c'est l'<colour id="1" />insectosafari<colour id="65535" />!
 Il commencera à <colour id="1" /><tag a="90" b="37" arg="0xcd00" /> h<colour id="65535" />.<delay20 /><pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />T'as des fourmis dans les jambes?<delay20 />
 Profite du bruissement des insectes!</message>
-	<message label="170" attrib="00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />Hmm...<delay20 /> L'<colour id="1" />insectosafari <colour id="65535" />d'aujourd'hui<delay40 />
-<anim id="Nodding" target="actor" targetSpec="" />fut une merveilleuse célébration à la
+	<message label="170" attrib="00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />Hmm...<delay20 /> Cet <colour id="1" />insectosafari <colour id="65535" /><anim id="Nodding" target="actor" targetSpec="" />fut une
+merveilleuse célébration à la
 gloire des rampants!</message>
 	<message label="171" attrib="06 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Bonjour!<delay20 /> Veux-tu participer à
 l'<colour id="1" />insectosafari<colour id="65535" />? <pageBreak />Si c'est la première fois que tu

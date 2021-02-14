@@ -9,12 +9,12 @@
 волновался...</message>
 	<message label="003" attrib="00 00 02 00 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />А что <tag a="115" b="1" arg="0xcd00" /> сказал<gender3 m="" f="а" />,
 когда ты отдал<gender2 m="" f="а" /> <gender3 m="ему" f="ей" /> посылку?</message>
-	<message label="003_a" attrib="00 00 00 00 00 00 00 00">В общем...</message>
+	<message label="003_a" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />В общем...</message>
 	<message label="003_b" attrib="00 00 00 00 00 00 00 00">Не помню.</message>
 	<message label="004" attrib="00 00 02 00 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />А как <tag a="115" b="1" arg="0xcd00" /> отреагировал<gender3 m="" f="а" />,
 когда ты вручил<gender2 m="" f="а" /> е<gender3 m="му" f="й" />
 мою посылку?</message>
-	<message label="004_a" attrib="00 00 00 00 00 00 00 00">Ну, в общем...</message>
+	<message label="004_a" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Ну, в общем...</message>
 	<message label="004_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="player" targetSpec="" />Я забыл<gender2 m="" f="а" />...</message>
 	<message label="005" attrib="00 00 00 00 00 00 00 00"><anim id="Angry" target="actor" targetSpec="" />Серьезно? <delay20 />Это же было только что!<pageBreak /><anim id="OhGeez" target="actor" targetSpec="" />Хотя... чья бы корова мычала, а моя
 бы молчала...<delay frames="40" /><pageBreak /><anim id="Confused" target="actor" targetSpec="" />О чем это мы, кстати?</message>
@@ -57,7 +57,7 @@
 	<message label="101" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Кстати,<delay20 /> спасибо, что вернул<gender2 m="" f="а" />
 <tag a="50" b="23" arg="0xcd02" /><tag a="115" b="1" arg="0xcd00" /> вещицу, <delay20 /><anim id="Smiling" target="actor" targetSpec="" />которую
 он<gender3 m="" f="а" /> забыл<gender3 m="" f="а" /> у меня дома<tag a="110" b="0" /></message>
-	<message label="102" attrib="00 00 00 00 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Ты же вернул<gender2 m="" f="а" /> <tag a="50" b="23" arg="0xcd02" /><tag a="115" b="1" arg="0xcd00" /> <tag a="50" b="24" arg="0xe 0xcd00 0x6 0x435 0x433 0x43e 0x4 0x435 0x435 0x0 0x0" />
+	<message label="102" attrib="00 00 00 00 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Ты же вернул<gender2 m="" f="а" /> <tag a="50" b="23" arg="0xcd02" /><tag a="115" b="1" arg="0xcd00" /> <tag a="50" b="24" arg="0xf 0xcd00 0x6 0x435 0x433 0x43e 0x4 0x435 0x435 0x0 0x0" />
 вещь?<10_4 /> <anim id="BigSmile" target="actor" targetSpec="" />Благодарю, амиго!</message>
 	<message label="103" attrib="00 00 02 00 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" /><tag a="115" b="1" arg="0xcd00" /> как-нибудь вообще
 отреагировал<gender3 m="" f="а" />?</message>
@@ -80,13 +80,13 @@
 положил?<pageBreak /><anim id="OhGeez" target="actor" targetSpec="" />Ничего, я понимаю. <delay20 />Всем охота
 знать, что я кладу в коробки.
 <tag a="50" b="3" /><tag a="110" b="5" />.</message>
-	<message label="108" attrib="00 00 00 00 00 00 00 00"><anim id="Surprised" target="actor" targetSpec="" />Эх!..<delay20 /> Не думал, что он<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" /> сразу купит
-замену... Теперь у не<tag a="50" b="17" arg="0xe 0xcd00 0x4 0x433 0x43e 0x2 0x435 0x0" /> будет два
-экземпляра. <anim id="SadSpiral" target="actor" targetSpec="" />Вот незадача...<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" /><anim id="Thinking" target="actor" targetSpec="" />Я вот думаю, а почему бы е<tag a="50" b="17" arg="0xe 0xcd00 0x4 0x43c 0x443 0x2 0x439 0x0" />
+	<message label="108" attrib="00 00 00 00 00 00 00 00"><anim id="Surprised" target="actor" targetSpec="" />Эх!..<delay20 /> Не думал, что он<tag a="50" b="17" arg="0xf 0xcd00 0x0 0x2 0x430 0x0" /> сразу купит
+замену... Теперь у не<tag a="50" b="17" arg="0xf 0xcd00 0x4 0x433 0x43e 0x2 0x435 0x0" /> будет два
+экземпляра. <anim id="SadSpiral" target="actor" targetSpec="" />Вот незадача...<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" /><anim id="Thinking" target="actor" targetSpec="" />Я вот думаю, а почему бы е<tag a="50" b="17" arg="0xf 0xcd00 0x4 0x43c 0x443 0x2 0x439 0x0" />
 не отдать один из них мне?
 А что? Хорошая идея!</message>
-	<message label="109" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Хорошо, что он<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" /> не успел<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" /> купить
-замену, пока е<tag a="50" b="17" arg="0xe 0xcd00 0x4 0x433 0x43e 0x2 0x435 0x0" /> вещь была у меня!
+	<message label="109" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Хорошо, что он<tag a="50" b="17" arg="0xf 0xcd00 0x0 0x2 0x430 0x0" /> не успел<tag a="50" b="17" arg="0xf 0xcd00 0x0 0x2 0x430 0x0" /> купить
+замену, пока е<tag a="50" b="17" arg="0xf 0xcd00 0x4 0x433 0x43e 0x2 0x435 0x0" /> вещь была у меня!
 <delay20 />Спасибо, <tag a="110" b="3" />!</message>
 	<message label="201" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Что ж, значит, ты уже отнес<gender2 m="" f="ла" />
 <tag a="50" b="23" arg="0xcd02" /><tag a="115" b="1" arg="0xcd00" /> е<gender3 m="го" f="е" /> вещь?<10_4 />
@@ -100,7 +100,7 @@
 	<message label="203_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Не знаю.</message>
 	<message label="204" attrib="00 00 02 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Т-а-а-а-к<tag a="110" b="0" /><delay20 /> <anim id="QuestionMark" target="actor" targetSpec="" />Ну и что же
 <tag a="115" b="1" arg="0xcd00" /> сказал<gender3 m="" f="а" />?!</message>
-	<message label="204_a" attrib="00 00 00 00 00 00 00 00">Ну, в общем...</message>
+	<message label="204_a" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Ну, в общем...</message>
 	<message label="204_b" attrib="00 00 00 00 00 00 00 00">Я забыл<gender2 m="" f="а" />.</message>
 	<message label="205" attrib="00 00 00 00 00 00 00 00"><anim id="OhGeez" target="actor" targetSpec="" />Уф...<delay20 /> Хорошо, что вещь наконец-то
 вернулась к своему хозяину!</message>
@@ -113,7 +113,7 @@
 коробки, но больше так не делай,
 пожалуйста...</message>
 	<message label="208" attrib="00 00 00 00 00 00 00 00"><anim id="TakenAback" target="actor" targetSpec="" />Ах, вот оно что!<delay20 /> Это был
-подарок тебе?!<pageBreak /><anim id="WrySmile" target="actor" targetSpec="" />Ох уж эт<tag a="50" b="17" arg="0xe 0xcd00 0x4 0x43e 0x442 0x2 0x430 0x2 0x43e" /> <tag a="115" b="1" arg="0xcd00" />!<delay20 /> Хитро,
+подарок тебе?!<pageBreak /><anim id="WrySmile" target="actor" targetSpec="" />Ох уж эт<tag a="50" b="17" arg="0xf 0xcd00 0x4 0x43e 0x442 0x2 0x430 0x2 0x43e" /> <tag a="115" b="1" arg="0xcd00" />!<delay20 /> Хитро,
 однако! Я впечатлен!</message>
 	<message label="209" attrib="00 00 00 00 00 00 00 00"><anim id="OhGeez" target="actor" targetSpec="" />Ну, все хорошо, что
 хорошо кончается!</message>
@@ -121,11 +121,11 @@
 Ты ведь отнес<gender2 m="" f="ла" /> коробку?..</message>
 	<message label="302" attrib="00 00 02 00 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Ну же!<delay20 /> Рассказывай скорее!<delay20 />
 Что <tag a="115" b="1" arg="0xcd00" /> сказал<gender3 m="" f="а" />?</message>
-	<message label="302_a" attrib="00 00 00 00 00 00 00 00">Ну...</message>
+	<message label="302_a" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Ну...</message>
 	<message label="302_b" attrib="00 00 00 00 00 00 00 00">Что-то не помню.</message>
 	<message label="303" attrib="00 00 02 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Ну как прошло?<delay frames="40" /> <anim id="QuestionMark" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="115" b="1" arg="0xcd00" />
 обрадовал<gender3 m="ся" f="ась" />?</message>
-	<message label="303_a" attrib="00 00 00 00 00 00 00 00">Так вот...</message>
+	<message label="303_a" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Так вот...</message>
 	<message label="303_b" attrib="00 00 00 00 00 00 00 00">Что-то не помню...</message>
 	<message label="304" attrib="00 00 00 00 00 00 00 00"><anim id="OhGeez" target="actor" targetSpec="" />Должно быть, ты немного
 перенервничал<gender2 m="" f="а" />...</message>
@@ -141,10 +141,10 @@
 смотрелась бы лучше? <delay20 /><anim id="Scheming" target="actor" targetSpec="" />На не<gender3 m="м" f="й" />
 или на мне?..</message>
 	<message label="308" attrib="00 00 00 00 00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />Если <tag a="115" b="1" arg="0xcd00" /> довол<gender3 m="ен" f="ьна" />, все
-отлично.<delay20 /><anim id="Worried" target="actor" targetSpec="" /> Ведь он<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" /> довол<gender3 m="ен" f="ьна" />?</message>
+отлично.<delay20 /><anim id="Worried" target="actor" targetSpec="" /> Ведь он<tag a="50" b="17" arg="0xf 0xcd00 0x0 0x2 0x430 0x0" /> довол<gender3 m="ен" f="ьна" />?</message>
 	<message label="309" attrib="00 00 00 00 00 00 00 00"><anim id="OhGeez" target="actor" targetSpec="" /><tag a="115" b="1" arg="0xcd00" />, должно быть,
 постеснял<gender3 m="ся" f="ась" /> сразу примерить
-такую броскую вещь. </message>
+такую броскую вещь.</message>
 	<message label="310" attrib="00 00 00 00 00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />Х-м-м. <delay20 />Ну как, <tag a="115" b="1" arg="0xcd00" />
 примерил<gender3 m="" f="а" /> подарок?
 <anim id="BigSmile" target="actor" targetSpec="" />Уверен, е<gender3 m="му" f="й" /> страшно пойдет!</message>
@@ -172,9 +172,9 @@
 как свои пять пальцев!</message>
 	<message label="401" attrib="00 00 00 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Ну что? <delay20 />Ты доставил<gender2 m="" f="а" /> коробку
 <tag a="50" b="23" arg="0xcd02" /><tag a="115" b="1" arg="0xcd00" />?<pageBreak /><anim id="Sighing" target="actor" targetSpec="" />Отлично! Прямо груз с плеч...</message>
-	<message label="402" attrib="00 00 02 00 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Ну и что же он<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" /> сказал<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" />?
+	<message label="402" attrib="00 00 02 00 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Ну и что же он<tag a="50" b="17" arg="0xf 0xcd00 0x0 0x2 0x430 0x0" /> сказал<tag a="50" b="17" arg="0xf 0xcd00 0x0 0x2 0x430 0x0" />?
 <delay20 />Рассказывай скорее!</message>
-	<message label="402_a" attrib="00 00 00 00 00 00 00 00">В общем...</message>
+	<message label="402_a" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />В общем...</message>
 	<message label="402_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="player" targetSpec="" />Ничего особенного.</message>
 	<message label="403" attrib="00 00 02 00 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Ну что же? <delay20 />Какие новости
 от <tag a="50" b="23" arg="0xcd03" /><tag a="115" b="1" arg="0xcd00" />?</message>
@@ -221,7 +221,7 @@
 сделать все самому!</message>
 	<message label="508" attrib="00 00 00 00 00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Я бы на месте <tag a="50" b="23" arg="0xcd03" /><tag a="115" b="1" arg="0xcd00" /> уже
 извелся! Мне надо срочно бежать!</message>
-	<message label="509" attrib="00 00 00 00 00 00 00 00"><anim id="Grin" target="actor" targetSpec="" />Хочу лично увидеть, как он<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" />
+	<message label="509" attrib="00 00 00 00 00 00 00 00"><anim id="Grin" target="actor" targetSpec="" />Хочу лично увидеть, как он<tag a="50" b="17" arg="0xf 0xcd00 0x0 0x2 0x430 0x0" />
 обрадуется! <delay20 />Точно, лучше
 отнесу ее сам!</message>
 	<message label="510" attrib="00 00 00 00 00 00 00 00"><anim id="OhGeez" target="actor" targetSpec="" />Надо было, конечно, самому

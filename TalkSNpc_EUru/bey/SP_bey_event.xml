@@ -64,7 +64,7 @@
 	<message label="016" attrib="02 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Кстати, у тебя еще есть призовые
 очки.<delay frames="40" /> <anim id="QuestionMark" target="actor" targetSpec="" />Не хочешь их потратить?<delay8 />
 Хе-хе!</message>
-	<message label="016_a" attrib="00 00 00 00">Почему бы и нет?</message>
+	<message label="016_a" attrib="00 00 00 00">Почему бы и нет.</message>
 	<message label="016_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Нет, спасибо!</message>
 	<message label="017" attrib="00 00 00 00"><anim id="ShyBoy" target="actor" targetSpec="" />Без проблем! <delay20 />Заплывай в нашу
 славную гавань в любое время.<delay20 />
@@ -198,7 +198,7 @@
 <anim id="Smiling" target="actor" targetSpec="" />Ее надо заслужить!<delay20 /> Хе-хе!</message>
 	<message label="040" attrib="00 00 00 00"><colour id="1" /><anim id="Nodding" target="actor" targetSpec="" /><anim id="FaintSmile" target="actor" targetSpec="" /><tag a="90" b="8" arg="0x1" /> <50_9 x="0" y="1" a="очко" b="очка" c="очков" /><colour id="65535" />?<delay frames="40" /> <anim id="FaintSmile" target="actor" targetSpec="" />Ну<delay8 /> ничего,
 бывает.</message>
-	<message label="041" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Всего лишь <colour id="1" /><tag a="90" b="8" arg="0x1" /> очк<50_9 x="0" y="1" a="о" b="а" c="ов" /><colour id="65535" />?<delay frames="40" />
+	<message label="041" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Всего <colour id="1" /><tag a="90" b="8" arg="0x1" /> очк<50_9 x="0" y="1" a="о" b="а" c="ов" /><colour id="65535" />?<delay frames="40" />
 <anim id="SadSpiral" target="actor" targetSpec="" />Эх...</message>
 	<message label="042" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Ты можешь рыбачить сколько душе
 угодно. Не упусти с крючка очки!
@@ -236,11 +236,12 @@
 а я с подписчиками.<delay frames="40" /> <anim id="BigSmile" target="actor" targetSpec="" />Все довольны!</message>
 	<message label="049_a" attrib="00 00 00 00">Хочу продать рыбу.</message>
 	<message label="049_b" attrib="00 00 00 00">Хочу обменять очки.</message>
-	<message label="049_c" attrib="00 00 00 00">Даже не знаю...</message>
+	<message label="049_c" attrib="00 00 00 00">Насчет турнира...</message>
 	<message label="049_d" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Не, у меня дела.</message>
 	<message label="050" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Круто! <delay20 />Что продаешь?</message>
 	<message label="051" attrib="02 00 00 00"><anim id="Grin" target="actor" targetSpec="" />Да у тебя тут целый рыбный склад!<delay20 />
-За все я дам тебе<tag a="110" b="0" /><tag a="90" b="26" arg="0x3" />.<delay frames="40" /> <anim id="QuestionMark" target="actor" targetSpec="" />Идет?</message>
+За все я дам тебе<tag a="110" b="0" />
+<tag a="90" b="26" arg="0x3" />.<delay frames="40" /> <anim id="QuestionMark" target="actor" targetSpec="" />Идет?</message>
 	<message label="051_a" attrib="00 00 00 00">Идет!</message>
 	<message label="051_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Не-а.</message>
 	<message label="052" attrib="02 00 00 00"><anim id="Grin" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="125" b="0" arg="0x1" />!<delay20 />
@@ -263,14 +264,20 @@
 под силу. <delay20 />Удочку в руки и<anim id="Serious" target="actor" targetSpec="" /><delay20 /><tag a="110" b="0" /><pageBreak /><anim id="Negative" target="actor" targetSpec="" />А где удочка-то твоя? <delay20 />Без удочки
 никак.<delay frames="40" /> <anim id="OhGeez" target="actor" targetSpec="" />Извини, но таковы
 правила. <delay8 />Хе-хе!</message>
-	<message label="061" attrib="00 00 00 00"><anim id="OhGeez" target="actor" targetSpec="" />Э<tag a="110" b="0" /><delay20 /> Твой энтузиазм похвален, но
-без диней грош ему цена.
-<delay8 />Хе-хе!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Начиная со второго раунда, участие
-стоит <tag a="90" b="21" arg="0x2" />.<delay20 /> Мне тоже,
-знаешь ли, дини нужны!</message>
-	<message label="062" attrib="00 00 00 00"><anim id="HappyDance" target="actor" targetSpec="" />Да! <delay20 />Устоять перед <colour id="1" />турниром
+	<message label="061" attrib="00 00 00 00"><anim id="OhGeez" target="actor" targetSpec="" />Э<tag a="110" b="0" /><delay20 /> Твой энтузиазм похвален,
+но без диней грош ему цена.
+<delay8 />Хе-хе!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Мне тоже, знаешь ли, дини нужны!
+Реклама, инвентарь, все такое.<delay frames="40" />
+<anim id="Blushing" target="actor" targetSpec="" /><colour id="4" />Ну и себя любимого побаловать!<colour id="65535" /></message>
+	<message label="062" attrib="02 00 00 00"><anim id="HappyDance" target="actor" targetSpec="" />Да! <delay20 />Устоять перед <colour id="1" />турниром
 «Мастер удочки»<colour id="65535" /> никому не
-под силу. <delay20 />С тебя <tag a="90" b="21" arg="0x2" />.</message>
+под силу.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Но раз это для тебя не первое
+участие, возьму-ка я с тебя
+<tag a="90" b="21" arg="0x2" />.<delay20 /> Идет?</message>
+	<message label="062_a" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Идет!</message>
+	<message label="062_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Нет, спасибо.</message>
+	<message label="062_01" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Я в тебе не сомневался!<delay20 />
+Давай <tag a="90" b="21" arg="0x2" />.</message>
 	<message label="063" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Ладно, даю тебе <colour id="1" /><tag a="90" b="0" arg="0xe" /> <50_9 x="0" y="14" a="минуту" b="минуты" c="минут" /><colour id="65535" />, чтобы
 поймать как можно больше рыбы.<pageBreak /><anim id="Aha" target="actor" targetSpec="" /><delay20 />Да, еще! <delay20 />Если поймаешь не меньше<colour id="1" />
 <tag a="90" b="1" arg="0x4" /> <50_9 x="0" y="14" a="рыбы" b="рыб" c="рыб" /><colour id="65535" />, получишь бонус. <delay8 />Хе-хе!<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Подсекаешь?<delay frames="40" /> <anim id="Smiling" target="actor" targetSpec="" />Тогда вперед!</message>
@@ -280,10 +287,10 @@
 <tag a="90" b="1" arg="0x4" /> <50_9 x="0" y="14" a="рыбы" b="рыб" c="рыб" /><colour id="65535" />, получишь бонус. <delay8 />Хе-хе!<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Подсекаешь?<delay frames="40" /> <anim id="Smiling" target="actor" targetSpec="" />Тогда вперед!</message>
 	<message label="065" attrib="00 00 00 00"><anim id="Hello" target="actor" targetSpec="" />Отлично!</message>
 	<message label="066" attrib="00 00 00 00"><anim id="Restless" target="actor" targetSpec="" />Классно. <delay20 />Э<tag a="110" b="0" /> <tag a="115" b="0" arg="0xcd00" />
-еще не вытащил<tag a="50" b="24" arg="0xd 0xcd00 0x0 0x2 0x430 0x0 0x0" /> рыбу из
+еще не вытащил<tag a="50" b="24" arg="0xe 0xcd00 0x0 0x2 0x430 0x0 0x0" /> рыбу из
 <colour id="1" />термоконтейнера<colour id="65535" />.<delay20 /><pageBreak /><anim id="Negative" target="actor" targetSpec="" />С полным контейнером турнир
 продолжать нельзя. <delay20 />Такие правила.
-<delay8 />Хе-хе!<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Если увидишь <tag a="50" b="24" arg="0xd 0xcd00 0x6 0x435 0x433 0x43e 0x4 0x435 0x435 0x0 0x0" />, <delay20 />передай то,
+<delay8 />Хе-хе!<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Если увидишь <tag a="50" b="24" arg="0xe 0xcd00 0x6 0x435 0x433 0x43e 0x4 0x435 0x435 0x0 0x0" />, <delay20 />передай то,
 что я сказал. <delay20 />Кстати, рыбу
 я и купить могу, если что.</message>
 	<message label="067" attrib="00 00 00 00"><anim id="Restless" target="actor" targetSpec="" />Отлично. <delay20 />Секунду, э<tag a="110" b="0" /><delay20 /> Тут у кого-то
@@ -354,7 +361,7 @@
 поболтать. <delay20 />Если нужен,
 я тут до <colour id="1" /><tag a="90" b="37" arg="0xcd02" />:00 <colour id="65535" />якорь бросил.</message>
 	<message label="100" attrib="02 00 00 00"><anim id="Hello" target="actor" targetSpec="" />Йоу, рыбачелло!</message>
-	<message label="100_a" attrib="00 00 00 00">Давай атрибутику!</message>
+	<message label="100_a" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Давай атрибутику!</message>
 	<message label="100_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Мне ничего не надо.</message>
 	<message label="101" attrib="00 00 00 00"><anim id="SmugFace" target="actor" targetSpec="" />Я и за следующий <colour id="1" />турнир «Мастер
 удочки»<colour id="65535" /> на острове отвечаю. Но это<delay20 />
@@ -440,7 +447,8 @@
 	<message label="133" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Ясно.<delay20 /> Я буду мыть <colour id="1" />термоконтейнер<colour id="65535" />
 завтра в <colour id="1" /><tag a="90" b="37" arg="0xcd03" />:00<colour id="65535" />, так что выуди из
 него до этого свою рыбу.<delay8 /> Хе-хе!</message>
-	<message label="134" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Не забудь <colour id="1" />термоконтейнер<colour id="65535" />. <delay20 />Ясно!</message>
+	<message label="134" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Вперед на всех парусах
+к <colour id="1" />термоконтейнеру<colour id="65535" />!</message>
 	<message label="135" attrib="00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />Так, посмотрим.<delay20 /> В <colour id="1" />термоконтейнере<colour id="65535" />
 <colour id="1" /><tag a="90" b="1" arg="0x6" /> рыб<50_9 x="0" y="6" a="а" b="ы" c="" /><colour id="65535" />.<delay20 /> Прибавляем <tag a="90" b="0" arg="0x100" /> в уме<tag a="110" b="0" /></message>
 	<message label="140" attrib="00 00 00 00"><anim id="Grin" target="actor" targetSpec="" />Ну что, все готовы к рыболовным
@@ -468,8 +476,8 @@
 держать подписчиков в тонусе!<anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak />Ладно,<delay20 /> давай посмотрим, что
 тебе удалось поймать в ходе
 турнира!</message>
-	<message label="147" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Вроде, у тебя <colour id="1" /><tag a="90" b="1" arg="0x8" /> <50_9 x="0" y="8" a="рыба" b="рыбы" c="рыб" />
-<colour id="65535" />в <colour id="1" />термоконтейнере <colour id="65535" />было.</message>
+	<message label="147" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Вроде у тебя <colour id="1" /><tag a="90" b="1" arg="0x8" /> <50_9 x="0" y="8" a="рыба" b="рыбы" c="рыб" />
+<colour id="65535" />в <colour id="1" />термоконтейнере<colour id="65535" />.</message>
 	<message label="148" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Ты положил<gender2 m="" f="а" /> в <colour id="1" />термоконтейнер
 <tag a="90" b="1" arg="0x8" /> <50_9 x="0" y="8" a="рыба" b="рыбы" c="рыб" /><colour id="65535" />. <anim id="Eh" target="actor" targetSpec="" />Ты получаешь<delay20 /> личный
 бонус за улов в <colour id="1" /><tag a="90" b="1" arg="0x4" /> или более <50_9 x="0" y="4" a="рыбы" b="рыб" c="рыб" /><colour id="65535" />.</message>
@@ -483,6 +491,12 @@
 надо было поймать <colour id="1" /><tag a="90" b="1" arg="0xa" /> или более
 <50_9 x="0" y="10" a="рыбу" b="рыбы" c="рыб" /><colour id="65535" />, а для личного бонуса — <colour id="1" /><tag a="90" b="1" arg="0x4" /><colour id="65535" />!</message>
 	<message label="151" attrib="00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" /><colour id="4" />Очко за очком, очко за очком<tag a="110" b="0" /><colour id="65535" /></message>
+	<message label="159" attrib="00 00 00 00"><anim id="Grin" target="actor" targetSpec="" />Йоу! <delay20 />Как жизнь? <delay20 />Я <colour id="3" />Си-Джей<colour id="65535" />,
+и я заведую<tag a="110" b="0" /><delay20 /><anim id="BigSmile" target="actor" targetSpec="" /> <colour id="1" />турниром «Мастер
+удочки»<colour id="65535" />!<delay frames="40" /> <anim id="Serious" target="actor" targetSpec="" />Постой-ка...<pageBreak /><anim id="QuestionMark" target="actor" targetSpec="" />Это ведь ты сегодня мастерски
+рыбачил<gender2 m="" f="а" />? <delay20 />Да, точно ты!<delay frames="40" /> <anim id="Nodding" target="actor" targetSpec="" />
+Ну ты и показал<gender2 m="" f="а" /> класс!<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Как тебе сам<gender2 m="ому-то" f="ой-то" />? <delay20 />Понравилось?
+<delay8 />Хе-хе!</message>
 	<message label="152" attrib="00 00 00 00"><anim id="Grin" target="actor" targetSpec="" />Йоу! <delay20 />Как жизнь? <delay20 />Я <colour id="3" />Си-Джей<colour id="65535" />,
 и я заведую<tag a="110" b="0" /><delay20 /><anim id="BigSmile" target="actor" targetSpec="" /> <colour id="1" />турниром «Мастер
 удочки»<colour id="65535" />!<delay frames="40" /> <anim id="Serious" target="actor" targetSpec="" />Постой-ка...<pageBreak /><anim id="QuestionMark" target="actor" targetSpec="" />Это ведь ты сегодня мастерски
@@ -494,6 +508,24 @@
 	<message label="155" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Если наберешь <colour id="1" />как минимум<colour id="65535" />
 <colour id="1" /><tag a="90" b="1" arg="0x0" /> <50_9 x="0" y="0" a="очко" b="очка" c="очков" /><colour id="65535" />, можешь обменять их на
 турнирную атрибутику! <delay frames="40" /><anim id="BigSmile" target="actor" targetSpec="" />Классную!</message>
+	<message label="156" attrib="00 00 00 00">Так-так. <delay20 />Похоже, в <colour id="1" />термоконтейнере<colour id="65535" />
+бултыхал<50_9 x="0" y="8" a="ась" b="ись" c="ось" /> аж<tag a="110" b="0" /> <delay20 /><colour id="1" /><tag a="90" b="1" arg="0x8" /> <50_9 x="0" y="8" a="рыба" b="рыбы" c="рыб" /><colour id="65535" />.<delay20 /> <anim id="FaintSmile" target="actor" targetSpec="" />У тебя
+талант. <delay20 />Поздравляю!</message>
+	<message label="156_01" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Слушай, <delay20 />если запихать больше 
+20 рыб в <colour id="1" />термоконтейнер<colour id="65535" />, он
+даст крен.<delay frames="40" /><pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Я не хотел рисковать и вытащил
+оттуда парочку.<pageBreak /><anim id="Grin" target="actor" targetSpec="" />Не беспокойся, <delay20 />я отправил их
+в отличную рыбью гостиницу.
+<delay20 />Десять звезд! <delay8 />Им понравится. Хе-<delay8 />хе!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />И очки ты тоже за все получишь.
+Не останешься в убытке!</message>
+	<message label="157" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Посмотрим-ка! <delay20 />Тво<50_9 x="0" y="8" a="е" b="и" c="и" /> законн<50_9 x="0" y="8" a="ое" b="ые" c="ые" /> <colour id="1" /><tag a="90" b="1" arg="0x8" />
+очк<50_9 x="0" y="8" a="о" b="а" c="ов" /><colour id="65535" />, плюс бонус за поимку
+<colour id="1" /><tag a="90" b="1" arg="0x4" /> рыб<50_9 x="0" y="4" a="ы" b="" c="" /> или более<colour id="65535" />...<pageBreak /><anim id="Serious" target="actor" targetSpec="" />А, вам же еще командный бонус за
+<colour id="1" />как минимум<colour id="65535" /> <colour id="1" /><tag a="90" b="1" arg="0xa" /> рыб<50_9 x="0" y="10" a="у" b="ы" c="" /><colour id="65535" /> положен<tag a="110" b="0" /><delay20 /><anim id="Nodding" target="actor" targetSpec="" />
+Вы все вместе поймали <colour id="1" /><tag a="90" b="2" arg="0x9" /> рыб<50_9 x="0" y="9" a="у" b="ы" c="" /><colour id="65535" />!</message>
+	<message label="158" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Посмотрим... <delay20 />Вот тво<50_9 x="0" y="8" a="е" b="и" c="и" /> законн<50_9 x="0" y="8" a="ое" b="ые" c="ые" />
+<colour id="1" /><tag a="90" b="1" arg="0x8" /> очк<50_9 x="0" y="8" a="о" b="а" c="ов" /><colour id="65535" />, плюс бонус за поимку
+<colour id="1" /><tag a="90" b="1" arg="0x4" /> рыб<50_9 x="0" y="4" a="ы" b="" c="" /> или более<colour id="65535" />!</message>
 	<message label="160" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Вся пойманная рыба находится
 в <colour id="1" />термоконтейнере<colour id="65535" />. <delay20 />Ты можешь
 забрать ее позже. Или твои друзья.<pageBreak /><anim id="Grin" target="actor" targetSpec="" />Я могу и купить ее, если что.<delay20 />

@@ -1,6 +1,10 @@
 <msbt attribsize="8">
 	<message label="001" attrib="00 00 00 00 00 00 00 00" />
-	<message label="002" attrib="00 00 00 00 00 00 00 00" />
+	<message label="002" attrib="00 00 00 00 00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />Du hast jetzt ein Haus!<delay frames="40" /> Das hab ich
+ganz allein gemerkt, <delay8 /><tag a="110" b="5" />.
+<delay20 /><anim id="BigSmile" target="actor" targetSpec="" />Nicht schlecht,<delay8 /> oder?<pageBreak /><anim id="Grin" target="actor" targetSpec="" />Ein Zelt ist ja nicht schlecht, <delay8 />aber
+viel Platz für Kühlschränke hat man
+da nicht.<delay frames="40" /> <anim id="HappyFlower" target="actor" targetSpec="" />Ich freu mich so für dich!</message>
 	<message label="003" attrib="00 00 00 00 00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" /><delay20 />Dein Haus ist ja jetzt echt riesig!<delay20 />
 <anim id="EmotEnd" target="actor" targetSpec="" />Ein toller Orientierungspunkt...<pageBreak /><anim id="HappyDance" target="actor" targetSpec="" />Jetzt muss ich keine Angst mehr
 haben, <delay8 />mich auf der Insel total
@@ -37,7 +41,7 @@ kann ich gleich was Neues kaufen...</message>
 	<message label="013" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Toll, <delay8 />die neue Brücke! <delay20 />Jetzt kann ich
 noch mehr Orte erforschen. <delay frames="40" /><anim id="Negative" target="actor" targetSpec="" />Und mich
 noch öfter verlaufen, <delay8 /><tag a="110" b="5" />...</message>
-	<message label="014" attrib="00 00 00 00 00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" /><tag a="50" b="17" arg="0xd 0xcd00 0xc 0x44 0x69 0x65 0x73 0x65 0x72 0xa 0x44 0x69 0x65 0x73 0x65 0xc 0x44 0x69 0x65 0x73 0x65 0x73" /> <tag a="115" b="0" arg="0xcd00" />, <tag a="50" b="17" arg="0xd 0xcd00 0x6 0x64 0x65 0x72 0x6 0x64 0x69 0x65 0x6 0x64 0x61 0x73" /> neu
+	<message label="014" attrib="00 00 00 00 00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" /><tag a="50" b="17" arg="0xe 0xcd00 0xc 0x44 0x69 0x65 0x73 0x65 0x72 0xa 0x44 0x69 0x65 0x73 0x65 0xc 0x44 0x69 0x65 0x73 0x65 0x73" /> <tag a="115" b="0" arg="0xcd00" />, <tag a="50" b="17" arg="0xe 0xcd00 0x6 0x64 0x65 0x72 0x6 0x64 0x69 0x65 0x6 0x64 0x61 0x73" /> neu
 auf der Insel ist, <delay8 />spielt und
 isst wohl ganz gern.
 <anim id="BigSmile" target="actor" targetSpec="" />Ich glaube, <delay8 />wir werden uns total

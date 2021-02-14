@@ -3,10 +3,9 @@
 	<message label="001_a" attrib="04 00 00 00 00 00 00 00">Das tat ich bereits.</message>
 	<message label="001_b" attrib="05 00 00 00 00 00 00 00">Wieso denn das?</message>
 	<message label="002" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="23" arg="0xd 0xe 0xf 0xffff" /></message>
-	<message label="003" attrib="09 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x10 0x11 0xffff 0xffff" /></message>
+	<message label="003" attrib="09 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x1 0x10 0x11 0x12" /></message>
 	<message label="004" attrib="00 00 00 00 00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />Deine Weltoffenheit fasziniert mich,<delay8 />
-<tag a="110" b="3" />! <delay40 /><anim id="Smiling" target="actor" targetSpec="" />Gewiss haben
-dir unsere <tag a="50" b="23" arg="0xcd00" /><tag a="110" b="7" arg="0xcd01" /> gemundet!<pageBreak /><anim id="Love" target="actor" targetSpec="" />Ich muss schon sagen, <delay8 />ich bin
+<tag a="110" b="3" />! <delay40 /><anim id="Smiling" target="actor" targetSpec="" />Gewiss haben dir unsere <tag a="50" b="23" arg="0xcd00" /><tag a="110" b="7" arg="0xcd01" /> gemundet!<pageBreak /><anim id="Love" target="actor" targetSpec="" />Ich muss schon sagen, <delay8 />ich bin
 geradezu verliebt in diese
 kleinen Wunder der Natur!</message>
 	<message label="005" attrib="00 00 00 00 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Oh, war dir etwa noch nicht bekannt,
@@ -38,10 +37,11 @@ begonnen, <delay8 />doch<tag a="110" b="0" />
 <anim id="EmotEnd" target="actor" targetSpec="" />Nun, <delay8 /><colour id="3" /><anim id="WrySmile" target="actor" targetSpec="" />Eugens<colour id="65535" /> zukünftige Wirkungs-
 stätte scheint seit geraumer Zeit
 im Zeltstadium zu verharren.</message>
-	<message label="017" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="2" arg="0x15 0x16 0x17 0x19" /></message>
+	<message label="017" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="3" arg="0x15 0x16 0x17 0x18 0x19" /></message>
 	<message label="021" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1c00 0x1900 0xcd00" /></message>
 	<message label="022" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1d01 0x1900 0xcd00" /></message>
 	<message label="023" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1e02 0x1900 0xcd00" /></message>
+	<message label="024" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1f03 0x1900 0xcd00" /></message>
 	<message label="025" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Diese Insel verfügt über ein <colour id="1" />Museum<colour id="65535" />,
 <delay8 /><anim id="Explain" target="actor" targetSpec="" />das in eine Vielzahl diverser
 Themenbereiche aufgeteilt ist.
@@ -56,7 +56,7 @@ wärmstens ans Herz legen!
 Stippvisite in unserem <colour id="1" />Museum<colour id="65535" />
 zu absolvieren?
 <anim id="FaintSmile" target="actor" targetSpec="" />Du solltest zumindest einen kurzen
-Blick auf mein liebstes Exponat, <delay8 /><anim id="BigSmile" target="actor" targetSpec="" /><tag a="50" b="17" arg="0x28 0xcd00 0x6 0x64 0x65 0x6e 0x6 0x64 0x69 0x65 0x6 0x64 0x61 0x73" /><tag a="50" b="23" arg="0xcd01" />
+Blick auf mein liebstes Exponat, <delay8 /><anim id="BigSmile" target="actor" targetSpec="" /><tag a="50" b="17" arg="0x29 0xcd00 0x6 0x64 0x65 0x6e 0x6 0x64 0x69 0x65 0x6 0x64 0x61 0x73" /><tag a="50" b="23" arg="0xcd01" />
 <tag a="135" b="13" arg="0x1" />, werfen!</message>
 	<message label="030" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="50" b="1" /><tag a="135" b="13" arg="0x2" /> in
 unserem Eiland-<colour id="1" />Museum<colour id="65535" /><tag a="110" b="0" /><delay20 />
@@ -64,55 +64,49 @@ unserem Eiland-<colour id="1" />Museum<colour id="65535" /><tag a="110" b="0" />
 <anim id="EmotEnd" target="actor" targetSpec="" />Es besteht kein Zweifel<tag a="110" b="0" /><delay20 /><anim id="Nodding" target="actor" targetSpec="" /> Obwohl
 augenscheinlich ausgeweidet, <delay8 />sind
 Fossilien eine wahre Augenweide!</message>
-	<message label="101" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="0" arg="0x66 0x6a" /></message>
-	<message label="102" attrib="00 00 03 00 00 00 00 00">Erzähl, <delay8 /><tag a="110" b="3" />, <delay20 /><anim id="QuestionMark" target="actor" targetSpec="" />hast du dich an das Leben auf deiner neuen Insel bereits gewöhnt?</message>
-	<message label="102_a" attrib="67 00 00 00 00 00 00 00">Mir geht's prächtig!</message>
-	<message label="102_b" attrib="68 00 00 00 00 00 00 00">Na ja, das wird schon.</message>
-	<message label="102_c" attrib="69 00 00 00 00 00 00 00">Uff...</message>
-	<message label="103" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Oh, <delay8 />wie wundervoll! <delay frames="40" /><anim id="Explain" target="actor" targetSpec="" />Ich gestehe,
-<delay8 />dass ich mich nach deinem Wegzug
-ein wenig um deine Zukunft sorgte.
-<anim id="EmotEnd" target="actor" targetSpec="" />Andererseits erfüllt mich das Wissen,
-<delay8 />dass es dir gut geht, <delay8 /><anim id="Hesitate" target="actor" targetSpec="" />auch mit einem
-gewissen Gefühl der Traurigkeit<tag a="110" b="0" />
-<anim id="EmotEnd" target="actor" targetSpec="" />Sei's drum, <delay8 /><anim id="Greeting" target="actor" targetSpec="" />wir freuen uns über
+	<message label="201" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="0" arg="0xca 0xce" /></message>
+	<message label="202" attrib="00 00 03 00 00 00 00 00">Erzähl, <delay8 /><tag a="110" b="3" />, <delay20 /><anim id="QuestionMark" target="actor" targetSpec="" />hast du dich an das Leben ohne mich bereits gewöhnt?</message>
+	<message label="202_a" attrib="cb 00 00 00 00 00 00 00">Klar doch!</message>
+	<message label="202_b" attrib="cc 00 00 00 00 00 00 00">Nicht wirklich...</message>
+	<message label="202_c" attrib="cd 00 00 00 00 00 00 00">Hach...</message>
+	<message label="203" attrib="00 00 00 00 00 00 00 00"><anim id="Restless" target="actor" targetSpec="" />Oh, <delay8 />das<tag a="110" b="0" /> nun<tag a="110" b="0" /> freut mich zu hören.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Natürlich ist dein Wohlergehen eines
+meiner höchsten Anliegen.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Doch die Leichtfertigkeit, <delay8 />mit der
+du das konstatierst,<delay8 /><anim id="Sighing" target="actor" targetSpec="" /> ist ein kleiner
+Stich in meinem Herzen<tag a="110" b="0" />
+<anim id="EmotEnd" target="actor" targetSpec="" />Sei's drum, <delay8 /><anim id="Greeting" target="actor" targetSpec="" />ich freue mich über
 jeden deiner Besuche. <delay20 />Ganz sicher,
-<delay8 />das tun wir! <delay20 /><anim id="Smiling" target="actor" targetSpec="" />Ganz besonders ich!</message>
-	<message label="104" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Oh, <delay8 />tatsächlich? <delay frames="40" /><anim id="Explain" target="actor" targetSpec="" />Nun, <delay8 />das braucht
+<delay8 />das tue ich! <delay20 /><anim id="Smiling" target="actor" targetSpec="" />Von ganzem Herzen!</message>
+	<message label="204" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Oh, <delay8 />tatsächlich? <delay frames="40" /><anim id="Explain" target="actor" targetSpec="" />Nun, <delay8 />das braucht
 etwas Zeit, <delay8 />aber jemand mit deiner
 Anpassungsfähigkeit schafft das!
 <anim id="Nodding" target="actor" targetSpec="" />Veränderung fällt niemals leicht<tag a="110" b="0" />
 <delay20 />Glaube mir, <delay8 />als Bewohnerin dieses
 Eilands weiß ich, <delay8 /><anim id="OhGeez" target="actor" targetSpec="" />wovon ich rede!</message>
-	<message label="105" attrib="00 00 00 00 00 00 00 00"><anim id="TakenAback" target="actor" targetSpec="" />Ojemine! <delay8 />Geht es dir gut, <gender2 m="mein lieber" f="meine liebe" />
-<tag a="110" b="3" />?<pageBreak /><anim id="Worried" target="actor" targetSpec="" />Bereits bei deinem Abschied fühlte
-ich mich wie eine Vogelmutter,
-<delay8 />die ihr Junges davonfliegen sieht<tag a="110" b="0" />
-<anim id="Crying" target="actor" targetSpec="" />Du armes Küken! <delay20 />Nur zu, <delay8 />dies ist
-auch für dich eine opportune Zeit,
-<delay8 />die Tränchen laufen zu lassen!</message>
-	<message label="106" attrib="00 00 03 00 00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" /><tag a="50" b="3" /><gender2 m="mein lieber" f="meine liebe" /> <tag a="110" b="3" />, <delay8 />dürfte ich dich etwas fragen, <delay8 />nun, <delay8 />da du etwas von der Welt gesehen hast?<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Aus deinem Blickwinkel – <delay8 />und bitte,
-bitte, sei ehrlich – <delay8 /><anim id="QuestionMark" target="actor" targetSpec="" />was hältst du
-da von unserem Eiland?</message>
-	<message label="106_a" attrib="6b 00 00 00 00 00 00 00">Ein toller Ort!</message>
-	<message label="106_b" attrib="6c 00 00 00 00 00 00 00">Es hat Potenzial.</message>
-	<message label="106_c" attrib="6d 00 00 00 00 00 00 00">Ui...</message>
-	<message label="107" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Hah, <delay8 />du meinst, <tag a="110" b="8" />
-steht hinter anderen Inseln also in
-keinerlei Hinsicht zurück?!
-<anim id="HappyDance" target="actor" targetSpec="" />Nun, <delay8 /><tag a="110" b="3" />, <delay20 />es freut
-mich, <delay8 />dies zu vernehmen, <delay20 /><anim id="FaintSmile" target="actor" targetSpec="" />schließlich
-mag ich diese kleine Insel gar sehr.</message>
-	<message label="108" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Oh, <delay8 />du sagst, <delay8 />es gibt viel zu
-verbessern? <delay frames="40" /><anim id="Nodding" target="actor" targetSpec="" />Nun, <delay8 />gar kein Problem<tag a="110" b="0" />
-Schließlich haben wir Potenzial!<pageBreak /><anim id="SmugFace" target="actor" targetSpec="" />Mit der Hilfe von <tag a="110" b="16" />
-werden wir nichts unversucht lassen,
-<delay8 />hier ein kleines Paradies zu schaffen!<pageBreak /><anim id="Greeting" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="110" b="3" />, <delay8 />lass dich einfach bei deinem nächsten Besuch auf <tag a="110" b="8" /> überraschen!</message>
-	<message label="109" attrib="00 00 00 00 00 00 00 00"><anim id="Confused" target="actor" targetSpec="" />Es<tag a="110" b="0" /> Es<tag a="110" b="0" /> ist einfach nicht mehr
-wie zuvor, <delay8 />nicht wahr?<pageBreak /><anim id="OhGeez" target="actor" targetSpec="" />Dies ist nicht mehr die Insel
-<tag a="110" b="8" />, die sie zu deinen
-ehrwürdigen Zeiten noch war.
-<anim id="Explain" target="actor" targetSpec="" />Doch die Uhr tickt weiter, <delay8 />Sekunde
-um Sekunde, <delay20 />Stunde um Stunde<tag a="110" b="0" />
-Auch du drehst sie nicht zurück!</message>
+	<message label="205" attrib="00 00 00 00 00 00 00 00"><anim id="TakenAback" target="actor" targetSpec="" />Ojemine! <delay8 />Geht es dir gut,<delay8 /> <gender2 m="mein lieber" f="meine liebe" />
+<tag a="110" b="3" />?<pageBreak /><anim id="Worried" target="actor" targetSpec="" />Bereits bei meinem Abschied hatte
+ich das Gefühl, mein eigen Fleisch
+und Blut zu verlassen<tag a="110" b="0" />
+<anim id="Crying" target="actor" targetSpec="" />Du armes Küken! <delay20 />Nur zu, <delay8 />lasse den
+Tränchen ruhig freien Lauf, <delay8 /><tag a="110" b="5" />!</message>
+	<message label="206" attrib="00 00 03 00 00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" /><gender2 m="Mein lieber" f="Meine liebe" /> <tag a="110" b="3" />, <delay8 />dürfte ich dich etwas fragen, <delay8 />nun, <delay8 />da du etwas von der Welt gesehen hast?<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Aus deinem Blickwinkel – <delay20 />und bitte,
+bitte,<delay8 /> sei ehrlich – <delay20 /><anim id="QuestionMark" target="actor" targetSpec="" />was hältst du von
+diesem Eiland hier?</message>
+	<message label="206_a" attrib="cf 00 00 00 00 00 00 00">Ein toller Ort!</message>
+	<message label="206_b" attrib="d0 00 00 00 00 00 00 00">Es hat Potenzial.</message>
+	<message label="206_c" attrib="d1 00 00 00 00 00 00 00">Puuuh...</message>
+	<message label="207" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Hah, <delay8 />du meinst, <tag a="110" b="8" /> steht hinter anderen Inseln also in keinerlei Hinsicht zurück?!<pageBreak /><anim id="HappyDance" target="actor" targetSpec="" />Nun, <delay8 /><tag a="110" b="3" />, <delay20 />es freut mich, <delay8 />dies zu vernehmen. <delay20 /><anim id="FaintSmile" target="actor" targetSpec="" />Schließlich habe ich diesen Ort liebgewonnen.</message>
+	<message label="208" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Oh, <delay8 />du sagst, <delay8 />es gibt viel zu
+verbessern? <delay frames="40" /><anim id="Nodding" target="actor" targetSpec="" />Nun, <delay8 />ich hoffe,
+das wird gelingen!<pageBreak /><anim id="SmugFace" target="actor" targetSpec="" />Mit der Hilfe von <tag a="110" b="16" />
+werden wir nichts unversucht lassen,<delay8 />
+hier ein kleines Paradies zu schaffen!<pageBreak /><anim id="Greeting" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="110" b="3" />, <delay8 />lass dich einfach bei deinem nächsten Besuch auf <tag a="110" b="8" /> überraschen!</message>
+	<message label="209" attrib="00 00 00 00 00 00 00 00"><anim id="Confused" target="actor" targetSpec="" />Es<tag a="110" b="0" /> Es<tag a="110" b="0" /> gefällt dir hier nicht
+allzu sehr, <delay8 />habe ich recht?<pageBreak /><anim id="Negative" target="actor" targetSpec="" />Nicht nötig, <delay8 />noch weitere Worte zu
+verlieren. <delay20 />Dein Gesicht, <delay8 />es spricht
+Bände, <delay8 /><tag a="110" b="5" />.
+<anim id="OhGeez" target="actor" targetSpec="" />Doch letzten Endes zählt nur, <delay8 />dass
+ich mich hier wohlfühle, <delay8 />nicht wahr?<pageBreak /><anim id="Hesitate" target="actor" targetSpec="" />Und unterschiedlicher Meinung zu
+sein ist wahrlich kein Verbrechen.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Ich betrachte diesen Austausch als
+das Salz, <delay8 />das der Suppe des Lebens
+Würze verleiht!</message>
 </msbt>

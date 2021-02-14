@@ -20,10 +20,10 @@ möchtest, <delay8 />schau dir mal unseren
 	<message label="001_03_01" attrib="00 00 00 00">Übrigens...<delay40 /> Du bist doch<delay8 />
 <anim id="QuestionMark" target="actor" targetSpec="" /><tag a="110" b="1" />, stimmt's?<pageBreak /><anim id="BigSmile" target="actor" targetSpec="" />Tja, <delay8 />die Insel ist klein. <delay frames="40" /><anim id="Laughing" target="actor" targetSpec="" />Da macht
 so was schnell die Runde.</message>
-	<message label="001_03_02" attrib="00 00 00 00">Ich habe gerade von <colour id="3" />Tom Nook<colour id="65535" /> ein
-<colour id="1" />Meilenticket <colour id="65535" />für jemanden namens
-„<tag a="110" b="1" />“ erhalten.<pageBreak />Das bist du, oder?<delay20 /> Wenn du es
-einsetzen möchtest, <delay8 />sage einfach
+	<message label="001_03_02" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Ich habe gerade von <colour id="3" />Tom Nook
+<colour id="65535" />ein <colour id="1" />Meilenticket <colour id="65535" />mit dem Namen
+„<tag a="110" b="1" />“ drauf erhalten.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Das wäre dann also deines!<delay20 /> Wenn du
+es einsetzen möchtest, <delay8 />sage einfach<anim id="Greeting" target="actor" targetSpec="" />
 „<colour id="1" />Ich möchte fliegen<colour id="65535" />“. <delay20 />Alles klar?</message>
 	<message label="001_03_03" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Tja, <delay8 />Service wird bei uns zwar
 großgeschrieben, <delay8 /><anim id="OhGeez" target="actor" targetSpec="" />aber nur wenn
@@ -125,7 +125,7 @@ es gleich losgehen! <delay40 /><anim id="QuestionMark" target="actor" targetSpec
 	<message label="032_a" attrib="00 00 00 00">Auf geht's!</message>
 	<message label="032_b" attrib="00 00 00 00">Doch nicht...</message>
 	<message label="035" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Du möchtest dein <colour id="1" />Meilenticket<colour id="65535" />
-verwenden?<delay40 /> <snpcAnim id="DodRoger" target="actor" targetSpec="" />Roger!<anim id="EmotEnd" target="actor" targetSpec="" /></message>
+verwenden?<delay40 /> <snpcAnim id="DodRoger" target="actor" targetSpec="" />Roger!<delay frames="50" /><anim id="EmotEnd" target="actor" targetSpec="" /></message>
 	<message label="035_01" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Gut. <delay20 />Alles klar. <delay20 /><anim id="Smiling" target="actor" targetSpec="" />Dann nehme ich
 das Ticket,<delay8 /> das <colour id="3" />Tom Nook<colour id="65535" /> für dich
 ausgestellt hat, <delay8 />mal an mich.</message>
@@ -161,10 +161,16 @@ muss ja rechtlich alles in trockenen
 Tüchern sein.
 <anim id="Serious" target="actor" targetSpec="" />Also lies es dir bitte komplett durch,<delay8 />
 okay?</message>
-	<message label="091_02" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Danke<delay8 />, dass du dir den Kram
+	<message label="091_02" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Danke,<delay8 /> dass du dir den Kram
 durchgelesen hast! <delay20 /><anim id="FaintSmile" target="actor" targetSpec="" />Kommen
 wir nun zum nächsten Schritt<tag a="110" b="0" /></message>
 	<message label="091" attrib="00 00 00 00" />
+	<message label="092" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Roger! <delay frames="40" /><anim id="Blushing" target="actor" targetSpec="" />Eine Sache noch<tag a="110" b="0" /> <delay20 />und sorry,<delay8 />
+falls du das alles schon mal zu
+Gesicht bekommen hast.
+<anim id="Serious" target="actor" targetSpec="" />Aber unsere Anwälte bestehen
+darauf, <delay8 />dass wir vor dem
+<colour id="1" />Online-Spiel<colour id="65535" /> auf so was hinweisen.</message>
 	<message label="101" attrib="04 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Möchtest du über den <colour id="1" />lokalen Modus
 <colour id="65535" />zu einer Insel in der Nähe?<pageBreak />Oder per <colour id="1" />Online-Spiel<colour id="65535" /> zu einer weiter
 entfernten?</message>
@@ -186,7 +192,7 @@ anfliegen können.<delay20 /> <anim id="Worried" target="actor" targetSpec="" />
 	<message label="104_c" attrib="00 00 00 00">Doch nicht...</message>
 	<message label="105" attrib="02 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Ich hab da etwas gefunden...<delay frames="30" /> <anim id="Worried" target="actor" targetSpec="" />Leider
 ist <tag a="115" b="2" arg="0xcd00" /> momentan recht voll und erlaubt keinen Besuch.</message>
-	<message label="105_a" attrib="00 00 00 00">Bitte noch mal suchen.</message>
+	<message label="105_a" attrib="00 00 00 00">Noch mal versuchen.</message>
 	<message label="105_b" attrib="00 00 00 00">Dann ein andermal...</message>
 	<message label="106" attrib="00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Oh, <delay8 />einen Moment!<delay20 /><anim id="Thinking" target="actor" targetSpec="" /> Für diese Insel
 brauchst du einen <colour id="1" />Dodo-Code<colour id="65535" />.<10_4 />
@@ -199,13 +205,13 @@ mal eingeben?</message>
 	<message label="108" attrib="04 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Oha!<delay20 /><anim id="Thinking" target="actor" targetSpec="" /> Das Signal ist gestört<tag a="110" b="0" /><delay20 /> Einen
 Augenblick, <delay8 />bitte. <delay frames="40" /><anim id="Angry" target="actor" targetSpec="" /><size value="75" />Nie schalten die Leute
 ihre NookPhones in den Flugmodus<tag a="110" b="0" /><size value="100" /></message>
-	<message label="108_a" attrib="00 00 00 00">Bitte noch mal suchen.</message>
+	<message label="108_a" attrib="00 00 00 00">Noch mal versuchen.</message>
 	<message label="108_b" attrib="00 00 00 00">Was meinst du damit?</message>
 	<message label="108_c" attrib="00 00 00 00">Dann ein andermal...</message>
 	<message label="108_01" attrib="04 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Oha!<delay20 /><anim id="Thinking" target="actor" targetSpec="" /> Das Signal ist gestört<tag a="110" b="0" /><delay20 /> Einen
 Augenblick, <delay8 />bitte. <delay frames="40" /><anim id="Angry" target="actor" targetSpec="" /><size value="75" />Nie schalten die Leute
 ihre NookPhones in den Flugmodus<tag a="110" b="0" /><size value="100" /></message>
-	<message label="108_01_a" attrib="00 00 00 00">Bitte noch mal suchen.</message>
+	<message label="108_01_a" attrib="00 00 00 00">Noch mal versuchen.</message>
 	<message label="108_01_b" attrib="00 00 00 00">Was meinst du damit?</message>
 	<message label="108_01_c" attrib="00 00 00 00">Ein anderes Mal.</message>
 	<message label="109" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />So, dann kann es losgehen! <delay20 />
@@ -237,10 +243,10 @@ Besucher festlegen?</message>
 	<message label="114" attrib="00 00 00 00"><snpcAnim id="DodRoger" target="actor" targetSpec="" /><delay20 />Roger!<10_4 /> Dann bräuchte ich einen
 vierstelligen Zahlencode von dir.</message>
 	<message label="115_01" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Alles klar!<delay frames="40" /> <anim id="Hello" target="actor" targetSpec="" />Dann öffne ich jetzt
-das Tor<tag a="110" b="0" /></message>
+den Flugsteig<tag a="110" b="0" /></message>
 	<message label="115_02" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Alles klar<tag a="110" b="0" /> <anim id="Shocked" target="actor" targetSpec="" />OH!</message>
 	<message label="116_01" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Alles klar!<delay frames="40" /> <anim id="Hello" target="actor" targetSpec="" />Dann öffne ich jetzt
-das Tor<tag a="110" b="0" /></message>
+den Flugsteig<tag a="110" b="0" /></message>
 	<message label="116_02" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Verst-- <delay20 /><anim id="Shocked" target="actor" targetSpec="" />OH!</message>
 	<message label="117_01" attrib="00 00 00 00"><anim id="ShyBoy" target="actor" targetSpec="" />Na ja, <delay8 />unter gewissen Umständen
 können wir Inseln manchmal leider
@@ -262,7 +268,7 @@ als ich. <delay20 /><anim id="Laughing" target="actor" targetSpec="" />Wir verbr
 Zeit mit unseren Smartphones...</message>
 	<message label="117_02" attrib="02 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Möchtest du, dass ich es jetzt
 gleich noch einmal versuche?</message>
-	<message label="117_02_a" attrib="00 00 00 00">Bitte noch mal suchen.</message>
+	<message label="117_02_a" attrib="00 00 00 00">Noch mal versuchen.</message>
 	<message label="117_02_b" attrib="00 00 00 00">Ein andermal.</message>
 	<message label="118_01" attrib="00 00 00 00"><anim id="ShyBoy" target="actor" targetSpec="" />Na ja, <delay8 />unter gewissen Umständen
 können wir manchmal leider nicht
@@ -284,9 +290,9 @@ als ich. <delay20 /><anim id="Laughing" target="actor" targetSpec="" />Wir verbr
 Zeit mit unseren Smartphones...</message>
 	<message label="118_02" attrib="02 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Möchtest du, <delay8 />dass ich es jetzt
 gleich noch einmal versuche?</message>
-	<message label="118_02_a" attrib="00 00 00 00">Bitte noch mal suchen.</message>
+	<message label="118_02_a" attrib="00 00 00 00">Noch mal versuchen.</message>
 	<message label="118_02_b" attrib="00 00 00 00">Ein andermal.</message>
-	<message label="120" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Wird gemacht!<delay frames="40" />
+	<message label="120" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Alles klar!<delay frames="40" />
 <anim id="Hello" target="actor" targetSpec="" />Ich öffne jetzt den Flugsteig.</message>
 	<message label="120_01" attrib="00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Du bist ja gerade mit dem
 <colour id="1" />Insel-Designer<colour id="65535" /> zugange...<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Tut mir leid, <delay8 />diese App kannst du im
@@ -319,35 +325,56 @@ ich wünsche viel Spaß!</message>
 einfach jemandem, <delay8 />den du auf die
 Insel einladen möchtest.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Es war nie leichter, <delay8 />neue Freunde
 kennenzulernen!</message>
-	<message label="130" attrib="02 00 00 00">Verstanden. <delay20 />Dann lass mich mal
+	<message label="130" attrib="02 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Verstanden. <delay20 />Dann lass mich mal
 eben schnell eine Verbindung mit
 dem Internet herstellen<tag a="110" b="0" /></message>
 	<message label="130_a" attrib="00 00 00 00">Roger!</message>
 	<message label="130_b" attrib="00 00 00 00">Lieber nicht...</message>
+	<message label="140" attrib="00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Hoppla. <delay20 />Sieht ganz danach aus,<delay8 />
+<anim id="Oops" target="actor" targetSpec="" />als hätte da jemand seinen
+Flugsteig dichtgemacht.</message>
+	<message label="150" attrib="02 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Möchtest du vielleicht woanders
+hin?<delay20 /><anim id="EmotEnd" target="actor" targetSpec="" /> Ich kann gern noch eine
+weitere Suche für dich starten.</message>
+	<message label="150_a" attrib="00 00 00 00">Erneut suchen.</message>
+	<message label="150_b" attrib="00 00 00 00">Ein andermal.</message>
 	<message label="200" attrib="06 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Hey, <delay8 />da bist du ja wieder!<delay frames="40" /> <anim id="QuestionMark" target="actor" targetSpec="" />Was ist
 dein Begehr<tag a="110" b="0" /><delay8 /><anim id="Smiling" target="actor" targetSpec="" /> bei Dodo Air?</message>
-	<message label="200_a" attrib="00 00 00 00">Tor öffnen.</message>
+	<message label="200_a" attrib="00 00 00 00">Flugsteig öffnen.</message>
 	<message label="200_b" attrib="00 00 00 00">Verbindung beenden.</message>
 	<message label="200_c" attrib="00 00 00 00">Doch verreisen.</message>
 	<message label="200_d" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Nein, nichts.</message>
 	<message label="201" attrib="08 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Hey, <delay8 />da bist du ja wieder!<delay frames="40" /> <anim id="QuestionMark" target="actor" targetSpec="" />Was ist
 dein Begehr<tag a="110" b="0" /><delay8 /><anim id="Smiling" target="actor" targetSpec="" /> bei Dodo Air?</message>
-	<message label="201_a" attrib="00 00 00 00">Tor öffnen.</message>
+	<message label="201_a" attrib="00 00 00 00">Flugsteig öffnen.</message>
 	<message label="201_b" attrib="00 00 00 00">Verbindung beenden.</message>
 	<message label="201_c" attrib="00 00 00 00">Wie war der Code?</message>
 	<message label="201_d" attrib="00 00 00 00">Doch verreisen.</message>
 	<message label="201_e" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Nein, nichts.</message>
+	<message label="202" attrib="08 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Hey, <delay8 />da bist du ja wieder!<delay frames="40" /> <anim id="QuestionMark" target="actor" targetSpec="" />Was ist
+dein Begehr<tag a="110" b="0" /><delay8 /><anim id="Smiling" target="actor" targetSpec="" /> bei Dodo Air?</message>
+	<message label="202_a" attrib="00 00 00 00">Flugsteig öffnen.</message>
+	<message label="202_b" attrib="00 00 00 00">Verbindung beenden.</message>
+	<message label="202_c" attrib="00 00 00 00">Wie war der Code?</message>
+	<message label="202_d" attrib="00 00 00 00">Doch verreisen.</message>
+	<message label="202_e" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Nein, nichts.</message>
 	<message label="210" attrib="04 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Hey, <delay8 />da bist du ja wieder!<delay frames="40" /> <anim id="QuestionMark" target="actor" targetSpec="" />Was ist
 dein Begehr<tag a="110" b="0" /><delay8 /><anim id="Smiling" target="actor" targetSpec="" /> bei Dodo Air?</message>
-	<message label="210_a" attrib="00 00 00 00">Tor schließen.</message>
+	<message label="210_a" attrib="00 00 00 00">Flugsteig schließen.</message>
 	<message label="210_b" attrib="00 00 00 00">Doch verreisen.</message>
 	<message label="210_c" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Nein, nichts.</message>
 	<message label="211" attrib="06 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Hey, <delay8 />da bist du ja wieder!<delay frames="40" /> <anim id="QuestionMark" target="actor" targetSpec="" />Was ist
 dein Begehr<tag a="110" b="0" /><delay8 /><anim id="Smiling" target="actor" targetSpec="" /> bei Dodo Air?</message>
-	<message label="211_a" attrib="00 00 00 00">Tor schließen.</message>
+	<message label="211_a" attrib="00 00 00 00">Flugsteig schließen.</message>
 	<message label="211_b" attrib="00 00 00 00">Wie war der Code?</message>
 	<message label="211_c" attrib="00 00 00 00">Doch verreisen.</message>
 	<message label="211_d" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Nein, nichts.</message>
+	<message label="212" attrib="06 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Hey, <delay8 />da bist du ja wieder!<delay frames="40" /> <anim id="QuestionMark" target="actor" targetSpec="" />Was ist
+dein Begehr<tag a="110" b="0" /><delay8 /><anim id="Smiling" target="actor" targetSpec="" /> bei Dodo Air?</message>
+	<message label="212_a" attrib="00 00 00 00">Flugsteig schließen.</message>
+	<message label="212_b" attrib="00 00 00 00">Wie war der Code?</message>
+	<message label="212_c" attrib="00 00 00 00">Doch verreisen.</message>
+	<message label="212_d" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Nein, nichts.</message>
 	<message label="220" attrib="02 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Oh, <delay8 />statt Besucher zu empfangen,<delay8 />
 <anim id="QuestionMark" target="actor" targetSpec="" />möchtest du lieber selbst reisen?</message>
 	<message label="220_a" attrib="00 00 00 00">Genau!</message>
@@ -362,7 +389,12 @@ auf unserer Insel haben, <delay8 />sollte das
 kein Problem sein!</message>
 	<message label="223" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Alles klar!<delay20 />
 Der aktuelle Code lautet <anim id="FaintSmile" target="actor" targetSpec="" />„<colour id="1" /><tag a="110" b="26" /><colour id="65535" />“.</message>
-	<message label="251" attrib="00 00 00 00" />
+	<message label="224" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Alles klar!<delay20 /> Der aktuelle Code lautet
+<anim id="FaintSmile" target="actor" targetSpec="" />„<colour id="1" /><tag a="110" b="25" /><colour id="65535" />“.</message>
+	<message label="251_01" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Erledigt!<delay frames="40" />
+<anim id="EmotEnd" target="actor" targetSpec="" />Und schon herrscht Funkstille.</message>
+	<message label="251_02" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Wenn ich noch was für dich tun kann,<delay8 />
+sag einfach Bescheid!</message>
 	<message label="252" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Falls du doch noch mehr Freunde
 reinlassen möchtest, <delay frames="30" /><anim id="EmotEnd" target="actor" targetSpec="" />öffne ich den
 Flugsteig wieder. <delay20 /><anim id="Hello" target="actor" targetSpec="" />Sag Bescheid.</message>
@@ -374,21 +406,31 @@ deinen Besuch<anim id="FaintSmile" target="actor" targetSpec="" /> von anderen I
 freundlich begrüßt.</message>
 	<message label="301" attrib="04 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Gibt es denn sonst noch was,<delay8 />
 wobei ich dir behilflich sein kann?</message>
-	<message label="301_a" attrib="00 00 00 00">Tor öffnen.</message>
+	<message label="301_a" attrib="00 00 00 00">Flugsteig öffnen.</message>
 	<message label="301_b" attrib="00 00 00 00">Wie war der Code?</message>
 	<message label="301_c" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Nein, nichts.</message>
 	<message label="302" attrib="04 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Gibt es denn sonst noch was,<delay8 />
 wobei ich dir behilflich sein kann?</message>
-	<message label="302_a" attrib="00 00 00 00">Tor schließen.</message>
+	<message label="302_a" attrib="00 00 00 00">Flugsteig schließen.</message>
 	<message label="302_b" attrib="00 00 00 00">Wie war der Code?</message>
 	<message label="302_c" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Nein, nichts.</message>
+	<message label="303" attrib="04 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Gibt es denn sonst noch was,<delay8 />
+wobei ich dir behilflich sein kann?</message>
+	<message label="303_a" attrib="00 00 00 00">Flugsteig öffnen.</message>
+	<message label="303_b" attrib="00 00 00 00">Wie war der Code?</message>
+	<message label="303_c" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Nein, nichts.</message>
+	<message label="304" attrib="04 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Gibt es denn sonst noch was,<delay8 />
+wobei ich dir behilflich sein kann?</message>
+	<message label="304_a" attrib="00 00 00 00">Flugsteig schließen.</message>
+	<message label="304_b" attrib="00 00 00 00">Wie war der Code?</message>
+	<message label="304_c" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Nein, nichts.</message>
 	<message label="305" attrib="02 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Gibt es denn sonst noch was,<delay8 />
 wobei ich dir behilflich sein kann?</message>
-	<message label="305_a" attrib="00 00 00 00">Tor öffnen.</message>
+	<message label="305_a" attrib="00 00 00 00">Flugsteig öffnen.</message>
 	<message label="305_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Ich brauche nichts.</message>
 	<message label="306" attrib="02 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Gibt es denn sonst noch was,<delay8 />
 wobei ich dir behilflich sein kann?</message>
-	<message label="306_a" attrib="00 00 00 00">Tor schließen.</message>
+	<message label="306_a" attrib="00 00 00 00">Flugsteig schließen.</message>
 	<message label="306_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Ich brauche nichts.</message>
 	<message label="350" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Hey, <delay8 />du sozialer Überflieger! <delay20 /><anim id="FaintSmile" target="actor" targetSpec="" />Schön
 zu sehen,<delay8 /> wie gut du dich mit deinen

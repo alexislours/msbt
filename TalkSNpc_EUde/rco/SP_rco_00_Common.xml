@@ -1,10 +1,10 @@
 <msbt attribsize="4">
-	<message label="000" attrib="00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" /><delay8 />Ah, <delay20 /><tag a="110" b="1" />!<delay40 /> <anim id="Greeting" target="actor" targetSpec="" />Hallo,<delay8 /> hallo!<anim id="Smiling" target="actor" targetSpec="" /></message>
+	<message label="000" attrib="00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />Ah, <delay20 /><tag a="110" b="1" />!<delay20 /> Hallo,<delay8 /> hallo!</message>
 	<message label="000_01" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Hallo, <delay8 />hallo!<delay20 />
 Du bist hier bei der <colour id="1" />Bauberatung<colour id="65535" />.<10_4 /> <anim id="QuestionMark" target="actor" targetSpec="" />Womit kann ich helfen,<delay8 /> hm?</message>
 	<message label="000_02" attrib="00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" /><delay8 />Ah, <delay20 /><tag a="110" b="1" />!<delay40 />
-<anim id="Greeting" target="actor" targetSpec="" />Willkommen zurück!<anim id="Smiling" target="actor" targetSpec="" /></message>
-	<message label="000_03" attrib="00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" /><delay8 />Ah, anderes Thema...</message>
+<anim id="Greeting" target="actor" targetSpec="" />Willkommen zurück!</message>
+	<message label="000_03" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" /><delay8 />Ah, <delay8 />anderes Thema<tag a="110" b="0" /></message>
 	<message label="004_01" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Für <colour id="1" />5000 Sternis<colour id="65535" /> können wir das
 Äußere deines Hauses anpassen.</message>
 	<message label="004_02" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Wir können das Äußere deines
@@ -14,17 +14,17 @@ ist morgen früh alles fertig.<delay20 /> <anim id="QuestionMark" target="actor"
 interessiert?</message>
 	<message label="004_03_a" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Ja, gern!</message>
 	<message label="004_03_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Ein andermal...</message>
-	<message label="005" attrib="00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Äh...<delay20 /> Laut Firmenpolitik muss die
-Bezahlung im Voraus erfolgen.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Es sieht aber so aus, als hättest du
-nicht genug Sternis.<delay20 /><anim id="Smiling" target="actor" targetSpec="" /> Komm bitte
-wieder, wenn du genug Geld hast.</message>
+	<message label="005" attrib="00 00 00 00"><anim id="ShyBoy" target="actor" targetSpec="" />Also<tag a="110" b="0" /><delay20 /> Laut Firmenpolitik muss die
+Bezahlung im Voraus erfolgen.<pageBreak /><anim id="Serious" target="actor" targetSpec="" />Es sieht aber so aus, <delay8 />als hättest du
+nicht genug Sternis.<delay20 /> Komm bitte
+wieder,<delay8 /> <anim id="Smiling" target="actor" targetSpec="" />wenn du genug Geld hast.</message>
 	<message label="006" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Ausgezeichnet!<delay20 /> Dann zeige ich dir
 unseren Katalog, <delay8 />und du suchst dir
 aus, was dir gefällt.</message>
 	<message label="007" attrib="00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Hast du es dir anders überlegt?<10_4 />
 <anim id="Smiling" target="actor" targetSpec="" />Na, <delay8 />du weißt ja, wo du mich findest,<delay8 />
 wenn du dein Haus umbauen willst.</message>
-	<message label="008_01" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Hmmm<tag a="110" b="0" /><delay20 /><anim id="Smiling" target="actor" targetSpec="" /> Interessante Wahl!</message>
+	<message label="008_01" attrib="00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Hmmm<tag a="110" b="0" /><delay20 /><anim id="Smiling" target="actor" targetSpec="" /> Interessante Wahl!</message>
 	<message label="008_02" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Das macht dann bitte <colour id="1" />5000 Sternis<colour id="65535" />!</message>
 	<message label="009_01" attrib="00 00 00 00"><anim id="HappyFlower" target="actor" targetSpec="" />Besten Dank!</message>
 	<message label="009_02" attrib="00 00 00 00"><anim id="HappyDance" target="actor" targetSpec="" />Ich kümmere mich darum, dass die
@@ -50,8 +50,7 @@ nächsten Morgen alles fertig ist.<pageBreak /><anim id="EmotEnd" target="actor"
 	<message label="014" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Wirklich?<10_4 /><anim id="Smiling" target="actor" targetSpec="" /> Na, <delay8 />falls du doch noch
 möchtest, <delay8 />weißt du, <delay8 />wo du mich
 findest.</message>
-	<message label="015" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Wunderbar!<delay frames="40" /> Äh<tag a="110" b="0" /> <tag a="110" b="1" />,<delay20 /> <anim id="Worried" target="actor" targetSpec="" />die Umzugsgebühr muss ich leider
-sofort kassieren.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Und im Moment scheinst du sie nicht
+	<message label="015" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Wunderbar!<delay frames="40" /> Äh<tag a="110" b="0" /> <tag a="110" b="1" />,<delay20 /> <anim id="Worried" target="actor" targetSpec="" />die Umzugsgebühr muss ich leider sofort kassieren.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Und im Moment scheinst du sie nicht
 zahlen zu können.<delay20 /><anim id="Smiling" target="actor" targetSpec="" /> Aber dann warten
 wir einfach, <delay8 />bis du es kannst!</message>
 	<message label="016" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Wenn du einen Ort gefunden hast, <delay8 />an
@@ -78,9 +77,9 @@ du bekommst dein Geld zurück.</message>
 	<message label="022" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Umziehen erfordert Vorbereitung,
 hm?<delay frames="40" /> <anim id="Explain" target="actor" targetSpec="" />Du musst markieren, <delay8 />wo du
 hinziehen möchtest.<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Also finde ein Fleckchen und sperre
-es dann als Markierung mit <tag a="50" b="17" arg="0x11 0xcd00 0xc 0x64 0x65 0x69 0x6e 0x65 0x6d 0xc 0x64 0x65 0x69 0x6e 0x65 0x72 0xc 0x64 0x65 0x69 0x6e 0x65 0x6d" />
+es dann als Markierung mit <tag a="50" b="17" arg="0x12 0xcd00 0xc 0x64 0x65 0x69 0x6e 0x65 0x6d 0xc 0x64 0x65 0x69 0x6e 0x65 0x72 0xc 0x64 0x65 0x69 0x6e 0x65 0x6d" />
 <tag a="125" b="0" arg="0x0" /> ab!</message>
-	<message label="023" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Du hast ein Grundstück mit <tag a="50" b="17" arg="0x11 0xcd00 0xc 0x64 0x65 0x69 0x6e 0x65 0x6d 0xc 0x64 0x65 0x69 0x6e 0x65 0x72 0xc 0x64 0x65 0x69 0x6e 0x65 0x6d" />
+	<message label="023" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Du hast ein Grundstück mit <tag a="50" b="17" arg="0x12 0xcd00 0xc 0x64 0x65 0x69 0x6e 0x65 0x6d 0xc 0x64 0x65 0x69 0x6e 0x65 0x72 0xc 0x64 0x65 0x69 0x6e 0x65 0x6d" />
 <tag a="125" b="0" arg="0x0" /> markiert?<delay20 /><anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak /><anim id="Greeting" target="actor" targetSpec="" />Dann ist für morgen alles bereit!</message>
 	<message label="031" attrib="00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Ah!<delay frames="40" /><anim id="Smiling" target="actor" targetSpec="" /> Es gibt da etwas<tag a="110" b="0" /><10_4 /><anim id="Smiling" target="actor" targetSpec="" /> über das wir
 reden sollten.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Hier bei mir am Schalter können sich
@@ -178,41 +177,41 @@ veranlassen.
 Farben für dein Dach aussuchen!</message>
 	<message label="203" attrib="08 00 00 00">Bitte wähle eine Farbe für dein Dach,
 hm?</message>
-	<message label="203_a" attrib="00 00 00 00">Rot</message>
-	<message label="203_b" attrib="00 00 00 00">Pink</message>
-	<message label="203_c" attrib="00 00 00 00">Gelb</message>
-	<message label="203_d" attrib="00 00 00 00">Schwarz</message>
-	<message label="203_e" attrib="00 00 00 00">Andere Farbe</message>
-	<message label="204" attrib="08 00 00 00">Es gibt noch vier weitere Farben!
+	<message label="203_a" attrib="00 00 00 00">Rot.</message>
+	<message label="203_b" attrib="00 00 00 00">Rosa.</message>
+	<message label="203_c" attrib="00 00 00 00">Gelb.</message>
+	<message label="203_d" attrib="00 00 00 00">Schwarz.</message>
+	<message label="203_e" attrib="00 00 00 00">Andere Farbe.</message>
+	<message label="204" attrib="08 00 00 00">Es gibt noch vier weitere Farben!<delay20 /><anim id="Nodding" target="actor" targetSpec="" />
 Wähle eine davon oder von den
-vorherigen Farben, ja?</message>
-	<message label="204_a" attrib="00 00 00 00">Blau</message>
-	<message label="204_b" attrib="00 00 00 00">Türkis</message>
-	<message label="204_c" attrib="00 00 00 00">Grün</message>
-	<message label="204_d" attrib="00 00 00 00">Lila</message>
-	<message label="204_e" attrib="00 00 00 00">Andere Farbe</message>
-	<message label="205" attrib="08 00 00 00">Interesse an einer der ersten vier
-Farben? Lass dir Zeit, es ist eine
+vorherigen Farben,<delay8 /> ja?</message>
+	<message label="204_a" attrib="00 00 00 00">Blau.</message>
+	<message label="204_b" attrib="00 00 00 00">Hellblau.</message>
+	<message label="204_c" attrib="00 00 00 00">Grün.</message>
+	<message label="204_d" attrib="00 00 00 00">Lila.</message>
+	<message label="204_e" attrib="00 00 00 00">Andere Farbe.</message>
+	<message label="205" attrib="08 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Interesse an einer der ersten vier
+Farben? <delay frames="40" /><anim id="FaintSmile" target="actor" targetSpec="" />Lass dir Zeit, <delay8 />es ist eine
 große Entscheidung!</message>
-	<message label="205_a" attrib="00 00 00 00">Rot</message>
-	<message label="205_b" attrib="00 00 00 00">Orange</message>
-	<message label="205_c" attrib="00 00 00 00">Gelb</message>
-	<message label="205_d" attrib="00 00 00 00">Schwarz</message>
-	<message label="205_e" attrib="00 00 00 00">Andere Farbe</message>
+	<message label="205_a" attrib="00 00 00 00">Rot.</message>
+	<message label="205_b" attrib="00 00 00 00">Rosa.</message>
+	<message label="205_c" attrib="00 00 00 00">Gelb.</message>
+	<message label="205_d" attrib="00 00 00 00">Schwarz.</message>
+	<message label="205_e" attrib="00 00 00 00">Andere Farbe.</message>
 	<message label="206" attrib="08 00 00 00">Natürlich, natürlich. Hier sind die
 anderen vier Farben. <anim id="Smiling" target="actor" targetSpec="" />Überleg dir
 deine Wahl ganz in Ruhe!</message>
-	<message label="206_a" attrib="00 00 00 00">Blau</message>
-	<message label="206_b" attrib="00 00 00 00">Hellblau</message>
-	<message label="206_c" attrib="00 00 00 00">Grün</message>
-	<message label="206_d" attrib="00 00 00 00">Lila</message>
-	<message label="206_e" attrib="00 00 00 00">Andere Farbe</message>
+	<message label="206_a" attrib="00 00 00 00">Blau.</message>
+	<message label="206_b" attrib="00 00 00 00">Hellblau.</message>
+	<message label="206_c" attrib="00 00 00 00">Grün.</message>
+	<message label="206_d" attrib="00 00 00 00">Lila.</message>
+	<message label="206_e" attrib="00 00 00 00">Andere Farbe.</message>
 	<message label="208_01" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Gut, dann wird dein Dach <colour id="1" />rot<colour id="65535" />!</message>
-	<message label="208_02" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Gut, dann wird dein Dach <colour id="1" />pink<colour id="65535" />!</message>
+	<message label="208_02" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Gut, dann wird dein Dach <colour id="1" />rosa<colour id="65535" />!</message>
 	<message label="208_03" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Gut, dann wird dein Dach <colour id="1" />gelb<colour id="65535" />!</message>
 	<message label="208_04" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Gut, dann wird dein Dach <colour id="1" />schwarz<colour id="65535" />!</message>
 	<message label="208_05" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Gut, dann wird dein Dach <colour id="1" />blau<colour id="65535" />!</message>
-	<message label="208_06" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Gut, dann wird dein Dach <colour id="1" />türkis<colour id="65535" />!</message>
+	<message label="208_06" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Gut, dann wird dein Dach <colour id="1" />hellblau<colour id="65535" />!</message>
 	<message label="208_07" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Gut, dann wird dein Dach <colour id="1" />grün<colour id="65535" />!</message>
 	<message label="208_08" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Gut, dann wird dein Dach <colour id="1" />lila<colour id="65535" />!</message>
 	<message label="209" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Wird erledigt!</message>
@@ -288,9 +287,9 @@ sollten bis morgen beendet sein.<delay20 /> Du
 bist sicher noch aufgeregter als ich!</message>
 	<message label="261" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Die Bauarbeiten gehen voran, ja, ja.<10_4 />
 <anim id="Greeting" target="actor" targetSpec="" />Deine Vorfreude ist ansteckend!</message>
-	<message label="261_01" attrib="00 00 00 00">Ja, die Arbeiten an deinem Haus
-müssten morgen fertig sein.<delay20 /> Ich freu
-mich für dich, <tag a="110" b="1" />!</message>
+	<message label="261_01" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Ja, <delay8 />die Arbeiten an deinem Haus
+müssten morgen fertig sein.<delay20 /> <anim id="Greeting" target="actor" targetSpec="" />Ich freu
+mich für dich, <delay8 /><tag a="110" b="1" />!</message>
 	<message label="262" attrib="00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Hm...<delay40 /> Solange du noch einen Kredit
 offen hast, kann ich leider keine
 Erweiterungsaufträge annehmen.

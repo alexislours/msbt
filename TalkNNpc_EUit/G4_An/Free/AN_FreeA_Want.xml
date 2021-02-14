@@ -6,7 +6,7 @@
 <tag a="50" b="2" /><tag a="125" b="0" arg="0x0" />?</message>
 	<message label="001_03" attrib="00 00 00 00 00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Fermi tutti<tag a="110" b="0" /> Per caso hai con te
 <tag a="50" b="2" /><tag a="125" b="0" arg="0x0" /><tag a="110" b="0" />?</message>
-	<message label="002" attrib="00 00 02 00 00 00 00 00"><anim id="Hesitate" target="actor" targetSpec="" />L<tag a="50" b="17" arg="0x11 0xcd00 0x2 0x6f 0x2 0x61 0x0" /> venderesti? <delay20 />Non è che mi
+	<message label="002" attrib="00 00 02 00 00 00 00 00"><anim id="Hesitate" target="actor" targetSpec="" />L<tag a="50" b="17" arg="0x12 0xcd00 0x2 0x6f 0x2 0x61 0x0" /> venderesti? <delay20 />Non è che mi
 interessi poi così tanto, eh,
 <delay8 />intendiamoci.
 <anim id="Pardon" target="actor" targetSpec="" />Del resto, <delay8 />se lo desiderassi tanto
@@ -14,7 +14,7 @@ da ritenerlo impagabile, <delay8 />non ti
 offrirei <tag a="90" b="21" arg="0x0" />, no?</message>
 	<message label="002_a" attrib="00 00 00 00 00 00 00 00">Per me va bene.
 Affare fatto!</message>
-	<message label="002_b" attrib="00 00 00 00 00 00 00 00">Ehm, mi spiace, ma...
+	<message label="002_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Ehm, mi spiace, ma...
 Devo deluderti...</message>
 	<message label="003" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Ottimo! <delay frames="40" /><anim id="FaintSmile" target="actor" targetSpec="" />Non è poi così male averti
 come amic<gender2 m="o" f="a" />, <tag a="110" b="6" />.</message>
@@ -27,15 +27,15 @@ non potevo farne a meno. <delay20 /><anim id="Thinking" target="actor" targetSpe
 sono gusti, dopotutto. <delay20 />Beh, grazie!</message>
 	<message label="005_02" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Non ti preoccupare, me ne prenderò
 cura. <delay20 /><anim id="Nodding" target="actor" targetSpec="" />Mi ci sono già affezionata!</message>
-	<message label="005_03" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Da quando ne ho visto un<tag a="50" b="17" arg="0x11 0xcd00 0x2 0x6f 0x2 0x61 0x0" /> al museo,
-ne ho desiderato <tag a="50" b="17" arg="0x11 0xcd00 0x1a 0x75 0x6e 0x6f 0x20 0x74 0x75 0x74 0x74 0x6f 0x20 0x6d 0x69 0x6f 0x1a 0x75 0x6e 0x61 0x20 0x74 0x75 0x74 0x74 0x61 0x20 0x6d 0x69 0x61 0x0" />. <delay20 /><anim id="HappyDance" target="actor" targetSpec="" />E ora
+	<message label="005_03" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Da quando ne ho visto un<tag a="50" b="17" arg="0x12 0xcd00 0x2 0x6f 0x2 0x61 0x0" /> al museo,
+ne ho desiderato <tag a="50" b="17" arg="0x12 0xcd00 0x1a 0x75 0x6e 0x6f 0x20 0x74 0x75 0x74 0x74 0x6f 0x20 0x6d 0x69 0x6f 0x1a 0x75 0x6e 0x61 0x20 0x74 0x75 0x74 0x74 0x61 0x20 0x6d 0x69 0x61 0x0" />. <delay20 /><anim id="HappyDance" target="actor" targetSpec="" />E ora
 il sogno è diventato realtà!</message>
 	<message label="102" attrib="00 00 02 00 00 00 00 00"><anim id="Hesitate" target="actor" targetSpec="" />Se per te non è un grosso sacrificio,
-che ne dici di fare un affare? <delay8 />L<tag a="50" b="17" arg="0x11 0xcd00 0x2 0x6f 0x2 0x61 0x0" />
+che ne dici di fare un affare? <delay8 />L<tag a="50" b="17" arg="0x12 0xcd00 0x2 0x6f 0x2 0x61 0x0" />
 comprerei io per <tag a="90" b="21" arg="0x0" />...</message>
-	<message label="102_a" attrib="00 00 00 00 00 00 00 00">Dove devo firmare?
+	<message label="102_a" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Dove devo firmare?
 OK!</message>
-	<message label="102_b" attrib="00 00 00 00 00 00 00 00">Ehm... a dirla tutta...
+	<message label="102_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Ehm... a dirla tutta...
 Non se ne parla.</message>
 	<message label="103" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Per un attimo ho pensato che non
 volessi vendere. <delay20 /><anim id="WrySmile" target="actor" targetSpec="" />Per fortuna ho
@@ -46,11 +46,11 @@ a procurarmi quello che voglio!</message>
 	<message label="105" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
 	<message label="105_01" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Non fare quella faccia, fidati di me.
 <delay20 /><anim id="Explain" target="actor" targetSpec="" />Ti assicuro che tratterò con i guanti
-<tag a="50" b="17" arg="0x11 0xcd00 0xc 0x71 0x75 0x65 0x73 0x74 0x6f 0xc 0x71 0x75 0x65 0x73 0x74 0x61 0x0" /> <tag a="125" b="0" arg="0x0" />.</message>
-	<message label="105_02" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Porto subito a casa <tag a="50" b="17" arg="0x11 0xcd00 0xc 0x71 0x75 0x65 0x73 0x74 0x6f 0xc 0x71 0x75 0x65 0x73 0x74 0x61 0x0" />
-<tag a="50" b="17" arg="0x11 0xcd00 0x14 0x70 0x69 0x63 0x63 0x6f 0x6c 0x65 0x74 0x74 0x6f 0x14 0x70 0x69 0x63 0x63 0x6f 0x6c 0x65 0x74 0x74 0x61 0x0" />.<delay20 /> <tag a="50" b="17" arg="0x11 0xcd00 0x6 0x47 0x6c 0x69 0x4 0x4c 0x65 0x0" /> ho già preparato una
+<tag a="50" b="17" arg="0x12 0xcd00 0xc 0x71 0x75 0x65 0x73 0x74 0x6f 0xc 0x71 0x75 0x65 0x73 0x74 0x61 0x0" /> <tag a="125" b="0" arg="0x0" />.</message>
+	<message label="105_02" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Porto subito a casa <tag a="50" b="17" arg="0x12 0xcd00 0xc 0x71 0x75 0x65 0x73 0x74 0x6f 0xc 0x71 0x75 0x65 0x73 0x74 0x61 0x0" />
+<tag a="50" b="17" arg="0x12 0xcd00 0x14 0x70 0x69 0x63 0x63 0x6f 0x6c 0x65 0x74 0x74 0x6f 0x14 0x70 0x69 0x63 0x63 0x6f 0x6c 0x65 0x74 0x74 0x61 0x0" />.<delay20 /> <tag a="50" b="17" arg="0x12 0xcd00 0x6 0x47 0x6c 0x69 0x4 0x4c 0x65 0x0" /> ho già preparato una
 stanzetta con un microclima perfetto.
-<anim id="Explain" target="actor" targetSpec="" />Sono così felice di <tag a="50" b="17" arg="0x11 0xcd00 0xc 0x71 0x75 0x65 0x73 0x74 0x6f 0xc 0x71 0x75 0x65 0x73 0x74 0x61 0x0" />
+<anim id="Explain" target="actor" targetSpec="" />Sono così felice di <tag a="50" b="17" arg="0x12 0xcd00 0xc 0x71 0x75 0x65 0x73 0x74 0x6f 0xc 0x71 0x75 0x65 0x73 0x74 0x61 0x0" />
 <tag a="125" b="0" arg="0x0" /> che<tag a="110" b="0" /><delay20 /><anim id="BigSmile" target="actor" targetSpec="" /> ti ringrazio quasi,<delay8 /> <tag a="110" b="3" />!</message>
 	<message label="105_03" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Non vedo l'ora di far ascoltare a
 questo esserino un po' di musica

@@ -1,11 +1,11 @@
 <msbt attribsize="8">
 	<message label="001" attrib="00 00 02 00 00 00 00 00">Wil je met mij<anim id="Smiling" target="actor" targetSpec="" /> op schattenjacht gaan?</message>
 	<message label="001_a" attrib="00 00 00 00 00 00 00 00">Tuurlijk!</message>
-	<message label="001_b" attrib="00 00 00 00 00 00 00 00">Een andere keer...</message>
+	<message label="001_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Een andere keer...</message>
 	<message label="002" attrib="00 00 02 00 00 00 00 00">Hoe zou je het vinden om <anim id="Smiling" target="actor" targetSpec="" />met mij
 op schattenjacht te gaan?</message>
 	<message label="002_a" attrib="00 00 00 00 00 00 00 00">Klinkt leuk!</message>
-	<message label="002_b" attrib="00 00 00 00 00 00 00 00">Een andere keer?</message>
+	<message label="002_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Een andere keer?</message>
 	<message label="003" attrib="00 00 02 00 00 00 00 00"><anim id="IdeaBulb" target="actor" targetSpec="" />Ik heb een idee! Heb je zin <anim id="Smiling" target="actor" targetSpec="" />om op
 schattenjacht te gaan?</message>
 	<message label="003_a" attrib="00 00 00 00 00 00 00 00">Uitstekend idee!</message>
@@ -34,8 +34,7 @@ eens vragen.</message>
 eiland een schat begraven.<delay40 /> <anim id="Nodding" target="actor" targetSpec="" />Vind die
 voor de tijd om is.<10_7 arg="120" /><pageBreak /><anim id="Explain" target="actor" targetSpec="" />De schat is buiten begraven,<delay20 /> dus je
 hoeft niet in gebouwen te zoeken.<10_7 arg="90" /><pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Laten we dan maar eens aanstalten
-maken,<delay20 /> <tag a="110" b="5" />!<10_7 arg="90" />
-</message>
+maken,<delay20 /> <tag a="110" b="5" />!<10_7 arg="90" /></message>
 	<message label="011_01" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Ik zal de regels even uitleggen.<10_7 arg="90" /><pageBreak /><anim id="Explain" target="actor" targetSpec="" />Ik heb ergens op dit eiland<delay20 /> een schat begraven.<delay frames="40" /> <anim id="FaintSmile" target="actor" targetSpec="" />Vind die voor de tijd om is
 en je wint,<delay20 /> <tag a="110" b="5" />!<10_7 arg="120" /><pageBreak /><anim id="Explain" target="actor" targetSpec="" />Hij is buiten begraven,<delay20 /> dus je hoeft
 niet in gebouwen te zoeken.<10_7 arg="90" /><pageBreak /><anim id="Serious" target="actor" targetSpec="" />Niemand die met je samenspeelt,
@@ -60,7 +59,8 @@ maken,<delay20 /> <tag a="110" b="5" />!<10_7 arg="90" /></message>
 	<message label="013_b" attrib="00 00 00 00 00 00 00 00">Dat is niet nodig.</message>
 	<message label="014" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Oké,<delay20 /> dan gaan we beginnen.<delay frames="30" /> Klaar
 voor de start<delay8 /><tag a="110" b="0" /><anim id="Hello" target="actor" targetSpec="" /> af,<delay20 /> <tag a="110" b="5" />!<10_7 arg="90" /></message>
-	<message label="014_01" attrib="00 00 00 00 00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Oké,<delay20 /> maar je vrienden mogen je alleen aanmoedigen, niet helpen!<delay frames="30" />
+	<message label="014_01" attrib="00 00 00 00 00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Oké,<delay20 /> maar je vrienden mogen je
+alleen aanmoedigen, niet helpen!<delay frames="30" />
 <anim id="EmotEnd" target="actor" targetSpec="" />Klaar voor de start<delay8 /><tag a="110" b="0" /><anim id="Hello" target="actor" targetSpec="" /> af!<10_7 arg="90" /></message>
 	<message label="015" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Oké, maar ik verkort je tijd <anim id="Explain" target="actor" targetSpec="" />om het
 wat interessanter te maken.<delay frames="30" /> <anim id="FaintSmile" target="actor" targetSpec="" />Laten we

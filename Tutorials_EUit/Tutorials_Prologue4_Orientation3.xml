@@ -20,7 +20,7 @@ rafforzare il nostro gioco di squadra!</message>
 	<message label="006" attrib="00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Io <tag a="50" b="16" /> <tag a="110" b="1" />,<delay8 /> invece,<delay8 /> raccoglieremo la legna e prepareremo anche un rinfresco!</message>
 	<message label="007" attrib="00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Molto bene.<delay20 /> E ora cominciamo!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Appena puoi,<delay8 /> avvicinati un attimo,<delay8 /> <tag a="110" b="1" />.<delay20 /> Così discutiamo meglio della cosa.<delay20 /> Sì,<delay8 /> sì!</message>
 	<message label="011" attrib="00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Ah, <tag a="110" b="1" />.<delay20 /> Volevo solo dirti brevemente cosa ci serve per il falò.<delay20 /> <anim id="Thinking" target="actor" targetSpec="" />Credo che basteranno <colour id="1" />10 rami<colour id="65535" />.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Li trovi in giro per l'isola.<delay20 /> Quando ne
-vedi uno, premi <colour id="1" /> <colour id="65535" />per raccoglierlo!<pageBreak /><anim id="WrySmile" target="actor" targetSpec="" />Nel mentre, investigherò certi frutti
+vedi uno, premi <colour id="1" /> <colour id="65535" />per raccoglierlo!<pageBreak /><anim id="WrySmile" target="actor" targetSpec="" />Nel mentre, esaminerò certi frutti
 sugli alberi che sembrano proprio
 <tag a="50" b="2" /><tag a="110" b="7" arg="0xcd01" />.<delay20 /> <anim id="Grin" target="actor" targetSpec="" />Forse lo sono davvero!</message>
 	<message label="012" attrib="00 00 00"><tag a="60" b="20" /></message>
@@ -51,11 +51,9 @@ cosa hai nelle <colour id="1" />tasche<colour id="65535" />!</message>
 	<message label="013" attrib="00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Ah, bentornat<gender2 m="o" f="a" />.<delay20 /> Allora, hai raccolto
 tutti i <colour id="1" />rami <colour id="65535" />necessari?<delay20 /> <anim id="Nodding" target="actor" targetSpec="" />Bene, bene!<delay20 />
 Dalli pure a me.</message>
-	<message label="013_01" attrib="00 00 00">Ah, <delay20 />bene, bene, <tag a="110" b="1" />!<delay20 /> <anim id="Smiling" target="actor" targetSpec="" />Pare che tu abbia raccolto i <colour id="1" />rami <colour id="65535" />necessari a<tag a="110" b="0" /><delay20 /><anim id="Shocked" target="actor" targetSpec="" /> Mmmh?<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Ne hai portati anche troppi!<delay20 /> A me
-ne bastano <colour id="1" />10<colour id="65535" />!<delay20 /> Tieni pure gli altri.<delay20 />
-Sono certo che ti torneranno utili.
-<anim id="EmotEnd" target="actor" targetSpec="" />Provvedo subito a liberarti di quelli
-che ci servono.</message>
+	<message label="013_01" attrib="00 00 00">Ah, <delay20 />bene, bene, <tag a="110" b="1" />!<delay20 /> <anim id="Smiling" target="actor" targetSpec="" />Pare che tu abbia raccolto i <colour id="1" />rami <colour id="65535" />necessari a<tag a="110" b="0" /><delay20 /><anim id="Surprised" target="actor" targetSpec="" /> Mmmh?<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Ne hai portati anche troppi!<delay20 /> A me
+ne bastano <colour id="1" />10<colour id="65535" />!<delay20 /> Tieni pure il resto.<delay20 />
+Sono certo che saprai cosa farne.</message>
 	<message label="014" attrib="00 00 00"><anim id="HappyFlower" target="actor" targetSpec="" />Sì, sì!<delay20 /> Ora possiamo preparare
 il nostro bel falò.<delay20 /> Hai svolto
 l'incarico alla perfezione!
@@ -140,23 +138,23 @@ metteremo le proposte al voto.<delay20 /><anim id="WrySmile" target="actor" targ
 La maggioranza vince, va bene?
 <anim id="Smiling" target="actor" targetSpec="" />Adesso ognuno deve pensare a un
 nome da proporre. <delay20 />Poi passeremo
-alle votazioni.</message>
+alle votazioni, <delay8 />sì, sì.</message>
 	<message label="042_01" attrib="00 00 00">Bene, bene! <delay20 /><anim id="QuestionMark" target="actor" targetSpec="" />Siete tutti pronti?</message>
 	<message label="042_02" attrib="00 00 00"><anim id="Assent" target="actor" targetSpec="" />Allora che ognuno gridi la propria
-idea, contemporaneamente!</message>
+proposta, contemporaneamente!</message>
 	<message label="042_03" attrib="00 00 00"><tag a="10" b="12" />                  Pronti<tag a="110" b="0" /> VIA!</message>
 	<message label="043_01" attrib="00 00 00"><anim id="Cheering" target="actor" targetSpec="" />Che idee splendide.<delay20 /> Sì, sì!<delay20 />
 <anim id="Nodding" target="actor" targetSpec="" />Sono tutti degli ottimi candidati.</message>
 	<message label="043_02" attrib="00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />E ora passiamo al voto.<delay20 /> Io dirò i nomi
 uno dopo l'altro<delay20 /> <anim id="Smiling" target="actor" targetSpec="" />e voi applaudirete
-per quello che preferite.</message>
+quello che preferite.</message>
 	<message label="043_03" attrib="00 00 00"><anim id="AbsentMindedness" target="actor" targetSpec="" />Comincerò con la proposta
 di <tag a="110" b="1" />.</message>
 	<message label="043_04" attrib="00 00 00"><anim id="AbsentMindedness" target="actor" targetSpec="" />Allora, <tag a="110" b="1" /> ha suggerito<tag a="110" b="0" /></message>
 	<message label="043_05" attrib="00 00 00"><anim id="BigSmile" target="actor" targetSpec="" /><tag a="110" b="9" />!</message>
-	<message label="043_06" attrib="00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Uau, <delay20 />che entusiasmo! <delay20 /><anim id="Smiling" target="actor" targetSpec="" />Si sono
-spellati tutti le zampe per gli
-applausi,<delay8 /> nessuno escluso!</message>
+	<message label="043_06" attrib="00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Uau, <delay20 />che entusiasmo! <delay20 /><anim id="Smiling" target="actor" targetSpec="" />Tutti si sono
+spellati le zampe dagli applausi,<delay8 />
+nessuno escluso!</message>
 	<message label="043_07" attrib="00 00 00"><anim id="Thinking" target="actor" targetSpec="" />A questo punto,<delay8 /> direi che siamo tutti
 d'accordo<tag a="110" b="0" /><delay20 /> <anim id="IdeaBulb" target="actor" targetSpec="" />Possiamo considerare
 <tag a="110" b="9" /> il nome ufficiale!</message>
@@ -192,12 +190,12 @@ avvenimenti e si sta facendo tardi.
 <anim id="BigSmile" target="actor" targetSpec="" /><delay20 />Concludiamo con un bel brindisi!</message>
 	<message label="045_04_02" attrib="00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Avete tutti la vostra bevanda
 in mano?<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Sappiate che si tratta di succo fresco
-di <tag a="110" b="7" arg="0xcd00" /><delay20 /> ottenuto dai frutti raccolti
+di <colour id="1" /><tag a="110" b="7" arg="0xcd00" /><colour id="65535" /><delay20 /> ottenuto dai frutti raccolti
 oggi stesso <gender2 m="dal nostro" f="dalla nostra" /> portavoce!</message>
 	<message label="045_04_03" attrib="00 00 00"><anim id="Scheming" target="actor" targetSpec="" />E adesso, <delay8 />senza ulteriori indugi<tag a="110" b="0" /><delay frames="40" />
 <anim id="Cheering" target="actor" targetSpec="" />Brindiamo! <delay20 />Auguro tanta felicità
 agli abitanti di <tag a="110" b="9" />!</message>
-	<message label="045_05" attrib="00 00 06"><tag a="10" b="12" /><anim id="BigSmile" target="actor" targetSpec="" />                    <anim id="BigSmile" target="actor" targetSpec="" /><size value="150" />A noi!<size value="100" /><10_8 arg="20" /></message>
+	<message label="045_05" attrib="00 00 06"><tag a="10" b="12" /><anim id="BigSmile" target="actor" targetSpec="" />                    <anim id="BigSmile" target="actor" targetSpec="" /><size value="150" />A noi!<size value="100" /><10_8 arg="60" /></message>
 	<message label="047" attrib="01 00 00"><anim id="Thinking" target="actor" targetSpec="" />Toglimi una curiosità, <tag a="110" b="1" /><tag a="110" b="0" /><pageBreak /><anim id="QuestionMark" target="actor" targetSpec="" />Pensi <tag a="50" b="15" /> <tag a="110" b="9" /> come
 <tag a="50" b="15" /> <tag a="110" b="9" />-seom<delay8 /> o
 <tag a="110" b="9" />-do?</message>

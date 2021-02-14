@@ -1,7 +1,7 @@
 <msbt attribsize="8">
 	<message label="001" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="mainNpc" targetSpec="" />Oye, <tag a="110" b="3" /><tag a="110" b="0" /><delay8 /> sabes que hay un montón de sitios que ver en el mundo, ¿verdad?<pageBreak /><20_2 arg="5" /><20_2 arg="7" /><anim id="Smiling" target="mainNpc" targetSpec="" />¡Y todos tienen unos platos típicos
 con una pinta estupenda!<anim id="Aha" target="subNpc" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" /></message>
-	<message label="002" attrib="00 00 10 00 00 00 00 00"><anim id="Aha" target="subNpc" targetSpec="" />¡¿De verdad?!<delay20 /> <anim id="AbsentMindedness" target="subNpc" targetSpec="" />Pues estaría genial
+	<message label="002" attrib="00 00 10 00 00 00 00 00">¡¿De verdad?!<delay20 /> <anim id="AbsentMindedness" target="subNpc" targetSpec="" />Pues estaría genial
 probar toda esa comida<tag a="110" b="0" /><pageBreak /><anim id="EmotEnd" target="subNpc" targetSpec="" /><20_2 arg="6" /><20_3 arg="8" /><anim id="QuestionMark" target="subNpc" targetSpec="" />¿A ti dónde te gustaría ir a comer,
 <tag a="110" b="3" />?</message>
 	<message label="002_a" attrib="00 00 00 00 00 00 00 00">A un sitio cálido</message>
@@ -18,9 +18,9 @@ probar toda esa comida<tag a="110" b="0" /><pageBreak /><anim id="EmotEnd" targe
 	<message label="005" attrib="00 00 00 00 00 00 00 00"><anim id="Laughing" target="actor" targetSpec="" />¡¿Los tiburones ronronean?!<delay20 />
 ¡Yo pensaba más bien que te
 arrancarían la pata de un mordisco!</message>
-	<message label="006" attrib="00 00 00 00 00 00 00 00"><anim id="Laughing" target="mainNpc" targetSpec="" />¡Que no, hombre!<pageBreak />Ya verás,<delay8 /> <anim id="Greeting" target="actor" targetSpec="" />¡iremos a los trópicos,<delay8 />
+	<message label="006" attrib="00 00 00 00 00 00 00 00"><anim id="Laughing" target="mainNpc" targetSpec="" />¡Que no, hombre!<anim id="QuestionMark" target="subNpc" targetSpec="" /><pageBreak /><anim id="Thinking" target="subNpc" targetSpec="" />Ya verás,<delay8 /> <anim id="Greeting" target="actor" targetSpec="" />¡iremos a los trópicos,<delay8 />
 comeremos fruta,<delay8 /> acariciaremos
-tiburones<delay8 /> <anim id="BigSmile" target="actor" targetSpec="" />y lo pasaremos pirata!</message>
+tiburones<anim id="Negative" target="player" targetSpec="" /><delay8 /><anim id="Sighing" target="subNpc" targetSpec="" /> y lo <anim id="BigSmile" target="actor" targetSpec="" />pasaremos pirata!</message>
 	<message label="007" attrib="00 00 00 00 00 00 00 00"><anim id="Shaking" target="subNpc" targetSpec="" />¡Brrr!<delay20 /> Bueno, la verdad es que <anim id="Love" target="actor" targetSpec="" />no hay
 nada como una sopa calentita
 cuando estás a bajo cero<tag a="110" b="0" /></message>
@@ -36,12 +36,12 @@ de <tag a="110" b="31" arg="0xcd01" /> con un aliño de <tag a="110" b="31" arg=
 <tag a="110" b="3" />!<delay20 /> ¡No queremos que nos coman!<pageBreak /><anim id="Thinking" target="actor" targetSpec="" />Un momento<20_2 arg="5" /><20_2 arg="7" /><tag a="110" b="0" /><delay20 /> <anim id="Outraged" target="actor" targetSpec="" />¿Por qué eres tú el
 ingrediente principal y yo el aliño?</message>
 	<message label="011" attrib="00 00 00 00 00 00 00 00"><anim id="Thinking" target="subNpc" targetSpec="" /><anim id="FaintSmile" target="mainNpc" targetSpec="" />A un sitio lejano podríamos ir
-en barco<tag a="110" b="0" /><pageBreak /><20_2 arg="7" /><20_2 arg="5" /><anim id="Laughing" target="subNpc" targetSpec="" />¡Pero, si vamos demasiado lejos,
-podríamos acabar volviendo aquí!</message>
+en barco<tag a="110" b="0" /><pageBreak /><20_2 arg="7" /><20_2 arg="5" /><anim id="Eh" target="actor" targetSpec="" />Aunque,<delay8 /> si vamos demasiado lejos,<delay8 />
+<anim id="Laughing" target="subNpc" targetSpec="" />¡acabaríamos volviendo aquí!</message>
 	<message label="012" attrib="00 00 00 00 00 00 00 00"><anim id="Worried" target="mainNpc" targetSpec="" />¡O imagínate que el mundo es plano,<delay8 />
 vamos demasiado lejos y <anim id="Frantic" target="mainNpc" targetSpec="" />acabamos
 cayéndonos por uno de los bordes!<anim id="Laughing" target="subNpc" targetSpec="" /></message>
-	<message label="013" attrib="00 00 00 00 00 00 00 00"><anim id="TakenAback" target="mainNpc" targetSpec="" />¡¿Pero qué dices?!<delay20 /> <anim id="Explain" target="subNpc" targetSpec="" />El mundo es
+	<message label="013" attrib="00 00 00 00 00 00 00 00">¡¿Pero qué dices?!<anim id="TakenAback" target="mainNpc" targetSpec="" /><delay20 /> <anim id="Explain" target="subNpc" targetSpec="" />El mundo es
 tan redondo como la cabeza de
 <tag a="110" b="3" /><tag a="110" b="0" /></message>
 	<message label="014" attrib="00 00 00 00 00 00 00 00"><anim id="Oops" target="mainNpc" targetSpec="" />Bueno, yo lo comento por si acaso<anim id="Laughing" target="subNpc" targetSpec="" /><tag a="110" b="0" /></message>
@@ -68,8 +68,7 @@ de piedra!<anim id="EmotEnd" target="mainNpc" targetSpec="" /></message>
 	<message label="101" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="mainNpc" targetSpec="" />Hola, <tag a="110" b="3" />.<delay8 /> <tag a="110" b="31" arg="0xcd01" /> y yo estamos jugando a una cosa<tag a="110" b="0" /><pageBreak /><anim id="EmotEnd" target="mainNpc" targetSpec="" />¿Quieres participar?<delay8 /> <anim id="BigSmile" target="mainNpc" targetSpec="" />¡Te advierto
 de que es bastante difícil!</message>
 	<message label="102" attrib="00 00 10 00 00 00 00 00"><anim id="HappyDance" target="subNpc" targetSpec="" />Prepárate porque ha llegado
-el momento de jugar a<tag a="110" b="0" /><delay8 /><pageBreak /><20_2 arg="6" /><anim id="BigSmile" target="subNpc" targetSpec="" /><tag a="10" b="12" />¡Adivina el refrán con
-<tag a="110" b="31" arg="0xcd01" />!<pageBreak /><anim id="Cheering" target="subNpc" targetSpec="" /><tag a="10" b="12" /><size value="150" />¿A buen hambre<tag a="110" b="0" /><delay8 />?<size value="100" /></message>
+el momento de jugar a<tag a="110" b="0" /><delay8 /><pageBreak /><20_2 arg="6" /><anim id="BigSmile" target="subNpc" targetSpec="" /><tag a="10" b="12" />¡Adivina el refrán con <tag a="110" b="31" arg="0xcd01" />!<pageBreak /><anim id="Cheering" target="subNpc" targetSpec="" /><tag a="10" b="12" /><size value="150" />¿A buen hambre<tag a="110" b="0" /><delay8 />?<size value="100" /></message>
 	<message label="102_a" attrib="00 00 00 00 00 00 00 00">No hay pan duro</message>
 	<message label="102_b" attrib="00 00 00 00 00 00 00 00">Se le dice que no</message>
 	<message label="102_c" attrib="00 00 00 00 00 00 00 00">Chuches a mansalva</message>
@@ -85,7 +84,7 @@ el momento de jugar a<tag a="110" b="0" /><delay8 /><pageBreak /><20_2 arg="6" /
 	<message label="104_c" attrib="00 00 00 00 00 00 00 00">Si hay merienda</message>
 	<message label="105" attrib="00 00 00 00 00 00 00 00"><anim id="ColdChill" target="subNpc" targetSpec="" />¡Este también!<delay8 /> <anim id="TakenAback" target="mainNpc" targetSpec="" />¡Te los sabes todos!<delay20 />
 <20_2 arg="6" /><anim id="FaintSmile" target="subNpc" targetSpec="" />Eres la repera,<delay8 /> je, je, je<tag a="110" b="0" /></message>
-	<message label="106" attrib="00 00 00 00 00 00 00 00"><anim id="HappyFlower" target="mainNpc" targetSpec="" />¡No has fallado ni uno, <tag a="110" b="3" />!<delay8 /> <anim id="Nodding" target="actor" targetSpec="" />Me dejas patidifuso.</message>
+	<message label="106" attrib="00 00 00 00 00 00 00 00"><anim id="HappyFlower" target="mainNpc" targetSpec="" />¡No has fallado ni uno, <tag a="110" b="3" />!<delay8 /> <anim id="Nodding" target="actor" targetSpec="" />Me dejas patidifuso.</message>
 	<message label="107" attrib="00 00 00 00 00 00 00 00"><anim id="HappyDance" target="actor" targetSpec="" />¡Qué maravilla!<delay8 /> Eres como<tag a="110" b="0" /><delay8 />
 ¡<gender2 m="el maestro" f="la maestra" /> de los refranes!</message>
 	<message label="108" attrib="00 00 00 00 00 00 00 00"><anim id="ShyBoy" target="mainNpc" targetSpec="" />Yo me equivoco en el último

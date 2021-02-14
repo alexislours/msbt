@@ -26,7 +26,7 @@ la felicità aumenta.
 essere troppo indiscreta,<delay8 /> ti chiedo:
 e tu? <delay20 />Mi hai portato un regalo?</message>
 	<message label="005_a" attrib="00 00 00 00 00 00 00 00">Ecco qua.</message>
-	<message label="005_b" attrib="00 00 00 00 00 00 00 00">Ehm, scusa...</message>
+	<message label="005_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Ehm, scusa...</message>
 	<message label="006" attrib="00 00 02 00 00 00 00 00"><anim id="Love" target="actor" targetSpec="" />Che festa meravigliosa!<pageBreak /><anim id="AbsentMindedness" target="actor" targetSpec="" />No, non credo che potrei mai
 stufarmi di torte di compleanno
 e regali scelti col cuore.
@@ -71,19 +71,19 @@ dove andrebbero le candeline?</message>
 coincidenza.<pageBreak /><anim id="Negative" target="actor" targetSpec="" />Non potevi saperlo ma in casa ho già
 <tag a="50" b="2" /><tag a="125" b="0" arg="0x0" />.<pageBreak /><anim id="Blushing" target="actor" targetSpec="" />Conta il pensiero, però.<delay20 /> In più, non
 mi dispiacerebbe anche averne 10
-di <tag a="50" b="17" arg="0x11 0xcd00 0xc 0x71 0x75 0x65 0x73 0x74 0x69 0xc 0x71 0x75 0x65 0x73 0x74 0x65 0x0" />.</message>
+di <tag a="50" b="17" arg="0x12 0xcd00 0xc 0x71 0x75 0x65 0x73 0x74 0x69 0xc 0x71 0x75 0x65 0x73 0x74 0x65 0x0" />.</message>
 	<message label="019" attrib="00 00 00 00 00 00 00 00"><anim id="Laughing" target="actor" targetSpec="" />Oh<tag a="110" b="0" /> che coincidenza!<delay frames="40" />
-<anim id="Smiling" target="actor" targetSpec="" />Indosso esattamente <tag a="50" b="17" arg="0x11 0xcd00 0x12 0x6c 0x6f 0x20 0x73 0x74 0x65 0x73 0x73 0x6f 0x12 0x6c 0x61 0x20 0x73 0x74 0x65 0x73 0x73 0x61 0x0" />
+<anim id="Smiling" target="actor" targetSpec="" />Indosso esattamente <tag a="50" b="17" arg="0x12 0xcd00 0x12 0x6c 0x6f 0x20 0x73 0x74 0x65 0x73 0x73 0x6f 0x12 0x6c 0x61 0x20 0x73 0x74 0x65 0x73 0x73 0x61 0x0" />
 <tag a="125" b="0" arg="0x0" />!<pageBreak /><anim id="Blushing" target="actor" targetSpec="" />Guardiamo il lato positivo delle cose.<delay20 />
 Almeno conosci i miei gusti.</message>
 	<message label="020" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Oh, che meraviglia!<delay20 /> Adoro
 <tag a="50" b="2" /><tag a="125" b="0" arg="0x0" />.<pageBreak /><anim id="Thinking" target="actor" targetSpec="" />Un attimo però, c'è qualcosa che
-non torna<tag a="110" b="0" /> mi sembra di <tag a="50" b="17" arg="0x11 0xcd00 0xc 0x61 0x76 0x65 0x72 0x6c 0x6f 0xc 0x61 0x76 0x65 0x72 0x6c 0x61 0x0" />
-già <tag a="50" b="17" arg="0x11 0xcd00 0xa 0x76 0x69 0x73 0x74 0x6f 0xa 0x76 0x69 0x73 0x74 0x61 0x0" /><tag a="110" b="0" /><pageBreak /><anim id="Serious" target="actor" targetSpec="" />Dimmi, <tag a="110" b="3" />, dove
+non torna<tag a="110" b="0" /> mi sembra di <tag a="50" b="17" arg="0x12 0xcd00 0xc 0x61 0x76 0x65 0x72 0x6c 0x6f 0xc 0x61 0x76 0x65 0x72 0x6c 0x61 0x0" />
+già <tag a="50" b="17" arg="0x12 0xcd00 0xa 0x76 0x69 0x73 0x74 0x6f 0xa 0x76 0x69 0x73 0x74 0x61 0x0" /><tag a="110" b="0" /><pageBreak /><anim id="Serious" target="actor" targetSpec="" />Dimmi, <tag a="110" b="3" />, dove
 hai trovato l'ispirazione per un
 regalo del genere?</message>
 	<message label="021" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Sul serio?<delay20 /> Non stai scherzando?
-Hai scelto come regalo <tag a="50" b="17" arg="0x11 0xcd00 0xc 0x71 0x75 0x65 0x73 0x74 0x6f 0xc 0x71 0x75 0x65 0x73 0x74 0x61 0x0" />
+Hai scelto come regalo <tag a="50" b="17" arg="0x12 0xcd00 0xc 0x71 0x75 0x65 0x73 0x74 0x6f 0xc 0x71 0x75 0x65 0x73 0x74 0x61 0x0" />
 <tag a="125" b="0" arg="0x0" />?
 <anim id="HappyDance" target="actor" targetSpec="" />Oh, sono così felice!<delay20 /> Non so se mi
 merito tanta generosità, ma sono
@@ -93,7 +93,7 @@ errore?<delay20 /> Vuoi davvero regalarmi
 <tag a="50" b="2" /><tag a="125" b="0" arg="0x0" />?
 <anim id="Blushing" target="actor" targetSpec="" />Non so che cosa ho fatto per
 meritarmelo, ma ti assicuro che
-<tag a="50" b="17" arg="0x11 0xcd00 0x4 0x6c 0x6f 0x4 0x6c 0x61 0x0" /> custodirò gelosamente. <delay20 />Grazie!</message>
+<tag a="50" b="17" arg="0x12 0xcd00 0x4 0x6c 0x6f 0x4 0x6c 0x61 0x0" /> custodirò gelosamente. <delay20 />Grazie!</message>
 	<message label="023" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Oooh, mi fa sempre piacere ricevere
 <tag a="50" b="2" /><tag a="125" b="0" arg="0x0" />.<delay20 />
 Grazie!</message>
@@ -102,7 +102,7 @@ sempre contenta di ricevere in regalo
 <tag a="50" b="2" /><tag a="125" b="0" arg="0x0" />!</message>
 	<message label="025" attrib="00 00 00 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="50" b="2" /><tag a="125" b="0" arg="0x0" />!<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Un regalo davvero molto utile.</message>
 	<message label="026" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Oh, che <gender2 m="carino" f="carina" /> che sei. <delay20 />È proprio da
-te scegliere di regalarmi <tag a="50" b="17" arg="0x11 0xcd00 0xc 0x71 0x75 0x65 0x73 0x74 0x6f 0xc 0x71 0x75 0x65 0x73 0x74 0x61 0x0" />
+te scegliere di regalarmi <tag a="50" b="17" arg="0x12 0xcd00 0xc 0x71 0x75 0x65 0x73 0x74 0x6f 0xc 0x71 0x75 0x65 0x73 0x74 0x61 0x0" />
 <tag a="125" b="0" arg="0x0" />.</message>
 	<message label="027" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Oh<tag a="110" b="0" /><pageBreak /><anim id="Negative" target="actor" targetSpec="" />Non posso accettare, scusa.<delay20 /> Spero
 tu non te la prenda, ma regalare
@@ -178,7 +178,7 @@ piangere<tag a="110" b="0" /><pageBreak /><anim id="Crying" target="actor" targe
 a festeggiare m-mi rende così<tag a="110" b="0" />
 feliceeee<tag a="110" b="0" /> Uaaah!</message>
 	<message label="060" attrib="00 00 02 00 00 00 00 00"><anim id="Blushing" target="actor" targetSpec="" />Ho una confessione da farti, <tag a="110" b="3" /><tag a="110" b="0" /> Nel profondo del mio cuore spero in un tuo regalo.</message>
-	<message label="060_a" attrib="00 00 00 00 00 00 00 00">Eccolo qui!</message>
+	<message label="060_a" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Eccolo qui!</message>
 	<message label="060_b" attrib="00 00 00 00 00 00 00 00">Non l'ho portato...</message>
 	<message label="061" attrib="00 00 02 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Questa giornata è stata fantastica.<delay20 />
 <anim id="Blushing" target="actor" targetSpec="" />Se ricevessi un regalo da te, allora
@@ -258,7 +258,7 @@ spazio e torna di nuovo da me.<pageBreak /><anim id="Smiling" target="actor" tar
 <delay8 />come ti avevo promesso,<delay20 /> ecco questo
 pensierino per ringraziarti.<pageBreak /><anim id="Greeting" target="actor" targetSpec="" />È <tag a="50" b="2" /><tag a="125" b="4" arg="0x0" />,
 <delay8 />niente di eccezionale.<delay frames="40" /> <anim id="FaintSmile" target="actor" targetSpec="" />Spero solo che
-non ti dispiaccia portartel<tag a="50" b="17" arg="0x15 0xcd00 0x2 0x6f 0x2 0x61 0x0" /> dietro.</message>
+non ti dispiaccia portartel<tag a="50" b="17" arg="0x16 0xcd00 0x2 0x6f 0x2 0x61 0x0" /> dietro.</message>
 	<message label="100" attrib="00 00 02 00 00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />Oh, ciao, <tag a="110" b="3" />!<delay20 /> Vuoi
 sapere una cosa divertente?<pageBreak /><anim id="QuestionMark" target="actor" targetSpec="" />Lo sai che io <tag a="50" b="16" /> <tag a="115" b="1" arg="0xcd00" /> compiamo gli anni lo stesso giorno?
 <delay20 /><anim id="Shocked" target="actor" targetSpec="" />Una coincidenza incredibile!

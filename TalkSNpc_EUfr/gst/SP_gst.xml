@@ -120,8 +120,8 @@ d'habillement ? Cela sert toujours !</message>
 	<message label="035" attrib="02 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Tu peux choisir entre un élément que
 tu ne possèdes pas encore et un
 objet de valeur.<delay20 /><anim id="EmotEnd" target="actor" targetSpec="" /><delay20 /><anim id="QuestionMark" target="actor" targetSpec="" /> Que préfères-tu ?</message>
-	<message label="035_a" attrib="00 00 01 00">Un truc nouveau.</message>
-	<message label="035_b" attrib="00 00 01 00">Un truc cher.</message>
+	<message label="035_a" attrib="00 00 01 00"><anim id="EmotEnd" target="actor" targetSpec="" />Un truc nouveau.</message>
+	<message label="035_b" attrib="00 00 01 00"><anim id="EmotEnd" target="actor" targetSpec="" />Un truc cher.</message>
 	<message label="036_01" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Fort bien !<delay40 /><anim id="Smiling" target="actor" targetSpec="" /> Voyons voir, quelque
 chose de nouveau<tag a="110" b="0" /> Laisse-moi
 réfléchir<tag a="110" b="0" /><pageBreak /><anim id="Silent" target="actor" targetSpec="" />Ma foi, que tu sois déjà bien équipé<gender2 m="" f="e" />
@@ -132,7 +132,7 @@ un présent qui affiche une certaine
 valeur marchande<tag a="110" b="0" /><pageBreak /><anim id="Silent" target="actor" targetSpec="" />Je n'ai jamais bien su juger de la
 valeur des choses,<delay8 /><anim id="ShyBoy" target="actor" targetSpec="" /> pardonne-moi
 donc si je fais erreur<tag a="110" b="0" /></message>
-	<message label="037" attrib="00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />Voilà pour toi : <tag a="50" b="2" /><tag a="125" b="4" arg="0x0" /> !<delay frames="40" /><anim id="Nodding" target="actor" targetSpec="" />Glissons cela dans ta poche !</message>
+	<message label="037" attrib="00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />Voilà pour toi : <tag a="50" b="2" /><tag a="125" b="4" arg="0x0" /> !<delay frames="40" /><anim id="Nodding" target="actor" targetSpec="" /> Glissons cela dans ta poche !</message>
 	<message label="038" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Je souhaite que nos chemins se
 croisent à nouveau un jour !<delay frames="30" />
 <anim id="Apologize" target="actor" targetSpec="" />En attendant, <delay20 />porte-toi bien !<delay frames="50" /><anim id="FaintSmile" target="actor" targetSpec="" /></message>

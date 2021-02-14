@@ -4,7 +4,7 @@
 	<message label="001_a" attrib="04 00 00 00 00 00 00 00">그거잖아, 그거</message>
 	<message label="001_b" attrib="05 00 00 00 00 00 00 00">몰라</message>
 	<message label="002" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="23" arg="0xd 0xe 0xf 0xffff" /></message>
-	<message label="003" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x10 0x11 0xffff 0xffff" /></message>
+	<message label="003" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x1 0x10 0x11 0x12" /></message>
 	<message label="004" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />뭐야, <delay8 />알고 있었구나!<delay frames="30" />
 <anim id="Nodding" target="actor" targetSpec="" />맞아, <delay8 /><tag a="110" b="7" arg="0xcd00" /><gender5 m="이야" f="야" /><delay frames="30" />
 마음껏 먹으라구!<anim id="FaintSmile" target="actor" targetSpec="" /> <tag a="110" b="6" />!</message>
@@ -29,10 +29,11 @@
 생길 예정이야!<pageBreak /><anim id="ShyBoy" target="actor" targetSpec="" />아직은 전시할 만한 게 없어서<delay8 />
 준비 중이지만<tag a="110" b="0" /><delay frames="40" />
 <anim id="BigSmile" target="actor" targetSpec="" />나중에 <delay20 />한번 구경하러 오라고! <tag a="110" b="6" />!<anim id="FaintSmile" target="actor" targetSpec="" /></message>
-	<message label="017" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="2" arg="0x15 0x16 0x17 0x19" /></message>
+	<message label="017" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="3" arg="0x15 0x16 0x17 0x18 0x19" /></message>
 	<message label="021" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1c00 0x1900 0xcd00" /></message>
 	<message label="022" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1d01 0x1900 0xcd00" /></message>
 	<message label="023" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1e02 0x1900 0xcd00" /></message>
+	<message label="024" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1f03 0x1900 0xcd00" /></message>
 	<message label="025" attrib="00 00 00 00 00 00 00 00"><anim id="IdeaBulb" target="actor" targetSpec="" />맞다! <delay frames="40" />이왕 여기까지 왔는데<delay20 />
 <anim id="FaintSmile" target="actor" targetSpec="" />우리 <tag a="110" b="32" />의 자랑인 <colour id="1" />박물관<colour id="65535" />도 보고 가!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />돌아다니면서 구경만 해도 재밌고<delay20 />
 기념사진 찍기에도 아주 좋거든!</message>
@@ -49,39 +50,36 @@
 가면 안 되지!<pageBreak /><anim id="Explain" target="actor" targetSpec="" /><colour id="1" />박물관<colour id="65535" />에 전시돼 있으니까<delay20 />
 시간 되면 <delay8 />꼭 가봐!<delay frames="30" />
 <anim id="EmotEnd" target="actor" targetSpec="" />진짜 강력 추천이야! <tag a="110" b="6" />!</message>
-	<message label="101" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="0" arg="0x66 0x69" /></message>
-	<message label="102" attrib="00 00 01 00 00 00 00 00">아하～ 너<tag a="110" b="0" /><delay20 />
-<anim id="Pardon" target="actor" targetSpec="" /><tag a="110" b="33" /><gender5 m="이" f="가" /> 그리워져서<delay8 />
-돌아왔구나! <tag a="110" b="6" />!<pageBreak /><anim id="Laughing" target="actor" targetSpec="" />아하하! <delay20 />농담이야, <delay20 />농담!<delay frames="40" />
-그래서 <delay20 />오늘은 무슨 일로 왔어?<delay frames="40" />
-<anim id="Grin" target="actor" targetSpec="" />설마 날 만나러 온 건가<tag a="110" b="0" />?</message>
-	<message label="102_a" attrib="67 00 00 00 00 00 00 00">응</message>
-	<message label="102_b" attrib="68 00 00 00 00 00 00 00">아니</message>
-	<message label="103" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />정말?!<delay frames="40" />
+	<message label="201" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="0" arg="0xca 0xd2" /></message>
+	<message label="202" attrib="00 00 01 00 00 00 00 00"><anim id="SmugFace" target="actor" targetSpec="" />어때, <delay8 />이 <tag a="110" b="33" />?<delay frames="40" />
+<anim id="FaintSmile" target="actor" targetSpec="" />꽤 괜찮지?<delay frames="30" />
+<anim id="Hello" target="actor" targetSpec="" />너도 이사오지 그러냐?<pageBreak /><anim id="Laughing" target="actor" targetSpec="" />아하하～ <delay20 />농담이야, <delay8 />농담!<delay frames="40" />
+그래, <delay20 />오늘은 무슨 일로 왔어?<delay frames="30" />
+<anim id="Grin" target="actor" targetSpec="" />설마 <delay8 />나를 보러 온 거냐<tag a="110" b="0" />?</message>
+	<message label="202_a" attrib="cb 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />응</message>
+	<message label="202_b" attrib="cc 00 00 00 00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />아니야</message>
+	<message label="203" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />정말?!<delay frames="40" />
 <anim id="EmotEnd" target="actor" targetSpec="" />농담으로 한 말이었는데<delay20 />
-<anim id="Blushing" target="actor" targetSpec="" />정말이라니까 좀 부끄럽다<tag a="110" b="0" /><pageBreak /><anim id="Nodding" target="actor" targetSpec="" />어려운 일이 생기면<delay20 />
+<anim id="Blushing" target="actor" targetSpec="" />맞다니까 좀 부끄럽다<tag a="110" b="0" /><pageBreak /><anim id="Nodding" target="actor" targetSpec="" />어려운 일이 생기면<delay20 />
 언제든지 상담하러 오라구!<delay frames="40" />
-<anim id="Assent" target="actor" targetSpec="" />너는 소중한 내 친구니까!</message>
-	<message label="104" attrib="00 00 00 00 00 00 00 00"><anim id="Restless" target="actor" targetSpec="" /><tag a="110" b="3" /><tag a="110" b="0" /><delay frames="40" />
-보고 싶었다고 해주면 어디가 덧나냐?<delay frames="50" />
-<anim id="ShyBoy" target="actor" targetSpec="" />하여튼 넌 여전하구나<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" /><tag a="110" b="32" /> 주민 녀석들에게도 얼굴 비치고 가<delay frames="40" /> 
-<anim id="FaintSmile" target="actor" targetSpec="" />네가 없어져서<delay20 /> <anim id="Greeting" target="actor" targetSpec="" />외로워하는 녀석들
-많았으니까, <tag a="110" b="6" /></message>
-	<message label="105" attrib="6a 00 00 00 00 00 00 00">야, <delay8 /><tag a="110" b="3" /><delay frames="40" />
-<anim id="Pardon" target="actor" targetSpec="" />이사 간 새 <tag a="110" b="32" />은 어떤 곳이야?</message>
-	<message label="106" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
-	<message label="106_01" attrib="00 00 00 00 00 00 00 00"><tag a="110" b="32" /> 주민들 하고는<delay20 />
+<anim id="Assent" target="actor" targetSpec="" />너는 여전히<delay8 /> 소중한 내 친구니까!</message>
+	<message label="204" attrib="00 00 00 00 00 00 00 00"><anim id="Restless" target="actor" targetSpec="" />어이 어이, <delay8 /><tag a="110" b="3" />!<delay frames="30" />
+이럴 땐 맞다고 하는 게<delay8 /> 예의 아니냐구!<delay frames="40" />
+<anim id="ShyBoy" target="actor" targetSpec="" />정말 너란 녀석은 <delay8 />여전하구만!<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />그래, <delay20 />나를 보러 온 건 아니지만<delay20 />
+<anim id="Smiling" target="actor" targetSpec="" />그래도 만나서 반갑다! <tag a="110" b="6" />!</message>
+	<message label="210" attrib="d3 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />어이, <tag a="110" b="3" />!<delay20 />
+내가 떠난 이후로
+<tag a="110" b="34" /><gender5 m="은" f="는" /><delay20 /> 어때?</message>
+	<message label="211" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
+	<message label="211_01" attrib="00 00 00 00 00 00 00 00"><tag a="110" b="32" /> 주민들하고는<delay20 />
 <anim id="Hello" target="actor" targetSpec="" />잘 지내고 있지?<delay frames="40" />
 <anim id="Nodding" target="actor" targetSpec="" />너라면 <delay8 />문제없겠지만<tag a="110" b="0" /><pageBreak /><anim id="Smiling" target="actor" targetSpec="" />어쨌든 지금처럼<delay20 />
 싱글벙글 웃으면 어떻게든 될 거야!<delay frames="40" />
-<anim id="BigSmile" target="actor" targetSpec="" />거기서도 잘 지내라, <tag a="110" b="6" />!<delay8 /><anim id="FaintSmile" target="actor" targetSpec="" /></message>
-	<message label="106_02" attrib="00 00 00 00 00 00 00 00"><anim id="Hello" target="actor" targetSpec="" />꽃은 많이 피어 있냐?<delay frames="40" />
-<anim id="FaintSmile" target="actor" targetSpec="" />물 주면서 잘 가꿔줘야 해<pageBreak /><anim id="Explain" target="actor" targetSpec="" />네가 애정을 가지고 돌봐주면<delay20 />
-꽃도 분명 화답해줄 테니까<delay frames="40" />
-<anim id="Nodding" target="actor" targetSpec="" />야채도 마찬가지라구! <tag a="110" b="6" />!</message>
-	<message label="106_03" attrib="00 00 00 00 00 00 00 00"><anim id="Hello" target="actor" targetSpec="" />곤충이랑 물고기는 많이 있어?<delay frames="40" />
-<anim id="Thinking" target="actor" targetSpec="" />이 <tag a="110" b="32" />에 사는 녀석들과<delay8 />
-다른 종류가 살고 있으려나<tag a="110" b="0" />?<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />너라면 아마 매일같이<delay8 />
-<tag a="110" b="32" /><gender5 m="을" f="를" /> 돌아다니고 있겠지?<delay frames="40" />
-<anim id="Laughing" target="actor" targetSpec="" />안 봐도 뻔하다구, <tag a="110" b="6" /><delay20 /><anim id="FaintSmile" target="actor" targetSpec="" /></message>
+<anim id="Grin" target="actor" targetSpec="" />괜히 싸우지 말고<delay8 /> 잘 지내라, <tag a="110" b="6" />!</message>
+	<message label="211_02" attrib="00 00 00 00 00 00 00 00"><anim id="Hello" target="actor" targetSpec="" />꽃에<delay8 /> 물은 잘 주고 있냐?<delay frames="40" />
+<anim id="FaintSmile" target="actor" targetSpec="" />짬 내서 물도 주고<delay8 /> 잘 가꿔라!<pageBreak /><anim id="Blushing" target="actor" targetSpec="" />네가 애정을 가지고 돌봐주면<delay20 />
+꽃도 분명 화답해줄 거야, <tag a="110" b="6" />!</message>
+	<message label="211_03" attrib="00 00 00 00 00 00 00 00"><anim id="ShyBoy" target="actor" targetSpec="" />분위기가 많이 바뀌었다면<delay20 />
+괜히 섭섭할 것 같아<tag a="110" b="0" /><pageBreak /><anim id="Eh" target="actor" targetSpec="" />하지만 <delay20 />바뀌었다면 바뀐 대로<delay20 />
+<anim id="Laughing" target="actor" targetSpec="" />그 모습이 보고 싶기도 해! <tag a="110" b="6" />!</message>
 </msbt>

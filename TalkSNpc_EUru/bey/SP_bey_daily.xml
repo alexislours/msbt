@@ -17,8 +17,8 @@
 любимый<delay20 /><anim id="EmotEnd" target="actor" targetSpec="" /> <colour id="3" />Си-Джей<colour id="65535" />!<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Знаешь, <delay20 />с тех пор как я провожу
 <colour id="1" />рыболовные испытания<colour id="65535" />, я в тренде.
 Тьма поклонников и все такое!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Система работает на ура! <delay20 />После
-каждого <colour id="1" />испытания<colour id="65535" /> я им предлагаю
-купить улов. <delay20 />Я даже переплачиваю!<pageBreak /><anim id="Scheming" target="actor" targetSpec="" />Но я это делаю только после
+каждого <colour id="1" />испытания<colour id="65535" /> я покупаю
+у них улов. <delay20 />И даже переплачиваю!<pageBreak /><anim id="Scheming" target="actor" targetSpec="" />Но я это делаю только после
 <colour id="1" />испытаний<colour id="65535" />. <delay20 />Иначе неинтересно!
 <delay8 />Хе-хе!<pageBreak /><anim id="SmugFace" target="actor" targetSpec="" />Ты не думай, всем это подходит.
 <delay20 />Мне достается интересная рыба
@@ -73,7 +73,7 @@
 Время прищучить всех неугомонных
 рыбешек! Хе-хе!</message>
 	<message label="011" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Ладно, <delay20 />сегодня тебе нужно
-поймать <colour id="1" /><tag a="90" b="0" arg="0x0" /> <50_9 x="0" y="0" a="крупную рыбу" b="крупные рыбы" c="крупных рыб" /><colour id="65535" /> <colour id="1" />подряд<colour id="65535" />.
+поймать <colour id="1" /><tag a="90" b="0" arg="0x0" /> <50_9 x="0" y="0" a="крупную рыбу" b="крупных рыб" c="крупных рыб" /><colour id="65535" /> <colour id="1" />подряд<colour id="65535" />.
 Размером с <tag a="50" b="23" arg="0xcd03" /><tag a="125" b="3" arg="0xcd00" />!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />И всякая живность вроде трионикса
 и каймановой черепахи тоже
 считается!<delay20 /> Они большие! <delay8 />Хе-хе!</message>
@@ -104,13 +104,13 @@
 условия <colour id="1" />испытания<colour id="65535" /><delay8 /><tag a="110" b="0" /> Поблажек от
 нее не жди!<delay20 /> Готов<gender2 m="" f="а" /> порыбачить?</message>
 	<message label="016" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Сегодняшнее задание — прищучить
-<colour id="1" /><tag a="90" b="0" arg="0x0" /> крупн<50_9 x="0" y="0" a="ую" b="ых" c="ых" /> рыб<50_9 x="0" y="0" a="у" b="ы" c="" /> подряд<colour id="65535" />. Размером
+<colour id="1" /><tag a="90" b="0" arg="0x0" /> крупн<50_9 x="0" y="0" a="ую" b="ых" c="ых" /> рыб<50_9 x="0" y="0" a="у" b="" c="" /> подряд<colour id="65535" />. Размером
 с <tag a="50" b="23" arg="0xcd01" /><tag a="125" b="3" arg="0xcd00" />!</message>
 	<message label="017" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Сегодняшнее задание — поймать
-<colour id="1" /><tag a="90" b="0" arg="0x0" /> мелк<50_9 x="0" y="0" a="ую" b="их" c="их" /> рыб<50_9 x="0" y="0" a="у" b="ы" c="" /> подряд<colour id="65535" />. <delay20 />Скажем<delay8 /><tag a="110" b="0" />
+<colour id="1" /><tag a="90" b="0" arg="0x0" /> мелк<50_9 x="0" y="0" a="ую" b="их" c="их" /> рыб<50_9 x="0" y="0" a="у" b="" c="" /> подряд<colour id="65535" />. <delay20 />Скажем<delay8 /><tag a="110" b="0" />
 размером с <tag a="50" b="23" arg="0xcd01" /><tag a="125" b="3" arg="0xcd00" />.</message>
 	<message label="018" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Подписчики хотят, чтобы ты
-поймал<gender2 m="" f="а" /> <colour id="1" /><tag a="90" b="0" arg="0x4" /> рыб<50_9 x="0" y="4" a="у" b="ы" c="" /> подряд<colour id="65535" />.<delay20 /> Причем
+поймал<gender2 m="" f="а" /> <colour id="1" /><tag a="90" b="0" arg="0x4" /> рыб<50_9 x="0" y="4" a="у" b="" c="" /> подряд<colour id="65535" />.<delay20 /> Причем
 любого размера!<delay8 /> Хе-<delay8 />хе!</message>
 	<message label="019" attrib="04 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Если порадуешь моих подписчиков,
 я тебя озолочу!<delay20 /> Куплю рыбешку за
@@ -175,7 +175,7 @@
 диней не удивляйся! <delay20 />Выигрывают
 все!</message>
 	<message label="032" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Сегодня мои подписчики хотят,
-чтобы ты поймал<gender2 m="" f="а" /> <colour id="1" /><tag a="90" b="0" arg="0x0" /> крупн<50_9 x="0" y="0" a="ую" b="ых" c="ых" /> рыб<50_9 x="0" y="0" a="у" b="ы" c="" />
+чтобы ты поймал<gender2 m="" f="а" /> <colour id="1" /><tag a="90" b="0" arg="0x0" /> крупн<50_9 x="0" y="0" a="ую" b="ых" c="ых" /> рыб<50_9 x="0" y="0" a="у" b="" c="" />
 подряд<colour id="65535" />.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />И всякая живность вроде трионикса
 и каймановой черепахи тоже
 считается!<delay20 /> Они большие! <delay8 />Хе-хе!</message>
@@ -190,26 +190,26 @@
 угодно <colour id="1" /><tag a="90" b="0" arg="0x4" /> <50_9 x="0" y="4" a="раз" b="раза" c="раз" /> подряд<colour id="65535" />.<delay20 /> Удачи!</message>
 	<message label="035" attrib="00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Посмотрим, как ты справляешься<tag a="110" b="0" /></message>
 	<message label="036" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Только погляди на себя! <delay20 />Ты уже
-поймал<gender2 m="" f="а" /> <colour id="1" /><tag a="90" b="0" arg="0x1" /> крупн<50_9 x="0" y="1" a="ую" b="ых" c="ых" /> рыб<50_9 x="0" y="1" a="у" b="ы" c="" /><colour id="65535" /> <colour id="1" />подряд<colour id="65535" />!</message>
+поймал<gender2 m="" f="а" /> <colour id="1" /><tag a="90" b="0" arg="0x1" /> крупн<50_9 x="0" y="1" a="ую" b="ых" c="ых" /> рыб<50_9 x="0" y="1" a="у" b="" c="" /><colour id="65535" /> <colour id="1" />подряд<colour id="65535" />!</message>
 	<message label="037" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Смотрю, ты не на шутку разош<gender2 m="елся" f="лась" />
-и прищучил<gender2 m="" f="а" /> <colour id="1" /><tag a="90" b="0" arg="0x1" /> мелк<50_9 x="0" y="1" a="ую" b="их" c="их" /> рыб<50_9 x="0" y="1" a="у" b="ы" c="" />
+и прищучил<gender2 m="" f="а" /> <colour id="1" /><tag a="90" b="0" arg="0x1" /> мелк<50_9 x="0" y="1" a="ую" b="их" c="их" /> рыб<50_9 x="0" y="1" a="у" b="" c="" />
 подряд<colour id="65535" />!</message>
 	<message label="038" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Рыболовному эксперту вроде тебя
 есть чем гордится! Ты поймал<gender2 m="" f="а" />
-<colour id="1" /><tag a="90" b="0" arg="0x1" /> рыб<50_9 x="0" y="1" a="у" b="ы" c="" /> подряд<colour id="65535" />!<pageBreak /><anim id="SmugFace" target="actor" targetSpec="" />Мое <colour id="1" />испытание <colour id="65535" />проходит для тебя
+<colour id="1" /><tag a="90" b="0" arg="0x1" /> рыб<50_9 x="0" y="1" a="у" b="" c="" /> подряд<colour id="65535" />!<pageBreak /><anim id="SmugFace" target="actor" targetSpec="" />Мое <colour id="1" />испытание <colour id="65535" />проходит для тебя
 как по маслу. <delay20 />Твоя цель —
-прищучить <colour id="1" /><tag a="90" b="0" arg="0x4" /><colour id="65535" /> <colour id="1" />рыб<50_9 x="0" y="4" a="у" b="ы" c="" /> подряд<colour id="65535" />!</message>
+прищучить <colour id="1" /><tag a="90" b="0" arg="0x4" /><colour id="65535" /> <colour id="1" />рыб<50_9 x="0" y="4" a="у" b="" c="" /> подряд<colour id="65535" />!</message>
 	<message label="039" attrib="00 00 00 00"><anim id="SmugFace" target="actor" targetSpec="" />Мое <colour id="1" />испытание <colour id="65535" />проходит для тебя
 как по маслу. <delay20 />Твоя цель — поймать
-<colour id="1" /><tag a="90" b="0" arg="0x0" /><colour id="65535" /> <colour id="1" />рыб<50_9 x="0" y="0" a="у" b="ы" c="" /> подряд<colour id="65535" />!</message>
+<colour id="1" /><tag a="90" b="0" arg="0x0" /><colour id="65535" /> <colour id="1" />рыб<50_9 x="0" y="0" a="у" b="" c="" /> подряд<colour id="65535" />!</message>
 	<message label="040" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Отлично! <delay20 />Ты уже поймал<gender2 m="" f="а" />
-<colour id="1" /><tag a="90" b="0" arg="0x1" /> <50_9 x="0" y="1" a="крупную рыбу" b="крупные рыбы" c="крупных рыб" /><colour id="65535" />!</message>
+<colour id="1" /><tag a="90" b="0" arg="0x1" /> <50_9 x="0" y="1" a="крупную рыбу" b="крупных рыб" c="крупных рыб" /><colour id="65535" />!</message>
 	<message label="041" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Прекрасно! <delay20 />Ты уже поймал<gender2 m="" f="а" />
-<colour id="1" /><tag a="90" b="0" arg="0x1" /> <50_9 x="0" y="1" a="мелкую рыбу" b="мелкие рыбы" c="мелких рыб" /><colour id="65535" />!</message>
-	<message label="042" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Круто! <delay20 />Ты уже поймал<gender2 m="" f="а" /> <colour id="1" /><tag a="90" b="0" arg="0x1" /> <50_9 x="0" y="1" a="рыбу" b="рыбы" c="рыб" /><colour id="65535" />!<delay20 />
+<colour id="1" /><tag a="90" b="0" arg="0x1" /> <50_9 x="0" y="1" a="мелкую рыбу" b="мелких рыб" c="мелких рыб" /><colour id="65535" />!</message>
+	<message label="042" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Круто! <delay20 />Ты уже поймал<gender2 m="" f="а" /> <colour id="1" /><tag a="90" b="0" arg="0x1" /> <50_9 x="0" y="1" a="рыбу" b="рыб" c="рыб" /><colour id="65535" />!<delay20 />
 Хороший старт!</message>
 	<message label="043" attrib="00 00 00 00"><anim id="WrySmile" target="actor" targetSpec="" />Чтобы пройти <colour id="1" />испытание<colour id="65535" />,<delay20 /> тебе
-нужно поймать <colour id="1" /><tag a="90" b="0" arg="0x0" /><colour id="65535" /> <colour id="1" />рыб<50_9 x="0" y="0" a="у" b="ы" c="" /><colour id="65535" /> <colour id="1" />подряд<colour id="65535" />.</message>
+нужно поймать <colour id="1" /><tag a="90" b="0" arg="0x0" /><colour id="65535" /> <colour id="1" />рыб<50_9 x="0" y="0" a="у" b="" c="" /><colour id="65535" /> <colour id="1" />подряд<colour id="65535" />.</message>
 	<message label="044" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Что?! <delay20 />Ты еще ни одной <colour id="1" />крупной
 рыбы <colour id="65535" />не поймал<gender2 m="" f="а" />?<delay20 /> Пора бы уже
 взяться за дело.</message>
@@ -228,13 +228,13 @@
 	<message label="049" attrib="00 00 00 00"><anim id="OhGeez" target="actor" targetSpec="" />Кстати, если рыба соскочит
 с крючка, <colour id="1" />счет <colour id="65535" />обнулится.<delay20 />
 Не забывай об этом!<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Ладно, корол<gender2 m="ь" f="ева" /> рыбалки, поспеши
-прищучить <colour id="1" /><tag a="90" b="0" arg="0x4" /> рыб<50_9 x="0" y="4" a="у" b="ы" c="" /> подряд<colour id="65535" />!</message>
+прищучить <colour id="1" /><tag a="90" b="0" arg="0x4" /> рыб<50_9 x="0" y="4" a="у" b="" c="" /> подряд<colour id="65535" />!</message>
 	<message label="050" attrib="00 00 00 00"><anim id="Surprised" target="actor" targetSpec="" />Вот это да! <delay20 />Ты уже поймал<gender2 m="" f="а" />
-<colour id="1" /><tag a="90" b="0" arg="0x0" /> крупн<50_9 x="0" y="0" a="ую" b="ых" c="ых" /> рыб<50_9 x="0" y="0" a="у" b="ы" c="" /><colour id="65535" /> <colour id="1" />подряд<colour id="65535" />!</message>
+<colour id="1" /><tag a="90" b="0" arg="0x0" /> крупн<50_9 x="0" y="0" a="ую" b="ых" c="ых" /> рыб<50_9 x="0" y="0" a="у" b="" c="" /><colour id="65535" /> <colour id="1" />подряд<colour id="65535" />!</message>
 	<message label="051" attrib="00 00 00 00"><anim id="Surprised" target="actor" targetSpec="" />Не верю своим глазам! <delay20 />Ты уже
-поймал<gender2 m="" f="а" /> <tag a="90" b="0" arg="0x0" /><colour id="1" /> мелк<50_9 x="0" y="0" a="ую" b="их" c="их" /> рыб<50_9 x="0" y="0" a="у" b="ы" c="" /> подряд<colour id="65535" />!</message>
+поймал<gender2 m="" f="а" /> <colour id="1" /><tag a="90" b="0" arg="0x0" /> мелк<50_9 x="0" y="0" a="ую" b="их" c="их" /> рыб<50_9 x="0" y="0" a="у" b="" c="" /> подряд!<colour id="65535" /></message>
 	<message label="052" attrib="00 00 00 00"><anim id="Surprised" target="actor" targetSpec="" />Не верю своим глазам! <delay20 />Ты уже
-поймал<gender2 m="" f="а" /> <colour id="1" /><tag a="90" b="0" arg="0x4" /> рыб<50_9 x="0" y="4" a="у" b="ы" c="" /> подряд<colour id="65535" />!</message>
+поймал<gender2 m="" f="а" /> <colour id="1" /><tag a="90" b="0" arg="0x4" /> рыб<50_9 x="0" y="4" a="у" b="" c="" /> подряд<colour id="65535" />!</message>
 	<message label="053" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Мои подписчики в восторге!<delay20 /> Теперь
 ты корол<gender2 m="ь" f="ева" /> рыбалки! Справил<gender2 m="ся" f="ась" />
 с <colour id="1" />испытанием <colour id="65535" />в два счета!</message>
@@ -306,7 +306,7 @@
 насекомых, но<delay20 /> когда дело доходит
 до рыб, с ним никто не сравнится!</message>
 	<message label="201" attrib="04 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Просто принеси мне <colour id="1" /><tag a="90" b="0" arg="0x3" /><colour id="65535" /> одинаков<50_9 x="0" y="3" a="ую" b="ых" c="ых" />
-рыб<50_9 x="0" y="3" a="у" b="ы" c="" />. Все остальное я организую<delay8 /><tag a="110" b="0" />
+рыб<50_9 x="0" y="3" a="у" b="" c="" />. Все остальное я организую<delay8 /><tag a="110" b="0" />
 абсолютно бесплатно!</message>
 	<message label="201_a" attrib="00 00 00 00">Хочу сделать заказ.</message>
 	<message label="201_b" attrib="00 00 00 00">Объясни еще раз.</message>
@@ -364,7 +364,7 @@
 частенько тусили в детстве.</message>
 	<message label="212_01" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Его папа был <delay20 />одержим<delay20 /> насекомыми.
 И <colour id="3" />Флик<colour id="65535" /> от него недалеко ушел,
-надо признать.<tag a="110" b="0" /><pageBreak /><anim id="ShyBoy" target="actor" targetSpec="" />Представляешь, они даже в отпуск
+надо признать<tag a="110" b="0" /><pageBreak /><anim id="ShyBoy" target="actor" targetSpec="" />Представляешь, они даже в отпуск
 ездили на <delay20 />болота!<delay20 /> Потому что там
 насекомых много!<pageBreak /><anim id="Grin" target="actor" targetSpec="" />Думаю, папа <colour id="3" />Флика<colour id="65535" /> и сейчас
 в болотах каких-нибудь с сачком

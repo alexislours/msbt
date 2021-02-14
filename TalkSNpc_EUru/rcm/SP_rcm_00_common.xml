@@ -45,19 +45,19 @@
 	<message label="019_d" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Пока.</message>
 	<message label="021" attrib="00 00 00 00"><anim id="Nodding" target="mainNpc" targetSpec="" /><anim id="FaintSmile" target="subNpc" targetSpec="" />Понятно.<anim id="EmotEnd" target="mainNpc" targetSpec="" /><delay20 /><anim id="FaintSmile" target="mainNpc" targetSpec="" /> Что предлагаешь?<tag a="100" b="4" /><delay8 />
 <size value="75" />Что предлагаешь-то?<size value="100" /><endTag a="100" b="4" /><anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" /></message>
-	<message label="022" attrib="00 00 00 00"><anim id="Explain" target="mainNpc" targetSpec="" /><anim id="FaintSmile" target="subNpc" targetSpec="" />Видишь ли, у нас есть правила, по
-которым мы не покупаем репу по
-воскресеньям.<delay20 /> <anim id="Nodding" target="actor" targetSpec="" />Ты уж не обессудь.<pageBreak /><anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" />Итак, <delay20 /><anim id="FaintSmile" target="mainNpc" targetSpec="" /><anim id="FaintSmile" target="subNpc" targetSpec="" />что предлагаешь?<anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" /></message>
+	<message label="022" attrib="00 00 00 00"><anim id="Explain" target="mainNpc" targetSpec="" /><anim id="FaintSmile" target="subNpc" targetSpec="" />Имей в виду, по воскресеньям
+репу мы не покупаем, извини.<delay20 />
+<anim id="Nodding" target="actor" targetSpec="" />Все остальное — пожалуйста.<pageBreak /><anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" />Итак, <delay20 /><anim id="FaintSmile" target="mainNpc" targetSpec="" /><anim id="FaintSmile" target="subNpc" targetSpec="" />что предлагаешь?<anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" /></message>
 	<message label="024" attrib="00 00 00 00"><anim id="Worried" target="mainNpc" targetSpec="" /><anim id="Worried" target="subNpc" targetSpec="" />Э-э-э<tag a="110" b="0" /><delay20 /> Мне очень жаль, но<tag a="110" b="0" />
 <delay40 />по воскресеньям мы не покупаем
 некоторые товары, например репу.<pageBreak /><anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" />Ты не мог<gender2 m="" f="ла" /> бы выбрать на продажу
 что-нибудь другое?</message>
 	<message label="031" attrib="02 00 00 00"><anim id="Nodding" target="mainNpc" targetSpec="" /><anim id="FaintSmile" target="subNpc" targetSpec="" /><tag a="50" b="3" /><tag a="125" b="0" arg="0x0" />!<10_4 />
-<anim id="FaintSmile" target="mainNpc" targetSpec="" />Могу предложить тебе 
+<anim id="FaintSmile" target="mainNpc" targetSpec="" />Могу предложить тебе
 <tag a="90" b="26" arg="0x0" />.</message>
 	<message label="031_a" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Продано!</message>
 	<message label="031_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Откажусь все-таки.</message>
-	<message label="035" attrib="02 00 00 00"><size value="75" /><anim id="Pardon" target="actor" targetSpec="" />О<tag a="110" b="0" /><delay8 /> Неужели эт<tag a="50" b="24" arg="0x11 0xcd00 0x4 0x43e 0x442 0x2 0x430 0x2 0x43e 0x2 0x438" /> <tag a="125" b="0" arg="0x0" /><tag a="110" b="0" /><size value="100" />
+	<message label="035" attrib="02 00 00 00"><size value="75" /><anim id="Pardon" target="actor" targetSpec="" />О<tag a="110" b="0" /><delay8 /> Неужели эт<tag a="50" b="24" arg="0x12 0xcd00 0x4 0x43e 0x442 0x2 0x430 0x2 0x43e 0x2 0x438" /> <tag a="125" b="0" arg="0x0" /><tag a="110" b="0" /><size value="100" />
 <anim id="Shocked" target="actor" targetSpec="" /><delay20 />О! <delay20 /><anim id="Smiling" target="actor" targetSpec="" />Не обращай внимания! Я о своем.<pageBreak />Могу предложить тебе
 <tag a="90" b="25" arg="0x0" /> за
 <tag a="50" b="23" arg="0xcd01" /><tag a="125" b="0" arg="0x0" />.</message>
@@ -85,8 +85,8 @@
 	<message label="041_02" attrib="00 00 00 00"><anim id="FaintSmile" target="mainNpc" targetSpec="" /><anim id="FaintSmile" target="mainNpc" targetSpec="" />Сколько всякого полезного добра!
 <delay frames="40" /><anim id="Thinking" target="mainNpc" targetSpec="" /><anim id="AbsentMindedness" target="subNpc" targetSpec="" />Так, посмотрим<tag a="110" b="0" /><delay20 /> Сейчас посчитаю.
 С учетом особо ценных предметов.</message>
-	<message label="042" attrib="02 00 00 00"><anim id="BigSmile" target="mainNpc" targetSpec="" /><anim id="FaintSmile" target="subNpc" targetSpec="" />Я готов!<delay frames="40" /> <anim id="EmotEnd" target="mainNpc" targetSpec="" />Могу купить у тебя все это
-за<delay8 /> <tag a="90" b="26" arg="0x0" /> в сумме.<delay8 /><anim id="FaintSmile" target="actor" targetSpec="" /> Да?</message>
+	<message label="042" attrib="02 00 00 00"><anim id="BigSmile" target="mainNpc" targetSpec="" /><anim id="FaintSmile" target="subNpc" targetSpec="" />Готово!<delay frames="40" /> <anim id="EmotEnd" target="mainNpc" targetSpec="" />Могу купить у тебя все это
+за<delay8 /> <tag a="90" b="26" arg="0x0" />.<delay8 /><anim id="FaintSmile" target="actor" targetSpec="" /> По рукам?</message>
 	<message label="042_a" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Продано!</message>
 	<message label="042_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Откажусь все-таки.</message>
 	<message label="043" attrib="02 00 00 00"><anim id="FaintSmile" target="mainNpc" targetSpec="" /><anim id="FaintSmile" target="subNpc" targetSpec="" />Столько всего<tag a="110" b="0" /><anim id="Shocked" target="mainNpc" targetSpec="" /><anim id="Shocked" target="subNpc" targetSpec="" /><delay8 /> Ой!<delay20 /> <anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" />У тебя же там
@@ -110,8 +110,8 @@
 утилизировать.</message>
 	<message label="046_a" attrib="00 00 00 00">Забирай мой хлам!</message>
 	<message label="046_b" attrib="00 00 00 00">Я оставлю хлам себе.</message>
-	<message label="051" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" />Спасибо!<delay20 /> Покупай еще!<anim id="Nodding" target="subNpc" targetSpec="" />
-<tag a="100" b="4" /><delay8 /><size value="75" />Да побольше!<size value="100" /><endTag a="100" b="4" /></message>
+	<message label="051" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" />Спасибо!<delay20 /> Заходи еще!<anim id="Nodding" target="subNpc" targetSpec="" />
+<tag a="100" b="4" /><delay8 /><size value="75" />Да почаще!<size value="100" /><endTag a="100" b="4" /></message>
 	<message label="051_01" attrib="00 00 00 00"><anim id="Smiling" target="mainNpc" targetSpec="" /><delay8 /><anim id="Smiling" target="subNpc" targetSpec="" />Понял!<tag a="100" b="4" /><delay8 /> <size value="75" />Мы понятливые, да!<size value="100" /><endTag a="100" b="4" /><delay frames="40" />
 Утилизируем по высшему разряду,
 можешь не беспокоиться!</message>
@@ -154,7 +154,7 @@
 	<message label="093" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Да-да! Конечно!<delay frames="40" />
 Смотри на здоровье.</message>
 	<message label="094" attrib="02 00 00 00"><anim id="Nodding" target="actor" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" /><tag a="50" b="3" /><tag a="125" b="0" arg="0x0" /><delay8 />
-сто<tag a="50" b="24" arg="0x11 0xcd00 0x2 0x438 0x2 0x438 0x2 0x438 0x2 0x44f" />т <tag a="90" b="26" arg="0x0" />.</message>
+сто<tag a="50" b="24" arg="0x12 0xcd00 0x2 0x438 0x2 0x438 0x2 0x438 0x2 0x44f" />т <tag a="90" b="26" arg="0x0" />.</message>
 	<message label="094_a" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Беру!</message>
 	<message label="094_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Откажусь все-таки.</message>
 	<message label="096" attrib="02 00 00 00"><anim id="Shocked" target="mainNpc" targetSpec="" /><anim id="Shocked" target="subNpc" targetSpec="" />Ой!<delay8 /> <colour id="1" />Удочкой<colour id="65535" /> интересуешься?<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Рекомендую <delay20 />сделать себе такую
@@ -163,7 +163,7 @@
 <anim id="QuestionMark" target="actor" targetSpec="" />Все еще хочешь купить?<anim id="QuestionMark" target="subNpc" targetSpec="" /> <tag a="100" b="4" /><delay8 /><size value="75" />Хочешь?<size value="100" /><endTag a="100" b="4" /></message>
 	<message label="096_a" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Беру!</message>
 	<message label="096_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Откажусь все-таки.</message>
-	<message label="101" attrib="00 00 00 00"><anim id="Nodding" target="mainNpc" targetSpec="" /><anim id="FaintSmile" target="subNpc" targetSpec="" />Тебя интересу<tag a="50" b="24" arg="0x11 0xcd00 0x2 0x435 0x2 0x435 0x2 0x435 0x2 0x44e" />т
+	<message label="101" attrib="00 00 00 00"><anim id="Nodding" target="mainNpc" targetSpec="" /><anim id="FaintSmile" target="subNpc" targetSpec="" />Тебя интересу<tag a="50" b="24" arg="0x12 0xcd00 0x2 0x435 0x2 0x435 0x2 0x435 0x2 0x44e" />т
 <delay20 /><anim id="FaintSmile" target="mainNpc" targetSpec="" /><tag a="125" b="0" arg="0x0" />?</message>
 	<message label="102" attrib="00 00 00 00"><anim id="Nodding" target="mainNpc" targetSpec="" />Предложение ограничено, <delay20 /><anim id="Nodding" target="subNpc" targetSpec="" />так что
 не мешкай,<anim id="FaintSmile" target="mainNpc" targetSpec="" /><anim id="FaintSmile" target="subNpc" targetSpec="" /> если интересуешься.</message>
@@ -200,15 +200,20 @@
 	<message label="106_01_03" attrib="00 00 00 00"><anim id="Explain" target="mainNpc" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" />Набор «<tag a="125" b="0" arg="0x0" />»<delay8 />
 предполагает мастерскую работу
 с материалами!</message>
-	<message label="106_02" attrib="00 00 00 00"><anim id="Smiling" target="mainNpc" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" />Я загружу инструкцию в твое
-приложение, как только ты ее
+	<message label="106_02" attrib="00 00 00 00"><anim id="Smiling" target="mainNpc" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" />Я загружу эти инструкции в твое
+приложение, как только ты их
 купишь.</message>
-	<message label="107_01" attrib="00 00 00 00"><anim id="Smiling" target="mainNpc" targetSpec="" />OK, <delay8 />высылаю инструкции из набора
-«<tag a="125" b="0" arg="0x0" />»<anim id="Smiling" target="subNpc" targetSpec="" />
-на твой телефон<tag a="110" b="0" /></message>
+	<message label="107_01" attrib="00 00 00 00"><anim id="Smiling" target="mainNpc" targetSpec="" />Хорошо, <delay8 />высылаю на твой
+телефон<anim id="Smiling" target="subNpc" targetSpec="" /> инструкции из набора
+«<tag a="125" b="0" arg="0x0" />»<tag a="110" b="0" /></message>
 	<message label="107_02" attrib="00 00 00 00"><anim id="BigSmile" target="mainNpc" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" />Готово!<10_4 /><anim id="Smiling" target="mainNpc" targetSpec="" /> Надеюсь, тебе понравятся
 новые инструкции «<colour id="1" />Сделай сам<colour id="65535" />»!
 <tag a="100" b="4" /><delay8 /><size value="75" />Новые инструкции, да!<size value="100" /><endTag a="100" b="4" /></message>
+	<message label="108" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Ой! <delay20 />К сожалению, мы можем
+продавать это только тем, у кого
+есть приложение <colour id="1" />«Сделай сам»<colour id="65535" />.<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Если ты хочешь узнать побольше
+об этом приложении, <delay8 />зайди
+в <colour id="1" />бюро услуг<colour id="65535" /> на своем острове.</message>
 	<message label="110_02" attrib="02 00 00 00"><anim id="Shocked" target="mainNpc" targetSpec="" /><anim id="Shocked" target="subNpc" targetSpec="" /><tag a="50" b="3" /><tag a="110" b="1" />, по-моему,
 у тебя уже есть эта инструкция.<pageBreak /><anim id="FaintSmile" target="mainNpc" targetSpec="" /><anim id="FaintSmile" target="subNpc" targetSpec="" />Но если ты все равно хочешь ее
 купить, это обойдется тебе
@@ -294,11 +299,9 @@
 это будет<tag a="110" b="0" /> <tag a="90" b="24" arg="0x0" />.<delay20 /><anim id="QuestionMark" target="mainNpc" targetSpec="" /><anim id="QuestionMark" target="subNpc" targetSpec="" /> Идет?</message>
 	<message label="122_a" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Продано!</message>
 	<message label="122_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Откажусь все-таки.</message>
-	<message label="131" attrib="04 00 00 00"><tag a="50" b="3" /><tag a="125" b="0" arg="0x0" /><delay8 /><anim id="Nodding" target="subNpc" targetSpec="" />
-прода<tag a="50" b="24" arg="0x11 0xcd00 0x2 0x435 0x2 0x435 0x2 0x435 0x2 0x44e" />тся как по отдельности, так
-и по несколько штук.<delay20 /><anim id="QuestionMark" target="mainNpc" targetSpec="" /> Выбирай!</message>
-	<message label="131_a" attrib="00 00 00 00">1. (<colour id="1" /><tag a="90" b="12" arg="0x0" /><colour id="65535" />)</message>
-	<message label="131_b" attrib="00 00 00 00">5. (<colour id="1" /><tag a="90" b="13" arg="0x1" /><colour id="65535" />)</message>
+	<message label="131" attrib="04 00 00 00"><tag a="50" b="3" /><tag a="125" b="0" arg="0x0" /><delay8 /><anim id="Nodding" target="subNpc" targetSpec="" /> прода<tag a="50" b="24" arg="0x12 0xcd00 0x2 0x435 0x2 0x435 0x2 0x435 0x2 0x44e" />тся как по отдельности, так и по несколько штук.<delay20 /><anim id="QuestionMark" target="mainNpc" targetSpec="" /> Выбирай!</message>
+	<message label="131_a" attrib="00 00 00 00">1 (<colour id="1" /><tag a="90" b="12" arg="0x0" /><colour id="65535" />)</message>
+	<message label="131_b" attrib="00 00 00 00">5 (<colour id="1" /><tag a="90" b="13" arg="0x1" /><colour id="65535" />)</message>
 	<message label="131_c" attrib="00 00 00 00">Я передумал<gender2 m="" f="а" />.</message>
 	<message label="200" attrib="00 00 00 00"><anim id="Smiling" target="mainNpc" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" />Спасибо!<tag a="100" b="4" /><delay8 /> <size value="75" />Спасибо тебе!<size value="100" /><endTag a="100" b="4" /><10_7 arg="90" /></message>
 	<message label="201" attrib="00 00 00 00"><anim id="FaintSmile" target="mainNpc" targetSpec="" /><delay8 /><anim id="FaintSmile" target="subNpc" targetSpec="" />Привет!<tag a="100" b="4" /><delay8 /> <size value="75" />Здравствуй!<size value="100" /><endTag a="100" b="4" /><delay40 />

@@ -53,7 +53,7 @@ lo confermi, mi sento molto meglio!</message>
 del mio quotidiano allenamento di
 scatti, <tag a="110" b="6" />.</message>
 	<message label="103" attrib="00 00 02 00 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Allora, <tag a="115" b="1" arg="0xcd00" /> ha per caso detto qualcosa, <tag a="110" b="5" />?</message>
-	<message label="103_a" attrib="00 00 00 00 00 00 00 00">Ora che ci penso...</message>
+	<message label="103_a" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Ora che ci penso...</message>
 	<message label="103_b" attrib="00 00 00 00 00 00 00 00">Non ricordo.</message>
 	<message label="104" attrib="00 00 02 00 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Senti, <delay8 />ma <tag a="115" b="1" arg="0xcd00" /> ha detto niente, <tag a="110" b="6" />?</message>
 	<message label="104_a" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="player" targetSpec="" />Beh, in effetti...</message>
@@ -81,7 +81,7 @@ da <tag a="115" b="1" arg="0xcd00" /> al mio posto.<pageBreak /><anim id="Noddin
 finalmente rilassare i muscoli delle
 mie sopracciglia, <tag a="110" b="6" />.</message>
 	<message label="203" attrib="00 00 02 00 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Ha detto niente <tag a="115" b="1" arg="0xcd00" />?</message>
-	<message label="203_a" attrib="00 00 00 00 00 00 00 00">Ora che ci penso...</message>
+	<message label="203_a" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Ora che ci penso...</message>
 	<message label="203_b" attrib="00 00 00 00 00 00 00 00">Non ricordo.</message>
 	<message label="204" attrib="00 00 02 00 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" /><tag a="115" b="1" arg="0xcd00" /> ha detto niente?</message>
 	<message label="204_a" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="player" targetSpec="" />Beh, in effetti...</message>
@@ -106,7 +106,7 @@ allora sta bene anche a me,<delay frames="40" />
 quel regalo <tag a="50" b="15" /> <tag a="115" b="1" arg="0xcd00" />.</message>
 	<message label="302" attrib="00 00 02 00 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Ha detto qualcosa
 <tag a="115" b="1" arg="0xcd00" />?</message>
-	<message label="302_a" attrib="00 00 00 00 00 00 00 00">Ti dico tutto...</message>
+	<message label="302_a" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="player" targetSpec="" />Ti dico tutto...</message>
 	<message label="302_b" attrib="00 00 00 00 00 00 00 00">Non ricordo.</message>
 	<message label="303" attrib="00 00 02 00 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Ha detto nulla <tag a="115" b="1" arg="0xcd00" />?</message>
 	<message label="303_a" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="player" targetSpec="" />Beh, in effetti...</message>
@@ -128,8 +128,8 @@ siano andate bene. <pageBreak /><anim id="Nodding" target="actor" targetSpec="" 
 istinto, anche se finora non ha mai
 fallito.</message>
 	<message label="309" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Per tutti i deltoidi, non ha provato
-a vedere come <tag a="50" b="17" arg="0xe 0xcd00 0x6 0x67 0x6c 0x69 0x4 0x6c 0x65 0x0" /> stava?<delay20 /><anim id="Thinking" target="actor" targetSpec="" /> Secondo
-me <tag a="50" b="17" arg="0xe 0xcd00 0x6 0x67 0x6c 0x69 0x4 0x6c 0x65 0x0" /> andrà a pennello!</message>
+a vedere come <tag a="50" b="17" arg="0xf 0xcd00 0x6 0x67 0x6c 0x69 0x4 0x6c 0x65 0x0" /> stava?<delay20 /><anim id="Thinking" target="actor" targetSpec="" /> Secondo
+me <tag a="50" b="17" arg="0xf 0xcd00 0x6 0x67 0x6c 0x69 0x4 0x6c 0x65 0x0" /> andrà a pennello!</message>
 	<message label="310" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Cosa?<delay8 /> È questo che è successo,
 <tag a="110" b="6" />?<pageBreak /><anim id="Oops" target="actor" targetSpec="" />Credevo che il mio regalo avrebbe
 fatto faville e invece<tag a="110" b="0" /> Si vede che
@@ -163,7 +163,7 @@ un po' meglio i suoi gusti.</message>
 	<message label="401" attrib="00 00 00 00 00 00 00 00"><anim id="IdeaBulb" target="actor" targetSpec="" />Oh!<delay frames="40" /><anim id="Smiling" target="actor" targetSpec="" /> Grazie per aver consegnato
 il regalo <tag a="50" b="15" /> <tag a="115" b="1" arg="0xcd00" />!</message>
 	<message label="402" attrib="00 00 02 00 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" /><tag a="115" b="1" arg="0xcd00" /> ha detto niente?<delay8 /></message>
-	<message label="402_a" attrib="00 00 00 00 00 00 00 00">Ora che ci penso...</message>
+	<message label="402_a" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="player" targetSpec="" />Ora che ci penso...</message>
 	<message label="402_b" attrib="00 00 00 00 00 00 00 00">Non ricordo.</message>
 	<message label="403" attrib="00 00 02 00 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" /><tag a="115" b="1" arg="0xcd00" /> ha detto niente?<delay8 /></message>
 	<message label="403_a" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="player" targetSpec="" />Beh, in effetti...</message>

@@ -1,12 +1,16 @@
 <msbt attribsize="8">
-	<message label="001" attrib="00 00 00 00 00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />Hola, amig<gender2 m="o" f="a" />!<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Moi, c'est <tag a="110" b="10" />.<delay frames="40" />
-<anim id="SmugFace" target="actor" targetSpec="" />Tu sais quoi? Je suis le premier
-à profiter de ce <colour id="1" />camping<colour id="65535" />.</message>
+	<message label="001" attrib="00 00 00 00 00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />Hola, amig<gender2 m="o" f="a" />!<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Moi, c'est <tag a="110" b="10" />.<delay frames="40" /> <anim id="SmugFace" target="actor" targetSpec="" />Tu sais quoi? Je suis le premier à profiter de ce <colour id="1" />camping<colour id="65535" />.</message>
+	<message label="001_01" attrib="00 00 00 00 00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />Et tu vis sur cette île, je suppute?<delay20 />
+<anim id="Nodding" target="actor" targetSpec="" />Ouais, j'm'en doutais.<delay20 /> Et quand je
+suppute, je touche toujours au but.
+<anim id="SmugFace" target="actor" targetSpec="" />Par exemple, je suppute que tu
+vas nager dans l'allégressitude
+avec un voisin comme moi.</message>
 	<message label="002_01" attrib="00 00 01 00 00 00 00 00"><anim id="HappyFlower" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="110" b="5" />, cet endroit mérite vraiment d'être connu<tag a="110" b="0" /><pageBreak /><anim id="QuestionMark" target="actor" targetSpec="" />Pourquoi, me diras-tu?<delay frames="40" /> Ha HA!<delay20 />
 <anim id="Grin" target="actor" targetSpec="" />Eh bien, « Excellente question! »,
 te répondrai-je<tag a="110" b="0" /><pageBreak /><anim id="Explain" target="actor" targetSpec="" />Les loisirs, le soleil, le vent,
 les <tag a="110" b="7" arg="0xcd01" />, et je parle même
-pas <tag a="50" b="17" arg="0x21 0xcd00 0x4 0x64 0x75 0xa 0x64 0x65 0x20 0x6c 0x61 0x0" /> <tag a="135" b="6" arg="0xcd00" />.
+pas <tag a="50" b="17" arg="0x22 0xcd00 0x4 0x64 0x75 0xa 0x64 0x65 0x20 0x6c 0x61 0x0" /> <tag a="135" b="6" arg="0xcd00" />.
 <anim id="AbsentMindedness" target="actor" targetSpec="" />Ça me donne presque envie
 de venir m'installer ici<tag a="110" b="0" /></message>
 	<message label="002_01_a" attrib="00 00 00 00 00 00 00 00">Mais viens!</message>
@@ -83,7 +87,7 @@ meilleurs selfies.
 <anim id="AbsentMindedness" target="actor" targetSpec="" />Si mon prochain album fait un
 flop, je pense me reconvertir
 en guide touristique<tag a="110" b="0" />
-<anim id="BigSmile" target="actor" targetSpec="" />J'appellerai ça « ⁠<tag a="50" b="3" /><tag a="110" b="8" />, la vie de VIP ».<delay20 /> Alors, t'en penses quoi?</message>
+<anim id="BigSmile" target="actor" targetSpec="" />J'appellerai ça « ⁠<tag a="50" b="3" /><tag a="110" b="8" />, la vie de VIP ⁠».<delay20 /> Alors, t'en penses quoi?</message>
 	<message label="007_02" attrib="00 00 00 00 00 00 00 00"><anim id="SmugFace" target="actor" targetSpec="" />Mon arrivée ici a fait de moi
 <tag a="50" b="17" arg="0x5 0xcd00 0x12 0x75 0x6e 0x20 0x6e 0x6f 0x75 0x76 0x65 0x6c 0x18 0x75 0x6e 0x65 0x20 0x6e 0x6f 0x75 0x76 0x65 0x6c 0x6c 0x65 0x0" /> <tag a="110" b="15" /><tag a="110" b="0" /><pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />C'est le retour à la terre. J'apprécie
 à nouveau les choses simples et le
@@ -114,4 +118,10 @@ mes fans<tag a="110" b="0" />
 Mais là, j'ai le nez dans les poches
 des déménageurs, qui eux ont le
 nez dans mes boîtes.</message>
+	<message label="101" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Wow, <tag a="110" b="8" />, c'est pas un village de seconde zone. <delay20 />C'est l'île la plus courue des sept mers!<pageBreak /><anim id="TakenAback" target="actor" targetSpec="" />C'est pas moi qui m'en plaindrais.<delay20 />
+<anim id="Nodding" target="actor" targetSpec="" />J'suis toujours ravi de pouvoir tendre
+ma carte à mille badauds éblouis.
+<anim id="Smiling" target="actor" targetSpec="" />Mais quand tu seras seul<gender2 m="" f="e" />, j'dirais
+pas non à un p'tit tête-à-tête. <delay20 /><anim id="SmugFace" target="actor" targetSpec="" />Rien
+que toi, moi, et mon bagout hilarant.</message>
 </msbt>

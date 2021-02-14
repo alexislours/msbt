@@ -2,9 +2,9 @@
 	<message label="001" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
 	<message label="001_01" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="110" b="3" /> ! <tag a="50" b="3" /><tag a="110" b="6" /> ! <tag a="50" b="3" /><anim id="EmotEnd" target="actor" targetSpec="" /><tag a="50" b="2" /><tag a="125" b="0" arg="0x0" /> ? Pour moi !<delay20 /> Je veux !</message>
 	<message label="001_02" attrib="00 00 00 00 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Attends voir, <tag a="110" b="3" /> ! T'aurais pas <tag a="50" b="2" /><anim id="EmotEnd" target="actor" targetSpec="" /><tag a="125" b="0" arg="0x0" /> ?</message>
-	<message label="001_03" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Pas si vite, <tag a="110" b="3" />. <anim id="EmotEnd" target="actor" targetSpec="" />Est-ce que c'est <tag a="50" b="17" arg="0x11 0xcd00 0xe 0x75 0x6e 0x20 0x76 0x72 0x61 0x69 0x12 0x75 0x6e 0x65 0x20 0x76 0x72 0x61 0x69 0x65 0x0" /> <tag a="125" b="0" arg="0x0" /> ?</message>
+	<message label="001_03" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Pas si vite, <tag a="110" b="3" />. <anim id="EmotEnd" target="actor" targetSpec="" />Est-ce que c'est <tag a="50" b="17" arg="0x12 0xcd00 0xe 0x75 0x6e 0x20 0x76 0x72 0x61 0x69 0x12 0x75 0x6e 0x65 0x20 0x76 0x72 0x61 0x69 0x65 0x0" /> <tag a="125" b="0" arg="0x0" /> ?</message>
 	<message label="002" attrib="00 00 02 00 00 00 00 00"><anim id="Hesitate" target="actor" targetSpec="" />Je peux te demander un service ?<delay20 />
-Tu me l<tag a="50" b="17" arg="0x11 0xcd00 0x2 0x65 0x2 0x61 0x0" /> vendrais, pour
+Tu me l<tag a="50" b="17" arg="0x12 0xcd00 0x2 0x65 0x2 0x61 0x0" /> vendrais, pour
 <tag a="90" b="21" arg="0x0" /> ? Steuplééé...</message>
 	<message label="002_a" attrib="00 00 00 00 00 00 00 00">Bien sûr !
 Sans problème !</message>
@@ -14,9 +14,9 @@ Franchement, non.</message>
 Tu illumines ma journée,
 <tag a="110" b="3" /> !</message>
 	<message label="004" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />T'as raison, et je respecte ton choix.<delay frames="40" />
-<anim id="Negative" target="actor" targetSpec="" />Si c'est important pour toi, garde-l<tag a="50" b="17" arg="0x11 0xcd00 0x2 0x65 0x2 0x61 0x0" />.</message>
+<anim id="Negative" target="actor" targetSpec="" />Si c'est important pour toi, garde-l<tag a="50" b="17" arg="0x12 0xcd00 0x2 0x65 0x2 0x61 0x0" />.</message>
 	<message label="005" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
-	<message label="005_01" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="50" b="2" /><tag a="125" b="0" arg="0x0" />, ça m'hypnotise, quand j'en regarde <tag a="50" b="17" arg="0x11 0xcd00 0x4 0x75 0x6e 0x6 0x75 0x6e 0x65 0x0" /> de près.<delay frames="50" /> <anim id="HappyDance" target="actor" targetSpec="" />J'ai gagné ma journée !</message>
+	<message label="005_01" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="50" b="2" /><tag a="125" b="0" arg="0x0" />, ça m'hypnotise, quand j'en regarde <tag a="50" b="17" arg="0x12 0xcd00 0x4 0x75 0x6e 0x6 0x75 0x6e 0x65 0x0" /> de près.<delay frames="50" /> <anim id="HappyDance" target="actor" targetSpec="" />J'ai gagné ma journée !</message>
 	<message label="005_02" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Tu sais quoi ? Je crois bien que j'ai
 toujours voulu avoir <tag a="50" b="2" /><tag a="125" b="0" arg="0x0" /> !</message>
 	<message label="005_03" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />J'y crois trop pas ! <tag a="50" b="3" /><tag a="50" b="2" /><tag a="125" b="0" arg="0x0" />, <anim id="Love" target="actor" targetSpec="" />rien que pour MOI !</message>
@@ -31,12 +31,12 @@ Désolé<gender2 m="" f="e" />...</message>
 Tu assures grave !</message>
 	<message label="104" attrib="00 00 00 00 00 00 00 00"><anim id="BrokenHeart" target="actor" targetSpec="" />Je vais te dire, je m'en doutais.<delay frames="70" />
 <anim id="Negative" target="actor" targetSpec="" />Mais c'est pas grave,<delay20 /><anim id="Nodding" target="actor" targetSpec="" /> je connais
-quelqu'un d'autre qui en a <tag a="50" b="17" arg="0x11 0xcd00 0x4 0x75 0x6e 0x6 0x75 0x6e 0x65 0x0" />.</message>
+quelqu'un d'autre qui en a <tag a="50" b="17" arg="0x12 0xcd00 0x4 0x75 0x6e 0x6 0x75 0x6e 0x65 0x0" />.</message>
 	<message label="105" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
 	<message label="105_01" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="50" b="2" /><tag a="125" b="0" arg="0x0" />, y a pas plus mignon que ces bestioles-là, je te dis !<pageBreak /><anim id="HappyDance" target="actor" targetSpec="" />Sans rire, t'as pas envie de leur faire
 des câlins ? Allez, à plus tard, <tag a="110" b="3" /> !</message>
 	<message label="105_02" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Depuis que j'ai vu <tag a="50" b="2" /><tag a="125" b="0" arg="0x0" />, l'autre jour, je pense plus qu'à ça !<pageBreak /><anim id="HappyDance" target="actor" targetSpec="" />Je crois même que je vais l'appeler
-<tag a="110" b="3" /> ! Ce sera <tag a="50" b="17" arg="0x11 0xcd00 0x6 0x6d 0x6f 0x6e 0x4 0x6d 0x61 0x0" /> mini-<tag a="110" b="3" /> à moi !</message>
+<tag a="110" b="3" /> ! Ce sera <tag a="50" b="17" arg="0x12 0xcd00 0x6 0x6d 0x6f 0x6e 0x4 0x6d 0x61 0x0" /> mini-<tag a="110" b="3" /> à moi !</message>
 	<message label="105_03" attrib="00 00 00 00 00 00 00 00"><anim id="HappyDance" target="actor" targetSpec="" />Youpi, je suis l'heureuse propriétaire
 d'<tag a="50" b="2" /><tag a="125" b="0" arg="0x0" /> !
 De près, c'est quand même mignon !<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Compte sur moi pour en prendre

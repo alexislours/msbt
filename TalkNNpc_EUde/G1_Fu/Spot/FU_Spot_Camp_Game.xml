@@ -1,7 +1,7 @@
 <msbt attribsize="8">
 	<message label="001" attrib="00 00 01 00 00 00 00 00"><anim id="Hesitate" target="actor" targetSpec="" />Ich hatte gerade eine Idee<tag a="110" b="0" /><delay20 />
 Hast du Lust auf ein lustiges
-Spielchen, <delay8 /><tag a="110" b="5" />?<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Wenn du gewinnst, <delay8 />gehört <tag a="50" b="17" arg="0x11 0xcd00 0x8 0x6d 0x65 0x69 0x6e 0xa 0x6d 0x65 0x69 0x6e 0x65 0x8 0x6d 0x65 0x69 0x6e" /> <tag a="125" b="0" arg="0x0" /> dir!<delay frames="40" /> <anim id="Hello" target="actor" targetSpec="" />Was hältst du davon?</message>
+Spielchen, <delay8 /><tag a="110" b="5" />?<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Wenn du gewinnst, <delay8 />gehört <tag a="50" b="17" arg="0x12 0xcd00 0x8 0x6d 0x65 0x69 0x6e 0xa 0x6d 0x65 0x69 0x6e 0x65 0x8 0x6d 0x65 0x69 0x6e" /> <tag a="125" b="0" arg="0x0" /> dir!<delay frames="40" /> <anim id="Hello" target="actor" targetSpec="" />Was hältst du davon?</message>
 	<message label="001_a" attrib="00 00 00 00 00 00 00 00">Klingt gut, spielen wir!</message>
 	<message label="001_b" attrib="00 00 00 00 00 00 00 00">Passt mir jetzt nicht.</message>
 	<message label="002" attrib="00 00 01 00 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Sollen wir die Regeln durchgehen?</message>
@@ -10,8 +10,8 @@ Spielchen, <delay8 /><tag a="110" b="5" />?<pageBreak /><anim id="Explain" targe
 	<message label="003" attrib="00 00 00 00 00 00 00 00">In Ordnung, <delay20 /><anim id="FaintSmile" target="actor" targetSpec="" />vielleicht ein andermal!</message>
 	<message label="004" attrib="00 00 00 00 00 00 00 00"><anim id="NpcShuffle" target="actor" targetSpec="" />Fein, <delay20 />dann mische ich die Karten!</message>
 	<message label="005" attrib="00 00 00 00 00 00 00 00"><anim id="Grin" target="actor" targetSpec="" />Aha! <delay frames="40" /><anim id="FaintSmile" target="actor" targetSpec="" />Mal sehen, <delay8 />ob du recht hast...</message>
-	<message label="006_01" attrib="00 00 00 00 00 00 00 00">Du hast gewonnen! <delay frames="40" /><anim id="Smiling" target="actor" targetSpec="" />Damit gehört <tag a="50" b="17" arg="0x11 0xcd00 0x8 0x6d 0x65 0x69 0x6e 0xa 0x6d 0x65 0x69 0x6e 0x65 0x8 0x6d 0x65 0x69 0x6e" /> <tag a="125" b="0" arg="0x0" /> jetzt dir, <delay8 /><tag a="110" b="5" />!</message>
-	<message label="006_02" attrib="00 00 00 00 00 00 00 00"><anim id="Grin" target="actor" targetSpec="" />Also habe ich verloren! <delay frames="40" /><anim id="Smiling" target="actor" targetSpec="" />Damit gehört <tag a="50" b="17" arg="0x11 0xcd00 0x8 0x6d 0x65 0x69 0x6e 0xa 0x6d 0x65 0x69 0x6e 0x65 0x8 0x6d 0x65 0x69 0x6e" /> <tag a="125" b="0" arg="0x0" /> jetzt dir, <delay8 /><tag a="110" b="5" />!</message>
+	<message label="006_01" attrib="00 00 00 00 00 00 00 00">Du hast gewonnen! <delay frames="40" /><anim id="Smiling" target="actor" targetSpec="" />Damit gehört <tag a="50" b="17" arg="0x12 0xcd00 0x8 0x6d 0x65 0x69 0x6e 0xa 0x6d 0x65 0x69 0x6e 0x65 0x8 0x6d 0x65 0x69 0x6e" /> <tag a="125" b="0" arg="0x0" /> jetzt dir, <delay8 /><tag a="110" b="5" />!</message>
+	<message label="006_02" attrib="00 00 00 00 00 00 00 00"><anim id="Grin" target="actor" targetSpec="" />Also habe ich verloren! <delay frames="40" /><anim id="Smiling" target="actor" targetSpec="" />Damit gehört <tag a="50" b="17" arg="0x12 0xcd00 0x8 0x6d 0x65 0x69 0x6e 0xa 0x6d 0x65 0x69 0x6e 0x65 0x8 0x6d 0x65 0x69 0x6e" /> <tag a="125" b="0" arg="0x0" /> jetzt dir, <delay8 /><tag a="110" b="5" />!</message>
 	<message label="006_03" attrib="00 00 00 00 00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Tut mir leid. <delay frames="30" />Diesmal gehst du
 leider leer aus.</message>
 	<message label="007_01" attrib="00 00 00 00 00 00 00 00"><anim id="Pardon" target="actor" targetSpec="" />Bist du etwa Ratespiel-Profi? <delay frames="40" /><anim id="Grin" target="actor" targetSpec="" />Das
@@ -29,7 +29,7 @@ vier Karten, <delay8 />und zwar je eine von
 jeder Spielfarbe <delay8 />(<colour id="6" />♥<colour id="65535" />,<delay8 /><colour id="6" />♦<colour id="65535" />,<delay8 /> <colour id="7" />♠<colour id="65535" /><delay8 /> und <colour id="7" />♣<colour id="65535" />).<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Ich ziehe nur eine Karte,<delay8 /> und du
 musst dann raten, <delay8 />zu welcher
 Spielfarbe sie gehört.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Wenn du richtigliegst, <delay8 /><anim id="Nodding" target="actor" targetSpec="" />gewinnst du
-<tag a="50" b="17" arg="0x11 0xcd00 0xc 0x6d 0x65 0x69 0x6e 0x65 0x6e 0xa 0x6d 0x65 0x69 0x6e 0x65 0x8 0x6d 0x65 0x69 0x6e" /> <tag a="50" b="23" arg="0xcd01" /><tag a="125" b="0" arg="0x0" />.<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Ganz einfach, <delay8 />nicht wahr? <delay40 />
+<tag a="50" b="17" arg="0x12 0xcd00 0xc 0x6d 0x65 0x69 0x6e 0x65 0x6e 0xa 0x6d 0x65 0x69 0x6e 0x65 0x8 0x6d 0x65 0x69 0x6e" /> <tag a="50" b="23" arg="0xcd01" /><tag a="125" b="0" arg="0x0" />.<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Ganz einfach, <delay8 />nicht wahr? <delay40 />
 <anim id="NpcShuffle" target="actor" targetSpec="" />Dann mische ich jetzt die Karten.</message>
 	<message label="101" attrib="00 00 05 00 00 00 00 00">So! <delay frames="30" /><anim id="Grin" target="actor" targetSpec="" />Zu welcher Spielfarbe gehört
 die Karte, <delay8 />die ich gezogen habe?<delay frames="40" />
@@ -46,7 +46,7 @@ jeder Spielfarbe <delay8 />(<colour id="6" />♥<colour id="65535" />,<delay8 />
 <anim id="EmotEnd" target="actor" targetSpec="" />Ich ziehe eine Karte, <delay8 />und dann musst
 du raten, <delay8 />ob das Symbol darauf
 rot oder schwarz ist.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Wenn du richtigliegst, <delay8 /><anim id="Nodding" target="actor" targetSpec="" />gewinnst du
-<tag a="50" b="17" arg="0x11 0xcd00 0xc 0x6d 0x65 0x69 0x6e 0x65 0x6e 0xa 0x6d 0x65 0x69 0x6e 0x65 0x8 0x6d 0x65 0x69 0x6e" /> <tag a="50" b="23" arg="0xcd01" /><tag a="125" b="0" arg="0x0" />.<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Ganz einfach, <delay8 />nicht wahr? <delay40 />
+<tag a="50" b="17" arg="0x12 0xcd00 0xc 0x6d 0x65 0x69 0x6e 0x65 0x6e 0xa 0x6d 0x65 0x69 0x6e 0x65 0x8 0x6d 0x65 0x69 0x6e" /> <tag a="50" b="23" arg="0xcd01" /><tag a="125" b="0" arg="0x0" />.<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Ganz einfach, <delay8 />nicht wahr? <delay40 />
 <anim id="NpcShuffle" target="actor" targetSpec="" />Dann mische ich jetzt die Karten.</message>
 	<message label="201" attrib="00 00 01 00 00 00 00 00">So! <delay frames="30" /><anim id="Grin" target="actor" targetSpec="" />Ist das Symbol für die Spielfarbe
 der Karte, <delay8 />die ich gezogen habe,<delay8 />

@@ -13,13 +13,13 @@ je even plek maakt, kun je het plan
 bij me ophalen!</message>
 	<message label="005" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Ik ben alleen vandaag nog hier.<delay frames="40" />
 Morgen ga ik naar huis,<delay20 /> dus ik wil
-<tag a="50" b="19" arg="0x11 0xcd00 0x6 0x68 0x65 0x6d 0x6 0x68 0x65 0x74 0x4 0x7a 0x65" /> het liefst zo gauw mogelijk! <anim id="FaintSmile" target="actor" targetSpec="" /></message>
+<tag a="50" b="19" arg="0x12 0xcd00 0x6 0x68 0x65 0x6d 0x6 0x68 0x65 0x74 0x4 0x7a 0x65" /> het liefst zo gauw mogelijk! <anim id="FaintSmile" target="actor" targetSpec="" /></message>
 	<message label="006" attrib="00 00 00 00 00 00 00 00"><anim id="AbsentMindedness" target="actor" targetSpec="" />Souvenirs die voor jou gemaakt zijn
 op een vakantieplek, voelen extra
 speciaal<tag a="110" b="0" /></message>
 	<message label="007" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Je hebt je zakken geleegd!<delay frames="40" /> Oké,
 alsjeblieft!<delay frames="40" /> Dit is het plan voor <tag a="50" b="1" /><tag a="50" b="23" arg="0xcd03" /><tag a="125" b="0" arg="0x0" />!</message>
-	<message label="008" attrib="00 00 02 00 00 00 00 00"><anim id="Pardon" target="actor" targetSpec="" />Ben je misschien toch van plan<anim id="FaintSmile" target="actor" targetSpec="" /> om <tag a="50" b="19" arg="0x11 0xcd00 0x6 0x64 0x69 0x65 0x6 0x64 0x61 0x74 0x6 0x64 0x69 0x65" /> <tag a="50" b="23" arg="0xcd03" /><tag a="125" b="0" arg="0x0" /> te maken?<delay20 /> Dat zou ik supergaaf vinden.</message>
+	<message label="008" attrib="00 00 02 00 00 00 00 00"><anim id="Pardon" target="actor" targetSpec="" />Ben je misschien toch van plan<anim id="FaintSmile" target="actor" targetSpec="" /> om <tag a="50" b="19" arg="0x12 0xcd00 0x6 0x64 0x69 0x65 0x6 0x64 0x61 0x74 0x6 0x64 0x69 0x65" /> <tag a="50" b="23" arg="0xcd03" /><tag a="125" b="0" arg="0x0" /> te maken?<delay20 /> Dat zou ik supergaaf vinden.</message>
 	<message label="008_a" attrib="00 00 00 00 00 00 00 00">Ja!</message>
 	<message label="008_b" attrib="00 00 00 00 00 00 00 00">Nee, sorry.</message>
 	<message label="009" attrib="00 00 00 00 00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />O,<delay20 /> oké<tag a="110" b="0" /><delay frames="40" /> <anim id="EmotEnd" target="actor" targetSpec="" />Maar als je er toch nog aan
@@ -28,7 +28,7 @@ Ik ben er nog de hele dag.<anim id="FaintSmile" target="actor" targetSpec="" /><
 	<message label="101" attrib="00 00 02 00 00 00 00 00">Hoi!<delay frames="40" /> Lukt het met die spullen voor
 <anim id="QuestionMark" target="actor" targetSpec="" /><delay8 /><tag a="50" b="2" /><tag a="125" b="0" arg="0x0" />?</message>
 	<message label="101_a" attrib="00 00 00 00 00 00 00 00">Het gaat goed!</message>
-	<message label="101_b" attrib="00 00 00 00 00 00 00 00">Eigenlijk...</message>
+	<message label="101_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="player" targetSpec="" />Eigenlijk...</message>
 	<message label="102" attrib="00 00 00 00 00 00 00 00"><anim id="HappyDance" target="actor" targetSpec="" />Ahahaha<tag a="110" b="0" /> Ja, het kan veel moeite
 kosten om dingen bij elkaar te
 zoeken.<delay20 /> Ik ben blij dat jij me helpt!</message>
@@ -39,13 +39,13 @@ andere keer!</message>
 	<message label="201" attrib="00 00 02 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Jij ziet er vrolijk uit!<delay frames="40" /> <anim id="IdeaBulb" target="actor" targetSpec="" /><delay20 />Is het gelukt
 met dat ding waar ik om vroeg?!</message>
 	<message label="201_a" attrib="00 00 00 00 00 00 00 00">Ja, inderdaad!</message>
-	<message label="201_b" attrib="00 00 00 00 00 00 00 00">Nog even wachten...</message>
+	<message label="201_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="player" targetSpec="" />Nog even wachten...</message>
 	<message label="202" attrib="00 00 00 00 00 00 00 00">Jij krijgt van mij<anim id="Smiling" target="actor" targetSpec="" /> <tag a="50" b="2" /><tag a="125" b="4" arg="0x0" /> als bedankje voor je harde werk!</message>
-	<message label="202_02" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Ik heb een bedankje voor je.<delay frames="40" /> Het <tag a="50" b="19" arg="0x15 0xcd00 0x4 0x69 0x73 0x4 0x69 0x73 0x8 0x7a 0x69 0x6a 0x6e" /> <tag a="50" b="2" /><tag a="125" b="4" arg="0x0" />.<delay frames="40" /><anim id="BigSmile" target="actor" targetSpec="" /> Ik heb <tag a="50" b="19" arg="0x15 0xcd00 0x6 0x68 0x65 0x6d 0x6 0x68 0x65 0x74 0x4 0x7a 0x65" /> maar één keer laten vallen.</message>
-	<message label="202_03" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Hier,<delay8 /> een cadeautje!<delay frames="40" /> Het <tag a="50" b="19" arg="0x15 0xcd00 0x4 0x69 0x73 0x4 0x69 0x73 0x8 0x7a 0x69 0x6a 0x6e" /> <tag a="50" b="2" /><tag a="125" b="4" arg="0x0" /><delay20 /><anim id="Greeting" target="actor" targetSpec="" /> als bedankje voor jouw cadeau.</message>
+	<message label="202_02" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Ik heb een bedankje voor je.<delay frames="40" /> Het <tag a="50" b="19" arg="0x16 0xcd00 0x4 0x69 0x73 0x4 0x69 0x73 0x8 0x7a 0x69 0x6a 0x6e" /> <tag a="50" b="2" /><tag a="125" b="4" arg="0x0" />.<delay frames="40" /><anim id="BigSmile" target="actor" targetSpec="" /> Ik heb <tag a="50" b="19" arg="0x16 0xcd00 0x6 0x68 0x65 0x6d 0x6 0x68 0x65 0x74 0x4 0x7a 0x65" /> maar één keer laten vallen.</message>
+	<message label="202_03" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Hier,<delay8 /> een cadeautje!<delay frames="40" /> Het <tag a="50" b="19" arg="0x16 0xcd00 0x4 0x69 0x73 0x4 0x69 0x73 0x8 0x7a 0x69 0x6a 0x6e" /> <tag a="50" b="2" /><tag a="125" b="4" arg="0x0" /><delay20 /><anim id="Greeting" target="actor" targetSpec="" /> als bedankje voor jouw cadeau.</message>
 	<message label="204" attrib="00 00 00 00 00 00 00 00">Nog iets langer wachten?<delay frames="40" /> <anim id="AbsentMindedness" target="actor" targetSpec="" />Je maakt
 er zeker iets supersjieks van!</message>
-	<message label="205" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" /><tag a="50" b="19" arg="0x11 0xcd00 0x8 0x44 0x65 0x7a 0x65 0x6 0x44 0x69 0x74 0x8 0x44 0x65 0x7a 0x65" /> <tag a="50" b="23" arg="0xcd03" /><tag a="125" b="0" arg="0x0" /> <tag a="50" b="19" arg="0x11 0xcd00 0x32 0x69 0x73 0x20 0x65 0x65 0x6e 0x20 0x6f 0x72 0x69 0x67 0x69 0x6e 0x65 0x65 0x6c 0x20 0x73 0x6f 0x75 0x76 0x65 0x6e 0x69 0x72 0x32 0x69 0x73 0x20 0x65 0x65 0x6e 0x20 0x6f 0x72 0x69 0x67 0x69 0x6e 0x65 0x65 0x6c 0x20 0x73 0x6f 0x75 0x76 0x65 0x6e 0x69 0x72 0x30 0x7a 0x69 0x6a 0x6e 0x20 0x6f 0x72 0x69 0x67 0x69 0x6e 0x65 0x6c 0x65 0x20 0x73 0x6f 0x75 0x76 0x65 0x6e 0x69 0x72 0x73" /> van <tag a="110" b="9" />.<delay frames="40" /> <anim id="Smiling" target="actor" targetSpec="" />Echt cool!</message>
+	<message label="205" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" /><tag a="50" b="19" arg="0x12 0xcd00 0x8 0x44 0x65 0x7a 0x65 0x6 0x44 0x69 0x74 0x8 0x44 0x65 0x7a 0x65" /> <tag a="50" b="23" arg="0xcd03" /><tag a="125" b="0" arg="0x0" /> <tag a="50" b="19" arg="0x12 0xcd00 0x32 0x69 0x73 0x20 0x65 0x65 0x6e 0x20 0x6f 0x72 0x69 0x67 0x69 0x6e 0x65 0x65 0x6c 0x20 0x73 0x6f 0x75 0x76 0x65 0x6e 0x69 0x72 0x32 0x69 0x73 0x20 0x65 0x65 0x6e 0x20 0x6f 0x72 0x69 0x67 0x69 0x6e 0x65 0x65 0x6c 0x20 0x73 0x6f 0x75 0x76 0x65 0x6e 0x69 0x72 0x30 0x7a 0x69 0x6a 0x6e 0x20 0x6f 0x72 0x69 0x67 0x69 0x6e 0x65 0x6c 0x65 0x20 0x73 0x6f 0x75 0x76 0x65 0x6e 0x69 0x72 0x73" /> van <tag a="110" b="9" />.<delay frames="40" /> <anim id="Smiling" target="actor" targetSpec="" />Echt cool!</message>
 	<message label="206" attrib="00 00 00 00 00 00 00 00"><anim id="HappyFlower" target="actor" targetSpec="" />Jeee!<delay20 /> Ik heb een origineel souvenir van mijn bezoekje aan <tag a="110" b="9" />!</message>
 	<message label="207" attrib="00 00 00 00 00 00 00 00"><anim id="HappyFlower" target="actor" targetSpec="" />Iemand heeft weer een souvenir
 voor me gemaakt!<delay frames="40" /> De bewoners van
@@ -62,10 +62,10 @@ nog eens uitnodigt!</message>
 eiland is echt geweldig.<delay frames="40" /><anim id="Blushing" target="actor" targetSpec="" /> Ik wil hier
 nog oneindig vaak komen!<pageBreak /><anim id="Hesitate" target="actor" targetSpec="" />Daarom hoop ik <anim id="Greeting" target="actor" targetSpec="" />dat je me snel nog
 eens uitnodigt!</message>
-	<message label="209_03" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Bedankt voor het meubelstuk!<delay frames="40" /><anim id="Blushing" target="actor" targetSpec="" /> Ik hou
+	<message label="209_03" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Bedankt voor het souvenir!<delay frames="40" /><anim id="Blushing" target="actor" targetSpec="" /> Ik hou
 meer van dit eiland dan<tag a="110" b="0" /> taart.<10_4 /><anim id="Nodding" target="actor" targetSpec="" /> Maar
 niet zoveel als van bosbessentaart.<pageBreak /><anim id="HappyFlower" target="actor" targetSpec="" />Ik hoop dat je me nog eens
 uitnodigt!</message>
-	<message label="301" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" /><tag a="50" b="19" arg="0x11 0xcd00 0x6 0x44 0x69 0x65 0x6 0x44 0x61 0x74 0x6 0x44 0x69 0x65" /> <tag a="50" b="23" arg="0xcd03" /><tag a="125" b="0" arg="0x0" /> <tag a="50" b="19" arg="0x11 0xcd00 0x6 0x64 0x69 0x65 0x6 0x64 0x61 0x74 0x6 0x64 0x69 0x65" /> je hebt gemaakt, <tag a="50" b="19" arg="0x11 0xcd00 0x4 0x69 0x73 0x4 0x69 0x73 0x8 0x7a 0x69 0x6a 0x6e" /> gaaf! Dank je wel, <tag a="110" b="6" />.</message>
+	<message label="301" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" /><tag a="50" b="19" arg="0x12 0xcd00 0x6 0x44 0x69 0x65 0x6 0x44 0x61 0x74 0x6 0x44 0x69 0x65" /> <tag a="50" b="23" arg="0xcd03" /><tag a="125" b="0" arg="0x0" /> <tag a="50" b="19" arg="0x12 0xcd00 0x6 0x64 0x69 0x65 0x6 0x64 0x61 0x74 0x6 0x64 0x69 0x65" /> je hebt gemaakt, <tag a="50" b="19" arg="0x12 0xcd00 0x4 0x69 0x73 0x4 0x69 0x73 0x8 0x7a 0x69 0x6a 0x6e" /> gaaf! Dank je wel, <tag a="110" b="6" />.</message>
 	<message label="302" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Een van de bewoners hier heeft <tag a="50" b="2" /><tag a="125" b="0" arg="0x0" /> voor me gemaakt!<delay20 /> Aardig, hè?</message>
 </msbt>

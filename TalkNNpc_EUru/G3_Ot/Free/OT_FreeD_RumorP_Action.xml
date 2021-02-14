@@ -79,6 +79,20 @@
 эмоции открыто!<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Запомни, <delay frames="13" /><anim id="HappyFlower" target="actor" targetSpec="" />чем ярче твои реакции,
 тем счастливее местные жители!
 <tag a="50" b="3" /><tag a="110" b="6" />!</message>
+	<message label="114" attrib="00 00 00 00 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Неужели это правда, что ты
+летаешь с острова на остров, как
+заправск<gender2 m="ий" f="ая" /> путешественни<gender2 m="к" f="ца" />?<pageBreak /><anim id="Shocked" target="actor" targetSpec="" />Я так и знала!<delay frames="13" /> <anim id="Explain" target="actor" targetSpec="" />Наверняка ты
+выиграл<gender2 m="" f="а" /> премиальные мили от
+авиакомпании? Рассказывай!<pageBreak /><anim id="OhGeez" target="actor" targetSpec="" />Мне трудно<delay frames="13" /> признаться, но я<tag a="110" b="0" /><delay frames="13" />
+тебе очень завидую.<delay frames="40" /><anim id="Hello" target="actor" targetSpec="" /> Разумеется,<delay20 />
+<anim id="Laughing" target="actor" targetSpec="" />белой завистью, дорогуша!<delay frames="50" /><anim id="FaintSmile" target="actor" targetSpec="" /></message>
+	<message label="115" attrib="00 00 00 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Так-так, что тут у нас! <delay20 /><anim id="Explain" target="actor" targetSpec="" />Говорят, что
+вчера ты проявил<gender2 m="" f="а" /> верх своего
+гостеприимства!<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Как же мы с тобой похожи!
+<tag a="50" b="3" /><tag a="110" b="6" />!<delay20 />
+<anim id="Love" target="actor" targetSpec="" />Я тоже обожаю принимать гостей!<pageBreak /><anim id="Hello" target="actor" targetSpec="" />Ты же знаешь, чем больше гостей,
+тем веселее встреча! <delay20 /><anim id="Smiling" target="actor" targetSpec="" />Я всегда была
+такого мнения.</message>
 	<message label="116" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Поговаривают, что ты вчера
 увлек<gender2 m="ся" f="лась" /> проектом «Сделай сам».<delay20 />
 <anim id="Love" target="actor" targetSpec="" />Может, покажешь свое творение?<pageBreak /><tag a="50" b="3" /><tag a="110" b="6" />!
@@ -135,7 +149,7 @@
 <tag a="50" b="3" /><tag a="110" b="6" />!</message>
 	<message label="124_02" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Слушай, <tag a="115" b="1" arg="0xcd00" /> сказал<gender3 m="" f="а" />, что
 вы очень много общались вчера.
-<tag a="50" b="3" /><tag a="110" b="6" />!<pageBreak /><anim id="OhGeez" target="actor" targetSpec="" />Он<tag a="50" b="24" arg="0xe 0xcd00 0x0 0x2 0x430 0x0 0x0" /> был<gender3 m="" f="а" /> в полном восторге от
+<tag a="50" b="3" /><tag a="110" b="6" />!<pageBreak /><anim id="OhGeez" target="actor" targetSpec="" />Он<tag a="50" b="24" arg="0xf 0xcd00 0x0 0x2 0x430 0x0 0x0" /> был<gender3 m="" f="а" /> в полном восторге от
 затронутых тем и содержательности
 вашей беседы.<pageBreak /><anim id="Hello" target="actor" targetSpec="" />Если честно, я тоже не против<delay frames="40" /><anim id="Serious" target="actor" targetSpec="" />
 пообщаться с тобой побольше.
@@ -153,15 +167,16 @@
 А самое главное,<delay frames="13" /><anim id="Eh" target="actor" targetSpec="" /> как твое лицо?<pageBreak /><anim id="Sighing" target="actor" targetSpec="" />Впредь будь осторожней, осиный
 укус <delay frames="40" /><anim id="Serious" target="actor" targetSpec="" />— не шутки!
 <tag a="50" b="3" /><tag a="110" b="6" />!</message>
-	<message label="126_02" attrib="00 00 00 00 00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Вчера весь остров только и делал,
-что переживал о тебе!
-<tag a="50" b="3" /><tag a="110" b="6" />!<pageBreak /><anim id="Shocked" target="actor" targetSpec="" />Это из-за твоего лица после
-нападения ос<tag a="110" b="0" /><pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Ты знаешь,<delay frames="13" /> <anim id="OhGeez" target="actor" targetSpec="" />но некоторые маски на
-Хэллоуин выглядят не так страшно,
-как твое лицо.<pageBreak /><anim id="Hello" target="actor" targetSpec="" />Если ты планируешь нервировать ос
-на регулярной основе, <delay20 /><anim id="Serious" target="actor" targetSpec="" />носи
-с собой защитный шлем.<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />И лицо защитишь, и окружающих не
-напугаешь!</message>
+	<message label="126_02" attrib="00 00 00 00 00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Вчера весь остров только
+и делал, что переживал о тебе!
+<tag a="50" b="3" /><tag a="110" b="6" />!<pageBreak /><anim id="Negative" target="actor" targetSpec="" />Говорят, осиные укусы полезны
+для здоровья<tag a="110" b="0" /> но красоты они
+точно не добавляют!<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Если честно,<delay frames="13" /> <anim id="OhGeez" target="actor" targetSpec="" />с тебя можно
+маску на Хэллоуин лепить.<pageBreak /><anim id="Hello" target="actor" targetSpec="" />Если ты и дальше планируешь так
+близко общаться с осами, <delay20 /><anim id="Serious" target="actor" targetSpec="" />надевай
+на голову бумажный мешок.<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Не хочу показаться грубой,
+но так ты хотя бы окружающих
+не напугаешь!</message>
 	<message label="127" attrib="00 00 00 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Привет, <tag a="110" b="3" />!<delay frames="30" /> <anim id="Explain" target="actor" targetSpec="" />Говорят, что ты вчера наш<gender2 m="ел" f="ла" /> много
 окаменелостей!<pageBreak /><anim id="QuestionMark" target="actor" targetSpec="" />Ты обращал<gender2 m="ся" f="ась" /> к <colour id="3" />Блезерсу<colour id="65535" /> за
 экспертной оценкой?<pageBreak /><anim id="OhGeez" target="actor" targetSpec="" />Хоть он и много болтает,<delay20 /> от него

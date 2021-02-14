@@ -5,7 +5,7 @@
 	<message label="001_a" attrib="04 00 00 00 00 00 00 00">응, 알아～</message>
 	<message label="001_b" attrib="05 00 00 00 00 00 00 00">모르겠어～</message>
 	<message label="002" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="23" arg="0xd 0xe 0xf 0xffff" /></message>
-	<message label="003" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x10 0x11 0xffff 0xffff" /></message>
+	<message label="003" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x1 0x10 0x11 0x12" /></message>
 	<message label="004" attrib="00 00 00 00 00 00 00 00"><anim id="Clapping" target="actor" targetSpec="" />잘 <delay8 />알고 계시네요!<delay frames="60" />
 <anim id="EmotEnd" target="actor" targetSpec="" /><tag a="110" b="33" />의 <delay8 /><tag a="110" b="7" arg="0xcd00" /><gender5 m="은" f="는" /><delay20 />
 <anim id="FaintSmile" target="actor" targetSpec="" />선물로도 <delay8 />딱이랍니다!
@@ -35,10 +35,11 @@
 <anim id="Explain" target="actor" targetSpec="" />언젠가 근사한 <colour id="1" />박물관<colour id="65535" />이 되면<delay8 />
 수많은 전시품에 둘러싸여서<delay20 />
 <anim id="Love" target="actor" targetSpec="" />하루를 <delay8 />보내고 싶어요～ <tag a="110" b="6" />!</message>
-	<message label="017" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="2" arg="0x15 0x16 0x17 0x19" /></message>
+	<message label="017" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="3" arg="0x15 0x16 0x17 0x18 0x19" /></message>
 	<message label="021" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1c00 0x1900 0xcd00" /></message>
 	<message label="022" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1d01 0x1900 0xcd00" /></message>
 	<message label="023" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1e02 0x1900 0xcd00" /></message>
+	<message label="024" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1f03 0x1900 0xcd00" /></message>
 	<message label="025" attrib="00 00 00 00 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />이 <tag a="110" b="32" />의 <colour id="1" />박물관<colour id="65535" />은 <delay8 />구경하셨나요?<pageBreak /><anim id="Explain" target="actor" targetSpec="" />어느 전시실이든 조용해서<delay8 />
 차분하게 감상할 수 있으니까<delay20 />
 <anim id="BigSmile" target="actor" targetSpec="" />추천해드려요, <tag a="110" b="6" />!<delay8 /><anim id="FaintSmile" target="actor" targetSpec="" /></message>
@@ -56,37 +57,41 @@
 볼 수가 있어요～
 <anim id="HappyDance" target="actor" targetSpec="" />이 <tag a="110" b="32" />의 <delay8 />자랑거리 중 하나라고
 말해도 되지 않을까요? <tag a="110" b="6" />?</message>
-	<message label="101" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="0" arg="0x66 0x69" /></message>
-	<message label="102" attrib="00 00 02 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" /><tag a="110" b="4" />님과 저는<delay20 />
-지금은 각각 다른 <tag a="110" b="32" />에서
+	<message label="201" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="0" arg="0xca 0xcd" /></message>
+	<message label="202" attrib="00 00 02 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" /><tag a="110" b="4" />님과 제가<delay20 />
+지금은 서로 다른 <tag a="110" b="32" />에서
 살고 있잖아요<tag a="110" b="0" />
-<anim id="Hesitate" target="actor" targetSpec="" />제가 생각나서<delay8 />
-그리웠던 적이 있으신가요? <tag a="110" b="6" />?</message>
-	<message label="102_a" attrib="67 00 00 00 00 00 00 00">가끔씩 생각나</message>
-	<message label="102_b" attrib="68 00 00 00 00 00 00 00">별로 없는데</message>
-	<message label="103" attrib="00 00 00 00 00 00 00 00"><anim id="HappyFlower" target="actor" targetSpec="" />다행이다～!<delay frames="40" />
-저요, <delay8 />존재감이 너무 옅은 건 아닐까～
-걱정했는데 <delay8 />좀 안심했어요
-<anim id="FaintSmile" target="actor" targetSpec="" />저도<delay8 /> <tag a="110" b="4" />님을 생각하면서<delay20 />
-시를 짓기도 했답니다!<pageBreak /><anim id="Blushing" target="actor" targetSpec="" />부끄러워서<delay8 />
+<anim id="Hesitate" target="actor" targetSpec="" />혹시 저를 생각하면서<delay8 />
+그리워하실 때가<delay20 />
+있으신가요? <tag a="110" b="6" />?</message>
+	<message label="202_a" attrib="cb 00 00 00 00 00 00 00">가끔씩 그리워져</message>
+	<message label="202_b" attrib="cc 00 00 00 00 00 00 00">별로 없어</message>
+	<message label="203" attrib="00 00 00 00 00 00 00 00"><anim id="HappyFlower" target="actor" targetSpec="" />너무 기뻐요～!<delay frames="40" />
+제가 없어서 외로워하고<delay20 />
+계신 건가요?
+<anim id="Hesitate" target="actor" targetSpec="" />저도 <delay8 /><tag a="110" b="4" />님과
+만나지 못하는 쓸쓸함을<delay20 />
+시를 쓰며 달래고 있답니다
+<anim id="Blushing" target="actor" targetSpec="" />부끄러워서<delay8 />
 보여드릴 수는 없지만요, <tag a="110" b="6" />!</message>
-	<message label="104" attrib="00 00 00 00 00 00 00 00"><anim id="Oops" target="actor" targetSpec="" />어머, 그러신가요<tag a="110" b="0" />?<10_4 />
-<anim id="EmotEnd" target="actor" targetSpec="" />하지만 <delay8 />그만큼 현재의 생활에
-<anim id="Nodding" target="actor" targetSpec="" />충실하고 있다는 뜻이겠죠!
-<anim id="FaintSmile" target="actor" targetSpec="" />저도 매일 충실하게 지내면서<delay8 />
-<anim id="Assent" target="actor" targetSpec="" />적극적으로 변해보려구요! <tag a="110" b="6" />!</message>
-	<message label="105" attrib="00 00 02 00 00 00 00 00"><anim id="Hesitate" target="actor" targetSpec="" />갑작스럽지만<delay20 /> 저 예전에 비해서<delay8 />
-어딘가 바뀐 것 같지 않으세요? <tag a="110" b="6" />?</message>
-	<message label="105_a" attrib="6a 00 00 00 00 00 00 00">좀 변했네!</message>
-	<message label="105_b" attrib="6b 00 00 00 00 00 00 00">예전 그대로인데?</message>
-	<message label="106" attrib="00 00 00 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />어머나, 눈치채셨어요?<delay frames="40" />
-<anim id="Clapping" target="actor" targetSpec="" />굉장하세요!<pageBreak /><anim id="Blushing" target="actor" targetSpec="" />요즘 족욕에 빠졌거든요～<delay20 />
-예전에 비하면 <delay8 />발끝부터 발 안쪽까지
-촉촉하고 매끈매끈하답니다～<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />사소한 변화를 알아차리시다니<delay8 />
-<anim id="Smiling" target="actor" targetSpec="" />역시 멋지세요, <tag a="110" b="6" />!</message>
-	<message label="107" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />그렇게 생각해주시다니 기쁠 따름이에요!<10_4 />
-<anim id="ShyBoy" target="actor" targetSpec="" />실은요, <delay8 />시력이 조금 떨어진 것 같아서<delay20 />
-걱정하고 있었거든요<tag a="110" b="0" />
-<anim id="EmotEnd" target="actor" targetSpec="" />예전 그대로라고 해주시니<delay8 />
-<anim id="Smiling" target="actor" targetSpec="" />안심했어요! <tag a="110" b="6" />!</message>
+	<message label="204" attrib="00 00 00 00 00 00 00 00"><anim id="Oops" target="actor" targetSpec="" />어머나, 그러시군요!<10_4 />
+<anim id="EmotEnd" target="actor" targetSpec="" />제 생각이 안 날 정도로<delay8 />
+<anim id="Nodding" target="actor" targetSpec="" />매일매일 바쁘게 살고 계신가 보네요!<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />저도 이곳에서 <delay8 />하루하루 후회 없이<delay8 />
+열심히 생활하고 있으니까<delay20 />
+<anim id="Assent" target="actor" targetSpec="" />부디 걱정하지 마세요! <tag a="110" b="6" />!</message>
+	<message label="205" attrib="00 00 02 00 00 00 00 00"><anim id="Hesitate" target="actor" targetSpec="" />저기, 저 말이에요<tag a="110" b="0" /><delay20 />
+예전과 비교해서<delay8 /> 혹시
+달라진 것 같나요? <tag a="110" b="6" />?</message>
+	<message label="205_a" attrib="ce 00 00 00 00 00 00 00">조금 달라졌어</message>
+	<message label="205_b" attrib="cf 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />그대로야!</message>
+	<message label="206" attrib="00 00 00 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />어머! 보통 감각이 아니시네요!<delay frames="40" />
+<anim id="Clapping" target="actor" targetSpec="" />정말 대단하세요!<pageBreak /><anim id="Blushing" target="actor" targetSpec="" />요즘 족욕에 빠져서<delay20 />
+예전과 비교하면 <delay8 />발가락부터 발꿈치까지
+촉촉하고 매끈매끈해졌거든요～<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />작은 변화까지 알아채시다니<delay8 />
+<anim id="Smiling" target="actor" targetSpec="" />훌륭해요, <tag a="110" b="6" />!</message>
+	<message label="207" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />그렇게 생각해주시다니 기뻐요!<10_4 />
+<anim id="ShyBoy" target="actor" targetSpec="" />실은 <delay8 />시력이 예전 같지 않아서<delay20 />
+조금 걱정이거든요<tag a="110" b="0" />
+<anim id="EmotEnd" target="actor" targetSpec="" />예전과 같아 보인다니<delay8 />
+<anim id="Smiling" target="actor" targetSpec="" />말씀만으로도 안심이 되네요! <tag a="110" b="6" />!</message>
 </msbt>

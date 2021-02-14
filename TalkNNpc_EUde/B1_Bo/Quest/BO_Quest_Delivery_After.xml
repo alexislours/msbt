@@ -1,6 +1,6 @@
 <msbt attribsize="8">
-	<message label="001" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Danke, <delay8 />dass du <tag a="115" b="1" arg="0xcd00" /> <tag a="50" b="17" arg="0xe 0xcd00 0xc 0x73 0x65 0x69 0x6e 0x65 0x6e 0xa 0x69 0x68 0x72 0x65 0x6e 0x0" /> Besitz zurückgebracht hast!</message>
-	<message label="002" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Du hast also <tag a="115" b="1" arg="0xcd00" /> <tag a="50" b="17" arg="0xe 0xcd00 0xc 0x73 0x65 0x69 0x6e 0x65 0x6e 0xa 0x69 0x68 0x72 0x65 0x6e 0x0" /> Besitz zurückgegeben?<pageBreak /><anim id="Hesitate" target="actor" targetSpec="" />Und, <delay8 />war <tag a="50" b="17" arg="0xe 0xcd00 0x4 0x65 0x72 0x6 0x73 0x69 0x65 0x0" /> arg böse? <delay20 /><anim id="FaintSmile" target="actor" targetSpec="" />Ich bin dir
+	<message label="001" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Danke, <delay8 />dass du <tag a="115" b="1" arg="0xcd00" /> <tag a="50" b="17" arg="0xf 0xcd00 0xc 0x73 0x65 0x69 0x6e 0x65 0x6e 0xa 0x69 0x68 0x72 0x65 0x6e 0x0" /> Besitz zurückgebracht hast!</message>
+	<message label="002" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Du hast also <tag a="115" b="1" arg="0xcd00" /> <tag a="50" b="17" arg="0xf 0xcd00 0xc 0x73 0x65 0x69 0x6e 0x65 0x6e 0xa 0x69 0x68 0x72 0x65 0x6e 0x0" /> Besitz zurückgegeben?<pageBreak /><anim id="Hesitate" target="actor" targetSpec="" />Und, <delay8 />war <tag a="50" b="17" arg="0xf 0xcd00 0x4 0x65 0x72 0x6 0x73 0x69 0x65 0x0" /> arg böse? <delay20 /><anim id="FaintSmile" target="actor" targetSpec="" />Ich bin dir
 echt dankbar, <delay8 />dass du mir so lieb
 geholfen hast, <delay8 /><tag a="110" b="5" />!</message>
 	<message label="003" attrib="00 00 02 00 00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />Ich leihe mir ja sonst nie so lang was aus. <delay20 />Hat <tag a="115" b="1" arg="0xcd00" /> denn noch was gesagt?</message>
@@ -11,11 +11,11 @@ ich mir das ausgeliehen hatte. <delay20 />War
 <tag a="115" b="1" arg="0xcd00" /> arg sauer?</message>
 	<message label="004_a" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Na ja...</message>
 	<message label="004_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Weiß ich nicht mehr.</message>
-	<message label="005" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />D-du hast's vergessen?<anim id="EmotEnd" target="actor" targetSpec="" /><delay20 />
-Och nö, <delay8 /><tag a="110" b="3" />...<pageBreak /><anim id="Laughing" target="actor" targetSpec="" />Aber ich bin dir nicht böse, weil ich
-ja auch oft was vergesse... <delay20 />Wir sind
+	<message label="005" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />D-<delay8 />du hast's vergessen?<delay frames="40" /><anim id="Sighing" target="actor" targetSpec="" />
+Och nö, <delay8 /><tag a="110" b="3" /><tag a="110" b="0" /><pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Aber ich bin dir nicht böse, weil ich
+ja auch oft was vergesse... <delay20 /><anim id="Laughing" target="actor" targetSpec="" />Wir sind
 schon zwei Dussel, <delay8 /><tag a="110" b="5" />!</message>
-	<message label="006" attrib="00 00 00 00 00 00 00 00"><anim id="Surprised" target="actor" targetSpec="" />Du hast es geöffnet?<delay20 /> Och nööö...<delay20 /><anim id="Confused" target="actor" targetSpec="" />
+	<message label="006" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Du hast es geöffnet?<delay20 /> Och nööö...<delay20 /><anim id="Confused" target="actor" targetSpec="" />
 So was macht man nicht, <delay8 />in die
 Sachen von anderen reinlinsen!</message>
 	<message label="007" attrib="00 00 00 00 00 00 00 00"><anim id="Surprised" target="actor" targetSpec="" />Wie? <delay20 />Du hast es geöffnet?<delay20 />
@@ -62,10 +62,10 @@ geholfen hast, <delay8 /><tag a="110" b="5" />!</message>
 Danke, <delay8 />dass du <tag a="115" b="1" arg="0xcd00" /> das Päckchen vorbeigebracht hast!</message>
 	<message label="102" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Wow, <tag a="110" b="3" />!<delay20 /> Du hast <tag a="115" b="1" arg="0xcd00" /> schon die eine Sache zurückgebracht?<pageBreak />Hui, <delay8 />das ging aber schnell!<delay20 />
 <anim id="Nodding" target="actor" targetSpec="" />Vielen Dank dafür, <delay8 /><tag a="110" b="5" />.</message>
-	<message label="103" attrib="00 00 02 00 00 00 00 00">Hat <tag a="115" b="1" arg="0xcd00" /> irgendwas gesagt, <delay8 />als du <tag a="50" b="17" arg="0xe 0xcd00 0x6 0x69 0x68 0x6d 0x6 0x69 0x68 0x72 0x0" /> das Päckchen überreicht hast, <delay8 /><tag a="110" b="5" />?</message>
+	<message label="103" attrib="00 00 02 00 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Hat <tag a="115" b="1" arg="0xcd00" /> irgendwas gesagt, <delay8 />als du <tag a="50" b="17" arg="0xf 0xcd00 0x6 0x69 0x68 0x6d 0x6 0x69 0x68 0x72 0x0" /> das Päckchen überreicht hast, <delay8 /><tag a="110" b="5" />?</message>
 	<message label="103_a" attrib="00 00 00 00 00 00 00 00">Klar, und zwar...</message>
 	<message label="103_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Ich hab's vergessen...</message>
-	<message label="104" attrib="00 00 02 00 00 00 00 00">Hat <tag a="115" b="1" arg="0xcd00" /> noch was zu dir gesagt, als du das Päckchen abgeliefert hast, <delay8 /><tag a="110" b="5" />?</message>
+	<message label="104" attrib="00 00 02 00 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Hat <tag a="115" b="1" arg="0xcd00" /> noch was zu dir gesagt, <delay8 />als du das Päckchen abgeliefert hast, <delay8 /><tag a="110" b="5" />?</message>
 	<message label="104_a" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="player" targetSpec="" />Nun ja...</message>
 	<message label="104_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Ich hab's vergessen...</message>
 	<message label="105" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Wie, <delay8 />du hast es vergessen? <delay20 />Och,<delay8 /> <tag a="110" b="3" />... <delay20 /><anim id="EmotEnd" target="actor" targetSpec="" />Das hätte mich jetzt schon interessiert!<pageBreak /><anim id="Laughing" target="actor" targetSpec="" />Na ja, <delay8 />die Hauptsache ist, <delay8 />dass <tag a="115" b="1" arg="0xcd00" /> nun nicht mehr danach suchen muss, <delay8 /><tag a="110" b="5" />!</message>
@@ -75,14 +75,14 @@ Päckchen war für <tag a="115" b="1" arg="0xcd00" />,<delay8 /> das kannst du n
 <anim id="Sighing" target="actor" targetSpec="" />Menno, <delay8 />dabei hatte ich es doch so
 schön eingepackt, <delay8 /><tag a="110" b="5" />!
 <anim id="Silent" target="actor" targetSpec="" /><tag a="115" b="1" arg="0xcd00" /> hätte es öffnen sollen, <delay8 />nicht du! <delay20 />Versprich mir, <delay8 />dass du das nie wieder tust, <delay8 />okay?</message>
-	<message label="108" attrib="00 00 00 00 00 00 00 00"><anim id="Surprised" target="actor" targetSpec="" /><tag a="50" b="17" arg="0xe 0xcd00 0x4 0x45 0x72 0x6 0x53 0x69 0x65 0x0" /> hat also schon Ersatz besorgt?<pageBreak /><anim id="Confused" target="actor" targetSpec="" />Ach menno... <delay20 />Ich hätte es wohl doch
+	<message label="108" attrib="00 00 00 00 00 00 00 00"><anim id="Surprised" target="actor" targetSpec="" /><tag a="50" b="17" arg="0xf 0xcd00 0x4 0x45 0x72 0x6 0x53 0x69 0x65 0x0" /> hat also schon Ersatz besorgt?<pageBreak /><anim id="Confused" target="actor" targetSpec="" />Ach menno... <delay20 />Ich hätte es wohl doch
 schon früher zurückbringen sollen.<delay20 />
 <anim id="Worried" target="actor" targetSpec="" />Jetzt fühl ich mich echt mies...</message>
-	<message label="109" attrib="00 00 00 00 00 00 00 00"><anim id="ShyBoy" target="actor" targetSpec="" />Äh, he he he. <delay20 />Ich wette mit dir,<delay8 /> <tag a="115" b="1" arg="0xcd00" /> hat nicht mal gemerkt, <delay8 />dass <tag a="50" b="17" arg="0xe 0xcd00 0x6 0x69 0x68 0x6d 0x6 0x69 0x68 0x72 0x0" /> was gefehlt hat.</message>
+	<message label="109" attrib="00 00 00 00 00 00 00 00"><anim id="ShyBoy" target="actor" targetSpec="" />Äh, he he he. <delay20 />Ich wette mit dir,<delay8 /> <tag a="115" b="1" arg="0xcd00" /> hat nicht mal gemerkt, <delay8 />dass <tag a="50" b="17" arg="0xf 0xcd00 0x6 0x69 0x68 0x6d 0x6 0x69 0x68 0x72 0x0" /> was gefehlt hat.</message>
 	<message label="201" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Hey, <delay8 /><tag a="110" b="3" />!<delay20 />
 Danke, dass du <tag a="115" b="1" arg="0xcd00" /> das Päckchen vorbeigebracht hast.</message>
 	<message label="202" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="110" b="3" />! <delay20 />Hast du das Päckchen bei <tag a="115" b="1" arg="0xcd00" /> abgeliefert? <delay20 /><anim id="FaintSmile" target="actor" targetSpec="" />Wunderbärchen!</message>
-	<message label="203" attrib="00 00 02 00 00 00 00 00">Hat <tag a="115" b="1" arg="0xcd00" /> irgendwas gesagt, <delay8 /><anim id="Hello" target="actor" targetSpec="" />als du <tag a="50" b="17" arg="0xe 0xcd00 0x6 0x69 0x68 0x6d 0x6 0x69 0x68 0x72 0x0" /> das Päckchen vor die Nase gehalten hast?</message>
+	<message label="203" attrib="00 00 02 00 00 00 00 00">Hat <tag a="115" b="1" arg="0xcd00" /> irgendwas gesagt, <delay8 /><anim id="Hello" target="actor" targetSpec="" />als du <tag a="50" b="17" arg="0xf 0xcd00 0x6 0x69 0x68 0x6d 0x6 0x69 0x68 0x72 0x0" /> das Päckchen vor die Nase gehalten hast?</message>
 	<message label="203_a" attrib="00 00 00 00 00 00 00 00">Ach ja, stimmt...</message>
 	<message label="203_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Ich hab's vergessen...</message>
 	<message label="204" attrib="00 00 02 00 00 00 00 00">Was hat <tag a="115" b="1" arg="0xcd00" /> gesagt,<delay8 /> <anim id="Hello" target="actor" targetSpec="" />als du das Päckchen überreicht hast,<delay8 /> <tag a="110" b="5" />?</message>
@@ -90,7 +90,7 @@ Danke, dass du <tag a="115" b="1" arg="0xcd00" /> das Päckchen vorbeigebracht h
 	<message label="204_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Ich hab's vergessen...</message>
 	<message label="205" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Du weißt es nicht mehr? <delay20 /><anim id="WrySmile" target="actor" targetSpec="" />Also echt,<delay8 />
 <tag a="110" b="3" />. <delay20 />Manchmal bist du wirklich lustig, <delay8 />äh, he he he.<pageBreak /><anim id="AbsentMindedness" target="actor" targetSpec="" />Was wohl in dem Päckchen war?
-<delay20 /><anim id="EmotEnd" target="actor" targetSpec="" />Ich werd <tag a="115" b="1" arg="0xcd00" /> fragen,<delay8 /> <anim id="Nodding" target="actor" targetSpec="" />wenn ich <tag a="50" b="17" arg="0xe 0xcd00 0x6 0x69 0x68 0x6e 0x6 0x73 0x69 0x65 0x0" /> sehe, <delay8 /><tag a="110" b="5" />!</message>
+<delay20 /><anim id="EmotEnd" target="actor" targetSpec="" />Ich werd <tag a="115" b="1" arg="0xcd00" /> fragen,<delay8 /> <anim id="Nodding" target="actor" targetSpec="" />wenn ich <tag a="50" b="17" arg="0xf 0xcd00 0x6 0x69 0x68 0x6e 0x6 0x73 0x69 0x65 0x0" /> sehe, <delay8 /><tag a="110" b="5" />!</message>
 	<message label="206" attrib="00 00 00 00 00 00 00 00"><anim id="Surprised" target="actor" targetSpec="" />Du... <delay8 />hast es geöffnet? <delay20 /><anim id="Confused" target="actor" targetSpec="" />Aber das war doch für <tag a="115" b="1" arg="0xcd00" />, <delay8 />da kannst du nicht einfach reingucken!<pageBreak />Na ja, <delay8 />du KANNST schon reingucken,<delay8 />
 <anim id="Negative" target="actor" targetSpec="" />aber <delay8 />so <delay8 />was <delay8 />macht <delay8 />man<delay8 /> nicht! <delay20 />Das ist
 unhöflich! <delay20 />Und gibt sicher Ärger!</message>
@@ -98,14 +98,14 @@ unhöflich! <delay20 />Und gibt sicher Ärger!</message>
 <anim id="Silent" target="actor" targetSpec="" /><tag a="115" b="1" arg="0xcd00" /> hätte es doch eigentlich auspacken sollen!<pageBreak />Das war wirklich nicht nett von dir!<delay20 />
 <anim id="Explain" target="actor" targetSpec="" />Es gibt kaum was Spannenderes,<delay8 />
 als ein Päckchen auszupacken...
-<anim id="Worried" target="actor" targetSpec="" />Bestimmt hatte <tag a="50" b="17" arg="0xe 0xcd00 0x4 0x65 0x72 0x6 0x73 0x69 0x65 0x0" /> sich schon total
+<anim id="Worried" target="actor" targetSpec="" />Bestimmt hatte <tag a="50" b="17" arg="0xf 0xcd00 0x4 0x65 0x72 0x6 0x73 0x69 0x65 0x0" /> sich schon total
 darauf gefreut. <delay20 /><anim id="Negative" target="actor" targetSpec="" />Versprich mir,<delay8 /> dass
 du so was nicht wieder machst, <delay8 />ja?</message>
 	<message label="208" attrib="00 00 00 00 00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />In dem Päckchen war ein Geschenk
 für dich, <delay8 /><tag a="110" b="3" />?<pageBreak /><anim id="Laughing" target="actor" targetSpec="" />Wie abgedreht! <delay20 /><anim id="EmotEnd" target="actor" targetSpec="" />Da hast du ja quasi
 für dich selbst <gender2 m="Lieferbote" f="Lieferbotin" /> gespielt!<delay20 />
 <anim id="Laughing" target="actor" targetSpec="" />Äh, he he he!</message>
-	<message label="209" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" /><tag a="50" b="17" arg="0xe 0xcd00 0x4 0x45 0x72 0x6 0x53 0x69 0x65 0x0" /> hat sich also über deinen Besuch
+	<message label="209" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" /><tag a="50" b="17" arg="0xf 0xcd00 0x4 0x45 0x72 0x6 0x53 0x69 0x65 0x0" /> hat sich also über deinen Besuch
 gefreut, <delay8 />ja? <delay20 />Siehst du, <delay8 />da haben wir
 zwei wohl eine gute Tat vollbracht!
 <anim id="FaintSmile" target="actor" targetSpec="" />Ich wusste doch, dass ich auf dich
@@ -119,24 +119,24 @@ zählen kann! <delay20 />Danke, <delay8 /><tag a="110" b="5" />!</message>
 	<message label="303_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Ich hab's vergessen...</message>
 	<message label="304" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Du<tag a="110" b="0" /> <delay8 />hast es vergessen?<delay20 />
 <anim id="Worried" target="actor" targetSpec="" />Mensch, <delay8 /><tag a="110" b="3" />...<pageBreak /><anim id="Thinking" target="actor" targetSpec="" />Ich hätte wirklich gerne gewusst,<delay8 />
-ob <tag a="115" b="1" arg="0xcd00" /> das Geschenk auch gefallen hat.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Na ja, <delay8 />dann muss ich <tag a="50" b="17" arg="0xe 0xcd00 0x6 0x69 0x68 0x6e 0x6 0x73 0x69 0x65 0x0" /> wohl selbst
+ob <tag a="115" b="1" arg="0xcd00" /> das Geschenk auch gefallen hat.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Na ja, <delay8 />dann muss ich <tag a="50" b="17" arg="0xf 0xcd00 0x6 0x69 0x68 0x6e 0x6 0x73 0x69 0x65 0x0" /> wohl selbst
 fragen, <delay8 /><tag a="110" b="5" />!</message>
 	<message label="305" attrib="00 00 00 00 00 00 00 00"><anim id="Surprised" target="actor" targetSpec="" />Du<tag a="110" b="0" /> <delay8 />Du hast es tatsächlich
 ausgepackt? <delay20 />Gibt's ja nicht!<pageBreak /><anim id="SadSpiral" target="actor" targetSpec="" />Dabei hatte ich es extra hübsch für <tag a="115" b="1" arg="0xcd00" /> eingepackt, <delay8 /><tag a="110" b="5" />!</message>
 	<message label="306" attrib="00 00 00 00 00 00 00 00"><anim id="Surprised" target="actor" targetSpec="" />Du hast es ausgepackt? <delay20 /><anim id="Restless" target="actor" targetSpec="" />Menno,<delay8 />
 das Geschenk war nicht für dich,<delay8 />
-sondern für <tag a="115" b="1" arg="0xcd00" />!<pageBreak /><anim id="Oops" target="actor" targetSpec="" />Na prima. <delay20 />Jetzt denkt <tag a="50" b="17" arg="0xe 0xcd00 0x4 0x65 0x72 0x6 0x73 0x69 0x65 0x0" /> bestimmt,<delay8 />
+sondern für <tag a="115" b="1" arg="0xcd00" />!<pageBreak /><anim id="Oops" target="actor" targetSpec="" />Na prima. <delay20 />Jetzt denkt <tag a="50" b="17" arg="0xf 0xcd00 0x4 0x65 0x72 0x6 0x73 0x69 0x65 0x0" /> bestimmt,<delay8 />
 ich wär zu faul zum Einpacken... <delay20 />oder
 zu geizig für Geschenkpapier!</message>
-	<message label="307" attrib="00 00 00 00 00 00 00 00"><anim id="Pardon" target="actor" targetSpec="" /><tag a="50" b="17" arg="0xe 0xcd00 0x4 0x45 0x72 0x6 0x53 0x69 0x65 0x0" /> hat es gleich angezogen? <delay20 />Toll!<delay20 />
-Also hat es <tag a="50" b="17" arg="0xe 0xcd00 0x6 0x69 0x68 0x6d 0x6 0x69 0x68 0x72 0x0" /> gefallen! <delay20 /><anim id="Smiling" target="actor" targetSpec="" />Ich bin ja
-so gespannt, <delay8 /><tag a="50" b="17" arg="0xe 0xcd00 0x6 0x69 0x68 0x6e 0x6 0x73 0x69 0x65 0x0" /> damit zu sehen!</message>
+	<message label="307" attrib="00 00 00 00 00 00 00 00"><anim id="Pardon" target="actor" targetSpec="" /><tag a="50" b="17" arg="0xf 0xcd00 0x4 0x45 0x72 0x6 0x53 0x69 0x65 0x0" /> hat es gleich angezogen? <delay20 />Toll!<delay20 />
+Also hat es <tag a="50" b="17" arg="0xf 0xcd00 0x6 0x69 0x68 0x6d 0x6 0x69 0x68 0x72 0x0" /> gefallen! <delay20 /><anim id="Smiling" target="actor" targetSpec="" />Ich bin ja
+so gespannt, <delay8 /><tag a="50" b="17" arg="0xf 0xcd00 0x6 0x69 0x68 0x6e 0x6 0x73 0x69 0x65 0x0" /> damit zu sehen!</message>
 	<message label="308" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Oh, <delay8 />verstehe. <delay20 />Na ja, <delay8 /><anim id="FaintSmile" target="actor" targetSpec="" />wenigstens war
 es kein totaler Reinfall. <delay20 />Danke für
 den Botengang, <delay8 /><tag a="110" b="3" />!</message>
-	<message label="309" attrib="00 00 00 00 00 00 00 00"><tag a="50" b="17" arg="0xe 0xcd00 0x4 0x45 0x72 0x6 0x53 0x69 0x65 0x0" /> wollte es nicht mal anprobieren?<delay20 />
-Komisch. <delay20 />Ich hab gedacht, <delay8 />es würde
-viel besser bei <tag a="50" b="17" arg="0xe 0xcd00 0x6 0x69 0x68 0x6d 0x6 0x69 0x68 0x72 0x0" /> ankommen.</message>
+	<message label="309" attrib="00 00 00 00 00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" /><tag a="50" b="17" arg="0xf 0xcd00 0x4 0x45 0x72 0x6 0x53 0x69 0x65 0x0" /> wollte es nicht mal anprobieren?<delay20 />
+Komisch<tag a="110" b="0" /> <delay20 /><anim id="EmotEnd" target="actor" targetSpec="" />Ich hab gedacht, <delay8 />es würde<anim id="Greeting" target="actor" targetSpec="" />
+viel besser bei <tag a="50" b="17" arg="0xf 0xcd00 0x6 0x69 0x68 0x6d 0x6 0x69 0x68 0x72 0x0" /> ankommen.</message>
 	<message label="310" attrib="00 00 00 00 00 00 00 00"><anim id="Oops" target="actor" targetSpec="" />Oh, <delay8 />das war dann wohl ein Griff ins
 Klo. <delay frames="40" /><anim id="ShyBoy" target="actor" targetSpec="" />Und ich dachte, <delay8 />das Outfit haut
 <tag a="115" b="1" arg="0xcd00" /> von den Socken...</message>
@@ -181,7 +181,7 @@ Halten, <delay8 /><tag a="110" b="3" />!</message>
 du <tag a="115" b="1" arg="0xcd00" /> das Päckchen gebracht hast!</message>
 	<message label="402" attrib="00 00 02 00 00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Und, <delay8 />wie ist es gelaufen?<delay20 />
 <anim id="QuestionMark" target="actor" targetSpec="" />Ist <tag a="115" b="1" arg="0xcd00" /> immer noch sauer auf mich, <delay8 /><tag a="110" b="5" />?</message>
-	<message label="402_a" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Ach ja, stimmt...</message>
+	<message label="402_a" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Überhaupt nicht!</message>
 	<message label="402_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Ich hab's vergessen...</message>
 	<message label="403" attrib="00 00 02 00 00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Erzähl schon, <delay8 />wie lief's?<delay20 />
 <anim id="QuestionMark" target="actor" targetSpec="" />Ist <tag a="115" b="1" arg="0xcd00" /> noch immer sauer auf mich, <delay8 /><tag a="110" b="5" />?</message>
@@ -203,7 +203,7 @@ Schönes. <delay20 />An dein Häuschen, <delay8 />deine
 Couch, <delay8 /><anim id="Love" target="actor" targetSpec="" />einen Eimer voller Eiscreme!
 <anim id="Sighing" target="actor" targetSpec="" />Puh<tag a="110" b="0" /> <delay8 />Jetzt geht's mir wieder besser.<delay20 />
 Ich hoffe nur, <delay8 /><anim id="Frantic" target="actor" targetSpec="" /><tag a="115" b="1" arg="0xcd00" /> ist jetzt nicht noch stinkiger als zuvor!</message>
-	<message label="407" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Wunderbärchen! <delay20 />Dann ist <tag a="50" b="17" arg="0xe 0xcd00 0x4 0x65 0x72 0x6 0x73 0x69 0x65 0x0" /> also
+	<message label="407" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Wunderbärchen! <delay20 />Dann ist <tag a="50" b="17" arg="0xf 0xcd00 0x4 0x65 0x72 0x6 0x73 0x69 0x65 0x0" /> also
 nicht mehr böse auf mich? <delay20 />Das sind
 ja echt tolle Nachrichten!
 <anim id="Nodding" target="actor" targetSpec="" />Dann können wir jetzt endlich ein
@@ -213,16 +213,16 @@ machen und uns wieder vertragen.
 echt <gender2 m="der" f="die" /> Beste, <delay8 /><tag a="110" b="5" />!<delay8 /><anim id="FaintSmile" target="actor" targetSpec="" /></message>
 	<message label="501" attrib="00 00 00 00 00 00 00 00"><tag a="50" b="3" /><tag a="110" b="3" />? <delay20 /><anim id="QuestionMark" target="actor" targetSpec="" />Hast du etwa vergessen, <delay8 /><tag a="115" b="1" arg="0xcd00" /> das Päckchen zu geben?<pageBreak /><anim id="Restless" target="actor" targetSpec="" />Oh Mann... <delay20 />Los, <delay8 />gib schon her,<delay8 />
 ich kümmer mich selbst drum.</message>
-	<message label="502" attrib="00 00 00 00 00 00 00 00"><anim id="Restless" target="actor" targetSpec="" />Du hast <tag a="115" b="1" arg="0xcd00" /> <tag a="50" b="17" arg="0xe 0xcd00 0xc 0x73 0x65 0x69 0x6e 0x65 0x6e 0xa 0x69 0x68 0x72 0x65 0x6e 0x0" /> Kram also nicht zurückgebracht, <delay8 />ja?<pageBreak /><anim id="Sighing" target="actor" targetSpec="" />Also schööön, <delay8 />dann mach ich's halt
+	<message label="502" attrib="00 00 00 00 00 00 00 00"><anim id="Restless" target="actor" targetSpec="" />Du hast <tag a="115" b="1" arg="0xcd00" /> <tag a="50" b="17" arg="0xf 0xcd00 0xc 0x73 0x65 0x69 0x6e 0x65 0x6e 0xa 0x69 0x68 0x72 0x65 0x6e 0x0" /> Kram also nicht zurückgebracht, <delay8 />ja?<pageBreak /><anim id="Sighing" target="actor" targetSpec="" />Also schööön, <delay8 />dann mach ich's halt
 selbst. <delay20 /><anim id="QuestionMark" target="actor" targetSpec="" />Würdest du mir das Päckchen
 bitte wiedergeben?</message>
-	<message label="503" attrib="00 00 00 00 00 00 00 00"><anim id="Restless" target="actor" targetSpec="" />Du hast das Päckchen für <tag a="115" b="1" arg="0xcd00" /> noch nicht bei <tag a="50" b="17" arg="0xe 0xcd00 0x6 0x69 0x68 0x6d 0x6 0x69 0x68 0x72 0x0" /> abgeliefert,<delay8 /> oder?<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Kann ich es bitte wiederhaben?<delay20 />
+	<message label="503" attrib="00 00 00 00 00 00 00 00"><anim id="Restless" target="actor" targetSpec="" />Du hast das Päckchen für <tag a="115" b="1" arg="0xcd00" /> noch nicht bei <tag a="50" b="17" arg="0xf 0xcd00 0x6 0x69 0x68 0x6d 0x6 0x69 0x68 0x72 0x0" /> abgeliefert,<delay8 /> oder?<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Kann ich es bitte wiederhaben?<delay20 />
 <anim id="OhGeez" target="actor" targetSpec="" />Dann werd ich wohl selbst den
 Postboten spielen müssen...</message>
-	<message label="504" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Wieso hast du <tag a="115" b="1" arg="0xcd00" /> <tag a="50" b="17" arg="0xe 0xcd00 0x8 0x73 0x65 0x69 0x6e 0x6 0x69 0x68 0x72 0x0" /> Geschenk nicht schon längst gegeben? <delay20 />Das gibt's ja nicht!<pageBreak /><anim id="QuestionMark" target="actor" targetSpec="" />Gibst du es mir bitte zurück?<delay20 />
-Ich bring's <tag a="50" b="17" arg="0xe 0xcd00 0x6 0x69 0x68 0x6d 0x6 0x69 0x68 0x72 0x0" /> lieber selbst vorbei.</message>
+	<message label="504" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Wieso hast du <tag a="115" b="1" arg="0xcd00" /> <tag a="50" b="17" arg="0xf 0xcd00 0x8 0x73 0x65 0x69 0x6e 0x6 0x69 0x68 0x72 0x0" /> Geschenk nicht schon längst gegeben? <delay20 />Das gibt's ja nicht!<pageBreak /><anim id="QuestionMark" target="actor" targetSpec="" />Gibst du es mir bitte zurück?<delay20 />
+Ich bring's <tag a="50" b="17" arg="0xf 0xcd00 0x6 0x69 0x68 0x6d 0x6 0x69 0x68 0x72 0x0" /> lieber selbst vorbei.</message>
 	<message label="505" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Du hast <tag a="115" b="1" arg="0xcd00" /> mein Versöhnungsgeschenk noch immer nicht gegeben? <delay20 />Och menno...<pageBreak /><anim id="Sighing" target="actor" targetSpec="" />Weißt du, was? <delay20 />Schon okay.<delay20 />
-Ich werde es <tag a="50" b="17" arg="0xe 0xcd00 0x6 0x69 0x68 0x6d 0x6 0x69 0x68 0x72 0x0" /> selbst in die Hand
+Ich werde es <tag a="50" b="17" arg="0xf 0xcd00 0x6 0x69 0x68 0x6d 0x6 0x69 0x68 0x72 0x0" /> selbst in die Hand
 drücken und mich entschuldigen.</message>
 	<message label="506" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Es ist sowieso besser,<delay8 /> wenn ich das
 selbst erledige. <delay20 />Schließlich hab ich's
@@ -236,12 +236,12 @@ machen solltest? <delay20 />Äh, he he he.<delay20 />
 <anim id="Greeting" target="actor" targetSpec="" />Dann will ich dich mal nicht länger
 aufhalten. <delay20 />Du hast bestimmt noch
 was anderes vor, <delay8 /><tag a="110" b="3" />.</message>
-	<message label="508" attrib="00 00 00 00 00 00 00 00"><anim id="Worried" target="actor" targetSpec="" /><tag a="115" b="1" arg="0xcd00" /> wartet bestimmt schon händeringend auf <tag a="50" b="17" arg="0xe 0xcd00 0xa 0x73 0x65 0x69 0x6e 0x65 0x8 0x69 0x68 0x72 0x65 0x0" /> Bestellung!<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Aber du hast sicher viel um
+	<message label="508" attrib="00 00 00 00 00 00 00 00"><anim id="Worried" target="actor" targetSpec="" /><tag a="115" b="1" arg="0xcd00" /> wartet bestimmt schon händeringend auf <tag a="50" b="17" arg="0xf 0xcd00 0xa 0x73 0x65 0x69 0x6e 0x65 0x8 0x69 0x68 0x72 0x65 0x0" /> Bestellung!<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Aber du hast sicher viel um
 die Ohren, <delay8 /><tag a="110" b="3" />. <delay20 />Keine
 Sorge, <delay8 />ich kümmere mich drum!</message>
 	<message label="509" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Weißt du, was? <delay20 />Ich werd's selbst
 vorbeibringen. <delay20 />Dann seh ich auch
-<tag a="50" b="17" arg="0xe 0xcd00 0x8 0x73 0x65 0x69 0x6e 0x6 0x69 0x68 0x72 0x0" /> verdutztes Gesicht!
+<tag a="50" b="17" arg="0xf 0xcd00 0x8 0x73 0x65 0x69 0x6e 0x6 0x69 0x68 0x72 0x0" /> verdutztes Gesicht!
 <anim id="FaintSmile" target="actor" targetSpec="" />Tut mir leid, <delay8 />falls ich dich von
 irgendwas abgehalten habe,<delay8 />
 <tag a="110" b="3" />!</message>
@@ -253,21 +253,16 @@ einspannen wollte. <delay20 />Du hast sicher
 genug zu tun, <delay8 /><tag a="110" b="3" />.</message>
 	<message label="511" attrib="00 00 00 00 00 00 00 00"><anim id="Surprised" target="actor" targetSpec="" />Ääähm... <delay20 />Wieso hast du das denn
 ausgepackt?<pageBreak /><anim id="Crying" target="actor" targetSpec="" />Ich habe mir extra viel Mühe
-gegeben, <delay8 />es hübsch einzupacken!<pageBreak /><anim id="Silent" target="actor" targetSpec="" />Kleiner Tipp für die Zukunft,<delay8 />
-<tag a="110" b="3" />: <delay20 />Geschenke für
-andere bitte eingepackt lassen!</message>
+gegeben, <delay8 />es hübsch einzupacken!<pageBreak /><anim id="Silent" target="actor" targetSpec="" />Kleiner Tipp für die Zukunft,<delay8 /> <tag a="110" b="3" />: <delay20 />Geschenke für andere bitte eingepackt lassen!</message>
 	<message label="512" attrib="00 00 00 00 00 00 00 00"><anim id="Surprised" target="actor" targetSpec="" />Aber... <delay8 />wieso ist das denn nicht
 mehr verpackt?<pageBreak /><anim id="Crying" target="actor" targetSpec="" />Toll, <delay8 />jetzt muss ich es wieder fein
-säuberlich in Papier einschlagen!<pageBreak /><anim id="Serious" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="110" b="3" />, <delay8 />lass in Zukunft
-bitte die Finger von Sachen, <delay8 />die
-dir nicht gehören!</message>
+säuberlich in Papier einschlagen!<pageBreak /><anim id="Serious" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="110" b="3" />, <delay8 />lass in Zukunft bitte die Finger von Sachen, <delay8 />die dir nicht gehören!</message>
 	<message label="513" attrib="00 00 00 00 00 00 00 00"><anim id="Surprised" target="actor" targetSpec="" />Huch! <delay20 />Was ist denn mit dem
 Päckchen passiert?<pageBreak /><anim id="Frantic" target="actor" targetSpec="" />Waaah, <delay8 />jetzt muss ich es neu
 einpacken! <delay20 />Bestimmt verwurschtel
 ich wieder das ganze Klebeband!
 <anim id="Silent" target="actor" targetSpec="" />Falls du mal wieder was auslieferst,
-<delay8 /><tag a="110" b="3" />, <delay8 />dann lass das
-Päckchen bitte zu. <delay20 />Okay?</message>
+<delay8 /><tag a="110" b="3" />, <delay8 />dann lass das Päckchen bitte zu. <delay20 />Okay?</message>
 	<message label="514" attrib="00 00 00 00 00 00 00 00"><anim id="Surprised" target="actor" targetSpec="" />Oh! <delay20 />Wieso ist das Geschenk
 denn plötzlich ausgepackt?<pageBreak /><anim id="Confused" target="actor" targetSpec="" />Dabei macht doch das Auspacken
 am meisten Spaß! <delay20 />Wo bleibt denn
@@ -287,18 +282,18 @@ du mir doch nicht antun!
 	<message label="517" attrib="00 00 00 00 00 00 00 00">Du hast<tag a="110" b="0" /> <delay8 /><anim id="Surprised" target="actor" targetSpec="" />WAS? <delay20 />Soll das heißen,<delay8 />
 du hast das Päckchen verloren?<pageBreak /><anim id="Frantic" target="actor" targetSpec="" />Du weißt aber schon, <delay8 />dass der
 Inhalt <tag a="115" b="1" arg="0xcd00" /> gehört hat, <delay8 />oder?<pageBreak /><anim id="SadSpiral" target="actor" targetSpec="" />Au Backe, <delay8 />was soll ich jetzt nur
-machen? <delay20 /><tag a="50" b="17" arg="0xe 0xcd00 0x4 0x45 0x72 0x6 0x53 0x69 0x65 0x0" /> wird garantiert total
+machen? <delay20 /><tag a="50" b="17" arg="0xf 0xcd00 0x4 0x45 0x72 0x6 0x53 0x69 0x65 0x0" /> wird garantiert total
 traurig sein, <delay8 /><tag a="110" b="5" />!</message>
 	<message label="518" attrib="00 00 00 00 00 00 00 00"><anim id="Surprised" target="actor" targetSpec="" />Wie, <delay8 />du hast es nicht mehr?<delay20 />
 Du machst Witze, <delay8 />oder?<pageBreak /><anim id="Thinking" target="actor" targetSpec="" />Och menno... <delay20 />Dann muss ich jetzt
-wohl zu <tag a="115" b="1" arg="0xcd00" /> gehen und <tag a="50" b="17" arg="0xe 0xcd00 0x6 0x69 0x68 0x6d 0x6 0x69 0x68 0x72 0x0" /> die ganze Sache erklären.<pageBreak /><anim id="Worried" target="actor" targetSpec="" />Hoffentlich ist <tag a="50" b="17" arg="0xe 0xcd00 0x4 0x65 0x72 0x6 0x73 0x69 0x65 0x0" /> mir nicht böse,
+wohl zu <tag a="115" b="1" arg="0xcd00" /> gehen und <tag a="50" b="17" arg="0xf 0xcd00 0x6 0x69 0x68 0x6d 0x6 0x69 0x68 0x72 0x0" /> die ganze Sache erklären.<pageBreak /><anim id="Worried" target="actor" targetSpec="" />Hoffentlich ist <tag a="50" b="17" arg="0xf 0xcd00 0x4 0x65 0x72 0x6 0x73 0x69 0x65 0x0" /> mir nicht böse,
 <delay8 /><tag a="110" b="5" />...</message>
 	<message label="519" attrib="00 00 00 00 00 00 00 00"><anim id="Surprised" target="actor" targetSpec="" />Du hast es verloren? <delay20 /><anim id="Sighing" target="actor" targetSpec="" />Och nööö...<delay20 />
 Mein schönes Geschenk,<delay8 /> <tag a="110" b="5" />!<pageBreak /><anim id="SadSpiral" target="actor" targetSpec="" />Dann muss ich mich wohl um Ersatz
 kümmern, <delay8 />und zwar fix!<pageBreak /><anim id="Sighing" target="actor" targetSpec="" />Hoffentlich finde ich auf die Schnelle
 noch was, <delay8 />das <tag a="115" b="1" arg="0xcd00" /> gefällt! <delay20 />Drück mir die Daumen.</message>
 	<message label="520" attrib="00 00 00 00 00 00 00 00"><anim id="Surprised" target="actor" targetSpec="" />Du hast es echt verloren? <delay20 />Na toll...<delay20 />
-Wie soll ich mich denn jetzt mit <tag a="50" b="17" arg="0xe 0xcd00 0x6 0x69 0x68 0x6d 0x6 0x69 0x68 0x72 0x0" />
+Wie soll ich mich denn jetzt mit <tag a="50" b="17" arg="0xf 0xcd00 0x6 0x69 0x68 0x6d 0x6 0x69 0x68 0x72 0x0" />
 wieder versöhnen?
 <anim id="SadSpiral" target="actor" targetSpec="" />Da bleibt mir wohl nichts anderes
 übrig, <delay8 />als was Neues zu kaufen,

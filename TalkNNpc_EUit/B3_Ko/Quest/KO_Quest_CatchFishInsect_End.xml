@@ -1,5 +1,5 @@
 <msbt attribsize="8">
-	<message label="001" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Certo,<delay8 /> <tag a="50" b="17" arg="0x13 0xcd00 0xc 0x71 0x75 0x65 0x73 0x74 0x6f 0xc 0x71 0x75 0x65 0x73 0x74 0x61 0x0" /> è senza dubbio
+	<message label="001" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Certo,<delay8 /> <tag a="50" b="17" arg="0x14 0xcd00 0xc 0x71 0x75 0x65 0x73 0x74 0x6f 0xc 0x71 0x75 0x65 0x73 0x74 0x61 0x0" /> è senza dubbio
 <tag a="50" b="2" /><tag a="125" b="2" arg="0xcd00" />!</message>
 	<message label="002" attrib="00 00 00 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Ah, capperi! <delay20 />È decisamente
 <tag a="50" b="2" /><tag a="125" b="2" arg="0xcd00" />.<delay20 /> Proprio ciò che cercavo!</message>
@@ -54,8 +54,8 @@ posa sui ceppi d'albero da regalare,<delay8 />
 	<message label="024" attrib="00 00 02 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="50" b="2" /><tag a="125" b="0" arg="0x0" />!<delay20 /> Capperissimi!<delay8 /> <anim id="Pardon" target="actor" targetSpec="" />E vuoi veramente dare a me questa rarità, <tag a="110" b="6" />?</message>
 	<message label="024_a" attrib="00 00 00 00 00 00 00 00">Certo, ecco a te.
 Prendi pure!</message>
-	<message label="024_b" attrib="00 00 00 00 00 00 00 00">A ripensarci...
-Aspetta... magari no.</message>
+	<message label="024_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />A ripensarci...
+<anim id="EmotEnd" target="actor" targetSpec="" />Aspetta... magari no.</message>
 	<message label="025" attrib="00 00 00 00 00 00 00 00"><anim id="Assent" target="actor" targetSpec="" />Di fronte a tanta sicurezza,<delay8 /> accetto
 con piacerissimo!</message>
 	<message label="026" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Ci hai ripensato, allora?<delay8 /> <anim id="FaintSmile" target="actor" targetSpec="" />Beh, ti
@@ -82,7 +82,7 @@ Ti sono debitore!</message>
 ringraziarti.<delay20 /> Nulla di che, eh...<delay8 /> è solo
 <tag a="50" b="2" /><tag a="125" b="4" arg="0x0" />!</message>
 	<message label="044" attrib="00 00 00 00 00 00 00 00"><anim id="WrySmile" target="actor" targetSpec="" />In segno della mia riconoscenza<tag a="110" b="0" />
-<tag a="50" b="2" /><tag a="125" b="4" arg="0x0" /> tutt<tag a="50" b="17" arg="0x15 0xcd00 0x2 0x6f 0x2 0x61 0x0" /> per te, <tag a="110" b="6" />!</message>
+<tag a="50" b="2" /><tag a="125" b="4" arg="0x0" /> tutt<tag a="50" b="17" arg="0x16 0xcd00 0x2 0x6f 0x2 0x61 0x0" /> per te, <tag a="110" b="6" />!</message>
 	<message label="045" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Non è molto, lo so,<delay8 /> ma ti ho preso
 <tag a="50" b="2" /><tag a="125" b="4" arg="0x0" /> per ringraziarti.</message>
 	<message label="046" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Ho pensato di darti come ricompensa
@@ -146,32 +146,32 @@ sempre con lo spaventarli<tag a="110" b="0" />
 <anim id="OhGeez" target="actor" targetSpec="" />Dev'essere il mio aspetto.<delay8 /> O forse
 è il mio modo di ridere? <anim id="Laughing" target="actor" targetSpec="" /><delay8 />AHAHAH!<anim id="Smiling" target="actor" targetSpec="" /></message>
 	<message label="202" attrib="00 00 00 00 00 00 00 00"><anim id="Hesitate" target="actor" targetSpec="" />Vorrei tanto che mi prendessi
-<tag a="50" b="2" /><tag a="125" b="2" arg="0xcd00" />!<delay8 /><pageBreak /><anim id="Thinking" target="actor" targetSpec="" />Non riesco mai a coglierne <tag a="50" b="17" arg="0x13 0xcd00 0x6 0x75 0x6e 0x6f 0x6 0x75 0x6e 0x61 0x0" /> di sorpresa.<delay20 /> Forse dovrei cambiare tattica e invitarl<tag a="50" b="17" arg="0x13 0xcd00 0x2 0x6f 0x2 0x61 0x0" /> a casa,<delay8 /> invece.</message>
+<tag a="50" b="2" /><tag a="125" b="2" arg="0xcd00" />!<delay8 /><pageBreak /><anim id="Thinking" target="actor" targetSpec="" />Non riesco mai a coglierne <tag a="50" b="17" arg="0x14 0xcd00 0x6 0x75 0x6e 0x6f 0x6 0x75 0x6e 0x61 0x0" /> di sorpresa.<delay20 /> Forse dovrei cambiare tattica e invitarl<tag a="50" b="17" arg="0x14 0xcd00 0x2 0x6f 0x2 0x61 0x0" /> a casa,<delay8 /> invece.</message>
 	<message label="203" attrib="00 00 00 00 00 00 00 00"><anim id="Hesitate" target="actor" targetSpec="" />Sarebbe troppo bello se mi prendessi
 <tag a="50" b="2" /><tag a="125" b="2" arg="0xcd00" />!<delay8 /><pageBreak /><anim id="ShyBoy" target="actor" targetSpec="" />Sarò anche un brontolone scontroso,<delay8 />
 ma nemmeno io posso negare che
 siano delle creaturine fantastiche!</message>
 	<message label="204" attrib="00 00 00 00 00 00 00 00"><anim id="Hesitate" target="actor" targetSpec="" />Vorrei che tu catturassi per me
 <tag a="50" b="2" /><tag a="125" b="2" arg="0xcd00" />.<pageBreak /><anim id="Pardon" target="actor" targetSpec="" />Sono troppo veloci!<delay8 /> <anim id="OhGeez" target="actor" targetSpec="" />Nemmeno fai
-in tempo a capire di averl<tag a="50" b="17" arg="0x13 0xcd00 0x2 0x69 0x2 0x65 0x0" /> in zampa
-che sono già scappat<tag a="50" b="17" arg="0x13 0xcd00 0x2 0x69 0x2 0x65 0x0" /><tag a="110" b="0" /></message>
+in tempo a capire di averl<tag a="50" b="17" arg="0x14 0xcd00 0x2 0x69 0x2 0x65 0x0" /> in zampa
+che sono già scappat<tag a="50" b="17" arg="0x14 0xcd00 0x2 0x69 0x2 0x65 0x0" /><tag a="110" b="0" /></message>
 	<message label="205" attrib="00 00 00 00 00 00 00 00"><anim id="Hesitate" target="actor" targetSpec="" />Vorrei proprio che mi catturassi <tag a="50" b="2" /><tag a="125" b="2" arg="0xcd00" /> da uno dei fiori qui nei paraggi.<pageBreak /><anim id="Restless" target="actor" targetSpec="" />Ce ne sono un sacco,<delay8 /> ma non riesco
-mai ad acchiapparne <tag a="50" b="17" arg="0x13 0xcd00 0x6 0x75 0x6e 0x6f 0x6 0x75 0x6e 0x61 0x0" /> con il retino prima che scappi!
+mai ad acchiapparne <tag a="50" b="17" arg="0x14 0xcd00 0x6 0x75 0x6e 0x6f 0x6 0x75 0x6e 0x61 0x0" /> con il retino prima che scappi!
 <anim id="Thinking" target="actor" targetSpec="" />Forse avrei più successo se usassi
 un retone. <anim id="Laughing" target="actor" targetSpec="" /><delay8 />AHAHAH!<anim id="Smiling" target="actor" targetSpec="" /></message>
-	<message label="206" attrib="00 00 00 00 00 00 00 00"><anim id="Hesitate" target="actor" targetSpec="" />Credi che riusciresti a catturarmi <tag a="50" b="2" /><tag a="125" b="2" arg="0xcd00" />?<delay8 /> Se ne trovano sui ceppi d'albero in giro.<pageBreak /><anim id="Thinking" target="actor" targetSpec="" />Se non fossero così brav<tag a="50" b="17" arg="0x13 0xcd00 0x2 0x69 0x2 0x65 0x0" /> a
+	<message label="206" attrib="00 00 00 00 00 00 00 00"><anim id="Hesitate" target="actor" targetSpec="" />Credi che riusciresti a catturarmi <tag a="50" b="2" /><tag a="125" b="2" arg="0xcd00" />?<delay8 /> Se ne trovano sui ceppi d'albero in giro.<pageBreak /><anim id="Thinking" target="actor" targetSpec="" />Se non fossero così brav<tag a="50" b="17" arg="0x14 0xcd00 0x2 0x69 0x2 0x65 0x0" /> a
 mimetizzarsi con la corteccia<tag a="110" b="0" />
 o se io ci vedessi meglio<tag a="110" b="0" /></message>
 	<message label="207" attrib="00 00 00 00 00 00 00 00"><anim id="Hesitate" target="actor" targetSpec="" />Ecco, vorrei che catturassi per me
 <tag a="50" b="2" /><tag a="125" b="2" arg="0xcd00" />.<delay8 /><pageBreak /><anim id="Angry" target="actor" targetSpec="" />Guizzano sulla sabbia e mi sfuggono
-sempre!<delay20 /> Ma devo invitarl<tag a="50" b="17" arg="0x13 0xcd00 0x2 0x69 0x2 0x65 0x0" /> a giocare
+sempre!<delay20 /> Ma devo invitarl<tag a="50" b="17" arg="0x14 0xcd00 0x2 0x69 0x2 0x65 0x0" /> a giocare
 con paletta e secchiello? <anim id="Laughing" target="actor" targetSpec="" /><delay8 />AHAHAH!<anim id="WrySmile" target="actor" targetSpec="" /></message>
 	<message label="211" attrib="00 00 00 00 00 00 00 00"><anim id="Hesitate" target="actor" targetSpec="" />Senti,<delay20 /> perché non mi prendi
 <tag a="50" b="2" /><tag a="125" b="3" arg="0xcd00" />?<pageBreak /><anim id="Restless" target="actor" targetSpec="" />Ogni volta che mi vedono avvicinare
 sulla sponda, quei pesci si volatilizzano!<pageBreak /><anim id="Thinking" target="actor" targetSpec="" />O forse dovrei dire che si
 liquefanno? <anim id="Laughing" target="actor" targetSpec="" /><delay8 />AHAHAH!<anim id="FaintSmile" target="actor" targetSpec="" /></message>
 	<message label="212" attrib="00 00 00 00 00 00 00 00"><anim id="Hesitate" target="actor" targetSpec="" />Mi raccomando, cattura per me
-<tag a="50" b="2" /><tag a="125" b="3" arg="0xcd00" />!<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Non appena vedono la mia ombra sull'acqua, <anim id="Restless" target="actor" targetSpec="" /><tag a="50" b="17" arg="0x14 0xcd00 0x18 0x71 0x75 0x65 0x69 0x20 0x66 0x75 0x72 0x62 0x6f 0x6e 0x69 0x1c 0x71 0x75 0x65 0x6c 0x6c 0x65 0x20 0x66 0x75 0x72 0x62 0x6f 0x6e 0x65 0x0" /> spariscono all'istante, <tag a="110" b="6" />.<pageBreak /><anim id="Thinking" target="actor" targetSpec="" />Forse dovrei travestirmi da pesce<tag a="110" b="0" /></message>
+<tag a="50" b="2" /><tag a="125" b="3" arg="0xcd00" />!<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Non appena vedono la mia ombra sull'acqua, <anim id="Restless" target="actor" targetSpec="" /><tag a="50" b="17" arg="0x15 0xcd00 0x18 0x71 0x75 0x65 0x69 0x20 0x66 0x75 0x72 0x62 0x6f 0x6e 0x69 0x1c 0x71 0x75 0x65 0x6c 0x6c 0x65 0x20 0x66 0x75 0x72 0x62 0x6f 0x6e 0x65 0x0" /> spariscono all'istante, <tag a="110" b="6" />.<pageBreak /><anim id="Thinking" target="actor" targetSpec="" />Forse dovrei travestirmi da pesce<tag a="110" b="0" /></message>
 	<message label="213" attrib="00 00 00 00 00 00 00 00"><anim id="Hesitate" target="actor" targetSpec="" />Credi che potresti catturare <tag a="50" b="2" /><tag a="125" b="3" arg="0xcd00" /> per me, <tag a="110" b="6" />?<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Ho sentito che quei pesci nuotano
 vicino alle foci dei fiumi.<delay20 /> Ma non ne
 ho mai preso uno lo stesso.</message>

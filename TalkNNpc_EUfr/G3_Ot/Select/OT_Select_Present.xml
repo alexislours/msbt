@@ -1,7 +1,7 @@
 <msbt attribsize="8">
 	<message label="100" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
 	<message label="100_01" attrib="00 00 00 00 00 00 00 00"><anim id="HappyFlower" target="actor" targetSpec="" />Oh,<delay8 /> merci <tag a="110" b="3" /> !<delay20 />
-J'ai toujours rêvé d'en avoir <tag a="50" b="17" arg="0x11 0xcd00 0x4 0x75 0x6e 0x6 0x75 0x6e 0x65 0x0" /> !</message>
+J'ai toujours rêvé d'en avoir <tag a="50" b="17" arg="0x12 0xcd00 0x4 0x75 0x6e 0x6 0x75 0x6e 0x65 0x0" /> !</message>
 	<message label="100_02" attrib="00 00 00 00 00 00 00 00"><anim id="HappyFlower" target="actor" targetSpec="" />Merveilleux !<delay20 /> C'est exactement ce
 dont je rêvais, <tag a="110" b="3" /> !</message>
 	<message label="100_03" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Comment as-tu su ?<delay20 /><anim id="BigSmile" target="actor" targetSpec="" /> Merci infiniment,<delay8 />
@@ -16,6 +16,9 @@ de l'hospitalité.</message>
 	<message label="103" attrib="00 00 00 00 00 00 00 00"><anim id="AbsentMindedness" target="actor" targetSpec="" />Je me demande quel emplacement
 je vais lui donner<tag a="110" b="0" /> <anim id="HappyDance" target="actor" targetSpec="" />J'ai hâte de
 procéder aux essais !</message>
+	<message label="104" attrib="00 00 00 00 00 00 00 00"><colour id="4" /><anim id="Thinking" target="actor" targetSpec="" />Hmm, j'ai l'impression d'avoir déjà vu
+cela<tag a="110" b="0" /> Mon imagination débridée me
+jouerait-elle encore des tours ?<colour id="65535" /></message>
 	<message label="111" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Il aurait sans doute plus sa place
 chez un collectionneur<tag a="110" b="0" /><anim id="Nodding" target="actor" targetSpec="" /> mais je
 tâcherai d'en prendre grand soin.</message>
@@ -57,14 +60,10 @@ par ton talent, <tag a="110" b="3" /> !</message>
 	<message label="221" attrib="00 00 00 00 00 00 00 00"><anim id="ShyBoy" target="actor" targetSpec="" />C'est gentil d'avoir pensé à moi !<delay8 />
 C'est drôle, on voit tout de suite que
 c'est un cadeau que tu as choisi !<anim id="FaintSmile" target="actor" targetSpec="" /></message>
-	<message label="222" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Merci, <tag a="110" b="3" />, j'apprécie
-beaucoup le geste.<anim id="Hello" target="actor" targetSpec="" /> Et je suis sûre
-que je finirai par m'y faire !</message>
+	<message label="222" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Merci, <tag a="110" b="3" />, j'apprécie beaucoup le geste.<anim id="Hello" target="actor" targetSpec="" /> Et je suis sûre que je finirai par m'y faire !</message>
 	<message label="301" attrib="00 00 00 00 00 00 00 00"><anim id="Hello" target="actor" targetSpec="" />Merci pour ce cadeau pour le moins
 pragmatique.<delay20 /> J'en ferai bon usage !</message>
-	<message label="302" attrib="00 00 00 00 00 00 00 00"><anim id="Blushing" target="actor" targetSpec="" />Merci, <delay8 /><tag a="110" b="3" />. Je me
-disais justement que je devrais
-essayer ce genre de chose.</message>
+	<message label="302" attrib="00 00 00 00 00 00 00 00"><anim id="Blushing" target="actor" targetSpec="" />Merci, <delay8 /><tag a="110" b="3" />. Je me disais justement que je devrais essayer ce genre de chose.</message>
 	<message label="303" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Cela me sera sans doute utile un de
 ces jours. <delay20 />Merci, <tag a="110" b="3" /> !</message>
 	<message label="304" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />C'est vraiment très joli.<delay20 /> Merci,
@@ -82,7 +81,7 @@ beaucoup,<delay8 /> <tag a="110" b="3" /> !</message>
 	<message label="404" attrib="00 00 00 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="50" b="2" /><tag a="125" b="0" arg="0x0" /> !<delay20 /> Comme c'est adorable !</message>
 	<message label="405" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Merci, <tag a="110" b="3" />.<delay20 /> Voilà qui
 sera du plus bel effet chez moi !</message>
-	<message label="406" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />C'est<tag a="110" b="0" /> C'est vraiment <tag a="50" b="2" /><tag a="125" b="0" arg="0x0" /> tout ce qu'il y a de plus <tag a="50" b="17" arg="0x11 0xcd00 0xc 0x76 0x69 0x76 0x61 0x6e 0x74 0xe 0x76 0x69 0x76 0x61 0x6e 0x74 0x65 0x0" /> ?!</message>
+	<message label="406" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />C'est<tag a="110" b="0" /> C'est vraiment <tag a="50" b="2" /><tag a="125" b="0" arg="0x0" /> tout ce qu'il y a de plus <tag a="50" b="17" arg="0x12 0xcd00 0xc 0x76 0x69 0x76 0x61 0x6e 0x74 0xe 0x76 0x69 0x76 0x61 0x6e 0x74 0x65 0x0" /> ?!</message>
 	<message label="407" attrib="00 00 00 00 00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />Voilà un cadeau pour le moins
 original.<delay20 /> <anim id="BigSmile" target="actor" targetSpec="" />Je te promets d'en prendre
 grand soin !</message>

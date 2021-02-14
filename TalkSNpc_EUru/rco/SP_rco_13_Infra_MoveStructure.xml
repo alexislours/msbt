@@ -3,7 +3,7 @@
 острова<colour id="65535" />.<pageBreak /><anim id="AbsentMindedness" target="actor" targetSpec="" />Тебе как спикеру надлежит
 <anim id="Nodding" target="actor" targetSpec="" />заботиться об инфраструктуре
 острова<tag a="110" b="0" /><pageBreak />Ты, наверное, думаешь: <delay20 /><anim id="Shocked" target="actor" targetSpec="" />«Эх!<delay frames="40" /> <anim id="Frantic" target="actor" targetSpec="" />Вот
-это бы здание да в другое место!».<10_4 />
+это бы здание да в другое место!»<10_4 />
 <anim id="Laughing" target="actor" targetSpec="" />У меня тоже так бывает!<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" /><anim id="Serious" target="actor" targetSpec="" />Так что я тебя понимаю! Давай
 делать наш остров <anim id="SmugFace" target="actor" targetSpec="" />все лучше
 и лучше.</message>
@@ -65,9 +65,9 @@
 секунду, я спрошу<tag a="110" b="0" /></message>
 	<message label="025" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Хорошо! Спасибо!<delay frames="40" /> <anim id="EmotEnd" target="actor" targetSpec="" />Теперь следует
 <anim id="Smiling" target="actor" targetSpec="" />выбрать новое место для <colour id="1" />кемпинга<colour id="65535" />.</message>
-	<message label="026" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />У тебя в карманах появил<tag a="50" b="24" arg="0x11 0xcd00 0x4 0x441 0x44f 0x6 0x430 0x441 0x44c 0x6 0x43e 0x441 0x44c 0x6 0x438 0x441 0x44c" />
+	<message label="026" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />У тебя в карманах появил<tag a="50" b="24" arg="0x12 0xcd00 0x4 0x441 0x44f 0x6 0x430 0x441 0x44c 0x6 0x43e 0x441 0x44c 0x6 0x438 0x441 0x44c" />
 <colour id="1" /><tag a="125" b="0" arg="0x0" /><colour id="65535" />.<delay20 />
-<anim id="Smiling" target="actor" targetSpec="" />Разверни <tag a="50" b="24" arg="0x11 0xcd00 0x6 0x435 0x433 0x43e 0x4 0x435 0x435 0x6 0x435 0x433 0x43e 0x4 0x438 0x445" /> на новом месте.</message>
+<anim id="Smiling" target="actor" targetSpec="" />Разверни <tag a="50" b="24" arg="0x12 0xcd00 0x6 0x435 0x433 0x43e 0x4 0x435 0x435 0x6 0x435 0x433 0x43e 0x4 0x438 0x445" /> на новом месте.</message>
 	<message label="031" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Да-да! Отлично!<delay frames="40" /> А сейчас<tag a="110" b="0" /><pageBreak /><anim id="Shocked" target="actor" targetSpec="" />Ой, подожди,<delay frames="40" /> <tag a="110" b="1" />.<delay8 />
 <anim id="Worried" target="actor" targetSpec="" />У тебя же нет диней!<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Наше кредо гласит:<delay20 /> <anim id="Explain" target="actor" targetSpec="" />«Любой каприз
 за ваши дини!»<delay20 /> <anim id="EmotEnd" target="actor" targetSpec="" />Я выполню твою
@@ -128,7 +128,7 @@
 в том месте, где должен стоять дом!</message>
 	<message label="082_01" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />А теперь выбери, пожалуйста,
 новое место.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="125" b="0" arg="0x0" /> уже
-у тебя в карманах.<delay20 /> <anim id="Smiling" target="actor" targetSpec="" />Разверни <tag a="50" b="24" arg="0x11 0xcd00 0x6 0x435 0x433 0x43e 0x4 0x435 0x435 0x6 0x435 0x433 0x43e 0x4 0x438 0x445" />
+у тебя в карманах.<delay20 /> <anim id="Smiling" target="actor" targetSpec="" />Разверни <tag a="50" b="24" arg="0x12 0xcd00 0x6 0x435 0x433 0x43e 0x4 0x435 0x435 0x6 0x435 0x433 0x43e 0x4 0x438 0x445" />
 там, где должно стоять здание!</message>
 	<message label="101" attrib="02 00 00 00">Да-да, все в порядке. Тебе осталось
 только выбрать новое место для
@@ -243,7 +243,7 @@
 хочешь переместить?</message>
 	<message label="1003_a" attrib="00 00 00 00">Чей-то дом.</message>
 	<message label="1003_b" attrib="00 00 00 00">Магазин.</message>
-	<message label="1003_c" attrib="00 00 00 00">Насчет кемпинга.</message>
+	<message label="1003_c" attrib="00 00 00 00">Кемпинг.</message>
 	<message label="1003_d" attrib="00 00 00 00">Не сейчас.</message>
 	<message label="1004" attrib="08 00 00 00">Превосходно!<delay20 /> <anim id="QuestionMark" target="actor" targetSpec="" />Какое здание ты
 хочешь переместить?</message>
@@ -257,14 +257,14 @@
 	<message label="1005_a" attrib="00 00 00 00">Чей-то дом.</message>
 	<message label="1005_b" attrib="00 00 00 00">Магазин.</message>
 	<message label="1005_c" attrib="00 00 00 00">Музей.</message>
-	<message label="1005_d" attrib="00 00 00 00">Насчет кемпинга.</message>
+	<message label="1005_d" attrib="00 00 00 00">Кемпинг.</message>
 	<message label="1005_e" attrib="00 00 00 00">Не сейчас.</message>
 	<message label="1006" attrib="08 00 00 00">Превосходно!<delay20 /> <anim id="QuestionMark" target="actor" targetSpec="" />Какое здание ты
 хочешь переместить?</message>
 	<message label="1006_a" attrib="00 00 00 00">Чей-то дом.</message>
 	<message label="1006_b" attrib="00 00 00 00">Магазин.</message>
 	<message label="1006_c" attrib="00 00 00 00">Ателье.</message>
-	<message label="1006_d" attrib="00 00 00 00">Насчет кемпинга.</message>
+	<message label="1006_d" attrib="00 00 00 00">Кемпинг.</message>
 	<message label="1006_e" attrib="00 00 00 00">Не сейчас.</message>
 	<message label="1007" attrib="0a 00 00 00">Превосходно!<delay20 /> <anim id="QuestionMark" target="actor" targetSpec="" />Какое здание ты
 хочешь переместить?</message>
@@ -272,6 +272,6 @@
 	<message label="1007_b" attrib="00 00 00 00">Магазин.</message>
 	<message label="1007_c" attrib="00 00 00 00">Музей.</message>
 	<message label="1007_d" attrib="00 00 00 00">Ателье.</message>
-	<message label="1007_e" attrib="00 00 00 00">Насчет кемпинга.</message>
+	<message label="1007_e" attrib="00 00 00 00">Кемпинг.</message>
 	<message label="1007_f" attrib="00 00 00 00">Не сейчас.</message>
 </msbt>

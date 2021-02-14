@@ -15,7 +15,7 @@ mes trésors !<delay20 /> Il s'appelle Stéphane.<delay20 />
 Il est cool, mais il est aussi perdu<tag a="110" b="0" /><pageBreak />Si quelqu'un le trouve<delay20 /><anim id="TakenAback" target="actor" targetSpec="" /> et regarde à
 l'intérieur<tag a="110" b="0" /><delay frames="40" /> <anim id="Frantic" target="actor" targetSpec="" />IL FAUT QUE JE LE
 RETROUVE !</message>
-	<message label="003_a" attrib="00 00 00 00 00 00 00 00">Je vais t'aider !</message>
+	<message label="003_a" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Je vais t'aider !</message>
 	<message label="003_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="player" targetSpec="" />C'est terrible !</message>
 	<message label="004" attrib="00 00 02 00 00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />J'ai perdu le sac dans lequel je garde
 un de mes trésors.<delay20 /> Il s'appelle
@@ -23,7 +23,7 @@ Stéphane<tag a="110" b="0" /> le sac, pas le trésor.<pageBreak />J'ai mis ma m
 dessous, <delay20 />j'ai demandé aux insectes
 dans le plancher...<pageBreak /><anim id="Negative" target="actor" targetSpec="" />Aucune trace de Stéphane !<pageBreak /><anim id="Surprised" target="actor" targetSpec="" />Ah ! Mais peut-être que je l'ai perdu
 dehors !</message>
-	<message label="004_a" attrib="00 00 00 00 00 00 00 00">Cherchons ensemble !</message>
+	<message label="004_a" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Cherchons ensemble !</message>
 	<message label="004_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="player" targetSpec="" />Courage !</message>
 	<message label="006" attrib="00 00 02 00 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Je voulais relire mon livre d'images
 préféré,<delay frames="40" /> mais j'arrive pas à le
@@ -34,17 +34,17 @@ retrouver.<pageBreak /><anim id="Restless" target="actor" targetSpec="" />Où es
 et je commence à m'inquiéter !<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />J'ai cherché dans toutes mes
 cachettes,<delay20 /><anim id="FaintSmile" target="actor" targetSpec="" /> mais il doit être meilleur
 à cache-cache que moi !</message>
-	<message label="007_a" attrib="00 00 00 00 00 00 00 00">Cherchons ensemble.</message>
+	<message label="007_a" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Cherchons ensemble.</message>
 	<message label="007_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="player" targetSpec="" />Tu vas le trouver.</message>
 	<message label="008" attrib="00 00 02 00 00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />J'ai perdu mon journal à rêves !
 <anim id="EmotEnd" target="actor" targetSpec="" />Les pages sont toutes blanches<delay20 /><anim id="BigSmile" target="actor" targetSpec="" />
 mais j'adore l'odeur du papier !<delay8 /><anim id="FaintSmile" target="actor" targetSpec="" /></message>
-	<message label="008_a" attrib="00 00 00 00 00 00 00 00">Je vais t'aider !</message>
+	<message label="008_a" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Je vais t'aider !</message>
 	<message label="008_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="player" targetSpec="" />C'est pas de chance.</message>
 	<message label="009" attrib="00 00 02 00 00 00 00 00"><anim id="Confused" target="actor" targetSpec="" />Je crois que j'ai perdu mon journal.<pageBreak /><anim id="Hesitate" target="actor" targetSpec="" />J'ai écrit plein de trucs super
 personnels dedans !<delay frames="40" /><anim id="Blushing" target="actor" targetSpec="" /> J'espère que
 personne le lira<tag a="110" b="0" /></message>
-	<message label="009_a" attrib="00 00 00 00 00 00 00 00">Cherchons ensemble !</message>
+	<message label="009_a" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Cherchons ensemble !</message>
 	<message label="009_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="player" targetSpec="" />Je vois...</message>
 	<message label="011" attrib="00 00 00 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Tu veux m'aider ?<delay frames="40" /><anim id="FaintSmile" target="actor" targetSpec="" /> Merci, c'est gentil.<delay20 />
 Il faut que je le retrouve, ce sac !</message>
@@ -118,8 +118,7 @@ de chercher, <tag a="110" b="6" />.</message>
 	<message label="106" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Je vais continuer de chercher.<delay frames="60" /><anim id="Love" target="actor" targetSpec="" /> Mes
 friandises n'en seront que meilleures
 quand je les retrouverai !</message>
-	<message label="201" attrib="00 00 02 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Ah, <tag a="110" b="3" /> !<delay frames="40" /><anim id="Worried" target="actor" targetSpec="" /> Mon journal
-super secret a disparu !<pageBreak /><anim id="Sighing" target="actor" targetSpec="" />Je me sens pas tranquille quand je
+	<message label="201" attrib="00 00 02 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Ah, <tag a="110" b="3" /> !<delay frames="40" /><anim id="Worried" target="actor" targetSpec="" /> Mon journal super secret a disparu !<pageBreak /><anim id="Sighing" target="actor" targetSpec="" />Je me sens pas tranquille quand je
 l'ai pas avec moi<tag a="110" b="0" /><delay frames="40" /><anim id="Frantic" target="actor" targetSpec="" /> Tu voudrais bien
 m'aider à le retrouver ?</message>
 	<message label="201_a" attrib="00 00 00 00 00 00 00 00">Bien sûr.</message>

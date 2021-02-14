@@ -1,6 +1,6 @@
 <msbt attribsize="4">
 	<message label="002_02" attrib="00 00 00 00"><anim id="HappyDance" target="actor" targetSpec="" /><ruby a="4" b="6">こんご</ruby>今後とも、<delay20 /><colour id="1" />
-タヌキ<ruby a="4" b="10">しょうてん</ruby>商店<colour id="65535" />を　ごひいきにー！<delay frames="40" />　<anim id="EmotEnd" target="actor" targetSpec="" /><size value="75" />だなも！<size value="100" /></message>
+タヌキ<ruby a="4" b="10">しょうてん</ruby>商店<colour id="65535" />を　<anim id="Hello" target="subNpc" targetSpec="" />ごひいきにー！<delay20 />　<tag a="100" b="4" /><size value="75" />にー！<size value="100" /><endTag a="100" b="4" /></message>
 	<message label="002_03" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />おっと、<delay8 />それより<tag a="110" b="0" />
 <anim id="FaintSmile" target="actor" targetSpec="" />そちらの<ruby a="4" b="10">しょうひん</ruby>商品を　ご<ruby a="2" b="4">らん</ruby>覧の<ruby a="4" b="10">さいちゅう</ruby>最中でしたね！</message>
 	<message label="051" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />あっ！<delay20 />　<anim id="Smiling" target="actor" targetSpec="" />いらっしゃいませー！<delay frames="40" />
@@ -37,7 +37,7 @@
 	<message label="061_02" attrib="00 00 00 00"><anim id="Smiling" target="mainNpc" targetSpec="" />ひとつめは、<delay20 /><anim id="Nodding" target="subNpc" targetSpec="" /><colour id="1" />カブの<ruby a="4" b="8">かいとり</ruby>買取サービス<colour id="65535" />です！<anim id="FaintSmile" target="subNpc" targetSpec="" /><10_4 />
 カブの<ruby a="4" b="12">ぎょうしょう</ruby>行商の<ruby a="2" b="4">かた</ruby>方が<delay8 />　<ruby a="2" b="4">しま</ruby>島に<ruby a="2" b="2">こ</ruby>来られるそうなので、<delay20 />
 それとあわせて　<ruby a="2" b="2">と</ruby>取り<ruby a="2" b="6">あつか</ruby>扱いを<ruby a="4" b="6">かいし</ruby>開始しました<pageBreak /><anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" />カブは<ruby a="4" b="8">まいにち</ruby>毎日<delay8 />　<ruby a="4" b="6">ごぜん</ruby>午前と<ruby a="4" b="4">ごご</ruby>午後に<delay20 />
-<ruby a="2" b="2">か</ruby>買い<ruby a="2" b="2">と</ruby>取り<ruby a="4" b="6">かかく</ruby>価格が　<ruby a="4" b="8">へんどう</ruby>変動しますので<tag a="110" b="0" /><delay20 />
+<ruby a="8" b="14">かいとりかかく</ruby>買取価格が　<ruby a="4" b="8">へんどう</ruby>変動しますので<tag a="110" b="0" /><delay20 />
 <anim id="FaintSmile" target="mainNpc" targetSpec="" /><anim id="Nodding" target="subNpc" targetSpec="" />その<ruby a="2" b="4">とき</ruby>時のカブ<ruby a="2" b="2">か</ruby>価は　<ruby a="4" b="10">ちょくせつ</ruby>直接おたずねください！<anim id="FaintSmile" target="subNpc" targetSpec="" /><pageBreak /><anim id="Explain" target="actor" targetSpec="" />なお、<delay8 /><ruby a="4" b="12">ぎょうしょう</ruby>行商の<ruby a="2" b="4">かた</ruby>方が<ruby a="2" b="2">こ</ruby>来られる　<ruby a="4" b="8">にちよう</ruby>日曜は<delay20 />
 <anim id="Nodding" target="subNpc" targetSpec="" />カブの<ruby a="2" b="2">か</ruby>買い<ruby a="2" b="2">と</ruby>取りは　お<ruby a="2" b="4">やす</ruby>休みですので、<delay frames="30" />
 その<ruby a="2" b="4">てん</ruby>点も　ご<ruby a="4" b="8">ちゅうい</ruby>注意くださいませ！<anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" /></message>
@@ -50,8 +50,8 @@
 <colour id="1" /><ruby a="4" b="8">かいとり</ruby>買取ボックス<colour id="65535" />です！<anim id="FaintSmile" target="subNpc" targetSpec="" /><pageBreak /><anim id="Explain" target="mainNpc" targetSpec="" />こちらは、お<ruby a="2" b="4">いそ</ruby>急ぎの<ruby a="2" b="4">とき</ruby>時や<delay8 />　<ruby a="10" b="20">えいぎょうじかんがい</ruby>営業時間外に<delay20 />
 お<ruby a="4" b="6">ふりこ</ruby>振込みにて　<ruby a="4" b="10">しょうひん</ruby>商品を<ruby a="2" b="2">か</ruby>買い<ruby a="2" b="2">と</ruby>取る<delay20 />
 サービスとなっております<pageBreak /><anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="ShyBoy" target="subNpc" targetSpec="" /><ruby a="6" b="12">てすうりょう</ruby>手数料のぶん　<ruby a="8" b="14">かいとりかかく</ruby>買取価格が<ruby a="2" b="2">さ</ruby>下がるのと、<delay20 />
-カブ・<ruby a="10" b="20">こうがくかいとりひん</ruby>高額買取品の　<ruby a="2" b="2">か</ruby>買い<ruby a="2" b="2">と</ruby>取りは
-できませんので<delay20 />　ご<ruby a="4" b="8">ちゅうい</ruby>注意くださいませ！<anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" /></message>
+カブの<ruby a="2" b="2">か</ruby>買い<ruby a="2" b="2">と</ruby>取りや　<delay8 /><ruby a="8" b="16">こうがくかいとり</ruby>高額買取サービスには
+<ruby a="4" b="8">たいおう</ruby>対応しておりませんので<delay20 />　ご<ruby a="4" b="8">ちゅうい</ruby>注意くださいませ！<anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" /></message>
 	<message label="061_05" attrib="00 00 00 00"><tag a="110" b="0" /><anim id="Smiling" target="mainNpc" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" /><ruby a="4" b="8">いじょう</ruby>以上に　なりますー！</message>
 	<message label="101" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />いらっしゃいませー！<delay frames="40" />
 <anim id="Aha" target="actor" targetSpec="" />あっ、<delay8 /><tag a="110" b="1" />さん！<delay20 />
@@ -68,14 +68,14 @@
 <ruby a="4" b="4">あす</ruby>明日は　お<ruby a="2" b="4">やす</ruby>休みさせていただきます！<pageBreak /><anim id="ShyBoy" target="actor" targetSpec="" /><ruby a="4" b="8">いちにち</ruby>一日だけ　ご<ruby a="4" b="6">ふべん</ruby>不便をおかけしますが、<delay frames="30" />
 <anim id="Nodding" target="actor" targetSpec="" />また<ruby a="6" b="8">あさって</ruby>明後日から　この<ruby a="4" b="6">ばしょ</ruby>場所で<delay20 />
 <anim id="Smiling" target="actor" targetSpec="" />よろしくお<ruby a="2" b="4">ねが</ruby>願いいたしますー！</message>
-	<message label="151" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />いらっしゃいませー！<delay frames="40" />
+	<message label="151" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />いらっしゃいませー！<anim id="FaintSmile" target="subNpc" targetSpec="" /><delay frames="40" />
 <anim id="HappyDance" target="actor" targetSpec="" /><ruby a="4" b="8">ほんじつ</ruby>本日より　こちらの<ruby a="6" b="10">しんてんぽ</ruby>新店舗で<delay20 />
-<ruby a="4" b="10">えいぎょう</ruby>営業を　<ruby a="4" b="8">さいかい</ruby>再開しておりますー！<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />オープン<ruby a="4" b="8">しょにち</ruby>初日から　ご<ruby a="4" b="8">らいてん</ruby>来店くださり<delay frames="30" />
-<anim id="Hello" target="actor" targetSpec="" />どうも　ありがとうございます！</message>
+<ruby a="4" b="10">えいぎょう</ruby>営業を　<ruby a="4" b="8">さいかい</ruby>再開しておりますー！<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" />オープン<ruby a="4" b="8">しょにち</ruby>初日から　ご<ruby a="4" b="8">らいてん</ruby>来店くださり<delay frames="30" />
+<anim id="Hello" target="actor" targetSpec="" /><anim id="FaintSmile" target="subNpc" targetSpec="" />どうも　ありがとうございます！</message>
 	<message label="151_01" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />あっ、<delay8 /><tag a="110" b="1" />さん<delay20 />
-いらっしゃいませー！<delay frames="40" />
-<anim id="Nodding" target="actor" targetSpec="" />リニューアル<ruby a="2" b="2">ご</ruby>後のご<ruby a="4" b="8">らいてん</ruby>来店は<delay8 />　<ruby a="2" b="4">はじ</ruby>初めてですよね？<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />ご<ruby a="2" b="4">らん</ruby>覧のとおりの　<ruby a="6" b="10">しんてんぽ</ruby>新店舗で<delay8 />
-<anim id="Hello" target="actor" targetSpec="" /><ruby a="4" b="10">えいぎょう</ruby>営業を　<ruby a="4" b="8">さいかい</ruby>再開しておりますー！</message>
+<anim id="FaintSmile" target="subNpc" targetSpec="" />いらっしゃいませー！<delay frames="40" />
+<anim id="Nodding" target="actor" targetSpec="" />リニューアル<ruby a="2" b="2">ご</ruby>後のご<ruby a="4" b="8">らいてん</ruby>来店は<delay8 />　<ruby a="2" b="4">はじ</ruby>初めてですよね？<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" />ご<ruby a="2" b="4">らん</ruby>覧のとおりの　<ruby a="6" b="10">しんてんぽ</ruby>新店舗で<delay8 />
+<anim id="Hello" target="actor" targetSpec="" /><anim id="FaintSmile" target="subNpc" targetSpec="" /><ruby a="4" b="10">えいぎょう</ruby>営業を　<ruby a="4" b="8">さいかい</ruby>再開しておりますー！</message>
 	<message label="152" attrib="00 00 00 00"><anim id="HappyDance" target="actor" targetSpec="" /><ruby a="4" b="6">こんご</ruby>今後とも、<delay20 /><colour id="1" />
 タヌキ<ruby a="4" b="10">しょうてん</ruby>商店<colour id="65535" />を　ごひいきにー！</message>
 	<message label="152_01" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />おっと、<delay8 />それより<tag a="110" b="0" />

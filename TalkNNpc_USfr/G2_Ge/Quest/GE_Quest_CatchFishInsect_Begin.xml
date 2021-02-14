@@ -8,7 +8,7 @@ qu'il y a, mais pas moyen d'attraper
 <tag a="50" b="2" /><tag a="125" b="2" arg="0xcd00" />...</message>
 	<message label="004_a" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Laisse-moi t'aider!</message>
 	<message label="004_b" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="player" targetSpec="" />N'abandonne pas!</message>
-	<message label="008" attrib="00 00 02 00 00 00 00 00"><anim id="Hesitate" target="actor" targetSpec="" />J'aimerais bien avoir <tag a="50" b="17" arg="0x14 0xcd00 0x12 0x75 0x6e 0x20 0x6d 0x69 0x67 0x6e 0x6f 0x6e 0x18 0x75 0x6e 0x65 0x20 0x6d 0x69 0x67 0x6e 0x6f 0x6e 0x6e 0x65 0x0" /> petit<tag a="50" b="17" arg="0x14 0xcd00 0x0 0x2 0x65 0x0" /> <tag a="125" b="3" arg="0xcd00" /><tag a="110" b="0" /> pour <tag a="50" b="17" arg="0x14 0xcd00 0x4 0x6c 0x65 0x4 0x6c 0x61 0x0" /> regarder nager chez moi...</message>
+	<message label="008" attrib="00 00 02 00 00 00 00 00"><anim id="Hesitate" target="actor" targetSpec="" />J'aimerais bien avoir <tag a="50" b="17" arg="0x15 0xcd00 0x12 0x75 0x6e 0x20 0x6d 0x69 0x67 0x6e 0x6f 0x6e 0x18 0x75 0x6e 0x65 0x20 0x6d 0x69 0x67 0x6e 0x6f 0x6e 0x6e 0x65 0x0" /> petit<tag a="50" b="17" arg="0x15 0xcd00 0x0 0x2 0x65 0x0" /> <tag a="125" b="3" arg="0xcd00" /><tag a="110" b="0" /> pour <tag a="50" b="17" arg="0x15 0xcd00 0x4 0x6c 0x65 0x4 0x6c 0x61 0x0" /> regarder nager chez moi...</message>
 	<message label="008_a" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Je m'en occupe!</message>
 	<message label="008_b" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="player" targetSpec="" />Bon courage!</message>
 	<message label="009" attrib="00 00 02 00 00 00 00 00"><anim id="Restless" target="actor" targetSpec="" />J'hallucine, j'arrive pas à pêcher <tag a="50" b="2" /><tag a="125" b="3" arg="0xcd00" />!<delay20 /> J'ai trop pas de chance!</message>
@@ -43,7 +43,7 @@ Tu pourrais en trouver un pour moi?<delay20 /><anim id="Frantic" target="actor" 
 	<message label="021_a" attrib="00 00 00 00 00 00 00 00">Je m'en occupe!
 OK!
 Bien sûr!</message>
-	<message label="021_b" attrib="00 00 00 00 00 00 00 00">Je regrette, mais...
+	<message label="021_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Je regrette, mais...
 Pas maintenant.
 Malheureusement non.</message>
 	<message label="022" attrib="00 00 02 00 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Tu y arrives, toi, à attraper des
@@ -57,7 +57,7 @@ steuplè?</message>
 	<message label="022_a" attrib="00 00 00 00 00 00 00 00">Je m'en occupe!
 OK!
 Bien sûr!</message>
-	<message label="022_b" attrib="00 00 00 00 00 00 00 00">Je regrette, mais...
+	<message label="022_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Je regrette, mais...
 Pas maintenant.
 Malheureusement non.</message>
 	<message label="023" attrib="00 00 02 00 00 00 00 00"><anim id="Restless" target="actor" targetSpec="" />Comment qu'c'est, <tag a="110" b="3" />? <size value="80" />C'est ce que disent mes copains, sur une autre île...<size value="100" /><pageBreak /><anim id="Frantic" target="actor" targetSpec="" />Bref. Tu aurais pas une cigale? Elle
@@ -70,7 +70,7 @@ une cigale, s'il te plaît?</message>
 	<message label="023_a" attrib="00 00 00 00 00 00 00 00">Je m'en occupe!
 OK!
 Bien sûr!</message>
-	<message label="023_b" attrib="00 00 00 00 00 00 00 00">Je regrette, mais...
+	<message label="023_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Je regrette, mais...
 Pas maintenant.
 Malheureusement non.</message>
 	<message label="025" attrib="00 00 02 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Je sais pas ce que j'ai, je fais une
@@ -84,25 +84,20 @@ lequel fera l'affaire.</message>
 	<message label="025_a" attrib="00 00 00 00 00 00 00 00">Je m'en occupe!
 OK!
 Bien sûr!</message>
-	<message label="025_b" attrib="00 00 00 00 00 00 00 00">Je regrette, mais...
+	<message label="025_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Je regrette, mais...
 Pas maintenant.
 Malheureusement non.</message>
 	<message label="026" attrib="00 00 02 00 00 00 00 00"><anim id="HappyDance" target="actor" targetSpec="" />Les libellules, c'est quand même
 quelque chose, hein?<delay frames="40" /> Pis elles ont
 une de ces grâces!<pageBreak /><anim id="Negative" target="actor" targetSpec="" />Mais ces froussardes fichent le camp
-dès <gender4 m="que " f="qu'" />⁠<tag a="110" b="10" /> approche
-avec ses grosses pattes!<pageBreak /><anim id="Hesitate" target="actor" targetSpec="" />Dis <tag a="110" b="3" />, tu pourrais
-essayer d'en attraper une pour moi,
-steuplè?</message>
+dès <gender4 m="que " f="qu'" />⁠<tag a="110" b="10" /> approche avec ses grosses pattes!<pageBreak /><anim id="Hesitate" target="actor" targetSpec="" />Dis <tag a="110" b="3" />, tu pourrais essayer d'en attraper une pour moi, steuplè?</message>
 	<message label="026_a" attrib="00 00 00 00 00 00 00 00">Je m'en occupe!
 OK!
 Bien sûr!</message>
-	<message label="026_b" attrib="00 00 00 00 00 00 00 00">Je regrette, mais...
+	<message label="026_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Je regrette, mais...
 Pas maintenant.
 Malheureusement non.</message>
-	<message label="027" attrib="00 00 02 00 00 00 00 00"><anim id="Hesitate" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="110" b="3" />, tu tombes
-bien! Je peux te demander
-un service?<pageBreak /><anim id="Worried" target="actor" targetSpec="" />J'essaie d'attraper un insecte qui se
+	<message label="027" attrib="00 00 02 00 00 00 00 00"><anim id="Hesitate" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="110" b="3" />, tu tombes bien! Je peux te demander un service?<pageBreak /><anim id="Worried" target="actor" targetSpec="" />J'essaie d'attraper un insecte qui se
 pose sur une fleur, mais y a toujours
 que des pétales dans mon filet<tag a="110" b="0" /><pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Du coup, c'est pas très sympa pour
 la fleur non plus.<anim id="QuestionMark" target="actor" targetSpec="" /> Tu pourrais attraper
@@ -110,7 +105,7 @@ un insecte qui aime les fleurs?</message>
 	<message label="027_a" attrib="00 00 00 00 00 00 00 00">Je m'en occupe!
 OK!
 Bien sûr!</message>
-	<message label="027_b" attrib="00 00 00 00 00 00 00 00">Je regrette, mais...
+	<message label="027_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Je regrette, mais...
 Pas maintenant.
 Malheureusement non.</message>
 	<message label="028" attrib="00 00 02 00 00 00 00 00"><anim id="Frantic" target="actor" targetSpec="" /><10_5 />Devine<endTag a="10" b="5" /> <10_5 />un<endTag a="10" b="5" /> <10_5 />peu<endTag a="10" b="5" /><delay8 />! <tag a="50" b="3" /><tag a="110" b="3" />!<delay frames="40" />
@@ -125,7 +120,7 @@ souche?</message>
 	<message label="028_a" attrib="00 00 00 00 00 00 00 00">Je m'en occupe!
 OK!
 Bien sûr!</message>
-	<message label="028_b" attrib="00 00 00 00 00 00 00 00">Je regrette, mais...
+	<message label="028_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Je regrette, mais...
 Pas maintenant.
 Malheureusement non.</message>
 	<message label="031" attrib="00 00 02 00 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Je t'ai parlé de ma nouvelle passion
@@ -133,13 +128,11 @@ pour les poissons de rivière?<delay frames="40" /> En
 fait, c'est LE truc à la mode!
 <anim id="Worried" target="actor" targetSpec="" />Le seul tout petit inconvénient, c'est
 que pour en pêcher un, il faut rester
-immobile<tag a="110" b="0" /><10_4 /> Nan mais genre!<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />C'est là que tu interviens,
-<tag a="110" b="3" />! <anim id="Smiling" target="actor" targetSpec="" />Tu peux pêcher
-un poisson de rivière pour moi?</message>
+immobile<tag a="110" b="0" /><10_4 /> Nan mais genre!<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />C'est là que tu interviens, <tag a="110" b="3" />! <anim id="Smiling" target="actor" targetSpec="" />Tu peux pêcher un poisson de rivière pour moi?</message>
 	<message label="031_a" attrib="00 00 00 00 00 00 00 00">Je m'en occupe!
 OK!
 Bien sûr!</message>
-	<message label="031_b" attrib="00 00 00 00 00 00 00 00">Je regrette, mais...
+	<message label="031_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Je regrette, mais...
 Pas maintenant.
 Malheureusement non.</message>
 	<message label="032" attrib="00 00 02 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Les poissons de mer, tu en penses
@@ -151,12 +144,12 @@ qui vit dans la mer?</message>
 	<message label="032_a" attrib="00 00 00 00 00 00 00 00">Je m'en occupe!
 OK!
 Bien sûr!</message>
-	<message label="032_b" attrib="00 00 00 00 00 00 00 00">Je regrette, mais...
+	<message label="032_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Je regrette, mais...
 Pas maintenant.
 Malheureusement non.</message>
 	<message label="101" attrib="00 00 02 00 00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />Je peux te demander un mini service, <tag a="110" b="3" />?<pageBreak /><anim id="Worried" target="actor" targetSpec="" />Tu vois, ça fait au moins mille heures <anim id="Worried" target="actor" targetSpec="" />que j'essaie d'attraper <tag a="50" b="2" /><tag a="125" b="2" arg="0xcd00" />...<delay20 /><pageBreak /><anim id="BigSmile" target="actor" targetSpec="" />Mais toi, je sais que tu es super
 doué<gender2 m="" f="e" /> pour ça<tag a="110" b="0" /><anim id="Nodding" target="actor" targetSpec="" /> Tu crois que tu
-pourrais m'en trouver <tag a="50" b="17" arg="0x13 0xcd00 0x4 0x75 0x6e 0x6 0x75 0x6e 0x65 0x0" />?</message>
+pourrais m'en trouver <tag a="50" b="17" arg="0x14 0xcd00 0x4 0x75 0x6e 0x6 0x75 0x6e 0x65 0x0" />?</message>
 	<message label="101_a" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="player" targetSpec="" />Bien sûr!</message>
 	<message label="101_b" attrib="00 00 00 00 00 00 00 00"><anim id="Negative" target="player" targetSpec="" />J'ai pas trop le temps.</message>
 	<message label="102" attrib="00 00 02 00 00 00 00 00"><anim id="Sighing" target="actor" targetSpec="" />J'y crois pas<tag a="110" b="0" /><delay20 /> J'ai beau avoir un
@@ -183,8 +176,8 @@ des heures à essayer de pêcher
 <tag a="50" b="2" /><tag a="125" b="3" arg="0xcd00" />!<delay20 />
 <anim id="SadSpiral" target="actor" targetSpec="" />Mais y a pas moyen<tag a="110" b="0" /><delay40 /> Snif<tag a="110" b="0" /><delay20 />
 <anim id="Crying" target="actor" targetSpec="" />Je sais paaas faiiiiiire!</message>
-	<message label="202_a" attrib="00 00 00 00 00 00 00 00">Je m'en occupe.</message>
-	<message label="202_b" attrib="00 00 00 00 00 00 00 00">Allez, tu vas y arriver!</message>
+	<message label="202_a" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Je m'en occupe.</message>
+	<message label="202_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Allez, tu vas y arriver!</message>
 	<message label="203" attrib="00 00 00 00 00 00 00 00"><anim id="HappyDance" target="actor" targetSpec="" />Oh, trop cool! <delay20 />Merci tout plein,
 <delay8 />t'es l<gender2 m="e" f="a" /> meilleur<gender2 m="" f="e" />, <tag a="110" b="3" />!</message>
 	<message label="204" attrib="00 00 00 00 00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Ah, OK<tag a="110" b="0" /><delay8 /><anim id="FaintSmile" target="actor" targetSpec="" /> C'est pas grave, je vais

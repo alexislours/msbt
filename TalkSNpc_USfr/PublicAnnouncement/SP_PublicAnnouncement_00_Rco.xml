@@ -1,7 +1,7 @@
 <msbt attribsize="4">
-	<message label="000_01" attrib="00 00 00 00"><tag a="100" b="8" /><anim id="Smiling" target="actor" targetSpec="" />Bonjour <tag a="110" b="8" />!<delay40 />
+	<message label="000_01" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="Smiling" target="actor" targetSpec="" />Bonjour <tag a="110" b="8" />!<delay40 />
 Il est précisément <tag a="90" b="30" />:<tag a="90" b="31" />.<endTag a="100" b="8" /></message>
-	<message label="000_02" attrib="00 00 00 00"><tag a="100" b="8" /><anim id="EmotEnd" target="actor" targetSpec="" />Je suis sûr que vous trépignez déjà
+	<message label="000_02" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="EmotEnd" target="actor" targetSpec="" />Je suis sûr que vous trépignez déjà
 d'impatience à l'idée <delay20 /><anim id="QuestionMark" target="actor" targetSpec="" />de remplir
 pleinement cette belle journée?<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Mais n'en faites pas trop ou gare au
 surmenage insulaire! <delay20 /><anim id="Smiling" target="actor" targetSpec="" />Pensez à vous
@@ -17,7 +17,7 @@ qui font rimer « vie insulaire » avec
 	<message label="003" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="Smiling" target="actor" targetSpec="" />Bonjour, bonjour! <anim id="Clapping" target="actor" targetSpec="" />J'ai le plaisir
 de vous souhaiter une bonne
 et heureuse année!
-<anim id="EmotEnd" target="actor" targetSpec="" />Il est <tag a="90" b="30" />:<tag a="90" b="31" /> en ce beau <tag a="110" b="18" /> <tag a="90" b="29" /> <tag a="90" b="28" /> <tag a="100" b="8" /><tag a="90" b="27" /><endTag a="100" b="8" />.<delay20 /> <anim id="HappyFlower" target="actor" targetSpec="" />Puisse l'année à venir apporter son lot de bonheur!<endTag a="100" b="8" /></message>
+<anim id="EmotEnd" target="actor" targetSpec="" />Il est <tag a="90" b="30" />:<tag a="90" b="31" /> en ce beau <tag a="110" b="18" /> <tag a="90" b="29" /> <tag a="90" b="28" /> <tag a="90" b="27" />.<delay20 /> <anim id="HappyFlower" target="actor" targetSpec="" />Puisse l'année à venir apporter son lot de bonheur!<endTag a="100" b="8" /></message>
 	<message label="004" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="Smiling" target="actor" targetSpec="" />Bonjour, c'est moi <colour id="3" />Tom Nook<colour id="65535" />!<delay20 /> Il est
 <tag a="90" b="30" />:<tag a="90" b="31" /> en ce beau <tag a="110" b="18" /> <tag a="90" b="29" /> <tag a="90" b="28" /> <tag a="90" b="27" />.<pageBreak /><anim id="Shocked" target="actor" targetSpec="" />Oh! <delay40 /><anim id="Nodding" target="actor" targetSpec="" />Ça veut dire que la nouvelle
 année lunaire a commencé!<pageBreak /><anim id="Clapping" target="actor" targetSpec="" />Puisse-t-elle vous apporter à
@@ -39,10 +39,10 @@ le micro, donc c'est possible!<endTag a="100" b="8" /></message>
 la fête de notre résident<gender2 m="" f="e" />
 préféré<gender2 m="" f="e" />, <tag a="110" b="1" />!<endTag a="100" b="8" /></message>
 	<message label="011_02" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="Smiling" target="actor" targetSpec="" />Aujourd'hui, c'est aussi la fête
-de notre bien-aimé<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x65 0x0" /> résident<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x65 0x0" />
+de notre bien-aimé<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x65 0x0" /> résident<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x65 0x0" />
 <tag a="115" b="0" arg="0xcd00" />!<endTag a="100" b="8" /></message>
 	<message label="011_03" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="Smiling" target="actor" targetSpec="" />Et c'est aussi la fête de notre
-bien-aimé<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x65 0x0" /> voisin<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x65 0x0" />
+bien-aimé<tag a="50" b="17" arg="0xf 0xcd00 0x0 0x2 0x65 0x0" /> voisin<tag a="50" b="17" arg="0xf 0xcd00 0x0 0x2 0x65 0x0" />
 <tag a="115" b="1" arg="0xcd00" />!<endTag a="100" b="8" /></message>
 	<message label="012_01_01" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="Smiling" target="actor" targetSpec="" />Et c'est un grand jour, surtout pour
 certains de nos amis, j'ai nommé
@@ -63,18 +63,30 @@ jour de fête!<endTag a="100" b="8" /></message>
 	<message label="022" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="Serious" target="actor" targetSpec="" /><anim id="FaintSmile" target="subNpc" targetSpec="" />Sans transition, les autres
 informations du jour<tag a="110" b="0" /><endTag a="100" b="8" /></message>
 	<message label="031" attrib="00 00 00 12"><tag a="100" b="8" />Par ailleurs<tag a="110" b="0" /><endTag a="100" b="8" /></message>
-	<message label="101" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="Clapping" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="110" b="8" /> accueille un<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x65 0x0" /> nouve<tag a="50" b="17" arg="0xe 0xcd00 0x4 0x61 0x75 0x6 0x6c 0x6c 0x65 0x0" /> résident<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x65 0x0" />, <tag a="115" b="1" arg="0xcd00" />!<endTag a="100" b="8" /></message>
+	<message label="041_01" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="IdeaBulb" target="actor" targetSpec="" />Saviez-vous que la <colour id="1" />fête des œufs<colour id="65535" />
+approche à grands pas?<delay20 /><anim id="FaintSmile" target="actor" targetSpec="" /><pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Cet événement coïncide souvent avec
+un changement de météo.<delay20 /><anim id="FaintSmile" target="actor" targetSpec="" /> J'avoue
+que cette fois, je ne l'ai pas vu venir.<endTag a="100" b="8" /></message>
+	<message label="041_02" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="BigSmile" target="actor" targetSpec="" />Aujourd'hui est un grand jour! C'est
+la <colour id="1" />fête des œufs<colour id="65535" /> que vous attendiez
+tous!<delay frames="40" /><pageBreak /><anim id="Smiling" target="actor" targetSpec="" />À cette occasion, un invité spécial a
+parcouru un long chemin pour nous
+rendre visite.
+Je ne saurais que trop vous
+conseiller de passer sur la place
+<anim id="Greeting" target="actor" targetSpec="" />pour lui dire bonjour.<endTag a="100" b="8" /></message>
+	<message label="101" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="Clapping" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="110" b="8" /> accueille un<tag a="50" b="17" arg="0xf 0xcd00 0x0 0x2 0x65 0x0" /> nouve<tag a="50" b="17" arg="0xf 0xcd00 0x4 0x61 0x75 0x6 0x6c 0x6c 0x65 0x0" /> résident<tag a="50" b="17" arg="0xf 0xcd00 0x0 0x2 0x65 0x0" />, <tag a="115" b="1" arg="0xcd00" />!<endTag a="100" b="8" /></message>
 	<message label="102" attrib="00 00 00 12"><tag a="60" b="20" /></message>
 	<message label="102_01" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="Nodding" target="actor" targetSpec="" />J'espère que vous lui ferez profiter
 de votre riche expérience de la
 vie insulaire!<anim id="Smiling" target="actor" targetSpec="" /><endTag a="100" b="8" /></message>
 	<message label="102_02" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="Nodding" target="actor" targetSpec="" />Je compte sur vous pour lui réserver
 un accueil chaleureux!<anim id="Smiling" target="actor" targetSpec="" /><endTag a="100" b="8" /></message>
-	<message label="102_03" attrib="00 00 00 12"><tag a="100" b="8" /><tag a="50" b="17" arg="0xe 0xcd00 0x4 0x49 0x6c 0x8 0x45 0x6c 0x6c 0x65 0x0" /> aura probablement fort à faire
+	<message label="102_03" attrib="00 00 00 12"><tag a="100" b="8" /><tag a="50" b="17" arg="0xf 0xcd00 0x4 0x49 0x6c 0x8 0x45 0x6c 0x6c 0x65 0x0" /> aura probablement fort à faire
 avec toutes ses boîtes, alors passez
-<tag a="50" b="17" arg="0xe 0xcd00 0x4 0x6c 0x65 0x4 0x6c 0x61 0x0" /> voir pour <tag a="50" b="17" arg="0xe 0xcd00 0x4 0x6c 0x65 0x4 0x6c 0x61 0x0" /> distraire un peu!<endTag a="100" b="8" /></message>
+<tag a="50" b="17" arg="0xf 0xcd00 0x4 0x6c 0x65 0x4 0x6c 0x61 0x0" /> voir pour <tag a="50" b="17" arg="0xf 0xcd00 0x4 0x6c 0x65 0x4 0x6c 0x61 0x0" /> distraire un peu!<endTag a="100" b="8" /></message>
 	<message label="200" attrib="00 00 00 12"><tag a="100" b="8" />Bien<tag a="110" b="0" /> Passons au sujet suivant!<endTag a="100" b="8" /></message>
-	<message label="201" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="Worried" target="actor" targetSpec="" />Notre ch<tag a="50" b="17" arg="0xe 0xcd00 0x4 0x65 0x72 0x6 0xe8 0x72 0x65 0x0" /> <tag a="115" b="1" arg="0xcd00" /> va faire ses adieux à notre île pour raisons personnelles.<pageBreak /><tag a="50" b="17" arg="0xe 0xcd00 0x4 0x49 0x6c 0x8 0x45 0x6c 0x6c 0x65 0x0" /> sera parti<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x65 0x0" /> demain, alors
+	<message label="201" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="Worried" target="actor" targetSpec="" />Notre ch<tag a="50" b="17" arg="0xf 0xcd00 0x4 0x65 0x72 0x6 0xe8 0x72 0x65 0x0" /> <tag a="115" b="1" arg="0xcd00" /> va faire ses adieux à notre île pour raisons personnelles.<pageBreak /><tag a="50" b="17" arg="0xf 0xcd00 0x4 0x49 0x6c 0x8 0x45 0x6c 0x6c 0x65 0x0" /> sera parti<tag a="50" b="17" arg="0xf 0xcd00 0x0 0x2 0x65 0x0" /> demain, alors
 n'oubliez pas de lui dire au revoir
 aujourd'hui!<endTag a="100" b="8" /></message>
 	<message label="600" attrib="00 00 00 12"><tag a="60" b="20" /></message>
@@ -129,9 +141,10 @@ sans voix. Au pied d'un arbre<tag a="110" b="0" />
 de pin<colour id="65535" /> et un délicieux <colour id="1" />gland<colour id="65535" />!<delay20 /> Si vous
 les aimez aussi, secouez les arbres!<anim id="Smiling" target="actor" targetSpec="" /><endTag a="100" b="8" /></message>
 	<message label="612_01_01" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="Smiling" target="actor" targetSpec="" />Au cours de ma balade quotidienne,<delay20 />
-j'ai vu quelqu'un tomber d'un arbre!
-<delay frames="40" />Un plaisantin a dû secouer le tronc<tag a="110" b="0" />
-<anim id="Explain" target="actor" targetSpec="" />Au fait, la saison des <colour id="1" />pommes de pin<colour id="65535" />
+j'ai vu quelque chose tomber
+d'un arbre!
+<delay frames="40" />J'imagine qu'un plaisantin a dû
+secouer le tronc<tag a="110" b="0" /><pageBreak /><anim id="Explain" target="actor" targetSpec="" />Au fait, la saison des <colour id="1" />pommes de pin<colour id="65535" />
 et des <colour id="1" />glands<colour id="65535" /> se termine doucement.<delay20 />
 Ramassez-en tant que vous pouvez!
 <anim id="Smiling" target="actor" targetSpec="" />Il serait dommage de laisser filer
@@ -161,8 +174,8 @@ champignons que vous trouverez sur
 l'île sont parfaitement comestibles.<anim id="Smiling" target="actor" targetSpec="" /><pageBreak /><anim id="Worried" target="actor" targetSpec="" />Mais si vous décidez de voir du pays,
 faites attention!<delay20 /> L'identification des
 champignons est importante!<pageBreak />Si vous tombez sur des champis en
-visitant une autre île, <anim id="Negative" target="actor" targetSpec="" />NE LES
-MANGEZ SURTOUT PAS!
+visitant du pays, <anim id="Negative" target="actor" targetSpec="" />NE LES MANGEZ
+SURTOUT PAS!
 <anim id="Nodding" target="actor" targetSpec="" />Assurez-vous de les faire expertiser
 par un spécialiste, ou attention
 à l'indigestion.<anim id="Smiling" target="actor" targetSpec="" /><endTag a="100" b="8" /></message>
@@ -264,13 +277,13 @@ bas,<delay8 /> vous pouvez observer l'île
 sous un angle inconnu jusque-là!<endTag a="100" b="8" /></message>
 	<message label="702_04" attrib="00 00 00 12"><tag a="100" b="8" />J'espère que tout le monde fait
 <anim id="Smiling" target="actor" targetSpec="" />honneur à la <colour id="1" />boîte de recyclage<colour id="65535" />
-du <colour id="1" />bureau des résidents<colour id="65535" />.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Quand un habitant n'a plus l'usage
-d'un objet, il l'y glisse gentiment
-à l'attention de ses voisins, oui, oui.<anim id="Smiling" target="actor" targetSpec="" /><pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Qui sait quels trésors dénicheront
+du <colour id="1" />bureau des résidents<colour id="65535" />.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Quand un habitant n'a plus besoin
+d'un objet, celui-ci y est placé
+à l'usage de ses voisins, oui, oui.<anim id="Smiling" target="actor" targetSpec="" /><pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Qui sait quels trésors dénicheront
 les petits curieux qui y farfouilleront
 de temps en temps, hm?<anim id="Smiling" target="actor" targetSpec="" /><endTag a="100" b="8" /></message>
-	<message label="703" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="BigSmile" target="actor" targetSpec="" />Je vais maintenant vous présenter
-l'un des articles très précieux que
+	<message label="703" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="BigSmile" target="actor" targetSpec="" />Laissez-moi vous présenter l'un
+des articles très précieux que
 l'on peut <colour id="1" />obtenir contre des points<colour id="65535" />.<endTag a="100" b="8" /></message>
 	<message label="704" attrib="00 00 00 12"><tag a="60" b="20" /></message>
 	<message label="704_01" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="EmotEnd" target="actor" targetSpec="" />Ma recommandation du jour, c'est<tag a="110" b="0" /><delay40 />
@@ -317,18 +330,18 @@ guide pour une vie bien rangée, hm?<endTag a="100" b="8" /></message>
 	<message label="704_05" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="EmotEnd" target="actor" targetSpec="" />Vous connaissez ces journées où se
 fait sentir un besoin impérieux de
 parler de<tag a="110" b="0" /><delay40 /><anim id="Clapping" target="actor" targetSpec="" /> <colour id="1" />coiffures<colour id="65535" /> et de <colour id="1" />couleurs<colour id="65535" />?<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Bien sûr!<delay20 /> Mais connaissez-vous
-<colour id="1" /><tag a="100" b="8" />Le top des coiffures pop<endTag a="100" b="8" /><colour id="65535" />, le guide de
+<colour id="1" />Le top des coiffures pop<colour id="65535" />, le guide de
 ceux qui en ont dans les cheveux?<anim id="Smiling" target="actor" targetSpec="" />
 <anim id="Nodding" target="actor" targetSpec="" />Grâce à lui et un <colour id="1" />miroir<colour id="65535" />, une <colour id="1" />coiffeuse<colour id="65535" />
 ou un objet similaire, vous pourrez
 vous payer une nouvelle tête!<anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Amoureux des cheveux et autres
 lanceuses de tendances capillaires,
 vous savez ce qui vous reste à faire!<endTag a="100" b="8" /></message>
-	<message label="705" attrib="00 00 00 00"><tag a="100" b="8" /><anim id="BigSmile" target="actor" targetSpec="" />Voici maintenant quelques infos
+	<message label="705" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="BigSmile" target="actor" targetSpec="" />Voici maintenant quelques infos
 pour vous rendre la vie insulaire
 encore plus délicieuse!<endTag a="100" b="8" /></message>
-	<message label="706" attrib="00 00 00 00"><tag a="60" b="20" /></message>
-	<message label="706_01" attrib="00 00 00 00"><tag a="100" b="8" /><anim id="Nodding" target="actor" targetSpec="" />En recevant votre tente, vous avez
+	<message label="706" attrib="00 00 00 12"><tag a="60" b="20" /></message>
+	<message label="706_01" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="Nodding" target="actor" targetSpec="" />En recevant votre tente, vous avez
 aussi reçu une radio portable, la
 meilleure amie des mélomanes.<anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Toutefois, d'autres appareils sont à
 la disposition de ces derniers, par
@@ -338,7 +351,7 @@ préféré à tout moment, bien calé
 dans un fauteuil douillet<tag a="110" b="0" /><pageBreak /><anim id="Explain" target="actor" targetSpec="" />Et si vous souhaitez agrandir votre
 collection <colour id="1" />musicale<colour id="65535" />, le <colour id="1" />Catalogue
 Nook<colour id="65535" /> est là. <delay20 /><anim id="Smiling" target="actor" targetSpec="" />Bonne écoute!<endTag a="100" b="8" /></message>
-	<message label="706_02" attrib="00 00 00 00"><tag a="100" b="8" /><anim id="EmotEnd" target="actor" targetSpec="" />Ce n'est pas rien d'avoir décidé de
+	<message label="706_02" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="EmotEnd" target="actor" targetSpec="" />Ce n'est pas rien d'avoir décidé de
 démarrer une toute nouvelle vie
 à <tag a="110" b="8" />.
 <anim id="QuestionMark" target="actor" targetSpec="" />Faire les choses en grand, selon vos
@@ -349,7 +362,7 @@ pouvez aussi changer de look!
 <anim id="Nodding" target="actor" targetSpec="" />De vos <colour id="1" />teintures<colour id="65535" /> à votre <colour id="1" />visage<colour id="65535" /> en
 passant par votre <colour id="1" />coiffure<colour id="65535" />, soyez
 un insulaire nouveau chaque jour!<anim id="Smiling" target="actor" targetSpec="" /><endTag a="100" b="8" /></message>
-	<message label="706_03" attrib="00 00 00 00"><tag a="100" b="8" /><anim id="AbsentMindedness" target="actor" targetSpec="" />Que ceux qui ne négligeraient pour
+	<message label="706_03" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="AbsentMindedness" target="actor" targetSpec="" />Que ceux qui ne négligeraient pour
 rien au monde leur apparence même
 sur une île déserte tendent l'oreille<tag a="110" b="0" />
 <anim id="Smiling" target="actor" targetSpec="" />Faites l'achat d'une <colour id="1" />armoire <colour id="65535" />ou
@@ -357,7 +370,7 @@ d'une <colour id="1" />penderie<colour id="65535" /> et changez de style
 depuis votre doux chez-vous!<anim id="Smiling" target="actor" targetSpec="" /><pageBreak /><anim id="BigSmile" target="actor" targetSpec="" />Effectuez un petit défilé maison
 pour vous assurer de votre classe
 mondiale, et éblouissez vos voisins!<endTag a="100" b="8" /></message>
-	<message label="706_04" attrib="00 00 00 00"><tag a="100" b="8" /><anim id="AbsentMindedness" target="actor" targetSpec="" />Les nuits peuvent être longues à
+	<message label="706_04" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="AbsentMindedness" target="actor" targetSpec="" />Les nuits peuvent être longues à
 <tag a="110" b="8" /><tag a="110" b="0" /> <anim id="Smiling" target="actor" targetSpec="" />Mais <colour id="1" />lampes<colour id="65535" /> et <colour id="1" />bougies <colour id="65535" />sont là pour les illuminer!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Un petit changement de lumière par-ci, un déplacement de bougie par-là,
 et une pièce change du tout au tout!
 <anim id="Nodding" target="actor" targetSpec="" />Si vous aimez la déco qui en met

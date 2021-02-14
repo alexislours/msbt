@@ -8,8 +8,8 @@
 	<message label="502" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
 	<message label="502_01" attrib="00 00 00 00 00 00 00 00"><anim id="TakenAback" target="actor" targetSpec="" />Ты, случайно, не <tag a="110" b="3" />,
 котор<gender2 m="ый" f="ая" /> сегодня сюда переехал<gender2 m="" f="а" />?<pageBreak /><anim id="Greeting" target="actor" targetSpec="" />Приятно познакомиться!<delay8 />
-Я <tag a="110" b="10" />.<pageBreak /><anim id="HappyFlower" target="actor" targetSpec="" />Я всегда рада видеть новые лица.
-<tag a="50" b="3" /><tag a="110" b="5" />! <anim id="Smiling" target="actor" targetSpec="" />До встречи.</message>
+Я <tag a="110" b="10" />.<pageBreak /><anim id="HappyFlower" target="actor" targetSpec="" />Всегда рада видеть новые лица.
+<tag a="50" b="3" /><tag a="110" b="5" />! <anim id="Smiling" target="actor" targetSpec="" />До встречи!</message>
 	<message label="502_02" attrib="00 00 00 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Ой! Мы с тобой еще не знакомы.
 <anim id="FaintSmile" target="actor" targetSpec="" />Меня зовут <tag a="110" b="10" />.<pageBreak /><anim id="Pardon" target="actor" targetSpec="" />А ты <anim id="Smiling" target="actor" targetSpec="" /><tag a="110" b="3" />?
 <anim id="FaintSmile" target="actor" targetSpec="" />Как хорошо, что мы с тобой
@@ -91,10 +91,9 @@
 острове. <tag a="50" b="3" /><tag a="110" b="5" />. <anim id="Smiling" target="actor" targetSpec="" />Как хорошо,
 что мы с тобой познакомились.<pageBreak /><anim id="Hesitate" target="actor" targetSpec="" />Надеюсь, что мы станем друзьями.</message>
 	<message label="002_02" attrib="00 00 00 00 00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />Привет! Приятно познакомиться!
-<anim id="FaintSmile" target="actor" targetSpec="" />Я недавно переехала сюда с острова
-<tag a="115" b="2" arg="0xcd00" />.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Это <tag a="115" b="0" arg="0xcd00" /> посоветовал<gender1 m="" f="а" />
-мне переехать на остров
-<tag a="110" b="8" />.<pageBreak /><anim id="Love" target="actor" targetSpec="" />Мне здесь очень нравится. <anim id="Pardon" target="actor" targetSpec="" />Ты
+<anim id="FaintSmile" target="actor" targetSpec="" />Я cюда недавно переехала.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Это мне <tag a="115" b="0" arg="0xcd00" />
+посоветовал<gender1 m="" f="а" />. Она так хвалил<gender1 m="" f="а" />
+этот остров!<pageBreak /><anim id="Love" target="actor" targetSpec="" />Мне здесь очень нравится. <anim id="Pardon" target="actor" targetSpec="" />Ты
 <tag a="110" b="3" />, да? <anim id="FaintSmile" target="actor" targetSpec="" />Я слышала
 о тебе много хорошего.<pageBreak />Я рада, что мы с тобой соседи,
 и надеюсь, что скоро станем
@@ -275,8 +274,8 @@
 поговорим, хорошо?</message>
 	<message label="202" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
 	<message label="202_01" attrib="00 00 00 00 00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />Я еще не представилась.<delay40 />
-<anim id="FaintSmile" target="actor" targetSpec="" />Меня зовут <tag a="110" b="10" />.<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Я только что переехала сюда
-с острова <tag a="115" b="2" arg="0xcd00" />.<pageBreak /><anim id="Hello" target="actor" targetSpec="" />А ты <tag a="110" b="3" />,<delay20 /> правильно?<10_4 />
+<anim id="FaintSmile" target="actor" targetSpec="" />Меня зовут <tag a="110" b="10" />.
+<anim id="FaintSmile" target="actor" targetSpec="" />Я только что переехала.<pageBreak /><anim id="Hello" target="actor" targetSpec="" />А ты <tag a="110" b="3" />,<delay20 /> правильно?<10_4 />
 <anim id="Love" target="actor" targetSpec="" />Очень красивое имя.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Меня <tag a="115" b="0" arg="0xcd00" /> уговорил<gender1 m="" f="а" />
 переехать сюда,<delay20 /> когда я в ваш
 <colour id="1" />кемпинг <colour id="65535" />приезжала.<pageBreak /><anim id="BigSmile" target="actor" targetSpec="" />Мне не терпится познакомиться
@@ -337,7 +336,7 @@
 приличия забыла, похоже.<delay40 />
 <anim id="Greeting" target="actor" targetSpec="" />Тебя зовут <tag a="110" b="3" />,<delay20 /> да?<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Я <tag a="110" b="10" />.<delay40 /> Приятно
 познакомиться!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Я как раз гостила в <colour id="1" />кемпинге<colour id="65535" />,<delay20 /> когда
-ко мне подош<tag a="50" b="17" arg="0xd 0xcd00 0x4 0x435 0x43b 0x4 0x43b 0x430 0x0" /> <tag a="115" b="0" arg="0xcd00" /><delay20 />
+ко мне подош<tag a="50" b="17" arg="0xe 0xcd00 0x4 0x435 0x43b 0x4 0x43b 0x430 0x0" /> <tag a="115" b="0" arg="0xcd00" /><delay20 />
 и предложил<gender1 m="" f="а" /> переехать сюда.<pageBreak /><anim id="Serious" target="actor" targetSpec="" />И неожиданно для себя я приняла
 е<gender1 m="го" f="е" /> приглашение.<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Непременно заходи в гости, когда
 я здесь обустроюсь.<delay20 /> <tag a="50" b="3" /><tag a="110" b="5" />!</message>
@@ -348,7 +347,7 @@
 всеми на острове <tag a="110" b="8" />
 знакома.<pageBreak /><anim id="AbsentMindedness" target="actor" targetSpec="" />Кажется, что еще вчера я гостила
 в здешнем <colour id="1" />кемпинге <colour id="65535" />и там мне
-повстречал<tag a="50" b="17" arg="0xd 0xcd00 0x4 0x441 0x44f 0x6 0x430 0x441 0x44c 0x0" /> <tag a="115" b="0" arg="0xcd00" /><delay8 /><tag a="110" b="0" /><pageBreak /><anim id="Explain" target="actor" targetSpec="" />Это он<gender1 m="" f="а" /> убедил<gender1 m="" f="а" /> меня бросить свой
+повстречал<tag a="50" b="17" arg="0xe 0xcd00 0x4 0x441 0x44f 0x6 0x430 0x441 0x44c 0x0" /> <tag a="115" b="0" arg="0xcd00" /><delay8 /><tag a="110" b="0" /><pageBreak /><anim id="Explain" target="actor" targetSpec="" />Это он<gender1 m="" f="а" /> убедил<gender1 m="" f="а" /> меня бросить свой
 старый остров и остаться здесь
 насовсем.<delay40 /> <anim id="Smiling" target="actor" targetSpec="" />И я ничуть не жалею!<pageBreak /><anim id="Assent" target="actor" targetSpec="" />Здорово было с тобой пообщаться.<delay20 />
 <tag a="50" b="3" /><tag a="110" b="5" />!<delay40 /> <anim id="Hello" target="actor" targetSpec="" />Я всегда готова

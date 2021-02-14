@@ -4,6 +4,11 @@
 重要手续。<pageBreak /><anim id="Explain" target="actor" targetSpec="" />在这里进行的手续非常重要，<delay20 />
 所以儿童请和身边的监护者
 商量以后再选择哦。<anim id="FaintSmile" target="actor" targetSpec="" /></message>
+	<message label="002" attrib="00 00 00 00"><tag a="110" b="1" />，欢迎光临！<10_4 />
+这边会办理关于设置的
+重要手续。<pageBreak /><anim id="Explain" target="actor" targetSpec="" />在这里进行的手续非常重要，<delay20 />
+所以儿童请和身边的监护者
+商量以后再选择哦。<anim id="FaintSmile" target="actor" targetSpec="" /></message>
 	<message label="010_01" attrib="00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />好了，<delay20 />那么<tag a="110" b="0" /></message>
 	<message label="010_02" attrib="00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />嗯，<delay20 />说明就到这里狸。<10_4 />
 下次再来吧<tag a="110" b="0" /></message>
@@ -17,8 +22,14 @@
 	<message label="012_a" attrib="00 00 00 00">删除居民登记</message>
 	<message label="012_b" attrib="00 00 00 00">想听听说明</message>
 	<message label="012_c" attrib="00 00 00 00">结束手续</message>
+	<message label="020" attrib="04 00 00 00">你希望进行哪种设置呢？</message>
+	<message label="020_a" attrib="00 00 00 00">保存数据的设置</message>
+	<message label="020_b" attrib="00 00 00 00">狸端机入口站的设置</message>
+	<message label="020_c" attrib="00 00 00 00">结束手续</message>
+	<message label="021" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />好的好的，<delay20 />是保存数据吧，<delay20 />
+明白狸！</message>
 	<message label="051" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />好的好的，<delay20 />明白狸！<10_4 />
-那么就先从返回标题画面狸。<pageBreak /><anim id="Greeting" target="actor" targetSpec="" /><delay8 />请继续<delay20 />享受
+那么就先返回标题画面狸。<pageBreak /><anim id="Greeting" target="actor" targetSpec="" /><delay8 />请继续<delay20 />享受
 <tag a="110" b="34" />的生活哦～！</message>
 	<message label="052" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />好的好的，<delay20 />那就算了狸！<10_4 />
 那么就先从返回标题画面狸。<pageBreak /><anim id="Greeting" target="actor" targetSpec="" /><delay8 />请继续<delay20 />享受
@@ -35,10 +46,10 @@
 稍微有点儿长狸。<anim id="Smiling" target="actor" targetSpec="" /><pageBreak /><anim id="Serious" target="actor" targetSpec="" />因为是非常重要的内容，<delay20 />
 请一定要仔细听哦。</message>
 	<message label="062_01" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />在这里，<delay20 />可以删除
-目前搬迁来的<tag a="110" b="1" />的
+目前搬迁来的<tag a="110" b="1" />的<delay20 />
 居民登记狸。<pageBreak /><anim id="Serious" target="actor" targetSpec="" /><tag a="110" b="0" />简单说，<delay20 />就是指
 “<colour id="1" />删除玩家的保存数据<colour id="65535" />”狸。<pageBreak /><anim id="Worried" target="actor" targetSpec="" />在Nintendo Switch的
-HOME菜单的设置中<tag a="110" b="0" /><pageBreak />无法只删除《<colour id="1" />集合啦！动物森友会<colour id="65535" />》的
+HOME菜单的设置中<tag a="110" b="0" /><pageBreak />无法只删除《<colour id="2" />集合啦！动物森友会<colour id="65535" />》的
 玩家保存数据狸。<pageBreak /><anim id="Explain" target="actor" targetSpec="" />所以，<delay20 />如果想要删除
 在岛上的居住信息，<delay20 />
 就请在这里办理手续哦。</message>
@@ -61,7 +72,7 @@ Nintendo Switch的用户关联，<delay20 />
 	<message label="064_01" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />在这里，<delay20 />可以删除
 已搬迁来的居民的登记狸。<pageBreak /><anim id="Serious" target="actor" targetSpec="" /><tag a="110" b="0" />简单说，<delay20 />就是指
 “<colour id="1" />删除玩家的保存数据<colour id="65535" />”狸。<pageBreak /><anim id="Worried" target="actor" targetSpec="" />在Nintendo Switch的
-HOME菜单的设置中<tag a="110" b="0" /><pageBreak />无法只删除《<colour id="1" />集合啦！动物森友会<colour id="65535" />》的
+HOME菜单的设置中<tag a="110" b="0" /><pageBreak />无法只删除《<colour id="2" />集合啦！动物森友会<colour id="65535" />》的
 玩家保存数据狸。<pageBreak /><anim id="Explain" target="actor" targetSpec="" />所以，<delay20 />如果想要删除
 在岛上的居住信息，<delay20 />
 就请在这里办理手续哦。</message>
@@ -79,22 +90,20 @@ HOME菜单的设置中<tag a="110" b="0" /><pageBreak />无法只删除《<colou
 <tag a="110" b="34" />自然也就不复存在狸，<pageBreak />所以，<delay20 />关于这个
 我这边无法办理，敬请谅解狸。</message>
 	<message label="071_01" attrib="00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />无论如何都想删除岛民代表
-<tag a="110" b="1" />的数据时<tag a="110" b="0" /><pageBreak /><anim id="Serious" target="actor" targetSpec="" />只能从Nintendo Switch的
-HOME菜单的<colour id="1" />设置 <colour id="65535" />＞ <colour id="1" />数据管理<colour id="65535" />，
-选择<colour id="1" />删除保存数据<colour id="65535" />。
-<anim id="Explain" target="actor" targetSpec="" />但是，<delay20 />无法只删除
+<tag a="110" b="1" />的数据时<tag a="110" b="0" /><pageBreak /><anim id="Serious" target="actor" targetSpec="" />只能从Nintendo Switch的<delay20 />
+HOME菜单的<colour id="1" />设置 <colour id="65535" />＞ <colour id="1" />数据管理<colour id="65535" />，<delay8 />
+选择<colour id="1" />删除保存数据<colour id="65535" />。<pageBreak /><anim id="Explain" target="actor" targetSpec="" />但是，<delay20 />无法只删除
 <tag a="110" b="1" />的数据狸。<pageBreak /><anim id="Serious" target="actor" targetSpec="" />要删除<tag a="110" b="1" />的数据，<delay8 />
 就要<colour id="1" />删除此软件的所有保存数据<colour id="65535" />，
-将《<colour id="1" />集合啦！动物森友会<colour id="65535" />》的全部数据<tag a="110" b="0" /><pageBreak /><anim id="Worried" target="actor" targetSpec="" />也就是说，<delay20 />必须将
+将《<colour id="2" />集合啦！动物森友会<colour id="65535" />》的全部数据<tag a="110" b="0" /><pageBreak /><anim id="Worried" target="actor" targetSpec="" />也就是说，<delay20 />必须将
 <tag a="110" b="34" />本身删除狸。　</message>
 	<message label="071_02" attrib="00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />无论如何都想删除
-岛民代表的数据时<tag a="110" b="0" /><pageBreak /><anim id="Serious" target="actor" targetSpec="" />只能从Nintendo Switch的
-HOME菜单的<colour id="1" />设置 <colour id="65535" />＞ <colour id="1" />数据管理<colour id="65535" />，
-选择<colour id="1" />删除保存数据<colour id="65535" />。
-<anim id="Explain" target="actor" targetSpec="" />但是，<delay20 />无法只删除
+岛民代表的数据时<tag a="110" b="0" /><pageBreak /><anim id="Serious" target="actor" targetSpec="" />只能从Nintendo Switch的<delay20 />
+HOME菜单的<colour id="1" />设置 <colour id="65535" />＞ <colour id="1" />数据管理<colour id="65535" />，<delay8 />
+选择<colour id="1" />删除保存数据<colour id="65535" />。<pageBreak /><anim id="Explain" target="actor" targetSpec="" />但是，<delay20 />无法只删除
 岛民代表的数据狸。<pageBreak /><anim id="Serious" target="actor" targetSpec="" />要删除岛民代表的数据，<delay8 />
 就要<colour id="1" />删除此软件的所有保存数据<colour id="65535" />，
-将《<colour id="1" />集合啦！动物森友会<colour id="65535" />》的全部数据<tag a="110" b="0" /><pageBreak /><anim id="Worried" target="actor" targetSpec="" />也就是说，<delay20 />必须将
+将《<colour id="2" />集合啦！动物森友会<colour id="65535" />》的全部数据<tag a="110" b="0" /><pageBreak /><anim id="Worried" target="actor" targetSpec="" />也就是说，<delay20 />必须将
 <tag a="110" b="34" />本身删除狸。　</message>
 	<message label="101" attrib="00 00 00 00">要删除民居登记狸。</message>
 	<message label="102" attrib="01 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" /><tag a="110" b="0" />因此，<delay20 />

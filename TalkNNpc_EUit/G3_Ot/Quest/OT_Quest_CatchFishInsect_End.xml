@@ -6,9 +6,9 @@ quest'esemplare si è conclusa!</message>
 	<message label="003" attrib="00 00 00 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="50" b="2" /><tag a="125" b="0" arg="0x0" />! <delay40 /><anim id="Smiling" target="actor" targetSpec="" />Sapevo che prima o poi ce l'avresti fatta!</message>
 	<message label="004" attrib="00 00 02 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="50" b="2" /><tag a="125" b="0" arg="0x0" />?! <delay40 /><anim id="QuestionMark" target="actor" targetSpec="" />Un esemplare di valore<delay8 /> inestimabile, per me?</message>
 	<message label="004_a" attrib="00 00 00 00 00 00 00 00">Certo!
-È per te!</message>
-	<message label="004_b" attrib="00 00 00 00 00 00 00 00">Ridammelo!
-Ripensandoci...</message>
+<anim id="EmotEnd" target="actor" targetSpec="" />È per te!</message>
+	<message label="004_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Ridammelo!
+<anim id="EmotEnd" target="actor" targetSpec="" />Ripensandoci...</message>
 	<message label="005" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Non hai idea di quanto sia felice!<delay frames="40" />
 <anim id="Love" target="actor" targetSpec="" />Non starò sognando? <delay8 />Dammi un
 pizzicotto!</message>
@@ -45,9 +45,9 @@ che ami poggiarsi sui ceppi d'albero.</message>
 	<message label="023" attrib="00 00 00 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="50" b="2" /><tag a="125" b="0" arg="0x0" />! <delay frames="40" /><anim id="Smiling" target="actor" targetSpec="" />Che meraviglia! <anim id="Smiling" target="actor" targetSpec="" />Sono così felice di aver chiesto proprio a te!</message>
 	<message label="024" attrib="00 00 02 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="50" b="2" /><tag a="125" b="0" arg="0x0" />?! <delay frames="40" />Un esemplare così prezioso<tag a="110" b="0" /> per me? <delay20 />Veramente?</message>
 	<message label="024_a" attrib="00 00 00 00 00 00 00 00">Certo!
-Tutto per te!</message>
-	<message label="024_b" attrib="00 00 00 00 00 00 00 00">Ehm, ci ho ripensato.
-In effetti... me lo tengo.</message>
+<anim id="EmotEnd" target="actor" targetSpec="" />Tutto per te!</message>
+	<message label="024_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Ehm, ci ho ripensato.
+<anim id="EmotEnd" target="actor" targetSpec="" />In effetti... me lo tengo.</message>
 	<message label="025" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Non hai idea di quanto mi renda
 felice!<delay frames="40" /> <anim id="Love" target="actor" targetSpec="" />È vero <delay8 />o sto sognando? <delay8 />Non
 importa. Ora è qui! <delay8 />Che bello!</message>
@@ -123,12 +123,12 @@ più che bene.
 <anim id="Explain" target="actor" targetSpec="" />Ma ricordati di pescare senza
 muoverti troppo.<delay frames="40" /> <anim id="OhGeez" target="actor" targetSpec="" />Se ti agiti, i pesci
 <delay8 />scapperanno via.<delay frames="40" /> <anim id="FaintSmile" target="actor" targetSpec="" />In bocca al lupo!</message>
-	<message label="201" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Spero proprio che tu riesca a trovare <tag a="50" b="2" /><tag a="125" b="2" arg="0xcd00" />,<delay8 /> tesoro.<delay frames="40" /> <anim id="FaintSmile" target="actor" targetSpec="" />Non vedo l'ora!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Ce ne potrebbe essere qualcun<tag a="50" b="17" arg="0x13 0xcd00 0x2 0x6f 0x2 0x61 0x0" /> su
+	<message label="201" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Spero proprio che tu riesca a trovare <tag a="50" b="2" /><tag a="125" b="2" arg="0xcd00" />,<delay8 /> tesoro.<delay frames="40" /> <anim id="FaintSmile" target="actor" targetSpec="" />Non vedo l'ora!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Ce ne potrebbe essere qualcun<tag a="50" b="17" arg="0x14 0xcd00 0x2 0x6f 0x2 0x61 0x0" /> su
 un albero,<delay8 /> quindi prova a cercare lì.<delay frames="40" /><pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Ma ti avviso,<delay8 /><anim id="Serious" target="actor" targetSpec="" /> devi avvicinarti molto
 lentamente!</message>
 	<message label="202" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Mi auguro che tu riesca a trovarmi
 <tag a="50" b="2" /><tag a="125" b="2" arg="0xcd00" />,<delay8 />
-tesoro. Non vedo l'ora!<pageBreak /><anim id="Thinking" target="actor" targetSpec="" />Potresti trovarne qualcun<tag a="50" b="17" arg="0x13 0xcd00 0x2 0x6f 0x2 0x61 0x0" /> che
+tesoro. Non vedo l'ora!<pageBreak /><anim id="Thinking" target="actor" targetSpec="" />Potresti trovarne qualcun<tag a="50" b="17" arg="0x14 0xcd00 0x2 0x6f 0x2 0x61 0x0" /> che
 saltella fra l'erba.<delay frames="50" /> Ma fai attenzione!<delay8 />
 <anim id="Serious" target="actor" targetSpec="" />Avvicinati con cautela!</message>
 	<message label="203" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Conto sul tuo aiuto per avere <tag a="50" b="2" /><tag a="125" b="2" arg="0xcd00" />,<delay8 /> tesoro.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Quegli insetti non stanno sempre

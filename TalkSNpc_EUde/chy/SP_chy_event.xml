@@ -55,7 +55,7 @@ vorbereitet bist!</message>
 nur schnell im Reliquiar stöbern<tag a="110" b="0" /></message>
 	<message label="012" attrib="00 00 00 00"><anim id="Pardon" target="actor" targetSpec="" /><size value="150" />TA-<delay8 />DAAA!<delay20 /><size value="100" />
 <tag a="50" b="3" /><tag a="50" b="2" /><tag a="125" b="4" arg="0x0" />!<delay20 />
-Ist <tag a="50" b="17" arg="0x15 0xcd00 0x4 0x65 0x72 0x6 0x73 0x69 0x65 0x4 0x65 0x73" /> nicht atemberaubend?</message>
+Ist <tag a="50" b="17" arg="0x16 0xcd00 0x4 0x65 0x72 0x6 0x73 0x69 0x65 0x4 0x65 0x73" /> nicht atemberaubend?</message>
 	<message label="013" attrib="00 00 00 00"><anim id="SmugFace" target="actor" targetSpec="" />Ich habe alle Ecken der Welt durch-
 forstet, <delay8 />um die fühlerige Erhabenheit
 der Insekten richtig zu würdigen.
@@ -175,9 +175,9 @@ kostet <colour id="1" /><tag a="90" b="21" arg="0x2" /><colour id="65535" />.</m
 	<message label="029_a" attrib="00 00 00 00">Ich will teilnehmen!</message>
 	<message label="029_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Momentan nicht...</message>
 	<message label="030" attrib="02 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Gut,<delay20 /> möchtest du am <colour id="1" />Insektikus-
-Turnier<colour id="65535" /> teilnehmen?<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Die erste Teilnahme ist kostenfrei,<delay8 />
-falls dir das dein Entscheidung
-erleichtern sollte.</message>
+Turnier<colour id="65535" /> teilnehmen?<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Die erste Teilnahme heute ist
+kostenfrei,<delay8 /> falls dir das deine
+Entscheidung erleichtern sollte.</message>
 	<message label="030_a" attrib="00 00 00 00">Ich will teilnehmen!</message>
 	<message label="030_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Momentan nicht...</message>
 	<message label="031" attrib="00 00 00 00"><anim id="Cheering" target="actor" targetSpec="" />Bis <colour id="1" /><tag a="90" b="37" arg="0xcd01" />:00 Uhr <colour id="65535" />hast du die einmalige
@@ -217,8 +217,8 @@ als Krabbeltier-Künstler bekannt.<pageBreak /><anim id="Blushing" target="actor
 anstaltungen, <delay20 /><anim id="AbsentMindedness" target="actor" targetSpec="" />zum <colour id="1" />Insektikus-Turnier<colour id="65535" />
 wurde ich jedoch surrend berufen!
 <anim id="Greeting" target="actor" targetSpec="" />Du solltest daran teilnehmen!<delay20 /><anim id="Nodding" target="actor" targetSpec="" />
-Es öffnet uns das Tor in ein fast
-schon außerweltliches Reich!</message>
+Bis <colour id="1" /><tag a="90" b="37" arg="0xcd01" />:00 Uhr <colour id="65535" />kannst du diese
+faszinierende Welt erkunden.</message>
 	<message label="037" attrib="00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Die Grenze zwischen unserer Welt
 und dem Reich der Insekten ist
 heute am durchlässigsten!
@@ -292,7 +292,7 @@ Preis, <delay8 />und ich garantiere für jedes
 Krabbeltier ein glückliches Zuhause!</message>
 	<message label="049_a" attrib="00 00 00 00">Käfer verkaufen!</message>
 	<message label="049_b" attrib="00 00 00 00">Punkte einlösen!</message>
-	<message label="049_c" attrib="00 00 00 00">Etwas anderes...</message>
+	<message label="049_c" attrib="00 00 00 00">Wegen des Turniers...</message>
 	<message label="049_d" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Danke, jetzt nicht...</message>
 	<message label="050" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />N-<delay8 />natürlich, <delay20 />absolut!
 <delay20 /><anim id="QuestionMark" target="actor" targetSpec="" />Von welchem Krabbeltier
@@ -349,10 +349,18 @@ versuchen sollte, <delay8 />Insekten mit
 bloßen Händen zu fangen.</message>
 	<message label="061" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Oh!<delay20 /> Ähm, <delay8 />das ist mir äußerst
 unangenehm<tag a="110" b="0" /><delay20 /> Aber du hast nicht
-genügend Sternis in deinem Besitz.<pageBreak /><anim id="Worried" target="actor" targetSpec="" />Die Teilnahmegebühr beträgt nach
+genügend Sternis in deinem Besitz.<pageBreak /><anim id="Worried" target="actor" targetSpec="" />Komm bitte wieder, wenn du
+<colour id="1" /><tag a="90" b="21" arg="0x2" /><colour id="65535" /> zusammengekratzt
+hast.<delay20 /> Entschuldige!</message>
+	<message label="062" attrib="02 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Oh,<delay8 /> das freut mich. <delay frames="40" />Jedes Krabbel-
+viech zählt. <delay20 /><anim id="Hesitate" target="actor" targetSpec="" />Es muss nicht mal
+krabbeln. <delay20 />Schwirren geht auch.
+<anim id="Worried" target="actor" targetSpec="" />Die Teilnahmegebühr beträgt nach
 der kostenfreien Kennenlernrunde
-<colour id="1" /><tag a="90" b="21" arg="0x2" /><colour id="65535" />.<delay20 /> Entschuldige!</message>
-	<message label="062" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Oh,<delay8 /> das freut mich.
+<colour id="1" /><tag a="90" b="21" arg="0x2" /><colour id="65535" />.<delay20 /> In Ordnung?</message>
+	<message label="062_a" attrib="00 00 00 00">Klaro!</message>
+	<message label="062_b" attrib="00 00 00 00">Muss nicht sein...</message>
+	<message label="062_01" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Oh,<delay8 /> das freut mich.
 <delay20 />Das macht dann <colour id="1" /><tag a="90" b="21" arg="0x2" /><colour id="65535" />.</message>
 	<message label="063" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Gut. Du hast <colour id="1" /><tag a="90" b="0" arg="0xe" /> Minuten<colour id="65535" />, <delay8 />um so viele
 Insekten wie möglich zu fangen.<delay20 /> <anim id="Eh" target="actor" targetSpec="" />Ab
@@ -372,8 +380,8 @@ dass du eine erleuchtende Erfahrung
 von <tag a="115" b="0" arg="0xcd00" /><anim id="Blushing" target="actor" targetSpec="" /> strotzt noch vor heiliger Insektenenergie<tag a="110" b="0" /><pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Jeder Spieler muss seinen<colour id="1" /> Insekten-
 käfig<colour id="65535" /> leeren,<delay8 /> bevor wir eine weitere
 Runde beginnen können. <delay20 /><anim id="Worried" target="actor" targetSpec="" />Tut mir leid.
-<anim id="OhGeez" target="actor" targetSpec="" />Würdest du <tag a="115" b="0" arg="0xcd00" /> sagen<tag a="110" b="0" /><delay20 /> dass spektakuläre Krabbelfreunde auf <tag a="50" b="17" arg="0xd 0xcd00 0x6 0x69 0x68 0x6e 0x6 0x73 0x69 0x65 0x0" /> warten?<pageBreak /><anim id="Hello" target="actor" targetSpec="" />Ich wäre übrigens ein freudiger
-Abnehmer und würde <tag a="50" b="17" arg="0xd 0xcd00 0x6 0x69 0x68 0x6e 0x6 0x73 0x69 0x65 0x0" /> natürlich
+<anim id="OhGeez" target="actor" targetSpec="" />Würdest du <tag a="115" b="0" arg="0xcd00" /> sagen<tag a="110" b="0" /><delay20 /> dass spektakuläre Krabbelfreunde auf <tag a="50" b="17" arg="0xe 0xcd00 0x6 0x69 0x68 0x6e 0x6 0x73 0x69 0x65 0x0" /> warten?<pageBreak /><anim id="Hello" target="actor" targetSpec="" />Ich wäre übrigens ein freudiger
+Abnehmer und würde <tag a="50" b="17" arg="0xe 0xcd00 0x6 0x69 0x68 0x6e 0x6 0x73 0x69 0x65 0x0" /> natürlich
 entsprechend fürstlich entlohnen!</message>
 	<message label="067" attrib="00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Spürst du das? <delay20 /><anim id="AbsentMindedness" target="actor" targetSpec="" />Ein <colour id="1" />Insektenkäfig<colour id="65535" />
 strahlt voller insektomenaler Energie!<delay20 />
@@ -655,6 +663,37 @@ Somit erhalten alle einen Bonus.<pageBreak /><anim id="Nodding" target="actor" t
 hast,<delay20 /> ergibt das nach Zusammen-
 rechnen aller Boni<tag a="110" b="0" /><pageBreak /><anim id="Shocked" target="actor" targetSpec="" />Insektomenal!<delay frames="30" /><anim id="BigSmile" target="actor" targetSpec="" /> Das sind ja dann
 insgesamt unglaubliche <colour id="1" /><tag a="90" b="2" arg="0x7" /> Punkte<colour id="65535" />!</message>
+	<message label="151" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Im <colour id="1" />Insektenkäfig <colour id="65535" /><50_8 x="0" y="8" a="sind" b="ist" c="sind" /> insgesamt
+<colour id="1" /><tag a="90" b="1" arg="0x8" /> <colour id="65535" /><50_8 x="0" y="8" a="Exemplare" b="Exemplar" c="Exemplare" /> gelandet<tag a="110" b="0" /><delay frames="40" /> <anim id="FaintSmile" target="actor" targetSpec="" />Eine
+außerordentliche Geschwindigkeit!
+<anim id="Explain" target="actor" targetSpec="" />Mehr als 20 sollte man nicht auf
+kleinem Raum allein lassen, <delay20 /><anim id="Surprised" target="actor" targetSpec="" />sonst
+starten sie eine Verschwörung!
+<anim id="Hesitate" target="actor" targetSpec="" />Deshalb habe ich ein paar Insassen
+des <colour id="1" />Insektenkäfigs<colour id="65535" /> freigelassen.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Glaub mir, <delay8 />es ist zu unser aller
+Bestem,<delay20 /><anim id="ShyBoy" target="actor" targetSpec="" /> also weine ihnen bitte
+nicht allzu viele Tränen nach.
+<anim id="Eh" target="actor" targetSpec="" />Punkte bekommst du natürlich!<delay frames="40" />
+<anim id="Thinking" target="actor" targetSpec="" />Und zwar <colour id="1" /><tag a="90" b="1" arg="0x8" /><colour id="65535" />,<delay20 /> plus den Bonus
+für <colour id="1" /><tag a="90" b="1" arg="0x4" /> oder mehr<colour id="65535" /> Tierchen<tag a="110" b="0" />
+<anim id="Silent" target="actor" targetSpec="" />Insgesamt also <colour id="1" /><tag a="90" b="2" arg="0x7" /> <50_8 x="0" y="7" a="Punkte" b="Punkt" c="Punkte" /><colour id="65535" />!</message>
+	<message label="152" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Im <colour id="1" />Insektenkäfig <colour id="65535" /><50_8 x="0" y="8" a="sind" b="ist" c="sind" /> insgesamt
+<colour id="1" /><tag a="90" b="1" arg="0x8" /> <colour id="65535" /><50_8 x="0" y="8" a="Exemplare" b="Exemplar" c="Exemplare" /> gelandet<tag a="110" b="0" /><delay frames="40" /> <anim id="FaintSmile" target="actor" targetSpec="" />Eine
+außerordentliche Geschwindigkeit!
+<anim id="Explain" target="actor" targetSpec="" />Mehr als 20 sollte man nicht auf
+kleinem Raum allein lassen, <delay20 /><anim id="Surprised" target="actor" targetSpec="" />sonst
+starten sie eine Verschwörung!
+<anim id="Hesitate" target="actor" targetSpec="" />Deshalb habe ich ein paar Insassen
+des <colour id="1" />Insektenkäfigs<colour id="65535" /> freigelassen.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Glaub mir, <delay8 />es ist zu unser aller
+Bestem,<delay20 /><anim id="ShyBoy" target="actor" targetSpec="" /> also weine ihnen bitte
+nicht allzu viele Tränen nach.
+<anim id="Eh" target="actor" targetSpec="" />Punkte bekommst du natürlich!<delay20 />
+<anim id="Thinking" target="actor" targetSpec="" />Und zwar <colour id="1" /><tag a="90" b="1" arg="0x8" /><colour id="65535" />,<delay20 /> plus den Bonus
+für <colour id="1" /><tag a="90" b="1" arg="0x4" /> oder mehr<colour id="65535" /> Tierchen<tag a="110" b="0" />
+<tag a="110" b="0" />Alle Pilger,<delay8 /> ähm, <delay8 />Teilnehmer haben
+zusammen <colour id="1" /><tag a="90" b="2" arg="0x9" /> <50_8 x="0" y="9" a="Exemplare" b="Exemplar" c="Exemplare" /> <colour id="65535" />gefangen.<pageBreak /><anim id="Serious" target="actor" targetSpec="" />Das sind <colour id="1" /><tag a="90" b="1" arg="0xa" /> oder mehr<colour id="65535" /><tag a="110" b="0" /><delay20 />
+Somit kommt noch ein Bonus dazu.<pageBreak /><anim id="Silent" target="actor" targetSpec="" />Insgesamt wären wir also bei
+<colour id="1" /><tag a="90" b="2" arg="0x7" /> <50_8 x="0" y="7" a="Punkten" b="Punkt" c="Punkten" /><colour id="65535" />!</message>
 	<message label="160" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Der <colour id="1" />Insektenkäfig<colour id="65535" /> mit allen
 Exemplaren, <delay8 />die du gefangen
 hast,<delay8 /> steht hier im Pavillon.
@@ -732,8 +771,8 @@ den Larven – <delay20 /><anim id="Nodding" target="actor" targetSpec="" />das 
 <anim id="FaintSmile" target="actor" targetSpec="" />Um <colour id="1" /><tag a="90" b="37" arg="0xcd00" />:00 Uhr<colour id="65535" /> geht es los.<delay20 /> Spürt
 ihr schon das Kribbeln? <delay frames="40" /><anim id="Silent" target="actor" targetSpec="" />Überall auf
 eurer Haut?</message>
-	<message label="170" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Hat das heutige <colour id="1" />Insektikus-Turnier
-<colour id="65535" />euch bereichert? <delay20 /><anim id="Nodding" target="actor" targetSpec="" />Hat es euch eurem
+	<message label="170" attrib="00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />Ich hoffe, <delay8 />das <colour id="1" />Insektikus-Turnier <colour id="65535" />hat
+euch bereichert. <delay20 /><anim id="Nodding" target="actor" targetSpec="" />Hat es euch eurem
 inneren Insekt nähergebracht?</message>
 	<message label="171" attrib="06 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Wie geht es euch? <delay frames="40" /><anim id="Nodding" target="actor" targetSpec="" />Seid ihr bereit,<delay8 />
 euch der Herausforderung des

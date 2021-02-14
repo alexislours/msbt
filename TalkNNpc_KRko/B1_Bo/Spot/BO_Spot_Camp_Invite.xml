@@ -3,6 +3,10 @@
 <anim id="BigSmile" target="actor" targetSpec="" />너가 있으면 두 배로 즐거울 거 같아～<delay8 /><anim id="FaintSmile" target="actor" targetSpec="" /><pageBreak /><anim id="Smiling" target="actor" targetSpec="" />그럼<delay20 /> 내가 여기
 이사 와도 되는지<delay20 /> 이 <tag a="110" b="32" /> <colour id="1" />안내소<colour id="65535" />에
 얼른 물어보고 올게에～ <tag a="110" b="6" />!</message>
+	<message label="003" attrib="00 00 00 00 00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />조금 전까진 관두려고 했는데<delay20 />
+그렇게까지 권한다며언<tag a="110" b="0" /><delay frames="40" />
+<anim id="BigSmile" target="actor" targetSpec="" />그냥 이사 오지 뭐어～!<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />그럼 지금 바로<delay20 /> 내가 이사 와도 괜찮을지<delay20 />
+이 <tag a="110" b="32" /> <colour id="1" />안내소<colour id="65535" />에 물어보고 올게～ <tag a="110" b="6" />～</message>
 	<message label="101" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
 	<message label="101_01" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />어, <delay8 />진짜아?!<delay frames="40" />
 너한테<delay8 /> 그런 말을 듣게 될 줄이야<tag a="110" b="0" /><pageBreak /><anim id="Worried" target="actor" targetSpec="" />근데 <delay8 />이번에는 사양할게에<delay frames="40" />
@@ -70,24 +74,25 @@
 	<message label="205_03" attrib="00 00 00 00 00 00 00 00">아～ <delay8 />손에 땀 났어～!<delay frames="40" />
 <anim id="FaintSmile" target="actor" targetSpec="" />아쉽지마안 멋진 추억이 생겼어～ <tag a="110" b="6" />!</message>
 	<message label="206" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
-	<message label="206_01" attrib="00 00 00 00 00 00 00 00">그럼<tag a="110" b="0" /><delay20 /> <anim id="BigSmile" target="actor" targetSpec="" />너가 이겼네에～!<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />약속한 대로<delay20 /> 이 <tag a="110" b="32" />에
-이사 올게에～<pageBreak /><anim id="Greeting" target="actor" targetSpec="" />난 <tag a="110" b="10" /><gender5 m="이" f="" />야아!<delay frames="40" />
-<anim id="FaintSmile" target="actor" targetSpec="" />넌 <tag a="110" b="4" /><gender5 m="이" f="" />지이?<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />다음에 만나면<delay20 /> 나도 이 <tag a="110" b="32" /> 식구니까<delay frames="40" />
-반갑게 맞아주라아～ <tag a="110" b="6" />!</message>
+	<message label="206_01" attrib="00 00 00 00 00 00 00 00">그럼<tag a="110" b="0" /><delay20 /> <anim id="BigSmile" target="actor" targetSpec="" />너가 이겼네에～!<delay frames="40" />
+<anim id="Nodding" target="actor" targetSpec="" />약속한 대로<delay20 /> 이 <tag a="110" b="32" />에
+이사 올게에～<pageBreak /><anim id="Explain" target="actor" targetSpec="" />자, <delay20 />그럼 일단<delay8 />
+이사하겠다고 이야기하러<delay20 />
+<anim id="Greeting" target="actor" targetSpec="" /><colour id="1" />안내소<colour id="65535" />에 다녀올게에～! <tag a="110" b="6" />!</message>
 	<message label="206_02" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />그러엄 <delay20 />너가 이겼네에～!<delay frames="40" />
-<anim id="Smiling" target="actor" targetSpec="" />약속한 대로<delay8 /> 나
-<tag a="110" b="33" />에 이사 올게에!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />그럼 제대로 인사할게에!<delay frames="40" />
-나는 <tag a="110" b="10" /><gender5 m="이" f="" />라고 해<delay frames="40" />
-<anim id="Nodding" target="actor" targetSpec="" />너는 <tag a="110" b="4" /><gender5 m="이" f="" />구나아!<pageBreak /><anim id="ShyBoy" target="actor" targetSpec="" />사실 나 <delay8 />엄청 이 <tag a="110" b="32" />에 살고 싶어서<delay20 />
-너가 질까 봐<delay8 /> <anim id="Laughing" target="actor" targetSpec="" />얼마나 불안했는지
-몰라아～ <tag a="110" b="6" />!<anim id="FaintSmile" target="actor" targetSpec="" /></message>
+<anim id="Smiling" target="actor" targetSpec="" />약속한 대로<delay8 />
+<tag a="110" b="33" />에 이사 올게에!<pageBreak /><anim id="ShyBoy" target="actor" targetSpec="" />사실 나 <delay8 />엄청 이 <tag a="110" b="32" />에 살고 싶었어서<delay20 />
+너가 질까 봐<delay8 />
+<anim id="Laughing" target="actor" targetSpec="" />얼마나 불안했는지 몰라아～<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />그럼 <delay20 />지금 바로<delay8 />
+이사 허락을 받으러<delay20 />
+<anim id="Greeting" target="actor" targetSpec="" /><colour id="1" />안내소<colour id="65535" />에 갔다 올게에～! <tag a="110" b="6" />!</message>
 	<message label="206_03" attrib="00 00 00 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />너가 이겼어～!<delay frames="40" />
-<anim id="EmotEnd" target="actor" targetSpec="" />그러면<tag a="110" b="0" /> <delay20 /><anim id="BigSmile" target="actor" targetSpec="" />나 이 <tag a="110" b="32" />으로 이사 올게에～!<delay8 /><anim id="FaintSmile" target="actor" targetSpec="" /><pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />그럼 <delay20 />제대로 자기 소개를 해야겠다아<delay frames="40" />
-<anim id="Nodding" target="actor" targetSpec="" />넌 <tag a="110" b="4" /><gender5 m="이" f="" />라고 했지이?<delay frames="50" />
-<anim id="EmotEnd" target="actor" targetSpec="" />난 <tag a="110" b="10" /><gender5 m="이" f="" />야!<delay frames="40" /> <anim id="Greeting" target="actor" targetSpec="" />잘 부탁해～
-<anim id="Explain" target="actor" targetSpec="" />1초라도 빨리 이사 오고 싶으니깐<delay20 />
+<anim id="EmotEnd" target="actor" targetSpec="" />그 말은<tag a="110" b="0" /> <delay20 /><anim id="BigSmile" target="actor" targetSpec="" />이 <tag a="110" b="32" />에 내가
+이사 와야 한다는 말이네에!<delay8 /><anim id="FaintSmile" target="actor" targetSpec="" /><pageBreak /><anim id="Explain" target="actor" targetSpec="" />1초라도 빨리 이사 오고 싶으니깐<delay20 />
 가자마자 얼른 준비해야겠다아～<delay frames="40" />
-<anim id="FaintSmile" target="actor" targetSpec="" />쫌만 기다려줘어! <tag a="110" b="6" />!</message>
+<anim id="FaintSmile" target="actor" targetSpec="" />쫌만 기다려줘어!<pageBreak /><anim id="Shocked" target="actor" targetSpec="" /><tag a="110" b="0" />아, 근데 그 전에<delay20 />
+<anim id="EmotEnd" target="actor" targetSpec="" />먼저<delay8 /> 이사 신청을 하러<delay20 />
+<anim id="Greeting" target="actor" targetSpec="" /><colour id="1" />안내소<colour id="65535" />부터 가야겠다아～! <tag a="110" b="6" />!</message>
 	<message label="302" attrib="00 00 01 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />많이 기다렸지이～<delay frames="40" />
 이 <tag a="110" b="32" />의 <colour id="1" />안내소<colour id="65535" />에 물어보러 갔는데<delay8 />
 <anim id="Silent" target="actor" targetSpec="" /><delay20 />글쎄 있지이<tag a="110" b="0" /><pageBreak /><anim id="Explain" target="actor" targetSpec="" />이 <tag a="110" b="32" />에는 더 이상 <delay8 />새로
@@ -133,34 +138,22 @@
 가르쳐줘어～ <tag a="110" b="6" />!</message>
 	<message label="312" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />넘 신경 쓰지 마아～<delay frames="40" />
 그럼 이번엔 포기할게에, <tag a="110" b="6" />!</message>
-	<message label="402" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />나 왔어～<delay frames="40" />
-이 <tag a="110" b="32" />의 <colour id="1" />안내소<colour id="65535" />에 물어봤는데<delay8 />
-<anim id="Silent" target="actor" targetSpec="" /><delay20 />글쎄 있지이<tag a="110" b="0" /><pageBreak /><anim id="OhGeez" target="actor" targetSpec="" />나랑 쏙 빼닮은 애가<delay20 /> 이미 살고 있어서<delay20 />
-내가 이사 오는 건 좀<delay20 />
-<anim id="Worried" target="actor" targetSpec="" />힘들 것 같다지 뭐야아～<pageBreak /><anim id="Sighing" target="actor" targetSpec="" />아쉽지만 어쩔 수 없지이<delay frames="40" />
-<anim id="EmotEnd" target="actor" targetSpec="" />언젠가는 너랑 같은 <tag a="110" b="32" />에서<delay20 />
-살 수 있게 됐음 좋겠다아～ <tag a="110" b="6" />!</message>
-	<message label="403" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />기다렸지이～<delay frames="40" />
-이 <tag a="110" b="32" />의 <colour id="1" />안내소<colour id="65535" />에 물어봤는데<delay8 />
-<anim id="Silent" target="actor" targetSpec="" /><delay20 />글쎄 있지이<tag a="110" b="0" /><pageBreak /><anim id="OhGeez" target="actor" targetSpec="" />나랑 쏙 빼닮은 애가<delay20 />
-이미 이사 오기로 정해져서<delay20 />
-<anim id="Worried" target="actor" targetSpec="" />나는 안 될 것 같다지 뭐야아～<pageBreak /><anim id="Sighing" target="actor" targetSpec="" />아쉽지만 이번엔 포기해야지이<delay frames="40" />
-<anim id="EmotEnd" target="actor" targetSpec="" />언젠가는 너랑 같은 <tag a="110" b="32" />에서<delay20 />
-살게 될 날이 왔음 좋겠다아～ <tag a="110" b="6" />!</message>
+	<message label="313" attrib="00 00 01 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />신난다아!<delay frames="40" />
+<anim id="FaintSmile" target="actor" targetSpec="" />그럼 <tag a="115" b="1" arg="0xcd00" />한테<delay8 />
+<anim id="Hello" target="actor" targetSpec="" />부탁해볼까아?<pageBreak /><anim id="ShyBoy" target="actor" targetSpec="" />아까 <colour id="1" />안내소<colour id="65535" />에서<delay20 />
+걔라면 괜찮을지 모른다고<delay8 />
+가르쳐줬거드은<tag a="110" b="0" /> <tag a="110" b="6" /><tag a="110" b="0" /></message>
+	<message label="313_a" attrib="00 00 00 00 00 00 00 00">그래!</message>
+	<message label="313_b" attrib="00 00 00 00 00 00 00 00">그건 좀…</message>
+	<message label="314" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />앗～ <delay8 />그렇구나아<delay frames="40" />
+<anim id="EmotEnd" target="actor" targetSpec="" />그럼 어쩔 수 없지<delay frames="40" />
+<anim id="FaintSmile" target="actor" targetSpec="" />아쉽지만 포기하는 수밖에, <tag a="110" b="6" />～</message>
 	<message label="404" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />나 왔어～<delay frames="40" />
 이 <tag a="110" b="32" />의 <colour id="1" />안내소<colour id="65535" />에 물어봤는데<delay8 />
 <anim id="Silent" target="actor" targetSpec="" /><delay20 />글쎄 있지이<tag a="110" b="0" /><pageBreak /><anim id="OhGeez" target="actor" targetSpec="" />지금 주민만으로도 <tag a="110" b="32" />이 꽉 차서<delay20 />
 새로운 사람을 받을
 <anim id="Worried" target="actor" targetSpec="" />여유가 없다지 뭐야아～<tag a="110" b="0" />
 <anim id="Sighing" target="actor" targetSpec="" />아쉽지만 이번엔 포기해야겠어～<delay frames="40" />
-<anim id="EmotEnd" target="actor" targetSpec="" />언젠가는 너랑 같은 <tag a="110" b="32" />에서<delay20 />
-살 수 있었음 좋겠다아～ <tag a="110" b="6" />!</message>
-	<message label="405" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />나 왔어～<delay frames="40" />
-이 <tag a="110" b="32" />의 <colour id="1" />안내소<colour id="65535" />에 물어봤는데에<delay8 />
-<anim id="Silent" target="actor" targetSpec="" /><delay20 />글쎄 있지이<tag a="110" b="0" /><pageBreak /><anim id="OhGeez" target="actor" targetSpec="" />이 <tag a="110" b="32" />에는 이제<delay8 />
-새 집을 세울 자리가 없어서<delay20 />
-<anim id="Worried" target="actor" targetSpec="" />이사 오기 힘들 것 같다지 뭐야아～<tag a="110" b="0" />
-<anim id="Sighing" target="actor" targetSpec="" />아쉽지만 어쩔 수 없지이<delay frames="40" />
 <anim id="EmotEnd" target="actor" targetSpec="" />언젠가는 너랑 같은 <tag a="110" b="32" />에서<delay20 />
 살 수 있었음 좋겠다아～ <tag a="110" b="6" />!</message>
 	<message label="406" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />많이 기다렸지이～<delay frames="40" />
@@ -177,22 +170,10 @@
 	<message label="411" attrib="00 00 00 00 00 00 00 00"><anim id="ShyBoy" target="actor" targetSpec="" />그치이～?<delay frames="40" />
 그렇게 바로 바뀌진 않을 거야아<delay frames="40" />
 <anim id="FaintSmile" target="actor" targetSpec="" />이번엔 포기해야겠다아, <tag a="110" b="6" />!</message>
-	<message label="421" attrib="00 00 00 00 00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />이 <tag a="110" b="32" />에 <delay8 />나랑 닮은 애가<delay20 />
-살고 있을 줄은 <delay20 />몰랐네에<pageBreak /><anim id="Blushing" target="actor" targetSpec="" />그렇게 닮았나아～?<delay frames="40" />
-한번 만나보고 싶다아～<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />이 <tag a="110" b="32" />에 이사 하진 못하게 됐지마안<delay20 />
-<anim id="Hello" target="actor" targetSpec="" />너가 불러줘서 넘 기뻤어～! <tag a="110" b="6" />!</message>
-	<message label="422" attrib="00 00 00 00 00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />이 <tag a="110" b="32" />에<delay8 /> 나랑 닮은 애가
-이사 온다니 <delay20 />신기하다아～<delay frames="50" />
-<anim id="ShyBoy" target="actor" targetSpec="" />얼마나 닮았을지 궁금한거얼～<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />너네 <tag a="110" b="32" />에 이사는 못 하게 됐지마안<delay20 />
-<anim id="Hello" target="actor" targetSpec="" />이사 오라고 해줘서 넘 기뻤어～ <tag a="110" b="6" />!</message>
 	<message label="423" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />새 이웃을 못 받아줄 정도로<delay8 />
 친구들이 많이 사는 곳이었다니<delay20 />
 <anim id="FaintSmile" target="actor" targetSpec="" />엄청 시끌벅적하구 재밌겠다아～<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />이 <tag a="110" b="32" />에 이사 하진 못하게 됐지마안<delay20 />
 <anim id="Hello" target="actor" targetSpec="" />이사 오라고 해줘서 고마웠어～! <tag a="110" b="6" />!</message>
-	<message label="424" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />새로 집을 지을 자리가 없을 정도로<delay8 />
-건물이 많～이 있는 곳이라니이<delay20 />
-<anim id="FaintSmile" target="actor" targetSpec="" />꼭 커다란 도시 같다아～!<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />이 <tag a="110" b="32" />에 이사는 못 하게 됐지마안<delay20 />
-<anim id="Hello" target="actor" targetSpec="" />이사 오라고 해줘서 기뻤어～! <tag a="110" b="6" />!</message>
 	<message label="504" attrib="00 00 01 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />이 <tag a="110" b="32" /><delay20 /> 넘 좋다아～<delay frames="40" />
 <anim id="Nodding" target="actor" targetSpec="" />사람들도 다 친절하구<delay20 />
 <anim id="Smiling" target="actor" targetSpec="" />며칠이든 머물러도 될 거 같아～ <tag a="110" b="6" />!</message>

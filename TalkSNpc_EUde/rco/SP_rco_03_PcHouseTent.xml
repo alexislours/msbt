@@ -95,14 +95,14 @@ würde ich sagen!</message>
 verdienen.<pageBreak /><anim id="Cheering" target="actor" targetSpec="" />Ja, ja! <delay20 />Landschaftspflege verbessert
 das Erscheinungsbild unserer Insel
 und bringt sogar Meilen ein!</message>
-	<message label="107_09" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Und wenn du mehr Meilen sammeln
-möchtest...<pageBreak /><anim id="QuestionMark" target="actor" targetSpec="" />Dann kannst du das ganz einfach
-durch Einkaufen tun!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Ob du nun vor Ort oder über
-<colour id="1" />Nook Shopping <colour id="65535" />einkaufst,
+	<message label="107_09" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Und wenn du mehr Meilen sammeln
+möchtest<tag a="110" b="0" /><delay8 /> <anim id="Smiling" target="actor" targetSpec="" />dann kannst du das ganz
+einfach durch Einkaufen tun!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Ob du nun vor Ort oder über
+<colour id="1" />Nook Shopping <colour id="65535" />einkaufst,<delay8 />
 spielt dabei keine Rolle!
-<anim id="IdeaBulb" target="actor" targetSpec="" />Im Moment gibt es sogar Bonus-
-Meilen!<delay20 /><anim id="WrySmile" target="actor" targetSpec="" /> Das ist eine einmalige
-Sonderaktion, also sei dabei,<delay8 /> hm?</message>
+<anim id="Nodding" target="actor" targetSpec="" />Und hier bei uns gibt es zudem auch
+Meilen, <delay8 />wenn du dein altes Zeug
+wieder verkaufst! <delay20 /><anim id="Hello" target="actor" targetSpec="" />Einmalig, <delay8 />oder?</message>
 	<message label="108" attrib="00 00 00 00"><tag a="60" b="20" /></message>
 	<message label="108_01" attrib="00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />Nun, da du bereits die Gebühren
 für deinen Umzug beglichen hast...<delay20 />
@@ -161,9 +161,9 @@ gefunden. <delay20 />Den kannst du haben!</message>
 	<message label="140_03" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Schau doch mal, ob du damit etwas
 anfangen kannst,<delay8 /> hm? <delay20 /><anim id="Nodding" target="actor" targetSpec="" />Damit rückt
 die <colour id="1" />Wackelaxt <colour id="65535" />in greifbare Nähe!</message>
-	<message label="150" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Ich muss dir zuerst dafür danken,<delay8 />
-dass du all das Material für den
-Laden gesammelt hast!
+	<message label="150" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Ich muss dir dafür danken,<delay8 /> dass
+du all das Material für den Laden
+gesammelt hast!
 <anim id="Laughing" target="actor" targetSpec="" />Wahrscheinlich kannst du mir mehr
 Tipps zum Inselleben geben als ich
 dir!</message>
@@ -178,12 +178,11 @@ nichts Wichtiges an für dich,<delay8 />
 <tag a="110" b="1" />.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Wenn du meine Empfehlung hören
 möchtest:<delay8 /> <anim id="Smiling" target="actor" targetSpec="" />Eine kleine Einkaufstour
 hat noch niemandem geschadet!</message>
-	<message label="162" attrib="00 00 00 00"><anim id="HappyDance" target="actor" targetSpec="" />Ich stehe in Kontakt mit ein paar
+	<message label="162" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Ich stehe in Kontakt mit ein paar
 Leuten, <delay8 />die hierherziehen möchten,<delay frames="30" />
-daher bin ich grad sehr beschäftigt.
-<anim id="Nodding" target="actor" targetSpec="" />Ja, <delay8 />du wirst bald Nachbarn haben!<delay20 />
-<anim id="EmotEnd" target="actor" targetSpec="" />Ich nehme doch an,<delay8 /> du wirst sie <anim id="Smiling" target="actor" targetSpec="" />mit
-offenen Armen empfangen,<delay8 /> ja?</message>
+daher bin ich grad sehr beschäftigt.<anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Da das Interesse groß ist, <delay8 />habe ich
+<tag a="50" b="17" arg="0xd 0xcd00 0xe 0x75 0x6e 0x73 0x65 0x72 0x65 0x6e 0xc 0x75 0x6e 0x73 0x65 0x72 0x65 0x0" /> Inselsprecher<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x4 0x69 0x6e 0x0" /> <tag a="110" b="39" /> um Hilfe gebeten.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Vielleicht kannst du <tag a="50" b="17" arg="0xd 0xcd00 0x6 0x69 0x68 0x6e 0x6 0x73 0x69 0x65 0x0" /> ja mal
+fragen, <delay8 />wie es damit so läuft.</message>
 	<message label="163" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Oh! <delay20 />Übrigens:<delay frames="30" /><anim id="EmotEnd" target="actor" targetSpec="" /> Wusstest du, <delay8 />dass
 du am <colour id="1" />NookPortal<anim id="QuestionMark" target="actor" targetSpec="" /><colour id="65535" /> Meilen gegen
 <colour id="1" />Zaunanleitungen<colour id="65535" /> einlösen kannst?<pageBreak /><anim id="AbsentMindedness" target="actor" targetSpec="" />Mit Zäunen kannst du dein Haus
@@ -249,7 +248,7 @@ Meilen gesammelt hast.</message>
 vollständig beglichen!<delay20 /> Welch
 glücklicher Tag für uns beide, <delay8 />hm?
 <anim id="AbsentMindedness" target="actor" targetSpec="" />Ja, ja...<delay20 /> Du lebst schuldenfrei
-auf einer tropischen Insel...<delay20 />
+auf einer wunderschönen Insel...<delay20 />
 <anim id="QuestionMark" target="actor" targetSpec="" />Was könnte besser sein?
 <anim id="Shocked" target="actor" targetSpec="" />Oh!<delay frames="40" /> Das war keine rhetorische Frage!<delay20 />
 Lass sie mich umformulieren...<delay20 />
@@ -360,8 +359,7 @@ deiner Tasche für die fertige Angel!
 <anim id="Laughing" target="actor" targetSpec="" />Mit einer vollen Tasche kannst du
 dein Projekt ja schlecht mit nach
 Hause nehmen!</message>
-	<message label="921" attrib="00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />Ah, <tag a="110" b="1" />. <delay20 />Du hast das
-nötige Material gefunden, <delay8 />hm?<pageBreak /><anim id="BigSmile" target="actor" targetSpec="" />Also dann! <delay20 />Bauen wir uns eine <colour id="1" />Angel<colour id="65535" />!<delay20 />
+	<message label="921" attrib="00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />Ah, <tag a="110" b="1" />. <delay20 />Du hast das nötige Material gefunden, <delay8 />hm?<pageBreak /><anim id="BigSmile" target="actor" targetSpec="" />Also dann! <delay20 />Bauen wir uns eine <colour id="1" />Angel<colour id="65535" />!<delay20 />
 Ja, ja!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Wähle zum Anfangen ein Projekt an
 der <colour id="1" />Werkbank<colour id="65535" /> aus.<delay20 /> Versuch's mal!</message>
 	<message label="922" attrib="00 00 00 00"><anim id="Clapping" target="actor" targetSpec="" />Genau! <delay20 />Perfekt.<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Wie du siehst, <delay8 />ist <colour id="1" />Basteln <colour id="65535" />ganz

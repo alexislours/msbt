@@ -5,7 +5,7 @@
 	<message label="001_a" attrib="04 00 00 00 00 00 00 00">知道！</message>
 	<message label="001_b" attrib="05 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />是什么？</message>
 	<message label="002" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="23" arg="0xd 0xe 0xf 0xffff" /></message>
-	<message label="003" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x10 0x11 0xffff 0xffff" /></message>
+	<message label="003" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x1 0x10 0x11 0x12" /></message>
 	<message label="004" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />什么啊，原来你已经知道啦？<delay20 />
 <anim id="FaintSmile" target="actor" targetSpec="" />那就好。<delay frames="30" />
 <anim id="ShyBoy" target="actor" targetSpec="" />看来是我多事了。
@@ -36,10 +36,11 @@
 <anim id="Explain" target="actor" targetSpec="" />不过我相信这帐篷总有一天<delay8 />
 会变成一座宏伟的<colour id="1" />博物馆<colour id="65535" />，<delay20 />
 <anim id="Smiling" target="actor" targetSpec="" />到时候你一定要来看看啊！<tag a="110" b="6" />。</message>
-	<message label="017" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="2" arg="0x15 0x16 0x17 0x19" /></message>
+	<message label="017" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="3" arg="0x15 0x16 0x17 0x18 0x19" /></message>
 	<message label="021" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1c00 0x1900 0xcd00" /></message>
 	<message label="022" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1d01 0x1900 0xcd00" /></message>
 	<message label="023" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1e02 0x1900 0xcd00" /></message>
+	<message label="024" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1f03 0x1900 0xcd00" /></message>
 	<message label="025" attrib="00 00 00 00 00 00 00 00"><tag a="110" b="33" />的<colour id="1" />博物馆<colour id="65535" />啊……
 <anim id="Serious" target="actor" targetSpec="" />实话跟你说吧<tag a="110" b="0" /><delay20 />
 <anim id="Grin" target="actor" targetSpec="" />修建它的人非常用心的。
@@ -68,43 +69,36 @@
 <anim id="Nodding" target="actor" targetSpec="" />如果你还没看过的话，
 就去这座<tag a="110" b="32" />上的<colour id="1" />博物馆<colour id="65535" />逛逛吧。<delay20 />
 <anim id="Grin" target="actor" targetSpec="" /><tag a="110" b="0" />可别吓坏了哦？<tag a="110" b="6" />。</message>
-	<message label="101" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="0" arg="0x66 0x69" /></message>
-	<message label="102" attrib="00 00 02 00 00 00 00 00">你是不是<tag a="110" b="0" />
-差不多开始有点
-<anim id="Grin" target="actor" targetSpec="" />怀念起<tag a="110" b="33" />的生活了啊？</message>
-	<message label="102_a" attrib="67 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />有一点呢</message>
-	<message label="102_b" attrib="68 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />不会啊？</message>
-	<message label="103" attrib="00 00 00 00 00 00 00 00">喂喂，<delay8 /><anim id="Grin" target="actor" targetSpec="" />真的只是一点而已吗？<10_4 />
-<anim id="EmotEnd" target="actor" targetSpec="" /><tag a="110" b="0" />我是不会
-<anim id="Restless" target="actor" targetSpec="" />到处跟别人乱说的啦。
-<anim id="Nodding" target="actor" targetSpec="" />而且你本来也是这座<tag a="110" b="32" />的居民，<delay20 />
-<anim id="Smiling" target="actor" targetSpec="" />随时都欢迎你来玩啊！<tag a="110" b="6" />。</message>
-	<message label="104" attrib="00 00 00 00 00 00 00 00"><anim id="Surprised" target="actor" targetSpec="" />什么啊，你这家伙！<delay frames="40" />
-<anim id="OhGeez" target="actor" targetSpec="" />也太冷淡了吧<tag a="110" b="0" /><pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />不过这也说明，<delay20 />
-你在新的<tag a="110" b="32" />上过得也还不错吧。<delay20 />
-<anim id="Smiling" target="actor" targetSpec="" />既然如此，我就安心啦！<tag a="110" b="6" />。</message>
-	<message label="105" attrib="00 00 04 00 00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" /><tag a="110" b="3" />！<delay20 />
-<anim id="FaintSmile" target="actor" targetSpec="" />你在新的<tag a="110" b="32" />上过得还好吗？</message>
-	<message label="105_a" attrib="6a 00 00 00 00 00 00 00">一帆风顺哦！</message>
-	<message label="105_b" attrib="6b 00 00 00 00 00 00 00">还凑合吧</message>
-	<message label="105_c" attrib="6c 00 00 00 00 00 00 00">啊哈哈<tag a="110" b="0" /></message>
-	<message label="106" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />那真是太好了！<delay20 />
-虽然我<delay8 />本来就觉得<anim id="Nodding" target="actor" targetSpec="" />你就算是去了新的<tag a="110" b="32" />，
-应该也能过得顺风顺水就是了。<anim id="FaintSmile" target="actor" targetSpec="" />
-你偶尔也要像现在这样<delay8 />
-<anim id="Greeting" target="actor" targetSpec="" />来<tag a="110" b="33" />露个脸啊？<delay20 />
-<anim id="Smiling" target="actor" targetSpec="" />其他人也会很开心的！<tag a="110" b="6" />。</message>
-	<message label="107" attrib="00 00 00 00 00 00 00 00">哦～<delay8 />还凑合是吗。<delay20 />
-<anim id="Nodding" target="actor" targetSpec="" />总之，有照自己的步调在走的话，
-应该就没什么问题了吧？
-<anim id="EmotEnd" target="actor" targetSpec="" />像我啊，<delay20 />
-<anim id="ShyBoy" target="actor" targetSpec="" />也是随心所欲，自由自在地
-过着<delay8 />悠悠哉哉的每一天啊。<anim id="FaintSmile" target="actor" targetSpec="" /><tag a="110" b="6" />。</message>
-	<message label="108" attrib="00 00 00 00 00 00 00 00"><anim id="TakenAback" target="actor" targetSpec="" />哎呀<tag a="110" b="0" /><delay20 />
-我是不是问了
-<anim id="Confused" target="actor" targetSpec="" />不该问的问题啊？
-<anim id="EmotEnd" target="actor" targetSpec="" />感觉不顺心的时候，<delay8 />
-<anim id="FaintSmile" target="actor" targetSpec="" />可以花点时间在<tag a="135" b="6" arg="0xcd00" />上，
-转换一下心情哦！<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />喘一口气，<delay8 />给自己减轻一点心理负担吧！<delay20 />
-<anim id="Nodding" target="actor" targetSpec="" />适度的放松也是很有必要的哦。<tag a="110" b="5" />。</message>
+	<message label="201" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="0" arg="0xca 0xcd" /></message>
+	<message label="202" attrib="00 00 02 00 00 00 00 00">我说你啊，<delay8 />
+<anim id="WrySmile" target="actor" targetSpec="" />难道是因为<delay20 />太想见我了，<delay8 />
+所以才来<tag a="110" b="33" />的吗？</message>
+	<message label="202_a" attrib="cb 00 00 00 00 00 00 00">是啊</message>
+	<message label="202_b" attrib="cc 00 00 00 00 00 00 00">你想错了</message>
+	<message label="203" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />啊？！<delay8 />搞、搞什么啊！<delay frames="30" />
+<anim id="EmotEnd" target="actor" targetSpec="" />我只是随意问一问而已，<delay20 />
+<anim id="Blushing" target="actor" targetSpec="" />竟然得到了这么令人高兴的回应。<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />反正<delay8 />我这段时间都会在这座岛上的，<delay20 />
+<anim id="Smiling" target="actor" targetSpec="" />你随时都可以来找我！<tag a="110" b="6" />。</message>
+	<message label="204" attrib="00 00 00 00 00 00 00 00"><anim id="OhGeez" target="actor" targetSpec="" />哎，<delay8 />我就猜到是这样！<delay40 />
+<anim id="EmotEnd" target="actor" targetSpec="" />是我太傻了，<delay8 />才问出这样的问题。<pageBreak /><anim id="ShyBoy" target="actor" targetSpec="" />不过隔了这么长时间，<delay8 />
+终于能再看到你这张脸，<delay20 />
+<anim id="Hello" target="actor" targetSpec="" />我心里是很高兴的！<tag a="110" b="6" />。</message>
+	<message label="205" attrib="00 00 04 00 00 00 00 00">我说，<tag a="110" b="3" />，<delay frames="30" />
+在我离开之后，<delay20 />
+<anim id="QuestionMark" target="actor" targetSpec="" />岛上的大家过得还好吗？</message>
+	<message label="205_a" attrib="ce 00 00 00 00 00 00 00">挺好的！</message>
+	<message label="205_b" attrib="cf 00 00 00 00 00 00 00">普通吧</message>
+	<message label="205_c" attrib="d0 00 00 00 00 00 00 00">这个嘛<tag a="110" b="0" /></message>
+	<message label="206" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />是吗，<delay8 />这可太好了！<delay frames="30" />
+等你回去之后<delay8 />记得告诉大家，<delay20 />
+<anim id="Smiling" target="actor" targetSpec="" />我在这里也过得很好啊。<tag a="110" b="6" />。</message>
+	<message label="207" attrib="00 00 00 00 00 00 00 00"><anim id="ShyBoy" target="actor" targetSpec="" />这样啊，<delay8 />我就是有点在意，
+在我走了之后，<delay20 />
+是不是<delay8 />有发生什么变化。<pageBreak /><anim id="OhGeez" target="actor" targetSpec="" />这段时间，<delay8 />不知为何总是回忆起过去的事。<delay40 />
+<anim id="WrySmile" target="actor" targetSpec="" />哎，<delay8 />这大概就是所谓乡愁吧。<tag a="110" b="6" />。</message>
+	<message label="208" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />嗯？<delay20 />你这反应是什么意思？<delay frames="30" />
+<anim id="EmotEnd" target="actor" targetSpec="" />难道说大家都过得不好吗？<10_4 />
+<anim id="Angry" target="actor" targetSpec="" />啊哈，<delay8 />我看你是在戏弄我吧？<pageBreak /><anim id="WrySmile" target="actor" targetSpec="" />你大概<delay8 />还没有发现这一点，<delay20 />
+不过你一直都这样，说谎时会表现在脸上，<delay20 />
+<anim id="Laughing" target="actor" targetSpec="" />大家都看得清清楚楚哦！<tag a="110" b="6" />。</message>
 </msbt>

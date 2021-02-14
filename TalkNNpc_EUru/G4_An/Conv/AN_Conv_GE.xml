@@ -45,10 +45,10 @@
 поступай как знаешь.<pageBreak /><anim id="Scheming" target="actor" targetSpec="" />Но ты только представь, сколько
 новых подписчиков у тебя
 появится!</message>
-	<message label="014" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Хм...<20_2 arg="5" /><delay20 /> А ты права.<delay frames="40" /> <anim id="Thinking" target="actor" targetSpec="" />Мой хэштег
-взорвет Интернет<tag a="110" b="0" /><pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Ладно, ради своих фанатов я на все
+	<message label="014" attrib="00 00 00 00 00 00 00 00"><20_2 arg="5" /><anim id="Eh" target="actor" targetSpec="" />Хм...<delay20 /> А ты права.<delay frames="40" /> <anim id="Thinking" target="actor" targetSpec="" />Мой хэштег
+взорвет Интернет<anim id="EmotEnd" target="mainNpc" targetSpec="" /><tag a="110" b="0" /><pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Ладно, ради своих фанатов я на все
 готова. Я извинюсь.<delay frames="40" /> <anim id="HappyDance" target="actor" targetSpec="" />Ага,<delay20 /> будет
-<delay20 /><10_5 />круто<endTag a="10" b="5" /><delay20 />!</message>
+<delay20 />круто!<anim id="EmotEnd" target="actor" targetSpec="" /></message>
 	<message label="015" attrib="00 00 00 00 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Э<tag a="110" b="0" /><delay20 /> Взорвет, говоришь? <delay20 />Хэштеги
 и такое могут?<delay frames="40" /> <anim id="Frantic" target="actor" targetSpec="" />Я н-не знала, что
 они такие опасные! <tag a="50" b="3" /><tag a="110" b="5" />!</message>
@@ -66,7 +66,7 @@
 произошло.<delay20 /> Но кажется<tag a="110" b="0" /> я должна
 сказать тебе спасибо.</message>
 	<message label="020" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="110" b="3" />!</message>
-	<message label="021" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Что? <20_2 arg="8" />Тебе все равно?!<delay frames="40" /> <anim id="Frantic" target="actor" targetSpec="" />И как мне
+	<message label="021" attrib="00 00 00 00 00 00 00 00"><20_2 arg="4" /><anim id="Eh" target="actor" targetSpec="" />Что? <delay20 />Тебе все равно?!<20_2 arg="5" /><delay frames="40" /> <anim id="Frantic" target="actor" targetSpec="" />И как мне
 теперь быть, по-твоему? Я же
 должна быть в тренде!</message>
 	<message label="022" attrib="00 00 00 00 00 00 00 00"><20_3 arg="5" /><anim id="ShyBoy" target="actor" targetSpec="" />А что если не быть в тренде — это
@@ -75,12 +75,12 @@
 	<message label="101" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Не обижайся, но ты не смахиваешь
 на типичную жительницу острова.
 Тебе бы жить в большом городе!</message>
-	<message label="102" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Скромные корни — это так модно
-сейчас.<pageBreak /><anim id="HappyFlower" target="actor" targetSpec="" />Девушка родом из маленького
+	<message label="102" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Провинциальное происхождение —
+это сейчас так модно!<pageBreak /><anim id="HappyFlower" target="actor" targetSpec="" />Девушка родом из маленького
 островного городка совершает
 звездный дебют! Я прославлюсь!</message>
 	<message label="103" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Может, все же <tag a="110" b="8" /> —
-слишком скромные корни? Здешний
+слишком провинциально? Здешний
 стиль, наверное, далек от моды...</message>
 	<message label="104" attrib="00 00 00 00 00 00 00 00"><anim id="Scheming" target="actor" targetSpec="" />Вот еще! Я и в большом городе не
 собираюсь расставаться со стилем
@@ -103,12 +103,12 @@
 	<message label="108" attrib="00 00 00 00 00 00 00 00"><anim id="Serious" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="110" b="3" /> прав<gender2 m="" f="а" />.<delay frames="40" /> <anim id="OhGeez" target="actor" targetSpec="" />Может,
 жителям острова <tag a="110" b="8" />
 не понравится столько внимания.</message>
-	<message label="109" attrib="00 00 00 00 00 00 00 00"><anim id="Confused" target="actor" targetSpec="" />Только представь: отели, толпы
-туристов, шик и блеск! Кому это
-может не понравится?</message>
-	<message label="110" attrib="00 00 00 00 00 00 00 00"><anim id="HappyFlower" target="actor" targetSpec="" />Да-да-да! Жду не дождусь! На фото
-я должна выглядеть гламурно,
-<tag a="110" b="31" arg="0xcd00" />!</message>
+	<message label="109" attrib="00 00 00 00 00 00 00 00"><20_2 arg="7" /><anim id="Confused" target="actor" targetSpec="" />Только представь: отели,<delay20 /> толпы
+туристов, <delay20 />шик и блеск! <delay frames="40" />Кому это
+может не понравиться?<anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" /></message>
+	<message label="110" attrib="00 00 00 00 00 00 00 00"><20_2 arg="5" /><anim id="HappyDance" target="actor" targetSpec="" />Да-да-да! <delay20 />Жду не дождусь!<delay frames="40" />
+<20_2 arg="7" />На фото я должна выглядеть
+гламурно, <tag a="110" b="31" arg="0xcd00" />!<anim id="EmotEnd" target="actor" targetSpec="" /><anim id="EmotEnd" target="mainNpc" targetSpec="" /></message>
 	<message label="111" attrib="00 00 00 00 00 00 00 00"><anim id="OhGeez" target="actor" targetSpec="" />К твоему сведению, на моем
 фотоаппарате нет ничего, кроме
 неудачных снимков ног.</message>

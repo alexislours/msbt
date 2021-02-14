@@ -86,17 +86,17 @@
 <anim id="EmotEnd" target="actor" targetSpec="" />그 코디를 <anim id="QuestionMark" target="actor" targetSpec="" />봐도 될까요?</message>
 	<message label="028_a" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />오케이!</message>
 	<message label="028_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />조금만 기다려줘…</message>
-	<message label="029" attrib="00 00 00 00">알겠습니다<delay20 />
-나머지도 잘 부탁드려요<delay8 />
-저는 여기서 기다릴게요</message>
+	<message label="029" attrib="00 00 00 00">알겠습니다<delay frames="40" />
+<anim id="Nodding" target="actor" targetSpec="" />여기에서 기다릴 테니까<delay20 />
+잘 부탁드려요</message>
 	<message label="030" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />네, 부탁드려요<delay20 />
 전 여기서 기다리고 있을게요</message>
 	<message label="031" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />네, 얼마든지요<delay20 />
-전 여기 있을 테니<delay8 />
-나머지도 잘 부탁드려요</message>
-	<message label="032" attrib="00 00 00 00">그러고 보니<delay8 /> <tag a="140" b="3" arg="0xcd00" /> 이미지의 옷을
-아직 전해드리지 못했었죠<delay20 />
-참고용으로 드릴게요</message>
+전 여기 있을 테니까<delay8 />
+잘 부탁드려요</message>
+	<message label="032" attrib="00 00 00 00">그러고 보니<delay8 /> <tag a="140" b="3" arg="0xcd00" /> 이미지의 옷을<delay20 />
+<anim id="Nodding" target="actor" targetSpec="" />아직 전해드리지 못했었죠<delay frames="40" />
+<anim id="FaintSmile" target="actor" targetSpec="" />참고용으로<delay8 /> 드릴게요</message>
 	<message label="035" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />저기<tag a="110" b="0" /> <delay20 />혹시<delay20 />
 <anim id="Worried" target="actor" targetSpec="" />변신 지팡이로<delay8 /> 변신하고 계신가요?<pageBreak /><anim id="Negative" target="actor" targetSpec="" />확인 중에 변신이 풀리면 곤란하니까<delay frames="30" />
 <anim id="EmotEnd" target="actor" targetSpec="" />괜찮으시면 확인 전에<delay20 />
@@ -275,6 +275,32 @@
 	<message label="152" attrib="00 00 00 00">전 여러 지역을 돌아다니면서<delay8 />
 패션 공부를 하고 있어요<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />오늘은 <tag a="110" b="33" />에
 와봤는데<delay20 /> 개성 넘치는 분들이 많네요</message>
+	<message label="160" attrib="00 00 00 00">갈아입고 오셨군요<anim id="EmotEnd" target="actor" targetSpec="" /><10_4 />
+<tag a="110" b="0" /><anim id="Shocked" target="actor" targetSpec="" />어머? <delay20 />혹시 마이 디자인을
+활용한 옷을 입고 계신가요?<pageBreak /><anim id="Worried" target="actor" targetSpec="" />죄송하지만<delay8 />
+마이 디자인을 활용한 옷을 입고 계시면<delay20 />
+코디 평가를 정확하게 할 수 없어요<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />다른 옷으로 갈아입고<anim id="QuestionMark" target="actor" targetSpec="" /><delay8 />
+다시 보여주실 수 있나요?<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />그럼 부탁드려요</message>
+	<message label="161" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />갈아입고 오셨군요<10_4 />
+<tag a="110" b="0" /><anim id="Shocked" target="actor" targetSpec="" />어머? <delay20 />혹시 마이 디자인을
+활용한 옷을 입고 계신가요?<pageBreak /><anim id="Worried" target="actor" targetSpec="" />죄송하지만<delay8 />
+마이 디자인을 활용한 옷을 입고 계시면<delay20 />
+코디 평가를 정확하게 할 수 없어요<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />다른 옷으로 갈아입고<anim id="QuestionMark" target="actor" targetSpec="" /><delay8 />
+다시 보여주실 수 있나요?<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />그럼 부탁드려요</message>
+	<message label="164" attrib="02 00 00 00">코디가 완성되었다면<delay8 />
+<anim id="QuestionMark" target="actor" targetSpec="" />한번 봐도 될까요?</message>
+	<message label="164_a" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />좋아요</message>
+	<message label="164_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />아직 아니에요</message>
+	<message label="165" attrib="02 00 00 00">코디가 완성되었다면<delay8 />
+<anim id="QuestionMark" target="actor" targetSpec="" />한번 봐도 될까요?</message>
+	<message label="165_a" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />네!</message>
+	<message label="165_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />아직 아니에요</message>
+	<message label="166" attrib="02 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />코디가 완성되었다면
+<anim id="QuestionMark" target="actor" targetSpec="" />한번 봐도 될까요?</message>
+	<message label="166_a" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />오케이!</message>
+	<message label="166_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />조금만 기다려줘…</message>
 	<message label="200" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />이번에 부탁드리고 싶은 건<delay8 />
 <colour id="1" />파티 <colour id="65535" />코디예요<pageBreak />화려한 파티에 가게 됐을 때<delay8 />
 어떤 차림이 어울릴지 생각하면서
@@ -351,7 +377,7 @@
 별로 느껴지지 않네요<tag a="110" b="0" /><pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />하지만 그런 식으로 매치하는 것도
 생각해볼 만한 것 같아요<delay20 />
 참고할게요,<delay20 /> 감사합니데이!</message>
-	<message label="321" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" /><tag a="140" b="3" arg="0xcd00" /> 이미지가 살아있으면서도<delay8 />
+	<message label="321" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" /><tag a="140" b="3" arg="0xcd00" /> 이미지가 살아 있으면서도<delay8 />
 <tag a="110" b="1" />씨의 개성이
 느껴지는 코디네요<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />시야가 넓어진 것 같아요<delay20 />
 <anim id="BigSmile" target="actor" targetSpec="" />감사합니데이!</message>
@@ -364,7 +390,7 @@
 	<message label="323" attrib="00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />어머나!<delay20 />
 <anim id="Smiling" target="actor" targetSpec="" />이렇게 완벽한 코디는<delay20 />
 태어나서 처음 봐요!<pageBreak /><anim id="Love" target="actor" targetSpec="" />착용한 아이템 하나하나
-<tag a="140" b="3" arg="0xcd00" /> 이미지가 살아있어서<tag a="110" b="0" />
+<tag a="140" b="3" arg="0xcd00" /> 이미지가 살아 있어서<tag a="110" b="0" />
 아주 근사해요!<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />증말로 <tag a="110" b="1" />씨는
 센스가 보통이 아니시네예<delay20 />
 많이 배워갑니더!<delay20 /> <anim id="BigSmile" target="actor" targetSpec="" />감사합니데이!</message>

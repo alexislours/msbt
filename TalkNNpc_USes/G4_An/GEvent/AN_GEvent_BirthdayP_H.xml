@@ -42,7 +42,7 @@ suculento<tag a="110" b="0" /> ¡el regalo!</message>
 eligiendo regalos, <delay8 /><anim id="EmotEnd" target="actor" targetSpec="" />¡así que
 espero que te guste!</message>
 	<message label="017" attrib="00 00 00 00 00 00 00 00"><anim id="Cheering" target="actor" targetSpec="" />¡Feliz cumple, guapuraza!<pageBreak />Tiré la casa por la ventana para
-conseguirte esto<tag a="110" b="0" /> <anim id="SmugFace" target="actor" targetSpec="" />Pero <gender2 m="un" f="una" /> compi como tú, lo vale.</message>
+conseguirte esto<tag a="110" b="0" /> <anim id="SmugFace" target="actor" targetSpec="" />Pero <gender2 m="un" f="una" /> compi como tú, lo vale.<anim id="EmotEnd" target="actor" targetSpec="" /></message>
 	<message label="018" attrib="00 00 00 00 00 00 00 00"><anim id="WrySmile" target="actor" targetSpec="" />Ahora que ya terminamos con todas
 las formalidades cumpleañeriles<tag a="110" b="0" />
 ¡podemos seguir con el pachangón!
@@ -71,22 +71,22 @@ para pegarle a la piñata.
 	<message label="025" attrib="00 00 00 00 00 00 00 00"><anim id="Clapping" target="actor" targetSpec="" />¡Qué buena apaleada le propinaste!<delay8 />
 <anim id="Pardon" target="actor" targetSpec="" />¡Confiesa!<delay20 /> Estuviste entrenando,<delay8 />
 ¿verdad?
-Como sea<tag a="110" b="0" /> <anim id="EmotEnd" target="actor" targetSpec="" />¡Mira nada más todos los <tag a="50" b="0" arg="0x701 0xcd05" />pastelitos de cumpleaños que tienes,
+Como sea<tag a="110" b="0" /> <anim id="EmotEnd" target="actor" targetSpec="" />¡Mira nada más todos los <colour id="1" /><tag a="50" b="0" arg="0x701 0xcd05" />pastelitos de cumpleaños<colour id="65535" /> que tienes,
 <tag a="110" b="5" />!</message>
 	<message label="026" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Menos mal que no soy una piñata<tag a="110" b="0" /><delay20 />
 Por los palazos que le diste,<delay8 /> se ve
 que le tenías una tirria<tag a="110" b="0" />
 <anim id="Cheering" target="actor" targetSpec="" />¡Y ahora tienes un montón de
-<tag a="50" b="0" arg="0x701 0xcd05" />pastelitos de cumpleaños!</message>
+<colour id="1" /><tag a="50" b="0" arg="0x701 0xcd05" />pastelitos de cumpleaños<colour id="65535" />!</message>
 	<message label="027" attrib="00 00 00 00 00 00 00 00"><anim id="Cheering" target="actor" targetSpec="" />¡Adiós, piñata!<delay20 /><anim id="Scheming" target="actor" targetSpec="" /> Creo que en ninguna
 fiesta había visto una paliza piñatil
 tan tremenda<tag a="110" b="0" />
 ¡Y mira que yo he presenciado
-muchas!<pageBreak />Total, <anim id="Cheering" target="actor" targetSpec="" />¿qué te parecen tus <tag a="50" b="0" arg="0x701 0xcd05" />pastelitos de cumpleaños?<delay20 /> ¡A mí se me ocurrió
+muchas!<pageBreak />Total, <anim id="Cheering" target="actor" targetSpec="" />¿qué te parecen tus <colour id="1" /><tag a="50" b="0" arg="0x701 0xcd05" />pastelitos de cumpleaños<colour id="65535" />?<delay20 /> ¡A mí se me ocurrió
 meterlos ahí dentro!
 <anim id="ShyBoy" target="actor" targetSpec="" />Menos mal que salieron enteritos<tag a="110" b="0" /></message>
-	<message label="028" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />¡Estos <tag a="50" b="0" arg="0x701 0xcd05" />pastelitos de cumpleaños son muy deliciosos!<delay20 /> <anim id="FaintSmile" target="actor" targetSpec="" />No lo digo porque
-me haya comido uno, ¿eh?<delay20 /> <colour id="4" />Je, je<tag a="110" b="0" /><colour id="65535" /></message>
+	<message label="028" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />¡Estos <colour id="1" /><tag a="50" b="0" arg="0x701 0xcd05" />pastelitos de cumpleaños<colour id="65535" /> son muy deliciosos!<delay20 /> <anim id="FaintSmile" target="actor" targetSpec="" />No lo digo porque
+me haya comido uno, ¿eh?<delay20 /> <colour id="4" />(Je, je<tag a="110" b="0" />).<colour id="65535" /></message>
 	<message label="029" attrib="00 00 00 00 00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />Como que son muchos para ti sol<gender2 m="o" f="a" />,
 ¿no?<delay8 /> <anim id="BigSmile" target="actor" targetSpec="" />Avísame si necesitas ayuda
 para atiborrártelos.</message>
@@ -134,7 +134,7 @@ como esta.
 siguiente año, <tag a="110" b="5" />!</message>
 	<message label="104" attrib="00 00 00 00 00 00 00 00"><anim id="Scheming" target="actor" targetSpec="" />¿La estás pasando bien, <tag a="110" b="3" />?<delay20 /> ¡Más te vale porque es tu cumpleaños!</message>
 	<message label="105" attrib="00 00 00 00 00 00 00 00"><anim id="Dance" target="actor" targetSpec="" />¡Feliz cumpleaños a ti! 
-¡Te deseo aquí!<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Que comas mucho paste-el<tag a="110" b="0" /><delay8 /><anim id="Thinking" target="actor" targetSpec="" /> y<tag a="110" b="0" /><delay8 />
+¡Te deseo aquí!<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Que comas mucho paste-el<tag a="110" b="0" /><delay8 /> y<tag a="110" b="0" /><delay8 />
 <anim id="Clapping" target="actor" targetSpec="" />¡me compartas también!<pageBreak /><anim id="SmugFace" target="actor" targetSpec="" />¿Te gustó mi canción? <delay8 />¡Acabo
 de improvisarla, <tag a="110" b="5" />!</message>
 	<message label="106" attrib="00 00 00 00 00 00 00 00"><anim id="Scheming" target="actor" targetSpec="" />Bueno, ¿te gustó la decoración,

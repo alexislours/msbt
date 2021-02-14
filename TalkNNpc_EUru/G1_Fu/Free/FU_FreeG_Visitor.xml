@@ -4,7 +4,7 @@
 	<message label="001_a" attrib="04 00 00 00 00 00 00 00">Конечно, знаю.</message>
 	<message label="001_b" attrib="05 00 00 00 00 00 00 00">Нет, не знаю.</message>
 	<message label="002" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="23" arg="0xd 0xe 0xf 0xffff" /></message>
-	<message label="003" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x10 0x11 0xffff 0xffff" /></message>
+	<message label="003" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x1 0x10 0x11 0x12" /></message>
 	<message label="004" attrib="00 00 00 00 00 00 00 00"><anim id="Clapping" target="actor" targetSpec="" />Я впечатлена!<delay20 /> <anim id="FaintSmile" target="actor" targetSpec="" />Друзья всегда просят
 <delay20 />привезти им <tag a="50" b="23" arg="0xcd01" /><tag a="110" b="7" arg="0xcd01" /><delay8 /> с острова
 <tag a="110" b="8" /><delay8 /><tag a="110" b="0" /><pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Ты их тоже обязательно попробуй!</message>
@@ -27,10 +27,11 @@
 свой <colour id="1" />музей<colour id="65535" />!<pageBreak /><anim id="Hesitate" target="actor" targetSpec="" />Конечно, <delay20 />это пока только палатка<tag a="110" b="0" /><pageBreak /><anim id="Explain" target="actor" targetSpec="" />Но когда-нибудь он наверняка
 будет в настоящем здании с кучей
 экспонатов. <anim id="Nodding" target="actor" targetSpec="" />Уже жду не дождусь!</message>
-	<message label="017" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="2" arg="0x15 0x16 0x17 0x19" /></message>
+	<message label="017" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="3" arg="0x15 0x16 0x17 0x18 0x19" /></message>
 	<message label="021" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1c00 0x1900 0xcd00" /></message>
 	<message label="022" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1d01 0x1900 0xcd00" /></message>
 	<message label="023" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1e02 0x1900 0xcd00" /></message>
+	<message label="024" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1f03 0x1900 0xcd00" /></message>
 	<message label="025" attrib="00 00 00 00 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Ты уже был<gender2 m="" f="а" /> в нашем <colour id="1" />музее<colour id="65535" />?<10_4 />
 <anim id="Nodding" target="actor" targetSpec="" />Там очень много интересного.<anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak />Я часто ухожу туда на целый день,<delay20 />
 <anim id="FaintSmile" target="actor" targetSpec="" />чтобы спокойно все посмотреть!<delay20 />
@@ -46,33 +47,33 @@
 <colour id="1" />музее<colour id="65535" /> сейчас выставляют
 <anim id="Pardon" target="actor" targetSpec="" /><tag a="50" b="23" arg="0xcd01" /><tag a="135" b="13" arg="0x2" />?<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Весь остров гордится, <delay20 /><anim id="SmugFace" target="actor" targetSpec="" />что у нас есть
 такой экспонат.</message>
-	<message label="101" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="0" arg="0x66 0x69" /></message>
-	<message label="102" attrib="00 00 02 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Мы сейчас живем в разных городах,
-<anim id="Hesitate" target="actor" targetSpec="" />но ты иногда меня вспоминаешь,
-<tag a="110" b="3" />?</message>
-	<message label="102_a" attrib="67 00 00 00 00 00 00 00">Конечно!</message>
-	<message label="102_b" attrib="68 00 00 00 00 00 00 00">А... иногда...</message>
-	<message label="103" attrib="00 00 00 00 00 00 00 00"><anim id="HappyFlower" target="actor" targetSpec="" />Ой, как хорошо!<delay8 /> <anim id="Hesitate" target="actor" targetSpec="" />Я просто
+	<message label="201" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="0" arg="0xca 0xcd" /></message>
+	<message label="202" attrib="00 00 02 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Мы живем на разных островах,<delay20 /> но
+я надеюсь<tag a="110" b="0" /> <anim id="Hesitate" target="actor" targetSpec="" />что ты вспоминаешь
+обо мне иногда,<delay20 /> <tag a="110" b="3" />?</message>
+	<message label="202_a" attrib="cb 00 00 00 00 00 00 00">Ну конечно!</message>
+	<message label="202_b" attrib="cc 00 00 00 00 00 00 00">Да... бывает...</message>
+	<message label="203" attrib="00 00 00 00 00 00 00 00"><anim id="HappyFlower" target="actor" targetSpec="" />Ой, как хорошо!<delay8 /> <anim id="Hesitate" target="actor" targetSpec="" />Я просто
 переживала, что ты меня
-уже забыл<gender2 m="" f="а" />.<pageBreak /><anim id="Blushing" target="actor" targetSpec="" />Я даже уже стихи про те времена
+уже забыл<gender2 m="" f="а" />.<pageBreak /><anim id="Blushing" target="actor" targetSpec="" />Я уже даже стихи про те времена
 написала<tag a="110" b="0" /><delay20 /> <anim id="Worried" target="actor" targetSpec="" />Это странно?</message>
-	<message label="104" attrib="00 00 00 00 00 00 00 00"><anim id="Oops" target="actor" targetSpec="" />Ой!<delay frames="40" /> <anim id="Worried" target="actor" targetSpec="" />Понимаю.<10_4 /> <anim id="FaintSmile" target="actor" targetSpec="" />Наверное, это
-потому,<delay20 /> что у тебя сейчас очень
-насыщенная жизнь.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Я прочитала много статей о том,
-что стоит думать не о прошлом,<delay40 />
-а о будущем. <delay20 /><tag a="50" b="3" /><tag a="110" b="5" />!</message>
-	<message label="105" attrib="00 00 02 00 00 00 00 00"><anim id="Hesitate" target="actor" targetSpec="" />Извини, что я к тебе пристаю
+	<message label="204" attrib="00 00 00 00 00 00 00 00"><anim id="Oops" target="actor" targetSpec="" />Ой!<delay frames="30" /> <anim id="Worried" target="actor" targetSpec="" />Извини, что поставила тебя
+в неловкое положение.<delay frames="30" /> <anim id="FaintSmile" target="actor" targetSpec="" />Главное,
+чтобы настоящее нас радовало.<pageBreak /><anim id="Explain" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="110" b="5" />!<delay20 /> Я читала о том, что
+следует не тосковать по прошлому,<delay40 />
+а набираться новых впечатлений!</message>
+	<message label="205" attrib="00 00 02 00 00 00 00 00"><anim id="Hesitate" target="actor" targetSpec="" />Извини, что я к тебе пристаю
 с такими вопросами<tag a="110" b="0" /><delay8 /> <anim id="Pardon" target="actor" targetSpec="" />Но как
 ты считаешь, я изменилась?</message>
-	<message label="105_a" attrib="6a 00 00 00 00 00 00 00">Может, немного...</message>
-	<message label="105_b" attrib="6b 00 00 00 00 00 00 00">Нисколько!</message>
-	<message label="106" attrib="00 00 00 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Ты действительно заметил<gender2 m="" f="а" />?<10_4 />
+	<message label="205_a" attrib="ce 00 00 00 00 00 00 00">Может, немного...</message>
+	<message label="205_b" attrib="cf 00 00 00 00 00 00 00">Нисколько!</message>
+	<message label="206" attrib="00 00 00 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Ты действительно заметил<gender2 m="" f="а" />?<10_4 />
 <anim id="Clapping" target="actor" targetSpec="" />Ой,<delay20 /> это так здорово!<pageBreak /><anim id="ShyBoy" target="actor" targetSpec="" />Я пыталась исправить свою осанку,<delay20 />
 чтобы выглядеть более уверенной
 в себе. <anim id="Nodding" target="actor" targetSpec="" />Я про это статью читала<delay8 /><tag a="110" b="0" /><pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Поскольку ты меня хорошо знаешь,<delay20 />
 <anim id="HappyFlower" target="actor" targetSpec="" />я очень рада, <delay20 />что ты уже заметил<gender2 m="" f="а" />
 во мне изменения.</message>
-	<message label="107" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Рада это слышать!<pageBreak /><anim id="ShyBoy" target="actor" targetSpec="" />Я прочитала статью про осанку
+	<message label="207" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Рада это слышать!<pageBreak /><anim id="ShyBoy" target="actor" targetSpec="" />Я прочитала статью про осанку
 и начала беспокоиться, <delay8 /><anim id="Worried" target="actor" targetSpec="" />что
 я сутулюсь.<delay20 /> <tag a="50" b="3" /><tag a="110" b="5" />.<pageBreak /><anim id="Hesitate" target="actor" targetSpec="" />Я не хочу, чтобы все думали,
 что мне недостает уверенности

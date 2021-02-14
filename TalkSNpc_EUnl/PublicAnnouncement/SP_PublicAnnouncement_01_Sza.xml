@@ -5,7 +5,7 @@ van jullie tijd op het eiland!<pageBreak /><anim id="EmotEnd" target="actor" tar
 van stapel loopt, put je jezelf uit.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Zorg er dus voor dat je zo nu en dan
 een pauze neemt.<delay20 /> <anim id="Greeting" target="actor" targetSpec="" />Het is belangrijk
 om je rust te pakken!</message>
-	<message label="001" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Het is <tag a="110" b="18" /> <tag a="90" b="29" /> <tag a="90" b="28" /> <tag a="90" b="27" />, <tag a="90" b="33" />, hier op <tag a="110" b="8" />.<anim id="Smiling" target="actor" targetSpec="" /></message>
+	<message label="001" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Het is <tag a="110" b="18" /> <tag a="90" b="29" /> <tag a="90" b="28" /> <tag a="90" b="27" />, <tag a="90" b="33" /> uur, hier op <tag a="110" b="8" />.<anim id="Smiling" target="actor" targetSpec="" /></message>
 	<message label="001_01" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Goedemorgen, allemaal!</message>
 	<message label="001_02" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Hallo, allemaal!</message>
 	<message label="001_03" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Goedenavond, allemaal!</message>
@@ -94,6 +94,17 @@ het plein met zijn allen <colour id="1" />aftellen<colour id="65535" /> om
 zo het nieuwe jaar in te luiden!<10_7 arg="210" /><pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Dat begint al bijna, dus kom zo snel
 als je kunt naar het plein.<anim id="Greeting" target="actor" targetSpec="" /> Ik zie jullie
 daar!<10_7 arg="210" /></message>
+	<message label="008_01_01" attrib="00 00 00 00"><anim id="IdeaBulb" target="actor" targetSpec="" />En vergeet het niet! <delay40 /><anim id="HappyFlower" target="actor" targetSpec="" /><colour id="1" />Konijnendag<colour id="65535" /><delay8 />
+komt er weer aan gehuppeld!<anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak />Dat zal wel betekenen dat het weer
+binnenkort kan omslaan.<pageBreak /><anim id="AbsentMindedness" target="actor" targetSpec="" />Zijn we net gewend aan het ene
+seizoen, <delay20 /><anim id="Hello" target="actor" targetSpec="" />is het andere seizoen
+alweer in aantocht!</message>
+	<message label="008_01_02" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Ik hoop dat jullie er zin in hebben<tag a="110" b="0" /><delay20 /><anim id="HappyFlower" target="actor" targetSpec="" />
+want vandaag is het <colour id="1" />Konijnendag<colour id="65535" />!<delay frames="40" />
+Het plein trekt veel bekijks.<pageBreak /><anim id="QuestionMark" target="actor" targetSpec="" />Misschien hebben we wel een
+speciale gast?<delay40 /> <anim id="Scheming" target="actor" targetSpec="" />Hint, hint.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Er is vandaag sowieso <anim id="BigSmile" target="actor" targetSpec="" />een boel
+leuks te doen! <delay40 /><anim id="Nodding" target="actor" targetSpec="" />Dus zorg dat je
+even langsgaat op het plein!</message>
 	<message label="010" attrib="00 00 00 00"><anim id="Smiling" target="mainNpc" targetSpec="" />Hallo, allemaal.<delay40 /> Sorry voor deze
 plotselinge uitzending, maar ik dacht
 dat jullie wel interesse hadden<tag a="110" b="0" />
@@ -114,9 +125,9 @@ bewoners niet te feliciteren! Wat
 leuk dat er zoveel jarigen zijn!</message>
 	<message label="013_01" attrib="00 00 00 00"><anim id="Clapping" target="actor" targetSpec="" />Gefeliciteerd!</message>
 	<message label="013_02" attrib="00 00 00 00"><anim id="Clapping" target="actor" targetSpec="" />Gefeliciteerd!</message>
-	<message label="021" attrib="00 00 00 00">En dan nu de mededelingen van
-vandaag<tag a="110" b="0" /></message>
-	<message label="022" attrib="00 00 00 00">En dan nog wat mededelingen<tag a="110" b="0" /></message>
+	<message label="021" attrib="00 00 00 00">En dan nu het nieuws van vandaag<tag a="110" b="0" /></message>
+	<message label="022" attrib="00 00 00 00">En dan gaan we nu verder met het
+nieuws van vandaag<tag a="110" b="0" /></message>
 	<message label="031" attrib="00 00 00 00">En!</message>
 	<message label="101" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />We hebben een nieuwe bewoner!
 Laten we <tag a="115" b="1" arg="0xcd00" /> van harte welkom heten!</message>
@@ -146,7 +157,7 @@ onze gast te weten wilt komen!</message>
 	<message label="600_03" attrib="00 00 00 00"><anim id="IdeaBulb" target="actor" targetSpec="" />O!<delay20 /><anim id="Smiling" target="actor" targetSpec="" /> Dit moeten jullie horen!</message>
 	<message label="602" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Volgens het weerbericht <delay20 />staat ons
 vanavond iets superspeciaals te
-wachten:<delay8 /> <colour id="1" />vallende sterren<colour id="65535" />!<pageBreak /><anim id="AbsentMindedness" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="110" b="8" /> verlicht door een gloeiende hemel vol vallende sterren<tag a="110" b="0" /><delay40 /> <anim id="Love" target="actor" targetSpec="" />Dat wordt magisch!<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Als jullie vanavond tijd hebben, kom
+wachten:<delay8 /> <colour id="1" />vallende sterren<colour id="65535" />!<pageBreak /><anim id="AbsentMindedness" target="actor" targetSpec="" /><tag a="110" b="8" /> verlicht door een gloeiende hemel vol vallende sterren<tag a="110" b="0" /><delay40 /> <anim id="Love" target="actor" targetSpec="" />Dat wordt magisch!<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Als jullie vanavond tijd hebben, kom
 dan even naar buiten <delay8 />en kijk
 omhoog!</message>
 	<message label="603" attrib="00 00 00 00"><anim id="HappyFlower" target="actor" targetSpec="" />Jongens! Nu,<delay8 /> op dit exacte moment,
@@ -169,7 +180,7 @@ ze alleen in de zomer aan.</message>
 	<message label="611_02_01" attrib="00 00 00 00">Als je er zelf een paar zoekt, <anim id="HappyFlower" target="actor" targetSpec="" />heb je
 een perfect excuus om fijne zomer-
 creaties in elkaar te knutselen!</message>
-	<message label="611_02_02" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Ik heb iedereen met de<colour id="1" /> doe-het-zelf<colour id="65535" />-
+	<message label="611_02_02" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Ik heb iedereen met de<colour id="1" /> Doe-het-zelf<colour id="65535" />-
 app een plan voor een <colour id="1" />schelpenkrans
 <colour id="65535" />gestuurd. <delay20 /><anim id="Nodding" target="actor" targetSpec="" />Maak hem eens!</message>
 	<message label="611_03" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Dus ga er een paar zoeken en maak
@@ -193,7 +204,7 @@ wakker te schudden!</message>
 	<message label="612_02_01" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" /><delay20 />O! Nu ik er toch aan denk!</message>
 	<message label="612_02_02" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Ik heb een plan<delay8 /> voor een
 <colour id="1" />herfstfeestboompje<delay8 /> <colour id="65535" />naar iedereen
-met de <colour id="1" />doe-het-zelf<colour id="65535" />-app gestuurd!
+met de <colour id="1" />Doe-het-zelf<colour id="65535" />-app gestuurd!
 <anim id="Nodding" target="actor" targetSpec="" />Ik kijk ernaar uit om jullie bomen te
 zien!</message>
 	<message label="612_03" attrib="00 00 00 00"><anim id="Love" target="actor" targetSpec="" />Ik zou het zó leuk vinden als ik wat
@@ -205,7 +216,7 @@ paddenstoelen uit de grond schieten.<pageBreak /><anim id="Love" target="actor" 
 niet dat je ze ook in sommige
 doe-het-zelfplannen kunt gebruiken.</message>
 	<message label="613_02_01" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" /><delay20 />Nu ik het daar toch over heb!</message>
-	<message label="613_02_02" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Iedereen met de <colour id="1" />doe-het-zelf<colour id="65535" />-app
+	<message label="613_02_02" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Iedereen met de <colour id="1" />Doe-het-zelf<colour id="65535" />-app
 heeft als het goed is een plan voor
 een <colour id="1" />paddenstoelenkrans <colour id="65535" />ontvangen.
 <anim id="EmotEnd" target="actor" targetSpec="" />Geen herfst is compleet zonder te
@@ -226,7 +237,7 @@ te zien dansen.
 lucht met een <colour id="1" />net<colour id="65535" /> om ze in al hun
 glorie van dichtbij te zien.</message>
 	<message label="614_02_01" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" /><delay20 />O ja!</message>
-	<message label="614_02_02" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Iedereen met de <colour id="1" />doe-het-zelf<colour id="65535" />-app<delay8 />
+	<message label="614_02_02" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Iedereen met de <colour id="1" />Doe-het-zelf<colour id="65535" />-app<delay8 />
 heeft een plan voor een
 <colour id="1" />sneeuwvlokkenkrans<colour id="65535" /> ontvangen.<pageBreak />Dus als je net als ik graag
 <colour id="1" />sneeuwvlokken<colour id="65535" /> vangt,<delay8 /><anim id="BigSmile" target="actor" targetSpec="" /> kun je ze nu
@@ -256,7 +267,7 @@ bijna ten einde komt.<pageBreak /><anim id="Nodding" target="actor" targetSpec="
 kleurrijke tijd van het jaar,<delay8 /><anim id="Shaking" target="actor" targetSpec="" /> voor de
 winter komt!</message>
 	<message label="616_02_01" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" /><delay20 />Ah!</message>
-	<message label="616_02_02" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Degenen met de <colour id="1" />doe-het-zelf<colour id="65535" />-app
+	<message label="616_02_02" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Degenen met de <colour id="1" />Doe-het-zelf<colour id="65535" />-app
 zullen een nieuw plan voor een <colour id="1" />hoop
 rode bladeren<colour id="65535" /> zien. <delay20 />Graag gedaan!</message>
 	<message label="616_03" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Wist je dat het mogelijk is om
@@ -288,7 +299,7 @@ lentebamboe<colour id="65535" /> te oogsten?</message>
 	<message label="618_02_01" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" /><delay20 />Dat herinnert me eraan<tag a="110" b="0" /></message>
 	<message label="618_02_02" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" /><colour id="1" />Jonge lentebamboe <colour id="65535" />is nodig om een
 <colour id="1" />noedelwaterglijbaan <colour id="65535" />te maken. Het
-plan vind je in je <colour id="1" />doe-het-zelf<colour id="65535" />-app.<pageBreak /><anim id="Scheming" target="actor" targetSpec="" />Het is een exclusief project, dus
+plan vind je in je <colour id="1" />Doe-het-zelf<colour id="65535" />-app.<pageBreak /><anim id="Scheming" target="actor" targetSpec="" />Het is een exclusief project, dus
 sommige van de materialen zijn
 alleen in deze periode beschikbaar.</message>
 	<message label="618_03" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Nu ik eraan denk<tag a="110" b="0" /><delay20 /> wil ik jullie
@@ -520,7 +531,7 @@ wel welke ik bedoel.
 kletskousen!<pageBreak /><anim id="AbsentMindedness" target="actor" targetSpec="" />Ze blijven maar kletsen<tag a="110" b="0" /><delay20 /> en
 kletsen<tag a="110" b="0" /><delay20 /> en kletsen<tag a="110" b="0" /><delay20 /> en kletsen<tag a="110" b="0" /><delay20 /></message>
 	<message label="825" attrib="00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />O, ja! <delay40 /><anim id="QuestionMark" target="actor" targetSpec="" />Heeft iemand dat kook-
-programma gisteren ook gezien?<pageBreak /><anim id="Love" target="actor" targetSpec="" /><tag a="50" b="19" arg="0x1e 0xcd00 0x4 0x44 0x65 0x6 0x48 0x65 0x74 0x4 0x44 0x65" /> gekruide <tag a="135" b="3" arg="0xcd00" /> <tag a="50" b="19" arg="0x1e 0xcd00 0x6 0x64 0x69 0x65 0x6 0x64 0x61 0x74 0x6 0x64 0x69 0x65" /> ze daarin maakten, <tag a="50" b="19" arg="0x1e 0xcd00 0x6 0x7a 0x61 0x67 0xa 0x7a 0x61 0x67 0x65 0x6e 0x6 0x7a 0x61 0x67" /> er heerlijk uit!<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Ik zit eraan te denken om zoiets
+programma gisteren ook gezien?<pageBreak /><anim id="Love" target="actor" targetSpec="" /><tag a="50" b="19" arg="0x1f 0xcd00 0x4 0x44 0x65 0x6 0x48 0x65 0x74 0x4 0x44 0x65" /> gekruide <tag a="135" b="3" arg="0xcd00" /> <tag a="50" b="19" arg="0x1f 0xcd00 0x6 0x64 0x69 0x65 0x6 0x64 0x61 0x74 0x6 0x64 0x69 0x65" /> ze daarin maakten, <tag a="50" b="19" arg="0x1f 0xcd00 0x6 0x7a 0x61 0x67 0xa 0x7a 0x61 0x67 0x65 0x6e 0x6 0x7a 0x61 0x67" /> er heerlijk uit!<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Ik zit eraan te denken om zoiets
 vanavond ook te gaan maken.<delay20 />
 Hopelijk gaat dat goed!</message>
 	<message label="826" attrib="00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Heeft iemand die documentaire
@@ -551,8 +562,8 @@ me totaal ontschoten!<pageBreak /><anim id="OhGeez" target="actor" targetSpec=""
 	<message label="901" attrib="00 00 00 00"><tag a="60" b="20" /></message>
 	<message label="901_01" attrib="00 00 00 00">Dat was alles.<delay8 /> Ik hoop dat iedereen<delay8 />
 <anim id="Smiling" target="actor" targetSpec="" />een geweldig leuke dag heeft!</message>
-	<message label="901_02" attrib="00 00 00 00">Dat was het voor vandaag<tag a="110" b="0" /><delay8 /> <anim id="BigSmile" target="actor" targetSpec="" />Veel
-plezier vandaag!</message>
+	<message label="901_02" attrib="00 00 00 00">Dat was het voor vandaag<tag a="110" b="0" /><delay8 /> <anim id="BigSmile" target="actor" targetSpec="" />Maak er
+een mooie dag van, allemaal!</message>
 	<message label="901_03" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Zo, en nu ga ik weer terug aan het
 werk om jullie te ondersteunen bij
 het genot van dit prachtige eiland.</message>

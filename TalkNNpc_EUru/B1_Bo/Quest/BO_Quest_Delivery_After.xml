@@ -15,12 +15,11 @@
 	<message label="004_a" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Ну как тебе сказать...</message>
 	<message label="004_b" attrib="00 00 00 00 00 00 00 00">Не помню.</message>
 	<message label="005" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Что-о?!<delay8 /> Не помнишь?<delay frames="40" />
-<anim id="EmotEnd" target="actor" targetSpec="" />Ну <tag a="110" b="3" />!<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Даже не могу на тебя злиться, сам
-постоянно все забываю!<delay20 /> Надо нам
-быть внимательнее<anim id="Laughing" target="actor" targetSpec="" />! <tag a="50" b="3" /><tag a="110" b="6" />!</message>
-	<message label="006" attrib="00 00 00 00 00 00 00 00"><anim id="Surprised" target="actor" targetSpec="" />Ты открыл<gender2 m="" f="а" /> посылку?!<delay frames="40" /> Ну ты
-даешь. <anim id="Confused" target="actor" targetSpec="" />Нехорошо чужие вещи
-трогать.<delay20 /></message>
+<anim id="EmotEnd" target="actor" targetSpec="" />Ну как же так!<pageBreak />Не переживай. <anim id="Nodding" target="actor" targetSpec="" />Я сам постоянно
+все забываю!<delay20 /> <tag a="50" b="3" /><tag a="110" b="6" />!</message>
+	<message label="006" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Ты открыл<gender2 m="" f="а" /> посылку?!<delay frames="40" /> Ну ты
+даешь.<delay20 /> Нехорошо чужие вещи
+трогать.<anim id="Angry" target="actor" targetSpec="" /><delay20 /> Очень!</message>
 	<message label="007" attrib="00 00 00 00 00 00 00 00"><anim id="Surprised" target="actor" targetSpec="" />Что?!<delay20 /> Ты открыл<gender2 m="" f="а" /> посылку?<delay frames="40" />
 <anim id="Confused" target="actor" targetSpec="" />К-как...<delay20 /> как открыл<gender2 m="" f="а" />?<delay20 /> Как ты
 можешь чужие вещи трогать?</message>
@@ -61,7 +60,7 @@
 к <tag a="50" b="23" arg="0xcd02" /><tag a="115" b="1" arg="0xcd00" />.</message>
 	<message label="103" attrib="00 00 02 00 00 00 00 00">А <tag a="115" b="1" arg="0xcd00" /><delay20 /> что-нибудь
 сказал<gender3 m="" f="а" />, когда увидел<gender3 m="" f="а" /> посылку?</message>
-	<message label="103_a" attrib="00 00 00 00 00 00 00 00">Видишь ли...</message>
+	<message label="103_a" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Видишь ли...</message>
 	<message label="103_b" attrib="00 00 00 00 00 00 00 00">Не помню.</message>
 	<message label="104" attrib="00 00 02 00 00 00 00 00">А <tag a="115" b="1" arg="0xcd00" /> что-нибудь
 сказал<gender3 m="" f="а" />, когда увидел<gender3 m="" f="а" /> посылку?</message>
@@ -126,7 +125,7 @@
 	<message label="302" attrib="00 00 02 00 00 00 00 00"><anim id="HappyDance" target="actor" targetSpec="" />Ну что,<delay8 /> как прошла встреча?<delay frames="40" />
 <tag a="50" b="23" arg="0xcd02" /><tag a="115" b="1" arg="0xcd00" /> понравился мой
 подарок?</message>
-	<message label="302_a" attrib="00 00 00 00 00 00 00 00">Как тебе сказать...</message>
+	<message label="302_a" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Как тебе сказать...</message>
 	<message label="302_b" attrib="00 00 00 00 00 00 00 00">Не помню.</message>
 	<message label="303" attrib="00 00 02 00 00 00 00 00"><anim id="HappyDance" target="actor" targetSpec="" />Ну что, как все прошло?<delay frames="40" />
 <tag a="50" b="23" arg="0xcd02" /><tag a="115" b="1" arg="0xcd00" /> понравился мой
@@ -196,7 +195,7 @@
 	<message label="402" attrib="00 00 02 00 00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Ну?<delay20 /> Все получилось?<delay20 /><anim id="QuestionMark" target="actor" targetSpec="" />
 <tag a="115" b="1" arg="0xcd00" /> больше на меня
 не обижается?</message>
-	<message label="402_a" attrib="00 00 00 00 00 00 00 00">Как тебе сказать...</message>
+	<message label="402_a" attrib="00 00 00 00 00 00 00 00">Ни капельки!</message>
 	<message label="402_b" attrib="00 00 00 00 00 00 00 00">Не помню.</message>
 	<message label="403" attrib="00 00 02 00 00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Ну что, <delay8 />как прошла встреча?<delay frames="40" />
 <anim id="QuestionMark" target="actor" targetSpec="" /><tag a="115" b="1" arg="0xcd00" /><delay20 /> все еще сердится?</message>
@@ -262,7 +261,7 @@
 чужие вещи трогать.</message>
 	<message label="513" attrib="00 00 00 00 00 00 00 00"><anim id="Surprised" target="actor" targetSpec="" />А почему она открыта?! <anim id="Frantic" target="actor" targetSpec="" />Ну вот! Все
 по новой заворачивать!<delay frames="40" /> Я<tag a="110" b="0" /> вообще
-не умею это делать.<pageBreak />Вот разворачивать —  другое дело.
+не умею это делать.<pageBreak />Вот разворачивать — другое дело.
 <anim id="Laughing" target="actor" targetSpec="" />Особенно конфеты.<pageBreak /><anim id="Silent" target="actor" targetSpec="" />Слушай, <tag a="110" b="3" />!<delay frames="40" />
 Не надо чужие вещи трогать.</message>
 	<message label="514" attrib="00 00 00 00 00 00 00 00"><anim id="Surprised" target="actor" targetSpec="" />Ой!.. А почему<tag a="110" b="0" /> она открыта?!

@@ -5,7 +5,7 @@ la specialità di <tag a="110" b="33" />?</message>
 	<message label="001_a" attrib="04 00 00 00 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Oh! Quello, no?</message>
 	<message label="001_b" attrib="05 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Uno di quelli?</message>
 	<message label="002" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="23" arg="0xd 0xe 0xf 0xffff" /></message>
-	<message label="003" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x10 0x11 0xffff 0xffff" /></message>
+	<message label="003" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x1 0x10 0x11 0x12" /></message>
 	<message label="004" attrib="00 00 00 00 00 00 00 00"><anim id="Scheming" target="actor" targetSpec="" />Hai indovinato<tag a="110" b="0" /> stavolta. <delay20 /><anim id="Explain" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="50" b="1" /><tag a="110" b="7" arg="0xcd01" /> sono di questo posto. <delay frames="40" />Non dimenticarti di comprarne un paio!</message>
 	<message label="005" attrib="00 00 00 00 00 00 00 00"><anim id="Sighing" target="actor" targetSpec="" />"Quelli"<tag a="110" b="0" /> sono pietre. <delay20 />Stai indicando
 delle pietre, <delay8 />che non appartengono
@@ -35,10 +35,11 @@ più, <tag a="110" b="6" />!</message>
 	<message label="016" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Il nostro <colour id="1" />museo<colour id="65535" /> sarà spettacolare.
 Devono ancora sistemare un po' di
 cose, ma un giorno<tag a="110" b="0" /><delay8 /> <anim id="BigSmile" target="actor" targetSpec="" />lo sarà!</message>
-	<message label="017" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="2" arg="0x15 0x16 0x17 0x19" /></message>
+	<message label="017" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="3" arg="0x15 0x16 0x17 0x18 0x19" /></message>
 	<message label="021" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1c00 0x1900 0xcd00" /></message>
 	<message label="022" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1d01 0x1900 0xcd00" /></message>
 	<message label="023" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1e02 0x1900 0xcd00" /></message>
+	<message label="024" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1f03 0x1900 0xcd00" /></message>
 	<message label="025" attrib="00 00 00 00 00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />Devi assolutamente dare un'occhiata
 al <colour id="1" />museo<colour id="65535" />.<delay frames="40" /> <anim id="BigSmile" target="actor" targetSpec="" />È l'orgoglio della nostra
 isola!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />È una gran soddisfazione passarci
@@ -51,33 +52,31 @@ adesso. <anim id="BigSmile" target="actor" targetSpec="" />Che gran collezione!<
 	<message label="030" attrib="00 00 00 00 00 00 00 00"><anim id="Pardon" target="actor" targetSpec="" />Non lasciare l'isola senza prima
 vedere i fossili del <colour id="1" />museo<colour id="65535" />. <delay20 />C'è anche
 <tag a="50" b="1" /><tag a="135" b="13" arg="0x2" />!</message>
-	<message label="101" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="0" arg="0x66 0x69" /></message>
-	<message label="102" attrib="00 00 01 00 00 00 00 00"><anim id="WrySmile" target="actor" targetSpec="" />Non potevi proprio fare a meno
-di <tag a="110" b="33" />, vero? <delay20 />Ecco perché sei qui! <anim id="SmugFace" target="actor" targetSpec="" /><delay8 />O sei qui per me?</message>
-	<message label="102_a" attrib="67 00 00 00 00 00 00 00">Sono qui solo per te!</message>
-	<message label="102_b" attrib="68 00 00 00 00 00 00 00">Di certo non per te!</message>
-	<message label="103" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Dici sul serio?! Beh, io stavo solo
-scherzando, ma<tag a="110" b="0" /><delay8 /> <anim id="Blushing" target="actor" targetSpec="" />Beh<tag a="110" b="0" /> <delay8 />grazie!<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Se dovesse servirti qualcosa,<delay frames="40" /> fammi
-sapere <anim id="Assent" target="actor" targetSpec="" />e cercherò di non farti
-aspettare troppo, <delay8 />ecco.</message>
-	<message label="104" attrib="00 00 00 00 00 00 00 00"><anim id="TakenAback" target="actor" targetSpec="" />Viva la sincerità! <delay frames="40" /><anim id="Angry" target="actor" targetSpec="" />Comunque non ti
-avrei biasimato se mi avessi mentito,
-<tag a="110" b="5" />.<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Ma ti capisco: <tag a="110" b="33" /> è un posto meraviglioso.<delay frames="40" /> <anim id="Nodding" target="actor" targetSpec="" />E poi, tu...<delay20 /> ammetto che mancavi a tutti, qui.</message>
-	<message label="105" attrib="6a 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Ehi, <tag a="110" b="3" />! <delay frames="40" /><anim id="Nodding" target="actor" targetSpec="" />Come stai? Com'è la tua nuova casa?</message>
-	<message label="106" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
-	<message label="106_01" attrib="00 00 00 00 00 00 00 00"><anim id="Hello" target="actor" targetSpec="" />Hai già fatto amicizia con i nuovi
-vicini?<delay frames="40" /> <anim id="ShyBoy" target="actor" targetSpec="" />Beh, conoscendoti<tag a="110" b="0" /> la
-risposta sarà sì!
-<anim id="Nodding" target="actor" targetSpec="" />A te basta fulminare qualcuno con il
-tuo sorriso mentre cammini.<delay frames="40" /> <anim id="Aha" target="actor" targetSpec="" />E ZAC!<delay8 />
-Amici in un istante, <tag a="110" b="6" />!</message>
-	<message label="106_02" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Hai già piantato qualche fiore nella
+	<message label="201" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="0" arg="0xca 0xd2" /></message>
+	<message label="202" attrib="00 00 01 00 00 00 00 00"><anim id="WrySmile" target="actor" targetSpec="" />Non potevi proprio fare a meno di <tag a="110" b="33" />, vero? <delay20 />Ecco perché sei qui! <anim id="SmugFace" target="actor" targetSpec="" /><delay8 />O sei qui per me?</message>
+	<message label="202_a" attrib="cb 00 00 00 00 00 00 00">Sono qui solo per te!</message>
+	<message label="202_b" attrib="cc 00 00 00 00 00 00 00">Per l'isola, chiaro.</message>
+	<message label="203" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Dici sul serio? <delay8 />Oh, io stavo solo
+scherzando, ma<tag a="110" b="0" /><delay8 /> <anim id="Blushing" target="actor" targetSpec="" />Beh, <delay8 />grazie!<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Se dovesse servirti qualcosa,
+fammi sapere. <delay20 /><anim id="Assent" target="actor" targetSpec="" />Cercherò di non
+farti aspettare troppo, <delay8 />ecco.</message>
+	<message label="204" attrib="00 00 00 00 00 00 00 00"><anim id="TakenAback" target="actor" targetSpec="" />Viva la sincerità! <delay frames="40" /><anim id="Angry" target="actor" targetSpec="" />Comunque se mi
+avessi mentito, non ti avrei certo
+biasimat<gender2 m="o" f="a" />, eh!<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Però ti capisco: <delay20 /><tag a="110" b="33" /> è un posto meraviglioso.<delay frames="40" /> <anim id="Hello" target="actor" targetSpec="" />Grazie di essere passat<gender2 m="o" f="a" />, <tag a="110" b="6" />!</message>
+	<message label="210" attrib="d3 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Come va, <tag a="110" b="3" />? <delay frames="40" /><anim id="QuestionMark" target="actor" targetSpec="" />Che succede <tag a="50" b="15" /> <tag a="110" b="34" /> da quando me ne sono andata?</message>
+	<message label="211" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
+	<message label="211_01" attrib="00 00 00 00 00 00 00 00"><anim id="Hello" target="actor" targetSpec="" />Hai già fatto amicizia con i nuovi
+vicini?<delay frames="40" /> <anim id="ShyBoy" target="actor" targetSpec="" />Beh, conoscendoti la risposta
+sarà sì!
+<anim id="Nodding" target="actor" targetSpec="" />A te basta sfoggiare quel sorriso
+mentre cammini e<tag a="110" b="0" /> <delay8 /><anim id="Aha" target="actor" targetSpec="" />zac!<delay8 /> Amici in
+un istante, <tag a="110" b="6" />!</message>
+	<message label="211_02" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Hai già piantato qualche fiore nella
 tua nuova isola? <delay frames="40" /><anim id="EmotEnd" target="actor" targetSpec="" />Trattali bene e loro
-tratteranno bene te, <tag a="110" b="5" />!</message>
-	<message label="106_03" attrib="00 00 00 00 00 00 00 00"><anim id="Hello" target="actor" targetSpec="" />Hai qualche insetto o qualche pesce
-raro?<delay frames="40" /> <anim id="Thinking" target="actor" targetSpec="" />Secondo me su altre isole ci
-sono esemplari mai visti qui!
-<anim id="WrySmile" target="actor" targetSpec="" />E mi immagino te in giro con il retino
-a caccia di ogni pesce e insetto che
-ti capita sotto tiro!<delay frames="40" /> <anim id="Grin" target="actor" targetSpec="" />È tipico di te!</message>
+tratteranno bene te, <tag a="110" b="6" />!</message>
+	<message label="211_03" attrib="00 00 00 00 00 00 00 00">Qui non mi dispiace affatto ma<tag a="110" b="0" />
+<delay20 /><anim id="Serious" target="actor" targetSpec="" />lo ammetto, a volte mi manca un
+po' la mia vecchia isola.<pageBreak /><anim id="ShyBoy" target="actor" targetSpec="" />Uno di questi giorni devo farci
+un salto e vedere se è cambiato
+qualcosa, <tag a="110" b="6" />.</message>
 </msbt>

@@ -5,7 +5,7 @@ una<delay20 /> <anim id="Greeting" target="actor" targetSpec="" />caccia al teso
 	<message label="001_b" attrib="00 00 00 00 00 00 00 00">Scusa, ho da fare.</message>
 	<message label="002" attrib="00 00 02 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Mi sembra che tu abbia l'umore
 giusto per<tag a="110" b="0" /><delay40 /><anim id="Hello" target="actor" targetSpec="" /><delay20 /> una caccia al tesoro!</message>
-	<message label="002_a" attrib="00 00 00 00 00 00 00 00">Forse hai ragione!</message>
+	<message label="002_a" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Forse hai ragione!</message>
 	<message label="002_b" attrib="00 00 00 00 00 00 00 00">Direi di no.</message>
 	<message label="003" attrib="00 00 02 00 00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />Ehilà! Vuoi fare una caccia al tesoro?</message>
 	<message label="003_a" attrib="00 00 00 00 00 00 00 00">Ci sto!</message>
@@ -74,11 +74,11 @@ a disposizione.<delay20 /> Vai veloce e non
 fermarti!<anim id="Greeting" target="actor" targetSpec="" /> Diamo il via alla caccia!<10_7 arg="240" /></message>
 	<message label="015_01" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />OK!<delay20 /> <anim id="Nodding" target="actor" targetSpec="" />Questa volta c'è meno tempo,<delay20 />
 quindi non perderti in chiacchiere.
-Devi troppo darti una mossa!<delay40 /><10_7 arg="180" />
+Devi troppo darti una mossa!<10_7 arg="180" />
 <anim id="Eh" target="actor" targetSpec="" />Oh! Giusto! <delay20 />Non puoi chiedere aiuto
-ad altra gente, OK? Devi cavartela
-da sol<gender2 m="o" f="a" />!<delay20 /> <anim id="Hello" target="actor" targetSpec="" />Capito? Bene!<10_7 arg="90" /><anim id="Greeting" target="actor" targetSpec="" />
-D'accordo, allora cominciamo,
+ad altra gente, OK? <delay8 />Devi cavartela
+da sol<gender2 m="o" f="a" />!<delay20 /> <anim id="Hello" target="actor" targetSpec="" />Capito? <delay8 />Bene!<10_7 arg="180" />
+<anim id="Greeting" target="actor" targetSpec="" />D'accordo, allora cominciamo,
 <tag a="110" b="6" />!<10_7 arg="180" /></message>
 	<message label="101" attrib="00 00 02 00 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Ehi, <delay8 />non avresti un po' di tempo libero?<delay40 /> <anim id="EmotEnd" target="actor" targetSpec="" />Per fare<delay20 /> <anim id="Smiling" target="actor" targetSpec="" />una piccola caccia
 al tesoro insieme a me?</message>

@@ -1,9 +1,9 @@
 <msbt attribsize="4">
-	<message label="110" attrib="00 00 00 1f"><tag a="100" b="6" />승객 여러분께 안내 말씀 드리겠습니다<delay frames="30" />
+	<message label="110" attrib="00 00 00 1f"><tag a="100" b="6" /><100_3 arg="PlaneAnnounceOn" />승객 여러분께 안내 말씀 드리겠습니다<delay frames="30" />
 이 비행기는 잠시 후<delay8 />
-<tag a="110" b="33" />에 도착합니다<endTag a="100" b="6" /><10_8 arg="120" />
-<tag a="100" b="6" />안전을 위해 등받이를 제자리로 해주시고 <delay8 />
-좌석 벨트를 매주시기 바랍니다<endTag a="100" b="6" /><10_8 arg="2" /></message>
+<tag a="110" b="33" />에 도착합니다<delay20 /><100_3 arg="PlaneAnnounceOff" /><endTag a="100" b="6" /><10_8 arg="80" />
+<tag a="100" b="6" /><100_3 arg="PlaneAnnounceOn" />안전을 위해 등받이를 제자리로 해주시고 <delay8 />
+좌석 벨트를 매주시기 바랍니다<delay20 /><100_3 arg="PlaneAnnounceOff" /><endTag a="100" b="6" /><10_8 arg="2" /></message>
 	<message label="140" attrib="00 00 00 1f"><tag a="60" b="8" arg="0x8d 0x8e 0x8f 0x8f 0x90 0x90 0x8d" /></message>
 	<message label="151" attrib="00 00 00 1f"><tag a="100" b="6" /><100_3 arg="PlaneAnnounceOn" />저희 비행기는 잠시 후 목적지에 도착합니다<delay20 /><100_3 arg="PlaneAnnounceOff" /><endTag a="100" b="6" /><10_8 arg="2" /></message>
 	<message label="141" attrib="00 00 00 1f"><tag a="100" b="6" /><100_3 arg="PlaneAnnounceOn" />현재 시각은 <tag a="110" b="19" /> <tag a="90" b="30" />시 <tag a="90" b="31" />분<delay8 />

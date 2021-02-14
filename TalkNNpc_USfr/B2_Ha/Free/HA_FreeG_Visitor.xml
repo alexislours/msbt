@@ -4,7 +4,7 @@ de cette île, <tag a="110" b="6" />?</message>
 	<message label="001_a" attrib="04 00 00 00 00 00 00 00">Bien sûr.</message>
 	<message label="001_b" attrib="05 00 00 00 00 00 00 00">Pas du tout.</message>
 	<message label="002" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="23" arg="0xd 0xe 0xf 0xffff" /></message>
-	<message label="003" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x10 0x11 0xffff 0xffff" /></message>
+	<message label="003" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x1 0x10 0x11 0x12" /></message>
 	<message label="004" attrib="00 00 00 00 00 00 00 00"><anim id="Laughing" target="actor" targetSpec="" />Ah! C'est très bien!<delay40 /> <anim id="Greeting" target="actor" targetSpec="" />N'hésite pas
 à en manger autant que tu veux!</message>
 	<message label="005" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />C'est <gender4 m="la " f="l'" />⁠<tag a="110" b="7" arg="0xcd00" />!<delay40 /> <anim id="HappyDance" target="actor" targetSpec="" />Manger une <tag a="110" b="7" arg="0xcd00" /> après avoir fait <tag a="50" b="2" /><tag a="135" b="6" arg="0xcd00" />,<delay8 /> y'a rien de mieux!</message>
@@ -28,10 +28,11 @@ c'est très bon pour muscler les bras!</message>
 les plus grands de tous les musées!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Enfin,<delay8 /> c'est ce que je m'imagine<tag a="110" b="0" /> <anim id="Laughing" target="actor" targetSpec="" />Il
 faut faire preuve d'ambition,<delay8 /> pour se
 classer parmi les champions,<delay8 /> non?</message>
-	<message label="017" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="2" arg="0x15 0x16 0x17 0x19" /></message>
+	<message label="017" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="3" arg="0x15 0x16 0x17 0x18 0x19" /></message>
 	<message label="021" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1c00 0x1900 0xcd00" /></message>
 	<message label="022" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1d01 0x1900 0xcd00" /></message>
 	<message label="023" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1e02 0x1900 0xcd00" /></message>
+	<message label="024" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1f03 0x1900 0xcd00" /></message>
 	<message label="025" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Je te recommande un tour dans
 le <colour id="1" />musée<colour id="65535" /> de notre ville.<delay20 /> On peut y
 flâner et admirer les objets exposés.<pageBreak /><anim id="Eh" target="actor" targetSpec="" />Pardon?<delay8 /> Si j'y passe beaucoup de
@@ -49,34 +50,38 @@ eu l'occasion de l'essayer.</message>
 	<message label="030" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Mon fossile préféré, au <colour id="1" />musée<colour id="65535" />,<delay8 /> c'est
 <tag a="50" b="1" /><tag a="135" b="13" arg="0x2" />,
 <tag a="110" b="5" />.<pageBreak /><anim id="Love" target="actor" targetSpec="" />Quelle forme magnifique,<delay8 /> quel relief!<delay20 />
-<anim id="Frantic" target="actor" targetSpec="" />Même sans muscles,<delay8 /> <tag a="50" b="17" arg="0x28 0xcd00 0x4 0x69 0x6c 0x8 0x65 0x6c 0x6c 0x65 0x0" /> fait
+<anim id="Frantic" target="actor" targetSpec="" />Même sans muscles,<delay8 /> <tag a="50" b="17" arg="0x29 0xcd00 0x4 0x69 0x6c 0x8 0x65 0x6c 0x6c 0x65 0x0" /> fait
 sensation!<delay20 /> Je suis vert de jalousie!</message>
-	<message label="101" attrib="66 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Te revoir me fait replonger dans le
+	<message label="201" attrib="ca 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Te revoir me fait replonger dans le
 passé<tag a="110" b="0" /><delay8 /> <anim id="Grin" target="actor" targetSpec="" />Tu te rappelles?<delay8 /> On arrêtait
 pas de comparer nos muscles!</message>
-	<message label="102" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="1" arg="0x67 0x68 0x69" /></message>
-	<message label="103" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />J'ai suivi un super programme secret
-d'entraînement,<delay8 /> depuis ton départ.<delay20 />
+	<message label="202" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="1" arg="0xcb 0xcc 0xcd" /></message>
+	<message label="203" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />J'ai suivi un super programme secret
+d'entraînement,<delay8 /> depuis mon départ.<delay20 />
 Chaque jour, sans aucune exception.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Et toi?<delay8 /> Tu as continué tes exercices
-de développement musculaire?<delay20 /> À
-quel poids tu lèves maintenant?</message>
-	<message label="104" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Euh<tag a="110" b="0" /><delay8 /> en y repensant<tag a="110" b="0" /><delay8 /> <anim id="Blushing" target="actor" targetSpec="" />On n'a jamais
+de développement musculaire?<delay20 />
+Tu lèves combien,<delay8 /> question poids?</message>
+	<message label="204" attrib="00 00 00 00 00 00 00 00"><anim id="Restless" target="actor" targetSpec="" />Ben franchement, je suis pas
+sûr de pouvoir te battre<tag a="110" b="0" /><delay20 /><anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak />Sérieusement, regarde-moi ces
+bras<tag a="110" b="0" /> Je fais pas le poids.<delay20 />
+<anim id="Greeting" target="actor" targetSpec="" />Belle job, <tag a="110" b="6" />!</message>
+	<message label="205" attrib="00 00 02 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Euh<tag a="110" b="0" /><delay8 /> en y repensant<tag a="110" b="0" /><delay8 /> <anim id="Blushing" target="actor" targetSpec="" />On n'a jamais
 réussi à se départager pour savoir
-qui avait le plus de muscles!</message>
-	<message label="105" attrib="00 00 02 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Et si on essayait de trancher enfin
+qui avait le plus de muscles!
+<anim id="Nodding" target="actor" targetSpec="" />Et si on essayait de trancher enfin
 cette question,<delay8 /> là, tout de suite?<delay20 /> <anim id="BigSmile" target="actor" targetSpec="" />On
 va comparer nos abdos. Partant<gender2 m="" f="e" />?</message>
-	<message label="105_a" attrib="6a 00 00 00 00 00 00 00">Oh, bien sûr!</message>
-	<message label="105_b" attrib="6b 00 00 00 00 00 00 00">Euh... non merci.</message>
-	<message label="106" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Prêt<gender2 m="" f="e" />?<delay20 /> Mes abdos<tag a="110" b="0" /> <anim id="BigSmile" target="actor" targetSpec="" />c'est une vraie
+	<message label="205_a" attrib="ce 00 00 00 00 00 00 00">Oh, bien sûr!</message>
+	<message label="205_b" attrib="cf 00 00 00 00 00 00 00">Euh... non merci.</message>
+	<message label="206" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Prêt<gender2 m="" f="e" />?<delay20 /> Mes abdos<tag a="110" b="0" /> <anim id="BigSmile" target="actor" targetSpec="" />c'est une vraie
 tablette de chocolat.<delay20 /> <anim id="SmugFace" target="actor" targetSpec="" />Format familial,<delay8 />
 douze carrés!<delay20 /> Ça t'épate,<delay8 /> hein?!<pageBreak /><anim id="TakenAback" target="actor" targetSpec="" />Quoi?<delay8 /> Tu me crois pas sur parole?<delay20 />
-<anim id="Angry" target="actor" targetSpec="" />Je croyais qu'on était amis,<delay8 /> <tag a="110" b="6" />?!<pageBreak /><anim id="Fuming" target="actor" targetSpec="" />J'te le jure,<delay8 /> j'ai compté douze carrés.<delay20 />
-Pas plus tard qu'hier.<delay20 /> <anim id="Serious" target="actor" targetSpec="" />C'pas une joke!<delay20 />
+<anim id="Angry" target="actor" targetSpec="" />Je croyais qu'on était amis,<delay8 /> <tag a="110" b="6" />?!<pageBreak /><anim id="Fuming" target="actor" targetSpec="" />Je te jure,<delay8 /> j'ai compté douze carrés.<delay20 />
+Pas plus tard qu'hier.<delay20 /> <anim id="Serious" target="actor" targetSpec="" />Pour vrai!<delay20 />
 Et arrête de me regarder comme ça.<pageBreak /><anim id="OhGeez" target="actor" targetSpec="" />Bon, ben d'accord.<delay8 /> Crois-moi pas.<delay8 />
 Tant pis pour toi.<delay8 /> <anim id="Sighing" target="actor" targetSpec="" />Mais c'est quand
 même une tablette à douze carrés!</message>
-	<message label="107" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Ah, par mes haltères, alors!<delay20 /> T'es pas
+	<message label="207" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Ah, par mes haltères, alors!<delay20 /> T'es pas
 drôle!<delay20 /> <anim id="Grin" target="actor" targetSpec="" />Mais bon,<delay8 /> je t'en veux pas<tag a="110" b="0" /><pageBreak /><anim id="SmugFace" target="actor" targetSpec="" />Moi non plus,<delay8 /> je voudrais pas être
 en compétition face à des muscles
 aussi superbes que les miens!</message>

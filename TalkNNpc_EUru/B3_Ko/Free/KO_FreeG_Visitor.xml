@@ -5,7 +5,7 @@
 	<message label="001_a" attrib="04 00 00 00 00 00 00 00">Знаю!</message>
 	<message label="001_b" attrib="05 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Нет...</message>
 	<message label="002" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="23" arg="0xd 0xe 0xf 0xffff" /></message>
-	<message label="003" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x10 0x11 0xffff 0xffff" /></message>
+	<message label="003" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x1 0x10 0x11 0x12" /></message>
 	<message label="004" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Точно знаешь!<delay20 /> Ты правильно
 про <tag a="110" b="7" arg="0xcd01" /> вспомнил<gender2 m="" f="а" />.<delay20 />
 <anim id="Grin" target="actor" targetSpec="" />Молодец, варит котелок!<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />О чем это я? А! Ты обязательно
@@ -34,10 +34,11 @@
 палатка...<pageBreak /><anim id="Angry" target="actor" targetSpec="" />Но ничего! <delay20 />Однажды и мы такой
 музей отгрохаем, что у-у-ух!<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Вот тогда и приезжай<tag a="110" b="0" /> ахать да
 охать будешь!<delay20 /><anim id="Laughing" target="actor" targetSpec="" /> Бу-га-га!<delay8 /><anim id="FaintSmile" target="actor" targetSpec="" /></message>
-	<message label="017" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="2" arg="0x15 0x16 0x17 0x19" /></message>
+	<message label="017" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="3" arg="0x15 0x16 0x17 0x18 0x19" /></message>
 	<message label="021" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1c00 0x1900 0xcd00" /></message>
 	<message label="022" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1d01 0x1900 0xcd00" /></message>
 	<message label="023" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1e02 0x1900 0xcd00" /></message>
+	<message label="024" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1f03 0x1900 0xcd00" /></message>
 	<message label="025" attrib="00 00 00 00 00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Я в искусстве вовсе не разбираюсь,<delay8 />
 <anim id="EmotEnd" target="actor" targetSpec="" />но здорово, что в нашем <colour id="1" />музее<colour id="65535" /> <anim id="Nodding" target="actor" targetSpec="" />есть
 на что поглазеть.<pageBreak /><anim id="Grin" target="actor" targetSpec="" />Вот я и хожу там <delay20 /><anim id="Serious" target="actor" targetSpec="" />с умным видом.
@@ -60,36 +61,40 @@
 Мне больше всех нравится
 <tag a="135" b="13" arg="0x2" />.<pageBreak /><anim id="BigSmile" target="actor" targetSpec="" />По сравнению с этой штукой
 даже я еще птенец неоперившийся!</message>
-	<message label="101" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="0" arg="0x66 0x69" /></message>
-	<message label="102" attrib="00 00 02 00 00 00 00 00">У меня к тебе вопрос, козявка.<delay20 />
-<anim id="QuestionMark" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="110" b="8" /> тебя ни
-капельки назад не манит?</message>
-	<message label="102_a" attrib="67 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Немножко.</message>
-	<message label="102_b" attrib="68 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Не-а.</message>
-	<message label="103" attrib="00 00 00 00 00 00 00 00"><anim id="WrySmile" target="actor" targetSpec="" />Немножко, говоришь?<delay20 /> Знаем мы
-такие немножки, сами там бывали...<pageBreak /><anim id="OhGeez" target="actor" targetSpec="" />Ладно, не обижайся. <delay20 /><anim id="Smiling" target="actor" targetSpec="" />Захочешь
-поговорить — приходи, я тебе
-всегда рад! <tag a="50" b="3" /><tag a="110" b="5" />!</message>
-	<message label="104" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Что, даже ни капельки?! <delay20 /><anim id="Grin" target="actor" targetSpec="" />Какие
-мы, однако... хладнокровные!<pageBreak /><anim id="AbsentMindedness" target="actor" targetSpec="" />Видать, на новом острове дела идут
-отлично... <delay20 /><anim id="WrySmile" target="actor" targetSpec="" />что тоже хорошо!</message>
-	<message label="105" attrib="00 00 04 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Ты смотри, кто пожаловал!
-<tag a="50" b="3" /><tag a="110" b="3" />! <delay frames="40" /><anim id="Smiling" target="actor" targetSpec="" />Как дела
-на новом острове?</message>
-	<message label="105_a" attrib="6a 00 00 00 00 00 00 00">Отлично!</message>
-	<message label="105_b" attrib="6b 00 00 00 00 00 00 00">Неплохо.</message>
-	<message label="105_c" attrib="6c 00 00 00 00 00 00 00">Мва-ха-ха-ха!</message>
-	<message label="106" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Ого, рад слышать! <delay20 />Не то чтобы
-я в тебе сомневался, козявка.<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Но ты и про нас не забывай.<delay20 />
-<anim id="Greeting" target="actor" targetSpec="" />Остров <tag a="110" b="8" /> никуда
-не денется — приезжай к нам!</message>
-	<message label="107" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />И всего-то? <delay20 />Ты, небось, просто
-скромничаешь... <delay20 /><anim id="OhGeez" target="actor" targetSpec="" />Хотя мне-то что.
-Главное — чтобы тебе жилось!
-<anim id="SmugFace" target="actor" targetSpec="" />Бери пример с меня: <delay20 />жизнь ключом,
-<tag a="135" b="1" arg="0xcd00" /> ручьем! <delay20 /><anim id="Laughing" target="actor" targetSpec="" />Бу-га-га!</message>
-	<message label="108" attrib="00 00 00 00 00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Э-э-э<tag a="110" b="0" /> как тебя, однако. <delay20 />Может,
-я что-то не то спросил?<pageBreak /><anim id="Thinking" target="actor" targetSpec="" />Ты, это<tag a="110" b="0" /> развейся, отдохни. <delay20 />Найди
-хобби<tag a="110" b="0" /> <tag a="135" b="8" arg="0xcd00" />,
-например<tag a="110" b="0" /> <anim id="OhGeez" target="actor" targetSpec="" />В общем, расслабься.</message>
+	<message label="201" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="0" arg="0xca 0xcd" /></message>
+	<message label="202" attrib="00 00 02 00 00 00 00 00">Скажи, козявка,<delay20 /> <anim id="QuestionMark" target="actor" targetSpec="" />ты не скучаешь
+по тем временам, когда мы жили
+на острове <tag a="110" b="9" />?</message>
+	<message label="202_a" attrib="cb 00 00 00 00 00 00 00">Немного.</message>
+	<message label="202_b" attrib="cc 00 00 00 00 00 00 00">Не особо.</message>
+	<message label="203" attrib="00 00 00 00 00 00 00 00"><anim id="WrySmile" target="actor" targetSpec="" />Немного, да? <delay20 />Можно поподробней?
+Мне ты можешь рассказать все!
+Я умею держать язык за зубами.<pageBreak /><anim id="OhGeez" target="actor" targetSpec="" />А, ладно. Не буду тебе надоедать.
+<delay20 /><anim id="Smiling" target="actor" targetSpec="" />Ты можешь навестить меня, когда
+пожелаешь. <tag a="50" b="3" /><tag a="110" b="5" />!</message>
+	<message label="204" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Не особо? Никакой ностальгии, да?
+<delay20 /><anim id="Grin" target="actor" targetSpec="" />Ты как<gender2 m="ой-то" f="ая-то" /> бесчувственн<gender2 m="ый" f="ая" />!
+<tag a="50" b="3" /><tag a="110" b="5" />!
+<anim id="AbsentMindedness" target="actor" targetSpec="" />Наверное, у тебя на острове
+<tag a="110" b="9" /> все хорошо.
+<delay20 /><anim id="WrySmile" target="actor" targetSpec="" />Ну и хорошо!</message>
+	<message label="205" attrib="00 00 04 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Да это же <tag a="110" b="3" />!<delay frames="40" />
+<anim id="Smiling" target="actor" targetSpec="" />Как жизнь на острове
+<tag a="110" b="9" />?</message>
+	<message label="205_a" attrib="ce 00 00 00 00 00 00 00">Отлично!</message>
+	<message label="205_b" attrib="cf 00 00 00 00 00 00 00">Не жалуюсь.</message>
+	<message label="205_c" attrib="d0 00 00 00 00 00 00 00">Так себе.</message>
+	<message label="206" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Рад слышать! <delay20 />Я в тебе
+и не сомневался, козявка.
+<tag a="50" b="3" /><tag a="110" b="6" />!<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Ты заходи ко мне тут, на острове
+<tag a="110" b="8" />. <delay20 /><anim id="Greeting" target="actor" targetSpec="" />Буду рад
+видеть тебя в любое время.</message>
+	<message label="207" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Не жалуешься? <delay20 />Мне кажется, все
+намного лучше. <delay20 /><anim id="OhGeez" target="actor" targetSpec="" />В любом случае
+будь счастлив<gender2 m="" f="а" />. Это только и важно!<pageBreak /><anim id="SmugFace" target="actor" targetSpec="" />Вот посмотри на меня. <delay20 />Иду куда
+глаза глядят да сочок попиваю!
+<delay20 /><anim id="Laughing" target="actor" targetSpec="" />Бу-га-га!</message>
+	<message label="208" attrib="00 00 00 00 00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Э<tag a="110" b="0" /> правда?<delay20 /> Я что-то не то спросил?<pageBreak /><anim id="Thinking" target="actor" targetSpec="" />Может, тебе отдохнуть, по лесу
+прогуляться? <delay20 />Хобби найти<tag a="110" b="0" />
+<anim id="OhGeez" target="actor" targetSpec="" />Все будет хорошо! <tag a="50" b="3" /><tag a="110" b="5" />!</message>
 </msbt>

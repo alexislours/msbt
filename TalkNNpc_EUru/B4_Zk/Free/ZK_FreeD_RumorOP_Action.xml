@@ -2,13 +2,13 @@
 	<message label="000" attrib="00 00 00 00 00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />Ты знаешь, <tag a="115" b="0" arg="0xcd00" /> пока
 со мной не знаком<gender1 m="" f="а" /><tag a="110" b="0" /> <anim id="OhGeez" target="actor" targetSpec="" />Но е<gender1 m="му" f="й" /> не
 о чем волноваться.<pageBreak /><anim id="Grin" target="actor" targetSpec="" />Я буду вежлив. Неважно, ест ли он<gender1 m="" f="а" />
-молекулярн<tag a="50" b="24" arg="0x1e 0xcd00 0x4 0x44b 0x439 0x4 0x443 0x44e 0x4 0x43e 0x435 0x4 0x44b 0x435" /> <tag a="50" b="23" arg="0xcd01" /><tag a="135" b="3" arg="0xcd00" />
-или прост<tag a="50" b="24" arg="0x11e 0xcd00 0x4 0x43e 0x439 0x4 0x443 0x44e 0x4 0x43e 0x435 0x4 0x44b 0x435" /> <tag a="50" b="23" arg="0xcd01" /><tag a="135" b="3" arg="0xcd01" />.</message>
+молекулярн<tag a="50" b="24" arg="0x1f 0xcd00 0x4 0x44b 0x439 0x4 0x443 0x44e 0x4 0x43e 0x435 0x4 0x44b 0x435" /> <tag a="50" b="23" arg="0xcd01" /><tag a="135" b="3" arg="0xcd00" />
+или прост<tag a="50" b="24" arg="0x11f 0xcd00 0x4 0x43e 0x439 0x4 0x443 0x44e 0x4 0x43e 0x435 0x4 0x44b 0x435" /> <tag a="50" b="23" arg="0xcd01" /><tag a="135" b="3" arg="0xcd01" />.</message>
 	<message label="001" attrib="00 00 00 00 00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />Эй, <tag a="110" b="3" />! <delay frames="40" /><anim id="QuestionMark" target="actor" targetSpec="" />А ты знаешь, чем <tag a="115" b="0" arg="0xcd00" /> тут занимал<gender1 m="ся" f="ась" />?</message>
-	<message label="002" attrib="00 00 00 00 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />А ты слышал, что <tag a="115" b="0" arg="0xcd00" />
-успел<gender1 m="" f="а" /> тут сделать?</message>
+	<message label="002" attrib="00 00 00 00 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />А ты слышал<gender2 m="" f="а" />, что успел<tag a="50" b="24" arg="0xe 0xcd00 0x0 0x2 0x430 0x0 0x0" />
+тут сделать <tag a="115" b="0" arg="0xcd00" />?</message>
 	<message label="003" attrib="00 00 00 00 00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="110" b="5" />! <tag a="50" b="3" /><tag a="115" b="0" arg="0xcd00" />
-уже сто лет не появлял<tag a="50" b="24" arg="0xd 0xcd00 0x4 0x441 0x44f 0x6 0x430 0x441 0x44c 0x0 0x0" /><tag a="110" b="0" /><pageBreak /><anim id="OhGeez" target="actor" targetSpec="" />Я уверен, что у не<gender1 m="го" f="е" /> все в порядке.
+уже сто лет не появлял<tag a="50" b="24" arg="0xe 0xcd00 0x4 0x441 0x44f 0x6 0x430 0x441 0x44c 0x0 0x0" /><tag a="110" b="0" /><pageBreak /><anim id="OhGeez" target="actor" targetSpec="" />Я уверен, что у не<gender1 m="го" f="е" /> все в порядке.
 Наверное, просто дома сидит,
 сериалы смотрит<tag a="110" b="0" /></message>
 	<message label="004" attrib="00 00 00 00 00 00 00 00"><anim id="WrySmile" target="actor" targetSpec="" />Знаешь, кто сегодня появлялся?<10_4 />
@@ -32,7 +32,7 @@
 <tag a="115" b="5" arg="0xcd00" /> недавно почтил<gender1 m="" f="а" />
 нас своим присутствием, ты знал<gender2 m="" f="а" />?</message>
 	<message label="022" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Не самая свежая новость, но здесь
-был<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" /> <tag a="115" b="0" arg="0xcd00" /> с острова
+был<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" /> <tag a="115" b="0" arg="0xcd00" /> с острова
 <tag a="115" b="5" arg="0xcd00" />.<pageBreak /><anim id="Grin" target="actor" targetSpec="" />Будем надеяться, что он<gender1 m="" f="а" /> скоро
 вновь нас посетит. <tag a="50" b="3" /><tag a="110" b="5" />!</message>
 	<message label="023" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Ты знал<gender2 m="" f="а" />, что <tag a="115" b="0" arg="0xcd00" />
@@ -41,108 +41,117 @@
 ради <tag a="50" b="23" arg="0xcd03" /><tag a="135" b="3" arg="0xcd00" />, так что
 я молчу! <delay frames="40" /><anim id="Laughing" target="actor" targetSpec="" />Хо-хо!</message>
 	<message label="024" attrib="00 00 00 00 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Последнее время постоянно думаю,
-<delay frames="40" /><anim id="BigSmile" target="actor" targetSpec="" />куда пропал<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" /> <tag a="115" b="0" arg="0xcd00" />
+<delay frames="40" /><anim id="BigSmile" target="actor" targetSpec="" />куда пропал<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" /> <tag a="115" b="0" arg="0xcd00" />
 с острова<anim id="AbsentMindedness" target="actor" targetSpec="" /> <tag a="115" b="5" arg="0xcd00" /><delay20 /><tag a="110" b="0" /></message>
-	<message label="025" attrib="00 00 00 00 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Кстати, тебе знаком<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" />
+	<message label="025" attrib="00 00 00 00 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Кстати, тебе знаком<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" />
 <tag a="115" b="0" arg="0xcd00" />? <delay20 />Кажется, он<gender1 m="" f="а" />
 с острова <tag a="115" b="5" arg="0xcd00" />.<pageBreak /><anim id="AbsentMindedness" target="actor" targetSpec="" />Всегда хотел съездить на остров
 <tag a="115" b="5" arg="0xcd00" />.<delay frames="40" /><anim id="Grin" target="actor" targetSpec="" /> Говорят, там
-потрясающ<tag a="50" b="24" arg="0x22 0xcd00 0x4 0x438 0x439 0x4 0x430 0x44f 0x4 0x435 0x435 0x4 0x438 0x435" /> <tag a="135" b="7" arg="0xcd00" />.</message>
+потрясающ<tag a="50" b="24" arg="0x23 0xcd00 0x4 0x438 0x439 0x4 0x430 0x44f 0x4 0x435 0x435 0x4 0x438 0x435" /> <tag a="135" b="7" arg="0xcd00" />.</message>
 	<message label="026" attrib="00 00 00 00 00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />Слушай<tag a="110" b="0" /> что-то <tag a="115" b="0" arg="0xcd00" />
 здесь не появляется. <tag a="50" b="3" /><tag a="110" b="5" />!
 Мы уже давно не виделись.<pageBreak /><anim id="IdeaBulb" target="actor" targetSpec="" />Может, мне поездить по островам<tag a="110" b="0" />
 <delay frames="40" /><anim id="Grin" target="actor" targetSpec="" />А что, буду давать эксклюзивные
 мастер-классы по танцам<tag a="110" b="0" /></message>
-	<message label="101" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Говорят, он<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" /> вовсю развлекал<tag a="50" b="17" arg="0xd 0xcd00 0x4 0x441 0x44f 0x6 0x430 0x441 0x44c 0x0" />
+	<message label="101" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Говорят, он<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" /> вовсю развлекал<tag a="50" b="17" arg="0xe 0xcd00 0x4 0x441 0x44f 0x6 0x430 0x441 0x44c 0x0" />
 здесь, на острове <tag a="110" b="8" />.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Ну что, как говорится<tag a="110" b="0" /> Салю!<delay frames="40" />
 Это значит «на здоровье»<tag a="110" b="0" /><delay20 /><anim id="SmugFace" target="actor" targetSpec="" /> на
 португальском.</message>
-	<message label="102" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Я слышал, он<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" /> здесь кучу рыбы
-наловил<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" />. <tag a="50" b="3" /><tag a="110" b="5" />!<pageBreak /><anim id="Grin" target="actor" targetSpec="" />Да рыба, наверное, сама
-выпрыгивала из воды при виде е<tag a="50" b="17" arg="0xd 0xcd00 0x4 0x433 0x43e 0x2 0x435 0x0" />
+	<message label="102" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Я слышал, он<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" /> здесь кучу рыбы
+наловил<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" />. <tag a="50" b="3" /><tag a="110" b="5" />!<pageBreak /><anim id="Grin" target="actor" targetSpec="" />Да рыба, наверное, сама
+выпрыгивала из воды при виде е<tag a="50" b="17" arg="0xe 0xcd00 0x4 0x433 0x43e 0x2 0x435 0x0" />
 обворожительной улыбки. <delay20 /><anim id="Laughing" target="actor" targetSpec="" />Хо-хо!</message>
-	<message label="103" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Говорят, он<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" /> кучу насекомых здесь
-наловил<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" />.<pageBreak /><anim id="Thinking" target="actor" targetSpec="" />Интересно, он<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" /> отнес<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x4 0x43b 0x430 0x0" /> их
+	<message label="103" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Говорят, он<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" /> кучу насекомых здесь
+наловил<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" />.<pageBreak /><anim id="Thinking" target="actor" targetSpec="" />Интересно, он<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" /> отнес<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x4 0x43b 0x430 0x0" /> их
 в «музей»?<pageBreak /><anim id="OhGeez" target="actor" targetSpec="" />Если что, <delay20 />так здесь называют
 тюрьму для насекомых, которую
 открыл <colour id="3" />Блезерс<colour id="65535" />.</message>
-	<message label="104" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />По слухам, он<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" /> здесь все пляжи
-прочесал<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" /> в поисках ракушек.<pageBreak /><anim id="Blushing" target="actor" targetSpec="" />Интересно, он<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" /> видел<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" />, что
+	<message label="104" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />По слухам, он<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" /> здесь все пляжи
+прочесал<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" /> в поисках ракушек.<pageBreak /><anim id="Blushing" target="actor" targetSpec="" />Интересно, он<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" /> видел<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" />, что
 я камушками выложил надпись:<delay20 />
 <anim id="Grin" target="actor" targetSpec="" />«<tag a="110" b="5" />»? <delay20 />Хо-хо!</message>
-	<message label="105" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Поговаривают, что он<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" /> здесь кучу
-венерок наш<tag a="50" b="17" arg="0xd 0xcd00 0x4 0x435 0x43b 0x4 0x43b 0x430 0x0" /> и выкопал<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" /><tag a="110" b="0" /><pageBreak /><anim id="WrySmile" target="actor" targetSpec="" />Странно, что уранчиков не наш<tag a="50" b="17" arg="0xd 0xcd00 0x4 0x435 0x43b 0x4 0x43b 0x430 0x0" />.<delay frames="40" />
+	<message label="105" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Поговаривают, что он<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" /> здесь кучу
+венерок наш<tag a="50" b="17" arg="0xe 0xcd00 0x4 0x435 0x43b 0x4 0x43b 0x430 0x0" /> и выкопал<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" /><tag a="110" b="0" /><pageBreak /><anim id="WrySmile" target="actor" targetSpec="" />Странно, что уранчиков не наш<tag a="50" b="17" arg="0xe 0xcd00 0x4 0x435 0x43b 0x4 0x43b 0x430 0x0" />.<delay frames="40" />
 <anim id="Shocked" target="actor" targetSpec="" />Зато я нашел<tag a="110" b="0" /> свое призвание:
 составлять каламбуры! <anim id="Laughing" target="actor" targetSpec="" />Хо-хо!</message>
-	<message label="106" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Ходят слухи, что он<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" /> кучу шариков
-прострелил<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" /> из рогатки.<pageBreak /><anim id="Angry" target="actor" targetSpec="" />Надеюсь, когда я запущу свою
-рекламную кампанию, он<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" /> пощадит
+	<message label="106" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Ходят слухи, что он<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" /> кучу шариков
+прострелил<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" /> из рогатки.<pageBreak /><anim id="Angry" target="actor" targetSpec="" />Надеюсь, когда я запущу свою
+рекламную кампанию, он<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" /> пощадит
 шарики с моим изображением.</message>
-	<message label="107" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Слышал, что он<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" /> загадывал<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" />
+	<message label="107" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Слышал, что он<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" /> загадывал<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" />
 желания во время звездопада.<pageBreak /><anim id="Scheming" target="actor" targetSpec="" />Если бы у меня была возможность
 загадать желание, я бы загадал
 иметь два желания.<pageBreak /><anim id="AbsentMindedness" target="actor" targetSpec="" />А потом — четыре, и так по
 нарастающей. Я умею делать
 выгодные инвестиции.</message>
-	<message label="108" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Говорят, он<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" /> ходил<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" /> и тряс<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x4 0x43b 0x430 0x0" />
+	<message label="108" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Говорят, он<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" /> ходил<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" /> и тряс<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x4 0x43b 0x430 0x0" />
 деревья. <tag a="50" b="3" /><tag a="110" b="5" />!<pageBreak /><anim id="OhGeez" target="actor" targetSpec="" />Я тоже готов к укусам ос <delay frames="40" />ради того,
 чтобы собрать материал на
 эксклюзивную мебель. <delay20 /><anim id="Laughing" target="actor" targetSpec="" />Хо-хо!</message>
-	<message label="109" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />По слухам, он<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" /> ходил<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" /> и рубил<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" />
+	<message label="109" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />По слухам, он<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" /> ходил<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" /> и рубил<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" />
 деревья топором.<pageBreak /><anim id="SmugFace" target="actor" targetSpec="" />Я тоже недавно научился с топором
 управляться. <delay frames="40" /><anim id="OhGeez" target="actor" targetSpec="" />Мне даже пригодились
 позы из йоги. Кстати, рекомендую!</message>
-	<message label="110" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Наверное, это он<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" /> все деревья
-срубил<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" />.<pageBreak /><anim id="BrokenHeart" target="actor" targetSpec="" />Конечно, теперь открывается
+	<message label="110" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Наверное, это он<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" /> все деревья
+срубил<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" />.<pageBreak /><anim id="BrokenHeart" target="actor" targetSpec="" />Конечно, теперь открывается
 красивый вид, но все-таки пусть
 кто-нибудь посадит новые деревья.<pageBreak /><anim id="Grin" target="actor" targetSpec="" />Мне для селфи зеленый фон
 нужен.<delay20 /> <anim id="Laughing" target="actor" targetSpec="" />Хо-хо!</message>
-	<message label="111" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Говорят, что он<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" /> здесь посадил<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" />
+	<message label="111" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Говорят, что он<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" /> здесь посадил<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" />
 кучу растений.<pageBreak /><anim id="SmugFace" target="actor" targetSpec="" />Это называется ландшафтный
 дизайн острова <tag a="110" b="8" />.
 Поверь, дизайн — это мой конек.</message>
-	<message label="112" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Я слышал, он<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" /> почти все цветы
-полил<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" />.<pageBreak /><anim id="HappyFlower" target="actor" targetSpec="" />Говорят же, что весь мир — театр,
+	<message label="112" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Я слышал, он<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" /> почти все цветы
+полил<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" />.<pageBreak /><anim id="HappyFlower" target="actor" targetSpec="" />Говорят же, что весь мир — театр,
 а в театре всегда должны быть
 красивые свежие цветы. <delay frames="40" /><anim id="Laughing" target="actor" targetSpec="" />Хо-хо!</message>
-	<message label="113" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />По слухам, он<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" /> тут устроил<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" />
+	<message label="113" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />По слухам, он<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" /> тут устроил<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" />
 перформанс.<pageBreak /><anim id="AbsentMindedness" target="actor" targetSpec="" />Жаль, меня не было.<delay20 /> Люблю
 наблюдать, как другие свободно
 выражают свои эмоции.</message>
-	<message label="116" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Поговаривают, что он<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" /> что-то
-делал<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" /> по инструкциям
+	<message label="114" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Я слышал, он<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" /> быстро собрал<tag a="50" b="17" arg="0xe 0xcd00 0x4 0x441 0x44f 0x6 0x430 0x441 0x44c 0x0" />
+и рванул<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" /> в аэропорт<tag a="110" b="0" /><delay20 /> <anim id="Shocked" target="actor" targetSpec="" />Все было
+стремительно, как в триллере.<pageBreak /><anim id="Thinking" target="actor" targetSpec="" />Интересно, он<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" /> к кому-то в гости
+уезжал<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" /><tag a="110" b="0" /><delay20 /> <anim id="Aha" target="actor" targetSpec="" />или здесь правда
+фильм снимали?</message>
+	<message label="115" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Говорят, к не<tag a="50" b="17" arg="0xe 0xcd00 0x4 0x43c 0x443 0x2 0x439 0x0" /> целая толпа
+друзей приезжала. Вот повезло!<pageBreak /><anim id="SmugFace" target="actor" targetSpec="" />Даже с парой друзей уже можно
+было бы снять отличный клип.<delay20 />
+С замедленной съемкой!<delay20 /> <anim id="Laughing" target="actor" targetSpec="" />Хо-хо!</message>
+	<message label="116" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Поговаривают, что он<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" /> что-то
+делал<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" /> по инструкциям
 «Сделай сам».<pageBreak /><anim id="Shocked" target="actor" targetSpec="" />А вдруг это что-то для меня? <delay frames="40" />Для
 этого, конечно, нет никаких веских
 причин, но все-таки<tag a="110" b="0" /><delay20 /><anim id="Frantic" target="actor" targetSpec="" /> вдруг?</message>
-	<message label="117" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Кажется, он<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" /> столько инструментов
-сломал<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" />!<pageBreak /><anim id="Serious" target="actor" targetSpec="" />Это говорит о том, что он<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" /> просто
-очень старал<tag a="50" b="17" arg="0xd 0xcd00 0x4 0x441 0x44f 0x6 0x430 0x441 0x44c 0x0" />.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Мой педагог по актерскому
+	<message label="117" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Кажется, он<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" /> столько инструментов
+сломал<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" />!<pageBreak /><anim id="Serious" target="actor" targetSpec="" />Это говорит о том, что он<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" /> просто
+очень старал<tag a="50" b="17" arg="0xe 0xcd00 0x4 0x441 0x44f 0x6 0x430 0x441 0x44c 0x0" />.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Мой педагог по актерскому
 мастерству так и говорит:<delay20 /> «Ничего
 не сломал? Значит, не старался!»</message>
-	<message label="118" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Говорят, он<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" /> запер<tag a="50" b="17" arg="0xd 0xcd00 0x4 0x441 0x44f 0x8 0x43b 0x430 0x441 0x44c 0x0" /> в четырех
-стенах и никуда не выходил<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" />
+	<message label="118" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Говорят, он<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" /> запер<tag a="50" b="17" arg="0xe 0xcd00 0x4 0x441 0x44f 0x8 0x43b 0x430 0x441 0x44c 0x0" /> в четырех
+стенах и никуда не выходил<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" />
 целый день.<pageBreak /><anim id="OhGeez" target="actor" targetSpec="" />Нет, я понимаю. <delay20 />Гулять полезно. Но
 смотреть смешные видео с котятами
 тоже полезно. Иногда.</message>
-	<message label="119" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Я слышал, он<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" /> времени не терял<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" />,
-гулял<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" /> целый день на свежем
+	<message label="119" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Я слышал, он<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" /> времени не терял<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" />,
+гулял<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" /> целый день на свежем
 воздухе.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Прогулки хорошо снимают стресс.
 Я тоже прогуляться люблю. <delay frames="40" /><anim id="AbsentMindedness" target="actor" targetSpec="" />Иногда
 могу даже спеть во время прогулки.</message>
-	<message label="120" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Он<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" />, кажется, здесь нарыл<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" /> много
-ям по всему острову.<pageBreak /><anim id="Thinking" target="actor" targetSpec="" />Интересно, он<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" /> прятал<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" /> сокровища?
-Или копал<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" /> западни? <delay frames="40" /><anim id="SmugFace" target="actor" targetSpec="" />Как можно это
+	<message label="120" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Он<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" />, кажется, здесь нарыл<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" /> много
+ям по всему острову.<pageBreak /><anim id="Thinking" target="actor" targetSpec="" />Интересно, он<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" /> прятал<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" /> сокровища?
+Или копал<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" /> западни? <delay frames="40" /><anim id="SmugFace" target="actor" targetSpec="" />Как можно это
 узнать? <delay20 />Перекопать весь остров!</message>
-	<message label="121" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Я слышал, он<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" /> только и делал<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" />, что
-падал<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" /> в западни.<pageBreak /><anim id="Shocked" target="actor" targetSpec="" />И кто же додумался выкопать их по
+	<message label="121" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Я слышал, он<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" /> только и делал<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" />, что
+падал<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" /> в западни.<pageBreak /><anim id="Shocked" target="actor" targetSpec="" />И кто же додумался выкопать их по
 всему острову?<delay frames="40" /><anim id="Silent" target="actor" targetSpec="" /> А если я туда
 упаду? Я же съемки пропущу!</message>
-	<message label="122" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Я недавно слышал шум из е<tag a="50" b="24" arg="0xd 0xcd00 0x4 0x433 0x43e 0x2 0x435 0x0 0x0" />
-дома<tag a="110" b="0" /><10_4 /> <anim id="Hello" target="actor" targetSpec="" />Ремонт, наверно, устроил<tag a="50" b="24" arg="0xd 0xcd00 0x0 0x2 0x430 0x0 0x0" />.<pageBreak /><anim id="Frantic" target="actor" targetSpec="" />Почему он<tag a="50" b="24" arg="0xd 0xcd00 0x0 0x2 0x430 0x0 0x0" /> ко мне не обратил<tag a="50" b="24" arg="0xd 0xcd00 0x0 0x4 0x441 0x44f 0x6 0x430 0x441 0x44c 0x0" />?!
-Я бы е<tag a="50" b="24" arg="0xd 0xcd00 0x4 0x43c 0x443 0x2 0x439 0x0 0x0" /> подкинул парочку идей по
+	<message label="122" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Я недавно слышал шум из е<tag a="50" b="24" arg="0xe 0xcd00 0x4 0x433 0x43e 0x2 0x435 0x0 0x0" />
+дома<tag a="110" b="0" /><10_4 /> <anim id="Hello" target="actor" targetSpec="" />Ремонт, наверно, устроил<tag a="50" b="24" arg="0xe 0xcd00 0x0 0x2 0x430 0x0 0x0" />.<pageBreak /><anim id="Frantic" target="actor" targetSpec="" />Почему он<tag a="50" b="24" arg="0xe 0xcd00 0x0 0x2 0x430 0x0 0x0" /> ко мне не обратил<tag a="50" b="24" arg="0xe 0xcd00 0x4 0x441 0x44f 0x6 0x430 0x441 0x44c 0x0 0x0" />?!
+Я бы е<tag a="50" b="24" arg="0xe 0xcd00 0x4 0x43c 0x443 0x2 0x439 0x0 0x0" /> подкинул парочку идей по
 дизайну интерьера.</message>
-	<message label="123" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Я видел, как он<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" /> что-то очень долго
-рисовал<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" /> в нукофоне.<pageBreak /><anim id="Scheming" target="actor" targetSpec="" />Наверное, готовил<tag a="50" b="17" arg="0xd 0xcd00 0x4 0x441 0x44f 0x6 0x430 0x441 0x44c 0x0" /> к шоу
+	<message label="123" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Я видел, как он<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" /> что-то очень долго
+рисовал<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" /> в нукофоне.<pageBreak /><anim id="Scheming" target="actor" targetSpec="" />Наверное, готовил<tag a="50" b="17" arg="0xe 0xcd00 0x4 0x441 0x44f 0x6 0x430 0x441 0x44c 0x0" /> к шоу
 «Модный писк <tag a="90" b="27" />».<pageBreak /><anim id="OhGeez" target="actor" targetSpec="" />Это название моего шоу, если вдруг
 кто-то еще не в курсе.</message>
 	<message label="124_01" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Кстати, мы неплохо пообщались.
@@ -151,136 +160,136 @@
 собственности.<pageBreak /><anim id="Serious" target="actor" targetSpec="" />Поэтому тебе придется подписать
 договор о неразглашении.<10_4 /> <anim id="Laughing" target="actor" targetSpec="" />Хо-хо!<pageBreak /><10_4 /><anim id="Serious" target="actor" targetSpec="" />Кстати, он у меня с собой, может,
 правда подпишешь?</message>
-	<message label="124_02" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Я слышал, что он<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" /> и <tag a="115" b="1" arg="0xcd00" />
+	<message label="124_02" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Я слышал, что он<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" /> и <tag a="115" b="1" arg="0xcd00" />
 очень долго общались.<pageBreak /><anim id="OhGeez" target="actor" targetSpec="" />Что? Я не завидую. <tag a="50" b="3" /><tag a="110" b="5" />!
 <delay20 />Я понимаю, что это было чисто
 профессиональное общение.</message>
-	<message label="125" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Говорят, он<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" /> вел<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" /> себя как
-настоящ<tag a="50" b="17" arg="0xd 0xcd00 0x4 0x438 0x439 0x4 0x430 0x44f 0x0" /> светск<tag a="50" b="17" arg="0xd 0xcd00 0x4 0x438 0x439 0x4 0x430 0x44f 0x0" /> л<tag a="50" b="17" arg="0xd 0xcd00 0x4 0x435 0x432 0xa 0x44c 0x432 0x438 0x446 0x430 0x0" />.<pageBreak /><anim id="Shocked" target="actor" targetSpec="" />Стоп. А я тогда кто?<delay frames="40" /> <anim id="Negative" target="actor" targetSpec="" />«Болтлив<tag a="50" b="24" arg="0x5 0xcd00 0x4 0x44b 0x439 0x4 0x430 0x44f 0x0 0x0" />
+	<message label="125" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Говорят, он<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" /> вел<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" /> себя как
+настоящ<tag a="50" b="17" arg="0xe 0xcd00 0x4 0x438 0x439 0x4 0x430 0x44f 0x0" /> светск<tag a="50" b="17" arg="0xe 0xcd00 0x4 0x438 0x439 0x4 0x430 0x44f 0x0" /> л<tag a="50" b="17" arg="0xe 0xcd00 0x4 0x435 0x432 0xa 0x44c 0x432 0x438 0x446 0x430 0x0" />.<pageBreak /><anim id="Shocked" target="actor" targetSpec="" />Стоп. А я тогда кто?<delay frames="40" /> <anim id="Negative" target="actor" targetSpec="" />«Болтлив<tag a="50" b="24" arg="0x5 0xcd00 0x4 0x44b 0x439 0x4 0x430 0x44f 0x0 0x0" />
 <tag a="110" b="15" />» как-то не так
 эффектно звучит.</message>
-	<message label="126_01" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Я слышал, е<tag a="50" b="17" arg="0xd 0xcd00 0x4 0x433 0x43e 0x2 0x435 0x0" /> вс<tag a="50" b="17" arg="0xd 0xcd00 0x6 0x435 0x433 0x43e 0x2 0x44e 0x0" /> осы изжалили.<pageBreak /><anim id="Grin" target="actor" targetSpec="" />У меня тоже такое было. Я сразу
+	<message label="126_01" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Я слышал, е<tag a="50" b="17" arg="0xe 0xcd00 0x4 0x433 0x43e 0x2 0x435 0x0" /> вс<tag a="50" b="17" arg="0xe 0xcd00 0x6 0x435 0x433 0x43e 0x2 0x44e 0x0" /> осы изжалили.<pageBreak /><anim id="Grin" target="actor" targetSpec="" />У меня тоже такое было. Я сразу
 сделал фотографии на случай, если
 меня пригласят в фильм ужасов.<pageBreak /><anim id="OhGeez" target="actor" targetSpec="" />Как говорится,<delay frames="40" /> <anim id="BigSmile" target="actor" targetSpec="" />оса ужалила —
 к удачному кастингу. <delay20 />Хо-хо!</message>
-	<message label="126_02" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Я видел, как е<tag a="50" b="17" arg="0xd 0xcd00 0x4 0x433 0x43e 0x2 0x435 0x0" /> оса ужалила.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Я, конечно, смеялся, <anim id="SmugFace" target="actor" targetSpec="" />но только
-потому, что хотел е<tag a="50" b="17" arg="0xd 0xcd00 0x4 0x43c 0x443 0x2 0x439 0x0" /> помочь.<pageBreak /><delay frames="40" /><anim id="Thinking" target="actor" targetSpec="" />Говорят же, что смех — это лучшее
+	<message label="126_02" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Я видел, как е<tag a="50" b="17" arg="0xe 0xcd00 0x4 0x433 0x43e 0x2 0x435 0x0" /> оса ужалила.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Я, конечно, смеялся, <anim id="SmugFace" target="actor" targetSpec="" />но только
+потому, что хотел е<tag a="50" b="17" arg="0xe 0xcd00 0x4 0x43c 0x443 0x2 0x439 0x0" /> помочь.<pageBreak /><delay frames="40" /><anim id="Thinking" target="actor" targetSpec="" />Говорят же, что смех — это лучшее
 лекарство.</message>
-	<message label="127" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Ходят слухи, что он<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" /> наш<tag a="50" b="17" arg="0xd 0xcd00 0x4 0x435 0x43b 0x4 0x43b 0x430 0x0" /> целую
+	<message label="127" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Ходят слухи, что он<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" /> наш<tag a="50" b="17" arg="0xe 0xcd00 0x4 0x435 0x43b 0x4 0x43b 0x430 0x0" /> целую
 кучу окаменелостей.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Это как кости, только в стиле ретро.
 <delay frames="40" />А ретро<tag a="110" b="0" /> это как винтаж, только
 более стильно.</message>
-	<message label="128" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Кажется, он<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" /> здесь ходил<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" />
-и колотил<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" /> по камням.<pageBreak /><anim id="WrySmile" target="actor" targetSpec="" />Может, это такой концептуальный
+	<message label="128" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Кажется, он<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" /> здесь ходил<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" />
+и колотил<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" /> по камням.<pageBreak /><anim id="WrySmile" target="actor" targetSpec="" />Может, это такой концептуальный
 перформанс<tag a="110" b="0" /><delay frames="40" /><anim id="Laughing" target="actor" targetSpec="" /><delay frames="40" /><anim id="Shocked" target="actor" targetSpec="" /> О!<delay frames="40" /> <anim id="Thinking" target="actor" targetSpec="" />Надо записать
 идею. <tag a="50" b="3" /><tag a="110" b="5" />!</message>
-	<message label="129" attrib="00 00 00 00 00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Ходят слухи, что он<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" /> здесь дини
-в землю закопал<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" />.<pageBreak /><anim id="Scheming" target="actor" targetSpec="" />Я не так<tag a="50" b="24" arg="0x5 0xcd00 0x4 0x43e 0x439 0x4 0x430 0x44f 0x0 0x0" /> <tag a="110" b="15" />, котор<tag a="50" b="24" arg="0x5 0xcd00 0x4 0x44b 0x439 0x4 0x430 0x44f 0x0 0x0" />
+	<message label="129" attrib="00 00 00 00 00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Ходят слухи, что он<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" /> здесь дини
+в землю закопал<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" />.<pageBreak /><anim id="Scheming" target="actor" targetSpec="" />Я не так<tag a="50" b="24" arg="0x5 0xcd00 0x4 0x43e 0x439 0x4 0x430 0x44f 0x0 0x0" /> <tag a="110" b="15" />, котор<tag a="50" b="24" arg="0x5 0xcd00 0x4 0x44b 0x439 0x4 0x430 0x44f 0x0 0x0" />
 будет что-то выкапывать. Но<anim id="EmotEnd" target="actor" targetSpec="" /> могу
 сделать исключение<tag a="110" b="0" /></message>
-	<message label="130" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Говорят, он<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" /> собрал<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" /> очень много
+	<message label="130" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Говорят, он<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" /> собрал<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" /> очень много
 <tag a="50" b="23" arg="0xcd03" /><tag a="110" b="7" arg="0xcd01" />.<pageBreak /><anim id="Thinking" target="actor" targetSpec="" />Наверное, хочет <tag a="50" b="23" arg="0xcd01" /><tag a="135" b="7" arg="0xcd00" />
 сделать. <tag a="50" b="3" /><tag a="110" b="5" /><tag a="110" b="0" /><pageBreak /><anim id="SmugFace" target="actor" targetSpec="" />Как, ты не пробовал<gender2 m="" f="а" />
 <tag a="50" b="23" arg="0xcd01" /><tag a="135" b="7" arg="0xcd00" /> из <tag a="50" b="23" arg="0xcd03" /><tag a="110" b="7" arg="0xcd01" />?
 Да ты еще толком не жил<gender2 m="" f="а" />!</message>
-	<message label="131" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Говорят, он<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" /> весь день в телефоне
-просидел<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" />. Как неоригинально!<pageBreak /><anim id="OhGeez" target="actor" targetSpec="" />Да-да<tag a="110" b="0" /><delay20 /> Ты не ослышал<gender2 m="ся" f="ась" />. Это
+	<message label="131" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Говорят, он<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" /> весь день в телефоне
+просидел<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" />. Как неоригинально!<pageBreak /><anim id="OhGeez" target="actor" targetSpec="" />Да-да<tag a="110" b="0" /><delay20 /> Ты не ослышал<gender2 m="ся" f="ась" />. Это
 говорю я. <delay20 /><anim id="Grin" target="actor" targetSpec="" />Это трез ироник! <anim id="Laughing" target="actor" targetSpec="" />Это на
 испанском значит «занятно».</message>
-	<message label="132" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Я слышал, что е<tag a="50" b="17" arg="0xd 0xcd00 0x4 0x433 0x43e 0x2 0x435 0x0" /> было не оторвать
+	<message label="132" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Я слышал, что е<tag a="50" b="17" arg="0xe 0xcd00 0x4 0x433 0x43e 0x2 0x435 0x0" /> было не оторвать
 от телефона.<pageBreak /><anim id="Shocked" target="actor" targetSpec="" />Я в шоке. Как так можно?<delay20 /> В таком
 райском уголке просидеть все
 время в телефоне? <tag a="50" b="3" /><tag a="110" b="5" />!<pageBreak /><anim id="Negative" target="actor" targetSpec="" />Это вообще вредно. <delay20 />Сейчас покажу
 тебе статью, она у меня в телефоне
 сохранена.<10_4 /> <anim id="Oops" target="actor" targetSpec="" />Ой<tag a="110" b="0" /></message>
-	<message label="133" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Ходят слухи, что он<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" /> усердно
-помогал<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" /> строить здесь дороги.<pageBreak /><anim id="Cheering" target="actor" targetSpec="" />А дороги сделают наш остров
+	<message label="133" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Ходят слухи, что он<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" /> усердно
+помогал<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" /> строить здесь дороги.<pageBreak /><anim id="Cheering" target="actor" targetSpec="" />А дороги сделают наш остров
 <tag a="110" b="8" /> более
 современным!<10_4 /><anim id="OhGeez" target="actor" targetSpec="" /> Дороги и бутики.</message>
-	<message label="134" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Говорят, он<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" /> занимал<tag a="50" b="17" arg="0xd 0xcd00 0x4 0x441 0x44f 0x6 0x430 0x441 0x44c 0x0" />
+	<message label="134" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Говорят, он<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" /> занимал<tag a="50" b="17" arg="0xe 0xcd00 0x4 0x441 0x44f 0x6 0x430 0x441 0x44c 0x0" />
 улучшением речных потоков.<pageBreak /><anim id="BigSmile" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="110" b="5" />! Если бы я был
 рыбой, <delay frames="40" /><anim id="OhGeez" target="actor" targetSpec="" />я бы обрадовался. Но как
 представлю, что надо есть червей<tag a="110" b="0" /></message>
-	<message label="135" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Кто-то видел, как он<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" /> скалы
-возводил<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" />.<pageBreak /><anim id="Shocked" target="actor" targetSpec="" />Вот это самоотверженность!<delay20 /> Такой
+	<message label="135" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Кто-то видел, как он<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" /> скалы
+возводил<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" />.<pageBreak /><anim id="Shocked" target="actor" targetSpec="" />Вот это самоотверженность!<delay20 /> Такой
 проект провернуть с местным
 ландшафтом! <tag a="50" b="3" /><tag a="110" b="5" />!</message>
-	<message label="136" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Я слышал, он<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" /> здесь новые заборы
-городил<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" />, старые сносил<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" />, и все
+	<message label="136" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Я слышал, он<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" /> здесь новые заборы
+городил<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" />, старые сносил<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" />, и все
 в таком духе.<pageBreak /><anim id="OhGeez" target="actor" targetSpec="" />Но, звезда моя, ты же знаешь, что
 для свободных духом<tag a="110" b="0" /> как я<tag a="110" b="0" />
 <anim id="SmugFace" target="actor" targetSpec="" />никаких преград не существует!</message>
-	<message label="137" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />По слухам, он<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" /> здесь садовую
-мебель переставлял<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" />.<pageBreak /><anim id="OhGeez" target="actor" targetSpec="" />Неужели сложно было обратиться
+	<message label="137" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />По слухам, он<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" /> здесь садовую
+мебель переставлял<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" />.<pageBreak /><anim id="OhGeez" target="actor" targetSpec="" />Неужели сложно было обратиться
 ко мне, эксперту по дизайну?<pageBreak /><anim id="Grin" target="actor" targetSpec="" />Хотя правильно. <delay20 />У меня бы на это
 ушел весь день. Если я разойдусь,
 меня уже не остановить. <delay20 /><anim id="Laughing" target="actor" targetSpec="" />Хо-хо!</message>
-	<message label="138" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Если верить слухам, он<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" /> с особым
-старанием собирал<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" /> мили.
+	<message label="138" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Если верить слухам, он<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" /> с особым
+старанием собирал<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" /> мили.
 <tag a="50" b="3" /><tag a="110" b="5" />!<pageBreak /><anim id="Negative" target="actor" targetSpec="" />А я никак не могу накопить на что-
 то крупное, трачу по мелочам.<pageBreak /><anim id="SadSpiral" target="actor" targetSpec="" />В детстве я мечтал накопить на
 гигантского плюшевого мишку, но
 в итоге тратил все на сладости<tag a="110" b="0" /></message>
-	<message label="139" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Поговаривают, что он<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" /> выплатил<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" />
+	<message label="139" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Поговаривают, что он<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" /> выплатил<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" />
 свою ссуду.<pageBreak /><anim id="Blushing" target="actor" targetSpec="" />Впечатляет.<delay20 /> Вот я вообще не могу
 ни одного дела закон<tag a="110" b="0" /><anim id="Aha" target="actor" targetSpec="" /> Ой, что там
 пролетело?</message>
-	<message label="140" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Е<tag a="50" b="17" arg="0xd 0xcd00 0x4 0x433 0x43e 0x2 0x435 0x0" /> видели возле <delay20 /><colour id="1" />лавки Нука<colour id="65535" />.<delay20 /> Он<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" />
-туда зачем-то заходил<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" /> несколько
+	<message label="140" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Е<tag a="50" b="17" arg="0xe 0xcd00 0x4 0x433 0x43e 0x2 0x435 0x0" /> видели возле <delay20 /><colour id="1" />лавки Нука<colour id="65535" />.<delay20 /> Он<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" />
+туда зачем-то заходил<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" /> несколько
 раз. <tag a="50" b="3" /><tag a="110" b="5" />!<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Может, дизайнерскую мебель
 завезли?<10_4 /><anim id="Serious" target="actor" targetSpec="" /> Я в таких случаях беру
 сразу.<delay frames="40" /><anim id="Grin" target="actor" targetSpec="" /> Даже на цену не смотрю.</message>
-	<message label="141" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Я слышал, что он<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" /> поменял<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" /> нам
+	<message label="141" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Я слышал, что он<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" /> поменял<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" /> нам
 <delay20 />мелодию острова. <tag a="50" b="3" /><tag a="110" b="6" />!
 <anim id="AbsentMindedness" target="actor" targetSpec="" />Музыка — это же зеркало души<tag a="110" b="0" /><pageBreak /><anim id="IdeaBulb" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="110" b="3" />, то есть если
 я напишу песню, <delay20 /><anim id="EmotEnd" target="actor" targetSpec="" />она сразу же
 создаст резонанс во всем мире.</message>
-	<message label="142" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Говорят, он<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" /> поменял<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" /> флаг
+	<message label="142" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Говорят, он<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" /> поменял<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" /> флаг
 над <colour id="1" />бюро услуг<colour id="65535" />.<pageBreak /><anim id="Serious" target="actor" targetSpec="" />Грамотный ход. <delay20 /><anim id="Negative" target="actor" targetSpec="" />Мы же не хотим,
 чтобы наш остров прославился
 своим вышедшим из моды флагом.</message>
-	<message label="143" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Говорят, он<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" /> тут махал<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" /> палочкой-
+	<message label="143" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Говорят, он<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" /> тут махал<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" /> палочкой-
 переодевалочкой направо и налево.
-И наряды менял<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" />. <tag a="50" b="3" /><tag a="110" b="5" />!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Вовремя переодеться так же важно,<delay20 />
+И наряды менял<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" />. <tag a="50" b="3" /><tag a="110" b="5" />!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Вовремя переодеться так же важно,<delay20 />
 как и <anim id="WrySmile" target="actor" targetSpec="" />эффектно выглядеть,
 и <tag a="115" b="0" arg="0xcd00" /> это понимает!</message>
-	<message label="144" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Я слышал, что он<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" /> очень элегантно
-прыгал<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" /> с шестом через реки.<delay20 />
+	<message label="144" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Я слышал, что он<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" /> очень элегантно
+прыгал<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" /> с шестом через реки.<delay20 />
 <tag a="50" b="3" /><tag a="110" b="6" />!<pageBreak /><anim id="AbsentMindedness" target="actor" targetSpec="" />Такие прыжки не для меня<tag a="110" b="0" /> Разве
 что <anim id="Love" target="actor" targetSpec="" />прыгнуть, чтобы приземлиться
 в толпу своих фанатов<tag a="110" b="0" /></message>
-	<message label="145" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Видели, как он<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" /> покупал<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" /> <delay20 />репу
+	<message label="145" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Видели, как он<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" /> покупал<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" /> <delay20 />репу
 <delay20 /><anim id="Explain" target="actor" targetSpec="" />у <colour id="3" />Дейзи-Мей<colour id="65535" />. <tag a="50" b="3" /><tag a="110" b="5" />!<pageBreak /><anim id="Scheming" target="actor" targetSpec="" />Некоторые думают, что купят репу
 и разбогатеют. На самом деле<tag a="110" b="0" /><delay20 /> <anim id="Grin" target="actor" targetSpec="" />ты
 покупаешь просто красивую мечту.</message>
-	<message label="146" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Поговаривают, что е<tag a="50" b="17" arg="0xd 0xcd00 0x4 0x433 0x43e 0x2 0x435 0x0" /> репа выросла
+	<message label="146" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Поговаривают, что е<tag a="50" b="17" arg="0xe 0xcd00 0x4 0x433 0x43e 0x2 0x435 0x0" /> репа выросла
 в цене и принесла хороший доход.
 Селяви!<pageBreak /><anim id="WrySmile" target="actor" targetSpec="" />Чтобы разбогатеть на репе, нужна
 не просто удача.<delay20 /><anim id="BigSmile" target="actor" targetSpec="" /> Нужна очень
 большая удача! <tag a="50" b="3" /><tag a="110" b="5" />!</message>
-	<message label="147" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Говорят, он<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" /> рассказывал<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" /> друзьям
+	<message label="147" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Говорят, он<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" /> рассказывал<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" /> друзьям
 свои истории из жизни.
 <tag a="50" b="3" /><tag a="110" b="5" />!<pageBreak /><anim id="IdeaBulb" target="actor" targetSpec="" />О! «Истории из жизни». <delay frames="40" /><anim id="Thinking" target="actor" targetSpec="" />А что?<delay frames="40" />
 <anim id="Grin" target="actor" targetSpec="" />Неплохое название для моих
 мемуаров. Надо записать.</message>
-	<message label="148" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />А ты знаешь, что он<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" /> выполнял<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" />
+	<message label="148" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />А ты знаешь, что он<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" /> выполнял<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" />
 особую прополочную миссию.
-Это по слухам. <tag a="50" b="3" /><tag a="110" b="5" />!<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Е<tag a="50" b="17" arg="0xd 0xcd00 0x4 0x433 0x43e 0x2 0x435 0x0" /> можно понять. <delay frames="40" />Я сам люблю
+Это по слухам. <tag a="50" b="3" /><tag a="110" b="5" />!<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Е<tag a="50" b="17" arg="0xe 0xcd00 0x4 0x433 0x43e 0x2 0x435 0x0" /> можно понять. <delay frames="40" />Я сам люблю
 эстетику минимализма
 в ландшафтном дизайне.</message>
-	<message label="149" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Если верить слухам, он<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" /> поменял<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" />
-прическу. <tag a="50" b="3" /><tag a="110" b="5" />!<pageBreak /><anim id="AbsentMindedness" target="actor" targetSpec="" />Интересно, что побудило е<tag a="50" b="17" arg="0xd 0xcd00 0x4 0x433 0x43e 0x2 0x435 0x0" />
+	<message label="149" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Если верить слухам, он<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" /> поменял<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" />
+прическу. <tag a="50" b="3" /><tag a="110" b="5" />!<pageBreak /><anim id="AbsentMindedness" target="actor" targetSpec="" />Интересно, что побудило е<tag a="50" b="17" arg="0xe 0xcd00 0x4 0x433 0x43e 0x2 0x435 0x0" />
 сделать<tag a="110" b="0" /><delay20 /><anim id="Serious" target="actor" targetSpec="" /> столь важный шаг?</message>
-	<message label="150" attrib="00 00 00 00 00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />Ходит молва, что он<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" /> полностью
-сменил<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" /> имидж. Даже лицо
+	<message label="150" attrib="00 00 00 00 00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />Ходит молва, что он<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" /> полностью
+сменил<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" /> имидж. Даже лицо
 изменилось.<pageBreak /><anim id="ShyBoy" target="actor" targetSpec="" />Скажи, <tag a="110" b="3" /><tag a="110" b="0" /><delay frames="40" /> <anim id="IdeaBulb" target="actor" targetSpec="" />Если бы
 ты мог<gender2 m="" f="ла" /> изменить всего одну вещь
 в моем лице,<delay frames="40" /><anim id="QuestionMark" target="actor" targetSpec="" /> что бы ты выбрал<gender2 m="" f="а" />?<anim id="Eh" target="actor" targetSpec="" /><pageBreak /><anim id="Shocked" target="actor" targetSpec="" />Молчишь?<delay frames="40" /><anim id="EmotEnd" target="actor" targetSpec="" /> И абсолютно правильно
 делаешь.<delay frames="40" /><anim id="SmugFace" target="actor" targetSpec="" /> Ведь мое лицо идеально:
 ни убавить, ни прибавить! Вуаля!</message>
-	<message label="151" attrib="00 00 00 00 00 00 00 00"><tag a="50" b="3" /><tag a="110" b="5" />! <anim id="Nodding" target="actor" targetSpec="" />Е<tag a="50" b="17" arg="0xd 0xcd00 0x4 0x433 0x43e 0x2 0x435 0x0" /> постоянно видят
+	<message label="151" attrib="00 00 00 00 00 00 00 00"><tag a="50" b="3" /><tag a="110" b="5" />! <anim id="Nodding" target="actor" targetSpec="" />Е<tag a="50" b="17" arg="0xe 0xcd00 0x4 0x433 0x43e 0x2 0x435 0x0" /> постоянно видят
 с фотоаппаратом: ходит и снимает
 остров <tag a="110" b="8" />.<pageBreak /><anim id="TakenAback" target="actor" targetSpec="" />Ой! <delay20 /><anim id="Worried" target="actor" targetSpec="" />Надо посмотреть, хорошо ли
 я получился на фотографиях, пока
-он<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" /> их не опубликовал<tag a="50" b="17" arg="0xd 0xcd00 0x0 0x2 0x430 0x0" />.</message>
+он<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" /> их не опубликовал<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" />.</message>
 </msbt>

@@ -124,7 +124,7 @@
 сувениры из моей коллекции!</message>
 	<message label="028" attrib="00 00 00 00"><anim id="AbsentMindedness" target="actor" targetSpec="" />Все пойманные насекомые
 материализуются в <colour id="1" />террариуме
-<colour id="65535" />у турнирной палатки.<pageBreak /><anim id="Hello" target="actor" targetSpec="" />А это значит, что тебе нужен лишь
+<colour id="65535" />в турнирной палатке.<pageBreak /><anim id="Hello" target="actor" targetSpec="" />А это значит, что тебе нужен лишь
 сачок, а место в карманах — нет.<delay20 /><anim id="BigSmile" target="actor" targetSpec="" />
 Никакой дискриминации!</message>
 	<message label="029" attrib="02 00 00 00">Так что<tag a="110" b="0" /><delay frames="40" /><anim id="QuestionMark" target="actor" targetSpec="" /> Хочешь поучаствовать
@@ -133,8 +133,8 @@
 	<message label="029_a" attrib="00 00 00 00">Хочу!</message>
 	<message label="029_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Пока не хочу.</message>
 	<message label="030" attrib="02 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Ну что,<delay20 /> поучаствуешь в <colour id="1" />турнире
-«Мастер сачка»<colour id="65535" />?<delay40 /> <anim id="EmotEnd" target="actor" targetSpec="" />Для новичков,
-то есть тебя, участие бесплатно!</message>
+«Мастер сачка»<colour id="65535" />?<delay40 /> <anim id="EmotEnd" target="actor" targetSpec="" />Для новичков
+первый раунд сегодня бесплатный!</message>
 	<message label="030_a" attrib="00 00 00 00">Да, вперед!</message>
 	<message label="030_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Пока не хочу.</message>
 	<message label="031" attrib="00 00 00 00"><anim id="Cheering" target="actor" targetSpec="" /><colour id="1" />Турнир «Мастер сачка» <colour id="65535" />начался!
@@ -169,9 +169,8 @@
 и фанат насекомых.<delay20 /><anim id="SmugFace" target="actor" targetSpec="" /> Меня называют
 певцом насекомьей красоты.<pageBreak /><anim id="Blushing" target="actor" targetSpec="" />Знаешь, я не очень люблю шумные
 мероприятия,<delay20 /><anim id="AbsentMindedness" target="actor" targetSpec="" /> но здесь чувствуется
-магическое жужжание вселенной!<pageBreak /><anim id="Greeting" target="actor" targetSpec="" />Думаю, тебе понравится!<delay20 /> Как насчет
-раунда? <anim id="Cheering" target="actor" targetSpec="" />Участие в <colour id="1" />турнире «Мастер
-сачка»<colour id="65535" /> облагораживает душу!</message>
+магическое жужжание вселенной!<pageBreak />Ты можешь участвовать в <colour id="1" />турнире
+«Мастер сачка» <colour id="65535" />до <colour id="1" /><tag a="90" b="37" arg="0xcd01" />:00<colour id="65535" />.</message>
 	<message label="037" attrib="00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Наконец-то начался <colour id="1" />турнир «Мастер
 сачка»<colour id="65535" />!<delay20 /> Время браться за сачки
 в погоне за прекрасным!<pageBreak /><anim id="ShyBoy" target="actor" targetSpec="" />Я <colour id="3" />Флик<colour id="65535" />, <delay20 />скромный энтомолог-
@@ -226,7 +225,7 @@
 постою и обещаю хорошо о них заботиться!<size value="100" /></message>
 	<message label="049_a" attrib="00 00 00 00">Продам насекомых!</message>
 	<message label="049_b" attrib="00 00 00 00">Я хочу обменять очки.</message>
-	<message label="049_c" attrib="00 00 00 00">Я тут за другим.</message>
+	<message label="049_c" attrib="00 00 00 00">Насчет турнира...</message>
 	<message label="049_d" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Не в этот раз.</message>
 	<message label="050" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />О-отлично! <delay20 />Восхитительно!
 <delay20 /><anim id="QuestionMark" target="actor" targetSpec="" />С какими из своих насекомых
@@ -240,8 +239,8 @@
 	<message label="051_a" attrib="00 00 00 00">Да, давай!</message>
 	<message label="051_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Нет, я передумал<gender2 m="" f="а" />.</message>
 	<message label="052" attrib="02 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Ах, <tag a="125" b="0" arg="0x1" />!<delay20 />
-Равных е<tag a="50" b="17" arg="0x111 0xcd00 0x4 0x43c 0x443 0x2 0x439 0x4 0x43c 0x443" /> нет<tag a="110" b="0" /><delay frames="40" /> <colour id="4" />По крайней мере,
-в этой вселенной<tag a="110" b="0" /><pageBreak /><anim id="QuestionMark" target="actor" targetSpec="" /><colour id="65535" />Ты продашь мне сво<tag a="50" b="17" arg="0x111 0xcd00 0x6 0x435 0x433 0x43e 0x2 0x44e 0x6 0x435 0x433 0x43e" /> <tag a="50" b="23" arg="0xcd03" /><tag a="125" b="0" arg="0x1" /> за <tag a="90" b="26" arg="0x3" />?</message>
+Я еще никогда не держал в руках
+это чудо<tag a="110" b="0" /><delay frames="40" /> <colour id="4" />Наяву — точно!<pageBreak /><anim id="QuestionMark" target="actor" targetSpec="" /><colour id="65535" />Продашь за <tag a="90" b="26" arg="0x3" />?</message>
 	<message label="052_a" attrib="00 00 00 00">Да, продам!</message>
 	<message label="052_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Нет, я передумал<gender2 m="" f="а" />.</message>
 	<message label="053" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Помни, что я всегда готов купить<delay frames="40" />
@@ -270,11 +269,18 @@
 насекомьего величия, нам нужна
 защита в виде сачка.<delay20 /> <anim id="Pardon" target="actor" targetSpec="" />Иначе никак!</message>
 	<message label="061" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Ой!<delay20 /> Мне очень жаль, но у тебя
-недостачно диней!<pageBreak /><anim id="Worried" target="actor" targetSpec="" />После первого раунда плата за
-участие составляет <colour id="1" /><tag a="90" b="21" arg="0x2" /><colour id="65535" />.
-<delay20 />Извини!</message>
-	<message label="062" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Прекрасно. <delay20 />Стоимость участия —
-<colour id="1" /><tag a="90" b="21" arg="0x2" /><colour id="65535" />.</message>
+недостаточно диней!<pageBreak /><anim id="Worried" target="actor" targetSpec="" />Приходи, когда у тебя будет
+<colour id="1" /><tag a="90" b="21" arg="0x2" /><colour id="65535" />. <delay20 />Извини, но
+правила есть правила!</message>
+	<message label="062" attrib="02 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Отлично! <delay20 />У меня внутри просто все
+стрекочет! <delay frames="40" /><anim id="Hesitate" target="actor" targetSpec="" />Э, образно выражаясь.<delay frames="40" />
+Кузнечиков я и пальцем не трону.
+<anim id="ShyBoy" target="actor" targetSpec="" />В общем, после первого раунда плата за участие составляет
+<colour id="1" /><tag a="90" b="21" arg="0x2" /><colour id="65535" />. <delay20 />Участвуешь?</message>
+	<message label="062_a" attrib="00 00 00 00">Конечно!</message>
+	<message label="062_b" attrib="00 00 00 00">Нет, наверное.</message>
+	<message label="062_01" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Хорошо<tag a="110" b="0" /><delay20 /><anim id="Silent" target="actor" targetSpec="" /> Тогда я возьму у тебя
+<colour id="1" /><tag a="90" b="21" arg="0x2" /><colour id="65535" /><tag a="110" b="0" /></message>
 	<message label="063" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Так<tag a="110" b="0" /> Я устанавливаю таймер на
 <colour id="1" /><tag a="90" b="0" arg="0xe" /> минут<50_9 x="0" y="14" a="у" b="ы" c="" /><colour id="65535" />.<delay20 /> А ты ловишь насекомых!
 <delay20 />Любых, главное — побольше!<pageBreak /><anim id="Eh" target="actor" targetSpec="" />А если поймаешь как минимум <colour id="1" /><tag a="90" b="1" arg="0x4" /><colour id="65535" />,<colour id="1" />
@@ -289,9 +295,9 @@
 для всех участников!<delay20 /> Соберитесь!</message>
 	<message label="065" attrib="00 00 00 00">Отлично! <delay20 />Мудрое решение!<delay20 />
 Я уверен,<delay20 /> что тебе понравится!</message>
-	<message label="066" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Погоди-ка.<delay frames="40" /> Я все еще чувствую<tag a="110" b="0" /><delay frames="40" /><anim id="Blushing" target="actor" targetSpec="" /> флюиды! Это <tag a="115" b="0" arg="0xcd00" />! Они поступают из е<tag a="50" b="24" arg="0xd 0xcd00 0x4 0x433 0x43e 0x2 0x435 0x0 0x0" /> <colour id="1" />террариума<colour id="65535" />!<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Невозможно начать следующий
+	<message label="066" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Погоди-ка.<delay frames="40" /> Я все еще чувствую<tag a="110" b="0" /><delay frames="40" /><anim id="Blushing" target="actor" targetSpec="" /> флюиды! Это <tag a="115" b="0" arg="0xcd00" />! Они поступают из е<tag a="50" b="24" arg="0xe 0xcd00 0x4 0x433 0x43e 0x2 0x435 0x0 0x0" /> <colour id="1" />террариума<colour id="65535" />!<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Невозможно начать следующий
 раунд, пока хоть в одном из
-<colour id="1" />террариумов <colour id="65535" />остались насекомые.<pageBreak /><anim id="OhGeez" target="actor" targetSpec="" />Пусть <tag a="115" b="0" arg="0xcd00" /> заберет своих насекомых. Или продаст их мне!<delay frames="40" /><anim id="Hello" target="actor" targetSpec="" /> Он<tag a="50" b="24" arg="0xd 0xcd00 0x0 0x2 0x430 0x0 0x0" /> не пожалеет!</message>
+<colour id="1" />террариумов <colour id="65535" />остались насекомые.<pageBreak /><anim id="OhGeez" target="actor" targetSpec="" />Пусть <tag a="115" b="0" arg="0xcd00" /> заберет своих насекомых. Или продаст их мне!<delay frames="40" /><anim id="Hello" target="actor" targetSpec="" /> Он<tag a="50" b="24" arg="0xe 0xcd00 0x0 0x2 0x430 0x0 0x0" /> не пожалеет!</message>
 	<message label="067" attrib="00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Ты ничего не чувствуешь? <delay20 /><anim id="AbsentMindedness" target="actor" targetSpec="" />Из
 <colour id="1" />террариумов<colour id="65535" /> все еще поступают
 сильнейшие насекомьи флюиды.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Все террариумы должны быть
@@ -361,8 +367,8 @@
 	<message label="092" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Я пробуду тут до <colour id="1" /><tag a="90" b="37" arg="0xcd02" />:00<colour id="65535" />.<delay20 />
 Обращайся, помогу!<delay20 />
 <anim id="Eh" target="actor" targetSpec="" /><size value="75" />Если это касается насекомых, конечно!<size value="100" /></message>
-	<message label="094" attrib="02 00 00 00"><anim id="Silent" target="actor" targetSpec="" />Кстати, у тебя уже весьма много
-очков заработано в рамках
+	<message label="094" attrib="02 00 00 00"><anim id="Silent" target="actor" targetSpec="" />Кстати, у тебя уже довольно
+много очков заработано в рамках
 <colour id="1" />турнира «Мастер сачка»<colour id="65535" />.
 <anim id="QuestionMark" target="actor" targetSpec="" />Не хочешь ли обменять их на
 мои бесценные насекомьи
@@ -438,7 +444,7 @@
 не за горами.<delay frames="40" /><anim id="Serious" target="actor" targetSpec="" /> Готовься!</message>
 	<message label="130" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Все пойманные тобой насекомые
 материализуются в <colour id="1" />террариуме
-<colour id="65535" />у турнирной палатки.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Если ты захочешь, <delay20 />можешь забрать
+<colour id="65535" />в турнирной палатке.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Если ты захочешь, <delay20 />можешь забрать
 оттуда свой улов. <delay frames="40" /><anim id="Pardon" target="actor" targetSpec="" />Флюиды
 террариума чувствуются отовсюду!</message>
 	<message label="131" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Можешь участвовать в турнире
@@ -510,6 +516,28 @@
 <colour id="1" />минимум <tag a="90" b="1" arg="0x4" /><colour id="65535" />, бонус за раунд твой!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Если сложить все результаты
 и бонусы вместе, то получится<tag a="110" b="0" />
 <anim id="Shocked" target="actor" targetSpec="" />Ого!<delay frames="30" /><anim id="BigSmile" target="actor" targetSpec="" /> Аж <colour id="1" /><tag a="90" b="2" arg="0x7" /> <50_9 x="0" y="7" a="очко" b="очка" c="очков" /><colour id="65535" />!</message>
+	<message label="151" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Ты поймал<gender2 m="" f="а" /> аж <colour id="1" /><tag a="90" b="1" arg="0x8" /> насеком<50_9 x="0" y="8" a="ое" b="ых" c="ых" /><colour id="65535" />
+своим легендарным суперсачком!<delay frames="40" />
+<anim id="FaintSmile" target="actor" targetSpec="" />Вот это мастерство!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Лучше не держать взаперти больше
+20 экземпляров. <delay20 /><anim id="Surprised" target="actor" targetSpec="" />Когда их много,
+реальность начинает меняться...<pageBreak /><anim id="Hesitate" target="actor" targetSpec="" />Я не хотел рисковать и сам извлек
+излишек из <colour id="1" />террариума<colour id="65535" />.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Но это все на пользу насекомым!
+А значит, всему миру!<delay20 /><anim id="ShyBoy" target="actor" targetSpec="" /> Поэтому,
+надеюсь, ты мне их подаришь?<pageBreak /><anim id="Nodding" target="actor" targetSpec="" /><anim id="Eh" target="actor" targetSpec="" />Не переживай,<delay20 /> очки ты все равно
+получишь!<delay frames="40" /> <anim id="Thinking" target="actor" targetSpec="" />Итак, <colour id="1" /><tag a="90" b="1" arg="0x8" /> <50_9 x="0" y="8" a="очко" b="очка" c="очков" /> <colour id="65535" />за
+улов,<delay20 /> бонус за <colour id="1" /><tag a="90" b="1" arg="0x4" /> или больше<colour id="65535" /><tag a="110" b="0" /><pageBreak /><anim id="Silent" target="actor" targetSpec="" />Получается цел<50_9 x="0" y="7" a="ое" b="ых" c="ых" /> <colour id="1" /><tag a="90" b="2" arg="0x7" /> <50_9 x="0" y="7" a="очко" b="очка" c="очков" /><colour id="65535" />.</message>
+	<message label="152" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Ты поймал<gender2 m="" f="а" /> аж <colour id="1" /><tag a="90" b="1" arg="0x8" /> насеком<50_9 x="0" y="8" a="ое" b="ых" c="ых" /><colour id="65535" />
+своим легендарным суперсачком!<delay frames="40" />
+<anim id="FaintSmile" target="actor" targetSpec="" />Вот это мастерство!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Лучше не держать взаперти больше
+20 экземпляров. <delay20 /><anim id="Surprised" target="actor" targetSpec="" />Когда их много,
+реальность начинает меняться...<pageBreak /><anim id="Hesitate" target="actor" targetSpec="" />Я не хотел рисковать и сам извлек
+излишек из <colour id="1" />террариума<colour id="65535" />.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Но это все на пользу насекомым!
+А значит, всему миру!<delay20 /><anim id="ShyBoy" target="actor" targetSpec="" /> Поэтому,
+надеюсь, ты мне их подаришь?<pageBreak /><anim id="Eh" target="actor" targetSpec="" />Не переживай,<delay20 /> очки ты все равно
+получишь!<delay frames="40" /> <anim id="Thinking" target="actor" targetSpec="" />Все участники вместе
+поймали <colour id="1" /><tag a="90" b="2" arg="0x9" /> насеком<50_9 x="0" y="7" a="ое" b="ых" c="ых" /><colour id="65535" /><tag a="110" b="0" /><pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />За <colour id="1" /><tag a="90" b="1" arg="0xa" /> или больше<colour id="65535" /><anim id="Serious" target="actor" targetSpec="" /><delay20 /> полагается
+командный бонус. <delay frames="40" />Значит, вы
+набрали<tag a="110" b="0" /><colour id="1" /><delay frames="40" /> <anim id="FaintSmile" target="actor" targetSpec="" /><tag a="90" b="2" arg="0x7" /> <50_9 x="0" y="7" a="очко" b="очка" c="очков" /><colour id="65535" />!</message>
 	<message label="160" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" /><colour id="1" />Террариум<colour id="65535" /> и все пойманные тобой
 насекомые находятся в палатке.
 <anim id="AbsentMindedness" target="actor" targetSpec="" />Иди на запах успеха!<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Там же будет находиться и улов
@@ -571,9 +599,9 @@
 <delay20 />отделим куколок от гусениц
 <delay20 /><anim id="Cheering" target="actor" targetSpec="" />в <colour id="1" />турнире «Мастер сачка»<colour id="65535" />!<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Турнир начнется в <colour id="1" /><tag a="90" b="37" arg="0xcd00" />:00<colour id="65535" />.<delay20 /> А пока
 ожидай с нетерпением его начала!</message>
-	<message label="170" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Ну как тебе сегодняшний <colour id="1" />турнир
-«Мастер сачка»<colour id="65535" />?<delay20 /> По-моему, все
-от него только выиграли!</message>
+	<message label="170" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Ну как тебе прошедший <colour id="1" />турнир
+«Мастер сачка»<colour id="65535" />?<delay20 /> По-моему,
+все от него только выиграли!</message>
 	<message label="171" attrib="06 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Эй!<delay20 /> Хочешь поучаствовать в раунде
 <colour id="1" />турнира «Мастер сачка»<colour id="65535" />?<delay20 /> Первое
 участие в роли ведущ<gender2 m="его" f="ей" /> бесплатно!<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Да-да, бесплатно и для тебя, и для
@@ -607,7 +635,7 @@
 <delay20 />сможешь обменять их на чудесные
 насекомьи сувениры!<delay20 /><anim id="Silent" target="actor" targetSpec="" /> Но не сейчас.</message>
 	<message label="210" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Очки можно обменивать на любом
-турнире «Мастер сачка». <delay20 /><anim id="Silent" target="actor" targetSpec="" />Пусть
+турнире <colour id="1" />«Мастер сачка»<colour id="65535" />. <delay20 /><anim id="Silent" target="actor" targetSpec="" />Пусть
 светлячки освещают твой путь!</message>
 	<message label="300" attrib="00 00 00 00">Хочу сувенир!</message>
 	<message label="301" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />В другой раз.</message>

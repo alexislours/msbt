@@ -20,9 +20,9 @@ probar toda esa comida<tag a="110" b="0" /><pageBreak /><anim id="EmotEnd" targe
 ronroneos cuando los acaricias<tag a="110" b="0" /></message>
 	<message label="005" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />¡¿Los tiburones ronronean?!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Yo pensaba que lo único que
 hacían era lanzar mordiscos, <tag a="110" b="6" />.</message>
-	<message label="006" attrib="00 00 00 00 00 00 00 00"><anim id="Laughing" target="mainNpc" targetSpec="" />¡Obviamente ronronean!<pageBreak />Ya verás,<delay8 /> <anim id="Greeting" target="actor" targetSpec="" />¡iremos a un lugar tropical,<delay8 />
+	<message label="006" attrib="00 00 00 00 00 00 00 00"><anim id="Laughing" target="mainNpc" targetSpec="" />¡Obviamente ronronean!<anim id="QuestionMark" target="subNpc" targetSpec="" /><pageBreak /><anim id="Thinking" target="subNpc" targetSpec="" />Ya verás,<delay8 /> <anim id="Greeting" target="actor" targetSpec="" />¡iremos a un lugar tropical,<delay8 />
 comeremos fruta,<delay8 /> acariciaremos
-tiburones<delay8 /> <anim id="BigSmile" target="actor" targetSpec="" />y la pasaremos genial!</message>
+tiburones<anim id="Negative" target="player" targetSpec="" /><delay8 /><anim id="Sighing" target="subNpc" targetSpec="" /> y la <anim id="BigSmile" target="actor" targetSpec="" />pasaremos genial!</message>
 	<message label="007" attrib="00 00 00 00 00 00 00 00"><anim id="Shaking" target="subNpc" targetSpec="" />¡Brrrr!<delay20 /> Bueno, la verdad es que
 <anim id="Shaking" target="subNpc" targetSpec="" />no hay como una sopa calientita
 cuando estás bajo cero<tag a="110" b="0" /></message>
@@ -35,13 +35,13 @@ el ingrediente principal de la sopa<tag a="110" b="0" /></message>
 	<message label="010" attrib="00 00 00 00 00 00 00 00"><20_2 arg="0" /><anim id="Frantic" target="subNpc" targetSpec="" /><anim id="TakenAback" target="mainNpc" targetSpec="" />¡No nos lleves a lugares peligrosos,<delay8 />
 <tag a="110" b="3" />!<delay20 /> ¡No queremos
 convertirnos en sopa!</message>
-	<message label="011" attrib="00 00 00 00 00 00 00 00"><anim id="Thinking" target="subNpc" targetSpec="" /><anim id="FaintSmile" target="mainNpc" targetSpec="" />Podríamos llegar a un lugar lejano
-en barco<tag a="110" b="0" /> <20_2 arg="7" /><20_2 arg="5" /><anim id="Laughing" target="subNpc" targetSpec="" />¡Pero si vamos muy lejos
-terminaríamos volviendo aquí!</message>
-	<message label="012" attrib="00 00 00 00 00 00 00 00"><anim id="Worried" target="mainNpc" targetSpec="" />O imagínate que el mundo es plano<tag a="110" b="0" />
+	<message label="011" attrib="00 00 00 00 00 00 00 00"><anim id="Thinking" target="subNpc" targetSpec="" /><anim id="FaintSmile" target="mainNpc" targetSpec="" />Podríamos llegar a un lugar lejano en
+barco<tag a="110" b="0" /> <20_2 arg="7" /><20_2 arg="5" /><anim id="Eh" target="actor" targetSpec="" />Aunque,<delay8 /> si vamos muy lejos,<delay8 />
+<anim id="Laughing" target="subNpc" targetSpec="" />¡terminaríamos volviendo aquí!</message>
+	<message label="012" attrib="00 00 00 00 00 00 00 00"><anim id="Worried" target="mainNpc" targetSpec="" />O imagínate que el mundo es plano<tag a="110" b="0" /><delay8 />
 <anim id="Frantic" target="mainNpc" targetSpec="" />¡si llegáramos demasiado lejos, nos
 caeríamos por el borde!<anim id="Laughing" target="subNpc" targetSpec="" /></message>
-	<message label="013" attrib="00 00 00 00 00 00 00 00"><anim id="TakenAback" target="mainNpc" targetSpec="" />¡¿Pero qué cosas se te ocurren?!<delay20 />
+	<message label="013" attrib="00 00 00 00 00 00 00 00">¡¿Pero qué cosas se te ocurren?!<anim id="TakenAback" target="mainNpc" targetSpec="" /><delay20 />
 <anim id="Explain" target="subNpc" targetSpec="" />El mundo es redondo como la cabeza
 de <tag a="110" b="3" /><tag a="110" b="0" /></message>
 	<message label="014" attrib="00 00 00 00 00 00 00 00"><anim id="Oops" target="mainNpc" targetSpec="" />Bueno,<delay8 /> yo por eso decía que así no<anim id="Laughing" target="subNpc" targetSpec="" /><tag a="110" b="0" /></message>

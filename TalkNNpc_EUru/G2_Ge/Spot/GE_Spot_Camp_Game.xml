@@ -20,8 +20,8 @@
 	<message label="006_03" attrib="00 00 00 00 00 00 00 00">Извини<delay20 />, в этот раз <anim id="Grin" target="actor" targetSpec="" />приз тебе не
 достанется.</message>
 	<message label="007_01" attrib="00 00 00 00 00 00 00 00"><anim id="Restless" target="actor" targetSpec="" />Уф-ф! В следующий раз я выиграю!<delay40 />
-<anim id="EmotEnd" target="actor" targetSpec="" />Вот мо<tag a="50" b="24" arg="0x11 0xcd00 0x2 0x439 0x2 0x44f 0x2 0x435 0x2 0x438" /> <tag a="125" b="0" arg="0x0" />.
-Береги <tag a="50" b="24" arg="0x11 0xcd00 0x6 0x435 0x433 0x43e 0x4 0x435 0x435 0x6 0x435 0x433 0x43e 0x4 0x438 0x445" />,<anim id="Grin" target="actor" targetSpec="" /> окей? <tag a="50" b="3" /><tag a="110" b="6" />!</message>
+<anim id="EmotEnd" target="actor" targetSpec="" />Вот мо<tag a="50" b="24" arg="0x12 0xcd00 0x2 0x439 0x2 0x44f 0x2 0x435 0x2 0x438" /> <tag a="125" b="0" arg="0x0" />.
+Береги <tag a="50" b="24" arg="0x12 0xcd00 0x6 0x435 0x433 0x43e 0x4 0x435 0x435 0x6 0x435 0x433 0x43e 0x4 0x438 0x445" />,<anim id="Grin" target="actor" targetSpec="" /> окей? <tag a="50" b="3" /><tag a="110" b="6" />!</message>
 	<message label="007_03" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />В этот раз я выиграла, но у тебя
 еще будет шанс когда-нибудь
 отыграться. <tag a="50" b="3" /><tag a="110" b="5" />!</message>
@@ -29,7 +29,7 @@
 У тебя карманы полные.<delay frames="40" /> <anim id="EmotEnd" target="actor" targetSpec="" />Можешь
 освободить место?<delay20 /> <tag a="50" b="3" /><tag a="110" b="6" />!<pageBreak /><anim id="Greeting" target="actor" targetSpec="" />Это глупо, если ты выиграешь,
 а приз некуда девать. Я подскочу,
-как ты будешь готов<gender2 m="" f="а" />! </message>
+как ты будешь готов<gender2 m="" f="а" />!</message>
 	<message label="100" attrib="00 00 00 00 00 00 00 00">Ну окей, слушай внимательно,
 сейчас я объясню тебе правила!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />У меня четыре карты. По одной
 карте каждой масти: <colour id="6" />♥червы<colour id="65535" />,
@@ -40,13 +40,13 @@
 выиграешь. Только подумай об
 этом<tag a="110" b="0" /> Проще простого, скажи?<pageBreak />Ну, поехали. Я начинаю тасовать
 карты<tag a="110" b="0" /><delay40 /> <anim id="NpcShuffle" target="actor" targetSpec="" /><delay20 />прямо сейчас!</message>
-	<message label="101" attrib="00 00 05 00 00 00 00 00"><anim id="NpcHoldout" target="actor" targetSpec="" />Окей, карта у меня. <tag a="50" b="3" /><tag a="110" b="5" />!<delay40 />
+	<message label="101" attrib="00 00 05 00 00 00 00 00">Окей, карта у меня. <tag a="50" b="3" /><tag a="110" b="5" />!<delay40 />
 <anim id="FaintSmile" target="actor" targetSpec="" />По телику бы сейчас обязательно
 заиграла щекочущая нервы музыка.<pageBreak />Мое лицо показали бы крупным
 планом. А я бы посмотрела на тебя
 и сказала серьезным тоном<tag a="110" b="0" /><pageBreak /><anim id="Serious" target="actor" targetSpec="" /><delay20 />Какая масть<tag a="110" b="0" /> <colour id="6" />♥червы<colour id="65535" />, <colour id="6" />♦бубны<colour id="65535" />,
 <colour id="7" />♠пики <colour id="65535" />или<colour id="6" /> <colour id="7" />♣трефы<colour id="6" /><colour id="65535" /><anim id="EmotEnd" target="actor" targetSpec="" /><tag a="110" b="0" /> по-твоему,
-изображена<tag a="110" b="0" /> на<tag a="110" b="0" /> этой<tag a="110" b="0" /> карте?<10_4 /><pageBreak /><anim id="Laughing" target="actor" targetSpec="" />Что, занервничал<gender2 m="" f="а" />?<delay20 /> Ну<tag a="110" b="0" /><anim id="Serious" target="actor" targetSpec="" /><delay20 /> отвечай!</message>
+изображена<tag a="110" b="0" /> на<tag a="110" b="0" /> этой<tag a="110" b="0" /> карте?<pageBreak /><anim id="Laughing" target="actor" targetSpec="" />Что, занервничал<gender2 m="" f="а" />?<delay20 /> Ну<tag a="110" b="0" /><anim id="Serious" target="actor" targetSpec="" /><delay20 /> отвечай!</message>
 	<message label="101_a" attrib="00 00 00 00 00 00 00 00"><colour id="6" />♥Червы<colour id="65535" /></message>
 	<message label="101_b" attrib="00 00 00 00 00 00 00 00"><colour id="6" />♦Бубны<colour id="65535" /></message>
 	<message label="101_c" attrib="00 00 00 00 00 00 00 00"><colour id="7" />♠Пики<colour id="65535" /></message>
@@ -64,7 +64,7 @@
 <tag a="50" b="23" arg="0xcd01" /><tag a="125" b="0" arg="0x0" />!<anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Все понятно?<delay20 /> Ничего сложного!
 <anim id="NpcShuffle" target="actor" targetSpec="" />А теперь я хорошенечко перетасую
 все карты и<tag a="110" b="0" /></message>
-	<message label="201" attrib="00 00 01 00 00 00 00 00"><anim id="NpcHoldout" target="actor" targetSpec="" />Бац! Я вытащила карту!<delay40 />
+	<message label="201" attrib="00 00 01 00 00 00 00 00">Бац! Я вытащила карту!<delay40 />
 <anim id="EmotEnd" target="actor" targetSpec="" />Итак.<delay20 /> Какого цвета масть на этой
 карте? <anim id="Pardon" target="actor" targetSpec="" /><delay20 /><colour id="6" />Красного<colour id="65535" /> или <colour id="7" />черного<colour id="65535" />?!</message>
 	<message label="201_a" attrib="00 00 00 00 00 00 00 00"><colour id="6" />Красного<colour id="65535" /></message>

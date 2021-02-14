@@ -100,10 +100,10 @@
 	<message label="033_04" attrib="00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />Чем же тебя одарить<tag a="110" b="0" /><delay20 />
 <anim id="FaintSmile" target="actor" targetSpec="" />Может, одежда подойдет<tag a="110" b="0" /></message>
 	<message label="035" attrib="02 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Могу дать тебе что-нибудь, чего
-у тебя еще нет, или что-нибудь
-очень ценное.<delay20 /><anim id="QuestionMark" target="actor" targetSpec="" /> Что ты выберешь?</message>
-	<message label="035_a" attrib="00 00 01 00">Новое.</message>
-	<message label="035_b" attrib="00 00 01 00">Очень ценное.</message>
+у тебя еще нет! Или что-нибудь
+очень ценное!<delay20 /><anim id="QuestionMark" target="actor" targetSpec="" /> Что ты выберешь?</message>
+	<message label="035_a" attrib="00 00 01 00"><anim id="EmotEnd" target="actor" targetSpec="" />Новое.</message>
+	<message label="035_b" attrib="00 00 01 00"><anim id="EmotEnd" target="actor" targetSpec="" />Очень ценное.</message>
 	<message label="036_01" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Хороший выбор!<delay40 /><anim id="Smiling" target="actor" targetSpec="" /> Что-нибудь
 новое<tag a="110" b="0" /> чего у тебя еще нет<tag a="110" b="0" /><pageBreak /><anim id="Silent" target="actor" targetSpec="" />Я не знаю, сколько у тебя вещей,<delay20 />
 <anim id="BigSmile" target="actor" targetSpec="" />но этой вещи у тебя еще, наверное,
@@ -111,18 +111,18 @@
 	<message label="036_02" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Хороший выбор!<delay40 /> <anim id="Smiling" target="actor" targetSpec="" />Тебе хочется
 немного роскоши, верно?<pageBreak /><anim id="Silent" target="actor" targetSpec="" />Я не эксперт, поэтому<delay8 /> <anim id="ShyBoy" target="actor" targetSpec="" />я не уверен,
 ценная эта вещь или не очень<tag a="110" b="0" /></message>
-	<message label="037" attrib="00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />Вот держи<tag a="110" b="0" />
-Это <tag a="125" b="4" arg="0x0" />!<delay frames="40" /><pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Я положу <tag a="50" b="24" arg="0x15 0xcd00 0x6 0x435 0x433 0x43e 0x4 0x435 0x435 0x6 0x435 0x433 0x43e 0x4 0x438 0x445" /> тебе в карман, ладно?</message>
+	<message label="037" attrib="00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />Вот, держи<tag a="110" b="0" />
+Это <tag a="125" b="4" arg="0x0" />!<delay frames="40" /><pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Я положу <tag a="50" b="24" arg="0x16 0xcd00 0x6 0x435 0x433 0x43e 0x4 0x435 0x435 0x6 0x435 0x433 0x43e 0x4 0x438 0x445" /> тебе в карман, ладно?</message>
 	<message label="038" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Надеюсь, наши пути еще не раз
 пересекутся.<delay frames="30" /> <anim id="Apologize" target="actor" targetSpec="" />А пока<delay20 /> — прощай!<delay frames="50" /><anim id="FaintSmile" target="actor" targetSpec="" /></message>
 	<message label="040" attrib="00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Что ж!<delay20 /> Ты собрал<gender2 m="" f="а" /> все частицы
 моего <colour id="1" />духа<colour id="65535" />!<pageBreak /><anim id="Serious" target="actor" targetSpec="" />Однако<tag a="110" b="0" /> мне немного неудобно,
-<anim id="Worried" target="actor" targetSpec="" />что кто-то может наблюдать мою
-перемену духа, — я стесняюсь<tag a="110" b="0" /><pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Я предпочитаю не предоставлять
-другим шанс на такое
-<anim id="Negative" target="actor" targetSpec="" />поразительное зрелище.
-<anim id="Apologize" target="actor" targetSpec="" />Мне ужасно жаль,<delay8 /> но давай
-уладим это позже.<delay frames="50" /><anim id="FaintSmile" target="actor" targetSpec="" /></message>
+<anim id="Worried" target="actor" targetSpec="" />что кто-то может наблюдать мое
+превращение, — я стесняюсь<tag a="110" b="0" /><pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Не хотелось бы, чтобы кто-то
+глазел. <anim id="Negative" target="actor" targetSpec="" />Все-таки не каждый
+день такое происходит.<pageBreak /><anim id="Apologize" target="actor" targetSpec="" />Мне ужасно жаль,<delay8 /> но давай
+уладим это позже, когда нет
+посторонних?<delay frames="50" /><anim id="FaintSmile" target="actor" targetSpec="" /></message>
 	<message label="045" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />О, <tag a="110" b="1" />!<pageBreak /><anim id="OhGeez" target="actor" targetSpec="" />Не надо меня так пугать!<delay20 /> У меня
 сердце почти из груди выскочило<tag a="110" b="0" /><delay20 />
 <anim id="Worried" target="actor" targetSpec="" />И я снова растерял свой <colour id="1" />дух<colour id="65535" />!<pageBreak /><anim id="Sighing" target="actor" targetSpec="" />Пропади ты пропадом. На кого

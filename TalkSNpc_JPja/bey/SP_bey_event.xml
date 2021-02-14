@@ -53,7 +53,7 @@
 <anim id="Hello" target="actor" targetSpec="" />また　<ruby a="2" b="4">こえ</ruby>声をかけてくれる？</message>
 	<message label="016" attrib="02 00 00 00"><anim id="Eh" target="actor" targetSpec="" />まだポイントが　たくさん<ruby a="2" b="4">のこ</ruby>残ってるけど<tag a="110" b="0" /><delay20 />
 <anim id="QuestionMark" target="actor" targetSpec="" /><ruby a="4" b="10">しょうひん</ruby>賞品と<ruby a="4" b="8">こうかん</ruby>交換する？</message>
-	<message label="016_a" attrib="00 00 00 00"><ruby a="2" b="2">う</ruby>受け<ruby a="2" b="2">と</ruby>取る</message>
+	<message label="016_a" attrib="00 00 00 00"><ruby a="4" b="8">こうかん</ruby>交換する！</message>
 	<message label="016_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />やめとく</message>
 	<message label="017" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />オッケー　オッケー！<delay frames="30" />
 <anim id="EmotEnd" target="actor" targetSpec="" /><ruby a="2" b="4">こえ</ruby>声かけてくれたら　いつでも<ruby a="2" b="2">う</ruby>受け<ruby a="2" b="2">と</ruby>取れるから、<delay20 />
@@ -206,7 +206,7 @@
 <anim id="FaintSmile" target="actor" targetSpec="" />サカナの<ruby a="8" b="16">こうがくかいとり</ruby>高額買取も　やってるぜ</message>
 	<message label="049_a" attrib="00 00 00 00">サカナを<ruby a="2" b="2">う</ruby>売りたい</message>
 	<message label="049_b" attrib="00 00 00 00">ポイント<ruby a="4" b="8">こうかん</ruby>交換して</message>
-	<message label="049_c" attrib="00 00 00 00"><ruby a="2" b="4">ほか</ruby>他のこと</message>
+	<message label="049_c" attrib="00 00 00 00"><ruby a="4" b="8">たいかい</ruby>大会のこと</message>
 	<message label="049_d" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />なんでもない</message>
 	<message label="050" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />オッケー　オッケー！<delay frames="30" />
 <anim id="FaintSmile" target="actor" targetSpec="" />それじゃ　<ruby a="2" b="2">う</ruby>売りたいサカナを　<ruby a="2" b="2">み</ruby>見せてくれる？</message>
@@ -232,13 +232,16 @@
 <anim id="ShyBoy" target="actor" targetSpec="" /><ruby a="4" b="8">こんかい</ruby>今回のイベントは<delay8 />　つりざおは
 <ruby a="4" b="6">じまえ</ruby>自前で<ruby a="4" b="6">ようい</ruby>用意してもらう　システムなんだ<delay frames="30" />
 <anim id="Worried" target="actor" targetSpec="" />ごめんね～</message>
-	<message label="061" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />オーケー！<delay20 />
-<tag a="110" b="0" /><anim id="Eh" target="actor" targetSpec="" />って、<delay8 />あれあれ？<delay frames="30" />
-<anim id="Serious" target="actor" targetSpec="" />キミ<delay8 />　お<ruby a="2" b="4">かね</ruby>金が<ruby a="2" b="2">た</ruby>足りないみたいだね<pageBreak /><anim id="ShyBoy" target="actor" targetSpec="" />2<ruby a="4" b="6">かいめ</ruby>回目<ruby a="4" b="6">いこう</ruby>以降の<ruby a="4" b="6">さんか</ruby>参加は、<delay20 />
-1<ruby a="2" b="4">かい</ruby>回につき　<tag a="90" b="21" arg="0x2" />　もらってるんだ<delay frames="30" />
-<anim id="Worried" target="actor" targetSpec="" />ごめんね～</message>
-	<message label="062" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />オッケー！<delay8 />　<ruby a="2" b="2">ま</ruby>待ってました！<delay20 />
-<anim id="Nodding" target="actor" targetSpec="" /><ruby a="2" b="4">さき</ruby>先に、<delay8 /><ruby a="6" b="8">さんかひ</ruby>参加費　<tag a="90" b="21" arg="0x2" />もらうね</message>
+	<message label="061" attrib="00 00 00 00"><tag a="110" b="0" /><anim id="Eh" target="actor" targetSpec="" />って、<delay8 />あれあれ？<delay frames="30" />
+<anim id="Serious" target="actor" targetSpec="" />キミ<delay8 />　お<ruby a="2" b="4">かね</ruby>金が<ruby a="2" b="2">た</ruby>足りないみたいだね<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" /><tag a="90" b="21" arg="0x2" />　<ruby a="4" b="6">ようい</ruby>用意できたら、<delay20 />
+<anim id="Hello" target="actor" targetSpec="" />また　<ruby a="2" b="4">こえ</ruby>声をかけてくれよな</message>
+	<message label="062" attrib="02 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />オッケー！<delay8 />　<ruby a="2" b="2">ま</ruby>待ってました！<pageBreak /><anim id="ShyBoy" target="actor" targetSpec="" />2<ruby a="4" b="6">かいめ</ruby>回目<ruby a="4" b="6">いこう</ruby>以降の<ruby a="4" b="6">さんか</ruby>参加は、<delay8 />
+1<ruby a="2" b="4">かい</ruby>回につき　<tag a="90" b="21" arg="0x2" />　もらってるんだけど<delay20 />
+<anim id="Hello" target="actor" targetSpec="" />それでも　いいかな？</message>
+	<message label="062_a" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />オッケー</message>
+	<message label="062_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />やっぱりやめる</message>
+	<message label="062_01" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />ウェ～イ！<delay8 />　そうこなくっちゃ！<delay frames="30" />
+<anim id="Nodding" target="actor" targetSpec="" />じゃあ<ruby a="2" b="4">さき</ruby>先に、<delay20 /><ruby a="6" b="8">さんかひ</ruby>参加費　<tag a="90" b="21" arg="0x2" />もらうね</message>
 	<message label="063" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />それじゃ、<ruby a="2" b="4">いま</ruby>今から<delay8 />　<colour id="1" /><tag a="90" b="0" arg="0xe" /><tag a="50" b="11" /><colour id="65535" /><ruby a="2" b="4">はか</ruby>計るから<delay20 />
 サカナを　た～くさん　<ruby a="2" b="2">つ</ruby>釣り<ruby a="2" b="2">あ</ruby>上げてくれよな！<pageBreak /><anim id="Nodding" target="actor" targetSpec="" /><colour id="1" /><tag a="90" b="1" arg="0x4" /><tag a="50" b="13" /><ruby a="4" b="8">いじょう</ruby>以上<colour id="65535" />　<ruby a="2" b="2">つ</ruby>釣れたら<delay8 />
 ボーナスポイントもつくから　がんばって！<delay frames="40" />
@@ -441,8 +444,13 @@
 <colour id="1" /><tag a="90" b="1" arg="0x8" /><tag a="50" b="13" /><colour id="65535" /><tag a="110" b="0" />　<anim id="Eh" target="actor" targetSpec="" />あっ、<delay8 />これも　<colour id="1" /><tag a="90" b="1" arg="0x4" /><tag a="50" b="13" /><ruby a="4" b="8">いじょう</ruby>以上<colour id="65535" />だから<delay20 />
 <anim id="Smiling" target="actor" targetSpec="" />チャレンジボーナスの<ruby a="4" b="10">たいしょう</ruby>対象だね</message>
 	<message label="151" attrib="00 00 00 00">ちなみに、<ruby a="4" b="8">かくとく</ruby>獲得したポイントは<delay frames="30" />
-<anim id="Nodding" target="actor" targetSpec="" /><ruby a="4" b="6">かって</ruby>勝手にキミの　<ruby a="4" b="4">ても</ruby>手持ちポイントとして<delay20 />
+<anim id="Nodding" target="actor" targetSpec="" /><ruby a="4" b="6">かって</ruby>勝手にキミの　<ruby a="2" b="2">て</ruby>手<ruby a="2" b="2">も</ruby>持ちポイントとして<delay20 />
 <anim id="FaintSmile" target="actor" targetSpec="" />たまっていく　システムだからね</message>
+	<message label="159" attrib="00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />ウェイウェ～イ！<delay8 />　<ruby a="2" b="4">ひさ</ruby>久しぶりじゃ～ん？<delay40 />
+<anim id="BigSmile" target="actor" targetSpec="" />どーも！<delay8 />　オレ、<colour id="3" />ジャスティン<colour id="65535" />！<pageBreak /><anim id="HappyDance" target="actor" targetSpec="" /><ruby a="4" b="6">きょう</ruby>今日の　<colour id="1" /><ruby a="2" b="2">つ</ruby>釣り<ruby a="4" b="8">たいかい</ruby>大会<colour id="65535" />の　ホスト<delay20 />
+やらせてもらってまーす<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />っていうか、<delay8 /><anim id="Eh" target="actor" targetSpec="" />あれ？<delay20 />
+もしかして、<delay20 /><anim id="QuestionMark" target="actor" targetSpec="" /><colour id="1" /><ruby a="2" b="2">つ</ruby>釣り<ruby a="4" b="8">たいかい</ruby>大会<colour id="65535" />に　<ruby a="4" b="6">さんか</ruby>参加してくれた？！<10_4 />
+<anim id="Smiling" target="actor" targetSpec="" />ウェ～イ！　<delay20 />どう？　<delay8 />サカナ<ruby a="2" b="2">つ</ruby>釣れた？</message>
 	<message label="152" attrib="00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />ウェイウェ～イ！<delay8 />　<ruby a="2" b="4">ひさ</ruby>久しぶりじゃ～ん？<delay40 />
 <anim id="BigSmile" target="actor" targetSpec="" />どーも！<delay8 />　オレ、<colour id="3" />ジャスティン<colour id="65535" />！<pageBreak /><anim id="HappyDance" target="actor" targetSpec="" /><ruby a="4" b="6">きょう</ruby>今日の　<colour id="1" /><ruby a="2" b="2">つ</ruby>釣り<ruby a="4" b="8">たいかい</ruby>大会<colour id="65535" />の　ホスト<delay20 />
 やらせてもらってまーす<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />っていうか、<delay8 /><anim id="Eh" target="actor" targetSpec="" />あれ？<delay20 />
@@ -454,6 +462,23 @@
 	<message label="155" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" /><colour id="1" /><tag a="90" b="1" arg="0x0" />ポイント<colour id="65535" /><ruby a="4" b="8">いじょう</ruby>以上で、<delay20 />
 オシャレな<ruby a="4" b="10">しょうひん</ruby>賞品と　<ruby a="4" b="8">こうかん</ruby>交換できちゃうからね！<delay40 />
 <anim id="BigSmile" target="actor" targetSpec="" />レッツ<delay8 />・チャレンジ！</message>
+	<message label="156" attrib="00 00 00 00">え～と<tag a="110" b="0" /><delay8 />
+<colour id="1" />クーラーボックス<colour id="65535" />に<ruby a="2" b="4">はい</ruby>入った　サカナの<ruby a="2" b="4">かず</ruby>数は<delay20 />
+<ruby a="4" b="6">ぜんぶ</ruby>全部で　<colour id="1" /><tag a="90" b="1" arg="0x8" /><tag a="50" b="13" /><colour id="65535" /><tag a="110" b="0" /><delay40 />　<anim id="FaintSmile" target="actor" targetSpec="" />いや～、<delay8 />プロだね！</message>
+	<message label="156_01" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" /><ruby a="4" b="8">とちゅう</ruby>途中で　クーラーボックスに
+<ruby a="2" b="4">はい</ruby>入りきらなく　なっちゃったから、<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />20<ruby a="2" b="4">ぴき</ruby>匹を<ruby a="2" b="2">こ</ruby>超えた<ruby a="2" b="4">ぶん</ruby>分は　<ruby a="2" b="2">ひ</ruby>引き<ruby a="2" b="2">と</ruby>取らせてもらったよ<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" /><ruby a="2" b="2">ひ</ruby>引き<ruby a="2" b="2">と</ruby>取った<ruby a="2" b="4">ぶん</ruby>分は
+サカナの<ruby a="12" b="26">せいそくかんきょうかいぜん</ruby>生息環境改善の　チャリティに<delay8 />
+<anim id="Smiling" target="actor" targetSpec="" /><ruby a="4" b="4">きふ</ruby>寄付させてもらうから<delay20 />　よろしくね！<pageBreak /><anim id="Eh" target="actor" targetSpec="" />あ、<delay8 />もちろん　ポイントはつくから<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" /><ruby a="4" b="8">あんしん</ruby>安心してくれよな！</message>
+	<message label="157" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />キミの<ruby a="4" b="6">ばあい</ruby>場合、<delay20 /><ruby a="4" b="6">きほん</ruby>基本の　<colour id="1" /><tag a="90" b="1" arg="0x8" />ポイント<colour id="65535" />に<ruby a="2" b="4">くわ</ruby>加えて<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" /><colour id="1" /><tag a="90" b="1" arg="0x4" /><tag a="50" b="13" /><ruby a="4" b="8">いじょう</ruby>以上<colour id="65535" /><ruby a="4" b="8">かくとく</ruby>獲得の　チャレンジボーナスが
+もらえちゃうよ<pageBreak /><anim id="Thinking" target="actor" targetSpec="" /><ruby a="10" b="18">さんかしゃぜんいん</ruby>参加者全員が　<ruby a="2" b="2">つ</ruby>釣り<ruby a="2" b="2">あ</ruby>上げたサカナは<delay20 />
+<ruby a="4" b="6">ぜんぶ</ruby>全部で　<colour id="1" /><tag a="90" b="2" arg="0x9" /><tag a="50" b="13" /><colour id="65535" />だから<tag a="110" b="0" /><delay frames="50" />
+<colour id="1" /><anim id="BigSmile" target="actor" targetSpec="" /><tag a="90" b="1" arg="0xa" /><tag a="50" b="13" /><ruby a="4" b="8">いじょう</ruby>以上<colour id="65535" />ってことで<delay20 />　<ruby a="4" b="12">きょうりょく</ruby>協力ボーナスも<ruby a="4" b="6">ついか</ruby>追加！</message>
+	<message label="158" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />キミの<ruby a="4" b="6">ばあい</ruby>場合、<delay20 /><ruby a="4" b="6">きほん</ruby>基本の　<colour id="1" /><tag a="90" b="1" arg="0x8" />ポイント<colour id="65535" />に<ruby a="2" b="4">くわ</ruby>加えて<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" /><colour id="1" /><tag a="90" b="1" arg="0x4" /><tag a="50" b="13" /><ruby a="4" b="8">いじょう</ruby>以上<colour id="65535" /><ruby a="4" b="8">かくとく</ruby>獲得の　チャレンジボーナスが
+もらえちゃうよ</message>
 	<message label="160" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />キミが　チャレンジ<ruby a="2" b="6">ちゅう</ruby>中に　<ruby a="2" b="2">つ</ruby>釣ったサカナは、<delay20 />
 <anim id="FaintSmile" target="actor" targetSpec="" />テントの<ruby a="2" b="4">した</ruby>下の　<colour id="1" />クーラーボックス<colour id="65535" />に<ruby a="2" b="4">はい</ruby>入ってるよ<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />サポートの<ruby a="2" b="4">ひと</ruby>人が　<ruby a="2" b="2">つ</ruby>釣ったサカナも<delay20 />
 <anim id="Nodding" target="actor" targetSpec="" />ぜんぶ<ruby a="4" b="8">いっしょ</ruby>一緒に　<ruby a="2" b="4">はい</ruby>入ってるから、<delay20 />
@@ -494,12 +519,13 @@
 	<message label="165_a" attrib="00 00 00 00"><ruby a="4" b="8">たいかい</ruby>大会に<ruby a="4" b="6">さんか</ruby>参加する</message>
 	<message label="165_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" /><ruby a="4" b="6">さんか</ruby>参加しない</message>
 	<message label="166" attrib="02 00 00 00">じゃあ　さっそくだけど、<delay20 />
-<anim id="QuestionMark" target="actor" targetSpec="" /><colour id="1" /><ruby a="2" b="2">つ</ruby>釣り<ruby a="4" b="8">たいかい</ruby>大会<colour id="65535" />に　チャレンジする？<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />キミは　メインでの<ruby a="4" b="6">さんか</ruby>参加が　<ruby a="2" b="4">はじ</ruby>初めてだから<delay20 />
-<anim id="FaintSmile" target="actor" targetSpec="" /><ruby a="4" b="8">むりょう</ruby>無料で<ruby a="4" b="6">さんか</ruby>参加できるよ！</message>
+<anim id="QuestionMark" target="actor" targetSpec="" /><colour id="1" /><ruby a="2" b="2">つ</ruby>釣り<ruby a="4" b="8">たいかい</ruby>大会<colour id="65535" />に　チャレンジする？<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />キミは<ruby a="4" b="6">きょう</ruby>今日、<delay8 />
+メインでの<ruby a="4" b="6">さんか</ruby>参加が　<ruby a="2" b="4">はじ</ruby>初めてだから<delay frames="30" />
+<anim id="FaintSmile" target="actor" targetSpec="" /><ruby a="4" b="8">むりょう</ruby>無料で　<ruby a="4" b="6">さんか</ruby>参加できるよ！</message>
 	<message label="166_a" attrib="00 00 00 00"><ruby a="4" b="8">たいかい</ruby>大会に<ruby a="4" b="6">さんか</ruby>参加する</message>
 	<message label="166_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" /><ruby a="4" b="6">さんか</ruby>参加しない</message>
 	<message label="167" attrib="06 00 00 00">じゃあ　さっそくだけど、<delay20 />
-<anim id="QuestionMark" target="actor" targetSpec="" /><colour id="1" /><ruby a="2" b="2">つ</ruby>釣り<ruby a="4" b="8">たいかい</ruby>大会<colour id="65535" />に　チャレンジする？<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />キミは　メインでの<ruby a="4" b="6">さんか</ruby>参加が
+<anim id="QuestionMark" target="actor" targetSpec="" /><colour id="1" /><ruby a="2" b="2">つ</ruby>釣り<ruby a="4" b="8">たいかい</ruby>大会<colour id="65535" />に　チャレンジする？<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />キミは<ruby a="4" b="6">きょう</ruby>今日、メインでの<ruby a="4" b="6">さんか</ruby>参加が
 <ruby a="2" b="4">はじ</ruby>初めてみたいだから　<delay20 /><anim id="FaintSmile" target="actor" targetSpec="" /><ruby a="4" b="8">むりょう</ruby>無料で<ruby a="4" b="6">さんか</ruby>参加できるよ！</message>
 	<message label="167_a" attrib="00 00 00 00"><ruby a="4" b="8">たいかい</ruby>大会に<ruby a="4" b="6">さんか</ruby>参加する</message>
 	<message label="167_b" attrib="00 00 00 00"><ruby a="4" b="8">たいかい</ruby>大会ルールは？</message>
@@ -522,7 +548,7 @@
 <colour id="1" /><ruby a="2" b="2">つ</ruby>釣り<ruby a="4" b="8">たいかい</ruby>大会<colour id="65535" />　<ruby a="2" b="2">お</ruby>終わっちゃったね～！<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />オレの<ruby a="2" b="6">こころ</ruby>心は　もう<ruby a="2" b="4">つぎ</ruby>次の　<colour id="1" /><ruby a="2" b="2">つ</ruby>釣り<ruby a="4" b="8">たいかい</ruby>大会<colour id="65535" />！<delay frames="40" />
 <anim id="FaintSmile" target="actor" targetSpec="" /><ruby a="2" b="4">たの</ruby>楽しみだな～！</message>
 	<message label="171" attrib="06 00 00 00"><anim id="HappyDance" target="actor" targetSpec="" />ウェイウェイ、<delay8 />どうなのどうなの？<delay frames="40" />
-<anim id="QuestionMark" target="actor" targetSpec="" /><colour id="1" /><ruby a="2" b="2">つ</ruby>釣り<ruby a="4" b="8">たいかい</ruby>大会<colour id="65535" />　<ruby a="4" b="6">さんか</ruby>参加しちゃう？！<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />キミは　メインでの<ruby a="4" b="6">さんか</ruby>参加が<delay8 />
+<anim id="QuestionMark" target="actor" targetSpec="" /><colour id="1" /><ruby a="2" b="2">つ</ruby>釣り<ruby a="4" b="8">たいかい</ruby>大会<colour id="65535" />　<ruby a="4" b="6">さんか</ruby>参加しちゃう？！<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />キミは<ruby a="4" b="6">きょう</ruby>今日、メインでの<ruby a="4" b="6">さんか</ruby>参加が<delay8 />
 <ruby a="2" b="4">はじ</ruby>初めてみたいだから、<delay20 /><anim id="FaintSmile" target="actor" targetSpec="" /><ruby a="4" b="8">むりょう</ruby>無料で<ruby a="4" b="6">さんか</ruby>参加できるよ！</message>
 	<message label="171_a" attrib="00 00 00 00"><ruby a="4" b="8">たいかい</ruby>大会に<ruby a="4" b="6">さんか</ruby>参加する</message>
 	<message label="171_b" attrib="00 00 00 00"><ruby a="4" b="8">たいかい</ruby>大会ルールは？</message>

@@ -2,7 +2,7 @@
 	<message label="001" attrib="00 00 01 00 00 00 00 00"><anim id="Hello" target="actor" targetSpec="" />Du stehst auf Nervenkitzel, <delay8 />hab ich
 dich richtig verstanden?<delay20 /> Dann hab
 ich das perfekte Spiel für dich!
-<anim id="WrySmile" target="actor" targetSpec="" />Mein Einsatz is' <tag a="50" b="17" arg="0x11 0xcd00 0x20 0x64 0x65 0x72 0x20 0x73 0x75 0x70 0x65 0x72 0x73 0x74 0x61 0x62 0x69 0x6c 0x65 0x20 0x64 0x69 0x65 0x20 0x73 0x75 0x70 0x65 0x72 0x73 0x74 0x61 0x62 0x69 0x6c 0x65 0x20 0x64 0x61 0x73 0x20 0x73 0x75 0x70 0x65 0x72 0x73 0x74 0x61 0x62 0x69 0x6c 0x65" />
+<anim id="WrySmile" target="actor" targetSpec="" />Mein Einsatz is' <tag a="50" b="17" arg="0x12 0xcd00 0x20 0x64 0x65 0x72 0x20 0x73 0x75 0x70 0x65 0x72 0x73 0x74 0x61 0x62 0x69 0x6c 0x65 0x20 0x64 0x69 0x65 0x20 0x73 0x75 0x70 0x65 0x72 0x73 0x74 0x61 0x62 0x69 0x6c 0x65 0x20 0x64 0x61 0x73 0x20 0x73 0x75 0x70 0x65 0x72 0x73 0x74 0x61 0x62 0x69 0x6c 0x65" />
 <tag a="125" b="0" arg="0x0" /> hier.<delay20 />
 Na?<delay20 /> Schleckste dir schon die Finger?</message>
 	<message label="001_a" attrib="00 00 00 00 00 00 00 00">Und wie! Sabber!</message>
@@ -23,10 +23,9 @@ ich mische die Karten<tag a="110" b="0" /><delay frames="40" /></message>
 	<message label="005" attrib="00 00 00 00 00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Der Moment der Wahrheit<tag a="110" b="0" /><delay20 />
 Gib mir 'nen epischen
 Trommelwirbel!</message>
-	<message label="006_01" attrib="00 00 00 00 00 00 00 00"><anim id="Pardon" target="actor" targetSpec="" />Nich' schlecht, <delay8 /><gender2 m="Herr" f="Frau" /> Specht!<pageBreak /><anim id="WrySmile" target="actor" targetSpec="" />Damit wandert <tag a="50" b="17" arg="0x11 0xcd00 0x8 0x6d 0x65 0x69 0x6e 0xa 0x6d 0x65 0x69 0x6e 0x65 0x8 0x6d 0x65 0x69 0x6e" /> <tag a="125" b="0" arg="0x0" /> in deine Tasche,<delay8 /> <tag a="110" b="5" />!</message>
-	<message label="006_02" attrib="00 00 00 00 00 00 00 00"><anim id="Oops" target="actor" targetSpec="" />Menno, <delay8 />eigentlich wollt ich <tag a="50" b="17" arg="0x11 0xcd00 0xc 0x6d 0x65 0x69 0x6e 0x65 0x6e 0xa 0x6d 0x65 0x69 0x6e 0x65 0x8 0x6d 0x65 0x69 0x6e" />
-<tag a="50" b="23" arg="0xcd01" /><tag a="125" b="0" arg="0x0" /> ja nich' so schnell loswerden<tag a="110" b="0" />
-<anim id="Sighing" target="actor" targetSpec="" />Aber versprochen, is' versprochen<tag a="110" b="0" /><delay20 />
+	<message label="006_01" attrib="00 00 00 00 00 00 00 00"><anim id="Pardon" target="actor" targetSpec="" />Nich' schlecht, <delay8 /><gender2 m="Herr" f="Frau" /> Specht!<pageBreak /><anim id="WrySmile" target="actor" targetSpec="" />Damit wandert <tag a="50" b="17" arg="0x12 0xcd00 0x8 0x6d 0x65 0x69 0x6e 0xa 0x6d 0x65 0x69 0x6e 0x65 0x8 0x6d 0x65 0x69 0x6e" /> <tag a="125" b="0" arg="0x0" /> in deine Tasche,<delay8 /> <tag a="110" b="5" />!</message>
+	<message label="006_02" attrib="00 00 00 00 00 00 00 00"><anim id="Oops" target="actor" targetSpec="" />Menno, <delay8 />eigentlich wollt ich <tag a="50" b="17" arg="0x12 0xcd00 0xc 0x6d 0x65 0x69 0x6e 0x65 0x6e 0xa 0x6d 0x65 0x69 0x6e 0x65 0x8 0x6d 0x65 0x69 0x6e" />
+<tag a="50" b="23" arg="0xcd01" /><tag a="125" b="0" arg="0x0" /> ja nich' so schnell loswerden<tag a="110" b="0" /><pageBreak /><anim id="Sighing" target="actor" targetSpec="" />Aber versprochen, is' versprochen<tag a="110" b="0" /><delay20 />
 <anim id="SmugFace" target="actor" targetSpec="" />Und ich bin 'ne knallharte Ehrenfrau!</message>
 	<message label="006_03" attrib="00 00 00 00 00 00 00 00"><anim id="ShyBoy" target="actor" targetSpec="" />So is' das Leben<tag a="110" b="0" /><delay20 /> Bleib positiv,<delay8 />
 zumindest haste nix verloren!</message>
@@ -52,8 +51,7 @@ ja?<delay20 /> Also <colour id="6" />♥ Herz<colour id="65535" />,<delay8 /> <c
 <anim id="Grin" target="actor" targetSpec="" />Und du musst einfach erraten,<delay8 />
 welches Blatt die oberste Karte
 des Stapels hat. <delay20 />Total easy,<delay8 /> wa?<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Rätste richtig, <delay8 />dann stapfste mit
-<tag a="50" b="17" arg="0x11 0xcd00 0xc 0x6d 0x65 0x69 0x6e 0x65 0x6d 0xc 0x6d 0x65 0x69 0x6e 0x65 0x72 0xc 0x6d 0x65 0x69 0x6e 0x65 0x6d" /> <tag a="50" b="23" arg="0xcd02" /><tag a="125" b="0" arg="0x0" />
-hier weg. <delay20 /><anim id="NpcShuffle" target="actor" targetSpec="" />Bereit?<delay frames="40" /> Dann geht's los!<delay frames="40" /></message>
+<tag a="50" b="17" arg="0x12 0xcd00 0xc 0x6d 0x65 0x69 0x6e 0x65 0x6d 0xc 0x6d 0x65 0x69 0x6e 0x65 0x72 0xc 0x6d 0x65 0x69 0x6e 0x65 0x6d" /> <tag a="50" b="23" arg="0xcd02" /><tag a="125" b="0" arg="0x0" /> hier weg. <delay20 /><anim id="NpcShuffle" target="actor" targetSpec="" />Bereit?<delay frames="40" /> Dann geht's los!<delay frames="40" /></message>
 	<message label="101" attrib="00 00 05 00 00 00 00 00"><anim id="Scheming" target="actor" targetSpec="" />Du bist am Zug, <delay8 />Gänseblümchen.
 <delay20 />Welches Blatt hat die oberste Karte?<anim id="EmotEnd" target="actor" targetSpec="" /></message>
 	<message label="101_a" attrib="00 00 00 00 00 00 00 00"><colour id="6" />♥ Herz<colour id="65535" /></message>
@@ -70,7 +68,7 @@ ja?<delay20 /> Also<delay8 /> <colour id="6" />♥ Herz<colour id="65535" />, <d
 <colour id="7" />schwarz<colour id="65535" />. <delay20 />Du musst erraten, <delay8 />welche
 Farbe die oberste Karte hat.
 <delay20 /><anim id="Grin" target="actor" targetSpec="" />Total easy!<delay frames="40" /> Liegste richtig, <delay8 />kriegste
-<tag a="50" b="17" arg="0x11 0xcd00 0xc 0x6d 0x65 0x69 0x6e 0x65 0x6e 0xa 0x6d 0x65 0x69 0x6e 0x65 0x8 0x6d 0x65 0x69 0x6e" /> <tag a="50" b="23" arg="0xcd01" /><tag a="125" b="0" arg="0x0" />.
+<tag a="50" b="17" arg="0x12 0xcd00 0xc 0x6d 0x65 0x69 0x6e 0x65 0x6e 0xa 0x6d 0x65 0x69 0x6e 0x65 0x8 0x6d 0x65 0x69 0x6e" /> <tag a="50" b="23" arg="0xcd01" /><tag a="125" b="0" arg="0x0" />.
 <delay20 /><anim id="NpcShuffle" target="actor" targetSpec="" />Biste bereit?<delay frames="40" /> Dann kann's losgehen!<delay frames="40" /></message>
 	<message label="201" attrib="00 00 01 00 00 00 00 00"><anim id="Scheming" target="actor" targetSpec="" />Du bist am Zug, <delay8 />Gänseblümchen.
 <delay20 />Welche Farbe hat die oberste Karte?<anim id="EmotEnd" target="actor" targetSpec="" /></message>

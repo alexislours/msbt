@@ -4,6 +4,15 @@
 einfacher machen, <delay8 /><tag a="110" b="5" /><tag a="110" b="0" /><pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Klar wie Kloßbrühe, <delay8 />ich komme!<delay frames="40" />
 <anim id="Nodding" target="actor" targetSpec="" />Ich ruf mal beim <colour id="1" />Servicecenter <colour id="65535" />an
 und klär die Sache.</message>
+	<message label="003" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Wow! <delay20 />Wenn du beim Marathonlaufen
+dieselbe Ausdauer wie beim Einladen
+an den Tag legst, <delay8 />dann Hut ab!
+<anim id="Thinking" target="actor" targetSpec="" />Hm, <delay8 />mal überlegen... <delay20 />Du würdest
+tatsächlich <gender2 m="einen ganz passablen" f="eine ganz passable" />
+<gender2 m="Trainingspartner" f="Trainingspartnerin" /> abgeben...
+<anim id="Smiling" target="actor" targetSpec="" />Also gut, <delay8 />überredet! <delay20 />Ich zieh auf
+deine Insel! <delay20 />Aber erst jogge ich noch
+kurz beim <colour id="1" />Servicecenter <colour id="65535" />vorbei.</message>
 	<message label="101" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
 	<message label="101_01" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Was? <delay20 />Hier wohnen? <delay20 />Das wäre klasse,
 <delay8 />aber<tag a="110" b="0" /> <delay frames="40" /><anim id="Negative" target="actor" targetSpec="" />nee, <delay8 />das geht einfach nicht,
@@ -81,18 +90,23 @@ Sieg auf Dauer ja mehr gelitten...</message>
 	<message label="205_03" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Für wann hast du die Siegesparade
 geplant, <delay8 /><tag a="110" b="5" />?</message>
 	<message label="206" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
-	<message label="206_01" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="110" b="3" />, <delay8 />du hast gewonnen! <delay frames="40" /><anim id="FaintSmile" target="actor" targetSpec="" />Wie angekündigt wechsle ich also nach <tag a="110" b="9" />!<pageBreak /><anim id="BigSmile" target="actor" targetSpec="" />Du wolltest, <delay8 />dass <tag a="110" b="10" /> für deinen Inselverein aufläuft, <delay8 /><anim id="Laughing" target="actor" targetSpec="" />jetzt
-hast du den Salat, <delay8 /><tag a="110" b="5" />!</message>
+	<message label="206_01" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Du hast gewonnen!
+<delay frames="40" /><anim id="FaintSmile" target="actor" targetSpec="" />Wie angekündigt wechsle ich
+also nach <tag a="110" b="9" />!<pageBreak /><anim id="BigSmile" target="actor" targetSpec="" />Du wolltest, <delay8 />dass <tag a="110" b="10" /> für deinen Inselverein aufläuft, <delay8 /><anim id="Laughing" target="actor" targetSpec="" />jetzt hast du den Salat, <delay8 /><tag a="110" b="5" />!<pageBreak /><anim id="OhGeez" target="actor" targetSpec="" />Also<tag a="110" b="0" /> vermutlich.<delay20 /> Muss immer
+noch erst mal beim <colour id="1" />Servicecenter
+<colour id="65535" />vorbeischauen.</message>
 	<message label="206_02" attrib="00 00 00 00 00 00 00 00"><anim id="SmugFace" target="actor" targetSpec="" />Damit bekommt <tag a="110" b="9" />
 also einen neuen Bewohner:<delay20 />
 Sportskanone <delay8 /><tag a="110" b="10" />!<pageBreak /><anim id="Explain" target="actor" targetSpec="" /><tag a="50" b="17" arg="0x5 0xcd00 0x6 0x45 0x69 0x6e 0x8 0x45 0x69 0x6e 0x65 0x6 0x45 0x69 0x6e" /> <tag a="110" b="15" /> hält schließlich
-immer, <delay8 />was <tag a="50" b="17" arg="0x5 0xcd00 0x4 0x65 0x72 0x6 0x73 0x69 0x65 0x4 0x65 0x73" /> verspricht!<pageBreak />Und du heißt<tag a="110" b="0" /><delay20 /> <anim id="Smiling" target="actor" targetSpec="" /><tag a="110" b="3" />?<delay frames="40" />
-<anim id="Greeting" target="actor" targetSpec="" />Auf gute Nachbarschaft, <delay8 /><tag a="110" b="5" />!</message>
+immer, <delay8 />was <tag a="50" b="17" arg="0x5 0xcd00 0x4 0x65 0x72 0x6 0x73 0x69 0x65 0x4 0x65 0x73" /> verspricht!<pageBreak /><anim id="Grin" target="actor" targetSpec="" />Also, <delay8 />natürlich erst, <delay8 />sobald ich alles
+beim <colour id="1" />Servicecenter <colour id="65535" />geklärt habe,<delay8 />
+versteht sich. <delay20 /><anim id="Greeting" target="actor" targetSpec="" />Eine Sekunde!</message>
 	<message label="206_03" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Sieg für dich! <delay20 />Und langfristig
-sicher für uns beide, <delay8 /><tag a="110" b="5" />...<pageBreak /><anim id="Restless" target="actor" targetSpec="" />Äh<tag a="110" b="0" /><delay20 /> Wie war noch mal dein Name?<10_4 />
-<tag a="50" b="3" /><tag a="110" b="3" />, <delay8 />alles klar!<pageBreak /><anim id="SmugFace" target="actor" targetSpec="" />Ich präsentiere... <delay8 />Ganz neu in der
+sicher für uns beide, <delay8 /><tag a="110" b="5" />...<pageBreak /><anim id="SmugFace" target="actor" targetSpec="" />Ich präsentiere... <delay8 />Ganz neu in der
 Aufstellung von <tag a="110" b="9" />:<delay20 />
-Super-<tag a="110" b="10" />!</message>
+Super-<tag a="110" b="10" />!
+<anim id="ShyBoy" target="actor" targetSpec="" />...Zumindest, sobald die Formalitäten
+im <colour id="1" />Servicecenter <colour id="65535" />erledigt sind.</message>
 	<message label="302" attrib="00 00 01 00 00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Schlechte Neuigkeiten.<delay20 /> Ich hab
 vom <colour id="1" />Servicecenter<colour id="65535" /> die rote Karte
 für meine Umzugspläne bekommen.<pageBreak /><anim id="OhGeez" target="actor" targetSpec="" />Auf der Insel ist nicht genug
@@ -140,37 +154,26 @@ Tapetenwechsel sein könnte?</message>
 	<message label="312" attrib="00 00 00 00 00 00 00 00"><anim id="Restless" target="actor" targetSpec="" />Ach so, <delay8 />du willst es dir hier mit
 niemandem verscherzen? <delay20 />Gut, dann
 unternehme ich nichts, <delay8 /><tag a="110" b="5" />.</message>
-	<message label="402" attrib="00 00 00 00 00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Das <colour id="1" />Servicecenter <colour id="65535" />hat meine
-Umzugspläne abgelehnt.<pageBreak /><anim id="Worried" target="actor" targetSpec="" />Angeblich weil schon jemand auf
-der Insel wohnt, <delay8 />der wie ich
-aussieht, <delay8 /><tag a="110" b="5" />.
-<anim id="Negative" target="actor" targetSpec="" />Die Bizepsgröße wird wohl kaum
-vergleichbar sein...<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Aber die Entscheidung steht,
-<delay8 />ein Videobeweis ist leider
-nicht vorgesehen...</message>
-	<message label="403" attrib="00 00 00 00 00 00 00 00"><anim id="Sighing" target="actor" targetSpec="" />Ich bin mit meinen Umzugsplänen
-beim <colour id="1" />Servicecenter<colour id="65535" /> abgelehnt
-worden, <delay8 /><tag a="110" b="5" />.<pageBreak /><anim id="OhGeez" target="actor" targetSpec="" />Weil schon jemand herzieht, <delay8 />der
-exakt wie ich aussieht. <delay20 /><anim id="Restless" target="actor" targetSpec="" />Habe ich
-etwa einen Zwilling?
-<anim id="Negative" target="actor" targetSpec="" />Wie dem auch sei, <delay8 />das Thema
-Umzug ist damit erst mal durch.</message>
+	<message label="313" attrib="00 00 01 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" /><delay20 />Alles klar!<delay20 /> Hier ist sie!<delay20 /> Meine Idee<tag a="110" b="0" />
+<anim id="Nodding" target="actor" targetSpec="" />Willst du nicht <tag a="115" b="1" arg="0xcd00" /> gegen mich auswechseln?<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Das <colour id="1" />Servicecenter <colour id="65535" />hat mir den Namen
+verklickert, <delay8 />also schieß ich mal ins
+Dunkle, <delay8 /><tag a="110" b="5" />.
+<anim id="QuestionMark" target="actor" targetSpec="" />Soll ich mit <tag a="115" b="1" arg="0xcd00" /> über den Wechsel sprechen?</message>
+	<message label="313_a" attrib="00 00 00 00 00 00 00 00">Auf jeden!</message>
+	<message label="313_b" attrib="00 00 00 00 00 00 00 00">Lieber nicht.</message>
+	<message label="314" attrib="00 00 00 00 00 00 00 00"><anim id="OhGeez" target="actor" targetSpec="" />Da steh ich ja voll im Abseits, <delay8 />hm?
+<delay20 />Okay, <delay8 />verstehe schon. <delay20 />Vielleicht
+nächste Saison,<delay8 /> <tag a="110" b="5" />.</message>
 	<message label="404" attrib="00 00 00 00 00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Meine Umzugspläne sind vom
 <colour id="1" />Servicecenter <colour id="65535" />abgewiesen worden.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Es ist einfach kein Platz für
 weitere Leute auf der Insel.<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Und mit meinen Oberarmen zähle
 ich ja wahrscheinlich sogar als
 zwei Personen, <delay8 /><tag a="110" b="5" />!</message>
-	<message label="405" attrib="00 00 00 00 00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Das <colour id="1" />Servicecenter <colour id="65535" />hat mir mitgeteilt,<delay8 />
-dass kein Platz für neue Häuser auf
-der Insel ist, <delay8 /><tag a="110" b="5" />.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Aus einem Umzug hierher wird
-also erst mal nichts.</message>
 	<message label="406" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Hey! <delay20 />Das <colour id="1" />Servicecenter <colour id="65535" />hat mir
 mitgeteilt, dass meinem Umzug
 nichts im Wege steht, <delay8 /><tag a="110" b="5" />!
-<anim id="Smiling" target="actor" targetSpec="" />Damit erhält <tag a="110" b="9" /> eine
-neue Landschaft: <delay20 /><anim id="SmugFace" target="actor" targetSpec="" />die Muskelberge!<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Oh, <delay20 />aber wer warst du noch mal?<delay20 />
-<tag a="50" b="3" /><tag a="110" b="3" />,<delay8 /> oder?<delay frames="40" /> <anim id="Smiling" target="actor" targetSpec="" />Alles klar,<delay8 />
-dann bis später, <delay8 /><tag a="110" b="3" />!</message>
+<anim id="Smiling" target="actor" targetSpec="" />Damit erhält <tag a="110" b="9" /> eine neue Landschaft: <delay20 /><anim id="SmugFace" target="actor" targetSpec="" />die Muskelberge!<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Oh, <delay20 />aber wer warst du noch mal?<delay20 />
+<tag a="50" b="3" /><tag a="110" b="3" />,<delay8 /> oder?<delay frames="40" /> <anim id="Smiling" target="actor" targetSpec="" />Alles klar,<delay8 /> dann bis später, <delay8 /><tag a="110" b="3" />!</message>
 	<message label="410" attrib="00 00 01 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Vielleicht sollte ich noch mal beim
 <colour id="1" />Servicecenter <colour id="65535" />nachfragen.<pageBreak />Wer weiß... <delay frames="40" /><anim id="BigSmile" target="actor" targetSpec="" />Vielleicht habe ich dieses
 Mal mehr Glück, <delay8 /><tag a="110" b="5" />!</message>
@@ -184,25 +187,11 @@ mir einen Ruf als Nervensäge
 zu sichern, <delay8 /><tag a="110" b="5" />.
 <anim id="EmotEnd" target="actor" targetSpec="" />Ein Ruf als Mega-Kraftpaket
 ist erstrebenswerter!</message>
-	<message label="421" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Es soll schon jemand auf der Insel
-sein, <delay8 />der mir ähnlich sieht.<pageBreak /><anim id="Grin" target="actor" targetSpec="" />Zwei Exemplare von mir wären
-doch eigentlich ganz cool...<pageBreak /><anim id="Negative" target="actor" targetSpec="" />Aber möglicherweise würde die
-Insel unter der Last unserer
-Hanteln sinken, <delay8 /><tag a="110" b="5" />.</message>
-	<message label="422" attrib="00 00 00 00 00 00 00 00"><anim id="Confused" target="actor" targetSpec="" />Mein Umzug wurde nicht genehmigt,<delay8 />
-weil sich schon jemand beworben
-hatte, der genauso aussieht wie ich.<pageBreak /><anim id="OhGeez" target="actor" targetSpec="" />Schade. <delay20 />Eigentlich hätten wir
-doch prima miteinander trainieren können, <delay8 /><tag a="110" b="5" />.</message>
 	<message label="423" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Mir wurde mitgeteilt, <delay8 />dass keine
 neuen Bewohner auf die Insel
 kommen dürfen, <delay8 /><tag a="110" b="5" />.
 <anim id="OhGeez" target="actor" targetSpec="" />Dass <tag a="110" b="9" /> sooo
 beliebt ist, war mir gar nicht klar.</message>
-	<message label="424" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Man hat mir mitgeteilt,<delay8 /> dass auf
-der Insel einfach kein freier Platz
-mehr ist, <delay8 /><tag a="110" b="5" />.
-<anim id="Thinking" target="actor" targetSpec="" />Wenn ich gewusst hätte,<delay8 /> wie
-beliebt <tag a="110" b="9" /> ist...</message>
 	<message label="504" attrib="00 00 01 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Seit ich hier bin, <delay8 />läuft es mit meinen
 Workouts wie geschmiert. <delay20 />Ich fühle
 mich fitter als je zuvor, <delay8 /><tag a="110" b="5" />!<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Was passiert wohl, <delay8 />wenn ich länger

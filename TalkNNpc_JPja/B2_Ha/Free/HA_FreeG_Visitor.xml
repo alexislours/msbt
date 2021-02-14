@@ -4,7 +4,7 @@
 	<message label="001_a" attrib="04 00 00 00 00 00 00 00"><ruby a="2" b="2">し</ruby>知ってるよ</message>
 	<message label="001_b" attrib="05 00 00 00 00 00 00 00"><ruby a="2" b="2">し</ruby>知らなーい</message>
 	<message label="002" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="23" arg="0xd 0xe 0xf 0xffff" /></message>
-	<message label="003" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x10 0x11 0xffff 0xffff" /></message>
+	<message label="003" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x1 0x10 0x11 0x12" /></message>
 	<message label="004" attrib="00 00 00 00 00 00 00 00"><anim id="Laughing" target="actor" targetSpec="" />あ、<delay8 />そんなら　いいや！<delay frames="40" />
 <anim id="Greeting" target="actor" targetSpec="" /><tag a="110" b="7" arg="0xcd00" />、<delay20 />
 いっぱい<delay8 /><ruby a="2" b="2">た</ruby>食べてけよなー！　<tag a="110" b="6" /></message>
@@ -25,10 +25,11 @@
 	<message label="016" attrib="00 00 00 00 00 00 00 00">この<tag a="110" b="32" />に　<colour id="3" />フータ<colour id="65535" />さんのテントがあるだろ？<delay frames="40" />
 <anim id="Grin" target="actor" targetSpec="" />あれ、<delay8 />これから　スゲー<colour id="1" /><ruby a="6" b="12">はくぶつかん</ruby>博物館<colour id="65535" />になるらしいぞ<pageBreak /><anim id="Laughing" target="actor" targetSpec="" />ま、<delay8 /><ruby a="2" b="4">いま</ruby>今は　ぜっさん<ruby a="6" b="16">せいちょうちゅう</ruby>成長中　ってことで<delay20 />
 <ruby a="4" b="6">こんご</ruby>今後にキタイって　カンジだけどな！　<tag a="110" b="6" /></message>
-	<message label="017" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="2" arg="0x15 0x16 0x17 0x19" /></message>
+	<message label="017" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="3" arg="0x15 0x16 0x17 0x18 0x19" /></message>
 	<message label="021" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1c00 0x1900 0xcd00" /></message>
 	<message label="022" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1d01 0x1900 0xcd00" /></message>
 	<message label="023" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1e02 0x1900 0xcd00" /></message>
+	<message label="024" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1f03 0x1900 0xcd00" /></message>
 	<message label="025" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />この<tag a="110" b="32" />の　<colour id="1" /><ruby a="6" b="12">はくぶつかん</ruby>博物館<colour id="65535" />にはもう<ruby a="2" b="2">い</ruby>行ったか？<delay frames="40" />
 <anim id="EmotEnd" target="actor" targetSpec="" />てんじ<ruby a="2" b="4">しつ</ruby>室が<ruby a="2" b="4">ひろ</ruby>広くて　ゆっくりできるから<delay8 />
 オススメだぞ！<pageBreak /><anim id="Eh" target="actor" targetSpec="" />え？<delay8 />　オイラも　よく<ruby a="2" b="2">い</ruby>行くのかって？<delay frames="30" />
@@ -49,30 +50,28 @@
 <ruby a="4" b="8">いちばん</ruby>一番スキだなー！<pageBreak /><anim id="Love" target="actor" targetSpec="" />そぎ<ruby a="2" b="2">お</ruby>落とされた<delay8 />　<ruby a="2" b="6">うつく</ruby>美しいフォルム！<delay frames="40" />
 <anim id="Frantic" target="actor" targetSpec="" />キンニクが　<ruby a="2" b="2">な</ruby>無いのに<delay8 />　カッコイイなんて<delay8 />
 うらやましいぞー！　<tag a="110" b="6" /></message>
-	<message label="101" attrib="66 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />なんか　オマエの<ruby a="2" b="4">かお</ruby>顔<ruby a="2" b="2">み</ruby>見てたら<delay20 />
+	<message label="201" attrib="ca 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />なんか　オマエの<ruby a="2" b="4">かお</ruby>顔<ruby a="2" b="2">み</ruby>見てたら<delay20 />
 むかしのことを<delay8 />　<ruby a="2" b="4">おも</ruby>思い<ruby a="2" b="2">だ</ruby>出しちゃったぞー<pageBreak /><anim id="Grin" target="actor" targetSpec="" />まさか　オイラとの<ruby a="4" b="8">しょうぶ</ruby>勝負、<delay20 />
 わすれてないよなー？</message>
-	<message label="102" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="1" arg="0x67 0x68 0x69" /></message>
-	<message label="103" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />オマエが　いなくなってからも、<delay20 />
+	<message label="202" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="1" arg="0xcb 0xcc 0xcd" /></message>
+	<message label="203" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />オマエと　<ruby a="2" b="4">わか</ruby>別れてからも、<delay20 />
 いつか　<ruby a="4" b="10">けっちゃく</ruby>決着をつけるために<delay8 />　あれから
-スペシャルメニューで　キントレしてたんだ！<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />どうだー？！<delay20 />　ひさしぶりに<ruby a="2" b="2">み</ruby>見る
+スペシャルメニューで　きたえ<ruby a="2" b="2">あ</ruby>上げてたんだ！<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />どうだー？！<delay20 />　ひさしぶりに<ruby a="2" b="2">み</ruby>見る
 オイラの　キンニクは？<delay frames="40" />
-<anim id="EmotEnd" target="actor" targetSpec="" /><ruby a="10" b="20">じょうわんにとうきん</ruby>上腕二頭筋の　ハリがスゴイだろー？　<tag a="110" b="6" /></message>
-	<message label="104" attrib="00 00 00 00 00 00 00 00"><anim id="Serious" target="actor" targetSpec="" /><tag a="110" b="0" />って、<delay8 />なんか
-ピンと　きてない<ruby a="2" b="4">かお</ruby>顔だなー<pageBreak /><anim id="Shocked" target="actor" targetSpec="" />あ！<delay frames="30" />
-<anim id="Blushing" target="actor" targetSpec="" />よく<ruby a="2" b="6">かんが</ruby>考えたら、ガチンコ<ruby a="4" b="8">たいけつ</ruby>対決なんて<delay8 />
-したことなかったっけ？　<tag a="110" b="6" /></message>
-	<message label="105" attrib="00 00 02 00 00 00 00 00">ってわけで、<delay20 />オイラと　<ruby a="6" b="12">ひとしょうぶ</ruby>一勝負やってくかー？<delay frames="30" />
+<anim id="EmotEnd" target="actor" targetSpec="" /><ruby a="10" b="22">じょうわんさんとうきん</ruby>上腕三頭筋の　ハリがスゴイだろー？　<tag a="110" b="6" /></message>
+	<message label="204" attrib="00 00 00 00 00 00 00 00"><anim id="Angry" target="actor" targetSpec="" />よし！<delay8 />　ここで<ruby a="2" b="2">あ</ruby>会ったが<ruby a="6" b="12">ひゃくねんめ</ruby>百年目！<delay40 />
+<anim id="Laughing" target="actor" targetSpec="" /><ruby a="4" b="6">きょう</ruby>今日こそ　<ruby a="4" b="10">けっちゃく</ruby>決着をつけるとするかー！<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" /><tag a="110" b="0" />って、<delay8 />オイラたち<delay20 />
+<anim id="ShyBoy" target="actor" targetSpec="" /><ruby a="2" b="4">なん</ruby>何の<ruby a="4" b="8">しょうぶ</ruby>勝負してたんだっけ？　<tag a="110" b="6" /></message>
+	<message label="205" attrib="00 00 02 00 00 00 00 00">ってわけで、<delay20 />オイラと　<ruby a="6" b="12">ひとしょうぶ</ruby>一勝負やってくかー？<delay frames="30" />
 <anim id="Thinking" target="actor" targetSpec="" /><ruby a="4" b="8">しょうぶ</ruby>勝負の<ruby a="4" b="8">ほうほう</ruby>方法は<tag a="110" b="0" /><delay frames="40" />
 <anim id="BigSmile" target="actor" targetSpec="" />シックスパックの<delay8 />　<ruby a="2" b="4">かず</ruby>数でどうだ？！<anim id="FaintSmile" target="actor" targetSpec="" />　<tag a="110" b="5" /></message>
-	<message label="105_a" attrib="6a 00 00 00 00 00 00 00"><ruby a="2" b="2">う</ruby>受けて<ruby a="2" b="2">た</ruby>立つ！</message>
-	<message label="105_b" attrib="6b 00 00 00 00 00 00 00">エンリョします</message>
-	<message label="106" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />じゃあ、<delay20 />オイラから<ruby a="2" b="2">い</ruby>言うぞ！<delay frames="40" />
+	<message label="205_a" attrib="ce 00 00 00 00 00 00 00"><ruby a="2" b="2">う</ruby>受けて<ruby a="2" b="2">た</ruby>立つ！</message>
+	<message label="205_b" attrib="cf 00 00 00 00 00 00 00">エンリョします</message>
+	<message label="206" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />じゃあ、<delay20 />オイラから<ruby a="2" b="2">い</ruby>言うぞ！<delay frames="40" />
 オイラの　シックスパックの<ruby a="2" b="4">かず</ruby>数は<tag a="110" b="0" /><delay frames="40" />
-<anim id="HappyDance" target="actor" targetSpec="" />なんと！<delay20 />　オドロキの　12コだー！<pageBreak /><anim id="Shocked" target="actor" targetSpec="" />へっ？！<delay20 />　ホントかって？<delay frames="30" />
-<anim id="Frantic" target="actor" targetSpec="" /><ruby a="2" b="4">かぞ</ruby>数えたら、<delay20 />だいたい　それくらい
-あったんだよー！<delay frames="30" />　ホントだぞー！　<tag a="110" b="6" /></message>
-	<message label="107" attrib="00 00 00 00 00 00 00 00"><anim id="Grin" target="actor" targetSpec="" />さては<delay8 />　ひさしぶりに<ruby a="2" b="2">み</ruby>見た
-オイラのキンニクに<delay20 />
-おじけづいちゃったのか？　<tag a="110" b="6" /></message>
+<anim id="HappyFlower" target="actor" targetSpec="" />なんと！<delay20 />　オドロキの　10コだー！<pageBreak /><anim id="TakenAback" target="actor" targetSpec="" />えっ？！<delay20 />　それなら　<ruby a="2" b="2">み</ruby>見せてみろって？<delay frames="30" />
+<anim id="Frantic" target="actor" targetSpec="" />きょ、<delay8 /><ruby a="4" b="6">きょう</ruby>今日は　お<ruby a="2" b="4">なか</ruby>腹の<ruby a="4" b="8">ちょうし</ruby>調子が<ruby a="2" b="4">わる</ruby>悪いから<delay20 />
+また<ruby a="4" b="6">こんど</ruby>今度なー！　<tag a="110" b="6" /></message>
+	<message label="207" attrib="00 00 00 00 00 00 00 00"><anim id="Grin" target="actor" targetSpec="" />さては<delay8 />　トレーニングをサボってんな？<delay40 />
+<anim id="Smiling" target="actor" targetSpec="" />へへっ、<delay8 />お<ruby a="4" b="6">みとお</ruby>見通しだぞー！　<tag a="110" b="6" /></message>
 </msbt>

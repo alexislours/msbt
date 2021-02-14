@@ -4,7 +4,7 @@ autóctona exclusiva de esta isla?</message>
 	<message label="001_a" attrib="04 00 00 00 00 00 00 00">¡Ya lo creo!</message>
 	<message label="001_b" attrib="05 00 00 00 00 00 00 00">Ni idea...</message>
 	<message label="002" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="23" arg="0xd 0xe 0xf 0xffff" /></message>
-	<message label="003" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x10 0x11 0xffff 0xffff" /></message>
+	<message label="003" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x1 0x10 0x11 0x12" /></message>
 	<message label="004" attrib="00 00 00 00 00 00 00 00"><anim id="OhGeez" target="actor" targetSpec="" />Lo suponía<tag a="110" b="0" /><delay20 /> A ti no se te suelen
 escapar los productos de calidad.</message>
 	<message label="005" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />¡¿Qué me dices?!<delay20 /> ¿Ni siquiera has
@@ -38,10 +38,11 @@ creciendo!
 exposición permanente de tirantes de
 pantalón de época «postvintage»<tag a="110" b="0" />
 <anim id="Cheering" target="actor" targetSpec="" />¡Estoy soñando despierto!</message>
-	<message label="017" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="2" arg="0x15 0x16 0x17 0x19" /></message>
+	<message label="017" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="3" arg="0x15 0x16 0x17 0x18 0x19" /></message>
 	<message label="021" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1c00 0x1900 0xcd00" /></message>
 	<message label="022" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1d01 0x1900 0xcd00" /></message>
 	<message label="023" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1e02 0x1900 0xcd00" /></message>
+	<message label="024" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1f03 0x1900 0xcd00" /></message>
 	<message label="025" attrib="00 00 00 00 00 00 00 00"><anim id="WrySmile" target="actor" targetSpec="" />Alguien de mis refinados gustos no
 puede dejar de recomendarte visitar
 <anim id="EmotEnd" target="actor" targetSpec="" />el <colour id="1" />museo<colour id="65535" /> de <tag a="110" b="8" />.
@@ -56,9 +57,9 @@ exclusivo que cualquier otro pez!</message>
 	<message label="029" attrib="00 00 00 00 00 00 00 00"><anim id="Worried" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="50" b="1" /><tag a="135" b="13" arg="0x1" />
 que tienen expuesto en el <colour id="1" />museo<colour id="65535" /> me
 produce una sensación extraña<tag a="110" b="0" />
-<anim id="Shaking" target="actor" targetSpec="" />Si me paro delante a mirarl<tag a="50" b="17" arg="0x28 0xcd00 0x2 0x6f 0x2 0x61 0x0" />,<delay8 />
+<anim id="Shaking" target="actor" targetSpec="" />Si me paro delante a mirarl<tag a="50" b="17" arg="0x29 0xcd00 0x2 0x6f 0x2 0x61 0x0" />,<delay8 />
 es como si el observado fuera
-yo y no <tag a="50" b="17" arg="0x28 0xcd00 0x4 0xe9 0x6c 0x8 0x65 0x6c 0x6c 0x61 0x0" /><tag a="110" b="0" /></message>
+yo y no <tag a="50" b="17" arg="0x29 0xcd00 0x4 0xe9 0x6c 0x8 0x65 0x6c 0x6c 0x61 0x0" /><tag a="110" b="0" /></message>
 	<message label="030" attrib="00 00 00 00 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />¿Has visto ya el ejemplar de
 <tag a="135" b="13" arg="0x2" /> que
 tienen expuesto en el <colour id="1" />museo<colour id="65535" />?
@@ -68,47 +69,46 @@ vivió hace millones de años.
 <anim id="AbsentMindedness" target="actor" targetSpec="" />¿Cómo se llamaría una época taaan
 antigua?<delay20 /> ¿«Era pre-vintage»?<delay20 />
 ¿O quizá «era retroanterior»?</message>
-	<message label="101" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="0" arg="0x66 0x6a" /></message>
-	<message label="102" attrib="00 00 03 00 00 00 00 00"><anim id="Hesitate" target="actor" targetSpec="" />Oye,<delay8 /> <tag a="110" b="3" />,<delay8 /> me gustaría
-preguntarte algo muy en serio<tag a="110" b="0" /><pageBreak /><anim id="QuestionMark" target="actor" targetSpec="" />¿Me echabas de menos cuando
-te marchaste de este lugar?</message>
-	<message label="102_a" attrib="67 00 00 00 00 00 00 00">¡Desde luego!</message>
-	<message label="102_b" attrib="68 00 00 00 00 00 00 00">Sinceramente, no</message>
-	<message label="102_c" attrib="69 00 00 00 00 00 00 00">¿Y tú a mí?</message>
-	<message label="103" attrib="00 00 00 00 00 00 00 00"><anim id="Grin" target="actor" targetSpec="" />Vaya<tag a="110" b="0" /><delay20 /> pues yo a ti también.<delay20 />
+	<message label="201" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="0" arg="0xca 0xce" /></message>
+	<message label="202" attrib="00 00 03 00 00 00 00 00"><anim id="Hesitate" target="actor" targetSpec="" />Oye,<delay8 /> <tag a="110" b="3" />,<delay8 /> me gustaría preguntarte algo muy en serio<tag a="110" b="0" /><pageBreak /><anim id="QuestionMark" target="actor" targetSpec="" />¿Me has echado de menos desde
+que me marché?</message>
+	<message label="202_a" attrib="cb 00 00 00 00 00 00 00">¡Desde luego!</message>
+	<message label="202_b" attrib="cc 00 00 00 00 00 00 00">Sinceramente, no</message>
+	<message label="202_c" attrib="cd 00 00 00 00 00 00 00">¿Y tú a mí?</message>
+	<message label="203" attrib="00 00 00 00 00 00 00 00"><anim id="Grin" target="actor" targetSpec="" />Vaya<tag a="110" b="0" /><delay20 /> pues yo a ti también.<delay20 />
 <anim id="BigSmile" target="actor" targetSpec="" />¡Por suerte ahora puedes visitarme
 siempre que quieras,<delay8 /> <tag a="110" b="5" />!</message>
-	<message label="104" attrib="00 00 00 00 00 00 00 00"><anim id="WrySmile" target="actor" targetSpec="" />Te agradezco la sinceridad.<delay20 /> <anim id="SmugFace" target="actor" targetSpec="" />Quería
+	<message label="204" attrib="00 00 00 00 00 00 00 00"><anim id="WrySmile" target="actor" targetSpec="" />Te agradezco la sinceridad.<delay20 /> <anim id="SmugFace" target="actor" targetSpec="" />Quería
 conocer qué grado de persistencia
 tenía mi imagen de marca en ti.
-<anim id="Nodding" target="actor" targetSpec="" />Si otra isla te pareció mejor,<delay8 /> tendrás
-tus razones<tag a="110" b="0" /><delay20 /> aunque esta es la
+<anim id="Nodding" target="actor" targetSpec="" />Si sigues prefiriendo tu isla,<delay8 /> tendrás
+tus razones<tag a="110" b="0" /><delay8 /> aunque esta es la
 única que cuenta con mi carisma.</message>
-	<message label="105" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />¡No vale!<delay20 /> ¡Yo te he preguntado
-primero!<tag a="110" b="0" /><10_4 /> <anim id="Grin" target="actor" targetSpec="" />De todas formas,<delay8 /> no
-puedo negarme a responder.
-<anim id="Hesitate" target="actor" targetSpec="" />Sí,<delay8 /> ¡te eché de menos!<delay20 /> No tanto
+	<message label="205" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />¡No vale!<delay20 /> ¡Yo te he preguntado
+primero!<tag a="110" b="0" /><10_4 /> <anim id="Grin" target="actor" targetSpec="" />De todas formas,<delay8 />
+no puedo negarme a responder.
+<anim id="Hesitate" target="actor" targetSpec="" />Sí,<delay8 /> ¡te echo de menos!<delay20 /> No tanto
 como para echarme a llorar,<delay8 /> pero
 sabes que aprecio tu presencia.
 <anim id="Crying" target="actor" targetSpec="" />Vale,<delay8 /> vale,<delay8 /> al final no he podido
-contenerme.<delay20 /> Mejor cambiamos de
-tema ahora mismo<tag a="110" b="0" /></message>
-	<message label="106" attrib="6b 00 00 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />¿Te has enterado de la última moda
+contenerme.<delay20 /> Mejor cambiamos
+de tema, <tag a="110" b="6" /><tag a="110" b="0" /></message>
+	<message label="206" attrib="cf 00 00 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />¿Te has enterado de la última moda
 que está pegando fuerte en la isla?</message>
-	<message label="107" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="2" arg="0x6c 0x6d 0x6e 0x6f" /></message>
-	<message label="108" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />¡Pescar en el mar!<pageBreak /><anim id="OhGeez" target="actor" targetSpec="" />Bueno,<delay8 /> la pesca es una actividad de
+	<message label="207" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="2" arg="0xd0 0xd1 0xd2 0xd3" /></message>
+	<message label="208" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />¡Pescar en el mar!<pageBreak /><anim id="OhGeez" target="actor" targetSpec="" />Bueno,<delay8 /> la pesca es una actividad de
 lo más antigua,<delay8 /> pero últimamente
 vuelve a pegar con mucha fuerza.
 <anim id="AbsentMindedness" target="actor" targetSpec="" />Lanzar el sedal sobre las inmensas
 y refulgentes aguas del océano
 nunca ha perdido su encanto<tag a="110" b="0" /></message>
-	<message label="109" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />¡Salir a cazar bichos!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Ya,<delay8 /> ya,<delay8 /> bichos se han cazado toda la
+	<message label="209" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />¡Salir a cazar bichos!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Ya,<delay8 /> ya,<delay8 /> bichos se han cazado toda la
 vida,<delay8 /> pero ¿has visto los ejemplares
 que pululan por ahí últimamente?
 <anim id="Grin" target="actor" targetSpec="" />Algunos parecen haberse escapado
 de algún catálogo de diseño
 ultramoderno,<delay8 /> <anim id="Laughing" target="actor" targetSpec="" />¡je,<delay8 /> je,<delay8 /> je!</message>
-	<message label="110" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />¡Cavar agujeros!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Me imagino lo que estarás pensando:<delay20 />
+	<message label="210" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />¡Cavar agujeros!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Me imagino lo que estarás pensando:<delay20 />
 «bonita forma de ponerte los zapatos
 perdidos de tierra».<delay20 /> ¿No?
 <anim id="AbsentMindedness" target="actor" targetSpec="" />¡Pero haz la prueba!<delay20 /> Cavar te pone en contacto directo con el sustrato
@@ -116,7 +116,7 @@ de la isla. ¡Siente su respiración!
 <anim id="Serious" target="actor" targetSpec="" />¡En serio!<delay20 /> Hay pocas actividades
 que transmitan tantas emociones
 intensas de golpe<tag a="110" b="0" /></message>
-	<message label="111" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />¡La jardinería!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Sí,<delay8 /> en todas las épocas se han
+	<message label="211" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />¡La jardinería!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Sí,<delay8 /> en todas las épocas se han
 cultivado plantas<tag a="110" b="0" /><delay20 /> <anim id="Aha" target="actor" targetSpec="" />¡pero no con
 la tecnología punta de hoy en día!
 <anim id="Explain" target="actor" targetSpec="" />¡Atent<gender2 m="o" f="a" />!<delay20 /> Primero plantas las semillas,<delay8 />

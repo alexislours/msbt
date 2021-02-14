@@ -1,6 +1,6 @@
 <msbt attribsize="4">
 	<message label="002_02" attrib="00 00 00 00"><anim id="HappyDance" target="actor" targetSpec="" />¡Esperamos que sigas eligiendo
-<colour id="1" /><tag a="50" b="0" arg="0x1 0xcd00" />MiniNook <colour id="65535" />para tus compras!<delay20 /><anim id="FaintSmile" target="actor" targetSpec="" /> <size value="75" />¡Sí, sí!<size value="100" /></message>
+<colour id="1" />MiniNook <colour id="65535" />para tus compras!<tag a="100" b="4" /><delay20 /><anim id="FaintSmile" target="actor" targetSpec="" /> <size value="75" />¡Sí, sí!<size value="100" /><endTag a="100" b="4" /></message>
 	<message label="002_03" attrib="00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />¡Ay, disculpa!<delay20 /><anim id="FaintSmile" target="actor" targetSpec="" /> Vayamos al grano.<delay20 />
 Te interesa este producto,<delay8 /> ¿verdad?</message>
 	<message label="051" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Bienvenid<gender2 m="o" f="a" />,<delay8 /> bienvenid<gender2 m="o" f="a" />.<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />¡Por fin lo logramos!<delay20 /> Gracias a
@@ -19,7 +19,7 @@ tienda de campaña;<delay8 /> ¡<colour id="1" /><tag a="50" b="0" arg="0x1 0xcd
 	<message label="053_01_01" attrib="00 00 00 00"><anim id="Explain" target="mainNpc" targetSpec="" /><anim id="Nodding" target="4" targetSpec="N2" />Como puedes ver,<delay8 /> tenemos muebles
 y artículos que no se pueden crear
 como proyectos de taller.
-<anim id="Smiling" target="mainNpc" targetSpec="" /><anim id="Smiling" target="4" targetSpec="N2" />En la <colour id="1" />estantería<colour id="65535" /> de atrás,<delay8 /> junto con
+<anim id="Smiling" target="mainNpc" targetSpec="" /><anim id="Smiling" target="4" targetSpec="N2" />Además, en la <colour id="1" />vitrina<colour id="65535" />,<delay8 /> junto con
 las herramientas y otras cosas,<delay8 />
 verás <colour id="1" />papeles de pared <colour id="65535" />y <colour id="1" />suelos<colour id="65535" />.</message>
 	<message label="053_01_02" attrib="00 00 00 00"><anim id="Smiling" target="mainNpc" targetSpec="" />Tómate tu tiempo y mira todo
@@ -28,7 +28,7 @@ lo que quieras.<anim id="Nodding" target="subNpc" targetSpec="" /><tag a="100" b
 Te interesa este producto,<delay8 /> ¿verdad?</message>
 	<message label="053_02" attrib="00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />En la sección principal tenemos
 a la venta muebles ya terminados.<pageBreak /><anim id="Negative" target="actor" targetSpec="" />Es decir, que no se pueden fabricar
-como proyectos de taller.<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />En la estantería encontrarás
+como proyectos de taller.<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Además, en la vitrina encontrarás
 herramientas y otros artículos,<delay8 />
 como suelos y papeles de pared.
 <anim id="Hello" target="actor" targetSpec="" />¿Quieres echar un vistazo más
@@ -62,13 +62,14 @@ en la entrada de la tienda.<pageBreak /><anim id="Explain" target="mainNpc" targ
 cerrada,<delay8 /> puedes dejar todo lo que
 quieras vender ahí.<delay20 /> <anim id="Smiling" target="subNpc" targetSpec="" />Fácil,<delay8 /> ¿verdad?
 <anim id="Explain" target="mainNpc" targetSpec="" />Te pagaremos después haciendo
-un depósito en tu cuenta.<pageBreak /><anim id="Thinking" target="mainNpc" targetSpec="" /><anim id="ShyBoy" target="subNpc" targetSpec="" />Hay dos cosas que deberás tener
-en cuenta.<pageBreak /><anim id="Nodding" target="mainNpc" targetSpec="" />La primera es que cobramos una
+un depósito en tu cuenta.<pageBreak /><anim id="Thinking" target="mainNpc" targetSpec="" /><anim id="ShyBoy" target="subNpc" targetSpec="" />Sin embargo, hay un par de cosas
+que debes tener en cuenta al
+respecto.<pageBreak /><anim id="Nodding" target="mainNpc" targetSpec="" />La primera es que cobramos una
 pequeña comisión por los gastos
 de gestión.
-<anim id="Explain" target="mainNpc" targetSpec="" /><anim id="ShyBoy" target="subNpc" targetSpec="" />Y la segunda es que no debes
-depositar objetos del día ni
-nabos en el buzón.<anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" /></message>
+<anim id="Explain" target="mainNpc" targetSpec="" /><anim id="ShyBoy" target="subNpc" targetSpec="" />Además, no aceptamos nabos<tag a="110" b="0" /><delay8 />
+y los objetos del día se pagan
+a su precio habitual.<anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" /></message>
 	<message label="061_05" attrib="00 00 00 00"><anim id="Smiling" target="mainNpc" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" />¡Pues ya está!<delay20 /> Eso es todo.</message>
 	<message label="101" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />¿Sabes qué,<delay8 /> <tag a="110" b="1" />?<delay20 /> <anim id="Aha" target="actor" targetSpec="" />¡Tengo grandes noticias!</message>
 	<message label="101_01" attrib="00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />¡Ah!<delay20 /> Necesito que me prestes
@@ -85,19 +86,19 @@ comenzar a construir ya mismo.
 <anim id="ShyBoy" target="actor" targetSpec="" />Lo sé<tag a="110" b="0" /><delay8 /> Pasar un día entero sin poder
 comprar es difícil.<delay20 /> <anim id="Nodding" target="actor" targetSpec="" />Pero nos vemos
 en dos días,<delay8 /> ¿sí?</message>
-	<message label="151" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />¡Bienvenid<gender2 m="o" f="a" /> a nuestra nueva <colour id="1" />tienda<colour id="65535" />!<delay20 />
+	<message label="151" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />¡Bienvenid<gender2 m="o" f="a" /> <anim id="FaintSmile" target="subNpc" targetSpec="" />a nuestra nueva <colour id="1" />tienda<colour id="65535" />!<delay20 />
 <anim id="HappyDance" target="actor" targetSpec="" />Como verás, <delay8 />hemos remodelado
 y ampliado el local.
-<anim id="EmotEnd" target="actor" targetSpec="" />Me alegra que te hayas acercado a
-visitarnos <anim id="Hello" target="actor" targetSpec="" />el primer día que abrimos
+<anim id="EmotEnd" target="actor" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" />Me alegra que te hayas acercado a
+visitarnos <anim id="Hello" target="actor" targetSpec="" /><anim id="FaintSmile" target="subNpc" targetSpec="" />el primer día que abrimos
 nuestras puertas de nuevo.</message>
-	<message label="151_01" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />¡Bienvenid<gender2 m="o" f="a" />,<delay8 /> <tag a="110" b="1" />!<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Es la primera vez que visitas
-nuestro nuevo local,<delay8 /> ¿verdad?<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Como puedes ver,<delay8 /> <anim id="Hello" target="actor" targetSpec="" />ahora este es
+	<message label="151_01" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />¡Bienvenid<gender2 m="o" f="a" />,<anim id="FaintSmile" target="subNpc" targetSpec="" /><delay8 /> <tag a="110" b="1" />!<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Es la primera vez que visitas
+nuestro nuevo local,<delay8 /> ¿verdad?<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" />Como puedes ver,<delay8 /> <anim id="Hello" target="actor" targetSpec="" /><anim id="FaintSmile" target="subNpc" targetSpec="" />ahora este es
 nuestro centro de operaciones.</message>
 	<message label="152" attrib="00 00 00 00"><anim id="HappyDance" target="actor" targetSpec="" />¡Esperamos que sigas haciendo
 tus compras en <colour id="1" /><tag a="50" b="0" arg="0x1 0xcd00" />MiniNook<colour id="65535" />!<delay frames="40" /><anim id="EmotEnd" target="actor" targetSpec="" /></message>
 	<message label="152_01" attrib="00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />¡Ay, disculpa!<delay20 /><anim id="FaintSmile" target="actor" targetSpec="" /> Vayamos al grano.<delay20 />
 Te interesa este producto,<delay8 /> ¿verdad?</message>
-	<message label="152_02" attrib="00 00 00 00"><anim id="Hello" target="actor" targetSpec="" />¿Quieres ver la estantería?<delay20 />
-<anim id="Smiling" target="actor" targetSpec="" />Esto es lo que ofrecemos hoy.</message>
+	<message label="152_02" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Esto es lo que ofrecemos hoy
+en la vitrina.</message>
 </msbt>

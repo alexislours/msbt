@@ -3,7 +3,7 @@
 	<message label="001_a" attrib="04 00 00 00 00 00 00 00">Pues claro</message>
 	<message label="001_b" attrib="05 00 00 00 00 00 00 00">Ni idea</message>
 	<message label="002" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="23" arg="0xd 0xe 0xf 0xffff" /></message>
-	<message label="003" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x10 0x11 0xffff 0xffff" /></message>
+	<message label="003" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x1 0x10 0x11 0x12" /></message>
 	<message label="004" attrib="00 00 00 00 00 00 00 00"><anim id="Clapping" target="actor" targetSpec="" />¡Muy bien!<delay20 /> <anim id="FaintSmile" target="actor" targetSpec="" />Mis amigos que viven
 fuera de la isla siempre me piden
 que les lleve <tag a="110" b="7" arg="0xcd01" />.
@@ -28,10 +28,11 @@ en un gran edificio lleno de
 interesantes exposiciones.
 <anim id="FaintSmile" target="actor" targetSpec="" />Qué ganas tengo de que llegue
 ese día, <tag a="110" b="5" />.</message>
-	<message label="017" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="2" arg="0x15 0x16 0x17 0x19" /></message>
+	<message label="017" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="3" arg="0x15 0x16 0x17 0x18 0x19" /></message>
 	<message label="021" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1c00 0x1900 0xcd00" /></message>
 	<message label="022" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1d01 0x1900 0xcd00" /></message>
 	<message label="023" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1e02 0x1900 0xcd00" /></message>
+	<message label="024" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1f03 0x1900 0xcd00" /></message>
 	<message label="025" attrib="00 00 00 00 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />¿Ya visitaste nuestro <colour id="1" />museo<colour id="65535" />?<delay20 />
 <anim id="Explain" target="actor" targetSpec="" />Tiene muchas cosas interesantes
 que ofrecer.
@@ -50,43 +51,41 @@ mi exhibición favorita, <tag a="110" b="5" />.</message>
 hay un ejemplar de <tag a="135" b="13" arg="0x2" />?<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />A mí, que me encantan los fósiles,<delay8 />
 me pone muy contenta que podamos
 disfrutar de esa joya.</message>
-	<message label="101" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="0" arg="0x66 0x69" /></message>
-	<message label="102" attrib="00 00 02 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />A veces recuerdo lo mucho que nos
-divertíamos cuando éramos vecin<gender2 m="o" f="a" />s,<delay8 />
-¿tú no?</message>
-	<message label="102_a" attrib="67 00 00 00 00 00 00 00">Claro que me acuerdo</message>
-	<message label="102_b" attrib="68 00 00 00 00 00 00 00">Tengo mala memoria...</message>
-	<message label="103" attrib="00 00 00 00 00 00 00 00"><anim id="HappyFlower" target="actor" targetSpec="" />¡Ay, qué bueno!<delay20 /> Tenía miedo de que
-nuestro nivel de valoración de
-amistad no fuera recíproco.
+	<message label="201" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="0" arg="0xca 0xcd" /></message>
+	<message label="202" attrib="00 00 02 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />A veces me acuerdo de lo mucho
+que nos divertíamos cuando éramos
+vecin<gender2 m="o" f="a" />s,<delay8 /> ¿tú no?</message>
+	<message label="202_a" attrib="cb 00 00 00 00 00 00 00">Claro que me acuerdo</message>
+	<message label="202_b" attrib="cc 00 00 00 00 00 00 00">Bueno... no mucho...</message>
+	<message label="203" attrib="00 00 00 00 00 00 00 00"><anim id="HappyFlower" target="actor" targetSpec="" />¡Ay, qué bien que no sea solo yo!<delay20 />
+Me apenaba que quizás mi amistad
+no hubiera significado mucho para ti.
 <anim id="Hesitate" target="actor" targetSpec="" />Confieso que al principio incluso
 escribí algunos poemas sobre lo
-mucho que te echaba de menos<tag a="110" b="0" />
-<anim id="Oops" target="actor" targetSpec="" />Perdona, no quiero sonar muy
-intensa, pero es mi estrategia
-para superar pérdidas.</message>
-	<message label="104" attrib="00 00 00 00 00 00 00 00"><anim id="Frantic" target="actor" targetSpec="" />Rabanitos,<delay8 /> ahora que lo pienso,<delay8 /> creo
-que mi pregunta sonó un poco
-intensa.
-<anim id="FaintSmile" target="actor" targetSpec="" />Entiendo que la vida sigue y que no
-te acuerdes significa que tienes una vida muy plena,<delay8 /><anim id="Nodding" target="actor" targetSpec="" /> ¡lo cual me alegra!
-<anim id="Assent" target="actor" targetSpec="" />Hay que dejar el pasado atrás para
-recibir las posibilidades que nos
-presenta el destino, <delay8 /><tag a="110" b="5" /><tag a="110" b="0" /></message>
-	<message label="105" attrib="00 00 02 00 00 00 00 00"><anim id="Hesitate" target="actor" targetSpec="" />¿Puedo hacerte una pregunta, flor?<delay20 />
+mucho que te extrañaba<tag a="110" b="0" />
+<anim id="Oops" target="actor" targetSpec="" />Perdona, no quería que sonara raro.<delay20 />
+Mejor olvida lo que dije,
+<tag a="110" b="6" />.</message>
+	<message label="204" attrib="00 00 00 00 00 00 00 00"><anim id="Frantic" target="actor" targetSpec="" />Rábanos,<delay8 /> te hice sentir incómod<gender2 m="o" f="a" />,
+<delay8 />perdona,<delay8 /> <anim id="Negative" target="actor" targetSpec="" />pero no tienes por qué.<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />La vida sigue,<delay8 /> y que no te acuerdes
+significa que tienes una vida muy
+plena,<delay8 /><anim id="Nodding" target="actor" targetSpec="" /> ¡lo cual me alegra!
+<anim id="Worried" target="actor" targetSpec="" />Hay que dejar el pasado atrás para
+poder vivir nuevas aventuras,
+<anim id="BrokenHeart" target="actor" targetSpec="" /><tag a="110" b="6" /><tag a="110" b="0" /></message>
+	<message label="205" attrib="00 00 02 00 00 00 00 00"><anim id="Hesitate" target="actor" targetSpec="" />¿Puedo hacerte una pregunta, flor?<delay20 />
 <anim id="QuestionMark" target="actor" targetSpec="" />¿Me recuerdas diferente a como soy
-ahora?<delay20 /> ¿Crees que he cambiado?</message>
-	<message label="105_a" attrib="6a 00 00 00 00 00 00 00">Sí, un poco...</message>
-	<message label="105_b" attrib="6b 00 00 00 00 00 00 00">No, eres la misma</message>
-	<message label="106" attrib="00 00 00 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />¿Entonces se me nota?<delay20 />
-<anim id="HappyFlower" target="actor" targetSpec="" />¡Ay, qué bien, <tag a="110" b="5" />!<pageBreak /><anim id="Hesitate" target="actor" targetSpec="" />He estado tomando clases de yoga
-para corregir mi postura y lucir más
-confiable y abierta.<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Qué bonito que lo hayas notado,<delay8 />
-<anim id="HappyFlower" target="actor" targetSpec="" />eso significa que me conoces
-mejor de lo que pensaba.</message>
-	<message label="107" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />¡Uf, menos mal!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Últimamente notaba que mi energía
+ahora?<delay20 /> ¿Crees que cambié?</message>
+	<message label="205_a" attrib="ce 00 00 00 00 00 00 00">Un poco sí...</message>
+	<message label="205_b" attrib="cf 00 00 00 00 00 00 00">No, eres la misma</message>
+	<message label="206" attrib="00 00 00 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />¿Entonces se me nota?<delay20 />
+<anim id="HappyFlower" target="actor" targetSpec="" />¡Ay, qué bien, <tag a="110" b="6" />!<pageBreak /><anim id="Hesitate" target="actor" targetSpec="" />Intenté corregir mi postura para
+parecer más cercana y abierta.<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Me gusta que te hayas dado
+cuenta,<delay8 /> <anim id="HappyFlower" target="actor" targetSpec="" />porque significa que me
+conoces mejor de lo que pensaba.</message>
+	<message label="207" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />¡Uf, menos mal!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Últimamente notaba que mi energía
 no estaba del todo equilibrada y
 eso me preocupaba.
 <anim id="HappyFlower" target="actor" targetSpec="" />Pero si tú dices que estoy igual,<delay8 />
-¡me quedo más tranquila!</message>
+¡me quedo más tranquila, <tag a="110" b="6" />!</message>
 </msbt>

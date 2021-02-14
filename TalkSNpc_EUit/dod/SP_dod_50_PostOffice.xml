@@ -1,16 +1,40 @@
 <msbt attribsize="4">
-	<message label="050" attrib="02 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Per tutte le ali! Vuoi spedire un
-messaggio?<delay frames="40" /> <tag a="110" b="0" /><anim id="Blushing" target="actor" targetSpec="" />Cioè, certo che
-puoi, però<tag a="110" b="0" />
+	<message label="010" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Ah,<delay8 /> <tag a="110" b="1" />!<delay20 /> <anim id="Smiling" target="actor" targetSpec="" />Lo sapevi che puoi inviare dei biglietti agli amici con cui hai giocato?</message>
+	<message label="020" attrib="00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Ma prima di usare questo servizio,
+<delay20 />devo metterti al corrente di alcuni
+aspetti legali.
+<anim id="Hello" target="actor" targetSpec="" />Potresti leggere questo con
+attenzione, per favore?</message>
+	<message label="040" attrib="02 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />OK! <delay20 />Ora che abbiamo fatto,<delay20 />
+<anim id="QuestionMark" target="actor" targetSpec="" />vuoi spedire un messaggio?</message>
+	<message label="040_a" attrib="00 00 00 00">Sì.</message>
+	<message label="040_b" attrib="00 00 00 00">Non importa.</message>
+	<message label="050" attrib="02 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Per tutte le ali! <delay8 />Vuoi spedire un
+messaggio?<delay frames="40" /> <anim id="Blushing" target="actor" targetSpec="" />Cioè, certo che puoi,
+però<tag a="110" b="0" />
 È che il multitasking non è mai stato
-il mio forte. <anim id="QuestionMark" target="actor" targetSpec="" />È un problema se chiudo
+il mio forte. <delay20 /><anim id="QuestionMark" target="actor" targetSpec="" />È un problema se chiudo
 il gate fintanto che lo faccio?</message>
 	<message label="050_a" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Certo che no!</message>
-	<message label="050_b" attrib="00 00 00 00">Non chiuderlo!</message>
+	<message label="050_b" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Non chiuderlo!</message>
 	<message label="051" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Okappa, grazie mille per la
-comprensione.<delay20 /> E allora si va, gate
-in chiusura!</message>
+comprensione.<delay20 /> E allora si va,
+<delay8 />gate in chiusura!</message>
 	<message label="052" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />E siamo pronti!</message>
+	<message label="053" attrib="02 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Per tutte le ali! <delay8 />Vuoi spedire un
+messaggio?<delay frames="40" /> <anim id="Blushing" target="actor" targetSpec="" />Cioè, certo che puoi,
+però<tag a="110" b="0" />
+È che il multitasking non è mai stato
+il mio forte. <delay20 /><anim id="QuestionMark" target="actor" targetSpec="" />Ti spiace se interrompo
+la connessione mentre lo faccio?</message>
+	<message label="053_a" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Certo che no!</message>
+	<message label="053_b" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Sì, aspetta...</message>
+	<message label="054" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Okappa, grazie mille per la
+comprensione.<delay20 /> Bene allora,
+<delay8 />interrompo la connessione!</message>
+	<message label="055" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Come preferisci! <delay20 />Lascerò tutto così
+com'è, <delay20 /><anim id="Explain" target="actor" targetSpec="" />però fammi sapere se cambi
+idea e vuoi usare il servizio di posta.</message>
 	<message label="070" attrib="02 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Vuoi spedire il messaggio, ora?</message>
 	<message label="070_a" attrib="00 00 00 00">Sì.</message>
 	<message label="070_b" attrib="00 00 00 00">No.</message>
@@ -18,6 +42,11 @@ in chiusura!</message>
 	<message label="080_a" attrib="00 00 00 00">Qualcuno sull'isola.</message>
 	<message label="080_b" attrib="00 00 00 00">Il mio io futuro.</message>
 	<message label="080_c" attrib="00 00 00 00">Uh, non fa niente.</message>
+	<message label="081" attrib="0c 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Okappa. A chi vuoi spedirlo?</message>
+	<message label="081_a" attrib="00 00 00 00">Qualcuno sull'isola.</message>
+	<message label="081_b" attrib="00 00 00 00">Il mio io futuro.</message>
+	<message label="081_c" attrib="00 00 00 00">Uno dei miei amici.</message>
+	<message label="081_e" attrib="00 00 00 00">Uh, non fa niente.</message>
 	<message label="200" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Okappa. A qualcuno su quest'isola.
 <anim id="QuestionMark" target="actor" targetSpec="" />Chi, esattamente?</message>
 	<message label="210_01" attrib="00 00 00 00">Ah, vuoi spedire un messaggio <tag a="50" b="15" /> <tag a="115" b="0" arg="0xcd00" />? No problem!</message>
@@ -32,9 +61,48 @@ abbiamo ancora recapitato<tag a="110" b="0" />
 <anim id="Worried" target="actor" targetSpec="" />Ti dispiace tornare un'altra volta,<delay20 />
 magari quando sarò uscito da
 questa brutta situazione?</message>
+	<message label="301" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Okappa, a chi vuoi scrivere?</message>
+	<message label="311" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />La comunicazione libera con altri
+utenti è limitata dal filtro famiglia.<pageBreak />Per scrivere a un amico devi prima
+rimuovere la limitazione.</message>
+	<message label="312" attrib="00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />Per tutte le ali, pare che tu non
+abbia l'indirizzo di alcun amico!<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Puoi scrivere a qualcuno solo se
+prima gli hai fatto visita online.</message>
 	<message label="320" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Per tutte le ali!<delay20 /> Oggi hai già spedito
 due messaggi a <tag a="115" b="0" arg="0xcd00" />.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Puoi inviarne altri domani,<delay20 /><anim id="FaintSmile" target="actor" targetSpec="" /> che ne
 dici di aspettare fino ad allora?</message>
+	<message label="321" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Okappa, allora preparo tutto per
+la spedizione!</message>
+	<message label="350" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Ah, è la prima volta che invii
+qualcosa a Nintendo? <delay20 />Beh, lì sono
+impegnati <delay8 /><anim id="Negative" target="actor" targetSpec="" />e non risponderanno<tag a="110" b="0" />
+<anim id="Explain" target="actor" targetSpec="" />Però potrebbero pubblicare il tuo
+messaggio sul loro sito Internet
+oppure sui social.
+<anim id="Nodding" target="actor" targetSpec="" />Per questo motivo, è meglio se
+non includi alcuna informazione
+personale.
+<anim id="FaintSmile" target="actor" targetSpec="" />E per le note legali è tutto, si passa
+a scrivere!</message>
+	<message label="351" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Allora vuoi inviare ciò che hai scritto
+a Nintendo? <delay frames="40" />Okappa, <delay8 />fai pure.</message>
+	<message label="352" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Oh, <delay8 />pare che oggi tu abbia scritto
+a Nintendo già due volte<tag a="110" b="0" /> <delay frames="40" /><anim id="Serious" target="actor" targetSpec="" />Più di
+così non puoi.
+<anim id="FaintSmile" target="actor" targetSpec="" />Per farlo ancora dovrai aspettare
+domani<tag a="110" b="0" /> Abbi un altro po' di
+pazienza!</message>
+	<message label="353" attrib="00 00 00 00">Okappa, allora avvio la procedura
+per inviare qualcosa a Nintendo.</message>
+	<message label="380" attrib="02 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Eh?<delay frames="40" /> Mmmh, pare che la spedizione
+non sia andata a buon fine.<pageBreak /><anim id="QuestionMark" target="actor" targetSpec="" />Vuoi riprovare subito o aspettare
+prima un po'?</message>
+	<message label="380_a" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Riproviamo ora.</message>
+	<message label="380_b" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Rimandiamo.</message>
+	<message label="381" attrib="00 00 00 00"><anim id="Hello" target="actor" targetSpec="" />Okappa, allora ti rimborso le stelline.</message>
+	<message label="382" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />E ti restituisco anche il regalo
+che avevi allegato al messaggio,
+naturalmente.</message>
 	<message label="400" attrib="00 00 00 00" />
 	<message label="401" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Okappa, quanto nel futuro devo
 spedire questo messaggio?</message>
@@ -44,7 +112,7 @@ spedire questo messaggio?</message>
 	<message label="402_b" attrib="00 00 00 00">No.</message>
 	<message label="410" attrib="00 00 00 00">Per tutte le ali, ho sbagliato
 qualcosa? Dai, riprova.</message>
-	<message label="415" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Okappa! No, un attimo<tag a="110" b="0" /> Pare che tu
+	<message label="415" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Okappa! <delay20 /><anim id="Shocked" target="actor" targetSpec="" />No, un attimo<tag a="110" b="0" /> Pare che tu
 abbia già un messaggio da spedire
 nel futuro <tag a="50" b="15" /> <tag a="110" b="1" /><tag a="110" b="0" />
 <anim id="Explain" target="actor" targetSpec="" />Se vuoi inviarne un altro, devi prima
@@ -94,11 +162,13 @@ era allegato.</message>
 abbastanza spazio qui per i regali,<delay20 />
 perciò te lo restituisco.</message>
 	<message label="552" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Sono qui sei hai bisogno di me!</message>
-	<message label="600" attrib="00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Volevi scrivere un messaggio?<pageBreak />Ne ho qui uno che volevi inviare <tag a="50" b="15" /> <tag a="115" b="0" arg="0xcd00" />.</message>
-	<message label="601" attrib="00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Volevi scrivere un messaggio?<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Ne ho qui uno che stavi preparando
+	<message label="600" attrib="00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Volevi scrivere un messaggio?<pageBreak />Ne ho qui uno che avevi cominciato
+per <tag a="115" b="0" arg="0xcd00" />.</message>
+	<message label="601" attrib="00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Volevi scrivere un messaggio?<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Ne ho qui uno che avevi cominciato
 per <tag a="115" b="1" arg="0xcd00" />.</message>
 	<message label="602" attrib="00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Volevi scrivere un messaggio?
-<delay20 /><anim id="Nodding" target="actor" targetSpec="" />Qui ne ho uno per il tuo io futuro.</message>
+<delay20 /><anim id="Nodding" target="actor" targetSpec="" />Ne ho qui uno che avevi cominciato
+per il tuo io futuro.</message>
 	<message label="604" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />OK, parliamo di nuovo di messaggi.
 <delay20 />Ho qui un piccolo capolavoro su cui
 stavi lavorando.</message>
@@ -115,8 +185,19 @@ messaggio<delay20 /> o cestinarlo?</message>
 	<message label="620" attrib="01 00 00 00">Chi vuoi che sia il destinatario?</message>
 	<message label="620_a" attrib="00 00 00 00">Qualcuno sull'isola.</message>
 	<message label="620_b" attrib="00 00 00 00">Il mio io futuro.</message>
+	<message label="621" attrib="0b 00 00 00">Chi vuoi che sia il destinatario?</message>
+	<message label="621_a" attrib="00 00 00 00">Qualcuno sull'isola.</message>
+	<message label="621_b" attrib="00 00 00 00">Il mio io futuro.</message>
+	<message label="621_c" attrib="00 00 00 00">Uno dei miei amici.</message>
+	<message label="621_d" attrib="00 00 00 00">Nintendo.</message>
+	<message label="625" attrib="00 00 00 00">Hai già pagato per il servizio di
+spedizione. Ti restituisco le stelline,
+così puoi cambiare il destinatario.</message>
 	<message label="630" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Okappa, allora cestino questo
 messaggio.</message>
+	<message label="631" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Allora cestino questo messaggio
+<delay20 />e ti restituisco anche le 200 stelline
+che avevi pagato<tag a="110" b="0" /></message>
 	<message label="800" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Grazie per averci scelto!</message>
 	<message label="801" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Okappa. <delay20 />Fammi un fischio la
 prossima volta che ti serve

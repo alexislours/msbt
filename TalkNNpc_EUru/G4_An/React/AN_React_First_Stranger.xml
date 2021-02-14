@@ -346,9 +346,9 @@
 	<message label="302" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
 	<message label="302_01" attrib="00 00 00 00 00 00 00 00"><anim id="Hello" target="actor" targetSpec="" />Здорово!<delay20 /> Мы вроде не знакомы.<delay20 />
 Я <tag a="110" b="10" />.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Ты <colour id="1" />кемпинг <colour id="65535" />знаешь?<delay20 /> Я встретила
-там тво<tag a="50" b="24" arg="0xd 0xcd00 0x6 0x435 0x433 0x43e 0x2 0x44e 0x0 0x0" /> сосед<tag a="50" b="24" arg="0xd 0xcd00 0x2 0x430 0x4 0x43a 0x443 0x0 0x0" /><delay20 /> по имени
-<tag a="115" b="0" arg="0xcd00" />.<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Он<tag a="50" b="24" arg="0xd 0xcd00 0x0 0x2 0x430 0x0 0x0" /> мне понравил<tag a="50" b="24" arg="0xd 0xcd00 0x4 0x441 0x44f 0x6 0x430 0x441 0x44c 0x0 0x0" />. <delay20 />Мы с н<tag a="50" b="24" arg="0xd 0xcd00 0x4 0x438 0x43c 0x4 0x435 0x439 0x0 0x0" />
-поболтали,<delay20 /> и он<tag a="50" b="24" arg="0xd 0xcd00 0x0 0x2 0x430 0x0 0x0" /> пригласил<tag a="50" b="24" arg="0xd 0xcd00 0x0 0x2 0x430 0x0 0x0" /> меня
+там тво<tag a="50" b="24" arg="0xe 0xcd00 0x6 0x435 0x433 0x43e 0x2 0x44e 0x0 0x0" /> сосед<tag a="50" b="24" arg="0xe 0xcd00 0x2 0x430 0x4 0x43a 0x443 0x0 0x0" /><delay20 /> по имени
+<tag a="115" b="0" arg="0xcd00" />.<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Он<tag a="50" b="24" arg="0xe 0xcd00 0x0 0x2 0x430 0x0 0x0" /> мне понравил<tag a="50" b="24" arg="0xe 0xcd00 0x4 0x441 0x44f 0x6 0x430 0x441 0x44c 0x0 0x0" />. <delay20 />Мы с н<tag a="50" b="24" arg="0xe 0xcd00 0x4 0x438 0x43c 0x4 0x435 0x439 0x0 0x0" />
+поболтали,<delay20 /> и он<tag a="50" b="24" arg="0xe 0xcd00 0x0 0x2 0x430 0x0 0x0" /> пригласил<tag a="50" b="24" arg="0xe 0xcd00 0x0 0x2 0x430 0x0 0x0" /> меня
 здесь пожить. <tag a="50" b="3" /><tag a="110" b="5" />.<pageBreak /><anim id="Grin" target="actor" targetSpec="" />Очень неожиданно.<delay20 /> Я приехала
 сюда погостить, а не жить.<delay20 /> Но
 почему бы и нет!<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Теперь мы соседи, так что будем
@@ -414,4 +414,25 @@
 я за себя не<tag a="110" b="0" /> <anim id="Sneezing" target="actor" targetSpec="" />Апчхи!!!<delay20 /> Довольно!<pageBreak /><anim id="SadSpiral" target="actor" targetSpec="" />Слушай, <delay20 />давай встретимся, когда
 этот ужас закончи<tag a="110" b="0" /> <anim id="Sneezing" target="actor" targetSpec="" />Апчхи!!!<pageBreak /><anim id="Worried" target="actor" targetSpec="" />Это переходит все границы<tag a="110" b="0" /><delay frames="60" /> <anim id="QuestionMark" target="actor" targetSpec="" />Все?
 <delay frames="40" /><anim id="Nodding" target="actor" targetSpec="" />Похоже, <delay20 />закончило<tag a="110" b="0" /> о<tag a="110" b="0" /><pageBreak /><10_10 /><tag a="10" b="12" /><anim id="Sneezing" target="actor" targetSpec="" /><size value="200" />Апчхи!!!<size value="100" /></message>
+	<message label="316" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="1" arg="0x13d 0x13e 0x13f" /></message>
+	<message label="317" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Как делишки? <delay frames="40" />Ты тоже приехал<gender2 m="" f="а" /> по
+<anim id="Restless" target="actor" targetSpec="" />программе с пакетом услуг?<delay8 /> Ну<delay20 /> той,
+с необитаемым островом.<delay frames="40" /><pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Как классно! <delay20 />Я <tag a="110" b="10" />.
+<delay20 />А ты у нас кто?<10_4 /><anim id="Grin" target="actor" targetSpec="" /> <tag a="50" b="3" /><tag a="110" b="1" />,
+говоришь? <delay20 />Мне нравится!<pageBreak /><anim id="BigSmile" target="actor" targetSpec="" />Остров <tag a="110" b="33" /> —
+отличное место для наших
+вечеринок! <tag a="50" b="3" /><tag a="110" b="5" />!</message>
+	<message label="318" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Вид у тебя немного... потерянный.
+<delay20 />Только переехал<gender2 m="" f="а" />?<delay frames="40" /> <anim id="ShyBoy" target="actor" targetSpec="" />Я тут тоже
+блуждаю, остров немаленький!<pageBreak /><anim id="Eh" target="actor" targetSpec="" />А! <delay20 />Забыла представиться.<delay frames="40" /> <anim id="Hello" target="actor" targetSpec="" />Меня
+<tag a="110" b="10" /> зовут.<delay20 /> А ты кто?<10_4 />
+<tag a="50" b="3" /><tag a="110" b="1" />, да? <delay20 /><anim id="BigSmile" target="actor" targetSpec="" />Класс!<pageBreak /><anim id="Grin" target="actor" targetSpec="" />Рада встрече! <delay20 />Не теряйся,
+<tag a="110" b="1" />!</message>
+	<message label="319" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />О, приветик! Ты, случаем,<delay frames="30" /> сюда не
+с пакетом услуг прикатил<gender2 m="" f="а" />?<delay frames="40" /> <anim id="BigSmile" target="actor" targetSpec="" />Прям
+как я! <tag a="50" b="3" /><tag a="110" b="5" />!<pageBreak /><anim id="Hello" target="actor" targetSpec="" />Меня <tag a="110" b="10" /> зовут!<delay frames="40" />
+<anim id="Grin" target="actor" targetSpec="" />А ты у нас<tag a="110" b="0" /><delay20 /> <tag a="110" b="1" />,
+верно? <delay20 />Рада знакомству!<pageBreak /><anim id="AbsentMindedness" target="actor" targetSpec="" />Мы с тобой тут<delay20 /> хорошенько
+повеселимся.<delay frames="40" /> Поставим остров
+<tag a="110" b="8" /> на уши!</message>
 </msbt>

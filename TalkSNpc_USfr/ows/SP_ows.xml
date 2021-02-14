@@ -38,8 +38,8 @@ me voir et je te dirai ce que je sais.
 souvent un peu bizarres<tag a="110" b="0" /><delay frames="40" /> <anim id="HappyFlower" target="actor" targetSpec="" />mais
 j'essaierai de te raconter ça bien!</message>
 	<message label="011" attrib="02 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Hou hou! Je peux t'aider?</message>
-	<message label="011_a" attrib="00 00 00 00">Regarde ça!</message>
-	<message label="011_b" attrib="00 00 00 00">Parlons un peu!</message>
+	<message label="011_a" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Regarde ça!</message>
+	<message label="011_b" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Parlons un peu!</message>
 	<message label="012" attrib="00 00 00 00"><anim id="IdeaBulb" target="actor" targetSpec="" />Hou hou! <delay20 />Ça, c'est<tag a="110" b="0" /><delay20 /> <tag a="50" b="2" /><tag a="125" b="0" arg="0x0" />!</message>
 	<message label="013" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Sur ce, <delay20 />je te souhaite une
 merveilleuse nuit!</message>
@@ -285,15 +285,15 @@ rapport avec une constellation,<delay20 />
 tu sais où me trouver!</message>
 	<message label="101" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Bien le bonsoir, hou hou!<delay frames="40" />
 <anim id="EmotEnd" target="actor" targetSpec="" />Tu habites sur cette île?</message>
-	<message label="102" attrib="00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />C'est donc toi, <tag a="110" b="1" />!<delay20 />
-<anim id="HappyFlower" target="actor" targetSpec="" />Ravie de te rencontrer. Moi c'est
-<colour id="3" />Céleste<colour id="65535" />! <delay20 /><colour id="3" />Thibou<colour id="65535" /> m'a parlé de toi.<delay20 />
-<anim id="Smiling" target="actor" targetSpec="" /><colour id="3" />Thibou<colour id="65535" />, c'est mon frère. <delay20 />Il m'a
-raconté comment tu l'as aidé à ouvrir
-son <colour id="1" />musée<colour id="65535" />. <delay20 /><anim id="Scheming" target="actor" targetSpec="" />Il aime beaucoup parler!
-<anim id="Nodding" target="actor" targetSpec="" />Merci pour tout ce que tu as fait pour
-lui en tout cas,<delay8 /> c'est trop gentil.<anim id="Blushing" target="actor" targetSpec="" /><delay20 />
-Il ne mérite pas tant d'efforts!<delay frames="100" /><anim id="EmotEnd" target="actor" targetSpec="" /></message>
+	<message label="102" attrib="00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Oh, mais c'est toi, l<gender2 m="e" f="a" /> fameu<gender2 m="x" f="se" /> <tag a="110" b="1" />!<pageBreak /><anim id="HappyFlower" target="actor" targetSpec="" />Ravie de te rencontrer. Moi c'est
+<colour id="3" />Céleste<colour id="65535" />! <delay20 /><anim id="Nodding" target="actor" targetSpec="" />Tu connais peut-être mon
+frère, <colour id="3" />Thibou<colour id="65535" />?<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Il est conservateur de <colour id="1" />musée<colour id="65535" />.<delay20 /> Tu t'en
+souviens forcément si tu l'as croisé!<delay20 />
+<delay20 /><anim id="Eh" target="actor" targetSpec="" />C'est une incorrigible pipelette.
+<anim id="Smiling" target="actor" targetSpec="" />Mais c'est ce qui fait son charme<tag a="110" b="0" />
+À condition que tu ne sois pas trop
+pressé<gender2 m="" f="e" />, hou hou<pageBreak /><anim id="Blushing" target="actor" targetSpec="" />Oh, mais voilà que je me mets à
+pépier, moi aussi!<delay20 /> Bref<tag a="110" b="0" /></message>
 	<message label="103" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Sur les conseils de <colour id="3" />Thibou<colour id="65535" />, je
 suis venue ici pour regarder
 les étoiles et<tag a="110" b="0" /></message>

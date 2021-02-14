@@ -160,7 +160,7 @@ l'occasion de nous revoir.<delay20 /><anim id="FaintSmile" target="actor" target
 été d'une aide précieuse.</message>
 	<message label="048" attrib="00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" /><tag a="110" b="0" /> <tag a="50" b="3" /><tag a="50" b="2" /><tag a="125" b="4" arg="0x0" />.
 <delay20 />J'espère que tu aimes.<delay frames="13" /><anim id="FaintSmile" target="actor" targetSpec="" /> C'est moi qui
-l'ai fait<tag a="50" b="17" arg="0x15 0xcd00 0x0 0x2 0x65 0x0" />.
+l'ai fait<tag a="50" b="17" arg="0x16 0xcd00 0x0 0x2 0x65 0x0" />.
 <anim id="ShyBoy" target="actor" targetSpec="" />Je viens de lancer ma marque de
 prêt-à-porter, <delay frames="13" />ce n'est pas encore
 connu.<delay20 /> Ça s'appelle <delay frames="13" /><anim id="FaintSmile" target="actor" targetSpec="" /><colour id="1" />Maria<colour id="65535" />.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />C'est le nom que je m'étais donné
@@ -294,6 +294,34 @@ inépuisable. Ça se ressent dans les
 vêtements que je crée.</message>
 	<message label="152" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Je voyage un peu partout, ça stimule
 ma créativité.<delay20 /> Je suis dans la mode.<pageBreak />Ma première impression <gender4 m="de " f="d'⁠" /><tag a="110" b="8" />?<delay frames="13" /><anim id="FaintSmile" target="actor" targetSpec="" /> Wow, je vais apprendre beaucoup des gens d'ici.</message>
+	<message label="160" attrib="00 00 00 00"><anim id="Hello" target="actor" targetSpec="" />Tu t'es changé<gender2 m="" f="e" />, je vois.<delay20 /> <anim id="Shocked" target="actor" targetSpec="" />Oh!<delay20 /> Mais tu
+portes un motif perso, n'est-ce pas?<pageBreak /><anim id="Worried" target="actor" targetSpec="" />Je suis navrée, mais je ne peux pas
+juger d'une tenue où figure un
+motif personnalisé.
+<anim id="QuestionMark" target="actor" targetSpec="" />Ça t'ennuierait de te changer et
+de me montrer ta tenue? <delay20 /><anim id="FaintSmile" target="actor" targetSpec="" />Je t'en
+serais très reconnaissante.</message>
+	<message label="161" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Ah, tu t'es changé<gender2 m="" f="e" />. <delay20 /><anim id="Shocked" target="actor" targetSpec="" />Oh non!<delay20 /> Tu as
+intégré un motif perso à ta tenue?<pageBreak /><anim id="Worried" target="actor" targetSpec="" />Excuse-moi, mais je ne peux pas
+évaluer ton look dans ces conditions.
+<delay20 />Ce n'est pas mon département.
+<anim id="Hello" target="actor" targetSpec="" />Si tu voulais bien te changer et
+parader ta tenue devant moi,
+ça serait<tag a="110" b="0" /><anim id="HappyFlower" target="actor" targetSpec="" /> bellissima.
+<anim id="ShyBoy" target="actor" targetSpec="" />Comme on dit dans le monde
+de la haute couture<tag a="110" b="0" /></message>
+	<message label="164" attrib="02 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Tu permets que je jette un œil à
+ta tenue?</message>
+	<message label="164_a" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Bien sûr.</message>
+	<message label="164_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Pas encore.</message>
+	<message label="165" attrib="02 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Tu veux bien que je regarde
+ta tenue?</message>
+	<message label="165_a" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Bien sûr!</message>
+	<message label="165_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Je suis pas prêt<gender2 m="" f="e" />.</message>
+	<message label="166" attrib="02 00 00 00"><anim id="Hello" target="actor" targetSpec="" />J'adorerais jeter un œil à ta tenue.
+<delay20 />Enfin,<delay8 /> <anim id="QuestionMark" target="actor" targetSpec="" />à moins que ça te dérange?</message>
+	<message label="166_a" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Vas-y!</message>
+	<message label="166_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />C'est trop tôt.</message>
 	<message label="200" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />J'aimerais que tu mettes au point
 une <colour id="1" />tenue de fête<colour id="65535" />.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Tu es invité<gender2 m="" f="e" /> à une soirée de gala et
 tu veux marquer le coup<tag a="110" b="0" /> <delay frames="13" />Comment
@@ -315,15 +343,15 @@ cocooning à la maison.</message>
 ou en camping.<delay20 /> Comment tu
 t'habillerais?
 <anim id="Nodding" target="actor" targetSpec="" />Ça peut aussi être des vêtements
-décontractés, parfaits pour un
-pique-nique en forêt.</message>
+dans lesquels tu es à l'aise, parfaits
+pour un pique-nique en forêt.</message>
 	<message label="205" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />J'aimerais que tu mettes au point
 une <colour id="1" />tenue féérique<colour id="65535" />.<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Pense chevaliers, princesses,
 personnages de contes de fées<tag a="110" b="0" /></message>
 	<message label="206" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />J'aimerais que tu me montres une
-<colour id="1" />tenue effrayante<colour id="65535" />.<pageBreak /><anim id="Greeting" target="actor" targetSpec="" />Je veux du gothique, du sombre,
-ou juste quelque chose que tu
-porterais pour Halloween.</message>
+<colour id="1" />tenue effrayante<colour id="65535" />.<pageBreak /><anim id="Greeting" target="actor" targetSpec="" />Je veux quelque chose qui donne la
+frousse, ou que tu porterais
+pour l'Halloween.</message>
 	<message label="208" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Ce qui m'intéresserait, c'est de voir
 une <colour id="1" />tenue de scène<colour id="65535" />.<delay frames="13" /><pageBreak /><anim id="Explain" target="actor" targetSpec="" />Quelque chose que tu porterais si tu
 étais musicien<gender2 m="" f="ne" /> ou pop star<tag a="110" b="0" /><pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Ou alors chanteu<gender2 m="r" f="se" /> d'opéra,

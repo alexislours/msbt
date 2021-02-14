@@ -4,7 +4,7 @@ quest'isola, <tag a="110" b="6" />?</message>
 	<message label="001_a" attrib="04 00 00 00 00 00 00 00">Sì.</message>
 	<message label="001_b" attrib="05 00 00 00 00 00 00 00">No.</message>
 	<message label="002" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="23" arg="0xd 0xe 0xf 0xffff" /></message>
-	<message label="003" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x10 0x11 0xffff 0xffff" /></message>
+	<message label="003" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x1 0x10 0x11 0x12" /></message>
 	<message label="004" attrib="00 00 00 00 00 00 00 00"><anim id="Laughing" target="actor" targetSpec="" />Ah, OK!<delay frames="40" /> <anim id="Greeting" target="actor" targetSpec="" />Mangiane a volontà allora!
 Ahahah!</message>
 	<message label="005" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Per <tag a="50" b="1" /><tag a="110" b="7" arg="0xcd01" />!<delay frames="40" /><anim id="HappyDance" target="actor" targetSpec="" /> Farne una bella
@@ -31,41 +31,47 @@ sua tenda in un <colour id="1" />museo<colour id="65535" />? Un giorno
 vincerà tutte le<tag a="110" b="0" /> <delay8 />gare fra musei!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Beh, <delay8 />almeno io la penso così<tag a="110" b="0" />
 <delay8 /><anim id="Laughing" target="actor" targetSpec="" />Un po' di sana ambizione ci vuole
 sempre, <tag a="110" b="6" />!</message>
-	<message label="017" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="2" arg="0x15 0x16 0x17 0x19" /></message>
+	<message label="017" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="3" arg="0x15 0x16 0x17 0x18 0x19" /></message>
 	<message label="021" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1c00 0x1900 0xcd00" /></message>
 	<message label="022" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1d01 0x1900 0xcd00" /></message>
 	<message label="023" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1e02 0x1900 0xcd00" /></message>
+	<message label="024" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1f03 0x1900 0xcd00" /></message>
 	<message label="025" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Sei già stat<gender2 m="o" f="a" /> al <colour id="1" />museo<colour id="65535" />? <delay20 />La sala
 esposizioni è enorme e c'è un
 sacco di roba forzuta da vedere!<pageBreak /><anim id="Eh" target="actor" targetSpec="" />Io cosa vado a farci?<delay frames="40" /> <anim id="ShyBoy" target="actor" targetSpec="" />Beh, è il posto
 ideale dove riposarmi quando ho tutti
 i muscoli indolenziti<tag a="110" b="0" /></message>
-	<message label="028" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Oh, vorrei tanto essere come <tag a="50" b="1" /><tag a="135" b="13" arg="0x0" /> che c'è al <colour id="1" />museo<colour id="65535" /> dell'isola.<pageBreak /><anim id="AbsentMindedness" target="actor" targetSpec="" />È sempre <tag a="50" b="17" arg="0x28 0xcd00 0x22 0x63 0x61 0x6c 0x6d 0x6f 0x20 0x65 0x20 0x72 0x69 0x6c 0x61 0x73 0x73 0x61 0x74 0x6f 0x22 0x63 0x61 0x6c 0x6d 0x61 0x20 0x65 0x20 0x72 0x69 0x6c 0x61 0x73 0x73 0x61 0x74 0x61 0x0" />, anche sott'acqua<tag a="110" b="0" /><delay frames="40" /><anim id="Frantic" target="actor" targetSpec="" /> Devo trovare il modo
-di imparare da <tag a="50" b="17" arg="0x28 0xcd00 0x6 0x6c 0x75 0x69 0x6 0x6c 0x65 0x69 0x0" />!</message>
+	<message label="028" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Oh, vorrei tanto essere come <tag a="50" b="1" /><tag a="135" b="13" arg="0x0" /> che c'è al <colour id="1" />museo<colour id="65535" /> dell'isola.<pageBreak /><anim id="AbsentMindedness" target="actor" targetSpec="" />È sempre <tag a="50" b="17" arg="0x29 0xcd00 0x22 0x63 0x61 0x6c 0x6d 0x6f 0x20 0x65 0x20 0x72 0x69 0x6c 0x61 0x73 0x73 0x61 0x74 0x6f 0x22 0x63 0x61 0x6c 0x6d 0x61 0x20 0x65 0x20 0x72 0x69 0x6c 0x61 0x73 0x73 0x61 0x74 0x61 0x0" />, anche sott'acqua<tag a="110" b="0" /><delay frames="40" /><anim id="Frantic" target="actor" targetSpec="" /> Devo trovare il modo
+di imparare da <tag a="50" b="17" arg="0x29 0xcd00 0x6 0x6c 0x75 0x69 0x6 0x6c 0x65 0x69 0x0" />!</message>
 	<message label="029" attrib="00 00 00 00 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Hai mai visto <tag a="50" b="1" /><tag a="135" b="13" arg="0x1" /> che c'è al <colour id="1" />museo<colour id="65535" /> dell'isola?<pageBreak /><anim id="HappyDance" target="actor" targetSpec="" />Mi ha fatto venire delle buone idee
 per un nuovo allenamento. <delay20 /><anim id="Scheming" target="actor" targetSpec="" />Ancora
 non l'ho provato, ma lo farò presto!</message>
 	<message label="030" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="50" b="1" /><tag a="135" b="13" arg="0x2" /> è il mio fossile preferito tra quelli esposti al <colour id="1" />museo<colour id="65535" />.<pageBreak /><anim id="Love" target="actor" targetSpec="" />Che aspetto selvaggio <delay20 />ed elegante!<delay frames="40" />
 Non ha muscoli, ma anche così è
 una meraviglia, <tag a="110" b="5" />.</message>
-	<message label="101" attrib="66 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Vederti mi fa tornare indietro nel
+	<message label="201" attrib="ca 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Vederti mi fa tornare indietro nel
 tempo, quanti ricordi<tag a="110" b="0" /> <anim id="Grin" target="actor" targetSpec="" />Non dirmi
 che hai dimenticato le nostre sfide?!</message>
-	<message label="102" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="1" arg="0x67 0x68 0x69" /></message>
-	<message label="103" attrib="00 00 00 00 00 00 00 00"><anim id="AbsentMindedness" target="actor" targetSpec="" />Correvamo come dei matti finché
+	<message label="202" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="1" arg="0xcb 0xcc 0xcd" /></message>
+	<message label="203" attrib="00 00 00 00 00 00 00 00"><anim id="AbsentMindedness" target="actor" targetSpec="" />Correvamo come dei matti finché
 non eravamo esausti e ricoperti
 di sudore<tag a="110" b="0" />
 <anim id="Laughing" target="actor" targetSpec="" />Me lo ricordo come se fosse ieri,
 <tag a="110" b="6" />!</message>
-	<message label="104" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Mmm<tag a="110" b="0" /><delay8 /> Adesso che ci penso,<delay20 /> <anim id="Blushing" target="actor" targetSpec="" />alla fine
-non siamo mai riusciti a stabilire chi
-era il più allenato dei due, <delay8 />no?</message>
-	<message label="105" attrib="00 00 02 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Io dico di provare a risolvere
-la questione ora. <delay20 /><anim id="BigSmile" target="actor" targetSpec="" />Mettiamo a
-confronto gli addominali?</message>
-	<message label="105_a" attrib="6a 00 00 00 00 00 00 00">Oooh, ci sto!</message>
-	<message label="105_b" attrib="6b 00 00 00 00 00 00 00">Ehm... no, grazie.</message>
-	<message label="106" attrib="00 00 00 00 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />D'accordo, <delay8 />sei pront<gender2 m="o" f="a" /> a scoprire il
+	<message label="204" attrib="00 00 00 00 00 00 00 00"><anim id="Restless" target="actor" targetSpec="" />Devo essere onesto<tag a="110" b="0" /> non so se
+riuscirei a batterti.<anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak />Perché ora che rivedo le tue
+braccia<tag a="110" b="0" /> Beh, no, non sarebbe
+così facile vincere a zampa di ferro.<delay20 />
+<anim id="Greeting" target="actor" targetSpec="" />Sei <gender2 m="un" f="una" /> grande, <tag a="110" b="6" />!</message>
+	<message label="205" attrib="00 00 02 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Mmmh<tag a="110" b="0" /> Adesso che ci penso,<delay20 /> <anim id="Blushing" target="actor" targetSpec="" />alla
+fine non siamo mai riusciti a stabilire
+chi di noi due era più in forma, <delay8 />no?
+<anim id="Nodding" target="actor" targetSpec="" />Io dico di provare a risolvere la
+questione ora. <delay20 /><anim id="BigSmile" target="actor" targetSpec="" />Mettiamo a confronto
+gli addominali?</message>
+	<message label="205_a" attrib="ce 00 00 00 00 00 00 00">Oooh, ci sto!</message>
+	<message label="205_b" attrib="cf 00 00 00 00 00 00 00">Ehm... no, grazie.</message>
+	<message label="206" attrib="00 00 00 00 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />D'accordo, <delay8 />sei pront<gender2 m="o" f="a" /> a scoprire il
 pancino? <delay20 /><anim id="SmugFace" target="actor" targetSpec="" />Guarda qua e impallidisci!
 <delay20 /><anim id="TakenAback" target="actor" targetSpec="" />Eh? <delay8 />Arrossisci invece di impallidire?!<pageBreak /><anim id="Fuming" target="actor" targetSpec="" />Era un autentico guscio di tartaruga,
 <delay8 />scolpito fino all'osso! <delay20 /><anim id="Serious" target="actor" targetSpec="" />E so bene che
@@ -73,7 +79,7 @@ la pancia non ha ossa.
 <anim id="OhGeez" target="actor" targetSpec="" />Uff, <delay8 />e va bene<tag a="110" b="0" /> Vorrà dire che
 <delay8 /><anim id="Sighing" target="actor" targetSpec="" />abbiamo pareggiato anche stavolta,
 <tag a="110" b="6" />.</message>
-	<message label="107" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Per tutti i deltoidi, <delay8 />non sai divertirti!
+	<message label="207" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Per tutti i deltoidi, <delay8 />non sai divertirti!
 <delay20 /><anim id="Grin" target="actor" targetSpec="" />Beh, <delay8 />però in fondo non posso certo
 biasimarti<tag a="110" b="0" />
 <anim id="SmugFace" target="actor" targetSpec="" />Nemmeno io vorrei mettermi in

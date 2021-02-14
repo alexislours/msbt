@@ -4,7 +4,7 @@ de la isla?</message>
 	<message label="001_a" attrib="04 00 00 00 00 00 00 00">¡Pero claro!</message>
 	<message label="001_b" attrib="05 00 00 00 00 00 00 00">Aún no</message>
 	<message label="002" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="23" arg="0xd 0xe 0xf 0xffff" /></message>
-	<message label="003" attrib="09 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x10 0x11 0xffff 0xffff" /></message>
+	<message label="003" attrib="09 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x1 0x10 0x11 0x12" /></message>
 	<message label="004" attrib="00 00 00 00 00 00 00 00"><anim id="IdeaBulb" target="actor" targetSpec="" />¡No esperaba menos de ti,
 <tag a="110" b="3" />!<delay frames="40" /> <anim id="Smiling" target="actor" targetSpec="" />Je, je, je,<delay20 />
 un manjar de superhéroes, ¿no?
@@ -32,69 +32,63 @@ que está trabajando muchísimo
 para abrir un <colour id="1" />museo<colour id="65535" />.<pageBreak /><anim id="Thinking" target="actor" targetSpec="" />No sé qué va a exponer,<delay8 /> pero <anim id="Nodding" target="actor" targetSpec="" />seguro
 que necesita cosas para las salas.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Estaría superbién si donaras un par
 de cosas o tres,<delay8 /> <tag a="110" b="3" />.</message>
-	<message label="017" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="2" arg="0x15 0x16 0x17 0x19" /></message>
+	<message label="017" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="3" arg="0x15 0x16 0x17 0x18 0x19" /></message>
 	<message label="021" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1c00 0x1900 0xcd00" /></message>
 	<message label="022" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1d01 0x1900 0xcd00" /></message>
 	<message label="023" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1e02 0x1900 0xcd00" /></message>
+	<message label="024" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1f03 0x1900 0xcd00" /></message>
 	<message label="025" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Hay un <colour id="1" />museo<colour id="65535" /> hipergenial en
 <tag a="110" b="8" />.<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Deberías ir a verlo ya que estás
 en la isla.<delay20 /> Siempre está abierto,<delay8 />
 así que puedes ir cuando quieras.
 <anim id="EmotEnd" target="actor" targetSpec="" />¡La cultura no toma siestas!</message>
 	<message label="028" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />En nuestro <colour id="1" />museo<colour id="65535" /> hay <tag a="50" b="2" /><tag a="135" b="13" arg="0x0" />
-expuest<tag a="50" b="17" arg="0x28 0xcd00 0x2 0x6f 0x2 0x61 0x0" />.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Si te interesan los peces,<delay8 /> ¡tienes
+expuest<tag a="50" b="17" arg="0x29 0xcd00 0x2 0x6f 0x2 0x61 0x0" />.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Si te interesan los peces,<delay8 /> ¡tienes
 que ir a echarle un vistazo!</message>
 	<message label="029" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />El <colour id="1" />museo<colour id="65535" /> tiene <tag a="50" b="2" /><tag a="135" b="13" arg="0x1" />
 entre las maravillas que expone.
-<anim id="Nodding" target="actor" targetSpec="" />No había visto ningun<tag a="50" b="17" arg="0x28 0xcd00 0x2 0x6f 0x2 0x61 0x0" /> hasta ayer.<delay20 />
+<anim id="Nodding" target="actor" targetSpec="" />No había visto ningun<tag a="50" b="17" arg="0x29 0xcd00 0x2 0x6f 0x2 0x61 0x0" /> hasta ayer.<delay20 />
 <anim id="BigSmile" target="actor" targetSpec="" />¡Es un insecto tan genial,
 <tag a="110" b="6" />!</message>
 	<message label="030" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />El <colour id="1" />museo<colour id="65535" /> tiene un fósil de
 <tag a="135" b="13" arg="0x2" /> expuesto.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />El otro día me quedé un ratote
 mirándolo<tag a="110" b="0" /><delay20 /> <anim id="Aha" target="actor" targetSpec="" />¡Imagínate todo lo
 que habrá visto en tantos años!</message>
-	<message label="101" attrib="00 00 10 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Oye, <tag a="110" b="3" />,<delay8 /> ¿qué haces
-para divertirte en tu nueva isla?</message>
-	<message label="101_a" attrib="66 00 00 00 00 00 00 00">Pescar</message>
-	<message label="101_b" attrib="67 00 00 00 00 00 00 00">Cazar insectos</message>
-	<message label="101_c" attrib="68 00 00 00 00 00 00 00">Jugar a las escondidas</message>
-	<message label="101_d" attrib="69 00 00 00 00 00 00 00">Buscar tesoros</message>
-	<message label="101_e" attrib="6a 00 00 00 00 00 00 00">Visitar a mis amigos</message>
-	<message label="102" attrib="00 00 00 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />¡¿Pescar?!<delay frames="40" />
-<anim id="FaintSmile" target="actor" targetSpec="" />¡A mí me gusta un montón!<pageBreak /><anim id="Thinking" target="actor" targetSpec="" />¿Los peces de esta isla opinarán
-lo mismo que los de tu isla sobre eso
-de que los pesquen?
-<anim id="Nodding" target="actor" targetSpec="" />Avísame si se pesca bien
-en <tag a="110" b="9" />,<delay8 /> ¡en una
-de esas y me mudo! </message>
-	<message label="103" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />¿Atrapas insectos?<delay8 /> Eso me encanta.<delay20 />
-<anim id="Nodding" target="actor" targetSpec="" />Me gusta jugar a las atrapadas
-con mis amigos insectos<tag a="110" b="0" />
-<delay20 /><anim id="Laughing" target="actor" targetSpec="" />Aunque la mayoría tienen más de
-cuatro patas de ventaja y siempre
-pierdo<tag a="110" b="0" />
-<anim id="QuestionMark" target="actor" targetSpec="" />¿Los insectos de tu isla juegan
-bien a las atrapadas?<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />¡Porque en una de esas y me mudo
-a <tag a="110" b="9" />!</message>
-	<message label="104" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />¡¿Las escondidas?!<delay20 />
-<anim id="FaintSmile" target="actor" targetSpec="" />Eso es algo que me encanta jugar.<pageBreak /><anim id="QuestionMark" target="actor" targetSpec="" />¿En tu isla hay muchos lugares
-para esconderse?<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Una vez, jugando a las escondidas,<delay8 />
-me quedé atorado en un árbol.<pageBreak /><anim id="SmugFace" target="actor" targetSpec="" />¡Pero estaba decidido a ganar!<delay20 />
-Así que no pedí ayuda<tag a="110" b="0" /><pageBreak /><anim id="Shaking" target="actor" targetSpec="" />Sí,<delay8 /> pasé hambre y frío<tag a="110" b="0" />
-<anim id="HappyFlower" target="actor" targetSpec="" />¡pero al final gané yo!<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Si en <tag a="110" b="9" /> se puede
-jugar bien a las escondidas,<delay8 /> ¡a lo
-mejor y me mudo!</message>
-	<message label="105" attrib="00 00 00 00 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />¡¿Buscas tesoros?!<delay20 />
-<anim id="HappyDance" target="actor" targetSpec="" />¡Guau, como en las pelis!<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Debe de ser muy emocionante
-ir por ahí cavando hoyos
-y encontrar cosas increíbles.
-<anim id="Nodding" target="actor" targetSpec="" />Si se encuentran muchos tesoros
-en <tag a="110" b="9" />,<delay8 /> ¡a lo mejor
-en una de esas voy y me mudo!</message>
-	<message label="106" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Es increíble ver a los amigos.<delay20 />
-<anim id="Grin" target="actor" targetSpec="" />¡Mis amigos organizan las fiestas
-de videojuegos más épicas!
-<anim id="EmotEnd" target="actor" targetSpec="" />A veces es difícil seguirle el paso
-a <tag a="110" b="11" arg="0xcd00" /> o a <tag a="110" b="11" arg="0xcd01" /><tag a="110" b="0" /><pageBreak /><anim id="Nodding" target="actor" targetSpec="" />En fin, si en <tag a="110" b="9" />
-también les gusta pasarla bien con amigos,<delay8 /> ¡me gustarííía mudarme!</message>
+	<message label="201" attrib="00 00 10 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Oye, <tag a="110" b="3" />,<delay8 /> ¿qué es lo que haces últimamente en <tag a="110" b="9" /> para divertirte?</message>
+	<message label="201_a" attrib="ca 00 00 00 00 00 00 00">Pescar</message>
+	<message label="201_b" attrib="cb 00 00 00 00 00 00 00">Cazar insectos</message>
+	<message label="201_c" attrib="cc 00 00 00 00 00 00 00">Jugar a las escondidas</message>
+	<message label="201_d" attrib="cd 00 00 00 00 00 00 00">Buscar tesoros</message>
+	<message label="201_e" attrib="ce 00 00 00 00 00 00 00">Visitar a mis amigos</message>
+	<message label="202" attrib="00 00 00 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />¡Sí, la pesca!<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />A mí también me encanta.<pageBreak /><anim id="Thinking" target="actor" targetSpec="" />¿Los peces de esta isla opinarán
+lo mismo que los de la tuya
+sobre eso de que los pesquen?
+<anim id="Nodding" target="actor" targetSpec="" />Yo creo que a lo mejor están más
+receptivos a la idea, ¿sabes?</message>
+	<message label="203" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />¿Cazas insectos?<delay8 /> Eso es galáctico.<delay20 />
+<delay8 /><anim id="Nodding" target="actor" targetSpec="" />Yo suelo jugar a correr carreras con
+mis amigos insectos<tag a="110" b="0" />
+<delay20 /><anim id="Laughing" target="actor" targetSpec="" />Aunque todos corren rapidísimo,
+así que siempre pierdo<tag a="110" b="0" /><pageBreak /><anim id="QuestionMark" target="actor" targetSpec="" />¿Los insectos de tu isla corren
+carreras?<delay20 /><anim id="Nodding" target="actor" targetSpec="" /> Si no, ¡tienes que
+enseñarles, <tag a="110" b="6" />!</message>
+	<message label="204" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />A las escondidas,<delay8 /> sí, <gender2 m="señor" f="señora" />.<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />Eso suena muy divertido.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Una vez,<delay8 /> cuando todavía vivía en <tag a="110" b="9" />,<delay8 /> me escondí en un árbol y <anim id="Oops" target="actor" targetSpec="" />me quedé atascado.<pageBreak />Pero, como no quería perder,<delay8 />
+<anim id="Pardon" target="actor" targetSpec="" />decidí no pedir ayuda.<pageBreak /><anim id="Shaking" target="actor" targetSpec="" />No te imaginas el hambre y el frío
+que tuve, <tag a="110" b="6" /><tag a="110" b="0" /><delay8 /> <anim id="HappyFlower" target="actor" targetSpec="" />¡pero al final gané yo!</message>
+	<message label="205" attrib="00 00 00 00 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />¡¿Vas a buscar tesoros?!<delay20 />
+<anim id="HappyDance" target="actor" targetSpec="" />¡Ah, como si fuera una peli
+de la Tintorera Aventurera!<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Debe ser una sensación genial
+ir por ahí cavando hoyos con la
+emoción de encontrar algo genial.
+<anim id="BigSmile" target="actor" targetSpec="" />¡Sería como convertirse en el
+compañero de aventuras de mi
+"escuala" cinematográfica favorita!</message>
+	<message label="206" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Me gusta mucho ver a mis amigos.<delay20 />
+<anim id="Grin" target="actor" targetSpec="" />¡Nosotros también pasamos un
+montón de tiempo juntos por aquí!
+<anim id="Nodding" target="actor" targetSpec="" />Anímate a hablar con más gente de
+la isla. <delay20 /><anim id="Greeting" target="actor" targetSpec="" />¡Ya verás que todos son
+igual de simpáticos que yo!</message>
 </msbt>

@@ -1,13 +1,13 @@
 <msbt attribsize="8">
 	<message label="001" attrib="00 00 02 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Oh, che sorpresa agréable!<delay8 />
 <tag a="50" b="3" /><tag a="50" b="2" /><tag a="125" b="0" arg="0x0" />!<pageBreak /><anim id="HappyDance" target="actor" targetSpec="" />Ed è proprio il mio stile! <delay8 />Dici che
-dovrei <tag a="50" b="17" arg="0x11 0xcd00 0x14 0x70 0x72 0x6f 0x76 0x61 0x72 0x6d 0x65 0x6c 0x6f 0x14 0x70 0x72 0x6f 0x76 0x61 0x72 0x6d 0x65 0x6c 0x61 0x0" />?</message>
+dovrei <tag a="50" b="17" arg="0x12 0xcd00 0x14 0x70 0x72 0x6f 0x76 0x61 0x72 0x6d 0x65 0x6c 0x6f 0x14 0x70 0x72 0x6f 0x76 0x61 0x72 0x6d 0x65 0x6c 0x61 0x0" />?</message>
 	<message label="001_a" attrib="00 00 00 00 00 00 00 00">Certo!</message>
 	<message label="001_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Ora meglio di no...</message>
 	<message label="002" attrib="00 00 02 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="50" b="2" /><tag a="125" b="0" arg="0x0" />!<delay20 /> <anim id="Thinking" target="actor" targetSpec="" />Non è male, ma non è qualcosa che indosserei normalmente.<pageBreak /><anim id="QuestionMark" target="actor" targetSpec="" />Dici che mi starebbe bene?</message>
 	<message label="002_a" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Fai una prova!</message>
-	<message label="002_b" attrib="00 00 00 00 00 00 00 00">Non saprei proprio...</message>
-	<message label="003" attrib="00 00 00 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="50" b="2" /><tag a="125" b="0" arg="0x0" />!<delay frames="40" /> <anim id="FaintSmile" target="actor" targetSpec="" />Proprio come <tag a="50" b="17" arg="0x11 0xcd00 0xc 0x71 0x75 0x65 0x6c 0x6c 0x6f 0xc 0x71 0x75 0x65 0x6c 0x6c 0x61 0x0" /> che indosso ora, <tag a="110" b="6" />!<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" /><anim id="Smiling" target="actor" targetSpec="" />Adesso che ne ho <tag a="50" b="17" arg="0x11 0xcd00 0x6 0x75 0x6e 0x6f 0x6 0x75 0x6e 0x61 0x0" /> in più, <delay8 />posso alternarl<tag a="50" b="17" arg="0x11 0xcd00 0x2 0x69 0x2 0x65 0x0" />!<delay20 /> Merci, merci, merci!</message>
+	<message label="002_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="player" targetSpec="" />Non saprei proprio...</message>
+	<message label="003" attrib="00 00 00 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="50" b="2" /><tag a="125" b="0" arg="0x0" />!<delay frames="40" /> <anim id="FaintSmile" target="actor" targetSpec="" />Proprio come <tag a="50" b="17" arg="0x12 0xcd00 0xc 0x71 0x75 0x65 0x6c 0x6c 0x6f 0xc 0x71 0x75 0x65 0x6c 0x6c 0x61 0x0" /> che indosso ora, <tag a="110" b="6" />!<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" /><anim id="Smiling" target="actor" targetSpec="" />Adesso che ne ho <tag a="50" b="17" arg="0x12 0xcd00 0x6 0x75 0x6e 0x6f 0x6 0x75 0x6e 0x61 0x0" /> in più, <delay8 />posso alternarl<tag a="50" b="17" arg="0x12 0xcd00 0x2 0x69 0x2 0x65 0x0" />!<delay20 /> Merci, merci, merci!</message>
 	<message label="004" attrib="00 00 00 00 00 00 00 00"><anim id="ShyBoy" target="actor" targetSpec="" />Potresti girarti dall'altra parte
 mentre mi cambio, per favore?</message>
 	<message label="005" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Hai ragione, <delay8 />potrebbe servirmi per
@@ -17,7 +17,7 @@ dall'altra parte mentre mi cambio?</message>
 	<message label="007" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Ho capito<tag a="110" b="0" /> <delay20 /><anim id="FaintSmile" target="actor" targetSpec="" />Allora metterò da parte
 questa cosa per più avanti.</message>
 	<message label="100" attrib="00 00 02 00 00 00 00 00"><anim id="Hesitate" target="actor" targetSpec="" />Allora<tag a="110" b="0" /> che ne dici?</message>
-	<message label="100_a" attrib="00 00 00 00 00 00 00 00">Ti sta molto bene!</message>
+	<message label="100_a" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="player" targetSpec="" />Ti sta molto bene!</message>
 	<message label="100_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Non mi convince...</message>
 	<message label="101" attrib="00 00 00 00 00 00 00 00"><anim id="HappyFlower" target="actor" targetSpec="" />Lo pensi davvero? <delay20 />Quel plaisir!</message>
 	<message label="102" attrib="00 00 02 00 00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Perdindirindina<tag a="110" b="0" /> <delay8 />Allora mi rimetto

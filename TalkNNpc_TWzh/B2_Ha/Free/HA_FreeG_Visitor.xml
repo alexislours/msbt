@@ -4,7 +4,7 @@
 	<message label="001_a" attrib="04 00 00 00 00 00 00 00">我知道啊</message>
 	<message label="001_b" attrib="05 00 00 00 00 00 00 00">不知道耶</message>
 	<message label="002" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="23" arg="0xd 0xe 0xf 0xffff" /></message>
-	<message label="003" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x10 0x11 0xffff 0xffff" /></message>
+	<message label="003" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x1 0x10 0x11 0x12" /></message>
 	<message label="004" attrib="00 00 00 00 00 00 00 00"><anim id="Laughing" target="actor" targetSpec="" />啊，<delay8 />你知道就好！<delay frames="40" />
 <anim id="Greeting" target="actor" targetSpec="" />我們島上的特產<tag a="110" b="7" arg="0xcd00" />，<delay20 />
 你一定要<delay8 />多吃一點喔──！<tag a="110" b="6" />。</message>
@@ -25,10 +25,11 @@
 	<message label="016" attrib="00 00 00 00 00 00 00 00"><colour id="3" />傅達<colour id="65535" />的帳篷不是在這座島上嗎？<delay frames="40" />
 <anim id="Grin" target="actor" targetSpec="" />我聽說<delay8 />那裡之後會變成超氣派的<colour id="1" />博物館<colour id="65535" />喔！<pageBreak /><anim id="Laughing" target="actor" targetSpec="" />不過<delay8 />目前還在興建中，<delay20 />
 就先期待之後的發展吧！<tag a="110" b="6" />。</message>
-	<message label="017" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="2" arg="0x15 0x16 0x17 0x19" /></message>
+	<message label="017" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="3" arg="0x15 0x16 0x17 0x18 0x19" /></message>
 	<message label="021" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1c00 0x1900 0xcd00" /></message>
 	<message label="022" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1d01 0x1900 0xcd00" /></message>
 	<message label="023" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1e02 0x1900 0xcd00" /></message>
+	<message label="024" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1f03 0x1900 0xcd00" /></message>
 	<message label="025" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />你已經去過這座島上的<colour id="1" />博物館<colour id="65535" />了嗎？<delay frames="40" />
 <anim id="EmotEnd" target="actor" targetSpec="" />裡面的展覽室很大，可以悠悠哉哉地看，<delay8 />
 所以我很推薦你去喔！<pageBreak /><anim id="Eh" target="actor" targetSpec="" />咦？<delay8 />你問我很常去嗎？<delay frames="30" />
@@ -49,29 +50,28 @@
 <tag a="135" b="13" arg="0x2" />──！<pageBreak /><anim id="Love" target="actor" targetSpec="" />那經過大自然打磨的<delay8 />美麗外觀！<delay frames="40" />
 <anim id="Frantic" target="actor" targetSpec="" />明明沒有肌肉，<delay8 />竟然還能這麼帥氣，<delay8 />
 讓我好羨慕啊──！<tag a="110" b="6" />。</message>
-	<message label="101" attrib="66 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />總覺得只要看到你，<delay8 />
-就會讓我想起<delay20 />以前的往事啊……<pageBreak /><anim id="Grin" target="actor" targetSpec="" />你應該沒有忘記<delay20 />
-我們之間說好要一較高下吧！？</message>
-	<message label="102" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="1" arg="0x67 0x68 0x69" /></message>
-	<message label="103" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />自從跟你分別以後，<delay20 />
-我就為了這一天的對決<delay8 />
-持續進行特殊健身訓練！<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />怎麼樣啊？<delay20 />
-我的肌肉在這段時間內成長了不少吧？<delay frames="40" />
-<anim id="EmotEnd" target="actor" targetSpec="" />看我飽滿的肱二頭肌，很厲害吧？<tag a="110" b="6" />。</message>
-	<message label="104" attrib="00 00 00 00 00 00 00 00"><anim id="Serious" target="actor" targetSpec="" /><tag a="110" b="0" />呃，<delay8 />
-你怎麼感覺一臉困惑啊？<pageBreak /><anim id="Shocked" target="actor" targetSpec="" />啊！<delay frames="30" />
-<anim id="Blushing" target="actor" targetSpec="" />仔細想想，<delay8 />我們兩個好像從來沒有
-來過一場認真的對決耶？<tag a="110" b="6" />。</message>
-	<message label="105" attrib="00 00 02 00 00 00 00 00">就是這樣啦，<delay20 />來和我一較高下吧？<delay frames="30" />
-<anim id="Thinking" target="actor" targetSpec="" />至於比賽的規則<tag a="110" b="0" /><delay frames="40" />
-<anim id="BigSmile" target="actor" targetSpec="" />我們就來比<delay8 />六塊肌的數量吧！？<anim id="FaintSmile" target="actor" targetSpec="" /><tag a="110" b="5" />。</message>
-	<message label="105_a" attrib="6a 00 00 00 00 00 00 00">我接受你的挑戰！</message>
-	<message label="105_b" attrib="6b 00 00 00 00 00 00 00">還是算了</message>
-	<message label="106" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />那麼，<delay20 />我就先說囉！<delay frames="40" />
-我的六塊肌<tag a="110" b="0" /><delay frames="40" />
-<anim id="HappyDance" target="actor" targetSpec="" />說出來嚇死人！<delay20 />居然有整整12塊！<pageBreak /><anim id="Shocked" target="actor" targetSpec="" />咦？<delay20 />你問真的假的？<delay frames="30" />
-<anim id="Frantic" target="actor" targetSpec="" />我數過了，<delay20 />大概就那麼多啦──！<delay frames="30" />
-我是說真的喔──！<tag a="110" b="6" />。</message>
-	<message label="107" attrib="00 00 00 00 00 00 00 00"><anim id="Grin" target="actor" targetSpec="" />看來<delay20 />你是被我在這段時間<delay8 />
-練出來的肌肉給嚇怕了吧？<tag a="110" b="6" />。</message>
+	<message label="201" attrib="ca 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />我一看到你的臉，<delay20 />
+就會想起<delay8 />以前的事情。<pageBreak /><anim id="Grin" target="actor" targetSpec="" />你應該沒有忘記<delay20 />
+要跟我一決勝負吧？</message>
+	<message label="202" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="1" arg="0xcb 0xcc 0xcd" /></message>
+	<message label="203" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />跟你分開之後，<delay20 />
+我仍然一直按照特別計畫來鍛鍊身體，<delay8 />
+希望有一天能跟你一較高下！<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />怎麼樣——？！<delay20 />你很久沒看到
+我的肌肉了吧？<delay frames="40" />
+<anim id="EmotEnd" target="actor" targetSpec="" />我這強健的三頭肌，很厲害吧？<tag a="110" b="6" />。</message>
+	<message label="204" attrib="00 00 00 00 00 00 00 00"><anim id="Angry" target="actor" targetSpec="" />好的！<delay8 />這裡將成為你的葬身之地了！<delay40 />
+<anim id="Laughing" target="actor" targetSpec="" />我們今天就來決一死戰吧——！<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" /><tag a="110" b="0" />呃，<delay8 />可是我們<delay20 />
+<anim id="ShyBoy" target="actor" targetSpec="" />要用什麼來比賽啊？<tag a="110" b="6" />。</message>
+	<message label="205" attrib="00 00 02 00 00 00 00 00">那麼，<delay20 />你要跟我一決勝負嗎？<delay frames="30" />
+<anim id="Thinking" target="actor" targetSpec="" />我們就來比<tag a="110" b="0" /><delay frames="40" />
+<anim id="BigSmile" target="actor" targetSpec="" />腹肌的數量，<delay8 />怎麼樣？！<anim id="FaintSmile" target="actor" targetSpec="" /><tag a="110" b="5" />。</message>
+	<message label="205_a" attrib="ce 00 00 00 00 00 00 00">放馬過來！</message>
+	<message label="205_b" attrib="cf 00 00 00 00 00 00 00">不了</message>
+	<message label="206" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />那麼，<delay20 />我先說！<delay frames="40" />
+我的腹肌<tag a="110" b="0" /><delay frames="40" /><anim id="HappyFlower" target="actor" targetSpec="" />你可別嚇到！<delay20 />
+竟然有10塊啊——！<pageBreak /><anim id="TakenAback" target="actor" targetSpec="" />咦？！<delay20 />你叫我給你看？<delay frames="30" />
+<anim id="Frantic" target="actor" targetSpec="" />我、<delay8 />我今天肚子不太舒服，<delay20 />
+改天再說吧——！<tag a="110" b="6" />。</message>
+	<message label="207" attrib="00 00 00 00 00 00 00 00"><anim id="Grin" target="actor" targetSpec="" />喔，<delay8 />你肯定是偷懶沒有鍛鍊吧？<delay40 />
+<anim id="Smiling" target="actor" targetSpec="" />嘿嘿，<delay8 />我都知道喔——！<tag a="110" b="6" />。</message>
 </msbt>

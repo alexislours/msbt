@@ -4,6 +4,19 @@ mon ego tout à fait normalement
 proportionné!<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Je ne vois qu'une solution!<delay20 /> Allons à
 grands pas en parler au <colour id="1" />bureau des
 résidents<colour id="65535" />!<delay20 /> Let's go!</message>
+	<message label="003" attrib="00 00 00 00 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Tu<tag a="110" b="0" /> Tu n'as pas changé d'avis?<delay20 />
+<anim id="Hesitate" target="actor" targetSpec="" />Malgré mon refus, tu persistes à
+m'inviter, <tag a="110" b="6" />?
+<anim id="Blushing" target="actor" targetSpec="" />À moins que ça te soit sorti de la
+tête. Si c'est le cas, aucune raison
+de remuer le passé. <delay20 />Pas vrai?
+<anim id="Smiling" target="actor" targetSpec="" />Tu sais quoi? Je marche!
+Que dis-je? Je cours, je vole
+et j'emménage!<pageBreak /><anim id="WrySmile" target="actor" targetSpec="" />Changer de décor ne me fera pas
+de mal, et ma présence ne pourra
+que faire grandir le prestige de l'île.
+<anim id="EmotEnd" target="actor" targetSpec="" />Je fonce au <colour id="1" />bureau des résidents<colour id="65535" />,
+souhaite-moi bonne chance!</message>
 	<message label="101" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
 	<message label="101_01" attrib="00 00 00 00 00 00 00 00"><anim id="Frantic" target="actor" targetSpec="" />Me voilà en proie à une grande
 tourmente, <tag a="110" b="6" />.<pageBreak /><anim id="Thinking" target="actor" targetSpec="" />Chez moi, y'a tous mes amis,
@@ -23,8 +36,7 @@ de chef-d'œuvre sur la planche,
 <tag a="110" b="6" />.
 <anim id="Negative" target="actor" targetSpec="" />C'est le genre de prodige qu'on
 n'accomplit qu'une fois dans sa
-vie, vois-tu.<pageBreak /><delay frames="40" /><anim id="BigSmile" target="actor" targetSpec="" />Mais si <tag a="110" b="8" /> connaît
-une pénurie artistique, je peux évidemment revenir!</message>
+vie, vois-tu.<pageBreak /><delay frames="40" /><anim id="BigSmile" target="actor" targetSpec="" />Mais si <tag a="110" b="8" /> connaît une pénurie artistique, je peux évidemment revenir!</message>
 	<message label="101_03" attrib="00 00 00 00 00 00 00 00"><anim id="Restless" target="actor" targetSpec="" />C'est fort alléchant, <tag a="110" b="6" />.<delay20 />
 Voire irrésistible<tag a="110" b="0" /> <delay20 /><anim id="Negative" target="actor" targetSpec="" />Mais de chez
 moi, la vue est imprenable.
@@ -41,14 +53,13 @@ qui déterminera le cours de
 mon existence?</message>
 	<message label="201_01_a" attrib="00 00 00 00 00 00 00 00">Carrément!</message>
 	<message label="201_01_b" attrib="00 00 00 00 00 00 00 00">Je ne sais pas trop...</message>
-	<message label="201_02" attrib="00 00 01 00 00 00 00 00"><anim id="OhGeez" target="actor" targetSpec="" />Ta proposition est tellement
-alléchante que j'arrive pas
-à me décider<tag a="110" b="0" /><pageBreak /><anim id="IdeaBulb" target="actor" targetSpec="" />On a qu'à laisser Madame Fortune
-s'en charger grâce à une partie
-de cartes!
-<anim id="Grin" target="actor" targetSpec="" />Si tu gagnes, je reviens avec boîtes,
-meubles, camions et jet privé.<pageBreak />Si je gagne, je repars avec mes
-souvenirs impérissables.<pageBreak /><anim id="QuestionMark" target="actor" targetSpec="" />Ça te va?</message>
+	<message label="201_02" attrib="00 00 01 00 00 00 00 00"><anim id="OhGeez" target="actor" targetSpec="" />Ta proposition est si alléchante
+que je n'arrive pas à me décider<tag a="110" b="0" /><pageBreak /><anim id="IdeaBulb" target="actor" targetSpec="" />Laissons donc Madame Fortune
+s'en charger par une partie de
+cartes!
+<anim id="Grin" target="actor" targetSpec="" />Si tu gagnes, je reviens avec
+sachets, cartons, camions, jet privé.<pageBreak />Si je gagne, je repars avec mes
+souvenirs impérissables.<pageBreak /><anim id="QuestionMark" target="actor" targetSpec="" />Cela te convient-il?</message>
 	<message label="201_02_a" attrib="00 00 00 00 00 00 00 00">Oui!</message>
 	<message label="201_02_b" attrib="00 00 00 00 00 00 00 00">Pas vraiment, non.</message>
 	<message label="201_03" attrib="00 00 01 00 00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />Hmm<tag a="110" b="0" /> J'ai justement besoin de
@@ -104,22 +115,26 @@ la mettre en colère.
 invité.<delay20 /><anim id="AbsentMindedness" target="actor" targetSpec="" /> Je me suis amusé comme
 un malade!</message>
 	<message label="206" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
-	<message label="206_01" attrib="00 00 00 00 00 00 00 00"><anim id="OhGeez" target="actor" targetSpec="" />Eh ben voilà, c'est réglé,<10_4 /><anim id="BigSmile" target="actor" targetSpec="" />
+	<message label="206_01" attrib="00 00 00 00 00 00 00 00"><anim id="OhGeez" target="actor" targetSpec="" />Eh bien voilà, c'est réglé,<10_4 /><anim id="BigSmile" target="actor" targetSpec="" />
 j'emménage à <tag a="110" b="9" />!<pageBreak /><anim id="Grin" target="actor" targetSpec="" />Laisser un jeu de cartes décider
-quelque chose d'aussi important,
-c'était un choix artistique.
+quelque chose d'aussi important
+était un choix artistique.
 <anim id="Shocked" target="actor" targetSpec="" />Mais j'y pense, tu sais comment
-je m'appelle, au moins?<pageBreak /><anim id="SmugFace" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="110" b="10" />, ça devrait te parler. Enfin<tag a="110" b="0" /> <delay frames="40" />t'as p'têt' aperçu mon nom sur des affiches d'expos.<pageBreak /><tag a="110" b="0" /> Et toi, c'est <tag a="110" b="3" />, c'est bien ça?<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />J'ai hâte de donner libre cours à
-ma créativité sur cette île, <tag a="110" b="6" />!</message>
+je m'appelle, au moins?<pageBreak /><anim id="SmugFace" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="110" b="10" />, ça devrait te parler. Enfin<tag a="110" b="0" /> <delay frames="40" />tu as peut-être aperçu mon nom sur des affiches d'expos.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />J'ai hâte de donner libre cours à
+ma créativité sur cette île, <tag a="110" b="6" />!
+<tag a="110" b="0" /> <anim id="Oops" target="actor" targetSpec="" />Oh! J'ai failli oublier le plus
+important! Je dois obtenir l'accord du <colour id="1" />bureau des résidents<colour id="65535" />!</message>
 	<message label="206_02" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Félicitations, t'as gagné! <delay frames="40" /><anim id="WrySmile" target="actor" targetSpec="" />Cette victoire qui me permet d'emménager
-ici est par extension la mienne!<pageBreak /><anim id="AbsentMindedness" target="actor" targetSpec="" />Attends-toi à voir le nom <gender4 m="de " f="d'" />⁠<tag a="110" b="10" /> sur le devant de la scène artistique locale!<pageBreak /><anim id="Grin" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="110" b="3" /> sera la première personne que je remercierai dans mon discours. <delay20 />C'est bien toi, non?</message>
+ici est par extension la mienne!<pageBreak /><anim id="AbsentMindedness" target="actor" targetSpec="" />Attends-toi à voir le nom <gender4 m="de " f="d'" />⁠<tag a="110" b="10" /> sur le devant de la scène artistique locale!<pageBreak /><anim id="Thinking" target="actor" targetSpec="" />Enfin, dès que j'aurai expliqué au <colour id="1" />bureau des résidents<colour id="65535" /> à quel point je suis indispensable, <tag a="110" b="6" />!</message>
 	<message label="206_03" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Eh ben, la chance te sourit à pleines
-dents!<delay frames="40" /><anim id="Hesitate" target="actor" targetSpec="" /> J'ai plus qu'à aller faire mes
-boîtes.
+dents!<delay frames="40" /><anim id="Hesitate" target="actor" targetSpec="" /> J'ai plus qu'à aller préparer
+mes affaires pour le déménagement.
 <anim id="Serious" target="actor" targetSpec="" />Aussi arbitraire qu'elle puisse être,
 je compte bien respecter cette
-décision.<pageBreak /><anim id="ShyBoy" target="actor" targetSpec="" />Ah, un détail pourtant important<tag a="110" b="0" /><delay20 /><anim id="EmotEnd" target="actor" targetSpec="" />
-j'm'appelle <tag a="110" b="10" />!<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Tu verras, <tag a="110" b="3" />. De grandes choses nous attendent, tous les deux.<delay20 /><anim id="Laughing" target="actor" targetSpec="" /> Ha HA!</message>
+décision.<pageBreak /><anim id="ShyBoy" target="actor" targetSpec="" />Alors regarde-moi bien et n'oublie
+pas<tag a="110" b="0" /><delay20 /><anim id="EmotEnd" target="actor" targetSpec="" /> j'm'appelle <tag a="110" b="10" />!<pageBreak /><anim id="SmugFace" target="actor" targetSpec="" />Bon, si tu veux bien m'excuser, je
+dois aller <anim id="Frantic" target="actor" targetSpec="" />implorer le <colour id="1" />bureau des
+résidents<colour id="65535" /> de me laisser vivre ici.</message>
 	<message label="302" attrib="00 00 01 00 00 00 00 00"><anim id="OhGeez" target="actor" targetSpec="" />J'ai une mauvaise nouvelle.
 J'ai parlé au <colour id="1" />bureau des résidents<colour id="65535" />
 et le marché immobilier est saturé.<pageBreak /><anim id="Shocked" target="actor" targetSpec="" />Y'a plus aucun terrain disponible
@@ -167,25 +182,17 @@ entendre!<delay frames="40" /><anim id="QuestionMark" target="actor" targetSpec=
 demander de faire ses bagages?</message>
 	<message label="312" attrib="00 00 00 00 00 00 00 00"><anim id="Assent" target="actor" targetSpec="" />Très bien.<delay20 /> Mieux vaut rien faire
 que de le regretter, <tag a="110" b="6" />.</message>
-	<message label="402" attrib="00 00 00 00 00 00 00 00"><anim id="SadSpiral" target="actor" targetSpec="" />Bon, j'ai eu le <colour id="1" />bureau des résidents<colour id="65535" />,
-et les nouvelles sont loin d'être
-bonnes<tag a="110" b="0" /><pageBreak /><anim id="Shocked" target="actor" targetSpec="" />Mon cousin habite déjà ici!
-<anim id="Outraged" target="actor" targetSpec="" />On a jamais pu se supporter,
-tous les deux!
-Alors je regrette, mais c'est non.<pageBreak /><anim id="Sighing" target="actor" targetSpec="" />Enfin, comme dit mon agent<tag a="110" b="0" />
-<anim id="Aha" target="actor" targetSpec="" /><delay frames="40" />« ⁠<tag a="110" b="10" />, tu es mon dieu incarné! »<delay frames="40" /><anim id="Oops" target="actor" targetSpec="" /> Ah, non, c'est pas ça.<pageBreak /><anim id="Serious" target="actor" targetSpec="" />« ⁠Pense à ma commission, <tag a="110" b="10" /><tag a="110" b="0" /> »<delay frames="40" /> <anim id="Oops" target="actor" targetSpec="" />Non, toujours pas<tag a="110" b="0" /><pageBreak /><anim id="Negative" target="actor" targetSpec="" />Allez, dernier essai! « ⁠Désolé, mais
-ce rôle t'est refusé! » En fait, il dit
-jamais ça, mais on se comprend.<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Merci quand même pour l'invitation!</message>
-	<message label="403" attrib="00 00 00 00 00 00 00 00"><anim id="SadSpiral" target="actor" targetSpec="" />Bon, j'ai eu le <colour id="1" />bureau des résidents<colour id="65535" />,
-et les nouvelles sont loin d'être
-bonnes<tag a="110" b="0" />
-<anim id="Shocked" target="actor" targetSpec="" />Mon cousin vient tout juste
-d'emménager ici! <anim id="Outraged" target="actor" targetSpec="" />On a jamais
-pu se supporter, lui et moi.
-Alors je regrette, mais c'est non.<pageBreak /><anim id="Sighing" target="actor" targetSpec="" />Enfin, comme dit mon agent<tag a="110" b="0" />
-<anim id="Aha" target="actor" targetSpec="" /><delay frames="40" />« ⁠<tag a="110" b="10" />, tu es mon dieu incarné! »<delay frames="40" /><anim id="Oops" target="actor" targetSpec="" /> Ah, non, c'est pas ça.<pageBreak /><anim id="Serious" target="actor" targetSpec="" />« ⁠Pense à ma commission, <tag a="110" b="10" /><tag a="110" b="0" /> »<delay frames="40" /> <anim id="Oops" target="actor" targetSpec="" />Non, toujours pas<tag a="110" b="0" /><pageBreak /><anim id="Negative" target="actor" targetSpec="" />Allez, dernier essai! « ⁠Désolé, mais
-ce rôle t'est refusé! » En fait, il dit
-jamais ça, mais on se comprend.<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Merci quand même pour l'invitation!</message>
+	<message label="313" attrib="00 00 01 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Formidable! <delay20 /><anim id="Hesitate" target="actor" targetSpec="" />Je peux en toucher un 
+mot à <tag a="115" b="1" arg="0xcd00" />, qu'en dis-tu?<pageBreak /><anim id="Scheming" target="actor" targetSpec="" />D'après mes informateurs du <colour id="1" />bureau
+des résidents<colour id="65535" />, <tag a="50" b="17" arg="0xf 0xcd00 0x4 0x69 0x6c 0x8 0x65 0x6c 0x6c 0x65 0x0" /> serait susceptible
+de se mettre de mon côté.</message>
+	<message label="313_a" attrib="00 00 00 00 00 00 00 00">Vas-y!</message>
+	<message label="313_b" attrib="00 00 00 00 00 00 00 00">Non, laisse faire.</message>
+	<message label="314" attrib="00 00 00 00 00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Oh, tu n'es pas convaincu<gender2 m="" f="e" />?<delay20 /><anim id="FaintSmile" target="actor" targetSpec="" /> Eh bien,
+on devrait peut-être attendre alors.<delay20 />
+Laissons ce projet reposer un peu.
+<anim id="Smiling" target="actor" targetSpec="" />Je ne veux pas que tu t'y engages
+sans conviction, <tag a="110" b="3" />. <tag a="110" b="5" />.</message>
 	<message label="404" attrib="00 00 00 00 00 00 00 00"><anim id="SadSpiral" target="actor" targetSpec="" />Bon, j'ai eu le <colour id="1" />bureau des résidents<colour id="65535" />,
 et les nouvelles sont loin d'être
 bonnes<tag a="110" b="0" />
@@ -193,17 +200,7 @@ bonnes<tag a="110" b="0" />
 de place pour accueillir qui que ce
 soit, même les célébrités!
 <anim id="Sighing" target="actor" targetSpec="" />Enfin, comme dit mon agent<tag a="110" b="0" />
-<anim id="Aha" target="actor" targetSpec="" /><delay frames="40" />« ⁠<tag a="110" b="10" />, tu es mon dieu incarné! »<delay frames="40" /><anim id="Oops" target="actor" targetSpec="" /> Ah, non, c'est pas ça.<pageBreak /><anim id="Serious" target="actor" targetSpec="" />« ⁠Pense à ma commission, <tag a="110" b="10" /><tag a="110" b="0" /> »<delay frames="40" /> <anim id="Oops" target="actor" targetSpec="" />Non, toujours pas<tag a="110" b="0" /><pageBreak /><anim id="Negative" target="actor" targetSpec="" />Allez, dernier essai! « ⁠Désolé, mais
-ce rôle t'est refusé! » En fait, il dit
-jamais ça, mais on se comprend.<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Merci quand même pour l'invitation!</message>
-	<message label="405" attrib="00 00 00 00 00 00 00 00"><anim id="SadSpiral" target="actor" targetSpec="" />Bon, j'ai eu le <colour id="1" />bureau des résidents<colour id="65535" />,
-et les nouvelles sont loin d'être
-bonnes<tag a="110" b="0" />
-<anim id="Shocked" target="actor" targetSpec="" />L'île est pleine à craquer!<delay20 /> Y'a même
-plus la place de construire le
-moindre manoir!
-<anim id="Sighing" target="actor" targetSpec="" />Enfin, comme dit mon agent<tag a="110" b="0" />
-<anim id="Aha" target="actor" targetSpec="" /><delay frames="40" />« ⁠<tag a="110" b="10" />, tu es mon dieu incarné! »<delay frames="40" /><anim id="Oops" target="actor" targetSpec="" /> Ah, non, c'est pas ça.<pageBreak /><anim id="Serious" target="actor" targetSpec="" />« ⁠Pense à ma commission, <tag a="110" b="10" /><tag a="110" b="0" /> »<delay frames="40" /> <anim id="Oops" target="actor" targetSpec="" />Non, toujours pas<tag a="110" b="0" /><pageBreak /><anim id="Negative" target="actor" targetSpec="" />Allez, dernier essai! « ⁠Désolé, mais
+<anim id="Aha" target="actor" targetSpec="" /><delay frames="40" />« ⁠<tag a="110" b="10" />, tu es mon dieu incarné! ⁠»<delay frames="40" /><anim id="Oops" target="actor" targetSpec="" /> Ah, non, c'est pas ça.<pageBreak /><anim id="Serious" target="actor" targetSpec="" />« ⁠Pense à ma commission, <tag a="110" b="10" /><tag a="110" b="0" /> ⁠»<delay frames="40" /> <anim id="Oops" target="actor" targetSpec="" />Non, toujours pas<tag a="110" b="0" /><pageBreak /><anim id="Negative" target="actor" targetSpec="" />Allez, dernier essai! « ⁠Désolé, mais
 ce rôle t'est refusé! » En fait, il dit
 jamais ça, mais on se comprend.<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Merci quand même pour l'invitation!</message>
 	<message label="406" attrib="00 00 00 00 00 00 00 00"><anim id="Grin" target="actor" targetSpec="" />Tu sais quoi?<delay20 /> T'as en face de toi
@@ -218,25 +215,10 @@ la bonne, <tag a="110" b="6" />!</message>
 	<message label="411" attrib="00 00 00 00 00 00 00 00"><anim id="ShyBoy" target="actor" targetSpec="" />Je te comprends<tag a="110" b="0" /><delay20 /> Le doute est
 propre à l'humain, après tout,
 <tag a="110" b="6" />.</message>
-	<message label="421" attrib="00 00 00 00 00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />Que mon cousin soit venu habiter
-ici, ça m'étonne pas trop.<pageBreak /><anim id="Serious" target="actor" targetSpec="" />On aime les mêmes trucs,
-que ce soit <tag a="50" b="1" /><tag a="135" b="3" arg="0xcd00" /> ou <tag a="50" b="1" /><tag a="135" b="7" arg="0xcd00" />.<pageBreak /><anim id="Angry" target="actor" targetSpec="" />Mais bon, cette île est trop petite
-pour nous accueillir tous les deux,
-<tag a="110" b="6" />.</message>
-	<message label="422" attrib="00 00 00 00 00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />Que mon cousin ait prévu de
-s'installer ici ne m'étonne guère.<pageBreak /><anim id="Serious" target="actor" targetSpec="" />On aime les mêmes trucs,
-que ce soit <tag a="50" b="1" /><tag a="135" b="3" arg="0xcd00" /> ou <tag a="50" b="1" /><tag a="135" b="7" arg="0xcd00" />.<pageBreak /><anim id="Angry" target="actor" targetSpec="" />Mais bon, cette île est trop petite
-pour nous accueillir tous les deux,
-<tag a="110" b="6" />.</message>
 	<message label="423" attrib="00 00 00 00 00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />J'me remets pas de la popularité
 de cette île.<delay frames="40" /> <anim id="Negative" target="actor" targetSpec="" />Ça me dissuaderait
 presque d'emménager, tiens<tag a="110" b="0" />
 <anim id="Frantic" target="actor" targetSpec="" />Mais qu'est-ce que je raconte<tag a="110" b="0" /><delay20 />
-Maintenant, je ferais n'importe
-quoi pour venir ici!</message>
-	<message label="424" attrib="00 00 00 00 00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />J'me remets pas de la popularité
-de cette île.<delay frames="40" /> <anim id="Negative" target="actor" targetSpec="" />Ça me dissuaderait
-presque d'emménager, tiens<tag a="110" b="0" /><pageBreak /><anim id="Frantic" target="actor" targetSpec="" />Mais qu'est-ce que je raconte<tag a="110" b="0" /><delay20 />
 Maintenant, je ferais n'importe
 quoi pour venir ici!</message>
 	<message label="504" attrib="00 00 01 00 00 00 00 00"><anim id="Hello" target="actor" targetSpec="" />Cette île dégage des ondes positives.<delay frames="40" /><anim id="AbsentMindedness" target="actor" targetSpec="" />

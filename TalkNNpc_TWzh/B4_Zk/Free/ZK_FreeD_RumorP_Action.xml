@@ -59,6 +59,13 @@
 <anim id="Hello" target="actor" targetSpec="" />看起來非常開心喔！<pageBreak /><anim id="QuestionMark" target="actor" targetSpec="" />你知道……幸福是會傳染的嗎？<10_4 />
 <anim id="Nodding" target="actor" targetSpec="" />看著你開心的模樣，<delay20 />
 我就突然懂了這句話的意思呢，<tag a="110" b="6" />。</message>
+	<message label="114" attrib="00 00 00 00 00 00 00 00"><tag a="110" b="4" />，<delay frames="40" />
+<anim id="Hello" target="actor" targetSpec="" />你昨天是不是<delay20 />出了遠門呀？<tag a="110" b="6" />。<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />跟我說一點昨天發生的故事吧～<delay frames="40" />
+<anim id="Nodding" target="actor" targetSpec="" />我對外面的世界也很有興趣喔！</message>
+	<message label="115" attrib="00 00 00 00 00 00 00 00"><anim id="AbsentMindedness" target="actor" targetSpec="" />昨天<delay20 />有很多你的朋友來島上玩，<delay20 />
+真的好開心喔～<tag a="110" b="6" />。<pageBreak /><anim id="Hesitate" target="actor" targetSpec="" />島上那不同以往的熱鬧景象，<delay20 />
+讓我不禁心跳加速呢<tag a="110" b="0" /><delay20 />
+希望以後還能再多舉辦幾次派對！</message>
 	<message label="116" attrib="00 00 00 00 00 00 00 00"><tag a="110" b="4" />，<delay frames="40" />
 你昨天好像完全沉浸在ＤＩＹ當中啊？<delay20 />
 <anim id="QuestionMark" target="actor" targetSpec="" />製作得還順利嗎？<tag a="110" b="6" />。<pageBreak /><anim id="Serious" target="actor" targetSpec="" />灌注了<delay20 /><tag a="110" b="4" />熱情的作品<tag a="110" b="0" /><delay20 />
@@ -110,14 +117,15 @@
 <anim id="QuestionMark" target="actor" targetSpec="" />聊了很久啊？<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />呵呵，<delay20 />看來你和大家相處得不錯，<delay20 />
 我很開心喔，<tag a="110" b="6" />。</message>
 	<message label="126_01" attrib="00 00 00 00 00 00 00 00"><anim id="Worried" target="actor" targetSpec="" /><tag a="110" b="4" /><tag a="110" b="0" /><delay20 />
-聽說你昨天好像<delay20 />跟凶猛的黃蜂戰鬥了，<delay20 />
-應該沒受傷吧？<pageBreak />你要更保重自己一點啦！<delay frames="40" />
+你昨天跟凶猛黃蜂戰鬥的事情，<delay20 />
+現在大家傳得沸沸揚揚的了。<tag a="110" b="6" />。<pageBreak /><anim id="Outraged" target="actor" targetSpec="" />你要更保重自己一點啦！<10_4 />
 <anim id="Serious" target="actor" targetSpec="" />畢竟你是這世上獨一無二<delay20 />
 <anim id="Grin" target="actor" targetSpec="" />無可取代的<tag a="110" b="4" />啊<tag a="110" b="0" /></message>
-	<message label="126_02" attrib="00 00 00 00 00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />聽說你昨天被黃蜂螫了？<delay frames="40" />
-真是辛苦你了，<tag a="110" b="4" />。<pageBreak /><anim id="Serious" target="actor" targetSpec="" />我想黃蜂們也只是被嚇到了而已，<delay20 />
-應該沒有惡意。<delay20 />
-<anim id="Apologize" target="actor" targetSpec="" />請你原諒牠們吧，<tag a="110" b="6" />。</message>
+	<message label="126_02" attrib="00 00 00 00 00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />那個，<delay20 /><tag a="110" b="4" />，<delay frames="40" />
+你昨天被黃蜂螫的事情，<delay frames="40" />
+現在大家傳得沸沸揚揚的了。<tag a="110" b="6" />。<pageBreak /><anim id="Serious" target="actor" targetSpec="" />我想黃蜂們也只是被嚇到了而已，<delay20 />
+應該沒有惡意<tag a="110" b="0" /><delay frames="30" />
+<anim id="Apologize" target="actor" targetSpec="" />請你原諒牠們吧。</message>
 	<message label="127" attrib="00 00 00 00 00 00 00 00"><tag a="110" b="4" />，<delay frames="40" />
 <anim id="Hello" target="actor" targetSpec="" />聽說你昨天<delay20 />挖出了很多化石啊？<tag a="110" b="6" />。<pageBreak /><anim id="Explain" target="actor" targetSpec="" />從遠古時代就存在，在經過無數歲月之後，<delay20 />
 <anim id="Explain" target="actor" targetSpec="" />現在與我們產生連結<tag a="110" b="0" /><delay frames="40" />
@@ -222,10 +230,9 @@
 <anim id="Explain" target="actor" targetSpec="" />就會連服裝跟飾品<delay20 />
 都一起跟著換呢<tag a="110" b="0" /><pageBreak /><anim id="Nodding" target="actor" targetSpec="" />不過我認為<delay8 />積極面對<delay20 />這些變化，<delay20 />
 也是時尚樂趣的一環喔，<tag a="110" b="6" />。</message>
-	<message label="150" attrib="00 00 00 00 00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />你<tag a="110" b="0" />難道是<tag a="110" b="0" /><delay20 />
-<anim id="QuestionMark" target="actor" targetSpec="" /><tag a="110" b="4" />嗎？<pageBreak /><anim id="WrySmile" target="actor" targetSpec="" />明明有種熟悉的感覺，<delay20 />
-但散發的氛圍卻判若兩人，<delay20 />
-所以我猶豫了一下啦，<tag a="110" b="6" />。<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />不過我馬上就認出是你囉。<10_4 />
+	<message label="150" attrib="00 00 00 00 00 00 00 00"><anim id="TakenAback" target="actor" targetSpec="" />你<tag a="110" b="0" />難道是<tag a="110" b="0" /><delay20 />
+<anim id="QuestionMark" target="actor" targetSpec="" /><tag a="110" b="4" />嗎？<pageBreak /><anim id="ShyBoy" target="actor" targetSpec="" />跟之前看到你的時候，<delay20 />
+感覺很不一樣呢～<tag a="110" b="6" />。<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />不過我馬上就認出是你囉。<10_4 />
 <anim id="Serious" target="actor" targetSpec="" />就算長相變得不一樣，<delay frames="40" />
 <anim id="Grin" target="actor" targetSpec="" />你還是世上那個獨一無二的你啊！</message>
 	<message label="151" attrib="00 00 00 00 00 00 00 00">我聽說囉，<tag a="110" b="4" />。<delay frames="40" />

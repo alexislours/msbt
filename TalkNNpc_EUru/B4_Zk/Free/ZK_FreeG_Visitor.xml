@@ -5,7 +5,7 @@
 	<message label="001_a" attrib="04 00 00 00 00 00 00 00">Ага!</message>
 	<message label="001_b" attrib="05 00 00 00 00 00 00 00">Нет, расскажи!</message>
 	<message label="002" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="23" arg="0xd 0xe 0xf 0xffff" /></message>
-	<message label="003" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x10 0x11 0xffff 0xffff" /></message>
+	<message label="003" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x1 0x10 0x11 0x12" /></message>
 	<message label="004" attrib="00 00 00 00 00 00 00 00"><anim id="OhGeez" target="actor" targetSpec="" />Ох<tag a="110" b="0" /> Ну конечно, успел<gender2 m="" f="а" />!<delay20 />
 Хм, у тебя хороший вкус.</message>
 	<message label="005" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Серьезно? <delay20 />Много теряешь!<delay20 />
@@ -36,10 +36,11 @@
 современнейшее здание.<pageBreak /><anim id="AbsentMindedness" target="actor" targetSpec="" />Только представь: огромный зал,
 до потолка забитый диковинками
 со всего мира<tag a="110" b="0" /><pageBreak /><anim id="Cheering" target="actor" targetSpec="" />Мне не терпится это увидеть!</message>
-	<message label="017" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="2" arg="0x15 0x16 0x17 0x19" /></message>
+	<message label="017" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="3" arg="0x15 0x16 0x17 0x18 0x19" /></message>
 	<message label="021" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1c00 0x1900 0xcd00" /></message>
 	<message label="022" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1d01 0x1900 0xcd00" /></message>
 	<message label="023" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1e02 0x1900 0xcd00" /></message>
+	<message label="024" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1f03 0x1900 0xcd00" /></message>
 	<message label="025" attrib="00 00 00 00 00 00 00 00"><anim id="WrySmile" target="actor" targetSpec="" />Кто же, если не я, посоветует тебе
 это стильное место — <colour id="1" />музей
 острова<colour id="65535" /> <tag a="10" b="13" /><colour id="1" /><tag a="110" b="8" /><colour id="65535" /><endTag a="10" b="13" />?<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Больше некому!<delay frames="40" /> <anim id="Nodding" target="actor" targetSpec="" />Замечательная
@@ -62,42 +63,42 @@
 жили миллионы лет назад!<pageBreak /><anim id="AbsentMindedness" target="actor" targetSpec="" />Надеюсь, когда-нибудь мои
 блестящие кости тоже
 будут в музее<tag a="110" b="0" /></message>
-	<message label="101" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="0" arg="0x66 0x6a" /></message>
-	<message label="102" attrib="00 00 03 00 00 00 00 00"><anim id="Hesitate" target="actor" targetSpec="" />Слушай, я могу у тебя спросить
+	<message label="201" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="0" arg="0xca 0xce" /></message>
+	<message label="202" attrib="00 00 03 00 00 00 00 00"><anim id="Hesitate" target="actor" targetSpec="" />Слушай, я могу у тебя спросить
 кое-что, <delay8 />хм,<delay8 /> очень важное?<pageBreak /><anim id="QuestionMark" target="actor" targetSpec="" />Ты вспоминал<gender2 m="" f="а" /> обо мне после того,
-как уехал<gender2 m="" f="а" /> с острова?</message>
-	<message label="102_a" attrib="67 00 00 00 00 00 00 00">Конечно!</message>
-	<message label="102_b" attrib="68 00 00 00 00 00 00 00">Если честно, нет.</message>
-	<message label="102_c" attrib="69 00 00 00 00 00 00 00">А ты скучал по мне?</message>
-	<message label="103" attrib="00 00 00 00 00 00 00 00"><anim id="Grin" target="actor" targetSpec="" />Ах<tag a="110" b="0" /> Я тоже. <delay frames="40" /><anim id="BigSmile" target="actor" targetSpec="" />Ну, самое главное —
+как я уехал с твоего острова?</message>
+	<message label="202_a" attrib="cb 00 00 00 00 00 00 00">Конечно!</message>
+	<message label="202_b" attrib="cc 00 00 00 00 00 00 00">Если честно, нет.</message>
+	<message label="202_c" attrib="cd 00 00 00 00 00 00 00">А ты скучал по мне?</message>
+	<message label="203" attrib="00 00 00 00 00 00 00 00"><anim id="Grin" target="actor" targetSpec="" />Ах<tag a="110" b="0" /> Я тоже. <delay frames="40" /><anim id="BigSmile" target="actor" targetSpec="" />Ну, самое главное —
 ты можешь приехать ко мне в гости
 в любое время! <tag a="50" b="3" /><tag a="110" b="5" />!</message>
-	<message label="104" attrib="00 00 00 00 00 00 00 00"><anim id="WrySmile" target="actor" targetSpec="" />Ну, спасибо за честность.<delay20 /> <anim id="SmugFace" target="actor" targetSpec="" />Если
+	<message label="204" attrib="00 00 00 00 00 00 00 00"><anim id="WrySmile" target="actor" targetSpec="" />Ну, спасибо за честность.<delay20 /> <anim id="SmugFace" target="actor" targetSpec="" />Если
 я хочу продвигать свою торговую
-марку, то такое мнение мне важно.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Ты переехал<gender2 m="" f="а" /> на острова побольше
-и, бесспорно, покрасивее, так что
-я желаю тебе самого лучшего!</message>
-	<message label="105" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Эй, я первый спросил! <10_4 /><anim id="Grin" target="actor" targetSpec="" />Ладно, раз
+марку, то такое мнение мне важно.<pageBreak /><anim id="Eh" target="actor" targetSpec="" />Так или иначе,<delay40 /> думаю,<delay20 /><anim id="SadSpiral" target="actor" targetSpec="" /> тебе удалось
+чем-то заполнить зияющую пустоту,
+оставшуюся после моего отъезда.</message>
+	<message label="205" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Эй, я первый спросил! <10_4 /><anim id="Grin" target="actor" targetSpec="" />Ладно, раз
 ты тоже спрашиваешь,
 то я отвечу.<pageBreak /><anim id="Hesitate" target="actor" targetSpec="" />Да, скучал!<delay20 /> Без всяких слез
 и соплей, мы так весело
 проводили время вместе.<pageBreak /><anim id="Crying" target="actor" targetSpec="" />Ладно, давай-ка сменим тему,
 а то волны ностальгии уж
 точно меня потопят!</message>
-	<message label="106" attrib="6b 00 00 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Эй, знаешь, что в этом сезоне
+	<message label="206" attrib="cf 00 00 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Эй, знаешь, что в этом сезоне
 в тренде на нашем острове?</message>
-	<message label="107" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="2" arg="0x6c 0x6d 0x6e 0x6f" /></message>
-	<message label="108" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Рыбачить в океане — это стильно.<pageBreak /><anim id="OhGeez" target="actor" targetSpec="" />Да, рыбалка существует уже
+	<message label="207" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="2" arg="0xd0 0xd1 0xd2 0xd3" /></message>
+	<message label="208" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Рыбачить в океане — это стильно.<pageBreak /><anim id="OhGeez" target="actor" targetSpec="" />Да, рыбалка существует уже
 тысячи лет, но сейчас она
 снова в моде!<pageBreak /><anim id="AbsentMindedness" target="actor" targetSpec="" />Смотрится эффектно, когда ты
 пристально смотришь на водную
 гладь в ожидании редкой рыбы<tag a="110" b="0" /></message>
-	<message label="109" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Ловля насекомых!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Да, конечно, мы уже тысячи лет
+	<message label="209" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Ловля насекомых!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Да, конечно, мы уже тысячи лет
 их ловим, но ты вообще видел<gender2 m="" f="а" />,
 какие они бывают модные?<pageBreak /><anim id="Grin" target="actor" targetSpec="" />На некоторых из них будто
 не хватает дизайнерской
 марки. <delay20 /><anim id="Laughing" target="actor" targetSpec="" />Хо-хо!</message>
-	<message label="110" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Копание ям!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Просто выслушай. <delay20 />Конечно, звучит
+	<message label="210" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Копание ям!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Просто выслушай. <delay20 />Конечно, звучит
 как отличный способ испортить
 свои новенькие замшевые туфли.
 <anim id="AbsentMindedness" target="actor" targetSpec="" />Но подумай, когда ты копаешь яму,
@@ -105,7 +106,7 @@
 целого острова!
 <anim id="Serious" target="actor" targetSpec="" />А что может быть более
 творческим, чем это<tag a="110" b="0" /></message>
-	<message label="111" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Садоводство!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Конечно, мы сажаем растения
+	<message label="211" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Садоводство!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Конечно, мы сажаем растения
 уже сотни лет.<delay frames="40" /> <anim id="Aha" target="actor" targetSpec="" />Но в этот раз
 все совершенно иначе!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Сначала мы сажаем растения.<delay20 /><anim id="Grin" target="actor" targetSpec="" /><delay20 />
 А потом (внимание!)<delay20 /> <anim id="EmotEnd" target="actor" targetSpec="" />мы поливаем

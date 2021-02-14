@@ -135,6 +135,10 @@
 	<message label="091_02" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />感謝您的查看！<delay40 />
 <anim id="FaintSmile" target="actor" targetSpec="" />那麼<tag a="110" b="0" /></message>
 	<message label="091" attrib="00 00 00 00" />
+	<message label="092" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />了解了！<delay frames="40" />
+<anim id="Serious" target="actor" targetSpec="" />不好意思每次都要麻煩您<tag a="110" b="0" /><pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />在使用網路之前，<delay frames="30" />
+<anim id="EmotEnd" target="actor" targetSpec="" />能不能請您先查看一下<delay20 />
+<anim id="Hello" target="actor" targetSpec="" />這些內容呢？</message>
 	<message label="101" attrib="04 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />您要使用<colour id="1" />鄰近主機通訊<colour id="65535" />前往附近的島嶼呢？<delay20 />
 <anim id="QuestionMark" target="actor" targetSpec="" />還是使用<colour id="1" />網路通訊<colour id="65535" />前往遠方的島嶼呢？</message>
 	<message label="101_a" attrib="00 00 00 00">鄰近主機通訊的島嶼</message>
@@ -262,6 +266,10 @@
 	<message label="130" attrib="02 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />那麼，<delay20 />即將連接網路！</message>
 	<message label="130_a" attrib="00 00 00 00">OK！</message>
 	<message label="130_b" attrib="00 00 00 00">還是取消吧！</message>
+	<message label="140" attrib="00 00 00 00">看來大門已經關閉了。</message>
+	<message label="150" attrib="02 00 00 00">要搜尋其他目的地嗎？</message>
+	<message label="150_a" attrib="00 00 00 00">搜尋其他島嶼</message>
+	<message label="150_b" attrib="00 00 00 00">還是下次再說吧</message>
 	<message label="200" attrib="06 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />是的！<delay frames="40" />
 <anim id="QuestionMark" target="actor" targetSpec="" />請問您要做什麼呢？</message>
 	<message label="200_a" attrib="00 00 00 00">打開大門</message>
@@ -275,6 +283,13 @@
 	<message label="201_c" attrib="00 00 00 00">我忘了密碼</message>
 	<message label="201_d" attrib="00 00 00 00">還是想出島玩</message>
 	<message label="201_e" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />沒事了</message>
+	<message label="202" attrib="08 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />是的！<delay frames="40" />
+<anim id="QuestionMark" target="actor" targetSpec="" />請問您要做什麼呢？</message>
+	<message label="202_a" attrib="00 00 00 00">打開大門</message>
+	<message label="202_b" attrib="00 00 00 00">結束通訊</message>
+	<message label="202_c" attrib="00 00 00 00">我忘了密碼</message>
+	<message label="202_d" attrib="00 00 00 00">還是想出島玩</message>
+	<message label="202_e" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />沒事了</message>
 	<message label="210" attrib="04 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />是的！<delay frames="40" />
 <anim id="QuestionMark" target="actor" targetSpec="" />請問您要做什麼呢？</message>
 	<message label="210_a" attrib="00 00 00 00">關閉大門</message>
@@ -286,6 +301,12 @@
 	<message label="211_b" attrib="00 00 00 00">我忘了密碼</message>
 	<message label="211_c" attrib="00 00 00 00">還是想出島玩</message>
 	<message label="211_d" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />沒事了</message>
+	<message label="212" attrib="06 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />是的！<delay frames="40" />
+<anim id="QuestionMark" target="actor" targetSpec="" />請問您要做什麼呢？</message>
+	<message label="212_a" attrib="00 00 00 00">關閉大門</message>
+	<message label="212_b" attrib="00 00 00 00">我忘了密碼</message>
+	<message label="212_c" attrib="00 00 00 00">還是想出島玩</message>
+	<message label="212_d" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />沒事了</message>
 	<message label="220" attrib="02 00 00 00"><anim id="Eh" target="actor" targetSpec="" />您不是想要邀請朋友來玩，<delay20 />
 <anim id="QuestionMark" target="actor" targetSpec="" />而是想出島玩，對嗎？</message>
 	<message label="220_a" attrib="00 00 00 00">就是這樣</message>
@@ -297,7 +318,11 @@
 <anim id="Nodding" target="actor" targetSpec="" />我就結束通訊了。</message>
 	<message label="223" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />目前所設定的密碼<delay20 />
 <anim id="FaintSmile" target="actor" targetSpec="" />是「<colour id="1" /><tag a="110" b="26" /><colour id="65535" />」！</message>
-	<message label="251" attrib="00 00 00 00" />
+	<message label="224" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />目前所設定的密碼<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />是「<colour id="1" /><tag a="110" b="25" /><colour id="65535" />」！</message>
+	<message label="251_01" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />明白了！<delay frames="40" />
+<anim id="EmotEnd" target="actor" targetSpec="" />即將結束通訊。</message>
+	<message label="251_02" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />請下次再來使用我們的服務！</message>
 	<message label="252" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />下次<delay8 />想要迎接訪客時，<delay frames="30" />
 <anim id="EmotEnd" target="actor" targetSpec="" />可以再將大門打開。<delay20 />
 <anim id="FaintSmile" target="actor" targetSpec="" />請儘管跟我說。</message>
@@ -315,6 +340,14 @@
 	<message label="302_a" attrib="00 00 00 00">關閉大門</message>
 	<message label="302_b" attrib="00 00 00 00">我忘了密碼</message>
 	<message label="302_c" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />沒事了</message>
+	<message label="303" attrib="04 00 00 00">另外，<delay8 /><anim id="QuestionMark" target="actor" targetSpec="" />有什麼我能幫上忙的嗎？</message>
+	<message label="303_a" attrib="00 00 00 00">打開大門</message>
+	<message label="303_b" attrib="00 00 00 00">我忘了密碼</message>
+	<message label="303_c" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />沒事了</message>
+	<message label="304" attrib="04 00 00 00">另外，<delay8 /><anim id="QuestionMark" target="actor" targetSpec="" />有什麼我能幫上忙的嗎？</message>
+	<message label="304_a" attrib="00 00 00 00">關閉大門</message>
+	<message label="304_b" attrib="00 00 00 00">我忘了密碼</message>
+	<message label="304_c" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />沒事了</message>
 	<message label="305" attrib="02 00 00 00">另外，<delay8 /><anim id="QuestionMark" target="actor" targetSpec="" />有什麼我能幫上忙的嗎？</message>
 	<message label="305_a" attrib="00 00 00 00">打開大門</message>
 	<message label="305_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />不用了</message>

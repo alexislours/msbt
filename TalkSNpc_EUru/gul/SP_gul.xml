@@ -21,9 +21,9 @@
 Пф-ф-ф<tag a="110" b="0" /> Не буду<tag a="110" b="0" /></message>
 	<message label="001_10" attrib="00 00 00 00"><snpcAnim id="GulCollapsed" target="actor" targetSpec="" />Хр-р-р<tag a="110" b="0" /><delay20 /> Я все печенье раскрошил<tag a="110" b="0" />
 А то вдруг изюм<tag a="110" b="0" /> Пф-ф-ф<tag a="110" b="0" /></message>
-	<message label="002" attrib="00 00 00 00"><anim id="Sleepy" target="actor" targetSpec="" />Что<tag a="110" b="0" /> <delay20 />Это моя пицца? <delay8 />Я уже
-оставил чаевые онлайн<tag a="110" b="0" /><pageBreak /><anim id="TakenAback" target="actor" targetSpec="" />Погоди-ка. <delay8 />Где пицца-то?<delay20 /> <anim id="Frantic" target="actor" targetSpec="" />Где я?
-Кто ты? Кто я?!<delay frames="40" />
+	<message label="002" attrib="00 00 00 00"><anim id="Sleepy" target="actor" targetSpec="" />Что<tag a="110" b="0" /> <delay20 />Это моя пицца? <delay8 />
+Я уже оставил чаевые онлайн<tag a="110" b="0" /><pageBreak /><anim id="TakenAback" target="actor" targetSpec="" />Погоди-ка. <delay8 />Где пицца-то?<delay20 /><anim id="Frantic" target="actor" targetSpec="" />
+Где я? Кто ты? Кто я?!<delay frames="40" />
 <anim id="Eh" target="actor" targetSpec="" /><size value="75" />Стоп. Последнее я знаю.<size value="100" /><pageBreak /><anim id="SmugFace" target="actor" targetSpec="" />Я <colour id="3" />Гулливер<colour id="65535" />, отчаянная чайка<tag a="110" b="0" />
 Нечаянно тут причалил!<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Это ты меня растолкать пытал<gender2 m="ся" f="ась" />?</message>
 	<message label="003" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Спасибо, что разбудил<gender2 m="" f="а" />, а то я бы
@@ -100,8 +100,8 @@
 потом уточнить, а то что я<tag a="110" b="0" /><pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Ну, как бы то ни было, все будет
 пучком.<delay20 /><anim id="SmugFace" target="actor" targetSpec="" /> Я просто вызову корабль,
 чтобы они меня снова подобрали!</message>
-	<message label="018" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Я просто вызову помощь
-при помощи своего<tag a="110" b="0" /> ой!</message>
+	<message label="018" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Я просто вызову помощь!
+Сейчас включу свой<tag a="110" b="0" /></message>
 	<message label="018_01" attrib="00 00 00 00"><tag a="10" b="12" />Ой<tag a="110" b="0" /><delay frames="40" />
 <anim id="Surprised" target="actor" targetSpec="" /><10_10 /><size value="150" />Киль мне в лоб!!!<size value="100" /><10_9 /><pageBreak /><anim id="Frantic" target="actor" targetSpec="" />Мой супер-дупер коммуникатор
 сломался!<delay20 /> Теперь он не супер
@@ -109,7 +109,7 @@
 	<message label="018_02" attrib="00 00 00 00"><anim id="SadSpiral" target="actor" targetSpec="" />Ну надо же<tag a="110" b="0" /> Совсем разбитый.
 Похоже, даже нескольких <colour id="1" />деталей
 коммуникатора <colour id="65535" />недостает<tag a="110" b="0" /><pageBreak /><anim id="Sighing" target="actor" targetSpec="" />Значит<tag a="110" b="0" /><delay20 /> Моей команде придется
-искать меня по-старинке.<pageBreak /><anim id="Thinking" target="actor" targetSpec="" />Это может занять какое-то время.<delay20 />
+искать меня по старинке.<pageBreak /><anim id="Thinking" target="actor" targetSpec="" />Это может занять какое-то время.<delay20 />
 <size value="75" />А морских шуточек у меня всего на пару часов
 хватит<tag a="110" b="0" /><size value="100" /></message>
 	<message label="019" attrib="00 00 00 00"><tag a="60" b="20" /></message>
@@ -142,10 +142,10 @@
 <colour id="1" />детали<colour id="65535" /> найдешь<tag a="110" b="0" /></message>
 	<message label="022" attrib="00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" /><colour id="1" />Детали коммуникатора<colour id="65535" />, наверное,
 где-то занесло песком.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Еще <colour id="1" /><tag a="90" b="0" arg="0x0" /> <50_9 x="0" y="0" a="деталь" b="детали" c="деталей" /><colour id="65535" />, и я смогу его
-починить.<delay frames="40" /> Ну, или запихать их
-внутрь и надеяться на лучшее!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Уверен, моя команда меня вовсю
+починить.<delay frames="40" /> Или хотя бы запихать
+их в него и надеяться на лучшее!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Уверен, моя команда меня вовсю
 ищет, так что я должен следить
-за морем.<pageBreak /><anim id="HappyDance" target="actor" targetSpec="" />Так что поиски предоставлю тебе.
+за морем.<pageBreak /><anim id="HappyDance" target="actor" targetSpec="" />Поэтому поиски предоставлю тебе.
 Я в тебя верю!<delay frames="40" /> <anim id="Confused" target="actor" targetSpec="" /><size value="75" />Не то чтобы у меня был
 выбор.<size value="100" /></message>
 	<message label="023" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Если найдешь <colour id="1" /><tag a="90" b="0" arg="0x0" /> <tag a="50" b="23" arg="0xcd03" /><50_9 x="0" y="0" a="деталь" b="детали" c="деталей" /><colour id="65535" />, я смогу
@@ -162,7 +162,7 @@
 коммуникатор.<delay frames="40" /> <anim id="SadSpiral" target="actor" targetSpec="" />Ирония судьбы!</message>
 	<message label="031_02" attrib="00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" /><colour id="1" />Детали коммуникатора<colour id="65535" /> слишком
 хитры, чтобы сидеть у всех на виду.<delay frames="40" /><anim id="Grin" target="actor" targetSpec="" />
-О, нет-нет!<pageBreak /><anim id="Serious" target="actor" targetSpec="" />Их наверняка <colour id="1" />занесло песком<colour id="65535" />.<delay frames="40" /><anim id="EmotEnd" target="actor" targetSpec="" />
+О, нет-нет!<pageBreak /><anim id="Serious" target="actor" targetSpec="" />Они наверняка <colour id="1" />зарылись в песок<colour id="65535" />.<delay frames="40" /><anim id="EmotEnd" target="actor" targetSpec="" />
 Так что держи лопату под рукой
 и копай в <colour id="1" />подозрительных местах<colour id="65535" />!</message>
 	<message label="031_03" attrib="00 00 00 00"><anim id="Cheering" target="actor" targetSpec="" />Эй, <colour id="1" />детали коммуникатора-а-а<colour id="65535" />!

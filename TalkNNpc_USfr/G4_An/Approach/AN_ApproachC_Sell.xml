@@ -1,6 +1,6 @@
 <msbt attribsize="8">
 	<message label="001" attrib="00 00 02 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Il paraît qu'tu veux t'offrir <tag a="50" b="2" /><tag a="125" b="0" arg="0x0" />?<pageBreak />Eh ben c'est ton jour de chance,
-m<gender2 m="on" f="a" /> pote. J'en ai trouvé un<tag a="50" b="17" arg="0x11 0xcd00 0x0 0x2 0x65 0x0" /> et paf! Je l'ai mis<tag a="50" b="17" arg="0x11 0xcd00 0x0 0x2 0x65 0x0" /> dans ma poche.</message>
+m<gender2 m="on" f="a" /> pote. J'en ai trouvé un<tag a="50" b="17" arg="0x12 0xcd00 0x0 0x2 0x65 0x0" /> et paf! Je l'ai mis<tag a="50" b="17" arg="0x12 0xcd00 0x0 0x2 0x65 0x0" /> dans ma poche.</message>
 	<message label="001_a" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="player" targetSpec="" />Génial! Merci!</message>
 	<message label="001_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="player" targetSpec="" />Euh... Quoi?</message>
 	<message label="002" attrib="00 00 02 00 00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />Tiens, tiens.<delay20 /> Justement, j'te
@@ -11,10 +11,7 @@ sur le cœur. <delay20 />Paraît qu'tu cherches
 <tag a="50" b="2" /><tag a="125" b="0" arg="0x0" />?</message>
 	<message label="002_a" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="player" targetSpec="" />Tu me l'offres?</message>
 	<message label="002_b" attrib="00 00 00 00 00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Ça m'intéresse pas.</message>
-	<message label="003" attrib="00 00 02 00 00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Yo, <tag a="110" b="3" />, j'suis dans
-une mélasse de pétrin d'béchamel,
-il m'faut un coup d'patte et vite.
-<anim id="Explain" target="actor" targetSpec="" />J'ai fini par me décider à ranger ma
+	<message label="003" attrib="00 00 02 00 00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Yo, <tag a="110" b="3" />, j'suis dans une mélasse de pétrin d'béchamel, il m'faut un coup d'patte et vite.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />J'ai fini par me décider à ranger ma
 maison<tag a="110" b="0" /><anim id="OhGeez" target="actor" targetSpec="" /> C'est fou le nombre de
 cossins que j'ai accumulés!
 <anim id="Negative" target="actor" targetSpec="" />À l'heure où j'te cause, j'ai pas moins
@@ -25,7 +22,7 @@ faire, mais qu'j'ose pas les jeter.</message>
 	<message label="004" attrib="00 00 02 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Tiens, <tag a="110" b="3" />. J'suis pas du genre à m'plaindre, mais là, j'ai l'moral à terre.<pageBreak /><anim id="Worried" target="actor" targetSpec="" />J'ai trouvé l'objet dont j'ai toujours
 rêvé<tag a="110" b="0" /> et v'là que j'suis à court de
 clochettes.<delay20 /> Trop injuste!
-<anim id="Restless" target="actor" targetSpec="" />J'vais devoir m'séparer d'<tag a="50" b="17" arg="0x11 0xcd00 0x10 0x6d 0x6f 0x6e 0x20 0x63 0x68 0x65 0x72 0x10 0x6d 0x61 0x20 0x63 0x68 0xe8 0x72 0x65 0x0" /> <tag a="125" b="0" arg="0x0" />, pas l'choix.</message>
+<anim id="Restless" target="actor" targetSpec="" />J'vais devoir m'séparer d'<tag a="50" b="17" arg="0x12 0xcd00 0x10 0x6d 0x6f 0x6e 0x20 0x63 0x68 0x65 0x72 0x10 0x6d 0x61 0x20 0x63 0x68 0xe8 0x72 0x65 0x0" /> <tag a="125" b="0" arg="0x0" />, pas l'choix.</message>
 	<message label="004_a" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="player" targetSpec="" />T'en veux combien?</message>
 	<message label="004_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="player" targetSpec="" />Hmmm...</message>
 	<message label="005" attrib="00 00 00 00 00 00 00 00"><anim id="TakenAback" target="actor" targetSpec="" />Hein?<delay20 /> Tu veux dire qu't'es pas
@@ -47,11 +44,11 @@ d'clochettes. <anim id="ShyBoy" target="actor" targetSpec="" /><delay20 />Eh ben
 d'ce bijou pour la somme ridicule
 de <tag a="90" b="21" arg="0x2" />!</message>
 	<message label="100_a" attrib="00 00 00 00 00 00 00 00">Vendu!</message>
-	<message label="100_b" attrib="00 00 00 00 00 00 00 00">Oh, dans ce cas...</message>
+	<message label="100_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Oh, dans ce cas...</message>
 	<message label="101" attrib="00 00 00 00 00 00 00 00"><anim id="Pardon" target="actor" targetSpec="" />Oh!<delay20 /> T'es pas du genre à tourner
 autour du pot!</message>
-	<message label="102" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Bon,<delay8 /> ça m'fait plaisir d'savoir qu'<tag a="50" b="17" arg="0x11 0xcd00 0x6 0x6d 0x6f 0x6e 0x4 0x6d 0x61 0x0" />
-<tag a="50" b="17" arg="0x11 0xcd00 0x8 0x63 0x68 0x65 0x72 0xa 0x63 0x68 0xe8 0x72 0x65 0x0" /> <tag a="125" b="0" arg="0x0" /> atterrit chez toi, <tag a="110" b="5" />.</message>
+	<message label="102" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Bon,<delay8 /> ça m'fait plaisir d'savoir qu'<tag a="50" b="17" arg="0x12 0xcd00 0x6 0x6d 0x6f 0x6e 0x4 0x6d 0x61 0x0" />
+<tag a="50" b="17" arg="0x12 0xcd00 0x8 0x63 0x68 0x65 0x72 0xa 0x63 0x68 0xe8 0x72 0x65 0x0" /> <tag a="125" b="0" arg="0x0" /> atterrit chez toi, <tag a="110" b="5" />.</message>
 	<message label="103" attrib="00 00 00 00 00 00 00 00"><anim id="Surprised" target="actor" targetSpec="" />C'est trop?<delay20 /><anim id="Thinking" target="actor" targetSpec="" /> Hmm<tag a="110" b="0" /> Le truc, c'est
 que j'tiens plus à m'en débarrasser
 qu'à m'faire des clochettes<tag a="110" b="0" />
@@ -107,8 +104,8 @@ qui donne un coup d'fouet!<delay20 /> Merci!<delay20 />
 	<message label="210" attrib="00 00 00 00 00 00 00 00"><anim id="Oops" target="actor" targetSpec="" />Tout ça pour ça? <delay20 /><anim id="QuestionMark" target="actor" targetSpec="" />C'était juste
 pour le plaisir de marchander,
 ou quoi?</message>
-	<message label="300" attrib="00 00 02 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Par exemple, j'ai <tag a="50" b="17" arg="0x11 0xcd00 0x4 0x63 0x65 0xa 0x63 0x65 0x74 0x74 0x65 0x0" /> merveilleu<tag a="50" b="17" arg="0x11 0xcd00 0x2 0x78 0x4 0x73 0x65 0x0" />
-<tag a="125" b="0" arg="0x0" /><tag a="110" b="0" /><anim id="Grin" target="actor" targetSpec="" /> <tag a="90" b="21" arg="0x1" /> et <tag a="50" b="17" arg="0x11 0xcd00 0x4 0x69 0x6c 0x8 0x65 0x6c 0x6c 0x65 0x0" /> est à toi.</message>
+	<message label="300" attrib="00 00 02 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Par exemple, j'ai <tag a="50" b="17" arg="0x12 0xcd00 0x4 0x63 0x65 0xa 0x63 0x65 0x74 0x74 0x65 0x0" /> merveilleu<tag a="50" b="17" arg="0x12 0xcd00 0x2 0x78 0x4 0x73 0x65 0x0" />
+<tag a="125" b="0" arg="0x0" /><tag a="110" b="0" /><anim id="Grin" target="actor" targetSpec="" /> <tag a="90" b="21" arg="0x1" /> et <tag a="50" b="17" arg="0x12 0xcd00 0x4 0x69 0x6c 0x8 0x65 0x6c 0x6c 0x65 0x0" /> est à toi.</message>
 	<message label="300_a" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />J'achète.</message>
 	<message label="300_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="player" targetSpec="" />Et à part ça?</message>
 	<message label="301" attrib="00 00 00 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Sans blague?<delay20 /> Tu nous soulages
@@ -116,17 +113,17 @@ d'un poids<tag a="110" b="0" /><anim id="Laughing" target="actor" targetSpec="" 
 	<message label="302" attrib="00 00 00 00 00 00 00 00"><anim id="HappyFlower" target="actor" targetSpec="" />Comme ça, j'aurai pas besoin d'aller
 vendre ça dans l'premier marché aux
 puces venu, <tag a="110" b="5" />!</message>
-	<message label="303" attrib="00 00 02 00 00 00 00 00">Hum, voyons<tag a="110" b="0" /> Que dirais-tu d'<tag a="50" b="17" arg="0x11 0xcd00 0x4 0x75 0x6e 0x6 0x75 0x6e 0x65 0x0" />
+	<message label="303" attrib="00 00 02 00 00 00 00 00">Hum, voyons<tag a="110" b="0" /> Que dirais-tu d'<tag a="50" b="17" arg="0x12 0xcd00 0x4 0x75 0x6e 0x6 0x75 0x6e 0x65 0x0" />
 <tag a="125" b="0" arg="0x0" />? Pour <tag a="90" b="21" arg="0x1" />, pas une de plus!</message>
 	<message label="303_a" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="player" targetSpec="" />Oh, donne!</message>
 	<message label="303_b" attrib="00 00 00 00 00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Non. Quoi d'autre?</message>
 	<message label="304" attrib="00 00 02 00 00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />Excellente question<tag a="110" b="0" /> <anim id="ShyBoy" target="actor" targetSpec="" />Si t'as
 <tag a="90" b="21" arg="0x1" /> dans tes poches,
-j'ai <tag a="50" b="17" arg="0x11 0xcd00 0x4 0x75 0x6e 0x6 0x75 0x6e 0x65 0x0" /> <tag a="125" b="0" arg="0x0" />.</message>
+j'ai <tag a="50" b="17" arg="0x12 0xcd00 0x4 0x75 0x6e 0x6 0x75 0x6e 0x65 0x0" /> <tag a="125" b="0" arg="0x0" />.</message>
 	<message label="304_a" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="player" targetSpec="" />Eh ben voilà!</message>
 	<message label="304_b" attrib="00 00 00 00 00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Bof. Autre chose?</message>
 	<message label="305" attrib="00 00 02 00 00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Tout c'qu'il m'reste en magasin, c'est
-un<tag a="50" b="17" arg="0x11 0xcd00 0x0 0x2 0x65 0x0" /> <tag a="125" b="0" arg="0x0" /><tag a="110" b="0" /> <anim id="Restless" target="actor" targetSpec="" />J'te <tag a="50" b="17" arg="0x11 0xcd00 0x4 0x6c 0x65 0x4 0x6c 0x61 0x0" /> fais à <tag a="90" b="21" arg="0x1" />.</message>
+un<tag a="50" b="17" arg="0x12 0xcd00 0x0 0x2 0x65 0x0" /> <tag a="125" b="0" arg="0x0" /><tag a="110" b="0" /> <anim id="Restless" target="actor" targetSpec="" />J'te <tag a="50" b="17" arg="0x12 0xcd00 0x4 0x6c 0x65 0x4 0x6c 0x61 0x0" /> fais à <tag a="90" b="21" arg="0x1" />.</message>
 	<message label="305_a" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Tape là-dedans!</message>
 	<message label="305_b" attrib="00 00 00 00 00 00 00 00">Non, toujours pas.</message>
 	<message label="306" attrib="00 00 00 00 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Tu veux rien? <delay20 />Tu s'rais pas du genre

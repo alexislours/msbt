@@ -2,15 +2,15 @@
 	<message label="001" attrib="00 00 00 00 00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />Привет, <tag a="110" b="31" arg="0xcd01" />!<delay40 />
 Как делишки, подруга?<anim id="Eh" target="subNpc" targetSpec="" /></message>
 	<message label="002" attrib="00 00 00 00 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Э-э<tag a="110" b="0" /> хорошо.<delay20 /><anim id="EmotEnd" target="actor" targetSpec="" /> Не жалуюсь!</message>
-	<message label="003" attrib="00 00 00 00 00 00 00 00">Какими трендами интересуешься?
+	<message label="003" attrib="00 00 00 00 00 00 00 00"><20_2 arg="3" />Какими трендами интересуешься?
 <delay20 /><anim id="Nodding" target="actor" targetSpec="" />В эту пору года сложновато
-оставаться гламурной, правда? <20_2 arg="4" /></message>
-	<message label="004" attrib="00 00 00 00 00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Извини, <tag a="110" b="31" arg="0xcd00" />.<delay40 />
+оставаться гламурной, правда?</message>
+	<message label="004" attrib="00 00 00 00 00 00 00 00"><20_2 arg="4" /><anim id="Negative" target="actor" targetSpec="" />Извини, <tag a="110" b="31" arg="0xcd00" />.<delay40 />
 Я не поняла сейчас <anim id="Worried" target="actor" targetSpec="" />и половины
 твоих слов<tag a="110" b="0" /><anim id="EmotEnd" target="actor" targetSpec="" /></message>
-	<message label="005" attrib="00 00 00 00 00 00 00 00"><anim id="OhGeez" target="actor" targetSpec="" />Да я просто пыталась
-поболтать с тобой<tag a="110" b="0" /><20_2 arg="3" /><anim id="EmotEnd" target="actor" targetSpec="" /><20_2 arg="4" /></message>
-	<message label="006" attrib="00 00 00 00 00 00 00 00"><anim id="IdeaBulb" target="actor" targetSpec="" />А!<delay frames="60" /> Давай попробуем!<delay40 />
+	<message label="005" attrib="00 00 00 00 00 00 00 00"><20_2 arg="3" /><anim id="OhGeez" target="actor" targetSpec="" />Да я просто пыталась
+поболтать с тобой<tag a="110" b="0" /></message>
+	<message label="006" attrib="00 00 00 00 00 00 00 00"><20_2 arg="4" /><anim id="IdeaBulb" target="actor" targetSpec="" />А!<delay frames="60" /> Давай попробуем!<delay40 />
 Так, о чем поговорить<tag a="110" b="0" />
 Вот, знаю! <anim id="Pardon" target="actor" targetSpec="" />Тараканы!<anim id="TakenAback" target="mainNpc" targetSpec="" />
 <anim id="EmotEnd" target="mainNpc" targetSpec="" /><20_2 arg="8" /><anim id="Explain" target="actor" targetSpec="" />Никто не любит тараканов,<20_3 arg="4" /><delay20 />
@@ -26,16 +26,16 @@
 <anim id="EmotEnd" target="actor" targetSpec="" /><anim id="Restless" target="actor" targetSpec="" />Но, в конце концов, мне не может
 нравиться то, что мне неприятно<tag a="110" b="0" />
 <anim id="Blushing" target="actor" targetSpec="" /><anim id="Worried" target="mainNpc" targetSpec="" />Что думаешь? Поболтали на славу?<delay frames="60" /><anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="actor" targetSpec="" /></message>
-	<message label="007" attrib="00 00 00 00 00 00 00 00">А-а!<delay frames="60" /> Я умею болтать!<delay40 /> Итак<tag a="110" b="0" /> О чем
+	<message label="007" attrib="00 00 00 00 00 00 00 00"><20_2 arg="4" />А-а!<delay frames="60" /> Я умею болтать!<delay40 /> Итак<tag a="110" b="0" /> О чем
 бы нам... <delay20 /><anim id="IdeaBulb" target="actor" targetSpec="" />Точно!<20_2 arg="8" /><anim id="Explain" target="actor" targetSpec="" /><20_3 arg="4" /> Путешествия во
 времени!<20_2 arg="6" /><delay20 /><anim id="Nodding" target="player" targetSpec="" /> <anim id="EmotEnd" target="actor" targetSpec="" />Представляешь?<delay8 /><20_2 arg="7" /><anim id="Smiling" target="actor" targetSpec="" />
-<20_2 arg="5" />Увидеть динозавров вживую
-или даже себя в будущем!<anim id="Sleepy" target="mainNpc" targetSpec="" />
-<20_3 arg="8" /><anim id="Hesitate" target="actor" targetSpec="" />Как же<delay20 /> интересно!<pageBreak /><20_2 arg="3" />Но потом я подумала<tag a="110" b="0" /><anim id="Eh" target="player" targetSpec="" /><anim id="Sleep" target="mainNpc" targetSpec="" /> <20_2 arg="4" /><anim id="Thinking" target="actor" targetSpec="" />Существует
+<20_2 arg="5" />Увидеть динозавров вживую,
+а может даже себя в будущем!<anim id="Sleepy" target="mainNpc" targetSpec="" />
+<20_3 arg="8" /><anim id="Hesitate" target="actor" targetSpec="" />Как же<delay20 /> интересно!<pageBreak /><20_2 arg="7" />Но потом я подумала<tag a="110" b="0" /><anim id="Eh" target="player" targetSpec="" /><anim id="Sleep" target="mainNpc" targetSpec="" /> <20_2 arg="4" /><anim id="Thinking" target="actor" targetSpec="" />Существует
 ли для нас <anim id="ShyBoy" target="player" targetSpec="" />прошлое или будущее?<pageBreak /><anim id="Negative" target="actor" targetSpec="" />Чем больше я думаю об этом, тем
-сложнее ответить!<20_3 arg="7" /><delay20 /> <anim id="Pardon" target="actor" targetSpec="" />И все равно,
+сложнее ответить!<20_3 arg="7" /><delay20 /> <anim id="Pardon" target="actor" targetSpec="" />И все равно
 <anim id="TakenAback" target="mainNpc" targetSpec="" />хочется попробовать! <anim id="EmotEnd" target="actor" targetSpec="" /><anim id="Blushing" target="actor" targetSpec="" />Впрочем<tag a="110" b="0" /><20_2 arg="3" /><delay frames="60" /><anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak />Кхм, мы поболтали?<anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="actor" targetSpec="" /></message>
-	<message label="008" attrib="00 00 00 00 00 00 00 00">Поболтать? <delay20 />Хм-м-м... Ну<tag a="110" b="0" /> <anim id="IdeaBulb" target="subNpc" targetSpec="" />Я вот
+	<message label="008" attrib="00 00 00 00 00 00 00 00"><20_2 arg="4" />Поболтать? <delay20 />Хм-м-м... Ну<tag a="110" b="0" /> <anim id="IdeaBulb" target="subNpc" targetSpec="" />Я вот
 недавно<20_2 arg="8" /> размышляла <anim id="EmotEnd" target="actor" targetSpec="" />о <anim id="Greeting" target="actor" targetSpec="" />русалках!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Многие считают, что русалки — это
 ламантины, ошибочно принятые<delay8 /> за<anim id="Grin" target="actor" targetSpec="" /><20_2 arg="3" />
 <20_2 arg="6" /><anim id="QuestionMark" target="mainNpc" targetSpec="" /><anim id="Nodding" target="player" targetSpec="" />волшебных существ... <delay20 /><anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="player" targetSpec="" /><20_2 arg="4" /><20_2 arg="5" /><delay8 />Но это не так!<pageBreak /><anim id="AbsentMindedness" target="actor" targetSpec="" />Так хочется встретиться с русалкой.

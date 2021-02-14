@@ -91,23 +91,23 @@ trovarti vicino alla <colour id="1" />base del rilievo<colour id="65535" />.
 <anim id="Smiling" target="actor" targetSpec="" />Quando sei pront<gender2 m="o" f="a" />, potrai vedere
 come apparirà la tua nuova rampa,
 sì, sì.</message>
-	<message label="206" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Bene, bene! <delay20 />O<tag a="110" b="0" /><anim id="QuestionMark" target="actor" targetSpec="" /> anche no?<delay20 /> <anim id="WrySmile" target="actor" targetSpec="" />Al momento non hai abbastanza spazio
+	<message label="206" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Bene, bene! <delay20 />O<tag a="110" b="0" /><anim id="QuestionMark" target="actor" targetSpec="" /> anche no?<delay20 /> <anim id="Thinking" target="actor" targetSpec="" />Al momento non hai abbastanza spazio
 per tenere il kit, <tag a="110" b="1" />.
 <anim id="Smiling" target="actor" targetSpec="" />Per dedicare un'area alla nuova
 rampa ti serve un <colour id="1" />kit progettazione
 rampa<colour id="65535" />.
 <anim id="EmotEnd" target="actor" targetSpec="" />Sì, sì, quindi dovresti essere tanto
-gentile da fare un po' di spazio,<anim id="Smiling" target="actor" targetSpec="" /> e poi
+gentile da fare un po' di spazio<anim id="Smiling" target="actor" targetSpec="" /> e poi
 tornare da me a discuterne.</message>
 	<message label="207" attrib="00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Accipicchia! Hai cambiato idea?<delay frames="40" /> <anim id="EmotEnd" target="actor" targetSpec="" />In
 effetti è un progetto di una certa
 importanza,<delay8 /> <anim id="Smiling" target="actor" targetSpec="" />bisogna pensarci bene.</message>
 	<message label="208" attrib="00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />Uhm<tag a="110" b="0" /> Sembra che siano già state
-costruite <colour id="1" />8<colour id="65535" /> rampe.<delay20 /> Sì, sì,<delay8 /> in pratica
+costruite <colour id="1" />8 rampe<colour id="65535" />.<delay20 /> Sì, sì,<delay8 /> in pratica
 <anim id="Worried" target="actor" targetSpec="" />già il massimo per la nostra isola.
 <anim id="EmotEnd" target="actor" targetSpec="" />Se vuoi costruire una nuova rampa<delay20 />
 <anim id="Smiling" target="actor" targetSpec="" />dovremo prima <colour id="1" />demolire<colour id="65535" /> una di
-quelle esistenti. E poi riparlarne!</message>
+quelle esistenti. <delay8 />E poi riparlarne!</message>
 	<message label="301" attrib="00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Accipicchia!<delay frames="40" /><anim id="Worried" target="actor" targetSpec="" /> Vuoi demolire qualcosa?<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Bene, bene. Io capisco se vuoi
 sfruttare al meglio lo spazio a
 disposizione sull'isola.
@@ -119,7 +119,7 @@ rampe al momento, <delay20 /><anim id="Smiling" target="actor" targetSpec="" />q
 nulla da demolire, sì, sì.
 <anim id="Silent" target="actor" targetSpec="" />Comunque, per tua informazione, i
 ponti e le rampe che demolisci non
-sono recuperabili.<anim id="Smiling" target="actor" targetSpec="" /> Fai attenzione!</message>
+sono recuperabili.<delay frames="40" /><anim id="Smiling" target="actor" targetSpec="" /> Fai attenzione!</message>
 	<message label="303" attrib="02 00 00 00"><anim id="Worried" target="actor" targetSpec="" />I ponti e le rampe che demolisci non
 sono recuperabili!<delay20 /><anim id="EmotEnd" target="actor" targetSpec="" /> Quindi ti prego,
 pensa con molta attenzione, sì, sì.
@@ -199,8 +199,8 @@ la ricerca del punto giusto per
 	<message label="501" attrib="02 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Sì, sì, <delay frames="40" />al momento siamo alle prese con la raccolta dei fondi per <tag a="50" b="1" /><tag a="125" b="0" arg="0x0" />.<pageBreak />Perciò non è il momento di discutere
 di altri cambi<tag a="110" b="0" /> ma <anim id="QuestionMark" target="actor" targetSpec="" />avevi comunque
 qualcosa in mente?</message>
-	<message label="501_a" attrib="00 00 00 00">Rinunciamo.</message>
-	<message label="501_b" attrib="00 00 00 00">No, non importa.</message>
+	<message label="501_a" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Rinunciamo.</message>
+	<message label="501_b" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />No, non importa.</message>
 	<message label="502" attrib="01 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Come dici!?<delay frames="40" /> Vuoi sospendere i lavori di costruzione avviati per <tag a="50" b="1" /><tag a="125" b="0" arg="0x0" />?
 <anim id="Frantic" target="actor" targetSpec="" />Questo significa che tutte le
 donazioni andranno sprecate!<delay20 /><anim id="QuestionMark" target="actor" targetSpec="" /> Sei

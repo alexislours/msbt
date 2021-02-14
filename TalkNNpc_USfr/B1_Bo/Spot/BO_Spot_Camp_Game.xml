@@ -2,7 +2,7 @@
 	<message label="001" attrib="00 00 02 00 00 00 00 00">Dis, dis,<delay20 /><anim id="Hello" target="actor" targetSpec="" /> tu voudrais pas jouer à un
 petit jeu avec moi?<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Si tu gagnes,<delay20 /><anim id="FaintSmile" target="actor" targetSpec="" /> je te donnerai <tag a="50" b="2" /><tag a="125" b="0" arg="0x0" />, <tag a="110" b="6" />!</message>
 	<message label="001_a" attrib="00 00 00 00 00 00 00 00">D'accord!</message>
-	<message label="001_b" attrib="00 00 00 00 00 00 00 00">Une autre fois.</message>
+	<message label="001_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Une autre fois.</message>
 	<message label="002" attrib="00 00 02 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Ouais!<delay20 /> <anim id="FaintSmile" target="actor" targetSpec="" />Alors, on y va!<delay frames="40" /><anim id="Hello" target="actor" targetSpec="" /> Tu veux que
 je t'explique les règles, <tag a="110" b="6" />?</message>
 	<message label="002_a" attrib="00 00 00 00 00 00 00 00">S'il te plaît.</message>
@@ -40,7 +40,7 @@ un symbole différent : <colour id="6" />cœur ♥<colour id="65535" />,
 tu devines son symbole.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Si tu devines juste, tu gagneras
 <tag a="50" b="2" /><tag a="125" b="0" arg="0x0" />!<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Mais si tu te trompes<tag a="110" b="0" /> hmm<tag a="110" b="0" /><delay20 /> eh
 ben<tag a="110" b="0" /><delay20 /> <anim id="IdeaBulb" target="actor" targetSpec="" />Je sais pas! <delay frames="40" /><anim id="NpcShuffle" target="actor" targetSpec="" />C'est parti!</message>
-	<message label="101" attrib="00 00 05 00 00 00 00 00"><anim id="NpcHoldout" target="actor" targetSpec="" />Et voilà! À ton avis, c'est quoi, le
+	<message label="101" attrib="00 00 05 00 00 00 00 00">Et voilà! À ton avis, c'est quoi, le
 symbole sur cette carte? <colour id="6" />Cœur ♥<colour id="65535" />,
 <colour id="6" />carreau ♦<colour id="65535" />, <colour id="7" />pique ♠ <colour id="65535" />ou <colour id="7" />trèfle ♣<colour id="65535" />?</message>
 	<message label="101_a" attrib="00 00 00 00 00 00 00 00"><colour id="6" />Cœur ♥<colour id="65535" />!</message>
@@ -58,7 +58,7 @@ un symbole différent : <colour id="6" />cœur ♥<colour id="65535" />,
 que tu devines la couleur de
 son symbole.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Si tu devines juste, tu gagneras
 <tag a="50" b="2" /><tag a="125" b="0" arg="0x0" />!<pageBreak /><anim id="NpcShuffle" target="actor" targetSpec="" />Alors attentiooooooon<tag a="110" b="0" /> <delay frames="40" />C'est parti!</message>
-	<message label="201" attrib="00 00 01 00 00 00 00 00"><anim id="NpcHoldout" target="actor" targetSpec="" />Tadaaa!<delay frames="50" /><anim id="EmotEnd" target="actor" targetSpec="" /> Alors, à ton avis,<delay8 /><anim id="Pardon" target="actor" targetSpec="" /> est-ce que
+	<message label="201" attrib="00 00 01 00 00 00 00 00">Tadaaa!<delay frames="50" /><anim id="EmotEnd" target="actor" targetSpec="" /> Alors, à ton avis,<delay8 /><anim id="Pardon" target="actor" targetSpec="" /> est-ce que
 cette carte a un symbole <colour id="6" />rouge<colour id="65535" /> <delay20 />ou un
 symbole <colour id="7" />noir<colour id="65535" />?</message>
 	<message label="201_a" attrib="00 00 00 00 00 00 00 00"><colour id="6" />Rouge<colour id="65535" />!</message>

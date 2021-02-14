@@ -9,7 +9,7 @@ onderzoek verrichten, zoals dat heet.</message>
 	<message label="003" attrib="00 00 00 00"><anim id="HappyFlower" target="actor" targetSpec="" />Aha! <delay8 />Hoe heuglijk!<delay20 /> <anim id="SmugFace" target="actor" targetSpec="" />Dankzij jouw
 inspanningen ben ik hier zonder
 veerscheuren aangekomen,<delay8 /> oehoe.
-<anim id="Greeting" target="actor" targetSpec="" />Ik zei wel onderzoek<tag a="110" b="0" /> <anim id="Explain" target="actor" targetSpec="" />Maar ik heb
+<anim id="Greeting" target="actor" targetSpec="" />Ik zei wel "onderzoek"<tag a="110" b="0" /> <anim id="Explain" target="actor" targetSpec="" />Maar ik heb
 het plan opgevat<delay8 /> hier een <colour id="1" />museum <colour id="65535" />
 te openen <anim id="Smiling" target="actor" targetSpec="" />en me hier te vestigen.</message>
 	<message label="004" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Dus <delay8 />mocht je een nieuw soort
@@ -44,15 +44,13 @@ vraagt eenieder zich af? <delay8 />Hmm<tag a="110" b="0" /><pageBreak /><anim id
 een idee dat zo wild is als dit
 ongetemde eiland.
 <anim id="Serious" target="actor" targetSpec="" />Eén moment, <tag a="110" b="1" />, <delay8 />terwijl ik de essentiële gegevens naar je NookPhone stuur<tag a="110" b="0" /></message>
-	<message label="009" attrib="00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />Kijk aan! <delay8 />Met hout dat je op dit eiland kunt vinden, kun je een
-pracht van een <colour id="1" />polsstok <colour id="65535" />maken.
-<anim id="Nodding" target="actor" targetSpec="" />Dat is een stok die bij uitstek
+	<message label="009" attrib="00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />Kijk aan! <delay8 />Met hout dat je op dit
+eiland kunt vinden, kun je een
+pracht van een <colour id="1" />polsstok <colour id="65535" />maken.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Dat is een stok die bij uitstek
 geschikt is om mee over de rivier te
-springen.<delay20 /><anim id="HappyFlower" target="actor" targetSpec="" /> Oehoe-hoe-hupsakee!
-<anim id="Explain" target="actor" targetSpec="" />Ik heb je ook een doe-het-zelfrecept
+springen.<delay20 /><anim id="HappyFlower" target="actor" targetSpec="" /> Oehoe-hoe-hupsakee!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Ik heb je ook een doe-het-zelfrecept
 gestuurd voor een <colour id="1" />schep<colour id="65535" /> om
-<colour id="1" />fossielen<colour id="65535" /> mee op te graven.
-En zo kom ik toch,<delay8 /> uiteindelijk,
+<colour id="1" />fossielen<colour id="65535" /> mee op te graven.<pageBreak />En zo kom ik toch,<delay8 /> uiteindelijk,
 <anim id="Greeting" target="actor" targetSpec="" />tot wat ik wilde zeggen<tag a="110" b="0" /><pageBreak />Mocht je het willen,<delay8 /> <anim id="FaintSmile" target="actor" targetSpec="" />steek dan de
 rivier over en graaf wat <colour id="1" />fossielen <colour id="65535" />
 voor me op!</message>
@@ -156,7 +154,7 @@ accepteren.
 <anim id="FaintSmile" target="actor" targetSpec="" />Ik analyseer echter nog wel
 fossielen.<delay20 /> <anim id="Smiling" target="actor" targetSpec="" />Oehoe! Aarzel niet en
 breng ze naar me toe!</message>
-	<message label="101" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Bedankt voor je bezoek, mijn waarde.</message>
+	<message label="101" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Bedankt voor je bezoek.</message>
 	<message label="102" attrib="02 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />Heb je nog iets te doneren of mocht
 je hulp nodig hebben, laat het me
 weten.<delay20 /><anim id="FaintSmile" target="actor" targetSpec="" /> Ik ben altijd bereid te helpen!</message>
@@ -166,7 +164,7 @@ weten.<delay20 /><anim id="FaintSmile" target="actor" targetSpec="" /> Ik ben al
 je hulp nodig hebben, laat het me
 weten.<delay20 /><anim id="FaintSmile" target="actor" targetSpec="" /> Ik ben altijd bereid te helpen!</message>
 	<message label="103_a" attrib="00 00 00 00">Ik wil een donatie doen.</message>
-	<message label="103_b" attrib="00 00 00 00">Fossielen analyseren.</message>
+	<message label="103_b" attrib="00 00 00 00">Kun je iets analyseren?</message>
 	<message label="103_c" attrib="00 00 00 00">Oké, prima!</message>
 	<message label="111" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Nu behoeven we nog <colour id="1" /><tag a="90" b="1" arg="0x0" /><colour id="65535" /> <50_8 x="0" y="0" a="donaties" b="donatie" c="donaties" />
 om een museum te kunnen openen!<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Het moge duidelijk zijn<delay8 /><anim id="Greeting" target="actor" targetSpec="" /> dat ik met
@@ -207,23 +205,23 @@ ontdekking<anim id="FaintSmile" target="actor" targetSpec="" />, en dat doet ert
 	<message label="151_03" attrib="00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />Hoe het ook zij<tag a="110" b="0" /></message>
 	<message label="152" attrib="00 00 00 00"><anim id="Love" target="actor" targetSpec="" />Kijk nu toch, <delay8 />wat een magistrale
 ontdekking!<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Overweeg alsjeblieft of je die zou willen doneren, mijn waarde,<delay8 /> zodra het museum geopend is.</message>
-	<message label="153" attrib="02 00 00 00"><anim id="Love" target="actor" targetSpec="" />Alle veders, wat een prachtfossiel!<pageBreak /><anim id="Thinking" target="actor" targetSpec="" /><tag a="50" b="19" arg="0x11 0xcd00 0x8 0x44 0x65 0x7a 0x65 0x6 0x44 0x69 0x74 0x8 0x44 0x65 0x7a 0x65" /> <tag a="50" b="23" arg="0xcd03" /><tag a="125" b="0" arg="0x0" /> <tag a="50" b="19" arg="0x11 0xcd00 0x6 0x7a 0x6f 0x75 0x6 0x7a 0x6f 0x75 0xc 0x7a 0x6f 0x75 0x64 0x65 0x6e" /> een stap in de goede richting zijn voor de museumbouw<tag a="110" b="0" /><pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Als ik zo vrij mag zijn, <delay8 /><anim id="QuestionMark" target="actor" targetSpec="" />zou je dit
+	<message label="153" attrib="02 00 00 00"><anim id="Love" target="actor" targetSpec="" />Alle veders, wat een prachtfossiel!<pageBreak /><anim id="Thinking" target="actor" targetSpec="" /><tag a="50" b="19" arg="0x12 0xcd00 0x8 0x44 0x65 0x7a 0x65 0x6 0x44 0x69 0x74 0x8 0x44 0x65 0x7a 0x65" /> <tag a="50" b="23" arg="0xcd03" /><tag a="125" b="0" arg="0x0" /> <tag a="50" b="19" arg="0x12 0xcd00 0x6 0x7a 0x6f 0x75 0x6 0x7a 0x6f 0x75 0xc 0x7a 0x6f 0x75 0x64 0x65 0x6e" /> een stap in de goede richting zijn voor de museumbouw<tag a="110" b="0" /><pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Als ik zo vrij mag zijn, <delay8 /><anim id="QuestionMark" target="actor" targetSpec="" />zou je dit
 fossiel willen doneren voor de
 goede zaak?</message>
-	<message label="153_a" attrib="00 00 00 00">Ik wil het echt!</message>
-	<message label="153_b" attrib="00 00 00 00">Ik heb me bedacht.</message>
+	<message label="153_a" attrib="00 00 00 00">Ik doneer het.</message>
+	<message label="153_b" attrib="00 00 00 00">Ik hou het.</message>
 	<message label="154" attrib="02 00 00 00"><anim id="Love" target="actor" targetSpec="" />Alle veders, wat een prachtfossiel!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />En kijk toch eens, <delay frames="13" />we hebben nog
 maar één donatie nodig voor de
 aanvraag!
-<anim id="HappyDance" target="actor" targetSpec="" /><tag a="50" b="19" arg="0x11 0xcd00 0x8 0x44 0x65 0x7a 0x65 0x6 0x44 0x69 0x74 0x8 0x44 0x65 0x7a 0x65" /> <tag a="50" b="23" arg="0xcd03" /><tag a="125" b="0" arg="0x0" /> <tag a="50" b="19" arg="0x11 0xcd00 0x6 0x7a 0x6f 0x75 0x6 0x7a 0x6f 0x75 0xc 0x7a 0x6f 0x75 0x64 0x65 0x6e" /> de sleutel kunnen zijn tot de opening van ons eigen museum.<pageBreak /><anim id="Serious" target="actor" targetSpec="" />Ik zou je dus willen vragen <anim id="QuestionMark" target="actor" targetSpec="" />of jij
+<anim id="HappyDance" target="actor" targetSpec="" /><tag a="50" b="19" arg="0x12 0xcd00 0x8 0x44 0x65 0x7a 0x65 0x6 0x44 0x69 0x74 0x8 0x44 0x65 0x7a 0x65" /> <tag a="50" b="23" arg="0xcd03" /><tag a="125" b="0" arg="0x0" /> <tag a="50" b="19" arg="0x12 0xcd00 0x6 0x7a 0x6f 0x75 0x6 0x7a 0x6f 0x75 0xc 0x7a 0x6f 0x75 0x64 0x65 0x6e" /> de sleutel kunnen zijn tot de opening van ons eigen museum.<pageBreak /><anim id="Serious" target="actor" targetSpec="" />Ik zou je dus willen vragen <anim id="QuestionMark" target="actor" targetSpec="" />of jij
 me deze fossiele sleutel zou willen
 geven?</message>
-	<message label="154_a" attrib="00 00 00 00">Ik wil het echt!</message>
-	<message label="154_b" attrib="00 00 00 00">Ik heb me bedacht.</message>
-	<message label="155_01" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Oehoe het ook zij<tag a="110" b="0" /><pageBreak /><anim id="Greeting" target="actor" targetSpec="" />Dit is ook van toepassing op het
+	<message label="154_a" attrib="00 00 00 00">Ik doneer het.</message>
+	<message label="154_b" attrib="00 00 00 00">Ik hou het.</message>
+	<message label="155_01" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Oe-hoe het ook zij<tag a="110" b="0" /><pageBreak /><anim id="Greeting" target="actor" targetSpec="" />Dit is ook van toepassing op het
 fossiel dat je deze keer hebt
 meegebracht, maar<tag a="110" b="0" /></message>
-	<message label="155_02" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Oehoe het ook zij<tag a="110" b="0" /><pageBreak /><anim id="Greeting" target="actor" targetSpec="" />Het fossiel dat je hebt meegebracht
+	<message label="155_02" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Oe-hoe het ook zij<tag a="110" b="0" /><pageBreak /><anim id="Greeting" target="actor" targetSpec="" />Het fossiel dat je hebt meegebracht
 is al geanalyseerd, maar<tag a="110" b="0" /></message>
 	<message label="156" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" /><tag a="110" b="0" />alleen een specialist als ik kan pas
 ontdekte fossielen <colour id="1" />analyseren <colour id="65535" />en
@@ -235,8 +233,8 @@ ze dan vooral aan mij zien<tag a="110" b="0" />
 mijn waarde. <delay20 />Hoe dan ook,<delay8 /><anim id="Smiling" target="actor" targetSpec="" /> ik zal ze
 graag van een analyse voorzien.</message>
 	<message label="161" attrib="02 00 00 00">Trouwens,<delay8 /> <anim id="Hello" target="actor" targetSpec="" />heb je wellicht nog iets bij
-je wat je zou kunnen doneren, <delay8 /><anim id="QuestionMark" target="actor" targetSpec="" />en zou
-ik dat dan van je mogen hebben?</message>
+je wat je zou kunnen doneren? <delay8 /><anim id="QuestionMark" target="actor" targetSpec="" />En
+zou ik dat dan van je mogen hebben?</message>
 	<message label="161_a" attrib="00 00 00 00">Ja, ik heb wel iets!</message>
 	<message label="161_b" attrib="00 00 00 00">Liever volgende keer.</message>
 	<message label="162" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Zoals je wilt, mijn waarde.<delay8 /> Je bent
@@ -251,20 +249,20 @@ bereiken<tag a="110" b="0" /><delay20 /><anim id="BigSmile" target="actor" targe
 generositeit!<delay frames="13" /> Passie!<delay20 /> <anim id="Love" target="actor" targetSpec="" />Ik ben <tag a="110" b="8" /> zo dankbaar.<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Nu kunnen we de aanvraag voor
 een echt museum indienen!<pageBreak /><anim id="Eh" target="actor" targetSpec="" />O!<delay8 /> O, hoe!<delay8 /><anim id="Frantic" target="actor" targetSpec="" /> Ik moet me met gezwinde
 spoed voorbereiden op de opening!
-Er is zoveel te regelen! Oe-hoe-hoe!
+Er is zoveel te regelen! Oehoehoe!
 <anim id="Smiling" target="actor" targetSpec="" />Mijn grote dank, <tag a="110" b="1" />!</message>
 	<message label="191_02" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Eindelijk kunnen we de aanvraag
 voor een echt museum indienen!<pageBreak /><anim id="Eh" target="actor" targetSpec="" />O!<delay8 /> O, hoe!<delay8 /><anim id="Frantic" target="actor" targetSpec="" /> Ik moet me met gezwinde
 spoed voorbereiden op de opening!
-Er is zoveel te regelen! Oe-hoe-hoe!
+Er is zoveel te regelen! Oehoehoe!
 <anim id="Smiling" target="actor" targetSpec="" />Mijn grote dank, <tag a="110" b="1" />!</message>
 	<message label="192" attrib="02 00 00 00"><anim id="Explain" target="actor" targetSpec="" />De voorbereidingen voor de bouw
 van het museum zijn in volle gang,
 dus ik accepteer nu geen donaties.
 <anim id="FaintSmile" target="actor" targetSpec="" />Hoewel verzoeken voor de analyse
 van fossielen altijd welkom zijn!</message>
-	<message label="192_a" attrib="00 00 00 00">Fossielen analyseren.</message>
-	<message label="192_b" attrib="00 00 00 00">Het is al goed.</message>
+	<message label="192_a" attrib="00 00 00 00">Kun je iets analyseren?</message>
+	<message label="192_b" attrib="00 00 00 00">Nee, hoor.</message>
 	<message label="193" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Ik accepteer geen nieuwe donaties
 tot het museum is afgebouwd<tag a="110" b="0" /><pageBreak /><anim id="Greeting" target="actor" targetSpec="" />Let wel,<delay8 /> fossielen analyseer ik nog
 steeds met enthousiasme, <delay20 /><anim id="Smiling" target="actor" targetSpec="" />dus laat
@@ -295,7 +293,7 @@ je ons zult blijven steunen!</message>
 	<message label="201" attrib="00 00 00 00"><anim id="Hello" target="actor" targetSpec="" />Hi, ha, oehoe en hallo!<delay20 />
 <anim id="Smiling" target="actor" targetSpec="" />Welkom op <tag a="110" b="8" />!<pageBreak /><anim id="Greeting" target="actor" targetSpec="" />We zijn hard aan het werk om een
 museum op te zetten op dit eiland.<delay20 />
-<anim id="Aha" target="actor" targetSpec="" />Oehoe, 't is heus!
+<anim id="Aha" target="actor" targetSpec="" />Oehoe, het is heus!
 <anim id="Explain" target="actor" targetSpec="" />Om dat te bewerkstelligen<delay8 /> zijn we
 in het plaatselijke ecosysteem op
 zoek naar belangrijke vondsten.

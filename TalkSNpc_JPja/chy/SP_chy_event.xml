@@ -130,7 +130,7 @@
 	<message label="029_a" attrib="00 00 00 00"><ruby a="4" b="8">たいかい</ruby>大会に<ruby a="4" b="6">さんか</ruby>参加する</message>
 	<message label="029_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" /><ruby a="4" b="6">さんか</ruby>参加しない</message>
 	<message label="030" attrib="02 00 00 00">さっそく、<anim id="QuestionMark" target="actor" targetSpec="" /><colour id="1" />ムシとり<ruby a="4" b="8">たいかい</ruby>大会<colour id="65535" />に　<ruby a="4" b="6">さんか</ruby>参加するか？<delay frames="50" />
-<anim id="EmotEnd" target="actor" targetSpec="" /><ruby a="4" b="8">しょかい</ruby>初回は　<ruby a="6" b="8">さんかひ</ruby>参加費　なしでいいぞ</message>
+<anim id="EmotEnd" target="actor" targetSpec="" /><ruby a="6" b="10">きょうはじ</ruby>今日初めての<ruby a="2" b="4">ひと</ruby>人は　<ruby a="6" b="8">さんかひ</ruby>参加費　なしでいいぞ</message>
 	<message label="030_a" attrib="00 00 00 00"><ruby a="4" b="8">たいかい</ruby>大会に<ruby a="4" b="6">さんか</ruby>参加する</message>
 	<message label="030_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" /><ruby a="4" b="6">さんか</ruby>参加しない</message>
 	<message label="031" attrib="00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />やぁ、<colour id="1" /><delay8 />ムシとり<ruby a="4" b="8">たいかい</ruby>大会<colour id="65535" />　<ruby a="6" b="14">かいさいちゅう</ruby>開催中だぞ！<delay frames="40" />
@@ -212,7 +212,7 @@
 させてもらってるんだが<tag a="110" b="0" /></message>
 	<message label="049_a" attrib="00 00 00 00">ムシを<ruby a="2" b="2">う</ruby>売りたい</message>
 	<message label="049_b" attrib="00 00 00 00">ポイント<ruby a="4" b="8">こうかん</ruby>交換して</message>
-	<message label="049_c" attrib="00 00 00 00"><ruby a="2" b="4">ほか</ruby>他のこと</message>
+	<message label="049_c" attrib="00 00 00 00"><ruby a="4" b="8">たいかい</ruby>大会のこと</message>
 	<message label="049_d" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />なんでもない</message>
 	<message label="050" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />そうなのか！<delay frames="30" />
 <colour id="5" />ゴクリ<tag a="110" b="0" /><colour id="65535" /><delay frames="40" />
@@ -250,9 +250,16 @@
 <anim id="Silent" target="actor" targetSpec="" />キミ<delay8 />　あみを<ruby a="2" b="2">も</ruby>持ってないようだな<pageBreak /><anim id="Negative" target="actor" targetSpec="" />ムシとりは　<ruby a="4" b="4">すで</ruby>素手じゃムリだ<delay frames="30" />
 <anim id="Serious" target="actor" targetSpec="" />あみがないことには　<ruby a="2" b="4">はじ</ruby>始まらないぞ</message>
 	<message label="061" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />ムム<tag a="110" b="0" /><delay20 />
-<anim id="Silent" target="actor" targetSpec="" />お<ruby a="2" b="4">かね</ruby>金が<ruby a="2" b="2">た</ruby>足りないみたいだな<pageBreak /><anim id="ShyBoy" target="actor" targetSpec="" />すまないが　2<ruby a="8" b="12">かいめいこう</ruby>回目以降の<ruby a="4" b="6">さんか</ruby>参加は、<delay20 />
-1<ruby a="2" b="4">かい</ruby>回につき　<colour id="1" /><tag a="90" b="21" arg="0x2" /><colour id="65535" />　もらってるんだ</message>
-	<message label="062" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" /><tag a="110" b="0" /><ruby a="2" b="4">さき</ruby>先に　<ruby a="6" b="8">さんかひ</ruby>参加費　<colour id="1" /><tag a="90" b="21" arg="0x2" /><colour id="65535" />もらうぞ</message>
+<anim id="Silent" target="actor" targetSpec="" />お<ruby a="2" b="4">かね</ruby>金が<ruby a="2" b="2">た</ruby>足りないみたいだな<pageBreak /><anim id="ShyBoy" target="actor" targetSpec="" />すまないが<delay20 />　<colour id="1" /><tag a="90" b="21" arg="0x2" /><colour id="65535" /><ruby a="4" b="6">ようい</ruby>用意できたら<delay8 />
+また<delay8 />　<ruby a="2" b="4">こえ</ruby>声をかけてくれ</message>
+	<message label="062" attrib="02 00 00 00"><anim id="Aha" target="actor" targetSpec="" />お<tag a="110" b="0" />　そうかい！<delay40 />
+<anim id="FaintSmile" target="actor" targetSpec="" /><ruby a="4" b="8">かんげい</ruby>歓迎するぞ！<pageBreak /><anim id="ShyBoy" target="actor" targetSpec="" />2<ruby a="4" b="6">かいめ</ruby>回目<ruby a="4" b="6">いこう</ruby>以降の<ruby a="4" b="6">さんか</ruby>参加は<delay8 />
+1<ruby a="2" b="4">かい</ruby>回につき　<colour id="1" /><tag a="90" b="21" arg="0x2" /><colour id="65535" />もらうけど、<delay frames="30" />
+<anim id="Hello" target="actor" targetSpec="" />それでも　いいかな？</message>
+	<message label="062_a" attrib="00 00 00 00">もちろん！</message>
+	<message label="062_b" attrib="00 00 00 00">やっぱりやめとく</message>
+	<message label="062_01" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />うむ<tag a="110" b="0" /><delay20 />
+<anim id="Silent" target="actor" targetSpec="" />では<ruby a="6" b="8">さんかひ</ruby>参加費として<delay8 />　<colour id="1" /><tag a="90" b="21" arg="0x2" /><colour id="65535" />もらうぞ</message>
 	<message label="063" attrib="00 00 00 00">それじゃ<tag a="110" b="0" />　<anim id="Serious" target="actor" targetSpec="" /><ruby a="2" b="4">いま</ruby>今から　<colour id="1" /><tag a="90" b="0" arg="0xe" /><tag a="50" b="11" /><colour id="65535" /><ruby a="2" b="4">はか</ruby>計るからな<delay frames="40" /><anim id="Nodding" target="actor" targetSpec="" />
 どんなムシでもいいから<delay20 />
 とにかく　たくさん　つかまえるんだ！<pageBreak /><anim id="Explain" target="actor" targetSpec="" /><colour id="1" /><tag a="90" b="1" arg="0x4" /><tag a="50" b="13" /><ruby a="4" b="8">いじょう</ruby>以上<colour id="65535" />で　ボーナスポイントもつくから<delay20 />
@@ -453,6 +460,28 @@
 <anim id="Serious" target="actor" targetSpec="" />チャレンジボーナスが　<ruby a="4" b="6">ついか</ruby>追加される！<pageBreak /><anim id="Explain" target="actor" targetSpec="" />キミが　つかまえた　ムシの<ruby a="2" b="4">かず</ruby>数は<delay20 /><colour id="1" />　<tag a="90" b="1" arg="0x8" /><tag a="50" b="13" /><colour id="65535" />だから<delay20 />
 これに　<ruby a="4" b="8">かくしゅ</ruby>各種ボーナスを<ruby a="4" b="6">かさん</ruby>加算すると<tag a="110" b="0" /><10_4 />
 <anim id="Shocked" target="actor" targetSpec="" />すごいぞ！<delay frames="30" />　<anim id="BigSmile" target="actor" targetSpec="" /><ruby a="4" b="6">ぜんぶ</ruby>全部で　<colour id="1" /><tag a="90" b="2" arg="0x7" />ポイント<colour id="65535" /><ruby a="4" b="8">かくとく</ruby>獲得だ！<delay20 /><anim id="EmotEnd" target="actor" targetSpec="" /></message>
+	<message label="151" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />ふむふむ、<delay20 /><colour id="1" />ムシかご<colour id="65535" />に<ruby a="2" b="4">はい</ruby>入った
+ムシの<ruby a="2" b="4">かず</ruby>数は<delay20 />　<ruby a="4" b="6">ぜんぶ</ruby>全部で<colour id="1" /><tag a="90" b="1" arg="0x8" /><tag a="50" b="13" /><colour id="65535" /><tag a="110" b="0" />
+<anim id="FaintSmile" target="actor" targetSpec="" />う～ん　<ruby a="4" b="4">すば</ruby>素晴らしいペースだ！<pageBreak /><anim id="Serious" target="actor" targetSpec="" /><ruby a="4" b="8">とちゅう</ruby>途中で　ムシかごに　<ruby a="2" b="4">はい</ruby>入りきらなくなったから<delay20 />
+<anim id="SmugFace" target="actor" targetSpec="" />20<ruby a="2" b="4">ぴき</ruby>匹を<ruby a="2" b="2">こ</ruby>超えた<ruby a="2" b="4">ぶん</ruby>分は<delay8 />　<ruby a="4" b="6">かって</ruby>勝手ながら<delay20 />
+<ruby a="2" b="2">ひ</ruby>引き<ruby a="2" b="2">と</ruby>取らせてもらったよ<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />これも<ruby a="2" b="2">よ</ruby>世のため　ムシのため<tag a="110" b="0" /><delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" /><ruby a="4" b="6">こんご</ruby>今後の<ruby a="4" b="8">かつどう</ruby>活動のための　チャリティだと<ruby a="2" b="4">おも</ruby>思って
+どうか　<ruby a="4" b="12">りょうしょう</ruby>了承してほしい<pageBreak /><anim id="Eh" target="actor" targetSpec="" />あ、<delay8 />もちろん　ポイントはつくからね！<delay frames="40" />
+<anim id="Thinking" target="actor" targetSpec="" /><ruby a="4" b="6">きほん</ruby>基本の　<colour id="1" /><tag a="90" b="1" arg="0x8" />ポイント<colour id="65535" />に<ruby a="2" b="4">くわ</ruby>加え、<delay20 />
+<colour id="1" /><tag a="90" b="1" arg="0x4" /><tag a="50" b="13" /><ruby a="4" b="8">いじょう</ruby>以上<colour id="65535" />だから　ボーナスも<ruby a="4" b="6">かさん</ruby>加算して<tag a="110" b="0" /><pageBreak /><anim id="Silent" target="actor" targetSpec="" /><ruby a="4" b="6">ぜんぶ</ruby>全部で　<colour id="1" /><tag a="90" b="2" arg="0x7" />ポイント<colour id="65535" /><ruby a="4" b="8">かくとく</ruby>獲得だ！
+</message>
+	<message label="152" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />ふむふむ、<delay20 /><colour id="1" />ムシかご<colour id="65535" />に<ruby a="2" b="4">はい</ruby>入った
+ムシの<ruby a="2" b="4">かず</ruby>数は<delay20 />　<ruby a="4" b="6">ぜんぶ</ruby>全部で<colour id="1" /><tag a="90" b="1" arg="0x8" /><tag a="50" b="13" /><colour id="65535" /><tag a="110" b="0" />
+<anim id="FaintSmile" target="actor" targetSpec="" />う～ん　<ruby a="4" b="4">すば</ruby>素晴らしいペースだ！<pageBreak /><anim id="Serious" target="actor" targetSpec="" /><ruby a="4" b="8">とちゅう</ruby>途中で　ムシかごに　<ruby a="2" b="4">はい</ruby>入りきらなくなったから<delay20 />
+<anim id="SmugFace" target="actor" targetSpec="" />20<ruby a="2" b="4">ぴき</ruby>匹を<ruby a="2" b="2">こ</ruby>超えた<ruby a="2" b="4">ぶん</ruby>分は<delay8 />　<ruby a="4" b="6">かって</ruby>勝手ながら<delay20 />
+<ruby a="2" b="2">ひ</ruby>引き<ruby a="2" b="2">と</ruby>取らせてもらったよ<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />これも<ruby a="2" b="2">よ</ruby>世のため　ムシのため<tag a="110" b="0" /><delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" /><ruby a="4" b="6">こんご</ruby>今後の<ruby a="4" b="8">かつどう</ruby>活動のための　チャリティだと<ruby a="2" b="4">おも</ruby>思って
+どうか　<ruby a="4" b="12">りょうしょう</ruby>了承してほしい<pageBreak /><anim id="Eh" target="actor" targetSpec="" />あ、もちろん　ポイントは
+つかまえたムシの　<ruby a="2" b="4">かず</ruby>数に<ruby a="2" b="4">おう</ruby>応じてつくぞ！<pageBreak /><anim id="Nodding" target="actor" targetSpec="" /><ruby a="4" b="6">きほん</ruby>基本の　<colour id="1" /><tag a="90" b="1" arg="0x8" />ポイント<colour id="65535" />に<ruby a="2" b="4">くわ</ruby>加え、<delay20 />
+<colour id="1" /><tag a="90" b="1" arg="0x4" /><tag a="50" b="13" /><ruby a="4" b="8">いじょう</ruby>以上<colour id="65535" />だから　ボーナス<ruby a="4" b="8">はっせい</ruby>発生だな<pageBreak /><anim id="Thinking" target="actor" targetSpec="" />と、すると<delay20 />　<ruby a="4" b="8">こんかい</ruby>今回の<ruby a="6" b="10">さんかしゃ</ruby>参加者が
+つかまえたムシの　<ruby a="4" b="8">ごうけい</ruby>合計は<colour id="1" /><tag a="90" b="2" arg="0x9" /><tag a="50" b="13" /><colour id="65535" />か<tag a="110" b="0" /><pageBreak /><colour id="1" /><anim id="FaintSmile" target="actor" targetSpec="" /><tag a="90" b="1" arg="0xa" /><tag a="50" b="13" /><ruby a="4" b="8">いじょう</ruby>以上<colour id="65535" />だから<delay20 /><anim id="Serious" target="actor" targetSpec="" />　<ruby a="4" b="12">きょうりょく</ruby>協力ボーナスも<ruby a="2" b="4">はい</ruby>入る！<delay frames="40" />
+<anim id="Silent" target="actor" targetSpec="" />つまり、<ruby a="4" b="6">ぜんぶ</ruby>全部で　<colour id="1" /><tag a="90" b="2" arg="0x7" />ポイント<colour id="65535" /><ruby a="4" b="8">かくとく</ruby>獲得だ！
+</message>
 	<message label="160" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />キミが<ruby a="4" b="6">さんか</ruby>参加したチャレンジの　<colour id="1" />ムシかご<colour id="65535" />は<delay20 />
 そこのテントの<ruby a="2" b="4">した</ruby>下に　あるぞ<pageBreak /><anim id="Explain" target="actor" targetSpec="" /><ruby a="4" b="6">てつだ</ruby>手伝ってくれた<ruby a="2" b="4">ひと</ruby>人が　つかまえたムシも<delay8 />
 <ruby a="4" b="6">ぜんぶ</ruby>全部　<ruby a="4" b="8">いっしょ</ruby>一緒に<ruby a="2" b="4">はい</ruby>入ってるから<delay20 />　<ruby a="4" b="8">かくにん</ruby>確認してくれ<pageBreak /><anim id="Eh" target="actor" targetSpec="" />あっ、<delay8 />いらなかったら　もちろん<ruby a="4" b="6">ぜんぶ</ruby>全部<delay20 />
@@ -512,7 +541,7 @@
 <anim id="Nodding" target="actor" targetSpec="" /><ruby a="4" b="6">きょう</ruby>今日は　ムシの<ruby a="4" b="8">さいてん</ruby>祭典、<colour id="1" />ムシとり<ruby a="4" b="8">たいかい</ruby>大会<colour id="65535" />だ！<pageBreak /><colour id="1" /><anim id="EmotEnd" target="actor" targetSpec="" /><tag a="110" b="21" arg="0xcd00" /><tag a="90" b="37" arg="0xcd00" /><ruby a="2" b="2">じ</ruby>時<colour id="65535" />から　<ruby a="2" b="2">う</ruby>受け<ruby a="2" b="2">つ</ruby>付けを　<ruby a="2" b="4">はじ</ruby>始めるから、<delay frames="30" />
 <anim id="FaintSmile" target="actor" targetSpec="" />ムシたちの　<ruby a="4" b="6">いぶき</ruby>息吹を<delay20 />
 <anim id="Silent" target="actor" targetSpec="" /><ruby a="2" b="6">からだ</ruby>体いっぱいに　<ruby a="2" b="4">かん</ruby>感じてくれ！</message>
-	<message label="170" attrib="00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />う～ん、<delay20 /><ruby a="4" b="6">きょう</ruby>今日の　<colour id="1" />ムシとり<ruby a="4" b="8">たいかい</ruby>大会<colour id="65535" />は<delay40 />
+	<message label="170" attrib="00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />う～ん、<delay20 /><ruby a="4" b="8">こんかい</ruby>今回の　<colour id="1" />ムシとり<ruby a="4" b="8">たいかい</ruby>大会<colour id="65535" />は<delay40 />
 <anim id="Nodding" target="actor" targetSpec="" /><ruby a="2" b="4">われ</ruby>我ながら<delay8 />　すばらしい　ムシの<ruby a="4" b="8">さいてん</ruby>祭典だったな</message>
 	<message label="171" attrib="06 00 00 00"><anim id="Eh" target="actor" targetSpec="" />やぁ、<ruby a="4" b="8">ちょうし</ruby>調子はどう？<delay40 />
 <colour id="1" /><anim id="Nodding" target="actor" targetSpec="" />ムシとり<ruby a="4" b="8">たいかい</ruby>大会<colour id="65535" />、<delay frames="30" />メインでの<ruby a="4" b="6">さんか</ruby>参加が

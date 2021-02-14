@@ -5,7 +5,7 @@ Quel fruit est la spécialité
 	<message label="001_a" attrib="04 00 00 00 00 00 00 00">Oh! Euh... Celui-là!</message>
 	<message label="001_b" attrib="05 00 00 00 00 00 00 00">Un de ceux-là?</message>
 	<message label="002" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="23" arg="0xd 0xe 0xf 0xffff" /></message>
-	<message label="003" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x10 0x11 0xffff 0xffff" /></message>
+	<message label="003" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x1 0x10 0x11 0x12" /></message>
 	<message label="004" attrib="00 00 00 00 00 00 00 00"><anim id="Scheming" target="actor" targetSpec="" />T'as gagné cette manche. <delay20 /><anim id="Explain" target="actor" targetSpec="" />Tout juste,
 les <tag a="110" b="7" arg="0xcd01" />. <delay20 />Oublie pas d'en acheter
 quelques-unes, <tag a="110" b="6" />!</message>
@@ -38,10 +38,11 @@ bonheur dans tous ces articles!</message>
 	<message label="016" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Notre <colour id="1" />musée <colour id="65535" />va être super!
 Y'a encore du boulot pour l'moment,
 mais un jour<tag a="110" b="0" /><anim id="BigSmile" target="actor" targetSpec="" /> Ouais, un jour!</message>
-	<message label="017" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="2" arg="0x15 0x16 0x17 0x19" /></message>
+	<message label="017" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="3" arg="0x15 0x16 0x17 0x18 0x19" /></message>
 	<message label="021" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1c00 0x1900 0xcd00" /></message>
 	<message label="022" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1d01 0x1900 0xcd00" /></message>
 	<message label="023" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1e02 0x1900 0xcd00" /></message>
+	<message label="024" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1f03 0x1900 0xcd00" /></message>
 	<message label="025" attrib="00 00 00 00 00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />Quitte pas l'île sans visiter l'<colour id="1" />musée<colour id="65535" />,
 c'est la fierté du coin!<pageBreak /><anim id="BigSmile" target="actor" targetSpec="" />Rien qu'en s'promenant autour, on
 s'sent plus cultivé. Et puis la façade
@@ -53,41 +54,34 @@ est parfaite pour s'prendre en photo.</message>
 	<message label="030" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />T'as pas intérêt à mettre les voiles
 sans être passé<gender2 m="" f="e" /> au <colour id="1" />musée<colour id="65535" /> voir
 <tag a="50" b="1" /><tag a="135" b="13" arg="0x2" />!</message>
-	<message label="101" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="0" arg="0x66 0x69" /></message>
-	<message label="102" attrib="00 00 01 00 00 00 00 00"><anim id="WrySmile" target="actor" targetSpec="" />J'vois qu'tu peux plus t'passer de
-nous. <delay20 /><anim id="Smiling" target="actor" targetSpec="" />Mais c'est <tag a="110" b="8" />
-qui t'manquait, ou moi?</message>
-	<message label="102_a" attrib="67 00 00 00 00 00 00 00">Toi, bien sûr!</message>
-	<message label="102_b" attrib="68 00 00 00 00 00 00 00">C'est l'île.</message>
-	<message label="103" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Sans blague?<delay20 /> Tu sais, j'disais ça
-pour rigoler<tag a="110" b="0" /> <anim id="Blushing" target="actor" targetSpec="" />mais ouah, ça m'fait
-plaiz!
-<anim id="Nodding" target="actor" targetSpec="" />Si t'as besoin d'une bricole ou
+	<message label="201" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="0" arg="0xca 0xd2" /></message>
+	<message label="202" attrib="00 00 01 00 00 00 00 00"><anim id="WrySmile" target="actor" targetSpec="" />Tiens,<delay20 /> comme on s'retrouve!<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />T'es venu<gender2 m="" f="e" /> visiter <tag a="110" b="8" />, ou t'es venu<gender2 m="" f="e" /> exprès pour me voir?</message>
+	<message label="202_a" attrib="cb 00 00 00 00 00 00 00">Je suis venu<gender2 m="" f="e" /> te voir!</message>
+	<message label="202_b" attrib="cc 00 00 00 00 00 00 00">Je viens voir l'île!</message>
+	<message label="203" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Pour vrai?<delay20 /> Tu sais, j'disais ça
+pour te niaiser<tag a="110" b="0" /> <anim id="Blushing" target="actor" targetSpec="" />mais waouh,
+ça m'fait super plaisir!
+<anim id="Nodding" target="actor" targetSpec="" />Si t'as besoin d'une patente ou
 d'un coup d'patte, fais-moi signe
 et j'débarquerai dans la seconde.</message>
-	<message label="104" attrib="00 00 00 00 00 00 00 00"><anim id="TakenAback" target="actor" targetSpec="" />Hé!<delay20 /> On t'a jamais appris à mentir,
+	<message label="204" attrib="00 00 00 00 00 00 00 00"><anim id="TakenAback" target="actor" targetSpec="" />Hé!<delay20 /> On t'a jamais appris à mentir,
 ou quoi?<delay20 /> <anim id="Angry" target="actor" targetSpec="" />T'étais censé<gender2 m="" f="e" /> dire
-qu'c'était moi, <tag a="110" b="6" />!
-<anim id="FaintSmile" target="actor" targetSpec="" />C'est vrai <gender4 m="que " f="qu'" />⁠<tag a="110" b="8" />
-est super sympa, ceci dit. <delay20 /><anim id="Nodding" target="actor" targetSpec="" />En tout
-cas, tu manques à tout l'monde ici.</message>
-	<message label="105" attrib="6a 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Oh, mais c'est <tag a="110" b="3" />!<delay20 />
-<anim id="QuestionMark" target="actor" targetSpec="" />Comment ça va? <delay20 />Ton nouveau
-quartier te plaît?</message>
-	<message label="106" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
-	<message label="106_01" attrib="00 00 00 00 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Tu t'es fait des copains parmi tes
-voisins?<delay20 /> <anim id="Aha" target="actor" targetSpec="" />Quelle question, bien
-sûr qu'ils t'adorent tous!
-<anim id="Nodding" target="actor" targetSpec="" />T'as juste à pointer ta p'tite face
+qu't'étais là pour moi, <tag a="110" b="6" />!
+<anim id="FaintSmile" target="actor" targetSpec="" />C'est vrai <gender4 m="que " f="qu'⁠" /><tag a="110" b="8" />, c'est l'paradis, ceci dit. <delay20 /><anim id="Hello" target="actor" targetSpec="" />C'est cool d'être passé<gender2 m="" f="e" /> dans le coin.</message>
+	<message label="210" attrib="d3 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="110" b="3" />! <delay20 /><anim id="Nodding" target="actor" targetSpec="" />Ça va? <delay20 />Tout se passe bien à <tag a="110" b="9" />?</message>
+	<message label="211" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
+	<message label="211_01" attrib="00 00 00 00 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Tu t'entends toujours aussi bien avec
+toute la gang?<delay20 /> <anim id="Aha" target="actor" targetSpec="" />Bah, pour ça, j'te fais
+confiance!
+<anim id="Nodding" target="actor" targetSpec="" />T'as juste à montrer ta p'tite face
 et tout l'monde est sous l'charme!<delay20 />
 C'est l'effet <tag a="110" b="3" />!</message>
-	<message label="106_02" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />T'as planté des fleurettes là-bas?<delay20 />
-<anim id="EmotEnd" target="actor" targetSpec="" />Traite-les bien, et elles te l'rendront
-au centuple, <tag a="110" b="6" />!</message>
-	<message label="106_03" attrib="00 00 00 00 00 00 00 00"><anim id="Hello" target="actor" targetSpec="" />Y'a des insectes ou d'la poiscaille
-bizarre par là-bas? <delay20 /><anim id="Thinking" target="actor" targetSpec="" />J'parie qu'y'a des
-bestioles qu'on a jamais vues ici<tag a="110" b="0" />
-<anim id="WrySmile" target="actor" targetSpec="" />J'te vois bien t'balader et ouvrir des
-soucoupes énormes d'vant chaque
-bébête<tag a="110" b="0" /> <anim id="Grin" target="actor" targetSpec="" />C'est tout à fait toi!</message>
+	<message label="211_02" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />T'as planté des nouvelles fleurettes
+là-bas?<delay20 /> <anim id="EmotEnd" target="actor" targetSpec="" />Traite-les bien, et elles te
+l'rendront au centuple!</message>
+	<message label="211_03" attrib="00 00 00 00 00 00 00 00">Moi, j'ai vraiment du fun ici<tag a="110" b="0" /><delay20 /><anim id="Serious" target="actor" targetSpec="" /> mais
+j'te cacherai pas qu'il m'arrive de
+repenser au bon vieux temps.<pageBreak /><anim id="ShyBoy" target="actor" targetSpec="" />Un d'ces jours, j'aimerais bien aller
+vous dire un p'tit bonjour pour voir
+c'qui a changé, <tag a="110" b="6" /><tag a="110" b="0" /></message>
 </msbt>

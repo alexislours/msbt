@@ -119,13 +119,14 @@ algunas bayas si los vendes.
 de ganar millas es con la <colour id="1" />jardinería<colour id="65535" />.<pageBreak /><anim id="Cheering" target="actor" targetSpec="" />¡Sí, sí!<delay8 /> Las plantas son buenas
 para la isla,<delay8 /> ¡y para tu cartera
 de millas!</message>
-	<message label="107_09" attrib="00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />Si quieres que te dé alguna idea
-para conseguir millas<tag a="110" b="0" /><pageBreak /><anim id="IdeaBulb" target="actor" targetSpec="" />Puedes ir de compras,<delay8 /> por ejemplo.<delay20 />
-<anim id="Nodding" target="actor" targetSpec="" />Ya sea en la tienda o a través
-de <colour id="1" />TeleNook<colour id="65535" />.
-<anim id="HappyFlower" target="actor" targetSpec="" />Y estás de suerte porque,<delay8 /> si lo haces
-ahora, ganarás unas millas extras<tag a="110" b="0" /><delay8 />
-<anim id="BigSmile" target="actor" targetSpec="" />¡pero solo esta vez!</message>
+	<message label="107_09" attrib="00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />Si quieres conseguir millas,<delay8 /> puedes ir
+<anim id="Nodding" target="actor" targetSpec="" />de compras,<delay8 /> por ejemplo.<delay20 /> Ya sea en
+la tienda o a través de <colour id="1" />TeleNook<colour id="65535" />.
+<anim id="HappyFlower" target="actor" targetSpec="" />Y estás de suerte,<delay8 /> porque tenemos
+una promoción por la cual<anim id="Explain" target="actor" targetSpec="" /> también
+ganarás millas al vender tus cosas.
+Es una oportunidad única,<delay8 />
+<anim id="BigSmile" target="actor" targetSpec="" />¡no la desaproveches!</message>
 	<message label="108" attrib="00 00 00 00"><tag a="60" b="20" /></message>
 	<message label="108_01" attrib="00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />Pues como ya has pagado
 el préstamo,<delay8 /> <anim id="IdeaBulb" target="actor" targetSpec="" />¡podrías considerar
@@ -163,30 +164,30 @@ que no se pueden usar sin tienda<tag a="110" b="0" />
 hablarte sobre la tienda de <colour id="3" />Tendo<colour id="65535" />.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Bueno, en realidad es mejor que
 te lo explique él directamente,<delay8 />
 si tienes un momento.</message>
-	<message label="140" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Por cierto, gracias por ayudar
-a reunir esos materiales para
-la tienda, <tag a="110" b="1" />.</message>
-	<message label="140_01" attrib="00 00 00 00">Dicho eso, <anim id="Nodding" target="actor" targetSpec="" />quizá te interesaría
-comprar el <colour id="1" />hacha endeble<colour id="65535" /> que
-hemos puesto a la venta.
-<anim id="Thinking" target="actor" targetSpec="" />Aunque reconozco que es
-un poco cara.<delay20 /> También puedes
-fabricarte una, si lo prefieres.
+	<message label="140" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Bueno,<delay8 /> contamos contigo para reunir
+todos los materiales necesarios para
+la tienda<tag a="110" b="0" /></message>
+	<message label="140_01" attrib="00 00 00 00">Hablando de ese tema,<delay8 /> <anim id="Nodding" target="actor" targetSpec="" />quizá te
+interesaría comprar el <colour id="1" />hacha endeble<colour id="65535" />
+que hemos puesto a la venta.
+<anim id="Thinking" target="actor" targetSpec="" />Aunque reconozco que es un
+poco cara<tag a="110" b="0" /><delay20 /> <anim id="OhGeez" target="actor" targetSpec="" />También te puedes
+fabricar una,<delay8 /> si lo prefieres.
 <anim id="Smiling" target="actor" targetSpec="" />Consigue <colour id="1" />ramas <colour id="65535" />sacudiendo árboles,
 y <colour id="1" />piedras <colour id="65535" />golpeando rocas con
 la <colour id="1" />pala<colour id="65535" />.
 <anim id="BigSmile" target="actor" targetSpec="" />Con esos materiales podrás
-fabricarte un <colour id="1" />hacha <colour id="65535" />la mar de
-apañada, sí, sí.</message>
+fabricarte un <colour id="1" />hacha <colour id="65535" />la mar
+de apañada,<delay8 /> sí, sí.</message>
 	<message label="140_02" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />¡Ah, sí! Quería darte esta <colour id="1" />piedra<colour id="65535" /> que
 he recogido cuando daba un paseo.<delay20 />
 Quizá te sea de utilidad.</message>
 	<message label="140_03" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Seguro que se te ocurre algo que
 hacer con ella, ¿sí?<delay20 /> Como fabricarte
 tu propia <colour id="1" />hacha endeble<colour id="65535" />.</message>
-	<message label="150" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Primero quiero darte las gracias
-por haber recogido todos los
-materiales para la tienda.
+	<message label="150" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Gracias por haber recogido todos
+los materiales para la tienda.<delay20 />
+Pronto estará lista.
 <anim id="Laughing" target="actor" targetSpec="" />¡Quizá deberías ser tú quien asesore
 a la gente sobre cómo llevar
 la infraestructura de la isla!</message>
@@ -206,9 +207,12 @@ para irte de compras;<delay8 /> eso relaja.<delay20 />
 	<message label="162" attrib="00 00 00 00"><anim id="HappyDance" target="actor" targetSpec="" />Estoy hablando con gente interesada
 en mudarse a la isla y ando ocupado
 con los trámites.
-<anim id="Nodding" target="actor" targetSpec="" />Como lo oyes:<delay8 /> ¡pronto tendremos
-nuevos vecinos!<delay20 /> <anim id="Smiling" target="actor" targetSpec="" />Espero que les
-recibáis con cariño, ¿sí?</message>
+<anim id="Nodding" target="actor" targetSpec="" />Como lo oyes:<delay20 /> si todo va bien,<delay8 />
+<anim id="HappyFlower" target="actor" targetSpec="" />¡pronto tendremos nuevos vecinos!<pageBreak /><anim id="WrySmile" target="actor" targetSpec="" />De hecho,<delay8 /> hay tanto por hacer que
+hasta le he pedido ayuda a nuestr<tag a="50" b="17" arg="0xd 0xcd00 0x2 0x6f 0x2 0x61 0x0" />
+portavoz vecinal.
+<anim id="Smiling" target="actor" targetSpec="" />Si quieres saber cómo marcha
+la cosa, habla con <tag a="110" b="39" />⁠, ¿sí?</message>
 	<message label="163" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />¡Por cierto!<delay8 /> ¿Sabías que puedes
 canjear millas por <colour id="1" />proyectos de
 vallas<colour id="65535" /> en la terminal Nook?
@@ -228,7 +232,7 @@ proyectos.<delay20 /> <anim id="FaintSmile" target="actor" targetSpec="" />¿Qui
 	<message label="202" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />El <colour id="1" />bricolaje <colour id="65535" />es una actividad para
 crear cosas tú mism<gender2 m="o" f="a" /> desde cero,<delay8 />
 como muebles y herramientas.
-<anim id="Negative" target="actor" targetSpec="" />En Nook Inc. no solemos regalar
+<anim id="Negative" target="actor" targetSpec="" />En <colour id="1" />Nook Inc.<colour id="65535" /> no solemos regalar
 nada tan valioso,<delay8 /> <anim id="FaintSmile" target="actor" targetSpec="" />¡pero esta es
 una ocasión especial!</message>
 	<message label="203" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />¡Claro, ningún problema!<delay8 />

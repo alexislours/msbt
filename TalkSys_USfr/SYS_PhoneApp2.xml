@@ -1,7 +1,7 @@
 <msbt attribsize="3">
 	<message label="001" attrib="00 00 00">dummy</message>
-	<message label="010" attrib="00 00 13">                      <tag a="10" b="12" /><tag a="100" b="2" />Au revoir!<endTag a="100" b="2" /><10_7 arg="20" /></message>
-	<message label="011" attrib="00 00 13"><tag a="10" b="12" />                <tag a="100" b="5" /><size value="150" />Bonjour!<size value="100" /><delay20 /><10_7 arg="15" /><pageBreak />Ici le <colour id="1" />service d'aide<colour id="65535" />. <delay frames="30" />
+	<message label="010" attrib="00 00 13">                      <tag a="10" b="12" /><tag a="100" b="2" /><tag a="100" b="5" />Au revoir!<endTag a="100" b="5" /><endTag a="100" b="2" /><10_7 arg="20" /></message>
+	<message label="011" attrib="00 00 13"><tag a="10" b="12" />                <tag a="100" b="5" /><size value="150" />Bonjour!<size value="100" /><10_7 arg="45" /><pageBreak />Ici le <delay8 /><colour id="1" />service d'aide<colour id="65535" />. <delay frames="30" />
 Merci de cet appel.<endTag a="100" b="5" /></message>
 	<message label="011_01" attrib="00 00 13"><tag a="100" b="5" />Alors si j'ai bien compris,<delay20 /> tu es<tag a="110" b="0" /><endTag a="100" b="5" /><10_7 arg="30" /></message>
 	<message label="011_02" attrib="00 00 13"><tag a="100" b="5" />Tu te trouves actuellement<tag a="110" b="0" /><endTag a="100" b="5" /><10_7 arg="30" /></message>
@@ -136,7 +136,7 @@ loin de chez toi et je n'arrive pas
 Cela veut dire que je vais devoir
 te laisser <colour id="1" />là où l'avion atterrira<colour id="65535" />.<delay20 />
 Est-ce que cela te convient?<endTag a="100" b="5" /></message>
-	<message label="048_a" attrib="00 00 13">J'ai pas trop le choix!</message>
+	<message label="048_a" attrib="00 00 13"><anim id="EmotEnd" target="actor" targetSpec="" />J'ai pas trop le choix!</message>
 	<message label="048_b" attrib="00 00 13">Finalement, j'annule.</message>
 	<message label="050_01" attrib="00 00 13"><tag a="100" b="5" />À ta tente?<delay20 /> Aucun problème.<endTag a="100" b="5" /></message>
 	<message label="050_02" attrib="00 00 13"><tag a="100" b="5" />Chez toi?<delay20 /> D'accord!<endTag a="100" b="5" /></message>
@@ -158,7 +158,7 @@ Que peut-il arriver de si grave?<size value="100" /><endTag a="100" b="5" /></me
 <size value="75" />Ce serait quand même bien plus simple
 si j'avais pris mes lunettes.<size value="100" /><endTag a="100" b="5" /></message>
 	<message label="052" attrib="00 00 13"><tag a="100" b="5" />Bien.<delay20 /> Le sort en est jeté.<endTag a="100" b="5" /></message>
-	<message label="053" attrib="00 00 13"><tag a="10" b="12" />　　 　　<tag a="100" b="2" /><tag a="100" b="5" />C'est parti!<endTag a="100" b="5" /><endTag a="100" b="2" /><10_8 arg="30" /></message>
+	<message label="053" attrib="00 00 13"><tag a="10" b="12" />　　 　　　　<tag a="100" b="2" /><tag a="100" b="5" />C'est parti!<endTag a="100" b="5" /><endTag a="100" b="2" /><10_8 arg="30" /></message>
 	<message label="061" attrib="00 00 13"><tag a="100" b="5" />On est arrivés! Tu peux ouvrir
 les yeux.<endTag a="100" b="5" /></message>
 	<message label="062" attrib="00 00 13"><tag a="100" b="5" />Ah,<delay8 /> une dernière chose<tag a="110" b="0" /><endTag a="100" b="5" /></message>

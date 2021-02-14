@@ -1,10 +1,10 @@
 <msbt attribsize="8">
 	<message label="001" attrib="00 00 02 00 00 00 00 00"><anim id="Frantic" target="actor" targetSpec="" />Das kommt jetzt vielleicht etwas
-plötzlich, aber willst du <tag a="50" b="17" arg="0x11 0xcd00 0xa 0x65 0x69 0x6e 0x65 0x6e 0x8 0x65 0x69 0x6e 0x65 0x6 0x65 0x69 0x6e" />
+plötzlich, aber willst du <tag a="50" b="17" arg="0x12 0xcd00 0xc 0x6d 0x65 0x69 0x6e 0x65 0x6e 0xa 0x6d 0x65 0x69 0x6e 0x65 0x8 0x6d 0x65 0x69 0x6e" />
 <tag a="50" b="23" arg="0xcd01" /><tag a="125" b="0" arg="0x0" /> kaufen?</message>
 	<message label="001_a" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Quanto costa?</message>
 	<message label="001_b" attrib="00 00 00 00 00 00 00 00">Kein Bedarf.</message>
-	<message label="002" attrib="00 00 02 00 00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Möchtest du mir zufällig <tag a="50" b="17" arg="0x11 0xcd00 0xa 0x65 0x69 0x6e 0x65 0x6e 0x8 0x65 0x69 0x6e 0x65 0x6 0x65 0x69 0x6e" />
+	<message label="002" attrib="00 00 02 00 00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Möchtest du mir zufällig <tag a="50" b="17" arg="0x12 0xcd00 0xa 0x65 0x69 0x6e 0x65 0x6e 0x8 0x65 0x69 0x6e 0x65 0x6 0x65 0x69 0x6e" />
 <tag a="50" b="23" arg="0xcd01" /><tag a="125" b="0" arg="0x0" /> abkaufen, <delay8 /><tag a="110" b="5" />?</message>
 	<message label="002_a" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Interesse ist da...</message>
 	<message label="002_b" attrib="00 00 00 00 00 00 00 00">Brauch ich nicht.</message>
@@ -18,18 +18,15 @@ bisschen was von meinem Kram.<delay20 />
 vier abkaufen,<delay8 /> <tag a="110" b="5" />?</message>
 	<message label="003_a" attrib="00 00 00 00 00 00 00 00">Klar!</message>
 	<message label="003_b" attrib="00 00 00 00 00 00 00 00">Eher nicht...</message>
-	<message label="004" attrib="00 00 02 00 00 00 00 00"><anim id="TakenAback" target="actor" targetSpec="" />Oh, <tag a="110" b="3" />...<delay20 />
-Du wirst nicht glauben, was mir
+	<message label="004" attrib="00 00 02 00 00 00 00 00"><anim id="TakenAback" target="actor" targetSpec="" />Oh, <delay8 /><tag a="110" b="3" />...<delay20 />
+Du wirst nicht glauben, <delay8 />was mir
 passiert ist...
-<anim id="Worried" target="actor" targetSpec="" />Ich war im Laden und hab <tag a="50" b="17" arg="0x11 0xcd00 0xa 0x65 0x69 0x6e 0x65 0x6e 0x8 0x65 0x69 0x6e 0x65 0x6 0x65 0x69 0x6e" />
-<tag a="50" b="23" arg="0xcd01" /><tag a="125" b="0" arg="0x0" /> gekauft,
-weil ich schon lange <tag a="50" b="17" arg="0x11 0xcd00 0xa 0x65 0x69 0x6e 0x65 0x6e 0x8 0x65 0x69 0x6e 0x65 0x8 0x65 0x69 0x6e 0x73" /> wollte...
-<anim id="Frantic" target="actor" targetSpec="" />Zu Hause hab ich dann leider
-festgestellt, dass ich am Vortag
-schon <tag a="50" b="17" arg="0x11 0xcd00 0xa 0x65 0x69 0x6e 0x65 0x6e 0x8 0x65 0x69 0x6e 0x65 0x8 0x65 0x69 0x6e 0x73" /> gekauft hatte!
-<anim id="IdeaBulb" target="actor" targetSpec="" />Oh!<delay8 /> Vielleicht willst du mir ja <tag a="50" b="17" arg="0x11 0xcd00 0xa 0x65 0x69 0x6e 0x65 0x6e 0x8 0x65 0x69 0x6e 0x65 0x6 0x65 0x69 0x6e" />
-<tag a="50" b="23" arg="0xcd01" /><tag a="125" b="0" arg="0x0" /><anim id="Hello" target="actor" targetSpec="" />
-abkaufen,<delay8 /> <tag a="110" b="5" />?</message>
+<anim id="Worried" target="actor" targetSpec="" />Ich war im Laden und hab <tag a="50" b="17" arg="0x12 0xcd00 0xa 0x65 0x69 0x6e 0x65 0x6e 0x8 0x65 0x69 0x6e 0x65 0x6 0x65 0x69 0x6e" />
+<tag a="50" b="23" arg="0xcd01" /><tag a="125" b="0" arg="0x0" /> gekauft,<delay8 /> weil ich schon lange <tag a="50" b="17" arg="0x12 0xcd00 0xa 0x65 0x69 0x6e 0x65 0x6e 0x8 0x65 0x69 0x6e 0x65 0x8 0x65 0x69 0x6e 0x73" /> wollte...<pageBreak /><anim id="Frantic" target="actor" targetSpec="" />Zu Hause hab ich dann leider
+festgestellt, <delay8 />dass ich am Vortag
+schon <tag a="50" b="17" arg="0x12 0xcd00 0xa 0x65 0x69 0x6e 0x65 0x6e 0x8 0x65 0x69 0x6e 0x65 0x8 0x65 0x69 0x6e 0x73" /> gekauft hatte!
+<anim id="IdeaBulb" target="actor" targetSpec="" />Oh!<delay8 /> Vielleicht willst du mir ja <tag a="50" b="17" arg="0x12 0xcd00 0xa 0x65 0x69 0x6e 0x65 0x6e 0x8 0x65 0x69 0x6e 0x65 0x6 0x65 0x69 0x6e" />
+<tag a="50" b="23" arg="0xcd01" /><tag a="125" b="0" arg="0x0" /><anim id="Hello" target="actor" targetSpec="" /> abkaufen,<delay8 /> <tag a="110" b="5" />?</message>
 	<message label="004_a" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Zu welchem Preis?</message>
 	<message label="004_b" attrib="00 00 00 00 00 00 00 00">Tut mir leid...</message>
 	<message label="005" attrib="00 00 00 00 00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Kein Problem ich verstehe schon.<delay20 />
@@ -58,9 +55,7 @@ Was hältst du von <tag a="90" b="21" arg="0x2" />?</message>
 	<message label="101" attrib="00 00 00 00 00 00 00 00"><anim id="HappyDance" target="actor" targetSpec="" />Vielen Dank, dass du mir aus der
 Klemme hilfst!<delay20 /> Ich bin froh, dass ich
 dich deswegen angesprochen habe!</message>
-	<message label="102" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Ich bin mir ziemlich sicher,
-<tag a="50" b="1" /><tag a="125" b="0" arg="0x0" />
-wird sich bei dir wohlfühlen!</message>
+	<message label="102" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Ich bin mir ziemlich sicher,<delay8 /> <tag a="50" b="1" /><tag a="125" b="0" arg="0x0" /> wird sich bei dir wohlfühlen!</message>
 	<message label="103" attrib="00 00 00 00 00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />Also... <delay8 />In dem Fall... <delay8 /><anim id="BigSmile" target="actor" targetSpec="" />kannst du es
 auch umsonst haben! <delay20 /><anim id="FaintSmile" target="actor" targetSpec="" />Ich brauche
 das Geld gar nicht so dringend.</message>
@@ -90,7 +85,7 @@ Irgendwer wird es schon haben
 wollen,<delay8 /> <tag a="110" b="5" />.</message>
 	<message label="205" attrib="00 00 02 00 00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />Hmmmmmm... <delay frames="40" /><anim id="EmotEnd" target="actor" targetSpec="" />Dann sagen wir<delay8 />
 <anim id="FaintSmile" target="actor" targetSpec="" /><tag a="90" b="21" arg="0x1" />?</message>
-	<message label="205_a" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Das ist ein Wort!</message>
+	<message label="205_a" attrib="00 00 00 00 00 00 00 00">Das ist ein Wort!</message>
 	<message label="205_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Wir sind nah dran...</message>
 	<message label="206" attrib="00 00 00 00 00 00 00 00"><anim id="Restless" target="actor" targetSpec="" />Weiter kann ich nicht runtergehen,<delay8 />
 selbst für dich nicht...<delay20 /> <anim id="Worried" target="actor" targetSpec="" />Dann wird
@@ -102,14 +97,12 @@ sparsam,<delay8 /> <tag a="110" b="3" />?<delay20 />
 	<message label="207_b" attrib="00 00 00 00 00 00 00 00">Ich will's gar nicht.</message>
 	<message label="208" attrib="00 00 00 00 00 00 00 00"><anim id="HappyFlower" target="actor" targetSpec="" />Herzlichen Dank!</message>
 	<message label="209" attrib="00 00 00 00 00 00 00 00"><anim id="ShyBoy" target="actor" targetSpec="" />Du kannst wirklich gut feilschen,<delay8 />
-<tag a="110" b="3" />.<delay20 /><anim id="EmotEnd" target="actor" targetSpec="" /> Aber irgendwie
-hat es Spaß gemacht,<delay8 /><anim id="FaintSmile" target="actor" targetSpec="" /> <tag a="110" b="5" />!</message>
+<tag a="110" b="3" />.<delay20 /><anim id="EmotEnd" target="actor" targetSpec="" /> Aber irgendwie hat es Spaß gemacht,<delay8 /><anim id="FaintSmile" target="actor" targetSpec="" /> <tag a="110" b="5" />!</message>
 	<message label="210" attrib="00 00 00 00 00 00 00 00"><anim id="Oops" target="actor" targetSpec="" />Argh! <delay20 /><anim id="ShyBoy" target="actor" targetSpec="" />Aber das Feilschen hat
 irgendwie Spaß gemacht. <delay20 /><anim id="FaintSmile" target="actor" targetSpec="" />Also
 trotzdem danke,<delay8 /> <tag a="110" b="5" />!</message>
-	<message label="300" attrib="00 00 02 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Schön! <anim id="EmotEnd" target="actor" targetSpec="" />Wie wäre es mit <tag a="50" b="17" arg="0x11 0xcd00 0xa 0x65 0x69 0x6e 0x65 0x6d 0xa 0x65 0x69 0x6e 0x65 0x72 0xa 0x65 0x69 0x6e 0x65 0x6d" />
-<tag a="50" b="23" arg="0xcd02" /><tag a="125" b="0" arg="0x0" /> für
-<anim id="Hello" target="actor" targetSpec="" /><tag a="90" b="21" arg="0x1" />?</message>
+	<message label="300" attrib="00 00 02 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Schön!<delay20 /> <anim id="EmotEnd" target="actor" targetSpec="" />Wie wäre es mit <tag a="50" b="17" arg="0x12 0xcd00 0xa 0x65 0x69 0x6e 0x65 0x6d 0xa 0x65 0x69 0x6e 0x65 0x72 0xa 0x65 0x69 0x6e 0x65 0x6d" />
+<tag a="50" b="23" arg="0xcd02" /><tag a="125" b="0" arg="0x0" /> für <anim id="Hello" target="actor" targetSpec="" /><tag a="90" b="21" arg="0x1" />?</message>
 	<message label="300_a" attrib="00 00 00 00 00 00 00 00">Gekauft!</message>
 	<message label="300_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Noch was anderes?</message>
 	<message label="301" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Das freut mich!</message>
@@ -117,16 +110,14 @@ trotzdem danke,<delay8 /> <tag a="110" b="5" />!</message>
 um mein Buch kaufen zu können.<delay20 />
 <anim id="Smiling" target="actor" targetSpec="" />Danke,<delay8 /> <tag a="110" b="5" />!</message>
 	<message label="303" attrib="00 00 02 00 00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />Mal überlegen... <delay20 />Ich hätte da noch
-<tag a="50" b="17" arg="0x11 0xcd00 0xa 0x65 0x69 0x6e 0x65 0x6e 0x8 0x65 0x69 0x6e 0x65 0x6 0x65 0x69 0x6e" /> <tag a="50" b="23" arg="0xcd01" /><tag a="125" b="0" arg="0x0" />
-für <anim id="Hello" target="actor" targetSpec="" /><tag a="90" b="21" arg="0x1" />.</message>
+<tag a="50" b="17" arg="0x12 0xcd00 0xa 0x65 0x69 0x6e 0x65 0x6e 0x8 0x65 0x69 0x6e 0x65 0x6 0x65 0x69 0x6e" /> <tag a="50" b="23" arg="0xcd01" /><tag a="125" b="0" arg="0x0" /> für <anim id="Hello" target="actor" targetSpec="" /><tag a="90" b="21" arg="0x1" />.</message>
 	<message label="303_a" attrib="00 00 00 00 00 00 00 00">Nehme ich!</message>
 	<message label="303_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Noch was anderes?</message>
-	<message label="304" attrib="00 00 02 00 00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />Na ja<tag a="110" b="0" /> <delay8 />Ich könnte dir m<tag a="50" b="17" arg="0x11 0xcd00 0xa 0x65 0x69 0x6e 0x65 0x6e 0x8 0x65 0x69 0x6e 0x65 0x6 0x65 0x69 0x6e" /> <tag a="50" b="23" arg="0xcd01" /><tag a="125" b="0" arg="0x0" /> für <anim id="Hello" target="actor" targetSpec="" /><tag a="90" b="21" arg="0x1" /> verkaufen. <delay20 /><anim id="EmotEnd" target="actor" targetSpec="" />Interesse?</message>
+	<message label="304" attrib="00 00 02 00 00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />Na ja<tag a="110" b="0" /> <delay8 />Ich könnte dir m<tag a="50" b="17" arg="0x12 0xcd00 0xa 0x65 0x69 0x6e 0x65 0x6e 0x8 0x65 0x69 0x6e 0x65 0x6 0x65 0x69 0x6e" /> <tag a="50" b="23" arg="0xcd01" /><tag a="125" b="0" arg="0x0" /> für <anim id="Hello" target="actor" targetSpec="" /><tag a="90" b="21" arg="0x1" /> verkaufen. <delay20 /><anim id="EmotEnd" target="actor" targetSpec="" />Interesse?</message>
 	<message label="304_a" attrib="00 00 00 00 00 00 00 00">Ja!</message>
 	<message label="304_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Noch was anderes?</message>
 	<message label="305" attrib="00 00 02 00 00 00 00 00"><anim id="WrySmile" target="actor" targetSpec="" />Na gut, ein letzter Versuch noch:<delay8 />
-<anim id="EmotEnd" target="actor" targetSpec="" /><tag a="50" b="2" /><tag a="125" b="0" arg="0x0" />
-<anim id="QuestionMark" target="actor" targetSpec="" />für...<delay8 /> sagen wir mal <tag a="90" b="21" arg="0x1" />?</message>
+<anim id="EmotEnd" target="actor" targetSpec="" /><tag a="50" b="2" /><tag a="125" b="0" arg="0x0" /> <anim id="QuestionMark" target="actor" targetSpec="" />für<tag a="110" b="0" /> sagen wir mal <tag a="90" b="21" arg="0x1" />?</message>
 	<message label="305_a" attrib="00 00 00 00 00 00 00 00">Einverstanden!</message>
 	<message label="305_b" attrib="00 00 00 00 00 00 00 00">Tut mir leid...</message>
 	<message label="306" attrib="00 00 00 00 00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Nein, nein, <delay8 />mach dir keine Sorgen.<delay20 />

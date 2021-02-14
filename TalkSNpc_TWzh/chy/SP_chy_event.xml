@@ -136,7 +136,7 @@
 	<message label="029_a" attrib="00 00 00 00">我要參加大會</message>
 	<message label="029_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />不參加</message>
 	<message label="030" attrib="02 00 00 00">那麼事不宜遲，<anim id="QuestionMark" target="actor" targetSpec="" />你要參加<colour id="1" />捕蟲大會<colour id="65535" />嗎？<delay frames="50" />
-<anim id="EmotEnd" target="actor" targetSpec="" />第一次參加是免費的喔。</message>
+<anim id="EmotEnd" target="actor" targetSpec="" />今天第一次參加的人免費喔。</message>
 	<message label="030_a" attrib="00 00 00 00">我要參加大會</message>
 	<message label="030_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />不參加</message>
 	<message label="031" attrib="00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />嘿，<colour id="1" /><delay8 /><colour id="65535" />現在正舉辦<colour id="1" />捕蟲大會<colour id="65535" />喔！<delay frames="40" />
@@ -221,7 +221,7 @@
 <anim id="Nodding" target="actor" targetSpec="" />我都會用<delay8 />高價收購<tag a="110" b="0" /></message>
 	<message label="049_a" attrib="00 00 00 00">想賣蟲子</message>
 	<message label="049_b" attrib="00 00 00 00">進行點數兌換</message>
-	<message label="049_c" attrib="00 00 00 00">其他事情</message>
+	<message label="049_c" attrib="00 00 00 00">關於大會</message>
 	<message label="049_d" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />沒什麼事</message>
 	<message label="050" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />這樣啊！<delay frames="30" />
 <colour id="5" />吞口水<tag a="110" b="0" /><colour id="65535" /><delay frames="40" />
@@ -261,10 +261,16 @@
 <anim id="Silent" target="actor" targetSpec="" />你好像<delay8 />沒有捕蟲網呢。<pageBreak /><anim id="Negative" target="actor" targetSpec="" />蟲子不能用手來捕捉，<delay frames="30" />
 <anim id="Serious" target="actor" targetSpec="" />要是沒有捕蟲網，可就沒法開始囉。</message>
 	<message label="061" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />唔<tag a="110" b="0" /><delay20 />
-<anim id="Silent" target="actor" targetSpec="" />你的錢好像不夠呢。<pageBreak /><anim id="ShyBoy" target="actor" targetSpec="" />很抱歉，從第二次開始，<delay20 />
-參加一次要付<colour id="1" /><tag a="90" b="21" arg="0x2" /><colour id="65535" />喔。</message>
-	<message label="062" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" /><tag a="110" b="0" />那麼，
-我就收下參加費<colour id="1" /><tag a="90" b="21" arg="0x2" /><colour id="65535" />了。</message>
+<anim id="Silent" target="actor" targetSpec="" />你的錢好像不夠呢。<pageBreak /><anim id="ShyBoy" target="actor" targetSpec="" />很抱歉，<delay20 />等你準備好<colour id="1" /><tag a="90" b="21" arg="0x2" /><colour id="65535" />之後，<delay8 />
+再來找我吧。</message>
+	<message label="062" attrib="02 00 00 00"><anim id="Aha" target="actor" targetSpec="" />喔<tag a="110" b="0" />這樣啊！<delay40 />
+<anim id="FaintSmile" target="actor" targetSpec="" />歡迎歡迎！<pageBreak /><anim id="ShyBoy" target="actor" targetSpec="" />從第2次開始，<delay8 />
+每參加1次就要收取<colour id="1" /><tag a="90" b="21" arg="0x2" /><colour id="65535" />，<delay frames="30" />
+<anim id="Hello" target="actor" targetSpec="" />還是要參加嗎？</message>
+	<message label="062_a" attrib="00 00 00 00">當然啦！</message>
+	<message label="062_b" attrib="00 00 00 00">還是算了</message>
+	<message label="062_01" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />嗯<tag a="110" b="0" /><delay20 />
+<anim id="Silent" target="actor" targetSpec="" />那麼，我要收取<delay8 />參加費<colour id="1" /><tag a="90" b="21" arg="0x2" /><colour id="65535" />。</message>
 	<message label="063" attrib="00 00 00 00">那麼<tag a="110" b="0" /><anim id="Serious" target="actor" targetSpec="" />從現在起，我會計時<colour id="1" /><tag a="90" b="0" arg="0xe" />分鐘<colour id="65535" />，<delay frames="40" /><anim id="Nodding" target="actor" targetSpec="" />
 不管是什麼蟲子都可以，<delay20 />
 總之要盡量多抓一點！
@@ -476,6 +482,26 @@
 <anim id="Serious" target="actor" targetSpec="" />所以能額外獲得挑戰獎勵！<pageBreak /><anim id="Explain" target="actor" targetSpec="" />你抓到了<colour id="1" /><delay20 /><tag a="90" b="1" arg="0x8" />隻<colour id="65535" />蟲子，<delay20 />
 再加上各種獎勵<tag a="110" b="0" />
 <anim id="Shocked" target="actor" targetSpec="" />好厲害！<delay frames="30" /><anim id="BigSmile" target="actor" targetSpec="" />你一共獲得了<colour id="1" /><tag a="90" b="2" arg="0x7" />點<colour id="65535" />！</message>
+	<message label="151" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />嗯，<delay20 /><colour id="1" />蟲子觀察箱<colour id="65535" />裡
+一共有<delay20 /><colour id="1" /><tag a="90" b="1" arg="0x8" />隻<tag a="50" b="13" /><colour id="65535" />蟲子<tag a="110" b="0" />
+<anim id="FaintSmile" target="actor" targetSpec="" />嗯～這速度真不錯！<pageBreak /><anim id="Serious" target="actor" targetSpec="" />因為蟲子觀察箱已經放不下了，<delay20 />
+<anim id="SmugFace" target="actor" targetSpec="" />所以超過20隻的部分<delay8 />
+我就直接收走了。<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />這也是為了這個世界、為了蟲子<tag a="110" b="0" /><delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />為了今後的活動著想，
+希望你能體諒。<pageBreak /><anim id="Eh" target="actor" targetSpec="" />啊，<delay8 />點數當然還是會有的！<delay frames="40" />
+<anim id="Thinking" target="actor" targetSpec="" />基本的<colour id="1" /><tag a="90" b="1" arg="0x8" />點<colour id="65535" />加上<delay20 /><colour id="1" /><tag a="90" b="1" arg="0x4" />隻以上<colour id="65535" />的獎勵<tag a="110" b="0" />
+<anim id="Silent" target="actor" targetSpec="" />一共可獲得<colour id="1" /><tag a="90" b="2" arg="0x7" />點<colour id="65535" />！</message>
+	<message label="152" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />嗯，<delay20 /><colour id="1" />蟲子觀察箱<colour id="65535" />裡
+一共有<delay20 /><colour id="1" /><tag a="90" b="1" arg="0x8" />隻<colour id="65535" />蟲子<tag a="110" b="0" />
+<anim id="FaintSmile" target="actor" targetSpec="" />嗯～這速度真不錯！<pageBreak /><anim id="Serious" target="actor" targetSpec="" />因為蟲子觀察箱已經放不下了，<delay20 />
+<anim id="SmugFace" target="actor" targetSpec="" />所以超過20隻的部分，<delay8 />
+我就直接收走了。<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />這也是為了這世界、為了蟲子<tag a="110" b="0" /><delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />為了今後的活動著想，
+希望你能體諒。<pageBreak /><anim id="Eh" target="actor" targetSpec="" />啊，點數當然還是會
+按照抓到的蟲子數量給你的！<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />會有基本的<colour id="1" /><tag a="90" b="1" arg="0x8" />點數<colour id="65535" />加上<delay20 />
+<colour id="1" /><tag a="90" b="1" arg="0x4" />隻以上<colour id="65535" />才有的獎勵。<pageBreak /><anim id="Thinking" target="actor" targetSpec="" />這樣的話，<delay20 />這次的參加者
+一共抓到了<colour id="1" /><tag a="90" b="2" arg="0x9" />隻<colour id="65535" /><tag a="110" b="0" /><pageBreak /><colour id="1" /><anim id="FaintSmile" target="actor" targetSpec="" /><tag a="90" b="1" arg="0xa" />隻以上<colour id="65535" /><delay20 /><anim id="Serious" target="actor" targetSpec="" />還會有合作獎勵！<delay frames="40" />
+<anim id="Silent" target="actor" targetSpec="" />也就是說，一共可獲得<colour id="1" /><tag a="90" b="2" arg="0x7" />點<colour id="65535" />！</message>
 	<message label="160" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />那邊的帳篷下面，<delay20 />
 有你參加挑戰的<colour id="1" />蟲子觀察箱<colour id="65535" />喔。<pageBreak /><anim id="Explain" target="actor" targetSpec="" />幫手抓到的蟲子<delay8 />
 也一起放在裡面了，<delay20 />要去看看喔。<pageBreak /><anim id="Eh" target="actor" targetSpec="" />啊，<delay8 />要是你不要的話，<delay20 />
@@ -538,9 +564,8 @@
 <anim id="Nodding" target="actor" targetSpec="" />今天是蟲子的祭典，<colour id="1" />捕蟲大會<colour id="65535" />！<pageBreak /><colour id="1" /><anim id="EmotEnd" target="actor" targetSpec="" /><colour id="65535" />從<colour id="1" /><tag a="90" b="37" arg="0xcd00" />點<colour id="65535" />起開始接受報名，
 <anim id="FaintSmile" target="actor" targetSpec="" />一定要來盡情感受<delay20 />
 <anim id="Silent" target="actor" targetSpec="" />蟲子們的生命氣息喔！</message>
-	<message label="170" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />嗯～連我自己也覺得，<delay40 />
-<anim id="EmotEnd" target="actor" targetSpec="" />今天的<colour id="1" />捕蟲大會<colour id="65535" />
-是一場超棒的蟲子祭典。</message>
+	<message label="170" attrib="00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />嗯～<delay20 />這次的<colour id="1" />捕蟲大會<colour id="65535" />，<delay40 />
+<anim id="Nodding" target="actor" targetSpec="" />我認為<delay8 />是一場超棒的蟲子祭典。</message>
 	<message label="171" attrib="06 00 00 00"><anim id="Eh" target="actor" targetSpec="" />嘿，狀態還好嗎？<delay40 />
 <anim id="Nodding" target="actor" targetSpec="" />第一次當<colour id="1" />捕蟲大會<colour id="65535" />的主要參加者，<delay frames="30" />
 可以不用<delay20 /><anim id="Serious" target="actor" targetSpec="" />付參加費喔。

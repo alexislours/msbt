@@ -1,7 +1,7 @@
 <msbt attribsize="4">
-	<message label="000_01" attrib="00 00 00 00"><tag a="100" b="8" /><anim id="Smiling" target="actor" targetSpec="" /><tag a="110" b="33" />的大家，你們好！<delay40 />
+	<message label="000_01" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="Smiling" target="actor" targetSpec="" /><tag a="110" b="33" />的大家，你們好！<delay40 />
 現在時間是<tag a="90" b="30" />點<tag a="90" b="31" />分狸！<endTag a="100" b="8" /></message>
-	<message label="000_02" attrib="00 00 00 00"><tag a="100" b="8" /><anim id="EmotEnd" target="actor" targetSpec="" />大家好，<delay20 />
+	<message label="000_02" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="EmotEnd" target="actor" targetSpec="" />大家好，<delay20 />
 <anim id="QuestionMark" target="actor" targetSpec="" />今天過得怎麼樣狸？<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />太過專注於島上的活動，
 很容易會感到疲累的，<delay20 />
 <anim id="Smiling" target="actor" targetSpec="" />記得中間也要適時地休息一下喔！<endTag a="100" b="8" /></message>
@@ -50,6 +50,12 @@
 	<message label="021" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="Serious" target="mainNpc" targetSpec="" /><anim id="FaintSmile" target="subNpc" targetSpec="" />那麼，<delay20 />今天的新聞<tag a="110" b="0" /><endTag a="100" b="8" /></message>
 	<message label="022" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="Serious" target="mainNpc" targetSpec="" /><anim id="FaintSmile" target="subNpc" targetSpec="" />好了，<delay20 />那麼，今天另一則新聞是<tag a="110" b="0" /><endTag a="100" b="8" /></message>
 	<message label="031" attrib="00 00 00 12"><tag a="100" b="8" />然後<tag a="110" b="0" /><endTag a="100" b="8" /></message>
+	<message label="041_01" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="IdeaBulb" target="actor" targetSpec="" />話說回來，<delay20 /><colour id="1" />復活節<colour id="65535" />快到了呢！<delay20 /><anim id="FaintSmile" target="actor" targetSpec="" /><pageBreak /><anim id="Nodding" target="actor" targetSpec="" />怪不得<delay8 />最近的氣溫
+變得比較舒服，<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />原來已經到了這個季節狸。<endTag a="100" b="8" /></message>
+	<message label="041_02" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="BigSmile" target="actor" targetSpec="" />今天是<colour id="1" />復活節<colour id="65535" />！<delay frames="40" />
+<anim id="Smiling" target="actor" targetSpec="" />竟然有一位客人<delay20 />
+特地到這座島來慶祝復活節狸！<pageBreak />各位，<delay20 />請一定要去廣場<anim id="Greeting" target="actor" targetSpec="" />見見他喔！<endTag a="100" b="8" /></message>
 	<message label="101" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="Clapping" target="actor" targetSpec="" />從今天開始，<delay20 />
 <tag a="115" b="1" arg="0xcd00" />就會成為<delay8 />
 <tag a="110" b="33" />的新同伴狸！<endTag a="100" b="8" /></message>
@@ -243,32 +249,32 @@
 就能隨時輕鬆變換造型<tag a="110" b="0" /><anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak /><anim id="Smiling" target="actor" targetSpec="" />如果你是一個
 對流行趨勢很敏感的人，<delay20 />
 請一定要將這類物品換到手喔！<endTag a="100" b="8" /></message>
-	<message label="705" attrib="00 00 00 00"><tag a="100" b="8" /><anim id="BigSmile" target="actor" targetSpec="" />今天我要介紹
+	<message label="705" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="BigSmile" target="actor" targetSpec="" />今天我要介紹
 能讓<tag a="110" b="33" />的生活
 更加充實的<delay20 />推薦商品狸！<endTag a="100" b="8" /></message>
-	<message label="706" attrib="00 00 00 00"><tag a="60" b="20" /></message>
-	<message label="706_01" attrib="00 00 00 00"><tag a="100" b="8" /><anim id="Nodding" target="actor" targetSpec="" />雖然使用之前
+	<message label="706" attrib="00 00 00 12"><tag a="60" b="20" /></message>
+	<message label="706_01" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="Nodding" target="actor" targetSpec="" />雖然使用之前
 <tag a="100" b="8" />跟帳篷一起配發的<endTag a="100" b="8" />攜帶型收音機，<delay20 />
 就可以收聽各種音樂<tag a="110" b="0" /><anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak /><anim id="Smiling" target="actor" targetSpec="" />但如果有<colour id="1" />音響<colour id="65535" />或<colour id="1" />唱片播放器<colour id="65535" />
 這類的音響家具，<delay20 />
 就能盡情聽喜愛的曲目狸！<pageBreak /><anim id="Explain" target="actor" targetSpec="" /><colour id="1" />Nook購物<colour id="65535" />正在販賣
 可在音響上播放的<colour id="1" />音樂<colour id="65535" />，<delay20 />
 <anim id="Smiling" target="actor" targetSpec="" />請一定要過來看看喔！<endTag a="100" b="8" /></message>
-	<message label="706_02" attrib="00 00 00 00"><tag a="100" b="8" /><anim id="EmotEnd" target="actor" targetSpec="" />難得在<tag a="110" b="33" />
+	<message label="706_02" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="EmotEnd" target="actor" targetSpec="" />難得在<tag a="110" b="33" />
 展開了新生活<tag a="110" b="0" /><delay40 />你有想過跟著新生活一起
 <anim id="QuestionMark" target="actor" targetSpec="" />大膽地將自己也煥然一新嗎？<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />只要有<colour id="1" />梳妝台<colour id="65535" />、<colour id="1" />全身鏡<colour id="65535" />或<delay20 /><colour id="1" />桌鏡<colour id="65535" />等
 這類可以看到自己穿著打扮的家具，<delay20 />
 就能徹底地變換造型狸！<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />快來隨心所欲變換
 <colour id="1" />頭髮造型<colour id="65535" />、<colour id="1" />頭髮顏色<colour id="65535" /><delay8 />和<colour id="1" />面貌<colour id="65535" />等等，<delay20 />
 好好享受每天變成不同樣子的樂趣吧！<anim id="Smiling" target="actor" targetSpec="" /><endTag a="100" b="8" /></message>
-	<message label="706_03" attrib="00 00 00 00"><tag a="100" b="8" /><anim id="AbsentMindedness" target="actor" targetSpec="" />即使在無人島也想要很時尚<tag a="110" b="0" />！<delay40 />
+	<message label="706_03" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="AbsentMindedness" target="actor" targetSpec="" />即使在無人島也想要很時尚<tag a="110" b="0" />！<delay40 />
 <anim id="Smiling" target="actor" targetSpec="" />可以收納衣服的<colour id="1" />櫃子<colour id="65535" />或<colour id="1" />衣櫃<colour id="65535" /><delay8 />
 是時尚達人的必備物品狸！<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />只要在房裡擺放這些東西，<delay20 />
 就能隨時在自己的房間裡
 輕鬆享受全身搭配的樂趣！<anim id="Smiling" target="actor" targetSpec="" /><pageBreak /><anim id="BigSmile" target="actor" targetSpec="" />請透過房裡的時尚秀磨練品味，<delay20 />
 讓流行從<tag a="110" b="33" />
 向世界展翅高飛狸！<endTag a="100" b="8" /></message>
-	<message label="706_04" attrib="00 00 00 00"><tag a="100" b="8" /><anim id="AbsentMindedness" target="actor" targetSpec="" /><tag a="110" b="33" />的漫漫長夜<tag a="110" b="0" /><delay40 />
+	<message label="706_04" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="AbsentMindedness" target="actor" targetSpec="" /><tag a="110" b="33" />的漫漫長夜<tag a="110" b="0" /><delay40 />
 <anim id="Smiling" target="actor" targetSpec="" />難得的機會，請好好享受
 <colour id="1" />蠟燭<colour id="65535" />和<colour id="1" />燈<colour id="65535" />帶來的燈光秀狸！<pageBreak /><anim id="Explain" target="actor" targetSpec="" />照明設備的種類跟擺放的位置<delay8 />
 會影響整個房間的氣氛<tag a="110" b="0" /><pageBreak /><anim id="Nodding" target="actor" targetSpec="" />如果你是連照明空間都想好好規劃的<delay8 />

@@ -163,7 +163,7 @@ Gut, <delay8 />kannste haben!<endTag a="100" b="5" /></message>
 	<message label="050_02" attrib="00 00 13"><tag a="100" b="5" />Nach Hause willst du,<delay8 /> ja? <delay20 />
 Alles paletti,<delay8 /> überlass das Res--<delay20 />
 äh, <delay8 />dem Rettungsdienst.<endTag a="100" b="5" /></message>
-	<message label="050_03" attrib="00 00 13"><tag a="100" b="5" />Zum Festplatz,<delay8 /> ja?
+	<message label="050_03" attrib="00 00 13"><tag a="100" b="5" />Zum <colour id="1" />Festplatz<colour id="65535" />,<delay8 /> ja?
 <delay20 />Gut,<delay8 /> ist gebongt.<endTag a="100" b="5" /></message>
 	<message label="050_04" attrib="00 00 13"><tag a="100" b="5" />Zum Laden also,<delay8 /> ja?
 <delay20 />Gut, <delay8 />wie du willst.<endTag a="100" b="5" /></message>
@@ -224,19 +224,19 @@ paar Meilchen umsonst!<delay20 /> Fein,<delay8 /> was?<endTag a="100" b="5" /></
 	<message label="201" attrib="06 00 17">Soll ich die App <colour id="1" />Insel-Designer
 <colour id="65535" />öffnen und etwas bauen oder
 verändern?</message>
-	<message label="201_a" attrib="00 00 17">Ja, los geht's!</message>
-	<message label="201_b" attrib="00 00 17">Aufräum-Service!</message>
-	<message label="201_c" attrib="00 00 17">Anleitung lesen.</message>
-	<message label="201_d" attrib="00 00 17">Nö.</message>
+	<message label="201_a" attrib="00 00 17">Bauarbeiten beginnen</message>
+	<message label="201_b" attrib="00 00 17">Aufräum-Service</message>
+	<message label="201_c" attrib="00 00 17">Anleitung lesen</message>
+	<message label="201_d" attrib="00 00 17">Abbrechen</message>
 	<message label="202" attrib="00 00 20">Baugenehmigung wird eingeholt<tag a="110" b="0" /><10_8 arg="30" /></message>
 	<message label="202_01" attrib="00 00 20">Die App <colour id="1" />Insel-Designer <colour id="65535" />ist jetzt
 bereit! Achtung: Bei Bauarbeiten
 ist stets ein Helm zu tragen!</message>
 	<message label="205" attrib="06 00 17">So!<delay20 /> War's das mit dem Bauen?</message>
-	<message label="205_a" attrib="00 00 17">Jawoll, bin fertig.</message>
-	<message label="205_b" attrib="00 00 17">Aufräum-Service!</message>
-	<message label="205_c" attrib="00 00 17">Anleitung lesen.</message>
-	<message label="205_d" attrib="00 00 17">Nee, fehlt noch was!</message>
+	<message label="205_a" attrib="00 00 17">Beenden</message>
+	<message label="205_b" attrib="00 00 17">Aufräum-Service</message>
+	<message label="205_c" attrib="00 00 17">Anleitung lesen</message>
+	<message label="205_d" attrib="00 00 17">Fortsetzen</message>
 	<message label="206" attrib="00 00 20"><tag a="110" b="0" /><delay40 />Verbindungsfehler!<10_8 arg="30" /></message>
 	<message label="207" attrib="00 00 17">Ob's am Empfang liegt?
 Vielleicht sollte ich mal <colour id="1" />aufstehen
@@ -251,14 +251,13 @@ und nur im Freien.</message>
 	<message label="211" attrib="00 00 20">Bauarbeiten beendet!<delay20 />
 Danke für das Benutzen der App
 und bis zum nächsten Mal!</message>
-	<message label="212" attrib="00 09 21">Wenn das Tor am <colour id="1" />Flughafen<colour id="65535" />
-offen ist,<delay8 /> kann ich den
-<colour id="1" />Insel-Designer <colour id="65535" />nicht verwenden<tag a="110" b="0" /></message>
-	<message label="213" attrib="00 09 21">Solange Besuch da ist,<delay8 />
-lass ich besser die Finger
-vom <colour id="1" />Insel-Designer<colour id="65535" />.</message>
-	<message label="214" attrib="00 09 21">Bevor ich den <colour id="1" />Insel-Designer
-<colour id="65535" />benutze, <delay8 />sollte ich am <colour id="1" />Flughafen<colour id="65535" />
+	<message label="212" attrib="00 09 21">Solange der Flugsteig offen ist,<delay8 />
+kannst du den <colour id="1" />Insel-Designer <colour id="65535" />nicht
+verwenden<tag a="110" b="0" /></message>
+	<message label="213" attrib="00 09 21">Solange Besuch da ist,<delay8 /> kannst du
+den <colour id="1" />Insel-Designer<colour id="65535" /> nicht verwenden.</message>
+	<message label="214" attrib="00 09 21">Bevor du den <colour id="1" />Insel-Designer
+<colour id="65535" />verwendest, <delay8 />musst du am <colour id="1" />Flughafen<colour id="65535" />
 die Verbindung beenden.</message>
 	<message label="221" attrib="00 00 20">Die App <colour id="1" />Insel-Designer
 <colour id="65535" />ist jetzt bereit!</message>
@@ -350,9 +349,9 @@ kann so einiges schiefgehen.<pageBreak />Man versperrt sich selbst den Weg.
 Oder man will etwas bearbeiten, aber
 es liegt oben auf einem Plateau.<pageBreak />In solchen Momenten hilft der
 Aufräum-Service. Der sorgt um
-dich herum für Ordnung!<pageBreak />Davon betroffen sind Möbel,
-Zäune und ähnliche Elemente <colour id="1" />in
-deiner unmittelbaren Umgebung<colour id="65535" />.<pageBreak />Um den Service zu nutzen, solltest
+dich herum für Ordnung!<pageBreak />Davon betroffen sind Möbel, Zäune,
+Bäume und Ähnliches <colour id="1" />in deiner
+unmittelbaren Umgebung<colour id="65535" />.<pageBreak />Um den Service zu nutzen, solltest
 du dich also zuerst in die Nähe der
 problematischen Objekte begeben.<pageBreak />Alle dabei aufgeräumten Objekte
 landen in der <colour id="1" />Krimskramskiste<colour id="65535" /> im
@@ -399,16 +398,22 @@ kiste im Servicecenter zu befördern?</message>
 	<message label="262_b" attrib="00 00 20">Nicht jetzt...</message>
 	<message label="263" attrib="00 00 20">Alles klar! <delay20 />Bitte warte, <delay8 />während
 wir um dich herum aufräumen.</message>
-	<message label="264" attrib="00 00 20">Fertig! <delay frames="30" />Vergiss nicht, <delay8 />die entfernten
-Objekte aus der <colour id="1" />Krimskramskiste<colour id="65535" />
-im <colour id="1" />Servicecenter <colour id="65535" />abzuholen!</message>
+	<message label="264" attrib="00 00 20">Fertig!<delay20 />
+Bitte beachte, dass nur Items und
+Zäune in der <colour id="1" />Krimskramskiste <colour id="65535" />landen.</message>
 	<message label="265" attrib="00 00 20">Es konnten keine Elemente
 aufgeräumt werden.<pageBreak />Der Aufräum-Service ist nur für
-Möbel, Zäune und ähnliches in deiner
+Möbel, Zäune, Bäume etc. in deiner
 unmittelbaren Umgebung zuständig.</message>
+	<message label="266" attrib="00 00 20">Du bist <colour id="1" />außerhalb des
+Gültigkeitsbereiches
+<colour id="65535" />des <colour id="1" />Aufräum-Services<colour id="65535" />.<pageBreak />Du kannst die App nur
+auf <tag a="110" b="9" /> nutzen,<delay8 />
+und nur im Freien.</message>
 	<message label="301" attrib="00 00 17">Für diese Insel scheint meine
 Karten-App keine Daten zu haben<tag a="110" b="0" /></message>
-	<message label="311" attrib="00 00 17">Nanu? <delay8 />„Kein Empfang“<tag a="110" b="0" /><delay20 /> Hmmm...<delay20 />
-Funktioniert wohl hier nicht.</message>
+	<message label="321" attrib="00 00 17">Im Party-Modus kann ich
+anscheinend die Chatlog-
+App nicht öffnen<tag a="110" b="0" /></message>
 	<message label="999" attrib="00 00 13"><colour id="1" />100<colour id="65535" /> Meilen</message>
 </msbt>

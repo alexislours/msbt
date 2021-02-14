@@ -64,16 +64,16 @@
 <anim id="Hello" target="actor" targetSpec="" />こちらも　お<ruby a="2" b="4">つか</ruby>使いいただけますよ！</message>
 	<message label="006_02_a" attrib="00 00 00 00"><ruby a="4" b="8">つうしん</ruby>通信で<ruby a="2" b="2">で</ruby>出かける</message>
 	<message label="006_02_b" attrib="00 00 00 00"><colour id="1" />マイルりょこうけん<colour id="65535" />を<ruby a="2" b="4">つか</ruby>使う</message>
-	<message label="006_02_c" attrib="00 00 00 00">パニーの<ruby a="2" b="4">しま</ruby>島へいく</message>
+	<message label="006_02_c" attrib="00 00 00 00">パニーの<ruby a="2" b="4">しま</ruby>島へ<ruby a="2" b="2">い</ruby>行く</message>
 	<message label="006_02_d" attrib="00 00 00 00">やっぱやめとく</message>
 	<message label="006_03" attrib="04 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />では、<delay20 /><anim id="QuestionMark" target="actor" targetSpec="" />どちらに　<ruby a="2" b="2">い</ruby>行かれますか？</message>
 	<message label="006_03_a" attrib="00 00 00 00"><ruby a="4" b="8">つうしん</ruby>通信で<ruby a="2" b="2">で</ruby>出かける</message>
-	<message label="006_03_b" attrib="00 00 00 00">パニーの<ruby a="2" b="4">しま</ruby>島へいく</message>
+	<message label="006_03_b" attrib="00 00 00 00">パニーの<ruby a="2" b="4">しま</ruby>島へ<ruby a="2" b="2">い</ruby>行く</message>
 	<message label="006_03_c" attrib="00 00 00 00">やっぱやめとく</message>
 	<message label="006_04" attrib="06 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />では、<delay20 /><anim id="QuestionMark" target="actor" targetSpec="" />どちらに　<ruby a="2" b="2">い</ruby>行かれますか？</message>
 	<message label="006_04_a" attrib="00 00 00 00"><ruby a="4" b="8">つうしん</ruby>通信で<ruby a="2" b="2">で</ruby>出かける</message>
 	<message label="006_04_b" attrib="00 00 00 00"><colour id="1" />マイルりょこうけん<colour id="65535" />を<ruby a="2" b="4">つか</ruby>使う</message>
-	<message label="006_04_c" attrib="00 00 00 00">パニーの<ruby a="2" b="4">しま</ruby>島へいく</message>
+	<message label="006_04_c" attrib="00 00 00 00">パニーの<ruby a="2" b="4">しま</ruby>島へ<ruby a="2" b="2">い</ruby>行く</message>
 	<message label="006_04_d" attrib="00 00 00 00">やっぱやめとく</message>
 	<message label="011" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" /><ruby a="4" b="6">せかい</ruby>世界につながる　<ruby a="2" b="4">そら</ruby>空の<ruby a="6" b="12">げんかんぐち</ruby>玄関口、<delay frames="30" />
 <anim id="EmotEnd" target="actor" targetSpec="" /><tag a="110" b="9" /><ruby a="6" b="12">ひこうじょう</ruby>飛行場へ　ウェルカム<tag a="110" b="0" />
@@ -136,6 +136,10 @@
 	<message label="091_02" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />ご<ruby a="4" b="8">かくにん</ruby>確認　ありがとうございました！<anim id="FaintSmile" target="actor" targetSpec="" /><delay frames="50" />
 <anim id="EmotEnd" target="actor" targetSpec="" />それでは<tag a="110" b="0" /></message>
 	<message label="091" attrib="00 00 00 00" />
+	<message label="092" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" /><ruby a="4" b="10">りょうかい</ruby>了解しました！<delay frames="40" />
+<anim id="Serious" target="actor" targetSpec="" /><ruby a="4" b="8">たびたび</ruby>度々で　<ruby a="2" b="4">もう</ruby>申し<ruby a="2" b="4">わけ</ruby>訳ないのですが<tag a="110" b="0" /><pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />インターネットを　ご<ruby a="4" b="6">りよう</ruby>利用になる<ruby a="2" b="4">まえ</ruby>前に、<delay frames="30" />
+<anim id="EmotEnd" target="actor" targetSpec="" />こちらの<ruby a="4" b="8">ないよう</ruby>内容についても<delay20 />
+<anim id="Hello" target="actor" targetSpec="" />ご<ruby a="4" b="8">かくにん</ruby>確認いただけますでしょうか？</message>
 	<message label="101" attrib="04 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" /><ruby a="2" b="4">ちか</ruby>近くの　<colour id="1" />ローカル<ruby a="4" b="8">つうしん</ruby>通信<colour id="65535" />の<tag a="110" b="32" />か<delay20 />
 <ruby a="2" b="4">とお</ruby>遠くの　<colour id="1" />インターネット<colour id="65535" />の<tag a="110" b="32" />、<delay20 />
 <anim id="QuestionMark" target="actor" targetSpec="" />どちらに　おでかけしますか？</message>
@@ -264,12 +268,17 @@
 <anim id="Nodding" target="actor" targetSpec="" />ゲートを　<ruby a="2" b="2">と</ruby>閉じておくことも　できます<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />ゲートを　<ruby a="2" b="2">と</ruby>閉じたい<ruby a="4" b="6">ばあい</ruby>場合は、<delay20 />
 <anim id="FaintSmile" target="actor" targetSpec="" /><ruby a="4" b="6">きがる</ruby>気軽に　<ruby a="2" b="4">こえ</ruby>声をおかけくださいね！<10_4 />
 <anim id="EmotEnd" target="actor" targetSpec="" />では　<ruby a="2" b="2">ひ</ruby>引き<ruby a="2" b="4">つづ</ruby>続き、<delay20 /><anim id="Hello" target="actor" targetSpec="" />お<ruby a="2" b="4">たの</ruby>楽しみください！</message>
-	<message label="126" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />お<ruby a="2" b="4">まね</ruby>招きされたい　お<ruby a="4" b="10">きゃくさま</ruby>客様に<delay20 />
+	<message label="126" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />お<ruby a="2" b="4">まね</ruby>招きしたい　お<ruby a="4" b="10">きゃくさま</ruby>客様に<delay20 />
 さきほど<ruby a="4" b="8">せってい</ruby>設定された　パスワード、<delay frames="30" />
-<colour id="1" /><tag a="110" b="26" /><colour id="65535" />を　お<ruby a="2" b="4">つた</ruby>伝えくださいね！</message>
+「<colour id="1" /><tag a="110" b="26" /><colour id="65535" />」を　お<ruby a="2" b="4">つた</ruby>伝えくださいね！</message>
 	<message label="130" attrib="02 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />では、<delay20 />インターネットに<ruby a="4" b="8">せつぞく</ruby>接続します！</message>
 	<message label="130_a" attrib="00 00 00 00">オッケー！</message>
 	<message label="130_b" attrib="00 00 00 00">やっぱ、キャンセルで！</message>
+	<message label="140" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" /><tag a="110" b="0" /><delay8 />どうやら<delay8 />
+<anim id="Serious" target="actor" targetSpec="" />ゲートが　<ruby a="2" b="2">と</ruby>閉じられてしまったようです</message>
+	<message label="150" attrib="02 00 00 00"><ruby a="2" b="4">ほか</ruby>他の　おでかけ<ruby a="2" b="4">さき</ruby>先を　<ruby a="2" b="4">さが</ruby>探しますか？</message>
+	<message label="150_a" attrib="00 00 00 00"><ruby a="2" b="4">ほか</ruby>他の<ruby a="2" b="4">しま</ruby>島を<ruby a="2" b="4">さが</ruby>探す</message>
+	<message label="150_b" attrib="00 00 00 00">いったん<ruby a="4" b="6">でなお</ruby>出直します</message>
 	<message label="200" attrib="06 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />はいっ！<delay frames="40" />
 <anim id="QuestionMark" target="actor" targetSpec="" />どのような　ご<ruby a="4" b="8">ようけん</ruby>用件でしょうか？</message>
 	<message label="200_a" attrib="00 00 00 00">ゲートを<ruby a="2" b="2">あ</ruby>開けたい</message>
@@ -283,6 +292,13 @@
 	<message label="201_c" attrib="00 00 00 00">パスワードは<ruby a="2" b="4">なん</ruby>何だっけ？</message>
 	<message label="201_d" attrib="00 00 00 00">やっぱ、おでかけしたい</message>
 	<message label="201_e" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />なんでもないです</message>
+	<message label="202" attrib="08 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />はいっ！<delay frames="40" />
+<anim id="QuestionMark" target="actor" targetSpec="" />どのような　ご<ruby a="4" b="8">ようけん</ruby>用件でしょうか？</message>
+	<message label="202_a" attrib="00 00 00 00">ゲートを<ruby a="2" b="2">あ</ruby>開けたい</message>
+	<message label="202_b" attrib="00 00 00 00"><ruby a="4" b="8">つうしん</ruby>通信を<ruby a="4" b="12">しゅうりょう</ruby>終了したい</message>
+	<message label="202_c" attrib="00 00 00 00">パスワードは<ruby a="2" b="4">なん</ruby>何だっけ？</message>
+	<message label="202_d" attrib="00 00 00 00">やっぱ、おでかけしたい</message>
+	<message label="202_e" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />なんでもないです</message>
 	<message label="210" attrib="04 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />はいっ！<delay frames="40" />
 <anim id="QuestionMark" target="actor" targetSpec="" />どのような　ご<ruby a="4" b="8">ようけん</ruby>用件でしょうか？</message>
 	<message label="210_a" attrib="00 00 00 00">ゲートを<ruby a="2" b="2">し</ruby>閉めたい</message>
@@ -294,6 +310,12 @@
 	<message label="211_b" attrib="00 00 00 00">パスワードは<ruby a="2" b="4">なん</ruby>何だっけ？</message>
 	<message label="211_c" attrib="00 00 00 00">やっぱ、おでかけしたい</message>
 	<message label="211_d" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />なんでもないです</message>
+	<message label="212" attrib="06 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />はいっ！<delay frames="40" />
+<anim id="QuestionMark" target="actor" targetSpec="" />どのような　ご<ruby a="4" b="8">ようけん</ruby>用件でしょうか？</message>
+	<message label="212_a" attrib="00 00 00 00">ゲートを<ruby a="2" b="2">し</ruby>閉めたい</message>
+	<message label="212_b" attrib="00 00 00 00">パスワードは<ruby a="2" b="4">なん</ruby>何だっけ？</message>
+	<message label="212_c" attrib="00 00 00 00">やっぱ、おでかけしたい</message>
+	<message label="212_d" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />なんでもないです</message>
 	<message label="220" attrib="02 00 00 00"><anim id="Eh" target="actor" targetSpec="" /><ruby a="2" b="4">あそ</ruby>遊びに<ruby a="2" b="2">き</ruby>来てもらうのではなくて、<delay20 />
 <anim id="QuestionMark" target="actor" targetSpec="" />おでかけしたいのですか？</message>
 	<message label="220_a" attrib="00 00 00 00">そうなんです</message>
@@ -305,7 +327,12 @@
 <anim id="Nodding" target="actor" targetSpec="" />このまま　<ruby a="4" b="8">つうしん</ruby>通信を<ruby a="4" b="12">しゅうりょう</ruby>終了いたしますね</message>
 	<message label="223" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />ただいま　<ruby a="4" b="8">せってい</ruby>設定されているパスワードは<delay20 />
 <anim id="FaintSmile" target="actor" targetSpec="" />「<colour id="1" /><tag a="110" b="26" /><colour id="65535" />」でございます！</message>
-	<message label="251" attrib="00 00 00 00" />
+	<message label="224" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />ただいま　<ruby a="4" b="8">せってい</ruby>設定されているパスワードは<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />「<colour id="1" /><tag a="110" b="25" /><colour id="65535" />」
+でございます！</message>
+	<message label="251_01" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />かしこまりました！<delay frames="40" />
+<anim id="EmotEnd" target="actor" targetSpec="" /><ruby a="4" b="8">つうしん</ruby>通信を　<ruby a="4" b="12">しゅうりょう</ruby>終了しまーす</message>
+	<message label="251_02" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />また　いつでも　ご<ruby a="4" b="6">りよう</ruby>利用ください！</message>
 	<message label="252" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />また<delay8 />　お<ruby a="4" b="10">きゃくさま</ruby>客様を　お<ruby a="2" b="4">むか</ruby>迎えになられたい<ruby a="2" b="4">とき</ruby>時は<delay frames="30" />
 <anim id="EmotEnd" target="actor" targetSpec="" />ゲートを<ruby a="2" b="2">あ</ruby>開けますので、<delay20 />
 <anim id="FaintSmile" target="actor" targetSpec="" />お<ruby a="4" b="6">きがる</ruby>気軽に　お<ruby a="2" b="4">もう</ruby>申しつけください</message>
@@ -325,6 +352,16 @@
 	<message label="302_a" attrib="00 00 00 00">ゲートを<ruby a="2" b="2">し</ruby>閉めたい</message>
 	<message label="302_b" attrib="00 00 00 00">パスワードは<ruby a="2" b="4">なん</ruby>何だっけ？</message>
 	<message label="302_c" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />なんでもないです</message>
+	<message label="303" attrib="04 00 00 00">ところで、<delay8 /><ruby a="2" b="4">なに</ruby>何か　お<ruby a="4" b="6">てつだ</ruby>手伝いできることは<delay8 />
+<anim id="QuestionMark" target="actor" targetSpec="" />ございますか？</message>
+	<message label="303_a" attrib="00 00 00 00">ゲートを<ruby a="2" b="2">あ</ruby>開けたい</message>
+	<message label="303_b" attrib="00 00 00 00">パスワードは<ruby a="2" b="4">なん</ruby>何だっけ？</message>
+	<message label="303_c" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />なんでもないです</message>
+	<message label="304" attrib="04 00 00 00">ところで、<delay8 /><ruby a="2" b="4">なに</ruby>何か　お<ruby a="4" b="6">てつだ</ruby>手伝いできることは<delay8 />
+<anim id="QuestionMark" target="actor" targetSpec="" />ございますか？</message>
+	<message label="304_a" attrib="00 00 00 00">ゲートを<ruby a="2" b="2">し</ruby>閉めたい</message>
+	<message label="304_b" attrib="00 00 00 00">パスワードは<ruby a="2" b="4">なん</ruby>何だっけ？</message>
+	<message label="304_c" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />なんでもないです</message>
 	<message label="305" attrib="02 00 00 00">ところで、<delay8 /><ruby a="2" b="4">なに</ruby>何か　お<ruby a="4" b="6">てつだ</ruby>手伝いできることは<delay8 />
 <anim id="QuestionMark" target="actor" targetSpec="" />ございますか？</message>
 	<message label="305_a" attrib="00 00 00 00">ゲートを<ruby a="2" b="2">あ</ruby>開けたい</message>
@@ -368,7 +405,7 @@
 	<message label="903" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />そうですか<delay frames="40" />
 <anim id="EmotEnd" target="actor" targetSpec="" />では、また <delay8 /><anim id="FaintSmile" target="actor" targetSpec="" />ご<ruby a="4" b="6">りよう</ruby>利用ください！</message>
 	<message label="998" attrib="00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" /><delay20 />おっと　お<ruby a="4" b="10">きゃくさま</ruby>客様<tag a="110" b="0" /><delay40 />
-<anim id="Smiling" target="actor" targetSpec="" /><ruby a="6" b="12">とうくうこう</ruby>当空港のサービスを　ご<ruby a="4" b="6">りよう</ruby>利用になる<ruby a="4" b="6">ばあい</ruby>場合は<delay8 />
+<anim id="Smiling" target="actor" targetSpec="" /><ruby a="8" b="16">とうひこうじょう</ruby>当飛行場のサービスを　ご<ruby a="4" b="6">りよう</ruby>利用になる<ruby a="4" b="6">ばあい</ruby>場合は<delay8 />
 まずは　こちらで<ruby a="4" b="8">せつめい</ruby>説明を<delay8 />　お<ruby a="2" b="2">き</ruby>聞きください！</message>
 	<message label="999_01" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" /><ruby a="4" b="6">せかい</ruby>世界につながる　<ruby a="2" b="4">そら</ruby>空の<ruby a="6" b="12">げんかんぐち</ruby>玄関口、<delay frames="30" />
 <anim id="EmotEnd" target="actor" targetSpec="" /><tag a="110" b="9" /><ruby a="6" b="12">ひこうじょう</ruby>飛行場へ　ウェルカム！</message>

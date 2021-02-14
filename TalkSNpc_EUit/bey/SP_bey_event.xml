@@ -42,8 +42,8 @@ comunque <colour id="1" /><tag a="90" b="8" arg="0x1" /> punti<colour id="65535"
 	<message label="005_a" attrib="00 00 00 00">Certo!</message>
 	<message label="005_b" attrib="00 00 00 00">Magari no.</message>
 	<message label="006" attrib="02 00 00 00"><anim id="Hello" target="actor" targetSpec="" />Allora, avannott<gender2 m="o" f="a" />?</message>
-	<message label="006_a" attrib="00 00 00 00">Voglio il premio!</message>
-	<message label="006_b" attrib="00 00 00 00">Faccio solo due passi!</message>
+	<message label="006_a" attrib="00 00 00 00"><anim id="EmotEnd" target="player" targetSpec="" />Voglio il premio!</message>
+	<message label="006_b" attrib="00 00 00 00"><anim id="EmotEnd" target="player" targetSpec="" />Faccio solo due passi!</message>
 	<message label="007" attrib="00 00 00 00"><anim id="Hello" target="actor" targetSpec="" />Uelà! <delay20 />Come abbocca, avannott<gender2 m="o" f="a" />?
 <delay20 />Ti ricordi del tuo amico <colour id="3" />Castorino<colour id="65535" />?<pageBreak />Mah, è troppo presto per tutta
 questa energia, magari un'altra
@@ -202,10 +202,10 @@ evento che è<tag a="110" b="0" /><delay20 /> <anim id="EmotEnd" target="actor" 
 perché si svolge da adesso fino
 alle ore <colour id="1" /><tag a="90" b="37" arg="0xcd01" /><colour id="65535" />!</message>
 	<message label="037" attrib="00 00 00 00"><anim id="Hello" target="actor" targetSpec="" />Uelà! <delay20 />Come abbocca, avannott<gender2 m="o" f="a" />!
-<delay20 />Ti ricordi del tuo amico <colour id="3" />Castorino<colour id="65535" /> <anim id="OhGeez" target="actor" targetSpec="" />?<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Ho organizzato l'evento più oceanico
+<delay20 />Ti ricordi del tuo amico <colour id="3" />Castorino<colour id="65535" />?<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Ho organizzato l'evento più oceanico
 che si svolga in <tag a="110" b="17" />: un bel
 <colour id="1" />torneo di pesca<colour id="65535" />!
-Prepara canna, lenza e mulinello
+<anim id="Greeting" target="actor" targetSpec="" />Prepara canna, lenza e mulinello
 perché si svolge da adesso fino
 alle ore <colour id="1" /><tag a="90" b="37" arg="0xcd01" /><colour id="65535" />! Niak niak!</message>
 	<message label="038" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Le regole del <colour id="1" />torneo di pesca<colour id="65535" /> sono
@@ -258,7 +258,7 @@ lo pago a peso d'oro. Niak niak!<delay20 />
 <anim id="BigSmile" target="actor" targetSpec="" />Così ci guadagniamo tutti!</message>
 	<message label="049_a" attrib="00 00 00 00">Te ne vendo!</message>
 	<message label="049_b" attrib="00 00 00 00">Vorrei il premio.</message>
-	<message label="049_c" attrib="00 00 00 00">Qualcos'altro...</message>
+	<message label="049_c" attrib="00 00 00 00">Riguardo al torneo...</message>
 	<message label="049_d" attrib="00 00 00 00">No, sono a posto così.</message>
 	<message label="050" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Oceanico! <delay20 />Che cosa mi vendi?</message>
 	<message label="051" attrib="02 00 00 00"><anim id="Grin" target="actor" targetSpec="" />Ah, un banco intero, eh? <delay20 />In totale
@@ -281,7 +281,7 @@ qualcosa che posso comprare. Niak!</message>
 	<message label="057" attrib="00 00 00 00"><anim id="OhGeez" target="actor" targetSpec="" />Ah. <delay20 />Beh, sta a te decidere,
 avannott<gender2 m="o" f="a" />.</message>
 	<message label="060" attrib="00 00 00 00"><anim id="HappyDance" target="actor" targetSpec="" />Oceanico! <delay20 />Nessuno resiste all'esca
-del torneo di pesca. <delay20 />Allora, sei
+del <colour id="1" />torneo di pesca<colour id="65535" />. <delay20 />Allora, sei
 pront<gender2 m="o" f="a" /> per<tag a="110" b="0" /><anim id="Serious" target="actor" targetSpec="" /> Uh, aspetta un attimo.
 <anim id="Negative" target="actor" targetSpec="" />Come avresti intenzione di
 partecipare se non hai nemmeno
@@ -291,14 +291,18 @@ spiace avannott<gender2 m="o" f="a" />, è la regola
 fondamentale.</message>
 	<message label="061" attrib="00 00 00 00"><anim id="OhGeez" target="actor" targetSpec="" />Niak<tag a="110" b="0" /><delay20 /> Apprezzo il tuo entusiasmo,
 ma pare che tu sia un po' a corto
-di stelline<tag a="110" b="0" />
-<anim id="Explain" target="actor" targetSpec="" />Dopo la prima volta, la quota di
-partecipazione è di <tag a="90" b="21" arg="0x2" />.<pageBreak />Sai, servono per coprire tutte le
-spese che i pesci che abboccano
-devono sostenere<tag a="110" b="0" /></message>
-	<message label="062" attrib="00 00 00 00"><anim id="HappyDance" target="actor" targetSpec="" />Oceanico! <delay20 />Nessuno resiste all'esca
-del torneo di pesca. <delay20 />La quota di
-partecipazione è di <tag a="90" b="21" arg="0x2" />.</message>
+di stelline.
+<anim id="Explain" target="actor" targetSpec="" />Sai, quelle <tag a="90" b="21" arg="0x2" /> della quota
+di iscrizione servono a mantenere a
+galla il torneo<tag a="110" b="0" /></message>
+	<message label="062" attrib="02 00 00 00"><anim id="HappyDance" target="actor" targetSpec="" />Oceanico! <delay20 /><anim id="ShyBoy" target="actor" targetSpec="" />Dopo la prima volta,
+la quota di partecipazione è di
+<tag a="90" b="21" arg="0x2" />. <delay20 /><anim id="Hello" target="actor" targetSpec="" />Ti va bene?</message>
+	<message label="062_a" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Alla grande!</message>
+	<message label="062_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Direi di no...</message>
+	<message label="062_01" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Oceanico, <delay8 />sapevo che non mi avresti
+deluso!<delay20 /> Bene, fanno <tag a="90" b="21" arg="0x2" />,
+allora<tag a="110" b="0" /></message>
 	<message label="063" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Bene, allora ti concedo <colour id="1" /><tag a="90" b="0" arg="0xe" /> minuti
 <colour id="65535" />per pescare quanti più pesci
 possibile, avannott<gender2 m="o" f="a" />.
@@ -316,7 +320,7 @@ peschi <colour id="1" />almeno <tag a="90" b="1" arg="0x4" /> pesci<colour id="6
 	<message label="066" attrib="00 00 00 00"><anim id="Restless" target="actor" targetSpec="" />Ottimo. <delay20 />Ma<tag a="110" b="0" /><delay20 /> <tag a="115" b="0" arg="0xcd00" /> ha lasciato dei pesci nel <colour id="1" />frigorifero<colour id="65535" />.<delay20 /> Sai per caso perché?<pageBreak /><anim id="Negative" target="actor" targetSpec="" />Non possiamo passare a un'altra
 sessione di pesca se non è vuoto.
 <delay20 />Regole del torneo, niak niak!
-<anim id="Nodding" target="actor" targetSpec="" />Beh, se vedi <tag a="115" b="0" arg="0xcd00" />, <delay20 />magari di<tag a="50" b="17" arg="0xd 0xcd00 0x6 0x67 0x6c 0x69 0x6 0x6c 0x6c 0x65 0x0" /> di svuotare il <colour id="1" />frigorifero<colour id="65535" />. <delay20 />Se necessario, compro io i pesci.</message>
+<anim id="Nodding" target="actor" targetSpec="" />Beh, se vedi <tag a="115" b="0" arg="0xcd00" />, <delay20 />magari di<tag a="50" b="17" arg="0xe 0xcd00 0x6 0x67 0x6c 0x69 0x6 0x6c 0x6c 0x65 0x0" /> di svuotare il <colour id="1" />frigorifero<colour id="65535" />. <delay20 />Se necessario, compro io i pesci.</message>
 	<message label="067" attrib="00 00 00 00"><anim id="Restless" target="actor" targetSpec="" />Ottimo. <delay20 />Ma<tag a="110" b="0" /><delay20 /> qualcuno ha lasciato
 dei pesci nel <colour id="1" />frigorifero<colour id="65535" />.<delay20 /> Sai per caso
 perché?
@@ -379,8 +383,8 @@ incontrati oggi. <delay20 />Sai, al momento la
 mia memoria sta un po' affondando<tag a="110" b="0" /><pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Comunque, sembra che tu abbia
 a bordo un po' di punti. Vuoi forse
 scambiarli per il premio, <delay8 />niak?</message>
-	<message label="090_a" attrib="00 00 00 00">Vorrei il premio.</message>
-	<message label="090_b" attrib="00 00 00 00">Faccio solo due passi!</message>
+	<message label="090_a" attrib="00 00 00 00"><anim id="EmotEnd" target="player" targetSpec="" />Vorrei il premio.</message>
+	<message label="090_b" attrib="00 00 00 00"><anim id="EmotEnd" target="player" targetSpec="" />Faccio solo due passi!</message>
 	<message label="090_01" attrib="00 00 00 00"><anim id="Hello" target="actor" targetSpec="" />Uelà, avannott<gender2 m="o" f="a" />!<delay20 /> Sono <colour id="3" />Castorino<colour id="65535" /> e<tag a="110" b="0" /><delay frames="40" />
 <anim id="SadSpiral" target="actor" targetSpec="" />ho organizzato un <colour id="1" />torneo di pesca<colour id="65535" />.<pageBreak /><anim id="Serious" target="actor" targetSpec="" />Uhm, <delay20 />non mi ricordo se ci siamo già
 incontrati oggi. <delay20 />Sai, al momento la
@@ -391,8 +395,8 @@ se vuoi partecipare al prossimo
 altri fan della pesca. <delay20 />Resterò qui fino
 alle ore <colour id="1" /><tag a="90" b="37" arg="0xcd02" /><colour id="65535" />.</message>
 	<message label="100" attrib="02 00 00 00"><anim id="Hello" target="actor" targetSpec="" />Che mi dici, avannott<gender2 m="o" f="a" />?</message>
-	<message label="100_a" attrib="00 00 00 00">Vorrei il premio.</message>
-	<message label="100_b" attrib="00 00 00 00">Faccio solo due passi!</message>
+	<message label="100_a" attrib="00 00 00 00"><anim id="EmotEnd" target="player" targetSpec="" />Vorrei il premio.</message>
+	<message label="100_b" attrib="00 00 00 00"><anim id="EmotEnd" target="player" targetSpec="" />Faccio solo due passi!</message>
 	<message label="101" attrib="00 00 00 00"><anim id="SmugFace" target="actor" targetSpec="" />Organizzerò anche il prossimo <colour id="1" />torneo di pesca<colour id="65535" /> di <tag a="110" b="9" />. <delay20 />Si terrà <tag a="50" b="15" /> <colour id="1" /><tag a="90" b="35" arg="0xcd00" /><colour id="65535" />. <delay20 />Partecipa, niak!</message>
 	<message label="102" attrib="00 00 00 00"><anim id="AbsentMindedness" target="actor" targetSpec="" />Il <colour id="1" />torneo di pesca<colour id="65535" /> è stato oceanico,
 non credi anche tu, niak niak?<pageBreak />La tensione era palpabile come una
@@ -447,7 +451,7 @@ pesci da vendere, li compro io.</message>
 	<message label="123" attrib="02 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Che ne dici di <tag a="90" b="26" arg="0x5" />?<delay20 />
 Abbocchi?</message>
 	<message label="123_a" attrib="00 00 00 00">Va benissimo!</message>
-	<message label="123_b" attrib="00 00 00 00">Un momento.</message>
+	<message label="123_b" attrib="00 00 00 00"><anim id="EmotEnd" target="player" targetSpec="" />Un momento.</message>
 	<message label="124" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Affare fatto!<delay20 /> <anim id="Eh" target="actor" targetSpec="" />Eh, aspetta<tag a="110" b="0" /><delay20 /> ma di
 recente hai assaltato un galeone?
 Le stelline ti escono dalle orecchie.
@@ -528,13 +532,24 @@ più un bonus di squadra a partire da
 <colour id="1" />almeno <tag a="90" b="1" arg="0xa" /><colour id="65535" />.
 <anim id="Smiling" target="actor" targetSpec="" />E la tua parte ammonta a <colour id="1" /><tag a="90" b="1" arg="0x8" /><colour id="65535" />.<delay20 />
 Oceanico! Niak niak!</message>
-	<message label="150" attrib="00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />OK, il totale per tutti è<tag a="110" b="0" /><delay20 /> <anim id="Nodding" target="actor" targetSpec="" /><colour id="1" /><tag a="90" b="1" arg="0x9" /> pesci<colour id="65535" />,
+	<message label="150" attrib="00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />OK, il totale per tutti è<tag a="110" b="0" /><delay20 /> <anim id="Nodding" target="actor" targetSpec="" /><colour id="1" /><tag a="90" b="2" arg="0x9" /> pesci<colour id="65535" />,
 più un bonus di squadra a partire da
 <colour id="1" />almeno <tag a="90" b="1" arg="0xa" /><colour id="65535" />.
 <anim id="Smiling" target="actor" targetSpec="" />E la tua parte ammonta a <colour id="1" /><tag a="90" b="1" arg="0x8" /><colour id="65535" />,<delay20 /> con un
 bonus in solitaria a partire da <colour id="1" />almeno
 <tag a="90" b="1" arg="0x4" /> <50_8 x="0" y="4" a="pesci" b="pesce" c="pesci" /><colour id="65535" />.</message>
 	<message label="151" attrib="00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" /><colour id="4" />Uhm, aggiungo al tuo totale<tag a="110" b="0" /><colour id="65535" /></message>
+	<message label="159" attrib="00 00 00 00"><anim id="Grin" target="actor" targetSpec="" />Chi è pronto a fare un po' di pesca
+sportiva? <delay frames="40" /><anim id="BigSmile" target="actor" targetSpec="" />Ma come "Chi?" tu!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Hai proprio l'aria di essere<tag a="110" b="0" /><delay20 /> <gender2 m="un" f="una" />
+grande fan di questo strepitoso
+sport, avannott<gender2 m="o" f="a" />!
+<anim id="Hello" target="actor" targetSpec="" />Comunque, mi chiamo <colour id="3" />Castorino<colour id="65535" /> e
+sono qui per condurre quel mitico
+evento che è<tag a="110" b="0" /> <anim id="EmotEnd" target="actor" targetSpec="" />il <colour id="1" />torneo di pesca<colour id="65535" />!<anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak />Prepara<tag a="110" b="0" /> <anim id="Serious" target="actor" targetSpec="" />Niak! Un momento<tag a="110" b="0" /><pageBreak /><anim id="QuestionMark" target="actor" targetSpec="" />Ma non ti ho già vist<gender2 m="o" f="a" /> partecipare
+non troppo tempo fa? <delay20 />Ma certo!<delay frames="40" /> <anim id="Nodding" target="actor" targetSpec="" />E ci
+hai messo anche grande impegno!
+<anim id="FaintSmile" target="actor" targetSpec="" />Allora, com'è andata? <delay20 />Ti sei
+divertit<gender2 m="o" f="a" />, avannott<gender2 m="o" f="a" />?</message>
 	<message label="152" attrib="00 00 00 00"><anim id="Grin" target="actor" targetSpec="" />Chi è pronto a fare un po' di pesca
 sportiva? <delay frames="40" /><anim id="BigSmile" target="actor" targetSpec="" />Ma come "Chi?" tu!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Hai proprio l'aria di essere<tag a="110" b="0" /><delay20 /> <gender2 m="un" f="una" />
 grande fan di questo strepitoso
@@ -551,6 +566,27 @@ divertit<gender2 m="o" f="a" />, avannott<gender2 m="o" f="a" />?</message>
 	<message label="155" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Appena avrai ottenuto <colour id="1" />almeno <tag a="90" b="1" arg="0x0" />
 punti<colour id="65535" />, potrai scambiarli per un
 premio oceanico.<delay frames="40" /> <anim id="BigSmile" target="actor" targetSpec="" />Provaci, avannott<gender2 m="o" f="a" />!</message>
+	<message label="156" attrib="00 00 00 00">Bene, <delay20 />pare che nel <colour id="1" />frigo portatile
+<colour id="65535" />ci fossero<tag a="110" b="0" /> <delay20 /><colour id="1" /><tag a="90" b="1" arg="0x8" /> pesci<colour id="65535" />.<delay20 /> <anim id="FaintSmile" target="actor" targetSpec="" />Ci sai proprio
+fare con la canna da pesca tu, <delay8 />niak!</message>
+	<message label="156_01" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />A proposito, <gender2 m="avannotto" f="avannotta" />! <delay20 />Guarda che
+il frigo può rovesciarsi se ci infili
+dentro più di 20 pesci<tag a="110" b="0" />
+<anim id="Nodding" target="actor" targetSpec="" />Quindi, per non rischiare, ne ho tirati
+fuori un po'.<pageBreak /><anim id="Grin" target="actor" targetSpec="" />Ma non c'è motivo di boccheggiare.
+<delay20 />Li ho spediti in un resort di lusso per
+pesci<tag a="110" b="0" /> <delay20 />Vedrai, staranno benissimo!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Tu comunque riceverai i punti che
+ti spettano, <delay20 />perciò non preoccuparti,
+<delay8 />niak, <delay8 />niak!</message>
+	<message label="157" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Allora<tag a="110" b="0" /> Oltre ai <colour id="1" /><tag a="90" b="1" arg="0x8" /> punti <colour id="65535" />che hai
+tirato su, <delay8 />ti becchi un bel bonus
+per aver catturato <colour id="1" />almeno <tag a="90" b="1" arg="0x4" /> pesci<colour id="65535" />!<pageBreak /><anim id="Serious" target="actor" targetSpec="" />Ah, dimenticavo! <delay20 /><anim id="Nodding" target="actor" targetSpec="" />Il bottino totale
+per tutti è di <colour id="1" /><tag a="90" b="2" arg="0x9" /> pesci<colour id="65535" />.<pageBreak />Ciò significa che vi spetta un bonus
+di squadra per averne presi insieme
+<colour id="1" />almeno <tag a="90" b="1" arg="0xa" /><colour id="65535" />, niak, niak!</message>
+	<message label="158" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Allora<tag a="110" b="0" /> Oltre ai <colour id="1" /><tag a="90" b="1" arg="0x8" /> punti <colour id="65535" />che hai
+preso all'amo, <delay8 />ti becchi un bel bonus
+per aver tirato su <colour id="1" />almeno <tag a="90" b="1" arg="0x4" /> pesci<colour id="65535" />!</message>
 	<message label="160" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />I pesci catturati da tutti sono nel
 <colour id="1" />frigorifero<colour id="65535" />. <delay20 />Ognuno potrà riprendersi
 i suoi più tardi, niak niak.<pageBreak /><anim id="Grin" target="actor" targetSpec="" />Oppure, se nessuno li vuole, me li
@@ -598,14 +634,16 @@ di pesca<colour id="65535" /> attende<tag a="110" b="0" /> <delay20 />Un altro r
 	<message label="165_b" attrib="00 00 00 00">Per ora no.</message>
 	<message label="166" attrib="02 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />Semplicissimo, vero? <delay20 />E puoi
 partecipare tutte le volte che vuoi.<pageBreak /><anim id="Scheming" target="actor" targetSpec="" />Dunque, <delay20 />sei pront<gender2 m="o" f="a" /> a gettarti come
-un'esca nel <colour id="1" />torneo di pesca<colour id="65535" />? <delay20 />La
-prima volta da <colour id="1" />leader<colour id="65535" /> è gratis.</message>
+un'esca nel <colour id="1" />torneo di pesca<colour id="65535" />?<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Oggi è la tua prima partecipazione
+come <colour id="1" />leader<colour id="65535" />, quindi non devi pagare
+nulla.</message>
 	<message label="166_a" attrib="00 00 00 00">Contaci!</message>
 	<message label="166_b" attrib="00 00 00 00">Per ora no.</message>
 	<message label="167" attrib="06 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />Semplicissimo, vero? <delay20 />E puoi
 partecipare tutte le volte che vuoi.<pageBreak /><anim id="Scheming" target="actor" targetSpec="" />Dunque, <delay20 />sei pront<gender2 m="o" f="a" /> a gettarti come
-un'esca nel <colour id="1" />torneo di pesca<colour id="65535" />? <delay20 />La
-prima volta da <colour id="1" />leader<colour id="65535" /> è gratis.</message>
+un'esca nel <colour id="1" />torneo di pesca<colour id="65535" />?<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Oggi è la tua prima partecipazione
+come <colour id="1" />leader<colour id="65535" />, quindi non devi pagare
+nulla.</message>
 	<message label="167_a" attrib="00 00 00 00">Contaci!</message>
 	<message label="167_b" attrib="00 00 00 00">Quali sono le regole?</message>
 	<message label="167_c" attrib="00 00 00 00">Vorrei il premio.</message>
@@ -625,15 +663,15 @@ incontrati oggi. <delay20 />Sai, al momento la
 mia memoria sta un po' affondando<tag a="110" b="0" /><pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Comunque, sembra che tu abbia
 a bordo un po' di punti. Vuoi forse
 scambiarli per il premio, <delay8 />niak?</message>
-	<message label="170_a" attrib="00 00 00 00">Vorrei il premio.</message>
-	<message label="170_b" attrib="00 00 00 00">Faccio solo due passi!</message>
+	<message label="170_a" attrib="00 00 00 00"><anim id="EmotEnd" target="player" targetSpec="" />Vorrei il premio.</message>
+	<message label="170_b" attrib="00 00 00 00"><anim id="EmotEnd" target="player" targetSpec="" />Faccio solo due passi!</message>
 	<message label="170_01" attrib="00 00 00 00"><anim id="SmugFace" target="actor" targetSpec="" />Fiuuu! <delay20 />Un altro <colour id="1" />torneo di pesca<colour id="65535" /> si
 è concluso!<delay20 /> Aspetto il prossimo
 con impazienza!</message>
 	<message label="171" attrib="06 00 00 00"><anim id="Scheming" target="actor" targetSpec="" />Sei pront<gender2 m="o" f="a" /> a tirare a riva un sacco
-di gloria con il <colour id="1" />torneo di pesca<colour id="65535" />?<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Visto che è la tua prima volta
-come <colour id="1" />leader<colour id="65535" />, la partecipazione
-è gratuita, avannott<gender2 m="o" f="a" />.</message>
+di gloria con il <colour id="1" />torneo di pesca<colour id="65535" />?<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Visto che oggi è la tua prima volta
+come <colour id="1" />leader<colour id="65535" />, la partecipazione è
+gratuita, avannott<gender2 m="o" f="a" />.</message>
 	<message label="171_a" attrib="00 00 00 00">Contaci!</message>
 	<message label="171_b" attrib="00 00 00 00">Quali sono le regole?</message>
 	<message label="171_c" attrib="00 00 00 00">Vorrei il premio.</message>

@@ -1,12 +1,16 @@
 <msbt attribsize="8">
-	<message label="001" attrib="00 00 00 00 00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />Ohé, l'ami<gender2 m="" f="e" /> !<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Je m'appelle <tag a="110" b="10" />.<delay frames="40" />
-<anim id="SmugFace" target="actor" targetSpec="" />Typiquement, je suis le premier
-à profiter de ce <colour id="1" />camping<colour id="65535" />.</message>
+	<message label="001" attrib="00 00 00 00 00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />Ohé, l'ami<gender2 m="" f="e" /> !<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Je suis <tag a="110" b="10" />.<delay frames="40" /> <anim id="SmugFace" target="actor" targetSpec="" />Comme de bien entendu, c'est moi qui ai l'honneur d'inaugurer ce <colour id="1" />camping<colour id="65535" />.</message>
+	<message label="001_01" attrib="00 00 00 00 00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />Et tu vis sur cette île, supputé-je ?<delay20 />
+<anim id="Nodding" target="actor" targetSpec="" />Oui, je m'en doutais.<delay20 /> Quand je
+suppute, je touche toujours au but.
+<anim id="SmugFace" target="actor" targetSpec="" />Par exemple, je suppute que tu
+vas nager dans l'allégressitude
+avec un voisin comme moi.</message>
 	<message label="002_01" attrib="00 00 01 00 00 00 00 00"><anim id="HappyFlower" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="110" b="5" />, cet endroit mérite vraiment d'être connu<tag a="110" b="0" /><pageBreak /><anim id="QuestionMark" target="actor" targetSpec="" />Pourquoi ?<delay frames="40" /><anim id="Grin" target="actor" targetSpec="" /> Eh bien, cette question
 que tu ne poses pas est tout à fait
 pertinente<tag a="110" b="0" /><pageBreak /><anim id="Explain" target="actor" targetSpec="" />Les loisirs, le soleil, le vent,
 les <tag a="110" b="7" arg="0xcd01" />, et je ne parle même
-pas <tag a="50" b="17" arg="0x21 0xcd00 0x4 0x64 0x75 0xa 0x64 0x65 0x20 0x6c 0x61 0x0" /> <tag a="135" b="6" arg="0xcd00" />.
+pas <tag a="50" b="17" arg="0x22 0xcd00 0x4 0x64 0x75 0xa 0x64 0x65 0x20 0x6c 0x61 0x0" /> <tag a="135" b="6" arg="0xcd00" />.
 <anim id="AbsentMindedness" target="actor" targetSpec="" />Ça me donne presque envie
 de venir m'installer ici<tag a="110" b="0" /></message>
 	<message label="002_01_a" attrib="00 00 00 00 00 00 00 00">Mais viens !</message>
@@ -78,12 +82,12 @@ meilleurs selfies.
 <anim id="AbsentMindedness" target="actor" targetSpec="" />Si mon prochain disque fait
 un flop, je pense me reconvertir
 en guide touristique<tag a="110" b="0" />
-« ⁠<tag a="50" b="3" /><tag a="110" b="8" />, la vue en VIP ».<delay20 /> Alors, qu'est-ce que tu en penses ?</message>
+« ⁠<tag a="50" b="3" /><tag a="110" b="8" />, la vue en VIP ⁠».<delay20 /> Alors, qu'est-ce que tu en penses ?</message>
 	<message label="007_02" attrib="00 00 00 00 00 00 00 00"><anim id="SmugFace" target="actor" targetSpec="" />Maintenant que je suis venu ici,
 je ne suis plus <tag a="50" b="17" arg="0x5 0xcd00 0x4 0x6c 0x65 0x4 0x6c 0x61 0x0" /> même <tag a="110" b="15" /><tag a="110" b="0" /><pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />J'apprécie à nouveau les choses
 simples et le dur labeur.<pageBreak /><anim id="Grin" target="actor" targetSpec="" />Je songe même à prendre des cours
 de <tag a="135" b="6" arg="0xcd00" />, tu y crois, toi ?</message>
-	<message label="007_03" attrib="00 00 00 00 00 00 00 00"><anim id="AbsentMindedness" target="actor" targetSpec="" />Dans le fond, je ne suis qu'<tag a="50" b="2" /><tag a="110" b="15" /> tout ce qu'il y a de plus simple<tag a="110" b="0" /><pageBreak /><anim id="Love" target="actor" targetSpec="" />Par exemple mon rêve de nager dans
+	<message label="007_03" attrib="00 00 00 00 00 00 00 00"><anim id="AbsentMindedness" target="actor" targetSpec="" />Dans le fond, je ne suis qu'<tag a="50" b="2" /><tag a="110" b="15" /> tout ce qu'il y a de plus simple<tag a="110" b="0" /><pageBreak /><anim id="Love" target="actor" targetSpec="" />Par exemple, mon rêve de nager dans
 une piscine de clochettes<tag a="110" b="0" /> c'est la
 simplicité incarnée.</message>
 	<message label="008" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
@@ -103,4 +107,10 @@ mes fans<tag a="110" b="0" />
 Mais là, j'ai le nez dans les poches
 des déménageurs, qui eux ont le
 nez dans mes cartons.</message>
+	<message label="101" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Ouah, <tag a="110" b="8" /> est pas un bled de seconde zone. <delay20 />C'est l'île la plus courue des sept mers !<pageBreak /><anim id="TakenAback" target="actor" targetSpec="" />C'est pas moi qui m'en plaindrais.<delay20 /> <anim id="Nodding" target="actor" targetSpec="" />Je
+suis toujours ravi de pouvoir tendre
+ma carte à mille badauds éblouis.
+<anim id="Smiling" target="actor" targetSpec="" />Mais quand tu seras seul<gender2 m="" f="e" />, je dirais
+pas non à un petit tête-à-tête. <delay20 /><anim id="SmugFace" target="actor" targetSpec="" />Rien
+que toi, moi, et mon bagout hilarant.</message>
 </msbt>

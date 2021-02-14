@@ -1,6 +1,6 @@
 <msbt attribsize="4">
-	<message label="001" attrib="00 00 00 00">Tut mir leid, <delay8 /><gender2 m="Amigo" f="Süße" />, <delay8 />aber ich bin
-durch für heute.<delay frames="60" /> <snpcAnim id="TkkNodding" target="actor" targetSpec="" />Schau früher rein,<delay8 />
+	<message label="001" attrib="00 00 00 00">Für heute bin ich durch, <delay8 /><gender2 m="Amigo" f="Süße" />.<delay frames="60" />
+<snpcAnim id="TkkNodding" target="actor" targetSpec="" />Schau nächstes Mal wieder vorbei,<delay8 />
 wenn du den Gig erleben willst, <delay8 />'kay?</message>
 	<message label="002" attrib="00 00 00 00"><snpcAnim id="TkkQuestionMark" target="actor" targetSpec="" />Was hält dich zurück, <delay8 /><gender2 m="Amigo" f="Süße" />?<delay frames="40" />
 <anim id="EmotEnd" target="actor" targetSpec="" />Greifst du dir 'nen Stuhl, <delay8 />greif ich mir
@@ -56,19 +56,16 @@ Immer eine Freude, <delay8 />dich im Publikum
 zu sehen.<delay20 /> <snpcAnim id="TkkQuestionMark" target="actor" targetSpec="" />Also, <delay8 />Lust auf 'nen Song?</message>
 	<message label="015_a" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Ja, gern!</message>
 	<message label="015_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Lieber ein andermal.</message>
-	<message label="016" attrib="02 00 00 00"><snpcAnim id="TkkEh" target="actor" targetSpec="" />Ohne dich, <delay8 /><tag a="110" b="1" />, <delay20 />ist
-mein Auftritt einfach nicht komplett.<anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak /><snpcAnim id="TkkQuestionMark" target="actor" targetSpec="" />Soll ich dann mal für dich die
+	<message label="016" attrib="02 00 00 00"><snpcAnim id="TkkEh" target="actor" targetSpec="" />Ohne dich, <delay8 /><tag a="110" b="1" />, <delay20 />ist mein Auftritt einfach nicht komplett.<anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak /><snpcAnim id="TkkQuestionMark" target="actor" targetSpec="" />Soll ich dann mal für dich die
 Saiten reiten?</message>
 	<message label="016_a" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Mit Vergnügen!</message>
 	<message label="016_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Lieber ein andermal.</message>
 	<message label="017" attrib="02 00 00 00"><snpcAnim id="TkkEh" target="actor" targetSpec="" />Coole Sache. <delay20 />Aber mal so richtig.<delay20 />
-Ich wusste, <delay8 />dass du kommst, <delay8 /><tag a="110" b="1" />.<anim id="EmotEnd" target="actor" targetSpec="" />
-<snpcAnim id="TkkQuestionMark" target="actor" targetSpec="" />Steht dir der Sinn nach guter Musik?</message>
+Ich wusste, <delay8 />dass du kommst,
+<delay8 /><tag a="110" b="1" />.<anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak /><snpcAnim id="TkkQuestionMark" target="actor" targetSpec="" />Steht dir der Sinn nach guter Musik?</message>
 	<message label="017_a" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Ja, gern!</message>
 	<message label="017_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Lieber ein andermal.</message>
-	<message label="018" attrib="02 00 00 00"><snpcAnim id="TkkEh" target="actor" targetSpec="" />Hey, <delay8 /><tag a="110" b="1" />. <delay20 />Du, <delay8 /><gender2 m="Amigo" f="Süße" />,
-bist <gender2 m="der" f="die" /> Beste.<delay20 /> Echt jetzt.<anim id="EmotEnd" target="actor" targetSpec="" /><delay20 /> <snpcAnim id="TkkQuestionMark" target="actor" targetSpec="" />Na, <delay8 />magst
-du deinen Lauschern was gönnen?</message>
+	<message label="018" attrib="02 00 00 00"><snpcAnim id="TkkEh" target="actor" targetSpec="" />Hey, <delay8 /><tag a="110" b="1" />. <delay20 />Du, <delay8 /><gender2 m="Amigo" f="Süße" />, <delay8 />bist <gender2 m="der" f="die" /> Beste.<delay20 /> Echt jetzt.<anim id="EmotEnd" target="actor" targetSpec="" /><delay20 /> <snpcAnim id="TkkQuestionMark" target="actor" targetSpec="" />Na, <delay8 />willst du deinen Lauschern was gönnen?</message>
 	<message label="018_a" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Na klar!</message>
 	<message label="018_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Lieber ein andermal.</message>
 	<message label="019" attrib="02 00 00 00"><tag a="110" b="0" /><snpcAnim id="TkkNodding" target="actor" targetSpec="" />Deine Unterstützung bedeutet mir
@@ -190,13 +187,9 @@ mal geben?</message>
 	<message label="053_a" attrib="00 00 00 00">Aber gern.</message>
 	<message label="053_b" attrib="00 00 00 00">Ein andermal.</message>
 	<message label="054" attrib="00 00 00 00"><snpcAnim id="TkkEh" target="actor" targetSpec="" />Verstehe schon.<delay frames="30" /> Kein Thema.</message>
-	<message label="060" attrib="00 00 00 00"><tag a="50" b="3" /><tag a="110" b="1" />.<delay20 /><snpcAnim id="TkkQuestionMark" target="actor" targetSpec="" /> Hast du 'ne
-Sekunde?<delay20 /> Ich wollte was mit dir
-bequatschen.</message>
-	<message label="061" attrib="02 00 00 00"><snpcAnim id="TkkQuestionMark" target="actor" targetSpec="" />Kennst du jemanden namens
-<tag a="115" b="0" arg="0xcd00" /> hier auf
-<tag a="110" b="8" />?<pageBreak />Ich frage, <delay8 />weil <gender1 m="er" f="sie" /> am
-<tag a="90" b="36" arg="0xcd00" /> <tag a="90" b="35" arg="0xcd00" /> Geburtstag hat.<pageBreak /><snpcAnim id="TkkNodding" target="actor" targetSpec="" />Ganz unter uns:<delay8 /> Ich will für <gender1 m="ihn" f="sie" /> eine
+	<message label="060" attrib="00 00 00 00"><tag a="50" b="3" /><tag a="110" b="1" />.<delay20 /><snpcAnim id="TkkQuestionMark" target="actor" targetSpec="" /> Hast du 'ne Sekunde?<delay20 /> Ich wollte was mit dir bequatschen.</message>
+	<message label="061" attrib="02 00 00 00"><snpcAnim id="TkkQuestionMark" target="actor" targetSpec="" />Kennst du jemanden namens <tag a="115" b="0" arg="0xcd00" /> hier auf <tag a="110" b="8" />?<pageBreak />Ich frage, <delay8 />weil <gender1 m="er" f="sie" /> am <tag a="90" b="36" arg="0xcd00" /> <tag a="90" b="35" arg="0xcd00" />
+Geburtstag hat.<pageBreak /><snpcAnim id="TkkNodding" target="actor" targetSpec="" />Ganz unter uns:<delay8 /> Ich will für <gender1 m="ihn" f="sie" /> eine
 besondere Show auf die Beine
 stellen.
 Und dafür<delay20 /> wollte ich auch ein paar

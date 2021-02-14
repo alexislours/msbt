@@ -7,7 +7,7 @@ question.
 	<message label="001_a" attrib="04 00 00 00 00 00 00 00">Oui!</message>
 	<message label="001_b" attrib="05 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Euh, non...</message>
 	<message label="002" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="23" arg="0xd 0xe 0xf 0xffff" /></message>
-	<message label="003" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x10 0x11 0xffff 0xffff" /></message>
+	<message label="003" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x1 0x10 0x11 0x12" /></message>
 	<message label="004" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Vraiment?<delay20 /> C'est <tag a="50" b="1" /><tag a="110" b="7" arg="0xcd00" />?!<delay20 />
 <anim id="Grin" target="actor" targetSpec="" />Eh ben, j'ai bien fait de me fier à
 ta tête de <gender2 m="monsieur" f="madame" /> Je-sais-tout!<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Si tu as l'occasion d'en goûter,<delay8 />
@@ -42,10 +42,11 @@ pierre et tout!
 <anim id="Smiling" target="actor" targetSpec="" />Enfin<tag a="110" b="0" /> j'espère que ça sera le cas
 la prochaine fois que tu seras de
 passage,<delay8 /><anim id="Laughing" target="actor" targetSpec="" /> sinon ça sera la honte!</message>
-	<message label="017" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="2" arg="0x15 0x16 0x17 0x19" /></message>
+	<message label="017" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="3" arg="0x15 0x16 0x17 0x18 0x19" /></message>
 	<message label="021" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1c00 0x1900 0xcd00" /></message>
 	<message label="022" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1d01 0x1900 0xcd00" /></message>
 	<message label="023" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1e02 0x1900 0xcd00" /></message>
+	<message label="024" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1f03 0x1900 0xcd00" /></message>
 	<message label="025" attrib="00 00 00 00 00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Je n'y connais rien en art, mais
 j'aime bien me balader au <colour id="1" />musée<colour id="65535" /> en
 faisant comme si c'était le cas.
@@ -69,42 +70,40 @@ faire la taille d'une voiture?!</message>
 c'est que t'as rien contre le
 charme rétro.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Tu seras donc sans doute ravi<gender2 m="" f="e" />
 d'apprendre que notre <colour id="1" />musée<colour id="65535" /> a
-<tag a="50" b="2" /><tag a="135" b="13" arg="0x2" />.<pageBreak /><anim id="BigSmile" target="actor" targetSpec="" />À côté d<tag a="50" b="17" arg="0x28 0xcd00 0xa 0x65 0x20 0x6c 0x75 0x69 0xa 0x27 0x65 0x6c 0x6c 0x65 0x0" />, même moi, je suis
+<tag a="50" b="2" /><tag a="135" b="13" arg="0x2" />.<pageBreak /><anim id="BigSmile" target="actor" targetSpec="" />À côté d<tag a="50" b="17" arg="0x29 0xcd00 0xa 0x65 0x20 0x6c 0x75 0x69 0xa 0x27 0x65 0x6c 0x6c 0x65 0x0" />, même moi, je suis
 un perdreau de l'année!</message>
-	<message label="101" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="0" arg="0x66 0x69" /></message>
-	<message label="102" attrib="00 00 02 00 00 00 00 00">Tiens, <gender2 m="le jeune" f="la jeune" />, j'ai une question :<delay20 />
-<anim id="QuestionMark" target="actor" targetSpec="" />la vie à <tag a="110" b="8" />
-te manque,<delay8 /> ou pas vraiment?</message>
-	<message label="102_a" attrib="67 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Un peu, oui.</message>
-	<message label="102_b" attrib="68 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Pas vraiment.</message>
-	<message label="103" attrib="00 00 00 00 00 00 00 00"><anim id="WrySmile" target="actor" targetSpec="" />Juste un petit peu, hein? <delay20 />Allez,
-fais pas <gender2 m="ton dur" f="ta dure" /><tag a="110" b="0" /><anim id="Assent" target="actor" targetSpec="" /> Promis,
-je le répéterai à personne.
-<anim id="Smiling" target="actor" targetSpec="" />En tout cas,<delay8 /> sache que tu seras
-toujours <gender2 m="le bienvenu" f="la bienvenue" /> ici,<delay8 />
-<tag a="110" b="5" />.</message>
-	<message label="104" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Eh ben! Je m'attendais pas à une
-réponse aussi brutalement honnête!<pageBreak /><anim id="Grin" target="actor" targetSpec="" />Enfin tant mieux si t'as trouvé
-le bonheur dans ta nouvelle vie.<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Pour être franc, <delay8 /><tag a="110" b="8" />
-s'en sort aussi pas mal depuis
-ton départ.</message>
-	<message label="105" attrib="00 00 04 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Tiens, mais c'est <tag a="110" b="3" />!<delay frames="40" />
-<anim id="Smiling" target="actor" targetSpec="" />Comment va la vie sur ta nouvelle
-île?</message>
-	<message label="105_a" attrib="6a 00 00 00 00 00 00 00">Ça va super!</message>
-	<message label="105_b" attrib="6b 00 00 00 00 00 00 00">Ça se passe.</message>
-	<message label="105_c" attrib="6c 00 00 00 00 00 00 00">Ha ha ha!</message>
-	<message label="106" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Ah!<delay20 /><anim id="ShyBoy" target="actor" targetSpec="" /> Pour tout dire,<delay8 /> on s'inquiétait
-un peu que tu retrouves pas
-un voisinage de notre qualité.<pageBreak /><anim id="WrySmile" target="actor" targetSpec="" />Mais j'suis content de voir qu'un
+	<message label="201" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="0" arg="0xca 0xcd" /></message>
+	<message label="202" attrib="00 00 02 00 00 00 00 00">J'ai une question pour toi, <gender2 m="le jeune" f="la jeune" />.<delay20 />
+<anim id="QuestionMark" target="actor" targetSpec="" />Ça te manque de plus me croiser à
+<tag a="110" b="9" />?</message>
+	<message label="202_a" attrib="cb 00 00 00 00 00 00 00">Un peu, oui.</message>
+	<message label="202_b" attrib="cc 00 00 00 00 00 00 00">Pas vraiment.</message>
+	<message label="203" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Sérieusement? <delay8 />Alors ça, je m'y
+attendais pas!<delay frames="30" /><anim id="EmotEnd" target="actor" targetSpec="" /> Je demande comme
+ça pour rire, et toi, paf!<delay20 /> <anim id="Blushing" target="actor" targetSpec="" />Tu dis oui!
+<anim id="Nodding" target="actor" targetSpec="" />Bah écoute,<delay8 /> je vais rester sur cette
+île un moment,<delay20 /> <anim id="Smiling" target="actor" targetSpec="" />donc hésite pas à
+venir me voir quand tu veux!</message>
+	<message label="204" attrib="00 00 00 00 00 00 00 00"><anim id="OhGeez" target="actor" targetSpec="" />Ouais,<delay8 /> je m'en doutais!<delay40 /> <anim id="EmotEnd" target="actor" targetSpec="" />La nostalgie
+du bon vieux temps, c'est pas trop
+ton truc, pas vrai?<pageBreak /><anim id="ShyBoy" target="actor" targetSpec="" />Bah écoute,<delay8 /> en ce qui me concerne,
+ça m'a quand même fait plaisir de te
+revoir, <tag a="110" b="6" />!</message>
+	<message label="205" attrib="00 00 04 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Tiens, mais c'est <tag a="110" b="3" />!<delay frames="40" /> <anim id="Smiling" target="actor" targetSpec="" />Comment va la vie à <tag a="110" b="9" />?</message>
+	<message label="205_a" attrib="ce 00 00 00 00 00 00 00">Ça va super!</message>
+	<message label="205_b" attrib="cf 00 00 00 00 00 00 00">Ça se passe.</message>
+	<message label="205_c" attrib="d0 00 00 00 00 00 00 00">Ha ha ha!</message>
+	<message label="206" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Eh ben tant mieux!<delay20 /> Je savais que
+j'avais pas de souci à me faire pour
+toi, <gender2 m="le jeune" f="la jeune" />!<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Enfin, j'suis content de voir qu'un
 accès de nostalgie t'a quand même
-conduit<gender2 m="" f="e" /> à nous rendre visite!</message>
-	<message label="107" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Oh? <delay20 />Venant de toi, je m'attendais
+conduit<gender2 m="" f="e" /> à me rendre visite!</message>
+	<message label="207" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Oh? <delay20 />Venant de toi, je m'attendais
 à une réponse plus enthousiaste,
 mais je vais me contenter de ça.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Le secret, c'est de se laisser porter
 par le vent et de traquer les sources
-<gender4 m="de " f="d'" />⁠<tag a="135" b="1" arg="0xcd00" />!<anim id="Laughing" target="actor" targetSpec="" /> Ha ha ha!</message>
-	<message label="108" attrib="00 00 00 00 00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Quoi, j'ai dit une bêtise?<pageBreak /><anim id="Thinking" target="actor" targetSpec="" />Faut te trouver un passe-temps,<delay8 /> si tu
+<gender4 m="de " f="d'⁠" /><tag a="135" b="1" arg="0xcd00" />!<anim id="Laughing" target="actor" targetSpec="" /> Ha ha ha!</message>
+	<message label="208" attrib="00 00 00 00 00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Quoi, j'ai dit une bêtise?<pageBreak /><anim id="Thinking" target="actor" targetSpec="" />Faut te trouver un passe-temps,<delay8 /> si tu
 te sens proche de la crise de nerfs<tag a="110" b="0" /><delay8 />
 Genre <tag a="50" b="1" /><tag a="135" b="6" arg="0xcd00" />.</message>
 </msbt>

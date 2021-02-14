@@ -5,7 +5,7 @@
 	<message label="001_a" attrib="04 00 00 00 00 00 00 00">我吃過了</message>
 	<message label="001_b" attrib="05 00 00 00 00 00 00 00">什麼水果？</message>
 	<message label="002" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="23" arg="0xd 0xe 0xf 0xffff" /></message>
-	<message label="003" attrib="09 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x10 0x11 0xffff 0xffff" /></message>
+	<message label="003" attrib="09 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x1 0x10 0x11 0x12" /></message>
 	<message label="004" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />哎呀，<delay8 />不愧是<tag a="110" b="4" />！<delay40 />
 <anim id="EmotEnd" target="actor" targetSpec="" />不需要我特別介紹<delay20 />
 <anim id="FaintSmile" target="actor" targetSpec="" />就已經吃過<tag a="110" b="7" arg="0xcd00" />了。<pageBreak /><anim id="Love" target="actor" targetSpec="" />那清爽香甜的滋味，<delay20 />
@@ -31,10 +31,11 @@
 <anim id="Nodding" target="actor" targetSpec="" />我們島上好像也打算<delay8 />
 要蓋一座<colour id="1" />博物館<colour id="65535" />喔。<pageBreak /><anim id="Thinking" target="actor" targetSpec="" />但是<delay8 />就連<colour id="3" />傅達<colour id="65535" />的研究室都還只是個帳篷<tag a="110" b="0" /><delay20 />
 <anim id="OhGeez" target="actor" targetSpec="" />所以我並沒有抱太大的期待呢，<tag a="110" b="6" />。</message>
-	<message label="017" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="2" arg="0x15 0x16 0x17 0x19" /></message>
+	<message label="017" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="3" arg="0x15 0x16 0x17 0x18 0x19" /></message>
 	<message label="021" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1c00 0x1900 0xcd00" /></message>
 	<message label="022" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1d01 0x1900 0xcd00" /></message>
 	<message label="023" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1e02 0x1900 0xcd00" /></message>
+	<message label="024" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1f03 0x1900 0xcd00" /></message>
 	<message label="025" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />我們島上有座<colour id="1" />博物館<colour id="65535" />呢。<delay frames="40" />
 <anim id="Explain" target="actor" targetSpec="" />而且館內每個展覽室都下足了功夫，<delay20 />
 <anim id="FaintSmile" target="actor" targetSpec="" />真的是讓人百看不厭。<pageBreak />如果你有空的話，<delay20 />
@@ -52,46 +53,44 @@
 <tag a="135" b="13" arg="0x2" />，<delay20 />
 <anim id="Love" target="actor" targetSpec="" />不知道為什麼就是很吸引人呢<tag a="110" b="0" /><pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />果然化石這種東西，<delay20 />
 <anim id="Nodding" target="actor" targetSpec="" />就是有種<delay8 />不可思議的魅力吧，<tag a="110" b="6" />。</message>
-	<message label="101" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="0" arg="0x66 0x6a" /></message>
-	<message label="102" attrib="00 00 03 00 00 00 00 00">問你喔，<tag a="110" b="4" />。<delay20 />
-<anim id="QuestionMark" target="actor" targetSpec="" />你已經習慣你搬去的島了嗎？<tag a="110" b="6" />。</message>
-	<message label="102_a" attrib="67 00 00 00 00 00 00 00">已經習慣了！</message>
-	<message label="102_b" attrib="68 00 00 00 00 00 00 00">我才剛開始適應</message>
-	<message label="102_c" attrib="69 00 00 00 00 00 00 00">……</message>
-	<message label="103" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />是嗎？<delay8 />那太好了！<delay frames="40" />
-<anim id="EmotEnd" target="actor" targetSpec="" />自從你搬去別的島以後，<delay20 />
-<anim id="Nodding" target="actor" targetSpec="" />我就一直很想知道你過得好不好<tag a="110" b="0" /><pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />但是<delay20 />聽到你說自己過得很好，<delay20 />
-<anim id="ShyBoy" target="actor" targetSpec="" />心裡又有點寂寞的感覺。<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />總之歡迎你隨時過來玩，<delay20 />
-我想大家一定都會很高興的。<10_4 />
-<anim id="Hesitate" target="actor" targetSpec="" />當然，<delay20 />我也會覺得很開心喔，<tag a="110" b="6" />。</message>
-	<message label="104" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />哎呀，是嗎？<delay frames="40" />
-<anim id="FaintSmile" target="actor" targetSpec="" />但是<delay8 />我想你一定<delay8 />
-<anim id="Nodding" target="actor" targetSpec="" />很快就會習慣新生活的。<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />呵呵呵<tag a="110" b="0" /><delay20 />
-畢竟這座島上有好多我們共同的回憶嘛。<delay frames="40" />
-<anim id="SmugFace" target="actor" targetSpec="" />所以<delay8 />我很能體會你的心情喔，<tag a="110" b="6" />。</message>
-	<message label="105" attrib="00 00 00 00 00 00 00 00"><anim id="TakenAback" target="actor" targetSpec="" />不會吧！<delay20 />
-<tag a="110" b="4" />，你還好嗎？<pageBreak /><anim id="Worried" target="actor" targetSpec="" />我本來是抱著<tag a="110" b="0" /><delay20 />
-讓雛鳥離巢的心情，<delay20 />
-送你離開這裡的<tag a="110" b="0" /><pageBreak /><anim id="Crying" target="actor" targetSpec="" />如果你過得不好，<delay8 />
-儘管我面前哭出來<delay8 />也沒關係喔！<tag a="110" b="6" />。</message>
-	<message label="106" attrib="00 00 03 00 00 00 00 00"><tag a="110" b="4" />離開這座島<delay8 />
-去看過外面的世界，<delay8 />所以我有個問題想問你。<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />你可以儘管直說沒關係，<delay20 />在你眼中，
-<anim id="QuestionMark" target="actor" targetSpec="" />這座島<delay8 />看起來怎麼樣呢？<tag a="110" b="6" />。</message>
-	<message label="106_a" attrib="6b 00 00 00 00 00 00 00">非常好！</message>
-	<message label="106_b" attrib="6c 00 00 00 00 00 00 00">將來值得期待</message>
-	<message label="106_c" attrib="6d 00 00 00 00 00 00 00">……</message>
-	<message label="107" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />你的意思是<tag a="110" b="33" /><delay20 />
-一點也不會輸給其他島吧！<anim id="FaintSmile" target="actor" targetSpec="" /><pageBreak /><anim id="HappyDance" target="actor" targetSpec="" />呵呵，<delay20 />
-聽到<tag a="110" b="4" />這麼說，<delay20 />
-總覺得更有自信了呢，<tag a="110" b="6" />。</message>
-	<message label="108" attrib="00 00 00 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />哎呀？<delay20 />
-所以說<delay20 />我們還有改善的空間囉？<pageBreak /><anim id="QuestionMark" target="actor" targetSpec="" />有進步的空間<delay8 />也算是一件好事吧？<10_4 />
-<anim id="FaintSmile" target="actor" targetSpec="" />看來我得和<tag a="110" b="16" /><tag a="110" b="13" />一起努力，<delay20 />
-<anim id="Nodding" target="actor" targetSpec="" />讓這座島變得更好才行呢！<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" /><tag a="110" b="4" />，<delay frames="40" />
-等<tag a="110" b="33" />變得更好了，<delay8 />
-到時候你一定要再來看看喔，<tag a="110" b="6" />。</message>
-	<message label="109" attrib="00 00 00 00 00 00 00 00"><tag a="110" b="0" /><delay20 /><anim id="Confused" target="actor" targetSpec="" />什、什麼嘛！<delay frames="40" />
-這座島<delay8 />已經不是你還住在這裡時的
-<tag a="110" b="33" />了呀。<pageBreak />島上的日子<delay8 />一天一天地流逝。<10_4 />
-<anim id="Frantic" target="actor" targetSpec="" />早就無法回到<delay8 />當初的模樣了，<tag a="110" b="6" />。</message>
+	<message label="201" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="0" arg="0xca 0xce" /></message>
+	<message label="202" attrib="00 00 03 00 00 00 00 00">那個，<tag a="110" b="4" />，<delay20 />
+<anim id="QuestionMark" target="actor" targetSpec="" />你已經習慣
+島上沒有我的日子了嗎？<tag a="110" b="6" />。</message>
+	<message label="202_a" attrib="cb 00 00 00 00 00 00 00">習慣了！</message>
+	<message label="202_b" attrib="cc 00 00 00 00 00 00 00">還差得遠呢</message>
+	<message label="202_c" attrib="cd 00 00 00 00 00 00 00">……</message>
+	<message label="203" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />這樣啊，<delay8 />太好了！<delay frames="40" />
+<anim id="EmotEnd" target="actor" targetSpec="" />自從我搬來這座島之後，<delay20 />
+<anim id="Nodding" target="actor" targetSpec="" />就一直很在意你過得好不好<tag a="110" b="0" /><pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />不過，<delay20 />看到你回答得這麼乾脆，<delay20 />
+<anim id="ShyBoy" target="actor" targetSpec="" />還真是令人寂寞呢。<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />算了，<delay20 />你隨時都可以過來玩喔。<delay20 />
+<anim id="EmotEnd" target="actor" targetSpec="" />像我們這樣偶爾見一次面的友情，<delay8 />
+<anim id="Hello" target="actor" targetSpec="" />也滿不錯的呢，<tag a="110" b="6" />。</message>
+	<message label="204" attrib="00 00 00 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />哎呀，是喔？<delay frames="40" />
+<anim id="WrySmile" target="actor" targetSpec="" />可是總有一天<delay8 />你會習慣的。<pageBreak /><anim id="Hesitate" target="actor" targetSpec="" />呵呵，<delay20 />真是拿你沒辦法。<delay frames="40" />
+<anim id="EmotEnd" target="actor" targetSpec="" />我們今天就多聊聊天，<delay20 />
+<anim id="SmugFace" target="actor" targetSpec="" />彌補之前沒有見面的分吧，<tag a="110" b="6" />。</message>
+	<message label="205" attrib="00 00 00 00 00 00 00 00"><anim id="TakenAback" target="actor" targetSpec="" />討厭！<delay20 />
+<tag a="110" b="4" />，<delay20 />你沒事嗎？<pageBreak /><anim id="Confused" target="actor" targetSpec="" />我<tag a="110" b="0" /><delay20 />
+想說你一定沒問題，<delay8 />
+所以才離開了那座島的<tag a="110" b="0" /><pageBreak /><anim id="Crying" target="actor" targetSpec="" />要是你覺得難過，<delay8 />可以盡情<delay8 />
+在我面前哭喔！<tag a="110" b="6" />。</message>
+	<message label="206" attrib="00 00 03 00 00 00 00 00">對了，我有一個問題<delay8 />
+<anim id="Nodding" target="actor" targetSpec="" />要問<tag a="110" b="4" />。<pageBreak /><anim id="Serious" target="actor" targetSpec="" />說實話，<delay20 />
+<anim id="QuestionMark" target="actor" targetSpec="" />你覺得這座島<delay8 />怎麼樣？<tag a="110" b="6" />。</message>
+	<message label="206_a" attrib="cf 00 00 00 00 00 00 00">很好啊！</message>
+	<message label="206_b" attrib="d0 00 00 00 00 00 00 00">期待今後的發展</message>
+	<message label="206_c" attrib="d1 00 00 00 00 00 00 00">……</message>
+	<message label="207" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />也就是說，<tag a="110" b="33" /><delay8 />
+完全不輸之前那座島吧！<anim id="FaintSmile" target="actor" targetSpec="" /><pageBreak /><anim id="HappyDance" target="actor" targetSpec="" />呵呵，<delay20 />聽到你這樣說，<delay20 />
+我就覺得搬來這座島<delay8 />
+真是太好了，<tag a="110" b="6" />。</message>
+	<message label="208" attrib="00 00 00 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />嗯？<delay20 />
+也就是說<delay20 />還有很多地方可以改善。<10_4 />
+<anim id="QuestionMark" target="actor" targetSpec="" />有進步空間<delay8 />也算是一件好事吧？<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />那麼，我要跟<tag a="110" b="16" />一起<delay20 />
+<anim id="Assent" target="actor" targetSpec="" />打造一座更好的島才行！<tag a="110" b="6" />。</message>
+	<message label="209" attrib="00 00 00 00 00 00 00 00"><anim id="Confused" target="actor" targetSpec="" />等、<delay20 />等一下～<delay frames="40" />
+是不能說出口的意思嗎？！<pageBreak /><anim id="OhGeez" target="actor" targetSpec="" />雖然說我們現在生活在不同的島，<delay20 />
+不過你也太見外了吧。<pageBreak /><anim id="Hesitate" target="actor" targetSpec="" />算了，<delay20 />這種內斂的性格<delay8 />
+也是你的優點啊，<tag a="110" b="6" />。</message>
 </msbt>

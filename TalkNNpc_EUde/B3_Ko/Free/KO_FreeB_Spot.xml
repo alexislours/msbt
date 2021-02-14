@@ -9,8 +9,7 @@ Wespenschwarm weglaufen muss?</message>
 Insel <delay8 /><anim id="SmugFace" target="actor" targetSpec="" />muss ich auch diese Gegend
 genau im Auge behalten!</message>
 	<message label="001_03" attrib="00 00 00 00 00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />Man mag von diesem Fleckchen hier
-denken, was man will...<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Für einen wahren Patrioten gehört
-auch der zu <tag a="110" b="8" />!</message>
+denken,<delay8 /> was man will<tag a="110" b="0" /><pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Auch der gehört zu <tag a="110" b="8" />, <delay20 />und ich habe das Recht, <delay8 />mich hier rumzutreiben!</message>
 	<message label="001_04" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />So leere Fleckchen wie dieses<delay20 /> eignen
 sich perfekt, um nachzudenken<delay8 /><tag a="110" b="0" />
 Findest du nicht auch,<delay20 /> <tag a="110" b="5" />?</message>
@@ -70,23 +69,17 @@ abreißen und auch in ein Zelt ziehen.<delay frames="40" />
 	<message label="013" attrib="00 00 00 00 00 00 00 00"><20_2 arg="10" /><20_2 arg="9" /><anim id="QuestionMark" target="actor" targetSpec="" />Man kann ein Haus nicht nach
 seiner Größe beurteilen, <delay8 />weißt du?<pageBreak /><20_2 arg="6" /><20_3 arg="3" /><anim id="WrySmile" target="actor" targetSpec="" />Man beurteilt es danach, wie sauber
 das Badezimmer ist! <delay20 /><anim id="Laughing" target="actor" targetSpec="" />Bwa ha ha ha!</message>
-	<message label="014" attrib="00 00 00 00 00 00 00 00"><20_2 arg="10" /><anim id="Thinking" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="115" b="0" arg="0xcd00" /> scheint in<20_2 arg="9" />
-geheimer Mission unterwegs
-zu sein.<delay20 /> Oder so was in der Art.
-<20_3 arg="6" /><20_3 arg="3" /><anim id="Nodding" target="actor" targetSpec="" />Auf jeden Fall ist es ziemlich still
-da drin.<delay20 /> <anim id="TakenAback" target="actor" targetSpec="" />N-nicht, <delay8 />dass ich dort
+	<message label="014" attrib="00 00 00 00 00 00 00 00"><20_2 arg="10" /><anim id="Thinking" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="115" b="0" arg="0xcd00" /> scheint in<20_2 arg="9" /> geheimer Mission unterwegs zu sein.<delay20 /> Oder so was in der Art.<pageBreak /><20_3 arg="6" /><20_3 arg="3" /><anim id="Nodding" target="actor" targetSpec="" />Auf jeden Fall ist es ziemlich still
+da drin.<delay20 /> <anim id="TakenAback" target="actor" targetSpec="" />N-<delay8 />nicht, <delay8 />dass ich dort
 einbrechen wollen würde, <delay8 /><gender2 m="Kleiner" f="Kleines" />!</message>
-	<message label="015" attrib="00 00 00 00 00 00 00 00"><20_2 arg="10" /><anim id="QuestionMark" target="actor" targetSpec="" />He, <delay8 />hast du das Haus von <tag a="115" b="0" arg="0xcd00" /> gesehen?<delay20 /> <anim id="Shocked" target="actor" targetSpec="" /><20_2 arg="9" />Hab gehört, <tag a="50" b="17" arg="0xd 0xcd00 0x4 0x65 0x72 0x6 0x73 0x69 0x65 0x0" /> hat ganz schön angebaut!<pageBreak /><20_3 arg="6" /><20_3 arg="3" /><anim id="WrySmile" target="actor" targetSpec="" />Als Nächstes kommt dann wohl ein
+	<message label="015" attrib="00 00 00 00 00 00 00 00"><20_2 arg="10" /><anim id="QuestionMark" target="actor" targetSpec="" />He, <delay8 />hast du das Haus von <tag a="115" b="0" arg="0xcd00" /> gesehen?<delay20 /> <anim id="Shocked" target="actor" targetSpec="" /><20_2 arg="9" />Hab gehört, <tag a="50" b="17" arg="0xe 0xcd00 0x4 0x65 0x72 0x6 0x73 0x69 0x65 0x0" /> hat ganz schön angebaut!<pageBreak /><20_3 arg="6" /><20_3 arg="3" /><anim id="WrySmile" target="actor" targetSpec="" />Als Nächstes kommt dann wohl ein
 Burggraben, <delay8 /><tag a="110" b="5" />!</message>
-	<message label="016" attrib="00 00 00 00 00 00 00 00"><20_2 arg="10" /><anim id="Thinking" target="actor" targetSpec="" />Wenn ich <tag a="115" b="0" arg="0xcd00" /> wäre,<delay8 /><20_2 arg="9" />
-wäre ich zufrieden mit meinem Haus.<pageBreak /><20_3 arg="6" /><20_3 arg="3" /><anim id="SmugFace" target="actor" targetSpec="" />Aber vielleicht reicht <tag a="50" b="17" arg="0xd 0xcd00 0x6 0x69 0x68 0x6d 0x6 0x69 0x68 0x72 0x0" /> das noch
-nicht, <delay8 />und <tag a="50" b="17" arg="0xd 0xcd00 0x4 0x65 0x72 0x6 0x73 0x69 0x65 0x0" /> will ein noch größeres
+	<message label="016" attrib="00 00 00 00 00 00 00 00"><20_2 arg="10" /><anim id="Thinking" target="actor" targetSpec="" />Wenn ich <tag a="115" b="0" arg="0xcd00" /> wäre,<delay8 /><20_2 arg="9" /> wäre ich zufrieden mit meinem Haus.<pageBreak /><20_3 arg="6" /><20_3 arg="3" /><anim id="SmugFace" target="actor" targetSpec="" />Aber vielleicht reicht <tag a="50" b="17" arg="0xe 0xcd00 0x6 0x69 0x68 0x6d 0x6 0x69 0x68 0x72 0x0" /> das noch
+nicht, <delay8 />und <tag a="50" b="17" arg="0xe 0xcd00 0x4 0x65 0x72 0x6 0x73 0x69 0x65 0x0" /> will ein noch größeres
 Haus, <delay8 />wer weiß?</message>
 	<message label="017" attrib="00 00 00 00 00 00 00 00"><20_2 arg="10" /><anim id="WrySmile" target="actor" targetSpec="" />Unglaublich, <delay8 />wie groß das <20_2 arg="9" />Haus von
 <tag a="115" b="0" arg="0xcd00" /> inzwischen ist!<pageBreak /><20_3 arg="6" /><20_3 arg="3" /><anim id="OhGeez" target="actor" targetSpec="" />Aber ich maße mir da kein Urteil an.<delay20 />
-Wenn <tag a="115" b="0" arg="0xcd00" /> ein großes
-Haus will, <delay8 />warum nicht?
-<anim id="Thinking" target="actor" targetSpec="" />Vielleicht ist ja mein Haus auch zu
+Wenn <tag a="115" b="0" arg="0xcd00" /> ein großes Haus will, <delay8 />warum nicht?<pageBreak /><anim id="Thinking" target="actor" targetSpec="" />Vielleicht ist ja mein Haus auch zu
 klein!<delay frames="40" /> <anim id="Frantic" target="actor" targetSpec="" />Ich mach mich wohl besser
 schnell an die Arbeit, <delay8 /><tag a="110" b="5" />!</message>
 	<message label="018" attrib="00 00 00 00 00 00 00 00"><20_2 arg="10" /><anim id="SmugFace" target="actor" targetSpec="" />Ja, dieses<tag a="110" b="0" /> man muss schon
@@ -96,9 +89,7 @@ fast „Anwesen“ sagen<20_2 arg="9" />, <delay8 />gehört
 oben ist, <delay8 /><tag a="110" b="5" />?</message>
 	<message label="019" attrib="00 00 00 00 00 00 00 00"><anim id="WrySmile" target="actor" targetSpec="" />Wie ich höre, hat <tag a="115" b="0" arg="0xcd00" />
 sich einen Keller geleistet!<pageBreak /><anim id="Love" target="actor" targetSpec="" />Oh, <delay8 />ich mag Keller, <delay8 /><gender2 m="Kleiner" f="Kleines" />.<delay20 /> Die sind
-so eine Art Festung für mich.<pageBreak /><anim id="Thinking" target="actor" targetSpec="" />Wie <tag a="115" b="0" arg="0xcd00" /> wohl <tag a="50" b="17" arg="0xd 0xcd00 0xa 0x73 0x65 0x69 0x6e 0x65 0x8 0x69 0x68 0x72 0x65 0x0" />
-Festung dekoriert?<delay20 /> Hat <tag a="50" b="17" arg="0xd 0xcd00 0x4 0x65 0x72 0x6 0x73 0x69 0x65 0x0" /> ein
-eigenes Wappen?<delay20 /> Ohne geht nicht!</message>
+so eine Art Festung für mich.<pageBreak /><anim id="Thinking" target="actor" targetSpec="" />Wie <tag a="115" b="0" arg="0xcd00" /> wohl <tag a="50" b="17" arg="0xe 0xcd00 0xa 0x73 0x65 0x69 0x6e 0x65 0x8 0x69 0x68 0x72 0x65 0x0" /> Festung dekoriert?<delay20 /> Hat <tag a="50" b="17" arg="0xe 0xcd00 0x4 0x65 0x72 0x6 0x73 0x69 0x65 0x0" /> ein eigenes Wappen?<delay20 /> Ohne geht nicht!</message>
 	<message label="020" attrib="00 00 00 00 00 00 00 00"><anim id="OhGeez" target="actor" targetSpec="" />In diesem Zelt sieht der Laden noch
 etwas armselig aus, <delay8 /><anim id="Serious" target="actor" targetSpec="" />aber man kann
 bei <colour id="3" />Nepp<colour id="65535" /> doch einiges kaufen!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Und man kann ihm auch Dinge
@@ -133,9 +124,9 @@ engen Sitzen, dem miesen Essen und
 dem ewigen Anstehen.
 <anim id="TakenAback" target="actor" targetSpec="" />Halt, <delay8 />Moment...<delay20 /> <anim id="Fuming" target="actor" targetSpec="" />Genau das sind die
 Sachen, die mich stören!</message>
-	<message label="031" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Dieser <colour id="1" />Platz<colour id="65535" /> ist eines der Aushänge-
-schilder unserer Insel. <delay frames="30" />Natur und
-Bewohner in perfekter Harmonie.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Synergieeffekte. <delay20 />Nachhaltigkeit und
+	<message label="031" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Der <colour id="1" />Festplatz<colour id="65535" /> ist ein Aushängeschild
+unserer Insel. <delay frames="30" />Natur und Bewohner in
+perfekter Harmonie.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Synergieeffekte. <delay20 />Nachhaltigkeit und
 so. <delay frames="40" />Zumindest steht das in einem der
 Prospekte im <colour id="1" />Servicecenter<colour id="65535" />. <delay20 /><anim id="Laughing" target="actor" targetSpec="" />Bwa ha!</message>
 	<message label="032" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Auf gepflastertem Boden läuft sich's
@@ -154,6 +145,7 @@ keine Veränderungen,<delay8 /> <tag a="110" b="5" />.</message>
 	<message label="111" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x7700 0x7400 0xcd00" /></message>
 	<message label="112" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x7801 0x7400 0xcd00" /></message>
 	<message label="113" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x7902 0x7400 0xcd00" /></message>
+	<message label="114" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x7a03 0x7400 0xcd00" /></message>
 	<message label="116" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Als ich klein war, <delay8 />haben meine Eltern
 mich ständig durch dieses oder jenes
 Museum geschleift.
@@ -164,18 +156,18 @@ nostalgische Gefühle, <delay8 /><tag a="110" b="5" />...</message>
 <colour id="1" />Museum<colour id="65535" /> angesehen, <delay8 />und da kam
 mir ein Gedanke.
 <anim id="QuestionMark" target="actor" targetSpec="" />Wann schlafen Fische? <delay20 />Und wo?!<delay20 />
-Haben die kleine Betten?<pageBreak /><anim id="Frantic" target="actor" targetSpec="" />Wo schläft denn <tag a="50" b="17" arg="0x28 0xcd00 0x14 0x64 0x65 0x72 0x20 0x6b 0x6c 0x65 0x69 0x6e 0x65 0x14 0x64 0x69 0x65 0x20 0x6b 0x6c 0x65 0x69 0x6e 0x65 0x14 0x64 0x61 0x73 0x20 0x6b 0x6c 0x65 0x69 0x6e 0x65" />
+Haben die kleine Betten?<pageBreak /><anim id="Frantic" target="actor" targetSpec="" />Wo schläft denn <tag a="50" b="17" arg="0x29 0xcd00 0x14 0x64 0x65 0x72 0x20 0x6b 0x6c 0x65 0x69 0x6e 0x65 0x14 0x64 0x69 0x65 0x20 0x6b 0x6c 0x65 0x69 0x6e 0x65 0x14 0x64 0x61 0x73 0x20 0x6b 0x6c 0x65 0x69 0x6e 0x65" />
 <tag a="135" b="13" arg="0x0" />, <delay8 />hä?</message>
 	<message label="120" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Ich hab mir die Tage im <colour id="1" />Museum<colour id="65535" />
-<tag a="50" b="17" arg="0x28 0xcd00 0x8 0x27 0x6e 0x65 0x6e 0x6 0x27 0x6e 0x65 0x4 0x27 0x6e" /> <tag a="50" b="23" arg="0xcd01" /><tag a="135" b="13" arg="0x1" /> angesehen.<pageBreak /><anim id="Thinking" target="actor" targetSpec="" />Da bin ich ins Grübeln gekommen...<delay20 />
-Früher hätte ich so <tag a="50" b="17" arg="0x28 0xcd00 0xa 0x65 0x69 0x6e 0x65 0x6e 0x8 0x65 0x69 0x6e 0x65 0xa 0x65 0x69 0x6e 0x65 0x73" /> locker in
+<tag a="50" b="17" arg="0x29 0xcd00 0x8 0x27 0x6e 0x65 0x6e 0x6 0x27 0x6e 0x65 0x4 0x27 0x6e" /> <tag a="50" b="23" arg="0xcd01" /><tag a="135" b="13" arg="0x1" /> angesehen.<pageBreak /><anim id="Thinking" target="actor" targetSpec="" />Da bin ich ins Grübeln gekommen...<delay20 />
+Früher hätte ich so <tag a="50" b="17" arg="0x29 0xcd00 0xa 0x65 0x69 0x6e 0x65 0x6e 0x8 0x65 0x69 0x6e 0x65 0xa 0x65 0x69 0x6e 0x65 0x73" /> locker in
 die Hand genommen.
 <anim id="Negative" target="actor" targetSpec="" />Aber jetzt, <delay8 />als Erwachsener, <delay8 />würde
 ich wahrscheinlich kreischen, <delay8 />wenn
 so was auf mir landet.</message>
 	<message label="121" attrib="00 00 00 00 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Kennst du das Fossil im <colour id="1" />Museum<colour id="65535" />?<delay20 />
 Du weißt doch, welches ich meine.<delay20 />
-<anim id="Angry" target="actor" targetSpec="" /><tag a="50" b="17" arg="0x28 0xcd00 0x6 0x44 0x65 0x6e 0x6 0x44 0x69 0x65 0x6 0x44 0x61 0x73" /> <tag a="50" b="23" arg="0xcd01" /><tag a="135" b="13" arg="0x2" />!
+<anim id="Angry" target="actor" targetSpec="" /><tag a="50" b="17" arg="0x29 0xcd00 0x6 0x44 0x65 0x6e 0x6 0x44 0x69 0x65 0x6 0x44 0x61 0x73" /> <tag a="50" b="23" arg="0xcd01" /><tag a="135" b="13" arg="0x2" />!
 <anim id="AbsentMindedness" target="actor" targetSpec="" />Kannst du dir vorstellen, dass so was
 mal wirklich rumgekreucht ist?<delay20 />
 <anim id="Negative" target="actor" targetSpec="" />Die Urzeit war schon wild, <delay8 /><gender2 m="Kleiner" f="Kleines" />!</message>

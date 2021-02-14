@@ -1,6 +1,6 @@
 <msbt attribsize="4">
-	<message label="002_02" attrib="00 00 00 00"><anim id="HappyDance" target="actor" targetSpec="" />今後也請經常光顧<colour id="1" /><delay20 />
-Nook商店<colour id="65535" />喔！<delay frames="40" /><anim id="FaintSmile" target="actor" targetSpec="" /><size value="75" />是狸！<size value="100" /></message>
+	<message label="002_02" attrib="00 00 00 00"><anim id="HappyDance" target="actor" targetSpec="" />今後也請多多光顧<delay20 />
+<colour id="1" /><anim id="Hello" target="subNpc" targetSpec="" />Nook商店<colour id="65535" />～！<delay20 />　<tag a="100" b="4" /><size value="75" />商店～！<size value="100" /><endTag a="100" b="4" /></message>
 	<message label="002_03" attrib="00 00 00 00"><tag a="110" b="0" /><anim id="Shocked" target="actor" targetSpec="" />喔！<delay frames="40" />
 <anim id="FaintSmile" target="actor" targetSpec="" />對了，<delay20 />您剛才是在看這件商品吧！</message>
 	<message label="051" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />啊！<delay20 /><anim id="Smiling" target="actor" targetSpec="" />歡迎光臨！<delay frames="40" />
@@ -48,10 +48,10 @@ Nook商店<colour id="65535" />喔！<delay frames="40" /><anim id="FaintSmile" 
 <anim id="Nodding" target="subNpc" targetSpec="" />也可以直接詢問我們喔！<anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" /></message>
 	<message label="061_04" attrib="00 00 00 00"><anim id="Smiling" target="mainNpc" targetSpec="" />最後一項是<delay8 />
 <anim id="Nodding" target="subNpc" targetSpec="" />設置在商店前面的<colour id="1" />收購箱<colour id="65535" />！<anim id="FaintSmile" target="subNpc" targetSpec="" /><pageBreak /><anim id="Explain" target="mainNpc" targetSpec="" />這是一項<delay8 />
-在緊急時刻或非營業時間，<delay8 />
+在緊急時刻<delay20 />或非營業時間，<delay8 />
 以匯款方式進行收購的服務。<pageBreak /><anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="ShyBoy" target="subNpc" targetSpec="" />不過要注意的是，<delay8 />
-收購價格需扣除手續費，所以會比原來的低，
-另外，也無法進行大頭菜和高價物品的收購！</message>
+收購價格需扣除手續費，<delay8 />所以會比原來的低，
+另外，也無法進行大頭菜<delay20 />和高價物品的收購！<anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" /></message>
 	<message label="061_05" attrib="00 00 00 00"><tag a="110" b="0" /><anim id="Smiling" target="mainNpc" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" />就是這麼多了！</message>
 	<message label="101" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />歡迎光臨！<delay frames="40" />
 <anim id="Aha" target="actor" targetSpec="" />啊，<delay8 /><tag a="110" b="1" />！<delay20 />
@@ -68,14 +68,14 @@ Nook商店<colour id="65535" />喔！<delay frames="40" /><anim id="FaintSmile" 
 所以明天店舖會休息一天喔！<pageBreak /><anim id="ShyBoy" target="actor" targetSpec="" />造成一天的不便，很抱歉，<delay frames="30" />
 <anim id="Nodding" target="actor" targetSpec="" />不過我們後天就會繼續在此為大家服務，<delay20 />
 <anim id="Smiling" target="actor" targetSpec="" />請多多關照！</message>
-	<message label="151" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />歡迎光臨！<delay frames="40" />
-<anim id="HappyDance" target="actor" targetSpec="" />從今天起，新店面將在此<delay20 />
-重新開始營業！<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />開幕的第一天，您就來光顧，<delay frames="30" />
-<anim id="Hello" target="actor" targetSpec="" />真是非常感謝您！</message>
+	<message label="151" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />歡迎光臨！<anim id="FaintSmile" target="subNpc" targetSpec="" /><delay frames="40" />
+<anim id="HappyDance" target="actor" targetSpec="" />從今天起，新店鋪將在此<delay20 />
+重新開始營業！<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" />開幕的第一天，您就來光顧，<delay frames="30" />
+<anim id="Hello" target="actor" targetSpec="" /><anim id="FaintSmile" target="subNpc" targetSpec="" />真的非常感謝您！</message>
 	<message label="151_01" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />啊，<delay8 /><tag a="110" b="1" />，<delay20 />
-歡迎光臨！<delay frames="40" />
-<anim id="Nodding" target="actor" targetSpec="" />裝修之後<delay8 />您是第一次過來吧？<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />如您所見，<delay8 />
-<anim id="Hello" target="actor" targetSpec="" />新店舖已經重新開始營業了！</message>
+<anim id="FaintSmile" target="subNpc" targetSpec="" />歡迎光臨！<delay frames="40" />
+<anim id="Nodding" target="actor" targetSpec="" />裝修之後<delay8 />您是第一次來吧？<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" />如您所見，<delay8 />
+<anim id="Hello" target="actor" targetSpec="" /><anim id="FaintSmile" target="subNpc" targetSpec="" />新店舖已經重新開始營業了！</message>
 	<message label="152" attrib="00 00 00 00"><anim id="HappyDance" target="actor" targetSpec="" />今後<delay20 />要請您
 繼續關照<colour id="1" />Nook商店<colour id="65535" />！</message>
 	<message label="152_01" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />喔，<delay8 />說起來<tag a="110" b="0" />

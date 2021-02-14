@@ -33,7 +33,7 @@
 нам, <anim id="QuestionMark" target="actor" targetSpec="" /><tag a="110" b="3" />?<pageBreak /><20_2 arg="6" /><anim id="EmotEnd" target="actor" targetSpec="" />Что лучше<tag a="110" b="0" /> поцеловать рыбу
 или укусить червяка?<anim id="Worried" target="actor" targetSpec="" /><anim id="Worried" target="mainNpc" targetSpec="" />
 Не можем решить!<anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="actor" targetSpec="" /></message>
-	<message label="102_a" attrib="00 00 00 00 00 00 00 00">Что?!</message>
+	<message label="102_a" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Что?!</message>
 	<message label="102_b" attrib="00 00 00 00 00 00 00 00">Я ухожу.</message>
 	<message label="103" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="mainNpc" targetSpec="" />Это же игра, <tag a="110" b="3" />!<pageBreak /><anim id="BigSmile" target="actor" targetSpec="" />Надо сказать: «Что лучше?»<tag a="110" b="0" />
 и придумать две<delay20 /> очень
@@ -65,9 +65,8 @@
 	<message label="204" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="subNpc" targetSpec="" /><delay20 />Ой, серьезно?! Ладно<tag a="110" b="0" /> <anim id="FaintSmile" target="actor" targetSpec="" />попробую.<pageBreak /><anim id="Serious" target="actor" targetSpec="" />Так<tag a="110" b="0" /><delay frames="40" /> Сейчас<tag a="110" b="0" /> <anim id="Cheering" target="actor" targetSpec="" />Привет!!! Вот и я,
 <tag a="110" b="31" arg="0xcd01" />! Ваша <anim id="FaintSmile" target="mainNpc" targetSpec="" /><anim id="Dance" target="actor" targetSpec="" />любимая
 звезда!<delay20 /><anim id="EmotEnd" target="actor" targetSpec="" /> <tag a="50" b="3" /><tag a="110" b="6" />!<pageBreak /><anim id="HappyFlower" target="actor" targetSpec="" /><anim id="HappyFlower" target="mainNpc" targetSpec="" /><10_5 />Обалдеть!<endTag a="10" b="5" /><delay8 /> Это было <delay20 /><10_5 />шикарно!!!<endTag a="10" b="5" /><delay8 />
-Абсолютно <delay8 />идеальная<delay8 /> фраза
-для меня!<10_4 />
-<anim id="EmotEnd" target="actor" targetSpec="" />Ну как тебе, <tag a="110" b="31" arg="0xcd00" />?!<anim id="EmotEnd" target="mainNpc" targetSpec="" /></message>
+Абсолютно <delay8 />идеальная<delay8 /> фраза для
+меня! <anim id="EmotEnd" target="actor" targetSpec="" />Ну как тебе, <tag a="110" b="31" arg="0xcd00" />?!<anim id="EmotEnd" target="mainNpc" targetSpec="" /></message>
 	<message label="205" attrib="00 00 00 00 00 00 00 00">Мне понравилось, у-ху-ху! Почти
 как <anim id="Love" target="actor" targetSpec="" />настоящая знаменитость,<anim id="Eh" target="subNpc" targetSpec="" />
 <tag a="110" b="31" arg="0xcd01" />!<anim id="EmotEnd" target="subNpc" targetSpec="" /><anim id="EmotEnd" target="mainNpc" targetSpec="" /></message>

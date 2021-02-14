@@ -10,9 +10,9 @@ huidige stand van zaken. <delay20 />Ja, ja!<pageBreak /><anim id="WrySmile" targ
 moment lekker knus is. <delay frames="40" /><anim id="Shocked" target="actor" targetSpec="" />Maar wat als
 het groter kon?<pageBreak /><anim id="Grin" target="actor" targetSpec="" />O ja!<delay20 /> Ik kan je verzekeren dat het
 vergroten,<delay20 /> inderdaad, <delay20 />tot de mogelijkheden behoort.<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Een groter huis betekent meer ruimte
-voor meubels, en meer opslag!<pageBreak /><anim id="Hesitate" target="actor" targetSpec="" />Goed, ik heb je op de hoogte gesteld
-van enkele opties die je hebt. Daar
-wil ik het voor nu bij laten.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Kom vooral naar me toe als je meer
+voor meubels en meer opslag!<pageBreak /><anim id="Hesitate" target="actor" targetSpec="" />Goed, ik heb je op de hoogte gesteld
+van wat er mogelijk is. Daar wil ik het
+voor nu bij laten.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Kom vooral naar me toe als je meer
 wilt weten, hm?</message>
 	<message label="004" attrib="00 00 00 00"><anim id="Cheering" target="actor" targetSpec="" />Gefeliciteerd!<delay frames="40" /><anim id="BigSmile" target="actor" targetSpec="" /> Je bent nu de trotse
 eigenaar van je allereigenste, riante
@@ -85,11 +85,11 @@ nogmaals, gefeliciteerd!</message>
 	<message label="011" attrib="00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />O, hallo, <tag a="110" b="1" />!</message>
 	<message label="012_01" attrib="00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Ben je blij met je huis? Overtreft het
 je stoutste dromen?<10_4 /><anim id="HappyFlower" target="actor" targetSpec="" /> Alles is nu vast
-en zeker een stuk comfortabeler?!<pageBreak /><anim id="AbsentMindedness" target="actor" targetSpec="" />Huizen zijn véél anders dan tenten,
+en zeker een stuk comfortabeler?!<pageBreak /><anim id="AbsentMindedness" target="actor" targetSpec="" />Huizen zijn héél anders dan tenten,
 hm?<delay20 /> Je kunt je <colour id="1" />vloer <colour id="65535" />en <colour id="1" />behang<colour id="65535" />
-bijvoorbeeld naar wens aanpassen<tag a="110" b="0" /><pageBreak /><anim id="HappyDance" target="actor" targetSpec="" />En je hebt nu ook ingebouwde
+bijvoorbeeld naar wens aanpassen<tag a="110" b="0" /><pageBreak /><anim id="HappyDance" target="actor" targetSpec="" />En je hebt nu ook een ingebouwde
 <colour id="1" />opslag<colour id="65535" />, dus je kunt meubels die je
-niet gebruikt opbergen.</message>
+niet gebruikt, opbergen.</message>
 	<message label="012_02" attrib="00 00 00 00"><anim id="IdeaBulb" target="actor" targetSpec="" />O ja!<delay20 /><anim id="EmotEnd" target="actor" targetSpec="" /> Dat is nog niet alles<tag a="110" b="0" /><pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Alle huiseigenaars staan automatisch
 geregistreerd bij de <colour id="1" />Academie voor
 Wonderlijke Woningen<colour id="65535" />.<pageBreak /><anim id="Grin" target="actor" targetSpec="" />De <colour id="1" />AWW<colour id="65535" /> beoordeelt je huis van tijd
@@ -102,8 +102,8 @@ dus til er niet te zwaar aan!</message>
 <colour id="1" />98.000 klingels<colour id="65535" />, graag!</message>
 	<message label="012_03_a" attrib="00 00 00 00">Oké.</message>
 	<message label="012_03_b" attrib="00 00 00 00">Accepteer je miles?</message>
-	<message label="012_04_01" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" /><anim id="Shocked" target="actor" targetSpec="" /><delay20 />Ah<tag a="110" b="0" /><delay20 /><anim id="EmotEnd" target="actor" targetSpec="" /> Wees gerust. Je kunt het
-bedrag in grote of kleine termijnen
+	<message label="012_04_01" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" /><anim id="Shocked" target="actor" targetSpec="" /><delay20 />Ah<tag a="110" b="0" /><delay20 /><anim id="EmotEnd" target="actor" targetSpec="" /> Wees gerust. Je kunt je lening
+met grote of kleine bedragen
 terugbetalen. Wat je zelf wilt.<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Betalingen maak je met behulp van
 de <colour id="1" />klingelautomaat<colour id="65535" /> van het
 <colour id="1" />NookStation<colour id="65535" />.</message>
@@ -119,7 +119,7 @@ de <colour id="1" />klingelautomaat<colour id="65535" /> van het
 over huizen. <10_4 /><anim id="Smiling" target="actor" targetSpec="" />Ik heb namelijk nog een
 leuke verrassing voor je!<pageBreak /><anim id="Grin" target="actor" targetSpec="" />Bereid je voor om versteld te staan<tag a="110" b="0" /><delay40 />
 <anim id="HappyFlower" target="actor" targetSpec="" />dit is een zeer gewild miles-product:
-een <colour id="1" /><tag a="50" b="0" arg="0x104 0xcd03" />Nook-miles-bon<colour id="65535" />!</message>
+een <colour id="1" />Nook-miles-bon<colour id="65535" />!</message>
 	<message label="012_05_a" attrib="00 00 00 00">Een Nook-miles-bon?</message>
 	<message label="012_05_b" attrib="00 00 00 00">Een wattes?</message>
 	<message label="012_06" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Een <colour id="1" />Nook-miles-bon<colour id="65535" /><delay20 /> is een speciale
@@ -189,9 +189,15 @@ aan je huis kunt laten maken, is het
 plaatsen van <colour id="1" />andere wanden<colour id="65535" />.
 <anim id="HappyDance" target="actor" targetSpec="" />Dak, wanden, deur en brievenbus<tag a="110" b="0" /><delay20 />
 Als je die allemaal vervangt, voelt je
-huis weer als nieuw!</message>
+huis weer als nieuw!<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Over je <colour id="1" />brievenbus <colour id="65535" />gesproken,<delay20 />
+je kunt nu niet alleen het uiterlijk
+aanpassen, maar ook de <colour id="1" />locatie<colour id="65535" />!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Til hem gewoon op met <colour id="1" /><colour id="65535" /> en zet hem
+neer waar je wilt. <delay20 />Ik zorg er wel voor
+dat je post op de juiste plek belandt.<pageBreak /><anim id="HappyDance" target="actor" targetSpec="" />Experimenteer er gerust op los. <delay20 />Ik
+kan niet wachten om te zien wat je
+ervan maakt!</message>
 	<message label="071_01" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Je huis heeft nu een echte kelder,
-hm?<pageBreak />Er zijn maar weinig mensen met zo'n
+hm?<pageBreak />Er zijn er maar weinig met zo'n
 indrukwekkend huis als dat van jou!</message>
 	<message label="071_02" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />En dat brengt ons tot<tag a="110" b="0" /></message>
 	<message label="071_03" attrib="00 00 00 00"><anim id="HappyFlower" target="actor" targetSpec="" /><tag a="110" b="0" />de kosten van de verbouwing!<delay8 />
@@ -200,12 +206,12 @@ Dat is dan <colour id="1" />2.498.000 klingels<colour id="65535" />, hm?</messag
 uitbreiden. <delay20 /><anim id="Greeting" target="actor" targetSpec="" />Maar het was me een
 genoegen om tot je dienst te staan!</message>
 	<message label="081_01" attrib="00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />O ja! Je kunt je betalingen voldoen
-met de pinautomaat van het
+bij de klingelautomaat van het
 <colour id="1" />NookStation<colour id="65535" />, net als altijd.</message>
 	<message label="081_02" attrib="00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />Het was me zoals altijd weer een
 genoegen om zaken te doen. <anim id="Smiling" target="actor" targetSpec="" />Ja, ja!</message>
-	<message label="101" attrib="00 00 00 00">Ja<tag a="110" b="0" /> het aantal bewoners neemt toe,
-dus ik vind ook<anim id="Nodding" target="actor" targetSpec="" /> dat we een winkel
+	<message label="101" attrib="00 00 00 00">Ja<tag a="110" b="0" /> het aantal huiseigenaren neemt
+toe, dus ik vind <anim id="Nodding" target="actor" targetSpec="" />dat we een winkel
 moeten bouwen.<anim id="Smiling" target="actor" targetSpec="" /><pageBreak />Maar wat bouwmaterialen betreft,
 <anim id="Worried" target="actor" targetSpec="" />moeten we voorrang geven aan de
 woningen van onze klanten<tag a="110" b="0" /></message>

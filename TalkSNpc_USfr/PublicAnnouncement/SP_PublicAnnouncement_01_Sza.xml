@@ -75,25 +75,25 @@ pour l'occasion!</message>
 se tiendra aujourd'hui de <colour id="1" />9 h<colour id="65535" /> à
 <colour id="1" />18 h<colour id="65535" />. Rendez-vous sur la place!</message>
 	<message label="006_01_02" attrib="00 00 00 00">Le premier <colour id="1" />insectosafari<colour id="65535" /> de la saison
-est en cours. Il se tiendra jusqu'à
+est en cours.<delay20 /> Il se tiendra jusqu'à
 <colour id="1" />18 h<colour id="65535" /> ce soir!</message>
 	<message label="006_02_01" attrib="00 00 00 00">Le deuxième <colour id="1" />insectosafari<colour id="65535" /> de la
 saison se tiendra aujourd'hui de <colour id="1" />9 h
 <colour id="65535" />à <colour id="1" />18 h<colour id="65535" />. Rendez-vous sur la place!</message>
 	<message label="006_02_02" attrib="00 00 00 00">Le deuxième <colour id="1" />insectosafari<colour id="65535" /> de la
-saison est en cours. Il se tiendra
+saison est en cours.<delay20 /> Il se tiendra
 jusqu'à <colour id="1" />18 h <colour id="65535" />ce soir!</message>
 	<message label="006_03_01" attrib="00 00 00 00">Le troisième <colour id="1" />insectosafari<colour id="65535" /> de la
 saison se tiendra aujourd'hui de <colour id="1" />9 h
 <colour id="65535" />à <colour id="1" />18 h<colour id="65535" />. Rendez-vous sur la place!</message>
 	<message label="006_03_02" attrib="00 00 00 00">Le troisième <colour id="1" />insectosafari<colour id="65535" /> de la
-saison est en cours. Il se tiendra
+saison est en cours.<delay20 /> Il se tiendra
 jusqu'à <colour id="1" />18 h <colour id="65535" />ce soir!</message>
 	<message label="006_04_01" attrib="00 00 00 00">Le dernier <colour id="1" />insectosafari<colour id="65535" /> de la saison
 se tiendra aujourd'hui de <colour id="1" />9 h<colour id="65535" /> à
 <colour id="1" />18 h<colour id="65535" />. Rendez-vous sur la place!</message>
 	<message label="006_04_02" attrib="00 00 00 00">Le dernier <colour id="1" />insectosafari<colour id="65535" /> de la saison
-est en cours. Il se tiendra jusqu'à
+est en cours.<delay20 /> Il se tiendra jusqu'à
 <colour id="1" />18 h<colour id="65535" /> ce soir!</message>
 	<message label="007_01" attrib="00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Vous vous rendez compte? C'est le
 dernier jour de <tag a="90" b="27" />!<pageBreak /><anim id="Crying" target="actor" targetSpec="" />Je garderai tant de souvenirs de
@@ -108,9 +108,20 @@ année entourée de tous les
 habitants de l'île!</message>
 	<message label="007_02" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Bonsoir à tous!<delay40 /> Le grand <colour id="1" />compte à
 rebours<colour id="65535" /> du réveillon a lieu en ce
-moment même sur la place!<10_7 arg="210" /><pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Il ne reste plus que quelques instants
-avant la nouvelle année, alors venez
-vite nous y rejoindre!<10_7 arg="210" /><pageBreak /><anim id="Greeting" target="actor" targetSpec="" />À tout de suite!<10_7 arg="210" /></message>
+moment même sur la place!<10_7 arg="210" /><pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Il ne reste plus que quelques
+instants avant la nouvelle année,
+alors venez vite nous y rejoindre!<10_7 arg="210" /><pageBreak /><anim id="Greeting" target="actor" targetSpec="" />À tout de suite!<10_7 arg="210" /></message>
+	<message label="008_01_01" attrib="00 00 00 00"><anim id="IdeaBulb" target="actor" targetSpec="" />Et n'oubliez pas!<delay frames="40" /> <anim id="HappyFlower" target="actor" targetSpec="" />La <colour id="1" />fête des œufs
+<colour id="65535" />approche à grands bonds!<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Je parie qu'on va aussi assister
+à un changement de météo.<pageBreak /><anim id="AbsentMindedness" target="actor" targetSpec="" />Il suffit de s'acclimater à une saison
+<delay20 />pour que la suivante vienne tout
+changer à nouveau!</message>
+	<message label="008_01_02" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />J'espère que vous êtes en forme, <delay20 /><anim id="HappyFlower" target="actor" targetSpec="" />car
+aujourd'hui, c'est la <colour id="1" />fête des œufs<colour id="65535" />!<delay20 />
+Il y a de la joie dans l'air!
+<anim id="QuestionMark" target="actor" targetSpec="" />Aurions-nous la visite d'un invité très
+spécial?<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />En tout cas, <anim id="BigSmile" target="actor" targetSpec="" />cette journée promet de l'amusement et de la gaieté! <delay40 /><anim id="Nodding" target="actor" targetSpec="" />Alors
+pensez à faire un saut sur la place!</message>
 	<message label="010" attrib="00 00 00 00"><anim id="Smiling" target="mainNpc" targetSpec="" />Chers amis.<delay40 /> Je me permets de vous
 interrompre dans vos activités
 quotidiennes.<pageBreak /><anim id="EmotEnd" target="mainNpc" targetSpec="" />Il est exactement <tag a="90" b="30" />:<tag a="90" b="31" /><delay20 /> <anim id="Smiling" target="actor" targetSpec="" />et je vais
@@ -319,7 +330,7 @@ bambou printemps <colour id="65535" />»?</message>
 pour le <colour id="1" />nagashi-sômen<colour id="65535" /> que j'ai
 envoyé sur l'appli <colour id="1" />Créations<colour id="65535" />.
 <anim id="Scheming" target="actor" targetSpec="" />Les matériaux pour réaliser ce
-projet ne sont disponibles qu'à
+projet ne sont disponibles qu'en
 cette saison!</message>
 	<message label="618_03" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Ce qui me fait penser<tag a="110" b="0" /><delay20 /> <anim id="Smiling" target="actor" targetSpec="" />N'hésitez pas
 à vous lancer dans des projets de
@@ -394,8 +405,8 @@ janvier.<anim id="Smiling" target="actor" targetSpec="" /><10_4 /> Déjà un moi
 année écoulé!<pageBreak /><anim id="BigSmile" target="actor" targetSpec="" />Prenons tous un instant pour dire
 au revoir et merci au premier mois
 de l'année, mes amis!</message>
-	<message label="804_02_01" attrib="00 00 00 00"><anim id="AbsentMindedness" target="actor" targetSpec="" />Si ce n'est que<tag a="110" b="0" /><anim id="Nodding" target="actor" targetSpec="" /> j'ai du mal à croire
-que février se termine déjà. C'est le mois le plus
+	<message label="804_02_01" attrib="00 00 00 00"><anim id="AbsentMindedness" target="actor" targetSpec="" />J'ai du mal à croire que février se
+termine déjà. C'est le mois le plus
 court, mais quand même!<pageBreak />Quoi qu'il en soit, j'espère que
 vous avez tous bien profité de
 ce merveilleux mois!</message>
@@ -451,8 +462,7 @@ nous voici maintenant en plein cœur
 de l'hiver!<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Couvrez-vous bien avant de sortir,
 surtout.<delay20 /> Il ne faudrait pas prendre
 fr<tag a="110" b="0" /><delay20 /><anim id="Sneezing" target="actor" targetSpec="" /><pageBreak /><anim id="Blushing" target="actor" targetSpec="" />Oh, pardonnez-moi!<delay40 /> <anim id="ShyBoy" target="actor" targetSpec="" />Et pensez bien
-à mettre la patte devant votre bouche
-quand vous éternuez<tag a="110" b="0" /><pageBreak /><anim id="Smiling" target="actor" targetSpec="" />C'était <colour id="3" />Marie<colour id="65535" />, à bientôt sur les
+à mettre la patte devant votre bouche quand vous éternuez<tag a="110" b="0" /><pageBreak /><anim id="Smiling" target="actor" targetSpec="" />C'était <colour id="3" />Marie<colour id="65535" />, à bientôt sur les
 ondes!</message>
 	<message label="804_08_01" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Le mois d'août se termine déjà<tag a="110" b="0" /><pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Nous avons certainement encore de
 belles journées en perspective, mais
@@ -566,10 +576,10 @@ vous dire<tag a="110" b="0" /></message>
 débats d'hier, à la télé?<delay20 /> <anim id="Nodding" target="actor" targetSpec="" />Vous savez
 bien, ils font ça toutes les semaines!<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Ils ont toujours des invités très
 intéressants, <anim id="Sighing" target="actor" targetSpec="" />mais les présentateurs
-ne les laissent jamais en placer une!<pageBreak /><anim id="AbsentMindedness" target="actor" targetSpec="" />À croire qu'ils n'ont jamais l'occasion
+ne les laissent jamais en placer une!<pageBreak /><anim id="Thinking" target="actor" targetSpec="" />À croire qu'ils n'ont jamais l'occasion
 de parler en dehors de l'émission<tag a="110" b="0" /><delay20 /></message>
-	<message label="825" attrib="00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Mais oui! <delay40 /><anim id="QuestionMark" target="actor" targetSpec="" />Vous avez regardé l'émission
-culinaire d'hier, à la télé?<pageBreak /><anim id="Love" target="actor" targetSpec="" />Je n'avais jamais vu <tag a="50" b="2" /><tag a="135" b="3" arg="0xcd00" /> aussi appétissant<tag a="50" b="17" arg="0x1e 0xcd00 0x0 0x2 0x65 0x0" />!<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Pour ma part, j'ai bien intention de
+	<message label="825" attrib="00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Mais oui! <delay40 /><anim id="QuestionMark" target="actor" targetSpec="" />Vous avez regardé
+l'émission culinaire d'hier, à la télé?<pageBreak /><anim id="Love" target="actor" targetSpec="" />Je n'avais jamais vu <tag a="50" b="2" /><tag a="135" b="3" arg="0xcd00" /> aussi appétissant<tag a="50" b="17" arg="0x1f 0xcd00 0x0 0x2 0x65 0x0" />!<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Pour ma part, j'ai bien intention de
 m'essayer à cette recette dès ce
 soir.<delay20 /> Je vais bien m'appliquer!</message>
 	<message label="826" attrib="00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Ah oui! Est-ce que vous avez regardé
@@ -579,11 +589,11 @@ première minute!<anim id="Laughing" target="actor" targetSpec="" /><delay40 /><
 	<message label="827" attrib="00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Dites-moi! <delay40 />Est-ce que vous avez
 suivi<delay20 /><anim id="QuestionMark" target="actor" targetSpec="" /> la retransmission du concert à
 la télé, hier?<pageBreak /><anim id="HappyDance" target="actor" targetSpec="" />Mon groupe préféré a interprété un
-de ses titres emblématiques, <delay20 /><anim id="Dance" target="actor" targetSpec="" />et j'ai
+de ses titres emblématiques, <delay20 /><anim id="HappyFlower" target="actor" targetSpec="" />et j'ai
 toujours la musique en tête!</message>
 	<message label="828" attrib="00 00 00 00"><anim id="Aha" target="actor" targetSpec="" /><delay40 />Oh là là<tag a="110" b="0" /> <anim id="Blushing" target="actor" targetSpec="" />Me revoilà qui ennuie tout
 le monde avec mes histoires de télé.<delay20 />
-Pardonnez-moi, on passe à la suite!</message>
+Pardonnez-moi!</message>
 	<message label="831" attrib="00 00 00 00"><tag a="60" b="20" /></message>
 	<message label="831_01" attrib="00 00 00 00"><anim id="Surprised" target="actor" targetSpec="" />Aïe!<delay40 /> J'ai oublié de m'inscrire à ce
 concours de mots croisés! Moi qui

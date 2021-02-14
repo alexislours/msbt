@@ -4,23 +4,22 @@
 в своем бутике, то есть в шкафу.<pageBreak /><anim id="Hello" target="actor" targetSpec="" />Тебе перв<gender2 m="ому" f="ой" /> сообщаю!<delay8 />
 <anim id="Nodding" target="actor" targetSpec="" />Не упусти свой шанс купить
 <tag a="50" b="23" arg="0xcd01" /><tag a="125" b="0" arg="0x0" />.</message>
-	<message label="001_a" attrib="00 00 00 00 00 00 00 00">За сколько?
-Назови цену...</message>
+	<message label="001_a" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />За сколько?
+<anim id="EmotEnd" target="actor" targetSpec="" />Назови цену...</message>
 	<message label="001_b" attrib="00 00 00 00 00 00 00 00">Мне не интересно.
 <anim id="Apologize" target="player" targetSpec="" />Сожалею.</message>
 	<message label="002" attrib="00 00 02 00 00 00 00 00"><anim id="SmugFace" target="actor" targetSpec="" />Я умею читать мысли!<delay20 /> <anim id="AbsentMindedness" target="actor" targetSpec="" />Ты вот
 думаешь<tag a="110" b="0" /> «Ах, если бы у меня
-был<tag a="50" b="24" arg="0x11 0xcd00 0x0 0x2 0x430 0x2 0x43e 0x2 0x438" /> <tag a="125" b="0" arg="0x0" /><tag a="110" b="0" />»<pageBreak /><anim id="Aha" target="actor" targetSpec="" />Так вот, отличные новости!
-<delay8 />Я как раз <tag a="50" b="24" arg="0x11 0xcd00 0x6 0x435 0x433 0x43e 0x4 0x435 0x435 0x6 0x435 0x433 0x43e 0x4 0x438 0x445" /> продаю!</message>
-	<message label="002_a" attrib="00 00 00 00 00 00 00 00">Почем?
-Назови цену...</message>
+был<tag a="50" b="24" arg="0x12 0xcd00 0x0 0x2 0x430 0x2 0x43e 0x2 0x438" /> <tag a="125" b="0" arg="0x0" /><tag a="110" b="0" />»<pageBreak /><anim id="Aha" target="actor" targetSpec="" />Так вот, отличные новости!
+<delay8 />Я как раз <tag a="50" b="24" arg="0x12 0xcd00 0x6 0x435 0x433 0x43e 0x4 0x435 0x435 0x6 0x435 0x433 0x43e 0x4 0x438 0x445" /> продаю!</message>
+	<message label="002_a" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Почем?
+<anim id="EmotEnd" target="actor" targetSpec="" />Назови цену...</message>
 	<message label="002_b" attrib="00 00 00 00 00 00 00 00">Мне не интересно.
 <anim id="EmotEnd" target="player" targetSpec="" />Сожалею.</message>
 	<message label="003" attrib="00 00 02 00 00 00 00 00"><anim id="WrySmile" target="actor" targetSpec="" />Знаешь, я тут решил прибраться
 дома и нашел древн<delay20 /><anim id="Thinking" target="actor" targetSpec="" /><tag a="110" b="0" />, то есть
-великолепн<tag a="110" b="0" /><pageBreak /><anim id="WrySmile" target="actor" targetSpec="" />Короче, я распродаю эти четыре
-вещи! <delay8 />Не хочешь что-нибудь
-приобрести?</message>
+великолепн<tag a="110" b="0" /><pageBreak /><anim id="WrySmile" target="actor" targetSpec="" />Короче, я продаю четыре вещи!
+<delay8 />Не хочешь что-нибудь приобрести?</message>
 	<message label="003_a" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="player" targetSpec="" />Что за вещи?
 <anim id="EmotEnd" target="player" targetSpec="" />Может, и хочу...</message>
 	<message label="003_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="player" targetSpec="" />У меня все есть.
@@ -67,11 +66,11 @@
 <tag a="50" b="23" arg="0xcd03" /><tag a="125" b="0" arg="0x0" />?</message>
 	<message label="103" attrib="00 00 00 00 00 00 00 00"><anim id="OhGeez" target="actor" targetSpec="" />Ну ладно. <delay8 />Очень жаль расставаться,
 но, видно, тебе суждено заполучить
-<tag a="50" b="23" arg="0xcd01" /><tag a="125" b="0" arg="0x0" />.<pageBreak /><anim id="SmugFace" target="actor" targetSpec="" />Поэтому я отдаю <tag a="50" b="24" arg="0x11 0xcd00 0x6 0x435 0x433 0x43e 0x4 0x435 0x435 0x6 0x435 0x433 0x43e 0x4 0x438 0x445" /> тебе!<delay20 />
+<tag a="50" b="23" arg="0xcd01" /><tag a="125" b="0" arg="0x0" />.<pageBreak /><anim id="SmugFace" target="actor" targetSpec="" />Поэтому я отдаю <tag a="50" b="24" arg="0x12 0xcd00 0x6 0x435 0x433 0x43e 0x4 0x435 0x435 0x6 0x435 0x433 0x43e 0x4 0x438 0x445" /> тебе!<delay20 />
 Да, я великодушен!<delay20 /> <anim id="EmotEnd" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="110" b="5" />!</message>
 	<message label="104" attrib="00 00 00 00 00 00 00 00"><anim id="Grin" target="actor" targetSpec="" />И да, если кто-то спросит<tag a="110" b="0" /> Всем
 можешь говорить, что самому
-<tag a="50" b="23" arg="0xcd02" /><tag a="110" b="10" /> принадлежал<tag a="50" b="24" arg="0x11 0xcd00 0x0 0x2 0x430 0x2 0x43e 0x2 0x438" />.</message>
+<tag a="50" b="23" arg="0xcd02" /><tag a="110" b="10" /> принадлежал<tag a="50" b="24" arg="0x12 0xcd00 0x0 0x2 0x430 0x2 0x43e 0x2 0x438" />.</message>
 	<message label="105" attrib="00 00 00 00 00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Ох, <delay8 />ты меня разочаровываешь.<delay20 />
 <anim id="FaintSmile" target="actor" targetSpec="" />Ну, может, как-нибудь в другой раз!</message>
 	<message label="200" attrib="00 00 04 00 00 00 00 00"><anim id="Grin" target="actor" targetSpec="" />Отлично, вот это разговор!<delay20 />
@@ -92,7 +91,7 @@
 Все еще дорого.</message>
 	<message label="202" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="110" b="5" />! <delay20 />Продано!</message>
 	<message label="203" attrib="00 00 00 00 00 00 00 00"><anim id="Cheering" target="actor" targetSpec="" />Поздравляю! <delay20 />Ты теперь счастлив<gender2 m="ый" f="ая" />
-обладател<gender2 m="ь" f="ьница" /> эксклюзивн<tag a="50" b="24" arg="0x11 0xcd00 0x6 0x43e 0x433 0x43e 0x4 0x43e 0x439 0x6 0x43e 0x433 0x43e 0x4 0x44b 0x445" />
+обладател<gender2 m="ь" f="ьница" /> эксклюзивн<tag a="50" b="24" arg="0x12 0xcd00 0x6 0x43e 0x433 0x43e 0x4 0x43e 0x439 0x6 0x43e 0x433 0x43e 0x4 0x44b 0x445" />
 <tag a="50" b="23" arg="0xcd03" /><tag a="125" b="0" arg="0x0" />!</message>
 	<message label="204" attrib="00 00 00 00 00 00 00 00"><anim id="OhGeez" target="actor" targetSpec="" />Ну что ж, <tag a="110" b="6" />, нет так нет.
 В океане возможностей все бывает.<delay20 />
@@ -168,7 +167,7 @@
 для тебя, цена всего <tag a="90" b="21" arg="0x3" />!</message>
 	<message label="400_a" attrib="00 00 00 00 00 00 00 00">Беру!
 <anim id="EmotEnd" target="player" targetSpec="" />Отлично!</message>
-	<message label="400_b" attrib="00 00 00 00 00 00 00 00">А скидка будет?
+	<message label="400_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />А скидка будет?
 <anim id="EmotEnd" target="player" targetSpec="" />Что-то дороговато.</message>
 	<message label="401" attrib="00 00 00 00 00 00 00 00"><anim id="TakenAback" target="actor" targetSpec="" />Правда?</message>
 	<message label="402" attrib="00 00 00 00 00 00 00 00"><anim id="Cheering" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="110" b="5" />! Рад, что отдаю

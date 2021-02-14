@@ -35,7 +35,7 @@ haak hebt geslagen, toch?<pageBreak /><anim id="Grin" target="actor" targetSpec=
 	<message label="005_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Nee.</message>
 	<message label="006" attrib="02 00 00 00"><anim id="Hello" target="actor" targetSpec="" />Alles haaks, chillmakreel?</message>
 	<message label="006_a" attrib="00 00 00 00">Ik wil punten inruilen!</message>
-	<message label="006_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Ik hang wat rond.</message>
+	<message label="006_b" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Ik hang wat rond.</message>
 	<message label="007" attrib="00 00 00 00"><anim id="Hello" target="actor" targetSpec="" />Yo! <delay20 />Alles haaks, visjesfreak? <delay20 /><colour id="3" />C.J.
 <colour id="65535" />hier, live vanaf<tag a="110" b="0" /> <anim id="OhGeez" target="actor" targetSpec="" />Weet je?<delay20 /> Het is nog
 vroeg. <delay20 />Dat bewaar ik wel voor later.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Je weet dat ik het grote <colour id="1" />vistoernooi
@@ -61,7 +61,7 @@ even je netten leegt<tag a="110" b="0" /> <delay8 />Njuk!</message>
 	<message label="016" attrib="02 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Je hebt nog een paar punten die nog
 niet door de mazen van het net zijn
 geglipt.<delay frames="40" /> <anim id="QuestionMark" target="actor" targetSpec="" />Wil je ze niet uitgeven? <delay8 />Njuk!</message>
-	<message label="016_a" attrib="00 00 00 00">Waarom ook niet.</message>
+	<message label="016_a" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Waarom ook niet.</message>
 	<message label="016_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Nee.</message>
 	<message label="017" attrib="00 00 00 00"><anim id="ShyBoy" target="actor" targetSpec="" />Geen probleem, joh. <delay20 />Ik hou een lijntje
 open voor visserino's. <delay20 />Het spul loopt
@@ -78,9 +78,9 @@ dit seizoen. <delay20 />Hengels in de aanslag!</message>
 appeltje-kaviaar. <delay20 />Je vangt zoveel vis
 als je kunt in <colour id="1" /><tag a="90" b="0" arg="0xe" /> <50_8 x="0" y="14" a="minuten" b="minuut" c="minuten" /><colour id="65535" />.<anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak />Voor elke vis krijg je punten.<delay20 /> Met
 genoeg punten in je vismandje kun je
-heel wat leuk spul kopen.<anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak />Bij de partytent staat de <colour id="1" />vissenbak<colour id="65535" />.<delay20 />
-Alle vis die je vangt, gaat direct
-daarin.<delay frames="40" /><anim id="WrySmile" target="actor" targetSpec="" /> Zo hou je je zakken droog!<pageBreak /><anim id="HappyDance" target="actor" targetSpec="" />Dus zolang je een hengel hebt en
+heel wat leuk spul kopen.<anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak />Alle vis die je vangt, gaat direct in
+de <colour id="1" />vissenbak<colour id="65535" /> onder de partytent.<delay frames="40" /><anim id="WrySmile" target="actor" targetSpec="" /> Zo
+hou je je zakken droog!<pageBreak /><anim id="HappyDance" target="actor" targetSpec="" />Dus zolang je een hengel hebt en
 je haak het water haalt, <delay8 />kun je
 meedoen. <delay8 />Njuk!</message>
 	<message label="022" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />De regels van het <colour id="1" />vistoernooi<colour id="65535" /> zijn
@@ -91,7 +91,7 @@ heel wat leuk spul kopen.<anim id="EmotEnd" target="actor" targetSpec="" /><page
 vissen die door anderen zijn
 gevangen.<pageBreak />Hoe meer zielen, hoe meer punten
 dus. <delay20 />Cool!<anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak />O ja, alle vis die je vangt, gaat gelijk
-in de <colour id="1" />vissenbak<colour id="65535" /> bij de partytent.<delay frames="40" />
+in de <colour id="1" />vissenbak<colour id="65535" /> onder de partytent.<delay frames="40" />
 <anim id="WrySmile" target="actor" targetSpec="" />Zo hou je je zakken droog!<pageBreak /><anim id="HappyDance" target="actor" targetSpec="" />Dus zolang je een hengel hebt en
 je haak het water haalt, <delay8 />kun je
 meedoen. <delay8 />Njuk!</message>
@@ -103,8 +103,8 @@ onderdompelen in de wereld van het
 	<message label="023_b" attrib="00 00 00 00">Wat zijn de regels?</message>
 	<message label="023_c" attrib="00 00 00 00">Spul kopen met punten.</message>
 	<message label="023_d" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Nee, dank je.</message>
-	<message label="024" attrib="00 00 00 00"><anim id="TakenAback" target="actor" targetSpec="" />Wat? <delay20 />je houdt me toch niet aan het
-lijntje?<delay20 /> Wat een domper.<pageBreak /><anim id="OhGeez" target="actor" targetSpec="" />Oké, cool. <delay20 />het <colour id="1" />vistoernooi<colour id="65535" /> gaat door
+	<message label="024" attrib="00 00 00 00"><anim id="TakenAback" target="actor" targetSpec="" />Wat? <delay20 />Je houdt me toch niet aan het
+lijntje?<delay20 /> Wat een domper.<pageBreak /><anim id="OhGeez" target="actor" targetSpec="" />Oké, cool. <delay20 />Het <colour id="1" />vistoernooi<colour id="65535" /> gaat door
 tot <colour id="1" /><tag a="90" b="37" arg="0xcd01" />:00 uur<colour id="65535" />, mocht je je bedenken.
 <delay20 />Kom lekker hengelen!</message>
 	<message label="025" attrib="00 00 00 00">Eh<tag a="110" b="0" /> je hebt nu <colour id="1" /><tag a="90" b="8" arg="0x1" /> <50_8 x="0" y="1" a="punten" b="punt" c="punten" /><colour id="65535" />.</message>
@@ -121,10 +121,10 @@ als je kunt in <colour id="1" /><tag a="90" b="0" arg="0xe" /> <50_8 x="0" y="14
 genoeg punten in je vismandje kun je
 heel wat leuk spul kopen.</message>
 	<message label="028" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />O ja, alle vis die je vangt, gaat gelijk
-in de <colour id="1" />vissenbak<colour id="65535" /> bij de partytent.<delay frames="40" /> <anim id="WrySmile" target="actor" targetSpec="" />Zo
-hou je je zakken droog!<pageBreak /><anim id="HappyDance" target="actor" targetSpec="" />Dus zolang je een hengel hebt
-en je haak het water haalt,
-<delay8 />kun je meedoen. <delay8 />Njuk!</message>
+in de <colour id="1" />vissenbak<colour id="65535" /> onder de partytent.<delay frames="40" />
+<anim id="WrySmile" target="actor" targetSpec="" />Zo hou je je zakken droog!<pageBreak /><anim id="HappyDance" target="actor" targetSpec="" />Dus zolang je een hengel hebt en je
+haak het water haalt,<delay8 /> kun je
+meedoen. <delay8 />Njuk!</message>
 	<message label="029" attrib="02 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />Simpel zat! <delay20 />En je kunt zo vaak
 meedoen als je wilt.<pageBreak /><anim id="Scheming" target="actor" targetSpec="" />Wat zeg je ervan, chillmakreel? <delay20 />Nog
 een rondje vistoernooi doen?<delay20 /> Zorg
@@ -167,13 +167,13 @@ van andere eilanden bij zijn.</message>
 	<message label="036" attrib="00 00 00 00"><anim id="Grin" target="actor" targetSpec="" />Zo, wie heeft er zin in wat serieus
 hengelwerk?<delay frames="40" /> <anim id="BigSmile" target="actor" targetSpec="" />Jij, natuurlijk! <delay8 />Njuk
 <delay8 />njuk!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Ik sta hier voor<tag a="110" b="0" /><delay20 /> eh<tag a="110" b="0" /><delay20 /><anim id="OhGeez" target="actor" targetSpec="" /> momenteel
-alleen jou, voor de moeder van alle
-viswedstrijden.<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Yo, dit is <colour id="3" />C.J.<colour id="65535" /> en ik doe vandaag
+alleen jou, ter ere van de moeder van
+alle viswedstrijden.<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Yo, dit is <colour id="3" />C.J.<colour id="65535" /> en ik doe vandaag
 verslag van dé sportieve vissensatie
 van het seizoen:<delay20 /> het<tag a="110" b="0" /><delay20 /><anim id="EmotEnd" target="actor" targetSpec="" /> <colour id="1" />vistoernooi<colour id="65535" />!<anim id="EmotEnd" target="actor" targetSpec="" />
 <anim id="EmotEnd" target="actor" targetSpec="" />Dus boen je haakjes en poets je
-hengel, want om <colour id="1" /><tag a="90" b="37" arg="0xcd01" />:00 uur<colour id="65535" /> <delay20 />is het
-tijd om uit te werpen!</message>
+hengel, want tussen nu en <colour id="1" /><tag a="90" b="37" arg="0xcd01" />:00 uur<colour id="65535" /><delay20 />
+is de tijd om uit te werpen!</message>
 	<message label="037" attrib="00 00 00 00"><anim id="Hello" target="actor" targetSpec="" />Yo! <delay20 />Alles haaks, hengelfanaten? <delay20 /><colour id="3" />C.J.
 <colour id="65535" />hier, live vanaf<tag a="110" b="0" /><delay20 /> <anim id="Negative" target="actor" targetSpec="" />Wacht, natuurlijk
 ben ik live. <delay20 />Ik ben hier.<pageBreak /><anim id="ShyBoy" target="actor" targetSpec="" />Vandaag doe ik verslag van
@@ -206,10 +206,10 @@ hengelen als het <colour id="1" />vistoernooi<colour id="65535" /> weer
 plaatsvindt in <colour id="1" /><tag a="90" b="35" arg="0xcd00" /><colour id="65535" />.</message>
 	<message label="045" attrib="02 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Precies <colour id="1" /><tag a="90" b="8" arg="0x1" /> <50_8 x="0" y="1" a="punten" b="punt" c="punten" /><colour id="65535" />! <delay20 />Net genoeg voor wat vet visspul.</message>
 	<message label="045_a" attrib="00 00 00 00">Hier met dat spul!</message>
-	<message label="045_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Misschien later.</message>
+	<message label="045_b" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Misschien later.</message>
 	<message label="046" attrib="02 00 00 00"><colour id="1" /><anim id="BigSmile" target="actor" targetSpec="" /><tag a="90" b="8" arg="0x1" /> <50_8 x="0" y="1" a="punten" b="punt" c="punten" /><colour id="65535" />! <delay20 />Netjes!<delay frames="40" /> <anim id="QuestionMark" target="actor" targetSpec="" />Wil je <colour id="1" /><tag a="90" b="1" arg="0x0" /> punten <colour id="65535" />inruilen voor wat vet visspul?</message>
 	<message label="046_a" attrib="00 00 00 00">Hier met dat spul!</message>
-	<message label="046_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Misschien later.</message>
+	<message label="046_b" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Misschien later.</message>
 	<message label="047" attrib="06 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Mijn kennis over het <colour id="1" />vistoernooi
 <colour id="65535" />is zonder limiet, net zoals mijn
 databundel. <delay20 />Vraag<delay20 /> maar<delay20 /> raak!</message>
@@ -227,7 +227,7 @@ de vis. <delay20 />Jij wordt betaald en mijn
 volgers blijven volgen.<delay frames="40" /> <anim id="BigSmile" target="actor" targetSpec="" />Fan-tastisch!</message>
 	<message label="049_a" attrib="00 00 00 00">Ik wil vis verkopen!</message>
 	<message label="049_b" attrib="00 00 00 00">Punten inruilen voor spul.</message>
-	<message label="049_c" attrib="00 00 00 00">Iets anders...</message>
+	<message label="049_c" attrib="00 00 00 00">Over het toernooi...</message>
 	<message label="049_d" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Nee, hoeft niet.</message>
 	<message label="050" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Vin-tastisch! <delay20 />Wat verkoop je?</message>
 	<message label="051" attrib="02 00 00 00"><anim id="Grin" target="actor" targetSpec="" />Een hele school, hè? <delay20 />Daar kan ik je
@@ -257,9 +257,15 @@ komen niet genoeg klingels
 bovendrijven. <delay8 />Njuk!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Na de eerste ronde kost het
 <tag a="90" b="21" arg="0x2" /> om mee te doen. <delay20 />Voor
 het vissersvonds! <size value="75" />Eh, fonds.<size value="100" /></message>
-	<message label="062" attrib="00 00 00 00"><anim id="HappyDance" target="actor" targetSpec="" />Netjes! <delay20 />Niemand kan het sirenenlied
-van het <colour id="1" />vistoernooi<colour id="65535" /> weerstaan. <delay20 />De
-entree gaat je <tag a="90" b="21" arg="0x2" /> kosten.</message>
+	<message label="062" attrib="02 00 00 00"><anim id="HappyDance" target="actor" targetSpec="" />Netjes! <delay20 />Niemand kan het sirenenlied
+van het <colour id="1" />vistoernooi<colour id="65535" /> weerstaan.<pageBreak />Een dingetje.<delay20 /> <anim id="Explain" target="actor" targetSpec="" />Je hebt vandaag al een
+keer meegedaan, dus je moet nu
+<tag a="90" b="21" arg="0x2" /> entree betalen.</message>
+	<message label="062_a" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Prima!</message>
+	<message label="062_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Laat dan maar...</message>
+	<message label="062_01" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Ik wist wel dat dat ik bij jou geen
+bot zou vangen!<delay20 /> Dan krijg ik dus
+<tag a="90" b="21" arg="0x2" /> van je.</message>
 	<message label="063" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Goed, ik zet <colour id="1" /><tag a="90" b="0" arg="0xe" /> minuten <colour id="65535" />op de klok.
 Binnen die tijd moet je zoveel
 mogelijk binnenhengelen.<pageBreak /><anim id="Aha" target="actor" targetSpec="" /><delay20 />O! <delay20 />En als boter óp de vis krijg je
@@ -334,7 +340,7 @@ ik jou vandaag al gezien heb. <delay20 />Mijn
 gedachten glippen steeds weg<tag a="110" b="0" /><pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Zo te zien heb je nog wat punten.
 Wil je die ergens voor inruilen? <delay8 />Njuk!</message>
 	<message label="090_a" attrib="00 00 00 00">Punten inruilen voor spul.</message>
-	<message label="090_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Ik dobber gewoon rond.</message>
+	<message label="090_b" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Ik dobber gewoon rond.</message>
 	<message label="090_01" attrib="00 00 00 00"><anim id="Hello" target="actor" targetSpec="" />Alles haaks, visserino?<delay20 /> <colour id="3" />C.J.<colour id="65535" /> hier en<tag a="110" b="0" /><delay frames="40" />
 <anim id="SadSpiral" target="actor" targetSpec="" />Wauw! Ik ben helemaal kapot van het
 streamen van het <colour id="1" />vistoernooi.<colour id="65535" /><pageBreak /><anim id="Serious" target="actor" targetSpec="" />Om eerlijk te zijn <delay20 />weet ik niet meer of
@@ -347,7 +353,7 @@ ontmoeten. <delay20 />Ik ben hier tot <colour id="1" /><tag a="90" b="37" arg="0
 <colour id="65535" />als je wat nodig hebt.</message>
 	<message label="100" attrib="02 00 00 00"><anim id="Hello" target="actor" targetSpec="" />Alles haaks, chillmakreel?</message>
 	<message label="100_a" attrib="00 00 00 00">Punten inruilen voor spul.</message>
-	<message label="100_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Ik hang wat rond.</message>
+	<message label="100_b" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Ik hang wat rond.</message>
 	<message label="101" attrib="00 00 00 00"><anim id="SmugFace" target="actor" targetSpec="" />Het volgende <colour id="1" />vistoernooi <colour id="65535" />ben ik ook weer op <tag a="110" b="9" />. <delay20 />Dat is in <colour id="1" /><tag a="90" b="35" arg="0xcd00" /><colour id="65535" />. <delay20 />Hou je haaks,<delay8 /> yo! <delay8 />Njuk!</message>
 	<message label="102" attrib="00 00 00 00"><anim id="AbsentMindedness" target="actor" targetSpec="" />Het staat als een paal boven water
 dat het een geweldig <colour id="1" />vistoernooi
@@ -398,7 +404,7 @@ van je kopen. <delay8 />Njuk!</message>
 	<message label="120_c" attrib="00 00 00 00">Even kijken...</message>
 	<message label="123" attrib="02 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Klinkt <tag a="90" b="26" arg="0x5" /> goed?<delay20 /> Heb ik dan beet?</message>
 	<message label="123_a" attrib="00 00 00 00">Verkopen! Alles!</message>
-	<message label="123_b" attrib="00 00 00 00">Wacht even.</message>
+	<message label="123_b" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Wacht even.</message>
 	<message label="124" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Komt voor de visser!<delay20 /> <anim id="Eh" target="actor" targetSpec="" />Eh, wacht. <delay20 />Heb
 je<tag a="110" b="0" /> schepen lopen plunderen<delay20 /> of zo?
 Je ruim zit helemaal vol met klingels!<pageBreak /><anim id="ShyBoy" target="actor" targetSpec="" />Geen problemo. <delay20 />Ik maak het wel over
@@ -463,12 +469,15 @@ geslagen!</message>
 	<message label="149" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Oké, het ziet ernaar uit dat de totale
 vangst<tag a="110" b="0" /><delay20 /><anim id="Nodding" target="actor" targetSpec="" /> <colour id="1" /><tag a="90" b="1" arg="0x9" /> <50_8 x="0" y="9" a="vissen" b="vis" c="vissen" /> <colour id="65535" />is<tag a="110" b="0" /><pageBreak /><tag a="110" b="0" />plus een bonus omdat jullie er <colour id="1" /><tag a="90" b="1" arg="0xa" />
 of meer<colour id="65535" /> genet hebben.<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Zelf heb je <colour id="1" /><tag a="90" b="1" arg="0x8" /><colour id="65535" /> <colour id="1" /><50_8 x="0" y="8" a="vissen" b="vis" c="vissen" /> <colour id="65535" />binnengehengeld.<delay20 /> Netjes!</message>
-	<message label="150" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Yo, het ziet ernaar uit dat de totale
-vangst<tag a="110" b="0" /><delay20 /><anim id="Nodding" target="actor" targetSpec="" /> <colour id="1" /><tag a="90" b="1" arg="0x9" /> <50_8 x="0" y="9" a="vissen" b="vis" c="vissen" /> <colour id="65535" />is, met een bonus
-omdat jullie er <colour id="1" /><tag a="90" b="1" arg="0xa" /> of meer<colour id="65535" /> hebben.<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Jij hebt zelf <colour id="1" /><tag a="90" b="1" arg="0x8" /> <50_8 x="0" y="8" a="vissen" b="vis" c="vissen" /><colour id="65535" />, die ook nog
+	<message label="150" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Yo, de totale vangst is<tag a="110" b="0" /><delay20 /><anim id="Nodding" target="actor" targetSpec="" /> <colour id="1" /><tag a="90" b="2" arg="0x9" /> <50_8 x="0" y="9" a="vissen" b="vis" c="vissen" /><colour id="65535" />, met een samenwerkingsbonus omdat jullie er <colour id="1" />minstens <tag a="90" b="1" arg="0xa" /><colour id="65535" /> hebben.<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Jij hebt zelf <colour id="1" /><tag a="90" b="1" arg="0x8" /> <50_8 x="0" y="8" a="vissen" b="vis" c="vissen" /><colour id="65535" />, die ook nog
 eens goed zijn voor de bonus voor
 het vangen van <colour id="1" /><tag a="90" b="1" arg="0x4" /> of meer vissen<colour id="65535" />.</message>
 	<message label="151" attrib="00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" /><size value="75" /><colour id="4" />Die giet ik bij het totaal<tag a="110" b="0" /><colour id="65535" /><size value="100" /></message>
+	<message label="159" attrib="00 00 00 00"><anim id="Grin" target="actor" targetSpec="" />Yo! <delay20 />Alles haaks? <delay20 />Dit is <colour id="3" />C.J.<colour id="65535" /> en ik doe
+vandaag verslag van<tag a="110" b="0" /><delay20 /><anim id="BigSmile" target="actor" targetSpec="" /> het
+<colour id="1" />vistoernooi<colour id="65535" />!<delay frames="40" /> Dé sensatie van<tag a="110" b="0" /><delay8 /><anim id="Serious" target="actor" targetSpec="" /> wacht.<pageBreak /><anim id="QuestionMark" target="actor" targetSpec="" />Zag ik jou eerder niet vissen bij de
+vleet uit het water trekken? <delay20 />Jawel,
+hè?<delay frames="40" /> <anim id="Nodding" target="actor" targetSpec="" />Jij bent goed bezig, zeg.<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Dus hoe was het? <delay20 />Leuk? <delay8 />Njuk!</message>
 	<message label="152" attrib="00 00 00 00"><anim id="Grin" target="actor" targetSpec="" />Yo! <delay20 />Alles haaks? <delay20 />Dit is <colour id="3" />C.J.<colour id="65535" /> en ik doe
 vandaag verslag van<tag a="110" b="0" /><delay20 /><anim id="BigSmile" target="actor" targetSpec="" /> het
 <colour id="1" />vistoernooi<colour id="65535" />!<delay frames="40" /> Dé sensatie van<tag a="110" b="0" /><delay8 /><anim id="Serious" target="actor" targetSpec="" /> wacht.<pageBreak /><anim id="QuestionMark" target="actor" targetSpec="" />Zag ik jou eerder niet vissen bij de
@@ -479,6 +488,24 @@ hè?<delay frames="40" /> <anim id="Nodding" target="actor" targetSpec="" />Jij 
 	<message label="155" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Zodra je <colour id="1" /><tag a="90" b="1" arg="0x0" /> of meer punten <colour id="65535" />hebt
 opgevist, kun je ze inruilen voor vet
 visspul.<delay frames="40" /> <anim id="BigSmile" target="actor" targetSpec="" />Werp eens een lijntje uit!</message>
+	<message label="156" attrib="00 00 00 00">Yo. <delay20 />Zo te zien zwommen er<tag a="110" b="0" /><delay20 />
+<colour id="1" /><tag a="90" b="1" arg="0x8" /> vissen <colour id="65535" />in de <colour id="1" />vissenbak<colour id="65535" />.<delay20 /> <anim id="FaintSmile" target="actor" targetSpec="" />Jij vangt
+ze echt bij de vleet. <delay20 />Netjes!</message>
+	<message label="156_01" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Yo! <delay20 />Als je meer dan 20 vissen in de
+<colour id="1" />vissenbak <colour id="65535" />stopt, kiept ie om.<delay frames="40" /> <anim id="Nodding" target="actor" targetSpec="" />Daarom
+heb ik er een paar vissen uitgehaald.<pageBreak /><anim id="Grin" target="actor" targetSpec="" />Geen zorgen. <delay20 />Ik heb ze naar een gaaf
+vissenreservaat verscheept. <delay20 />Het is er
+geweldig. <delay8 />Njuk <delay8 />njuk!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Maar wees niet bang, je vist niet
+achter het net. Je krijgt punten voor
+ál je gevangen vissen.</message>
+	<message label="157" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />O ja! <delay20 />Naast de verdiende <colour id="1" /><tag a="90" b="1" arg="0x8" /> punten<colour id="65535" />,
+krijg je ook een bonus voor het
+vangen van <colour id="1" /><tag a="90" b="1" arg="0x4" /> of meer vissen<colour id="65535" />!<pageBreak /><anim id="Serious" target="actor" targetSpec="" />O, en de totale vangst voor iedereen
+is<tag a="110" b="0" /><delay20 /><anim id="Nodding" target="actor" targetSpec="" /> <colour id="1" /><tag a="90" b="2" arg="0x9" /> vissen<colour id="65535" />, plus een samen-
+speelbonus voor <colour id="1" /><tag a="90" b="1" arg="0xa" /> of meer vissen<colour id="65535" />.</message>
+	<message label="158" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />O ja! <delay20 />Naast de verdiende <colour id="1" /><tag a="90" b="1" arg="0x8" /> punten<colour id="65535" />,
+krijg je ook een bonus voor het
+vangen van <colour id="1" /><tag a="90" b="1" arg="0x4" /> of meer vissen<colour id="65535" />!</message>
 	<message label="160" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Jullie vangst is aan het feesten in de
 <colour id="1" />vissenbak<colour id="65535" />. <delay20 />Kijk later maar welke jullie
 willen houden.<pageBreak /><anim id="Grin" target="actor" targetSpec="" />Als niemand ze wil, koop ik ze wel.<delay20 />
@@ -489,18 +516,18 @@ toernooi is verlopen.</message>
 appeltje-kaviaar. <delay20 />Iedereen vangt
 zoveel mogelijk vis in <colour id="1" /><tag a="90" b="0" arg="0xe" /> <50_8 x="0" y="14" a="minuten" b="minuut" c="minuten" /><colour id="65535" />.<anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak />Voor elke vis krijg je punten.<delay20 /> Maakt
 niet uit wie ze vangt.<anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak />Máár! <delay20 />Als er vrienden meedoen, moet
-je een <colour id="1" />teamleider<colour id="65535" /> uitkiezen. Alleen de
+je een <colour id="1" />leider<colour id="65535" /> uitkiezen. Alleen de
 <colour id="1" />leider <colour id="65535" />verdient namelijk punten.<anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak />Zodra iedereen genoeg punten heeft
 opgevist, kan de <colour id="1" />leider<colour id="65535" /> ze inwisselen
 voor supervet visspul!</message>
 	<message label="162" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Overigens gaat alle vis die je vangt,
-direct in de <colour id="1" />vissenbak<colour id="65535" /> bij de
+direct in de <colour id="1" />vissenbak<colour id="65535" /> onder de
 partytent.<delay20 /><anim id="WrySmile" target="actor" targetSpec="" /> Zo hou je je zakken droog!<pageBreak /><anim id="HappyDance" target="actor" targetSpec="" />Dus zolang je een hengel hebt en
 je haak het water haalt, <delay8 />kun je
 meedoen. <delay8 />Njuk!</message>
 	<message label="163" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Oké, ik zet <colour id="1" /><tag a="90" b="0" arg="0xe" /> <50_8 x="0" y="14" a="minuten" b="minuut" c="minuten" /> <colour id="65535" />op de klok.
 Binnen die tijd moet iedereen zoveel
-mogelijk binnenhengelen.<anim id="EmotEnd" target="actor" targetSpec="" />
+mogelijk vissen binnenhengelen.<anim id="EmotEnd" target="actor" targetSpec="" />
 Wie ze ook vangt, ze komen allemaal
 in de <colour id="1" />vissenbak<colour id="65535" /> bovengedreven en de
 <colour id="1" />teamleider<colour id="65535" /> krijgt er punten voor.<pageBreak /><anim id="Aha" target="actor" targetSpec="" /><delay20 />O!<delay20 /> Jullie krijgen ook een bonus als
@@ -523,14 +550,16 @@ een ronde? <delay20 />Dat kost je <tag a="90" b="21" arg="0x2" />.</message>
 	<message label="165_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Nee, hoeft niet.</message>
 	<message label="166" attrib="02 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />Simpel, toch? <delay20 />En je kunt zo vaak
 meedoen als je wilt.<pageBreak /><anim id="Scheming" target="actor" targetSpec="" />Nou? <delay20 />Klaar om je onder te dompelen
-in de wereld van het <colour id="1" />vistoernooi?<colour id="65535" /><delay20 /> De
-eerste ronde als <colour id="1" />leider <colour id="65535" />is gratis.</message>
+in de wereld van het <colour id="1" />vistoernooi<colour id="65535" />?<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Omdat het je eerste ronde is als
+<colour id="1" />leider <colour id="65535" />vandaag, hoef je niet te
+betalen.</message>
 	<message label="166_a" attrib="00 00 00 00">Ik doe mee!</message>
 	<message label="166_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Nee, hoeft niet.</message>
 	<message label="167" attrib="06 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />Simpel, toch? <delay20 />En je kunt zo vaak
 meedoen als je wilt.<pageBreak /><anim id="Scheming" target="actor" targetSpec="" />Nou? <delay20 />Klaar om je onder te dompelen
-in de wereld van het <colour id="1" />vistoernooi?<colour id="65535" /><delay20 /> De
-eerste ronde als <colour id="1" />leider <colour id="65535" />is gratis.</message>
+in de wereld van het <colour id="1" />vistoernooi<colour id="65535" />?<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Omdat het je eerste ronde is als
+<colour id="1" />leider <colour id="65535" />vandaag, hoef je niet te
+betalen.</message>
 	<message label="167_a" attrib="00 00 00 00">Ik doe mee!</message>
 	<message label="167_b" attrib="00 00 00 00">Wat zijn de regels?</message>
 	<message label="167_c" attrib="00 00 00 00">Punten inruilen voor spul.</message>
@@ -553,15 +582,15 @@ ik jou vandaag gezien heb. <delay20 />Mijn
 gedachten glippen steeds weg<tag a="110" b="0" /><pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Zo te zien heb je nog wat punten.
 Wil je die ergens voor inruilen? <delay8 />Njuk!</message>
 	<message label="170_a" attrib="00 00 00 00">Punten inruilen voor spul.</message>
-	<message label="170_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Ik hang wat rond.</message>
+	<message label="170_b" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Ik hang wat rond.</message>
 	<message label="170_01" attrib="00 00 00 00"><anim id="SmugFace" target="actor" targetSpec="" />Zo, hé!<delay20 /> Dat was het alweer voor deze
 <tag a="110" b="17" />! Ik aas nu al op het volgende
 <colour id="1" />vistoernooi<colour id="65535" />!</message>
 	<message label="171" attrib="06 00 00 00"><anim id="Scheming" target="actor" targetSpec="" />Klaar om je koers naar de
 overwinning van dit <colour id="1" />vistoernooi
 <colour id="65535" />uit te stippelen?<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Aangezien dit je eerste keer als
-<colour id="1" />teamleider <colour id="65535" />is, is meedoen gratis.
-<delay8 />Njuk!</message>
+<colour id="1" />teamleider <colour id="65535" />is vandaag, is meedoen
+gratis. <delay8 />Njuk!</message>
 	<message label="171_a" attrib="00 00 00 00">Ik doe mee!</message>
 	<message label="171_b" attrib="00 00 00 00">Wat zijn de regels?</message>
 	<message label="171_c" attrib="00 00 00 00">Punten inruilen voor spul.</message>

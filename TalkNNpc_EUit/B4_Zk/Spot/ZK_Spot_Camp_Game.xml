@@ -3,7 +3,7 @@
 quando sono in campeggio.<delay20 /> Non so
 mai bene che fare, <tag a="110" b="6" />.
 <anim id="IdeaBulb" target="actor" targetSpec="" />Così mi è venuta un'idea! <delay40 />Facciamo
-un gioco<tag a="110" b="0" /><delay20 /> e se vinci tu,<delay8 /> ti do <tag a="50" b="17" arg="0x11 0xcd00 0xc 0x69 0x6c 0x20 0x6d 0x69 0x6f 0xc 0x6c 0x61 0x20 0x6d 0x69 0x61 0x0" />
+un gioco<tag a="110" b="0" /><delay20 /> e se vinci tu,<delay8 /> ti do <tag a="50" b="17" arg="0x12 0xcd00 0xc 0x69 0x6c 0x20 0x6d 0x69 0x6f 0xc 0x6c 0x61 0x20 0x6d 0x69 0x61 0x0" />
 <tag a="125" b="0" arg="0x0" />!</message>
 	<message label="001_a" attrib="00 00 00 00 00 00 00 00">OK, ci sto!</message>
 	<message label="001_b" attrib="00 00 00 00 00 00 00 00">Magari dopo<tag a="110" b="0" /></message>
@@ -16,8 +16,8 @@ un'altra volta!</message>
 	<message label="005" attrib="00 00 00 00 00 00 00 00"><anim id="Grin" target="actor" targetSpec="" />E ora vediamo chi è fortunato<tag a="110" b="0" /><delay20 /><anim id="Thinking" target="actor" targetSpec="" />
 e chi invece NO<tag a="110" b="0" /></message>
 	<message label="006_01" attrib="00 00 00 00 00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Io sono <tag a="50" b="2" /><tag a="110" b="15" /> di parola.<pageBreak /><anim id="WrySmile" target="actor" targetSpec="" />Spero che ti godrai muchissimo
-<tag a="50" b="17" arg="0x11 0xcd00 0xc 0x69 0x6c 0x20 0x6d 0x69 0x6f 0xc 0x6c 0x61 0x20 0x6d 0x69 0x61 0x0" /> <tag a="125" b="0" arg="0x0" />!</message>
-	<message label="006_02" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Beh, è giusto così.<delay20 /> Spero che <tag a="50" b="17" arg="0x11 0xcd00 0xc 0x69 0x6c 0x20 0x6d 0x69 0x6f 0xc 0x6c 0x61 0x20 0x6d 0x69 0x61 0x0" /> <tag a="125" b="0" arg="0x0" /> ti farà comodo!</message>
+<tag a="50" b="17" arg="0x12 0xcd00 0xc 0x69 0x6c 0x20 0x6d 0x69 0x6f 0xc 0x6c 0x61 0x20 0x6d 0x69 0x61 0x0" /> <tag a="125" b="0" arg="0x0" />!</message>
+	<message label="006_02" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Beh, è giusto così.<delay20 /> Spero che <tag a="50" b="17" arg="0x12 0xcd00 0xc 0x69 0x6c 0x20 0x6d 0x69 0x6f 0xc 0x6c 0x61 0x20 0x6d 0x69 0x61 0x0" /> <tag a="125" b="0" arg="0x0" /> ti farà comodo!</message>
 	<message label="006_03" attrib="00 00 00 00 00 00 00 00"><anim id="HappyDance" target="actor" targetSpec="" />Da paura,<delay20 /> ho vinto io! <delay20 /><anim id="Clapping" target="actor" targetSpec="" />E tu resti a
 secco! <delay20 /><anim id="Blushing" target="actor" targetSpec="" />Es decir<tag a="110" b="0" /><delay20 /> ti andrà meglio
 la prossima volta, <tag a="110" b="6" />!</message>
@@ -27,17 +27,19 @@ volta farò scintille, <tag a="110" b="5" />!</message>
 	<message label="007_03" attrib="00 00 00 00 00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />E recuerda che vincere è più bello se
 ogni tanto si perde.<10_4 /> No problemo<tag a="110" b="0" /><anim id="EmotEnd" target="actor" targetSpec="" />
 le mie perle di saggezza sono gratis!</message>
-	<message label="008" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Bueno, <delay20 /><anim id="EmotEnd" target="actor" targetSpec="" />possiamo iniziare!<pageBreak /><anim id="Negative" target="actor" targetSpec="" />Fermi tutti!<delay20 /><anim id="Oops" target="actor" targetSpec="" /> Pare che tu non abbia abbastanza spazio per <tag a="50" b="17" arg="0x11 0xcd00 0xc 0x69 0x6c 0x20 0x6d 0x69 0x6f 0xc 0x6c 0x61 0x20 0x6d 0x69 0x61 0x0" /> <tag a="125" b="0" arg="0x0" />.
-Devi fare un po' di spazio nelle
-tasche.<anim id="AbsentMindedness" target="actor" targetSpec="" /> Io, nel frattempo, aspetto
-aquí<tag a="110" b="0" /><delay20 /> <anim id="Aha" target="actor" targetSpec="" />Vai!</message>
+	<message label="008" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Bueno, <delay20 /><anim id="EmotEnd" target="actor" targetSpec="" />possiamo iniziare!<pageBreak /><anim id="Negative" target="actor" targetSpec="" />Fermi tutti!<delay20 /><anim id="Oops" target="actor" targetSpec="" /> Pare che tu non
+abbia abbastanza spazio per
+un'eventuale ricompensa!
+Devi liberare un po' le tue tasche.
+<anim id="AbsentMindedness" target="actor" targetSpec="" />Io, nel frattempo, aspetto aquí<tag a="110" b="0" /><delay20 />
+<anim id="Aha" target="actor" targetSpec="" />Vai!</message>
 	<message label="100" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />El juego funziona così.<delay20 /> <anim id="Explain" target="actor" targetSpec="" />Le mie carte
 sono di quattro semi diversi:<delay20 /> cuori <colour id="6" />♥<colour id="65535" />,
 quadri <colour id="6" />♦<colour id="65535" />,<delay20 /> picche <colour id="7" />♠<colour id="65535" /> e fiori <colour id="7" />♣<colour id="65535" />.
 <anim id="Grin" target="actor" targetSpec="" />Io pescherò, muy elegantemente,<delay20 />
 una carta e tu dovrai indovinare
 di che seme è. <delay20 />Fin qui todo claro?
-<anim id="WrySmile" target="actor" targetSpec="" />Se indovini, ti becchi <tag a="50" b="17" arg="0x11 0xcd00 0xc 0x69 0x6c 0x20 0x6d 0x69 0x6f 0xc 0x6c 0x61 0x20 0x6d 0x69 0x61 0x0" /> <tag a="125" b="0" arg="0x0" />.<pageBreak /><anim id="NpcShuffle" target="actor" targetSpec="" />Dai, <delay8 />vamos a incominciare!</message>
+<anim id="WrySmile" target="actor" targetSpec="" />Se indovini, ti becchi <tag a="50" b="17" arg="0x12 0xcd00 0xc 0x69 0x6c 0x20 0x6d 0x69 0x6f 0xc 0x6c 0x61 0x20 0x6d 0x69 0x61 0x0" /> <tag a="125" b="0" arg="0x0" />.<pageBreak /><anim id="NpcShuffle" target="actor" targetSpec="" />Dai, <delay8 />vamos a incominciare!</message>
 	<message label="101" attrib="00 00 05 00 00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Perfecto, ho pescato una carta<tag a="110" b="0" /><pageBreak /><anim id="QuestionMark" target="actor" targetSpec="" />Di che seme è?<delay frames="40" /> Cuori <colour id="6" />♥<colour id="65535" />, quadri <colour id="6" />♦<colour id="65535" />,
 picche <colour id="7" />♠<colour id="65535" /> o fiori <colour id="7" />♣<colour id="65535" />?</message>
 	<message label="101_a" attrib="00 00 00 00 00 00 00 00">Cuori <colour id="6" />♥<colour id="65535" />!</message>
@@ -54,7 +56,7 @@ indovinare di che colore è il suo
 seme!
 <anim id="WrySmile" target="actor" targetSpec="" />Per esempio:<delay20 /> tu dici <colour id="6" />rosso <colour id="65535" />e la carta
 è cuori <colour id="6" />♥<colour id="65535" /> o quadri <colour id="6" />♦<colour id="65535" />? <delay20 /><anim id="Assent" target="actor" targetSpec="" />Ti aggiudichi
-<tag a="50" b="17" arg="0x11 0xcd00 0xc 0x69 0x6c 0x20 0x6d 0x69 0x6f 0xc 0x6c 0x61 0x20 0x6d 0x69 0x61 0x0" /> <tag a="125" b="0" arg="0x0" />!
+<tag a="50" b="17" arg="0x12 0xcd00 0xc 0x69 0x6c 0x20 0x6d 0x69 0x6f 0xc 0x6c 0x61 0x20 0x6d 0x69 0x61 0x0" /> <tag a="125" b="0" arg="0x0" />!
 <anim id="NpcShuffle" target="actor" targetSpec="" />Dai,<delay8 /> vamos a incominciare!</message>
 	<message label="201" attrib="00 00 01 00 00 00 00 00"><anim id="Scheming" target="actor" targetSpec="" />La mia carta è pronta<tag a="110" b="0" /><pageBreak /><anim id="QuestionMark" target="actor" targetSpec="" />Di che colore pensi sia il suo seme?<delay20 />
 <colour id="6" />Rojo<colour id="65535" /> como la passion o <colour id="7" />negro<colour id="65535" /> como

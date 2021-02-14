@@ -21,7 +21,7 @@ dire: <delay20 /><anim id="Smiling" target="actor" targetSpec="" />"<colour id="
 	<message label="001_01" attrib="02 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Quindi, se hai già in mente un
 edificio che vorresti spostare,
 <delay20 /><anim id="QuestionMark" target="actor" targetSpec="" />potremmo occuparcene subito, no?</message>
-	<message label="001_01_a" attrib="00 00 00 00">Parliamone.</message>
+	<message label="001_01_a" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Parliamone.</message>
 	<message label="001_01_b" attrib="00 00 00 00">Adesso no.</message>
 	<message label="002" attrib="00 00 00 00">Benissimo!<delay20 /><anim id="QuestionMark" target="actor" targetSpec="" /> E quale edificio vorresti
 spostare?</message>
@@ -55,7 +55,7 @@ Ti costerà <colour id="1" /><tag a="90" b="22" arg="0x0" /><colour id="65535" /
 <delay20 /><anim id="QuestionMark" target="actor" targetSpec="" />Vuoi procedere?</message>
 	<message label="015_a" attrib="00 00 00 00">Sì, va bene!</message>
 	<message label="015_b" attrib="00 00 00 00">Vorrei pensarci su.</message>
-	<message label="021" attrib="00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />Sì, sì!! Molto bene!<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Chiediamo <tag a="50" b="15" /> <tag a="115" b="1" arg="0xcd00" /> che ne pensa.<delay8 /><anim id="EmotEnd" target="actor" targetSpec="" /> Dammi solo un attimo per contattarl<tag a="50" b="17" arg="0xe 0xcd00 0x2 0x6f 0x2 0x61 0x0" /><tag a="110" b="0" /></message>
+	<message label="021" attrib="00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />Sì, sì!! Molto bene!<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Chiediamo <tag a="50" b="15" /> <tag a="115" b="1" arg="0xcd00" /> che ne pensa.<delay8 /><anim id="EmotEnd" target="actor" targetSpec="" /> Dammi solo un attimo per contattarl<tag a="50" b="17" arg="0xf 0xcd00 0x2 0x6f 0x2 0x61 0x0" /><tag a="110" b="0" /></message>
 	<message label="022" attrib="00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />Sì, sì! Molto bene!<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Vediamo cosa ne pensano <colour id="3" />Mirco <colour id="65535" />e
 <colour id="3" />Marco<colour id="65535" />.<delay8 /><anim id="EmotEnd" target="actor" targetSpec="" /> Dammi solo un attimo per
 contattarli<tag a="110" b="0" /></message>
@@ -68,7 +68,7 @@ contattarla<tag a="110" b="0" /></message>
 	<message label="025" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Bene! È un piacere fare affari con
 te! <delay20 /><anim id="Smiling" target="actor" targetSpec="" />Adesso devi scegliere la nuova
 ubicazione dell'<colour id="1" />area per campeggio<colour id="65535" />.</message>
-	<message label="026" attrib="00 00 00 00">Sì, sì! Nelle tue tasche troverai <tag a="50" b="2" /><colour id="1" /><tag a="125" b="0" arg="0x0" /><colour id="65535" />.<delay20 /> <anim id="Smiling" target="actor" targetSpec="" /><tag a="50" b="17" arg="0x11 0xcd00 0x16 0x50 0x6f 0x73 0x69 0x7a 0x69 0x6f 0x6e 0x61 0x6c 0x6f 0x16 0x50 0x6f 0x73 0x69 0x7a 0x69 0x6f 0x6e 0x61 0x6c 0x61 0x0" /> nel luogo desiderato.</message>
+	<message label="026" attrib="00 00 00 00">Sì, sì! Nelle tue tasche troverai <tag a="50" b="2" /><colour id="1" /><tag a="125" b="0" arg="0x0" /><colour id="65535" />.<delay20 /> <anim id="Smiling" target="actor" targetSpec="" /><tag a="50" b="17" arg="0x12 0xcd00 0x16 0x50 0x6f 0x73 0x69 0x7a 0x69 0x6f 0x6e 0x61 0x6c 0x6f 0x16 0x50 0x6f 0x73 0x69 0x7a 0x69 0x6f 0x6e 0x61 0x6c 0x61 0x0" /> nel luogo desiderato.</message>
 	<message label="031" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Sì, sì! Molto bene! Adesso<tag a="110" b="0" /><pageBreak /><anim id="Shocked" target="actor" targetSpec="" />Ma aspetta, <tag a="110" b="1" />!<delay20 /> <anim id="Worried" target="actor" targetSpec="" />E le stelline?<pageBreak />Il nostro motto è:<delay20 /><anim id="Explain" target="actor" targetSpec="" /> "Se un sogno vuoi
 realizzare, devi poterlo finanziare!"
 <delay20 /><anim id="Greeting" target="actor" targetSpec="" />Trova le stelline e poi ne riparliamo!</message>
@@ -121,27 +121,27 @@ nuova posizione.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />N
 una nuova posizione per la casa di
 <tag a="115" b="1" arg="0xcd01" />.
 <anim id="QuestionMark" target="actor" targetSpec="" />Ne hai già in mente una?</message>
-	<message label="101_a" attrib="00 00 00 00">Annulliamo tutto.</message>
+	<message label="101_a" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Annulliamo tutto.</message>
 	<message label="101_b" attrib="00 00 00 00">No, in realtà no.</message>
 	<message label="102" attrib="02 00 00 00">Sì, sì, certo. Adesso dovresti cercare
 una nuova posizione per il <colour id="1" />negozio<colour id="65535" />.
 <delay20 /><anim id="QuestionMark" target="actor" targetSpec="" />Ne hai già in mente una?</message>
-	<message label="102_a" attrib="00 00 00 00">Annulliamo tutto.</message>
+	<message label="102_a" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Annulliamo tutto.</message>
 	<message label="102_b" attrib="00 00 00 00">No, in realtà no.</message>
 	<message label="103" attrib="02 00 00 00">Sì, sì, certo. Adesso dovresti cercare
 una nuova posizione per il <colour id="1" />museo<colour id="65535" />.
 <delay20 /><anim id="QuestionMark" target="actor" targetSpec="" />C'è qualcosa che non va?</message>
-	<message label="103_a" attrib="00 00 00 00">Annulliamo tutto.</message>
+	<message label="103_a" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Annulliamo tutto.</message>
 	<message label="103_b" attrib="00 00 00 00">No, in realtà no.</message>
 	<message label="104" attrib="02 00 00 00">Sì, sì, certo. Adesso dovresti cercare
 una nuova posizione per la <colour id="1" />sartoria<colour id="65535" />.
 <delay20 /><anim id="QuestionMark" target="actor" targetSpec="" />C'è qualcosa che non va?</message>
-	<message label="104_a" attrib="00 00 00 00">Annulliamo tutto.</message>
+	<message label="104_a" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Annulliamo tutto.</message>
 	<message label="104_b" attrib="00 00 00 00">No, in realtà no.</message>
 	<message label="105" attrib="02 00 00 00">Sì, sì, certo. Adesso dovresti cercare
 una nuova posizione per l'<colour id="1" />area per
 campeggio<colour id="65535" />. <delay20 /><anim id="QuestionMark" target="actor" targetSpec="" />C'è qualcosa che non va?</message>
-	<message label="105_a" attrib="00 00 00 00">Annulliamo tutto.</message>
+	<message label="105_a" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Annulliamo tutto.</message>
 	<message label="105_b" attrib="00 00 00 00">No, in realtà no.</message>
 	<message label="111" attrib="00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Oh, accipicchia! Non sei riuscit<gender2 m="o" f="a" /> a
 trovare una buona posizione?<delay20 /><anim id="Worried" target="actor" targetSpec="" /> Beh,

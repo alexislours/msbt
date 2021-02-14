@@ -2,17 +2,17 @@
 	<message label="001" attrib="02 00 17">... Hein ?<delay frames="20" /> Plus de place !<delay frames="30" /> Et si tu
 échangeais ça contre autre chose ?</message>
 	<message label="001_a" attrib="00 00 00">Échanger.</message>
-	<message label="001_b" attrib="00 00 00">Laisser tomber.</message>
+	<message label="001_b" attrib="00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Laisser tomber.</message>
 	<message label="002" attrib="00 00 17">Tiens,<delay frames="5" /> tu as déterré <tag a="50" b="2" /><tag a="125" b="0" arg="0x0" /> !</message>
 	<message label="003" attrib="02 00 17">... Mais,<delay frames="5" /> tes poches sont pleines !<delay frames="20" />
 Et si tu échangeais ça contre
 autre chose ?</message>
 	<message label="003_a" attrib="00 00 00">Échanger.</message>
-	<message label="003_b" attrib="00 00 00">Remettre en terre.</message>
+	<message label="003_b" attrib="00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Remettre en terre.</message>
 	<message label="003_01" attrib="02 00 17">... Hein ?<delay frames="20" /> Plus de place !<delay frames="30" /> Et si tu
 échangeais ça contre autre chose ?</message>
 	<message label="003_01_a" attrib="00 00 00">Échanger.</message>
-	<message label="003_01_b" attrib="00 00 00">Remettre en terre.</message>
+	<message label="003_01_b" attrib="00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Remettre en terre.</message>
 	<message label="004" attrib="01 00 17">... Mais,<delay frames="5" /> tes poches sont pleines !<delay frames="20" />
 Et si tu échangeais ça contre
 autre chose ?</message>
@@ -49,7 +49,7 @@ la peine de t'embêter avec ça...</message>
 	<message label="017" attrib="02 00 17">... Hein ?<delay frames="20" /> Plus de place !<delay frames="30" /> Et si tu
 échangeais ça contre autre chose ?</message>
 	<message label="017_a" attrib="00 00 17">Échanger.</message>
-	<message label="017_b" attrib="00 00 17">Remettre en terre.</message>
+	<message label="017_b" attrib="00 00 17"><anim id="EmotEnd" target="actor" targetSpec="" />Remettre en terre.</message>
 	<message label="021" attrib="00 00 17">Ouille-ouille-ouille<tag a="110" b="0" /><delay8 /> !
 Des guêpes t'ont piqué<gender2 m="" f="e" /> !</message>
 	<message label="022" attrib="00 00 17">Gratte-gratte-grattouille !<delay20 />
@@ -73,7 +73,7 @@ d'ici<tag a="110" b="0" /><delay8 /> N'y touche pas :<delay20 /> ce ne serait
 pas sympa de l'emporter chez toi.</message>
 	<message label="103" attrib="00 00 17">Oh, quelqu'un a laissé tomber
 <tag a="50" b="2" /><tag a="125" b="0" arg="0x0" /> !<pageBreak />Qui peut avoir perdu ça ?<delay20 /> Mieux
-vaut <tag a="50" b="17" arg="0x11 0xcd00 0x4 0x6c 0x65 0x4 0x6c 0x61 0x0" /> laisser ici,<delay8 /> son propriétaire
+vaut <tag a="50" b="17" arg="0x12 0xcd00 0x4 0x6c 0x65 0x4 0x6c 0x61 0x0" /> laisser ici,<delay8 /> son propriétaire
 est peut-être déjà à sa recherche.</message>
 	<message label="104" attrib="00 00 17">Ce trésor appartient à quelqu'un
 d'autre.<delay20 /> Ce ne serait pas poli de
@@ -258,11 +258,11 @@ pour notre projet a abouti !</message>
 sur ton <colour id="1" />NookPhone<colour id="65535" />. Tu peux faire tes
 achats où et quand tu le souhaites !</message>
 	<message label="290" attrib="00 00 17"><tag a="60" b="20" /></message>
-	<message label="290_01" attrib="00 00 17">Oh non !<delay20 /> On dirait que <tag a="50" b="17" arg="0x11 0xcd00 0x6 0x74 0x6f 0x6e 0x4 0x74 0x61 0x0" /> fidèle
+	<message label="290_01" attrib="00 00 17">Oh non !<delay20 /> On dirait que <tag a="50" b="17" arg="0x12 0xcd00 0x6 0x74 0x6f 0x6e 0x4 0x74 0x61 0x0" /> fidèle
 <colour id="1" /><tag a="125" b="0" arg="0x0" /><colour id="65535" /> vient de rendre l'âme<tag a="110" b="0" /></message>
-	<message label="290_02" attrib="00 00 17">Oh non !<delay20 /> <tag a="50" b="17" arg="0x11 0xcd00 0x4 0x49 0x6c 0x8 0x45 0x6c 0x6c 0x65 0x0" /> était bien pratique,<delay8 />
-<tag a="50" b="17" arg="0x11 0xcd00 0x4 0x63 0x65 0xa 0x63 0x65 0x74 0x74 0x65 0x0" /> fidèle <colour id="1" /><tag a="125" b="0" arg="0x0" /><colour id="65535" /><tag a="110" b="0" /></message>
-	<message label="290_03" attrib="00 00 17">Oh non !<delay20 /> <tag a="50" b="17" arg="0x11 0xcd00 0x6 0x54 0x6f 0x6e 0x4 0x54 0x61 0x0" /> fidèle <colour id="1" /><tag a="125" b="0" arg="0x0" /><colour id="65535" /> vient de te lâcher dans les mains<tag a="110" b="0" /></message>
+	<message label="290_02" attrib="00 00 17">Oh non !<delay20 /> <tag a="50" b="17" arg="0x12 0xcd00 0x4 0x49 0x6c 0x8 0x45 0x6c 0x6c 0x65 0x0" /> était bien pratique,<delay8 />
+<tag a="50" b="17" arg="0x12 0xcd00 0x4 0x63 0x65 0xa 0x63 0x65 0x74 0x74 0x65 0x0" /> fidèle <colour id="1" /><tag a="125" b="0" arg="0x0" /><colour id="65535" /><tag a="110" b="0" /></message>
+	<message label="290_03" attrib="00 00 17">Oh non !<delay20 /> <tag a="50" b="17" arg="0x12 0xcd00 0x6 0x54 0x6f 0x6e 0x4 0x54 0x61 0x0" /> fidèle <colour id="1" /><tag a="125" b="0" arg="0x0" /><colour id="65535" /> vient de te lâcher<tag a="110" b="0" /></message>
 	<message label="505" attrib="00 00 17"><anim id="Thinking" target="actor" targetSpec="" />On pourrait réutiliser ce vieux pneu
 pour autre chose<tag a="110" b="0" /><delay8 /><anim id="IdeaBulb" target="actor" targetSpec="" /> Ça t'a donné
 une idée de plan de bricolage !</message>
@@ -290,6 +290,12 @@ idée pour un plan de bricolage !</message>
 	<message label="514" attrib="00 00 17"><anim id="Thinking" target="actor" targetSpec="" />Tu as pêché une belle quantité de
 détritus<tag a="110" b="0" /><delay20 /><delay20 /><anim id="IdeaBulb" target="actor" targetSpec="" /> Ça t'a donné une idée pour
 un plan de bricolage !</message>
+	<message label="515" attrib="00 00 17"><anim id="Thinking" target="actor" targetSpec="" />Si tu te bases sur le motif de l'œuf<tag a="110" b="0" /><delay20 /><anim id="IdeaBulb" target="actor" targetSpec="" /><delay20 />
+Ça t'a donné des idées pour des
+plans de bricolage !</message>
+	<message label="518" attrib="00 00 17"><anim id="Thinking" target="actor" targetSpec="" />Tu sais faire plein de choses avec
+des coquilles d'œufs<tag a="110" b="0" /><delay20 /><anim id="IdeaBulb" target="actor" targetSpec="" /><delay20 /> Ça t'a donné
+une idée pour un plan de bricolage !</message>
 	<message label="700" attrib="00 00 17">Joyeux anniversaire !<delay20 /> C'est toujours
 chouette de faire la fête autour d'un
 bon gâteau avec ses meilleurs amis.</message>
@@ -373,7 +379,7 @@ Il faut prévoir un peu plus d'espace.</message>
 	<message label="914_01" attrib="00 09 21">Tous les habitants doivent pouvoir
 se rassembler sur la place, il vaut
 mieux choisir un autre endroit.</message>
-	<message label="915" attrib="00 09 21">Si près d'une autre construction, on
+	<message label="915" attrib="00 09 21">Si près d'une autre structure, on
 risque de ne plus pouvoir circuler.
 Mieux vaut choisir un autre endroit.</message>
 	<message label="916" attrib="00 09 21">C'est trop près du pont, on risque
@@ -390,6 +396,9 @@ aux lettres de quelqu'un d'autre.
 Mieux vaut choisir un autre endroit.</message>
 	<message label="919_01" attrib="00 09 21">Tu vas d'abord devoir déplacer
 ta <colour id="1" />boîte aux lettres<colour id="65535" />.</message>
+	<message label="920" attrib="00 00 21">C'est trop près du ponton, on risque
+de ne plus pouvoir circuler. Mieux
+vaut choisir un autre endroit.</message>
 	<message label="921" attrib="00 09 21">Il n'y a pas de rivière qui puisse
 accueillir un pont à cet endroit.</message>
 	<message label="926" attrib="00 09 21">Pour construire un pont, il faut deux
@@ -397,7 +406,7 @@ berges et que la rivière ait la bonne
 largeur.</message>
 	<message label="926_01" attrib="00 09 21">Si tu construis un pont ici, il ne
 sera pas facile de l'emprunter :
-il aboutira trop près de l'eau.</message>
+il aboutira trop près de l'autre rivière.</message>
 	<message label="926_02" attrib="00 09 21">Si tu construis un pont ici, il ne
 sera pas facile de l'emprunter :
 il aboutira trop près de la falaise.</message>
@@ -422,8 +431,7 @@ Est-ce que ça te convient ?</message>
 	<message label="941_a" attrib="00 00 00">Imaginons...</message>
 	<message label="941_b" attrib="00 00 00">Ici, c'est parfait !</message>
 	<message label="941_c" attrib="00 00 00">C'est pas idéal...</message>
-	<message label="942" attrib="04 00 17">Veux-tu <gender4 m="que " f="qu'⁠" /><tag a="115" b="1" arg="0xcd00" />
-déménage ici ?</message>
+	<message label="942" attrib="04 00 17">Veux-tu <gender4 m="que " f="qu'⁠" /><tag a="115" b="1" arg="0xcd00" /> déménage ici ?</message>
 	<message label="942_a" attrib="00 00 00">Imaginons...</message>
 	<message label="942_b" attrib="00 00 00">Ici, c'est parfait !</message>
 	<message label="942_c" attrib="00 00 00">C'est pas idéal...</message>

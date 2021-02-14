@@ -1,7 +1,7 @@
 <msbt attribsize="4">
-	<message label="000_01" attrib="00 00 00 00"><tag a="100" b="8" /><anim id="Smiling" target="actor" targetSpec="" /><tag a="110" b="33" /> 여러분～!<delay40 />
+	<message label="000_01" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="Smiling" target="actor" targetSpec="" /><tag a="110" b="33" /> 여러분～!<delay40 />
 지금은 <tag a="110" b="19" /> <tag a="90" b="30" />시 <tag a="90" b="31" />분이야구리!<endTag a="100" b="8" /></message>
-	<message label="000_02" attrib="00 00 00 00"><tag a="100" b="8" /><anim id="EmotEnd" target="actor" targetSpec="" />여러분, <delay20 />오늘은 어떤 하루를
+	<message label="000_02" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="EmotEnd" target="actor" targetSpec="" />여러분, <delay20 />오늘은 어떤 하루를
 <anim id="QuestionMark" target="actor" targetSpec="" />보낼 생각이야구리?<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />너무 빡빡하게 움직이면
 금세 지치기 쉬우니까 <delay20 /><anim id="Smiling" target="actor" targetSpec="" />중간중간 쉬기도 하면서
 느긋하게 보냈으면 좋겠어구리!<endTag a="100" b="8" /></message>
@@ -54,6 +54,13 @@
 	<message label="021" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="Serious" target="mainNpc" targetSpec="" /><anim id="FaintSmile" target="subNpc" targetSpec="" />오늘의 뉴스는<tag a="110" b="0" /><endTag a="100" b="8" /></message>
 	<message label="022" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="Serious" target="mainNpc" targetSpec="" /><anim id="FaintSmile" target="subNpc" targetSpec="" />그 밖의 <delay20 />뉴스는<tag a="110" b="0" /><endTag a="100" b="8" /></message>
 	<message label="031" attrib="00 00 00 12"><tag a="100" b="8" />그리고<tag a="110" b="0" /><endTag a="100" b="8" /></message>
+	<message label="041_01" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="IdeaBulb" target="actor" targetSpec="" />아, 그래! <delay20 />곧 <colour id="1" />이스터<colour id="65535" />지?<delay20 /><anim id="FaintSmile" target="actor" targetSpec="" /><pageBreak /><anim id="Nodding" target="actor" targetSpec="" />안 그래도 요즘에 <delay8 />날씨가
+포근해졌다 싶었는데<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />벌써 이 시기가 됐네구리!<endTag a="100" b="8" /></message>
+	<message label="041_02" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="BigSmile" target="actor" targetSpec="" />오늘은 <colour id="1" />이스터<colour id="65535" />야!<delay frames="40" />
+<anim id="Smiling" target="actor" targetSpec="" />특별히 손님 한 분이 오늘을
+축하하기 위해<delay20 /> 일부러 와줬어구리!<pageBreak />여러분 모두 <delay20 />손님을 만나러
+<anim id="Greeting" target="actor" targetSpec="" />광장으로 와줘구리!<endTag a="100" b="8" /></message>
 	<message label="101" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="Clapping" target="actor" targetSpec="" />오늘 <tag a="115" b="1" arg="0xcd00" />님이라는 분이<delay20 />
 <tag a="110" b="33" />의 <delay8 />새 이웃이
 되었어구리!<endTag a="100" b="8" /></message>
@@ -140,9 +147,9 @@ DIY로 가을 느낌이 나는 것을 만들어도 좋고,<delay20 />
 꼭 도전해봐구리<anim id="Smiling" target="actor" targetSpec="" /><endTag a="100" b="8" /></message>
 	<message label="614_02_01" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="Shocked" target="actor" targetSpec="" /><delay20 />맞다!<endTag a="100" b="8" /></message>
 	<message label="614_02_02" attrib="00 00 00 12"><tag a="100" b="8" /><colour id="1" /><anim id="Smiling" target="actor" targetSpec="" />DIY 레시피 <colour id="65535" />앱을 가지고 있는 사람에게<delay8 />
-<colour id="1" />눈의 결정 리스 <colour id="65535" />레시피를 보냈어구리<pageBreak /><anim id="Nodding" target="actor" targetSpec="" /><tag a="100" b="8" /><colour id="1" />눈의 결정<colour id="65535" />만으로도 만들 수 있는
+<colour id="1" />눈의 결정 리스 <colour id="65535" />레시피를 보냈어구리<pageBreak /><anim id="Nodding" target="actor" targetSpec="" /><colour id="1" />눈의 결정<colour id="65535" />만으로도 만들 수 있는
 간단한 레시피니까<delay20 />
-<endTag a="100" b="8" />관심 있으면 만들어봐구리!<endTag a="100" b="8" /></message>
+관심 있으면 만들어봐구리!<endTag a="100" b="8" /></message>
 	<message label="614_03" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="Nodding" target="actor" targetSpec="" /><colour id="1" />눈의 결정<colour id="65535" />을 모으며<delay20 />
 겨울 추억을 만들어봐구리!<anim id="Smiling" target="actor" targetSpec="" /><endTag a="100" b="8" /></message>
 	<message label="615" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="Shaking" target="actor" targetSpec="" />그건 그렇고<delay20 /> 오늘도 정말 춥다구리<tag a="110" b="0" /><pageBreak /><anim id="Smiling" target="actor" targetSpec="" />이런 날일수록 <colour id="1" />눈사람<colour id="65535" />을
@@ -250,31 +257,31 @@ PRO 디자인을 받거나<delay8 />
 언제든 손쉽게 이미지를 바꿀 수 있으니까<tag a="110" b="0" /><anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak /><anim id="Smiling" target="actor" targetSpec="" />패션 트렌드에 민감한
 멋쟁이는<delay20 /> 꼭 이런 아이템을
 교환해서 얻도록 해구리!<endTag a="100" b="8" /></message>
-	<message label="705" attrib="00 00 00 00"><tag a="100" b="8" /><anim id="BigSmile" target="actor" targetSpec="" />오늘은 <tag a="110" b="33" />에서의 생활을
+	<message label="705" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="BigSmile" target="actor" targetSpec="" />오늘은 <tag a="110" b="33" />에서의 생활을
 더욱 멋지게 만들어줄<delay20 /> 추천 아이템을
 소개하도록 할게구리!<endTag a="100" b="8" /></message>
-	<message label="706" attrib="00 00 00 00"><tag a="60" b="20" /></message>
-	<message label="706_01" attrib="00 00 00 00"><tag a="100" b="8" /><anim id="Nodding" target="actor" targetSpec="" />텐트와 함께 지급한
-휴대용 라디오로는<delay20 />
+	<message label="706" attrib="00 00 00 12"><tag a="60" b="20" /></message>
+	<message label="706_01" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="Nodding" target="actor" targetSpec="" />텐트와 함께 지급한
+휴대용 라디오로는<delay20 /> 방송에서 나오는
 다양한 음악을 즐길 수 있는데<tag a="110" b="0" /><anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak /><anim id="Smiling" target="actor" targetSpec="" /><colour id="1" />오디오<colour id="65535" />나 <colour id="1" />레코드플레이어<colour id="65535" /> 같은
 가구가 있으면<delay20 />
-마음에 드는 곡을 마음껏 들을 수 있어구리!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />오디오로 재생할 수 있는 <colour id="1" />음악<colour id="65535" />은
+마음에 드는 곡을 마음껏 들을 수 있어구리!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />오디오 등의 가구로 재생할 수 있는 <colour id="1" />음악<colour id="65535" />은
 <colour id="1" />너굴 쇼핑<colour id="65535" />에서 판매하고 있으니까<delay20 />
 <anim id="Smiling" target="actor" targetSpec="" />꼭 확인해봐구리!<endTag a="100" b="8" /></message>
-	<message label="706_02" attrib="00 00 00 00"><tag a="100" b="8" /><anim id="EmotEnd" target="actor" targetSpec="" />모처럼 <tag a="110" b="33" />에서 시작한
+	<message label="706_02" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="EmotEnd" target="actor" targetSpec="" />모처럼 <tag a="110" b="33" />에서 시작한
 새로운 생활<tag a="110" b="0" /><delay40 /> 생활도 그렇지만 자기 자신도
 과감하게 <anim id="QuestionMark" target="actor" targetSpec="" />바꿔보고 싶지 않아?<pageBreak /><anim id="Nodding" target="actor" targetSpec="" /><colour id="1" />화장대<colour id="65535" />나 <colour id="1" />전신 거울<colour id="65535" />, <delay20 /><colour id="1" />테이블 거울 <colour id="65535" />등
 생김새를 바꿀 수 있는 가구가 있으면<delay20 />
 <anim id="BigSmile" target="actor" targetSpec="" />과감한 이미지 변신도 할 수 있어구리!<pageBreak /><anim id="Nodding" target="actor" targetSpec="" /><colour id="1" />헤어스타일<colour id="65535" />이나 <colour id="1" />헤어 컬러<colour id="65535" />,<delay8 />
 <colour id="1" />얼굴<colour id="65535" />까지 이미지 변신할 수 있으니까<delay20 />
 매일 다른 자신을 즐겨봐구리!<anim id="Smiling" target="actor" targetSpec="" /><endTag a="100" b="8" /></message>
-	<message label="706_03" attrib="00 00 00 00"><tag a="100" b="8" /><anim id="AbsentMindedness" target="actor" targetSpec="" />무인도에서도 멋부리고 싶다<tag a="110" b="0" />!<delay40 />
+	<message label="706_03" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="AbsentMindedness" target="actor" targetSpec="" />무인도에서도 멋부리고 싶다<tag a="110" b="0" />!<delay40 />
 <anim id="Smiling" target="actor" targetSpec="" />옷들을 넣을 수 있는 <colour id="1" />서랍장<colour id="65535" />이나 <colour id="1" />옷장<colour id="65535" />은<delay8 />
 그런 멋쟁이들의 머스트 해브 아이템!<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />방에 두면 <delay20 />마이 룸에서
 언제든지 손쉽게 코디를 즐길 수 있어구리!<anim id="Smiling" target="actor" targetSpec="" /><pageBreak /><anim id="BigSmile" target="actor" targetSpec="" />홈 패션쇼를 통해 센스를
 갈고닦아서 <delay20 /><tag a="110" b="33" />에서
 세계로 뻗어나가보는 건 어떨까구리!<endTag a="100" b="8" /></message>
-	<message label="706_04" attrib="00 00 00 00"><tag a="100" b="8" /><anim id="AbsentMindedness" target="actor" targetSpec="" /><tag a="110" b="33" />의 긴긴밤<tag a="110" b="0" /><delay40 />
+	<message label="706_04" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="AbsentMindedness" target="actor" targetSpec="" /><tag a="110" b="33" />의 긴긴밤<tag a="110" b="0" /><delay40 />
 <anim id="Smiling" target="actor" targetSpec="" />이럴 때는 <colour id="1" />양초<colour id="65535" />나 <colour id="1" />램프<colour id="65535" />로
 멋진 분위기를 연출해봐구리!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />어떤 조명을 어디에 두느냐에 따라<delay8 />
 방의 분위기가 확 달라지거든<tag a="110" b="0" /><pageBreak /><anim id="Nodding" target="actor" targetSpec="" />조명을 이용해 멋진 공간을 만들고 싶은<delay8 />

@@ -1,7 +1,7 @@
 <msbt attribsize="8">
 	<message label="001" attrib="00 00 00 00 00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />¿No te has planteado relajarte
 un poco?<delay20 /> <anim id="Surprised" target="subNpc" targetSpec="" />¿Por qué estás siempre
-como enfadado?</message>
+como enfadado?<anim id="EmotEnd" target="actor" targetSpec="" /></message>
 	<message label="002" attrib="00 00 00 00 00 00 00 00"><anim id="Silent" target="actor" targetSpec="" />Anda,<delay8 /> mira quién habla.<delay20 /> <anim id="Angry" target="actor" targetSpec="" />¡Deberías
 mirarte en el espejo para saber
 lo que es una cara avinagrada!<anim id="Eh" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="actor" targetSpec="" /></message>
@@ -29,25 +29,25 @@ a estar de acuerdo en algo.</message>
 más insoportable que yo!<delay20 /> Anda,<delay8 />
 vete a practicar unas sonrisas.</message>
 	<message label="010" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="subNpc" targetSpec="" /><anim id="Worried" target="actor" targetSpec="" />Me decepcionas,<delay8 /> jovencit<gender2 m="o" f="a" />.<delay20 /> <anim id="Negative" target="actor" targetSpec="" />No pensé
-que te fueses a dejar influenciar
-de esa manera.<delay20 /> ¿Qué te ha dado?
+que te fueses a dejar influenciar de
+esa manera.<delay20 /> ¿Cuánto te ha pagado?
 <anim id="Angry" target="actor" targetSpec="" />Porque, si no,<delay8 /> ¡no me explico cómo
 te puede parecer mejor que yo!</message>
 	<message label="011" attrib="00 00 00 00 00 00 00 00"><anim id="Laughing" target="actor" targetSpec="" />¡Ja, ja, ja!<delay20 /><anim id="Smiling" target="actor" targetSpec="" /> <anim id="Angry" target="subNpc" targetSpec="" /><20_2 arg="5" />Lo que te decía:<delay8 />
 ¡ponte un poco de azúcar
 en el café del desayuno!</message>
-	<message label="012" attrib="00 00 00 00 00 00 00 00"><anim id="Sighing" target="actor" targetSpec="" />Rotondas<tag a="110" b="0" /> <anim id="Worried" target="actor" targetSpec="" />Mis malas pulgas
-deben de ser de otra galaxia<tag a="110" b="0" /><pageBreak />¡Para que <gender2 m="la" f="el" /> jovencit<gender2 m="o" f="a" /> piense que
-tú eres más tratable!</message>
-	<message label="013" attrib="00 00 00 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="110" b="5" />,<delay8 /> <tag a="110" b="3" /><tag a="110" b="0" />
+	<message label="012" attrib="00 00 00 00 00 00 00 00"><anim id="Sighing" target="actor" targetSpec="" />Mis malas pulgas deben de ser
+de otra galaxia,<delay8 /> si <gender2 m="este jovencito" f="esta jovencita" />
+piensa que tú eres más tratable.</message>
+	<message label="013" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="subNpc" targetSpec="" /><anim id="Aha" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="110" b="5" />,<delay8 /> <tag a="110" b="3" /><tag a="110" b="0" />
 <anim id="Smiling" target="actor" targetSpec="" />Mira,<delay8 /> ¡has conseguido que
 <tag a="110" b="31" arg="0xcd01" /> sonría y todo!</message>
 	<message label="014" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Quizá haya esperanza si las nuevas
 generaciones son todas como <gender2 m="este" f="esta" />
 jovencit<gender2 m="o" f="a" />.<pageBreak /><anim id="Worried" target="actor" targetSpec="" /><colour id="4" />(¡Rotondas! Creo que me voy a poner
 a llorar<tag a="110" b="0" /><delay8 />)<colour id="65535" /></message>
-	<message label="015" attrib="00 00 00 00 00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Vaya,<delay8 /> creo que<tag a="110" b="0" /><delay frames="20" /> <anim id="Crying" target="actor" targetSpec="" /><anim id="Crying" target="subNpc" targetSpec="" />se me ha metido
-algo en el ojo.</message>
+	<message label="015" attrib="00 00 00 00 00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Vaya,<delay8 /> <anim id="Crying" target="subNpc" targetSpec="" />me parece que<tag a="110" b="0" /><delay8 /> <anim id="Crying" target="actor" targetSpec="" />se me
+ha metido algo en el ojo.</message>
 	<message label="101" attrib="00 00 00 00 00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />¿Cómo se llamaba?<delay20 /> <anim id="Angry" target="actor" targetSpec="" />Qué desastre
 de memoria<tag a="110" b="0" /><delay frames="20" /> <anim id="Frantic" target="actor" targetSpec="" />Lo tengo en la punta
 de la lengua,<delay8 /> ¡es desesperante!</message>
@@ -57,27 +57,26 @@ podemos hacer algo.
 <anim id="QuestionMark" target="actor" targetSpec="" />¿Por qué no intentas describir
 lo que intentas recordar?</message>
 	<message label="103" attrib="00 00 01 00 00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />Es uno de esos juegos de feria
-donde tienes que acertarle a algo
+donde tienes que lanzar una cosa
 para ganar un premio<tag a="110" b="0" /></message>
-	<message label="103_a" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="player" targetSpec="" />¿Con una escopeta?</message>
-	<message label="103_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="player" targetSpec="" />¿Con un aro?</message>
-	<message label="104" attrib="00 00 00 00 00 00 00 00"><anim id="IdeaBulb" target="actor" targetSpec="" />¡Eso es!<delay20 /> <anim id="Smiling" target="actor" targetSpec="" />¡Disparar con un rifle!<delay20 />
+	<message label="103_a" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="player" targetSpec="" />¿Una pelota?</message>
+	<message label="103_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="player" targetSpec="" />¿Un aro?</message>
+	<message label="104" attrib="00 00 00 00 00 00 00 00"><anim id="IdeaBulb" target="actor" targetSpec="" />¡Eso es!<delay20 /> <anim id="Smiling" target="actor" targetSpec="" />¡El lanzamiento de bolas!<delay20 />
 ¿Cómo es que no podía acordarme?<delay20 />
 <anim id="FaintSmile" target="actor" targetSpec="" />¡Gracias,<delay8 /> jovencit<gender2 m="o" f="a" />!</message>
-	<message label="105" attrib="00 00 00 00 00 00 00 00"><20_2 arg="5" /><anim id="QuestionMark" target="actor" targetSpec="" />¿Y por qué querías acordarte
-de una escopeta de feria?</message>
-	<message label="106" attrib="00 00 00 00 00 00 00 00"><anim id="Confused" target="actor" targetSpec="" />¿Eh?<delay20 /> <20_3 arg="5" /><anim id="FaintSmile" target="actor" targetSpec="" />Pues<tag a="110" b="0" /><delay frames="20" /> <anim id="AbsentMindedness" target="actor" targetSpec="" />no sé.<delay20 /> <anim id="Pardon" target="subNpc" targetSpec="" />Quizá por alguna
+	<message label="105" attrib="00 00 00 00 00 00 00 00"><20_2 arg="5" /><anim id="QuestionMark" target="actor" targetSpec="" />¿Estás hablando del juego de tumbar
+la torre de latas?<delay20 /> <20_3 arg="5" />¿Y por qué tanto
+interés en acordarte de eso?</message>
+	<message label="106" attrib="00 00 00 00 00 00 00 00"><anim id="Confused" target="actor" targetSpec="" />¿Eh?<delay20 /> Pues<tag a="110" b="0" /><delay8 /> <anim id="Thinking" target="actor" targetSpec="" />no sé.<delay20 /> <anim id="Pardon" target="subNpc" targetSpec="" />Quizá por alguna
 cosa relacionada con puntería y buen
-pulso,<delay8 /> <anim id="Grin" target="actor" targetSpec="" />¡pero tampoco me acuerdo!</message>
+pulso,<delay8 /> <anim id="WrySmile" target="actor" targetSpec="" />pero tampoco me acuerdo<tag a="110" b="0" /></message>
 	<message label="107" attrib="00 00 00 00 00 00 00 00"><anim id="IdeaBulb" target="actor" targetSpec="" />¡Ah,<delay8 /> pues claro!<delay20 /> <anim id="Smiling" target="actor" targetSpec="" />¡Lanzar aros
 sobre unas botellas!<delay20 /> Estaba claro.<delay20 />
 <anim id="FaintSmile" target="actor" targetSpec="" />¡Gracias,<delay8 /> jovencit<gender2 m="o" f="a" />!</message>
-	<message label="108" attrib="00 00 00 00 00 00 00 00"><20_2 arg="5" />Bueno,<delay8 /> <anim id="QuestionMark" target="actor" targetSpec="" />¿y ahora recuerdas por qué
-querías acordarte de ese juego de
-lanzar aros?</message>
+	<message label="108" attrib="00 00 00 00 00 00 00 00"><20_2 arg="5" />Bueno,<delay8 /> <anim id="QuestionMark" target="actor" targetSpec="" />¿y por qué querías acordarte
+<20_3 arg="5" />de ese juego de lanzar aros?</message>
 	<message label="201" attrib="00 00 00 00 00 00 00 00"><anim id="IdeaBulb" target="actor" targetSpec="" />Tú y yo deberíamos trabajar juntos
-para velar por esta isla,<delay8 />
-<tag a="110" b="31" arg="0xcd01" />.</message>
+para velar por esta isla,<delay8 /> <tag a="110" b="31" arg="0xcd01" />.</message>
 	<message label="202" attrib="00 00 00 00 00 00 00 00"><anim id="Assent" target="actor" targetSpec="" />¡Excelente idea!<delay20 /> <anim id="Serious" target="actor" targetSpec="" />Nadie se toma en
 serio los múltiples peligros que se
 ciernen sobre ella.

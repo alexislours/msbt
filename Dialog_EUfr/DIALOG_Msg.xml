@@ -1,16 +1,20 @@
 <msbt attribsize="2">
-	<message label="0001" attrib="08 00">Tu t'appelleras donc
-<colour id="2" /><tag a="115" b="0" arg="0xcd00" /><colour id="65535" />, c'est bien ça ?</message>
+	<message label="0001" attrib="08 00">Tu as choisi « <colour id="2" /><tag a="115" b="0" arg="0xcd00" /> <colour id="65535" />» ?
+<size value="75" /><colour id="6" />Tout le monde doit pouvoir se sentir bien
+dans Animal Crossing, alors n'inclus
+rien de personnel ou d'offensant.<colour id="65535" /><size value="100" /></message>
 	<message label="0001_a" attrib="01 00">Modifier</message>
 	<message label="0001_b" attrib="01 00">OK</message>
-	<message label="0003" attrib="08 00">Tu proposes que l'île s'appelle
-<colour id="0" /><tag a="115" b="2" arg="0xcd00" /><colour id="65535" />, c'est bien ça ?</message>
+	<message label="0003" attrib="08 00">Tu as choisi « <colour id="0" /><tag a="115" b="2" arg="0xcd00" /><colour id="65535" /> » ?
+<size value="75" /><colour id="6" />Tout le monde doit pouvoir se sentir bien
+dans Animal Crossing, alors n'inclus
+rien de personnel ou d'offensant.<colour id="65535" /><size value="100" /></message>
 	<message label="0003_a" attrib="01 00">Modifier</message>
 	<message label="0003_b" attrib="01 00">OK</message>
-	<message label="0004" attrib="01 00">Tu as inclus un ou plusieurs mots qui
+	<message label="0004" attrib="01 09">Tu as inclus un ou plusieurs mots qui
 ne peuvent pas être utilisés.</message>
 	<message label="0004_a" attrib="01 00">Retour</message>
-	<message label="0005" attrib="01 00">Tu ne peux pas utiliser plus de
+	<message label="0005" attrib="01 09">Tu ne peux pas utiliser plus de
 cinq chiffres.</message>
 	<message label="0005_a" attrib="01 00">Retour</message>
 	<message label="0011" attrib="20 09">Veux-tu vraiment effacer tes données
@@ -54,6 +58,10 @@ tu ne peux rien porter de plus !</message>
 	<message label="0301" attrib="06 09">Tes poches sont trop pleines,
 tu ne peux rien porter de plus !</message>
 	<message label="0301_a" attrib="01 06">OK</message>
+	<message label="0303_a" attrib="01 06">OK</message>
+	<message label="0304_a" attrib="01 06">OK</message>
+	<message label="0307" attrib="04 00">Réception du courrier<tag a="110" b="0" /></message>
+	<message label="0308" attrib="02 00">Vérification des données<tag a="110" b="0" /></message>
 	<message label="0310" attrib="02 00">Un peu de patience, d'accord ?</message>
 	<message label="0321" attrib="01 09">Tu ne peux pas ajouter à tes favoris un
 message que tu n'as pas encore lu !</message>
@@ -65,6 +73,21 @@ ajouté à tes favoris !</message>
 <tag a="90" b="2" arg="0x0" /> messages à tes favoris !</message>
 	<message label="0333" attrib="01 09">Tu ne peux pas jeter les messages
 auxquels sont joints des cadeaux !</message>
+	<message label="0334" attrib="01 00">Un ami t'a envoyé une carte !
+Tu peux écrire et envoyer
+des cartes depuis l'aéroport !</message>
+	<message label="0335" attrib="0e 00">Une fois qu'une carte a été reçue,
+elle est sauvegardée dans la console
+Nintendo Switch et ne peut pas être
+reçue à nouveau. Les cartes non
+reçues sont conservées sur le
+serveur pendant 90 jours. Après ce
+délai, elles sont effacées.<pageBreak />Jusqu'à 300 cartes peuvent être
+sauvegardées sur le serveur.
+Au-delà, les cartes sont effacées en
+commençant par les plus anciennes.
+Les cartes effacées ne peuvent plus
+être reçues.</message>
 	<message label="0402" attrib="01 09">Entre une date dans l'avenir.</message>
 	<message label="0501" attrib="01 09">Tu n'as aucun endroit pour ranger
 les vêtements que tu ne portes pas !</message>
@@ -86,10 +109,10 @@ puisse constituer une tenue !</message>
 l'espace de rangement de ta maison
 pour le moment.</message>
 	<message label="0601" attrib="01 09">Tu n'as pas assez de miles.</message>
-	<message label="0602" attrib="01 00">Seuls les membres <colour id="1" />Miles Nook+<colour id="65535" /> 
+	<message label="0602" attrib="01 00">Seuls les membres <colour id="1" />Miles Nook +<colour id="65535" /> 
 peuvent commander cet article.
-<colour id="0" />Le service Miles Nook+ est réservé
-aux clients propriétaires d'une maison.<colour id="65535" /></message>
+<colour id="0" />Le service Miles Nook + est réservé
+aux signataires d'un contrat immobilier.<colour id="65535" /></message>
 	<message label="0603" attrib="01 09">Il n'est possible d'échanger
 que jusqu'à cinq articles <colour id="1" />livrés
 par voie postale<colour id="65535" /> par jour.</message>
@@ -108,6 +131,47 @@ quand tu leur ouvres l'accès à ton île.</message>
 pas accueillir davantage de visiteurs
 pour le moment.</message>
 	<message label="0803_a" attrib="01 04">Retour</message>
+	<message label="0804" attrib="12 00"><colour id="1" />Respecte les autres joueurs !<colour id="65535" /> Ne
+partage pas de contenu personnel
+ou illégal, contraire aux droits des
+autres joueurs, ou susceptible de
+les offenser.<pageBreak />Ne triche pas et ne te comporte pas
+de façon à énerver les autres joueurs.
+Le code de conduite Nintendo
+s’applique au comportement en jeu,
+ainsi qu’à tout contenu partagé.<pageBreak />S’il s’avère que ton comportement ou
+qu’un contenu que tu as créé viole ce
+code, des sanctions peuvent être
+prises, allant jusqu’à la suppression
+de contenu sur le serveur ou la
+restriction de l’accès au jeu en ligne.<pageBreak />Pour signaler tout contenu ou
+comportement inapproprié, appuie
+sur <colour id="1" /><colour id="65535" />.
+
+Garde le code de conduite Nintendo
+en tête et respecte les autres
+joueurs. </message>
+	<message label="0804_a" attrib="01 06">OK</message>
+	<message label="0805" attrib="12 09">La session a été terminée de force,
+car un participant n'a pas mis fin à sa
+conversation, ou n'a pas fermé une
+fenêtre après un certain temps. Par
+conséquent, la progression depuis la
+dernière sauvegarde est perdue.</message>
+	<message label="0805_a" attrib="01 06">OK</message>
+	<message label="0806" attrib="06 00">Suite à une erreur de communication,
+les informations de destination ne
+peuvent pas être affichées.</message>
+	<message label="0806_a" attrib="01 00">Retour</message>
+	<message label="0810" attrib="07 00">Veux-tu essayer à nouveau
+de te connecter à Internet ?</message>
+	<message label="0810_a" attrib="01 00">Laisse tomber.</message>
+	<message label="0810_b" attrib="01 00">On réessaie.</message>
+	<message label="0820" attrib="06 09">Ta photo de profile n'a pas pu être
+envoyée. Si le problème persiste,
+prend une nouvelle photo de profil
+et réessaie.</message>
+	<message label="0820_a" attrib="01 06">Fermer</message>
 	<message label="0921" attrib="06 06">Tu peux publier jusqu'à deux
 messages au cours d'un voyage.</message>
 	<message label="0921_a" attrib="01 06">OK</message>
@@ -133,9 +197,9 @@ c'est bien ça ?</message>
 	<message label="1001_b" attrib="01 05">OK</message>
 	<message label="1101" attrib="02 00">Recherche des articles...</message>
 	<message label="1102" attrib="06 09">Aucun article n'a été trouvé.</message>
-	<message label="1102_a" attrib="01 00">OK</message>
+	<message label="1102_a" attrib="01 06">OK</message>
 	<message label="1103" attrib="06 09">Tu n'as pas assez de clochettes.</message>
-	<message label="1103_a" attrib="01 00">OK</message>
+	<message label="1103_a" attrib="01 06">OK</message>
 	<message label="1104" attrib="08 00">Est-ce que tu veux commander
 <tag a="50" b="2" /><colour id="1" /><tag a="125" b="0" arg="0x0" /><colour id="65535" />
 pour <colour id="1" /><tag a="90" b="26" arg="0x0" /> <colour id="65535" />?</message>
@@ -151,9 +215,6 @@ pour <tag a="90" b="26" arg="0x0" /> ?<colour id="65535" /></message>
 L'article sera livré chez toi
 très bientôt par voie postale.</message>
 	<message label="1108_a" attrib="01 06">OK</message>
-	<message label="1109" attrib="06 06">Ta commande pour <colour id="2" /><tag a="115" b="0" arg="0xcd00" /><colour id="65535" />
-a bien été enregistrée !</message>
-	<message label="1109_a" attrib="01 06">OK</message>
 	<message label="1111" attrib="06 09">Les commandes sont limitées à
 5 articles par client et par jour.</message>
 	<message label="1111_a" attrib="01 00">Fermer</message>
@@ -166,29 +227,77 @@ et annuler ta commande concernant
 <colour id="1" /><tag a="50" b="2" /><tag a="125" b="0" arg="0x0" /><colour id="65535" /> ?</message>
 	<message label="1113_a" attrib="01 00">Écrire encore</message>
 	<message label="1113_b" attrib="01 00">Effacer</message>
-	<message label="1114" attrib="06 00">Cet article n'est pas à vendre
+	<message label="1114" attrib="06 09">Cet article n'est pas à vendre
 et ne peut pas être commandé
 pour le moment.</message>
 	<message label="1114_a" attrib="01 00">OK</message>
+	<message label="1115" attrib="0c 00">À qui veux-tu l'envoyer ?</message>
+	<message label="1115_a" attrib="01 00">Un résident</message>
+	<message label="1115_b" attrib="01 00">Un ami</message>
+	<message label="1115_c" attrib="01 00">Annuler</message>
+	<message label="1116" attrib="08 00">L'article n'a pas pu être envoyé.
+Veux-tu réessayer ?</message>
+	<message label="1116_b" attrib="01 00">Réessayer</message>
+	<message label="1116_a" attrib="01 00">Annuler</message>
+	<message label="1117" attrib="02 00">Connexion à Internet...</message>
+	<message label="1118" attrib="02 00">Envoi de l'article...
+<colour id="0" />Sauvegarde en cours, n'appuie pas
+sur le bouton POWER .<colour id="65535" /></message>
+	<message label="1119" attrib="06 00">La somme de <colour id="1" /><tag a="90" b="26" arg="0x0" />
+<colour id="65535" />va t'être restituée.</message>
+	<message label="1119_a" attrib="01 00">OK</message>
+	<message label="1120" attrib="06 00">L'article a été envoyé
+à <colour id="2" /><tag a="115" b="0" arg="0xcd00" /><colour id="65535" />.</message>
+	<message label="1120_a" attrib="01 00">OK</message>
+	<message label="1121" attrib="06 00">Tu ne peux pas passer commande
+quand tu as de la visite.</message>
+	<message label="1121_a" attrib="01 00">OK</message>
+	<message label="1122" attrib="06 00">Tu ne peux pas passer commande
+quand tu es en voyage sur l'île d'un
+autre joueur.</message>
+	<message label="1122_a" attrib="01 00">OK</message>
+	<message label="1123" attrib="06 00">Tu ne peux pas passer commande
+tant que l'accès de l'aéroport est
+ouvert.</message>
+	<message label="1123_a" attrib="01 00">OK</message>
+	<message label="1124" attrib="06 00">Tu ne peux pas passer commande
+pour le moment. Désactive les
+communications depuis le guichet
+de l'aéroport.</message>
+	<message label="1124_a" attrib="01 00">OK</message>
 	<message label="1201" attrib="08 00">Veux-tu vraiment effacer le motif
-« <tag a="115" b="3" arg="0xcd00" /> » ?</message>
+« <colour id="1" /><tag a="115" b="3" arg="0xcd00" /><colour id="65535" /> » ?</message>
 	<message label="1201_a" attrib="01 00">Euh, non !</message>
 	<message label="1201_b" attrib="01 00">On efface.</message>
 	<message label="1202" attrib="08 00">Veux-tu effacer le motif
-« <tag a="115" b="3" arg="0xcd00" /> »,
-créé par <tag a="115" b="0" arg="0xcd00" /> ?</message>
+« <colour id="1" /><tag a="115" b="3" arg="0xcd00" /><colour id="65535" /> »,
+créé par <colour id="2" /><tag a="115" b="0" arg="0xcd00" /><colour id="65535" /> ?</message>
 	<message label="1202_a" attrib="01 00">Euh, non !</message>
 	<message label="1202_b" attrib="01 00">On efface.</message>
 	<message label="1203" attrib="01 00">Choisis un autre motif personnalisé
 à effacer pour libérer de la place.</message>
 	<message label="1203_a" attrib="01 00">OK</message>
 	<message label="1204" attrib="08 00">Veux-tu vraiment effacer le motif
-« <tag a="115" b="3" arg="0xcd00" /> »,
-sauvegardé par <tag a="115" b="0" arg="0xcd00" /> ?</message>
+« <colour id="1" /><tag a="115" b="3" arg="0xcd00" /><colour id="65535" /> »,
+sauvegardé par <colour id="2" /><tag a="115" b="0" arg="0xcd00" /><colour id="65535" /> ?</message>
 	<message label="1204_a" attrib="01 00">Euh, non !</message>
 	<message label="1204_b" attrib="01 00">On efface.</message>
-	<message label="1300" attrib="02 00">Les données de sauvegarde vont
-être effacées.
+	<message label="1221" attrib="08 00">Veux-tu vraiment écraser le motif
+« <colour id="1" /><tag a="115" b="3" arg="0xcd00" /><colour id="65535" /> » ?</message>
+	<message label="1221_a" attrib="01 00">Euh, non !</message>
+	<message label="1221_b" attrib="01 00">On écrase.</message>
+	<message label="1222" attrib="08 00">Veux-tu vraiment écraser le motif
+« <colour id="1" /><tag a="115" b="3" arg="0xcd00" /><colour id="65535" /> »
+créé par <colour id="2" /><tag a="115" b="0" arg="0xcd00" /><colour id="65535" /> ?</message>
+	<message label="1222_a" attrib="01 00">Euh, non !</message>
+	<message label="1222_b" attrib="01 00">On écrase.</message>
+	<message label="1224" attrib="08 00">Veux-tu vraiment écraser le motif
+« <colour id="1" /><tag a="115" b="3" arg="0xcd00" /><colour id="65535" /> »
+sauvegardé par <colour id="2" /><tag a="115" b="0" arg="0xcd00" /><colour id="65535" /> ?</message>
+	<message label="1224_a" attrib="01 00">Euh, non !</message>
+	<message label="1224_b" attrib="01 00">On écrase.</message>
+	<message label="1300" attrib="02 00">Effacement des données de
+sauvegarde...
 <colour id="0" />Ne touche pas au bouton POWER .<colour id="65535" /></message>
 	<message label="1308" attrib="1c 00">La date à laquelle est paramétrée
 la console n'est pas compatible.<pageBreak />Quitte le jeu depuis le menu HOME,
@@ -219,7 +328,7 @@ d'une langue à l'autre. Continuer ?</message>
 depuis les paramètres de la console
 du menu HOME et redémarre le jeu.</message>
 	<message label="1328" attrib="14 00">キャラクターの<ruby a="4" b="6">なまえ</ruby>名前や
-ゲーム<ruby a="2" b="4">ない</ruby>内の<ruby a="4" b="8">ひょうじ</ruby>表示が<ruby a="2" b="2">か</ruby>変わってしまいますが、
+ゲーム<ruby a="2" b="4">ない</ruby>内の<ruby a="4" b="8">ひょうじ</ruby>表示が<ruby a="2" b="2">か</ruby>変わってしまいますが
 このまま<ruby a="2" b="4">はじ</ruby>始めますか？
 
 Le nom des personnages et certains
@@ -318,7 +427,7 @@ d'une langue à l'autre. Continuer ?</message>
 	<message label="1338_a" attrib="0e 00">Нет / Non</message>
 	<message label="1338_b" attrib="0e 00">Да / Oui</message>
 	<message label="1339" attrib="14 00">캐릭터의 이름과
-게임 내 표시가 달라집니다
+게임 내 표시가 달라집니다.
 이대로 시작하시겠습니까?
 
 Le nom des personnages et certains
@@ -334,7 +443,7 @@ Le nom des personnages et certains
 d'une langue à l'autre. Continuer ?</message>
 	<message label="1340_a" attrib="0e 00">否 / Non</message>
 	<message label="1340_b" attrib="0e 00">是 / Oui</message>
-	<message label="1341" attrib="14 00">角色名稱或遊戲內的顯示將會改變，
+	<message label="1341" attrib="14 00">角色名稱和遊戲內的顯示將會改變
 要直接開始遊戲嗎？
 
 Le nom des personnages et certains
@@ -344,7 +453,7 @@ d'une langue à l'autre. Continuer ?</message>
 	<message label="1341_b" attrib="0e 00">是 / Oui</message>
 	<message label="1342" attrib="10 00"><ruby a="8" b="6">ホーム</ruby>HOMEメニューの　<ruby a="4" b="8">せってい</ruby>設定で
 <ruby a="2" b="4">もと</ruby>元の<ruby a="4" b="6">げんご</ruby>言語に　<ruby a="2" b="4">もど</ruby>戻してから
-ゲームを<ruby a="6" b="10">さいきどう</ruby>再起動してください。
+ゲームを<ruby a="4" b="8">さいかい</ruby>再開してください
 
 Réinitialise les paramètres de langue
 depuis les paramètres de la console
@@ -432,14 +541,15 @@ du menu HOME et redémarre le jeu.</message>
 Réinitialise les paramètres de langue
 depuis les paramètres de la console
 du menu HOME et redémarre le jeu.</message>
-	<message label="1355" attrib="10 00">請於HOME選單恢復語言設定後，
-再重新啟動遊戲。
+	<message label="1355" attrib="10 00">請於HOME選單的設定中
+回復原本的語言後
+再重新開啟遊戲
 
 Réinitialise les paramètres de langue
 depuis les paramètres de la console
 du menu HOME et redémarre le jeu.</message>
 	<message label="1356" attrib="12 03"><ruby a="4" b="8">ぜんかい</ruby>前回プレイ<ruby a="2" b="2">じ</ruby>時と
-<ruby a="8" b="14">げんごせってい</ruby>言語設定が<ruby a="2" b="4">こと</ruby>異なるようです。
+<ruby a="8" b="14">げんごせってい</ruby>言語設定が<ruby a="2" b="4">こと</ruby>異なるようです
 
 Les paramètres de langue ont été
 modifiés depuis la dernière fois que
@@ -524,7 +634,7 @@ modifiés depuis la dernière fois que
 tu as joué.</message>
 	<message label="1366_a" attrib="0e 03">Далее / Suivant</message>
 	<message label="1367" attrib="12 03">지난번 플레이 때와
-언어 설정이 다릅니다
+언어 설정이 다릅니다.
 
 Les paramètres de langue ont été
 modifiés depuis la dernière fois que
@@ -536,12 +646,112 @@ Les paramètres de langue ont été
 modifiés depuis la dernière fois que
 tu as joué.</message>
 	<message label="1368_a" attrib="0e 03">下一页 / Suivant</message>
-	<message label="1370" attrib="12 03">語言設定似乎與上次遊玩時不同。
+	<message label="1370" attrib="12 03">語言設定似乎與上次遊玩時不同
 
 Les paramètres de langue ont été
 modifiés depuis la dernière fois que
 tu as joué.</message>
 	<message label="1370_a" attrib="0e 03">下一頁 / Suivant</message>
+	<message label="1372" attrib="06 00">Les données de sauvegarde vont
+être mises à jour suite à la mise
+à jour du logiciel.</message>
+	<message label="1372_a" attrib="01 00">OK</message>
+	<message label="1373" attrib="02 00">Mise à jour des données
+de sauvegarde...
+<colour id="0" />N'appuie pas sur
+le bouton POWER .<colour id="65535" /></message>
+	<message label="1374" attrib="06 00">Les données de sauvegarde ont été
+mises à jour. Le jeu va démarrer.</message>
+	<message label="1374_a" attrib="01 00">OK</message>
+	<message label="1401" attrib="01 00">Tu as envoyé une demande de
+meilleurs amis à <colour id="2" /><tag a="115" b="0" arg="0xcd00" /><colour id="65535" />.</message>
+	<message label="1402" attrib="01 00"><tag a="50" b="3" /><colour id="2" /><tag a="115" b="0" arg="0xcd00" /><colour id="65535" /> fait maintenant
+partie de tes meilleurs amis !</message>
+	<message label="1403" attrib="01 00">Tu as retiré la demande de meilleurs
+amis envoyée à <colour id="2" /><tag a="115" b="0" arg="0xcd00" /><colour id="65535" />.</message>
+	<message label="1404" attrib="01 00">Tu as rejeté la demande
+<gender4 m="de " f="d'⁠" /><colour id="2" /><tag a="115" b="0" arg="0xcd00" /><colour id="65535" />.</message>
+	<message label="1405" attrib="01 00"><colour id="2" /><tag a="50" b="3" /><tag a="115" b="0" arg="0xcd00" /><colour id="65535" /> et toi ne profitez
+plus des fonctionnalités réservées
+aux meilleurs amis.</message>
+	<message label="1405_a" attrib="01 00">OK</message>
+	<message label="1406" attrib="06 09">Tu as atteint le nombre maximum
+de meilleurs amis. Tu ne peux pas
+envoyer d'autres demandes.</message>
+	<message label="1406_a" attrib="01 06">OK</message>
+	<message label="1407" attrib="06 09">Tu as atteint le nombre maximum
+de demandes envoyées. Tu ne peux
+pas envoyer d'autres demandes.</message>
+	<message label="1407_a" attrib="01 04">Retour</message>
+	<message label="1408" attrib="06 09">Cette personne a atteint le nombre
+maximum de demandes reçues. Tu ne
+peux pas lui envoyer de demande.</message>
+	<message label="1408_a" attrib="01 04">Retour</message>
+	<message label="1409" attrib="06 09">Tu as atteint le nombre maximum
+de meilleurs amis. Tu ne peux pas
+accepter cette demande.</message>
+	<message label="1409_a" attrib="01 04">Retour</message>
+	<message label="1410" attrib="06 09">Vous ne pouvez pas devenir
+meilleurs amis car tu as atteint le
+nombre maximal de demandes.</message>
+	<message label="1410_a" attrib="01 04">Retour</message>
+	<message label="1411" attrib="06 09">Cette demande a déjà été retirée.</message>
+	<message label="1411_a" attrib="01 04">Retour</message>
+	<message label="1412" attrib="06 00">Tu ne peux pas retirer de ta liste
+de meilleurs amis quelqu'un avec
+qui tu es en train de jouer.</message>
+	<message label="1412_a" attrib="01 04">Retour</message>
+	<message label="1413" attrib="06 00">L'autre joueur a effectué une action,
+la liste va être mise à jour.</message>
+	<message label="1413_a" attrib="01 00">OK</message>
+	<message label="1414" attrib="08 00">Veux-tu vraiment retirer ce joueur
+de la liste des meilleurs amis ?</message>
+	<message label="1414_a" attrib="01 00">Retour</message>
+	<message label="1414_b" attrib="01 00">Retirer</message>
+	<message label="1430" attrib="06 09">Cette fonction n'est pas disponible
+lorsque la communication sans fil
+locale est activée.</message>
+	<message label="1430_a" attrib="01 04">Retour</message>
+	<message label="1431" attrib="06 09">Cette fonction n'est pas disponible
+lorsque tu joues en groupe avec
+d'autres résidents.</message>
+	<message label="1431_a" attrib="01 04">Retour</message>
+	<message label="1432" attrib="05 09">Pour utiliser cette fonctionnalité,
+il te faut avoir enregistré au moins
+un meilleur ami.</message>
+	<message label="1432_a" attrib="01 04">Retour</message>
+	<message label="1433" attrib="08 00">La liste doit être mise à jour pour que
+ta demande soit prise en compte.
+Veux-tu mettre la liste à jour ?</message>
+	<message label="1433_a" attrib="01 00">Retour</message>
+	<message label="1433_b" attrib="01 00">Mettre à jour</message>
+	<message label="1450" attrib="08 00">Une connexion Internet est nécessaire
+pour utiliser cette fonctionnalité.
+Veux-tu te connecter à Internet ?</message>
+	<message label="1450_a" attrib="01 00"><anim id="EmotEnd" target="actor" targetSpec="" />Non.</message>
+	<message label="1450_b" attrib="01 00"><anim id="EmotEnd" target="actor" targetSpec="" />Oui !</message>
+	<message label="1451" attrib="08 00">Activer la communication ?</message>
+	<message label="1451_a" attrib="01 00">Laisse tomber.</message>
+	<message label="1451_b" attrib="01 00"><anim id="EmotEnd" target="actor" targetSpec="" />Oui !</message>
+	<message label="1452" attrib="08 00">Désactiver la communication ?</message>
+	<message label="1452_a" attrib="01 00">Laisse tomber.</message>
+	<message label="1452_b" attrib="01 00"><anim id="EmotEnd" target="actor" targetSpec="" />Oui !</message>
+	<message label="1453" attrib="05 06">Appuie sur <colour id="1" /><colour id="65535" /> pour activer la fonction
+de communication qui te permettra
+d'envoyer des messages.</message>
+	<message label="1453_a" attrib="01 06">OK</message>
+	<message label="1454" attrib="06 09"><colour id="2" /><tag a="50" b="3" /><tag a="115" b="0" arg="0xcd00" /><colour id="65535" /> est hors ligne.
+Tu ne peux pas lui envoyer
+de message.</message>
+	<message label="1454_a" attrib="01 06">Retour</message>
+	<message label="1455" attrib="01 00">Tu ne peux pas envoyer de message
+si aucun autre joueur n'est en ligne.</message>
+	<message label="1455_a" attrib="01 00">Retour</message>
+	<message label="1456" attrib="01 00">La communication a été interrompue en
+raison d'une connexion de mauvaise
+qualité avec le réseau. Réactive la
+communication et réessaie.</message>
+	<message label="1456_a" attrib="01 00">Retour</message>
 	<message label="1501" attrib="08 00">Tu veux vraiment jeter aux orties tous
 les changements que tu as faits ?</message>
 	<message label="1501_a" attrib="01 00">Nooon !</message>
@@ -560,8 +770,8 @@ câble à la console, la manette Pro ne
 peut pas lire les amiibo.<colour id="65535" /></message>
 	<message label="1605" attrib="01 09"><colour id="3" /><tag a="115" b="1" arg="0xcd00" /><colour id="65535" /> est déjà à Photopia.</message>
 	<message label="1606" attrib="01 09"><colour id="3" /><tag a="115" b="1" arg="0xcd00" /><colour id="65535" /> ne peut pas
-être invité<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x65 0x0" /> à Photopia.</message>
-	<message label="1607" attrib="01 00">Il n'est pas possible d'inviter plus
+être invité<tag a="50" b="17" arg="0xf 0xcd00 0x0 0x2 0x65 0x0" /> à Photopia.</message>
+	<message label="1607" attrib="01 09">Il n'est pas possible d'inviter plus
 de 10 personnages à la fois.</message>
 	<message label="1608" attrib="01 09">Il n'y a pas suffisamment d'espace
 libre pour inviter davantage de
@@ -580,11 +790,45 @@ paramétrage rapide et le désactiver.</message>
 	<message label="1701" attrib="06 09">Il n'y a pas la moindre différence
 avec ta maison actuelle !</message>
 	<message label="1701_a" attrib="01 04">Retour</message>
-	<message label="1801" attrib="06 09"><tag a="50" b="3" /><tag a="115" b="0" arg="0xcd00" /> n'a pas encore
+	<message label="1801" attrib="06 09"><colour id="2" /><tag a="50" b="3" /><tag a="115" b="0" arg="0xcd00" /><colour id="65535" /> n'a pas encore
 d'endroit où habiter. Tu ne peux
 donc pas lui envoyer de courrier
 pour le moment.</message>
 	<message label="1801_a" attrib="01 04">Retour</message>
+	<message label="1900" attrib="15 00">Veux-tu signaler <colour id="2" /><tag a="115" b="0" arg="0xcd00" /><colour id="65535" /> ?</message>
+	<message label="1900_a" attrib="0e 02"><anim id="EmotEnd" target="actor" targetSpec="" />Annuler.</message>
+	<message label="1900_b" attrib="0e 01"><anim id="EmotEnd" target="actor" targetSpec="" />Signaler.</message>
+	<message label="1920" attrib="12 01">Signalement terminé.</message>
+	<message label="1920_a" attrib="0e 01">OK</message>
+	<message label="1921" attrib="07 09">Le signalement n'a pas pu être envoyé.</message>
+	<message label="1921_a" attrib="01 00"><anim id="EmotEnd" target="actor" targetSpec="" />Tant pis.</message>
+	<message label="1921_b" attrib="01 00"><anim id="EmotEnd" target="actor" targetSpec="" />Réessayons !</message>
+	<message label="1930" attrib="06 09">Tu ne peux pas envoyer de
+signalement si la communication
+sans fil locale est activée.</message>
+	<message label="1930_a" attrib="01 04">Retour</message>
+	<message label="1931" attrib="06 09">Tu ne peux pas envoyer de
+signalement car le jeu n'a
+jamais été connecté à Internet.</message>
+	<message label="1931_a" attrib="01 04">Retour</message>
+	<message label="1932" attrib="06 09">Tu ne peux pas signaler cette
+publication.</message>
+	<message label="1932_a" attrib="01 00">Retour</message>
+	<message label="1933" attrib="06 09">Tu ne peux pas signaler cette carte.</message>
+	<message label="1933_a" attrib="01 00">Retour</message>
+	<message label="1936" attrib="06 09">Tu ne peux pas signaler ce motif.</message>
+	<message label="1936_a" attrib="01 00">Retour</message>
+	<message label="1938" attrib="06 09">Tu ne peux pas effectuer un
+signalement sur ton propre compte.</message>
+	<message label="1938_a" attrib="01 00">OK</message>
+	<message label="1940" attrib="01 09">L'auteur n'est pas un joueur en ligne.
+Tu peux en revanche envoyer un
+signalement contre <colour id="2" /><tag a="115" b="0" arg="0xcd00" /><colour id="65535" />
+qui ne l'a pas effacé.</message>
+	<message label="1941" attrib="0e 09">Ce motif n'a pas été publié en ligne.
+Tu peux en revanche envoyer un
+signalement contre <colour id="2" /><tag a="115" b="0" arg="0xcd00" />
+<colour id="65535" />qui ne l'a pas effacé.</message>
 	<message label="2001" attrib="06 09">Tu n'as pas assez d'argent sur toi.</message>
 	<message label="2001_a" attrib="01 06">OK</message>
 	<message label="2002" attrib="06 09">Tu n'as pas de place dans
@@ -601,6 +845,40 @@ rangement pour cet achat.</message>
 ce que tu as choisi ?</message>
 	<message label="2005_a" attrib="01 00"><anim id="Negative" target="player" targetSpec="" />Non merci.</message>
 	<message label="2005_b" attrib="01 05"><anim id="Nodding" target="player" targetSpec="" />Oh, oui !</message>
+	<message label="2101" attrib="08 00">Veux-tu te connecter à Internet et
+télécharger un motif personnalisé
+créé dans un jeu sur Nintendo 3DS ?</message>
+	<message label="2101_a" attrib="01 00">Retour</message>
+	<message label="2101_b" attrib="01 00"><anim id="EmotEnd" target="actor" targetSpec="" />Télécharger</message>
+	<message label="2102" attrib="08 00">« <colour id="1" /><tag a="50" b="3" /><tag a="115" b="3" arg="0xcd00" /><colour id="65535" /> »
+Ce motif personnalisé a été trouvé.
+Choisis un emplacement de sauvegarde.</message>
+	<message label="2102_a" attrib="01 00">Retour</message>
+	<message label="2102_b" attrib="01 00">Je veux !</message>
+	<message label="2103" attrib="08 00">« <colour id="1" /><tag a="50" b="3" /><tag a="115" b="3" arg="0xcd00" /><colour id="65535" /> »
+Ce motif pro a été trouvé. Choisis
+un emplacement de sauvegarde.</message>
+	<message label="2103_a" attrib="01 00">Retour</message>
+	<message label="2103_b" attrib="01 00">Je veux !</message>
+	<message label="2110" attrib="0e 09">Impossible de trouver un motif
+personnalisé créé dans un jeu
+sur Nintendo 3DS.
+
+Connecte-toi à <colour id="1" />NookLink<colour id="65535" /> depuis
+l'application Nintendo Switch Online
+pour lire un QR Code.</message>
+	<message label="2120" attrib="01 00">Tu as débloqué l'onglet des
+motifs personnalisés pro.</message>
+	<message label="2140" attrib="01 09"><colour id="1" />Motifs pro
+<colour id="65535" />Les motifs pro permettent aux joueurs
+de travailler leurs créations avec
+encore plus de détails.<pageBreak />Pour créer ou modifier un motif pro,
+vous devez mettre à jour l'appli Motifs
+persos. <colour id="0" />La mise à jour n'est pas
+nécessaire pour porter des motifs pro.<colour id="65535" /><pageBreak />Si vous voulez obtenir la mise à jour
+de l'appli Motifs persos, échangez des
+miles Nook au <colour id="1" />Nook Stop<colour id="65535" /> du <colour id="1" />bureau
+des résidents<colour id="65535" />.</message>
 	<message label="2201" attrib="01 09">Ton épargne est vide.</message>
 	<message label="2202" attrib="01 09">Tu ne peux rien déposer de plus.</message>
 	<message label="2203" attrib="01 09">Tu ne peux rien retirer car
@@ -611,6 +889,100 @@ le maximum autorisé, le surplus sera
 perdu. C'est OK pour toi ?</message>
 	<message label="2301_a" attrib="01 00">Non.</message>
 	<message label="2301_b" attrib="01 00">C'est OK !</message>
+	<message label="2401" attrib="12 09">Ton profil comprend du contenu
+en violation du code de conduite
+Nintendo. Vérifie la photo de ton
+passeport et ton commentaire, et
+ajuste-les au besoin afin qu'ils ne
+dérangent pas les autres joueurs
+qui seraient amenés à les voir.</message>
+	<message label="2401_a" attrib="01 00">OK</message>
+	<message label="2421" attrib="12 09"><colour id="0" />À lire avant de publier un motif :<colour id="65535" />
+Les motifs persos que tu publies
+sont visibles par tous les joueurs
+du monde.<pageBreak />Ne publie pas de motifs au contenu
+illégal ou dérangeant pour les autres
+joueurs.<pageBreak />Les motifs publiés peuvent être
+effacés du serveur s'ils sont jugés
+inappropriés ou en violation du
+code de conduite Nintendo.</message>
+	<message label="2421_a" attrib="01 00">OK</message>
+	<message label="2422" attrib="08 00">Ton motif a été publié ! Son identifiant
+est : <colour id="1" /><tag a="140" b="15" arg="0xcd00" /><colour id="65535" />.
+Veux-tu partager cette information
+sur les réseaux sociaux ?</message>
+	<message label="2422_a" attrib="01 00">Non.</message>
+	<message label="2422_b" attrib="01 00">Oui !</message>
+	<message label="2423" attrib="08 00">Ton motif n'a pas pu être publié.
+Veux-tu réessayer ?</message>
+	<message label="2423_a" attrib="01 00">Non.</message>
+	<message label="2423_b" attrib="01 00">Oui !</message>
+	<message label="2424" attrib="08 00">As-tu fini d'utiliser la borne ?</message>
+	<message label="2424_a" attrib="01 00">Non.</message>
+	<message label="2424_b" attrib="01 00">Oui !</message>
+	<message label="2425" attrib="12 09">Merci pour l'intérêt que tu portes à
+la publication de motifs !<pageBreak />Tu es à présent officiellement styliste !
+Ton identifiant (ID) est :
+<colour id="1" /><tag a="140" b="17" arg="0xcd00" /><colour id="65535" />.
+Tu peux vérifier ton identifiant de
+styliste à tout moment sur l'appli
+Passeport dans ton NookPhone.</message>
+	<message label="2425_a" attrib="01 00">OK</message>
+	<message label="2427" attrib="08 00">Veux-tu publier une autre création ?</message>
+	<message label="2427_a" attrib="01 00">Menu</message>
+	<message label="2427_b" attrib="01 00">Oui.</message>
+	<message label="2428" attrib="01 09">Tu ne peux pas publier d'autres
+motifs persos. Tu dois d'abord en
+effacer un. Choisis le motif à effacer.</message>
+	<message label="2428_a" attrib="01 00">Compris !</message>
+	<message label="2429" attrib="01 09">On dirait que tu n'as pas encore créé
+de motifs persos. Crée un motif perso
+et réessaie.</message>
+	<message label="2429_a" attrib="01 00">Compris !</message>
+	<message label="2430" attrib="06 00">Il semble que ce motif a déjà été
+publié.
+<colour id="0" />Si tu le modifies, tu peux le publier
+à nouveau.<colour id="65535" /></message>
+	<message label="2430_a" attrib="01 00">Retour</message>
+	<message label="2431" attrib="02 00">Recherche de motifs persos...</message>
+	<message label="2432" attrib="08 00">L'identifiant de styliste que tu as
+entré est le tien. Veux-tu voir tes
+propres créations, <colour id="2" /><tag a="110" b="1" /><colour id="65535" /> ?</message>
+	<message label="2432_a" attrib="01 00">Retour</message>
+	<message label="2432_b" attrib="01 00">Oui, oui.</message>
+	<message label="2433" attrib="08 00">La recherche de l'identifiant
+<colour id="1" /><tag a="140" b="15" arg="0xcd00" /><colour id="65535" /> n'a donné
+aucun résultat. Veux-tu entrer
+l'identifiant à nouveau ?</message>
+	<message label="2433_a" attrib="01 00">Menu</message>
+	<message label="2433_b" attrib="01 00">Modifier</message>
+	<message label="2434" attrib="08 00">Aucun motif n'est associé à l'identifiant
+<colour id="1" /><tag a="140" b="17" arg="0xcd00" /><colour id="65535" />. Veux-tu
+entrer l'identifiant à nouveau ?</message>
+	<message label="2434_a" attrib="01 00">Menu</message>
+	<message label="2434_b" attrib="01 00">Modifier</message>
+	<message label="2435" attrib="01 09">Le motif perso a été effacé.</message>
+	<message label="2436" attrib="01 00">Choisis le motif que tu veux publier.</message>
+	<message label="2437" attrib="08 00">« <colour id="1" /><tag a="50" b="3" /><tag a="115" b="3" arg="0xcd00" /><colour id="65535" /> »...
+Es-tu sûr<gender2 m="" f="e" /> de vouloir effacer
+ce motif perso ?</message>
+	<message label="2437_a" attrib="01 00">Non, attends.</message>
+	<message label="2437_b" attrib="01 00">Oui, efface.</message>
+	<message label="2438" attrib="05 09">Tu n'as publié aucun motif perso.</message>
+	<message label="2438_a" attrib="01 00">Retour</message>
+	<message label="2439" attrib="01 00">L'appli Motifs persos va démarrer.
+Choisis un emplacement de
+sauvegarde.</message>
+	<message label="2440" attrib="08 00">Tu as saisi l'identifiant d'un de tes
+propres motifs. Veux-tu voir ton
+motif ?</message>
+	<message label="2440_a" attrib="01 00">Retour</message>
+	<message label="2440_b" attrib="01 00">Voir mon motif</message>
+	<message label="2441" attrib="01 00">Le partage sur les réseaux sociaux a
+échoué car une erreur est survenue.</message>
+	<message label="2501" attrib="01 09">Chaque joueur ne peut envoyer que
+deux messages par jour en ligne
+avec Nook Shopping.</message>
 	<message label="3001" attrib="01 00"><colour id="1" />Vends <colour id="65535" />ce ticket à la boutique
 pour <colour id="1" />3 000 clochettes<colour id="65535" />.
 <colour id="0" />Ticket émis directement.<colour id="65535" /></message>
@@ -705,9 +1077,9 @@ t'offrir. Accumule les miles Nook !</message>
 	<message label="5012" attrib="01 00"><colour id="1" />Miles Nook<colour id="65535" /> avec un <colour id="1" />+<colour id="65535" /> !
 Tu es passé<gender2 m="" f="e" /> au niveau supérieur
 et tu peux désormais utiliser
-les services <colour id="1" />miles Nook +<colour id="65535" /> !<pageBreak />Avec les <colour id="1" />miles Nook +<colour id="65535" />, il est encore
+les services <colour id="1" />Miles Nook +<colour id="65535" /> !<pageBreak />Avec les <colour id="1" />Miles Nook +<colour id="65535" />, il est encore
 plus facile de gagner des miles au
-quotidien...<pageBreak />... et les membres <colour id="1" />miles Nook +<colour id="65535" />
+quotidien...<pageBreak />... et les membres <colour id="1" />Miles Nook +<colour id="65535" />
 bénéficient d'avantages exclusifs !<pageBreak />Profites-en, tire parti des incroyables
 possibilités qui te sont offertes !</message>
 	<message label="5021" attrib="01 00"><colour id="1" />Bébêtopédie<colour id="65535" />
@@ -724,9 +1096,9 @@ fonctionnalité !</message>
 	<message label="5041" attrib="01 00"><colour id="1" />Appeler un habitant<colour id="65535" />
 Utilise cette application pour inviter
 jusqu'à trois autres résidents (joueurs)
-de l'île à <colour id="1" />jouer en groupe<colour id="65535" /> avec toi !<pageBreak />Note : chaque joueur doit disposer
-d'une manette avant de commencer
-à jouer.</message>
+de l'île à <colour id="1" />jouer en groupe<colour id="65535" /> avec toi !<pageBreak />Avant de commencer, assure-toi que
+tous les joueurs disposent d'une
+manette.</message>
 	<message label="5051" attrib="01 00"><colour id="1" />Motifs personnalisés<colour id="65535" />
 Avec cette application, tu peux
 créer des motifs pour personnaliser
@@ -734,10 +1106,10 @@ tes vêtements ou décorer l'île.
 Il te suffit de sauvegarder tes motifs
 sur l'application pour pouvoir
 les partager avec les autres
-résidents de l'île.<pageBreak /><colour id="0" />Il se peut que tes motifs soient vus
-par d'autres joueurs lors des sessions
-de jeu en réseau, par exemple quand
-tu visites une autre île.<pageBreak />N'utilise aucun contenu pouvant porter
+résidents de l'île.<pageBreak /><colour id="0" />Il se peut que tes motifs soient vus par
+d'autres joueurs lors des sessions de
+jeu en ligne ou en multijoueur local, par
+exemple quand tu visites une autre île.<pageBreak />N'utilise aucun contenu pouvant porter
 atteinte aux droits d'un tiers, aucune
 information privée (de toi ou d'un
 tiers) ni aucun mot ou image offensant.<colour id="65535" /></message>
@@ -774,6 +1146,25 @@ et que tu ne sais pas quoi faire !<pageBreak />Tu seras généralement transport
 chez toi ou au bureau des résidents.
 <colour id="0" />Tu dois disposer de miles Nook
 pour bénéficier de ce service.<colour id="65535" /></message>
+	<message label="5101" attrib="01 00"><colour id="1" />Meilleurs amis<colour id="65535" />
+Tu peux utiliser cette appli pour voir
+les amis et meilleurs amis avec
+lesquels tu as joué.<pageBreak />Si un joueur figure parmi tes
+meilleurs amis, tu peux voir
+quand il est en ligne.<pageBreak />Si vous êtes tous les deux en ligne,
+vous pouvez vous envoyer des
+messages par Internet.<pageBreak /><colour id="0" />Si tu ne veux pas qu'on sache si tu
+es en ligne, ou si tu ne veux pas
+échanger de messages, appuie sur 
+pour désactiver cette fonctionnalité.<colour id="65535" /></message>
+	<message label="5102" attrib="01 00">Tu peux à présent télécharger via
+NookLink des motifs persos publiés
+en lisant un QR Code créé dans un
+jeu sur Nintendo 3DS.
+<colour id="0" />Accède aux services liés aux jeux dans
+l'application Nintendo Switch Online,
+puis à NookLink pour savoir comment
+lire le QR Code d'un motif perso.<colour id="65535" /></message>
 	<message label="5111" attrib="01 00"><colour id="1" />Remod'île<colour id="65535" />
 Cette appli te permet de développer
 et de façonner l'île en y supervisant
@@ -799,6 +1190,15 @@ où et n'importe quand !
 Fais tes courses à ton rythme et
 laisse-toi porter par tes envies
 du moment !</message>
+	<message label="5122" attrib="01 00"><colour id="1" />Historique de tchat<colour id="65535" />
+Dans cette appli, retrouve toutes les
+conversations que tu as eues
+avec les autres joueurs.
+Tu as raté ce que quelqu'un a dit
+alors que vous jouiez ensemble ?
+Tu veux relire le message qu'un
+de tes meilleurs amis t'a laissé ?<pageBreak />Tout y est ! Cette appli fera bientôt
+partie de tes incontournables !</message>
 	<message label="5201_00_01" attrib="0e 00"><colour id="0" />Jeu en groupe<colour id="65535" />
 Les joueurs résidents peuvent jouer
 ensemble grâce à ce mode. Un joueur
@@ -817,10 +1217,13 @@ Les acolytes n'ont pas accès au
 tchat, au NookPhone ou au contenu
 des poches. Ils peuvent utiliser leurs
 outils, déplacer des objets et aider
-le leader.<pageBreak />Tous les objets récupérés à l'aide de
-leurs outils sont envoyés dans la
-<colour id="1" />boîte de recyclage<colour id="65535" /> du <colour id="1" />bureau des
-résidents<colour id="65535" />.<pageBreak /></message>
+le leader.<pageBreak />
+
+Tous les objets récupérés par les
+acolytes sont envoyés dans la <colour id="1" />boîte
+de recyclage <colour id="65535" />du <colour id="1" />bureau des résidents<colour id="65535" />.
+
+</message>
 	<message label="5201_00_02" attrib="0e 00"><colour id="0" />Commandes au Joy-Con à l'horizontale<colour id="65535" />
 <colour id="1" />Leader<colour id="65535" />
 <colour id="1" /><colour id="65535" /> : Ouvrir le NookPhone
@@ -831,10 +1234,10 @@ résidents<colour id="65535" />.<pageBreak /></message>
 	<message label="5201_00_03" attrib="0e 00"><colour id="1" />Leader (Joy-Con à l'horizontale)<colour id="65535" />
 <colour id="1" /><colour id="65535" /> : Ouvrir le NookPhone / <colour id="1" /> <colour id="65535" />: Mimique
 <colour id="1" /><colour id="65535" /> : Contrôler la caméra / Changer d'outil
-
 <colour id="1" />Acolyte (Joy-Con à l'horizontale)<colour id="65535" />
-<colour id="1" /><colour id="65535" /> : S'équiper / Changer d'outil
-<colour id="1" /> <colour id="65535" />: Mimique / <colour id="1" /><colour id="65535" /> : Répéter l'action</message>
+<colour id="1" /><colour id="65535" /> : S'équiper ou changer d'outil
+<colour id="1" /> <colour id="65535" />: Mimique / <colour id="1" /><colour id="65535" /> : Refaire la mimique
+<colour id="1" />      <colour id="65535" />(le cas échéant) / <colour id="1" /><colour id="65535" /> : Ramasser</message>
 	<message label="5201_00_04" attrib="0e 00"><colour id="0" />Commandes
 <colour id="65535" /><colour id="1" />Leader<colour id="65535" />
 Identiques à celles du mode solo
@@ -845,9 +1248,9 @@ Identiques à celles du mode solo
 Identiques à celles du mode solo
 
 <colour id="1" />Acolyte (Commandes)
- <colour id="65535" />: S'équiper / Changer d'outil
-<colour id="1" /> <colour id="65535" />: Mimique
-<colour id="1" /> <colour id="65535" />: Répéter l'action</message>
+ <colour id="65535" />: S'équiper ou changer d'outil
+<colour id="1" /><colour id="65535" /> : Ramasser / <colour id="1" /> <colour id="65535" />: Mimique
+<colour id="1" /> <colour id="65535" />: Refaire la mimique (le cas échéant)</message>
 	<message label="5201_01" attrib="0e 00"><colour id="0" />Jeu en groupe<colour id="65535" />
 Les joueurs résidents peuvent jouer
 ensemble grâce à ce mode. Un joueur
@@ -866,10 +1269,13 @@ Les acolytes n'ont pas accès au
 tchat, au NookPhone ou au contenu
 des poches. Ils peuvent utiliser leurs
 outils, déplacer des objets et aider
-le leader.<pageBreak />Tous les objets récupérés à l'aide de
-leurs outils sont envoyés dans la
-<colour id="1" />boîte de recyclage<colour id="65535" /> du <colour id="1" />bureau des
-résidents<colour id="65535" />.<pageBreak />
+le leader.<pageBreak />
+
+Tous les objets récupérés par les
+acolytes sont envoyés dans la <colour id="1" />boîte
+de recyclage <colour id="65535" />du <colour id="1" />bureau des résidents<colour id="65535" />.
+
+
 <colour id="0" />Commandes au Joy-Con à l'horizontale<colour id="65535" />
 <colour id="1" />Leader<colour id="65535" />
 <colour id="1" /><colour id="65535" /> : Ouvrir le NookPhone
@@ -895,17 +1301,20 @@ Les acolytes n'ont pas accès au
 tchat, au NookPhone ou au contenu
 des poches. Ils peuvent utiliser leurs
 outils, déplacer des objets et aider
-le leader.<pageBreak />Tous les objets récupérés à l'aide de
-leurs outils sont envoyés dans la
-<colour id="1" />boîte de recyclage<colour id="65535" /> du <colour id="1" />bureau des
-résidents<colour id="65535" />.<pageBreak />
+le leader.<pageBreak />
+
+Tous les objets récupérés par les
+acolytes sont envoyés dans la <colour id="1" />boîte
+de recyclage <colour id="65535" />du <colour id="1" />bureau des résidents<colour id="65535" />.
+
+
 <colour id="1" />Leader (Joy-Con à l'horizontale)<colour id="65535" />
 <colour id="1" /><colour id="65535" /> : Ouvrir le NookPhone / <colour id="1" /> <colour id="65535" />: Mimique
 <colour id="1" /><colour id="65535" /> : Contrôler la caméra / Changer d'outil
-
 <colour id="1" />Acolyte (Joy-Con à l'horizontale)<colour id="65535" />
-<colour id="1" /><colour id="65535" /> : S'équiper / Changer d'outil
-<colour id="1" /> <colour id="65535" />: Mimique / <colour id="1" /><colour id="65535" /> : Répéter l'action</message>
+<colour id="1" /><colour id="65535" /> : S'équiper ou changer d'outil
+<colour id="1" /> <colour id="65535" />: Mimique / <colour id="1" /><colour id="65535" /> : Refaire la mimique
+<colour id="1" />      <colour id="65535" />(le cas échéant) / <colour id="1" /><colour id="65535" /> : Ramasser</message>
 	<message label="5201_03" attrib="0e 00"><colour id="0" />Jeu en groupe<colour id="65535" />
 Les joueurs résidents peuvent jouer
 ensemble grâce à ce mode. Un joueur
@@ -924,10 +1333,13 @@ Les acolytes n'ont pas accès au
 tchat, au NookPhone ou au contenu
 des poches. Ils peuvent utiliser leurs
 outils, déplacer des objets et aider
-le leader.<pageBreak />Tous les objets récupérés à l'aide de
-leurs outils sont envoyés dans la
-<colour id="1" />boîte de recyclage<colour id="65535" /> du <colour id="1" />bureau des
-résidents<colour id="65535" />.<pageBreak />
+le leader.<pageBreak />
+
+Tous les objets récupérés par les
+acolytes sont envoyés dans la <colour id="1" />boîte
+de recyclage <colour id="65535" />du <colour id="1" />bureau des résidents<colour id="65535" />.
+
+
 <colour id="0" />Commandes
 <colour id="65535" /><colour id="1" />Leader<colour id="65535" />
 Identiques à celles du mode solo
@@ -952,17 +1364,20 @@ Les acolytes n'ont pas accès au
 tchat, au NookPhone ou au contenu
 des poches. Ils peuvent utiliser leurs
 outils, déplacer des objets et aider
-le leader.<pageBreak />Tous les objets récupérés à l'aide de
-leurs outils sont envoyés dans la
-<colour id="1" />boîte de recyclage<colour id="65535" /> du <colour id="1" />bureau des
-résidents<colour id="65535" />.<pageBreak />
+le leader.<pageBreak />
+
+Tous les objets récupérés par les
+acolytes sont envoyés dans la <colour id="1" />boîte
+de recyclage <colour id="65535" />du <colour id="1" />bureau des résidents<colour id="65535" />.
+
+
 <colour id="1" />Leader (Commandes)<colour id="65535" />
 Identiques à celles du mode solo
 
 <colour id="1" />Acolyte (Commandes)
- <colour id="65535" />: S'équiper / Changer d'outil
-<colour id="1" /> <colour id="65535" />: Mimique
-<colour id="1" /> <colour id="65535" />: Répéter l'action</message>
+ <colour id="65535" />: S'équiper ou changer d'outil
+<colour id="1" /><colour id="65535" /> : Ramasser / <colour id="1" /> <colour id="65535" />: Mimique
+<colour id="1" /> <colour id="65535" />: Refaire la mimique (le cas échéant)</message>
 	<message label="5202" attrib="01 00">Félicitations pour la construction de
 ta maison ! Voici quelques conseils
 pour y vivre confortablement :<pageBreak /><colour id="1" /> Éteindre ou allumer la lumière
@@ -977,6 +1392,42 @@ y ranger des objets ou en récupérer.<pageBreak />Quand tu es dans ta maison, t
 ouvrir tes poches pour sélectionner
 du mobilier ou d'autres objets et les
 placer dans l'espace de rangement.</message>
+	<message label="5203" attrib="01 00"><colour id="1" />Tchatte <colour id="65535" />avec les autres joueurs !<pageBreak />Appuie sur <colour id="1" /> <colour id="65535" />pour envoyer un
+message à tous les joueurs
+présents.<pageBreak />Tu peux revoir les messages échangés
+dans l'application <colour id="1" />Historique de tchat<colour id="65535" />
+de ton Nookphone.</message>
+	<message label="5301" attrib="0e 09">Lorsque tu <colour id="1" />joues en groupe<colour id="65535" />, les
+modifications apportées aux motifs
+persos que tu portes ne sont pas
+appliquées automatiquement.
+Si tu veux porter le nouveau motif
+perso, applique-le à nouveau en
+sélectionnant <colour id="1" />Porter<colour id="65535" />.</message>
+	<message label="5302" attrib="0e 09">Un motif perso que tu portes a été
+modifié.
+
+Si tu veux porter le nouveau motif,
+applique-le à nouveau en
+sélectionnant <colour id="1" />Porter<colour id="65535" />.
+</message>
+	<message label="5303" attrib="01 09">Un motif perso a été assigné à une
+baguette. Un motif perso enregistré
+dans une tenue n'est pas effacé ou
+écrasé même si tu l'édites.<pageBreak />Mais attention, si tu modifies ou
+ranges la tenue, l'ancien motif sera
+perdu.</message>
+	<message label="5304" attrib="07 00">Cette tenue inclut un motif perso.
+Ce motif perso ne sera pas
+enregistré. Continuer ?</message>
+	<message label="5304_a" attrib="01 00">On oublie.</message>
+	<message label="5304_b" attrib="01 00">On continue.</message>
+	<message label="5305" attrib="01 00"><colour id="0" />Kit coque personnalisable<colour id="65535" />
+Avec ce kit, tu peux modifier
+l'aspect de ton NookPhone.<pageBreak />Note : l'aspect actuel de la coque
+est conservé même si tu remplaces
+le patron du motif perso que tu lui
+as appliqué.</message>
 	<message label="8001" attrib="07 00"><colour id="6" />Il existe actuellement des données
 de résident pour <tag a="110" b="8" />
 sur cette Nintendo Switch qui ne
@@ -1038,9 +1489,23 @@ de la console est le délégué insulaire
 Tu ne peux pas effacer ces données.<pageBreak />Si tu veux effacer les données d'un
 autre résident, lance le jeu avec
 l'utilisateur associé à ce résident.<pageBreak />Ensuite, appuie sur  à l'écran titre
-pour accéder aux paramètres des
-données de sauvegarde et effacer
-ce résident.</message>
+pour accéder aux paramètres et
+effacer ce résident.</message>
 	<message label="8013" attrib="03 00">Pour fermer cet écran, quitte le jeu
 depuis le menu HOME.</message>
+	<message label="8014" attrib="07 00">Le compte Nintendo associé à cet
+utilisateur est différent de celui utilisé
+précédemment.<pageBreak />Les fonctionnalités utilisant Internet
+(liste des meilleurs amis et autres)
+seront réinitialisées si tu lances cette
+partie.<pageBreak />Veux-tu jouer avec <colour id="2" /><tag a="115" b="0" arg="0xcd00" /> <colour id="65535" />?</message>
+	<message label="8014_a" attrib="01 00">Je sais pas.</message>
+	<message label="8014_b" attrib="01 00">Oui !</message>
+	<message label="8015" attrib="07 00">Cet utilisateur n'est pas associé à un
+compte Nintendo.<pageBreak />Les fonctionnalités utilisant Internet
+(liste des meilleurs amis et autres)
+seront réinitialisées si tu lances cette
+partie.<pageBreak />Veux-tu jouer avec <colour id="2" /><tag a="115" b="0" arg="0xcd00" /> <colour id="65535" />?</message>
+	<message label="8015_a" attrib="01 00">Je sais pas.</message>
+	<message label="8015_b" attrib="01 00">Oui !</message>
 </msbt>

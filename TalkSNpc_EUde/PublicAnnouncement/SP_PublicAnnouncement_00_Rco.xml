@@ -1,7 +1,7 @@
 <msbt attribsize="4">
-	<message label="000_01" attrib="00 00 00 00"><tag a="100" b="8" /><anim id="Smiling" target="actor" targetSpec="" />Hallo, <tag a="110" b="8" />!<delay40 />
+	<message label="000_01" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="Smiling" target="actor" targetSpec="" />Hallo, <tag a="110" b="8" />!<delay40 />
 Es ist jetzt <tag a="90" b="30" />:<tag a="90" b="31" />.<endTag a="100" b="8" /></message>
-	<message label="000_02" attrib="00 00 00 00"><tag a="100" b="8" /><anim id="EmotEnd" target="actor" targetSpec="" />Ich hoffe, <delay8 /><anim id="QuestionMark" target="actor" targetSpec="" />ihr habt alle den Tag
+	<message label="000_02" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="EmotEnd" target="actor" targetSpec="" />Ich hoffe, <delay8 /><anim id="QuestionMark" target="actor" targetSpec="" />ihr habt alle den Tag
 angenehm verbracht?<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Nehmt euch nur nicht zu viel auf
 einmal vor.<delay20 /> <anim id="Smiling" target="actor" targetSpec="" />Und macht Pausen, <delay8 />ja,<delay8 /> ja!<endTag a="100" b="8" /></message>
 	<message label="001" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="Smiling" target="mainNpc" targetSpec="" />Hallo miteinander! <delay20 />Hier spricht
@@ -46,19 +46,28 @@ andere! Ein wirklich besonderer Tag!<endTag a="100" b="8" /></message>
 	<message label="021" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="Serious" target="mainNpc" targetSpec="" /><anim id="FaintSmile" target="subNpc" targetSpec="" />Die Neuigkeiten heute<tag a="110" b="0" /><endTag a="100" b="8" /></message>
 	<message label="022" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="Serious" target="mainNpc" targetSpec="" /><anim id="FaintSmile" target="subNpc" targetSpec="" />Weitere Neuigkeiten heute<tag a="110" b="0" /><endTag a="100" b="8" /></message>
 	<message label="031" attrib="00 00 00 12"><tag a="100" b="8" />Weiter im Text...<endTag a="100" b="8" /></message>
+	<message label="041_01" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="IdeaBulb" target="actor" targetSpec="" />Oho!<delay20 /> Der <colour id="1" />Häschentag <colour id="65535" />nähert sich
+mit großen Sprüngen!<delay20 /><anim id="FaintSmile" target="actor" targetSpec="" /><pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Sobald das Wetter frühlingshaft
+wird, <delay8 /><anim id="Nodding" target="actor" targetSpec="" />ist dieses Fest immer nicht
+mehr fern!<endTag a="100" b="8" /></message>
+	<message label="041_02" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="BigSmile" target="actor" targetSpec="" />Heute ist <colour id="1" />Häschentag<colour id="65535" />!<delay frames="40" /><anim id="Smiling" target="actor" targetSpec="" /> Und zu
+diesem Anlass haben wir einen
+ganz speziellen Gast auf der Insel.
+Also seid nicht schüchtern <delay8 /><anim id="Greeting" target="actor" targetSpec="" />und sagt
+ihm auf dem <colour id="1" />Festplatz<colour id="65535" /> Hallo!<endTag a="100" b="8" /></message>
 	<message label="101" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="Clapping" target="actor" targetSpec="" />Wir freuen uns, einen Neuzugang
 auf <tag a="110" b="8" /> zu begrüßen:
 <tag a="115" b="1" arg="0xcd00" />!<endTag a="100" b="8" /></message>
 	<message label="102" attrib="00 00 00 12"><tag a="60" b="20" /></message>
-	<message label="102_01" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="Nodding" target="actor" targetSpec="" />Ich hoffe, dass ihr <tag a="50" b="17" arg="0xe 0xcd00 0x6 0x69 0x68 0x6d 0x6 0x69 0x68 0x72 0x0" /> mit Rat und
+	<message label="102_01" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="Nodding" target="actor" targetSpec="" />Ich hoffe, dass ihr <tag a="50" b="17" arg="0xf 0xcd00 0x6 0x69 0x68 0x6d 0x6 0x69 0x68 0x72 0x0" /> mit Rat und
 Tat zur Seite steht!<anim id="Smiling" target="actor" targetSpec="" /><endTag a="100" b="8" /></message>
-	<message label="102_02" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="Nodding" target="actor" targetSpec="" />Wenn ihr <tag a="50" b="17" arg="0xe 0xcd00 0x6 0x69 0x68 0x6e 0x6 0x73 0x69 0x65 0x0" /> seht,<delay8 /> heißt <tag a="50" b="17" arg="0xe 0xcd00 0x6 0x69 0x68 0x6e 0x6 0x73 0x69 0x65 0x0" /> bitte
+	<message label="102_02" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="Nodding" target="actor" targetSpec="" />Wenn ihr <tag a="50" b="17" arg="0xf 0xcd00 0x6 0x69 0x68 0x6e 0x6 0x73 0x69 0x65 0x0" /> seht,<delay8 /> heißt <tag a="50" b="17" arg="0xf 0xcd00 0x6 0x69 0x68 0x6e 0x6 0x73 0x69 0x65 0x0" /> bitte
 ganz herzlich willkommen!<anim id="Smiling" target="actor" targetSpec="" /><endTag a="100" b="8" /></message>
-	<message label="102_03" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="Nodding" target="actor" targetSpec="" /><tag a="50" b="17" arg="0xe 0xcd00 0x4 0x45 0x72 0x6 0x53 0x69 0x65 0x0" /> wird bestimmt mit Auspacken
+	<message label="102_03" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="Nodding" target="actor" targetSpec="" /><tag a="50" b="17" arg="0xf 0xcd00 0x4 0x45 0x72 0x6 0x53 0x69 0x65 0x0" /> wird bestimmt mit Auspacken
 beschäftigt sein, also schaut doch
-mal bei <tag a="50" b="17" arg="0xe 0xcd00 0x6 0x69 0x68 0x6d 0x6 0x69 0x68 0x72 0x0" /> vorbei!<anim id="Smiling" target="actor" targetSpec="" /><endTag a="100" b="8" /></message>
+mal bei <tag a="50" b="17" arg="0xf 0xcd00 0x6 0x69 0x68 0x6d 0x6 0x69 0x68 0x72 0x0" /> vorbei!<anim id="Smiling" target="actor" targetSpec="" /><endTag a="100" b="8" /></message>
 	<message label="200" attrib="00 00 00 12"><tag a="100" b="8" />Okay<tag a="110" b="0" /> <delay20 />Weiter im Text!<endTag a="100" b="8" /></message>
-	<message label="201" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="Worried" target="actor" targetSpec="" /><tag a="50" b="17" arg="0xe 0xcd00 0x18 0x55 0x6e 0x73 0x65 0x72 0x20 0x6c 0x69 0x65 0x62 0x65 0x72 0x18 0x55 0x6e 0x73 0x65 0x72 0x65 0x20 0x6c 0x69 0x65 0x62 0x65 0x0" /> <tag a="115" b="1" arg="0xcd00" /> wird diese Insel leider aus persönlichen Gründen verlassen.<pageBreak />Heute ist <gender3 m="sein" f="ihr" /> letzter Tag hier bei
+	<message label="201" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="Worried" target="actor" targetSpec="" /><tag a="50" b="17" arg="0xf 0xcd00 0x18 0x55 0x6e 0x73 0x65 0x72 0x20 0x6c 0x69 0x65 0x62 0x65 0x72 0x18 0x55 0x6e 0x73 0x65 0x72 0x65 0x20 0x6c 0x69 0x65 0x62 0x65 0x0" /> <tag a="115" b="1" arg="0xcd00" /> wird diese Insel leider aus persönlichen Gründen verlassen.<pageBreak />Heute ist <gender3 m="sein" f="ihr" /> letzter Tag hier bei
 uns, <delay8 />also nehmt euch doch die Zeit,<delay8 />
 euch zu verabschieden.<endTag a="100" b="8" /></message>
 	<message label="600" attrib="00 00 00 12"><tag a="60" b="20" /></message>
@@ -203,24 +212,22 @@ Gespräche entwickeln!<endTag a="100" b="8" /></message>
 	<message label="702_02" attrib="00 00 00 12"><tag a="100" b="8" />Benutzt ihr auch das <colour id="1" /><anim id="QuestionMark" target="actor" targetSpec="" />NookPortal
 <colour id="65535" />im <colour id="1" />Servicecenter<colour id="65535" />?<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Einmal am Tag könnt ihr euch durch
 seine Nutzung Meilen verdienen.<anim id="Smiling" target="actor" targetSpec="" /><pageBreak />Wenn ihr es an mehreren Tagen
-hintereinander benutzt, gibt es sogar
-noch mehr Meilen!<endTag a="100" b="8" /></message>
+hintereinander benutzt, gibt es
+sogar noch mehr Meilen!<endTag a="100" b="8" /></message>
 	<message label="702_03" attrib="00 00 00 12"><tag a="100" b="8" />Seht ihr euch beim Spazierengehen
 den Himmel <delay8 /><anim id="QuestionMark" target="actor" targetSpec="" />oder die Landschaft an?<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Bewegt <colour id="1" /> (rechter Stick)<colour id="65535" /> nach
 oben oder unten, <delay8 />um eine neue<anim id="Smiling" target="actor" targetSpec="" />
 Perspektive zu erhalten.<endTag a="100" b="8" /></message>
 	<message label="702_04" attrib="00 00 00 12"><tag a="100" b="8" />Nutzt ihr denn auch die
-<colour id="1" />Krimskramskiste <colour id="65535" />im <colour id="1" />Servicecenter<colour id="65535" />?<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Ihr könnt darin Sachen ablegen, <delay8 />die
-ihr nicht mehr braucht, <delay8 />und jemand
-anders kann sie mitnehmen.<anim id="Smiling" target="actor" targetSpec="" /><pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Vielleicht findet ihr darin ja auch mal
+<colour id="1" />Krimskramskiste <colour id="65535" />im <colour id="1" />Servicecenter<colour id="65535" />?<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Darin landen Sachen, <delay8 />die eure
+Nachbarn nicht mehr benötigen.<anim id="Smiling" target="actor" targetSpec="" /><pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Vielleicht findet ihr darin ja auch mal
 den einen oder anderen Schatz,<delay8 /> hm?<anim id="Smiling" target="actor" targetSpec="" /><endTag a="100" b="8" /></message>
 	<message label="703" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="BigSmile" target="actor" targetSpec="" />Ich werde euch nun etwas über die
 Prämien des <colour id="1" />Nook-Meilenprogramms<colour id="65535" />
 erzählen.<endTag a="100" b="8" /></message>
 	<message label="704" attrib="00 00 00 12"><tag a="60" b="20" /></message>
-	<message label="704_01" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="EmotEnd" target="actor" targetSpec="" />Heute möchte ich euch eine
-App vorstellen, <delay8 />und zwar<delay40 />
-<anim id="Clapping" target="actor" targetSpec="" /><colour id="1" />Designs: Profi-Edition<colour id="65535" />!<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Dabei handelt es sich um eine
+	<message label="704_01" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="EmotEnd" target="actor" targetSpec="" />Was ich euch ans Herz legen
+möchte?<delay40 /> <anim id="Clapping" target="actor" targetSpec="" /><colour id="1" />Designs: Profi-Edition<colour id="65535" />!<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Dabei handelt es sich um eine
 neue Version der <colour id="1" />Designs<colour id="65535" />-App.<anim id="Smiling" target="actor" targetSpec="" /><pageBreak /><anim id="Explain" target="actor" targetSpec="" />Sie verfügt über professionellere
 Farbanpassungs- und Design-
 funktionen.<anim id="Smiling" target="actor" targetSpec="" /><pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Auch ohne <colour id="1" />Designs: Profi-Edition<colour id="65535" />
@@ -228,15 +235,17 @@ könnt ihr Profi-Designs erhalten
 und nutzen.<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Aber wenn ihr eigene Profi-Designs
 entwerfen wollt, <delay8 />dann zieht dieses
 Upgrade in Betracht.<endTag a="100" b="8" /></message>
-	<message label="704_02" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="EmotEnd" target="actor" targetSpec="" />Sprechen wir doch heute einmal<delay40 />
-über <anim id="Clapping" target="actor" targetSpec="" /><colour id="1" />Alltagswerkzeuge A–Z<colour id="65535" />!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Darin sind Bastelanleitungen für
+	<message label="704_02" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="EmotEnd" target="actor" targetSpec="" />Ich würde euch gerne ein Muss für
+jeden Hobbybastler vorstellen:<delay40 />
+<anim id="Clapping" target="actor" targetSpec="" />„<colour id="1" />Alltagswerkzeuge A–Z<colour id="65535" />“!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Darin sind Bastelanleitungen für
 Werkzeuge, <delay8 />die nicht ganz so leicht
 kaputtgehen.<anim id="Smiling" target="actor" targetSpec="" />
 <anim id="Nodding" target="actor" targetSpec="" />Wenn ihr stabileres Werkzeug wollt,
 <delay20 /><anim id="Smiling" target="actor" targetSpec="" />dann löst doch ein paar Nook-Meilen
 für diese Prämie ein.<endTag a="100" b="8" /></message>
-	<message label="704_03" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="EmotEnd" target="actor" targetSpec="" />Lasst mich kurz über <anim id="Clapping" target="actor" targetSpec="" /><colour id="1" />Werkzeugring:
-Ein Muss!<colour id="65535" /> sprechen.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Wie läuft es so mit dem Leben auf
+	<message label="704_03" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="EmotEnd" target="actor" targetSpec="" />Ich würde euch gern einen
+praktischen Berater vorstellen:<delay20 />
+<anim id="Clapping" target="actor" targetSpec="" />„<colour id="1" />Werkzeugring: Ein Muss!<colour id="65535" />“.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Wie läuft es so mit dem Leben auf
 der Insel, <delay8 /><anim id="QuestionMark" target="actor" targetSpec="" />tragt ihr inzwischen alle
 möglichen Werkzeuge bei euch?<pageBreak /><anim id="Sighing" target="actor" targetSpec="" />Ich könnte mir vorstellen, dass es
 euch langsam zu viel wird, <delay8 />zwischen
@@ -245,9 +254,9 @@ den Werkzeugen zu wechseln...<pageBreak /><anim id="Explain" target="actor" targ
 denen ihr bequem wechseln könnt!<anim id="Smiling" target="actor" targetSpec="" /><pageBreak /><anim id="Grin" target="actor" targetSpec="" /><delay8 />Ich kann ihn nur empfehlen, <delay8 />wenn ihr
 stets schnell das passende Werkzeug
 zur Hand haben wollt.<endTag a="100" b="8" /></message>
-	<message label="704_04" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="EmotEnd" target="actor" targetSpec="" />Heute möchte ich ein paar kleine
-Ausführungen zu<delay40 /><tag a="100" b="8" /><anim id="Clapping" target="actor" targetSpec="" /><endTag a="100" b="8" /> <colour id="1" />Taschen richtig
-nutzen<colour id="65535" /> machen.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Je länger man an einem Ort lebt,<delay8 />
+	<message label="704_04" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="EmotEnd" target="actor" targetSpec="" />Ich möchte euch einen überaus
+praktischen Berater vorstellen:<delay40 /><anim id="Clapping" target="actor" targetSpec="" />
+„<colour id="1" />Taschen richtig nutzen<colour id="65535" />“.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Je länger man an einem Ort lebt,<delay8 />
 desto mehr Dinge sammeln sich an.<delay20 />
 Das gilt nicht zuletzt auch hier.<pageBreak />Fühlt sich jemand von euch<anim id="QuestionMark" target="actor" targetSpec="" /> vielleicht
 ein bisschen überladen?<delay20 /><anim id="Nodding" target="actor" targetSpec="" /> Euch kann
@@ -258,16 +267,16 @@ eure Tasche.<pageBreak /><anim id="BigSmile" target="actor" targetSpec="" /><del
 Ordnung in euer Leben,<delay8 /> ja,<delay8 /> ja!<anim id="Smiling" target="actor" targetSpec="" /><endTag a="100" b="8" /></message>
 	<message label="704_05" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="EmotEnd" target="actor" targetSpec="" />Es ist Zeit, <delay8 />dass ich etwas zu
 <delay40 /><anim id="Clapping" target="actor" targetSpec="" /><colour id="1" />Frisuren<colour id="65535" /> und <colour id="1" />Haarfarben<colour id="65535" /> sage!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Wusstet ihr, <delay8 />dass man sich dabei von
-Büchern wie <colour id="1" />Die 8 poppigsten
-Frisuren<colour id="65535" /> inspirieren lassen kann?<anim id="Smiling" target="actor" targetSpec="" /><pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Alles, <delay8 />was ihr braucht, <delay8 />ist ein
+Büchern wie „<colour id="1" />Die 8 poppigsten
+Frisuren<colour id="65535" />“ inspirieren lassen kann?<anim id="Smiling" target="actor" targetSpec="" /><pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Alles, <delay8 />was ihr braucht, <delay8 />ist ein
 <colour id="1" />Spiegel<colour id="65535" /> oder ein <colour id="1" />Frisiertisch<colour id="65535" />,<delay8 /> so
 etwas in der Art...<anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Wer dem Trend voraus sein möchte,<delay8 />
 sollte sich dieses Buch besorgen!<endTag a="100" b="8" /></message>
-	<message label="705" attrib="00 00 00 00"><tag a="100" b="8" /><anim id="BigSmile" target="actor" targetSpec="" />Ein kleiner Tipp, <delay8 />um euer Leben auf
+	<message label="705" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="BigSmile" target="actor" targetSpec="" />Ein kleiner Tipp, <delay8 />um euer Leben auf
 unserer Insel noch angenehmer zu
 gestalten...<endTag a="100" b="8" /></message>
-	<message label="706" attrib="00 00 00 00"><tag a="60" b="20" /></message>
-	<message label="706_01" attrib="00 00 00 00"><tag a="100" b="8" /><anim id="Nodding" target="actor" targetSpec="" />Zusammen mit eurem Zelt habt ihr
+	<message label="706" attrib="00 00 00 12"><tag a="60" b="20" /></message>
+	<message label="706_01" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="Nodding" target="actor" targetSpec="" />Zusammen mit eurem Zelt habt ihr
 auch ein Taschenradio erhalten,
 damit ihr Musik hören könnt.<anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Es gibt aber außerdem noch andere
 Abspielgeräte wie zum Beispiel
@@ -275,7 +284,7 @@ Abspielgeräte wie zum Beispiel
 eure Lieblingsmusik hören<tag a="110" b="0" /><pageBreak /><anim id="Explain" target="actor" targetSpec="" />Musik könnt ihr bei <colour id="1" />Nook Shopping<colour id="65535" />
 kaufen.<delay20 /><anim id="Smiling" target="actor" targetSpec="" /> Haltet die Augen auf nach
 euren Lieblingsliedern!<endTag a="100" b="8" /></message>
-	<message label="706_02" attrib="00 00 00 00"><tag a="100" b="8" /><anim id="EmotEnd" target="actor" targetSpec="" />Es war eine große Entscheidung,<delay8 />
+	<message label="706_02" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="EmotEnd" target="actor" targetSpec="" />Es war eine große Entscheidung,<delay8 />
 ein neues Leben hier auf <tag a="110" b="8" /> anzufangen.<pageBreak />Möchtet ihr auch große Änderungen<anim id="QuestionMark" target="actor" targetSpec="" />
 an eurem persönlichen Stil machen?<delay20 />
 <anim id="Smiling" target="actor" targetSpec="" />Dann habe ich gute Neuigkeiten!<pageBreak /><anim id="Nodding" target="actor" targetSpec="" /><colour id="1" />Frisiertische<colour id="65535" />, <delay8 /><colour id="1" />Spiegel<colour id="65535" /> und andere
@@ -283,13 +292,13 @@ Items, <delay8 />in denen man sich betrachten
 kann, <delay8 />helfen euch nämlich dabei!<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Ob <colour id="1" />Frisur<colour id="65535" />, <delay8 /><colour id="1" />Haarfarbe<colour id="65535" /> oder sogar
 <colour id="1" />Gesicht<colour id="65535" /> – ihr könnt jeden Tag anders
 aussehen, <delay8 />wenn ihr wollt!<anim id="Smiling" target="actor" targetSpec="" /><endTag a="100" b="8" /></message>
-	<message label="706_03" attrib="00 00 00 00"><tag a="100" b="8" /><anim id="AbsentMindedness" target="actor" targetSpec="" />Wer selbst auf einer einsamen Insel
+	<message label="706_03" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="AbsentMindedness" target="actor" targetSpec="" />Wer selbst auf einer einsamen Insel
 stilvoll bleiben will, <delay8 /><anim id="Smiling" target="actor" targetSpec="" />braucht einen
 <colour id="1" />Schrank<colour id="65535" />.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Mit diesem Item im Haus könnt ihr
 euer ganzes Outfit ganz einfach wechseln.<anim id="Smiling" target="actor" targetSpec="" /><pageBreak /><anim id="BigSmile" target="actor" targetSpec="" />Veranstaltet zu Hause eine kleine
 Modenschau und macht dann die
 Welt zu eurem Laufsteg, <delay8 />ja, ja!<endTag a="100" b="8" /></message>
-	<message label="706_04" attrib="00 00 00 00"><tag a="100" b="8" /><anim id="AbsentMindedness" target="actor" targetSpec="" />Stellt euch eine laue Nacht auf
+	<message label="706_04" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="AbsentMindedness" target="actor" targetSpec="" />Stellt euch eine laue Nacht auf
 <tag a="110" b="8" /> vor...<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Da darf stimmungsvolle Beleuchtung
 von <colour id="1" />Lampen<colour id="65535" /> oder <colour id="1" />Kerzen<colour id="65535" /> nicht
 fehlen!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Verschiedene Leuchtquellen sowie

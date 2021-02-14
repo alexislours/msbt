@@ -1,6 +1,7 @@
 <msbt attribsize="4">
 	<message label="002_02" attrib="00 00 00 00"><anim id="HappyDance" target="actor" targetSpec="" />Spero che continuerai a fare
-acquisti alla <colour id="1" />Bottega di Nook<colour id="65535" />!<delay frames="40" /><anim id="EmotEnd" target="actor" targetSpec="" /></message>
+acquisti alla <colour id="1" />Bottega di Nook<colour id="65535" />!<delay frames="40" /><anim id="Hello" target="subNpc" targetSpec="" />
+<tag a="100" b="4" /><delay8 /><size value="75" />... di <colour id="1" />Nook<colour id="65535" />!<size value="100" /><endTag a="100" b="4" /></message>
 	<message label="002_03" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Oops, scusa<tag a="110" b="0" /> <anim id="FaintSmile" target="actor" targetSpec="" />Non mi ero accorto
 che stavi guardando una cosa.</message>
 	<message label="051" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" /><gender2 m="Benvenuto" f="Benvenuta" />, <tag a="110" b="1" />!<delay20 /><anim id="Smiling" target="actor" targetSpec="" /> Hai visto? Ce l'abbiamo fatta! <delay frames="40" /><anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak />Grazie al tuo aiuto,<delay20 /><anim id="HappyFlower" target="actor" targetSpec="" /> oggi possiamo
@@ -62,11 +63,12 @@ all'esterno dal negozio.
 O trovi il negozio chiuso?<delay20 /> Ti basterà
 lasciarlo nella cassetta.<delay frames="40" /><anim id="Smiling" target="subNpc" targetSpec="" /> Facile, no?
 <anim id="Explain" target="mainNpc" targetSpec="" />Ti invieremo i ricavi al più presto,
-direttamente sul tuo conto corrente.<pageBreak /><anim id="EmotEnd" target="mainNpc" targetSpec="" />Tieni presente due cose:<delay8 /> per l'uso
+direttamente sul tuo conto corrente.<delay20 />
+Tieni presente alcune cose, però<tag a="110" b="0" /><pageBreak /><anim id="ShyBoy" target="subNpc" targetSpec="" />Non accettiamo rape <delay8 />e per l'uso
 della cassetta deposito si applica
 una piccola commissione di servizio.
-<anim id="EmotEnd" target="mainNpc" targetSpec="" />Inoltre, nella cassetta non è possibile
-lasciare rape o articoli del giorno.</message>
+<anim id="Explain" target="mainNpc" targetSpec="" />Inoltre, gli articoli del giorno sono
+venduti al prezzo normale.<anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" /></message>
 	<message label="061_05" attrib="00 00 00 00"><tag a="110" b="0" /> <anim id="Smiling" target="mainNpc" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" />E questo è tutto!</message>
 	<message label="101" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Indovina un po', <tag a="110" b="1" /><tag a="110" b="0" /><delay frames="40" /> <anim id="Aha" target="actor" targetSpec="" />Ci sono delle grossissime novità!</message>
 	<message label="101_01" attrib="00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Ehilà! Hai un secondo?<delay frames="30" /><anim id="FaintSmile" target="actor" targetSpec="" /> Ho una
@@ -80,13 +82,11 @@ ulteriormente il negozio!</message>
 perciò il negozio resterà chiuso
 tutto il giorno.<pageBreak /><anim id="ShyBoy" target="actor" targetSpec="" />Ci scusiamo per il disagio<tag a="110" b="0" /><anim id="Nodding" target="actor" targetSpec="" /> ma
 niente paura: riapriremo già dopodomani!</message>
-	<message label="151" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" /><gender2 m="Benvenuto" f="Benvenuta" /> al nostro nuovo negozio!<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Sono felice che sia <gender2 m="venuto" f="venuta" /> a farci
-visita<anim id="Hello" target="actor" targetSpec="" /> proprio nel giorno della
+	<message label="151" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" /><gender2 m="Benvenuto" f="Benvenuta" /> al nostro <anim id="FaintSmile" target="subNpc" targetSpec="" /><anim id="HappyDance" target="actor" targetSpec="" />nuovo negozio!<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" />Sono felice che sia <gender2 m="venuto" f="venuta" /> a farci
+visita<anim id="Hello" target="actor" targetSpec="" /><anim id="FaintSmile" target="subNpc" targetSpec="" /> proprio nel giorno della
 riapertura dopo il rinnovo!</message>
-	<message label="151_01" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" /><gender2 m="Benvenuto" f="Benvenuta" />, <tag a="110" b="1" />!<delay frames="40" />
-<anim id="Nodding" target="actor" targetSpec="" />Sbaglio, o è la prima volta che
-vieni al negozio dopo il rinnovo?<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Cosa te ne pare<delay8 /><anim id="Hello" target="actor" targetSpec="" /> del nuovo locale?
-Bello grande, vero?</message>
+	<message label="151_01" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Oh, <tag a="110" b="1" />! <anim id="FaintSmile" target="subNpc" targetSpec="" /><gender2 m="Benvenuto" f="Benvenuta" />!<delay frames="40" /> <anim id="Nodding" target="actor" targetSpec="" />Sbaglio, o è la prima volta che fai visita al negozio dopo il rinnovo?<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" />Cosa te ne pare<delay8 /><anim id="Hello" target="actor" targetSpec="" /> del nuovo locale?<delay8 />
+<anim id="FaintSmile" target="subNpc" targetSpec="" />Bello grande, vero?</message>
 	<message label="152" attrib="00 00 00 00"><anim id="HappyDance" target="actor" targetSpec="" />Spero che continuerai a fare
 acquisti alla <colour id="1" />Bottega di Nook<colour id="65535" />!<delay frames="40" /><anim id="EmotEnd" target="actor" targetSpec="" /></message>
 	<message label="152_01" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Oops, scusa<tag a="110" b="0" /> <anim id="FaintSmile" target="actor" targetSpec="" />Non mi ero accorto

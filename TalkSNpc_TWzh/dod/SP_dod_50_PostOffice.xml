@@ -1,4 +1,15 @@
 <msbt attribsize="4">
+	<message label="010" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />啊，<delay8 /><tag a="110" b="1" />，<delay frames="30" />
+<anim id="Nodding" target="actor" targetSpec="" />現在也能向一起玩過的朋友<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />寄送心意卡了。</message>
+	<message label="020" attrib="00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />使用這項功能<delay20 />
+<anim id="Nodding" target="actor" targetSpec="" />有一些事項需注意，<delay frames="30" />
+<anim id="Hello" target="actor" targetSpec="" />能請您查看一下這些內容嗎？</message>
+	<message label="040" attrib="02 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />請一定要把握這個機會！<10_4 />
+<anim id="EmotEnd" target="actor" targetSpec="" />那麼，要現在就<delay20 />
+<anim id="QuestionMark" target="actor" targetSpec="" />寄送心意卡嗎？</message>
+	<message label="040_a" attrib="00 00 00 00">寄送</message>
+	<message label="040_b" attrib="00 00 00 00">退出</message>
 	<message label="050" attrib="02 00 00 00"><anim id="Shocked" target="actor" targetSpec="" /><delay20 />啊，<delay20 />
 您要寄送<anim id="QuestionMark" target="actor" targetSpec="" />心意卡嗎？<pageBreak /><anim id="ShyBoy" target="actor" targetSpec="" />那麼，呃<tag a="110" b="0" /><delay20 />
 我沒辦法同時處理多項業務，<delay8 />
@@ -8,6 +19,16 @@
 	<message label="051" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />不好意思<tag a="110" b="0" /><delay20 />
 <anim id="FaintSmile" target="actor" targetSpec="" />那麼，我就把大門關上了！</message>
 	<message label="052" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />讓您久等了！<delay20 /><anim id="FaintSmile" target="actor" targetSpec="" /></message>
+	<message label="053" attrib="02 00 00 00"><anim id="Shocked" target="actor" targetSpec="" /><delay20 />啊，<delay20 />
+<anim id="QuestionMark" target="actor" targetSpec="" />您要寄送心意卡嗎？<pageBreak /><anim id="Explain" target="actor" targetSpec="" />這樣的話，為了安全起見，<delay frames="30" />
+<anim id="QuestionMark" target="actor" targetSpec="" />我可以先結束通訊嗎？</message>
+	<message label="053_a" attrib="00 00 00 00">好的</message>
+	<message label="053_b" attrib="00 00 00 00">等一下！</message>
+	<message label="054" attrib="00 00 00 00">不好意思<tag a="110" b="0" /><delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />那麼我要結束通訊了！</message>
+	<message label="055" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />明白了。<delay frames="30" /><anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak /><anim id="Explain" target="actor" targetSpec="" />那麼，<delay8 />我就先這樣開著。<delay frames="30" />
+<anim id="FaintSmile" target="actor" targetSpec="" />您要使用郵寄服務時，<delay8 />
+請再告訴我一聲。</message>
 	<message label="070" attrib="02 00 00 00">要寄送心意卡嗎？</message>
 	<message label="070_a" attrib="00 00 00 00">寄送</message>
 	<message label="070_b" attrib="00 00 00 00">下次再說</message>
@@ -16,6 +37,12 @@
 	<message label="080_a" attrib="00 00 00 00">這座島的居民</message>
 	<message label="080_b" attrib="00 00 00 00">未來的自己</message>
 	<message label="080_c" attrib="00 00 00 00">還是算了</message>
+	<message label="081" attrib="0c 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />明白了！<delay frames="30" />
+<anim id="EmotEnd" target="actor" targetSpec="" />要寄給誰呢？</message>
+	<message label="081_a" attrib="00 00 00 00">這座島的居民</message>
+	<message label="081_b" attrib="00 00 00 00">未來的自己</message>
+	<message label="081_c" attrib="00 00 00 00">朋友</message>
+	<message label="081_e" attrib="00 00 00 00">還是算了</message>
 	<message label="200" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />要寄給這座島上的人，對吧。<delay frames="40" />
 <anim id="EmotEnd" target="actor" targetSpec="" />那麼，<delay20 /><anim id="QuestionMark" target="actor" targetSpec="" />要寄給哪一位呢？</message>
 	<message label="210_01" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />要寄給<tag a="115" b="0" arg="0xcd00" />，對吧！</message>
@@ -30,9 +57,37 @@
 還沒派送的信件<tag a="110" b="0" /><pageBreak />所以暫時無法<delay20 />
 <anim id="Negative" target="actor" targetSpec="" />收下您的信件。<pageBreak />非常抱歉，<delay20 />
 <anim id="Nodding" target="actor" targetSpec="" />請您過一段時間再過來吧。</message>
+	<message label="301" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />那麼，請選擇想寄給哪位朋友。</message>
+	<message label="311" attrib="00 00 00 00">要寄卡片給朋友，<delay frames="30" />
+<anim id="Explain" target="actor" targetSpec="" />請先解除<delay20 />Parental Controls設定裡的<delay8 />
+「與其他用戶自由溝通」<anim id="EmotEnd" target="actor" targetSpec="" />的限制。</message>
+	<message label="312" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />哎呀，<delay20 /><anim id="Thinking" target="actor" targetSpec="" />看來您還沒有可收件的朋友呢。<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />透過和朋友一起藉由通訊出島後，<delay20 />
+<anim id="EmotEnd" target="actor" targetSpec="" />就可以寄送卡片囉。</message>
 	<message label="320" attrib="00 00 00 00">哎呀，您今天好像已經
 寄給<tag a="115" b="0" arg="0xcd00" />兩次了。<pageBreak />要等明天才能再寄送，
 請您明天再來吧。</message>
+	<message label="321" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />那麼，我來辦理<delay8 />
+<anim id="Hello" target="actor" targetSpec="" />寄卡片給朋友的手續。</message>
+	<message label="350" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />哎呀，<delay20 />您是第一次寄卡片給任天堂呢。<anim id="EmotEnd" target="actor" targetSpec="" /><10_4 />
+<anim id="Negative" target="actor" targetSpec="" />這位收件人即使收到信也不會回覆的，<delay20 />
+所以請不要有所期待喔。<pageBreak /><anim id="Explain" target="actor" targetSpec="" />另外，您所寄送的內容<delay20 />
+有可能在官方網站或<delay8 />社群網站公開，<delay frames="30" />
+<anim id="FaintSmile" target="actor" targetSpec="" />所以請不要書寫個人資料喔。<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />那麼，請書寫卡片。</message>
+	<message label="351" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />要寄給任天堂對吧。<delay frames="40" />
+<anim id="EmotEnd" target="actor" targetSpec="" />那麼，<delay8 />請書寫卡片。</message>
+	<message label="352" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />哎呀，<delay20 />您今天好像已經<delay8 />
+<anim id="Serious" target="actor" targetSpec="" />寄給任天堂<delay20 />兩次了。<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />要等明天<delay8 />才能再寄送，<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />請您明天再來吧。</message>
+	<message label="353" attrib="00 00 00 00">那麼，我來辦理
+寄卡片給任天堂的手續。</message>
+	<message label="380" attrib="02 00 00 00"><anim id="Eh" target="actor" targetSpec="" />哎呀，<delay20 /><anim id="Negative" target="actor" targetSpec="" />好像無法寄送呢。<10_4 />
+<anim id="EmotEnd" target="actor" targetSpec="" />要再試一次嗎？<delay frames="30" />
+<anim id="Serious" target="actor" targetSpec="" />還是要稍後再寄呢？</message>
+	<message label="380_a" attrib="00 00 00 00">再試一次</message>
+	<message label="380_b" attrib="00 00 00 00">稍後再寄</message>
+	<message label="381" attrib="00 00 00 00">那麼，<delay20 /><anim id="Hello" target="actor" targetSpec="" />我先把剛才收下的郵資還給您。</message>
+	<message label="382" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />然後，<delay8 />編輯中的卡片上附有一份禮物，<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />我也先還給您。</message>
 	<message label="400" attrib="00 00 00 00" />
 	<message label="401" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />那麼，<delay20 />您想要多久之後
 收到這張卡片呢？</message>
@@ -120,8 +175,19 @@
 	<message label="620" attrib="01 00 00 00">要把收件人改成哪一位呢？</message>
 	<message label="620_a" attrib="00 00 00 00">這座島的居民</message>
 	<message label="620_b" attrib="00 00 00 00">未來的自己</message>
+	<message label="621" attrib="0b 00 00 00">要把收件人改成哪一位呢？</message>
+	<message label="621_a" attrib="00 00 00 00">這座島的居民</message>
+	<message label="621_b" attrib="00 00 00 00">未來的自己</message>
+	<message label="621_c" attrib="00 00 00 00">朋友</message>
+	<message label="621_d" attrib="00 00 00 00">任天堂</message>
+	<message label="625" attrib="00 00 00 00">您已經支付過這張卡片的郵資了。
+因為要更改收件人，
+所以我先把郵資還給您喔。</message>
 	<message label="630" attrib="00 00 00 00">那麼，<delay20 />放在我這裡的卡片<delay8 />
 <anim id="Nodding" target="actor" targetSpec="" />會由我這裡處理掉。</message>
+	<message label="631" attrib="00 00 00 00">這張卡片我就丟棄了。<10_4 />
+另外，<delay8 />您支付的費用<colour id="1" />200鈴錢<colour id="65535" />，
+也退還給您。</message>
 	<message label="800" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />感謝您使用本服務！</message>
 	<message label="801" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />這樣啊。<delay frames="40" />
 下次想使用本服務時，<delay8 />

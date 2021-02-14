@@ -26,9 +26,11 @@ bewoner. <delay20 /><anim id="QuestionMark" target="actor" targetSpec="" />Hoe k
 	<message label="002_a" attrib="00 00 00 00">Ik wil naar huis.</message>
 	<message label="002_b" attrib="00 00 00 00">Ik heb gereedschap nodig.</message>
 	<message label="002_c" attrib="00 00 00 00"><anim id="Negative" target="player" targetSpec="" />Laat maar.</message>
-	<message label="003" attrib="02 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Ben je klaar om op te stijgen en terug te keren naar <tag a="110" b="34" />?</message>
+	<message label="003" attrib="02 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Ben je klaar om op te stijgen en terug te keren naar <tag a="110" b="34" />?<pageBreak /><anim id="Angry" target="actor" targetSpec="" />Ik wil niet dat je per ongeluk iets
+op het eiland laat liggen.<delay20 /> Dus<tag a="110" b="0" />
+<anim id="QuestionMark" target="actor" targetSpec="" />weet je het echt zeker?</message>
 	<message label="003_a" attrib="00 00 00 00"><anim id="Nodding" target="player" targetSpec="" />Ja!</message>
-	<message label="003_b" attrib="00 00 00 00"><anim id="Negative" target="player" targetSpec="" />Nee, wacht<tag a="110" b="0" /></message>
+	<message label="003_b" attrib="00 00 00 00"><anim id="Negative" target="player" targetSpec="" />Nee, wacht...</message>
 	<message label="004" attrib="00 00 00 00"><snpcAnim id="DodRoger" target="actor" targetSpec="" /><delay20 />Luid en duidelijk!<delay frames="40" /> Zet je schrap,
 daar gaan we!</message>
 	<message label="008" attrib="00 00 00 00"><anim id="Assent" target="actor" targetSpec="" />Luid en duidelijk! <delay20 />Dan laat ik je met

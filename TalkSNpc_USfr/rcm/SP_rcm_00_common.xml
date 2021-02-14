@@ -182,7 +182,7 @@ coûte <tag a="90" b="26" arg="0x0" />. <10_4 /><anim id="QuestionMark" target="
 	<message label="101" attrib="00 00 00 00"><anim id="Nodding" target="mainNpc" targetSpec="" /><anim id="FaintSmile" target="subNpc" targetSpec="" />Je vois que tu t'intéresses<delay20 /><anim id="FaintSmile" target="mainNpc" targetSpec="" /> à notre
 <tag a="125" b="0" arg="0x0" />.</message>
 	<message label="102" attrib="00 00 00 00"><anim id="Nodding" target="mainNpc" targetSpec="" />On n'en a pas une quantité illimitée,
-tu sais.<delay20 /><anim id="Nodding" target="subNpc" targetSpec="" /> Alors, <tag a="50" b="17" arg="0x11 0xcd00 0x8 0x73 0x27 0x69 0x6c 0xe 0x73 0x69 0x20 0x65 0x6c 0x6c 0x65 0x0" /> te tente,<anim id="FaintSmile" target="mainNpc" targetSpec="" /><anim id="FaintSmile" target="subNpc" targetSpec="" /> tu
+tu sais.<delay20 /><anim id="Nodding" target="subNpc" targetSpec="" /> Alors, <tag a="50" b="17" arg="0x12 0xcd00 0x8 0x73 0x27 0x69 0x6c 0xe 0x73 0x69 0x20 0x65 0x6c 0x6c 0x65 0x0" /> te tente,<anim id="FaintSmile" target="mainNpc" targetSpec="" /><anim id="FaintSmile" target="subNpc" targetSpec="" /> tu
 devrais te décider rapidement.</message>
 	<message label="103" attrib="02 00 00 00">Voyons voir<tag a="110" b="0" /><delay8 /><anim id="Nodding" target="mainNpc" targetSpec="" /> Son prix est de
 <delay8 /><tag a="90" b="24" arg="0x0" />.<delay20 /> <anim id="Hello" target="subNpc" targetSpec="" />Ça te tente?</message>
@@ -213,10 +213,16 @@ n'importe où.</message>
 	<message label="106_02" attrib="00 00 00 00"><anim id="Smiling" target="mainNpc" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" />Si tu l'achètes, je télécharge
 immédiatement ces plans sur ton
 NookPhone.</message>
-	<message label="107_01" attrib="00 00 00 00"><anim id="Smiling" target="mainNpc" targetSpec="" />OK, <delay8 />je vais télécharger les plans <gender4 m="de " f="d'" />« ⁠<tag a="125" b="0" arg="0x0" /> »<anim id="Smiling" target="subNpc" targetSpec="" /> vers ton NookPhone<tag a="110" b="0" /></message>
+	<message label="107_01" attrib="00 00 00 00"><anim id="Smiling" target="mainNpc" targetSpec="" />Je vais télécharger les plans inclus dans « <tag a="125" b="0" arg="0x0" /> »<anim id="Smiling" target="subNpc" targetSpec="" /> vers ton NookPhone<tag a="110" b="0" /></message>
 	<message label="107_02" attrib="00 00 00 00"><anim id="BigSmile" target="mainNpc" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" />Et voilà!<10_4 /><anim id="Smiling" target="mainNpc" targetSpec="" /> Profite bien de tous les
 nouveaux plans de <colour id="1" />bricolage<colour id="65535" /> à ta
 disposition!<tag a="100" b="4" /><delay8 /> <size value="75" />Ça va bricoler à fond!<size value="100" /><endTag a="100" b="4" /></message>
+	<message label="108" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Oh!<delay20 /> Malheureusement, on ne peut
+vendre cet article qu'aux clients
+disposant de l'appli <colour id="1" />Créations<colour id="65535" />.<delay20 />
+<anim id="Smiling" target="actor" targetSpec="" />Si tu veux perfectionner tes talents
+dans le domaine, passe donc au
+<colour id="1" />bureau des résidents<colour id="65535" /> de ton île!</message>
 	<message label="110_02" attrib="02 00 00 00"><anim id="Shocked" target="mainNpc" targetSpec="" /><anim id="Shocked" target="subNpc" targetSpec="" /><tag a="50" b="3" /><tag a="110" b="1" /><tag a="110" b="0" /> je crois que tu as déjà ce plan.<pageBreak /><anim id="FaintSmile" target="mainNpc" targetSpec="" /><anim id="FaintSmile" target="subNpc" targetSpec="" />Mais si tu veux l'acheter quand même, c'est <tag a="90" b="26" arg="0x0" />. <anim id="QuestionMark" target="mainNpc" targetSpec="" />Ça te va?<anim id="QuestionMark" target="subNpc" targetSpec="" /><tag a="100" b="4" /><delay8 /> <size value="75" />Le client est roi!<size value="100" /><endTag a="100" b="4" /></message>
 	<message label="110_02_a" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />J'achète!</message>
 	<message label="110_02_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />En fait, non.</message>
@@ -295,7 +301,7 @@ tes <tag a="90" b="26" arg="0x0" />!<anim id="Nodding" target="subNpc" targetSpe
 	<message label="121_02" attrib="00 00 00 00"><anim id="Explain" target="mainNpc" targetSpec="" />Nous achetons les articles phares au
 <colour id="1" />double <colour id="65535" />de leur prix habituel,<delay20 /><anim id="Smiling" target="mainNpc" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" /> alors
 profites-en!<tag a="100" b="4" /><delay8 /> <size value="75" />Amène-nous ceux que tu as!<size value="100" /><endTag a="100" b="4" /></message>
-	<message label="122" attrib="02 00 00 00"><anim id="Smiling" target="mainNpc" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" /><tag a="50" b="3" /><tag a="50" b="2" /><tag a="125" b="0" arg="0x0" />! Je te <tag a="50" b="17" arg="0x11 0xcd00 0x4 0x6c 0x65 0x4 0x6c 0x61 0x0" /> rachète au double de son prix habituel, ce qui nous fait<tag a="110" b="0" /><pageBreak /><tag a="110" b="0" /> <tag a="90" b="24" arg="0x0" />.<delay20 /><anim id="QuestionMark" target="mainNpc" targetSpec="" /><anim id="QuestionMark" target="subNpc" targetSpec="" /> Ça te va?</message>
+	<message label="122" attrib="02 00 00 00"><anim id="Smiling" target="mainNpc" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" /><tag a="50" b="3" /><tag a="50" b="2" /><tag a="125" b="0" arg="0x0" />! Je te <tag a="50" b="17" arg="0x12 0xcd00 0x4 0x6c 0x65 0x4 0x6c 0x61 0x0" /> rachète au double de son prix habituel, ce qui nous fait<tag a="110" b="0" /><pageBreak /><tag a="110" b="0" /> <tag a="90" b="24" arg="0x0" />.<delay20 /><anim id="QuestionMark" target="mainNpc" targetSpec="" /><anim id="QuestionMark" target="subNpc" targetSpec="" /> Ça te va?</message>
 	<message label="122_a" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Marché conclu!</message>
 	<message label="122_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />En fait, non.</message>
 	<message label="131" attrib="04 00 00 00"><tag a="50" b="3" /><tag a="50" b="1" /><tag a="125" b="0" arg="0x0" /> se vend <anim id="Nodding" target="subNpc" targetSpec="" />à l'unité ou par lot.<delay20 /><anim id="QuestionMark" target="mainNpc" targetSpec="" /> Combien en veux-tu?</message>

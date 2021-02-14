@@ -215,7 +215,7 @@
 我会高价收购参加者的鱼哦！</message>
 	<message label="049_a" attrib="00 00 00 00">我想卖鱼</message>
 	<message label="049_b" attrib="00 00 00 00">用点数兑换</message>
-	<message label="049_c" attrib="00 00 00 00">别的事情</message>
+	<message label="049_c" attrib="00 00 00 00">大赛的事情</message>
 	<message label="049_d" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />没什么</message>
 	<message label="050" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />好的，没问题！<delay40 />
 <anim id="FaintSmile" target="actor" targetSpec="" />那就把你要卖的鱼
@@ -243,12 +243,16 @@
 <anim id="Nodding" target="actor" targetSpec="" />这次的活动
 需要大家自己准备钓竿呢。
 <tag a="110" b="0" /><anim id="Worried" target="actor" targetSpec="" />所以抱歉啦！</message>
-	<message label="061" attrib="00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />哎呀？哎呀？
-你的钱好像不够呢。<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />除去首次参加，
-之后每次都需要交<tag a="90" b="21" arg="0x2" />的报名费哦！
-<tag a="110" b="0" /><anim id="Worried" target="actor" targetSpec="" />所以抱歉啦！</message>
-	<message label="062" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />OK！终于等到你啦！<delay40 />
-<anim id="Nodding" target="actor" targetSpec="" />那么我先要收取报名费<tag a="90" b="21" arg="0x2" />哦！</message>
+	<message label="061" attrib="00 00 00 00"><tag a="110" b="0" /><anim id="Eh" target="actor" targetSpec="" />哎呀，<delay8 />哎呀呀？<delay frames="30" />
+<anim id="Serious" target="actor" targetSpec="" />你<delay8 />好像没带够钱呢。<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />准备好<tag a="90" b="21" arg="0x2" />之后<delay20 />
+<anim id="Hello" target="actor" targetSpec="" />再来和我说吧。</message>
+	<message label="062" attrib="02 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />OK！<delay8 />终于等到你啦！<pageBreak /><anim id="ShyBoy" target="actor" targetSpec="" />从第2次参加开始，<delay8 />
+每次都要收取<tag a="90" b="21" arg="0x2" />，<delay20 />
+<anim id="Hello" target="actor" targetSpec="" />可以吗？</message>
+	<message label="062_a" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />没问题</message>
+	<message label="062_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />还是算了</message>
+	<message label="062_01" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />哇！<delay8 />真是爽快人！<delay frames="30" />
+<anim id="Nodding" target="actor" targetSpec="" />那么请先交<delay20 />报名费<tag a="90" b="21" arg="0x2" />。</message>
 	<message label="063" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />那么从现在开始，<delay8 /><colour id="1" /><tag a="90" b="0" arg="0xe" />分钟<colour id="65535" />倒计时，<delay20 />
 你要加油多～钓一些鱼上来哦！<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />如果能钓到<colour id="1" /><tag a="90" b="1" arg="0x4" />条<colour id="65535" />以上，<delay8 />
 还可获得额外点数奖励，请加油吧！<delay frames="40" />
@@ -465,6 +469,15 @@
 	<message label="151" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />顺便一说，
 获得的点数会自动加入
 你的持有点数中。</message>
+	<message label="159" attrib="00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />喂～喂！我们好久没见了吧～？<delay40 />
+<anim id="FaintSmile" target="actor" targetSpec="" />你好～！<delay40 /><anim id="EmotEnd" target="actor" targetSpec="" />在下就是帅气的鱼类收藏家——
+<colour id="3" />俞司廷<colour id="65535" />是也！
+我是今天<tag a="110" b="33" />
+<colour id="1" />钓鱼大赛<colour id="65535" />的主办者，
+请多关照啦～<pageBreak /><anim id="Aha" target="actor" targetSpec="" />嗯？！
+难道说，你也参加了<colour id="1" />钓鱼大赛<colour id="65535" />？！<delay40 />
+<anim id="Smiling" target="actor" targetSpec="" />哇！
+<anim id="QuestionMark" target="actor" targetSpec="" />怎么样？钓到鱼了吗？</message>
 	<message label="152" attrib="00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />喂～喂！我们好久没见了吧～？<delay40 />
 <anim id="FaintSmile" target="actor" targetSpec="" />你好～！<delay40 /><anim id="EmotEnd" target="actor" targetSpec="" />在下就是帅气的鱼类收藏家——
 <colour id="3" />俞司廷<colour id="65535" />是也！
@@ -480,6 +493,23 @@
 	<message label="155" attrib="00 00 00 00"><colour id="1" /><anim id="FaintSmile" target="actor" targetSpec="" /><tag a="90" b="1" arg="0x0" />点<colour id="65535" />以上
 就可以兑换时尚奖品，<delay40 />
 <anim id="BigSmile" target="actor" targetSpec="" />Let's challenge！</message>
+	<message label="156" attrib="00 00 00 00">嗯～<tag a="110" b="0" /><delay8 />
+<colour id="1" />保冷箱<colour id="65535" />里鱼的数目<delay20 />
+总共有<colour id="1" /><tag a="90" b="1" arg="0x8" />条<colour id="65535" /><tag a="110" b="0" /><delay40 /><anim id="FaintSmile" target="actor" targetSpec="" />哎呀～<delay8 />是专业级钓鱼人呢！</message>
+	<message label="156_01" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />由于中途保冷箱
+就已经放满了，<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />超过20条后的部分，我就收下啦。<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />我会把收下的鱼
+捐赠给<delay8 />改善鱼类生态环境的
+<anim id="Smiling" target="actor" targetSpec="" />慈善事业，<delay20 />请多支持啦！<pageBreak /><anim id="Eh" target="actor" targetSpec="" />对了，<delay8 />点数当然是会给的，<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />放心吧！</message>
+	<message label="157" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />你不仅可以获得<delay20 />基础的<colour id="1" /><tag a="90" b="1" arg="0x8" />点<colour id="65535" />，<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />还可以获得
+钓到<colour id="1" /><tag a="90" b="1" arg="0x4" />条以上<colour id="65535" />的挑战奖励。<pageBreak /><anim id="Thinking" target="actor" targetSpec="" />所有参加的人钓到的鱼<delay20 />
+总共有<colour id="1" /><tag a="90" b="2" arg="0x9" />条<colour id="65535" />，因此<tag a="110" b="0" /><delay frames="50" />
+<anim id="BigSmile" target="actor" targetSpec="" />达到<colour id="1" /><tag a="90" b="1" arg="0xa" />条以上<colour id="65535" />，<delay20 />还可以获得合作奖励！</message>
+	<message label="158" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />你不仅可以获得<delay20 />基础的<colour id="1" /><tag a="90" b="1" arg="0x8" />点<colour id="65535" />，<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />还可以获得
+钓到<colour id="1" /><tag a="90" b="1" arg="0x4" />条<tag a="50" b="13" />以上<colour id="65535" />的挑战奖励。</message>
 	<message label="160" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />你在挑战中钓到的鱼
 全都放在帐篷下的<colour id="1" />保冷箱<colour id="65535" />里了。<pageBreak /><anim id="Eh" target="actor" targetSpec="" />协助者钓到的鱼
 也全部一起放在里面了，
@@ -522,15 +552,15 @@
 <anim id="EmotEnd" target="actor" targetSpec="" />所以要支付报名费<tag a="90" b="21" arg="0x2" />！</message>
 	<message label="165_a" attrib="00 00 00 00">参加大赛</message>
 	<message label="165_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />不参加</message>
-	<message label="166" attrib="02 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />那么事不宜迟，
-你要不要来参加<colour id="1" />钓鱼大赛<colour id="65535" />？<delay40 /><pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />你是第一次作为主参与者参加大赛，
-所以可以免费报名哦！</message>
+	<message label="166" attrib="02 00 00 00">那么事不宜迟，<delay20 />
+<anim id="QuestionMark" target="actor" targetSpec="" />你要不要来参加<colour id="1" />钓鱼大赛<colour id="65535" />？<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />你今天是第一次<delay8 />
+作为主参与者参加大赛，<delay frames="30" />
+<anim id="FaintSmile" target="actor" targetSpec="" />所以可以免费报名哦！</message>
 	<message label="166_a" attrib="00 00 00 00">参加大赛</message>
 	<message label="166_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />不参加</message>
-	<message label="167" attrib="06 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />那么事不宜迟，
-你要不要来参加<colour id="1" />钓鱼大赛<colour id="65535" />？<delay40 /><pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />你是第一次
-作为主参与者参加大赛，
-所以可以免费报名哦！</message>
+	<message label="167" attrib="06 00 00 00">那么事不宜迟，<delay20 />
+<anim id="QuestionMark" target="actor" targetSpec="" />你要不要来参加<colour id="1" />钓鱼大赛<colour id="65535" />？<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />你今天是第一次作为主参与者
+参加大赛，<delay20 /><anim id="FaintSmile" target="actor" targetSpec="" />所以可以免费报名哦！</message>
 	<message label="167_a" attrib="00 00 00 00">参加大赛</message>
 	<message label="167_b" attrib="00 00 00 00">大赛的规则是什么？</message>
 	<message label="167_c" attrib="00 00 00 00">用点数兑换</message>
@@ -552,10 +582,9 @@
 	<message label="170_01" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />耶～<delay20 />
 <colour id="1" />钓鱼大赛<colour id="65535" />结束了呢～！<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />我的内心已经在期待
 下一次<colour id="1" />钓鱼大赛<colour id="65535" />了！</message>
-	<message label="171" attrib="06 00 00 00"><anim id="Aha" target="actor" targetSpec="" />嘿～嘿！怎样怎样？
-要来参加<colour id="1" />钓鱼大赛<colour id="65535" />吗～？<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />你是第一次
-作为主参与者参加大赛，
-所以可以免费报名哦！</message>
+	<message label="171" attrib="06 00 00 00"><anim id="HappyDance" target="actor" targetSpec="" />嘿～嘿！<delay8 />怎样怎样？<delay frames="40" />
+<anim id="QuestionMark" target="actor" targetSpec="" />要来参加<colour id="1" />钓鱼大赛<colour id="65535" />吗？！<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />你今天是第一次作为主参与者<delay8 />
+参加大赛，<delay20 /><anim id="FaintSmile" target="actor" targetSpec="" />所以可以免费报名哦！</message>
 	<message label="171_a" attrib="00 00 00 00">参加大赛</message>
 	<message label="171_b" attrib="00 00 00 00">大赛的规则是什么？</message>
 	<message label="171_c" attrib="00 00 00 00">用点数兑换</message>

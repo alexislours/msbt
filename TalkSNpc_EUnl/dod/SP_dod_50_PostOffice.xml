@@ -1,4 +1,15 @@
 <msbt attribsize="4">
+	<message label="010" attrib="00 00 00 00">O, hoi, <tag a="110" b="1" />! Wist je dat je nu kaarten kunt sturen naar vrienden met wie je hebt gespeeld?</message>
+	<message label="020" attrib="00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Voor je deze dienst kunt gebruiken,<delay20 />
+<delay20 />moet ik je wat extra informatie geven
+van onze juristen van De Gier.
+<anim id="Hello" target="actor" targetSpec="" />Kun je dit even doorlezen om te
+voorkomen dat ik in de problemen
+kom?</message>
+	<message label="040" attrib="02 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Zo! <delay20 />Hebben we dat ook gehad.<delay20 />
+<anim id="QuestionMark" target="actor" targetSpec="" />Wil je nu een kaart sturen?</message>
+	<message label="040_a" attrib="00 00 00 00">Ja, graag!</message>
+	<message label="040_b" attrib="00 00 00 00">Laat maar.</message>
 	<message label="050" attrib="02 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />O, wil je een kaart sturen?<delay frames="40" /> <anim id="Blushing" target="actor" targetSpec="" />Eh<tag a="110" b="0" />
 Dat kan op zich wel, maar<tag a="110" b="0" /><delay frames="40" /> ik ben
 geen hoogvlieger qua multitasken.
@@ -9,6 +20,16 @@ even dichtgooi?</message>
 	<message label="051" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Bedankt voor je begrip.<delay20 /> Goed, dan
 gooi ik nu de gate even dicht!</message>
 	<message label="052" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Oké, we zijn er klaar voor!</message>
+	<message label="053" attrib="02 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />O, wil je een kaart sturen?<pageBreak /><anim id="Blushing" target="actor" targetSpec="" />Eh<tag a="110" b="0" /> Nou ja, geen probleem, maar<tag a="110" b="0" /><delay frames="40" />
+ik ben niet zo goed in multitasken.<pageBreak /><anim id="QuestionMark" target="actor" targetSpec="" />Vind je het goed als ik dan even de
+verbinding verbreek?</message>
+	<message label="053_a" attrib="00 00 00 00">Ga je gang!</message>
+	<message label="053_b" attrib="00 00 00 00">Nee, wacht...</message>
+	<message label="054" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Bedankt voor je begrip. <delay20 />Goed, de
+verbinding is<tag a="110" b="0" /><delay20 /> verbroken.</message>
+	<message label="055" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Jij bent de baas!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Ik laat de dingen zoals ze zijn,<delay20 /><anim id="FaintSmile" target="actor" targetSpec="" /> maar
+als je je bedenkt en het postkantoor
+wilt gebruiken, weet je me te vinden!</message>
 	<message label="070" attrib="02 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Wil je een kaart sturen?</message>
 	<message label="070_a" attrib="00 00 00 00">Ja, graag!</message>
 	<message label="070_b" attrib="00 00 00 00">Een andere keer.</message>
@@ -16,6 +37,11 @@ gooi ik nu de gate even dicht!</message>
 	<message label="080_a" attrib="00 00 00 00">Een bewoner hier.</message>
 	<message label="080_b" attrib="00 00 00 00">Mijn toekomstige ik.</message>
 	<message label="080_c" attrib="00 00 00 00">Hm, laat maar...</message>
+	<message label="081" attrib="0c 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Goed. Waar moet je kaart heen?<anim id="EmotEnd" target="actor" targetSpec="" /></message>
+	<message label="081_a" attrib="00 00 00 00">Een bewoner hier.</message>
+	<message label="081_b" attrib="00 00 00 00">Mijn toekomstige ik.</message>
+	<message label="081_c" attrib="00 00 00 00">Een vriend of vriendin.</message>
+	<message label="081_e" attrib="00 00 00 00">Hm, laat maar...</message>
 	<message label="200" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Begrepen. Iemand op dit eiland.
 <anim id="QuestionMark" target="actor" targetSpec="" />Naar wie dan precies?</message>
 	<message label="210_01" attrib="00 00 00 00">Naar <tag a="115" b="0" arg="0xcd00" />? Geen probleem!</message>
@@ -29,19 +55,59 @@ nog niet zijn verstuurd, <delay20 />dus ik kan
 er even geen meer aannemen.<pageBreak /><anim id="Worried" target="actor" targetSpec="" />Kun je straks terugkomen? <delay20 />Dan
 kan ik mijn zaakjes eerst op orde
 brengen.</message>
+	<message label="301" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Goed! Wie wil je een kaart sturen?</message>
+	<message label="311" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Hm<tag a="110" b="0" /> <delay20 /><anim id="Explain" target="actor" targetSpec="" />Zo te zien kun je nu geen
+kaarten naar vrienden sturen.<pageBreak />Als je dat wel wilt doen, schakel je in
+het ouderlijk toezicht VRIJE
+COMMUNICATIE MET ANDEREN in.</message>
+	<message label="312" attrib="00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />O, je hebt nog geen adressen van
+vrienden. <delay20 /><anim id="FaintSmile" target="actor" targetSpec="" />Bezoek een vriend online
+om een kaart te kunnen sturen!</message>
 	<message label="320" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />O, <delay20 />blijkbaar heb je vandaag al twee kaarten naar <tag a="115" b="0" arg="0xcd00" /> gestuurd.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Morgen kun je meer kaarten sturen,<delay20 /><anim id="FaintSmile" target="actor" targetSpec="" />
 dus ik ben bang dat je nog even moet
 wachten.</message>
+	<message label="321" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Oké, dan gaan we nu je post
+verzenden!</message>
+	<message label="350" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />O, stuur je voor het eerst een kaart
+naar Nintendo? Helaas hebben ze
+daar <anim id="Negative" target="actor" targetSpec="" />geen tijd om te reageren.
+<anim id="Explain" target="actor" targetSpec="" />Maar misschien gebruiken ze je kaart
+wel op de officiële website of op de
+sociale media van Nintendo.
+Let er daarom op dat je geen
+persoonlijke informatie op je kaart
+zet.
+<anim id="FaintSmile" target="actor" targetSpec="" />Oké, dat was alle blablabla waar ik je
+op moet wijzen. Veel plezier bij het
+schrijven!</message>
+	<message label="351" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />O, <delay8 />je gaat een kaart naar Nintendo
+sturen? <delay20 /><anim id="Assent" target="actor" targetSpec="" />Geweldig!</message>
+	<message label="352" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />O! <delay20 />Zo te zien heb je al twee kaarten
+naar Nintendo gestuurd <delay frames="40" /><anim id="Serious" target="actor" targetSpec="" />en dat is het
+maximale aantal.<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Je kunt ze morgen weer een kaart
+sturen, <delay20 />dus je zult nog even moeten
+wachten.</message>
+	<message label="353" attrib="00 00 00 00">Oké, dan nemen we nu contact op
+met Nintendo<tag a="110" b="0" /></message>
+	<message label="380" attrib="02 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Hm. <delay frames="40" />Zo te zien is het niet gelukt.<delay frames="40" /> <anim id="QuestionMark" target="actor" targetSpec="" /><delay20 />Wil
+je dat ik het meteen opnieuw probeer
+of wacht je liever even?</message>
+	<message label="380_a" attrib="00 00 00 00">Probeer het meteen!</message>
+	<message label="380_b" attrib="00 00 00 00">Het heeft geen haast.</message>
+	<message label="381" attrib="00 00 00 00">Prima, maar je had al betaald, <delay20 /><anim id="Hello" target="actor" targetSpec="" />dus
+die klingels krijg je weer terug.</message>
+	<message label="382" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />En natuurlijk ook het cadeau dat
+bij de kaart zat!</message>
 	<message label="400" attrib="00 00 00 00" />
 	<message label="401" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />En hoe ver wil je dit ding de
 toekomst in sturen?</message>
 	<message label="402" attrib="02 00 00 00">Dus je wilt 'm versturen naar<anim id="QuestionMark" target="actor" targetSpec="" />
-<tag a="90" b="36" arg="0xcd00" /> <tag a="90" b="35" arg="0xcd00" /> <tag a="90" b="34" arg="0xcd00" />?</message>
+<colour id="1" /><tag a="90" b="36" arg="0xcd00" /> <tag a="90" b="35" arg="0xcd00" /> <tag a="90" b="34" arg="0xcd00" /><colour id="65535" />?</message>
 	<message label="402_a" attrib="00 00 00 00">Dat klopt.</message>
 	<message label="402_b" attrib="00 00 00 00">Nee, wacht...</message>
 	<message label="410" attrib="00 00 00 00">Heb ik het fout? Sorry. Kun je
 het nog een keer herhalen?</message>
-	<message label="415" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Okidoki! O, <delay8 />wacht eens! Blijkbaar
+	<message label="415" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Okidoki! <delay20 /><anim id="Shocked" target="actor" targetSpec="" />O, <delay8 />wacht eens! Blijkbaar
 heb je al een kaart verstuurd naar de
 <tag a="110" b="1" /> in de toekomst.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Als je nog een kaart naar de
 toekomst wilt versturen, moet je
@@ -96,7 +162,7 @@ gestopt.</message>
 plek om cadeaus te bewaren,<delay20 /> dus je
 krijgt dit terug van mij.</message>
 	<message label="552" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Ik ben hier om je te helpen!</message>
-	<message label="600" attrib="00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Wil je een kaart sturen?<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Ik heb er hier eentje die je voor <tag a="115" b="0" arg="0xcd00" /> aan het schrijven was.<delay20 /></message>
+	<message label="600" attrib="00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Wil je een kaart sturen?<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Ik heb er hier eentje die je voor <tag a="115" b="0" arg="0xcd00" /> aan het schrijven was.</message>
 	<message label="601" attrib="00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Wil je een kaart sturen?<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Ik heb er hier eentje die je voor <tag a="115" b="1" arg="0xcd00" /> aan het schrijven was.</message>
 	<message label="602" attrib="00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Wil je een kaart sturen?<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Ik heb er hier eentje die je voor je
 toekomstige zelf aan het schrijven
@@ -117,7 +183,18 @@ sturen? <delay20 />Of kan hij de papierbak in?</message>
 	<message label="620" attrib="01 00 00 00">Naar wie wil je 'm sturen?</message>
 	<message label="620_a" attrib="00 00 00 00">Een bewoner hier.</message>
 	<message label="620_b" attrib="00 00 00 00">Mijn toekomstige ik.</message>
+	<message label="621" attrib="0b 00 00 00">Naar wie wil je 'm sturen?</message>
+	<message label="621_a" attrib="00 00 00 00">Een bewoner hier.</message>
+	<message label="621_b" attrib="00 00 00 00">Mijn toekomstige ik.</message>
+	<message label="621_c" attrib="00 00 00 00">Een vriend of vriendin.</message>
+	<message label="621_d" attrib="00 00 00 00">Nintendo.</message>
+	<message label="625" attrib="00 00 00 00">O, je hebt al voor deze bezorging
+betaald. Ik zal het geld teruggeven
+zodat je iemand anders kunt kiezen.</message>
 	<message label="630" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Oké, dan gooi ik deze kaart weg.</message>
+	<message label="631" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Oké, de kaart gaat naar de papierbak.
+<10_4 />Dan geef ik je nu de 200 klingels
+terug die je al had betaald.</message>
 	<message label="800" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Bedankt voor je bezoek!</message>
 	<message label="801" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Luid en duidelijk. <delay20 />Geef maar een gil
 als je weer iets wilt versturen.</message>

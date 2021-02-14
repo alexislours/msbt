@@ -1,4 +1,16 @@
 <msbt attribsize="4">
+	<message label="010" attrib="00 00 00 00">О, привет, <tag a="110" b="1" />!
+Ты можешь отправлять открытки
+тем, с кем ты играл<gender2 m="" f="а" />, знаешь?</message>
+	<message label="020" attrib="00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Но прежде чем дать тебе доступ
+к этой услуге, <delay20 />я обязан ознакомить
+тебя с условиями. Закон есть закон.<pageBreak /><anim id="Hello" target="actor" targetSpec="" />Прочитай, пожалуйста, вот это,
+чтобы у меня потом не было
+неприятностей!</message>
+	<message label="040" attrib="02 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Отлично! <delay20 />С этим разобрались.<delay20 />
+<anim id="QuestionMark" target="actor" targetSpec="" />Ну что, хочешь отправить открытку?</message>
+	<message label="040_a" attrib="00 00 00 00">Хочу!</message>
+	<message label="040_b" attrib="00 00 00 00">Отмена</message>
 	<message label="050" attrib="02 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Ой, ты хотел<gender2 m="" f="а" /> отправить открытку?<pageBreak /><anim id="Blushing" target="actor" targetSpec="" />Запросто, но<tag a="110" b="0" /><delay frames="40" /> у меня не очень
 получается делать два дела сразу.<pageBreak /><anim id="QuestionMark" target="actor" targetSpec="" />Ничего, если я закрою гейт,
 пока мы с этим разберемся?</message>
@@ -7,13 +19,28 @@
 	<message label="051" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Спасибо за понимание.<delay20 /> Закрываю
 гейт!</message>
 	<message label="052" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Готово!</message>
-	<message label="070" attrib="02 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Ну, будем отправлять открытку?</message>
+	<message label="053" attrib="02 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Ой, ты хотел<gender2 m="" f="а" /> отправить открытку?<pageBreak /><anim id="Blushing" target="actor" targetSpec="" />Запросто, но<tag a="110" b="0" /><delay frames="40" /> у меня не очень
+получается делать два дела сразу.<pageBreak /><anim id="QuestionMark" target="actor" targetSpec="" />Ничего, если отключу соединение,
+пока мы с этим разберемся?</message>
+	<message label="053_a" attrib="00 00 00 00">Конечно!</message>
+	<message label="053_b" attrib="00 00 00 00">Нет, подожди!</message>
+	<message label="054" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Спасибо за понимание.<delay20 />
+Итак, соединение<tag a="110" b="0" /><delay20 /> отключено.</message>
+	<message label="055" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Понял! <anim id="Explain" target="actor" targetSpec="" />Я оставлю все как было,<delay20 /><anim id="FaintSmile" target="actor" targetSpec="" />
+но скажи, если передумаешь и тебе
+понадобится помощь с почтой.</message>
+	<message label="070" attrib="02 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Будем отправлять открытку?</message>
 	<message label="070_a" attrib="00 00 00 00">Да!</message>
 	<message label="070_b" attrib="00 00 00 00">В другой раз.</message>
 	<message label="080" attrib="04 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Отлично! Кому хочешь отправить?<anim id="EmotEnd" target="actor" targetSpec="" /></message>
 	<message label="080_a" attrib="00 00 00 00">Местному жителю.</message>
 	<message label="080_b" attrib="00 00 00 00">Себе в будущем.</message>
-	<message label="080_c" attrib="00 00 00 00">Забудь.</message>
+	<message label="080_c" attrib="00 00 00 00">Забудь!</message>
+	<message label="081" attrib="0c 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Отлично! Кому хочешь отправить?<anim id="EmotEnd" target="actor" targetSpec="" /></message>
+	<message label="081_a" attrib="00 00 00 00">Местному жителю.</message>
+	<message label="081_b" attrib="00 00 00 00">Себе в будущем.</message>
+	<message label="081_c" attrib="00 00 00 00">Другу.</message>
+	<message label="081_e" attrib="00 00 00 00">Забудь!</message>
 	<message label="200" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Понял, кому-то на этом острове.
 <anim id="QuestionMark" target="actor" targetSpec="" />А кому конкретно?</message>
 	<message label="210_01" attrib="00 00 00 00">Так! Адресат — <tag a="115" b="0" arg="0xcd00" />?
@@ -29,11 +56,43 @@
 их все никак не получается.<pageBreak /><anim id="Worried" target="actor" targetSpec="" />Мне очень жаль, но ты не мог<gender2 m="" f="ла" /> бы
 зайти попозже,<delay20 /> когда разберемся
 с предыдущей партией?</message>
+	<message label="301" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Кому из друзей ты хочешь
+написать?</message>
+	<message label="311" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Хм.<delay20 /> Ты не можешь писать друзьям:
+свободное общение ограничено
+родительским контролем.</message>
+	<message label="312" attrib="00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />Похоже, у тебя еще нет адресов
+друзей. <delay20 /><anim id="FaintSmile" target="actor" targetSpec="" />Навести друга онлайн,
+чтобы потом слать ему открытки.</message>
 	<message label="320" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />О! <delay20 />Похоже, ты сегодня отправил<gender2 m="" f="а" />
 уже две открытки получателю
 <tag a="115" b="0" arg="0xcd00" />.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Если хочешь отправить еще,<delay20 />
 <anim id="FaintSmile" target="actor" targetSpec="" />придется подождать до завтра.
 Ладно?</message>
+	<message label="321" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Так, сейчас все оформлю<tag a="110" b="0" /></message>
+	<message label="350" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />В первый раз пишешь в Nintendo?
+У них много дел, <anim id="Negative" target="actor" targetSpec="" />так что ответа ты
+не получишь, но<tag a="110" b="0" />
+<anim id="Explain" target="actor" targetSpec="" />Они могут показать твое письмо
+на своем веб-сайте или в соцсетях.
+Не пиши личную информацию!
+<anim id="FaintSmile" target="actor" targetSpec="" />Так, с юридической болтовней
+закончили. Можешь писать!</message>
+	<message label="351" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Хочешь написать в Nintendo?
+<delay frames="40" />Здорово!<delay20 /><anim id="Assent" target="actor" targetSpec="" /> Можешь начинать.</message>
+	<message label="352" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Похоже, сегодня ты уже отправила
+две открытки в Nintendo. <delay frames="40" /><anim id="Serious" target="actor" targetSpec="" />Больше,
+к сожалению, нельзя.<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Потерпи до завтра,<delay20 /> ладно?</message>
+	<message label="353" attrib="00 00 00 00">Так, сейчас оформлю твое послание
+Nintendo по всем правилам<tag a="110" b="0" /></message>
+	<message label="380" attrib="02 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Хм-м-м. <delay frames="40" />Что-то не получилось.<delay frames="40" />
+<anim id="QuestionMark" target="actor" targetSpec="" />Попробовать снова? <delay20 />Или в другой
+раз?</message>
+	<message label="380_a" attrib="00 00 00 00">Попробуй снова!</message>
+	<message label="380_b" attrib="00 00 00 00">Приду в другой раз!</message>
+	<message label="381" attrib="00 00 00 00">Ладно. <delay20 /><anim id="Hello" target="actor" targetSpec="" />Вот тебе твои дини назад.</message>
+	<message label="382" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />И подарок, который
+ты хотел<gender2 m="" f="а" /> отправить.</message>
 	<message label="400" attrib="00 00 00 00" />
 	<message label="401" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Как далеко в будущее отправим?</message>
 	<message label="402" attrib="02 00 00 00">Хочешь, чтобы открытка пришла
@@ -41,21 +100,20 @@
 	<message label="402_a" attrib="00 00 00 00">Да!</message>
 	<message label="402_b" attrib="00 00 00 00">Поменяем дату!</message>
 	<message label="410" attrib="00 00 00 00">Что-то не так? Давай еще раз.</message>
-	<message label="415" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Все понял! <delay8 />Ой, погоди! Похоже,
+	<message label="415" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Все понял! <delay20 /><anim id="Shocked" target="actor" targetSpec="" />Ой, погоди! <delay8 />Похоже,
 <tag a="110" b="1" /> из будущего уже
 ждет от тебя открытку.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Если ты отправишь новую, то старая
 не придет.</message>
-	<message label="416" attrib="00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Ой! Я должен вернуть тебе подарок,
-который ты приложил<gender2 m="" f="а" /> к открытке,<delay20 /><anim id="Worried" target="actor" targetSpec="" />
-но у тебя все карманы забиты.<pageBreak /><anim id="ShyBoy" target="actor" targetSpec="" />Давай ты придешь, когда
+	<message label="416" attrib="00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Ой! Мне надо вернуть тебе подарок,
+который ты приложил<gender2 m="" f="а" /> к открытке,<delay20 />
+<anim id="Worried" target="actor" targetSpec="" />но у тебя все карманы забиты.<pageBreak /><anim id="ShyBoy" target="actor" targetSpec="" />Давай ты придешь, когда
 освободишь место? Извини!<anim id="EmotEnd" target="actor" targetSpec="" /></message>
 	<message label="420" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Отлично, я выбросил открытку!<delay20 /><anim id="Smiling" target="actor" targetSpec="" />
 Можешь писать новую!</message>
 	<message label="420_01" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Открытку, которую ты хотел<gender2 m="" f="а" />
 отправить сам<gender2 m="ому" f="ой" /> себе в будущем,
 я выброшу.<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />А вот эту можешь редактировать
-и отправить себе в будущем вместо
-нее.</message>
+и отправить себе. В будущее.</message>
 	<message label="421" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Все понял!<10_4 /><anim id="Nodding" target="actor" targetSpec="" /> К открытке приложен
 подарок, так что его я тебе верну,<delay20 />
 а саму открытку выброшу.<anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Ну что ж, <delay20 />можешь выбирать новую!</message>
@@ -95,7 +153,7 @@
 	<message label="601" attrib="00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Ты хотел<gender2 m="" f="а" /> отправить открытку?<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />У меня тут еще твоя незаконченная,
 для адресата <tag a="115" b="1" arg="0xcd00" />.</message>
 	<message label="602" attrib="00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Ты хотел<gender2 m="" f="а" /> отправить открытку?<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />У меня тут твоя незаконченная
-открытка тебе само<gender2 m="му" f="й" /> в будущем.<delay20 /></message>
+открытка само<gender2 m="му" f="й" /> себе в будущем.<delay20 /></message>
 	<message label="604" attrib="00 00 00 00">Хорошо, <delay20 />вернемся к открыткам.<delay40 /><anim id="EmotEnd" target="actor" targetSpec="" />
 У меня тут есть недописанная
 тобой с прошлого раза.</message>
@@ -110,17 +168,28 @@
 	<message label="620" attrib="01 00 00 00">Кому хочешь отправить?</message>
 	<message label="620_a" attrib="00 00 00 00">Местному жителю.</message>
 	<message label="620_b" attrib="00 00 00 00">Себе в будущем.</message>
+	<message label="621" attrib="0b 00 00 00">Кому хочешь отправить?</message>
+	<message label="621_a" attrib="00 00 00 00">Местному жителю.</message>
+	<message label="621_b" attrib="00 00 00 00">Себе в будущем.</message>
+	<message label="621_c" attrib="00 00 00 00">Другу.</message>
+	<message label="621_d" attrib="00 00 00 00">Nintendo.</message>
+	<message label="625" attrib="00 00 00 00">Ой! Похоже, ты уже даже оплатил<gender2 m="" f="а" />
+доставку. Давай я верну тебе дини,
+чтобы ты мог<gender2 m="" f="ла" /> сменить адресата.</message>
 	<message label="630" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Все понял! Открытка приземлилась
 в мусорное ведро.</message>
+	<message label="631" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Все понял! Открытка приземлилась
+в ведро для макулатуры. <10_4 />Вот тебе
+назад твои 200 диней за доставку.</message>
 	<message label="800" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Спасибо, что воспользовал<gender2 m="ся" f="ась" />
 нашими услугами!</message>
 	<message label="801" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Понял! <delay20 />Если решишь что-нибудь
 отправить, обращайся!</message>
 	<message label="802" attrib="00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />А, ты просто так заш<gender2 m="ел" f="ла" />? <delay20 /><anim id="FaintSmile" target="actor" targetSpec="" />Ну, если
 что понадобится — обращайся!</message>
-	<message label="803" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Все понял!<10_4 /> Я придержу открытку,
-и мы доставим ее в указанный день.</message>
+	<message label="803" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Понял!<10_4 /> Додоставим эту открытку
+без изменений в оговоренный день!</message>
 	<message label="804" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Понял!<pageBreak />Я оставлю гейт открытым,<delay8 /> но скажи,
 если передумаешь и тебе все же
- понадобится помощь с почтой.</message>
+понадобится помощь с почтой.</message>
 </msbt>

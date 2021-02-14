@@ -2,7 +2,7 @@
 	<message label="001" attrib="00 00 02 00 00 00 00 00"><anim id="Grin" target="actor" targetSpec="" />Oh oh<tag a="110" b="0" /><delay20 /> Toi, tu te demandes ce
 que je suis en train de fabriquer,<delay8 />
 n'est-ce pas?</message>
-	<message label="001_a" attrib="00 00 00 00 00 00 00 00">Je n'en dors plus!</message>
+	<message label="001_a" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Je n'en dors plus!</message>
 	<message label="001_b" attrib="00 00 00 00 00 00 00 00">Pas plus que ça.</message>
 	<message label="015" attrib="00 00 02 00 00 00 00 00"><tag a="110" b="0" /><anim id="Hesitate" target="actor" targetSpec="" /> Je peux faire quelque chose pour
 toi?<delay20 /> Ce n'est pas très agréable
@@ -18,12 +18,12 @@ savoir ce que je fabrique?</message>
 <delay20 />quand l'idée m'est venue.<delay frames="40" /><anim id="EmotEnd" target="actor" targetSpec="" /> Je me suis
 mise au travail séance tenante!<delay8 /></message>
 	<message label="003" attrib="00 00 02 00 00 00 00 00"><anim id="IdeaBulb" target="actor" targetSpec="" />Oh, mais dis donc!<delay frames="40" /> Pourquoi tu
-n'essayerais pas de fabriquer
+n'essaierais pas de fabriquer
 <tag a="50" b="2" /><tag a="125" b="0" arg="0x0" />?
 <anim id="Explain" target="actor" targetSpec="" />C'est un travail gratifiant,<delay20 /> et je serais
 ravie de t'enseigner ma technique.<delay frames="40" />
 <anim id="Grin" target="actor" targetSpec="" />Je suis là pour ça, <tag a="110" b="6" />!</message>
-	<message label="003_a" attrib="00 00 00 00 00 00 00 00">Montre-moi vite!</message>
+	<message label="003_a" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Montre-moi vite!</message>
 	<message label="003_b" attrib="00 00 00 00 00 00 00 00">Sans façons.</message>
 	<message label="007" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Très bien, <delay20 />comme tu veux.<delay frames="40" /> <anim id="FaintSmile" target="actor" targetSpec="" />À plus
 tard alors, <delay8 />je dois me remettre au
@@ -32,9 +32,7 @@ travail, <delay20 /><tag a="110" b="6" />.</message>
 <tag a="50" b="2" /><tag a="125" b="0" arg="0x0" />,<delay8 /> n'est-ce pas?</message>
 	<message label="008_a" attrib="00 00 00 00 00 00 00 00">Eh oui!</message>
 	<message label="008_b" attrib="00 00 00 00 00 00 00 00">On dirait bien.</message>
-	<message label="009" attrib="00 00 00 00 00 00 00 00"><anim id="HappyDance" target="actor" targetSpec="" />Bien sûr,<delay20 /> j'aurais dû m'en douter!
-<delay frames="40" /><anim id="Nodding" target="actor" targetSpec="" />Venant de toi, <tag a="110" b="3" />,
-ça ne me surprend pas du tout.</message>
+	<message label="009" attrib="00 00 00 00 00 00 00 00"><anim id="HappyDance" target="actor" targetSpec="" />Bien sûr,<delay20 /> j'aurais dû m'en douter! <delay frames="40" /><anim id="Nodding" target="actor" targetSpec="" />Venant de toi, <tag a="110" b="3" />, ça ne me surprend pas du tout.</message>
 	<message label="010" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Mais que vois-je? <delay20 />Tes poches sont
 pleines, <gender2 m="mon chéri" f="ma chérie" />!<delay frames="40" /> <anim id="Worried" target="actor" targetSpec="" />Dommage, je ne
 vais pas pouvoir te donner tout ça.</message>

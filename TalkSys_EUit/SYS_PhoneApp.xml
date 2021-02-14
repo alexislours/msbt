@@ -1,9 +1,9 @@
 <msbt attribsize="3">
-	<message label="000" attrib="00 00 17">Eh?<delay8 /> "Fuori dall'area di servizio"?<delay20 />
-Mi sa che qui non posso usare l'app.</message>
+	<message label="000" attrib="00 00 17">Eh?<delay8 /> "Fuori copertura"?<delay20 /> Mmmh<tag a="110" b="0" />
+Mi sa che qui non funziona.</message>
 	<message label="001" attrib="02 00 17">Vuoi chiamare il <colour id="1" />soccorso<colour id="65535" />?</message>
-	<message label="001_a" attrib="00 00 00"><anim id="EmotEnd" target="player" targetSpec="" />Sì!</message>
-	<message label="001_b" attrib="00 00 00"><anim id="EmotEnd" target="player" targetSpec="" />No.</message>
+	<message label="001_a" attrib="00 00 00"><anim id="EmotEnd" target="player" targetSpec="" />Sì</message>
+	<message label="001_b" attrib="00 00 00"><anim id="EmotEnd" target="player" targetSpec="" />No</message>
 	<message label="010" attrib="00 00 13">                 <tag a="10" b="12" /><tag a="100" b="2" /><tag a="100" b="5" /><size value="150" />Ci si vede!<size value="100" /><endTag a="100" b="5" /><endTag a="100" b="2" /><10_7 arg="20" /></message>
 	<message label="011" attrib="00 00 13"><tag a="100" b="5" /><tag a="10" b="12" />                    <size value="150" />Salve!<size value="100" /><10_7 arg="15" /><pageBreak />Grazie per aver chiamato.<delay frames="30" /> Sei in
 contatto con il <delay8 /><colour id="1" />soccorso<colour id="65535" />.<endTag a="100" b="5" /></message>
@@ -76,12 +76,13 @@ Nook non ti mancano,<delay8 /> quindi ne
 incasso subito <colour id="1" />100<colour id="65535" /><tag a="110" b="0" /><endTag a="100" b="5" /></message>
 	<message label="042_01" attrib="00 00 13"><tag a="100" b="5" />Ottima scelta!<delay40 /> Prima di tutto, <delay20 />devo
 incassare le <colour id="1" />100<colour id="65535" /> miglia e poi<tag a="110" b="0" /><endTag a="100" b="5" /><10_7 arg="75" /></message>
-	<message label="042_02" attrib="00 00 13"><tag a="100" b="5" /><10_10 /><tag a="10" b="12" />                      <size value="150" />EHI!<size value="100" /><delay20 /><10_9 /><pageBreak />Che c'è?<delay frames="40" /> Non vedi che ti mancano
-le miglia di Nook?<pageBreak />Dai, non fare così! <delay20 />Vabbè<tag a="110" b="0" /><delay20 /> OK<tag a="110" b="0" />
+	<message label="042_02" attrib="00 00 13"><tag a="100" b="5" /><10_10 /><tag a="10" b="12" />                      <size value="150" />EHI!<size value="100" /><delay20 /><10_9 /><pageBreak />Che ti salta in mente?<delay frames="40" /> Non vedi che
+ti mancano le miglia di Nook?<pageBreak />Non è possibile! <delay20 />Vabbè<tag a="110" b="0" /><delay20 /> OK<tag a="110" b="0" />
 Visto che è un'emergenza,<delay20 /> per
 questa volta non ti faccio pagare!<endTag a="100" b="5" /></message>
-	<message label="042_03" attrib="00 00 13"><tag a="100" b="5" /><10_10 /><tag a="10" b="12" />                      <size value="150" />EHI!<size value="100" /><delay20 /><10_9 /><pageBreak />Che c'è ancora?<delay frames="40" /> Non vedi che ti
-mancano le miglia di Nook?<pageBreak />Che devo fare con te?! <delay20 />Vabbè dai<tag a="110" b="0" /><delay20 />
+	<message label="042_03" attrib="00 00 13"><tag a="100" b="5" /><10_10 /><tag a="10" b="12" />                      <size value="150" />EHI!<size value="100" /><delay20 /><10_9 /><pageBreak />Un momento!<delay frames="40" /> Non vedi che ti
+mancano le miglia di Nook?<delay20 />
+Di nuovo!<pageBreak />Che devo fare con te?! <delay20 />Vabbè dai<tag a="110" b="0" /><delay20 />
 Visto che è un'emergenza,<delay20 /> per
 questa volta non ti faccio pagare!<endTag a="100" b="5" /></message>
 	<message label="042_04" attrib="00 00 13"><tag a="100" b="5" />Visto che lo faccio per pura
@@ -171,9 +172,9 @@ La parola d'ordine è moderazione.<endTag a="100" b="5" /></message>
 	<message label="064_02" attrib="00 00 13"><tag a="100" b="5" />"Salvataggio automatico", capito?<delay frames="30" />
 Significa che non puoi <delay20 />resettare
 nulla qui <tag a="50" b="15" /> <tag a="110" b="33" />.<endTag a="100" b="5" /></message>
-	<message label="064_03" attrib="00 00 13"><tag a="100" b="5" />Le miglia di Nook, dici?<delay20 /> Ci sono molti
-modi per accumularle e non sono
-neanche tanto complicati!<pageBreak />Per iniziare, <delay8 />le ottieni effettuando
+	<message label="064_03" attrib="00 00 13"><tag a="100" b="5" />Riguardo alle miglia di Nook...<delay20 />
+Ci sono molti modi per accumularle
+e non sono neanche tanto complicati!<pageBreak />Per iniziare, <delay8 />le ottieni effettuando
 ogni giorno l'accesso al <colour id="1" />Punto Nook<colour id="65535" />.<delay20 />
 Ricordatelo!<endTag a="100" b="5" /></message>
 	<message label="201" attrib="06 00 17">Vuoi avviare l'app <colour id="1" />Modifica isola
@@ -195,9 +196,7 @@ la sicurezza prima di tutto!</message>
 	<message label="207" attrib="00 00 17">La connessione non è buona? Forse
 dovrei <colour id="1" />alzarmi <colour id="65535" />e riprovare.</message>
 	<message label="208" attrib="00 00 17" />
-	<message label="209" attrib="00 00 20">Sei <colour id="1" />fuori dall'area di servizio<colour id="65535" />. Puoi
-usare l'app <tag a="50" b="15" /> <tag a="110" b="34" />
-solo quando sei all'aperto.</message>
+	<message label="209" attrib="00 00 20">Sei <colour id="1" />fuori dalla zona di copertura<colour id="65535" />.<pageBreak />Puoi usare questa applicazione solo <tag a="50" b="15" /> <tag a="110" b="34" /> <delay8 />e solo quando sei all'aperto.</message>
 	<message label="210" attrib="00 00 20">Chiusura applicazione in corso.<10_8 arg="60" /></message>
 	<message label="211" attrib="00 00 20">Applicazione chiusa! Torna presto
 a usufruire dei nostri servizi.</message>
@@ -299,15 +298,15 @@ al secondo piano.
 riempire la cascata.
 In seguito potrai distruggere il rilievo
 a tuo piacimento.</message>
-	<message label="245" attrib="00 00 20">Guida al servizio di pulizia<pageBreak />A volte, quando stai lavorando a
+	<message label="245" attrib="00 00 20"><colour id="1" />Guida al servizio di pulizia<colour id="65535" /><pageBreak />A volte, quando stai lavorando a
 un progetto di costruzione, potresti
 trovarti inavvertitamente nei guai.<pageBreak />Forse qualcosa che hai posizionato
 ti impedisce di muoverti o non riesci
 ad afferrare un oggetto su un rilievo.<pageBreak />Il servizio di pulizia ti viene in aiuto
 quando hai bisogno di spostare
-qualche oggetto intorno a te.<pageBreak />Vengono spostati solo gli oggetti
-(come mobili o recinzioni) <colour id="1" />nelle tue
-immediate vicinanze<colour id="65535" />.<pageBreak />Assicurati di avvicinarti agli oggetti
+qualche oggetto intorno a te.<pageBreak />Funziona solo per oggetti già
+posizionati, recinzioni e alberi
+<colour id="1" />nelle tue immediate vicinanze<colour id="65535" />.<pageBreak />Assicurati di avvicinarti agli oggetti
 che ti causano problemi prima di
 richiedere il servizio.<pageBreak />Gli oggetti recuperati verranno
 depositati nel <colour id="1" />punto di raccolta
@@ -348,24 +347,26 @@ nelle tue immediate vicinanze.<pageBreak />Gli oggetti recuperati verranno
 depositati nel <colour id="1" />punto di raccolta
 <colour id="65535" />del <colour id="1" />centro servizi<colour id="65535" />.<pageBreak />Per ulteriori dettagli, consulta
 il manuale.</message>
-	<message label="262" attrib="02 00 20">Vuoi usare il servizio di pulizia
-e inviare gli oggetti vicini a te al
-punto di raccolta del centro servizi?</message>
+	<message label="262" attrib="02 00 20">Vuoi usare il servizio di
+pulizia e inviare gli oggetti
+vicini a te al punto di raccolta?</message>
 	<message label="262_a" attrib="00 00 20">Sì, facciamo pulizia</message>
 	<message label="262_b" attrib="00 00 20">No, non adesso</message>
 	<message label="263" attrib="00 00 20">D'accordo!<delay20 /> Attendi un attimo mentre
 ripuliamo gli oggetti posti nelle tue
 vicinanze.</message>
-	<message label="264" attrib="00 00 20">Pulizia completata!<delay frames="30" /> Ricordati di
-recuperare gli oggetti presso il
-<colour id="1" />punto di raccolta <colour id="65535" />del <colour id="1" />centro servizi<colour id="65535" />.</message>
-	<message label="265" attrib="00 00 20">Non ci sono oggetti da ripulire.<pageBreak />Il servizio di pulizia funziona solo
-per oggetti o recinzioni posti nelle
-tue immediate vicinanze.</message>
+	<message label="264" attrib="00 00 20">Pulizia completata!<delay20 />
+Nota: solo gli oggetti e le recinzioni
+vengono inviati al <colour id="1" />punto di raccolta<colour id="65535" />.</message>
+	<message label="265" attrib="00 00 20">Non ci sono oggetti da rimuovere.<pageBreak />Il servizio di pulizia funziona solo per
+oggetti già posizionati, recinzioni e
+alberi nelle tue immediate vicinanze.</message>
+	<message label="266" attrib="00 00 20">Sei <colour id="1" />fuori dalla zona operativa
+<colour id="65535" />del servizio di pulizia.<pageBreak />Puoi usare questo servizio solo <tag a="50" b="15" /> <tag a="110" b="9" /> <delay8 />e solo quando sei all'aperto.</message>
 	<message label="301" attrib="00 00 17">Sembra che l'app della mappa
 non funzioni su quest'isola.</message>
-	<message label="311" attrib="00 00 17">Mh? Dice che sono fuori dall'area
-di copertura. Immagino di non poter
-usare l'app qui.</message>
+	<message label="321" attrib="00 00 17">A quanto pare non posso usare
+l'app Archivio chat durante il
+Gioco cooperativo<tag a="110" b="0" /></message>
 	<message label="999" attrib="00 00 13"><colour id="1" />100 <colour id="65535" />miglia</message>
 </msbt>

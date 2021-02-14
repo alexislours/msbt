@@ -16,6 +16,8 @@
 	<message label="103" attrib="00 00 00 00 00 00 00 00"><anim id="AbsentMindedness" target="actor" targetSpec="" />Гм. Если передвинуть это сюда,
 а это — туда<tag a="110" b="0" /><delay8 /> <anim id="HappyFlower" target="actor" targetSpec="" />будет здорово
 выглядеть!</message>
+	<message label="104" attrib="00 00 00 00 00 00 00 00"><colour id="4" /><anim id="Thinking" target="actor" targetSpec="" />Где-то я это уже видела!<delay20 /><delay frames="40" /> Зуб даю!
+<anim id="WrySmile" target="actor" targetSpec="" />Хотя, может, мне просто кажется.<colour id="65535" /></message>
 	<message label="111" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Вот уж не думала, что у меня когда-
 нибудь будет такая крутая
 окаменелость! <delay20 />Спасибо!</message>
@@ -70,16 +72,16 @@
 	<message label="401" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Ты знаешь, о чем я думаю?<delay frames="40" />
 <anim id="SmugFace" target="actor" targetSpec="" />Засадим зеленью весь остров!</message>
 	<message label="402" attrib="00 00 00 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="125" b="0" arg="0x0" />
-выгляд<tag a="50" b="24" arg="0x11 0xcd00 0x2 0x438 0x2 0x438 0x2 0x438 0x2 0x44f" />т очень вкусно!</message>
+выгляд<tag a="50" b="24" arg="0x12 0xcd00 0x2 0x438 0x2 0x438 0x2 0x438 0x2 0x44f" />т очень вкусно!</message>
 	<message label="403" attrib="00 00 00 00 00 00 00 00"><anim id="HappyDance" target="actor" targetSpec="" />Спасибо! Мне на несколько дней
 хватит.<delay frames="40" /> <anim id="Grin" target="actor" targetSpec="" />Пальчики оближешь!
 <tag a="50" b="3" /><tag a="110" b="5" />!</message>
-	<message label="404" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Как<tag a="50" b="24" arg="0x11 0xcd00 0x4 0x43e 0x439 0x4 0x430 0x44f 0x4 0x43e 0x435 0x4 0x438 0x435" /> ухоженн<tag a="50" b="24" arg="0x11 0xcd00 0x4 0x44b 0x439 0x4 0x430 0x44f 0x4 0x43e 0x435 0x4 0x44b 0x435" />
+	<message label="404" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Как<tag a="50" b="24" arg="0x12 0xcd00 0x4 0x43e 0x439 0x4 0x430 0x44f 0x4 0x43e 0x435 0x4 0x438 0x435" /> ухоженн<tag a="50" b="24" arg="0x12 0xcd00 0x4 0x44b 0x439 0x4 0x430 0x44f 0x4 0x43e 0x435 0x4 0x44b 0x435" />
 <tag a="125" b="0" arg="0x0" />!
 Да еще и в цвету!<delay frames="40" /> <anim id="HappyFlower" target="actor" targetSpec="" />Красота!</message>
 	<message label="405" attrib="00 00 00 00 00 00 00 00"><anim id="Hesitate" target="actor" targetSpec="" />Ты выбрал<gender2 m="" f="а" /> такой подарок, потому
 что я цветы люблю?<delay frames="40" /> <anim id="BigSmile" target="actor" targetSpec="" />Прекрасный
-выбор! Я буду о н<tag a="50" b="24" arg="0x11 0xcd00 0x4 0x435 0x43c 0x4 0x435 0x439 0x4 0x435 0x43c 0x4 0x438 0x445" /> заботиться.</message>
+выбор! Я буду о н<tag a="50" b="24" arg="0x12 0xcd00 0x4 0x435 0x43c 0x4 0x435 0x439 0x4 0x435 0x43c 0x4 0x438 0x445" /> заботиться.</message>
 	<message label="406" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Ой, ты только посмотри: <tag a="125" b="0" arg="0x0" />. <anim id="BigSmile" target="actor" targetSpec="" />Какая прелесть!</message>
 	<message label="407" attrib="00 00 00 00 00 00 00 00"><anim id="HappyFlower" target="actor" targetSpec="" />Спасибо, <tag a="110" b="3" />! Я буду
 любить эту рыбку как члена семьи.<pageBreak /><anim id="Eh" target="actor" targetSpec="" />Надо ей имя придумать.<delay frames="40" /> <anim id="Thinking" target="actor" targetSpec="" />Гм, как
@@ -91,7 +93,7 @@
 Хорошо быть насекомым, наверное!<pageBreak /><anim id="Thinking" target="actor" targetSpec="" />Ой, ему же имя придумать надо<tag a="110" b="0" /><delay frames="60" />
 <anim id="OhGeez" target="actor" targetSpec="" />Знаешь что? <delay20 />Буду пока звать его
 «<tag a="110" b="1" />».</message>
-	<message label="410" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Это очень классное насекомое.<delay20 />
+	<message label="410" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Это очень классный экземпляр.<delay20 />
 Но, по-моему, его лучше подарить
 кому-то другому. <tag a="50" b="3" /><tag a="110" b="5" />!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Покажи его <colour id="3" />Блезерсу<colour id="65535" />. <delay20 />Он будет
 в полном восторге!<delay20 /> <anim id="Grin" target="actor" targetSpec="" />Когда от шока

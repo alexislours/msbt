@@ -2,18 +2,15 @@
 	<message label="001" attrib="00 00 00 00 00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />Hé, salut <tag a="110" b="3" />!<delay8 />
 Tu viens célébrer ma fête?<10_4 />
 <anim id="FaintSmile" target="actor" targetSpec="" />Fais comme chez toi!</message>
-	<message label="002" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Ah, <tag a="110" b="3" />!<delay8 /> <anim id="FaintSmile" target="actor" targetSpec="" />Ça me fait
-plaisir de te voir, merci d'être <gender2 m="venu" f="venue" />.</message>
-	<message label="003" attrib="00 00 00 00 00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="110" b="3" />! Tu es <gender2 m="venu" f="venue" /> me
-soutenir dans cette épreuve?
-<anim id="FaintSmile" target="actor" targetSpec="" />Merci d'y avoir pensé, <gender2 m="le jeune" f="la jeune" />.</message>
+	<message label="002" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Ah, <tag a="110" b="3" />!<delay8 /> <anim id="FaintSmile" target="actor" targetSpec="" />Ça me fait plaisir de te voir, merci d'être <gender2 m="venu" f="venue" />.</message>
+	<message label="003" attrib="00 00 00 00 00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="110" b="3" />! Tu es <gender2 m="venu" f="venue" /> me soutenir dans cette épreuve? <anim id="FaintSmile" target="actor" targetSpec="" />Merci d'y avoir pensé, <gender2 m="le jeune" f="la jeune" />.</message>
 	<message label="004" attrib="00 00 02 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Un jour comme aujourd'hui, je suis
 content d'avoir des amis comme
 toi pour m'aider à passer le cap.
 <anim id="FaintSmile" target="actor" targetSpec="" />En plus, j'ai reçu des cadeaux
 épatants,<delay8 /><anim id="EmotEnd" target="actor" targetSpec="" /> mais je sens que le tien
 va tous les éclipser,<anim id="Pardon" target="actor" targetSpec="" /> pas vrai?</message>
-	<message label="004_a" attrib="00 00 00 00 00 00 00 00">À toi de me le dire!</message>
+	<message label="004_a" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />À toi de me le dire!</message>
 	<message label="004_b" attrib="00 00 00 00 00 00 00 00"><gender2 m="Désolé" f="Désolée" />...</message>
 	<message label="005" attrib="00 00 02 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />C'est bien que tout le monde soit là.
 <delay8 /><anim id="Nodding" target="actor" targetSpec="" />Même <tag a="50" b="2" /><tag a="110" b="15" /> aussi <tag a="50" b="17" arg="0x5 0xcd00 0xa 0x76 0x69 0x65 0x75 0x78 0xe 0x76 0x69 0x65 0x69 0x6c 0x6c 0x65 0x0" />
@@ -22,7 +19,7 @@ que moi apprécie d'être apprécié<tag a="50" b="17" arg="0x5 0xcd00 0x0 0x2 0
 que j'ai reçus.<delay8 /><anim id="Aha" target="actor" targetSpec="" /> Au fait!<delay8 /><anim id="Hesitate" target="actor" targetSpec="" /> Je ne me
 rappelle pas avoir reçu le tien<tag a="110" b="0" /></message>
 	<message label="005_a" attrib="00 00 00 00 00 00 00 00">Tiens, c'est pour toi!</message>
-	<message label="005_b" attrib="00 00 00 00 00 00 00 00">Euh, en fait...</message>
+	<message label="005_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Euh, en fait...</message>
 	<message label="006" attrib="00 00 02 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Le plus beau cadeau que je puisse
 recevoir,<delay8 /> c'est d'être entouré des
 gens que j'apprécie.<anim id="EmotEnd" target="actor" targetSpec="" />
@@ -30,7 +27,7 @@ Mais je n'ai rien contre les preuves
 d'amitié plus matérielles,<delay8 /><anim id="ShyBoy" target="actor" targetSpec="" /> si jamais
 tu comptais m'offrir quelque chose...</message>
 	<message label="006_a" attrib="00 00 00 00 00 00 00 00">Cadeau!</message>
-	<message label="006_b" attrib="00 00 00 00 00 00 00 00">J'ai oublié...</message>
+	<message label="006_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />J'ai oublié...</message>
 	<message label="007" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Oh.<delay20 /> Bah,<delay8 /> t'inquiète pas pour ça,
 <gender2 m="le jeune" f="la jeune" />.<delay20 /> <anim id="FaintSmile" target="actor" targetSpec="" />C'était juste au cas où!</message>
 	<message label="008" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Aucun problème, c'est déjà bien que
@@ -108,9 +105,7 @@ sont bien vertes.<delay8 /><anim id="FaintSmile" target="actor" targetSpec="" />
 choisir les navets!</message>
 	<message label="030" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="50" b="2" /><tag a="125" b="0" arg="0x0" />?<delay8 /> <anim id="ShyBoy" target="actor" targetSpec="" />Hé hé<tag a="110" b="0" /> C'est le bruit de mon estomac qui t'a donné l'idée?</message>
 	<message label="031" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Saperlipopette!<delay frames="40" /> C'est un plan
-de bricolage pour fabriquer <tag a="50" b="2" />
-<tag a="125" b="0" arg="0x0" />!
-<anim id="Thinking" target="actor" targetSpec="" />Qu'est-ce que je vais bien pouvoir
+de bricolage pour fabriquer <tag a="50" b="2" /><tag a="125" b="0" arg="0x0" />!<pageBreak /><anim id="Thinking" target="actor" targetSpec="" />Qu'est-ce que je vais bien pouvoir
 en faire<tag a="110" b="0" /><pageBreak /><anim id="Worried" target="actor" targetSpec="" />C'est gentil de ta part, mais je ne
 saurais pas reconnaître un plan
 de maître d'un brouillon d'enfant<tag a="110" b="0" />
@@ -160,13 +155,13 @@ ce qu'on m'a offert.<delay8 /><anim id="Hesitate" target="actor" targetSpec="" /
 	<message label="060_b" attrib="00 00 00 00 00 00 00 00">J'ai oublié... <gender2 m="désolé" f="désolée" />...</message>
 	<message label="061" attrib="00 00 02 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />C'est pas exactement ma tasse <gender4 m="de " f="d'" />⁠<tag a="135" b="1" arg="0xcd00" />, mais j'ai rien contre une fête de temps en temps.<pageBreak /><anim id="Silent" target="actor" targetSpec="" />Et non, ce n'est pas uniquement
 à cause des cadeaux que je reçois.<delay8 /></message>
-	<message label="061_a" attrib="00 00 00 00 00 00 00 00">Au fait... Cadeau!</message>
-	<message label="061_b" attrib="00 00 00 00 00 00 00 00">Je n'ai rien prévu...</message>
+	<message label="061_a" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Au fait... Cadeau!</message>
+	<message label="061_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Je n'ai rien prévu...</message>
 	<message label="062" attrib="00 00 02 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />J'ai reçu des cadeaux épatants!<delay8 />
 <anim id="Pardon" target="actor" targetSpec="" />Mais je suis sûr que le tien sera
 épatantissime<tag a="110" b="0" /></message>
-	<message label="062_a" attrib="00 00 00 00 00 00 00 00">Devine! Tiens!</message>
-	<message label="062_b" attrib="00 00 00 00 00 00 00 00">Euh... aucune...</message>
+	<message label="062_a" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Devine! Tiens!</message>
+	<message label="062_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Euh... aucune...</message>
 	<message label="064" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Hé, tu rentres déjà?<delay8 /><anim id="Worried" target="actor" targetSpec="" /> J'aurais bien
 aimé que tu restes plus longtemps...<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Mais c'est déjà super que tu sois
 <gender2 m="passé" f="passée" />.<delay8 /><anim id="FaintSmile" target="actor" targetSpec="" /> Et merci encore pour le
@@ -222,15 +217,12 @@ pour toi.<delay frames="40" /> Va faire de la place et
 	<message label="081" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Je vois que tu as de la place pour
 mon cadeau.<delay20 /> Ça m'aurait embêté
 de ne pas pouvoir te le donner.
-<anim id="FaintSmile" target="actor" targetSpec="" />C'est <tag a="50" b="2" /><tag a="125" b="4" arg="0x0" />.<delay frames="40" /><anim id="Greeting" target="actor" targetSpec="" /> J'espère qu'<tag a="50" b="17" arg="0x15 0xcd00 0x4 0x69 0x6c 0x8 0x65 0x6c 0x6c 0x65 0x0" /> te plaira!</message>
-	<message label="100" attrib="00 00 02 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Tu savais <gender4 m="que " f="qu'" />⁠<tag a="115" b="1" arg="0xcd00" />
-était <gender3 m="né" f="née" /> le même jour que moi?
-<anim id="Pardon" target="actor" targetSpec="" />Ça fait bizarre, crois-moi.
-<anim id="Explain" target="actor" targetSpec="" />Enfin, c'est pour ça qu'on a décidé
+<anim id="FaintSmile" target="actor" targetSpec="" />C'est <tag a="50" b="2" /><tag a="125" b="4" arg="0x0" />.<delay frames="40" /><anim id="Greeting" target="actor" targetSpec="" /> J'espère qu'<tag a="50" b="17" arg="0x16 0xcd00 0x4 0x69 0x6c 0x8 0x65 0x6c 0x6c 0x65 0x0" /> te plaira!</message>
+	<message label="100" attrib="00 00 02 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Tu savais <gender4 m="que " f="qu'" />⁠<tag a="115" b="1" arg="0xcd00" /> était <gender3 m="né" f="née" /> le même jour que moi? <anim id="Pardon" target="actor" targetSpec="" />Ça fait bizarre, crois-moi.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Enfin, c'est pour ça qu'on a décidé
 de célébrer nos deux fêtes ici,<delay8 />
 <anim id="FaintSmile" target="actor" targetSpec="" />pour deux fois plus de fun!
 <anim id="Serious" target="actor" targetSpec="" />Faut juste pas qu'on mélange nos
 cadeaux.<delay8 /> <anim id="Pardon" target="actor" targetSpec="" />Mais vu les goûts de <tag a="115" b="1" arg="0xcd00" />, ça m'étonnerait.<anim id="FaintSmile" target="actor" targetSpec="" /></message>
 	<message label="100_a" attrib="00 00 00 00 00 00 00 00">Celui-là est pour toi!</message>
-	<message label="100_b" attrib="00 00 00 00 00 00 00 00">J'ai rien prévu...</message>
+	<message label="100_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />J'ai rien prévu...</message>
 </msbt>

@@ -3,10 +3,10 @@
 <anim id="FaintSmile" target="actor" targetSpec="" />Ik heb een geweldig idee<tag a="110" b="0" /><pageBreak /><anim id="Hesitate" target="actor" targetSpec="" />Hihi, kun je raden wat het is?<delay20 />
 <anim id="Smiling" target="actor" targetSpec="" />Ik heb een nieuwe bijnaam voor je!</message>
 	<message label="001_a" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="player" targetSpec="" />Echt waar? Welke?</message>
-	<message label="001_b" attrib="00 00 00 00 00 00 00 00">Bedankt, maar...</message>
+	<message label="001_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Bedankt, maar...</message>
 	<message label="002" attrib="00 00 02 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="110" b="3" />! Raad eens? <anim id="HappyDance" target="actor" targetSpec="" />Ik heb de perfecte bijnaam voor je verzonnen!</message>
 	<message label="002_a" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="player" targetSpec="" />O ja? Vertel!</message>
-	<message label="002_b" attrib="00 00 00 00 00 00 00 00">De oude is prima.</message>
+	<message label="002_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />De oude is prima.</message>
 	<message label="003" attrib="00 00 02 00 00 00 00 00"><anim id="Hesitate" target="actor" targetSpec="" />Ik hoorde een paar buren je
 "<tag a="115" b="0" arg="0xcd00" />" noemen<tag a="110" b="0" /><pageBreak /><anim id="Love" target="actor" targetSpec="" />Ik vind het een geweldige bijnaam.
 <anim id="Hesitate" target="actor" targetSpec="" />Vind je het goed als ik je ook zo
@@ -17,7 +17,7 @@ noem?</message>
 iets te vragen<tag a="110" b="0" /> <anim id="Smiling" target="actor" targetSpec="" />Hoe zou je het
 vinden als ik je een bijnaam gaf?</message>
 	<message label="004_a" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="player" targetSpec="" />Welke bijnaam?</message>
-	<message label="004_b" attrib="00 00 00 00 00 00 00 00">Bedankt, maar...</message>
+	<message label="004_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Bedankt, maar...</message>
 	<message label="005" attrib="00 00 02 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Wat een goede timing! <anim id="FaintSmile" target="actor" targetSpec="" />Ik heb net
 een nieuwe bijnaam voor je
 bedacht, <tag a="110" b="5" />.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />"<tag a="50" b="3" /><tag a="110" b="3" />" is oké, maar<tag a="110" b="0" /> <anim id="Hesitate" target="actor" targetSpec="" />Wil je weten welke splinternieuwe bijnaam <anim id="Hello" target="actor" targetSpec="" />ik voor jou heb verzonnen?</message>
@@ -57,8 +57,7 @@ alsjeblieft <anim id="FaintSmile" target="actor" targetSpec="" />nog één keer.
 <anim id="BigSmile" target="actor" targetSpec="" /><tag a="110" b="3" />! <anim id="FaintSmile" target="actor" targetSpec="" />Tenminste, <anim id="HappyFlower" target="actor" targetSpec="" />zo zal ik je noemen!</message>
 	<message label="110" attrib="00 00 00 00 00 00 00 00">Ik snap wel <anim id="Nodding" target="actor" targetSpec="" />waarom dit een lastige
 beslissing is.<delay frames="40" /> <anim id="Serious" target="actor" targetSpec="" />Denk er even goed over
-na.
-<anim id="Greeting" target="actor" targetSpec="" />Zullen we het nu nog eens proberen,<delay20 />
+na.<pageBreak /><anim id="Greeting" target="actor" targetSpec="" />Zullen we het nu nog eens proberen,<delay20 />
 <tag a="110" b="5" />?</message>
 	<message label="200" attrib="00 00 00 00 00 00 00 00"><anim id="Blushing" target="actor" targetSpec="" />Ik ben zo blij dat ik je dit heb durven
 vragen!<anim id="EmotEnd" target="actor" targetSpec="" /><anim id="Smiling" target="actor" targetSpec="" /> Bedankt, <tag a="110" b="3" />!</message>

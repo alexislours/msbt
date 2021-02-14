@@ -21,12 +21,12 @@ lequel tu trouveras à coup sûr
 ton bonheur!</message>
 	<message label="001_03_01" attrib="00 00 00 00"><anim id="Silent" target="actor" targetSpec="" />À propos<tag a="110" b="0" /><delay40 /> tu es <delay8 /><anim id="QuestionMark" target="actor" targetSpec="" /><tag a="110" b="1" />, n'est-ce pas?<pageBreak /><anim id="BigSmile" target="actor" targetSpec="" />C'est une petite île. <delay frames="40" /><anim id="Laughing" target="actor" targetSpec="" />Les nouvelles
 circulent vite!</message>
-	<message label="001_03_02" attrib="00 00 00 00">Figure-toi que <colour id="3" />Tom Nook <colour id="65535" />m'a confié
+	<message label="001_03_02" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Figure-toi que <colour id="3" />Tom Nook <colour id="65535" />m'a confié
 un <colour id="1" />ticket Points Nook<colour id="65535" /> au nom de<tag a="110" b="0" />
 « <tag a="110" b="1" /> ». <anim id="BigSmile" target="actor" targetSpec="" /><delay20 />Il est à toi!
-Si tu veux l'utiliser,<delay8 /> tu n'as qu'à
+<anim id="Nodding" target="actor" targetSpec="" />Si tu veux l'utiliser,<delay8 /> tu n'as qu'à
 prononcer les mots magiques<delay8 />
-<anim id="Greeting" target="actor" targetSpec="" />« <colour id="1" />Je veux voyager <colour id="65535" />», OK?</message>
+<anim id="FaintSmile" target="actor" targetSpec="" />« <colour id="1" />Je veux voyager <colour id="65535" />», OK?</message>
 	<message label="001_03_03" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Comme tu le vois, on propose pas
 mal de services ici, <delay20 /><anim id="OhGeez" target="actor" targetSpec="" />mais seuls les
 résidents peuvent en bénéficier.
@@ -62,7 +62,7 @@ l'utiliser quand tu veux.</message>
 	<message label="005_02" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />À propos, on dirait que tu as un
 <colour id="1" />ticket Points Nook<colour id="65535" />? N'hésite pas
 à l'utiliser!</message>
-	<message label="006_01" attrib="04 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Ça marche<tag a="110" b="0" /><delay20 /> <anim id="QuestionMark" target="actor" targetSpec="" />Est-ce que tu peux me
+	<message label="006_01" attrib="04 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Donc<tag a="110" b="0" /><delay20 /> <anim id="QuestionMark" target="actor" targetSpec="" />Est-ce que tu peux me
 dire où tu vas, pour que je m'occupe
 des formalités?</message>
 	<message label="006_01_a" attrib="00 00 00 00">Aller voir quelqu'un.</message>
@@ -75,13 +75,13 @@ l'utiliser quand tu veux.</message>
 	<message label="006_02_b" attrib="00 00 00 00"><colour id="1" />Ticket points Nook<colour id="65535" /></message>
 	<message label="006_02_c" attrib="00 00 00 00">Aller sur l'île de Joe.</message>
 	<message label="006_02_d" attrib="00 00 00 00">En fait, tout va bien.</message>
-	<message label="006_03" attrib="04 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Ça marche<tag a="110" b="0" /><delay20 /> <anim id="QuestionMark" target="actor" targetSpec="" />Est-ce que tu peux me
+	<message label="006_03" attrib="04 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Donc<tag a="110" b="0" /><delay20 /> <anim id="QuestionMark" target="actor" targetSpec="" />Est-ce que tu peux me
 dire où tu vas, pour que je m'occupe
 des formalités?</message>
 	<message label="006_03_a" attrib="00 00 00 00">Aller voir quelqu'un.</message>
 	<message label="006_03_b" attrib="00 00 00 00">Aller sur l'île de Joe.</message>
 	<message label="006_03_c" attrib="00 00 00 00">En fait, tout va bien.</message>
-	<message label="006_04" attrib="06 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Ça marche<tag a="110" b="0" /><delay20 /> <anim id="QuestionMark" target="actor" targetSpec="" />Est-ce que tu peux me
+	<message label="006_04" attrib="06 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Donc<tag a="110" b="0" /><delay20 /> <anim id="QuestionMark" target="actor" targetSpec="" />Est-ce que tu peux me
 dire où tu vas, pour que je m'occupe
 des formalités?</message>
 	<message label="006_04_a" attrib="00 00 00 00">Aller voir quelqu'un.</message>
@@ -103,9 +103,9 @@ que partie remise!<anim id="FaintSmile" target="actor" targetSpec="" /></message
 	<message label="031_01" attrib="00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />Tu aimerais en savoir plus sur les
 <colour id="1" />tickets Points Nook<colour id="65535" />?<delay40 /> <anim id="Serious" target="actor" targetSpec="" />Alors là, tu
 t'adresses au bon dodo!</message>
-	<message label="031_02" attrib="00 00 00 00">Le <colour id="1" />billet Points Nook<colour id="65535" /> permet de partir<delay20 />
-<anim id="Pardon" target="actor" targetSpec="" />en escapade mystère vers les plus
-lointains confins de l'imaginaire!<pageBreak /><anim id="AbsentMindedness" target="actor" targetSpec="" />Tu peux te retrouver aussi bien sur
+	<message label="031_02" attrib="00 00 00 00">Le <colour id="1" />billet Points Nook<colour id="65535" /> permet de 
+partir<delay20 /> <anim id="Pardon" target="actor" targetSpec="" />en escapade mystère vers les 
+plus lointains confins de l'imaginaire!<pageBreak /><anim id="AbsentMindedness" target="actor" targetSpec="" />Tu peux te retrouver aussi bien sur
 un petit îlot que sur un atoll, <delay20 /><anim id="Shocked" target="actor" targetSpec="" />il n'y a
 aucune limite!
 <anim id="Grin" target="actor" targetSpec="" />N'importe quel rocher sur lequel
@@ -132,7 +132,7 @@ tu peux partir dès maintenant.
 	<message label="032_b" attrib="00 00 00 00">En fait, tout va bien.</message>
 	<message label="035" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Tu veux utiliser un <colour id="1" />ticket Points
 Nook<colour id="65535" /> pour partir en voyage?<delay40 />
-<snpcAnim id="DodRoger" target="actor" targetSpec="" />Okidodoki!<delay40 /><anim id="EmotEnd" target="actor" targetSpec="" /></message>
+<snpcAnim id="DodRoger" target="actor" targetSpec="" />Okidodoki!<delay frames="50" /><anim id="EmotEnd" target="actor" targetSpec="" /></message>
 	<message label="035_01" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Dans ce cas, <delay20 />je vais tout simplement
 garder le ticket à ton nom que m'a
 confié <colour id="3" />Tom Nook<colour id="65535" /><tag a="110" b="0" /></message>
@@ -146,9 +146,9 @@ Tu as bien tes outils?</message>
 	<message label="036_c" attrib="00 00 00 00">Pas pour le moment.</message>
 	<message label="037" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" /><10_5 />Okidodoki!<endTag a="10" b="5" /><delay frames="40" /> <anim id="Smiling" target="actor" targetSpec="" />Je me charge de tout.<10_8 arg="60" />
 </message>
-	<message label="037_01" attrib="00 00 00 00"><tag a="10" b="12" /><snpcAnim id="DodWireless" target="actor" targetSpec="" /><delay frames="30" /><100_3 arg="PlaneAnnounceOn" /><delay20 /><size value="75" />Dodo de contrôle à double Delta Oscar,
-<delay8 /><colour id="3" />Rodrigue<colour id="65535" />, tu me reçois? <delay20 />Besoin d'ailes pour un piéton, <delay frames="30" />terminé.<delay frames="90" />
-<100_3 arg="PlaneAnnounceOn" /><delay20 /><colour id="5" />Okidodoki!<delay20 /> J'en ai une paire prête à décoller!<colour id="65535" /><size value="100" /><delay20 /><100_3 arg="PlaneAnnounceOff" /><10_8 arg="40" /><pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" /><delay frames="50" /><anim id="FaintSmile" target="actor" targetSpec="" />Et voilà!<delay8 /> Je n'ai plus qu'à te
+	<message label="037_01" attrib="00 00 00 00"><tag a="10" b="12" /><snpcAnim id="DodWireless" target="actor" targetSpec="" /><delay frames="30" /><100_3 arg="PlaneAnnounceOn" /><delay20 /><size value="75" />Dodo de contrôle à Dodo 1, <delay8 /><colour id="3" />Rodrigue<colour id="65535" />, tu me
+reçois? <delay20 />Besoin d'ailes pour un piéton, <delay frames="30" />terminé.<delay frames="90" />
+<100_3 arg="PlaneAnnounceOn" /><delay20 /><colour id="5" />Okidodoki!<delay20 /> J'en ai une paire prête à décoller!<colour id="65535" /><size value="100" /><delay20 /><100_3 arg="PlaneAnnounceOff" /><10_8 arg="90" /><pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" /><delay frames="50" /><anim id="FaintSmile" target="actor" targetSpec="" />Et voilà!<delay8 /> Je n'ai plus qu'à te
 souhaiter un excellent vol.<delay frames="40" />
 <snpcAnim id="DodRoger" target="actor" targetSpec="" /><delay20 />Bon vent, l'ami<gender2 m="" f="e" />!<delay frames="60" /><anim id="FaintSmile" target="actor" targetSpec="" /></message>
 	<message label="037_02" attrib="00 00 00 00" />
@@ -171,6 +171,9 @@ bout,<delay8 /> s'il te plaît.</message>
 	<message label="091_02" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Merci de ton attention!<delay20 /><anim id="FaintSmile" target="actor" targetSpec="" /> On peut
 passer à la suite, maintenant<tag a="110" b="0" /></message>
 	<message label="091" attrib="00 00 00 00" />
+	<message label="092" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Ça marche!<pageBreak /><anim id="Blushing" target="actor" targetSpec="" />Et désolé si on t'a déjà montré ça,<delay8 />
+mais c'est la règle quand quelqu'un
+se prépare à jouer en ligne.</message>
 	<message label="101" attrib="04 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Tu veux te rendre sur une île proche
 en <colour id="1" />multijoueur local<colour id="65535" />,<delay20 /> ou partir plus
 loin avec le <colour id="1" />jeu en ligne<colour id="65535" />?</message>
@@ -182,7 +185,7 @@ aucune île sur laquelle tu puisses te
 rendre pour le moment<tag a="110" b="0" />
 <anim id="Worried" target="actor" targetSpec="" />Désolé, <delay20 />c'est vraiment dodommage.</message>
 	<message label="102_a" attrib="00 00 00 00">Cherche encore!</message>
-	<message label="102_b" attrib="00 00 00 00">OK, je repasserai.</message>
+	<message label="102_b" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />OK, je repasserai.</message>
 	<message label="103" attrib="00 00 00 00">Attends une seconde,<delay20 /><anim id="QuestionMark" target="actor" targetSpec="" /> sur quelle île
 veux-tu aller?</message>
 	<message label="104" attrib="04 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />Il semblerait qu'on ait un départ
@@ -191,17 +194,16 @@ imminent pour <tag a="115" b="5" arg="0xcd00" /><tag a="110" b="0" /><delay fram
 	<message label="104_a" attrib="00 00 00 00">Oui!</message>
 	<message label="104_b" attrib="00 00 00 00">Cherche encore!</message>
 	<message label="104_c" attrib="00 00 00 00">En fait, tout va bien.</message>
-	<message label="105" attrib="02 00 00 00"><anim id="Serious" target="actor" targetSpec="" />OK, j'ai trouvé<tag a="110" b="0" /> <delay frames="30" />mais c'est complet.
-<anim id="Worried" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="115" b="2" arg="0xcd00" /> n'accepte plus
-de visiteurs pour le moment.</message>
+	<message label="105" attrib="02 00 00 00"><anim id="Serious" target="actor" targetSpec="" />OK, j'ai trouvé quelque chose<tag a="110" b="0" /> <delay frames="30" />mais
+c'est complet. <anim id="Worried" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="115" b="2" arg="0xcd00" /> n'accepte plus de visiteurs.</message>
 	<message label="105_a" attrib="00 00 00 00">Tu peux revérifier?</message>
-	<message label="105_b" attrib="00 00 00 00">OK, je repasserai.</message>
+	<message label="105_b" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />OK, je repasserai.</message>
 	<message label="106" attrib="00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Ah!<delay20 /><anim id="Thinking" target="actor" targetSpec="" /> Il faut un <colour id="1" />Dodo Code™<colour id="65535" /> pour
 visiter cette île.<10_4 /> <anim id="EmotEnd" target="actor" targetSpec="" />C'est un numéro
 à quatre chiffres. Tu le connais?</message>
 	<message label="107" attrib="02 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Ce n'est pas le bon Dodo Code™.<delay frames="40" />
 <anim id="QuestionMark" target="actor" targetSpec="" />Tu veux réessayer?</message>
-	<message label="107_a" attrib="00 00 00 00">Réessayer.</message>
+	<message label="107_a" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Réessayer.</message>
 	<message label="107_b" attrib="00 00 00 00">Laisser tomber.</message>
 	<message label="108" attrib="04 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Aïe!<anim id="Thinking" target="actor" targetSpec="" /> Il y a des interférences.<delay20 />
 Visiblement,<delay8 /> quelque chose est
@@ -271,14 +273,14 @@ si ça marche, maintenant?</message>
 	<message label="118_01" attrib="00 00 00 00"><anim id="ShyBoy" target="actor" targetSpec="" />En fait, <delay20 />si quelqu'un est trop occupé
 sur ton île de destination,<delay20 /> à cause de
 ses travaux ou d'une discussion<tag a="110" b="0" />
-<tag a="110" b="0" /> <anim id="Negative" target="actor" targetSpec="" />tu ne peux pas t'y rendre. <delay40 /><anim id="Nodding" target="actor" targetSpec="" />Si la
+<tag a="110" b="0" /> <anim id="Negative" target="actor" targetSpec="" />tu ne peux pas décoller d'ici. <delay40 /><anim id="Nodding" target="actor" targetSpec="" />Si la
 connexion échoue plusieurs fois de
 suite,<delay8 /> mieux vaut réessayer plus tard.
 <anim id="IdeaBulb" target="actor" targetSpec="" />Dans ces cas-là,<delay20 /> le plus simple est
 peut-être d'envoyer un message à
 ton hôte!<delay20 /> <anim id="Thinking" target="actor" targetSpec="" />Quelque chose du genre<tag a="110" b="0" />
-<anim id="Explain" target="actor" targetSpec="" />« <colour id="1" />Je voudrais rentrer chez moi,<delay20 />
-peux-tu arrêter de discuter et fermer
+<anim id="Explain" target="actor" targetSpec="" />« <colour id="1" />Je voudrais partir,<delay20 /> peux-tu
+arrêter de discuter et fermer
 ton NookPhone, s'il te plait?<colour id="65535" /> »
 <anim id="FaintSmile" target="actor" targetSpec="" />Essaie juste de rester diplomate. <delay frames="40" />
 <anim id="Laughing" target="actor" targetSpec="" />Ça nous arrive à tous de rester
@@ -288,8 +290,7 @@ Tu veux que je revérifie,<delay8 /> pour voir
 si ça marche, maintenant?</message>
 	<message label="118_02_a" attrib="00 00 00 00">Tu peux revérifier?</message>
 	<message label="118_02_b" attrib="00 00 00 00">Je réessaierai plus tard.</message>
-	<message label="120" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Okidodoki!<delay frames="40" /> <anim id="Hello" target="actor" targetSpec="" />Les portes sont
-ouvertes!</message>
+	<message label="120" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Allez, j'ouvre les portes!</message>
 	<message label="120_01" attrib="00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Mais dis-moi,<delay8 /> on dirait que tu es
 en train d'utiliser l'application
 <colour id="1" />Remod'île<colour id="65535" /><tag a="110" b="0" /><pageBreak /><anim id="Explain" target="actor" targetSpec="" />Désolé,<delay8 /> mais le règlement interdit
@@ -307,8 +308,8 @@ en multijoueur local<tag a="110" b="0" /><delay20 />
 <anim id="Smiling" target="actor" targetSpec="" />Sur ce<tag a="110" b="0" /></message>
 	<message label="122" attrib="00 00 00 00"><snpcAnim id="DodRoger" target="actor" targetSpec="" /><delay20 />J'ouvre l'accès!</message>
 	<message label="125" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Sache juste que quand l'accès est
-ouvert, <delay8 />des visiteurs peuvent
-venir sur ton île n'importe quand.<pageBreak /><anim id="Grin" target="actor" targetSpec="" />Et ça peut même être des gens que
+ouvert, <delay8 />des visiteurs peuvent venir
+sur ton île n'importe quand.<pageBreak /><anim id="Grin" target="actor" targetSpec="" />Et ça peut même être des gens que
 tu ne connais pas<tag a="110" b="0" /> en fait, ça peut
 être n'importe qui.
 <anim id="Smiling" target="actor" targetSpec="" />Donc si tu joues en bonne compagnie
@@ -323,6 +324,12 @@ si facile!</message>
 pour lancer le jeu en ligne!</message>
 	<message label="130_a" attrib="00 00 00 00">Okidodoki!</message>
 	<message label="130_b" attrib="00 00 00 00">Pas la peine, en fait.</message>
+	<message label="140" attrib="00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Alors ça<tag a="110" b="0" /> <delay20 />Quelqu'un <anim id="Oops" target="actor" targetSpec="" />a fermé l'accès
+de l'autre côté.</message>
+	<message label="150" attrib="02 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Tu veux aller autre part?<delay20 /><anim id="EmotEnd" target="actor" targetSpec="" /> Je peux
+faire une autre recherche.</message>
+	<message label="150_a" attrib="00 00 00 00">Oui, s'il te plaît.</message>
+	<message label="150_b" attrib="00 00 00 00">Je réessaierai plus tard.</message>
 	<message label="200" attrib="06 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Dis-moi tout!<delay frames="40" /> <anim id="QuestionMark" target="actor" targetSpec="" />Que puis-je
 faire pour toi?</message>
 	<message label="200_a" attrib="00 00 00 00">Ouvrir l'accès.</message>
@@ -333,9 +340,16 @@ faire pour toi?</message>
 faire pour toi?</message>
 	<message label="201_a" attrib="00 00 00 00">Ouvrir l'accès.</message>
 	<message label="201_b" attrib="00 00 00 00">Désactiver communication.</message>
-	<message label="201_c" attrib="00 00 00 00">J'ai oublié mon code.</message>
+	<message label="201_c" attrib="00 00 00 00">J'ai oublié mon Dodo code™.</message>
 	<message label="201_d" attrib="00 00 00 00">En fait, je veux voyager.</message>
 	<message label="201_e" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Ça ira, merci.</message>
+	<message label="202" attrib="08 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Dis-moi tout!<delay frames="40" /> <anim id="QuestionMark" target="actor" targetSpec="" />Que puis-je
+faire pour toi?</message>
+	<message label="202_a" attrib="00 00 00 00">Ouvrir l'accès.</message>
+	<message label="202_b" attrib="00 00 00 00">Désactiver communication.</message>
+	<message label="202_c" attrib="00 00 00 00">J'ai oublié mon Dodo code™.</message>
+	<message label="202_d" attrib="00 00 00 00">En fait, je veux voyager.</message>
+	<message label="202_e" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Ça ira, merci.</message>
 	<message label="210" attrib="04 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Dis-moi tout!<delay frames="40" /> <anim id="QuestionMark" target="actor" targetSpec="" />Que puis-je
 faire pour toi?</message>
 	<message label="210_a" attrib="00 00 00 00">Fermer l'accès.</message>
@@ -344,9 +358,15 @@ faire pour toi?</message>
 	<message label="211" attrib="06 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Dis-moi tout!<delay frames="40" /> <anim id="QuestionMark" target="actor" targetSpec="" />Que puis-je
 faire pour toi?</message>
 	<message label="211_a" attrib="00 00 00 00">Fermer l'accès.</message>
-	<message label="211_b" attrib="00 00 00 00">J'ai oublié mon code.</message>
+	<message label="211_b" attrib="00 00 00 00">J'ai oublié mon Dodo code™.</message>
 	<message label="211_c" attrib="00 00 00 00">En fait, je veux voyager.</message>
 	<message label="211_d" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Ça ira, merci.</message>
+	<message label="212" attrib="06 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Dis-moi tout!<delay frames="40" /> <anim id="QuestionMark" target="actor" targetSpec="" />Que puis-je
+faire pour toi?</message>
+	<message label="212_a" attrib="00 00 00 00">Fermer l'accès.</message>
+	<message label="212_b" attrib="00 00 00 00">J'ai oublié mon Dodo code™.</message>
+	<message label="212_c" attrib="00 00 00 00">En fait, je veux voyager.</message>
+	<message label="212_d" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Ça ira, merci.</message>
 	<message label="220" attrib="02 00 00 00"><anim id="Eh" target="actor" targetSpec="" />OK, <delay8 />donc tu ne veux pas recevoir
 de la visite, <delay20 /><anim id="QuestionMark" target="actor" targetSpec="" />mais partir en voyage,<delay8 />
 c'est ça?</message>
@@ -360,7 +380,12 @@ moment,<delay8 /> donc no problemo,<delay frames="30" />
 <anim id="Nodding" target="actor" targetSpec="" />je coupe la communication!</message>
 	<message label="223" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />No problemo! <delay20 /> Ton code actuel
 est :<delay20 /><anim id="FaintSmile" target="actor" targetSpec="" /> « <colour id="1" /><tag a="110" b="26" /><colour id="65535" /> »!</message>
-	<message label="251" attrib="00 00 00 00" />
+	<message label="224" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />No problemo!<delay20 /> Ton code actuel est :<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" /> « <colour id="1" /><tag a="110" b="25" /><colour id="65535" /> »!</message>
+	<message label="251_01" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Okidodoki!<delay frames="40" /> <anim id="EmotEnd" target="actor" targetSpec="" />Je coupe la
+communication.</message>
+	<message label="251_02" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Nous espérons bientôt te revoir à
+notre guichet!</message>
 	<message label="252" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Si tu veux à nouveau accueillir des
 visiteurs,<delay frames="30" /><anim id="EmotEnd" target="actor" targetSpec="" /> dis-le-moi et <delay20 /><anim id="Hello" target="actor" targetSpec="" />je me ferai
 un plaisir d'ouvrir l'accès!</message>
@@ -373,13 +398,23 @@ provenance d'une autre île!</message>
 	<message label="301" attrib="04 00 00 00">Et sinon,<delay20 /><anim id="QuestionMark" target="actor" targetSpec="" /> je peux faire quelque chose
 pour toi?</message>
 	<message label="301_a" attrib="00 00 00 00">Ouvrir l'accès.</message>
-	<message label="301_b" attrib="00 00 00 00">J'ai oublié mon code.</message>
+	<message label="301_b" attrib="00 00 00 00">J'ai oublié mon Dodo code™.</message>
 	<message label="301_c" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Ça ira, merci.</message>
 	<message label="302" attrib="04 00 00 00">Et sinon,<delay20 /><anim id="QuestionMark" target="actor" targetSpec="" /> je peux faire quelque chose
 pour toi?</message>
 	<message label="302_a" attrib="00 00 00 00">Fermer l'accès.</message>
-	<message label="302_b" attrib="00 00 00 00">J'ai oublié mon code.</message>
+	<message label="302_b" attrib="00 00 00 00">J'ai oublié mon Dodo code™.</message>
 	<message label="302_c" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Ça ira, merci.</message>
+	<message label="303" attrib="04 00 00 00">Et sinon,<delay20 /><anim id="QuestionMark" target="actor" targetSpec="" /> je peux faire quelque chose
+pour toi?</message>
+	<message label="303_a" attrib="00 00 00 00">Ouvrir l'accès.</message>
+	<message label="303_b" attrib="00 00 00 00">J'ai oublié mon Dodo code™.</message>
+	<message label="303_c" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Ça ira, merci.</message>
+	<message label="304" attrib="04 00 00 00">Et sinon,<delay20 /><anim id="QuestionMark" target="actor" targetSpec="" /> je peux faire quelque chose
+pour toi?</message>
+	<message label="304_a" attrib="00 00 00 00">Fermer l'accès.</message>
+	<message label="304_b" attrib="00 00 00 00">J'ai oublié mon Dodo code™.</message>
+	<message label="304_c" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Ça ira, merci.</message>
 	<message label="305" attrib="02 00 00 00">Et sinon,<delay20 /><anim id="QuestionMark" target="actor" targetSpec="" /> je peux faire quelque chose
 pour toi?</message>
 	<message label="305_a" attrib="00 00 00 00">Ouvrir l'accès.</message>
@@ -399,7 +434,7 @@ seras seul<gender2 m="" f="e" />, OK?</message>
 pour pouvoir faire ça<tag a="110" b="0" />
 <anim id="OhGeez" target="actor" targetSpec="" />Il faut que la « Communication libre
 entre utilisateurs » soit activée dans
-les paramètres du contrôle parental..</message>
+les paramètres du contrôle parental.</message>
 	<message label="401" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Tu veux inviter des amis sur ton île?<delay20 />
 <anim id="EmotEnd" target="actor" targetSpec="" />Attention, il y a une condition
 pour pouvoir faire ça<tag a="110" b="0" />
@@ -411,7 +446,7 @@ toujours un plaisir de recevoir de
 la visite à <tag a="110" b="8" />!
 <anim id="QuestionMark" target="actor" targetSpec="" />Je peux faire quelque chose
 pour toi?</message>
-	<message label="700_a" attrib="00 00 00 00">Je veux rentrer.</message>
+	<message label="700_a" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Je veux rentrer.</message>
 	<message label="700_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Ça ira, merci.</message>
 	<message label="701" attrib="00 00 00 00">Okidodoki! <delay20 /><anim id="FaintSmile" target="actor" targetSpec="" />Viens me voir quand tu
 voudras rentrer.</message>

@@ -1,9 +1,14 @@
 <msbt attribsize="4">
-	<message label="001" attrib="00 00 00 00"><tag a="110" b="1" />님, 어서와!<10_4 />
+	<message label="001" attrib="00 00 00 00"><tag a="110" b="1" />님, 어서 와!<10_4 />
 여기에선 저장 데이터에 관한 설정을
 할 수 있어구리<pageBreak /><anim id="Explain" target="actor" targetSpec="" />아주 중요한 내용이니까<delay20 />
 어린이 여러분은 보호자와 함께
 설정해야 돼구리<anim id="FaintSmile" target="actor" targetSpec="" /></message>
+	<message label="002" attrib="00 00 00 00"><tag a="110" b="1" />님, 어서 와!<10_4 />
+여기에선 여러 가지 중요한
+설정을 할 수 있어구리<pageBreak /><anim id="Explain" target="actor" targetSpec="" />여기에서 하는 설정은 정말 중요하니까<delay20 />
+어린이는 보호자와 함께
+진행해주면 좋겠어구리<anim id="FaintSmile" target="actor" targetSpec="" /></message>
 	<message label="010_01" attrib="00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />자, <delay20 />그럼<tag a="110" b="0" /></message>
 	<message label="010_02" attrib="00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />뭐 <delay20 />설명은 대충 이 정도로 마칠게구리<10_4 />
 그럼<tag a="110" b="0" /></message>
@@ -11,12 +16,18 @@
 이런 것들이야구리</message>
 	<message label="011_a" attrib="00 00 00 00">주민 등록 삭제</message>
 	<message label="011_b" attrib="00 00 00 00">설명해줘</message>
-	<message label="011_c" attrib="00 00 00 00">수속을 마칠래</message>
+	<message label="011_c" attrib="00 00 00 00">설정을 마칠래</message>
 	<message label="012" attrib="04 00 00 00">자, 그럼
 뭘 하고 싶어구리?</message>
 	<message label="012_a" attrib="00 00 00 00">주민 등록 삭제</message>
 	<message label="012_b" attrib="00 00 00 00">설명해줘</message>
-	<message label="012_c" attrib="00 00 00 00">수속을 마칠래</message>
+	<message label="012_c" attrib="00 00 00 00">설정을 마칠래</message>
+	<message label="020" attrib="04 00 00 00">어떤 설정을 하고 싶어구리?</message>
+	<message label="020_a" attrib="00 00 00 00">저장 데이터 설정</message>
+	<message label="020_b" attrib="00 00 00 00">너굴포털 설정</message>
+	<message label="020_c" attrib="00 00 00 00">설정을 마칠래</message>
+	<message label="021" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />그래그래! <delay20 />저장 데이터 말이지?<delay20 />
+알았어구리!</message>
 	<message label="051" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />그래그래!<delay20 /> 알았어구리!<10_4 />
 그럼 일단 타이틀 화면으로
 돌아갈게구리<pageBreak /><anim id="Greeting" target="actor" targetSpec="" /><delay8 />앞으로도 계속 <delay20 /><tag a="110" b="34" />
@@ -36,12 +47,12 @@
 	<message label="061" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />그래그래!<delay20 /> 그럼 조금 길지만
 설명을 들어줘구리<anim id="Smiling" target="actor" targetSpec="" /><pageBreak /><anim id="Serious" target="actor" targetSpec="" />아주 중요한 내용이니까<delay20 />
 잘 듣고 신중하게 생각해야 돼구리</message>
-	<message label="062_01" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />여기서는 <delay20 />등록된 주민<tag a="110" b="0" />
-즉, 여기 오신 <tag a="110" b="1" />님의
-삭제 신청을 받고 있어구리<pageBreak /><anim id="Serious" target="actor" targetSpec="" /><tag a="110" b="0" />쉽게 말하자면<delay20 />
-'<colour id="1" />플레이어의 저장 데이터를 삭제<colour id="65535" />'하는
-일이지구리<pageBreak /><anim id="Worried" target="actor" targetSpec="" />'<colour id="1" />모여봐요 동물의 숲<colour id="65535" />' 플레이어의
-저장 데이터만<tag a="110" b="0" /><pageBreak />Nintendo Switch HOME 메뉴의 설정에서
+	<message label="062_01" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />여기서는 <delay20 />여기 오신
+<tag a="110" b="1" />님의<delay20 />
+주민 등록 삭제 신청을 받고 있어구리<pageBreak /><anim id="Serious" target="actor" targetSpec="" /><tag a="110" b="0" />쉽게 말하자면<delay20 />
+'<colour id="1" />플레이어의 저장 데이터를 삭제<colour id="65535" />'<delay20 />하는
+일이지구리<pageBreak /><anim id="Worried" target="actor" targetSpec="" />'<colour id="2" />모여봐요 동물의 숲<colour id="65535" />'의<delay20 />
+플레이어 저장 데이터만<tag a="110" b="0" /><pageBreak />Nintendo Switch HOME 메뉴의 설정에서<delay20 />
 삭제할 수는 없어구리<pageBreak /><anim id="Explain" target="actor" targetSpec="" />그러니까 <delay20 />섬 거주 정보를
 삭제하고 싶으면 <delay20 />여기에 와서
 수속을 밟아야 돼구리</message>
@@ -61,13 +72,13 @@
 섬에서 놀 수 없는 상태이긴 하지만<tag a="110" b="0" /><pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />반대로 <delay20 />주민 등록을 하지 않은 유저가 있다면
 <anim id="Nodding" target="actor" targetSpec="" />그 사람이 <tag a="115" b="0" arg="0xcd00" />님이 되어
 생활하는 것도 가능해구리</message>
-	<message label="064_01" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />여기서는 원래, <delay20 />찾아오신 분의
+	<message label="064_01" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />여기서는 원래, <delay20 />찾아오신 분의<delay20 />
 주민 등록 삭제 신청을 받고 있어구리<pageBreak /><anim id="Serious" target="actor" targetSpec="" /><tag a="110" b="0" />쉽게 말하자면<delay20 />
-'<colour id="1" />플레이어의 저장 데이터를 삭제<colour id="65535" />'하는
-일이지구리<pageBreak /><anim id="Worried" target="actor" targetSpec="" />'<colour id="1" />모여봐요 동물의 숲<colour id="65535" />' 플레이어의
-저장 데이터만<tag a="110" b="0" /><pageBreak />Nintendo Switch HOME 메뉴의 설정에서
-삭제할 수는 없어구리<pageBreak /><anim id="Explain" target="actor" targetSpec="" />그러니까 <delay20 />섬 거주 정보를
-삭제하고 싶으면 <delay20 />여기에 와서
+'<colour id="1" />플레이어의 저장 데이터를 삭제<colour id="65535" />'<delay20 />하는
+일이지구리<pageBreak /><anim id="Worried" target="actor" targetSpec="" />'<colour id="2" />모여봐요 동물의 숲<colour id="65535" />'의<delay20 />
+플레이어 저장 데이터만<tag a="110" b="0" /><pageBreak />Nintendo Switch HOME 메뉴의 설정에서<delay8 />
+삭제할 수는<delay20 /> 없어구리<pageBreak /><anim id="Explain" target="actor" targetSpec="" />그러니까 <delay20 />섬 거주 정보를
+삭제하고 싶으면 <delay20 />여기에 와서<delay8 />
 수속을 밟아야 돼구리</message>
 	<message label="064_02" attrib="00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />참고로 <delay20 />등록된 주민을 삭제하면<tag a="110" b="0" /><pageBreak /><anim id="Explain" target="actor" targetSpec="" /><tag a="110" b="34" />에 있는
 그 주민에 대한 기록과
@@ -83,24 +94,24 @@
 <tag a="110" b="34" />도 없는 것과 같아!<pageBreak />그래서 <delay20 />여기에서 손쉽게
 삭제 신청을 접수할 수는 없으니까
 그 점은 이해해주기를 바랄게구리</message>
-	<message label="071_01" attrib="00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />주민 대표인
-<tag a="110" b="1" />님의 데이터를
-정 삭제하고 싶다면<tag a="110" b="0" /><pageBreak /><anim id="Serious" target="actor" targetSpec="" />Nintendo Switch의 HOME 메뉴에 있는
-<colour id="1" />설정<colour id="65535" />에서 <colour id="1" />데이터 관리<colour id="65535" />를 선택하고
-<colour id="1" />저장 데이터 삭제<colour id="65535" />를 실행하는 방법뿐이야구리
+	<message label="071_01" attrib="00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />주민 대표인<delay8 />
+<tag a="110" b="1" />님의 데이터를<delay20 />
+정 삭제하고 싶다면<tag a="110" b="0" /><pageBreak /><anim id="Serious" target="actor" targetSpec="" />Nintendo Switch의 HOME 메뉴에 있는<delay20 />
+<colour id="1" />설정<colour id="65535" />에서 <colour id="1" />데이터 관리<colour id="65535" />를 선택하고<delay20 />
+<colour id="1" />저장 데이터 삭제<colour id="65535" />를<delay8 /> 실행하는 방법뿐이야구리
 <anim id="Explain" target="actor" targetSpec="" />하지만 <delay20 /><tag a="110" b="1" />님의 데이터만
-삭제할 수는 없어구리<pageBreak /><anim id="Serious" target="actor" targetSpec="" /><tag a="110" b="1" />님의 정보를 지우려면<delay8 />
-<colour id="1" />이 소프트웨어의 저장 데이터를 모두 삭제<colour id="65535" />하고
-'<colour id="1" />모여봐요 동물의 숲<colour id="65535" />'의 모든 데이터<tag a="110" b="0" /><pageBreak /><anim id="Worried" target="actor" targetSpec="" />즉 <delay20 /><tag a="110" b="34" /><gender5 m="을" f="를" />
+삭제할 수는 없어구리<pageBreak /><anim id="Serious" target="actor" targetSpec="" /><tag a="110" b="1" />님의 정보를 지우려면<delay20 />
+<colour id="1" />이 소프트웨어의 저장 데이터를 모두 삭제<colour id="65535" />하고<delay20 />
+'<colour id="2" />모여봐요 동물의 숲<colour id="65535" />'의 모든 데이터<tag a="110" b="0" /><pageBreak /><anim id="Worried" target="actor" targetSpec="" />즉 <delay20 /><tag a="110" b="34" /><gender5 m="을" f="를" /><delay20 />
 아예 없애야 해구리</message>
-	<message label="071_02" attrib="00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />주민 대표의 데이터를
-정 삭제하고 싶다면<tag a="110" b="0" /><pageBreak /><anim id="Serious" target="actor" targetSpec="" />Nintendo Switch의 HOME 메뉴에 있는
-<colour id="1" />설정<colour id="65535" />에서 <colour id="1" />데이터 관리<colour id="65535" />를 선택하고
-<colour id="1" />저장 데이터 삭제<colour id="65535" />를 실행하는 방법뿐이야구리
-<anim id="Explain" target="actor" targetSpec="" />하지만 <delay20 />주민 대표의 주민 데이터만
-삭제할 수는 없어구리<pageBreak /><anim id="Serious" target="actor" targetSpec="" />주민 대표의 정보를 지우려면<delay8 />
-<colour id="1" />이 소프트웨어의 저장 데이터를 모두 삭제<colour id="65535" />하고
-'<colour id="1" />모여봐요 동물의 숲<colour id="65535" />'의 모든 데이터<tag a="110" b="0" /><pageBreak /><anim id="Worried" target="actor" targetSpec="" />즉 <delay20 /><tag a="110" b="34" /><gender5 m="을" f="를" />
+	<message label="071_02" attrib="00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />주민 대표의 데이터를<delay8 />
+정 삭제하고 싶다면<tag a="110" b="0" /><pageBreak /><anim id="Serious" target="actor" targetSpec="" />Nintendo Switch의 HOME 메뉴에 있는<delay20 />
+<colour id="1" />설정<colour id="65535" />에서 <colour id="1" />데이터 관리<colour id="65535" />를 선택하고<delay20 />
+<colour id="1" />저장 데이터 삭제<colour id="65535" />를<delay8 /> 실행하는 방법뿐이야구리
+<anim id="Explain" target="actor" targetSpec="" />하지만 <delay20 />주민 대표의 주민 데이터만<delay20 />
+삭제할 수는 없어구리<pageBreak /><anim id="Serious" target="actor" targetSpec="" />주민 대표의 정보를 지우려면<delay20 />
+<colour id="1" />이 소프트웨어의 저장 데이터를 모두 삭제<colour id="65535" />하고<delay20 />
+'<colour id="2" />모여봐요 동물의 숲<colour id="65535" />'의 모든 데이터<tag a="110" b="0" /><pageBreak /><anim id="Worried" target="actor" targetSpec="" />즉 <delay20 /><tag a="110" b="34" /><gender5 m="을" f="를" /><delay20 />
 아예 없애야 해구리</message>
 	<message label="101" attrib="00 00 00 00">등록된 주민을 삭제하는 거구나구리</message>
 	<message label="102" attrib="01 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" /><tag a="110" b="0" />그러니까<delay20 />

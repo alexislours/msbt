@@ -1,5 +1,5 @@
 <msbt attribsize="8">
-	<message label="001" attrib="00 00 00 00 00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />Oye, <tag a="110" b="31" arg="0xcd01" />, tú siempre andas entrenándote, ¿no? <delay8 /><anim id="QuestionMark" target="actor" targetSpec="" />¿Y para qué, si se puede saber?</message>
+	<message label="001" attrib="00 00 00 00 00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />Oye, <tag a="110" b="31" arg="0xcd01" />, tú siempre andas entrenándote, ¿no? <delay8 /><anim id="QuestionMark" target="actor" targetSpec="" />¿Y para qué,<delay8 /> si se puede saber?</message>
 	<message label="002" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />¿Eh? <delay8 />¿Que para qué? Bueno<tag a="110" b="0" /><delay8 />
 <anim id="Angry" target="actor" targetSpec="" />¿Es que no es obvio? <delay8 />¡Para tener
 abdominales duros como el acero!</message>
@@ -9,7 +9,7 @@ el acero, majo?</message>
 	<message label="004" attrib="00 00 03 00 00 00 00 00"><anim id="Surprised" target="actor" targetSpec="" />Que<tag a="110" b="0" /><delay8 /> ¿para qué los necesito?
 <anim id="Frantic" target="actor" targetSpec="" />Eeeh<tag a="110" b="0" /><delay8 /> Pues ahora que lo dices,
 ¡la verdad es que no tengo ni idea!
-<20_2 arg="8" /><anim id="Worried" target="actor" targetSpec="" />¡Ayúdame, <tag a="110" b="3" />!<delay8 /><20_2 arg="6" /> ¿Para qué estoy reforzando mis abdominales? ¡¿O por quién?!<anim id="EmotEnd" target="actor" targetSpec="" /></message>
+<20_2 arg="8" /><anim id="Worried" target="actor" targetSpec="" />¡Ayúdame, <tag a="110" b="3" />!<delay8 /><20_2 arg="6" /> ¿Para qué estoy reforzando mis abdominales?<delay8 /> ¡¿O por quién?!<anim id="EmotEnd" target="actor" targetSpec="" /></message>
 	<message label="004_a" attrib="00 00 00 00 00 00 00 00">¡Por ti mismo!</message>
 	<message label="004_b" attrib="00 00 00 00 00 00 00 00">¡Por <tag a="110" b="31" arg="0xcd00" />!</message>
 	<message label="004_c" attrib="00 00 00 00 00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />A mí no me mires...</message>
@@ -23,8 +23,8 @@ suficiente. <delay8 /><anim id="EmotEnd" target="actor" targetSpec="" />¡Me ale
 	<message label="007" attrib="00 00 00 00 00 00 00 00"><anim id="Surprised" target="actor" targetSpec="" />¡¿Eh?! ¿Por <tag a="110" b="31" arg="0xcd00" />?<pageBreak /><anim id="SadSpiral" target="actor" targetSpec="" />Yo siempre había entrenado por mi
 cuenta<tag a="110" b="0" /><delay8 /><20_2 arg="7" /> pero igual tenía que haber
 aprovechado para fardar más.
-<20_3 arg="7" /><anim id="Angry" target="actor" targetSpec="" />¡Vale! <delay8 />¡Fíjate, <tag a="110" b="31" arg="0xcd00" />!<delay8 /> Un, dos, <delay8 />un, dos, <delay8 />¡¡¡caña, <tag a="110" b="6" />!!!</message>
-	<message label="008" attrib="00 00 00 00 00 00 00 00"><anim id="TakenAback" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="110" b="3" />,<20_2 arg="3" /> ¿qué es esto?<delay8 /> ¿Tú ves qué ganas de marcha tiene de repente <tag a="110" b="31" arg="0xcd01" />?<pageBreak /><20_2 arg="5" /><anim id="EmotEnd" target="actor" targetSpec="" />¡Pues me apunto!<delay8 /> ¡Vamos allá!<delay8 />
+<20_2 arg="5" /><20_3 arg="7" /><anim id="Angry" target="actor" targetSpec="" />¡Vale! <delay8 />¡Fíjate, <tag a="110" b="31" arg="0xcd00" />!<delay8 /> Un, dos, <delay8 />un, dos, <delay8 />¡¡¡caña, <tag a="110" b="6" />!!!</message>
+	<message label="008" attrib="00 00 00 00 00 00 00 00"><anim id="TakenAback" target="actor" targetSpec="" /><20_2 arg="6" /><tag a="50" b="3" /><tag a="110" b="3" />,<20_2 arg="3" /> ¿qué es esto?<delay8 /> ¿Tú ves qué ganas de marcha tiene de repente <tag a="110" b="31" arg="0xcd01" />?<pageBreak /><20_2 arg="5" /><anim id="EmotEnd" target="actor" targetSpec="" />¡Pues me apunto!<delay8 /> ¡Vamos allá!<delay8 />
 <anim id="Dance" target="actor" targetSpec="" />Un, dos, <delay8 />un, dos<tag a="110" b="0" /><delay8 /> ¡Dale, <tag a="110" b="6" />!</message>
 	<message label="009" attrib="00 00 00 00 00 00 00 00"><anim id="Confused" target="actor" targetSpec="" />¿No tienes ni idea? <delay8 />Bueno<tag a="110" b="0" /><delay8 />
 <anim id="Frantic" target="actor" targetSpec="" />¡Da igual! <delay8 />¡Yo pienso seguir
@@ -35,9 +35,7 @@ abdominales no soy nada!<pageBreak /><anim id="IdeaBulb" target="actor" targetSp
 	<message label="010" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />¡Di que sí! <delay8 />Que nadie te diga cómo
 tienes que vivir tu vida. <delay8 />Lo único que
 cuenta es que seas feliz y punto.</message>
-	<message label="011" attrib="00 00 00 00 00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />Oye, <tag a="110" b="31" arg="0xcd01" /><tag a="110" b="0" /><delay8 /> tú que
-eres tan deportista, ¿en qué tipo
-de campeonato ganarías fijo?</message>
+	<message label="011" attrib="00 00 00 00 00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />Oye, <tag a="110" b="31" arg="0xcd01" /><tag a="110" b="0" /><delay8 /> tú que eres tan deportista,<delay8 /> ¿en qué tipo de campeonato ganarías fijo?</message>
 	<message label="012" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />¿Insinúas que hay algún tipo de
 campeonato en el que NO ganaría?<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Con la de horas que entreno por
 semana, te garantizo que no hay
@@ -48,10 +46,7 @@ se te dé mejor, ¿o qué?</message>
 	<message label="014" attrib="00 00 03 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Ahí le has dado<tag a="110" b="0" /><delay8 /> Soy un hacha
 haciendo sentadillas, pero eso
 no cuenta como deporte, claro.
-<anim id="Nodding" target="actor" targetSpec="" />El bádminton también se me da
-de miedo<tag a="110" b="0" /><delay8 /> aunque es más flojillo
-que otros deportes más intensos.
-<anim id="Frantic" target="actor" targetSpec="" />No sé, ¡no podría elegir uno solo!<delay20 />
+<anim id="Nodding" target="actor" targetSpec="" />El <tag a="135" b="6" arg="0xcd00" /> también se me da de miedo<tag a="110" b="0" /><delay8 /> aunque es más flojillo que otros deportes más intensos.<pageBreak /><anim id="Frantic" target="actor" targetSpec="" />No sé,<delay8 /> ¡no podría elegir uno solo!<delay20 />
 <anim id="Worried" target="actor" targetSpec="" /><20_3 arg="8" />¿Tú cuál crees <20_2 arg="6" />que se me da
 mejor, <tag a="110" b="3" />?<anim id="EmotEnd" target="actor" targetSpec="" /></message>
 	<message label="014_a" attrib="00 00 00 00 00 00 00 00">La natación</message>
@@ -60,11 +55,11 @@ mejor, <tag a="110" b="3" />?<anim id="EmotEnd" target="actor" targetSpec="" /><
 	<message label="015" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />La natación, ¿eh? <delay8 />Supongo que
 tanto hacer largos en piscinas
 olímpicas ha dado sus frutos.
-<anim id="Dance" target="actor" targetSpec="" />¡Y lo mejor de todo es que en
+<20_2 arg="7" /><anim id="Dance" target="actor" targetSpec="" />¡Y lo mejor de todo es que en
 bañador se marcan los músculos
 que da gusto!
-<anim id="FaintSmile" target="actor" targetSpec="" />No se te escapa una, <tag a="110" b="3" />.</message>
-	<message label="016" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Sí, la verdad es que te veo como
+<20_2 arg="8" /><anim id="FaintSmile" target="actor" targetSpec="" />No se te escapa una, <tag a="110" b="3" />.</message>
+	<message label="016" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Sí,<delay8 /> <20_2 arg="7" />la verdad es que te veo como
 campeón de natación, chato.<pageBreak /><anim id="Blushing" target="actor" targetSpec="" />Y pensar que yo aún tengo que
 nadar a veces con manguitos<tag a="110" b="0" /><delay8 />
 <anim id="Scheming" target="actor" targetSpec="" />¡Si es que el deporte no es lo mío!</message>

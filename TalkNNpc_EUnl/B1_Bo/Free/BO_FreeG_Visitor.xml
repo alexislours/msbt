@@ -3,8 +3,8 @@
 	<message label="001_a" attrib="04 00 00 00 00 00 00 00">Ja, in één hap.</message>
 	<message label="001_b" attrib="05 00 00 00 00 00 00 00">Nee!</message>
 	<message label="002" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="23" arg="0xd 0xe 0xf 0xffff" /></message>
-	<message label="003" attrib="09 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x10 0x11 0xffff 0xffff" /></message>
-	<message label="004" attrib="00 00 00 00 00 00 00 00"><anim id="IdeaBulb" target="actor" targetSpec="" />Dat doe je snel, <tag a="110" b="3" />!<delay frames="40" /><anim id="Smiling" target="actor" targetSpec="" />Ahahaha,<delay20 /> zijn ze niet<delay8 /> héérlijk?<pageBreak /><anim id="HappyDance" target="actor" targetSpec="" />Ik ben er zelf ook dol op!<delay frames="40" /> Eet maar
+	<message label="003" attrib="09 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x1 0x10 0x11 0x12" /></message>
+	<message label="004" attrib="00 00 00 00 00 00 00 00"><anim id="IdeaBulb" target="actor" targetSpec="" />Dat doe je snel, <tag a="110" b="3" />!<delay frames="40" /><anim id="Smiling" target="actor" targetSpec="" /> Ahahaha,<delay20 /> zijn ze niet<delay8 /> héérlijk?<pageBreak /><anim id="HappyDance" target="actor" targetSpec="" />Ik ben er zelf ook dol op!<delay frames="40" /> Eet maar
 zoveel als je wilt! <tag a="50" b="3" /><tag a="110" b="6" />!</message>
 	<message label="005" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Huh<tag a="110" b="0" /><delay20 /> Wat?<delay frames="40" /> Waarom niet?<anim id="Smiling" target="actor" targetSpec="" /> Iedereen
 hier zal je vertellen<delay frames="40" /> dat ze de trots
@@ -25,10 +25,11 @@ fossielen of beestjes,<anim id="Smiling" target="actor" targetSpec="" /> maar he
 sowieso een echt museum!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />De collectie is nog niet zo uitgebreid.
 <anim id="Greeting" target="actor" targetSpec="" />Maar daar kun jij bij helpen als je
 wilt, <tag a="110" b="3" />.</message>
-	<message label="017" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="2" arg="0x15 0x16 0x17 0x19" /></message>
+	<message label="017" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="3" arg="0x15 0x16 0x17 0x18 0x19" /></message>
 	<message label="021" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1c00 0x1900 0xcd00" /></message>
 	<message label="022" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1d01 0x1900 0xcd00" /></message>
 	<message label="023" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1e02 0x1900 0xcd00" /></message>
+	<message label="024" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1f03 0x1900 0xcd00" /></message>
 	<message label="025" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Er is een geweldig <colour id="1" />museum <colour id="65535" />op
 <tag a="110" b="8" />.<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Ga er maar eens heen. Ze zijn de
 hele dag en nacht geopend. Want
@@ -41,35 +42,36 @@ daar je hart ophalen.</message>
 <tag a="50" b="2" /><tag a="135" b="13" arg="0x2" />.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Ik heb er laatst uren naar staan
 staren.<delay40 /> En terwijl ik ernaar keek<delay40 /> was
 het net<tag a="110" b="0" /> alsof ik<delay20 /><anim id="Pardon" target="actor" targetSpec="" /> door de tijd reisde.</message>
-	<message label="101" attrib="00 00 10 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Zeg, <tag a="110" b="3" />,<delay frames="40" /> wat doe jij<delay20 /> als je plezier wilt maken<delay20 /><anim id="Hello" target="actor" targetSpec="" /> op je nieuwe eiland?</message>
-	<message label="101_a" attrib="66 00 00 00 00 00 00 00">Vissen vangen.</message>
-	<message label="101_b" attrib="67 00 00 00 00 00 00 00">Beestjes vangen.</message>
-	<message label="101_c" attrib="68 00 00 00 00 00 00 00">Verstoppertje spelen.</message>
-	<message label="101_d" attrib="69 00 00 00 00 00 00 00">Schatten opgraven.</message>
-	<message label="101_e" attrib="6a 00 00 00 00 00 00 00">Met vrienden kletsen.</message>
-	<message label="102" attrib="00 00 00 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Ja, vissen!<delay frames="40" /><anim id="FaintSmile" target="actor" targetSpec="" /> Dat doe ik ook nog steeds
-heel veel!<10_4 /><anim id="AbsentMindedness" target="actor" targetSpec="" /> Al houden de vissen me af
-en toe voor de gek<tag a="110" b="0" /><pageBreak /><anim id="Thinking" target="actor" targetSpec="" />Ik vraag me af of de vissen op jouw
-eiland net zo ondeugend zijn als hier.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Misschien moet ik maar eens naar <tag a="110" b="9" /> verhuizen om te kijken hoe het daar is.</message>
-	<message label="103" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Beestjes vangen? Ja, dat is leuk!<delay frames="40" />
-<anim id="EmotEnd" target="actor" targetSpec="" />Ik speel ook vaak tikkertje met
-beestjes<tag a="110" b="0" /><pageBreak /><delay20 /><anim id="Laughing" target="actor" targetSpec="" />Ahahaha, ik kan het alleen nooit van
-ze winnen!<10_4 /><anim id="Serious" target="actor" targetSpec="" /> Beestjes zijn snel en ze
-zijn moeilijk te tikken of ontwijken.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" /><anim id="QuestionMark" target="actor" targetSpec="" />Zijn de beestjes op jouw eiland goed
-in tikkertje spelen?<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Als ze je op <tag a="110" b="9" /> nooit te pakken krijgen, maak ik misschien meer kans als ik daar ga wonen.</message>
-	<message label="104" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />O ja,<delay frames="40" /><anim id="FaintSmile" target="actor" targetSpec="" /> verstoppertje kan heel
-spannend zijn.<pageBreak /><anim id="QuestionMark" target="actor" targetSpec="" />Zijn er op jouw eiland een boel goeie
-verstopplekken?<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Ik had me een keer<delay40 /> in een boom
-verstopt<delay40 /> en ik durfde er niet meer
-uit.<delay40 /> Maar ik wilde niet verliezen!<pageBreak />Dus ik zat daar hongerig en koud<tag a="110" b="0" />
-en uiteindelijk verloor ik, omdat ik
-toch gevonden werd.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Als ik op <tag a="110" b="9" /> zou wonen, zou ik best nog weleens een poging willen wagen met verstoppen.</message>
-	<message label="105" attrib="00 00 00 00 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Ga je graag op schattenjacht?<delay frames="40" /><anim id="HappyDance" target="actor" targetSpec="" /> Dat wil
-ik ook!<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Ik heb al een tijdje niks opgegraven
-op mijn eiland.<pageBreak /><anim id="BigSmile" target="actor" targetSpec="" />Terwijl ik graven juist heel leuk vind!<delay8 />
-<anim id="FaintSmile" target="actor" targetSpec="" />Het is lekker ontspannend,<delay8 /> alsof je
-één bent met de natuur!<pageBreak /><anim id="Nodding" target="actor" targetSpec="" /><tag a="110" b="9" /> klinkt als een fijne plek om te wonen, als jij daar zoveel schatten opgraaft.</message>
-	<message label="106" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Gewoon rustig kletsen klinkt fijn.<delay frames="40" />
-<anim id="EmotEnd" target="actor" targetSpec="" />Gheghe, <delay20 /><anim id="Grin" target="actor" targetSpec="" />dit eiland is denk ik wat
-rumoeriger dan het jouwe.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Hier heb je <tag a="110" b="11" arg="0xcd00" /> en<delay20 /> <tag a="110" b="11" arg="0xcd01" /><tag a="110" b="0" /> die twee<tag a="110" b="0" /> zijn altijd in de weer.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Voor de afwisseling lijkt het me best gezellig om op <tag a="110" b="9" /> te komen wonen.</message>
+	<message label="201" attrib="00 00 10 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Hé, <tag a="110" b="3" />.<delay20 /> Wat doe jij als je<anim id="Hello" target="actor" targetSpec="" /> <delay20 />lol wilt maken op <tag a="110" b="9" />?</message>
+	<message label="201_a" attrib="ca 00 00 00 00 00 00 00">Vissen. Naar vis.</message>
+	<message label="201_b" attrib="cb 00 00 00 00 00 00 00">Insencten vangen.</message>
+	<message label="201_c" attrib="cc 00 00 00 00 00 00 00">Verstoppertje spelen.</message>
+	<message label="201_d" attrib="cd 00 00 00 00 00 00 00">Schatten zoeken.</message>
+	<message label="201_e" attrib="ce 00 00 00 00 00 00 00">Vrienden bezoeken.</message>
+	<message label="202" attrib="00 00 00 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" /><delay20 />Ja, vissen!<delay frames="40" /> <anim id="FaintSmile" target="actor" targetSpec="" />Ik speel ook graag met
+vissen!<10_4 /> <anim id="AbsentMindedness" target="actor" targetSpec="" />Vissen zijn gaaf<tag a="110" b="0" /><anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak />Ik vind het cool dat de vissen hier
+net zo ruiken als de vissen op
+<tag a="110" b="9" />.<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Dat doet me terugdenken aan onze
+leuke tijd samen, <tag a="110" b="5" />.</message>
+	<message label="203" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Beestjes vangen? Ja, dat is cool.<delay frames="40" /> <anim id="EmotEnd" target="actor" targetSpec="" />Ik
+speel met mijn beestenvriendjes ook
+vaak tikkertje<tag a="110" b="0" /> "Tikkie, jij bent 'm!"<pageBreak /><anim id="Laughing" target="actor" targetSpec="" /><delay20 />Ahahaha, maar ik verlies hartstikke
+vaak!<10_4 /> <anim id="Serious" target="actor" targetSpec="" />Beestjes zijn vliegensvlug én
+ze tikken terug, <tag a="110" b="5" />.</message>
+	<message label="204" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />O ja, verstoppertje.<delay frames="40" /> <anim id="FaintSmile" target="actor" targetSpec="" />Dat klinkt leuk,
+<tag a="110" b="5" />.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Toen ik een keer verstoppertje
+speelde, kwam ik vast te zitten in
+een boom.<pageBreak />Ik wilde niet verliezen, dus ik riep
+niet om hulp<tag a="110" b="0" /><pageBreak /><anim id="SadSpiral" target="actor" targetSpec="" /><tag a="110" b="0" />maar uiteindelijk werd ik verraden
+door mijn buik,<delay20 /> omdat die gromde
+van de honger<tag a="110" b="0" /></message>
+	<message label="205" attrib="00 00 00 00 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Je speelt schattenjacht?<delay frames="40" /><anim id="HappyFlower" target="actor" targetSpec="" /> Ik wil op
+schattenjacht, <tag a="110" b="5" />!<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Ik heb al een hele tijd geen gaten
+gegraven om naar schatten te
+zoeken<tag a="110" b="0" /><pageBreak /><anim id="BigSmile" target="actor" targetSpec="" />Ik ben dol op gaten graven. Jij ook?
+<delay20 />Het is zo ontspannend. Daarbij voel
+je je pas echt <delay8 />één met de natuur!</message>
+	<message label="206" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Dat klinkt zo gezellig en ontspannen.<delay frames="40" />
+<anim id="EmotEnd" target="actor" targetSpec="" />Ahaha, <delay20 /><anim id="Grin" target="actor" targetSpec="" />dit eiland is wat, <delay8 />eh,<delay8 />
+luidruchtiger dan het jouwe.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Want we hebben <tag a="110" b="11" arg="0xcd00" /> en <delay20 /><tag a="110" b="11" arg="0xcd01" />, en die twee<tag a="110" b="0" /> <delay20 />zijn altijd in de weer.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Hartstikke leuk, <tag a="110" b="5" />.</message>
 </msbt>

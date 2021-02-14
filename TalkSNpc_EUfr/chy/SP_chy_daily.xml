@@ -9,7 +9,7 @@ quête de la créature de mes rêves.
 <anim id="HappyFlower" target="actor" targetSpec="" />À dessein purement artistique !
 <anim id="AbsentMindedness" target="actor" targetSpec="" />Je veux capturer l'essence de leurs
 pattes rampantes et de leurs
-antennes frétillantes !<pageBreak /><delay frames="40" /><anim id="Love" target="actor" targetSpec="" />Nous avons une chance inestimable
+antennes frétillantes !<pageBreak /><anim id="Love" target="actor" targetSpec="" />Nous avons une chance inestimable
 qu'ils nous laissent vivre dans leur
 monde<tag a="110" b="0" /></message>
 	<message label="002" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Oh ! <delay20 />Oui, d'ac<tag a="110" b="0" /> d'accord.<pageBreak /><anim id="Blushing" target="actor" targetSpec="" />Mais si jamais tu<tag a="110" b="0" /><delay20 /> tu changes d'avis,<delay20 />
@@ -97,18 +97,15 @@ d'ici là ?</message>
 	<message label="023" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />À <colour id="1" /><tag a="90" b="37" arg="0xcd00" /> h<colour id="65535" />, je vous quitte pour une
 autre île. <delay frames="40" /><anim id="FaintSmile" target="actor" targetSpec="" />Auras-tu un insecte pour
 moi d'ici là ?</message>
-	<message label="024" attrib="02 00 00 00"><anim id="Aha" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="50" b="2" /><tag a="125" b="0" arg="0x0" /> !<delay20 />
-De battre mon cœur s'est arrêté ! <anim id="Frantic" target="actor" targetSpec="" /><delay20 />
-Quelle<tag a="110" b="0" /><10_5 /> Quelle splendeur <endTag a="10" b="5" />!<delay frames="40" />
-<colour id="4" />Calme-toi, Djason !<pageBreak /><anim id="Grin" target="actor" targetSpec="" /><colour id="65535" /><tag a="50" b="3" /><tag a="50" b="1" /><tag a="125" b="0" arg="0x0" /><tag a="110" b="0" /><delay20 /> Est-ce que tu pourrais me <tag a="50" b="17" arg="0x11 0xcd00 0x4 0x6c 0x65 0x4 0x6c 0x61 0x0" /> vendre, pour, mettons, <tag a="90" b="20" arg="0x2" /> ?</message>
+	<message label="024" attrib="02 00 00 00"><anim id="Aha" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="50" b="2" /><tag a="125" b="0" arg="0x0" /> !<delay20 /> Mon cœur n'en croit pas ses ventricules ! <anim id="Frantic" target="actor" targetSpec="" /><delay20 />Quelle splendeur !<delay frames="40" /><pageBreak /><colour id="4" />Calme-toi, Djason !<pageBreak /><anim id="Grin" target="actor" targetSpec="" /><colour id="65535" /><tag a="50" b="3" /><tag a="50" b="1" /><tag a="125" b="0" arg="0x0" /><tag a="110" b="0" /><delay20 /> Est-ce que tu pourrais me <tag a="50" b="17" arg="0x12 0xcd00 0x4 0x6c 0x65 0x4 0x6c 0x61 0x0" /> vendre, pour, mettons, <tag a="90" b="20" arg="0x2" /> ?</message>
 	<message label="024_a" attrib="00 00 00 00">Affaire conclue !</message>
-	<message label="024_b" attrib="00 00 00 00">En y repensant...</message>
+	<message label="024_b" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />En y repensant...</message>
 	<message label="025" attrib="02 00 00 00"><anim id="Cheering" target="actor" targetSpec="" />Mais tu en as tout un essaim ?! <delay20 />
 C'est le plus beau jour de ma vie ! <delay frames="40" />
 <anim id="EmotEnd" target="actor" targetSpec="" /><colour id="4" />Calme-toi un peu, Djason<tag a="110" b="0" /><colour id="65535" />
 Bon. <delay20 /><anim id="Scheming" target="actor" targetSpec="" /><tag a="90" b="20" arg="0x2" /> le tout, qu'en dis-tu ?</message>
 	<message label="025_a" attrib="00 00 00 00">J'en dis que c'est vendu !</message>
-	<message label="025_b" attrib="00 00 00 00">En y réfléchissant...</message>
+	<message label="025_b" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />En y réfléchissant...</message>
 	<message label="027" attrib="00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Vrai... Vraiment ?<delay20 /><anim id="BigSmile" target="actor" targetSpec="" /> Merci mille fois !</message>
 	<message label="028" attrib="00 00 00 00"><anim id="IdeaBulb" target="actor" targetSpec="" />Si tu en attrapes encore, dis-le-moi !</message>
 	<message label="033" attrib="00 00 00 00"><anim id="Blushing" target="actor" targetSpec="" />Hé, <delay20 />euh,<delay20 /> merci de passer du temps
@@ -177,8 +174,7 @@ ton île.<pageBreak /><anim id="Blushing" target="actor" targetSpec="" />Auras-t
 présenter aux insectes qui y 
 ont élu domicile ?</message>
 	<message label="100" attrib="00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />C'est au sujet de ta commande
-d'une œuvre inspirée par <tag a="50" b="2" /><tag a="125" b="0" arg="0x1" /> ?
-<anim id="AbsentMindedness" target="actor" targetSpec="" />Son image exacte est gravée dans
+d'une œuvre inspirée par <tag a="50" b="2" /><tag a="125" b="0" arg="0x1" /> ?<pageBreak /><anim id="AbsentMindedness" target="actor" targetSpec="" />Son image exacte est gravée dans
 ma mémoire !<pageBreak />Je dois l'immortaliser avant que la
 flamme s'éteigne !<pageBreak /><anim id="Pardon" target="actor" targetSpec="" />Quand ma muse par mon art sera
 enfin apaisée,<delay20 /> je<tag a="110" b="0" /> <delay20 />euh<tag a="110" b="0" /> <delay frames="40" /><anim id="Blushing" target="actor" targetSpec="" />j'enverrai ce
@@ -221,7 +217,7 @@ t'estiment digne de mon art.</message>
 enfin commencer. <delay20 /><anim id="QuestionMark" target="actor" targetSpec="" />Quel insecte sera notre muse ?</message>
 	<message label="107" attrib="02 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Noble <tag a="125" b="0" arg="0x2" /> !<delay frames="40" />
 <anim id="QuestionMark" target="actor" targetSpec="" />Saurais-tu t'en séparer de <colour id="1" /><tag a="90" b="0" arg="0x3" /><colour id="65535" /> ?<delay20 />
-<tag a="50" b="17" arg="0x211 0xcd00 0x6 0x49 0x6c 0x73 0xa 0x45 0x6c 0x6c 0x65 0x73 0x0" /> seront bien avec moi.</message>
+<tag a="50" b="17" arg="0x212 0xcd00 0x6 0x49 0x6c 0x73 0xa 0x45 0x6c 0x6c 0x65 0x73 0x0" /> seront bien avec moi.</message>
 	<message label="107_a" attrib="00 00 00 00">Oui !</message>
 	<message label="107_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Ah non alors !</message>
 	<message label="108" attrib="00 00 00 00"><anim id="Aha" target="actor" targetSpec="" /><colour id="4" />Une commande,<delay8 /> enfin !<delay20 /><colour id="65535" /> <anim id="EmotEnd" target="actor" targetSpec="" />Euh,<delay20 /> je
@@ -253,11 +249,11 @@ Scarabée<colour id="65535" /> » !</message>
 <gender4 m="de " f="d'" /><colour id="1" /><tag a="125" b="0" arg="0x1" /><colour id="65535" />, le sécateur d'outre-monde ?<pageBreak /><anim id="Shocked" target="actor" targetSpec="" />Ces mandibules tranchantes
 prêtes à vous couper la jugulaire !
 <delay20 /><anim id="ColdChill" target="actor" targetSpec="" />Ces yeux rouges qui vous pénètrent !
-<anim id="Apologize" target="actor" targetSpec="" />Mon chef-d'œuvre, le « <colour id="1" />Roi Lucane <colour id="65535" />», 
+<anim id="Apologize" target="actor" targetSpec="" />Mon chef-d'œuvre, le « <colour id="1" />Roi Lucane <colour id="65535" />»,
 te donnera littéralement le grand
 frisson !</message>
 	<message label="152" attrib="00 00 00 00"><anim id="Clapping" target="actor" targetSpec="" /><anim id="Clapping" target="actor" targetSpec="" />Alors tu veux une sculpture
-<gender4 m="de " f="d'" /><colour id="1" /><tag a="125" b="0" arg="0x1" /><colour id="65535" />?<delay frames="40" /> Cet ange qui virevolte parmi nous ?<pageBreak /><anim id="Love" target="actor" targetSpec="" />Ces glorieuses créatures sont comme
+<gender4 m="de " f="d'" /><colour id="1" /><tag a="125" b="0" arg="0x1" /> <colour id="65535" />?<delay frames="40" /> Cet ange qui virevolte parmi nous ?<pageBreak /><anim id="Love" target="actor" targetSpec="" />Ces glorieuses créatures sont comme
 des lunettes nous permettant
 d'entrevoir la pureté de leur monde.
 <anim id="Apologize" target="actor" targetSpec="" />Je te promets d'en faire une œuvre

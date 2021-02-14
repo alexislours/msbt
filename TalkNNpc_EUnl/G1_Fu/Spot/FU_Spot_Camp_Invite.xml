@@ -2,6 +2,12 @@
 	<message label="002" attrib="00 00 00 00 00 00 00 00"><anim id="Love" target="actor" targetSpec="" />Ik voel me helemaal welkom!<delay8 /> Dank je
 wel! <delay20 /><anim id="Hesitate" target="actor" targetSpec="" />Hopelijk denken ze er bij de
 <colour id="1" />servicebalie<colour id="65535" /> net zo over als jij<tag a="110" b="0" /></message>
+	<message label="003" attrib="00 00 00 00 00 00 00 00"><anim id="Hesitate" target="actor" targetSpec="" />Dat is ontzettend aardig van je om
+opnieuw te vragen,<delay8 /> vooral omdat ik
+je uitnodiging eerder heb afgewezen.<pageBreak /><anim id="Love" target="actor" targetSpec="" />Reuzebedankt!<delay frames="40" /> <anim id="Nodding" target="actor" targetSpec="" />Ik ben helemaal van
+gedachte veranderd.<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Ik ga even bij de <colour id="1" />servicebalie <colour id="65535" />langs
+en als ze het goed vinden,<delay8 /> kom ik
+hier wonen!</message>
 	<message label="101" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
 	<message label="101_01" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Het is leuk om te dromen,<delay20 /> maar het
 is een iets te grote verandering
@@ -70,16 +76,20 @@ vond het heel leuk om dit met je te
 spelen.</message>
 	<message label="206" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
 	<message label="206_01" attrib="00 00 00 00 00 00 00 00"><anim id="Cheering" target="actor" targetSpec="" />Je hebt gewonnen!<delay frames="30" /> <anim id="EmotEnd" target="actor" targetSpec="" />Wat betekent<delay8 /><tag a="110" b="0" />
-<anim id="Cheering" target="actor" targetSpec="" />dat we buren worden!<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Ik kijk er heel erg naar uit om je
-beter te leren kennen,<delay20 /> <gender2 m="buurman" f="buurvrouw" />
-<tag a="110" b="3" />!</message>
+<anim id="Cheering" target="actor" targetSpec="" />dat we buren worden!<pageBreak /><anim id="Thinking" target="actor" targetSpec="" />Maar eerst<delay20 /> moet ik het een en ander
+bespreken met de <colour id="1" />servicebalie<colour id="65535" />.<delay frames="40" />
+<anim id="FaintSmile" target="actor" targetSpec="" />Laat ik dat gelijk maar doen.</message>
 	<message label="206_02" attrib="00 00 00 00 00 00 00 00"><anim id="Cheering" target="actor" targetSpec="" />Je hebt gewonnen!<delay frames="40" /> <anim id="Pardon" target="actor" targetSpec="" />Misschien ben ik
 dan echt voorbestemd<delay20 /> om naar dit
-eiland te verhuizen.<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Nou,<delay20 /> <anim id="Worried" target="actor" targetSpec="" />eh<delay8 /><tag a="110" b="0" /> <tag a="110" b="3" /><tag a="110" b="0" /><pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Ik kijk er heel erg naar uit<delay20 /> om je
-beter te leren kennen.</message>
-	<message label="206_03" attrib="00 00 00 00 00 00 00 00"><anim id="Grin" target="actor" targetSpec="" />Misschien heb je me verslagen,<delay20 />
+eiland te verhuizen.<pageBreak /><anim id="Thinking" target="actor" targetSpec="" />Dan is mijn volgende stap om bij de
+<colour id="1" />servicebalie<colour id="65535" /><delay20 /> te informeren naar een
+eventuele verhuizing.</message>
+	<message label="206_03" attrib="00 00 00 00 00 00 00 00"><anim id="Grin" target="actor" targetSpec="" />Misschien heb je me verslagen<delay20 />
 omdat het mijn lot is om hier te
-komen wonen.<pageBreak />Dus, eh<delay8 /><tag a="110" b="0" /> <tag a="110" b="3" />, toch? <anim id="FaintSmile" target="actor" targetSpec="" />Ik ben blij dat jij hier bent als ik hier kom wonen!<anim id="HappyDance" target="actor" targetSpec="" /> Zo spannend!</message>
+komen wonen.<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Ik verhuis naar dit eiland zodra
+mijn kampeertripje op zijn einde is.<pageBreak /><anim id="Thinking" target="actor" targetSpec="" />O,<delay8 /> maar voordat ik kan verhuizen,<delay20 />
+moet ik eerst bij de <colour id="1" />servicebalie <colour id="65535" />om
+toestemming vragen.<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Ik ga er meteen achteraan!</message>
 	<message label="302" attrib="00 00 01 00 00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />Sorry voor het wachten!<delay frames="40" /> Ik ben bij de
 <colour id="1" />servicebalie<colour id="65535" /> geweest<delay20 /> en daar hadden
 ze niet zulk goed nieuws voor me<tag a="110" b="0" /><pageBreak /><anim id="Worried" target="actor" targetSpec="" />Er is geen ruimte om nieuwe huizen
@@ -109,7 +119,7 @@ wie zal ik het dan vragen?</message>
 	<message label="308" attrib="00 00 00 00 00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Je hebt vast gelijk.<delay frames="40" /> <anim id="Worried" target="actor" targetSpec="" />Het laatste wat ik
 wil<delay20 /> is dat ik bewoners beledig nadat
 ze zo aardig tegen me zijn geweest.</message>
-	<message label="309" attrib="00 00 00 00 00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />Jij bent <tag a="110" b="3" />,<delay20 /> toch?<delay frames="30" /><anim id="Sighing" target="actor" targetSpec="" /> Ik ben blij dat ik je naam goed heb!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Ik heb het gevraagd<delay20 /> en <tag a="115" b="1" arg="0xcd00" /> wil inderdaad verhuizen.<pageBreak /><anim id="Pardon" target="actor" targetSpec="" /><tag a="50" b="17" arg="0xe 0xcd00 0x6 0x48 0x69 0x6a 0x4 0x5a 0x65 0x0" /> zei zelfs dat <tag a="50" b="17" arg="0xe 0xcd00 0x6 0x68 0x69 0x6a 0x4 0x7a 0x65 0x0" /> wat sneller op zal
+	<message label="309" attrib="00 00 00 00 00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />Jij bent <tag a="110" b="3" />,<delay20 /> toch?<delay frames="30" /><anim id="Sighing" target="actor" targetSpec="" /> Ik ben blij dat ik je naam goed heb!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Ik heb het gevraagd<delay20 /> en <tag a="115" b="1" arg="0xcd00" /> wil inderdaad verhuizen.<pageBreak /><anim id="Pardon" target="actor" targetSpec="" /><tag a="50" b="17" arg="0xf 0xcd00 0x6 0x48 0x69 0x6a 0x4 0x5a 0x65 0x0" /> zei zelfs dat <tag a="50" b="17" arg="0xf 0xcd00 0x6 0x68 0x69 0x6a 0x4 0x7a 0x65 0x0" /> wat sneller op zal
 schieten,<delay20 /> zodat ik niet lang hoef te
 wachten.<delay40 /> <anim id="Clapping" target="actor" targetSpec="" />Je had dus helemaal gelijk!<pageBreak /><anim id="HappyFlower" target="actor" targetSpec="" />Ik ben heel blij dat we toch buren
 kunnen worden,<delay20 /> <tag a="110" b="3" />!</message>
@@ -120,37 +130,22 @@ kunnen worden,<delay20 /> <tag a="110" b="3" />!</message>
 vragen?</message>
 	<message label="312" attrib="00 00 00 00 00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Goed.<delay frames="40" /> Dan zal ik proberen om er niet
 te veel meer over na te denken.</message>
-	<message label="402" attrib="00 00 00 00 00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />Sorry voor het wachten!<delay frames="40" /><anim id="Explain" target="actor" targetSpec="" /> Toen ik bij
-de <colour id="1" />servicebalie<colour id="65535" /> kwam,<delay20 /> keken ze me
-nogal raar aan<delay8 /><tag a="110" b="0" />
-<anim id="Worried" target="actor" targetSpec="" />Het schijnt dat er hier iemand woont
-die precies op mij lijkt,<delay20 /> <anim id="BrokenHeart" target="actor" targetSpec="" />dus ze
-snapten niets van mijn aanvraag.
-<anim id="Restless" target="actor" targetSpec="" />Ik weet niet goed wat ik daarvan
-moet denken,<delay20 /> maar ik heb het in
-ieder geval geprobeerd.</message>
-	<message label="403" attrib="00 00 00 00 00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />Daar ben ik weer!<delay frames="40" /><anim id="Explain" target="actor" targetSpec="" /> Ik ben bij de
-<colour id="1" />servicebalie<colour id="65535" /> geweest.<delay20 /> En<tag a="110" b="0" /> hun
-antwoord was nogal raar<delay8 /><tag a="110" b="0" />
-<anim id="Worried" target="actor" targetSpec="" />Er komt hier iemand wonen die exact
-op mij lijkt.<delay20 /><anim id="BrokenHeart" target="actor" targetSpec="" /> Met mij erbij zou dat de
-administratie heel verwarrend maken.
-<anim id="Restless" target="actor" targetSpec="" />Nogal een rare reden,<delay20 /> maar ik heb
-het geprobeerd.</message>
+	<message label="313" attrib="00 00 01 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Meen je dat?!<delay frames="40" /><anim id="Serious" target="actor" targetSpec="" /> Dat komt mogelijk
+goed uit!<delay20 /> Bij de <colour id="1" />servicebalie<colour id="65535" /> heb ik
+namelijk het volgende opgevangen<tag a="110" b="0" /><pageBreak /><anim id="Restless" target="actor" targetSpec="" />Schijnbaar overweegt ene <tag a="115" b="1" arg="0xcd00" /> te verhuizen.<pageBreak /><anim id="QuestionMark" target="actor" targetSpec="" />Lijkt het je een goed idee als ik even
+in persoon bij <tag a="50" b="17" arg="0xf 0xcd00 0x6 0x68 0x65 0x6d 0x8 0x68 0x61 0x61 0x72 0x0" /> ga informeren
+naar <tag a="50" b="17" arg="0xf 0xcd00 0x8 0x7a 0x69 0x6a 0x6e 0x8 0x68 0x61 0x61 0x72 0x0" /> plannen?</message>
+	<message label="313_a" attrib="00 00 00 00 00 00 00 00">Ja, doe dat maar!</message>
+	<message label="313_b" attrib="00 00 00 00 00 00 00 00">Nee, doe maar niet.</message>
+	<message label="314" attrib="00 00 00 00 00 00 00 00"><anim id="Oops" target="actor" targetSpec="" />Dat is misschien ook wat te direct.<delay frames="60" />
+<anim id="WrySmile" target="actor" targetSpec="" />Ik schuif mijn verhuizing maar even
+op de lange baan, <tag a="110" b="6" />.</message>
 	<message label="404" attrib="00 00 00 00 00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />Sorry, het duurde even!<delay frames="40" /><anim id="Explain" target="actor" targetSpec="" /> Ik heb het
 gevraagd bij de <colour id="1" />servicebalie<colour id="65535" />,<delay20 /> maar
 daar konden ze me niet helpen<delay8 /><tag a="110" b="0" /><pageBreak /><anim id="Restless" target="actor" targetSpec="" />Ze zeiden dat ze momenteel<delay20 /> <anim id="BrokenHeart" target="actor" targetSpec="" />geen
 nieuwe bewoners kunnen aannemen.<pageBreak /><anim id="Worried" target="actor" targetSpec="" />Jammer, hè?<delay20 /><anim id="FaintSmile" target="actor" targetSpec="" /> Maar ja, het is toch
 goed dat ik het in ieder geval heb
 gevraagd.</message>
-	<message label="405" attrib="00 00 00 00 00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />Ben ik weer!<delay frames="40" /><anim id="Explain" target="actor" targetSpec="" /> Bij de <colour id="1" />servicebalie<colour id="65535" /><delay20 />
-hadden ze helaas slecht nieuws voor
-me<delay8 /><tag a="110" b="0" />
-<anim id="Restless" target="actor" targetSpec="" />Ze zeggen<delay20 /> dat het eiland zo vol is,
-<anim id="BrokenHeart" target="actor" targetSpec="" />dat er geen nieuwe huizen meer bij
-passen.<pageBreak /><anim id="Worried" target="actor" targetSpec="" />Jammer dat het niet is gelukt,<delay20 /><anim id="FaintSmile" target="actor" targetSpec="" /> maar
-nu weet ik tenminste waar ik aan toe
-ben.</message>
 	<message label="406" attrib="00 00 00 00 00 00 00 00"><anim id="Hesitate" target="actor" targetSpec="" />Jij bent<delay8 /><tag a="110" b="0" /> <tag a="50" b="3" /><tag a="110" b="3" />,<delay20 /> toch?<pageBreak /><anim id="Greeting" target="actor" targetSpec="" />Hopelijk heb ik je niet te lang laten
 wachten.<delay frames="40" /><anim id="Explain" target="actor" targetSpec="" /> Ik heb het gevraagd bij de
 <colour id="1" />servicebalie<colour id="65535" /><delay8 /> en<tag a="110" b="0" /><pageBreak /><anim id="Smiling" target="actor" targetSpec="" /><tag a="110" b="0" />het lijkt erop dat ik hier kan komen
@@ -166,20 +161,8 @@ om het nog eens te vragen?</message>
 	<message label="411" attrib="00 00 00 00 00 00 00 00"><anim id="Sighing" target="actor" targetSpec="" />Ja,<delay20 /> je hebt waarschijnlijk gelijk<delay8 /><tag a="110" b="0" /><pageBreak /><anim id="Worried" target="actor" targetSpec="" />Het zou jammer zijn om mijn kansen
 te verspelen<delay20 /> door de <colour id="1" />servicebalie<colour id="65535" /> te
 veel lastig te vallen,<delay20 /> <tag a="110" b="5" />.</message>
-	<message label="421" attrib="00 00 00 00 00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />Ik weet niet wat ik zou doen als ik
-iemand tegenkwam<delay20 /> die precies op
-mij leek.
-<anim id="Restless" target="actor" targetSpec="" />Zou het eng zijn?<delay20 /> Of grappig?<delay20 /><anim id="Hesitate" target="actor" targetSpec="" /> Of
-misschien zouden we alleen maar
-verlegen naar onze tenen staren<tag a="110" b="0" /></message>
-	<message label="422" attrib="00 00 00 00 00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Stel dat je naar een nieuw eiland
-verhuist<delay20 /> en daar je dubbelganger
-tegenkomt.<delay40 /> <anim id="Pardon" target="actor" targetSpec="" />Die ook net verhuisd is!</message>
 	<message label="423" attrib="00 00 00 00 00 00 00 00">Als ze aanvragen moeten afwijzen,<delay20 /><anim id="Nodding" target="actor" targetSpec="" /> is
 <tag a="110" b="9" /> wel heel populair!</message>
-	<message label="424" attrib="00 00 00 00 00 00 00 00"><anim id="Restless" target="actor" targetSpec="" />Ik had eerder moeten bedenken dat
-ik graag hier wil wonen.<delay20 /> Nog voordat
-<tag a="110" b="9" /> helemaal vol was.</message>
 	<message label="504" attrib="00 00 01 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />De bewoners en het landschap hier
 zijn geweldig!<pageBreak /><anim id="AbsentMindedness" target="actor" targetSpec="" />Ik hoop dat ik ooit op zo'n fijn eiland
 kan wonen,<delay20 /> <tag a="110" b="5" /><delay8 /><tag a="110" b="0" /></message>

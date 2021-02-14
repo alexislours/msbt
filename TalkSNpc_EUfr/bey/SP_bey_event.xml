@@ -42,7 +42,7 @@ contre un prix ?</message>
 	<message label="005_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Non merci.</message>
 	<message label="006" attrib="02 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Qu'est-ce que je peux faire pour toi,
 pêchiste ?</message>
-	<message label="006_a" attrib="00 00 00 00">Échange-moi mes points !</message>
+	<message label="006_a" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Échange-moi mes points !</message>
 	<message label="006_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Rien, merci.</message>
 	<message label="007" attrib="00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Yo, peau de pêche !<delay20 /> <colour id="3" />Pollux<colour id="65535" />, à ton
 service !<delay20 /><anim id="EmotEnd" target="actor" targetSpec="" /> Castor de rivière et
@@ -58,7 +58,7 @@ pêchiste. <delay20 />Va faire de la place et
 reviens me voir, OK ?</message>
 	<message label="011" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Ça marche !<delay frames="40" /><anim id="FaintSmile" target="actor" targetSpec="" /> Je t'échange <colour id="1" /><tag a="90" b="1" arg="0x0" /><colour id="65535" /> de tes
 points contre un super prix !</message>
-	<message label="012" attrib="00 00 00 00"><anim id="SmugFace" target="actor" targetSpec="" />Plus vrai que nature !
+	<message label="012" attrib="00 00 00 00"><anim id="SmugFace" target="actor" targetSpec="" />Plus vrai<tag a="50" b="17" arg="0x16 0xcd00 0x0 0x2 0x65 0x0" /> que nature !
 <anim id="FaintSmile" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="50" b="2" /><tag a="125" b="4" arg="0x0" />,<delay20 /> <anim id="Greeting" target="actor" targetSpec="" />rien que pour toi !</message>
 	<message label="013" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />N'oublie pas que le <colour id="1" />tournoi de pêche<colour id="65535" />
 commence à <colour id="1" /><tag a="90" b="37" arg="0xcd00" /> h<colour id="65535" /><tag a="110" b="0" /><delay frames="40" /> <anim id="FaintSmile" target="actor" targetSpec="" />et que cette fois
@@ -74,7 +74,7 @@ la place,<delay8 /><anim id="FaintSmile" target="actor" targetSpec="" /> OK ?</m
 	<message label="016" attrib="02 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Tu as encore une petite tripotée de
 points en magasin,<delay8 /> ma parole<tag a="110" b="0" /><delay20 /> <anim id="QuestionMark" target="actor" targetSpec="" />Ça
 t'intéresserait de m'échanger ça ?</message>
-	<message label="016_a" attrib="00 00 00 00">Pourquoi pas ?</message>
+	<message label="016_a" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Pourquoi pas ?</message>
 	<message label="016_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Non merci.</message>
 	<message label="017" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Comme tu veux, pêchiste.<delay frames="30" />
 <anim id="EmotEnd" target="actor" targetSpec="" />Et bien sûr<tag a="110" b="0" /> <anim id="Hello" target="actor" targetSpec="" />n'hésite pas à venir
@@ -218,10 +218,10 @@ prévu pour <colour id="1" /><tag a="90" b="35" arg="0xcd00" /><colour id="65535
 que tu rafleras un max de points !</message>
 	<message label="045" attrib="02 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Tu as exactement <colour id="1" /><tag a="90" b="8" arg="0x1" /> <50_8 x="0" y="1" a="point" b="point" c="points" /> <colour id="65535" />! <delay20 />Tu veux m'échanger ça contre un prix ?</message>
 	<message label="045_a" attrib="00 00 00 00">Oui !</message>
-	<message label="045_b" attrib="00 00 00 00">Plus tard.</message>
+	<message label="045_b" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Plus tard.</message>
 	<message label="046" attrib="02 00 00 00"><colour id="1" /><anim id="BigSmile" target="actor" targetSpec="" /><tag a="90" b="8" arg="0x1" /> <50_8 x="0" y="1" a="point" b="point" c="points" /> <colour id="65535" />! <delay20 />Chicos, pêchiste !<delay frames="40" /> <anim id="QuestionMark" target="actor" targetSpec="" />Tu veux m'en échanger <colour id="1" /><tag a="90" b="1" arg="0x0" /> <colour id="65535" />contre un prix ?</message>
 	<message label="046_a" attrib="00 00 00 00">Oui !</message>
-	<message label="046_b" attrib="00 00 00 00">Plus tard.</message>
+	<message label="046_b" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Plus tard.</message>
 	<message label="047" attrib="06 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />En matière de <colour id="1" />tournoi de pêche<colour id="65535" />, je
 suis incollable.<delay20 /> <anim id="Hello" target="actor" targetSpec="" />Tu peux me demander<delay20 />
 <size value="75" />presque<size value="100" /><delay20 /> tout ce que tu veux !</message>
@@ -243,7 +243,7 @@ hausse la valeur de la marchandise.
 manient les vers avec élégance.</message>
 	<message label="049_a" attrib="00 00 00 00">Achète-moi du poisson !</message>
 	<message label="049_b" attrib="00 00 00 00">Échange-moi mes points !</message>
-	<message label="049_c" attrib="00 00 00 00">Autre chose...</message>
+	<message label="049_c" attrib="00 00 00 00">À propos du tournoi...</message>
 	<message label="049_d" attrib="00 00 00 00">Laisse tomber.</message>
 	<message label="050" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Ça marche, pêchiste ! <delay20 />Qu'est-ce
 que tu as en magasin ?</message>
@@ -276,15 +276,21 @@ poissons seront enchantés !<anim id="Serious" target="actor" targetSpec="" /> M
 être possible<tag a="110" b="0" /></message>
 	<message label="061" attrib="00 00 00 00"><anim id="OhGeez" target="actor" targetSpec="" />Euh<tag a="110" b="0" /> J'apprécie ton enthousiasme,<delay8 />
 pêchiste,<delay20 /> mais tu es un peu court<gender2 m="" f="e" />
-niveau clochettes<tag a="110" b="0" /> 
-<anim id="Explain" target="actor" targetSpec="" />À partir de la deuxième participation,<delay8 />
-c'est <tag a="90" b="21" arg="0x2" /> l'entrée.<delay20 /> <anim id="Negative" target="actor" targetSpec="" />Pas
-de <colour id="1" />tournoi de pêche<colour id="65535" /> sans arêtes...</message>
-	<message label="062" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Roule !<delay20 /> On a tous dans le bocal des
+niveau clochettes<tag a="110" b="0" />
+<anim id="Explain" target="actor" targetSpec="" />Et pas de pépettes, pas de pêche.
+Reviens quand ton compte sera à
+flot.</message>
+	<message label="062" attrib="02 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Roule !<delay20 /> On a tous dans le bocal des
 vers à faire valoir.<delay20 /> Je suis sûr que les
-poissons seront enchantés !<anim id="Serious" target="actor" targetSpec="" /> 
-<anim id="Nodding" target="actor" targetSpec="" />Ta participation te coûtera la
-modique somme de <tag a="90" b="21" arg="0x2" />.</message>
+poissons seront enchantés !<anim id="Serious" target="actor" targetSpec="" />
+<anim id="Explain" target="actor" targetSpec="" />Par contre, t'as déjà taquiné ton
+moulinet aujourd'hui, alors il faut te
+délester de <tag a="90" b="21" arg="0x2" />. <delay20 />OK ?</message>
+	<message label="062_a" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Avec plaisir !</message>
+	<message label="062_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Non, merci.</message>
+	<message label="062_01" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Ah, je savais que t'étais pas pêchiste
+à pinailler pour des pacotilles !
+<delay20 />Ça nous fera <tag a="90" b="21" arg="0x2" />.</message>
 	<message label="063" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Bien, je vais lancer le chrono et tu
 auras <colour id="1" /><tag a="90" b="0" arg="0xe" /> minutes<colour id="65535" /> pour attraper le
 plus de poissons possible.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Tu recevras un bonus si tu attrapes
@@ -374,7 +380,7 @@ peu la tête dans la vase.
 <anim id="EmotEnd" target="actor" targetSpec="" />Mais dis-moi,<delay20 /> <anim id="Nodding" target="actor" targetSpec="" />tu as des points en
 magasin !<delay40 /> <anim id="QuestionMark" target="actor" targetSpec="" />Tu veux m'échanger ça
 contre un petit quelque chose ?</message>
-	<message label="090_a" attrib="00 00 00 00">Échange-moi mes points !</message>
+	<message label="090_a" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Échange-moi mes points !</message>
 	<message label="090_b" attrib="00 00 00 00">Rien, merci.</message>
 	<message label="090_01" attrib="00 00 00 00"><anim id="Hello" target="actor" targetSpec="" />Ça flotte, pêchiste ?<delay20 /> Moi c'est <colour id="3" />Pollux<colour id="65535" />,<delay8 />
 castor de rivière,<delay8 /> poète à ses heures<delay8 />
@@ -392,7 +398,7 @@ ne pas rater le prochain tournoi !</message>
 jusqu'à <colour id="1" /><tag a="90" b="37" arg="0xcd02" /> h<colour id="65535" />, donc si tu changes
 d'avis, tu sais où me trouver !</message>
 	<message label="100" attrib="02 00 00 00"><anim id="Hello" target="actor" targetSpec="" />Yo pêchiste !<delay8 /> Ça flotte ?</message>
-	<message label="100_a" attrib="00 00 00 00">Échange-moi mes points !</message>
+	<message label="100_a" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Échange-moi mes points !</message>
 	<message label="100_b" attrib="00 00 00 00">Laisse tomber.</message>
 	<message label="101" attrib="00 00 00 00"><anim id="SmugFace" target="actor" targetSpec="" />J'organise un autre <colour id="1" />tournoi de pêche<colour id="65535" />
 sur <tag a="110" b="9" /> en <colour id="1" /><tag a="90" b="35" arg="0xcd00" /><colour id="65535" />.<delay20 />
@@ -450,7 +456,7 @@ faire de ton poisson,<delay8 /> je te l'achète !</message>
 	<message label="120_c" attrib="00 00 00 00">Je jette un œil.</message>
 	<message label="123" attrib="02 00 00 00">Je te prends le tout pour <tag a="90" b="26" arg="0x5" />,<delay20 /> <anim id="QuestionMark" target="actor" targetSpec="" />c'est bon pour toi ?</message>
 	<message label="123_a" attrib="00 00 00 00">C'est bon pour moi !</message>
-	<message label="123_b" attrib="00 00 00 00">Attends un peu...</message>
+	<message label="123_b" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Attends un peu...</message>
 	<message label="124" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Ça flotte,<delay8 /> pêchiste !<delay20 /> <anim id="Eh" target="actor" targetSpec="" />Euh,<delay8 /> mais<tag a="110" b="0" />
 attends un peu<tag a="110" b="0" /><delay20 /> tu sais que ton
 porte-monnaie est plein à craquer ?<delay20 />
@@ -542,10 +548,19 @@ te vaut un bonus de coopération !
 <anim id="Nodding" target="actor" targetSpec="" />Et tu en as toi-même attrapé <colour id="1" /><tag a="90" b="1" arg="0x8" /><colour id="65535" /> !<delay20 />
 <anim id="Smiling" target="actor" targetSpec="" />Joli !</message>
 	<message label="150" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Ensemble,<delay8 /> vous avez attrapé
-<colour id="1" /><tag a="90" b="1" arg="0x9" /><colour id="65535" /> <colour id="1" /><50_8 x="0" y="9" a="poisson" b="poisson" c="poissons" /><colour id="65535" />,<delay8 /> et à partir de <colour id="1" /><tag a="90" b="1" arg="0xa" /><colour id="65535" />,<delay8 /> tu
+<colour id="1" /><tag a="90" b="2" arg="0x9" /><colour id="65535" /> <colour id="1" /><50_8 x="0" y="9" a="poisson" b="poisson" c="poissons" /><colour id="65535" />,<delay8 /> et à partir de <colour id="1" /><tag a="90" b="1" arg="0xa" /><colour id="65535" />,<delay8 /> tu
 reçois un bonus de coopération !<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Et tu en as toi-même attrapé <colour id="1" /><tag a="90" b="1" arg="0x8" /><colour id="65535" />,<delay8 /> et à partir de <colour id="1" /><tag a="90" b="1" arg="0x4" /><colour id="65535" />,<delay8 /> tu as droit à un bonus
 de performance !<delay20 /><anim id="Smiling" target="actor" targetSpec="" /> Bravo !</message>
 	<message label="151" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Je rajoute tout ça à ta réserve<tag a="110" b="0" /></message>
+	<message label="159" attrib="00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Yo, pêchiste !<delay8 /> Ça fait une paie !<delay20 />
+<anim id="BigSmile" target="actor" targetSpec="" />C'est moi <colour id="3" />Pollux<colour id="65535" />,<delay8 /> castor de rivière
+et amateur de poissons de luxe !
+<anim id="HappyDance" target="actor" targetSpec="" />J'ai l'insigne honneur de présider
+le <colour id="1" />tournoi de pêche<colour id="65535" /> qui se<tag a="110" b="0" /> <anim id="Serious" target="actor" targetSpec="" />Eh,<delay8 />
+mais,<delay8 /> attends une seconde !
+<anim id="QuestionMark" target="actor" targetSpec="" />Je t'ai vu<gender2 m="" f="e" /> lancer ta ligne et jouer
+du vers tout à l'heure,<delay8 /> non ?<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Alors, c'était comment ?<delay20 />
+Tu as attrapé quelque chose ?<delay20 /></message>
 	<message label="152" attrib="00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Yo, pêchiste !<delay8 /> Ça fait une paie !<delay20 />
 <anim id="BigSmile" target="actor" targetSpec="" />C'est moi <colour id="3" />Pollux<colour id="65535" />,<delay8 /> castor de rivière
 et amateur de poissons de luxe !
@@ -560,6 +575,27 @@ Tu as attrapé quelque chose ?<delay20 /></message>
 	<message label="155" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Avec <colour id="1" /><tag a="90" b="1" arg="0x0" /> points<colour id="65535" /> tu peux obtenir un
 prix pas piqué des vers<tag a="110" b="0" /><delay20 /> <anim id="BigSmile" target="actor" targetSpec="" />Alors,<delay8 />
 vas-y,<delay8 /> fais chauffer le moulinet !</message>
+	<message label="156" attrib="00 00 00 00">Alors<tag a="110" b="0" /> <colour id="1" /><tag a="90" b="1" arg="0x8" /><colour id="65535" /> <colour id="1" />poissons<colour id="65535" /> sont passé dans
+la <colour id="1" />glacière<colour id="65535" />.<delay20 /><anim id="FaintSmile" target="actor" targetSpec="" /> On mouline pas pour des
+prunes, par ici.<delay20 /> Ça me plaît.</message>
+	<message label="156_01" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Oh, pêchiste. <delay20 /><anim id="Nodding" target="actor" targetSpec="" />La glacière a la panse
+qui éclate au-delà de 20 poissons,
+alors j'en ai repêché quelques-uns.
+<anim id="Grin" target="actor" targetSpec="" />T'inquiète, ils barbotent pas en
+eaux troubles. <delay20 />Je leur ai dégoté une
+piscine au poil, et même à l'écaille.
+<anim id="Explain" target="actor" targetSpec="" />Et je te la fais pas à l'envers, tu vas
+quand même empocher tes points.
+<delay20 />Alors tu vois, tout baigne !</message>
+	<message label="157" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Bref !<delay20 /> En plus des <colour id="1" /><tag a="90" b="1" arg="0x8" /><colour id="65535" /> <colour id="1" />points<colour id="65535" /> qui te
+reviennent, tu récoltes le bonus pour
+avoir remonté <colour id="1" />au moins <tag a="90" b="1" arg="0x4" /> prises<colour id="65535" /> !
+<anim id="Serious" target="actor" targetSpec="" />Oh, et au total, vous avez pêché
+<colour id="1" /><tag a="90" b="2" arg="0x9" /><colour id="65535" /> <colour id="1" />poissons<colour id="65535" /><tag a="110" b="0" /> <anim id="Nodding" target="actor" targetSpec="" />À toi le bonus de
+coopération octroyé <colour id="1" />à partir de <tag a="90" b="1" arg="0xa" /><colour id="65535" /> !</message>
+	<message label="158" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Bref !<delay20 /> En plus des <colour id="1" /><tag a="90" b="1" arg="0x8" /> points<colour id="65535" /> qui te
+reviennent, tu touches le bonus pour
+avoir remonté <colour id="1" />au moins <tag a="90" b="1" arg="0x4" /> prises<colour id="65535" /> !</message>
 	<message label="160" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Les poissons que vous attrapez sont
 stockés dans la <colour id="1" />glacière<colour id="65535" />, <delay20 />et vous les
 récupérez quand vous avez terminé.<pageBreak /><anim id="Grin" target="actor" targetSpec="" />Sinon,<delay8 /> je peux aussi vous les acheter
@@ -608,14 +644,14 @@ ne te coûtera que <tag a="90" b="21" arg="0x2" />.</message>
 	<message label="165_b" attrib="00 00 00 00">Laisse tomber.</message>
 	<message label="166" attrib="02 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />Tu vois,<delay8 /> rien de bien compliqué !<pageBreak /><anim id="Scheming" target="actor" targetSpec="" />Alors ? <delay20 /><anim id="QuestionMark" target="actor" targetSpec="" />Tu veux taquiner le
 poisson en bonne compagnie ?<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Comme c'est ta première
-participation en tant que <colour id="1" />leader<colour id="65535" />,<delay20 />
-<anim id="FaintSmile" target="actor" targetSpec="" />tu n'as rien à payer !</message>
+participation en tant que <colour id="1" />leader<colour id="65535" />
+aujourd'hui,<delay20 /> <anim id="FaintSmile" target="actor" targetSpec="" />tu n'as rien à payer !</message>
 	<message label="166_a" attrib="00 00 00 00">Je veux participer !</message>
 	<message label="166_b" attrib="00 00 00 00">Laisse tomber.</message>
 	<message label="167" attrib="06 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />Tu vois,<delay8 /> rien de bien compliqué !<pageBreak /><anim id="Scheming" target="actor" targetSpec="" />Alors ? <delay20 /><anim id="QuestionMark" target="actor" targetSpec="" />Tu veux taquiner le
 poisson en bonne compagnie ?<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />On dirait que c'est ta première
-participation en tant que <colour id="1" />leader<colour id="65535" />,<delay20 />
-<anim id="FaintSmile" target="actor" targetSpec="" />donc tu n'as rien à payer !</message>
+participation en tant que <colour id="1" />leader<colour id="65535" /> 
+aujourd'hui,<delay20 /> <anim id="FaintSmile" target="actor" targetSpec="" />donc c'est gratis !</message>
 	<message label="167_a" attrib="00 00 00 00">Je veux participer !</message>
 	<message label="167_b" attrib="00 00 00 00">C'est quoi les règles ?</message>
 	<message label="167_c" attrib="00 00 00 00">Échange-moi mes points !</message>
@@ -634,15 +670,15 @@ ou pas,<delay8 /> d'ailleurs,<delay8 /> désolé<tag a="110" b="0" /> j'ai un
 peu la tête dans la vase.
 <anim id="EmotEnd" target="actor" targetSpec="" /><anim id="EmotEnd" target="actor" targetSpec="" />Mais dis-moi,<delay20 /> <anim id="Nodding" target="actor" targetSpec="" />tu as des points en réserve !<delay40 /> <anim id="QuestionMark" target="actor" targetSpec="" />Tu veux m'échanger ça
 contre un petit quelque chose ?</message>
-	<message label="170_a" attrib="00 00 00 00">Échange-moi mes points !</message>
+	<message label="170_a" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Échange-moi mes points !</message>
 	<message label="170_b" attrib="00 00 00 00">Laisse tomber.</message>
 	<message label="170_01" attrib="00 00 00 00"><anim id="SmugFace" target="actor" targetSpec="" />Pfiou ! <delay20 />Encore un <tag a="110" b="17" />,<delay20 /> encore
 un <colour id="1" />tournoi de pêche<colour id="65535" /> qui s'achève.<delay20 />
 Vivement le prochain !</message>
 	<message label="171" attrib="06 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />Alors, pêchiste ? <delay20 /><anim id="QuestionMark" target="actor" targetSpec="" />Tu veux t'essayer
 au <colour id="1" />tournoi de pêche <colour id="65535" />?<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Comme c'est ta première
-participation en tant que <colour id="1" />leader<colour id="65535" />,<delay20 />
-<anim id="FaintSmile" target="actor" targetSpec="" />tu n'as rien à payer !</message>
+participation en tant que <colour id="1" />leader<colour id="65535" />
+aujourd'hui,<delay20 /> <anim id="FaintSmile" target="actor" targetSpec="" />tu n'as rien à payer !</message>
 	<message label="171_a" attrib="00 00 00 00">Je veux participer !</message>
 	<message label="171_b" attrib="00 00 00 00">C'est quoi les règles ?</message>
 	<message label="171_c" attrib="00 00 00 00">Échange-moi mes points !</message>

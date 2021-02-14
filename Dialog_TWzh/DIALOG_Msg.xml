@@ -8,9 +8,9 @@
 作為島的名字嗎？</message>
 	<message label="0003_a" attrib="01 00">再想想</message>
 	<message label="0003_b" attrib="01 00">OK！</message>
-	<message label="0004" attrib="01 00">無法輸入這個詞唷！</message>
+	<message label="0004" attrib="01 09">無法輸入這個詞唷！</message>
 	<message label="0004_a" attrib="01 00">返回</message>
-	<message label="0005" attrib="01 00">最多只能輸入5位數的數字唷！</message>
+	<message label="0005" attrib="01 09">最多只能輸入5位數的數字唷！</message>
 	<message label="0005_a" attrib="01 00">返回</message>
 	<message label="0011" attrib="20 09">真的要刪除
 <tag a="110" b="1" />的儲存資料嗎？
@@ -46,6 +46,10 @@
 	<message label="0202_a" attrib="01 06">OK</message>
 	<message label="0301" attrib="06 09">口袋滿了，拿不了唷！</message>
 	<message label="0301_a" attrib="01 06">OK</message>
+	<message label="0303_a" attrib="01 06">OK</message>
+	<message label="0304_a" attrib="01 06">OK</message>
+	<message label="0307" attrib="04 00">正在接收新訊息。</message>
+	<message label="0308" attrib="02 00">正在確認發布資料。</message>
 	<message label="0310" attrib="02 00">等一下唷！</message>
 	<message label="0321" attrib="01 09">還沒看過的訊息
 無法登錄到我的最愛唷！</message>
@@ -56,6 +60,17 @@
 	<message label="0332" attrib="01 09">最多只能把<tag a="90" b="2" arg="0x0" />封
 登錄到我的最愛唷！</message>
 	<message label="0333" attrib="01 09">無法丟棄附有禮物的心意卡唷！</message>
+	<message label="0334" attrib="01 00">收到了來自朋友的心意卡！
+心意卡可以在機場書寫並寄送。</message>
+	<message label="0335" attrib="0e 00">心意卡一旦被接收，
+就會保存在Nintendo Switch主機。
+同一張心意卡無法再次被接收。
+還沒被接收的心意卡，
+會在伺服器上保存90天。
+一旦超過90天就會被刪除……<pageBreak />伺服器上最多只能保存300張心意卡。
+若是超過300張，即使未滿90天，
+也會從最舊的卡片開始刪除，
+並且無法再接收。</message>
 	<message label="0402" attrib="01 09">請輸入未來的日期唷！</message>
 	<message label="0501" attrib="01 09">脫下來的衣物沒有地方放喔！</message>
 	<message label="0502" attrib="01 09">選擇要登錄的物品吧！</message>
@@ -86,6 +101,40 @@
 	<message label="0802_a" attrib="01 00">我知道了</message>
 	<message label="0803" attrib="06 09">已額滿，無法外出。</message>
 	<message label="0803_a" attrib="01 04">返回</message>
+	<message label="0804" attrib="12 00"><colour id="1" />為了讓大家都能快樂地遊玩
+<colour id="65535" />
+請不要發布含有以下內容的訊息。<pageBreak />違法內容、個人資訊、侵害他人權利的內容、
+讓人不快的內容、過度閃爍的顯示等
+有可能造成他人對光線感到不適的內容。
+此外，請不要做出讓其他玩家感到不快
+或是作弊的行為。<pageBreak />發布的內容或遊戲中的行為
+適用於「Nintendo Account使用條款」。
+如果發現有違反「Nintendo Account
+使用條款」的內容或行為，
+其伺服器上的資料將會被刪除，
+或是被限制線上遊玩。<pageBreak />有關不恰當的內容或行為，
+可以按<colour id="1" />鍵<colour id="65535" />進行檢舉。
+
+請遵守「Nintendo Account使用條款」，
+當一位為其他玩家著想的玩家。謝謝。</message>
+	<message label="0804_a" attrib="01 06">我明白了</message>
+	<message label="0805" attrib="12 09">由於通訊對象尚未結束對話，
+或已有一段時間未關閉視窗，
+因此被強制結束。
+強制結束後，
+儲存資料將回復至最後的儲存點。</message>
+	<message label="0805_a" attrib="01 06">我明白了</message>
+	<message label="0806" attrib="06 00">發生通訊錯誤，
+無法顯示目的地島嶼的資訊。</message>
+	<message label="0806_a" attrib="01 00">返回</message>
+	<message label="0810" attrib="07 00">要重新進行一次
+網路連線嗎？</message>
+	<message label="0810_a" attrib="01 00">放棄</message>
+	<message label="0810_b" attrib="01 00">重新進行</message>
+	<message label="0820" attrib="06 09">個人資料的圖片發送失敗。
+如果嘗試多次仍失敗的話，
+請重新拍攝個人資料圖片後再試一次。</message>
+	<message label="0820_a" attrib="01 06">我明白了</message>
 	<message label="0921" attrib="06 06">每次出島，
 最多只能投稿兩張。</message>
 	<message label="0921_a" attrib="01 06">OK！</message>
@@ -111,9 +160,9 @@
 	<message label="1001_b" attrib="01 05">OK！</message>
 	<message label="1101" attrib="02 00">正在搜索商品……</message>
 	<message label="1102" attrib="06 09">沒有找到商品。</message>
-	<message label="1102_a" attrib="01 00">OK</message>
+	<message label="1102_a" attrib="01 06">OK</message>
 	<message label="1103" attrib="06 09">鈴錢不足。</message>
-	<message label="1103_a" attrib="01 00">OK</message>
+	<message label="1103_a" attrib="01 06">OK</message>
 	<message label="1104" attrib="08 00">要以<colour id="1" /><tag a="90" b="26" arg="0x0" /><colour id="65535" />訂購
 <colour id="1" /><tag a="125" b="0" arg="0x0" /><colour id="65535" />嗎？</message>
 	<message label="1104_a" attrib="01 00">算了</message>
@@ -127,9 +176,6 @@
 您所訂購的商品
 將以郵寄的方式送至自己家。</message>
 	<message label="1108_a" attrib="01 06">OK！</message>
-	<message label="1109" attrib="06 06">好的，明白了。
-您是要訂給<colour id="2" /><tag a="115" b="0" arg="0xcd00" /><colour id="65535" />的！</message>
-	<message label="1109_a" attrib="01 06">OK！</message>
 	<message label="1111" attrib="06 09">每人每天
 最多只能訂購5件商品。</message>
 	<message label="1111_a" attrib="01 00">關閉</message>
@@ -142,25 +188,66 @@
 <colour id="1" />「<tag a="125" b="0" arg="0x0" />」<colour id="65535" />嗎？</message>
 	<message label="1113_a" attrib="01 00">還要寫</message>
 	<message label="1113_b" attrib="01 00">刪除並取消</message>
-	<message label="1114" attrib="06 00">這是非賣品，
+	<message label="1114" attrib="06 09">這是非賣品，
 無法訂購。</message>
 	<message label="1114_a" attrib="01 00">OK</message>
+	<message label="1115" attrib="0c 00">要送給哪一位呢？</message>
+	<message label="1115_a" attrib="01 00">島民</message>
+	<message label="1115_b" attrib="01 00">朋友</message>
+	<message label="1115_c" attrib="01 00">返回</message>
+	<message label="1116" attrib="08 00">商品發送失敗。
+要再發送一次嗎？</message>
+	<message label="1116_b" attrib="01 00">發送</message>
+	<message label="1116_a" attrib="01 00">算了</message>
+	<message label="1117" attrib="02 00">正在連接到網路……</message>
+	<message label="1118" attrib="02 00">正在發送商品……
+<colour id="0" />※正在儲存，請勿觸碰電源鍵。<colour id="65535" /></message>
+	<message label="1119" attrib="06 00">將退還商品的費用<colour id="1" /><tag a="90" b="26" arg="0x0" /><colour id="65535" />給您。</message>
+	<message label="1119_a" attrib="01 00">OK</message>
+	<message label="1120" attrib="06 00">已把商品發送給
+<colour id="2" /><tag a="115" b="0" arg="0xcd00" /><colour id="65535" />！</message>
+	<message label="1120_a" attrib="01 00">OK！</message>
+	<message label="1121" attrib="06 00">有人來玩的時候
+無法訂購商品。</message>
+	<message label="1121_a" attrib="01 00">OK</message>
+	<message label="1122" attrib="06 00">在目的地島嶼上無法訂購商品。</message>
+	<message label="1122_a" attrib="01 00">OK</message>
+	<message label="1123" attrib="06 00">機場大門打開時
+無法訂購商品。</message>
+	<message label="1123_a" attrib="01 00">OK</message>
+	<message label="1124" attrib="06 00">現在無法訂購商品。
+請先到機場櫃台結束通訊。</message>
+	<message label="1124_a" attrib="01 00">OK</message>
 	<message label="1201" attrib="08 00">確定要刪除
-<tag a="115" b="3" arg="0xcd00" />嗎？</message>
+<colour id="1" /><tag a="115" b="3" arg="0xcd00" /><colour id="65535" />嗎？</message>
 	<message label="1201_a" attrib="01 00">還是算了</message>
 	<message label="1201_b" attrib="01 00">刪除掉</message>
 	<message label="1202" attrib="08 00">確定要刪除
-<tag a="115" b="0" arg="0xcd00" />製作的
-<tag a="115" b="3" arg="0xcd00" />嗎？</message>
+<colour id="2" /><tag a="115" b="0" arg="0xcd00" /><colour id="65535" />製作的
+<colour id="1" /><tag a="115" b="3" arg="0xcd00" /><colour id="65535" />嗎？</message>
 	<message label="1202_a" attrib="01 00">還是算了</message>
 	<message label="1202_b" attrib="01 00">刪除掉</message>
 	<message label="1203" attrib="01 00">請選擇可以刪除的「我的設計」。</message>
 	<message label="1203_a" attrib="01 00">OK！</message>
 	<message label="1204" attrib="08 00">確定要刪除
-<tag a="115" b="0" arg="0xcd00" />儲存的
-<tag a="115" b="3" arg="0xcd00" />嗎？</message>
+由<colour id="2" /><tag a="115" b="0" arg="0xcd00" /><colour id="65535" />保存的
+<colour id="1" /><tag a="115" b="3" arg="0xcd00" /><colour id="65535" />嗎？</message>
 	<message label="1204_a" attrib="01 00">還是算了</message>
 	<message label="1204_b" attrib="01 00">刪除掉</message>
+	<message label="1221" attrib="08 00">真的要覆蓋
+<colour id="1" /><tag a="115" b="3" arg="0xcd00" /><colour id="65535" />嗎？</message>
+	<message label="1221_a" attrib="01 00">還是算了</message>
+	<message label="1221_b" attrib="01 00">覆蓋</message>
+	<message label="1222" attrib="08 00">真的要覆蓋
+<colour id="2" /><tag a="115" b="0" arg="0xcd00" /><colour id="65535" />制作的
+<colour id="1" /><tag a="115" b="3" arg="0xcd00" /><colour id="65535" />嗎？</message>
+	<message label="1222_a" attrib="01 00">還是算了</message>
+	<message label="1222_b" attrib="01 00">覆蓋</message>
+	<message label="1224" attrib="08 00">真的要覆蓋
+<colour id="2" /><tag a="115" b="0" arg="0xcd00" /><colour id="65535" />保存的
+<colour id="1" /><tag a="115" b="3" arg="0xcd00" /><colour id="65535" />嗎？</message>
+	<message label="1224_a" attrib="01 00">還是算了</message>
+	<message label="1224_b" attrib="01 00">覆蓋</message>
 	<message label="1300" attrib="02 00">正在刪除儲存資料<tag a="110" b="0" />
 <colour id="0" />請勿觸碰電源鍵。<colour id="65535" /></message>
 	<message label="1308" attrib="1c 00">您所設定的日期無法對應。
@@ -177,16 +264,17 @@
 	<message label="1312" attrib="05 06">已刪除儲存資料。
 將開始遊戲。</message>
 	<message label="1312_a" attrib="01 06">OK</message>
-	<message label="1325" attrib="01 00">語言設定似乎與上次遊玩時不同。</message>
-	<message label="1326" attrib="01 00">角色名稱或遊戲內的顯示將會改變，
+	<message label="1325" attrib="01 00">語言設定似乎與上次遊玩時不同</message>
+	<message label="1326" attrib="01 00">角色名稱和遊戲內的顯示將會改變
 要直接開始遊戲嗎？</message>
-	<message label="1327" attrib="03 00">請於HOME選單恢復語言設定後，
-再重新啟動遊戲。</message>
+	<message label="1327" attrib="03 00">請於HOME選單的設定中
+回復原本的語言後
+再重新開啟遊戲</message>
 	<message label="1328" attrib="14 00">キャラクターの<ruby a="4" b="6">なまえ</ruby>名前や
-ゲーム<ruby a="2" b="4">ない</ruby>内の<ruby a="4" b="8">ひょうじ</ruby>表示が<ruby a="2" b="2">か</ruby>変わってしまいますが、
+ゲーム<ruby a="2" b="4">ない</ruby>内の<ruby a="4" b="8">ひょうじ</ruby>表示が<ruby a="2" b="2">か</ruby>変わってしまいますが
 このまま<ruby a="2" b="4">はじ</ruby>始めますか？
 
-角色名稱或遊戲內的顯示將會改變，
+角色名稱和遊戲內的顯示將會改變
 要直接開始遊戲嗎？</message>
 	<message label="1328_a" attrib="0e 00">いいえ / 否</message>
 	<message label="1328_b" attrib="0e 00">はい / 是</message>
@@ -194,7 +282,7 @@
 vary from language to language.
 Do you still want to start playing?
 
-角色名稱或遊戲內的顯示將會改變，
+角色名稱和遊戲內的顯示將會改變
 要直接開始遊戲嗎？</message>
 	<message label="1329_a" attrib="0e 00">No / 否</message>
 	<message label="1329_b" attrib="0e 00">Yes / 是</message>
@@ -202,7 +290,7 @@ Do you still want to start playing?
 éléments d'interface peuvent différer
 d'une langue à l'autre. Continuer?
 
-角色名稱或遊戲內的顯示將會改變，
+角色名稱和遊戲內的顯示將會改變
 要直接開始遊戲嗎？</message>
 	<message label="1330_a" attrib="0e 00">Non / 否</message>
 	<message label="1330_b" attrib="0e 00">Oui / 是</message>
@@ -210,7 +298,7 @@ d'une langue à l'autre. Continuer?
 aspectos del juego pueden cambiar
 según el idioma. ¿Quieres continuar?
 
-角色名稱或遊戲內的顯示將會改變，
+角色名稱和遊戲內的顯示將會改變
 要直接開始遊戲嗎？</message>
 	<message label="1331_a" attrib="0e 00">No / 否</message>
 	<message label="1331_b" attrib="0e 00">Sí / 是</message>
@@ -218,7 +306,7 @@ según el idioma. ¿Quieres continuar?
 vary from language to language.
 Do you still want to start playing?
 
-角色名稱或遊戲內的顯示將會改變，
+角色名稱和遊戲內的顯示將會改變
 要直接開始遊戲嗎？</message>
 	<message label="1332_a" attrib="0e 00">No / 否</message>
 	<message label="1332_b" attrib="0e 00">Yes / 是</message>
@@ -226,7 +314,7 @@ Do you still want to start playing?
 aspectos del juego pueden cambiar
 según el idioma. ¿Quieres continuar?
 
-角色名稱或遊戲內的顯示將會改變，
+角色名稱和遊戲內的顯示將會改變
 要直接開始遊戲嗎？</message>
 	<message label="1333_a" attrib="0e 00">No / 否</message>
 	<message label="1333_b" attrib="0e 00">Sí / 是</message>
@@ -234,7 +322,7 @@ según el idioma. ¿Quieres continuar?
 éléments d'interface peuvent différer
 d'une langue à l'autre. Continuer ?
 
-角色名稱或遊戲內的顯示將會改變，
+角色名稱和遊戲內的顯示將會改變
 要直接開始遊戲嗎？</message>
 	<message label="1334_a" attrib="0e 00">Non / 否</message>
 	<message label="1334_b" attrib="0e 00">Oui / 是</message>
@@ -242,7 +330,7 @@ d'une langue à l'autre. Continuer ?
 können sich in anderen Sprachen
 unterscheiden. Trotzdem fortfahren?
 
-角色名稱或遊戲內的顯示將會改變，
+角色名稱和遊戲內的顯示將會改變
 要直接開始遊戲嗎？</message>
 	<message label="1335_a" attrib="0e 00">Nein / 否</message>
 	<message label="1335_b" attrib="0e 00">Ja / 是</message>
@@ -250,7 +338,7 @@ unterscheiden. Trotzdem fortfahren?
 del gioco possono cambiare in base
 alla lingua. Vuoi davvero continuare?
 
-角色名稱或遊戲內的顯示將會改變，
+角色名稱和遊戲內的顯示將會改變
 要直接開始遊戲嗎？</message>
 	<message label="1336_a" attrib="0e 00">No / 否</message>
 	<message label="1336_b" attrib="0e 00">Sì / 是</message>
@@ -258,7 +346,7 @@ alla lingua. Vuoi davvero continuare?
 elementen zijn per taal anders. Wil je
 nog steeds beginnen met spelen?
 
-角色名稱或遊戲內的顯示將會改變，
+角色名稱和遊戲內的顯示將會改變
 要直接開始遊戲嗎？</message>
 	<message label="1337_a" attrib="0e 00">Nee / 否</message>
 	<message label="1337_b" attrib="0e 00">Ja / 是</message>
@@ -266,190 +354,286 @@ nog steeds beginnen met spelen?
 интерфейса различаются в разных
 языках. Все равно начать игру?
 
-角色名稱或遊戲內的顯示將會改變，
+角色名稱和遊戲內的顯示將會改變
 要直接開始遊戲嗎？</message>
 	<message label="1338_a" attrib="0e 00">Нет / 否</message>
 	<message label="1338_b" attrib="0e 00">Да / 是</message>
 	<message label="1339" attrib="14 00">캐릭터의 이름과
-게임 내 표시가 달라집니다
+게임 내 표시가 달라집니다.
 이대로 시작하시겠습니까?
 
-角色名稱或遊戲內的顯示將會改變，
+角色名稱和遊戲內的顯示將會改變
 要直接開始遊戲嗎？</message>
 	<message label="1339_a" attrib="0e 00">아니요 / 否</message>
 	<message label="1339_b" attrib="0e 00">예 / 是</message>
 	<message label="1340" attrib="14 00">角色的名字和游戏内的显示
 将会改变，就这样开始游戏吗？
 
-角色名稱或遊戲內的顯示將會改變，
+角色名稱和遊戲內的顯示將會改變
 要直接開始遊戲嗎？</message>
 	<message label="1340_a" attrib="0e 00">否 / 否</message>
 	<message label="1340_b" attrib="0e 00">是 / 是</message>
-	<message label="1341" attrib="14 00">角色名稱或遊戲內的顯示將會改變，
+	<message label="1341" attrib="14 00">角色名稱和遊戲內的顯示將會改變
 要直接開始遊戲嗎？
 
-角色名稱或遊戲內的顯示將會改變，
+角色名稱和遊戲內的顯示將會改變
 要直接開始遊戲嗎？</message>
 	<message label="1341_a" attrib="0e 00">否 / 否</message>
 	<message label="1341_b" attrib="0e 00">是 / 是</message>
 	<message label="1342" attrib="10 00"><ruby a="8" b="6">ホーム</ruby>HOMEメニューの　<ruby a="4" b="8">せってい</ruby>設定で
 <ruby a="2" b="4">もと</ruby>元の<ruby a="4" b="6">げんご</ruby>言語に　<ruby a="2" b="4">もど</ruby>戻してから
-ゲームを<ruby a="6" b="10">さいきどう</ruby>再起動してください。
+ゲームを<ruby a="4" b="8">さいかい</ruby>再開してください
 
-請於HOME選單恢復語言設定後，
-再重新啟動遊戲。</message>
+請於HOME選單的設定中
+回復原本的語言後
+再重新開啟遊戲</message>
 	<message label="1343" attrib="10 00">Please revert your language settings
 via the System Settings in the
 HOME Menu and restart the game.
 
-請於HOME選單恢復語言設定後，
-再重新啟動遊戲。</message>
+請於HOME選單的設定中
+回復原本的語言後
+再重新開啟遊戲</message>
 	<message label="1344" attrib="10 00">Réinitialise les paramètres de langue
 dans les paramètres de la console via
 le menu HOME, et redémarre le jeu.
 
-請於HOME選單恢復語言設定後，
-再重新啟動遊戲。</message>
+請於HOME選單的設定中
+回復原本的語言後
+再重新開啟遊戲</message>
 	<message label="1345" attrib="10 00">Accede a la configuración de la
 consola desde el menú HOME, revierte
 los ajustes de idioma y reinicia el juego.
 
-請於HOME選單恢復語言設定後，
-再重新啟動遊戲。</message>
+請於HOME選單的設定中
+回復原本的語言後
+再重新開啟遊戲</message>
 	<message label="1346" attrib="10 00">Please revert your language settings
 via the System Settings in the
 HOME Menu and restart the game.
 
-請於HOME選單恢復語言設定後，
-再重新啟動遊戲。</message>
+請於HOME選單的設定中
+回復原本的語言後
+再重新開啟遊戲</message>
 	<message label="1347" attrib="10 00">Accede a la configuración de la
 consola desde el menú HOME, revierte
 los ajustes de idioma y reinicia el juego.
 
-請於HOME選單恢復語言設定後，
-再重新啟動遊戲。</message>
+請於HOME選單的設定中
+回復原本的語言後
+再重新開啟遊戲</message>
 	<message label="1348" attrib="10 00">Réinitialise les paramètres de langue
 depuis les paramètres de la console
 du menu HOME et redémarre le jeu.
 
-請於HOME選單恢復語言設定後，
-再重新啟動遊戲。</message>
+請於HOME選單的設定中
+回復原本的語言後
+再重新開啟遊戲</message>
 	<message label="1349" attrib="10 00">Setze deine Spracheinstellungen in den
  Systemeinstellungen im HOME-Menü
 zurück und starte das Spiel erneut.
 
-請於HOME選單恢復語言設定後，
-再重新啟動遊戲。</message>
+請於HOME選單的設定中
+回復原本的語言後
+再重新開啟遊戲</message>
 	<message label="1350" attrib="10 00">Reimposta la lingua della console
 in Impostazioni di sistema nel menu
 HOME e riavvia il gioco.
 
-請於HOME選單恢復語言設定後，
-再重新啟動遊戲。</message>
+請於HOME選單的設定中
+回復原本的語言後
+再重新開啟遊戲</message>
 	<message label="1351" attrib="10 00">Stel via de systeeminstellingen in het
 HOME-menu je oorspronkelijke taal
 in en start de game opnieuw op.
 
-請於HOME選單恢復語言設定後，
-再重新啟動遊戲。</message>
+請於HOME選單的設定中
+回復原本的語言後
+再重新開啟遊戲</message>
 	<message label="1352" attrib="10 00">Восстановите настройки языка,
 перейдя в системные настройки из
 меню HOME, и перезапустите игру.
 
-請於HOME選單恢復語言設定後，
-再重新啟動遊戲。</message>
+請於HOME選單的設定中
+回復原本的語言後
+再重新開啟遊戲</message>
 	<message label="1353" attrib="10 00">HOME 메뉴의 설정에서
 원래 언어로 되돌린 후
 게임을 다시 시작해주세요.
 
-請於HOME選單恢復語言設定後，
-再重新啟動遊戲。</message>
+請於HOME選單的設定中
+回復原本的語言後
+再重新開啟遊戲</message>
 	<message label="1354" attrib="10 00">请在HOME菜单恢复语言设置后
 重新启动游戏。
 
-請於HOME選單恢復語言設定後，
-再重新啟動遊戲。</message>
-	<message label="1355" attrib="10 00">請於HOME選單恢復語言設定後，
-再重新啟動遊戲。
+請於HOME選單的設定中
+回復原本的語言後
+再重新開啟遊戲</message>
+	<message label="1355" attrib="10 00">請於HOME選單的設定中
+回復原本的語言後
+再重新開啟遊戲
 
-請於HOME選單恢復語言設定後，
-再重新啟動遊戲。</message>
+請於HOME選單的設定中
+回復原本的語言後
+再重新開啟遊戲</message>
 	<message label="1356" attrib="12 03"><ruby a="4" b="8">ぜんかい</ruby>前回プレイ<ruby a="2" b="2">じ</ruby>時と
-<ruby a="8" b="14">げんごせってい</ruby>言語設定が<ruby a="2" b="4">こと</ruby>異なるようです。
+<ruby a="8" b="14">げんごせってい</ruby>言語設定が<ruby a="2" b="4">こと</ruby>異なるようです
 
-語言設定似乎與上次遊玩時不同。</message>
+語言設定似乎與上次遊玩時不同</message>
 	<message label="1356_a" attrib="0e 03">つぎへ / 下一頁</message>
 	<message label="1357" attrib="12 03">It looks like your language settings
 have changed since the last time
 you played.
 
-語言設定似乎與上次遊玩時不同。</message>
+語言設定似乎與上次遊玩時不同</message>
 	<message label="1357_a" attrib="0e 03">Next / 下一頁</message>
 	<message label="1358" attrib="12 03">Les paramètres de langue ont été
 modifiés depuis la dernière fois que
 tu as joué.
 
-語言設定似乎與上次遊玩時不同。</message>
+語言設定似乎與上次遊玩時不同</message>
 	<message label="1358_a" attrib="0e 03">Suivant / 下一頁</message>
 	<message label="1359" attrib="12 03">Los ajustes de idioma cambiaron
 desde la última vez que jugaste.
 
-語言設定似乎與上次遊玩時不同。</message>
+語言設定似乎與上次遊玩時不同</message>
 	<message label="1359_a" attrib="0e 03">Siguiente / 下一頁</message>
 	<message label="1360" attrib="12 03">It looks like your language settings
 have changed since the last time
 you played.
 
-語言設定似乎與上次遊玩時不同。</message>
+語言設定似乎與上次遊玩時不同</message>
 	<message label="1360_a" attrib="0e 03">Next / 下一頁</message>
 	<message label="1361" attrib="12 03">Los ajustes de idioma han cambiado
 desde la última vez que jugaste.
 
-語言設定似乎與上次遊玩時不同。</message>
+語言設定似乎與上次遊玩時不同</message>
 	<message label="1361_a" attrib="0e 03">Siguiente / 下一頁</message>
 	<message label="1362" attrib="12 03">Les paramètres de langue ont été
 modifiés depuis la dernière fois que
 tu as joué.
 
-語言設定似乎與上次遊玩時不同。</message>
+語言設定似乎與上次遊玩時不同</message>
 	<message label="1362_a" attrib="0e 03">Suivant / 下一頁</message>
 	<message label="1363" attrib="12 03">Anscheinend haben sich deine
 Spracheinstellungen seit dem letzten
 Spielen geändert.
 
-語言設定似乎與上次遊玩時不同。</message>
+語言設定似乎與上次遊玩時不同</message>
 	<message label="1363_a" attrib="0e 03">Weiter / 下一頁</message>
 	<message label="1364" attrib="12 03">Le impostazioni relative alla lingua
 sono cambiate dall'ultima volta che
 hai giocato.
 
-語言設定似乎與上次遊玩時不同。</message>
+語言設定似乎與上次遊玩時不同</message>
 	<message label="1364_a" attrib="0e 03">Avanti / 下一頁</message>
 	<message label="1365" attrib="12 03">Het lijkt erop dat je taalinstellingen
 zijn gewijzigd sinds je voor het
 laatst hebt gespeeld.
 
-語言設定似乎與上次遊玩時不同。</message>
+語言設定似乎與上次遊玩時不同</message>
 	<message label="1365_a" attrib="0e 03">Volgende / 下一頁</message>
 	<message label="1366" attrib="12 03">Похоже, что настройки языка
 изменились с последнего
 сеанса игры.
 
-語言設定似乎與上次遊玩時不同。</message>
+語言設定似乎與上次遊玩時不同</message>
 	<message label="1366_a" attrib="0e 03">Далее / 下一頁</message>
 	<message label="1367" attrib="12 03">지난번 플레이 때와
-언어 설정이 다릅니다
+언어 설정이 다릅니다.
 
-語言設定似乎與上次遊玩時不同。</message>
+語言設定似乎與上次遊玩時不同</message>
 	<message label="1367_a" attrib="0e 03">다음 / 下一頁</message>
 	<message label="1368" attrib="12 03">语言设置似乎与上次游戏时不同。
 
-語言設定似乎與上次遊玩時不同。</message>
+語言設定似乎與上次遊玩時不同</message>
 	<message label="1368_a" attrib="0e 03">下一页 / 下一頁</message>
-	<message label="1370" attrib="12 03">語言設定似乎與上次遊玩時不同。
+	<message label="1370" attrib="12 03">語言設定似乎與上次遊玩時不同
 
-語言設定似乎與上次遊玩時不同。</message>
+語言設定似乎與上次遊玩時不同</message>
 	<message label="1370_a" attrib="0e 03">下一頁 / 下一頁</message>
+	<message label="1372" attrib="06 00">發布了新的版本，
+將更新儲存資料。</message>
+	<message label="1372_a" attrib="01 00">OK</message>
+	<message label="1373" attrib="02 00">正在更新儲存資料<tag a="110" b="0" />
+<colour id="0" />請不要觸碰電源鍵。<colour id="65535" /></message>
+	<message label="1374" attrib="06 00">儲存資料已更新完成。
+將開始遊戲。</message>
+	<message label="1374_a" attrib="01 00">OK</message>
+	<message label="1401" attrib="01 00">已向<colour id="2" /><tag a="115" b="0" arg="0xcd00" /><colour id="65535" />
+申請最佳朋友。</message>
+	<message label="1402" attrib="01 00">已和<colour id="2" /><tag a="115" b="0" arg="0xcd00" /><colour id="65535" />
+成為最佳朋友。</message>
+	<message label="1403" attrib="01 00">已取消向<colour id="2" /><tag a="115" b="0" arg="0xcd00" /><colour id="65535" />
+發出的申請。</message>
+	<message label="1404" attrib="01 00">已拒絕來自
+<colour id="2" /><tag a="115" b="0" arg="0xcd00" /><colour id="65535" />的申請。</message>
+	<message label="1405" attrib="01 00">已解除和<colour id="2" /><tag a="115" b="0" arg="0xcd00" /><colour id="65535" />的
+最佳朋友關係。</message>
+	<message label="1405_a" attrib="01 00">OK！</message>
+	<message label="1406" attrib="06 09">最佳朋友數已達上限，
+無法申請。</message>
+	<message label="1406_a" attrib="01 06">OK！</message>
+	<message label="1407" attrib="06 09">申請數已達上限，
+無法申請。</message>
+	<message label="1407_a" attrib="01 04">返回</message>
+	<message label="1408" attrib="06 09">向對方發出的申請數已達上限，
+無法申請。</message>
+	<message label="1408_a" attrib="01 04">返回</message>
+	<message label="1409" attrib="06 09">最佳朋友數已達上限，
+無法成為最佳朋友。</message>
+	<message label="1409_a" attrib="01 04">返回</message>
+	<message label="1410" attrib="06 09">申請數已達上限，
+無法成為最佳朋友。</message>
+	<message label="1410_a" attrib="01 04">返回</message>
+	<message label="1411" attrib="06 09">申請已被取消。</message>
+	<message label="1411_a" attrib="01 04">返回</message>
+	<message label="1412" attrib="06 00">一起遊玩時，
+無法解除最佳朋友關係。</message>
+	<message label="1412_a" attrib="01 04">返回</message>
+	<message label="1413" attrib="06 00">對方進行了操作，
+即將更新列表。</message>
+	<message label="1413_a" attrib="01 00">OK！</message>
+	<message label="1414" attrib="08 00">真的要解除
+最佳朋友關係嗎？</message>
+	<message label="1414_a" attrib="01 00">返回</message>
+	<message label="1414_b" attrib="01 00">解除</message>
+	<message label="1430" attrib="06 09">無法在鄰近主機通訊時使用。</message>
+	<message label="1430_a" attrib="01 04">返回</message>
+	<message label="1431" attrib="06 09">無法在呼叫居民時使用。</message>
+	<message label="1431_a" attrib="01 04">返回</message>
+	<message label="1432" attrib="05 09">要開啟交流開關，
+必須要有最佳朋友。</message>
+	<message label="1432_a" attrib="01 04">返回</message>
+	<message label="1433" attrib="08 00">在辦理手續之前必須先更新名單。
+要更新名單嗎？</message>
+	<message label="1433_a" attrib="01 00">返回</message>
+	<message label="1433_b" attrib="01 00">更新</message>
+	<message label="1450" attrib="08 00">要使用此功能，
+必須要連接網路。
+要連接網路嗎？</message>
+	<message label="1450_a" attrib="01 00">還是算了</message>
+	<message label="1450_b" attrib="01 00">連接</message>
+	<message label="1451" attrib="08 00">要開啟交流功能嗎？</message>
+	<message label="1451_a" attrib="01 00">還是算了</message>
+	<message label="1451_b" attrib="01 00">開啟</message>
+	<message label="1452" attrib="08 00">要關閉交流功能嗎？</message>
+	<message label="1452_a" attrib="01 00">還是算了</message>
+	<message label="1452_b" attrib="01 00">關閉</message>
+	<message label="1453" attrib="05 06">要發送訊息，
+請按<colour id="1" />鍵<colour id="65535" />開啟交流功能。</message>
+	<message label="1453_a" attrib="01 06">OK！</message>
+	<message label="1454" attrib="06 09"><colour id="2" /><tag a="115" b="0" arg="0xcd00" /><colour id="65535" />已離線，
+無法發送訊息。</message>
+	<message label="1454_a" attrib="01 06">返回</message>
+	<message label="1455" attrib="01 00">沒有上線的玩家，
+無法發送訊息。</message>
+	<message label="1455_a" attrib="01 00">返回</message>
+	<message label="1456" attrib="01 00">因通訊被中斷，
+交流功能已關閉。
+請打開交流功能後再試一次。</message>
+	<message label="1456_a" attrib="01 00">返回</message>
 	<message label="1501" attrib="08 00">確定不做任何更改嗎？</message>
 	<message label="1501_a" attrib="01 00">還是要繼續！</message>
 	<message label="1501_b" attrib="01 00">不做更改</message>
@@ -465,7 +649,7 @@ laatst hebt gespeeld.
 到達攝影棚了唷！</message>
 	<message label="1606" attrib="01 09">無法呼叫<colour id="3" /><tag a="115" b="1" arg="0xcd00" />
 <colour id="65535" />至攝影棚。</message>
-	<message label="1607" attrib="01 00">最多只能呼叫10位。</message>
+	<message label="1607" attrib="01 09">最多只能呼叫10位。</message>
 	<message label="1608" attrib="01 09">已無呼叫的空位。</message>
 	<message label="1609" attrib="07 00">已讀取到<colour id="3" />豆狸<colour id="65535" />和<colour id="3" />粒狸<colour id="65535" />。
 請問要呼叫哪一位呢？</message>
@@ -481,9 +665,37 @@ laatst hebt gespeeld.
 	<message label="1614" attrib="01 09">這是無法對應的amiibo。</message>
 	<message label="1701" attrib="06 09">目前的房子沒有任何改變唷！</message>
 	<message label="1701_a" attrib="01 04">返回</message>
-	<message label="1801" attrib="06 09"><tag a="115" b="0" arg="0xcd00" />還沒有房子，
+	<message label="1801" attrib="06 09"><colour id="2" /><tag a="115" b="0" arg="0xcd00" /><colour id="65535" />還沒有房子，
 所以無法寄送唷！</message>
 	<message label="1801_a" attrib="01 04">返回</message>
+	<message label="1900" attrib="15 00">要檢舉<colour id="2" /><tag a="115" b="0" arg="0xcd00" /><colour id="65535" />嗎？</message>
+	<message label="1900_a" attrib="0e 02">退出</message>
+	<message label="1900_b" attrib="0e 01">檢舉</message>
+	<message label="1920" attrib="12 01">檢舉手續已完成。</message>
+	<message label="1920_a" attrib="0e 01">OK</message>
+	<message label="1921" attrib="07 09">檢舉內容發送失敗。</message>
+	<message label="1921_a" attrib="01 00">放棄</message>
+	<message label="1921_b" attrib="01 00">再試一次！</message>
+	<message label="1930" attrib="06 09">鄰近主機通訊時無法檢舉。</message>
+	<message label="1930_a" attrib="01 04">返回</message>
+	<message label="1931" attrib="06 09">尚未連接網路，
+無法檢舉。</message>
+	<message label="1931_a" attrib="01 04">返回</message>
+	<message label="1932" attrib="06 09">無法檢舉
+透過鄰近主機通訊投稿的文章。</message>
+	<message label="1932_a" attrib="01 00">返回</message>
+	<message label="1933" attrib="06 09">無法檢舉</message>
+	<message label="1933_a" attrib="01 00">返回</message>
+	<message label="1936" attrib="06 09">無法檢舉此展示品。</message>
+	<message label="1936_a" attrib="01 00">返回</message>
+	<message label="1938" attrib="06 09">無法檢舉與自己相同的帳號。</message>
+	<message label="1938_a" attrib="01 00">OK</message>
+	<message label="1940" attrib="01 09">此文章並非由線上玩家書寫。
+即將對未刪除此文章的
+<colour id="2" /><tag a="115" b="0" arg="0xcd00" /><colour id="65535" />進行檢舉。</message>
+	<message label="1941" attrib="0e 09">此「我的設計」並不屬於線上玩家。
+即將檢舉未刪除此「我的設計」的
+<colour id="2" /><tag a="115" b="0" arg="0xcd00" /><colour id="65535" />。</message>
 	<message label="2001" attrib="06 09">鈴錢不足唷！</message>
 	<message label="2001_a" attrib="01 06">OK</message>
 	<message label="2002" attrib="06 09">口袋滿了，無法購買唷！</message>
@@ -497,6 +709,34 @@ laatst hebt gespeeld.
 	<message label="2005" attrib="07 00">要直接穿走嗎？</message>
 	<message label="2005_a" attrib="01 00">保持原本的穿著</message>
 	<message label="2005_b" attrib="01 05">直接穿走！</message>
+	<message label="2101" attrib="08 00">要連接網路
+下載3DS的「我的設計」嗎？</message>
+	<message label="2101_a" attrib="01 00">返回</message>
+	<message label="2101_b" attrib="01 00">下載</message>
+	<message label="2102" attrib="08 00">找到了「我的設計」——
+<colour id="1" /><tag a="115" b="3" arg="0xcd00" /><colour id="65535" />，
+請選擇保存位置。</message>
+	<message label="2102_a" attrib="01 00">返回</message>
+	<message label="2102_b" attrib="01 00">保存</message>
+	<message label="2103" attrib="08 00">找到了「專業設計」——
+<colour id="1" /><tag a="115" b="3" arg="0xcd00" /><colour id="65535" />，
+請選擇保存位置。</message>
+	<message label="2103_a" attrib="01 00">返回</message>
+	<message label="2103_b" attrib="01 00">保存</message>
+	<message label="2110" attrib="0e 09">找不到可下載的
+3DS「我的設計」。
+
+請從Nintendo Switch Online
+應用程式登入「<colour id="1" />狸端機入口站<colour id="65535" />」，
+讀取QR Code。</message>
+	<message label="2120" attrib="01 00">專業設計分頁已解鎖。</message>
+	<message label="2140" attrib="01 09">〔<colour id="1" />專業設計<colour id="65535" />〕
+專業設計的編輯範圍
+比一般「我的設計」更加細微。<pageBreak />要新增或編輯專業設計前，
+必須先更新「我的設計」手機應用程式。
+<colour id="0" />※可穿戴在身上。<colour id="65535" /><pageBreak />關於應用程式的更新，
+請到<colour id="1" />服務處<colour id="65535" />使用<colour id="1" />狸端機<colour id="65535" />
+以哩數兌換的方式執行。</message>
 	<message label="2201" attrib="01 09">目前未有存款。</message>
 	<message label="2202" attrib="01 09">存款額度已達上限。</message>
 	<message label="2203" attrib="01 09">由於會超過持有上限，無法提出。</message>
@@ -505,6 +745,89 @@ laatst hebt gespeeld.
 沒問題嗎？</message>
 	<message label="2301_a" attrib="01 00">返回</message>
 	<message label="2301_b" attrib="01 00">還是要賣！</message>
+	<message label="2401" attrib="12 09">設定的個人資料內容，
+違反了「Nintendo Account使用條款」。
+請檢查個人資料圖片
+或個性簽名的內容，
+並修改成不會讓他人感到不快的
+恰當內容。</message>
+	<message label="2401_a" attrib="01 00">我明白了</message>
+	<message label="2421" attrib="12 09">〔<colour id="0" />投稿的注意事項<colour id="65535" />〕
+投稿的「我的設計」作品，
+可能會被全世界的玩家看到。
+請不要投稿含有違法內容
+或是讓其他玩家感到不快的
+「我的設計」。<pageBreak />如果發現有不恰當的投稿作品
+違反「Nintendo Account使用條款」的話，
+將會從伺服器中被刪除。</message>
+	<message label="2421_a" attrib="01 00">我明白了</message>
+	<message label="2422" attrib="08 00">作品已成功投稿。
+ID是<colour id="1" /><tag a="140" b="15" arg="0xcd00" /><colour id="65535" />。
+接著要把已投稿的「我的設計」資訊
+分享到社群網站嗎？</message>
+	<message label="2422_a" attrib="01 00">算了</message>
+	<message label="2422_b" attrib="01 00">分享</message>
+	<message label="2423" attrib="08 00">投稿失敗。
+要再投稿一次嗎？</message>
+	<message label="2423_a" attrib="01 00">算了</message>
+	<message label="2423_b" attrib="01 00">再投稿一次</message>
+	<message label="2424" attrib="08 00">要結束使用設備嗎？</message>
+	<message label="2424_a" attrib="01 00">繼續使用</message>
+	<message label="2424_b" attrib="01 00">結束</message>
+	<message label="2425" attrib="12 09">感謝您首次使用
+投稿功能。<pageBreak />作者登錄完成。
+作者ID是<colour id="1" /><tag a="140" b="17" arg="0xcd00" /><colour id="65535" />。
+您可以隨時在護照應用程式中
+查看作者ID。</message>
+	<message label="2425_a" attrib="01 00">明白了</message>
+	<message label="2427" attrib="08 00">要繼續投稿別的作品嗎？</message>
+	<message label="2427_a" attrib="01 00">前往選單</message>
+	<message label="2427_b" attrib="01 00">投稿</message>
+	<message label="2428" attrib="01 09">投稿的作品數量已達上限。
+請選擇要刪除的作品。</message>
+	<message label="2428_a" attrib="01 00">我知道了</message>
+	<message label="2429" attrib="01 09">似乎沒有您本人創作的「我的設計」。
+請創作「我的設計」後再使用。</message>
+	<message label="2429_a" attrib="01 00">我知道了</message>
+	<message label="2430" attrib="06 00">本作品已經投稿過了。
+<colour id="0" />※可以透過重新繪畫來再次投稿。<colour id="65535" /></message>
+	<message label="2430_a" attrib="01 00">返回</message>
+	<message label="2431" attrib="02 00">正在搜尋「我的設計」。</message>
+	<message label="2432" attrib="08 00">輸入的ID為
+<colour id="2" /><tag a="110" b="1" /><colour id="65535" />本人的作者ID，
+要查看自己的作品嗎？</message>
+	<message label="2432_a" attrib="01 00">返回</message>
+	<message label="2432_b" attrib="01 00">查看自己的作品</message>
+	<message label="2433" attrib="08 00">沒有找到作品ID為
+<colour id="1" /><tag a="140" b="15" arg="0xcd00" /><colour id="65535" />的作品。
+要再次輸入嗎？</message>
+	<message label="2433_a" attrib="01 00">前往選單</message>
+	<message label="2433_b" attrib="01 00">重新輸入</message>
+	<message label="2434" attrib="08 00">沒有找到作者ID為 
+<colour id="1" /><tag a="140" b="17" arg="0xcd00" /><colour id="65535" />的作品。
+要再次輸入嗎？</message>
+	<message label="2434_a" attrib="01 00">前往選單</message>
+	<message label="2434_b" attrib="01 00">重新輸入</message>
+	<message label="2435" attrib="01 09">已刪除「我的設計」作品。</message>
+	<message label="2436" attrib="01 00">請選擇要投稿的「我的設計」。</message>
+	<message label="2437" attrib="08 00">真的要刪除
+名為<colour id="1" /><tag a="115" b="3" arg="0xcd00" /><colour id="65535" />的
+「我的設計」嗎？</message>
+	<message label="2437_a" attrib="01 00">還是算了</message>
+	<message label="2437_b" attrib="01 00">刪除</message>
+	<message label="2438" attrib="05 09">沒有找到已投稿的作品。</message>
+	<message label="2438_a" attrib="01 00">返回</message>
+	<message label="2439" attrib="01 00">即將打開我的設計應用程式畫面。
+請選擇保存地點。</message>
+	<message label="2440" attrib="08 00">輸入的ID為
+<colour id="2" /><tag a="110" b="1" /><colour id="65535" />本人的作品ID，
+要查看自己的作品嗎？</message>
+	<message label="2440_a" attrib="01 00">返回</message>
+	<message label="2440_b" attrib="01 00">查看自己的作品</message>
+	<message label="2441" attrib="01 00">社群網站分享失敗。</message>
+	<message label="2501" attrib="01 09">使用Nook購物
+經網路發送的數量，
+每人每天最多只能兩封。</message>
 	<message label="3001" attrib="01 00">這是在商店<colour id="1" />收購<colour id="65535" />時，
 能換取<colour id="1" />3000鈴錢<colour id="65535" />的兌換券。
 <colour id="0" />※會立即發行此券。<colour id="65535" /></message>
@@ -627,7 +950,7 @@ laatst hebt gespeeld.
 不得洩漏與自己或他人隱私有關的資訊，
 亦不得刊載讓他人感到不適的內容。<colour id="65535" /></message>
 	<message label="5052" attrib="01 00">〔<colour id="1" />專業設計<colour id="65535" />〕
-感謝您升級到專業設計！<pageBreak />專業設計可以使用下列功能。
+感謝您升級至「專業設計］！<pageBreak />「專業設計」可以使用下列功能。
 ‧編輯調色盤顏色
 ‧我的設計專業格式<pageBreak />請以專業的編輯功能
 在「我的設計」上盡情發揮！</message>
@@ -654,6 +977,19 @@ laatst hebt gespeeld.
 將客人送至自己家或服務處等地方。
 <colour id="0" />※使用此服務需消耗
 Nook集哩遊計畫哩數。<colour id="65535" /></message>
+	<message label="5101" attrib="01 00">〔<colour id="1" />最佳朋友名單<colour id="65535" />〕
+此應用程式，可以查看
+一起玩過的朋友或最佳朋友。<pageBreak />成為最佳朋友後，
+就能知道對方是否上線遊玩。<pageBreak />另外，如果雙方都在線上的話，
+就能透過網路直接發送訊息。<pageBreak /><colour id="0" />※如果不想讓對方知道自己的上線狀況，
+或是不想互相發送訊息的話，
+可以按鍵設定開啟/關閉。<colour id="65535" /></message>
+	<message label="5102" attrib="01 00">新增了透過狸端機入口站
+讀取QR Code來下載
+3DS「我的設計」的功能。<pageBreak /><colour id="0" />※關於讀取「我的設計」的方法，
+請到Nintendo Switch Online應用程式內的
+遊戲連動服務，
+登入狸端機入口站查看。<colour id="65535" /></message>
 	<message label="5111" attrib="01 00">〔<colour id="1" />島嶼創作家<colour id="65535" />〕
 此應用程式可以讓你
 親手進行島嶼的開發施工。<pageBreak />你可以在狸端機的兌換Nook哩數
@@ -671,6 +1007,12 @@ Nook購物進化成為一個
 手機應用程式了！
 請享受自由的購物生活，
 挑選適合自己風格的商品吧。</message>
+	<message label="5122" attrib="01 00">〔<colour id="1" />聊天記錄<colour id="65535" />〕
+此應用程式可以隨時隨地
+查看與玩家之間的聊天記錄！<pageBreak />不論是出島時錯過的留言，
+或是來自遠方最佳朋友的訊息，
+都可以後來再重新查看，
+是一個非常方便的應用程式！</message>
 	<message label="5201_00_01" attrib="0e 00"><colour id="0" />＜派對模式的遊玩方法＞
 <colour id="65535" />在派對模式中，將由一位玩家擔任<colour id="1" />隊長<colour id="65535" />，
 其他玩家擔任<colour id="1" />隊員<colour id="65535" />，
@@ -688,7 +1030,7 @@ Nook購物進化成為一個
 但可以使用道具或移動家具，
 支援<colour id="1" />隊長<colour id="65535" />。
 
-<colour id="1" />隊員<colour id="65535" />使用道具得到的物品
+<colour id="1" />隊員<colour id="65535" />得到的物品
 會被放進<colour id="1" />服務處<colour id="65535" />的<colour id="1" />回收箱<colour id="65535" />中。</message>
 	<message label="5201_00_02" attrib="0e 00"><colour id="1" /><colour id="0" />＜橫握Joy-Con的操作方法＞<colour id="1" />
 ＜隊長＞<colour id="65535" />
@@ -698,12 +1040,12 @@ Nook購物進化成為一個
 <colour id="1" />＜隊員＞
 <colour id="65535" />　裝備、替換道具　 </message>
 	<message label="5201_00_03" attrib="0e 00"><colour id="1" />＜橫握Joy-Con的操作︰隊長＞<colour id="65535" />
-<colour id="1" /><colour id="65535" /> 打開手機　/　<colour id="1" /> <colour id="65535" />表情　　　　　
+<colour id="1" /><colour id="65535" /> 打開手機 / <colour id="1" /> <colour id="65535" />表情　　　　　
 <colour id="1" /><colour id="65535" /> 操作視角 / 替換道具   
 
-<colour id="1" />＜橫握Joy-Con的操作︰隊員＞<colour id="65535" />
-<colour id="1" /><colour id="65535" />　裝備、替換道具　　　　 
-<colour id="1" /> <colour id="65535" />表情 / <colour id="1" /><colour id="65535" /> 重複表情</message>
+<colour id="1" />＜橫握Joy-Con的操作︰隊員＞
+<colour id="65535" /> 裝備、替換道具 / <colour id="1" /><colour id="65535" /> 撿起　　　　
+<colour id="1" /><colour id="65535" /> 重複表情 / <colour id="1" /> <colour id="65535" />表情</message>
 	<message label="5201_00_04" attrib="0e 00"><colour id="1" /><colour id="0" />＜操作方法＞<colour id="1" />
 ＜隊長＞<colour id="65535" />
 與平常操作相同。
@@ -713,10 +1055,9 @@ Nook購物進化成為一個
 	<message label="5201_00_05" attrib="0e 00"><colour id="1" />＜隊長的操作＞<colour id="65535" />
 與平常操作相同。
 
-<colour id="1" />＜隊員的操作＞
-　<colour id="65535" />裝備、替換道具
-<colour id="1" />　<colour id="65535" />表情
-<colour id="1" /><colour id="65535" />　重複表情   </message>
+<colour id="1" />＜隊員的操作＞<colour id="65535" />
+<colour id="1" /><colour id="65535" /> 裝備、替換道具 / <colour id="1" /><colour id="65535" /> 撿起　　　　
+<colour id="1" /><colour id="65535" /> 重複表情 / <colour id="1" /><colour id="65535" /> 表情</message>
 	<message label="5201_01" attrib="0e 00"><colour id="0" />＜派對模式的遊玩方法＞
 <colour id="65535" />在派對模式中，將由一位玩家擔任<colour id="1" />隊長<colour id="65535" />，
 其他玩家擔任<colour id="1" />隊員<colour id="65535" />，
@@ -734,7 +1075,7 @@ Nook購物進化成為一個
 但可以使用道具或移動家具，
 支援<colour id="1" />隊長<colour id="65535" />。
 
-<colour id="1" />隊員<colour id="65535" />使用道具得到的物品
+<colour id="1" />隊員<colour id="65535" />得到的物品
 會被放進<colour id="1" />服務處<colour id="65535" />的<colour id="1" />回收箱<colour id="65535" />中。
 <colour id="1" /><colour id="0" />＜橫握Joy-Con的操作方法＞<colour id="1" />
 ＜隊長＞<colour id="65535" />
@@ -760,15 +1101,15 @@ Nook購物進化成為一個
 但可以使用道具或移動家具，
 支援<colour id="1" />隊長<colour id="65535" />。
 
-<colour id="1" />隊員<colour id="65535" />使用道具得到的物品
+<colour id="1" />隊員<colour id="65535" />得到的物品
 會被放進<colour id="1" />服務處<colour id="65535" />的<colour id="1" />回收箱<colour id="65535" />中。
 <colour id="1" />＜橫握Joy-Con的操作︰隊長＞<colour id="65535" />
-<colour id="1" /><colour id="65535" /> 打開手機　/　<colour id="1" /> <colour id="65535" />表情　　　　　
+<colour id="1" /><colour id="65535" /> 打開手機 / <colour id="1" /> <colour id="65535" />表情　　　　　
 <colour id="1" /><colour id="65535" /> 操作視角 / 替換道具   
 
-<colour id="1" />＜橫握Joy-Con的操作︰隊員＞<colour id="65535" />
-<colour id="1" /><colour id="65535" />　裝備、替換道具　　　　 
-<colour id="1" /> <colour id="65535" />表情 / <colour id="1" /><colour id="65535" /> 重複表情</message>
+<colour id="1" />＜橫握Joy-Con的操作︰隊員＞
+<colour id="65535" /> 裝備、替換道具 / <colour id="1" /><colour id="65535" /> 撿起　　　　
+<colour id="1" /><colour id="65535" /> 重複表情 / <colour id="1" /> <colour id="65535" />表情</message>
 	<message label="5201_03" attrib="0e 00"><colour id="0" />＜派對模式的遊玩方法＞
 <colour id="65535" />在派對模式中，將由一位玩家擔任<colour id="1" />隊長<colour id="65535" />，
 其他玩家擔任<colour id="1" />隊員<colour id="65535" />，
@@ -786,7 +1127,7 @@ Nook購物進化成為一個
 但可以使用道具或移動家具，
 支援<colour id="1" />隊長<colour id="65535" />。
 
-<colour id="1" />隊員<colour id="65535" />使用道具得到的物品
+<colour id="1" />隊員<colour id="65535" />得到的物品
 會被放進<colour id="1" />服務處<colour id="65535" />的<colour id="1" />回收箱<colour id="65535" />中。
 <colour id="1" /><colour id="0" />＜操作方法＞<colour id="1" />
 ＜隊長＞<colour id="65535" />
@@ -811,15 +1152,14 @@ Nook購物進化成為一個
 但可以使用道具或移動家具，
 支援<colour id="1" />隊長<colour id="65535" />。
 
-<colour id="1" />隊員<colour id="65535" />使用道具得到的物品
+<colour id="1" />隊員<colour id="65535" />得到的物品
 會被放進<colour id="1" />服務處<colour id="65535" />的<colour id="1" />回收箱<colour id="65535" />中。
 <colour id="1" />＜隊長的操作＞<colour id="65535" />
 與平常操作相同。
 
-<colour id="1" />＜隊員的操作＞
-　<colour id="65535" />裝備、替換道具
-<colour id="1" />　<colour id="65535" />表情
-<colour id="1" /><colour id="65535" />　重複表情   </message>
+<colour id="1" />＜隊員的操作＞<colour id="65535" />
+<colour id="1" /><colour id="65535" /> 裝備、替換道具 / <colour id="1" /><colour id="65535" /> 撿起　　　　
+<colour id="1" /><colour id="65535" /> 重複表情 / <colour id="1" /><colour id="65535" /> 表情</message>
 	<message label="5202" attrib="01 00"><colour id="0" />恭喜你完成了自己的家！<colour id="65535" />
 ～舒適生活建議～<pageBreak /><colour id="1" />　開關電燈
 　布置模式
@@ -831,6 +1171,38 @@ Nook購物進化成為一個
 可以打開家中的收納空間，取出家具。
 ※在自己家中打開口袋，
 可以選擇家具或衣物進行收納。</message>
+	<message label="5203" attrib="01 00">～透過<colour id="1" />聊天<colour id="65535" />來交流！～<pageBreak />按<colour id="1" /><colour id="65535" />，就可以發送訊息
+給所有正在一起玩的玩家。<pageBreak />可以在手機的<colour id="1" />聊天記錄<colour id="65535" />應用程式中
+回看互相發送的訊息。</message>
+	<message label="5301" attrib="0e 09">以<colour id="1" />派對模式<colour id="65535" />遊玩時，
+即使重新繪製身上穿戴的「我的設計」，
+也不會自動反映。
+
+如果想要換穿上新的「我的設計」，
+請再次選擇「<colour id="1" />穿戴<colour id="65535" />」
+來換穿上「我的設計」。</message>
+	<message label="5302" attrib="0e 09">已重新繪製
+穿戴中的「我的設計」資料。
+
+如果想要換穿上新的「我的設計」
+請再次選擇「<colour id="1" />穿戴<colour id="65535" />」
+來換穿上「我的設計」。</message>
+	<message label="5303" attrib="01 09">已使用變身棒登錄「我的設計」。
+已登錄至搭配的「我的設計」
+即使以編輯重新繪製
+也不會被覆蓋並消失。<pageBreak />不過，登錄至搭配的「我的設計」，
+會在之後更改搭配或收納時
+被刪除。這點還請留意。</message>
+	<message label="5304" attrib="07 00">這個搭配包含「我的設計」。
+「我的設計」將會消失且不會被收納，
+要執行嗎？</message>
+	<message label="5304_a" attrib="01 00">還是算了</message>
+	<message label="5304_b" attrib="01 00">OK</message>
+	<message label="5305" attrib="01 00"><colour id="0" />＜關於手機殼改造工具組＞<colour id="65535" />
+可以使用這個改造工具組
+更改您現在的手機殼設計。<pageBreak />※製作成手機殼的「我的設計」
+即使之後重新繪製，
+手機殼的設計也不會改變。</message>
 	<message label="8001" attrib="07 00"><colour id="6" />※這台Nintendo Switch中的
 <tag a="110" b="33" />，
 目前有尚未與任何用戶連動的
@@ -888,9 +1260,27 @@ Nook購物進化成為一個
 島民代表玩家，
 所以無法刪除該居民資料。<pageBreak />如果要刪除其他居民資料，
 請使用該位想刪除的居民資料開始遊戲，
-並在標題畫面的儲存資料設定中
+並在標題畫面的各項設定中
 進行刪除。</message>
 	<message label="8013" attrib="03 00">如果想關閉本畫面，
 請從HOME選單
 結束遊戲。</message>
+	<message label="8014" attrib="07 00">用戶所連動的
+Nintendo Account
+與之前不同。<pageBreak />最佳朋友名單等
+使用網路的功能
+將全部初始化，
+並重新開始遊戲。
+要以居民<colour id="2" /><tag a="115" b="0" arg="0xcd00" /><colour id="65535" />的身分
+重新開始遊戲嗎？</message>
+	<message label="8014_a" attrib="01 00">重新考慮</message>
+	<message label="8014_b" attrib="01 00">是的</message>
+	<message label="8015" attrib="07 00">沒有與用戶連動的
+Nintendo Account。<pageBreak />朋友名單等使用網路的功能
+將全部初始化，
+並重新開始遊戲。<pageBreak />要以居民<colour id="2" /><tag a="115" b="0" arg="0xcd00" /><colour id="65535" />的身分
+重新開始遊戲嗎？
+</message>
+	<message label="8015_a" attrib="01 00">重新考慮</message>
+	<message label="8015_b" attrib="01 00">是的</message>
 </msbt>

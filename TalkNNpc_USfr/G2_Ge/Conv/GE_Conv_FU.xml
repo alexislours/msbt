@@ -3,15 +3,15 @@
 Ça roule, ma poule?<anim id="Eh" target="subNpc" targetSpec="" /></message>
 	<message label="002" attrib="00 00 00 00 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Est-ce que ça<tag a="110" b="0" /> roule?<delay20 /><anim id="EmotEnd" target="actor" targetSpec="" />
 Je suppose que oui, ça peut aller.</message>
-	<message label="003" attrib="00 00 00 00 00 00 00 00">T'as trouvé où, tes vieux chiffons?
+	<message label="003" attrib="00 00 00 00 00 00 00 00"><20_2 arg="3" />T'as trouvé où, tes vieux chiffons?
 Tu as l'air fantastique! <delay20 /><anim id="Nodding" target="actor" targetSpec="" />Et crois-moi,
-c'est pas facile, en cette saison! <20_2 arg="4" /></message>
-	<message label="004" attrib="00 00 00 00 00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Excuse-moi, <tag a="110" b="31" arg="0xcd00" />.<delay40 />
+c'est pas facile, en cette saison!</message>
+	<message label="004" attrib="00 00 00 00 00 00 00 00"><20_2 arg="4" /><anim id="Negative" target="actor" targetSpec="" />Excuse-moi, <tag a="110" b="31" arg="0xcd00" />.<delay40 />
 Je n'ai pas compris <anim id="Worried" target="actor" targetSpec="" />la moitié
 de ce que tu viens de dire<tag a="110" b="0" /><anim id="EmotEnd" target="actor" targetSpec="" /></message>
-	<message label="005" attrib="00 00 00 00 00 00 00 00"><anim id="OhGeez" target="actor" targetSpec="" />Mais j'essayais juste de parler de
-tout et de rien!<20_2 arg="3" /><anim id="EmotEnd" target="actor" targetSpec="" /><20_2 arg="4" /></message>
-	<message label="006" attrib="00 00 00 00 00 00 00 00"><anim id="IdeaBulb" target="actor" targetSpec="" />Oh!<delay frames="60" /> Ça me dit quelque chose!<delay40 />
+	<message label="005" attrib="00 00 00 00 00 00 00 00"><20_2 arg="3" /><anim id="OhGeez" target="actor" targetSpec="" />Mais j'essayais juste de parler de
+tout et de rien!<anim id="EmotEnd" target="actor" targetSpec="" /></message>
+	<message label="006" attrib="00 00 00 00 00 00 00 00"><20_2 arg="4" /><anim id="IdeaBulb" target="actor" targetSpec="" />Oh!<delay frames="60" /> Ça me dit quelque chose!<delay40 />
 OK, parler de tout et de rien<tag a="110" b="0" />
 Voyons voir<tag a="110" b="0" />
 <anim id="Pardon" target="actor" targetSpec="" />Les coquerelles! <anim id="EmotEnd" target="mainNpc" targetSpec="" /><20_2 arg="8" /><anim id="Explain" target="actor" targetSpec="" />Personne aime ça,<20_3 arg="4" /><delay20 />
@@ -29,7 +29,7 @@ elles me dégoûtent toujours au plus
 haut point<tag a="110" b="0" />
 <anim id="Blushing" target="actor" targetSpec="" /><tag a="110" b="0" /><anim id="Worried" target="mainNpc" targetSpec="" /> Alors, qu'est-ce que tu en dis?<delay frames="60" />
 Mes banalités t'ont plu?<anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="actor" targetSpec="" /></message>
-	<message label="007" attrib="00 00 00 00 00 00 00 00">Oh!<delay frames="60" /> De tout et de rien! Mais oui!<delay40 />
+	<message label="007" attrib="00 00 00 00 00 00 00 00"><20_2 arg="4" />Oh!<delay frames="60" /> De tout et de rien! Mais oui!<delay40 />
 D'accord<tag a="110" b="0" /> Alors, si on parlait de<tag a="110" b="0" />
 <delay20 /><anim id="IdeaBulb" target="actor" targetSpec="" />Je sais!<20_2 arg="8" /><anim id="Explain" target="actor" targetSpec="" /><20_3 arg="4" /> Les voyages dans le temps!<20_2 arg="6" /><delay20 /><anim id="Nodding" target="player" targetSpec="" />
 <anim id="EmotEnd" target="actor" targetSpec="" />Tu imagines ce que ça représente?<delay8 /><20_2 arg="7" /><anim id="Smiling" target="actor" targetSpec="" />
@@ -43,7 +43,7 @@ s'épaissit!<20_3 arg="7" /><delay20 /> <anim id="Pardon" target="actor" targetS
 pas <anim id="TakenAback" target="mainNpc" targetSpec="" />de rêver!
 <anim id="EmotEnd" target="actor" targetSpec="" /><anim id="Blushing" target="actor" targetSpec="" />Enfin bref<tag a="110" b="0" /><20_2 arg="3" /><delay frames="60" /><anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="actor" targetSpec="" /><delay frames="60" />
 J'ai bien parlé de tout et de rien?<anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="actor" targetSpec="" /></message>
-	<message label="008" attrib="00 00 00 00 00 00 00 00">De tout et de rien<tag a="110" b="0" /><delay20 /> Hmm.
+	<message label="008" attrib="00 00 00 00 00 00 00 00"><20_2 arg="4" />De tout et de rien<tag a="110" b="0" /><delay20 /> Hmm.
 Alors<tag a="110" b="0" /> <anim id="IdeaBulb" target="subNpc" targetSpec="" />J'ai pas mal réfléchi
 <20_2 arg="8" />à la question <anim id="EmotEnd" target="actor" targetSpec="" />des <anim id="Greeting" target="actor" targetSpec="" />sirènes!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />On dit souvent que ce ne sont que
 des lamantins qu'on confond avec<delay8 />
@@ -73,9 +73,9 @@ le cadeau parfait pour <tag a="50" b="17" arg="0x3 0xcd00 0x6 0x6c 0x75 0x69 0x8
 	<message label="105" attrib="00 00 00 00 00 00 00 00">Hi hi...<20_2 arg="2" /> Des espionnes<tag a="110" b="0" /><delay20 /> <anim id="Love" target="actor" targetSpec="" />Comme dans
 mes romans! C'est super drôle!<delay40 />
 <anim id="Greeting" target="actor" targetSpec="" />Dis, tu as besoin d'une assistante?<anim id="Eh" target="mainNpc" targetSpec="" /></message>
-	<message label="106" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Hmmm<tag a="110" b="0" /><delay20 /> <20_2 arg="3" />Pourquoi pas?<delay40 />
+	<message label="106" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Hmm<tag a="110" b="0" /><delay20 /> <20_2 arg="3" />Pourquoi pas?<delay40 />
 <anim id="EmotEnd" target="actor" targetSpec="" />OK, alors avant tout, <delay20 /><anim id="Scheming" target="actor" targetSpec="" />on a besoin
-de tenues d'espionne assorties!</message>
+de tenues d'espionnes assorties!</message>
 	<message label="107" attrib="00 00 00 00 00 00 00 00"><anim id="Confused" target="actor" targetSpec="" /><delay20 /><anim id="HappyDance" target="actor" targetSpec="" />Est-ce qu'on espionne quelqu'un,<20_2 arg="4" />
 ou on joue à se déguiser?<anim id="WrySmile" target="player" targetSpec="" /></message>
 	<message label="108" attrib="00 00 00 00 00 00 00 00">C'est une idée. <20_3 arg="6" /><delay40 /><anim id="Thinking" target="actor" targetSpec="" />Le cadeau lui fera
@@ -86,8 +86,7 @@ ce qu'<tag a="50" b="17" arg="0x3 0xcd00 0x4 0x69 0x6c 0x8 0x65 0x6c 0x6c 0x65 0
 <anim id="EmotEnd" target="actor" targetSpec="" /><20_3 arg="5" />Et ensuite je te dirai ce qu'<tag a="50" b="17" arg="0x3 0xcd00 0x4 0x69 0x6c 0x8 0x65 0x6c 0x6c 0x65 0x0" /> m'a
 répondu, <anim id="Greeting" target="actor" targetSpec="" /><tag a="110" b="31" arg="0xcd00" /><anim id="Aha" target="mainNpc" targetSpec="" />!</message>
 	<message label="110" attrib="00 00 00 00 00 00 00 00"><anim id="HappyDance" target="actor" targetSpec="" />T'es plus rusée que t'en as l'air,
-<20_2 arg="3" /><delay8 /><tag a="110" b="31" arg="0xcd01" /><delay frames="60" />! <anim id="EmotEnd" target="actor" targetSpec="" />C'est le meilleur
-plan que j'ai entendu!</message>
+<20_2 arg="3" /><delay8 /><tag a="110" b="31" arg="0xcd01" /><delay frames="60" />! <anim id="EmotEnd" target="actor" targetSpec="" />C'est le meilleur plan que j'ai entendu!</message>
 	<message label="111" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" /><20_2 arg="4" />C'est parti pour l'opération
 Les Reines de la ruse!<anim id="EmotEnd" target="actor" targetSpec="" /><anim id="Assent" target="actor" targetSpec="" /><delay20 /><anim id="Clapping" target="mainNpc" targetSpec="" /></message>
 	<message label="112" attrib="00 00 00 00 00 00 00 00">C'est trop pas <20_3 arg="6" /><anim id="ShyBoy" target="actor" targetSpec="" />une mauvaise idée,
@@ -115,9 +114,7 @@ inspirée!<anim id="EmotEnd" target="actor" targetSpec="" /></message>
 	<message label="203" attrib="00 00 00 00 00 00 00 00"><anim id="Blushing" target="actor" targetSpec="" />En vrai?!<20_2 arg="3" /><delay20 /><anim id="Nodding" target="subNpc" targetSpec="" /> J'essaie toujours de placer
 des rimes et des répliques bien
 senties. C'est cool si ça te plaît!
-<anim id="EmotEnd" target="actor" targetSpec="" />Mais au fait, <delay8 /><tag a="110" b="31" arg="0xcd01" />,<delay8 />
-<anim id="Grin" target="actor" targetSpec="" />si t'as envie de l'utiliser aussi, te
-gêne pas!<anim id="Eh" target="subNpc" targetSpec="" /><delay40 /> <anim id="Assent" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="110" b="6" /><anim id="EmotEnd" target="actor" targetSpec="" />!</message>
+<anim id="EmotEnd" target="actor" targetSpec="" />Mais au fait, <delay8 /><tag a="110" b="31" arg="0xcd01" />,<delay8 /> <anim id="Grin" target="actor" targetSpec="" />si t'as envie de l'utiliser aussi, te gêne pas!<anim id="Eh" target="subNpc" targetSpec="" /><delay40 /> <anim id="Assent" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="110" b="6" /><anim id="EmotEnd" target="actor" targetSpec="" />!</message>
 	<message label="204" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Vraiment? Tu me laisserais
 l'utiliser?<delay40 /> <anim id="EmotEnd" target="actor" targetSpec="" />Oh, merci! <anim id="Hello" target="actor" targetSpec="" />Alors<tag a="110" b="0" />
 <tag a="50" b="3" /><anim id="Nodding" target="mainNpc" targetSpec="" /><tag a="110" b="6" />!

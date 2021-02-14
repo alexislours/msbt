@@ -33,9 +33,9 @@ stimola la tua curiosità.<pageBreak /><anim id="Serious" target="actor" targetS
 potrebbero sembrarti un po' strane,
 <delay frames="40" /><anim id="HappyFlower" target="actor" targetSpec="" />ma cercherò di raccontarle bene!</message>
 	<message label="011" attrib="02 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Posso aiutarti?</message>
-	<message label="011_a" attrib="00 00 00 00">Guarda qui.</message>
-	<message label="011_b" attrib="00 00 00 00">Parliamo?</message>
-	<message label="012" attrib="00 00 00 00"><anim id="IdeaBulb" target="actor" targetSpec="" />Ma certo! <delay20 /><tag a="50" b="17" arg="0x11 0xcd00 0xc 0x51 0x75 0x65 0x6c 0x6c 0x6f 0xc 0x51 0x75 0x65 0x6c 0x6c 0x61 0x0" /> è<tag a="110" b="0" /><delay20 />
+	<message label="011_a" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Guarda qui.</message>
+	<message label="011_b" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Parliamo?</message>
+	<message label="012" attrib="00 00 00 00"><anim id="IdeaBulb" target="actor" targetSpec="" />Ma certo! <delay20 /><tag a="50" b="17" arg="0x12 0xcd00 0xc 0x51 0x75 0x65 0x6c 0x6c 0x6f 0xc 0x51 0x75 0x65 0x6c 0x6c 0x61 0x0" /> è<tag a="110" b="0" /><delay20 />
 <tag a="50" b="2" /><tag a="125" b="0" arg="0x0" />!</message>
 	<message label="013" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Uh uuuh, <delay20 />ti auguro una piacevole
 nottata. </message>
@@ -71,22 +71,23 @@ un cartellone gigante con una mia
 foto in calzamaglia di flanella.</message>
 	<message label="052" attrib="00 00 00 00"><anim id="AbsentMindedness" target="actor" targetSpec="" />Ci sono diverse storie sull'origine
 della costellazione dell'Acquario.<delay20 /><anim id="EmotEnd" target="actor" targetSpec="" />
-Ti racconto la mia preferita.<delay frames="40" />
+Ti racconto la mia preferita.
 <anim id="Hello" target="actor" targetSpec="" />Tanto tempo fa, gli dei erano alla
 ricerca di un coppiere per i loro
-banchetti sul Monte Olimpo. 
-Un giorno Zeus, assunte le fattezze
-di aquila, <anim id="Aha" target="actor" targetSpec="" />vide un bellissimo giovane
+banchetti sul Monte Olimpo.
+<anim id="Aha" target="actor" targetSpec="" />Un giorno Zeus, assunte le fattezze
+di aquila, vide un bellissimo giovane
 di nome Ganimede.
-<anim id="Blushing" target="actor" targetSpec="" />Il re degli dei<delay20 /> "<delay20 />c<delay8 />o<delay8 />n<delay8 />v<delay8 />i<delay8 />n<delay8 />s<delay8 />e" (diciamo così), Ganimede a prestare i propri
+<anim id="Blushing" target="actor" targetSpec="" />Il re degli dei<delay20 /> "<delay20 />c<delay8 />o<delay8 />n<delay8 />v<delay8 />i<delay8 />n<delay8 />s<delay8 />e" (diciamo
+così), Ganimede a prestare i propri
 servigi agli dei, sul Monte Olimpo<tag a="110" b="0" />
-Anche se questo significava che
-non avrebbe mai più rivisto
-la sua famiglia.
+<anim id="Nodding" target="actor" targetSpec="" />Anche se questo significava che
+non avrebbe mai più rivisto la sua
+famiglia.
 <anim id="Smiling" target="actor" targetSpec="" />Per consolare i genitori di Ganimede,
-Zeus decise di immortalare il giovane
-nel cielo.
-<anim id="HappyFlower" target="actor" targetSpec="" />Povero ragazzo, costretto a servire
+Zeus creò in cielo una costellazione
+a immagine del giovane.
+<anim id="HappyFlower" target="actor" targetSpec="" />Povero ragazzo, <delay8 />costretto a servire
 gli dei a causa della sua bellezza<tag a="110" b="0" /></message>
 	<message label="053" attrib="00 00 00 00"><anim id="AbsentMindedness" target="actor" targetSpec="" />Ci sono diverse storie sull'origine
 della costellazione dei Pesci.<delay20 /><anim id="EmotEnd" target="actor" targetSpec="" />
@@ -265,23 +266,22 @@ non fa per tutti.</message>
 parlato troppo!<delay frames="40" /> <anim id="Blushing" target="actor" targetSpec="" />Spero di non averti
 <gender2 m="annoiato" f="annoiata" /><tag a="110" b="0" />
 <anim id="Nodding" target="actor" targetSpec="" />Prima che tu vada, però, ti devo
-restituire <tag a="50" b="17" arg="0x11 0xcd00 0xc 0x71 0x75 0x65 0x73 0x74 0x6f 0xc 0x71 0x75 0x65 0x73 0x74 0x61 0x0" />.</message>
+restituire <tag a="50" b="17" arg="0x12 0xcd00 0xc 0x71 0x75 0x65 0x73 0x74 0x6f 0xc 0x71 0x75 0x65 0x73 0x74 0x61 0x0" />.</message>
 	<message label="064" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Se vuoi sentire un'altra storia,
 portami altri oggetti<delay20 /> che hanno
 un legame con l'astronomia!</message>
 	<message label="101" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Uuuh-uh! Buona sera!<delay frames="40" />
 <anim id="EmotEnd" target="actor" targetSpec="" />Sei di <tag a="110" b="8" />?</message>
-	<message label="102" attrib="00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Sei <gender2 m="il famoso" f="la famosa" /> <tag a="110" b="1" />!<delay20 />
-Mio fratello parla spessissimo di te!<delay20 />
-<anim id="HappyFlower" target="actor" targetSpec="" />Mi chiamo <colour id="3" />Celeste<colour id="65535" />, molto piacere!
-<anim id="Smiling" target="actor" targetSpec="" />Sì, <colour id="3" />Blatero <colour id="65535" />non fa che ripetere che
-senza il tuo aiuto non sarebbe stato
-possibile aprire il <colour id="1" />museo<colour id="65535" />.
-<delay20 /><anim id="Scheming" target="actor" targetSpec="" />Sembra un disco rotto!<anim id="Nodding" target="actor" targetSpec="" /> Comunque ti
-ringrazio per tutto quello che hai
-fatto per Blatty.
-<anim id="Oops" target="actor" targetSpec="" />Cioè, per mio fratello<tag a="110" b="0" /><delay20 /><anim id="Blushing" target="actor" targetSpec="" /><delay20 /> volevo dire<delay20 />
-"per mio fratello"!<delay frames="100" /><anim id="EmotEnd" target="actor" targetSpec="" /></message>
+	<message label="102" attrib="00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Uuuh uh! <delay8 />Tu devi essere <gender2 m="il famoso" f="la famosa" /> <tag a="110" b="1" />! <delay20 /><anim id="HappyFlower" target="actor" targetSpec="" />Io mi chiamo <colour id="3" />Celeste<colour id="65535" />, <delay8 />molto piacere!<pageBreak /><anim id="QuestionMark" target="actor" targetSpec="" />Non è che per caso conosci mio
+fratello, <colour id="3" />Blatero<colour id="65535" />? <delay8 />È il curatore di
+un <colour id="1" />museo<colour id="65535" />.
+<anim id="EmotEnd" target="actor" targetSpec="" />Beh, se ti è capitato di incontrarlo,
+di certo hai presente chi intendo<tag a="110" b="0" /><pageBreak />A Blati,<delay20 /> <anim id="Eh" target="actor" targetSpec="" />ehm, a mio fratello piace
+parlare per ore di ogni argomento<tag a="110" b="0" />
+<delay frames="40" /><anim id="Scheming" target="actor" targetSpec="" />Sembra un disco rotto!
+<anim id="Nodding" target="actor" targetSpec="" />Comunque, è un vero pozzo di
+scienza e<tag a="110" b="0" /> <delay20 /><anim id="Blushing" target="actor" targetSpec="" />Oh, ma sto perdendo
+tempo come al solito!</message>
 	<message label="103" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" /><colour id="3" />Blatero <colour id="65535" />mi ha consigliato di venire
 qui ad ammirare il cielo stellato<tag a="110" b="0" /></message>
 	<message label="104" attrib="00 00 00 00"><anim id="HappyDance" target="actor" targetSpec="" />Questo posto ha superato di gran

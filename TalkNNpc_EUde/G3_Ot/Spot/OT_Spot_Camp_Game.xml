@@ -1,7 +1,7 @@
 <msbt attribsize="8">
 	<message label="001" attrib="00 00 01 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Wie wäre es damit, <delay8 /><gender2 m="mein Lieber" f="meine Liebe" />?<delay20 />
-Spielen wir doch ein Spiel um <anim id="Greeting" target="actor" targetSpec="" /><tag a="50" b="17" arg="0x11 0xcd00 0xc 0x6d 0x65 0x69 0x6e 0x65 0x6e 0xa 0x6d 0x65 0x69 0x6e 0x65 0x8 0x6d 0x65 0x69 0x6e" />
-<tag a="50" b="23" arg="0xcd01" /><tag a="125" b="0" arg="0x0" />!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Gewinnst du, <delay8 />schenke ich dir <tag a="50" b="17" arg="0x11 0xcd00 0xc 0x6d 0x65 0x69 0x6e 0x65 0x6e 0xa 0x6d 0x65 0x69 0x6e 0x65 0x8 0x6d 0x65 0x69 0x6e" />
+Spielen wir doch ein Spiel um <anim id="Greeting" target="actor" targetSpec="" /><tag a="50" b="17" arg="0x12 0xcd00 0xc 0x6d 0x65 0x69 0x6e 0x65 0x6e 0xa 0x6d 0x65 0x69 0x6e 0x65 0x8 0x6d 0x65 0x69 0x6e" />
+<tag a="50" b="23" arg="0xcd01" /><tag a="125" b="0" arg="0x0" />!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Gewinnst du, <delay8 />schenke ich dir <tag a="50" b="17" arg="0x12 0xcd00 0xc 0x6d 0x65 0x69 0x6e 0x65 0x6e 0xa 0x6d 0x65 0x69 0x6e 0x65 0x8 0x6d 0x65 0x69 0x6e" />
 <tag a="50" b="23" arg="0xcd01" /><tag a="125" b="0" arg="0x0" />,<delay8 /> <tag a="110" b="5" />.</message>
 	<message label="001_a" attrib="00 00 00 00 00 00 00 00">Klingt gut!</message>
 	<message label="001_b" attrib="00 00 00 00 00 00 00 00">Ein andermal...</message>
@@ -19,11 +19,11 @@ wir die Karten gut mischen...</message>
 	<message label="005" attrib="00 00 00 00 00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Und jetzt sehen wir uns einmal
 deine Antwort an.</message>
 	<message label="006_01" attrib="00 00 00 00 00 00 00 00"><anim id="Grin" target="actor" targetSpec="" />Sieh einer an! <delay20 />Dieses Spiel liegt dir.<delay20 />
-<delay20 />Wie versprochen gehört <tag a="50" b="17" arg="0x11 0xcd00 0x8 0x6d 0x65 0x69 0x6e 0xa 0x6d 0x65 0x69 0x6e 0x65 0x8 0x6d 0x65 0x69 0x6e" />
+<delay20 />Wie versprochen gehört <tag a="50" b="17" arg="0x12 0xcd00 0x8 0x6d 0x65 0x69 0x6e 0xa 0x6d 0x65 0x69 0x6e 0x65 0x8 0x6d 0x65 0x69 0x6e" />
 <tag a="125" b="0" arg="0x0" /> nun dir.<pageBreak /><anim id="BigSmile" target="actor" targetSpec="" />Bitteschön, <delay8 /><tag a="110" b="5" />.<anim id="FaintSmile" target="actor" targetSpec="" /></message>
 	<message label="006_02" attrib="00 00 00 00 00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />Hmm... <delay20 />Ich wusste ja gar nicht,<delay8 />
 dass du so gut in diesem Spiel bist,<delay8 />
-<tag a="110" b="5" />.<pageBreak />Nun, <delay8 /><anim id="Smiling" target="actor" targetSpec="" />dafür erhältst du, <delay8 />wie versprochen, <delay8 /><tag a="50" b="17" arg="0x11 0xcd00 0xc 0x6d 0x65 0x69 0x6e 0x65 0x6e 0xa 0x6d 0x65 0x69 0x6e 0x65 0x8 0x6d 0x65 0x69 0x6e" /> <tag a="50" b="23" arg="0xcd01" /><tag a="125" b="0" arg="0x0" />.</message>
+<tag a="110" b="5" />.<pageBreak />Nun, <delay8 /><anim id="Smiling" target="actor" targetSpec="" />dafür erhältst du, <delay8 />wie versprochen, <delay8 /><tag a="50" b="17" arg="0x12 0xcd00 0xc 0x6d 0x65 0x69 0x6e 0x65 0x6e 0xa 0x6d 0x65 0x69 0x6e 0x65 0x8 0x6d 0x65 0x69 0x6e" /> <tag a="50" b="23" arg="0xcd01" /><tag a="125" b="0" arg="0x0" />.</message>
 	<message label="006_03" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Du liebe Zeit! <delay20 />Ich habe gewonnen!<delay20 />
 Leider bedeutet das: <delay8 /><anim id="Negative" target="actor" targetSpec="" />Kein Geschenk
 für dich, <delay8 /><tag a="110" b="5" />.</message>
@@ -36,16 +36,17 @@ heute hold.</message>
 dein Interesse wecken würde!<delay20 /> <anim id="EmotEnd" target="actor" targetSpec="" />Lass
 uns unverzüglich beginnen!
 <anim id="Eh" target="actor" targetSpec="" />Doch halt!<delay20 /> Deine Taschen bersten vor
-Inhalt!<delay20 /> <anim id="Negative" target="actor" targetSpec="" />So kann ich dir keinesfalls ein
-Geschenk überreichen.
+Inhalt!<delay20 /> <anim id="Negative" target="actor" targetSpec="" />So könnte ich dir gegebenen-
+falls kein Geschenk überreichen.
 <anim id="Greeting" target="actor" targetSpec="" />Bring Ordnung in dein Leben,<delay frames="13" /> dann
-können wir<delay20 /><anim id="FaintSmile" target="actor" targetSpec="" /> endlich unser Spiel spielen, <delay8 /><tag a="110" b="5" />.</message>
+können wir<delay20 /><anim id="FaintSmile" target="actor" targetSpec="" /> endlich unser Spiel
+spielen, <delay8 /><tag a="110" b="5" />.</message>
 	<message label="100" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Nun gut, <delay8 />die Regeln sind recht
 simpel und schnell erklärt.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Wie du siehst, <delay8 />hat jede Karte ein
 anderes Symbol: <delay20 /><colour id="6" />♥ Herz<colour id="65535" />, <delay8 /><colour id="6" />♦ Karo<colour id="65535" />,<delay8 />
 <colour id="7" />♠ Pik<colour id="65535" /> <delay8 />und <colour id="7" />♣ Kreuz<colour id="65535" />.<pageBreak />Nun, <delay8 /><anim id="Nodding" target="actor" targetSpec="" />ich wähle also eine Karte.<delay20 />
 <anim id="Greeting" target="actor" targetSpec="" />Und dann ist es an dir zu raten,<delay8 />
-welches Symbol sie trägt.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Rätst du richtig, <delay8 /><anim id="Greeting" target="actor" targetSpec="" />gehört <tag a="50" b="17" arg="0x11 0xcd00 0x8 0x6d 0x65 0x69 0x6e 0xa 0x6d 0x65 0x69 0x6e 0x65 0x8 0x6d 0x65 0x69 0x6e" />
+welches Symbol sie trägt.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Rätst du richtig, <delay8 /><anim id="Greeting" target="actor" targetSpec="" />gehört <tag a="50" b="17" arg="0x12 0xcd00 0x8 0x6d 0x65 0x69 0x6e 0xa 0x6d 0x65 0x69 0x6e 0x65 0x8 0x6d 0x65 0x69 0x6e" />
 <tag a="125" b="0" arg="0x0" /> dir.<delay20 />
 <anim id="Smiling" target="actor" targetSpec="" />Simpel, <delay8 />findest du nicht?<pageBreak /><anim id="NpcShuffle" target="actor" targetSpec="" />Du scheinst mir bereit für ein
 vergnügliches Spiel, <delay8 />also lass
@@ -67,7 +68,7 @@ folgendermaßen...<pageBreak /><anim id="Explain" target="actor" targetSpec="" /
 anderes Symbol: <delay20 /><colour id="6" />♥ Herz<colour id="65535" />, <delay8 /><colour id="6" />♦ Karo<colour id="65535" />,<delay8 />
 <colour id="7" />♠ Pik<colour id="65535" /> <delay8 />oder <colour id="7" />♣ Kreuz<colour id="65535" />.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Ich werde eine dieser Karten
 auswählen. <delay20 />Dann <anim id="FaintSmile" target="actor" targetSpec="" />ist es an dir,<delay8 />
-das Symbol darauf zu erraten!<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Rätst du richtig, <delay8 /><anim id="BigSmile" target="actor" targetSpec="" />gehört <tag a="50" b="17" arg="0x11 0xcd00 0x8 0x6d 0x65 0x69 0x6e 0xa 0x6d 0x65 0x69 0x6e 0x65 0x8 0x6d 0x65 0x69 0x6e" />
+das Symbol darauf zu erraten!<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Rätst du richtig, <delay8 /><anim id="BigSmile" target="actor" targetSpec="" />gehört <tag a="50" b="17" arg="0x12 0xcd00 0x8 0x6d 0x65 0x69 0x6e 0xa 0x6d 0x65 0x69 0x6e 0x65 0x8 0x6d 0x65 0x69 0x6e" />
 <tag a="125" b="0" arg="0x0" /> dir!<delay20 />
 <anim id="Nodding" target="actor" targetSpec="" />Recht simpel, <delay8 />findest du nicht?
 <anim id="NpcShuffle" target="actor" targetSpec="" />Nun, <delay8 />dann lass uns beginnen...</message>

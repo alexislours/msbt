@@ -2,9 +2,15 @@
 	<message label="001" attrib="00 00 00 00 00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />Buongiorno!<delay frames="40" /> Nein,<delay8 /> du träumst nicht<tag a="110" b="0" /><10_4 /> <anim id="EmotEnd" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="110" b="10" /> steht vor dir!<pageBreak /><anim id="SmugFace" target="actor" targetSpec="" />Hättest nicht gedacht,<delay8 /> dass dein
 <colour id="1" />Campingplatz<colour id="65535" /> so prominent
 eingeweiht wird,<delay8 /> was?</message>
+	<message label="001_01" attrib="00 00 00 00 00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />Du bist doch <gender2 m="einer" f="eine" /> von den
+Einheimischen, <delay8 />oder?<10_4 /><anim id="Nodding" target="actor" targetSpec="" /> Ja, <delay8 />ich sehe
+so was auf den ersten Blick.
+<anim id="Blushing" target="actor" targetSpec="" />Und ich wage sogar vorherzusagen,
+<delay8 />dass du meinen Besuch hier sehr
+genießen wirst!</message>
 	<message label="002_01" attrib="00 00 01 00 00 00 00 00"><anim id="HappyFlower" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="110" b="8" /> ist total angesagt, <delay8 /><tag a="110" b="5" />!<pageBreak /><anim id="QuestionMark" target="actor" targetSpec="" />Was macht dieses besondere Etwas
 aus?<delay frames="40" /> Das Wetter?<delay20 /> Der Strand?<delay20 /> Die
-köstlichen regionalen <tag a="110" b="7" arg="0xcd01" />?<pageBreak /><anim id="Grin" target="actor" targetSpec="" />Oder ist es doch <tag a="50" b="17" arg="0x23 0xcd00 0x6 0x64 0x65 0x72 0x6 0x64 0x69 0x65 0x6 0x64 0x61 0x73" /> traditionelle <tag a="135" b="8" arg="0xcd00" /> der Einheimischen?<pageBreak /><anim id="AbsentMindedness" target="actor" targetSpec="" />Was auch immer es ist,<delay8 /> ich finde es
+köstlichen regionalen <tag a="110" b="7" arg="0xcd01" />?<pageBreak /><anim id="Grin" target="actor" targetSpec="" />Oder ist es doch <tag a="50" b="17" arg="0x24 0xcd00 0x6 0x64 0x65 0x72 0x6 0x64 0x69 0x65 0x6 0x64 0x61 0x73" /> traditionelle <tag a="135" b="8" arg="0xcd00" /> der Einheimischen?<pageBreak /><anim id="AbsentMindedness" target="actor" targetSpec="" />Was auch immer es ist,<delay8 /> ich finde es
 einfach unwiderstehlich<tag a="110" b="0" /></message>
 	<message label="002_01_a" attrib="00 00 00 00 00 00 00 00">Zieh doch her!</message>
 	<message label="002_01_b" attrib="00 00 00 00 00 00 00 00">Zieh doch ganz her!</message>
@@ -21,7 +27,7 @@ der Luft.<delay20 /> Ganz so,<delay8 /> als würde mein
 Musikvideo endlich gedreht.</message>
 	<message label="002_03_a" attrib="00 00 00 00 00 00 00 00">Genau, zieh her!</message>
 	<message label="002_03_b" attrib="00 00 00 00 00 00 00 00">Zieh doch ganz her!</message>
-	<message label="003" attrib="00 00 01 00 00 00 00 00"><anim id="Blushing" target="actor" targetSpec="" />Wow.<delay20 /> Was für eine Ehre für m--<delay8 />, äh,<delay8 />
+	<message label="003" attrib="00 00 01 00 00 00 00 00"><anim id="Blushing" target="actor" targetSpec="" />Wow.<delay20 /> Was für eine Ehre für m--,<delay20 /> äh,<delay20 />
 für dich! <delay frames="40" /><anim id="Thinking" target="actor" targetSpec="" />Und ich sollte zuschlagen,<delay8 />
 bevor die Massen kommen<tag a="110" b="0" />
 <anim id="Hesitate" target="actor" targetSpec="" />Allerdings<tag a="110" b="0" /><delay frames="40" /> Wird diese verschlafene
@@ -32,7 +38,7 @@ Manager oder so checken?<delay frames="40" /><anim id="OhGeez" target="actor" ta
 euch ja nicht überfordern.</message>
 	<message label="003_a" attrib="00 00 00 00 00 00 00 00">So gut wie erledigt!</message>
 	<message label="003_b" attrib="00 00 00 00 00 00 00 00">Von mir aus...</message>
-	<message label="003_01" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Sodann... Bonjour! <10_4 /><anim id="Serious" target="actor" targetSpec="" />Fühle dich
+	<message label="003_01" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Sodann<tag a="110" b="0" /> Bonjour! <10_4 /><anim id="Serious" target="actor" targetSpec="" />Fühle dich
 geehrt!<delay20 /> Mein glanzvolles Schicksal
 liegt in deinen Händen.<delay frames="40" /> <anim id="Laughing" target="actor" targetSpec="" />Ha-HA!</message>
 	<message label="004" attrib="00 00 00 00 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Warst du bereits beim Produzenten
@@ -47,11 +53,11 @@ aus.</message>
 	<message label="004_01" attrib="00 00 00 00 00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />He, du!<10_4 /> <anim id="Hesitate" target="actor" targetSpec="" />Dann lass mal hören<tag a="110" b="0" /><delay20 />
 <anim id="Frantic" target="actor" targetSpec="" />Hab ich die Rolle als „neuester
 Inselbewohner“ bekommen?!
-<anim id="WrySmile" target="actor" targetSpec="" />Ach, dein Blick sagt mir alles. Du
+<anim id="WrySmile" target="actor" targetSpec="" />Ach, <delay8 />dein Blick sagt mir alles. <delay20 />Du
 hast bei den ganz hohen Tieren ein
-gutes Wort für mich eingelegt, was?
+gutes Wort für mich eingelegt, <delay8 />was?
 <anim id="Grin" target="actor" targetSpec="" />Dann werd ich mal meine überraschte
-Reaktion einstudieren – für später,
+Reaktion einstudieren –<delay20 /> für später,<delay8 />
 wenn das offizielle Okay kommt!<delay20 /><anim id="Surprised" target="actor" targetSpec="" /><delay20 /></message>
 	<message label="004_02" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Dann genieße ich mal die Ruhe,
 <delay20 /><anim id="Grin" target="actor" targetSpec="" />während du dich um die lästigen
@@ -86,7 +92,7 @@ Welcher Strand ist der schönste
 Hintergrund für Selfies?<delay20 /> Ich weiß es!
 <anim id="AbsentMindedness" target="actor" targetSpec="" />Ich sollte mich „⁠<tag a="110" b="10" /> von <capitaliseNextWord /><tag a="110" b="8" />⁠“ nennen,<delay8 /> das wäre nur angemessen.</message>
 	<message label="007_02" attrib="00 00 00 00 00 00 00 00"><anim id="SmugFace" target="actor" targetSpec="" />Der Aufenthalt hier hat aus mir <tag a="50" b="17" arg="0x5 0xcd00 0xa 0x65 0x69 0x6e 0x65 0x6e 0x8 0x65 0x69 0x6e 0x65 0x6 0x65 0x69 0x6e" /> ganz <tag a="50" b="17" arg="0x5 0xcd00 0xe 0x61 0x6e 0x64 0x65 0x72 0x65 0x6e 0xc 0x61 0x6e 0x64 0x65 0x72 0x65 0xe 0x61 0x6e 0x64 0x65 0x72 0x65 0x73" /> <tag a="50" b="23" arg="0xcd01" /><tag a="110" b="15" /> gemacht, <delay8 /><tag a="110" b="5" />!<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Wettergegerbt und bodenständig,<delay8 />
-das ist der neue <tag a="110" b="10" />!<pageBreak /><anim id="Grin" target="actor" targetSpec="" />Ich hab sogar überlegt,<delay8 /> mich <tag a="50" b="17" arg="0x21 0xcd00 0x4 0x69 0x6d 0xc 0x69 0x6e 0x20 0x64 0x65 0x72 0x4 0x69 0x6d" /> <tag a="135" b="6" arg="0xcd00" /> zu versuchen.<delay20 /> Unglaublich, aber wahr!</message>
+das ist der neue <tag a="110" b="10" />!<pageBreak /><anim id="Grin" target="actor" targetSpec="" />Ich hab sogar überlegt,<delay8 /> mich <tag a="50" b="17" arg="0x22 0xcd00 0x4 0x69 0x6d 0xc 0x69 0x6e 0x20 0x64 0x65 0x72 0x4 0x69 0x6d" /> <tag a="135" b="6" arg="0xcd00" /> zu versuchen.<delay20 /> Unglaublich, aber wahr!</message>
 	<message label="007_03" attrib="00 00 00 00 00 00 00 00"><anim id="AbsentMindedness" target="actor" targetSpec="" />Tief im Herzen bin ich doch <tag a="50" b="17" arg="0x5 0xcd00 0x6 0x65 0x69 0x6e 0x8 0x65 0x69 0x6e 0x65 0x6 0x65 0x69 0x6e" />
 <tag a="50" b="17" arg="0x5 0xcd00 0x12 0x65 0x69 0x6e 0x66 0x61 0x63 0x68 0x65 0x72 0x10 0x65 0x69 0x6e 0x66 0x61 0x63 0x68 0x65 0x12 0x65 0x69 0x6e 0x66 0x61 0x63 0x68 0x65 0x73" /> <tag a="110" b="15" /> geblieben<tag a="110" b="0" /><pageBreak /><anim id="Love" target="actor" targetSpec="" />Ich lebe für die schlichten Freuden –<delay20 />
 Reichtum, <delay8 />Berühmtheit und coole
@@ -104,4 +110,9 @@ Extraklasse, <delay8 /><tag a="110" b="5" />!</message>
 	<message label="008_03" attrib="00 00 00 00 00 00 00 00"><anim id="SmugFace" target="actor" targetSpec="" />Hey, <delay8 />sag's bitte weiter –<delay20 /> ich werde mich fest auf <tag a="110" b="8" /> niederlassen, <delay8 /><tag a="110" b="5" />!<pageBreak /><anim id="Laughing" target="actor" targetSpec="" />Die Pressemitteilung und das hippe
 Video lasse ich einfach weg.<delay20 /> Ganz
 bescheiden und bodenständig!</message>
+	<message label="101" attrib="00 00 00 00 00 00 00 00"><anim id="OhGeez" target="actor" targetSpec="" />Hier auf <tag a="110" b="8" /> herrscht ja ein reger Durchgangsverkehr<tag a="110" b="0" /><pageBreak /><anim id="Serious" target="actor" targetSpec="" />Stört mich natürlich nicht. <delay frames="30" /><anim id="Nodding" target="actor" targetSpec="" />Ich zücke
+immer gern meine Visitenkarte. <delay20 />Hab
+extra eine mit Prägedruck gewählt.<pageBreak /><anim id="Hesitate" target="actor" targetSpec="" />Aber sobald dein Besuch sich
+verzogen hat, <delay8 /><anim id="Grin" target="actor" targetSpec="" />würde ich gern noch
+mal unter vier Augen mit dir reden<tag a="110" b="0" /></message>
 </msbt>

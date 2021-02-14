@@ -1,5 +1,5 @@
 <msbt attribsize="8">
-	<message label="001" attrib="00 00 00 00 00 00 00 00">Coucou, <delay20 /><20_3 arg="0" /><tag a="110" b="3" />!<delay frames="40" /><anim id="Smiling" target="actor" targetSpec="" /> Tu tombes bien, <tag a="110" b="31" arg="0xcd01" /> va m'apprendre le<delay20 /> « regard qui tue »!<anim id="EmotEnd" target="actor" targetSpec="" /></message>
+	<message label="001" attrib="00 00 00 00 00 00 00 00">Coucou, <delay20 /><20_3 arg="0" /><tag a="110" b="3" />!<delay frames="40" /><anim id="Smiling" target="actor" targetSpec="" /> Tu tombes bien, <tag a="110" b="31" arg="0xcd01" /> va m'apprendre le « ⁠regard qui tue ⁠»!<anim id="EmotEnd" target="actor" targetSpec="" /></message>
 	<message label="002" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Hé, salut!<delay20 /><anim id="BigSmile" target="actor" targetSpec="" /> Toi aussi, tu veux
 apprendre ma spécialité,
 le « regard qui tue »?<delay8 /><anim id="FaintSmile" target="actor" targetSpec="" />
@@ -11,20 +11,14 @@ le « regard qui tue »?<delay8 /><anim id="FaintSmile" target="actor" targetSpe
 tu me fais trop peur!!!<anim id="EmotEnd" target="actor" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" /></message>
 	<message label="004" attrib="00 00 00 00 00 00 00 00"><anim id="Confused" target="actor" targetSpec="" />Hein? Quoi?<delay20 />
 Qu'est-ce qui te donne la trouille?<pageBreak /><20_2 arg="8" /><anim id="Worried" target="actor" targetSpec="" /><delay frames="40" />Qu'est-ce que j'ai encore trafiqué,
-<tag a="110" b="3" />?<delay20 /> Regarde-le, on
-dirait que j'lui ai fait la morale!
-<20_2 arg="1" /><delay frames="40" /><anim id="Outraged" target="actor" targetSpec="" /><delay20 />Relève la tête, <tag a="110" b="31" arg="0xcd00" />,
-arrête d'chialer et ouvre tes oreilles!<delay20 />
-C'est important, c'que j'te dis!<anim id="TakenAback" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="actor" targetSpec="" /></message>
+<tag a="110" b="3" />?<delay20 /> Regarde-le, on dirait que j'lui ai fait la morale!<pageBreak /><20_2 arg="1" /><delay frames="40" /><anim id="Outraged" target="actor" targetSpec="" /><delay20 />Relève la tête, <tag a="110" b="31" arg="0xcd00" />, arrête d'chialer et ouvre tes oreilles!<delay20 /> C'est important, c'que j'te dis!<anim id="TakenAback" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="actor" targetSpec="" /></message>
 	<message label="005" attrib="00 00 00 00 00 00 00 00">Nom d'une pipe en bois! <anim id="Crying" target="actor" targetSpec="" />Quand
 tu cries, J'AI ENCORE PLUS LES
 GENOUX QUI COGNENT!!!<delay20 /><anim id="Confused" target="subNpc" targetSpec="" /><anim id="EmotEnd" target="actor" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" /></message>
 	<message label="006" attrib="00 00 00 00 00 00 00 00"><anim id="Sighing" target="actor" targetSpec="" />Bon, avant le r'gard qui tue, va
 falloir apprendre à avoir un peu
 d'cran.<delay20 /> On est pas sortis d'l'auberge.</message>
-	<message label="101" attrib="00 00 00 00 00 00 00 00"><20_3 arg="1" /><anim id="Smiling" target="actor" targetSpec="" />Tu savais <gender4 m="que " f="qu'" />⁠<tag a="110" b="31" arg="0xcd01" />
-en connaît un rayon sur <delay frames="40" /><anim id="Grin" target="actor" targetSpec="" />les fleurs?! 
-C'est pourtant pas son genre!<20_2 arg="7" /><anim id="Angry" target="subNpc" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" /></message>
+	<message label="101" attrib="00 00 00 00 00 00 00 00"><20_3 arg="1" /><anim id="Smiling" target="actor" targetSpec="" />Tu savais <gender4 m="que " f="qu'" />⁠<tag a="110" b="31" arg="0xcd01" /> en connaît un rayon sur <delay frames="40" /><anim id="Grin" target="actor" targetSpec="" />les fleurs?! C'est pourtant pas son genre!<20_2 arg="7" /><anim id="Angry" target="subNpc" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" /></message>
 	<message label="102" attrib="00 00 10 00 00 00 00 00">Eh!<delay20 /> Et pourquoi ça s'rait pas mon
 genre?<delay20 /> J'ai pas l'droit d'aimer les
 fleurettes, p'têt?<delay20 /> J'vous jure<tag a="110" b="0" />
@@ -85,11 +79,12 @@ peu comme toi, <tag a="110" b="31" arg="0xcd00" />!<anim id="Shocked" target="ma
 	<message label="111" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />En fonction d'la couleur, la rose
 porte un message différent.<delay20 /> Faut
 faire attention si t'en offres une!
-<20_2 arg="7" /><anim id="FaintSmile" target="actor" targetSpec="" />Pour une amie, prends-en une
-jaune, elles symbolisent l'amitié<tag a="110" b="0" /><pageBreak /><anim id="Explain" target="actor" targetSpec="" />Par contre, pour un copain, tape
+<20_2 arg="7" /><anim id="FaintSmile" target="actor" targetSpec="" />Pour une amie, prends-en une jaune,
+elles symbolisent l'amitié<tag a="110" b="0" /><pageBreak /><anim id="Explain" target="actor" targetSpec="" />Par contre, pour un copain, tape
 dans les roses orange, ça veut
 dire qu'tu lui fais confiance<tag a="110" b="0" />
-<anim id="Scheming" target="actor" targetSpec="" />Et pour l'amour de ta vie<tag a="110" b="0" /> <anim id="Laughing" target="actor" targetSpec="" />Débrouille-toi!</message>
+<20_2 arg="8" /><anim id="Scheming" target="actor" targetSpec="" />Et pour l'amour de ta vie<tag a="110" b="0" />
+<anim id="Laughing" target="actor" targetSpec="" />Débrouille-toi!</message>
 	<message label="112" attrib="00 00 00 00 00 00 00 00"><anim id="Clapping" target="actor" targetSpec="" />Oooh, comme j'aimerais recevoir<delay20 />
 une rose orange, un jour!
 Si seulement!<pageBreak /><anim id="FaintSmile" target="subNpc" targetSpec="" />Le problème, <anim id="Oops" target="actor" targetSpec="" />c'est que je ne suis
@@ -100,9 +95,9 @@ même un bouquet!
 <20_2 arg="8" /><anim id="Smiling" target="actor" targetSpec="" />Alors la prochaine fois qu't'en offres
 à quelqu'un, profites-en pour étaler
 ta science sur l'sujet!</message>
-	<message label="201" attrib="00 00 00 00 00 00 00 00"><anim id="HappyDance" target="actor" targetSpec="" />La la li la lère! J'ai décidé d'être
-l'apprenti<delay20 /> <gender4 m="de " f="d'" />⁠<tag a="110" b="31" arg="0xcd01" /> pour
-devenir un vrai dur, <tag a="110" b="6" />!<anim id="EmotEnd" target="subNpc" targetSpec="" /></message>
+	<message label="201" attrib="00 00 00 00 00 00 00 00"><anim id="HappyDance" target="actor" targetSpec="" />La la li la lère!<delay20 /> J'ai décidé d'être ton
+apprenti! <delay20 />Moi aussi, je veux être un
+vrai dur, <tag a="110" b="6" />!<anim id="EmotEnd" target="mainNpc" targetSpec="" /></message>
 	<message label="202" attrib="00 00 00 00 00 00 00 00"><anim id="OhGeez" target="actor" targetSpec="" />J't'ai déjà dit que j'prenais pas
 d'apprentis<tag a="110" b="0" /><anim id="Shocked" target="actor" targetSpec="" /> Eh, attends voir!<delay20 /> T'as
 dit « <tag a="110" b="5" /> », à l'instant?</message>
@@ -117,6 +112,5 @@ Je peux te la prêter, tu sais!<pageBreak /><anim id="EmotEnd" target="actor" ta
 son maître,<delay20 /> <anim id="Grin" target="actor" targetSpec="" />alors ça me ferait plaisir<delay20 />
 que tu l'utilises, <tag a="110" b="6" />!</message>
 	<message label="206" attrib="00 00 00 00 00 00 00 00"><anim id="Confused" target="actor" targetSpec="" />Bon, OK<tag a="110" b="0" /> <anim id="EmotEnd" target="actor" targetSpec="" />j'veux bien t'piquer ton
-expression, <tag a="110" b="6" />. <delay20 /><anim id="Angry" target="actor" targetSpec="" />Mais
-t'es pas mon apprenti, compris?</message>
+expression, <tag a="110" b="6" />. <delay20 /><anim id="Angry" target="actor" targetSpec="" />Mais t'es pas mon apprenti, compris?</message>
 </msbt>

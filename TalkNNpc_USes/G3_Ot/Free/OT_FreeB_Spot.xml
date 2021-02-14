@@ -69,11 +69,11 @@ cómo andas, <tag a="110" b="6" />?</message>
 ¿Es el baño?<delay8 /> ¿La cocina?<delay8 />
 ¿El cuarto de huéspedes?
 <anim id="IdeaBulb" target="actor" targetSpec="" />No me digas:<delay20 /> ¡es <anim id="Laughing" target="actor" targetSpec="" />el lavadero!</message>
-	<message label="008" attrib="00 00 00 00 00 00 00 00"><20_2 arg="10" /><20_2 arg="9" /><anim id="TakenAback" target="actor" targetSpec="" />Querid<gender2 m="o" f="a" />, tu casa ya tiene tres
+	<message label="008" attrib="00 00 00 00 00 00 00 00"><20_2 arg="10" /><20_2 arg="9" /><anim id="TakenAback" target="actor" targetSpec="" />Querid<gender2 m="o" f="a" />, tu casa tiene tres
 habitaciones independientes.<delay20 />
-<anim id="BigSmile" target="actor" targetSpec="" />¡Qué divinura!<pageBreak /><anim id="Thinking" target="actor" targetSpec="" />La expansión le dio un toque
-asimétrico maravilloso<tag a="110" b="0" /><20_3 arg="6" /><20_3 arg="3" /><delay8 />
-<anim id="Nodding" target="actor" targetSpec="" />¡Tienes un gusto exquisito!</message>
+<anim id="BigSmile" target="actor" targetSpec="" />¡Qué divinura!<pageBreak /><anim id="Thinking" target="actor" targetSpec="" />La distribución del espacio le da un
+toque asimétrico maravilloso<tag a="110" b="0" />
+<20_3 arg="6" /><20_3 arg="3" /><delay8 /><anim id="Nodding" target="actor" targetSpec="" />¡Tienes un gusto exquisito!</message>
 	<message label="009" attrib="00 00 00 00 00 00 00 00"><20_2 arg="10" /><20_2 arg="9" /><anim id="Shocked" target="actor" targetSpec="" />Qué casa enorme <20_2 arg="9" />te estás haciendo
 poco a poco, ¿eh?<delay20 /> <anim id="Grin" target="actor" targetSpec="" />Tienes más
 cuartos que <colour id="3" />Tom Nook<colour id="65535" /><tag a="110" b="0" /><20_3 arg="6" /><20_3 arg="3" /><pageBreak /><anim id="IdeaBulb" target="actor" targetSpec="" />¿Por qué no me alquilas uno?<pageBreak /><anim id="Laughing" target="actor" targetSpec="" />Jo, jo, jo,<delay8 /> no te preocupes,<delay8 /> estaba
@@ -86,10 +86,10 @@ no venga,<delay8 /> querid<gender2 m="o" f="a" />:<delay20 /> tendrás unos musl
 	<message label="011" attrib="00 00 00 00 00 00 00 00"><20_2 arg="10" /><20_2 arg="9" /><anim id="Thinking" target="actor" targetSpec="" />Desde que añadiste el sótano,<delay8 />
 no paro de preguntarme<tag a="110" b="0" />
 <anim id="QuestionMark" target="actor" targetSpec="" />¿qué guardas ahí abajo?
-<anim id="OhGeez" target="actor" targetSpec="" /><20_3 arg="6" /><20_3 arg="3" />No me <20_3 arg="3" />contestes si no quieres,<delay8 /> pero
+<anim id="OhGeez" target="actor" targetSpec="" /><20_3 arg="6" /><20_3 arg="3" />No me contestes si no quieres,<delay8 /> pero
 recuerda que tengo la imaginación
-muy vívida<tag a="110" b="0" /><delay8 /> <anim id="Laughing" target="actor" targetSpec="" />y la boca muy grande.</message>
-	<message label="012" attrib="00 00 00 00 00 00 00 00"><20_2 arg="10" /><20_2 arg="10" /><20_2 arg="9" /><anim id="Serious" target="actor" targetSpec="" />Caramba, me pregunto por qué
+muy vívida<tag a="110" b="0" /><delay8 /><anim id="EmotEnd" target="actor" targetSpec="" /> <anim id="Laughing" target="actor" targetSpec="" />y la boca muy grande.</message>
+	<message label="012" attrib="00 00 00 00 00 00 00 00"><20_2 arg="10" /><20_2 arg="9" /><anim id="Serious" target="actor" targetSpec="" />Caramba, me pregunto por qué
 <tag a="115" b="0" arg="0xcd00" /> elige seguir
 viviendo en una tienda de campaña.<pageBreak /><20_3 arg="6" /><20_3 arg="3" /><anim id="OhGeez" target="actor" targetSpec="" />Comprendo que <tag a="115" b="0" arg="0xcd00" />
 tiene una sed de aventura que yo
@@ -97,26 +97,25 @@ no tengo.
 <anim id="SmugFace" target="actor" targetSpec="" />Claro está,<delay8 /> yo prefiero algo cómodo
 y con más elegancia<tag a="110" b="0" /><delay frames="13" /><anim id="EmotEnd" target="actor" targetSpec="" /> Pues, <delay8 /><anim id="FaintSmile" target="actor" targetSpec="" />cada
 uno con su gusto, <tag a="110" b="6" />.</message>
-	<message label="013" attrib="00 00 00 00 00 00 00 00"><20_2 arg="10" /><20_2 arg="9" /><anim id="Shocked" target="actor" targetSpec="" />La casa de <tag a="115" b="0" arg="0xcd00" /> es un poco pequeña,<delay8 /> ¿no?<delay20 /> <anim id="Serious" target="actor" targetSpec="" />Digo,<delay8 /> más pequeñas que eso no las hacen<tag a="110" b="0" /><20_3 arg="6" /><20_3 arg="3" /><pageBreak /><anim id="TakenAback" target="actor" targetSpec="" /><20_3 arg="3" />No lo digo <20_3 arg="3" />con ánimo de criticar.<delay20 />
+	<message label="013" attrib="00 00 00 00 00 00 00 00"><20_2 arg="10" /><20_2 arg="9" /><anim id="Shocked" target="actor" targetSpec="" />La casa de <tag a="115" b="0" arg="0xcd00" /> es un poco pequeña,<delay8 /> ¿no?<delay20 /> <anim id="Serious" target="actor" targetSpec="" />Digo,<delay8 /> más pequeñas que eso no las hacen<tag a="110" b="0" /><pageBreak /><20_3 arg="6" /><20_3 arg="3" /><anim id="Negative" target="actor" targetSpec="" />No lo digo con ánimo de criticar.<delay20 />
 <anim id="FaintSmile" target="actor" targetSpec="" />Ya sabes lo que dicen:<delay20 /> la casa es
 chica pero el corazón es grande.</message>
-	<message label="014" attrib="00 00 00 00 00 00 00 00"><20_2 arg="10" /><20_2 arg="9" /><anim id="Restless" target="actor" targetSpec="" />Veo que la casa de <tag a="115" b="0" arg="0xcd00" /> tiene una sala adicional.<delay20 /> <anim id="Aha" target="actor" targetSpec="" />¡Qué envidia!<pageBreak /><anim id="AbsentMindedness" target="actor" targetSpec="" />Si yo tuviera una habitación más,<20_3 arg="3" /><delay8 />
-<20_3 arg="6" /><20_3 arg="3" />podría darle uso por fin a todos
+	<message label="014" attrib="00 00 00 00 00 00 00 00"><20_2 arg="10" /><20_2 arg="9" /><anim id="Restless" target="actor" targetSpec="" />Veo que la casa de <tag a="115" b="0" arg="0xcd00" /> tiene una habitación adicional.<delay20 /> <anim id="Aha" target="actor" targetSpec="" />¡Qué envidia!<pageBreak /><anim id="AbsentMindedness" target="actor" targetSpec="" />Si yo tuviera una habitación más,<20_3 arg="6" /><20_3 arg="3" />podría darle uso por fin a todos
 los muebles que no sé dónde poner.
 <anim id="Oops" target="actor" targetSpec="" />Qué digo<tag a="110" b="0" /><delay20 /> <anim id="WrySmile" target="actor" targetSpec="" />necesitaría DOS
 habitaciones más, <tag a="110" b="6" />.</message>
 	<message label="015" attrib="00 00 00 00 00 00 00 00"><20_2 arg="10" /><20_2 arg="9" /><anim id="Shocked" target="actor" targetSpec="" />Vaya, vaya,<delay8 /> la casa de <tag a="115" b="0" arg="0xcd00" /> va viento en
-popa<tag a="110" b="0" /><delay20 /> <anim id="BigSmile" target="actor" targetSpec="" />¡Ya tiene dos cuartos!<pageBreak /><20_3 arg="6" /><20_3 arg="3" /><anim id="QuestionMark" target="actor" targetSpec="" />¿Sabes <20_3 arg="3" />cómo la tiene decorada?<delay20 />
-<anim id="Thinking" target="actor" targetSpec="" />Sería interesante ver<tag a="110" b="0" /><pageBreak /><anim id="Grin" target="actor" targetSpec="" />Tendré que inventarme una excusa
+popa<tag a="110" b="0" /><delay20 /> <anim id="BigSmile" target="actor" targetSpec="" />¡Ya tiene dos habitaciones!<pageBreak /><20_3 arg="6" /><20_3 arg="3" /><anim id="QuestionMark" target="actor" targetSpec="" />¿Sabes cómo la tiene decorada?<delay20 />
+<anim id="Thinking" target="actor" targetSpec="" />Sería interesante ver<tag a="110" b="0" /><delay40 /><pageBreak /><anim id="Grin" target="actor" targetSpec="" />Tendré que inventarme una excusa
 para hacerle una visita de cortesía,
 <tag a="110" b="6" />.</message>
-	<message label="016" attrib="00 00 00 00 00 00 00 00"><20_2 arg="10" /><20_2 arg="9" /><anim id="TakenAback" target="actor" targetSpec="" />¡Caramba,<delay8 /> la casa de <tag a="115" b="0" arg="0xcd00" /> no para de crecer!<pageBreak /><anim id="Confused" target="actor" targetSpec="" />¿Cuántas habitaciones quiere tener?<delay20 />
-<20_3 arg="6" /><20_3 arg="3" />Si sigue así,<20_3 arg="3" /><delay8 /> <anim id="Grin" target="actor" targetSpec="" />se acabará perdiendo
-adentro, <tag a="110" b="6" /><tag a="110" b="0" /></message>
-	<message label="017" attrib="00 00 00 00 00 00 00 00"><20_2 arg="10" /><20_2 arg="9" /><anim id="Shocked" target="actor" targetSpec="" />¿La casa de <tag a="115" b="0" arg="0xcd00" /> era tan grande?<delay20 /> <anim id="OhGeez" target="actor" targetSpec="" />Tengo la sensación de que crece cada vez que la veo<tag a="110" b="0" /><pageBreak /><20_3 arg="6" /><20_3 arg="3" /><anim id="Thinking" target="actor" targetSpec="" />¿Qué hará con tanto espacio?<delay20 />
+	<message label="016" attrib="00 00 00 00 00 00 00 00"><20_2 arg="10" /><20_2 arg="9" /><anim id="TakenAback" target="actor" targetSpec="" />¡Caramba,<delay8 /> la casa de <tag a="115" b="0" arg="0xcd00" /> es gigantesca!<pageBreak /><anim id="Confused" target="actor" targetSpec="" />¿Cuántas habitaciones necesita?<delay20 />
+<20_3 arg="6" /><20_3 arg="3" />Si la amplía mucho más,<delay8 /> <anim id="Grin" target="actor" targetSpec="" />se terminará
+perdiendo adentro, <tag a="110" b="6" /><tag a="110" b="0" /></message>
+	<message label="017" attrib="00 00 00 00 00 00 00 00"><20_2 arg="10" /><20_2 arg="9" /><anim id="Shocked" target="actor" targetSpec="" />Qué casa la de <tag a="115" b="0" arg="0xcd00" />.<delay20 /> Tiene cuatro habitaciones,<delay20 /> ¡CUATRO!<delay20 /><anim id="EmotEnd" target="actor" targetSpec="" /> <20_3 arg="6" /><20_3 arg="3" /><anim id="Thinking" target="actor" targetSpec="" />¿Qué hará con tanto espacio?<delay20 />
 ¿Organizar fiestas, quizás?<delay20 />
 <anim id="Angry" target="actor" targetSpec="" />Espero que me invite, <tag a="110" b="6" />.</message>
-	<message label="018" attrib="00 00 00 00 00 00 00 00"><anim id="TakenAback" target="actor" targetSpec="" /><20_2 arg="10" /><20_2 arg="9" />No sabía que <tag a="115" b="0" arg="0xcd00" /> fuese tan trabajado<tag a="50" b="17" arg="0xd 0xcd00 0x2 0x72 0x4 0x72 0x61 0x0" /><tag a="110" b="0" /><delay8 /> ¡Se está haciendo una casa de dos plantas!<pageBreak /><20_3 arg="6" /><20_3 arg="3" /><anim id="Thinking" target="actor" targetSpec="" />La verdad es que tiene que ser
+	<message label="018" attrib="00 00 00 00 00 00 00 00"><anim id="TakenAback" target="actor" targetSpec="" /><20_2 arg="10" /><20_2 arg="9" />No sabía que <tag a="115" b="0" arg="0xcd00" /> fuese tan trabajado<tag a="50" b="17" arg="0xe 0xcd00 0x2 0x72 0x4 0x72 0x61 0x0" /><tag a="110" b="0" /><delay8 /> ¡Se está haciendo una casa de dos plantas!<pageBreak /><20_3 arg="6" /><20_3 arg="3" /><anim id="Thinking" target="actor" targetSpec="" />La verdad es que tiene que ser
 maravilloso poder disponer de
 espacio para todo.
 <anim id="OhGeez" target="actor" targetSpec="" />Pero andar con la aspiradora

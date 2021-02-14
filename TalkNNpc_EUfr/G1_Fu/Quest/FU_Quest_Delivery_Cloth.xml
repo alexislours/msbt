@@ -9,7 +9,7 @@ essayer tout de suite ?</message>
 mais<tag a="110" b="0" /><anim id="QuestionMark" target="actor" targetSpec="" /> Tu crois que ça m'irait bien ?</message>
 	<message label="002_a" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Tu n'as qu'à essayer !</message>
 	<message label="002_b" attrib="00 00 00 00 00 00 00 00">Je sais pas trop...</message>
-	<message label="003" attrib="00 00 00 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="50" b="2" /><tag a="125" b="0" arg="0x0" /> !<delay frames="40" /> <anim id="FaintSmile" target="actor" targetSpec="" />Identique à <tag a="50" b="17" arg="0x11 0xcd00 0xa 0x63 0x65 0x6c 0x75 0x69 0xa 0x63 0x65 0x6c 0x6c 0x65 0x0" /> que je porte aujourd'hui<tag a="110" b="0" /><pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Je pourrais <tag a="50" b="17" arg="0x11 0xcd00 0x4 0x6c 0x65 0x4 0x6c 0x61 0x0" /> porter<delay8 /> <anim id="Smiling" target="actor" targetSpec="" />quand <tag a="50" b="17" arg="0x11 0xcd00 0x10 0x63 0x65 0x6c 0x75 0x69 0x2d 0x63 0x69 0x10 0x63 0x65 0x6c 0x6c 0x65 0x2d 0x63 0x69 0x0" />
+	<message label="003" attrib="00 00 00 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="50" b="2" /><tag a="125" b="0" arg="0x0" /> !<delay frames="40" /> <anim id="FaintSmile" target="actor" targetSpec="" />Identique à <tag a="50" b="17" arg="0x12 0xcd00 0xa 0x63 0x65 0x6c 0x75 0x69 0xa 0x63 0x65 0x6c 0x6c 0x65 0x0" /> que je porte aujourd'hui<tag a="110" b="0" /><pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Je pourrais <tag a="50" b="17" arg="0x12 0xcd00 0x4 0x6c 0x65 0x4 0x6c 0x61 0x0" /> porter<delay8 /> <anim id="Smiling" target="actor" targetSpec="" />quand <tag a="50" b="17" arg="0x12 0xcd00 0x10 0x63 0x65 0x6c 0x75 0x69 0x2d 0x63 0x69 0x10 0x63 0x65 0x6c 0x6c 0x65 0x2d 0x63 0x69 0x0" />
 sera à laver, <tag a="110" b="6" /> !</message>
 	<message label="004" attrib="00 00 00 00 00 00 00 00"><anim id="ShyBoy" target="actor" targetSpec="" />Très bien.<delay20 /> Tu pourrais regarder
 ailleurs pendant que je me change ?</message>
@@ -33,55 +33,33 @@ question d'habitude, sans doute.</message>
 <anim id="SadSpiral" target="actor" targetSpec="" />que tu m'as vue porter ça.</message>
 	<message label="105" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Peut-être que mon moi du futur
 portera ça mieux que moi.</message>
-	<message label="201" attrib="00 00 00 00 00 00 00 00"><anim id="HappyDance" target="actor" targetSpec="" /><tag a="115" b="1" arg="0xcd01" /> a un don pour
-deviner mes goûts !</message>
-	<message label="202" attrib="00 00 00 00 00 00 00 00"><anim id="Blushing" target="actor" targetSpec="" />Les vêtements que m'offre
-<tag a="115" b="1" arg="0xcd01" /> ont le chic pour
-<anim id="BigSmile" target="actor" targetSpec="" />me mettre de bonne humeur !</message>
-	<message label="203" attrib="00 00 00 00 00 00 00 00"><anim id="Blushing" target="actor" targetSpec="" />C'est fou comme <tag a="115" b="1" arg="0xcd01" />
-a le sens du style, pas vrai ?</message>
-	<message label="204" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Si <tag a="115" b="1" arg="0xcd01" /> a choisi de
-m'offrir ça,<delay8 /> c'est que c'est
-fait pour moi.</message>
+	<message label="201" attrib="00 00 00 00 00 00 00 00"><anim id="HappyDance" target="actor" targetSpec="" /><tag a="115" b="1" arg="0xcd01" /> a un don pour deviner mes goûts !</message>
+	<message label="202" attrib="00 00 00 00 00 00 00 00"><anim id="Blushing" target="actor" targetSpec="" />Les vêtements que m'offre <tag a="115" b="1" arg="0xcd01" /> ont le chic pour <anim id="BigSmile" target="actor" targetSpec="" />me mettre de bonne humeur !</message>
+	<message label="203" attrib="00 00 00 00 00 00 00 00"><anim id="Blushing" target="actor" targetSpec="" />C'est fou comme <tag a="115" b="1" arg="0xcd01" /> a le sens du style, pas vrai ?</message>
+	<message label="204" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Si <tag a="115" b="1" arg="0xcd01" /> a choisi de m'offrir ça,<delay8 /> c'est que c'est fait pour moi.</message>
 	<message label="205" attrib="00 00 00 00 00 00 00 00"><anim id="WrySmile" target="actor" targetSpec="" />Je n'aurais jamais imaginé recevoir
 quelque chose comme ça de la part
 <gender4 m="de " f="d'⁠" /><tag a="115" b="1" arg="0xcd01" />.</message>
 	<message label="206" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />On ne le croirait pas, comme ça,<delay8 />
-mais <tag a="115" b="1" arg="0xcd01" /><anim id="Nodding" target="actor" targetSpec="" /> fait vraiment
-attention aux détails.
-<anim id="Dance" target="actor" targetSpec="" />Après tout, ça me va parfaitement !</message>
-	<message label="207" attrib="00 00 00 00 00 00 00 00"><anim id="WrySmile" target="actor" targetSpec="" /><tag a="115" b="1" arg="0xcd01" /> devait être tout
-gêné quand il a acheté ça !</message>
+mais <tag a="115" b="1" arg="0xcd01" /><anim id="Nodding" target="actor" targetSpec="" /> fait vraiment attention aux détails.<pageBreak /><anim id="Dance" target="actor" targetSpec="" />Après tout, ça me va parfaitement !</message>
+	<message label="207" attrib="00 00 00 00 00 00 00 00"><anim id="WrySmile" target="actor" targetSpec="" /><tag a="115" b="1" arg="0xcd01" /> devait être tout gêné quand il a acheté ça !</message>
 	<message label="208" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />S'il y a quelqu'un qui connaît
 la mode sur le bout des pattes,
 <delay8 /><anim id="Nodding" target="actor" targetSpec="" />c'est bien <tag a="115" b="1" arg="0xcd01" />.</message>
-	<message label="209" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" /><tag a="115" b="1" arg="0xcd01" /> devait vraiment
-se sentir coupable,<delay8 /> pour prendre
-le temps de me choisir ça.
-<anim id="Sighing" target="actor" targetSpec="" />J'ai dit des choses que je regrette,
+	<message label="209" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" /><tag a="115" b="1" arg="0xcd01" /> devait vraiment se sentir coupable,<delay8 /> pour prendre le temps de me choisir ça.<pageBreak /><anim id="Sighing" target="actor" targetSpec="" />J'ai dit des choses que je regrette,
 moi aussi<tag a="110" b="0" /><anim id="FaintSmile" target="actor" targetSpec="" /> alors je vais vite aller
 m'excuser auprès d'elle.</message>
-	<message label="210" attrib="00 00 00 00 00 00 00 00"><anim id="Serious" target="actor" targetSpec="" /><tag a="115" b="1" arg="0xcd01" /> s'est donné du
-mal pour me choisir ça<tag a="110" b="0" /><delay8 /> Elle doit
-être sincèrement désolée.
-<anim id="Worried" target="actor" targetSpec="" />J'ai trop de peine pour elle.<delay8 />
+	<message label="210" attrib="00 00 00 00 00 00 00 00"><anim id="Serious" target="actor" targetSpec="" /><tag a="115" b="1" arg="0xcd01" /> s'est donné du mal pour me choisir ça<tag a="110" b="0" /><delay8 /> Elle doit être sincèrement désolée.<pageBreak /><anim id="Worried" target="actor" targetSpec="" />J'ai trop de peine pour elle.<delay8 />
 <anim id="Nodding" target="actor" targetSpec="" />Je vais rester comme ça et aller
 m'excuser aussi !</message>
-	<message label="211" attrib="00 00 00 00 00 00 00 00"><anim id="Serious" target="actor" targetSpec="" /><tag a="115" b="1" arg="0xcd01" /> doit se sentir
-très coupable,<delay8 /> pour avoir pris
-la peine de m'offrir ça.
-<anim id="Nodding" target="actor" targetSpec="" />Je vais aller la voir comme ça,<delay8 />
+	<message label="211" attrib="00 00 00 00 00 00 00 00"><anim id="Serious" target="actor" targetSpec="" /><tag a="115" b="1" arg="0xcd01" /> doit se sentir très coupable,<delay8 /> pour avoir pris la peine de m'offrir ça.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Je vais aller la voir comme ça,<delay8 />
 et je lui présenterai mes excuses
 aussi.</message>
-	<message label="212" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" /><tag a="115" b="1" arg="0xcd01" /> ne m'aurait pas
-envoyé ça si elle n'était pas
-sincèrement désolée.
-<anim id="Nodding" target="actor" targetSpec="" />Je vais aller lui parler sans me
+	<message label="212" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" /><tag a="115" b="1" arg="0xcd01" /> ne m'aurait pas envoyé ça si elle n'était pas sincèrement désolée.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Je vais aller lui parler sans me
 changer.<delay8 /><anim id="FaintSmile" target="actor" targetSpec="" /> J'espère que ça nous
 aidera à nous réconcilier.</message>
-	<message label="213" attrib="00 00 00 00 00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Pour prendre la peine de me
-choisir ça, <tag a="115" b="1" arg="0xcd01" /> doit
-vraiment se sentir mal.<pageBreak /><anim id="Hesitate" target="actor" targetSpec="" />C'est autant ma faute que la sienne,
+	<message label="213" attrib="00 00 00 00 00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Pour prendre la peine de me choisir
+ça, <tag a="115" b="1" arg="0xcd01" /> doit vraiment se sentir mal.<pageBreak /><anim id="Hesitate" target="actor" targetSpec="" />C'est autant ma faute que la sienne,
 en réalité.<delay20 /><anim id="FaintSmile" target="actor" targetSpec="" /> Je vais rester comme ça
 et aller m'excuser auprès de lui.</message>
 	<message label="214" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Je ne pensais pas qu'une simple
@@ -90,41 +68,25 @@ de souci à <tag a="115" b="1" arg="0xcd01" /><tag a="110" b="0" />
 <anim id="WrySmile" target="actor" targetSpec="" />Je vais aller m'excuser en portant
 son cadeau, <delay8 /><anim id="FaintSmile" target="actor" targetSpec="" />j'espère que ça suffira
 à le rassurer.</message>
-	<message label="215" attrib="00 00 00 00 00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Notre dispute a dû faire
-de la peine à <tag a="115" b="1" arg="0xcd01" />,
-<delay8 />pour qu'il m'offre ça.
-<anim id="Hesitate" target="actor" targetSpec="" />Je suis aussi responsable que lui,<delay8 />
+	<message label="215" attrib="00 00 00 00 00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Notre dispute a dû faire de la peine à
+<tag a="115" b="1" arg="0xcd01" />, <delay8 />pour qu'il m'offre ça.<pageBreak /><anim id="Hesitate" target="actor" targetSpec="" />Je suis aussi responsable que lui,<delay8 />
 alors ça me gêne<tag a="110" b="0" /><anim id="FaintSmile" target="actor" targetSpec="" /> Je vais aller le
 voir pour m'excuser à mon tour.</message>
-	<message label="216" attrib="00 00 00 00 00 00 00 00">Les excuses <gender4 m="de " f="d'⁠" /><tag a="115" b="1" arg="0xcd01" />
-<anim id="Nodding" target="actor" targetSpec="" />doivent être sincères,<delay8 /> pour
-qu'il m'ait envoyé ça<tag a="110" b="0" />
-<anim id="Restless" target="actor" targetSpec="" />Mais en fait, c'est un peu ma faute
+	<message label="216" attrib="00 00 00 00 00 00 00 00">Les excuses <gender4 m="de " f="d'⁠" /><tag a="115" b="1" arg="0xcd01" /> <anim id="Nodding" target="actor" targetSpec="" />doivent être sincères,<delay8 /> pour qu'il m'ait envoyé ça<tag a="110" b="0" /><pageBreak /><anim id="Restless" target="actor" targetSpec="" />Mais en fait, c'est un peu ma faute
 si on s'est disputés !<delay20 /><anim id="FaintSmile" target="actor" targetSpec="" /> Je vais rester
 comme ça et aller m'excuser.</message>
 	<message label="300" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />En tout cas, c'est vraiment gentil
-de la part <gender4 m="de " f="d'⁠" /><tag a="115" b="1" arg="0xcd01" />,
-<tag a="110" b="6" />.</message>
-	<message label="301" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Je suis touchée par le cadeau
-<gender4 m="de " f="d'⁠" /><tag a="115" b="1" arg="0xcd01" />,<delay8 /> je sais que
-ses excuses sont sincères.
-<anim id="Restless" target="actor" targetSpec="" />Je suis aussi coupable qu'elle,
+de la part <gender4 m="de " f="d'⁠" /><tag a="115" b="1" arg="0xcd01" />, <tag a="110" b="6" />.</message>
+	<message label="301" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Je suis touchée par le cadeau <gender4 m="de " f="d'⁠" /><tag a="115" b="1" arg="0xcd01" />,<delay8 /> je sais que ses excuses sont sincères.<pageBreak /><anim id="Restless" target="actor" targetSpec="" />Je suis aussi coupable qu'elle,
 en réalité, <delay8 /><anim id="FaintSmile" target="actor" targetSpec="" />alors je vais aller la voir
 pour me réconcilier avec elle !</message>
-	<message label="302" attrib="00 00 00 00 00 00 00 00"><anim id="Negative" target="actor" targetSpec="" /><tag a="115" b="1" arg="0xcd01" /> ne devrait pas
-penser qu'elle est la seule
-à devoir s'excuser<tag a="110" b="0" />
-<anim id="Nodding" target="actor" targetSpec="" />Moi aussi j'ai dit des choses que
+	<message label="302" attrib="00 00 00 00 00 00 00 00"><anim id="Negative" target="actor" targetSpec="" /><tag a="115" b="1" arg="0xcd01" /> ne devrait pas penser qu'elle est la seule à devoir s'excuser<tag a="110" b="0" /><pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Moi aussi j'ai dit des choses que
 je n'aurais pas dû dire.<delay20 /><anim id="Serious" target="actor" targetSpec="" /> C'est à mon
 tour d'aller m'excuser, maintenant.</message>
-	<message label="303" attrib="00 00 00 00 00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Je me sens coupable de ne
-pas être allée m'excuser avant
-<tag a="115" b="1" arg="0xcd01" /><tag a="110" b="0" />
-<anim id="EmotEnd" target="actor" targetSpec="" />Je vais vite y aller,<delay8 /><anim id="Nodding" target="actor" targetSpec="" /> j'ai hâte
-de mettre cette dispute derrière
-nous, <tag a="110" b="6" />.</message>
-	<message label="304" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Pour m'offrir ça, <tag a="115" b="1" arg="0xcd01" />
-doit vraiment être désolée.<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Je vais aller m'excuser à mon
+	<message label="303" attrib="00 00 00 00 00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Je me sens coupable de ne pas être
+allée m'excuser avant <tag a="115" b="1" arg="0xcd01" /><tag a="110" b="0" /><pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Je vais vite y aller,<delay8 /><anim id="Nodding" target="actor" targetSpec="" /> j'ai hâte de mettre
+cette dispute derrière nous, <tag a="110" b="6" />.</message>
+	<message label="304" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Pour m'offrir ça, <tag a="115" b="1" arg="0xcd01" /> doit vraiment être désolée.<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Je vais aller m'excuser à mon
 tour, <delay8 />j'ai hâte que nous soyons
 réconciliées.</message>
 	<message label="305" attrib="00 00 00 00 00 00 00 00"><anim id="Pardon" target="actor" targetSpec="" />Je n'aurais jamais imaginé<anim id="WrySmile" target="actor" targetSpec="" /> recevoir
@@ -147,13 +109,9 @@ genre à s'en faire pour une simple
 dispute !<pageBreak /><anim id="Worried" target="actor" targetSpec="" />Ça me chagrine qu'il se soit senti
 obligé de m'envoyer un cadeau
 pour s'excuser<tag a="110" b="0" />
-<anim id="Nodding" target="actor" targetSpec="" />Bon, j'irai voir <tag a="115" b="1" arg="0xcd01" />
-en personne,<delay8 /> <anim id="FaintSmile" target="actor" targetSpec="" />nous devrions
-pouvoir nous réconcilier !</message>
+<anim id="Nodding" target="actor" targetSpec="" />Bon, j'irai voir <tag a="115" b="1" arg="0xcd01" /> en personne,<delay8 /> <anim id="FaintSmile" target="actor" targetSpec="" />nous devrions pouvoir nous réconcilier !</message>
 	<message label="308" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />C'est vraiment gentil de sa part de
 s'excuser,<delay8 /><anim id="Worried" target="actor" targetSpec="" /> mais j'ai dit des choses
 que je regrette, moi aussi.
-<anim id="Nodding" target="actor" targetSpec="" />Bon,<delay8 /> c'est décidé,<anim id="FaintSmile" target="actor" targetSpec="" /> j'irai voir
-<tag a="115" b="1" arg="0xcd01" /> pour m'excuser à
-mon tour !</message>
+<anim id="Nodding" target="actor" targetSpec="" />Bon,<delay8 /> c'est décidé,<anim id="FaintSmile" target="actor" targetSpec="" /> j'irai voir <tag a="115" b="1" arg="0xcd01" /> pour m'excuser à mon tour !</message>
 </msbt>

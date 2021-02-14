@@ -1,7 +1,7 @@
 <msbt attribsize="8">
-	<message label="001" attrib="00 00 00 00 00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />¡Holita, <tag a="110" b="31" arg="0xcd01" />!<delay20 />
+	<message label="001" attrib="00 00 00 00 00 00 00 00"><20_2 arg="3" /><anim id="Greeting" target="actor" targetSpec="" />¡Holita, <tag a="110" b="31" arg="0xcd01" />!<delay20 />
 ¿Qué tal va todo, chica?<anim id="Eh" target="subNpc" targetSpec="" /></message>
-	<message label="002" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Pues la verdad es que muy bien.<delay20 />
+	<message label="002" attrib="00 00 00 00 00 00 00 00"><20_2 arg="4" /><anim id="FaintSmile" target="actor" targetSpec="" />Pues la verdad es que muy bien.<delay20 />
 No tengo ninguna queja.</message>
 	<message label="003" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Me alegro,<20_2 arg="3" /> <tag a="110" b="5" />.<delay20 />
 ¿Y qué te parecen las nuevas
@@ -12,19 +12,19 @@ vas a seguir?<20_2 arg="4" /></message>
 no entendí nada de lo que me acabas
 de preguntar.<anim id="EmotEnd" target="actor" targetSpec="" /></message>
 	<message label="005" attrib="00 00 00 00 00 00 00 00"><anim id="OhGeez" target="actor" targetSpec="" /><20_2 arg="3" />Ay, por favor,<delay8 /> solo intentaba tener
-una conversación contigo.<20_2 arg="4" /></message>
-	<message label="006" attrib="00 00 00 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />¡Ah!<delay20 /> ¿Era eso?<delay20 /> <anim id="Thinking" target="actor" targetSpec="" />Bueno, pues deja
+una conversación contigo.</message>
+	<message label="006" attrib="00 00 00 00 00 00 00 00"><20_2 arg="4" /><anim id="Aha" target="actor" targetSpec="" />¡Ah!<delay20 /> ¿Era eso?<delay20 /> <anim id="Thinking" target="actor" targetSpec="" />Bueno, pues deja
 que piense en un tema<tag a="110" b="0" /><delay20 />
 <anim id="IdeaBulb" target="actor" targetSpec="" />¡Ya sé!<delay20 /> Las cucarachas.<anim id="TakenAback" target="mainNpc" targetSpec="" /><pageBreak /><anim id="EmotEnd" target="mainNpc" targetSpec="" /><20_2 arg="8" /><anim id="Explain" target="actor" targetSpec="" />En general, a nadie le gustan,<delay8 /><20_3 arg="4" />
 pero yo creo que ese odio
 es injustificado.
-<20_2 arg="7" /><20_2 arg="6" /><anim id="Confused" target="mainNpc" targetSpec="" /><anim id="Explain" target="actor" targetSpec="" />Las cucarachas habitan este planeta
-desde hace mucho tiempo,<delay8 /><20_2 arg="5" /> ¡incluso
-antes que los dinosaurios!
-<20_2 arg="8" /><anim id="Thinking" target="actor" targetSpec="" />Eso significa que son seres muy
-experimentados <20_2 arg="6" />en lo que respecta
+<20_2 arg="7" /><anim id="Explain" target="actor" targetSpec="" />Las cucarachas habitan este planeta
+desde hace mucho tiempo,<delay8 /> ¡incluso
+desde antes que los dinosaurios!
+<20_2 arg="6" /><20_2 arg="3" /><anim id="Restless" target="mainNpc" targetSpec="" /><anim id="Restless" target="player" targetSpec="" /><anim id="Thinking" target="subNpc" targetSpec="" />Eso significa que son seres muy
+experimentados en lo que respecta
 a sobrevivir.
-<20_2 arg="7" /><anim id="Confused" target="mainNpc" targetSpec="" />Por eso,<20_2 arg="5" /> <anim id="Nodding" target="actor" targetSpec="" />¿no deberíamos tratarlas
+<20_2 arg="5" /><20_2 arg="4" /><anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="player" targetSpec="" />Por eso, <anim id="Nodding" target="subNpc" targetSpec="" />¿no deberíamos tratarlas
 con respeto e intentar aprender
 de ellas en vez de odiarlas?
 <anim id="FaintSmile" target="actor" targetSpec="" /><anim id="Worried" target="mainNpc" targetSpec="" />Sé que es difícil cambiar la opinión
@@ -32,10 +32,10 @@ de las masas, pero deberíamos
 intentarlo.<delay20 /> ¿Tú qué crees?<anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="actor" targetSpec="" /></message>
 	<message label="007" attrib="00 00 00 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />¡Ah!<delay20 /> ¿Era eso?<delay20 /> <anim id="Thinking" target="actor" targetSpec="" />Bueno, pues deja
 que piense en un tema<tag a="110" b="0" /><delay20 />
-<anim id="IdeaBulb" target="actor" targetSpec="" />¡Ya sé!<delay20 /><20_2 arg="8" /> <20_3 arg="4" />Los viajes en el tiempo.<20_2 arg="6" /><pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" /><20_2 arg="7" />¿Te imaginas<20_2 arg="5" /> poder ver dinosaurios
+<anim id="IdeaBulb" target="actor" targetSpec="" />¡Ya sé!<delay20 /><20_2 arg="8" /> Los viajes en el tiempo.<pageBreak /><anim id="FaintSmile" target="subNpc" targetSpec="" /><anim id="Eh" target="mainNpc" targetSpec="" /><20_2 arg="7" />¿Te imaginas poder ver dinosaurios
 con tus propios ojos o viajar
-a un futuro muy lejano?<anim id="Eh" target="mainNpc" targetSpec="" />
-<anim id="Love" target="actor" targetSpec="" /><20_2 arg="3" />A mí me encantaría viajar<20_2 arg="6" /><anim id="Confused" target="mainNpc" targetSpec="" /> al pasado
+a un futuro muy lejano?
+<anim id="Love" target="subNpc" targetSpec="" /><20_2 arg="3" /><20_2 arg="6" />A mí me encantaría viajar<anim id="Restless" target="mainNpc" targetSpec="" /><anim id="Restless" target="player" targetSpec="" /> al pasado
 y conocer a alguien de la época,<delay8 />
 pero también<20_2 arg="4" /><20_2 arg="5" /> me da algo de miedito.
 <anim id="Worried" target="actor" targetSpec="" /><20_2 arg="8" />¿Y si hiciera algo que cambiara
@@ -43,15 +43,16 @@ el futuro <20_2 arg="7" />y me quedara atrapada
 en el pasado para siempre?<anim id="Surprised" target="mainNpc" targetSpec="" />
 En fin, creo que es mejor <anim id="Negative" target="actor" targetSpec="" />no jugar
 con el tiempo.<delay20 /> <anim id="FaintSmile" target="actor" targetSpec="" />¿Y tú?<anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="actor" targetSpec="" /></message>
-	<message label="008" attrib="00 00 00 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />¡Ah!<delay20 /> ¿Era eso?<delay20 /> <anim id="Thinking" target="actor" targetSpec="" />Bueno, este<tag a="110" b="0" />
+	<message label="008" attrib="00 00 00 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />¡Ah!<delay20 /> ¿Era eso?<delay20 /> <anim id="Thinking" target="actor" targetSpec="" />Bueno, este<tag a="110" b="0" /><delay20 />
 deja que piense en un tema<tag a="110" b="0" /><delay20 />
-<anim id="IdeaBulb" target="actor" targetSpec="" />¡Ya sé!<delay20 /> Las sirenas.<anim id="Surprised" target="mainNpc" targetSpec="" /><pageBreak /><20_2 arg="8" /><anim id="Explain" target="actor" targetSpec="" />Dicen que en realidad son manatíes,<delay8 />
-<20_2 arg="4" /><anim id="Aha" target="actor" targetSpec="" />pero yo creo que existen de verdad.<pageBreak /><anim id="AbsentMindedness" target="actor" targetSpec="" /><20_2 arg="6" /><anim id="Confused" target="mainNpc" targetSpec="" />Si viera una, le preguntaría<20_2 arg="3" /> por su
-historia y le pediría que me enseñara su cultura y sus tradiciones.
+<anim id="IdeaBulb" target="actor" targetSpec="" />¡Ya sé!<delay20 /> Las sirenas.<anim id="Surprised" target="mainNpc" targetSpec="" /><pageBreak /><anim id="Explain" target="actor" targetSpec="" />Dicen que en realidad son manatíes,<delay8 />
+<20_2 arg="4" /><anim id="Aha" target="actor" targetSpec="" />pero yo creo que sí existen de verdad.<pageBreak /><anim id="AbsentMindedness" target="actor" targetSpec="" /><20_2 arg="6" /><anim id="Restless" target="mainNpc" targetSpec="" /><anim id="Restless" target="player" targetSpec="" /><20_2 arg="3" />Si viera una, le preguntaría por su
+historia y le pediría que me enseñara
+su cultura y sus tradiciones.
 <20_2 arg="7" /><20_2 arg="5" /><anim id="HappyFlower" target="actor" targetSpec="" />Luego podría<20_2 arg="4" /> escribir un libro sobre
-todo lo que hubiera aprendido y
+todo lo que habría aprendido y
 vivido.<delay20 /><anim id="Hello" target="actor" targetSpec="" /> ¡Sería fabuloso!
-<anim id="FaintSmile" target="actor" targetSpec="" />¿Qué?<delay20 /> ¿Se me da bien hablar
+<anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="player" targetSpec="" /><anim id="FaintSmile" target="actor" targetSpec="" />¿Qué?<delay20 /> ¿Se me da bien hablar
 de cualquier cosa para rellenar
 los silencios,<delay8 /> <tag a="110" b="5" />?<anim id="EmotEnd" target="actor" targetSpec="" /><anim id="EmotEnd" target="mainNpc" targetSpec="" /></message>
 	<message label="009" attrib="00 00 00 00 00 00 00 00"><anim id="WrySmile" target="actor" targetSpec="" />Creo que esta es la charla más
@@ -62,7 +63,7 @@ de acuerdo con todo lo que dijiste.</message>
 	<message label="101" attrib="00 00 00 00 00 00 00 00"><anim id="OhGeez" target="actor" targetSpec="" />Llevo <10_5 />la vida<endTag a="10" b="5" /> pensando en un regalo
 para <tag a="110" b="11" arg="0xcd00" /> y todavía no
 se me ocurre naaada.<anim id="EmotEnd" target="actor" targetSpec="" /></message>
-	<message label="102" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="mainNpc" targetSpec="" />Te entiendo.<delay20 /> Yo también me frustro
+	<message label="102" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="subNpc" targetSpec="" />Te entiendo.<delay20 /> Yo también me frustro
 cuando me quedo sin ideas para
 regalitos.</message>
 	<message label="103" attrib="00 00 03 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Oye, <tag a="110" b="3" />,<20_2 arg="3" /> échame una mano,<delay8 /><20_2 arg="8" /> ¿sí?<20_3 arg="3" /><delay20 /> <anim id="QuestionMark" target="actor" targetSpec="" />¿Qué debo hacer?</message>

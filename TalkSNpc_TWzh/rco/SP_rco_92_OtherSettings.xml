@@ -4,6 +4,11 @@
 與儲存資料相關的重要手續狸。<pageBreak /><anim id="Explain" target="actor" targetSpec="" />在此辦理的手續相當重要，<delay20 />
 請孩子們務必與身邊的監護人
 商量之後再做選擇。<anim id="FaintSmile" target="actor" targetSpec="" /></message>
+	<message label="002" attrib="00 00 00 00"><tag a="110" b="1" />，歡迎歡迎。<10_4 />
+你可以在這裡進行
+與設定有關的重要手續狸。<pageBreak /><anim id="Explain" target="actor" targetSpec="" />在這裡進行的手續非常重要，<delay20 />
+小朋友一定要跟身邊的監護人好好商量，
+再作出選擇喔。<anim id="FaintSmile" target="actor" targetSpec="" /></message>
 	<message label="010_01" attrib="00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />嗯，<delay20 />那麼<tag a="110" b="0" /></message>
 	<message label="010_02" attrib="00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />嗯，<delay20 />說明到這裡為止狸。<10_4 />
 那麼，我再說一次<tag a="110" b="0" /></message>
@@ -17,6 +22,12 @@
 	<message label="012_a" attrib="00 00 00 00">刪除居民登錄資料</message>
 	<message label="012_b" attrib="00 00 00 00">想聽說明</message>
 	<message label="012_c" attrib="00 00 00 00">結束手續</message>
+	<message label="020" attrib="04 00 00 00">你希望進行哪種設定呢？</message>
+	<message label="020_a" attrib="00 00 00 00">儲存資料的設定</message>
+	<message label="020_b" attrib="00 00 00 00">狸端機入口站的設定</message>
+	<message label="020_c" attrib="00 00 00 00">結束手續</message>
+	<message label="021" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />好的好的，<delay20 />是儲存資料，對吧。<delay20 />
+了解狸！</message>
 	<message label="051" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />好的好的，<delay20 />我知道狸！<10_4 />
 這樣的話，就先回到標題畫面狸。<pageBreak /><anim id="Greeting" target="actor" targetSpec="" /><delay8 />請繼續享受<delay20 />
 <tag a="110" b="34" />的生活喔～！</message>
@@ -37,7 +48,7 @@
 目前居住於此的
 <tag a="110" b="1" />居民登錄資料狸。<pageBreak /><anim id="Serious" target="actor" targetSpec="" /><tag a="110" b="0" />簡單來說，<delay20 />就是
 「<colour id="1" />刪除玩家的儲存資料<colour id="65535" />」狸。<pageBreak /><anim id="Worried" target="actor" targetSpec="" />在Nintendo Switch的
-HOME選單設定中<tag a="110" b="0" /><pageBreak />無法只刪除《<colour id="1" />集合啦！動物森友會<colour id="65535" />》的
+HOME選單設定中<tag a="110" b="0" /><pageBreak />無法只刪除《<colour id="2" />集合啦！動物森友會<colour id="65535" />》的
 玩家儲存資料狸。<pageBreak /><anim id="Explain" target="actor" targetSpec="" />因此，<delay20 />如果想要刪除島上的居住資訊，<delay20 />
 請在此辦理手續狸。</message>
 	<message label="062_02" attrib="00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />對了，<delay20 />一旦刪除居民登錄資料後<tag a="110" b="0" /><pageBreak /><anim id="Explain" target="actor" targetSpec="" /><tag a="110" b="34" />上
@@ -59,7 +70,7 @@ Nintendo Switch的用戶連動，<delay20 />
 	<message label="064_01" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />這裡<delay20 />可以刪除
 已搬來的居民登錄資料狸。<pageBreak /><anim id="Serious" target="actor" targetSpec="" /><tag a="110" b="0" />簡單來說，<delay20 />就是
 「<colour id="1" />刪除玩家的儲存資料<colour id="65535" />」狸。<pageBreak /><anim id="Worried" target="actor" targetSpec="" />在Nintendo Switch的
-HOME選單設定中<tag a="110" b="0" /><pageBreak />無法只刪除《<colour id="1" />集合啦！動物森友會<colour id="65535" />》的
+HOME選單設定中<tag a="110" b="0" /><pageBreak />無法只刪除《<colour id="2" />集合啦！動物森友會<colour id="65535" />》的
 玩家儲存資料狸。<pageBreak /><anim id="Explain" target="actor" targetSpec="" />因此，<delay20 />如果想要刪除島上的居住資訊，<delay20 />
 請在此辦理手續狸。</message>
 	<message label="064_02" attrib="00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />對了，<delay20 />一旦刪除居民登錄資料後<tag a="110" b="0" /><pageBreak /><anim id="Explain" target="actor" targetSpec="" /><tag a="110" b="34" />上
@@ -84,7 +95,7 @@ HOME選單設定中<tag a="110" b="0" /><pageBreak />無法只刪除《<colour i
 <anim id="Explain" target="actor" targetSpec="" />不過，<delay20 />無法只刪除
 <tag a="110" b="1" />的資料狸。<pageBreak /><anim id="Serious" target="actor" targetSpec="" />若要刪除<tag a="110" b="1" />的資訊，<delay8 />
 則需要<colour id="1" />刪除這個軟體的所有儲存資料<colour id="65535" />，
-就是《<colour id="1" />集合啦！動物森友會<colour id="65535" />》的全部資料<tag a="110" b="0" /><pageBreak /><anim id="Worried" target="actor" targetSpec="" />也就是說，<delay20 />必須刪除
+就是《<colour id="2" />集合啦！動物森友會<colour id="65535" />》的全部資料<tag a="110" b="0" /><pageBreak /><anim id="Worried" target="actor" targetSpec="" />也就是說，<delay20 />必須刪除
 <tag a="110" b="34" />本身狸。</message>
 	<message label="071_02" attrib="00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />若是無論如何
 都想刪除島民代表的話<tag a="110" b="0" /><pageBreak /><anim id="Serious" target="actor" targetSpec="" />只好前往Nintendo Switch的HOME選單，
@@ -93,7 +104,7 @@ HOME選單設定中<tag a="110" b="0" /><pageBreak />無法只刪除《<colour i
 <anim id="Explain" target="actor" targetSpec="" />不過，<delay20 />無法只刪除
 島民代表的居民資料狸。<pageBreak /><anim id="Serious" target="actor" targetSpec="" />若要刪除島民代表的資訊，<delay8 />
 則需要<colour id="1" />刪除這個軟體的所有儲存資料<colour id="65535" />，
-就是《<colour id="1" />集合啦！動物森友會<colour id="65535" />》的全部資料<tag a="110" b="0" /><pageBreak /><anim id="Worried" target="actor" targetSpec="" />也就是說，<delay20 />必須刪除
+就是《<colour id="2" />集合啦！動物森友會<colour id="65535" />》的全部資料<tag a="110" b="0" /><pageBreak /><anim id="Worried" target="actor" targetSpec="" />也就是說，<delay20 />必須刪除
 <tag a="110" b="34" />本身狸。</message>
 	<message label="101" attrib="00 00 00 00">要刪除居民登錄資料狸。</message>
 	<message label="102" attrib="01 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" /><tag a="110" b="0" />就是這樣，<delay20 />

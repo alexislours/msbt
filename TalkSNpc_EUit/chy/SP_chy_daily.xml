@@ -60,11 +60,11 @@ custodisce un insetto nelle tasche!
 insetti,<delay20 /> beh, sì, <delay20 />reali! <delay frames="40" /><anim id="ShyBoy" target="actor" targetSpec="" />Quindi torna
 da me dopo averne preso uno vero!</message>
 	<message label="012" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Giusto perché tu lo sappia,<delay20 /> domani
-mattina devo partire alle 5<tag a="110" b="0" /><delay frames="40" />
+mattina devo partire alle <colour id="1" />5:00<colour id="65535" /><tag a="110" b="0" /><delay frames="40" />
 <anim id="Worried" target="actor" targetSpec="" />Fammi sapere prima di allora, OK?</message>
 	<message label="013" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Giusto perché tu lo sappia,<delay20 /> devo
-partire alle 5 del mattino, quindi<tag a="110" b="0" />
-<delay frames="40" /><anim id="Worried" target="actor" targetSpec="" />fammi sapere per allora, va bene?</message>
+partire alle <colour id="1" />5:00<colour id="65535" />, quindi<tag a="110" b="0" /> <delay frames="40" /><anim id="Worried" target="actor" targetSpec="" />fammi
+sapere per allora, va bene?</message>
 	<message label="014" attrib="04 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Eh?<delay20 /> Oh, scusa.<anim id="Blushing" target="actor" targetSpec="" /><delay20 /> Ero sovrappensiero.<pageBreak /><anim id="QuestionMark" target="actor" targetSpec="" />Allora, hai già trovato degli insetti?
 <delay20 /><anim id="Serious" target="actor" targetSpec="" />Ne compro di qualsiasi tipo, senza
 neanche negoziare sul prezzo.</message>
@@ -97,14 +97,14 @@ un insetto da darmi?</message>
 	<message label="024" attrib="02 00 00 00"><anim id="Aha" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="50" b="2" /><tag a="125" b="0" arg="0x0" />!<delay20 />
 Il cuore mi frinisce nel petto! <anim id="Frantic" target="actor" targetSpec="" />È<tag a="110" b="0" />
 <10_5 />un sogno<endTag a="10" b="5" />!<delay frames="40" /> <colour id="4" />Mantieni la calma, Ivano<tag a="110" b="0" />
-<anim id="Grin" target="actor" targetSpec="" /><colour id="65535" />Per caso non mi venderesti<tag a="110" b="0" /> <tag a="50" b="17" arg="0x11 0xcd00 0xc 0x71 0x75 0x65 0x73 0x74 0x6f 0xc 0x71 0x75 0x65 0x73 0x74 0x61 0x0" /> <tag a="125" b="0" arg="0x0" /><delay20 /> per, diciamo, <anim id="QuestionMark" target="actor" targetSpec="" /><tag a="90" b="20" arg="0x2" />?</message>
-	<message label="024_a" attrib="00 00 00 00">Vendo, vendo!</message>
+<anim id="Grin" target="actor" targetSpec="" /><colour id="65535" />Per caso non mi venderesti<tag a="110" b="0" /> <tag a="50" b="17" arg="0x12 0xcd00 0xc 0x71 0x75 0x65 0x73 0x74 0x6f 0xc 0x71 0x75 0x65 0x73 0x74 0x61 0x0" /> <tag a="125" b="0" arg="0x0" /><delay20 /> per, diciamo, <anim id="QuestionMark" target="actor" targetSpec="" /><tag a="90" b="20" arg="0x2" />?</message>
+	<message label="024_a" attrib="00 00 00 00"><anim id="EmotEnd" target="player" targetSpec="" />Vendo, vendo!</message>
 	<message label="024_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Ora che ci penso<tag a="110" b="0" /></message>
 	<message label="025" attrib="02 00 00 00"><anim id="Cheering" target="actor" targetSpec="" />Tutti questi tesorini?! <delay20 />Questo è il
 giorno più bello della mia vita! <delay frames="40" />
 <anim id="EmotEnd" target="actor" targetSpec="" /><colour id="4" />OK, ora rilassati, Ivano<tag a="110" b="0" /><colour id="65535" /><pageBreak />Ehm, <delay20 /><anim id="Scheming" target="actor" targetSpec="" />in cambio posso offrirti,
 diciamo, <tag a="90" b="20" arg="0x2" />?</message>
-	<message label="025_a" attrib="00 00 00 00">Vendo, vendo!</message>
+	<message label="025_a" attrib="00 00 00 00"><anim id="EmotEnd" target="player" targetSpec="" />Vendo, vendo!</message>
 	<message label="025_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Ora che ci penso<tag a="110" b="0" /></message>
 	<message label="027" attrib="00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Dici sul serio?!<delay20 /><anim id="BigSmile" target="actor" targetSpec="" /> G-Grazie!</message>
 	<message label="028" attrib="00 00 00 00"><anim id="IdeaBulb" target="actor" targetSpec="" />Vieni da me se riesci a catturarne
@@ -144,7 +144,7 @@ queste metamorfosi!</message>
 	<message label="047" attrib="00 00 00 00"><anim id="Hesitate" target="actor" targetSpec="" />Quando l'universo contempla
 la bellezza,<delay20 /> in essa si riflette
 <tag a="50" b="1" /><tag a="125" b="0" arg="0x3" />.</message>
-	<message label="048" attrib="00 00 00 00"><anim id="AbsentMindedness" target="actor" targetSpec="" />È <tag a="50" b="2" /><tag a="125" b="0" arg="0x3" /> l'unic<tag a="50" b="17" arg="0x311 0xcd00 0x2 0x6f 0x2 0x61 0x0" /> a comprendere veramente il mondo?</message>
+	<message label="048" attrib="00 00 00 00"><anim id="AbsentMindedness" target="actor" targetSpec="" />È <tag a="50" b="2" /><tag a="125" b="0" arg="0x3" /> l'unic<tag a="50" b="17" arg="0x312 0xcd00 0x2 0x6f 0x2 0x61 0x0" /> a comprendere veramente il mondo?</message>
 	<message label="049" attrib="00 00 00 00"><anim id="AbsentMindedness" target="actor" targetSpec="" />Se <tag a="50" b="2" /><tag a="125" b="0" arg="0x3" /> mi si parasse davanti, <delay20 /><anim id="QuestionMark" target="actor" targetSpec="" />come reagirei? Con il riso o con il pianto?</message>
 	<message label="070" attrib="00 00 00 00"><colour id="4" /><size value="75" /><anim id="AbsentMindedness" target="actor" targetSpec="" />Mi identifico con i tre segmenti
 trascendentali dell'universo:<delay20 />
@@ -220,11 +220,11 @@ massima cura.</message>
 	<message label="107_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Preferisco di no.</message>
 	<message label="108" attrib="00 00 00 00"><anim id="Aha" target="actor" targetSpec="" /><colour id="4" />Mi hanno commissionato un'opera!<delay20 />
 <colour id="65535" /><anim id="EmotEnd" target="actor" targetSpec="" />Cioè,<delay20 /> ehm<tag a="110" b="0" /><delay frames="40" /><pageBreak /><anim id="Pardon" target="actor" targetSpec="" /><size value="150" />IL NOSTRO CONTRATTO
-È STIPULATO!<size value="100" /><pageBreak /><anim id="Hot" target="actor" targetSpec="" />Sento già il sacro fuoco della
-della mia creatività avvolgermi e
-scaldare il mio sangue freddo!
+È STIPULATO!<size value="100" /><pageBreak /><anim id="Hot" target="actor" targetSpec="" />Sento già il sacro fuoco della mia
+creatività avvolgermi e scaldare
+il mio sangue freddo!
 <anim id="ShyBoy" target="actor" targetSpec="" />Quando, grazie all'ispirazione della
-musa l'avrò ultimat<tag a="50" b="17" arg="0x111 0xcd00 0x2 0x6f 0x2 0x61 0x0" />, ti spedirò
+musa l'avrò ultimat<tag a="50" b="17" arg="0x112 0xcd00 0x2 0x6f 0x2 0x61 0x0" />, ti spedirò
 <tag a="50" b="1" /><tag a="125" b="0" arg="0x1" />.</message>
 	<message label="109" attrib="00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" /><size value="150" />COSA?!<delay20 /><size value="100" />
 <anim id="Crying" target="actor" targetSpec="" />N-Non dirmi<tag a="110" b="0" /><delay frames="40" /> che vuoi lasciarmi

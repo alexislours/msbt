@@ -1,6 +1,6 @@
 <msbt attribsize="4">
-	<message label="000_01" attrib="00 00 00 00"><tag a="100" b="8" /><anim id="Smiling" target="mainNpc" targetSpec="" />¡Hola, residentes de <tag a="110" b="8" />!<delay8 /><pageBreak /><anim id="EmotEnd" target="mainNpc" targetSpec="" /><50_8 x="1" y="0" a="Son las" b="Es la" c="Son las" /> <tag a="90" b="30" />:<tag a="90" b="31" />.<anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" /><endTag a="100" b="8" /></message>
-	<message label="000_02" attrib="00 00 00 00"><tag a="100" b="8" /><anim id="Smiling" target="actor" targetSpec="" />¿Están disfrutando?<delay20 />
+	<message label="000_01" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="Smiling" target="mainNpc" targetSpec="" />¡Hola, residentes de <tag a="110" b="8" />!<delay8 /><pageBreak /><anim id="EmotEnd" target="mainNpc" targetSpec="" /><50_8 x="1" y="0" a="Son las" b="Es la" c="Son las" /> <tag a="90" b="30" />:<tag a="90" b="31" />.<anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" /><endTag a="100" b="8" /></message>
+	<message label="000_02" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="Smiling" target="actor" targetSpec="" />¿Están disfrutando?<delay20 />
 ¡Aquí hay un montón de actividades
 para hacer!<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Pero no olviden descansar de vez
 en cuando para no agotarse.<delay20 />
@@ -13,7 +13,7 @@ Les habla <colour id="3" />Tom Nook<colour id="65535" />.<pageBreak /><50_8 x="1
 <tag a="90" b="29" /> de <tag a="90" b="28" /> del <tag a="90" b="27" />.<pageBreak />Este es el boletín informativo para
 aquellos que se van a dormir tarde.<endTag a="100" b="8" /></message>
 	<message label="003" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="Smiling" target="actor" targetSpec="" />¡Hola, residentes!<delay8 /> ¡Quiero desearles
-a todos un feliz Año Nuevo!<pageBreak /><50_8 x="1" y="0" a="Son las" b="Es la" c="Son las" /> <tag a="90" b="30" />:<tag a="90" b="31" /> del <tag a="110" b="18" />,
+a todos un feliz año nuevo!<pageBreak /><50_8 x="1" y="0" a="Son las" b="Es la" c="Son las" /> <tag a="90" b="30" />:<tag a="90" b="31" /> del <tag a="110" b="18" />,
 <tag a="90" b="29" /> de <tag a="90" b="28" /> del <tag a="90" b="27" />.<endTag a="100" b="8" /></message>
 	<message label="004" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="Smiling" target="actor" targetSpec="" />¡Hola, residentes!<delay8 /> ¡Les deseo
 mucha felicidad y prosperidad a
@@ -55,21 +55,29 @@ sí, sí!<endTag a="100" b="8" /></message>
 	<message label="021" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="Serious" target="actor" targetSpec="" /><anim id="FaintSmile" target="subNpc" targetSpec="" />Y ahora las noticias del día<tag a="110" b="0" /><endTag a="100" b="8" /></message>
 	<message label="022" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="Serious" target="mainNpc" targetSpec="" /><anim id="FaintSmile" target="subNpc" targetSpec="" />Sigamos con las noticias<tag a="110" b="0" /><endTag a="100" b="8" /></message>
 	<message label="031" attrib="00 00 00 12"><tag a="100" b="8" />Y además<tag a="110" b="0" /><endTag a="100" b="8" /></message>
+	<message label="041_01" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="Smiling" target="actor" targetSpec="" />¡Pronto celebraremos el día
+de la <colour id="1" />Caza del Huevo<colour id="65535" />!<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Lo que significa que pronto
+también empezará a cambiar
+la temperatura, sí, sí.
+<anim id="AbsentMindedness" target="actor" targetSpec="" />Qué rápido pasa el tiempo<tag a="110" b="0" /><endTag a="100" b="8" /></message>
+	<message label="041_02" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="BigSmile" target="actor" targetSpec="" />¡Hoy es la <colour id="1" />Caza del Huevo<colour id="65535" />!<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Además vino alguien muy especial
+a celebrarlo con nosotros.<delay20 />
+<anim id="Greeting" target="actor" targetSpec="" />Pasen por la plaza a saludarlo, ¿sí?<endTag a="100" b="8" /></message>
 	<message label="101" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="Clapping" target="actor" targetSpec="" />¡Acaba de instalarse en la isla
-<tag a="50" b="17" arg="0xe 0xcd00 0x1e 0x75 0x6e 0x20 0x6e 0x75 0x65 0x76 0x6f 0x20 0x76 0x65 0x63 0x69 0x6e 0x6f 0x20 0x75 0x6e 0x61 0x20 0x6e 0x75 0x65 0x76 0x61 0x20 0x76 0x65 0x63 0x69 0x6e 0x61 0x0" />! ¡Bienvenid<tag a="50" b="17" arg="0xe 0xcd00 0x2 0x6f 0x2 0x61 0x0" />,
+<tag a="50" b="17" arg="0xf 0xcd00 0x1e 0x75 0x6e 0x20 0x6e 0x75 0x65 0x76 0x6f 0x20 0x76 0x65 0x63 0x69 0x6e 0x6f 0x20 0x75 0x6e 0x61 0x20 0x6e 0x75 0x65 0x76 0x61 0x20 0x76 0x65 0x63 0x69 0x6e 0x61 0x0" />! ¡Bienvenid<tag a="50" b="17" arg="0xf 0xcd00 0x2 0x6f 0x2 0x61 0x0" />,
 <tag a="115" b="1" arg="0xcd00" />!<endTag a="100" b="8" /></message>
 	<message label="102" attrib="00 00 00 12"><tag a="60" b="20" /></message>
-	<message label="102_01" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="Nodding" target="actor" targetSpec="" />Espero que todos l<tag a="50" b="17" arg="0xe 0xcd00 0x2 0x6f 0x2 0x61 0x0" /> ayuden a
+	<message label="102_01" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="Nodding" target="actor" targetSpec="" />Espero que todos l<tag a="50" b="17" arg="0xf 0xcd00 0x2 0x6f 0x2 0x61 0x0" /> ayuden a
 adaptarse a la vida en <tag a="110" b="8" />.<endTag a="100" b="8" /></message>
 	<message label="102_02" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="Smiling" target="actor" targetSpec="" />Ya verás como todo el mundo te
 recibe con los brazos abiertos.<endTag a="100" b="8" /></message>
-	<message label="102_03" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="Nodding" target="actor" targetSpec="" />Hoy estará ocupad<tag a="50" b="17" arg="0xe 0xcd00 0x2 0x6f 0x2 0x61 0x0" /> con la mudanza,
+	<message label="102_03" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="Nodding" target="actor" targetSpec="" />Hoy estará ocupad<tag a="50" b="17" arg="0xf 0xcd00 0x2 0x6f 0x2 0x61 0x0" /> con la mudanza,
 pero pasen a presentarse
 cuando tengan la oportunidad.<endTag a="100" b="8" /></message>
 	<message label="200" attrib="00 00 00 12"><tag a="100" b="8" />Ahora<tag a="110" b="0" /> ¡Cambiando de tema!<endTag a="100" b="8" /></message>
 	<message label="201" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="Worried" target="actor" targetSpec="" />Con mucha tristeza les comunico que
 <tag a="115" b="1" arg="0xcd00" /> se irá mañana de la isla.<pageBreak />Aprovechen el día de hoy para
-despedirse de <tag a="50" b="17" arg="0xe 0xcd00 0x4 0xe9 0x6c 0x8 0x65 0x6c 0x6c 0x61 0x0" />, ¿sí?<endTag a="100" b="8" /></message>
+despedirse de <tag a="50" b="17" arg="0xf 0xcd00 0x4 0xe9 0x6c 0x8 0x65 0x6c 0x6c 0x61 0x0" />, ¿sí?<endTag a="100" b="8" /></message>
 	<message label="600" attrib="00 00 00 12"><tag a="60" b="20" /></message>
 	<message label="600_01" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="Shocked" target="actor" targetSpec="" />Ah, y una cosa que les quería
 comentar<tag a="110" b="0" /><endTag a="100" b="8" /></message>
@@ -88,10 +96,10 @@ el año con ánimo y alegría, sí, sí!<endTag a="100" b="8" /></message>
 	<message label="602" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="EmotEnd" target="actor" targetSpec="" />Según el informe meteorológico,<delay8 />
 <anim id="HappyDance" target="actor" targetSpec="" />¡esta noche podremos ver una<colour id="1" /> lluvia
 de estrellas<colour id="65535" /> en la isla!
-<tag a="100" b="8" /><anim id="AbsentMindedness" target="actor" targetSpec="" /><endTag a="100" b="8" />Será impresionante ver como surcan
+<anim id="AbsentMindedness" target="actor" targetSpec="" />Será impresionante ver como surcan
 los cielos<tag a="110" b="0" /><delay20 /> <anim id="Laughing" target="actor" targetSpec="" />¡Pediré muchísimos
 deseos,<delay8 /> sí, sí!
-<tag a="100" b="8" /><anim id="Smiling" target="actor" targetSpec="" /><endTag a="100" b="8" />Espero que todos se animen a salir
+<anim id="Smiling" target="actor" targetSpec="" />Espero que todos se animen a salir
 de sus casas para ver el espectáculo.<endTag a="100" b="8" /></message>
 	<message label="603" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="HappyFlower" target="actor" targetSpec="" />Ahora mismo,<delay8 /> si salen al exterior,<delay8 />
 ¡podrán ver una <colour id="1" />lluvia de estrellas<colour id="65535" />!<pageBreak /><anim id="Love" target="actor" targetSpec="" />Es un espectáculo que no se pueden
@@ -155,7 +163,7 @@ esquema de la <colour id="1" /><tag a="50" b="0" arg="0x202 0xcd04" />corona hon
 ¡Espero que les guste,<delay8 /> sí, sí!<endTag a="100" b="8" /></message>
 	<message label="613_03" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="Nodding" target="actor" targetSpec="" />Por cierto,<delay8 /> todos los hongos que
 crecen en la isla son comestibles,
-así que pueden quedarse tranquilos.<pageBreak /><anim id="Worried" target="actor" targetSpec="" />Sin embargo,<delay8 /> si viajan a otra isla,<delay8 />
+así que pueden quedarse tranquilos.<pageBreak /><anim id="Worried" target="actor" targetSpec="" />Sin embargo,<delay8 /> en cualquier otro lugar,<delay8 />
 tengan cuidado y no se coman el
 primer hongo que vean<tag a="110" b="0" /><pageBreak /><anim id="Nodding" target="actor" targetSpec="" />A veces cuesta diferenciar los que son comestibles de los que no.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />En caso de duda es mejor
 preguntarle a un experto antes de
@@ -209,16 +217,16 @@ la naturaleza mientras dure!<endTag a="100" b="8" /></message>
 <anim id="BigSmile" target="actor" targetSpec="" />¡Aprovéchenlo para admirar los
 cerezos en flor mientras disfrutan
 una comida casera al aire libre!<endTag a="100" b="8" /></message>
-	<message label="617_03" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="Smiling" target="actor" targetSpec="" />Atrapen <colour id="1" /><tag a="100" b="8" /><tag a="50" b="0" arg="0x701 0xcd05" />pétalos de cerezo<endTag a="100" b="8" /> <colour id="65535" />con una
+	<message label="617_03" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="Smiling" target="actor" targetSpec="" />Atrapen <colour id="1" /><tag a="50" b="0" arg="0x701 0xcd05" />pétalos de cerezo <colour id="65535" />con una
 <colour id="1" />red<colour id="65535" /><tag a="110" b="0" /><delay8 /> ¡y úsenlos para crear <colour id="1" />proyectos
 de taller<colour id="65535" /> primaverales!<endTag a="100" b="8" /></message>
 	<message label="618_01" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="AbsentMindedness" target="actor" targetSpec="" />En mi paseo matutino me puse
-a observar el bambú<tag a="110" b="0" /><pageBreak /><anim id="QuestionMark" target="actor" targetSpec="" />¿Sabían que el bambú joven, conocido como <colour id="1" /><tag a="50" b="0" arg="0x101 0xcd03" />tallo de bambú<colour id="65535" />,<delay8 />
+a observar el bambú<tag a="110" b="0" /><pageBreak /><anim id="QuestionMark" target="actor" targetSpec="" />¿Sabían que el bambú joven, conocido como <colour id="1" /><tag a="50" b="0" arg="0x101 0xcd03" />tallo de bambú primaveral<colour id="65535" />,<delay8 />
 se recoge en esta época del año?<endTag a="100" b="8" /></message>
 	<message label="618_02_01" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="Shocked" target="actor" targetSpec="" />¡Ah!<endTag a="100" b="8" /></message>
-	<message label="618_02_02" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="Nodding" target="actor" targetSpec="" />Les envié el esquema del <colour id="1" /><tag a="50" b="0" arg="0x101 0xcd03" />canal de bambú para fideos <colour id="65535" />a <colour id="1" />Creaciones<colour id="65535" />.<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Se hace con <colour id="1" />tallos de bambú<colour id="65535" />,<delay8 />
-¡así que aprovechen ahora que
-es la época, sí, sí!<endTag a="100" b="8" /></message>
+	<message label="618_02_02" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="Nodding" target="actor" targetSpec="" />Les envié el esquema del <colour id="1" /><tag a="50" b="0" arg="0x101 0xcd03" />canal de bambú para fideos <colour id="65535" />a <colour id="1" />Creaciones<colour id="65535" />.<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Se hace con <colour id="1" />tallos de bambú
+primaveral<colour id="65535" />,<delay8 /> ¡así que aprovechen
+ahora que es la época, sí, sí!<endTag a="100" b="8" /></message>
 	<message label="618_03" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="Nodding" target="actor" targetSpec="" />¡No dejen pasar la oportunidad
 de crear <colour id="1" />proyectos de taller
 <colour id="65535" />propios de esta época del año!<endTag a="100" b="8" /></message>
@@ -237,7 +245,7 @@ de romper el hielo!<endTag a="100" b="8" /></message>
 Nook<colour id="65535" /> de la oficina de gestión?<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Pueden ganar millas extras por
 el simple hecho de usarla
 todos los días.
-<tag a="100" b="8" /><anim id="Smiling" target="actor" targetSpec="" /><endTag a="100" b="8" />¡Cuantos más días la usen,
+<anim id="Smiling" target="actor" targetSpec="" />¡Cuantos más días la usen,
 más millas recibirán, sí, sí!<endTag a="100" b="8" /></message>
 	<message label="702_03" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="QuestionMark" target="actor" targetSpec="" />¿Ya tuvieron la oportunidad
 de admirar el maravilloso paisaje
@@ -258,7 +266,7 @@ sí, sí!<endTag a="100" b="8" /></message>
 artículos que pueden conseguir con
 el <colour id="1" />servicio de canje de millas<colour id="65535" />.<endTag a="100" b="8" /></message>
 	<message label="704" attrib="00 00 00 12"><tag a="60" b="20" /></message>
-	<message label="704_01" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="EmotEnd" target="actor" targetSpec="" />Hoy les voy a hablar sobre<tag a="110" b="0" /><delay20 />
+	<message label="704_01" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="EmotEnd" target="actor" targetSpec="" />Les voy a hablar sobre<tag a="110" b="0" /><delay20 />
 <anim id="Clapping" target="actor" targetSpec="" />¡<colour id="1" /><tag a="50" b="0" arg="0x1 0xcd00" />Mis diseños profesionales<colour id="65535" />!<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Es una actualización de la aplicación
 <colour id="1" />Mis diseños<colour id="65535" />.<anim id="Smiling" target="actor" targetSpec="" /><pageBreak /><anim id="Explain" target="actor" targetSpec="" />Les permite editar la paleta de
 colores y diseñar nuevas prendas
@@ -269,14 +277,14 @@ profesionales, pero<tag a="110" b="0" />
 <anim id="Smiling" target="actor" targetSpec="" />Si quieren crearlos ustedes mismos,
 ¡esta actualización es indispensable,<delay8 />
 sí, sí!<endTag a="100" b="8" /></message>
-	<message label="704_02" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="EmotEnd" target="actor" targetSpec="" />¡Hoy quiero hablarles de las
+	<message label="704_02" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="EmotEnd" target="actor" targetSpec="" />¡Quiero hablarles de las
 <anim id="Clapping" target="actor" targetSpec="" /><colour id="1" /><tag a="50" b="0" arg="0x1 0xcd00" />Herramientas fantásticas<colour id="65535" />!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Como su nombre lo indica, son
 esquemas para hacer herramientas
 que no se rompan con facilidad.
 <anim id="Nodding" target="actor" targetSpec="" />Si les gustaría tener herramientas
 más duraderas,<delay8 /><anim id="Smiling" target="actor" targetSpec="" /> ¡quizás les interese
 canjear algunas millas por esto!<endTag a="100" b="8" /></message>
-	<message label="704_03" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="EmotEnd" target="actor" targetSpec="" />Hoy quiero hablarles de la guía<tag a="110" b="0" /><delay8 />
+	<message label="704_03" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="EmotEnd" target="actor" targetSpec="" />Quiero hablarles de la guía<tag a="110" b="0" /><delay8 />
 <anim id="Clapping" target="actor" targetSpec="" />¡<colour id="1" /><tag a="50" b="0" arg="0x1 0xcd00" />Organiza tus herramientas<colour id="65535" />!<pageBreak /><anim id="QuestionMark" target="actor" targetSpec="" />¿Ya se acostumbraron a la vida de
 la isla a tal punto que llevan
 herramientas encima todo el tiempo?
@@ -288,7 +296,7 @@ favoritas<tag a="110" b="0" />
 una forma mucho más práctica!<pageBreak /><anim id="Love" target="actor" targetSpec="" />Es ideal para acceder rápidamente
 a sus herramientas más preciadas,<delay8 />
 sí, sí.<endTag a="100" b="8" /></message>
-	<message label="704_04" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="EmotEnd" target="actor" targetSpec="" />Hoy les voy a contar sobre
+	<message label="704_04" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="EmotEnd" target="actor" targetSpec="" />Les voy a contar sobre
 la guía<delay8 /> <anim id="Clapping" target="actor" targetSpec="" /><colour id="1" /><tag a="50" b="0" arg="0x1 0xcd00" />Organiza tus bolsillos<colour id="65535" />.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Ya sea viviendo en una isla o no,
 al final uno termina acumulando
 un montón de cosas<tag a="110" b="0" /><pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Así que, si tienen tantos cachivaches
@@ -310,11 +318,11 @@ cambiar el estilo de sus cabellos
 para estar siempre a la última moda.
 <anim id="Smiling" target="actor" targetSpec="" />¡Ya saben qué les hace falta para 
 destacarse entre los vecinos,<delay8 /> sí, sí!<endTag a="100" b="8" /></message>
-	<message label="705" attrib="00 00 00 00"><tag a="100" b="8" /><anim id="BigSmile" target="actor" targetSpec="" />Me gustaría compartir con ustedes
+	<message label="705" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="BigSmile" target="actor" targetSpec="" />Me gustaría compartir con ustedes
 una información que hará más
 cómoda la vida en la isla.<endTag a="100" b="8" /></message>
-	<message label="706" attrib="00 00 00 00"><tag a="60" b="20" /></message>
-	<message label="706_01" attrib="00 00 00 00"><tag a="100" b="8" /><anim id="Nodding" target="actor" targetSpec="" />Con la tienda de campaña, habrán
+	<message label="706" attrib="00 00 00 12"><tag a="60" b="20" /></message>
+	<message label="706_01" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="Nodding" target="actor" targetSpec="" />Con la tienda de campaña, habrán
 recibido también su <tag a="50" b="0" arg="0x202 0xcd04" />radio portátil.<delay20 />
 <anim id="Smiling" target="actor" targetSpec="" />¡Es ideal para oír música!
 <anim id="Smiling" target="actor" targetSpec="" />Aunque también hay otros aparatos
@@ -325,7 +333,7 @@ oír su canción favorita
 siempre que quieran<tag a="110" b="0" />
 <anim id="Explain" target="actor" targetSpec="" />Pueden comprar <colour id="1" />música<colour id="65535" /> en <colour id="1" />TeleNook<colour id="65535" />
 y oírla con sus aparatos de audio<tag a="110" b="0" /><pageBreak /><anim id="Smiling" target="actor" targetSpec="" />¡Música para sus oídos,<delay8 /> sí, sí!<endTag a="100" b="8" /></message>
-	<message label="706_02" attrib="00 00 00 00"><tag a="100" b="8" /><anim id="EmotEnd" target="actor" targetSpec="" />Comenzar una nueva vida aquí en
+	<message label="706_02" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="EmotEnd" target="actor" targetSpec="" />Comenzar una nueva vida aquí en
 <tag a="110" b="8" />, fue una decisión
 muy importante.<pageBreak /><anim id="QuestionMark" target="actor" targetSpec="" />¿No les gustaría también hacer
 cambios radicales en su aspecto?<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />¡Pues, si así es, tengo buenas
@@ -335,7 +343,7 @@ para cambiar de aspecto.
 <anim id="Smiling" target="actor" targetSpec="" />¡Cámbiense el <colour id="1" />peinado<colour id="65535" />, el <colour id="1" />color del
 cabello<colour id="65535" />, la <colour id="1" />cara<colour id="65535" /><tag a="110" b="0" /><delay8 /> y así podrán tener
 una apariencia distinta cada día!<endTag a="100" b="8" /></message>
-	<message label="706_03" attrib="00 00 00 00"><tag a="100" b="8" /><anim id="AbsentMindedness" target="actor" targetSpec="" />Quien quiera estar a la moda, incluso
+	<message label="706_03" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="AbsentMindedness" target="actor" targetSpec="" />Quien quiera estar a la moda, incluso
 en una isla desierta, estará
 deseando tener un <colour id="1" />armario<colour id="65535" /><tag a="110" b="0" />
 <anim id="Nodding" target="actor" targetSpec="" />Mientras tengan uno en sus casas
@@ -343,7 +351,7 @@ podrán cambiarse de ropa de forma
 fácil y cómoda.<pageBreak /><anim id="BigSmile" target="actor" targetSpec="" />Disfruten una sesión de modelaje
 en la privacidad de su hogar<delay20 />
 y luego<tag a="110" b="0" /> ¡lúzcanse ante el mundo!<endTag a="100" b="8" /></message>
-	<message label="706_04" attrib="00 00 00 00"><tag a="100" b="8" /><anim id="AbsentMindedness" target="actor" targetSpec="" />Para iluminar las laaargas noches de
+	<message label="706_04" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="AbsentMindedness" target="actor" targetSpec="" />Para iluminar las laaargas noches de
 <tag a="110" b="8" /><delay8 /> <anim id="Smiling" target="actor" targetSpec="" />¡no hay nada mejor que las <colour id="1" />velas<colour id="65535" /> o las <colour id="1" />lámparas<colour id="65535" />!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Usar diferentes fuentes de luz o
 cambiar su posición transforma
 una habitación totalmente.

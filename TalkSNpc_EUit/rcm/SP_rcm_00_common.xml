@@ -61,7 +61,7 @@ vendere.</message>
 	<message label="031_a" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Affare fatto!</message>
 	<message label="031_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Ho cambiato idea.</message>
 	<message label="035" attrib="02 00 00 00"><size value="75" /><anim id="Pardon" target="actor" targetSpec="" />Oh<tag a="110" b="0" /><delay8 /> non è possibile<tag a="110" b="0" /> <tag a="50" b="1" /><tag a="125" b="0" arg="0x0" /><tag a="110" b="0" /><size value="100" />
-<anim id="Shocked" target="actor" targetSpec="" /><delay20 />Ah!<delay20 /><anim id="Smiling" target="actor" targetSpec="" /> Scusa, pensavo ad alta voce.<pageBreak />Ti posso offrire <tag a="90" b="25" arg="0x0" /> per <tag a="50" b="17" arg="0x11 0xcd00 0xc 0x71 0x75 0x65 0x73 0x74 0x6f 0xc 0x71 0x75 0x65 0x73 0x74 0x61 0x0" /> <tag a="125" b="0" arg="0x0" />.</message>
+<anim id="Shocked" target="actor" targetSpec="" /><delay20 />Ah!<delay20 /><anim id="Smiling" target="actor" targetSpec="" /> Scusa, pensavo ad alta voce.<pageBreak />Ti posso offrire <tag a="90" b="25" arg="0x0" /> per <tag a="50" b="17" arg="0x12 0xcd00 0xc 0x71 0x75 0x65 0x73 0x74 0x6f 0xc 0x71 0x75 0x65 0x73 0x74 0x61 0x0" /> <tag a="125" b="0" arg="0x0" />.</message>
 	<message label="035_a" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Affare fatto!</message>
 	<message label="035_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Ho cambiato idea.</message>
 	<message label="036" attrib="02 00 00 00"><anim id="Nodding" target="mainNpc" targetSpec="" /><anim id="FaintSmile" target="subNpc" targetSpec="" />Ah! Uno schema fai da te per
@@ -69,7 +69,7 @@ vendere.</message>
 <anim id="FaintSmile" target="mainNpc" targetSpec="" />Se me lo vendi, ti offro <tag a="90" b="21" arg="0x0" />!</message>
 	<message label="036_a" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Affare fatto!</message>
 	<message label="036_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Ho cambiato idea.</message>
-	<message label="037" attrib="02 00 00 00"><anim id="Shocked" target="mainNpc" targetSpec="" /><anim id="Shocked" target="subNpc" targetSpec="" />Ooh!<delay40 /> Questo è uno schema
+	<message label="037" attrib="02 00 00 00"><anim id="Shocked" target="mainNpc" targetSpec="" /><anim id="Shocked" target="subNpc" targetSpec="" />Oh!<delay40 /> Questo è uno schema
 fai da te per <tag a="50" b="2" /><tag a="125" b="0" arg="0x0" />!<pageBreak /><anim id="Worried" target="mainNpc" targetSpec="" />È uno schema molto prezioso.<delay20 />
 Vuoi liberartene davvero?<delay40 /> Posso
 darti <tag a="90" b="21" arg="0x0" /><tag a="110" b="0" /></message>
@@ -119,9 +119,10 @@ con te!<anim id="Nodding" target="subNpc" targetSpec="" /> <tag a="100" b="4" />
 	<message label="051_01" attrib="00 00 00 00"><anim id="Smiling" target="mainNpc" targetSpec="" /><delay8 /><anim id="Smiling" target="subNpc" targetSpec="" />Capito!<tag a="100" b="4" /><delay8 /> <size value="75" />Capito!<size value="100" /><endTag a="100" b="4" /><delay frames="40" />
 Ce ne sbarazzeremo noi!</message>
 	<message label="052" attrib="00 00 00 00"><anim id="Smiling" target="mainNpc" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" />È un piacere fare affari con te!<delay frames="40" />
-<anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" />Hai il portafogli pieno.<pageBreak />Ti metterò in tasca le stelline in
-eccesso dentro dei sacchetti!
-<tag a="100" b="4" /><delay20 /><size value="75" />Dentro dei sacchetti!<size value="100" /><endTag a="100" b="4" /></message>
+<anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" />Considerando che hai il portafogli
+pieno<tag a="110" b="0" /><pageBreak />Metterò le stelline in eccesso nelle
+tue tasche dentro dei sacchetti!
+<anim id="FaintSmile" target="subNpc" targetSpec="" /><tag a="100" b="4" /><delay20 /><size value="75" />Dentro dei sacchetti!<size value="100" /><endTag a="100" b="4" /></message>
 	<message label="053" attrib="00 00 00 00"><anim id="Smiling" target="mainNpc" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" />Grazie!<delay frames="40" /><anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" /> Hai sia il portafoglio che
 le tasche piene. Ti faccio un bonifico
 <anim id="FaintSmile" target="mainNpc" targetSpec="" /><anim id="FaintSmile" target="subNpc" targetSpec="" />direttamente sul conto corrente.</message>
@@ -213,6 +214,11 @@ decidessi di acquistarlo.</message>
 	<message label="107_02" attrib="00 00 00 00"><anim id="BigSmile" target="mainNpc" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" />Ecco fatto!<10_4 /><anim id="Smiling" target="mainNpc" targetSpec="" /> Spero che adesso potrai
 divertirti ancora di più con i nuovi
 schemi <colour id="1" />fai da te<colour id="65535" />! <tag a="100" b="4" /><delay8 /><size value="75" />Fai da te!<size value="100" /><endTag a="100" b="4" /></message>
+	<message label="108" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Oh! <delay20 />Mi spiace, ma questo schema fai
+da te può essere venduto solo a chi
+possiede l'app <colour id="1" />Laboratorio<colour id="65535" />.<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Se vuoi saperne di più sul <colour id="1" />fai da te<colour id="65535" />,
+<delay8 />fai un salto al <colour id="1" />centro servizi <colour id="65535" />della tua
+isola quando vi avrai fatto ritorno.</message>
 	<message label="110_02" attrib="02 00 00 00"><anim id="Shocked" target="mainNpc" targetSpec="" /><anim id="Shocked" target="subNpc" targetSpec="" />Sai, <tag a="110" b="1" />, credo che tu abbia già questo schema.<pageBreak /><anim id="FaintSmile" target="mainNpc" targetSpec="" /><anim id="FaintSmile" target="subNpc" targetSpec="" />Ma se ne vuoi comprare un'altra
 copia, costa <tag a="90" b="26" arg="0x0" />.<10_4 />
 <anim id="QuestionMark" target="actor" targetSpec="" />Vuoi <anim id="QuestionMark" target="mainNpc" targetSpec="" />procedere?<anim id="QuestionMark" target="subNpc" targetSpec="" /> <tag a="100" b="4" /><delay8 /><size value="75" />Procedere?<size value="100" /><endTag a="100" b="4" /></message>
@@ -298,8 +304,8 @@ il<colour id="1" /> doppio<anim id="Nodding" target="subNpc" targetSpec="" /><co
 	<message label="122" attrib="02 00 00 00"><anim id="Smiling" target="mainNpc" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" /><tag a="50" b="3" /><tag a="50" b="2" /><tag a="125" b="0" arg="0x0" />! Ti darò <colour id="1" />il doppio <colour id="65535" />della solita somma<tag a="110" b="0" /> <tag a="90" b="24" arg="0x0" />.<delay20 /><anim id="QuestionMark" target="mainNpc" targetSpec="" /><anim id="QuestionMark" target="subNpc" targetSpec="" /> Può andare?</message>
 	<message label="122_a" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Affare fatto!</message>
 	<message label="122_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Ho cambiato idea.</message>
-	<message label="131" attrib="04 00 00 00"><tag a="50" b="3" /><tag a="50" b="1" /><tag a="125" b="0" arg="0x0" /><delay8 /><anim id="Nodding" target="subNpc" targetSpec="" /> è uno dei nostri articoli più richiesti! <delay20 /><anim id="QuestionMark" target="mainNpc" targetSpec="" /><tag a="50" b="17" arg="0x11 0xcd00 0xc 0x51 0x75 0x61 0x6e 0x74 0x69 0xc 0x51 0x75 0x61 0x6e 0x74 0x65 0x0" /> ne vuoi?</message>
-	<message label="131_a" attrib="00 00 00 00"><tag a="50" b="17" arg="0x11 0xcd00 0x6 0x55 0x6e 0x6f 0x6 0x55 0x6e 0x61 0x0" />. (<colour id="1" /><tag a="90" b="12" arg="0x0" /> <colour id="65535" />)</message>
+	<message label="131" attrib="04 00 00 00"><tag a="50" b="3" /><tag a="50" b="1" /><tag a="125" b="0" arg="0x0" /><delay8 /><anim id="Nodding" target="subNpc" targetSpec="" /> è uno dei nostri articoli più richiesti! <delay20 /><anim id="QuestionMark" target="mainNpc" targetSpec="" /><tag a="50" b="17" arg="0x12 0xcd00 0xc 0x51 0x75 0x61 0x6e 0x74 0x69 0xc 0x51 0x75 0x61 0x6e 0x74 0x65 0x0" /> ne vuoi?</message>
+	<message label="131_a" attrib="00 00 00 00"><tag a="50" b="17" arg="0x12 0xcd00 0x6 0x55 0x6e 0x6f 0x6 0x55 0x6e 0x61 0x0" />. (<colour id="1" /><tag a="90" b="12" arg="0x0" /> <colour id="65535" />)</message>
 	<message label="131_b" attrib="00 00 00 00">Cinque. (<colour id="1" /><tag a="90" b="13" arg="0x1" /> <colour id="65535" />)</message>
 	<message label="131_c" attrib="00 00 00 00">Ho cambiato idea.</message>
 	<message label="200" attrib="00 00 00 00"><anim id="Smiling" target="mainNpc" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" />Grazie!<tag a="100" b="4" /><delay8 /> <size value="75" />Grazie!<size value="100" /><endTag a="100" b="4" /><10_7 arg="90" /></message>

@@ -34,8 +34,10 @@ vadrouille.<delay frames="40" /> <anim id="QuestionMark" target="actor" targetSp
 	<message label="002_a" attrib="00 00 00 00">Je veux rentrer.</message>
 	<message label="002_b" attrib="00 00 00 00">J'ai besoin d'un outil.</message>
 	<message label="002_c" attrib="00 00 00 00"><anim id="Negative" target="player" targetSpec="" />En fait, non.</message>
-	<message label="003" attrib="02 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Tu veux lever le camp et remettre le
-cap sur <tag a="110" b="34" />?</message>
+	<message label="003" attrib="02 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Tu veux plier bagage et remettre le
+cap sur <tag a="110" b="34" />?<pageBreak /><anim id="Angry" target="actor" targetSpec="" />Sois sûr<gender2 m="" f="e" /> de toi, je m'en voudrais,
+si tu oubliais quelque chose derrière
+toi.<delay20 /> Alors,<anim id="QuestionMark" target="actor" targetSpec="" /> on est partis ?</message>
 	<message label="003_a" attrib="00 00 00 00"><anim id="Nodding" target="player" targetSpec="" />Oui!</message>
 	<message label="003_b" attrib="00 00 00 00"><anim id="Negative" target="player" targetSpec="" />Non, attends<tag a="110" b="0" /></message>
 	<message label="004" attrib="00 00 00 00"><snpcAnim id="DodRoger" target="actor" targetSpec="" /><delay20 />Bien reçu!<delay frames="40" /> Décollage immédiat.</message>

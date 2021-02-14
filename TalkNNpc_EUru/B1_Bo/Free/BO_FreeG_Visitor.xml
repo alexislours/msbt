@@ -1,10 +1,10 @@
 <msbt attribsize="8">
-	<message label="001" attrib="00 00 02 01 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Слушай<tag a="110" b="0" /> ты уже пробовал<gender2 m="" f="а" /> 
+	<message label="001" attrib="00 00 02 01 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Слушай<tag a="110" b="0" /> ты уже пробовал<gender2 m="" f="а" />
 <anim id="Pardon" target="actor" targetSpec="" /><tag a="50" b="23" arg="0xcd01" /><tag a="110" b="7" arg="0xcd00" /> с нашего острова?</message>
 	<message label="001_a" attrib="04 00 00 00 00 00 00 00">Проглотил<gender2 m="" f="а" /> не жуя!</message>
 	<message label="001_b" attrib="05 00 00 00 00 00 00 00">Еще нет.</message>
 	<message label="002" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="23" arg="0xd 0xe 0xf 0xffff" /></message>
-	<message label="003" attrib="09 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x10 0x11 0xffff 0xffff" /></message>
+	<message label="003" attrib="09 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x1 0x10 0x11 0x12" /></message>
 	<message label="004" attrib="00 00 00 00 00 00 00 00"><anim id="IdeaBulb" target="actor" targetSpec="" />Понимаю, <tag a="110" b="4" />!<delay frames="40" />
 <anim id="Smiling" target="actor" targetSpec="" />У-ху-ху!<delay20 /> Меня от них<delay8 /> за уши
 не оттянешь.<pageBreak /><anim id="HappyDance" target="actor" targetSpec="" />Я эти фрукты тоже люблю!<delay frames="40" />
@@ -34,10 +34,11 @@
 <anim id="Smiling" target="actor" targetSpec="" />Музей есть музей!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Ему нужны экспонаты. Было бы
 классно, если бы ты ему что-то
 подарил<gender2 m="" f="а" />, <anim id="Greeting" target="actor" targetSpec="" /><tag a="110" b="3" />.</message>
-	<message label="017" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="2" arg="0x15 0x16 0x17 0x19" /></message>
+	<message label="017" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="3" arg="0x15 0x16 0x17 0x18 0x19" /></message>
 	<message label="021" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1c00 0x1900 0xcd00" /></message>
 	<message label="022" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1d01 0x1900 0xcd00" /></message>
 	<message label="023" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1e02 0x1900 0xcd00" /></message>
+	<message label="024" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1f03 0x1900 0xcd00" /></message>
 	<message label="025" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />У нас на острове <tag a="110" b="33" /><delay20 />
 есть замечательный <colour id="1" />музей<colour id="65535" />!<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Загляни туда!<delay frames="40" /> Он работает
 квадратные сутки!</message>
@@ -45,53 +46,43 @@
 <tag a="50" b="23" arg="0xcd01" /><tag a="135" b="13" arg="0x0" />!<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Если тебя интересует рыба,<delay40 /> это
 в настоящее время самая рыбная
 достопримечательность на острове.</message>
-	<message label="029" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />В нашем <colour id="1" />музее <colour id="65535" />выставлен<tag a="50" b="24" arg="0x28 0xcd00 0x0 0x2 0x430 0x2 0x43e 0x2 0x44b" /><delay20 />
+	<message label="029" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />В нашем <colour id="1" />музее <colour id="65535" />выставлен<tag a="50" b="24" arg="0x29 0xcd00 0x0 0x2 0x430 0x2 0x43e 0x2 0x44b" /><delay20 />
 <tag a="135" b="13" arg="0x1" />!<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />До этого я еще никогда не видел
-<tag a="50" b="23" arg="0xcd01" /><tag a="135" b="13" arg="0x1" />.<pageBreak />Мы вчера болтали, и <tag a="50" b="24" arg="0x28 0xcd00 0x4 0x43e 0x43d 0x6 0x43e 0x43d 0x430 0x6 0x43e 0x43d 0x43e 0x6 0x43e 0x43d 0x438" /> сказал<tag a="50" b="24" arg="0x28 0xcd00 0x0 0x2 0x430 0x2 0x43e 0x2 0x438" />
+<tag a="50" b="23" arg="0xcd01" /><tag a="135" b="13" arg="0x1" />.<pageBreak />Мы вчера болтали, и <tag a="50" b="24" arg="0x29 0xcd00 0x4 0x43e 0x43d 0x6 0x43e 0x43d 0x430 0x6 0x43e 0x43d 0x43e 0x6 0x43e 0x43d 0x438" /> сказал<tag a="50" b="24" arg="0x29 0xcd00 0x0 0x2 0x430 0x2 0x43e 0x2 0x438" />
 «<tag a="110" b="6" />»! <anim id="Shocked" target="actor" targetSpec="" />Совсем как я!
 <tag a="50" b="3" /><tag a="110" b="6" />!</message>
 	<message label="030" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />В нашем <colour id="1" />музее <colour id="65535" />есть<delay20 />
 <tag a="135" b="13" arg="0x2" />!<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />На днях я там был<delay40 /> и любовался<delay40 />
 этой древней штукой,<delay20 /><anim id="Pardon" target="actor" targetSpec="" /> будто
 сквозь века смотрел.</message>
-	<message label="101" attrib="00 00 10 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Привет, <tag a="110" b="4" />!<delay frames="40" />
-Чем ты занимаешься<delay20 /> <anim id="Hello" target="actor" targetSpec="" />на своем
-новом острове?</message>
-	<message label="101_a" attrib="66 00 00 00 00 00 00 00">Ловлю рыбу.</message>
-	<message label="101_b" attrib="67 00 00 00 00 00 00 00">Ловлю разных жуков.</message>
-	<message label="101_c" attrib="68 00 00 00 00 00 00 00">Играю в прятки.</message>
-	<message label="101_d" attrib="69 00 00 00 00 00 00 00">Откапываю сокровища.</message>
-	<message label="101_e" attrib="6a 00 00 00 00 00 00 00">Болтаю с друзьями.</message>
-	<message label="102" attrib="00 00 00 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />На рыбалку ходишь?<delay frames="40" /> <anim id="FaintSmile" target="actor" targetSpec="" />Я тоже все
-еще люблю рыбу ловить!<10_4 />
-<anim id="AbsentMindedness" target="actor" targetSpec="" />М-м-м, вкусная рыбка<tag a="110" b="0" /><pageBreak /><anim id="Thinking" target="actor" targetSpec="" />Интересно, какая она у вас там на
-вкус? <anim id="Nodding" target="actor" targetSpec="" />Может, мне к вам переехать?</message>
-	<message label="103" attrib="00 00 00 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Ах, жуков ловишь?<delay frames="40" /> <anim id="EmotEnd" target="actor" targetSpec="" />Я тоже играю
-в салки с моими друзьями-жуками!
-Но чаще проигрываю.<delay frames="40" /><pageBreak /><anim id="Laughing" target="actor" targetSpec="" />Вообще-то, я всегда проигрываю!
-<anim id="Serious" target="actor" targetSpec="" />Жуки такие быстрые...<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Жуки на твоем острове <anim id="QuestionMark" target="actor" targetSpec="" />играют
-в салки?<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Пожалуй, <tag a="110" b="34" /> —
-отличный кандидат для моего
-переезда!</message>
-	<message label="104" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />В прятки, говоришь?<delay frames="40" />
-<anim id="FaintSmile" target="actor" targetSpec="" />Весело, наверное!<pageBreak /><anim id="AbsentMindedness" target="actor" targetSpec="" />Похоже, на твоем острове
-есть где прятаться!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Однажды я играл в прятки
-и застрял в дупле. Пока меня
-нашли, я проголодался и замерз.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Пожалуй, <tag a="110" b="34" /> —
-отличный кандидат для моего
-переезда!</message>
-	<message label="105" attrib="00 00 00 00 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Сокровища ищешь?!<delay frames="40" /> <anim id="HappyDance" target="actor" targetSpec="" />Я тоже хочу!<delay frames="40" />
-С тобой всегда так весело играть.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Так здорово бегать по острову,
-рыть ямы, искать сокровища.<pageBreak /><anim id="BigSmile" target="actor" targetSpec="" />Или просто рыть ямы.
-Не пробовал<gender2 m="" f="а" />? А зря!<delay frames="40" /> <anim id="FaintSmile" target="actor" targetSpec="" />Полный
-дзен и слияние с природой.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Пожалуй, <tag a="110" b="34" /> —
-отличный кандидат для моего
-переезда!</message>
-	<message label="106" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Болтаешь с друзьями? Здорово!<delay frames="40" />
-<anim id="Grin" target="actor" targetSpec="" />Но на нашем острове наверняка
-больше болтовни!<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />У нас же тут <tag a="110" b="11" arg="0xcd00" />
-и<delay20 /> <tag a="110" b="11" arg="0xcd01" />! Их хлебом не
-корми — дай поболтать!<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Пожалуй, <tag a="110" b="9" /> —
-отличный кандидат для моего
-переезда!</message>
+	<message label="201" attrib="00 00 10 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="110" b="3" />, привет!<delay20 /> Как тебе на острове <tag a="110" b="9" />? Чем ты там занимаешься?</message>
+	<message label="201_a" attrib="ca 00 00 00 00 00 00 00">Ловлю рыбу.</message>
+	<message label="201_b" attrib="cb 00 00 00 00 00 00 00">Ловлю разных жуков.</message>
+	<message label="201_c" attrib="cc 00 00 00 00 00 00 00">Играю в прятки.</message>
+	<message label="201_d" attrib="cd 00 00 00 00 00 00 00">Откапываю сокровища.</message>
+	<message label="201_e" attrib="ce 00 00 00 00 00 00 00">Болтаю с друзьями.</message>
+	<message label="202" attrib="00 00 00 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" /><delay20 />Да, рыбалка!<delay frames="40" /> <anim id="FaintSmile" target="actor" targetSpec="" />Я тоже рыбачу!
+Рыбки классные!<anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak />И от них пахнет морем, а я так
+люблю море.<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Сразу вспоминаю остров
+<tag a="110" b="9" />. <tag a="50" b="3" /><tag a="110" b="5" />!</message>
+	<message label="203" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Жуки? О да. Лучше жуков нет
+никого.<delay frames="40" /><anim id="EmotEnd" target="actor" targetSpec="" /> С ними так классно
+в салочки играть!<pageBreak /><anim id="Laughing" target="actor" targetSpec="" /><delay20 />Играть с ними непросто! Они такие
+быстрые, от них не убежишь!
+<anim id="Serious" target="actor" targetSpec="" />И не догонишь! <tag a="50" b="3" /><tag a="110" b="5" />!</message>
+	<message label="204" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />О да, прятки.<delay frames="40" /> <anim id="FaintSmile" target="actor" targetSpec="" />Сложная игра.
+<tag a="50" b="3" /><tag a="110" b="5" />!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Я как-то играл и застрял в дереве.
+<delay20 />На помощь я звать не мог, ведь
+так меня сразу бы нашли.<pageBreak />Когда игра закончилась, мне было
+очень холодно и голодно.</message>
+	<message label="205" attrib="00 00 00 00 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Сокровища?<delay frames="40" /><anim id="HappyFlower" target="actor" targetSpec="" /> Я тоже хочу искать
+сокровища! <tag a="50" b="3" /><tag a="110" b="5" />!<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Я уже давно не бегал по острову
+с лопатой в поисках сокровищ.<pageBreak /><anim id="BigSmile" target="actor" targetSpec="" />Хотя и просто копать ямы здорово.<delay20 />
+Настоящий отдых <delay8 />на природе!
+У-ху-ху!</message>
+	<message label="206" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Поболтать все любят.<delay frames="40" /> <anim id="EmotEnd" target="actor" targetSpec="" />На этом
+острове, <delay20 /><anim id="Grin" target="actor" targetSpec="" />пожалуй, даже больше,
+чем на твоем. <tag a="50" b="3" /><tag a="110" b="5" />.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="110" b="11" arg="0xcd00" /> и<delay20 /> <tag a="110" b="11" arg="0xcd01" />
+тусят просто круглосуточно.
+<delay20 />В общем<tag a="110" b="0" /> <anim id="Nodding" target="actor" targetSpec="" />Тебе тут понравится!</message>
 </msbt>

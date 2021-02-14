@@ -18,7 +18,7 @@ ohne gleich Sterni-Millionär zu sein!
 <anim id="Worried" target="actor" targetSpec="" />Wohlgemerkt,<delay8 /> es kann sich stets nur
 je eine Brücke sowie ein Aufgang
 aktuell in Planung befinden.
-<anim id="Smiling" target="actor" targetSpec="" />Daher überleg dir brav<delay8 />, was wohin
+<anim id="Smiling" target="actor" targetSpec="" />Daher überleg dir brav,<delay8 /> was wohin
 soll,<delay8 /> und sprich mich dann einfach
 an,<delay8 /> okay?</message>
 	<message label="002" attrib="06 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Gut,<delay8 /> dann sag doch mal<tag a="110" b="0" /><delay20 /><anim id="QuestionMark" target="actor" targetSpec="" />
@@ -112,29 +112,29 @@ dann noch mal Bescheid,<delay8 /> ja?</message>
 	<message label="207" attrib="00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Nanu! <delay20 />Kleiner Sinneswandel?<delay frames="40" /><anim id="EmotEnd" target="actor" targetSpec="" />
 Na,<delay8 /> so ein Bau will ja auch gut
 überlegt sein.<delay20 /> <anim id="Smiling" target="actor" targetSpec="" />Gar kein Problem!</message>
-	<message label="208" attrib="00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />Na so was!<delay20 /> <colour id="1" />8<colour id="65535" /> Aufgänge stehen schon
-auf unserer Insel. <delay20 /><anim id="Worried" target="actor" targetSpec="" />Wir sind ja ein
+	<message label="208" attrib="00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Na so was!<delay20 /> <colour id="1" />8<colour id="65535" /> Aufgänge stehen schon
+auf unserer Insel. <delay20 /><anim id="ShyBoy" target="actor" targetSpec="" />Wir sind ja ein
 richtiger Kletterpark geworden<tag a="110" b="0" />
-<anim id="EmotEnd" target="actor" targetSpec="" />Du solltest wirklich erst einen der
+<anim id="EmotEnd" target="actor" targetSpec="" />Du solltest wirklich einen der
 bestehenden Aufgänge <colour id="1" />entfernen
-<colour id="65535" />und erst dann den nächsten bauen.
+<delay8 /><anim id="Nodding" target="actor" targetSpec="" /><colour id="65535" />und erst dann den nächsten bauen.
 <anim id="Smiling" target="actor" targetSpec="" />Das ist doch sicher kein Problem,<delay8 />
 oder? <delay20 />Sei so gut,<delay8 /> ja?</message>
-	<message label="301" attrib="00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Huch!<delay frames="40" /><anim id="Worried" target="actor" targetSpec="" /> Du willst etwas Gebautes
-auf der Insel entfernen?<pageBreak />Puh, <delay8 />na ja.<delay20 /> Irgendwie verständlich.<delay20 /><anim id="Smiling" target="actor" targetSpec="" />
+	<message label="301" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Huch!<delay frames="40" /><anim id="QuestionMark" target="actor" targetSpec="" /> Du willst etwas Gebautes
+auf der Insel entfernen?<pageBreak /><anim id="Thinking" target="actor" targetSpec="" />Puh, <delay8 />na ja.<delay20 /> Irgendwie verständlich.<delay20 /><anim id="Smiling" target="actor" targetSpec="" />
 Platz ist eben rar auf so einem
 gemütlichen Fleckchen Erde!
-<anim id="EmotEnd" target="actor" targetSpec="" />Der Abriss einer Brücke oder eines
+<anim id="Serious" target="actor" targetSpec="" />Der Abriss einer Brücke oder eines
 Aufgangs ist mit einer Gebühr von
-<anim id="Smiling" target="actor" targetSpec="" /><tag a="90" b="22" arg="0x0" /> verbunden.</message>
-	<message label="302" attrib="00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />Brücken oder Aufgänge haben wir
+<tag a="90" b="22" arg="0x0" /> verbunden.<anim id="EmotEnd" target="actor" targetSpec="" /></message>
+	<message label="302" attrib="00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Brücken oder Aufgänge haben wir
 auf unserer Insel derzeit keine.<delay20 /><anim id="Smiling" target="actor" targetSpec="" />
 Keine Abrissmanöver nötig!
 <anim id="Silent" target="actor" targetSpec="" />Übrigens: <delay20 />Das Entfernen von
-Bauelementen kann nicht wieder
+Bauelementen kann <anim id="Negative" target="actor" targetSpec="" />nicht wieder
 rückgängig gemacht werden.
-<anim id="Smiling" target="actor" targetSpec="" />Ich sag's dir nur schon mal für
-die Zukunft, <delay8 />damit du im Bilde bist.<delay20 />
+<anim id="EmotEnd" target="actor" targetSpec="" />Ich sag's dir nur schon mal für
+die Zukunft, <delay8 />damit du im Bilde bist.<delay20 /><anim id="Smiling" target="actor" targetSpec="" />
 Erst überlegen,<delay8 /> dann entfernen,<delay20 /> klar?</message>
 	<message label="303" attrib="02 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Das Entfernen von Brücken und
 Aufgängen ist unwiderruflich!<delay20 />
@@ -183,8 +183,7 @@ geht auch nichts weg.
 Jedenfalls <anim id="Greeting" target="actor" targetSpec="" />kostet die Sache was,<delay8 />
 also muss ich dich vertrösten,<delay8 />
 bis du wieder flüssig bist. <delay20 />Pardon!</message>
-	<message label="401" attrib="04 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Hallo,<delay8 /> <tag a="110" b="1" />!<delay20 />
-Was macht die Bauplatzsuche?<delay20 /><anim id="QuestionMark" target="actor" targetSpec="" />
+	<message label="401" attrib="04 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Was macht die Bauplatzsuche?<delay frames="40" /><anim id="QuestionMark" target="actor" targetSpec="" />
 Darf man dir vielleicht dabei helfen?</message>
 	<message label="401_a" attrib="00 00 00 00">Krieg ich Tipps?</message>
 	<message label="401_b" attrib="00 00 00 00">Will nicht mehr bauen.</message>

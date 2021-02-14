@@ -34,7 +34,7 @@ ha antojado una.<delay20 /> En cuanto llegue
 a casa,<delay8 /> <anim id="Greeting" target="actor" targetSpec="" />¡me la preparo!
 <anim id="Thinking" target="actor" targetSpec="" />Aunque creo que tengo la nevera
 vacía<tag a="110" b="0" /><delay20 /> <anim id="Laughing" target="actor" targetSpec="" />Los únicos tomates que me
-quedan son los de mis calcetines.<anim id="EmotEnd" target="subNpc" targetSpec="" /><anim id="EmotEnd" target="mainNpc" targetSpec="" /></message>
+quedan son los de mis <anim id="Aha" target="mainNpc" targetSpec="" />calcetines.<anim id="EmotEnd" target="subNpc" targetSpec="" /><anim id="EmotEnd" target="mainNpc" targetSpec="" /></message>
 	<message label="008" attrib="00 00 00 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" /><anim id="TakenAback" target="mainNpc" targetSpec="" />Claro, torrijas,<20_2 arg="2" /><delay8 /> lo tenía en la punta
 de la lengua.<delay20 /> <anim id="WrySmile" target="actor" targetSpec="" />Te has adelantado,
 <tag a="110" b="3" />.<delay20 /> Torrijas<tag a="110" b="0" /><anim id="EmotEnd" target="subNpc" targetSpec="" /><anim id="EmotEnd" target="mainNpc" targetSpec="" /></message>
@@ -73,16 +73,16 @@ bonitos,<anim id="TakenAback" target="mainNpc" targetSpec="" /><delay8 /> malos 
 en tu despensa<tag a="110" b="0" /><pageBreak /><anim id="Explain" target="actor" targetSpec="" />Échale lo que quieras a tus
 ensaladas,<delay8 /> cielo.<delay20 /> <anim id="Grin" target="actor" targetSpec="" />Está claro que
 tu estómago puede con todo.</message>
-	<message label="101" attrib="00 00 00 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" /><tag a="110" b="31" arg="0xcd00" />, <tag a="110" b="3" /><20_2 arg="2" />,<delay8 /> ¿a que no sabéis <anim id="QuestionMark" target="mainNpc" targetSpec="" />a qué me he aficionado?<pageBreak /><anim id="BigSmile" target="actor" targetSpec="" />¡A las adivinanzas!<delay20 /> <anim id="FaintSmile" target="mainNpc" targetSpec="" />Son mogollón de
+	<message label="101" attrib="00 00 00 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" /><tag a="110" b="31" arg="0xcd00" /><20_2 arg="2" />,<delay8 /> <20_2 arg="8" /><tag a="110" b="3" />,<delay8 /> ¿a que no sabéis <anim id="QuestionMark" target="mainNpc" targetSpec="" />a qué me he aficionado?<pageBreak /><anim id="BigSmile" target="actor" targetSpec="" />¡A las adivinanzas!<delay20 /> <anim id="FaintSmile" target="mainNpc" targetSpec="" />Son mogollón de
 divertidas,<delay8 /> <anim id="ShyBoy" target="actor" targetSpec="" />aunque algunas te hacen
 pensar hasta que te hierve el seso<tag a="110" b="0" /><anim id="EmotEnd" target="actor" targetSpec="" /></message>
 	<message label="102" attrib="00 00 00 00 00 00 00 00"><anim id="Scheming" target="actor" targetSpec="" />No lo dudo,<delay8 /> cariño.<20_2 arg="1" /><delay20 /> <anim id="Explain" target="actor" targetSpec="" />Pero dinos,<delay8 />
 <anim id="Smiling" target="subNpc" targetSpec="" />¿a qué adivinanzas te refieres?<delay20 />
 <anim id="QuestionMark" target="actor" targetSpec="" />¿Del tipo «oro parece, plata no es»?</message>
 	<message label="103" attrib="00 00 02 00 00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />No, no,<delay8 /> <20_2 arg="2" />¡otras mejores todavía!<anim id="Cheering" target="actor" targetSpec="" /><delay20 />
-Las de «¿En qué se parecen esto
-y lo otro?».<anim id="TakenAback" target="mainNpc" targetSpec="" /><pageBreak /><anim id="SmugFace" target="actor" targetSpec="" />¡Me las invento yo mismo!<delay20 /> <anim id="Smiling" target="actor" targetSpec="" />Venga,
-<20_3 arg="8" />os voy a poner un ejemplo,<delay8 /> <anim id="Nodding" target="mainNpc" targetSpec="" />¿queréis?<20_3 arg="6" /><anim id="EmotEnd" target="actor" targetSpec="" /><anim id="EmotEnd" target="mainNpc" targetSpec="" /></message>
+Las de<delay8 /> «¿En qué se parecen esto
+y lo otro?».<anim id="TakenAback" target="mainNpc" targetSpec="" /><pageBreak /><anim id="SmugFace" target="actor" targetSpec="" />¡Me las invento yo mismo!<delay frames="40" /> <anim id="Smiling" target="actor" targetSpec="" />Venga,
+<20_3 arg="8" /><delay8 />os voy a poner un ejemplo,<delay8 /> <anim id="Nodding" target="mainNpc" targetSpec="" />¿queréis?<20_3 arg="6" /><anim id="EmotEnd" target="actor" targetSpec="" /><anim id="EmotEnd" target="mainNpc" targetSpec="" /></message>
 	<message label="103_a" attrib="00 00 00 00 00 00 00 00">¡Por mí encantad<gender2 m="o" f="a" />!</message>
 	<message label="103_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="player" targetSpec="" />Si no hay más remedio</message>
 	<message label="104" attrib="00 00 00 00 00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />¡Así se habla!<20_3 arg="2" /><delay20 /> Pues atent<gender2 m="o" f="a" />s que va:<delay20 />
@@ -113,7 +113,7 @@ y desconectas de la realidad,<delay8 />
 ¡aunque la menciones tú!
 <anim id="OhGeez" target="actor" targetSpec="" />Desde luego, <tag a="110" b="31" arg="0xcd01" />,
 estás <anim id="Aha" target="subNpc" targetSpec="" />empanado<tag a="110" b="0" /><anim id="AbsentMindedness" target="subNpc" targetSpec="" /><delay20 /> <anim id="Frantic" target="actor" targetSpec="" />Ay, no,<delay8 />
-¡para qué he dicho nada!</message>
+¡para qué he dicho nada!<anim id="EmotEnd" target="subNpc" targetSpec="" /></message>
 	<message label="112" attrib="00 00 00 00 00 00 00 00"><20_2 arg="2" /><anim id="Negative" target="actor" targetSpec="" />No hay más remedio, no,<delay8 />
 es lo que toca.<anim id="Grin" target="mainNpc" targetSpec="" /><delay20 /> <anim id="Cheering" target="actor" targetSpec="" />¡Que voy!<pageBreak /><anim id="WrySmile" target="actor" targetSpec="" />¿En qué se parecen un payaso
 y un mimo?<anim id="QuestionMark" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="actor" targetSpec="" /><anim id="EmotEnd" target="mainNpc" targetSpec="" /></message>
@@ -129,7 +129,7 @@ la tontería más grande<tag a="110" b="0" /></message>
 	<message label="201" attrib="00 00 00 00 00 00 00 00"><anim id="Sighing" target="actor" targetSpec="" />Ay, porras<tag a="110" b="0" /><delay8 /> <anim id="Worried" target="subNpc" targetSpec="" />Hoy no es mi día, <tag a="110" b="6" />.<anim id="EmotEnd" target="actor" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" /></message>
 	<message label="202" attrib="00 00 00 00 00 00 00 00">Estás muy seria, <20_2 arg="4" /><tag a="110" b="31" arg="0xcd00" />,<delay8 />
 ¿estás bien?<pageBreak /><anim id="IdeaBulb" target="actor" targetSpec="" />¿Sabes lo que hago yo
-cuando tengo un mal día?<anim id="Negative" target="mainNpc" targetSpec="" /><pageBreak /><anim id="Explain" target="actor" targetSpec="" />Me hincho de <tag a="135" b="7" arg="0xcd00" /> hasta que me duele la tripa.<anim id="TakenAback" target="mainNpc" targetSpec="" /><pageBreak /><anim id="HappyDance" target="actor" targetSpec="" />Está riquísim<tag a="50" b="17" arg="0x22 0xcd00 0x2 0x6f 0x2 0x61 0x0" /> <anim id="WrySmile" target="mainNpc" targetSpec="" />y encima con el dolor
+cuando tengo un mal día?<anim id="Negative" target="mainNpc" targetSpec="" /><pageBreak /><anim id="Explain" target="actor" targetSpec="" />Me hincho de <tag a="135" b="7" arg="0xcd00" /> hasta que me duele la tripa.<anim id="TakenAback" target="mainNpc" targetSpec="" /><pageBreak /><anim id="HappyDance" target="actor" targetSpec="" />Está riquísim<tag a="50" b="17" arg="0x23 0xcd00 0x2 0x6f 0x2 0x61 0x0" /> <anim id="WrySmile" target="mainNpc" targetSpec="" />y encima con el dolor
 se me olvidan los problemas.<anim id="EmotEnd" target="actor" targetSpec="" /><anim id="EmotEnd" target="mainNpc" targetSpec="" /></message>
 	<message label="203" attrib="00 00 00 00 00 00 00 00"><anim id="Laughing" target="actor" targetSpec="" />¡Jo, jo, jo!<20_2 arg="3" /><delay20 /> Una solución<anim id="Nodding" target="subNpc" targetSpec="" /> muy<tag a="110" b="0" />
 <anim id="Grin" target="actor" targetSpec="" />«sui generis», cariño.<delay20 /> La tendré

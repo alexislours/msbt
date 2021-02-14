@@ -4,7 +4,7 @@
 	<message label="001_a" attrib="04 00 00 00 00 00 00 00">アレでしょ？</message>
 	<message label="001_b" attrib="05 00 00 00 00 00 00 00">わかんない</message>
 	<message label="002" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="23" arg="0xd 0xe 0xf 0xffff" /></message>
-	<message label="003" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x10 0x11 0xffff 0xffff" /></message>
+	<message label="003" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x1 0x10 0x11 0x12" /></message>
 	<message label="004" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />なんだ、<delay8 /><ruby a="2" b="2">し</ruby>知ってたのかい！<delay frames="30" />
 <anim id="Nodding" target="actor" targetSpec="" />その<ruby a="2" b="4">とお</ruby>通り　<delay8 /><tag a="110" b="7" arg="0xcd00" />だよ<delay frames="30" />
 いっぱい<ruby a="2" b="2">く</ruby>食っていきな！　<anim id="FaintSmile" target="actor" targetSpec="" /><tag a="110" b="6" /></message>
@@ -29,10 +29,11 @@
 できる<ruby a="4" b="6">よてい</ruby>予定なんだ！<pageBreak /><anim id="ShyBoy" target="actor" targetSpec="" />まだまだ　<ruby a="4" b="6">てんじ</ruby>展示するモノがなくて<delay8 />
 <ruby a="6" b="14">じゅんびちゅう</ruby>準備中なんだけどね<delay frames="40" />
 <anim id="BigSmile" target="actor" targetSpec="" />まっ、<delay20 />いつか<ruby a="2" b="2">み</ruby>見に<ruby a="2" b="2">き</ruby>来ておくれ！　<tag a="110" b="6" /><anim id="FaintSmile" target="actor" targetSpec="" /></message>
-	<message label="017" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="2" arg="0x15 0x16 0x17 0x19" /></message>
+	<message label="017" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="3" arg="0x15 0x16 0x17 0x18 0x19" /></message>
 	<message label="021" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1c00 0x1900 0xcd00" /></message>
 	<message label="022" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1d01 0x1900 0xcd00" /></message>
 	<message label="023" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1e02 0x1900 0xcd00" /></message>
+	<message label="024" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1f03 0x1900 0xcd00" /></message>
 	<message label="025" attrib="00 00 00 00 00 00 00 00"><anim id="IdeaBulb" target="actor" targetSpec="" />そうだ！　<delay frames="40" />せっかく<ruby a="2" b="2">き</ruby>来たんだから<delay20 />
 <anim id="FaintSmile" target="actor" targetSpec="" />この<tag a="110" b="32" />　ジマンの<colour id="1" /><ruby a="6" b="12">はくぶつかん</ruby>博物館<colour id="65535" />を　<ruby a="2" b="2">み</ruby>見てっておくれ！<pageBreak /><anim id="Explain" target="actor" targetSpec="" /><ruby a="2" b="4">ある</ruby>歩いて<ruby a="2" b="4">まわ</ruby>回るだけで　<ruby a="4" b="6">きぶん</ruby>気分アガるし、<delay20 />
 フォトスポットとしても　オススメだよ！</message>
@@ -51,39 +52,35 @@
 <ruby a="2" b="4">かえ</ruby>帰れないだろ？<pageBreak /><anim id="Explain" target="actor" targetSpec="" /><colour id="1" /><ruby a="6" b="12">はくぶつかん</ruby>博物館<colour id="65535" />に　<ruby a="4" b="6">てんじ</ruby>展示されてるから<delay20 />
 <ruby a="4" b="6">じかん</ruby>時間があるなら　<delay8 /><ruby a="2" b="2">い</ruby>行っておいで！<delay frames="30" />
 <anim id="EmotEnd" target="actor" targetSpec="" />ウチの　イチオシさ！　<tag a="110" b="6" /></message>
-	<message label="101" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="0" arg="0x66 0x69" /></message>
-	<message label="102" attrib="00 00 01 00 00 00 00 00">さては　アンタ、<delay20 />
-<anim id="Pardon" target="actor" targetSpec="" /><tag a="110" b="33" />が　<ruby a="2" b="4">こい</ruby>恋しくなって<delay8 />
-<ruby a="2" b="4">もど</ruby>戻ってきちまったんだろ！　<tag a="110" b="6" /><pageBreak /><anim id="Laughing" target="actor" targetSpec="" />あははっ、<delay20 /><ruby a="4" b="10">じょうだん</ruby>冗談だよ！<delay20 />　<ruby a="4" b="10">じょうだん</ruby>冗談！<delay frames="40" />
-で、<delay20 /><ruby a="4" b="6">きょう</ruby>今日は　どうしたんだい？<delay frames="40" />
-<anim id="Grin" target="actor" targetSpec="" />もしかして　ウチに<ruby a="2" b="2">あ</ruby>会いに<ruby a="2" b="2">き</ruby>来たとか<tag a="110" b="0" />？</message>
-	<message label="102_a" attrib="67 00 00 00 00 00 00 00">うん</message>
-	<message label="102_b" attrib="68 00 00 00 00 00 00 00">ちがうよ</message>
-	<message label="103" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />ホントかい？！<delay frames="40" />
+	<message label="201" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="0" arg="0xca 0xd2" /></message>
+	<message label="202" attrib="00 00 01 00 00 00 00 00"><anim id="SmugFace" target="actor" targetSpec="" />どうよ、<delay8 />この　<tag a="110" b="33" />は？<delay frames="40" />
+<anim id="FaintSmile" target="actor" targetSpec="" />なかなかに　いいトコだろ！<delay frames="30" />
+<anim id="Hello" target="actor" targetSpec="" />アンタも　<ruby a="4" b="6">ひっこ</ruby>引越してくるかい？<pageBreak /><anim id="Laughing" target="actor" targetSpec="" />な～んて、<delay20 /><ruby a="4" b="10">じょうだん</ruby>冗談だよ！<delay8 />　<ruby a="4" b="10">じょうだん</ruby>冗談！<delay frames="40" />
+で、<delay20 /><ruby a="4" b="6">きょう</ruby>今日は　どうしたんだい？<delay frames="30" />
+<anim id="Grin" target="actor" targetSpec="" />もしかして　<delay8 />ウチに<ruby a="2" b="2">あ</ruby>会いに<ruby a="2" b="2">き</ruby>来たとか<tag a="110" b="0" />？</message>
+	<message label="202_a" attrib="cb 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />うん</message>
+	<message label="202_b" attrib="cc 00 00 00 00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />ちがうよ</message>
+	<message label="203" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />ホントかい？！<delay frames="40" />
 <anim id="EmotEnd" target="actor" targetSpec="" />シャレのつもりで　<ruby a="2" b="2">い</ruby>言ったのに<delay20 />
-<anim id="Blushing" target="actor" targetSpec="" />あっさり　<ruby a="2" b="4">みと</ruby>認められると　テレちゃうねぇ<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />なんか　<ruby a="2" b="4">こま</ruby>困ったことがあったら<delay20 />
+<anim id="Blushing" target="actor" targetSpec="" />あっさり　<ruby a="2" b="4">みと</ruby>認められると　テレちまうねぇ<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />なんか　<ruby a="2" b="4">こま</ruby>困ったことがあったら<delay20 />
 いつでも　<ruby a="4" b="8">そうだん</ruby>相談に<ruby a="2" b="2">く</ruby>来るんだよ<delay frames="40" />
-<anim id="Assent" target="actor" targetSpec="" />アンタは　<ruby a="2" b="4">いま</ruby>今でも　<ruby a="4" b="8">たいせつ</ruby>大切なダチなんだからね！</message>
-	<message label="104" attrib="00 00 00 00 00 00 00 00"><anim id="Restless" target="actor" targetSpec="" />おいおい、<delay8 /><tag a="110" b="3" /><delay frames="40" />
-そこは　ウソでも　「うん」だろう？<delay frames="50" />
-<anim id="ShyBoy" target="actor" targetSpec="" />まったく　アンタってヤツは　<ruby a="4" b="6">あいか</ruby>相変わらずだねぇ<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" /><tag a="110" b="32" />のみんなにも　<ruby a="4" b="6">かおみ</ruby>顔見せてやりなよ<delay frames="40" />
-<anim id="FaintSmile" target="actor" targetSpec="" />アンタが　いなくなって<delay20 />
-<anim id="Greeting" target="actor" targetSpec="" /><ruby a="2" b="4">さび</ruby>寂しがってるヤツも　いたんだからさ、<tag a="110" b="6" /></message>
-	<message label="105" attrib="6a 00 00 00 00 00 00 00">なぁ、<delay8 /><tag a="110" b="3" /><delay frames="40" />
-<anim id="Pardon" target="actor" targetSpec="" /><ruby a="4" b="6">ひっこ</ruby>引越し<ruby a="2" b="4">さき</ruby>先の　<ruby a="2" b="6">あたら</ruby>新しい<tag a="110" b="32" />は　どんな<ruby a="2" b="4">かん</ruby>感じだい？</message>
-	<message label="106" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
-	<message label="106_01" attrib="00 00 00 00 00 00 00 00">ちゃんと　<tag a="110" b="32" />のヤツらと<delay20 />
-<anim id="Hello" target="actor" targetSpec="" /><ruby a="4" b="6">なかよ</ruby>仲良く　やってんのかい？<delay frames="40" />
-<anim id="Nodding" target="actor" targetSpec="" />まあ、<delay8 />アンタなら　<ruby a="6" b="12">だいじょうぶ</ruby>大丈夫だと<ruby a="2" b="4">おも</ruby>思うけど<tag a="110" b="0" /><pageBreak /><anim id="Smiling" target="actor" targetSpec="" />とりあえず　こうやって<delay20 />
-ニコニコしてれば　なんとかなるからさ！<delay frames="40" />
-<anim id="BigSmile" target="actor" targetSpec="" />うまく　やんなよ、<tag a="110" b="6" /><delay8 /><anim id="FaintSmile" target="actor" targetSpec="" /></message>
-	<message label="106_02" attrib="00 00 00 00 00 00 00 00"><anim id="Hello" target="actor" targetSpec="" /><ruby a="2" b="4">はな</ruby>花は　たくさん　<ruby a="2" b="2">さ</ruby>咲いてんのかい？<delay frames="40" />
-<anim id="FaintSmile" target="actor" targetSpec="" /><ruby a="2" b="4">みず</ruby>水やりして　<ruby a="4" b="8">たいせつ</ruby>大切にしてやるんだよ<pageBreak /><anim id="Explain" target="actor" targetSpec="" />こっちが　<ruby a="6" b="12">あいじょうも</ruby>愛情持って　<ruby a="4" b="4">せわ</ruby>世話すれば<delay20 />
-ちゃんと　<ruby a="2" b="4">こた</ruby>答えてくれるんだからさ<delay frames="40" />
-<anim id="Nodding" target="actor" targetSpec="" /><ruby a="4" b="6">やさい</ruby>野菜だって　おんなじだからね、<tag a="110" b="6" /></message>
-	<message label="106_03" attrib="00 00 00 00 00 00 00 00"><anim id="Hello" target="actor" targetSpec="" />ムシやサカナは　たくさん　いるのかい？<delay frames="40" />
-<anim id="Thinking" target="actor" targetSpec="" />もしかして　こっちの<tag a="110" b="32" />とは<delay8 />
-<ruby a="2" b="4">ちが</ruby>違う<ruby a="4" b="8">しゅるい</ruby>種類が　いたりすんのかな<tag a="110" b="0" /><pageBreak /><anim id="Smiling" target="actor" targetSpec="" />アンタのことだから<delay20 />
-<ruby a="4" b="8">まいにち</ruby>毎日<delay8 />　<ruby a="4" b="10">しまじゅう</ruby>島中　<ruby a="2" b="4">はし</ruby>走り<ruby a="2" b="4">まわ</ruby>回ってそうだねぇ<delay frames="40" />
-<anim id="Laughing" target="actor" targetSpec="" /><ruby a="2" b="2">め</ruby>目に<ruby a="2" b="2">う</ruby>浮かぶよ、<tag a="110" b="6" /><delay20 /><anim id="FaintSmile" target="actor" targetSpec="" /></message>
+<anim id="Assent" target="actor" targetSpec="" />アンタは　<ruby a="2" b="4">いま</ruby>今でも　<delay8 /><ruby a="4" b="6">だいじ</ruby>大事なダチなんだからね！</message>
+	<message label="204" attrib="00 00 00 00 00 00 00 00"><anim id="Restless" target="actor" targetSpec="" />おいおい　<delay8 /><tag a="110" b="3" />、<delay frames="30" />
+そこは　ウソでも<delay8 />「うん」って<ruby a="2" b="2">い</ruby>言うトコだろ？<delay frames="40" />
+<anim id="ShyBoy" target="actor" targetSpec="" />まったく　アンタってヤツは　<delay8 /><ruby a="4" b="6">あいか</ruby>相変わらずだねぇ<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />ま、<delay20 />ウチに<ruby a="2" b="2">あ</ruby>会うのが　<ruby a="4" b="8">もくてき</ruby>目的じゃなくても<delay20 />
+<anim id="Smiling" target="actor" targetSpec="" /><ruby a="2" b="2">き</ruby>来てくれただけで　うれしいけどさ！　<tag a="110" b="6" /></message>
+	<message label="210" attrib="d3 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />なぁ　<tag a="110" b="3" />、<delay20 />
+あれから　<tag a="110" b="34" />は<delay20 />
+どんな<ruby a="2" b="4">かん</ruby>感じだい？</message>
+	<message label="211" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
+	<message label="211_01" attrib="00 00 00 00 00 00 00 00"><anim id="Hello" target="actor" targetSpec="" /><tag a="110" b="32" />のヤツらとは　<delay8 /><ruby a="4" b="6">なかよ</ruby>仲良くやってんのかい？<delay frames="40" />
+<anim id="Nodding" target="actor" targetSpec="" />まあ、<delay8 />アンタなら　<ruby a="6" b="12">だいじょうぶ</ruby>大丈夫だと<ruby a="2" b="4">おも</ruby>思うけど<tag a="110" b="0" /><pageBreak /><anim id="Smiling" target="actor" targetSpec="" />とりあえず　<delay8 />こうやって　ニコニコしてれば
+たいてい　なんとかなるからさ！<delay frames="40" />
+<anim id="Grin" target="actor" targetSpec="" />ケンカなんざ　<delay8 />するんじゃないよ？　<tag a="110" b="6" /></message>
+	<message label="211_02" attrib="00 00 00 00 00 00 00 00"><anim id="Hello" target="actor" targetSpec="" /><ruby a="2" b="4">はな</ruby>花の<ruby a="4" b="4">せわ</ruby>世話は　<delay8 />やってくれてるかい？<delay frames="40" />
+<anim id="FaintSmile" target="actor" targetSpec="" />マメに　<ruby a="2" b="4">みず</ruby>水やりして、<delay8 /><ruby a="4" b="8">たいせつ</ruby>大切にしてやるんだよ<pageBreak /><anim id="Blushing" target="actor" targetSpec="" />こっちが　<ruby a="6" b="12">あいじょうも</ruby>愛情持って　<ruby a="4" b="4">せわ</ruby>世話すれば<delay20 />
+ちゃんと　<ruby a="2" b="4">こた</ruby>応えてくれるんだからさ、<tag a="110" b="6" /></message>
+	<message label="211_03" attrib="00 00 00 00 00 00 00 00"><anim id="ShyBoy" target="actor" targetSpec="" />もしも　<ruby a="4" b="6">さまが</ruby>様変わりしちまってたら<delay20 />
+ちょいと　<ruby a="2" b="4">さび</ruby>寂しい<ruby a="2" b="2">き</ruby>気もするねぇ<tag a="110" b="0" /><pageBreak /><anim id="Eh" target="actor" targetSpec="" />でも、<delay20 />ガラッと　<ruby a="2" b="2">か</ruby>変わってるんだとしたら<delay20 />
+<anim id="Laughing" target="actor" targetSpec="" />それはそれで　<ruby a="2" b="2">み</ruby>見てみたいよ！　<tag a="110" b="6" /></message>
 </msbt>

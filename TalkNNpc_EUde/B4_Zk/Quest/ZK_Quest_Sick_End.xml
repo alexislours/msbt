@@ -1,6 +1,5 @@
 <msbt attribsize="8">
-	<message label="001" attrib="00 00 02 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Oh, <delay8 /><tag a="110" b="3" />... <delay20 />Bist du
-gekommen, <delay8 />um nach mir zu sehen?</message>
+	<message label="001" attrib="00 00 02 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Oh, <delay8 /><tag a="110" b="3" />... <delay20 />Bist du gekommen, <delay8 />um nach mir zu sehen?</message>
 	<message label="001_a" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="player" targetSpec="" />Medizin für dich!
 <anim id="EmotEnd" target="player" targetSpec="" />Hier ist Medizin!
 <anim id="EmotEnd" target="player" targetSpec="" />Ich habe Medizin!</message>
@@ -103,17 +102,17 @@ anderen ständig gespielt... <delay8 />und nun
 zahle ich den Preis.<anim id="EmotEnd" target="actor" targetSpec="" /></message>
 	<message label="108" attrib="00 00 00 00 00 00 00 00"><anim id="Shaking" target="actor" targetSpec="" />Was hast du getan...<delay20 />
 <anim id="Fuming" target="actor" targetSpec="" />Was hast du GETAN?!<anim id="EmotEnd" target="actor" targetSpec="" /></message>
-	<message label="109" attrib="00 00 00 00 00 00 00 00"><anim id="HappyFlower" target="actor" targetSpec="" />Aaah... Ich fühle mich schon so viel
-besser, und das habe ich nur dir
+	<message label="109" attrib="00 00 00 00 00 00 00 00"><anim id="HappyFlower" target="actor" targetSpec="" />Aaah<tag a="110" b="0" /><delay8 /> Ich fühle mich schon so viel
+besser, <delay8 />und das habe ich nur dir
 zu verdanken.<pageBreak /><anim id="Hesitate" target="actor" targetSpec="" />Du sollst meine ewige Dankbarkeit
-haben. <delay20 />Und <tag a="50" b="17" arg="0x15 0xcd00 0xc 0x64 0x69 0x65 0x73 0x65 0x6e 0xa 0x64 0x69 0x65 0x73 0x65 0xc 0x64 0x69 0x65 0x73 0x65 0x73" /> <tag a="50" b="23" arg="0xcd01" /><tag a="125" b="4" arg="0x0" />!</message>
+haben. <delay20 />Und <tag a="50" b="17" arg="0x16 0xcd00 0xc 0x64 0x69 0x65 0x73 0x65 0x6e 0xa 0x64 0x69 0x65 0x73 0x65 0xc 0x64 0x69 0x65 0x73 0x65 0x73" /> <tag a="50" b="23" arg="0xcd01" /><tag a="125" b="4" arg="0x0" />!</message>
 	<message label="110" attrib="00 00 00 00 00 00 00 00"><anim id="AbsentMindedness" target="actor" targetSpec="" />Hmm, <delay8 />ja... <delay20 />Ich fühle mich jetzt
 schon so viel gesünder...<pageBreak /><anim id="ShyBoy" target="actor" targetSpec="" />Hier, <delay8 />als kleines Dankeschön für
-<gender2 m="meinen Retter" f="meine Retterin" />. <delay20 /><anim id="BigSmile" target="actor" targetSpec="" /><tag a="50" b="17" arg="0x15 0xcd00 0x6 0x45 0x69 0x6e 0x8 0x45 0x69 0x6e 0x65 0x6 0x45 0x69 0x6e" /> <tag a="125" b="4" arg="0x0" />!</message>
+<gender2 m="meinen Retter" f="meine Retterin" />. <delay20 /><anim id="BigSmile" target="actor" targetSpec="" /><tag a="50" b="17" arg="0x16 0xcd00 0x6 0x45 0x69 0x6e 0x8 0x45 0x69 0x6e 0x65 0x6 0x45 0x69 0x6e" /> <tag a="125" b="4" arg="0x0" />!</message>
 	<message label="111" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Ich danke dir von Herzen!<delay20 /> Ich fühle
 mich jetzt schon besser, <delay8 />und das
 habe ich nur dir zu verdanken.<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Hoffentlich heitert dies auch deinen
-Tag ein wenig auf – <delay8 />nimm <tag a="50" b="17" arg="0x15 0xcd00 0xc 0x64 0x69 0x65 0x73 0x65 0x6e 0xa 0x64 0x69 0x65 0x73 0x65 0xc 0x64 0x69 0x65 0x73 0x65 0x73" />
+Tag ein wenig auf – <delay8 />nimm <tag a="50" b="17" arg="0x16 0xcd00 0xc 0x64 0x69 0x65 0x73 0x65 0x6e 0xa 0x64 0x69 0x65 0x73 0x65 0xc 0x64 0x69 0x65 0x73 0x65 0x73" />
 <tag a="50" b="23" arg="0xcd01" /><tag a="125" b="4" arg="0x0" />!</message>
 	<message label="112" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Gib gut auf dich acht, <delay8 />ja?<delay20 />
 <anim id="Worried" target="actor" targetSpec="" />Ich glaube, <delay8 />dass das, was ich
@@ -126,7 +125,9 @@ gewählten Outfit, <delay8 />versteht sich.</message>
 Zögere nicht, <delay8 />in deiner finstersten
 Stunde nach mir zu rufen.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Dann werde ICH es sein, <delay8 />der DIR
 die <colour id="1" />Medizin<colour id="65535" /> bringt!</message>
-	<message label="200" attrib="00 00 00 00 00 00 00 00"><anim id="Hesitate" target="actor" targetSpec="" />Ich kann gar nicht ausdrücken, <delay8 />wie dankbar ich bin, <tag a="110" b="3" />. Und dabei bin ich sonst so eloquent!<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Nun, <delay8 />dann drücke ich mich eben mit
+	<message label="200" attrib="00 00 00 00 00 00 00 00"><anim id="Hesitate" target="actor" targetSpec="" />Ich kann gar nicht ausdrücken, <delay8 />wie
+dankbar ich bin,<delay8 /> <tag a="110" b="3" />.
+<delay20 />Und dabei bin ich sonst so eloquent!<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Nun, <delay8 />dann drücke ich mich eben mit
 einem Präsent aus<tag a="110" b="0" /><10_4 /> <anim id="Aha" target="actor" targetSpec="" />Moment, <delay20 />deine
 Tasche ist ja total voll!
 <anim id="FaintSmile" target="actor" targetSpec="" />Ach, <delay8 />dann schick ich's dir eben

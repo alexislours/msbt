@@ -5,7 +5,7 @@ Me ha encantado el color.</message>
 	<message label="100_02" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Hacía tiempo que quería algo así,<delay8 />
 ¡gracias!</message>
 	<message label="100_03" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />¡Gracias! <delay20 />Estaba pensando
-en comprarme <tag a="50" b="17" arg="0x11 0xcd00 0x6 0x75 0x6e 0x6f 0x6 0x75 0x6e 0x61 0x0" /> igual.</message>
+en comprarme <tag a="50" b="17" arg="0x12 0xcd00 0x6 0x75 0x6e 0x6f 0x6 0x75 0x6e 0x61 0x0" /> igual.</message>
 	<message label="101" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Seguro que quedará de maravilla
 en mi casa.</message>
 	<message label="102" attrib="00 00 00 00 00 00 00 00"><anim id="HappyFlower" target="actor" targetSpec="" />Me gusta que sea tan brillante
@@ -14,6 +14,9 @@ especial a mi puerta.</message>
 	<message label="103" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Creo que lograré cambiar
 el ambiente de mi hogar con
 esta nueva adquisición.</message>
+	<message label="104" attrib="00 00 00 00 00 00 00 00"><colour id="4" /><anim id="Thinking" target="actor" targetSpec="" />(Este objeto me da una sensación
+extraña,<delay8 /> como si ya lo conociera<tag a="110" b="0" /><delay20 />
+<anim id="Nodding" target="actor" targetSpec="" />Bah, será cosa mía.)<colour id="65535" /></message>
 	<message label="111" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Parece un espécimen alucinante.<delay20 />
 ¡Gracias, <tag a="110" b="6" />!</message>
 	<message label="112" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />No estoy segura de qué fósil será,<delay20 />
@@ -40,7 +43,7 @@ queda bien.</message>
 	<message label="207_01" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />¡Me encanta el color!<delay20 />
 Muchas gracias.</message>
 	<message label="207_02" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Me gusta mucho, ¡gracias!</message>
-	<message label="207_03" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />¡Parece hech<tag a="50" b="17" arg="0x11 0xcd00 0x2 0x6f 0x2 0x61 0x0" /> a mi medida!<delay20 />
+	<message label="207_03" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />¡Parece hech<tag a="50" b="17" arg="0x12 0xcd00 0x2 0x6f 0x2 0x61 0x0" /> a mi medida!<delay20 />
 ¡Muchas gracias!</message>
 	<message label="221" attrib="00 00 00 00 00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Es un detalle,<delay8 /> aunque me temo que
 no es muy de mi estilo.</message>
@@ -49,7 +52,7 @@ de verdad!</message>
 	<message label="301" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Siempre es de agradecer recibir
 regalos tan prácticos, <tag a="110" b="6" />.</message>
 	<message label="302" attrib="00 00 00 00 00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />Vaya, tendré que aprender a usar
-un<tag a="50" b="17" arg="0x11 0xcd00 0x2 0x6f 0x2 0x61 0x0" /> de est<tag a="50" b="17" arg="0x11 0xcd00 0x2 0x6f 0x2 0x61 0x0" />s.<delay20 /><anim id="FaintSmile" target="actor" targetSpec="" /> ¡Gracias!</message>
+un<tag a="50" b="17" arg="0x12 0xcd00 0x2 0x6f 0x2 0x61 0x0" /> de est<tag a="50" b="17" arg="0x12 0xcd00 0x2 0x6f 0x2 0x61 0x0" />s.<delay20 /><anim id="FaintSmile" target="actor" targetSpec="" /> ¡Gracias!</message>
 	<message label="303" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />¡Muchas gracias! <delay20 />Ya me vienen
 ideas de bricolaje a la mente<tag a="110" b="0" /></message>
 	<message label="304" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />¡Gracias! <delay20 />No acostumbro a usar
@@ -72,9 +75,8 @@ acordarme de ti cuando l<50_27 x="0" y="0" a="o" b="a" c="" /> vea.</message>
 Menuda pieza.</message>
 	<message label="407" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Gracias, flor. <delay20 />Le buscaré un buen
 lugar en mi casita.</message>
-	<message label="408" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />¡Qué <tag a="125" b="0" arg="0x0" />
-tan extraordinari<tag a="50" b="17" arg="0x11 0xcd00 0x2 0x6f 0x2 0x61 0x0" />!</message>
-	<message label="409" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Muchas gracias por cazarl<tag a="50" b="17" arg="0x11 0xcd00 0x2 0x6f 0x2 0x61 0x0" /> para
+	<message label="408" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />¡Qué <tag a="125" b="0" arg="0x0" /> tan extraordinari<tag a="50" b="17" arg="0x12 0xcd00 0x2 0x6f 0x2 0x61 0x0" />!</message>
+	<message label="409" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Muchas gracias por cazarl<tag a="50" b="17" arg="0x12 0xcd00 0x2 0x6f 0x2 0x61 0x0" /> para
 mí.<delay20 /> ¡Me encanta!</message>
 	<message label="410" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Me hace mucha ilusión,<delay8 /> pero me
 parece que <colour id="3" />Sócrates <colour id="65535" />aún no tiene
@@ -82,7 +84,7 @@ un ejemplar de esta especie.
 <anim id="Hello" target="actor" targetSpec="" />¿Quizá te interesaría dárselo a él?<delay20 />
 <anim id="Nodding" target="actor" targetSpec="" />Seguro que la isla entera se
 beneficiaría a la larga.</message>
-	<message label="411" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Me parece que en <colour id="3" />Sócrates <colour id="65535" />aún
+	<message label="411" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Me parece que <colour id="3" />Sócrates <colour id="65535" />aún
 no dispone de un ejemplar
 como este.
 <anim id="Worried" target="actor" targetSpec="" />Es un regalo genial, <delay8 />pero me sabe

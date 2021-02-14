@@ -16,15 +16,15 @@
 Приступим к делу!<delay frames="40" /><anim id="NpcShuffle" target="actor" targetSpec="" /> Дай-ка
 я перетасую карты<tag a="110" b="0" /></message>
 	<message label="005" attrib="00 00 00 00 00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Итак, у меня в руках карта<tag a="110" b="0" /></message>
-	<message label="006_01" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Как и было обещано, вот тебе мо<tag a="50" b="24" arg="0x11 0xcd00 0x2 0x439 0x2 0x44f 0x2 0x435 0x2 0x438" />
+	<message label="006_01" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Как и было обещано, вот тебе мо<tag a="50" b="24" arg="0x12 0xcd00 0x2 0x439 0x2 0x44f 0x2 0x435 0x2 0x438" />
 <tag a="125" b="0" arg="0x0" />. Отдаю!
 <delay frames="40" /><anim id="FaintSmile" target="actor" targetSpec="" />Я свое слово держу.</message>
 	<message label="006_02" attrib="00 00 00 00 00 00 00 00"><anim id="ShyBoy" target="actor" targetSpec="" />Надо же. Никак не ожидал, что ты
-угадаешь<tag a="110" b="0" /><delay frames="40" /><pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Ну, как я и обещал, вот тебе мо<tag a="50" b="24" arg="0x11 0xcd00 0x2 0x439 0x2 0x44f 0x2 0x435 0x2 0x438" />
+угадаешь<tag a="110" b="0" /><delay frames="40" /><pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Ну, как я и обещал, вот тебе мо<tag a="50" b="24" arg="0x12 0xcd00 0x2 0x439 0x2 0x44f 0x2 0x435 0x2 0x438" />
 <tag a="125" b="0" arg="0x0" />.<delay20 />
 <anim id="FaintSmile" target="actor" targetSpec="" />Ну же, смелее, забирай свой приз.</message>
 	<message label="006_03" attrib="00 00 00 00 00 00 00 00"><anim id="Laughing" target="actor" targetSpec="" />Ай-ай! Вот так досада!<delay frames="40" /><anim id="FaintSmile" target="actor" targetSpec="" /> Похоже, что
-<tag a="125" b="0" arg="0x0" /> побуд<tag a="50" b="24" arg="0x11 0xcd00 0x2 0x435 0x2 0x435 0x2 0x435 0x2 0x443" />т
+<tag a="125" b="0" arg="0x0" /> побуд<tag a="50" b="24" arg="0x12 0xcd00 0x2 0x435 0x2 0x435 0x2 0x435 0x2 0x443" />т
 пока у меня<tag a="110" b="0" /></message>
 	<message label="007_01" attrib="00 00 00 00 00 00 00 00"><anim id="ShyBoy" target="actor" targetSpec="" />Ну, хоть я и проиграл в этот раз,
 игра меня все равно позабавила.<delay frames="40" /><pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Но в следующий раз победителем
@@ -37,8 +37,7 @@
 настрой!<anim id="FaintSmile" target="actor" targetSpec="" /> Что ж, давай сразу
 приступим к делу.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" /><anim id="Silent" target="actor" targetSpec="" />Хотя<tag a="110" b="0" /> Погоди-ка.<10_4 /> <anim id="OhGeez" target="actor" targetSpec="" />У тебя карманы-
 то под завязку набиты! Ты что, не
-хочешь приз выиграть?<pageBreak /><anim id="Silent" target="actor" targetSpec="" />Пойди-ка освободи место для мо<tag a="50" b="24" arg="0x11 0xcd00 0x6 0x435 0x433 0x43e 0x4 0x435 0x439 0x6 0x435 0x433 0x43e 0x4 0x438 0x445" />
-<tag a="50" b="23" arg="0xcd03" /><tag a="125" b="0" arg="0x0" />.<delay40 />
+хочешь приз выиграть?<pageBreak /><anim id="Silent" target="actor" targetSpec="" />Пойди-ка освободи место.<delay40 />
 <anim id="Grin" target="actor" targetSpec="" />Тогда и сыграем. <tag a="50" b="3" /><tag a="110" b="6" />!</message>
 	<message label="100" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Значит, так. У меня четыре карты,
 на каждой изображен один из
@@ -72,12 +71,15 @@
 изображен?<delay20 /> <colour id="6" />Красного<colour id="65535" /> или <colour id="7" />черного<colour id="65535" />?</message>
 	<message label="201_a" attrib="00 00 00 00 00 00 00 00"><colour id="6" />Красного<colour id="65535" />!</message>
 	<message label="201_b" attrib="00 00 00 00 00 00 00 00"><colour id="7" />Черного<colour id="65535" />!</message>
-	<message label="202_01" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Чудеса в решете! <delay20 />Это <tag a="140" b="14" arg="0xcd00" />, ты
-угадал<gender2 m="" f="а" />!<delay frames="40" /> <anim id="Clapping" target="actor" targetSpec="" />Победа за тобой!</message>
-	<message label="202_02" attrib="00 00 00 00 00 00 00 00"><anim id="Pardon" target="actor" targetSpec="" />Ай, мне очень жаль, козявка. Это
-<tag a="140" b="14" arg="0xcd00" />.<delay frames="40" /> <anim id="WrySmile" target="actor" targetSpec="" />Ты не угадал<gender2 m="" f="а" />.</message>
+	<message label="202_01" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Чудеса в решете! <delay20 />Это <tag a="140" b="14" arg="0xcd00" />!
+И правда <colour id="6" />красный<colour id="65535" />, ты угадал<gender2 m="" f="а" />!<delay frames="40" />
+<anim id="Clapping" target="actor" targetSpec="" />Победа за тобой!</message>
+	<message label="202_02" attrib="00 00 00 00 00 00 00 00"><anim id="Pardon" target="actor" targetSpec="" />Ай, мне очень жаль, козявка.
+Это <tag a="140" b="14" arg="0xcd00" />, то есть <colour id="7" />черный<colour id="65535" />.<delay frames="40" />
+<anim id="WrySmile" target="actor" targetSpec="" />Ты не угадал<gender2 m="" f="а" />.</message>
 	<message label="202_03" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Чудеса в решете! <delay20 />Это <tag a="140" b="14" arg="0xcd00" />!<delay frames="40" />
-<anim id="Clapping" target="actor" targetSpec="" />Ты выиграл<gender2 m="" f="а" />!</message>
-	<message label="202_04" attrib="00 00 00 00 00 00 00 00"><anim id="Pardon" target="actor" targetSpec="" />Ай, мне очень жаль, козявка. Это
-<tag a="140" b="14" arg="0xcd00" />.<delay frames="40" /> <anim id="WrySmile" target="actor" targetSpec="" />Ты не угадал<gender2 m="" f="а" />.</message>
+И правда <colour id="7" />черный<colour id="65535" />!<anim id="Clapping" target="actor" targetSpec="" /> Ты выиграл<gender2 m="" f="а" />!</message>
+	<message label="202_04" attrib="00 00 00 00 00 00 00 00"><anim id="Pardon" target="actor" targetSpec="" />Ай, мне очень жаль, козявка.
+Это <colour id="6" />красный<colour id="65535" />, <tag a="140" b="14" arg="0xcd00" />.<delay frames="40" />
+<anim id="WrySmile" target="actor" targetSpec="" />Так что ты не угадал<gender2 m="" f="а" />.</message>
 </msbt>

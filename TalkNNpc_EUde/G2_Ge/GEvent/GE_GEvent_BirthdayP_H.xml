@@ -1,7 +1,5 @@
 <msbt attribsize="8">
-	<message label="001" attrib="00 00 00 00 00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />Hey, <delay8 /><tag a="110" b="3" />!<delay40 /> <anim id="HappyDance" target="actor" targetSpec="" />Darf ich
-dich mal eben kurz entführen?<delay20 />
-<anim id="Serious" target="actor" targetSpec="" />Frag nicht, komm einfach mit!</message>
+	<message label="001" attrib="00 00 00 00 00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />Hey, <delay8 /><tag a="110" b="3" />!<delay40 /> <anim id="HappyDance" target="actor" targetSpec="" />Darf ich dich mal eben kurz entführen?<delay20 /> <anim id="Serious" target="actor" targetSpec="" />Frag nicht, <delay8 />komm einfach mit!</message>
 	<message label="002" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Na eeendlich! <delay20 />Ich hab schon auf
 dich gewartet, <delay8 /><tag a="110" b="3" />!<delay40 />
 <anim id="Explain" target="actor" targetSpec="" />Komm, <delay8 />folge mir unauffällig.</message>
@@ -39,7 +37,7 @@ Wo willst du denn hin?!<delay40 />
 	<message label="010" attrib="00 00 00 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="110" b="3" />, <delay8 />warte mal!<delay40 />
 <anim id="Greeting" target="actor" targetSpec="" />Willst du nicht wenigstens die
 Kerzen auf der Torte auspusten?</message>
-	<message label="011" attrib="00 00 00 00 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" /><tag a="110" b="3" />? Was ist los?<delay40 />
+	<message label="011" attrib="00 00 00 00 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="110" b="3" />? <delay8 />Was ist los?<delay40 />
 <anim id="Smiling" target="actor" targetSpec="" />Heute ist DEIN Tag! <delay20 />Du musst erst
 noch die Kerzen auspusten!
 Komm schon! <delay8 />Los jetzt! <delay8 />Nicht lange
@@ -73,8 +71,7 @@ ich bin gleich wieder da!</message>
 	<message label="020" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" /><delay20 />Jetzt schau mal schön nach oben,<delay8 />
 <tag a="110" b="3" />!<pageBreak /><anim id="HappyDance" target="actor" targetSpec="" /><delay20 />TA-DAAA!<delay20 /> Und,<delay8 /> gefällt sie dir,<delay8 />
 deine Megaüberraschung?</message>
-	<message label="021" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Guck mal, <delay8 /><tag a="110" b="3" />,
-was da von der Decke baumelt...<delay20 />
+	<message label="021" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Guck mal, <delay8 /><tag a="110" b="3" />,<delay8 /> was da von der Decke baumelt...<delay20 />
 <anim id="Greeting" target="actor" targetSpec="" />Eine Piñata. <delay20 />Von uns. <delay20 />Für dich!
 <anim id="Explain" target="actor" targetSpec="" />Und, Achtung, <delay8 />halt dich fest: <delay20 />Wenn
 du die Piñata kaputthaust, <delay8 /><anim id="HappyDance" target="actor" targetSpec="" />purzeln
@@ -140,11 +137,8 @@ Los,<delay8 /> hau sie kaputt, <delay8 /><tag a="110" b="5" />!</message>
 nicht erst mal die Piñata aufkloppen?
 <delay20 />Sie ist nur für dich, <delay8 /><tag a="110" b="5" />!</message>
 	<message label="100" attrib="00 00 00 00 00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />Stell dich vor den Kuchen und
-drück <colour id="1" /><colour id="65535" />, <delay8 /><tag a="110" b="5" />! <delay20 /><anim id="Scheming" target="actor" targetSpec="" />Wenn du es
-nicht tust, <delay8 />dann du ich es<tag a="110" b="0" />
-<anim id="Laughing" target="actor" targetSpec="" />Ell oh ell! <delay frames="40" /><anim id="Hello" target="actor" targetSpec="" />Würd ich dir doch nie
-antun, <delay8 /><tag a="110" b="3" />. <delay20 />Erst recht
-nicht an deinem Geburtstag!</message>
+drück <colour id="1" /><colour id="65535" />, <delay8 /><tag a="110" b="5" />! <delay20 /><anim id="Scheming" target="actor" targetSpec="" />Wenn du es nicht tust, <delay8 />dann tu ich es<tag a="110" b="0" /><pageBreak /><anim id="Laughing" target="actor" targetSpec="" />Ell oh ell! <delay frames="40" /><anim id="Hello" target="actor" targetSpec="" />Würd ich dir doch nie
+antun, <delay8 /><tag a="110" b="3" />. <delay20 />Erst recht nicht an deinem Geburtstag!</message>
 	<message label="101" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Na los doch!<delay40 /> <anim id="HappyDance" target="actor" targetSpec="" />Alle warten schon ge-
 spannt wie Flitzebogen darauf,<delay8 /> dass
 du mit <colour id="1" /> <colour id="65535" />die Kerzen auspustest!</message>
@@ -165,8 +159,7 @@ gegeben!<anim id="Blushing" target="actor" targetSpec="" /> <delay20 />Du hätte
 aber Geburtstagstorten schmecken
 <anim id="Greeting" target="actor" targetSpec="" />gleich noch mal 'ne Spur leckerer!</message>
 	<message label="106" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Der heutige Tag gehört ganz allein
-dir, <delay8 /><tag a="110" b="3" />! <delay40 /><anim id="EmotEnd" target="actor" targetSpec="" />Also lass uns
-Party machen, <delay8 />bis die Bude wackelt!</message>
+dir, <delay8 /><tag a="110" b="3" />! <delay40 /><anim id="EmotEnd" target="actor" targetSpec="" />Also lass uns Party machen, <delay8 />bis die Bude wackelt!</message>
 	<message label="107" attrib="00 00 00 00 00 00 00 00"><anim id="Blushing" target="actor" targetSpec="" />Dir hat die Party als auch genauso
 viel Spaß gemacht wie mir?<delay20 /> <anim id="Smiling" target="actor" targetSpec="" />Yay!<delay8 />
 Das bedeutet mir voll viel!</message>

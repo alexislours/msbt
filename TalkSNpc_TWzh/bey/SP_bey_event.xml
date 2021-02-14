@@ -213,7 +213,7 @@
 <anim id="FaintSmile" target="actor" targetSpec="" />我會用高價收購參加者的魚喔。</message>
 	<message label="049_a" attrib="00 00 00 00">想賣魚</message>
 	<message label="049_b" attrib="00 00 00 00">進行點數兌換</message>
-	<message label="049_c" attrib="00 00 00 00">其他事情</message>
+	<message label="049_c" attrib="00 00 00 00">關於大會</message>
 	<message label="049_d" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />沒什麼事</message>
 	<message label="050" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />OK，OK！<delay frames="30" />
 <anim id="FaintSmile" target="actor" targetSpec="" />那麼，給我看看你想賣的魚吧！</message>
@@ -240,13 +240,16 @@
 <anim id="ShyBoy" target="actor" targetSpec="" />這次的活動<delay8 />
 需要參加者自備釣竿呢。<delay frames="30" />
 <anim id="Worried" target="actor" targetSpec="" />抱歉啊～</message>
-	<message label="061" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />OK！<delay20 />
-可是<tag a="110" b="0" /><anim id="Eh" target="actor" targetSpec="" />咦？<delay frames="30" />
-<anim id="Serious" target="actor" targetSpec="" />你的錢<delay8 />好像不夠呢。<pageBreak /><anim id="ShyBoy" target="actor" targetSpec="" />從第二次起，每參加一次
-就要付<tag a="90" b="21" arg="0x2" />，<delay frames="30" />
-<anim id="Worried" target="actor" targetSpec="" />抱歉啊～</message>
-	<message label="062" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />OK！就等你這句話！<delay40 />
-<anim id="Nodding" target="actor" targetSpec="" />那麼，請先付<tag a="90" b="21" arg="0x2" />報名費。</message>
+	<message label="061" attrib="00 00 00 00"><tag a="110" b="0" /><anim id="Eh" target="actor" targetSpec="" />咦，<delay8 />奇怪奇怪？<delay frames="30" />
+<anim id="Serious" target="actor" targetSpec="" />你的錢<delay8 />好像不夠呢。<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />等你準備好<tag a="90" b="21" arg="0x2" />之後，<delay20 />
+<anim id="Hello" target="actor" targetSpec="" />再來找我吧。</message>
+	<message label="062" attrib="02 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />OK！<delay8 />就等你這句話！<pageBreak /><anim id="ShyBoy" target="actor" targetSpec="" />從第2次開始，<delay8 />
+每參加1次就要收取<tag a="90" b="21" arg="0x2" />，<delay20 />
+<anim id="Hello" target="actor" targetSpec="" />還是要參加嗎？</message>
+	<message label="062_a" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />OK</message>
+	<message label="062_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />還是算了</message>
+	<message label="062_01" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />喂～！<delay8 />這樣才對嘛！<delay frames="30" />
+<anim id="Nodding" target="actor" targetSpec="" />那麼，<delay20 />我要先收取參加費<tag a="90" b="21" arg="0x2" />。</message>
 	<message label="063" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />那麼，從現在開始<delay8 />計時<colour id="1" /><tag a="90" b="0" arg="0xe" />分鐘<colour id="65535" />，<delay20 />
 要釣很多很多魚回來喔！<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />只要釣到<colour id="1" /><tag a="90" b="1" arg="0x4" />條<colour id="65535" />以上，<delay8 />
 就可以獲得額外點數，加油！<delay frames="40" />
@@ -450,6 +453,11 @@
 	<message label="151" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />順道說一下，
 你獲得的點數
 會自動加到你的持有點數裡喔。</message>
+	<message label="159" attrib="00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />嘿嘿～！<delay8 />很久沒見啦！<delay40 />
+<anim id="BigSmile" target="actor" targetSpec="" />你好！<delay8 />我是<colour id="3" />俞司廷<colour id="65535" />！
+<anim id="HappyDance" target="actor" targetSpec="" />是今天<colour id="1" />釣魚大會<colour id="65535" />的主持人。<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />這樣說起來，<delay8 /><anim id="Eh" target="actor" targetSpec="" />咦？<delay20 />
+難道<delay20 /><anim id="QuestionMark" target="actor" targetSpec="" />你參加過<colour id="1" />釣魚大會<colour id="65535" />了嗎？！<10_4 />
+<anim id="Smiling" target="actor" targetSpec="" />嘿！<delay20 />怎麼樣？<delay8 />有釣到魚嗎？</message>
 	<message label="152" attrib="00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />嘿嘿～！<delay8 />很久沒見啦！<delay40 />
 <anim id="BigSmile" target="actor" targetSpec="" />你好！<delay8 />我是<colour id="3" />俞司廷<colour id="65535" />！
 <anim id="HappyDance" target="actor" targetSpec="" />是今天<colour id="1" />釣魚大會<colour id="65535" />的主持人。<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />這樣說起來，<delay8 /><anim id="Eh" target="actor" targetSpec="" />咦？<delay20 />
@@ -461,6 +469,23 @@
 	<message label="155" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />達到<colour id="1" /><tag a="90" b="1" arg="0x0" />點<colour id="65535" />以上，<delay20 />
 就可以兌換精美獎品！<delay40 />
 <anim id="BigSmile" target="actor" targetSpec="" />Let's challenge！</message>
+	<message label="156" attrib="00 00 00 00">嗯<tag a="110" b="0" /><delay8 />
+在<colour id="1" />保冷箱<colour id="65535" />的魚<delay20 />一共有<colour id="1" /><tag a="90" b="1" arg="0x8" />條<colour id="65535" /><tag a="110" b="0" /><delay40 />
+<anim id="FaintSmile" target="actor" targetSpec="" />哎呀～<delay8 />你可真專業啊！</message>
+	<message label="156_01" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />因為保冷箱已經放不下了，<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />所以超過20條的部分，
+我就直接收走囉。<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />收走的部分，我會捐贈給<delay8 />
+<anim id="Smiling" target="actor" targetSpec="" />改善魚類生態環境的機構，<delay20 />
+那就拜託你囉！<pageBreak /><anim id="Eh" target="actor" targetSpec="" />啊，<delay8 />點數當然還是會有的，<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />你大可以放心！</message>
+	<message label="157" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />以你的情況來計算，<delay20 />
+除了基本的<colour id="1" /><tag a="90" b="1" arg="0x8" />點<colour id="65535" />，<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />還可以拿到<colour id="1" /><tag a="90" b="1" arg="0x4" />條以上<colour id="65535" />才有的獎勵喔。<pageBreak /><anim id="Thinking" target="actor" targetSpec="" />所有參加者釣到的魚<delay20 />一共是<colour id="1" /><tag a="90" b="2" arg="0x9" />條<colour id="65535" /><tag a="110" b="0" /><delay frames="50" />
+<anim id="BigSmile" target="actor" targetSpec="" />因為有<colour id="1" /><tag a="90" b="1" arg="0xa" />條以上<colour id="65535" />，<delay20 />
+所以還會有合作獎勵！</message>
+	<message label="158" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />以你的情況來計算，<delay20 />
+除了基本的<colour id="1" /><tag a="90" b="1" arg="0x8" />點<colour id="65535" />，<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />還可以拿到<colour id="1" /><tag a="90" b="1" arg="0x4" />條以上<colour id="65535" />才有的獎勵喔。</message>
 	<message label="160" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />參加挑戰時釣到的魚，<delay20 />
 <anim id="FaintSmile" target="actor" targetSpec="" />會被放進帳篷下的<colour id="1" />保冷箱<colour id="65535" />裡。<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />幫手釣到的魚，<delay20 />
 <anim id="Nodding" target="actor" targetSpec="" />也全都會放進去，<delay20 />
@@ -502,12 +527,12 @@
 	<message label="165_a" attrib="00 00 00 00">我要參加大會</message>
 	<message label="165_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />不參加</message>
 	<message label="166" attrib="02 00 00 00">那麼事不宜遲，<delay20 />
-<anim id="QuestionMark" target="actor" targetSpec="" />要來參加<colour id="1" />釣魚大會<colour id="65535" />嗎？<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />如果你是第一次當主要參加者，<delay20 />
-<anim id="FaintSmile" target="actor" targetSpec="" />就不用付報名費喔！</message>
+<anim id="QuestionMark" target="actor" targetSpec="" />要來參加<colour id="1" />釣魚大會<colour id="65535" />嗎？<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />你今天<delay8 />是第一次當主要參加者，<delay frames="30" />
+<anim id="FaintSmile" target="actor" targetSpec="" />所以不用付報名費喔！</message>
 	<message label="166_a" attrib="00 00 00 00">我要參加大會</message>
 	<message label="166_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />不參加</message>
 	<message label="167" attrib="06 00 00 00">那麼事不宜遲，<delay20 />
-<anim id="QuestionMark" target="actor" targetSpec="" />要來參加<colour id="1" />釣魚大會<colour id="65535" />嗎？<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />你是第一次當主要參加者，<delay20 />
+<anim id="QuestionMark" target="actor" targetSpec="" />要來參加<colour id="1" />釣魚大會<colour id="65535" />嗎？<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />你今天是第一次當主要參加者，<delay20 />
 <anim id="FaintSmile" target="actor" targetSpec="" />所以不用付報名費喔！</message>
 	<message label="167_a" attrib="00 00 00 00">我要參加大會</message>
 	<message label="167_b" attrib="00 00 00 00">大會規則是？</message>
@@ -531,7 +556,7 @@
 <colour id="1" />釣魚大會<colour id="65535" />結束了呢～！<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />我的心已經飛到下次的<colour id="1" />釣魚大會<colour id="65535" />去了！
 真期待啊～！</message>
 	<message label="171" attrib="06 00 00 00"><anim id="HappyDance" target="actor" targetSpec="" />嘿嘿，<delay8 />怎麼了怎麼了？<delay frames="40" />
-<anim id="QuestionMark" target="actor" targetSpec="" />要來參加<colour id="1" />釣魚大會<colour id="65535" />嗎？！<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />你是第一次<delay8 />當主要參加者<delay20 />
+<anim id="QuestionMark" target="actor" targetSpec="" />要來參加<colour id="1" />釣魚大會<colour id="65535" />嗎？！<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />你今天是<delay8 />第一次當主要參加者，<delay20 />
 <anim id="FaintSmile" target="actor" targetSpec="" />所以不用付報名費喔！</message>
 	<message label="171_a" attrib="00 00 00 00">我要參加大會</message>
 	<message label="171_b" attrib="00 00 00 00">大會規則是？</message>

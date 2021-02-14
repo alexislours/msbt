@@ -1,7 +1,7 @@
 <msbt attribsize="4">
-	<message label="000_01" attrib="00 00 00 00"><tag a="100" b="8" /><anim id="Smiling" target="actor" targetSpec="" />Здравствуйте, жители острова
+	<message label="000_01" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="Smiling" target="actor" targetSpec="" />Здравствуйте, жители острова
 <tag a="110" b="8" />!<delay40 /> Время: <tag a="90" b="30" />:<tag a="90" b="31" />.<endTag a="100" b="8" /></message>
-	<message label="000_02" attrib="00 00 00 00"><tag a="100" b="8" /><anim id="EmotEnd" target="actor" targetSpec="" />Я надеюсь, каждый из вас знает,<delay20 />
+	<message label="000_02" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="EmotEnd" target="actor" targetSpec="" />Я надеюсь, каждый из вас знает,<delay20 />
 <anim id="QuestionMark" target="actor" targetSpec="" />как ему лучше всего провести день.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Но не забывайте, что, занимаясь
 всем сразу, легко переутомиться.<delay20 />
 <anim id="Smiling" target="actor" targetSpec="" />Обязательно делайте передышки!<endTag a="100" b="8" /></message>
@@ -28,7 +28,7 @@
 	<message label="010" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="Smiling" target="mainNpc" targetSpec="" />Здравствуйте. Говорит<delay8 /> <colour id="3" />Том Нук<colour id="65535" />!<delay20 />
 Как поживаете?<pageBreak /><anim id="EmotEnd" target="mainNpc" targetSpec="" />Сегодня <tag a="90" b="29" /> <tag a="50" b="23" arg="0xcd03" /><tag a="90" b="28" /> <tag a="90" b="27" /> года,
 <tag a="110" b="18" />. Время: <tag a="90" b="30" />:<tag a="90" b="31" />.<anim id="EmotEnd" target="mainNpc" targetSpec="" />
-<tag a="100" b="8" /><anim id="Smiling" target="actor" targetSpec="" /><endTag a="100" b="8" />У меня небольшое сообщение.<endTag a="100" b="8" /></message>
+<anim id="Smiling" target="actor" targetSpec="" />У меня небольшое сообщение.<endTag a="100" b="8" /></message>
 	<message label="011_01" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="Smiling" target="actor" targetSpec="" />Сегодня один из глубокоуважаемых
 жителей острова празднует день
 рождения: <tag a="110" b="1" />!<endTag a="100" b="8" /></message>
@@ -54,6 +54,14 @@
 	<message label="022" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="Serious" target="actor" targetSpec="" /><anim id="FaintSmile" target="subNpc" targetSpec="" />Перейдем к другим сегодняшним
 новостям<tag a="110" b="0" /><endTag a="100" b="8" /></message>
 	<message label="031" attrib="00 00 00 12"><tag a="100" b="8" />Также<tag a="110" b="0" /><endTag a="100" b="8" /></message>
+	<message label="041_01" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="IdeaBulb" target="actor" targetSpec="" />Ого!<delay20 /> <colour id="1" />День зайцев <colour id="65535" />уже на носу!<delay20 /><anim id="FaintSmile" target="actor" targetSpec="" /><pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Да-да, это мероприятие часто
+проходит как раз тогда, когда
+меняется погода.<delay20 /><pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Но в этом году, надо признаться,
+оно подкралось как-то неожиданно.<endTag a="100" b="8" /></message>
+	<message label="041_02" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="BigSmile" target="actor" targetSpec="" />Сегодня <colour id="1" />День зайцев<colour id="65535" />!<delay frames="40" /><anim id="Smiling" target="actor" targetSpec="" /> И более того,<delay20 />
+у нас на острове <delay8 />в эту честь важный
+гость.<pageBreak />Надеюсь, все придут на площадь
+<anim id="Greeting" target="actor" targetSpec="" />и поздороваются с ним!<endTag a="100" b="8" /></message>
 	<message label="101" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="Clapping" target="actor" targetSpec="" />На острове <tag a="110" b="8" />
 поселился новый житель:
 <tag a="115" b="1" arg="0xcd00" />!<endTag a="100" b="8" /></message>
@@ -62,11 +70,11 @@
 всячески поддерживать советом
 и делом!<anim id="Smiling" target="actor" targetSpec="" /><endTag a="100" b="8" /></message>
 	<message label="102_02" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="Nodding" target="actor" targetSpec="" />Прошу любить и жаловать!<anim id="Smiling" target="actor" targetSpec="" /><endTag a="100" b="8" /></message>
-	<message label="102_03" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="Nodding" target="actor" targetSpec="" />Сегодня он<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" /> наверняка будет
+	<message label="102_03" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="Nodding" target="actor" targetSpec="" />Сегодня он<tag a="50" b="17" arg="0xf 0xcd00 0x0 0x2 0x430 0x0" /> наверняка будет
 у себя распаковывать вещи.
 Заходите поприветствовать!<anim id="Smiling" target="actor" targetSpec="" /><endTag a="100" b="8" /></message>
 	<message label="200" attrib="00 00 00 12"><tag a="100" b="8" />А теперь<tag a="110" b="0" /> к другим новостям!<endTag a="100" b="8" /></message>
-	<message label="201" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="Worried" target="actor" targetSpec="" />Наш<tag a="50" b="17" arg="0xe 0xcd00 0x0 0x2 0x430 0x0" /> дорог<tag a="50" b="17" arg="0xe 0xcd00 0x4 0x43e 0x439 0x4 0x430 0x44f 0x0" /> <tag a="115" b="1" arg="0xcd00" /><delay20 />
+	<message label="201" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="Worried" target="actor" targetSpec="" />Наш<tag a="50" b="17" arg="0xf 0xcd00 0x0 0x2 0x430 0x0" /> дорог<tag a="50" b="17" arg="0xf 0xcd00 0x4 0x43e 0x439 0x4 0x430 0x44f 0x0" /> <tag a="115" b="1" arg="0xcd00" /><delay20 />
 решил<gender3 m="" f="а" /> покинуть нас по
 личным причинам.<pageBreak />Он<gender3 m="" f="а" /> уезжает завтра, поэтому
 не забудьте попрощаться с <gender3 m="ним" f="ней" />
@@ -89,7 +97,7 @@
 если у вас будет время сегодня
 вечером.<endTag a="100" b="8" /></message>
 	<message label="603" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="HappyFlower" target="actor" targetSpec="" />Прямо сейчас на острове <tag a="110" b="8" /> можно наблюдать <colour id="1" />звездопад<colour id="65535" />!<pageBreak /><anim id="Love" target="actor" targetSpec="" />Достойное зрелище! Я надеюсь, вы
-воспользуетесь мини-джойстиком 
+воспользуетесь мини-джойстиком
 <colour id="1" /><colour id="65535" /> и полюбуетесь звездным небом!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Говорят, если при виде падающей
 звезды нажать <colour id="1" /><colour id="65535" /> и загадать
 желание, оно исполнится<tag a="110" b="0" /><anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Не знаю, правда ли это, но ведь
@@ -163,8 +171,9 @@
 когда можно промерзнуть
 насквозь<tag a="110" b="0" /><pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Но такая погода идеально подходит
 для того, чтобы слепить на острове
-веселого <colour id="1" />Снеговичка<colour id="65535" />!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />В сугробах можно иногда найти шары из снега. Катайте их туда-
-сюда, чтобы они стали больше.<anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak /><anim id="Smiling" target="actor" targetSpec="" />А потом поставьте один на другой,
+веселого <colour id="1" />Снеговичка<colour id="65535" />!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Найдите шары из снега, катайте
+их туда-сюда, чтобы они стали
+больше.<anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak /><anim id="Smiling" target="actor" targetSpec="" />А потом поставьте один на другой,
 чтобы получился <colour id="1" />Снеговичок<colour id="65535" />!<endTag a="100" b="8" /></message>
 	<message label="616_01" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="Smiling" target="actor" targetSpec="" />Сегодня я осознал, что уже
 глубокая осень, когда на прогулке
@@ -222,7 +231,7 @@
 	<message label="702_03" attrib="00 00 00 12"><tag a="100" b="8" />Вы любуетесь природой на
 прогулках, смотрите по сторонам,
 <anim id="QuestionMark" target="actor" targetSpec="" />глядите в небо?<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Наклонив правый <colour id="1" />мини-джойстик 
- <colour id="65535" />вверх или вниз,<delay8 /> можно изменить
+<colour id="65535" />вверх или вниз,<delay8 /> можно изменить
 ракурс.<anim id="Smiling" target="actor" targetSpec="" /><endTag a="100" b="8" /></message>
 	<message label="702_04" attrib="00 00 00 12"><tag a="100" b="8" />Вы пользуетесь <anim id="QuestionMark" target="actor" targetSpec="" /><colour id="1" />утильсундуком
 <colour id="65535" />в <colour id="1" />бюро услуг<colour id="65535" />?<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Островитяне кладут в <colour id="1" />утильсундук
@@ -231,28 +240,28 @@
 Так что заглядывайте в него
 время от времени.<anim id="Smiling" target="actor" targetSpec="" /><endTag a="100" b="8" /></message>
 	<message label="703" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="BigSmile" target="actor" targetSpec="" />А теперь я расскажу кое-что про
-ценные предметы, которые можно
-получить <colour id="1" />по обмену за мили<colour id="65535" />.<endTag a="100" b="8" /></message>
+премии, которые можно получить
+<colour id="1" />по обмену за мили<colour id="65535" />.<endTag a="100" b="8" /></message>
 	<message label="704" attrib="00 00 00 12"><tag a="60" b="20" /></message>
-	<message label="704_01" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="EmotEnd" target="actor" targetSpec="" />Тема сегодняшней передачи<tag a="110" b="0" /><delay40 />
-<anim id="Clapping" target="actor" targetSpec="" /><colour id="1" />Рисунки: категория Профи<colour id="65535" />!<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Это обновление для приложения
+	<message label="704_01" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="EmotEnd" target="actor" targetSpec="" />Пожалуй, расскажу сегодня о<tag a="110" b="0" /><delay20 />
+<anim id="Clapping" target="actor" targetSpec="" /><colour id="1" />режиме профи-рисунков<colour id="65535" />!<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Это обновление для приложения
 «<colour id="1" />Дизайнер<colour id="65535" />».<anim id="Smiling" target="actor" targetSpec="" /><pageBreak /><anim id="Explain" target="actor" targetSpec="" />Благодаря ему можно еще более
 профессионально менять цвет
-предметов и создавать рисунки!<anim id="Smiling" target="actor" targetSpec="" /><pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Рисунки категории Профи можно
-получать и использовать даже без
-этого обновления, но<tag a="110" b="0" />
+предметов и создавать рисунки!<anim id="Smiling" target="actor" targetSpec="" /><pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" /><colour id="1" />Профи-рисунки<colour id="65535" /> можно получать
+и использовать даже без этого
+обновления, но<tag a="110" b="0" />
 <anim id="Smiling" target="actor" targetSpec="" />Если вы хотите создавать свои
-рисунки категории Профи,
-выполните это обновление.<endTag a="100" b="8" /></message>
-	<message label="704_02" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="EmotEnd" target="actor" targetSpec="" />Тема сегодняшней передачи —<delay40 />
-<anim id="Clapping" target="actor" targetSpec="" /><colour id="1" />Неплохие инструменты<colour id="65535" />!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Это название инструкций для
+профи-рисунки, выполните это
+обновление.<endTag a="100" b="8" /></message>
+	<message label="704_02" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="EmotEnd" target="actor" targetSpec="" />Пожалуй, расскажу сегодня о<tag a="110" b="0" /><delay20 />
+<anim id="Clapping" target="actor" targetSpec="" /><colour id="1" />неплохих инструментах<colour id="65535" />!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Это название инструкций для
 инструментов, которые не будут
 так быстро ломаться.<anim id="Smiling" target="actor" targetSpec="" />
 <anim id="Nodding" target="actor" targetSpec="" />Если вы уже задумывались, как
 улучшить непрочные инструменты,<delay20 />
 <anim id="Smiling" target="actor" targetSpec="" />не пожалейте пары миль.<endTag a="100" b="8" /></message>
-	<message label="704_03" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="EmotEnd" target="actor" targetSpec="" />Тема сегодняшней передачи<tag a="110" b="0" /><delay40 />
-<anim id="Clapping" target="actor" targetSpec="" /><colour id="1" />Меню инструментов<colour id="65535" /><pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Вы уже привыкли к жизни на
+	<message label="704_03" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="EmotEnd" target="actor" targetSpec="" />Пожалуй, расскажу сегодня о<tag a="110" b="0" /><delay20 />
+<anim id="Clapping" target="actor" targetSpec="" /><colour id="1" />меню инструментов<colour id="65535" />!<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Вы уже привыкли к жизни на
 острове?<delay8 /> <anim id="QuestionMark" target="actor" targetSpec="" />Здесь приходится носить
 с собой много инструментов.<pageBreak /><anim id="Sighing" target="actor" targetSpec="" />Вам не надоедает открывать
 карманы, чтобы сменить один
@@ -260,8 +269,8 @@
 выбрать до 8 инструментов
 в кармане<delay20 /> и быстро менять их!<anim id="Smiling" target="actor" targetSpec="" /><pageBreak /><anim id="Grin" target="actor" targetSpec="" /><delay8 />Очень рекомендую тем, кто хочет
 легко менять инструмент в руках.<endTag a="100" b="8" /></message>
-	<message label="704_04" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="EmotEnd" target="actor" targetSpec="" />Тема сегодня<tag a="110" b="0" /><delay40 />
-<anim id="Clapping" target="actor" targetSpec="" /><colour id="1" />Организация карманов<colour id="65535" />!<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Чем дольше живешь на одном месте, тем больше вещей накапливается.
+	<message label="704_04" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="EmotEnd" target="actor" targetSpec="" />Пожалуй, расскажу сегодня об<tag a="110" b="0" /><delay20 />
+<anim id="Clapping" target="actor" targetSpec="" /><colour id="1" />организации карманов<colour id="65535" />!<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Чем дольше живешь на одном месте, тем больше вещей накапливается.
 Наш остров не исключение<tag a="110" b="0" /> У вас
 еще <anim id="QuestionMark" target="actor" targetSpec="" />нет ощущения загруженности?<delay20 />
 <anim id="Nodding" target="actor" targetSpec="" />Если да, то вам повезло!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Если вы освоите приемы в этом
@@ -269,27 +278,27 @@
 <anim id="Smiling" target="actor" targetSpec="" />будет еще больше места.<pageBreak /><anim id="BigSmile" target="actor" targetSpec="" /><delay8 />Порядок прежде всего!<10_4 /> <anim id="Nodding" target="actor" targetSpec="" />Надеюсь, вы
 воспользуетесь этим предметом для
 порядка в новой жизни.<anim id="Smiling" target="actor" targetSpec="" /><endTag a="100" b="8" /></message>
-	<message label="704_05" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="EmotEnd" target="actor" targetSpec="" />Иногда стоит поговорить и о таких
-вещах<tag a="110" b="0" /><delay40 /> <anim id="Clapping" target="actor" targetSpec="" />как <colour id="1" />прически<colour id="65535" /> и <colour id="1" />цвет волос<colour id="65535" />!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Некоторые руководства, например
+	<message label="704_05" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="EmotEnd" target="actor" targetSpec="" />Иногда так и тянет поговорить о<tag a="110" b="0" /><delay20 />
+<anim id="Clapping" target="actor" targetSpec="" /><colour id="1" />прическе<colour id="65535" /> и <colour id="1" />цвете волос<colour id="65535" />!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Некоторые руководства, например
 «<colour id="1" />8 лучших поп-причесок<colour id="65535" />», содержат
 советы по уходу за волосами.<anim id="Smiling" target="actor" targetSpec="" /><pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Вы сможете сами изменить свой
 имидж. Потребуется только трюмо
 или зеркало — что-то в этом роде<tag a="110" b="0" /><pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Модникам и модницам среди нас
 стоит обзавестись этим
 руководством!<endTag a="100" b="8" /></message>
-	<message label="705" attrib="00 00 00 00"><tag a="100" b="8" /><anim id="BigSmile" target="actor" targetSpec="" />Хочу сообщить вам кое-что, что
+	<message label="705" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="BigSmile" target="actor" targetSpec="" />Хочу сообщить вам кое-что, что
 поможет улучшить качество жизни
 у нас на острове.<endTag a="100" b="8" /></message>
-	<message label="706" attrib="00 00 00 00"><tag a="60" b="20" /></message>
-	<message label="706_01" attrib="00 00 00 00"><tag a="100" b="8" /><anim id="Nodding" target="actor" targetSpec="" />Вместе с палаткой вы получили
+	<message label="706" attrib="00 00 00 12"><tag a="60" b="20" /></message>
+	<message label="706_01" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="Nodding" target="actor" targetSpec="" />Вместе с палаткой вы получили
 портативное радио. Оно позволяет
 слушать разную музыку.<anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Но для этого существуют еще
 и другие проигрыватели, например
-<colour id="1" />патефоны<colour id="65535" />!<pageBreak /><anim id="Thinking" target="actor" targetSpec="" />Представьте, что вы в любое время
+<colour id="1" />электрофон <colour id="65535" />или <colour id="1" />граммофон<colour id="65535" />!<pageBreak /><anim id="Thinking" target="actor" targetSpec="" />Представьте, что вы в любое время
 можете слушать любимые песни<tag a="110" b="0" /><pageBreak /><anim id="Explain" target="actor" targetSpec="" /><colour id="1" />Музыку<colour id="65535" /> для аудиопроигрывателей
 можно купить в приложении
-«<colour id="1" />Каталог Нука<colour id="65535" />».<delay20 /><anim id="Smiling" target="actor" targetSpec="" /> Не упустите!<endTag a="100" b="8" /></message>
-	<message label="706_02" attrib="00 00 00 00"><tag a="100" b="8" /><anim id="EmotEnd" target="actor" targetSpec="" />Это было серьезное решение —
+«<colour id="1" />Каталог Нука<colour id="65535" />»!<endTag a="100" b="8" /></message>
+	<message label="706_02" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="EmotEnd" target="actor" targetSpec="" />Это было серьезное решение —
 начать новую жизнь на острове
 <tag a="110" b="8" />.<pageBreak />Если вы хотите также <anim id="QuestionMark" target="actor" targetSpec="" />серьезно
 изменить свой личный стиль,<delay20 />
@@ -297,17 +306,17 @@
 <anim id="BigSmile" target="actor" targetSpec="" />помогут вам полностью измениться!<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />От <colour id="1" />прически<colour id="65535" />, <colour id="1" />цвета волос<colour id="65535" />, <colour id="1" />глаз<colour id="65535" />
 и <colour id="1" />оттенка кожи<colour id="65535" /><delay8 /> до черт лица<delay8 /> —
 меняйтесь, как и когда хотите!<anim id="Smiling" target="actor" targetSpec="" /><endTag a="100" b="8" /></message>
-	<message label="706_03" attrib="00 00 00 00"><tag a="100" b="8" /><anim id="AbsentMindedness" target="actor" targetSpec="" />Тому, кто даже на далеком острове
+	<message label="706_03" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="AbsentMindedness" target="actor" targetSpec="" />Тому, кто даже на далеком острове
 не желает отставать от моды, <anim id="Smiling" target="actor" targetSpec="" />стоит
 завести <colour id="1" />шкаф<colour id="65535" />.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Скомбинировав наряд дома, вы
 запросто сможете переодеться.<anim id="Smiling" target="actor" targetSpec="" /><pageBreak /><anim id="BigSmile" target="actor" targetSpec="" />Устраивайте показ мод у себя
 дома, развивайте свой стиль<delay20 />
 и представляйте его всему миру!<endTag a="100" b="8" /></message>
-	<message label="706_04" attrib="00 00 00 00"><tag a="100" b="8" /><anim id="AbsentMindedness" target="actor" targetSpec="" />Длинными ночами на острове
+	<message label="706_04" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="AbsentMindedness" target="actor" targetSpec="" />Длинными ночами на острове
 <tag a="110" b="8" /><tag a="110" b="0" /><delay40 /> <anim id="Smiling" target="actor" targetSpec="" /> любуйтесь
 уютным светом <colour id="1" />свеч <colour id="65535" />или <colour id="1" />ламп<colour id="65535" />!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />С разными источниками света
 в разных местах можно полностью
-изменить атмосферу в комнате.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Существуют светильники <tag a="100" b="8" /><anim id="Smiling" target="actor" targetSpec="" /><endTag a="100" b="8" />на любой
+изменить атмосферу в комнате.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Существуют светильники <anim id="Smiling" target="actor" targetSpec="" />на любой
 вкус! Украшайте жилище на свое
 усмотрение!<endTag a="100" b="8" /></message>
 	<message label="711" attrib="00 00 00 12"><tag a="100" b="8" /><anim id="QuestionMark" target="actor" targetSpec="" />Вам нравится заниматься проектами

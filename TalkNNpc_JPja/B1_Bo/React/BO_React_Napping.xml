@@ -30,9 +30,9 @@
 	<message label="013" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
 	<message label="013_01" attrib="00 00 00 00 00 00 00 00">あれ<tag a="110" b="0" />？<delay frames="40" />
 もしかして、<delay8 /><anim id="QuestionMark" target="actor" targetSpec="" /><ruby a="2" b="4">いま</ruby>今　ねちゃってた？　<tag a="110" b="6" /></message>
-	<message label="013_02" attrib="00 00 00 00 00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />やぁ、<tag a="110" b="4" />～<delay frames="40" />
-お<ruby a="2" b="4">ひる</ruby>昼ごはんや、<delay8 />おやつのあとの<delay8 />
-お<ruby a="2" b="4">ひる</ruby>昼ねは　<anim id="BigSmile" target="actor" targetSpec="" /><delay8 />サイコーだよねぇ～、<tag a="110" b="6" /><delay8 /><anim id="FaintSmile" target="actor" targetSpec="" /></message>
+	<message label="013_02" attrib="00 00 00 00 00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />やぁ、<tag a="110" b="4" /><tag a="110" b="38" arg="0xcd01" /><delay frames="40" />
+ごはんや　おやつのあとの　いねむりって<delay20 />
+<anim id="BigSmile" target="actor" targetSpec="" /><delay8 />サイコーだよねぇ～、<tag a="110" b="6" /><delay8 /><anim id="FaintSmile" target="actor" targetSpec="" /></message>
 	<message label="014" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
 	<message label="014_01" attrib="00 00 00 00 00 00 00 00"><anim id="ShyBoy" target="actor" targetSpec="" />ねるじゅんびの　とちゅうで<delay8 />　ねちゃってた～<delay frames="40" />
 <anim id="EmotEnd" target="actor" targetSpec="" /><ruby a="2" b="4">いま</ruby>今からが　ホントの<delay20 />

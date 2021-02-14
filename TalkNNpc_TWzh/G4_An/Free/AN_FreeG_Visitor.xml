@@ -4,7 +4,7 @@
 	<message label="001_a" attrib="04 00 00 00 00 00 00 00">就是那個吧？</message>
 	<message label="001_b" attrib="05 00 00 00 00 00 00 00">不知道耶</message>
 	<message label="002" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="23" arg="0xd 0xe 0xf 0xffff" /></message>
-	<message label="003" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x10 0x11 0xffff 0xffff" /></message>
+	<message label="003" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x1 0x10 0x11 0x12" /></message>
 	<message label="004" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />什麼嘛，<delay8 />你知道呀！<delay frames="30" />
 <anim id="Nodding" target="actor" targetSpec="" />沒錯，<delay8 />就是<tag a="110" b="7" arg="0xcd00" />。<delay frames="30" />
 你就盡量多吃點吧！<anim id="FaintSmile" target="actor" targetSpec="" /><tag a="110" b="6" />。</message>
@@ -29,10 +29,11 @@
 豪華的<colour id="1" />博物館<colour id="65535" />喔！<pageBreak /><anim id="ShyBoy" target="actor" targetSpec="" />雖然現在正在籌備，<delay8 />
 還沒有東西能展示就是了。<delay frames="40" />
 <anim id="BigSmile" target="actor" targetSpec="" />不過，<delay20 />之後找一天來看看吧！<tag a="110" b="6" />。<anim id="FaintSmile" target="actor" targetSpec="" /></message>
-	<message label="017" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="2" arg="0x15 0x16 0x17 0x19" /></message>
+	<message label="017" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="3" arg="0x15 0x16 0x17 0x18 0x19" /></message>
 	<message label="021" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1c00 0x1900 0xcd00" /></message>
 	<message label="022" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1d01 0x1900 0xcd00" /></message>
 	<message label="023" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1e02 0x1900 0xcd00" /></message>
+	<message label="024" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1f03 0x1900 0xcd00" /></message>
 	<message label="025" attrib="00 00 00 00 00 00 00 00"><anim id="IdeaBulb" target="actor" targetSpec="" />對了！<delay frames="40" />既然你都難得來了，<delay20 />
 <anim id="FaintSmile" target="actor" targetSpec="" />就來看看這座島上引以為傲的<colour id="1" />博物館<colour id="65535" />吧！<pageBreak /><anim id="Explain" target="actor" targetSpec="" />光是到處走走逛逛，心情就會嗨起來，<delay20 />
 也很推薦拿來當作拍照景點喔！</message>
@@ -51,39 +52,35 @@
 再回去啊！<pageBreak /><anim id="Explain" target="actor" targetSpec="" />牠就展示在<colour id="1" />博物館<colour id="65535" />裡，<delay20 />
 要是你有空，<delay8 />就去走一趟吧！<delay frames="30" />
 <anim id="EmotEnd" target="actor" targetSpec="" />我可是大力推薦喔！<tag a="110" b="6" />。</message>
-	<message label="101" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="0" arg="0x66 0x69" /></message>
-	<message label="102" attrib="00 00 01 00 00 00 00 00">我知道了，<delay20 />
-<anim id="Pardon" target="actor" targetSpec="" />你是因為太想念<tag a="110" b="33" /><delay8 />
-所以才回來的吧！<tag a="110" b="6" />。<pageBreak /><anim id="Laughing" target="actor" targetSpec="" />啊哈哈，<delay20 />開玩笑的啦！<delay20 />開玩笑的！<delay frames="40" />
-那麼，<delay20 />你今天是怎麼啦？<delay frames="40" />
-<anim id="Grin" target="actor" targetSpec="" />該不會是來找我的吧<tag a="110" b="0" />？</message>
-	<message label="102_a" attrib="67 00 00 00 00 00 00 00">對</message>
-	<message label="102_b" attrib="68 00 00 00 00 00 00 00">不是啦</message>
-	<message label="103" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />真的嗎！？<delay frames="40" />
+	<message label="201" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="0" arg="0xca 0xd2" /></message>
+	<message label="202" attrib="00 00 01 00 00 00 00 00"><anim id="SmugFace" target="actor" targetSpec="" />這座<tag a="110" b="33" /><delay8 />怎麼樣？<delay frames="40" />
+<anim id="FaintSmile" target="actor" targetSpec="" />是個很不錯的地方吧！<delay frames="30" />
+<anim id="Hello" target="actor" targetSpec="" />你也要搬過來嗎？<pageBreak /><anim id="Laughing" target="actor" targetSpec="" />沒有啦，<delay20 />我開玩笑的！<delay8 />開玩笑的！<delay frames="40" />
+倒是<delay20 />你今天為什麼來這裡？<delay frames="30" />
+<anim id="Grin" target="actor" targetSpec="" />難道是<delay8 />因為想見我<tag a="110" b="0" />？</message>
+	<message label="202_a" attrib="cb 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />嗯</message>
+	<message label="202_b" attrib="cc 00 00 00 00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />不是啦</message>
+	<message label="203" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />真的嗎！？<delay frames="40" />
 <anim id="EmotEnd" target="actor" targetSpec="" />我原本只是開開玩笑而已，<delay20 />
-<anim id="Blushing" target="actor" targetSpec="" />你卻承認得這麼乾脆，真讓人害羞啊。<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />要是你有什麼困難，<delay20 />
+<anim id="Blushing" target="actor" targetSpec="" />沒想到你就這樣承認了，真讓人害羞啊。<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />要是你有什麼需要幫忙的，<delay20 />
 隨時都可以找我商量喔！<delay frames="40" />
-<anim id="Assent" target="actor" targetSpec="" />因為你現在依然是我重要的死黨啊！</message>
-	<message label="104" attrib="00 00 00 00 00 00 00 00"><anim id="Restless" target="actor" targetSpec="" />喂喂喂，<delay8 /><tag a="110" b="3" />，<delay frames="40" />
-這種時候就算說謊，都要說「對」吧？<delay frames="50" />
-<anim id="ShyBoy" target="actor" targetSpec="" />你這人真是的，一點都沒變呢！<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />也去見見島上的大家吧。<delay frames="40" />
-<anim id="FaintSmile" target="actor" targetSpec="" />有些人可是因為你不在<delay20 />
-<anim id="Greeting" target="actor" targetSpec="" />而寂寞得很呢，<tag a="110" b="6" />。</message>
-	<message label="105" attrib="6a 00 00 00 00 00 00 00">我說<delay8 /><tag a="110" b="3" />，<delay frames="40" />
-<anim id="Pardon" target="actor" targetSpec="" />你搬去新的島，那邊感覺如何？</message>
-	<message label="106" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
-	<message label="106_01" attrib="00 00 00 00 00 00 00 00">你跟那邊島上的居民<delay20 />
-<anim id="Hello" target="actor" targetSpec="" />相處得還好吧？<delay frames="40" />
-<anim id="Nodding" target="actor" targetSpec="" />不過，<delay8 />我覺得你應該沒問題啦<tag a="110" b="0" /><pageBreak /><anim id="Smiling" target="actor" targetSpec="" />總之，只要像這樣笑咪咪的，<delay20 />
-應該就沒有問題了！<delay frames="40" />
-<anim id="BigSmile" target="actor" targetSpec="" />你可要好好加油啊，<tag a="110" b="6" />。<delay8 /><anim id="FaintSmile" target="actor" targetSpec="" /></message>
-	<message label="106_02" attrib="00 00 00 00 00 00 00 00"><anim id="Hello" target="actor" targetSpec="" />那邊的花有盛開嗎？<delay frames="40" />
-<anim id="FaintSmile" target="actor" targetSpec="" />你可要幫它澆水，好好珍惜它喔。<pageBreak /><anim id="Explain" target="actor" targetSpec="" />只要我們用心照顧，<delay20 />
-植物就會好好回報我們的！<delay frames="40" />
-<anim id="Nodding" target="actor" targetSpec="" />這點就連蔬菜也一樣喔，<tag a="110" b="6" />。</message>
-	<message label="106_03" attrib="00 00 00 00 00 00 00 00"><anim id="Hello" target="actor" targetSpec="" />那邊是不是有很多昆蟲跟魚啊？<delay frames="40" />
-<anim id="Thinking" target="actor" targetSpec="" />該不會，<delay8 />還有跟我們島上
-不同種類的吧<tag a="110" b="0" /><pageBreak /><anim id="Smiling" target="actor" targetSpec="" />感覺你應該會<delay20 />
-每天都在那邊的島上<delay8 />到處跑呢。<delay frames="40" />
-<anim id="Laughing" target="actor" targetSpec="" />我都可以想像那幅光景啦，<tag a="110" b="6" />。<delay20 /><anim id="FaintSmile" target="actor" targetSpec="" /></message>
+<anim id="Assent" target="actor" targetSpec="" />因為你依然是我最重要的死黨啊！</message>
+	<message label="204" attrib="00 00 00 00 00 00 00 00"><anim id="Restless" target="actor" targetSpec="" />喂喂，<delay8 /><tag a="110" b="3" />，<delay frames="30" />
+就算不是，<delay8 />你也應該回答「是」才對吧？<delay frames="40" />
+<anim id="ShyBoy" target="actor" targetSpec="" />你這傢伙真是的，<delay8 />根本完全沒變嘛。<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />算了，<delay20 />就算不是為了見我而來，<delay20 />
+<anim id="Smiling" target="actor" targetSpec="" />能見到你，我已經很高興了！<tag a="110" b="6" />。</message>
+	<message label="210" attrib="d3 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />那個，<tag a="110" b="3" />，<delay20 />
+我搬走之後，<delay20 />
+<tag a="110" b="34" />怎麼樣了？</message>
+	<message label="211" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
+	<message label="211_01" attrib="00 00 00 00 00 00 00 00"><anim id="Hello" target="actor" targetSpec="" />你跟那座島的居民<delay8 />相處得還好嗎？<delay frames="40" />
+<anim id="Nodding" target="actor" targetSpec="" />我想<delay8 />你應該沒問題吧<tag a="110" b="0" /><pageBreak /><anim id="Smiling" target="actor" targetSpec="" />總之，<delay8 />只要像這樣笑咪咪的，<delay20 />
+就不會有事的！<delay frames="40" />
+<anim id="Grin" target="actor" targetSpec="" />你不會跟別人吵架吧？<tag a="110" b="6" />。</message>
+	<message label="211_02" attrib="00 00 00 00 00 00 00 00"><anim id="Hello" target="actor" targetSpec="" />可以幫我<delay8 />照顧花嗎？<delay frames="40" />
+<anim id="FaintSmile" target="actor" targetSpec="" />你要認真澆水，<delay8 />好好珍惜它們喔。<pageBreak /><anim id="Blushing" target="actor" targetSpec="" />只要用心照顧，<delay20 />
+它們就會好好回報你的！<tag a="110" b="6" />。</message>
+	<message label="211_03" attrib="00 00 00 00 00 00 00 00"><anim id="ShyBoy" target="actor" targetSpec="" />要是整座島都變得不一樣了，<delay20 />
+那還挺讓人落寞的<tag a="110" b="0" /><pageBreak /><anim id="Eh" target="actor" targetSpec="" />不過，<delay20 />如果真的都變了，<delay20 />
+<anim id="Laughing" target="actor" targetSpec="" />我倒是有興趣看看的！<tag a="110" b="6" />。</message>
 </msbt>

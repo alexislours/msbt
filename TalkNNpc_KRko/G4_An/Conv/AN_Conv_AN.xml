@@ -48,7 +48,7 @@
 	<message label="025" attrib="00 00 00 00 00 00 00 00"><anim id="TakenAback" target="actor" targetSpec="" />그럼<delay8 /> 겉에도 속에도 전부<delay20 />
 얼굴이 달려 있다는 거야?<delay frames="40" />
 <anim id="Confused" target="actor" targetSpec="" />그건 좀<tag a="110" b="0" /><anim id="EmotEnd" target="mainNpc" targetSpec="" /></message>
-	<message label="026" attrib="00 00 00 00 00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />그건 좀<tag a="110" b="0" /><delay20 /><anim id="Frantic" target="mainNpc" targetSpec="" /> 무섭구만<tag a="110" b="0" /></message>
+	<message label="026" attrib="00 00 00 00 00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />그건 좀<tag a="110" b="0" /><delay20 /><anim id="Frantic" target="mainNpc" targetSpec="" /><anim id="Frantic" target="subNpc" targetSpec="" /> 무섭구만<tag a="110" b="0" /></message>
 	<message label="027" attrib="00 00 00 00 00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />조금은 겉과 속이 달라도<delay8 />
 괜찮을 것 같아<tag a="110" b="0" /> <tag a="110" b="6" /><tag a="110" b="0" /></message>
 	<message label="101" attrib="00 00 00 00 00 00 00 00"><anim id="OhGeez" target="actor" targetSpec="" />뭐어?<delay frames="30" />
@@ -69,7 +69,7 @@
 안 해줘도 되거든!<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />그러니까<tag a="110" b="0" /><delay frames="40" />
 <anim id="EmotEnd" target="actor" targetSpec="" />상대를 보고 선물을 골라야 한다<delay20 />
 이 말이잖아! <tag a="110" b="6" />!</message>
-	<message label="107" attrib="00 00 00 00 00 00 00 00"><colour id="4" /><anim id="Thinking" target="actor" targetSpec="" /><tag a="110" b="0" /><delay20 />그 뜻이었던가, <tag a="110" b="6" />?<colour id="65535" /></message>
+	<message label="107" attrib="00 00 00 00 00 00 00 00"><colour id="4" /><anim id="Thinking" target="actor" targetSpec="" /><tag a="110" b="0" /><delay20 />그 뜻이었던가, <tag a="110" b="6" />?<colour id="65535" /><anim id="EmotEnd" target="mainNpc" targetSpec="" /></message>
 	<message label="108" attrib="00 00 00 00 00 00 00 00"><colour id="4" /><tag a="110" b="0" /><delay20 /><anim id="Frantic" target="actor" targetSpec="" />아, <delay20 />틀린 것 같다<colour id="65535" /></message>
 	<message label="201" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" /><tag a="110" b="0" />그렇지!<delay frames="30" />
 <anim id="SmugFace" target="actor" targetSpec="" />역시 뭘 하든<delay8 />

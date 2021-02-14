@@ -11,8 +11,8 @@ que cayera en mis patas algo así<tag a="110" b="0" />
 	<message label="100_03" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />¡Muchas gracias!<delay20 /> <anim id="FaintSmile" target="actor" targetSpec="" />Seguro que ya
 sabías que estas cosas me encantan,
 ¿a que sí?</message>
-	<message label="101" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Una vez arregle mi casa,<delay8 /> esto va a
-quedar genial.<delay20 /> <anim id="Love" target="actor" targetSpec="" />¡Ya verás qué molón
+	<message label="101" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Una vez que arregle mi casa,<delay8 /> esto va
+a quedar genial.<delay20 /> <anim id="Love" target="actor" targetSpec="" />¡Ya verás qué molón
 lo dejo todo!</message>
 	<message label="102" attrib="00 00 00 00 00 00 00 00"><anim id="Assent" target="actor" targetSpec="" />Cuando la limpie,<delay8 /> esto va a quedar
 genial en la puerta de casa<tag a="110" b="0" /><pageBreak /><anim id="QuestionMark" target="actor" targetSpec="" />¿Eh?<delay8 /> <anim id="Smiling" target="actor" targetSpec="" />Sí,<delay8 /> limpiar la puerta<tag a="110" b="0" /><10_4 />
@@ -20,6 +20,8 @@ genial en la puerta de casa<tag a="110" b="0" /><pageBreak /><anim id="QuestionM
 de comer<delay8 /> y, claro,<delay8 /> <anim id="WrySmile" target="actor" targetSpec="" />la pongo que<tag a="110" b="0" /></message>
 	<message label="103" attrib="00 00 00 00 00 00 00 00"><anim id="HappyDance" target="actor" targetSpec="" />¡Me encantan los muebles nuevos!<delay20 />
 <anim id="AbsentMindedness" target="actor" targetSpec="" />Huelen como a <tag a="135" b="3" arg="0xcd00" /> y a lo mejor hasta saben igual<tag a="110" b="0" /></message>
+	<message label="104" attrib="00 00 00 00 00 00 00 00"><anim id="Worried" target="actor" targetSpec="" /><colour id="4" />(¿Dónde he visto esto yo antes?<delay20 />
+<anim id="Blushing" target="actor" targetSpec="" />Me suena muchísimo el olor<tag a="110" b="0" /><delay8 />)<colour id="65535" /></message>
 	<message label="111" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />¡Qué maravilla que me das!<delay20 />
 <anim id="BigSmile" target="actor" targetSpec="" />¡Gracias, <tag a="110" b="3" />!</message>
 	<message label="112" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Muchas gracias<tag a="110" b="0" /><delay8 />
@@ -56,7 +58,7 @@ querido ponerme algo así, ¿sabes?</message>
 <anim id="FaintSmile" target="actor" targetSpec="" />¿Ves?<delay8 /> Ni una mancha<tag a="110" b="0" /><delay8 />
 Gracias, <tag a="110" b="3" />.</message>
 	<message label="221" attrib="00 00 00 00 00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />¡La verdad es que mola!<delay8 />
-<anim id="Greeting" target="actor" targetSpec="" />Luego me l<tag a="50" b="17" arg="0x11 0xcd00 0x2 0x6f 0x2 0x61 0x0" /> pruebo en mi casa.</message>
+<anim id="Greeting" target="actor" targetSpec="" />Luego me l<tag a="50" b="17" arg="0x12 0xcd00 0x2 0x6f 0x2 0x61 0x0" /> pruebo.</message>
 	<message label="222" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />¡Muchas gracias de todos modos!<delay20 />
 <anim id="Blushing" target="actor" targetSpec="" />Me hace ilusión que eligieras algo
 para mí<tag a="110" b="0" /></message>
@@ -76,8 +78,7 @@ que la lluvia me limpie las migas!</message>
 	<message label="401" attrib="00 00 00 00 00 00 00 00"><anim id="HappyFlower" target="actor" targetSpec="" />¡Qué regalo sorpresa más chachi!<delay8 />
 <anim id="Greeting" target="actor" targetSpec="" />¡Gracias, <tag a="110" b="6" />!</message>
 	<message label="402" attrib="00 00 00 00 00 00 00 00"><anim id="IdeaBulb" target="actor" targetSpec="" />¡<tag a="50" b="3" /><tag a="50" b="2" /><tag a="125" b="0" arg="0x0" />!<delay8 />
-<anim id="Love" target="actor" targetSpec="" />Mmm, qué pinta<tag a="110" b="0" /><delay20 />
-<anim id="BigSmile" target="actor" targetSpec="" />¡Muchísimas gracias!</message>
+<anim id="Love" target="actor" targetSpec="" />Mmm, qué pinta<tag a="110" b="0" /><delay20 /> <anim id="BigSmile" target="actor" targetSpec="" />¡Muchísimas gracias!</message>
 	<message label="403" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />¡Muchas gracias, <tag a="110" b="3" />!<delay20 />
 <anim id="Smiling" target="actor" targetSpec="" />Con lo zampabollos que soy,<delay8 />
 este es el regalo perfecto<tag a="110" b="0" /></message>
@@ -88,11 +89,11 @@ la boca agua<tag a="110" b="0" /></message>
 En casa, hasta las abejas
 se chuparán las patas<tag a="110" b="0" /></message>
 	<message label="406" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />¡<tag a="50" b="3" /><tag a="50" b="2" /><tag a="125" b="0" arg="0x0" />!<delay20 />
-<anim id="QuestionMark" target="actor" targetSpec="" />¿<tag a="50" b="17" arg="0x11 0xcd00 0x4 0x4c 0x6f 0x4 0x4c 0x61 0x0" /> has pescado tú mism<gender2 m="o" f="a" />?</message>
-	<message label="407" attrib="00 00 00 00 00 00 00 00"><anim id="HappyDance" target="actor" targetSpec="" />¡Gracias, <tag a="110" b="3" />!<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />¡Jugaré con <tag a="50" b="17" arg="0x11 0xcd00 0x4 0xe9 0x6c 0x8 0x65 0x6c 0x6c 0x61 0x0" /> a eso de a ver
+<anim id="QuestionMark" target="actor" targetSpec="" />¿<tag a="50" b="17" arg="0x12 0xcd00 0x4 0x4c 0x6f 0x4 0x4c 0x61 0x0" /> has pescado tú mism<gender2 m="o" f="a" />?</message>
+	<message label="407" attrib="00 00 00 00 00 00 00 00"><anim id="HappyDance" target="actor" targetSpec="" />¡Gracias, <tag a="110" b="3" />!<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />¡Jugaré con <tag a="50" b="17" arg="0x12 0xcd00 0x4 0xe9 0x6c 0x8 0x65 0x6c 0x6c 0x61 0x0" /> a eso de a ver
 quién parpadea primero!</message>
 	<message label="408" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />¡<tag a="50" b="3" /><tag a="50" b="2" /><tag a="125" b="0" arg="0x0" />!<delay8 />
-<anim id="QuestionMark" target="actor" targetSpec="" />¿<tag a="50" b="17" arg="0x11 0xcd00 0x4 0x4c 0x6f 0x4 0x4c 0x61 0x0" /> has cazado tú?</message>
+<anim id="QuestionMark" target="actor" targetSpec="" />¿<tag a="50" b="17" arg="0x12 0xcd00 0x4 0x4c 0x6f 0x4 0x4c 0x61 0x0" /> has cazado tú?</message>
 	<message label="409" attrib="00 00 00 00 00 00 00 00"><anim id="HappyDance" target="actor" targetSpec="" />¡Gracias!<delay8 /> Con lo que me gustan a mí
 los bichos<tag a="110" b="0" /><pageBreak /><anim id="Explain" target="actor" targetSpec="" />Siempre me enseñan un montón
 de cosas,<delay8 /> ¿sabes?</message>

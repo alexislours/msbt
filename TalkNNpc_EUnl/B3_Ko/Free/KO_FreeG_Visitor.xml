@@ -3,9 +3,9 @@
 <delay frames="40" /><anim id="QuestionMark" target="actor" targetSpec="" />Weet jij welk fruit hier groeit op
 <tag a="110" b="8" />?</message>
 	<message label="001_a" attrib="04 00 00 00 00 00 00 00">Ja, natuurlijk!</message>
-	<message label="001_b" attrib="05 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Sorry, nee.</message>
+	<message label="001_b" attrib="05 00 00 00 00 00 00 00">Sorry, nee.</message>
 	<message label="002" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="23" arg="0xd 0xe 0xf 0xffff" /></message>
-	<message label="003" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x10 0x11 0xffff 0xffff" /></message>
+	<message label="003" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x1 0x10 0x11 0x12" /></message>
 	<message label="004" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />O ja?<delay20 /> <tag a="50" b="3" /><tag a="50" b="1" /><tag a="110" b="7" arg="0xcd00" />?<delay20 /> <anim id="Grin" target="actor" targetSpec="" />Maar het is ook wel logisch dat je dat weet.<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Nou, als je er een keer eentje proeft,
 laat je dan weten hoe <tag a="50" b="19" arg="0x1 0xcd00 0x14 0x68 0x69 0x6a 0x20 0x73 0x6d 0x61 0x61 0x6b 0x74 0x14 0x68 0x65 0x74 0x20 0x73 0x6d 0x61 0x61 0x6b 0x74 0x12 0x7a 0x65 0x20 0x73 0x6d 0x61 0x6b 0x65 0x6e" />?</message>
 	<message label="005" attrib="00 00 00 00 00 00 00 00"><anim id="TakenAback" target="actor" targetSpec="" />Wat bedoel je, je weet het niet?<delay20 /> Als je op <tag a="110" b="8" /> bent, moet je echt een <tag a="110" b="7" arg="0xcd00" /> proeven!<pageBreak /><anim id="Angry" target="actor" targetSpec="" />Dat was een test! <delay20 /><anim id="Shocked" target="actor" targetSpec="" />Maar proef er snel
@@ -35,10 +35,11 @@ publiekstrekker.
 <anim id="Smiling" target="actor" targetSpec="" />Ik hoop dat je dan nog eens
 terugkomt<tag a="110" b="0" /> zodat je ziet dat ik
 gelijk had!<delay20 /> <anim id="Laughing" target="actor" targetSpec="" />Bwahaha!<delay8 /><anim id="FaintSmile" target="actor" targetSpec="" /></message>
-	<message label="017" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="2" arg="0x15 0x16 0x17 0x19" /></message>
+	<message label="017" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="3" arg="0x15 0x16 0x17 0x18 0x19" /></message>
 	<message label="021" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1c00 0x1900 0xcd00" /></message>
 	<message label="022" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1d01 0x1900 0xcd00" /></message>
 	<message label="023" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1e02 0x1900 0xcd00" /></message>
+	<message label="024" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1f03 0x1900 0xcd00" /></message>
 	<message label="025" attrib="00 00 00 00 00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Nou, ik weet niet veel over kunst<delay8 /><tag a="110" b="0" />
 <anim id="EmotEnd" target="actor" targetSpec="" />Maar ik waardeer het dat er in ons
 <anim id="Nodding" target="actor" targetSpec="" /><colour id="1" />museum<colour id="65535" /> genoeg te bewonderen is.<pageBreak /><anim id="Grin" target="actor" targetSpec="" />Ik sta graag een tijdje voor elk ding<delay20 />
@@ -58,9 +59,9 @@ van te kijken, <tag a="110" b="5" />!</message>
 	<message label="029" attrib="00 00 00 00 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Ben je al eens naar de insecten-
 tentoonstelling geweest in het
 <colour id="1" />museum<colour id="65535" />?
-<anim id="Nodding" target="actor" targetSpec="" />Ik heb gehoord dat ze een <tag a="50" b="19" arg="0x28 0xcd00 0xc 0x6e 0x69 0x65 0x75 0x77 0x65 0xa 0x6e 0x69 0x65 0x75 0x77 0xc 0x6e 0x69 0x65 0x75 0x77 0x65" />
+<anim id="Nodding" target="actor" targetSpec="" />Ik heb gehoord dat ze een <tag a="50" b="19" arg="0x29 0xcd00 0xc 0x6e 0x69 0x65 0x75 0x77 0x65 0xa 0x6e 0x69 0x65 0x75 0x77 0xc 0x6e 0x69 0x65 0x75 0x77 0x65" />
 <tag a="135" b="13" arg="0x1" /> hebben.<pageBreak /><anim id="Shocked" target="actor" targetSpec="" />Kun je je voorstellen hoe het zou
-zijn als <tag a="50" b="19" arg="0x28 0xcd00 0x6 0x68 0x69 0x6a 0x6 0x68 0x65 0x74 0x4 0x7a 0x65" /> zo groot <tag a="50" b="19" arg="0x28 0xcd00 0x6 0x7a 0x6f 0x75 0x6 0x7a 0x6f 0x75 0xc 0x7a 0x6f 0x75 0x64 0x65 0x6e" /> worden
+zijn als <tag a="50" b="19" arg="0x29 0xcd00 0x6 0x68 0x69 0x6a 0x6 0x68 0x65 0x74 0x4 0x7a 0x65" /> zo groot <tag a="50" b="19" arg="0x29 0xcd00 0x6 0x7a 0x6f 0x75 0x6 0x7a 0x6f 0x75 0xc 0x7a 0x6f 0x75 0x64 0x65 0x6e" /> worden
 als wij?<pageBreak /><anim id="Frantic" target="actor" targetSpec="" />Daar denk ik eigenlijk liever niet te
 lang over na!</message>
 	<message label="030" attrib="00 00 00 00 00 00 00 00"><anim id="Grin" target="actor" targetSpec="" />Zeg, als je iets wilt zien dat nog
@@ -70,34 +71,37 @@ naar het te <colour id="1" />museum<colour id="65535" /> gaan.
 fossielen<tag a="110" b="0" /> Mijn favoriet is
 <tag a="50" b="1" /><tag a="50" b="23" arg="0xcd03" /><tag a="135" b="13" arg="0x2" />.<pageBreak /><anim id="BigSmile" target="actor" targetSpec="" />Ja, vergeleken met dat ding ben ik
 een groentje!</message>
-	<message label="101" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="0" arg="0x66 0x69" /></message>
-	<message label="102" attrib="00 00 02 00 00 00 00 00">Ik wil je wat vragen, <gender2 m="jochie" f="meid" />.<delay20 /> <anim id="QuestionMark" target="actor" targetSpec="" />Mis je het weleens om op <tag a="110" b="8" /> te wonen?</message>
-	<message label="102_a" attrib="67 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Een beetje.</message>
-	<message label="102_b" attrib="68 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Niet echt.</message>
-	<message label="103" attrib="00 00 00 00 00 00 00 00"><anim id="WrySmile" target="actor" targetSpec="" />Maar een beetje, hè? <delay20 />Kom op, lucht
-je hart maar. Ik zal het niemand
-vertellen.
-<anim id="OhGeez" target="actor" targetSpec="" />Ach, ik hou je maar voor de gek. <delay20 />
-<anim id="Smiling" target="actor" targetSpec="" />Je kunt me hier altijd bezoeken,
-<tag a="110" b="5" />.</message>
-	<message label="104" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Wauw, je bent geen nostalgisch
-type, hè? <delay20 /><anim id="Grin" target="actor" targetSpec="" />Wat koelbloedig van je!<pageBreak /><anim id="AbsentMindedness" target="actor" targetSpec="" />Maar ik neem aan dat dat betekent
-dat het goed gaat op je nieuwe
-eiland. <delay20 /><anim id="WrySmile" target="actor" targetSpec="" />Fijn voor je!</message>
-	<message label="105" attrib="00 00 04 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Kijk eens aan, daar hebben we <tag a="110" b="3" />!<delay frames="40" /> <anim id="Smiling" target="actor" targetSpec="" />Hoe gaan de dingen op je nieuwe eiland?</message>
-	<message label="105_a" attrib="6a 00 00 00 00 00 00 00">Geweldig!</message>
-	<message label="105_b" attrib="6b 00 00 00 00 00 00 00">Niet slecht.</message>
-	<message label="105_c" attrib="6c 00 00 00 00 00 00 00">Hahaha...</message>
-	<message label="106" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Nou, dat hoor ik graag! <delay20 />Maar ik wist
-ook best dat je het overal wel redt,
-<gender2 m="jochie" f="meid" />.<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Nou, ik hoop dat je nog vaak naar <tag a="110" b="8" /> komt. <delay20 />We vinden het leuk als je ons bezoekt<anim id="Greeting" target="actor" targetSpec="" />!</message>
-	<message label="107" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Niet slecht? <delay20 />Ik hoop dat je dat zegt
-omdat je aardig wilt zijn. <delay20 /><anim id="OhGeez" target="actor" targetSpec="" />Maar het
-belangrijkste is dat je gelukkig bent.
-<anim id="SmugFace" target="actor" targetSpec="" />Geloof me maar. <delay20 />Ik ga waar de wind waait en genoeg <tag a="135" b="1" arg="0xcd00" /> te vinden is. <delay20 /><anim id="Laughing" target="actor" targetSpec="" />Bwahaha!</message>
-	<message label="108" attrib="00 00 00 00 00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Eh<tag a="110" b="0" /> ja. <delay20 />Had ik dat niet moeten
-vragen?<pageBreak /><anim id="Thinking" target="actor" targetSpec="" />Misschien heb je wat frisse lucht
-nodig. <delay20 />Of een nieuwe hobby<tag a="110" b="0" />
+	<message label="201" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="0" arg="0xca 0xcd" /></message>
+	<message label="202" attrib="00 00 02 00 00 00 00 00">Ik wil je wat vragen, <gender2 m="jochie" f="meid" />. <anim id="QuestionMark" target="actor" targetSpec="" />Mis je
+me al op <tag a="110" b="9" />?</message>
+	<message label="202_a" attrib="cb 00 00 00 00 00 00 00">Een beetje.</message>
+	<message label="202_b" attrib="cc 00 00 00 00 00 00 00">Niet echt.</message>
+	<message label="203" attrib="00 00 00 00 00 00 00 00"><anim id="WrySmile" target="actor" targetSpec="" />Nou, maar een beetje? <delay20 />Daar geloof ik
+niks van. Je hebt vast keihard
+gejankt, aan die rode ogen te zien.
+<anim id="OhGeez" target="actor" targetSpec="" />Ach, ik plaag je maar, hoor. <delay20 /><anim id="Smiling" target="actor" targetSpec="" />En je
+weet dat je me altijd mag bezoeken,
+<tag a="110" b="5" />!</message>
+	<message label="204" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Wauw, je bent geen sentimenteel
+type, hè? <delay20 /><anim id="Grin" target="actor" targetSpec="" />Dat is ronduit koelbloedig,
+<tag a="110" b="5" />!<pageBreak /><anim id="AbsentMindedness" target="actor" targetSpec="" />Maar dat zal wel betekenen dat het goed gaat op <tag a="110" b="9" />. <delay20 /><anim id="WrySmile" target="actor" targetSpec="" />Puik, hoor!</message>
+	<message label="205" attrib="00 00 04 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Zo, daar hebben we <tag a="110" b="3" />!<delay frames="40" /> <anim id="Smiling" target="actor" targetSpec="" />Hoe staan de zaken ervoor op <tag a="110" b="9" />?</message>
+	<message label="205_a" attrib="ce 00 00 00 00 00 00 00">Enorm goed!</message>
+	<message label="205_b" attrib="cf 00 00 00 00 00 00 00">Niet slecht.</message>
+	<message label="205_c" attrib="d0 00 00 00 00 00 00 00">Bwahahaha!</message>
+	<message label="206" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Dat hoor ik graag! <delay20 />Maar ik sta er
+eigenlijk ook niet van te kijken,
+<gender2 m="jochie" f="meid" />.<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Nou, je bent altijd welkom hier op <tag a="110" b="8" />. <delay20 /><anim id="Greeting" target="actor" targetSpec="" />Dus kom nog maar eens langs, <tag a="110" b="5" />.</message>
+	<message label="207" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Niet slecht? <delay20 />Moet ik me zorgen gaan
+maken? <delay20 /><anim id="OhGeez" target="actor" targetSpec="" />Of neem je me in het ootje?<delay20 />
+Wat een grapjas, <tag a="110" b="5" />.
+<anim id="SmugFace" target="actor" targetSpec="" />Geloof mij maar. <delay20 />Ik volg mijn eigen
+pad, altijd met een flinke voorraad
+<tag a="135" b="1" arg="0xcd00" />. <delay20 /><anim id="Laughing" target="actor" targetSpec="" />Bwahaha!</message>
+	<message label="208" attrib="00 00 00 00 00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Deksels<tag a="110" b="0" /><delay20 /> Had ik dat beter niet
+kunnen vragen?<pageBreak /><anim id="Thinking" target="actor" targetSpec="" />Krijg je wel genoeg rust, <gender2 m="jochie" f="meid" />?<delay20 />
+Ontspan! <delay20 />Neem een nieuwe hobby<tag a="110" b="0" />
 <tag a="135" b="8" arg="0xcd00" /> of zo<tag a="110" b="0" />
-<anim id="OhGeez" target="actor" targetSpec="" />Probeer je te ontspannen, <gender2 m="jochie" f="meid" />.</message>
+<anim id="OhGeez" target="actor" targetSpec="" />Je helpt er niemand mee als je in de
+stress schiet, <tag a="110" b="5" />.</message>
 </msbt>

@@ -130,7 +130,7 @@ Alors, je t'emmène où?<endTag a="100" b="5" /></message>
 encore de chez-toi.<pageBreak />Ce serait quand même plus pratique
 si tu me disais où tu veux que je te
 dépose!<endTag a="100" b="5" /></message>
-	<message label="045_a" attrib="00 00 13">Sur la place.</message>
+	<message label="045_a" attrib="00 00 13"><anim id="EmotEnd" target="actor" targetSpec="" />Sur la place.</message>
 	<message label="045_b" attrib="00 00 13">À l'aéroport.</message>
 	<message label="045_c" attrib="00 00 13"><anim id="Negative" target="player" targetSpec="" />Euh... j'annule!</message>
 	<message label="046" attrib="06 00 13"><tag a="100" b="5" />Bon, je vois que t'as pas vraiment
@@ -287,17 +287,17 @@ motifs de route que tu as obtenus.</message>
 choisis parmi les motifs de route
 que tu possèdes avec <colour id="1" /><colour id="65535" /> ou <colour id="1" /><colour id="65535" />.</message>
 	<message label="243" attrib="00 00 20">Guide de construction cours d'eau<pageBreak />Appuie sur <colour id="1" /> <colour id="65535" />pour creuser le sol et 
-créer de rivières, des étangs, etc.
+créer des rivières, des étangs, etc.
 Tu peux aussi les boucher.
-<colour id="0" />Créer des chutes d'eau<colour id="65535" />
+<colour id="0" />Créer des cascades<colour id="65535" />
 Creuse au sommet d'une falaise
-pour créer une <colour id="1" />chute d'eau<colour id="65535" />.</message>
+pour créer une <colour id="1" />cascade<colour id="65535" />.</message>
 	<message label="243_01" attrib="00 00 20">Guide de construction cours d'eau<pageBreak />Appuie sur <colour id="1" /> <colour id="65535" />pour creuser le sol et 
-créer de rivières, des étangs, etc.
+créer des rivières, des étangs, etc.
 Tu peux aussi les boucher.
-<colour id="0" />Créer des chutes d'eau<colour id="65535" />
+<colour id="0" />Créer des cascades<colour id="65535" />
 Creuse au sommet d'une falaise
-pour créer une <colour id="1" />chute d'eau<colour id="65535" />.</message>
+pour créer une <colour id="1" />cascade<colour id="65535" />.</message>
 	<message label="244" attrib="00 00 20">Guide de construction des falaises<pageBreak />Appuie sur <colour id="1" /> <colour id="65535" />pour créer ou détruire
 des falaises, ou arrondir leurs bords.<pageBreak /><colour id="0" />Construire une falaise sur une autre<colour id="65535" />
 Tu peux empiler les falaises, mais pas
@@ -318,15 +318,16 @@ avant de passer à la couche suivante.<pageBreak /><colour id="0" />Détruire le
 Utilise le permis cours d'eau pour
 reboucher la cascade.
 Tu pourras ensuite détruire la falaise.</message>
-	<message label="245" attrib="00 00 20"><colour id="1" />Guide du service de nettoyage<colour id="65535" /><pageBreak />Sur un chantier, il peut arriver que tu
+	<message label="245" attrib="00 00 20">Guide du service de nettoyage<pageBreak />Sur un chantier, il peut arriver que tu
 te retrouves coincé<gender2 m="" f="e" /> par les objets
 qui t'entourent.<pageBreak />Si quelque chose t'empêche de te
 déplacer, ou si un objet est
 inaccessible sur une falaise...<pageBreak />Le service de nettoyage peut faire le
-ménage autour de toi.<pageBreak />Seuls les objets (meubles, clôtures,
-etc.) <colour id="1" />à proximité<colour id="65535" /> peuvent être retirés.<pageBreak />Place-toi tout près de ce qui te
+ménage autour de toi.<pageBreak />Seuls les objets, clôtures et arbres
+qui ont été placés et se situent <colour id="1" />à 
+proximité<colour id="65535" /> peuvent être retirés.<pageBreak />Place-toi tout près de ce qui te
 dérange avant de contacter ce
-service.<pageBreak />Tous les objets ainsi récupérés sont
+service.<pageBreak />Les objets ainsi récupérés sont
 ensuite déposés dans la <colour id="1" />boîte de
 recyclage <colour id="65535" />au bureau des résidents.<pageBreak />Par conséquent, ne perds pas trop
 de temps avant d'aller les y chercher.</message>
@@ -372,16 +373,20 @@ dans la boîte de recyclage?</message>
 	<message label="262_b" attrib="00 00 20">En fait, non.</message>
 	<message label="263" attrib="00 00 20">Compris!<delay20 /> Nettoyage en cours,
 merci de patienter.</message>
-	<message label="264" attrib="00 00 20">Nettoyage terminé!<delay frames="30" /> Les objets ont
-été envoyés à la <colour id="1" />boîte de recyclage<colour id="65535" />
-du <colour id="1" />bureau des résidents<colour id="65535" />.</message>
-	<message label="265" attrib="00 00 20">Nous n'avons rien trouvé à nettoyer.<pageBreak />Le service de nettoyage<delay20 /> n'a d'effet
-que sur les objets et clôtures situés
-juste à côté de toi.</message>
+	<message label="264" attrib="00 00 20">Nettoyage terminé!<delay20 />
+Note : seuls les objets et les clôtures
+sont envoyés à la <colour id="1" />boîte de recyclage<colour id="65535" />.</message>
+	<message label="265" attrib="00 00 20">Nous n'avons rien trouvé à nettoyer.<pageBreak />Seuls les objets, clôtures et arbres
+qui ont été placés et se situent à
+proximité peuvent être retirés.</message>
+	<message label="266" attrib="00 00 20">Tu te trouves actuellement <colour id="1" />hors
+de la zone opérationnelle<colour id="65535" /> du
+service de nettoyage.<pageBreak />Tu ne peux faire appel à ce service
+que dans les espaces extérieurs
+<gender4 m="de " f="d'" /><tag a="110" b="9" />.</message>
 	<message label="301" attrib="00 00 17">L'application qui affiche la carte
 ne fonctionnera pas sur cette île.</message>
-	<message label="311" attrib="00 00 17">Tiens? On dirait que ton
-emplacement actuel n'est pas
-couvert par ce service.</message>
+	<message label="321" attrib="00 00 17">On dirait que tu ne peux pas utiliser
+l'<colour id="1" />historique de bavardage<colour id="65535" /> lorsque tu joues en groupe<tag a="110" b="0" /></message>
 	<message label="999" attrib="00 00 13"><colour id="1" />100 <colour id="65535" />points</message>
 </msbt>

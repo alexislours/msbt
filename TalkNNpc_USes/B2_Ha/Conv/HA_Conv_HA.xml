@@ -1,8 +1,8 @@
 <msbt attribsize="8">
-	<message label="001" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="mainNpc" targetSpec="" />¡Ey, máquina!<delay20 /> <anim id="FaintSmile" target="mainNpc" targetSpec="" />Ya que estás aquí,
-te propongo un juego.<pageBreak />Yo digo una palabra y tú tienes que
-decir otra que empiece con la última
-letra de la que yo diga.</message>
+	<message label="001" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="mainNpc" targetSpec="" />¡Ey, máquina!<delay20 /> <anim id="FaintSmile" target="mainNpc" targetSpec="" />Llegas justo a tiempo.<delay20 />
+¿Quieres jugar conmigo y con <tag a="110" b="31" arg="0xcd01" /> a un juego?<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Uno dice una palabra y el siguiente
+tiene que decir otra que empiece con
+la última letra de esa palabra.</message>
 	<message label="002" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="subNpc" targetSpec="" />¡Sí! ¡Acepto el reto!<delay20 />
 <anim id="Greeting" target="subNpc" targetSpec="" />¡Yo empiezo!<pageBreak /><anim id="Thinking" target="subNpc" targetSpec="" />Eeeh<tag a="110" b="0" /><delay8 /><anim id="IdeaBulb" target="subNpc" targetSpec="" /> ¡Músculos!<delay frames="60" />
 <20_2 arg="7" /><anim id="FaintSmile" target="subNpc" targetSpec="" />Bien,<delay8 /> le toca a <tag a="110" b="31" arg="0xcd00" />.</message>
@@ -79,26 +79,25 @@ de élite,<delay8 /> <anim id="BigSmile" target="mainNpc" targetSpec="" />así q
 para las entrevistas.</message>
 	<message label="102" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="subNpc" targetSpec="" />¡Bueno! ¡Ejem!<pageBreak /><anim id="Explain" target="subNpc" targetSpec="" />Eeeh<tag a="110" b="0" /><delay8 /> "Hoy tenemos con nosotros
 al señor <tag a="50" b="3" /><tag a="110" b="31" arg="0xcd00" />, digno
-sucesor del Artista Culturista<tag a="110" b="0" /><delay20 />"
-<anim id="Greeting" target="subNpc" targetSpec="" />"Vamos a aprovechar esta especial
+sucesor del Artista Culturista<tag a="110" b="0" />".<delay20 /><pageBreak /><anim id="Greeting" target="subNpc" targetSpec="" />"Vamos a aprovechar esta especial
 oportunidad para preguntarle cuál
-es el secreto de su éxito."
-<anim id="Smiling" target="actor" targetSpec="" />"¿Cuál es el secreto de su éxito?"</message>
+es el secreto de su éxito".
+<anim id="Smiling" target="actor" targetSpec="" />"¿Cuál es el secreto de su éxito?".</message>
 	<message label="103" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="mainNpc" targetSpec="" />"Bueno, estar preparado es
 fundamental.<delay8 /> <anim id="ShyBoy" target="mainNpc" targetSpec="" />No solo estoy
-siempre al 110 por ciento<tag a="110" b="0" /><delay20 />"
+siempre al 110 por ciento<tag a="110" b="0" />".<delay20 />
 <anim id="HappyFlower" target="actor" targetSpec="" />"¡Ese es también el número
 de sentadillas que hago dos
-veces al día!"</message>
+veces al día!".</message>
 	<message label="104" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="subNpc" targetSpec="" />Siguiente pregunta<tag a="110" b="0" /><delay8 /> "¡Oh, qué
 interesante! ¿Y por qué tanto
-énfasis en las sentadillas?"</message>
+énfasis en las sentadillas?".</message>
 	<message label="105" attrib="00 00 00 00 00 00 00 00"><anim id="SmugFace" target="mainNpc" targetSpec="" />"Bueno, yo siempre he creído que
 todo ejercicio empieza por levantarse
-cuando se está sentado."
+cuando se está sentado".
 <anim id="Smiling" target="actor" targetSpec="" />"Y esta rutina me recuerda esa
 importante máxima con cada
-movimiento."</message>
+movimiento".</message>
 	<message label="106" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="subNpc" targetSpec="" />Espera, ¡tiempo!<pageBreak /><anim id="QuestionMark" target="subNpc" targetSpec="" />¿Tú no decías que lo fundamental
 para la tonificación muscular eran
 el autocontrol y la disciplina?</message>

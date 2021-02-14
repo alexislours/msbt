@@ -1,6 +1,6 @@
 <msbt attribsize="8">
-	<message label="001" attrib="00 00 02 00 00 00 00 00"><anim id="Frantic" target="actor" targetSpec="" />Извини за внезапную просьбу,
-<anim id="Hesitate" target="actor" targetSpec="" />но ты не хочешь купить
+	<message label="001" attrib="00 00 02 00 00 00 00 00"><anim id="Frantic" target="actor" targetSpec="" />Извини за внезапную просьбу,<delay20 />
+<anim id="Hesitate" target="actor" targetSpec="" />но ты не хочешь купить<delay20 />
 <tag a="50" b="23" arg="0xcd01" /><tag a="125" b="0" arg="0x0" />?</message>
 	<message label="001_a" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Хочу!</message>
 	<message label="001_b" attrib="00 00 00 00 00 00 00 00">Мне не нужно.</message>
@@ -21,7 +21,7 @@
 Ты не поверишь, <anim id="Oops" target="actor" targetSpec="" />что со мной
 случилось<tag a="110" b="0" /><pageBreak /><anim id="Worried" target="actor" targetSpec="" />Я пошла в магазин и купила
 <tag a="50" b="23" arg="0xcd01" /><tag a="125" b="0" arg="0x0" />,
-потому что мне так<tag a="50" b="24" arg="0x11 0xcd00 0x4 0x43e 0x439 0x4 0x430 0x44f 0x4 0x43e 0x435 0x4 0x438 0x435" /> давно нуж<tag a="50" b="24" arg="0x11 0xcd00 0x4 0x435 0x43d 0x4 0x43d 0x430 0x4 0x43d 0x43e 0x4 0x43d 0x44b" />.<pageBreak /><anim id="Frantic" target="actor" targetSpec="" />Но дома я заметила, что я то же
+потому что мне так<tag a="50" b="24" arg="0x12 0xcd00 0x4 0x43e 0x439 0x4 0x430 0x44f 0x4 0x43e 0x435 0x4 0x438 0x435" /> давно нуж<tag a="50" b="24" arg="0x12 0xcd00 0x4 0x435 0x43d 0x4 0x43d 0x430 0x4 0x43d 0x43e 0x4 0x43d 0x44b" />.<pageBreak /><anim id="Frantic" target="actor" targetSpec="" />Но дома я заметила, что я то же
 самое уже купила вчера!<pageBreak /><anim id="IdeaBulb" target="actor" targetSpec="" />Слушай!<delay8 /> Хочешь купить
 <anim id="Hello" target="actor" targetSpec="" /><tag a="50" b="23" arg="0xcd01" /><tag a="125" b="0" arg="0x0" />?</message>
 	<message label="004_a" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />За сколько?</message>
@@ -49,8 +49,8 @@
 помог<gender2 m="" f="ла" />. Я так рада, что я тебя
 спросила.</message>
 	<message label="102" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="110" b="3" />, я считаю, что
-эт<tag a="50" b="24" arg="0x11 0xcd00 0x4 0x43e 0x442 0x2 0x430 0x2 0x43e 0x2 0x438" /> <tag a="125" b="0" arg="0x0" />
-подойд<tag a="50" b="24" arg="0x11 0xcd00 0x4 0x435 0x442 0x4 0x435 0x442 0x4 0x435 0x442 0x4 0x443 0x442" /> тебе как нельзя кстати.</message>
+эт<tag a="50" b="24" arg="0x12 0xcd00 0x4 0x43e 0x442 0x2 0x430 0x2 0x43e 0x2 0x438" /> <tag a="125" b="0" arg="0x0" />
+подойд<tag a="50" b="24" arg="0x12 0xcd00 0x4 0x435 0x442 0x4 0x435 0x442 0x4 0x435 0x442 0x4 0x443 0x442" /> тебе как нельзя кстати.</message>
 	<message label="103" attrib="00 00 00 00 00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />Ну<tag a="110" b="0" /> В таком случае<tag a="110" b="0" /><delay8 /> <anim id="Negative" target="actor" targetSpec="" />Мне
 дини не очень срочно
 нужны. <anim id="BigSmile" target="actor" targetSpec="" />Бери бесплатно!<anim id="FaintSmile" target="actor" targetSpec="" /></message>
@@ -77,7 +77,7 @@
 понадобится, <tag a="110" b="5" />.</message>
 	<message label="205" attrib="00 00 02 00 00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />Гм<tag a="110" b="0" /> <anim id="EmotEnd" target="actor" targetSpec="" />А за <anim id="FaintSmile" target="actor" targetSpec="" /><tag a="90" b="21" arg="0x1" />?</message>
 	<message label="205_a" attrib="00 00 00 00 00 00 00 00">Продано!</message>
-	<message label="205_b" attrib="00 00 00 00 00 00 00 00">Приближаемся...</message>
+	<message label="205_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Приближаемся...</message>
 	<message label="206" attrib="00 00 00 00 00 00 00 00"><anim id="Restless" target="actor" targetSpec="" />Я не могу снизить цену еще больше,
 даже для тебя<tag a="110" b="0" /> <anim id="Worried" target="actor" targetSpec="" />Значит, ничего не
 выйдет.</message>

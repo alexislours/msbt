@@ -48,7 +48,7 @@ deine Angel, <delay8 />yo!</message>
 voll. <delay20 /><anim id="EmotEnd" target="actor" targetSpec="" />Geh mal schnell deine Ladung
 löschen, <delay8 /><anim id="FaintSmile" target="actor" targetSpec="" />dann ziehn wir das durch!</message>
 	<message label="011" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Dein Wunsch ist mir Befehl, <delay8 />yo!</message>
-	<message label="012" attrib="00 00 00 00"><anim id="SmugFace" target="actor" targetSpec="" /><tag a="50" b="17" arg="0x15 0xcd00 0x6 0x45 0x69 0x6e 0x8 0x45 0x69 0x6e 0x65 0x6 0x45 0x69 0x6e" /> original<delay frames="40" /> <anim id="FaintSmile" target="actor" targetSpec="" /><tag a="125" b="4" arg="0x0" />.<delay20 />
+	<message label="012" attrib="00 00 00 00"><anim id="SmugFace" target="actor" targetSpec="" /><tag a="50" b="17" arg="0x16 0xcd00 0x6 0x45 0x69 0x6e 0x8 0x45 0x69 0x6e 0x65 0x6 0x45 0x69 0x6e" /> original<delay frames="40" /> <anim id="FaintSmile" target="actor" targetSpec="" /><tag a="125" b="4" arg="0x0" />.<delay20 />
 <anim id="Greeting" target="actor" targetSpec="" />Exklusiv erhältlich bei <colour id="3" />Lomeus<colour id="65535" />, <delay8 />yo!</message>
 	<message label="013" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Denk dran, <delay8 />dass das <colour id="1" />Angelturnier
 <colour id="65535" />um <colour id="1" /><tag a="90" b="37" arg="0xcd00" />:00 Uhr<colour id="65535" /> die Anker lichtet!<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Da sind die zerronnenen Punkte<delay8 />
@@ -251,7 +251,7 @@ möchtest, <delay8 />würde ich dafür glatt
 ein paar Sternis springen lassen.</message>
 	<message label="049_a" attrib="00 00 00 00">Fische verkaufen!</message>
 	<message label="049_b" attrib="00 00 00 00">Punkte eintauschen!</message>
-	<message label="049_c" attrib="00 00 00 00">Andere Frage...</message>
+	<message label="049_c" attrib="00 00 00 00">Zum Turnier...</message>
 	<message label="049_d" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Nee, doch nichts.</message>
 	<message label="050" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Wunderbarsch!<delay frames="30" /> Dann zeig mir mal,
 was du an Land gezogen hast!</message>
@@ -261,7 +261,7 @@ was du an Land gezogen hast!</message>
 	<message label="051_a" attrib="00 00 00 00">Abgemacht!</message>
 	<message label="051_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Dann doch nicht.</message>
 	<message label="052" attrib="02 00 00 00"><anim id="Aha" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="50" b="2" /><tag a="125" b="0" arg="0x1" />?<delay20 /><anim id="EmotEnd" target="actor" targetSpec="" />
-<anim id="Nodding" target="actor" targetSpec="" /><tag a="50" b="17" arg="0x111 0xcd00 0x6 0x44 0x65 0x6e 0x6 0x44 0x69 0x65 0x6 0x44 0x61 0x73" /> würde ich dir für
+<anim id="Nodding" target="actor" targetSpec="" /><tag a="50" b="17" arg="0x112 0xcd00 0x6 0x44 0x65 0x6e 0x6 0x44 0x69 0x65 0x6 0x44 0x61 0x73" /> würde ich dir für
 <tag a="90" b="26" arg="0x3" /> abkaufen.<delay20 /> <anim id="QuestionMark" target="actor" targetSpec="" />Yo?</message>
 	<message label="052_a" attrib="00 00 00 00">Abgemacht!</message>
 	<message label="052_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Dann doch nicht.</message>
@@ -281,15 +281,17 @@ da nicht was ganz Essenzielles?
 <anim id="ShyBoy" target="actor" targetSpec="" />Ohne eine <colour id="1" />Angel <colour id="65535" />wird's schwer, <delay8 />beim
 <colour id="1" />Angelturnier<colour id="65535" /> teilzunehmen.<delay frames="30" /> <anim id="Worried" target="actor" targetSpec="" />Ich hab
 leider keine für dich übrig.</message>
-	<message label="061" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Gebiberbongt!<delay20 />
-<tag a="110" b="0" /><anim id="Eh" target="actor" targetSpec="" />Aber, <delay8 />Momentchen mal.<delay frames="30" /> <anim id="Serious" target="actor" targetSpec="" />Sieht aus,
-<delay8 />als wärst du nicht flüssig.
-<anim id="ShyBoy" target="actor" targetSpec="" />Ab dem zweiten Durchgang kostet
-die Teilnahme <tag a="90" b="21" arg="0x2" />.<delay frames="30" /> <anim id="Worried" target="actor" targetSpec="" />Da kann
-ich leider keine Ausnahmen machen.</message>
-	<message label="062" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />YO! <delay20 />Das wollte ich hören!<delay20 />
-<anim id="Nodding" target="actor" targetSpec="" />Dann müsste ich zuerst einmal
-<tag a="90" b="21" arg="0x2" /> von dir kassieren.</message>
+	<message label="061" attrib="00 00 00 00"><tag a="110" b="0" /><anim id="Eh" target="actor" targetSpec="" />Aber, <delay8 />Momentchen mal.<delay frames="30" /> <anim id="Serious" target="actor" targetSpec="" />Sieht
+aus, <delay8 />als wärst du nicht flüssig.<pageBreak /><anim id="Hello" target="actor" targetSpec="" />Sag Ahoi, <delay8 />wenn du die <tag a="90" b="21" arg="0x2" />
+zusammengekratzt hast!</message>
+	<message label="062" attrib="02 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Gebiberbongt!<pageBreak /><anim id="ShyBoy" target="actor" targetSpec="" />Ab dem zweiten Durchgang
+kostet die Teilnahme allerdings
+<tag a="90" b="21" arg="0x2" />. <delay20 /><anim id="Hello" target="actor" targetSpec="" />Okay für dich?</message>
+	<message label="062_a" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Abgemacht!</message>
+	<message label="062_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Dann doch nicht.</message>
+	<message label="062_01" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />YO! <delay20 />So muss das sein!<delay frames="30" />
+<anim id="Nodding" target="actor" targetSpec="" />Dann lass mal die <tag a="90" b="21" arg="0x2" />
+rüberschwappen!</message>
 	<message label="063" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Dann hast du ab jetzt genau
 <colour id="1" /><tag a="90" b="0" arg="0xe" /> Minuten<colour id="65535" />,<delay20 /> um zu angeln, <delay8 />zu
 angeln<delay8 /> und noch mal zu angeln!<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Ab <colour id="1" /><tag a="90" b="1" arg="0x4" /> Fischen<colour id="65535" /> wirst du mit
@@ -302,7 +304,7 @@ gleichen Zeit los.<delay40 /> <anim id="Nodding" target="actor" targetSpec="" />
 <colour id="65535" />kriegt ihr Bonuspunkte!<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Alles fischstanden?<delay20 />
 <anim id="Greeting" target="actor" targetSpec="" />Also dann<tag a="110" b="0" /> <delay8 />Angeln frei, <delay8 />yo!</message>
 	<message label="065" attrib="00 00 00 00"><anim id="Clapping" target="actor" targetSpec="" />YO! <delay20 />So muss das sein!</message>
-	<message label="066" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Oh, <delay8 />aber<tag a="110" b="0" /><delay20 /> <anim id="Serious" target="actor" targetSpec="" /><tag a="115" b="0" arg="0xcd00" /> hat in <tag a="50" b="17" arg="0xd 0xcd00 0xc 0x73 0x65 0x69 0x6e 0x65 0x72 0xa 0x69 0x68 0x72 0x65 0x72 0x0" /> <colour id="1" />Kühlbox<colour id="65535" /> noch was drin.<pageBreak /><anim id="Negative" target="actor" targetSpec="" />Solange eure <colour id="1" />Kühlboxen<colour id="65535" /> nicht alle
+	<message label="066" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Oh, <delay8 />aber<tag a="110" b="0" /><delay20 /> <anim id="Serious" target="actor" targetSpec="" /><tag a="115" b="0" arg="0xcd00" /> hat in <tag a="50" b="17" arg="0xe 0xcd00 0xc 0x73 0x65 0x69 0x6e 0x65 0x72 0xa 0x69 0x68 0x72 0x65 0x72 0x0" /> <colour id="1" />Kühlbox<colour id="65535" /> noch was drin.<pageBreak /><anim id="Negative" target="actor" targetSpec="" />Solange eure <colour id="1" />Kühlboxen<colour id="65535" /> nicht alle
 leer sind, <delay8 />kann die nächste Runde
 nicht beginnen.<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Sagst du <tag a="115" b="0" arg="0xcd00" /> Bescheid?<delay20 /> <anim id="Nodding" target="actor" targetSpec="" />Ich kaufe auch Fische an, <delay8 /><anim id="Hello" target="actor" targetSpec="" />falls es das leichter macht.</message>
 	<message label="067" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Oh, <delay8 />aber<tag a="110" b="0" /><delay20 /> <anim id="Serious" target="actor" targetSpec="" />Mir scheint, <delay8 />es haben
@@ -504,8 +506,15 @@ menzählt,<delay8 /> kommt ihr auf<delay8 /> <colour id="1" /><tag a="90" b="2" 
 einen Kooperationsbonus, <delay8 />yo!<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Du selbst hast dir <colour id="1" /><tag a="90" b="1" arg="0x8" /> <50_8 x="0" y="8" a="Fische" b="Fisch" c="Fische" />
 <colour id="65535" />geangelt<tag a="110" b="0" /> <delay20 /><anim id="Eh" target="actor" targetSpec="" />Oh, <delay8 />dann kommt noch der
 Einzelbonus für <colour id="1" /><anim id="Smiling" target="actor" targetSpec="" /><tag a="90" b="1" arg="0x4" /> oder mehr<colour id="65535" /> dazu!</message>
-	<message label="151" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Die kommen dann also zu deinen
-bisherigen Punkten dazu<tag a="110" b="0" /></message>
+	<message label="151" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Die wandern dann mal direkt
+in deinen Punkte-Vorrat<tag a="110" b="0" /></message>
+	<message label="159" attrib="00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Yooo!<delay20 /> Schön, <delay8 />dass du mir auch
+mal wieder ins Netz gehst!<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" /><delay20 />Dein Lieblingsbiber und
+netzbekannter Anglerguru <colour id="3" />Lomeus
+<colour id="65535" />hat dich schon vermisst!<pageBreak /><anim id="Eh" target="actor" targetSpec="" />Moment mal<tag a="110" b="0" /><delay20 /> Hast du etwa schon
+<anim id="QuestionMark" target="actor" targetSpec="" />am <colour id="1" />Angelturnier<colour id="65535" /> teilgenommen?<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Yooo! <delay20 />Du scheinst mir schon eine
+Nase voraus zu sein. <delay20 />Und, <delay8 />hast du
+viel gefangen?</message>
 	<message label="152" attrib="00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Yooo!<delay20 /> Schön, <delay8 />dass du mir auch
 mal wieder ins Netz gehst!<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" /><delay20 />Dein Lieblingsbiber und
 netzbekannter Anglerguru <colour id="3" />Lomeus
@@ -519,7 +528,27 @@ viel gefangen?</message>
 hast,<delay8 /> kannst du sie gegen hoch-
 wertige Souvenirs eintauschen!
 <anim id="BigSmile" target="actor" targetSpec="" />Also hau rein! <delay20 />Pass nur auf, <delay8 /><anim id="Laughing" target="actor" targetSpec="" />dass
-es kein Griff ins Wasser wird!</message>
+es kein Schlag ins Wasser wird!</message>
+	<message label="156" attrib="00 00 00 00">Mal sehen<tag a="110" b="0" /><delay20 /> <colour id="1" /><tag a="90" b="1" arg="0x8" /> <50_8 x="0" y="8" a="Fische" b="Fisch" c="Fische" /> <colour id="65535" />sind in die
+<colour id="1" />Kühlbox <colour id="65535" />gewandert.<delay20 /> <anim id="FaintSmile" target="actor" targetSpec="" />Das nenn ich
+Ködergold!</message>
+	<message label="156_01" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Hör mal. <delay20 />Die <colour id="1" />Kühlbox <colour id="65535" />ist ein kleiner
+Kutter.<delay frames="40" /> <anim id="Nodding" target="actor" targetSpec="" />Mit mehr als 20 Fisch
+Besatzung kriegt sie Schlagseite.<pageBreak /><anim id="Grin" target="actor" targetSpec="" />Deshalb hab ich die überschüssigen
+über die Planke gehen lassen. <delay20 />Keine
+Angst, <delay8 />denen geht's gut!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Und du kriegst natürlich auch die
+Punkte, <delay8 />die dir zustehen, <delay8 />also
+nimm's mir bitte nicht krumm, <delay8 />yo!</message>
+	<message label="157" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Zu <50_8 x="0" y="8" a="deinen" b="deinem" c="deinen" /> stinknormalen <colour id="1" /><tag a="90" b="1" arg="0x8" /> <50_8 x="0" y="8" a="Punkten" b="Punkt" c="Punkten" />
+<colour id="65535" />kommt noch ein Bonus für <colour id="1" /><tag a="90" b="1" arg="0x4" /> oder
+mehr <colour id="65535" />Exemplare.<pageBreak /><anim id="Serious" target="actor" targetSpec="" />Oh, <delay8 />und alle Teilnehmer zusammen
+haben<tag a="110" b="0" /><delay20 /><anim id="Nodding" target="actor" targetSpec="" /> <colour id="1" /><tag a="90" b="2" arg="0x9" /> <50_8 x="0" y="9" a="Fische" b="Fisch" c="Fische" /><colour id="65535" /> an Land
+gezogen.<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Das sind <colour id="1" /><tag a="90" b="1" arg="0xa" /> oder mehr<colour id="65535" />, <delay8 />also gibt es
+noch einen Bonus für die fleißigen
+Fischerfreunde obendrauf!</message>
+	<message label="158" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Zu <50_8 x="0" y="8" a="deinen" b="deinem" c="deinen" /> stinknormalen <colour id="1" /><tag a="90" b="1" arg="0x8" /> <50_8 x="0" y="8" a="Punkten" b="Punkt" c="Punkten" />
+<colour id="65535" />kommt <anim id="FaintSmile" target="actor" targetSpec="" />noch ein Bonus für <colour id="1" /><tag a="90" b="1" arg="0x4" /> oder
+mehr <colour id="65535" />Exemplare.</message>
 	<message label="160" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Alles, was du in einer Runde des
 Turniers an Land ziehst,<delay8 /> landet in
 der <colour id="1" />Kühlbox<colour id="65535" />.<delay frames="40" /> <anim id="FaintSmile" target="actor" targetSpec="" />Sieh mal nach!
@@ -569,17 +598,17 @@ teilgenommen hast,<delay8 /> <anim id="FaintSmile" target="actor" targetSpec="" 
 	<message label="166" attrib="02 00 00 00">Also, <delay8 />Butter bei die Fische:<delay20 />
 <anim id="QuestionMark" target="actor" targetSpec="" />Nehmt ihr am <colour id="1" />Angelturnier<colour id="65535" /> teil
 oder nicht?
-<anim id="EmotEnd" target="actor" targetSpec="" />Da du das erste Mal als <colour id="1" />Anführer<colour id="65535" />
-mitmachst,<delay8 /> <anim id="FaintSmile" target="actor" targetSpec="" />entfällt für dich die
-Teilnahmegebühr!</message>
+<anim id="EmotEnd" target="actor" targetSpec="" />Da du heute das erste Mal als
+<colour id="1" />Anführer <colour id="65535" />mitmachst,<delay8 /> <anim id="FaintSmile" target="actor" targetSpec="" />entfällt für
+dich die Teilnahmegebühr!</message>
 	<message label="166_a" attrib="00 00 00 00">Wir machen mit!</message>
 	<message label="166_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Nein, danke.</message>
 	<message label="167" attrib="06 00 00 00">Also, <delay8 />Butter bei die Fische:<delay20 />
 <anim id="QuestionMark" target="actor" targetSpec="" />Nehmt ihr am <colour id="1" />Angelturnier<colour id="65535" /> teil
 oder nicht?
-<anim id="EmotEnd" target="actor" targetSpec="" />Da du das erste Mal als <colour id="1" />Anführer<colour id="65535" />
-mitmachst,<delay8 /> <anim id="FaintSmile" target="actor" targetSpec="" />entfällt für dich die
-Teilnahmegebühr!</message>
+<anim id="EmotEnd" target="actor" targetSpec="" />Da du heute das erste Mal als
+<colour id="1" />Anführer <colour id="65535" />mitmachst,<delay8 /> <anim id="FaintSmile" target="actor" targetSpec="" />entfällt für
+dich die Teilnahmegebühr!</message>
 	<message label="167_a" attrib="00 00 00 00">Wir machen mit!</message>
 	<message label="167_b" attrib="00 00 00 00">Wie sind die Regeln?</message>
 	<message label="167_c" attrib="00 00 00 00">Punkte eintauschen!</message>
@@ -603,9 +632,9 @@ Punkte zugeflossen zu sein...
 <colour id="1" />Angelturnier<colour id="65535" />! <delay20 /><anim id="Nodding" target="actor" targetSpec="" />Dann hangeln wir uns
 mal bis zum nächsten!</message>
 	<message label="171" attrib="06 00 00 00"><anim id="HappyDance" target="actor" targetSpec="" />Yo, <delay8 />wie sieht's aus?<delay frames="40" />
-<anim id="QuestionMark" target="actor" targetSpec="" />Macht ihr beim <colour id="1" />Angelturnier<colour id="65535" /> mit?<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Da du das erste Mal als <colour id="1" />Anführer<colour id="65535" />
-mitmachst,<delay8 /> <anim id="FaintSmile" target="actor" targetSpec="" />entfällt für dich die
-Teilnahmegebühr!</message>
+<anim id="QuestionMark" target="actor" targetSpec="" />Macht ihr beim <colour id="1" />Angelturnier<colour id="65535" /> mit?<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Da du heute das erste Mal als
+<colour id="1" />Anführer <colour id="65535" />mitmachst,<delay8 /> <anim id="FaintSmile" target="actor" targetSpec="" />entfällt für
+dich die Teilnahmegebühr!</message>
 	<message label="171_a" attrib="00 00 00 00">Wir machen mit!</message>
 	<message label="171_b" attrib="00 00 00 00">Wie sind die Regeln?</message>
 	<message label="171_c" attrib="00 00 00 00">Punkte eintauschen!</message>

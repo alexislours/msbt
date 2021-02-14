@@ -3,7 +3,7 @@
 gegeben.<delay20 /> Das hört man doch gern,<delay8 />
 <tag a="110" b="5" />.
 <anim id="AbsentMindedness" target="actor" targetSpec="" />Manchmal, <delay8 />wenn ich so richtig schön
-<tag a="50" b="17" arg="0x23 0xcd00 0xc 0x69 0x6e 0x20 0x64 0x65 0x6e 0xc 0x69 0x6e 0x20 0x64 0x69 0x65 0x6 0x69 0x6e 0x73" /> <tag a="50" b="23" arg="0xcd01" /><tag a="135" b="8" arg="0xcd00" /> vertieft bin, <delay8 />wirkt ein Tag wie eine Minute.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Denk nur daran, <delay8 />zwischendurch
+<tag a="50" b="17" arg="0x24 0xcd00 0xc 0x69 0x6e 0x20 0x64 0x65 0x6e 0xc 0x69 0x6e 0x20 0x64 0x69 0x65 0x6 0x69 0x6e 0x73" /> <tag a="50" b="23" arg="0xcd01" /><tag a="135" b="8" arg="0xcd00" /> vertieft bin, <delay8 />wirkt ein Tag wie eine Minute.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Denk nur daran, <delay8 />zwischendurch
 etwas zu meditieren und ein Glas
 <tag a="135" b="1" arg="0xcd00" /> zu schlürfen.</message>
 	<message label="102" attrib="00 00 00 00 00 00 00 00"><anim id="Grin" target="actor" targetSpec="" />Du hast in der Angler-Szene gestern
@@ -22,8 +22,8 @@ beim Muschelsammeln gesehen.<pageBreak /><anim id="QuestionMark" target="actor" 
 oder ein Armband oder...<delay frames="40" /> <anim id="Confused" target="actor" targetSpec="" />Tja, <delay8 />weiß
 nicht, <delay8 />was macht man sonst damit?</message>
 	<message label="105" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Du sollst ja gestern fleißig Muscheln
-geerntet haben.<pageBreak /><anim id="Negative" target="actor" targetSpec="" />Ich hätte ja nicht die Geduld dafür.<pageBreak /><anim id="OhGeez" target="actor" targetSpec="" />Ich meine, <delay8 />wenn mir so eine Muschel
-direkt in die Tasche springt, <delay8 />gern!<delay20 />
+ausgegraben haben.<pageBreak /><anim id="Negative" target="actor" targetSpec="" />Ich hätte ja nicht die Geduld dafür.<pageBreak /><anim id="OhGeez" target="actor" targetSpec="" />Ich meine, <delay8 />wenn so eine Muschel
+einfach so herumliegt, <delay8 />gern!<delay20 />
 Aber dafür arbeiten...<delay20 /> Nee!</message>
 	<message label="106" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Gestern hat es wohl Ballons
 geregnet, <delay8 /><tag a="110" b="5" />!<pageBreak /><anim id="WrySmile" target="actor" targetSpec="" />Du musst <gender2 m="ein Virtuose" f="eine Virtuosin" /> mit der
@@ -60,10 +60,10 @@ jetzt mich besser sieht...<pageBreak /><anim id="Serious" target="actor" targetS
 Bäume nach, ja?<delay frames="40" /> <anim id="Love" target="actor" targetSpec="" />Ich brauche meine
 <tag a="110" b="7" arg="0xcd01" />...</message>
 	<message label="111" attrib="00 00 00 00 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Hey, <delay8 />hast du dich hier als Hobby-
-<gender1 m="Gärtner" f="Gärtnerin" /> versucht?<10_4 /> <anim id="Clapping" target="actor" targetSpec="" />Es wirkt nämlich
+<gender2 m="Gärtner" f="Gärtnerin" /> versucht?<10_4 /> <anim id="Clapping" target="actor" targetSpec="" />Es wirkt nämlich
 plötzlich alles so viel grüner!<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Tja, ein grüner Daumen kommt eben
 nie aus der Mode!</message>
-	<message label="112" attrib="00 00 00 00 00 00 00 00"><anim id="WrySmile" target="actor" targetSpec="" /><tag a="50" b="17" arg="0x1d 0xcd00 0x16 0x45 0x69 0x6e 0x20 0x6b 0x6c 0x65 0x69 0x6e 0x65 0x72 0x16 0x45 0x69 0x6e 0x65 0x20 0x6b 0x6c 0x65 0x69 0x6e 0x65 0x16 0x45 0x69 0x6e 0x20 0x6b 0x6c 0x65 0x69 0x6e 0x65 0x73" /> <tag a="135" b="2" arg="0xcd00" /> hat mir
+	<message label="112" attrib="00 00 00 00 00 00 00 00"><anim id="WrySmile" target="actor" targetSpec="" /><tag a="50" b="17" arg="0x1e 0xcd00 0x16 0x45 0x69 0x6e 0x20 0x6b 0x6c 0x65 0x69 0x6e 0x65 0x72 0x16 0x45 0x69 0x6e 0x65 0x20 0x6b 0x6c 0x65 0x69 0x6e 0x65 0x16 0x45 0x69 0x6e 0x20 0x6b 0x6c 0x65 0x69 0x6e 0x65 0x73" /> <tag a="135" b="2" arg="0xcd00" /> hat mir
 gesteckt, <delay8 />dass du hier gießen warst.<pageBreak /><anim id="AbsentMindedness" target="actor" targetSpec="" />Ich sehe es vor mir...<delay20 /> Die Gießkanne
 neigt sich in Zeitlupe, <delay8 />Wassertropfen
 glitzern im Sonnenlicht...
@@ -78,9 +78,17 @@ solch expressiven Emotionen auf alle
 möglichen Sachen reagieren?
 <anim id="OhGeez" target="actor" targetSpec="" />Ach, <delay8 />schon gut. <delay frames="40" /><anim id="Scheming" target="actor" targetSpec="" />Aber wenn du hörst,<delay8 />
 dass <tag a="50" b="17" arg="0x5 0xcd00 0x6 0x65 0x69 0x6e 0x8 0x65 0x69 0x6e 0x65 0x6 0x65 0x69 0x6e" /> <tag a="110" b="15" /> für eine Rolle gesucht wird, <delay8 />gib Bescheid!</message>
+	<message label="114" attrib="00 00 00 00 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Hey, <delay8 />du bist derzeit ja ziemlich viel
+unterwegs, <delay8 /><tag a="110" b="3" />!<pageBreak /><anim id="Aha" target="actor" targetSpec="" />Hast du dir Souvenirs mitgebracht?<pageBreak /><anim id="AbsentMindedness" target="actor" targetSpec="" /><tag a="50" b="17" arg="0x21 0xcd00 0x36 0x45 0x69 0x6e 0x65 0x6e 0x20 0x73 0x63 0x68 0x69 0x63 0x6b 0x65 0x6e 0x20 0x69 0x6d 0x70 0x6f 0x72 0x74 0x69 0x65 0x72 0x74 0x65 0x6e 0x30 0x45 0x69 0x6e 0x65 0x20 0x73 0x63 0x68 0x69 0x63 0x6b 0x65 0x20 0x69 0x6d 0x70 0x6f 0x72 0x74 0x69 0x65 0x72 0x74 0x65 0x32 0x45 0x69 0x6e 0x20 0x73 0x63 0x68 0x69 0x63 0x6b 0x65 0x73 0x20 0x69 0x6d 0x70 0x6f 0x72 0x74 0x69 0x65 0x72 0x74 0x65 0x73" />
+<tag a="50" b="23" arg="0xcd01" /><tag a="135" b="5" arg="0xcd00" /> oder so was?
+<delay20 />Sag schon!</message>
+	<message label="115" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Hey, <delay8 />war schön, <delay8 />dass du ein paar
+Gästen <tag a="110" b="8" /> gezeigt hast.<pageBreak /><anim id="SmugFace" target="actor" targetSpec="" />Und ich stelle mein Domizil gerne
+als Eintrag für die Karte mit den
+Sehenswürdigkeiten zur Verfügung!</message>
 	<message label="116" attrib="00 00 00 00 00 00 00 00"><anim id="Hello" target="actor" targetSpec="" />Man sieht dich in letzter Zeit ja oft
 beim <colour id="1" />Basteln<colour id="65535" />...<pageBreak /><anim id="ShyBoy" target="actor" targetSpec="" />Ich wünschte, <delay8 />ich könnte auch
-Sachen machen.<pageBreak /><anim id="OhGeez" target="actor" targetSpec="" />Also,<delay8 /> jetzt mal von <tag a="50" b="17" arg="0x1e 0xcd00 0xc 0x6d 0x65 0x69 0x6e 0x65 0x6d 0xc 0x6d 0x65 0x69 0x6e 0x65 0x72 0xc 0x6d 0x65 0x69 0x6e 0x65 0x6d" />
+Sachen machen.<pageBreak /><anim id="OhGeez" target="actor" targetSpec="" />Also,<delay8 /> jetzt mal von <tag a="50" b="17" arg="0x1f 0xcd00 0xc 0x6d 0x65 0x69 0x6e 0x65 0x6d 0xc 0x6d 0x65 0x69 0x6e 0x65 0x72 0xc 0x6d 0x65 0x69 0x6e 0x65 0x6d" />
 Weltklasse-<tag a="50" b="23" arg="0xcd02" /><tag a="135" b="3" arg="0xcd00" /> abgesehen!</message>
 	<message label="117" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Du hast deinen Werkzeugen alles
 abverlangt, <delay8 />erzählt man sich.<delay20 /> Tja, <delay8 />wie
@@ -89,7 +97,7 @@ sag ich immer?
 geht, <delay8 />bis es bricht, <delay8 />ist besser als der
 geschenkte Gaul auf dem Dach.“
 <anim id="SmugFace" target="actor" targetSpec="" />Nur eine der vielen Weisheiten,
-die mir <tag a="50" b="17" arg="0x23 0xcd00 0x8 0x62 0x65 0x69 0x6d 0xe 0x62 0x65 0x69 0x20 0x64 0x65 0x72 0x8 0x62 0x65 0x69 0x6d" /> <tag a="135" b="8" arg="0xcd00" />
+die mir <tag a="50" b="17" arg="0x24 0xcd00 0x8 0x62 0x65 0x69 0x6d 0xe 0x62 0x65 0x69 0x20 0x64 0x65 0x72 0x8 0x62 0x65 0x69 0x6d" /> <tag a="135" b="8" arg="0xcd00" />
 zugeflogen sind.</message>
 	<message label="118" attrib="00 00 00 00 00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />Hey, <delay8 />in letzter Zeit habe ich dich
 nicht so oft gesehen...<delay frames="40" /> <anim id="QuestionMark" target="actor" targetSpec="" />Bist du eher
@@ -130,7 +138,7 @@ Smartphone los,<delay20 /> <tag a="110" b="3" />?<delay frames="40" />
 geklungen.</message>
 	<message label="124_01" attrib="00 00 00 00 00 00 00 00"><anim id="AbsentMindedness" target="actor" targetSpec="" />Oh, <delay8 /><tag a="110" b="5" /><tag a="110" b="0" /> Erinnerst du dich
 an gestern? <delay20 />Unser Lachen? <delay20 />Unser
-Weinen? <delay20 /><tag a="50" b="17" arg="0x22 0xcd00 0x6 0x44 0x65 0x6e 0x6 0x44 0x69 0x65 0x6 0x44 0x61 0x73" /> <tag a="50" b="23" arg="0xcd01" /><tag a="135" b="1" arg="0xcd00" />?
+Weinen? <delay20 /><tag a="50" b="17" arg="0x23 0xcd00 0x6 0x44 0x65 0x6e 0x6 0x44 0x69 0x65 0x6 0x44 0x61 0x73" /> <tag a="50" b="23" arg="0xcd01" /><tag a="135" b="1" arg="0xcd00" />?
 <anim id="WrySmile" target="actor" targetSpec="" />Gut, <delay8 />ein bisschen übertreibe ich
 vielleicht, <delay8 />aber das war für uns
 schon ein besonderer Tag, oder?
@@ -158,7 +166,7 @@ Visitenkarten, <delay8 />also pass drauf auf!</message>
 von deinem Wespen-Malheur gehört,<delay8 />
 <tag a="110" b="3" />.
 <anim id="SmugFace" target="actor" targetSpec="" />Ich habe mal ein Wespenstich-Opfer
-in „Der Vampir <tag a="50" b="17" arg="0x1f 0xcd00 0x6 0x64 0x65 0x73 0x6 0x64 0x65 0x72 0x6 0x64 0x65 0x73" /> <tag a="50" b="23" arg="0xcd03" /><tag a="135" b="4" arg="0xcd00" />“
+in „Der Vampir <tag a="50" b="17" arg="0x20 0xcd00 0x6 0x64 0x65 0x73 0x6 0x64 0x65 0x72 0x6 0x64 0x65 0x73" /> <tag a="50" b="23" arg="0xcd03" /><tag a="135" b="4" arg="0xcd00" />“
 gespielt, <delay8 />ich kenn mich also aus.
 <anim id="OhGeez" target="actor" targetSpec="" /><tag a="110" b="0" />Ja, <delay8 />diesen Film gibt es wirklich.<delay20 />
 Auch wenn ich ihn bei mir im Keller
@@ -225,8 +233,8 @@ Meilen<colour id="65535" /> einzusacken!<pageBreak /><anim id="BigSmile" target=
 Cooles und Exklusives, <delay8 />wenn du
 sie einlöst, <delay8 /><tag a="110" b="5" />!</message>
 	<message label="139" attrib="00 00 00 00 00 00 00 00"><anim id="Clapping" target="actor" targetSpec="" />Sehr gut, <delay8 /><tag a="110" b="3" />!<pageBreak /><anim id="SmugFace" target="actor" targetSpec="" />Meinen Glückwunsch zum
-Abbezahlen deines Kredits!<pageBreak /><anim id="Scheming" target="actor" targetSpec="" />Jetzt kannst du anfangen,<delay8 /> auf <tag a="50" b="17" arg="0x20 0xcd00 0x6 0x64 0x65 0x6e 0x6 0x64 0x69 0x65 0x6 0x64 0x61 0x73" />
-<tag a="135" b="5" arg="0xcd00" /> zu sparen, <delay8 /><tag a="50" b="17" arg="0x20 0xcd00 0x6 0x64 0x65 0x6e 0x6 0x64 0x69 0x65 0x6 0x64 0x61 0x73" /> ich zum Geburtstag will.<delay frames="40" /> <anim id="Laughing" target="actor" targetSpec="" />Ha-HA!</message>
+Abbezahlen deines Kredits!<pageBreak /><anim id="Scheming" target="actor" targetSpec="" />Jetzt kannst du anfangen,<delay8 /> auf <tag a="50" b="17" arg="0x21 0xcd00 0x6 0x64 0x65 0x6e 0x6 0x64 0x69 0x65 0x6 0x64 0x61 0x73" />
+<tag a="135" b="5" arg="0xcd00" /> zu sparen, <delay8 /><tag a="50" b="17" arg="0x21 0xcd00 0x6 0x64 0x65 0x6e 0x6 0x64 0x69 0x65 0x6 0x64 0x61 0x73" /> ich zum Geburtstag will.<delay frames="40" /> <anim id="Laughing" target="actor" targetSpec="" />Ha-HA!</message>
 	<message label="140" attrib="00 00 00 00 00 00 00 00"><anim id="Grin" target="actor" targetSpec="" />Ein kleiner Waschbär hat mir
 geflüstert, <delay8 />dass man dich oft
 im Laden gesehen hat, <delay8 /><tag a="110" b="5" />.
@@ -256,7 +264,7 @@ zum Anziehen zur Hand ist...</message>
 	<message label="144" attrib="00 00 00 00 00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />Ich werd richtig neidisch, <delay8 />wenn ich
 dich übers Wasser springen sehe,<delay8 />
 <tag a="110" b="3" />.
-<anim id="Angry" target="actor" targetSpec="" />Ich war mal ein richtiges Ass <tag a="50" b="17" arg="0x21 0xcd00 0x4 0x69 0x6d 0xc 0x69 0x6e 0x20 0x64 0x65 0x72 0x4 0x69 0x6d" />
+<anim id="Angry" target="actor" targetSpec="" />Ich war mal ein richtiges Ass <tag a="50" b="17" arg="0x22 0xcd00 0x4 0x69 0x6d 0xc 0x69 0x6e 0x20 0x64 0x65 0x72 0x4 0x69 0x6d" />
 <tag a="135" b="6" arg="0xcd00" />. <delay20 />Warum kann ich also
 nicht so springen?!</message>
 	<message label="145" attrib="00 00 00 00 00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Man munkelt,<delay8 /> dass du einen Batzen
@@ -284,16 +292,15 @@ gerückt!
 <anim id="Hesitate" target="actor" targetSpec="" />Könntest du diesen Tatendrang
 vielleicht auch einsetzen, <delay8 />um meinen
 Kleiderschrank zu sortieren?</message>
-	<message label="149" attrib="00 00 00 00 00 00 00 00"><anim id="Love" target="actor" targetSpec="" />Gefällt mir, <delay8 />dein neuer Haarschnitt,
-<delay8 /><tag a="110" b="5" />.<pageBreak /><anim id="Thinking" target="actor" targetSpec="" />Ich frage mich, <delay8 />wie der mir wohl
-stehen würde...<pageBreak /><anim id="Negative" target="actor" targetSpec="" />Aber als Zeichen des Respekts werde
-ich deine Frisur nicht kopieren.<pageBreak /><anim id="Grin" target="actor" targetSpec="" />Zumindest die nächsten zwei Wochen
-nicht.</message>
+	<message label="149" attrib="00 00 00 00 00 00 00 00"><anim id="Love" target="actor" targetSpec="" />Gefallen mir, <delay8 />deine Haare.<delay frames="40" />
+<anim id="Thinking" target="actor" targetSpec="" />Ich frage mich, <delay8 />wie mir wohl dieser
+Look stehen würde<tag a="110" b="0" /><pageBreak /><anim id="Negative" target="actor" targetSpec="" />Aber als Zeichen des Respekts
+werde ich dich nicht kopieren.<pageBreak /><anim id="Grin" target="actor" targetSpec="" />Zumindest die nächsten zwei
+Wochen nicht, <delay8 /><tag a="110" b="5" />!</message>
 	<message label="150" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Oh, <delay8 />wow!<10_4 />
-<anim id="QuestionMark" target="actor" targetSpec="" />Bist du's, <delay8 /><tag a="110" b="3" />?<pageBreak /><anim id="TakenAback" target="actor" targetSpec="" />Ich hätte dich fast nicht erkannt!<delay20 />
-Du hast deinen Stil wirklich neu
-erfunden!
-<anim id="OhGeez" target="actor" targetSpec="" />Ich wünschte, <delay8 />ich hätte deine
+<anim id="QuestionMark" target="actor" targetSpec="" />Bist du's, <delay8 /><tag a="110" b="3" />?<pageBreak /><anim id="TakenAback" target="actor" targetSpec="" />Du hast doch was an dir verändert,<delay8 />
+oder?<delay20 /> <anim id="BigSmile" target="actor" targetSpec="" />Gefällt mir richtig gut,<delay8 /> deine
+neue Optik!<pageBreak /><anim id="OhGeez" target="actor" targetSpec="" />Ich wünschte, <delay8 />ich hätte deine
 Wandlungsfähigkeit.<delay20 /> Dann würde ich
 bestimmt auch mehr Rollen kriegen.</message>
 	<message label="151" attrib="00 00 00 00 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Hast du die Kamera noch bereit,<delay8 />

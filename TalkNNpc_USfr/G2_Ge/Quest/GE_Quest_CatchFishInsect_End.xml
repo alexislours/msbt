@@ -1,14 +1,14 @@
 <msbt attribsize="8">
 	<message label="001" attrib="00 00 00 00 00 00 00 00"><anim id="HappyDance" target="actor" targetSpec="" />Ben dis donc! Tu as trouvé <delay20 /><tag a="50" b="2" /><tag a="125" b="2" arg="0xcd00" />! Ça n'a pas dû être facile!</message>
-	<message label="002" attrib="00 00 00 00 00 00 00 00"><anim id="Blushing" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="50" b="2" /><tag a="125" b="2" arg="0xcd00" /> que je t'avais demandé<tag a="50" b="17" arg="0x13 0xcd00 0x0 0x2 0x65 0x0" />! Toi, tu l'as l'affaire!</message>
-	<message label="003" attrib="00 00 00 00 00 00 00 00"><anim id="Clapping" target="actor" targetSpec="" />Regarde <tag a="50" b="17" arg="0x11 0xcd00 0xa 0x63 0x65 0x6c 0x75 0x69 0xa 0x63 0x65 0x6c 0x6c 0x65 0x0" />-là! Je te présente
+	<message label="002" attrib="00 00 00 00 00 00 00 00"><anim id="Blushing" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="50" b="2" /><tag a="125" b="2" arg="0xcd00" /> que je t'avais demandé<tag a="50" b="17" arg="0x14 0xcd00 0x0 0x2 0x65 0x0" />! Toi, tu l'as l'affaire!</message>
+	<message label="003" attrib="00 00 00 00 00 00 00 00"><anim id="Clapping" target="actor" targetSpec="" />Regarde <tag a="50" b="17" arg="0x12 0xcd00 0xa 0x63 0x65 0x6c 0x75 0x69 0xa 0x63 0x65 0x6c 0x6c 0x65 0x0" />-là! Je te présente
 <tag a="50" b="2" /><tag a="125" b="0" arg="0x0" />!<delay40 /> <anim id="HappyDance" target="actor" targetSpec="" />Eh ouais!<delay40 /> C'est fort!</message>
 	<message label="004" attrib="00 00 02 00 00 00 00 00"><anim id="Clapping" target="actor" targetSpec="" />Géantissime! Tu m'as ramené <tag a="50" b="2" /><delay20 /><tag a="125" b="0" arg="0x0" />, comme promis!<delay40 /><pageBreak /><anim id="Love" target="actor" targetSpec="" />Ouah!<delay8 /> OUAH!<delay8 /> OUAH!!!
 Je suis trop contente!<pageBreak /><anim id="Hesitate" target="actor" targetSpec="" />Tu es sûr<gender2 m="" f="e" /> que c'est pour moi? Vrai
 de vrai?<delay20 /> Ces bestioles-là sont
 hyper rares!</message>
 	<message label="004_a" attrib="00 00 00 00 00 00 00 00">Bien sûr!
-C'est pour toi.</message>
+<anim id="EmotEnd" target="actor" targetSpec="" />C'est pour toi.</message>
 	<message label="004_b" attrib="00 00 00 00 00 00 00 00">En fait, non.
 Oups, désolé<gender2 m="" f="e" />.</message>
 	<message label="005" attrib="00 00 00 00 00 00 00 00"><anim id="HappyFlower" target="actor" targetSpec="" />Ha ha! T'es trop fort<gender2 m="" f="e" />!</message>
@@ -35,7 +35,7 @@ temps sur les fleurs, steuplè!</message>
 	<message label="013" attrib="00 00 00 00 00 00 00 00"><anim id="OhGeez" target="actor" targetSpec="" />Ha ha, la bonne blague!<delay frames="40" /> <anim id="FaintSmile" target="actor" targetSpec="" />Mais ça
 résout pas mon problème. <anim id="Greeting" target="actor" targetSpec="" />Je veux
 un insecte qui aime les souches.</message>
-	<message label="021" attrib="00 00 00 00 00 00 00 00"><anim id="HappyDance" target="actor" targetSpec="" />Oh...<delay20 /> OH...<delay20 /> OH!<delay40 /> Tu as attrapé <tag a="50" b="2" /><delay40 /><tag a="125" b="3" arg="0xcd00" /> et tu me <tag a="50" b="17" arg="0x14 0xcd00 0x4 0x6c 0x65 0x4 0x6c 0x61 0x0" /> donnes!</message>
+	<message label="021" attrib="00 00 00 00 00 00 00 00"><anim id="HappyDance" target="actor" targetSpec="" />Oh...<delay20 /> OH...<delay20 /> OH!<delay40 /> Tu as attrapé <tag a="50" b="2" /><delay40 /><tag a="125" b="3" arg="0xcd00" /> et tu me <tag a="50" b="17" arg="0x15 0xcd00 0x4 0x6c 0x65 0x4 0x6c 0x61 0x0" /> donnes!</message>
 	<message label="022" attrib="00 00 00 00 00 00 00 00"><anim id="HappyDance" target="actor" targetSpec="" />Hein? <delay20 />Est-ce que<tag a="110" b="0" /> Oh! C'est <tag a="50" b="2" /><delay20 />
 <tag a="125" b="3" arg="0xcd00" />! <delay40 /><anim id="Shocked" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="110" b="3" />!<delay40 /> <anim id="Shocked" target="actor" targetSpec="" />T'es trop fort<gender2 m="" f="e" />!</message>
 	<message label="023" attrib="00 00 00 00 00 00 00 00"><anim id="AbsentMindedness" target="actor" targetSpec="" />Tu sais, j'ai rêvé de ce poisson.<delay20 />
@@ -63,15 +63,13 @@ devrait te faire plaisir!</message>
 pour toi!</message>
 	<message label="033" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Merci!<10_4 /> <anim id="Blushing" target="actor" targetSpec="" />J'ai aussi quelque chose
 pour toi!<delay20 /></message>
-	<message label="034" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />C'est qui l<gender2 m="e" f="a" /> meilleur<gender2 m="" f="e" />? C'est
-<tag a="110" b="3" />!<10_4 /> <anim id="EmotEnd" target="actor" targetSpec="" />Et j'ai même <delay8 /><anim id="SmugFace" target="actor" targetSpec="" />une
-récompense pour toi!</message>
+	<message label="034" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />C'est qui l<gender2 m="e" f="a" /> meilleur<gender2 m="" f="e" />? C'est <tag a="110" b="3" />!<10_4 /> <anim id="EmotEnd" target="actor" targetSpec="" />Et j'ai même <delay8 /><anim id="SmugFace" target="actor" targetSpec="" />une récompense pour toi!</message>
 	<message label="041" attrib="00 00 00 00 00 00 00 00"><anim id="Hello" target="actor" targetSpec="" />Regarde un peu! J'espère que ça te
 plaît, c'est rien de moins qu'<tag a="50" b="2" />
 <tag a="125" b="4" arg="0x0" />!</message>
 	<message label="042" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="50" b="2" /><tag a="125" b="4" arg="0x0" />!<10_4 />
 <anim id="Smiling" target="actor" targetSpec="" />J'espère que ça te fait plaisir!</message>
-	<message label="043" attrib="00 00 00 00 00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />Boum! <delay20 />Allez, c'est cadeau! <tag a="50" b="3" /><tag a="50" b="2" /><tag a="125" b="4" arg="0x0" />!<10_4 /> <anim id="Hesitate" target="actor" targetSpec="" />Je l'ai choisi<tag a="50" b="17" arg="0x15 0xcd00 0x0 0x2 0x65 0x0" /> exprès pour toi!</message>
+	<message label="043" attrib="00 00 00 00 00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />Boum! <delay20 />Allez, c'est cadeau! <tag a="50" b="3" /><tag a="50" b="2" /><tag a="125" b="4" arg="0x0" />!<10_4 /> <anim id="Hesitate" target="actor" targetSpec="" />Je l'ai choisi<tag a="50" b="17" arg="0x16 0xcd00 0x0 0x2 0x65 0x0" /> exprès pour toi!</message>
 	<message label="044" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="50" b="2" /><delay40 /><anim id="Hesitate" target="actor" targetSpec="" /><tag a="125" b="4" arg="0x0" />!<10_4 />
 Ça te fait plaisir, <delay8 />hein, <delay8 />dis?</message>
 	<message label="045" attrib="00 00 00 00 00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />Tiens, c'est pour toi,<delay20 /> <tag a="50" b="2" /><tag a="125" b="4" arg="0x0" />.<10_4 /> Et merci encore <anim id="Blushing" target="actor" targetSpec="" />pour ton aide.</message>
@@ -120,22 +118,22 @@ Ou d'un lac!<delay frames="30" /></message>
 	<message label="112" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Je me demandais<tag a="110" b="0" /> Tu pourrais me
 trouver un poisson de mer?<pageBreak /><anim id="HappyDance" target="actor" targetSpec="" />Un bon, un gros, qui vit dans l'eau
 salée!</message>
-	<message label="201" attrib="00 00 00 00 00 00 00 00"><anim id="HappyDance" target="actor" targetSpec="" />J'ai vraiment super envie d'<tag a="50" b="2" /><tag a="125" b="2" arg="0xcd00" />!<delay frames="40" /> Tu pourrais m'en attraper <tag a="50" b="17" arg="0x13 0xcd00 0x4 0x75 0x6e 0x6 0x75 0x6e 0x65 0x0" />?<pageBreak /><anim id="Hello" target="actor" targetSpec="" />Si tu vas voir sur les arbres, tu
+	<message label="201" attrib="00 00 00 00 00 00 00 00"><anim id="HappyDance" target="actor" targetSpec="" />J'ai vraiment super envie d'<tag a="50" b="2" /><tag a="125" b="2" arg="0xcd00" />!<delay frames="40" /> Tu pourrais m'en attraper <tag a="50" b="17" arg="0x14 0xcd00 0x4 0x75 0x6e 0x6 0x75 0x6e 0x65 0x0" />?<pageBreak /><anim id="Hello" target="actor" targetSpec="" />Si tu vas voir sur les arbres, tu
 devrais en trouver!</message>
-	<message label="202" attrib="00 00 00 00 00 00 00 00"><anim id="HappyDance" target="actor" targetSpec="" />Mon rêve, c'est de voir <tag a="50" b="2" /><tag a="125" b="2" arg="0xcd00" />!<pageBreak /><anim id="Thinking" target="actor" targetSpec="" /><tag a="50" b="17" arg="0x13 0xcd00 0x6 0x49 0x6c 0x73 0xa 0x45 0x6c 0x6c 0x65 0x73 0x0" /> ont une tenue de camouflage et
+	<message label="202" attrib="00 00 00 00 00 00 00 00"><anim id="HappyDance" target="actor" targetSpec="" />Mon rêve, c'est de voir <tag a="50" b="2" /><tag a="125" b="2" arg="0xcd00" />!<pageBreak /><anim id="Thinking" target="actor" targetSpec="" /><tag a="50" b="17" arg="0x14 0xcd00 0x6 0x49 0x6c 0x73 0xa 0x45 0x6c 0x6c 0x65 0x73 0x0" /> ont une tenue de camouflage et
 se cachent dans les herbes.<anim id="FaintSmile" target="actor" targetSpec="" /> Bonne
 chasse, <tag a="110" b="3" />!</message>
 	<message label="203" attrib="00 00 00 00 00 00 00 00"><anim id="HappyDance" target="actor" targetSpec="" />Je ferais n'importe quoi pour voir
-<tag a="50" b="2" /><tag a="125" b="2" arg="0xcd00" />!<pageBreak /><anim id="Hello" target="actor" targetSpec="" />Il doit bien y en avoir un<tag a="50" b="17" arg="0x13 0xcd00 0x0 0x2 0x65 0x0" /> qui
+<tag a="50" b="2" /><tag a="125" b="2" arg="0xcd00" />!<pageBreak /><anim id="Hello" target="actor" targetSpec="" />Il doit bien y en avoir un<tag a="50" b="17" arg="0x14 0xcd00 0x0 0x2 0x65 0x0" /> qui
 virevolte dans le coin<tag a="110" b="0" /></message>
 	<message label="204" attrib="00 00 00 00 00 00 00 00"><anim id="HappyDance" target="actor" targetSpec="" />J'ai trop hâte que tu me ramènes
-<tag a="50" b="2" /><tag a="125" b="2" arg="0xcd00" />!<pageBreak /><anim id="Hello" target="actor" targetSpec="" />J'ai cru en apercevoir <tag a="50" b="17" arg="0x13 0xcd00 0x4 0x75 0x6e 0x6 0x75 0x6e 0x65 0x0" /> par ici,
+<tag a="50" b="2" /><tag a="125" b="2" arg="0xcd00" />!<pageBreak /><anim id="Hello" target="actor" targetSpec="" />J'ai cru en apercevoir <tag a="50" b="17" arg="0x14 0xcd00 0x4 0x75 0x6e 0x6 0x75 0x6e 0x65 0x0" /> par ici,
 tout à l'heure. <tag a="50" b="3" /><tag a="110" b="6" />?</message>
 	<message label="205" attrib="00 00 00 00 00 00 00 00"><anim id="HappyDance" target="actor" targetSpec="" />Si tu pouvais me rapporter <tag a="50" b="2" /><tag a="125" b="2" arg="0xcd00" />, ce serait trop génial!<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Oh,<delay8 /> et prends garde à ne pas faire
-mal à la fleur où <tag a="50" b="17" arg="0x13 0xcd00 0x4 0x69 0x6c 0x8 0x65 0x6c 0x6c 0x65 0x0" /> se trouve.<delay frames="40" />
+mal à la fleur où <tag a="50" b="17" arg="0x14 0xcd00 0x4 0x69 0x6c 0x8 0x65 0x6c 0x6c 0x65 0x0" /> se trouve.<delay frames="40" />
 <anim id="Greeting" target="actor" targetSpec="" />Elle risquerait de se défendre!</message>
 	<message label="206" attrib="00 00 00 00 00 00 00 00"><anim id="HappyDance" target="actor" targetSpec="" />C'est fou, je ne pense plus qu'à
-<tag a="50" b="2" /><tag a="125" b="2" arg="0xcd00" />!<delay frames="40" /> J'ai hâte d'en avoir <tag a="50" b="17" arg="0x13 0xcd00 0x4 0x75 0x6e 0x6 0x75 0x6e 0x65 0x0" /> à moi!<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Souviens-toi que tu dois d'abord
+<tag a="50" b="2" /><tag a="125" b="2" arg="0xcd00" />!<delay frames="40" /> J'ai hâte d'en avoir <tag a="50" b="17" arg="0x14 0xcd00 0x4 0x75 0x6e 0x6 0x75 0x6e 0x65 0x0" /> à moi!<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Souviens-toi que tu dois d'abord
 chercher une souche!<delay frames="40" /> <anim id="Greeting" target="actor" targetSpec="" />Bonne chance,
 <tag a="110" b="3" />!</message>
 	<message label="207" attrib="00 00 00 00 00 00 00 00"><anim id="HappyDance" target="actor" targetSpec="" />Si tu pouvais me trouver <tag a="50" b="2" /><tag a="125" b="2" arg="0xcd00" />, ce serait vraiment génial!<delay40 /><anim id="Serious" target="actor" targetSpec="" /><pageBreak /><delay20 />Je plaisante pas! <anim id="Hello" target="actor" targetSpec="" />À ta place, je
@@ -145,11 +143,11 @@ la plage!</message>
 poissons, mais<tag a="110" b="0" /><delay20 /> tu pourrais pêcher
 <tag a="50" b="2" /><tag a="125" b="3" arg="0xcd00" />?
 <anim id="Hello" target="actor" targetSpec="" />Fais le tour des rivières du coin,
-tu devrais finir par en trouver un<tag a="50" b="17" arg="0x14 0xcd00 0x0 0x2 0x65 0x0" />.
+tu devrais finir par en trouver un<tag a="50" b="17" arg="0x15 0xcd00 0x0 0x2 0x65 0x0" />.
 Bonne chance!</message>
 	<message label="212" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Vivement que tu me ramènes <tag a="50" b="2" /><tag a="125" b="3" arg="0xcd00" />! <anim id="Aha" target="actor" targetSpec="" />Ahhh! J'ai trop hâte!<pageBreak /><anim id="Hello" target="actor" targetSpec="" />Si j'étais toi, j'irais chercher du côté
 d'un lac!<delay frames="40" /> <anim id="HappyDance" target="actor" targetSpec="" />Bonne chance, <tag a="110" b="3" />!</message>
-	<message label="213" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Je ferais tout pour avoir <tag a="50" b="2" /><tag a="125" b="3" arg="0xcd00" />. Reviens quand tu en auras <tag a="50" b="17" arg="0x14 0xcd00 0x4 0x75 0x6e 0x6 0x75 0x6e 0x65 0x0" />!<pageBreak /><anim id="Greeting" target="actor" targetSpec="" />Je crois<tag a="110" b="0" /> que j'en ai vu <tag a="50" b="17" arg="0x14 0xcd00 0x4 0x75 0x6e 0x6 0x75 0x6e 0x65 0x0" /> à
+	<message label="213" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Je ferais tout pour avoir <tag a="50" b="2" /><tag a="125" b="3" arg="0xcd00" />. Reviens quand tu en auras <tag a="50" b="17" arg="0x15 0xcd00 0x4 0x75 0x6e 0x6 0x75 0x6e 0x65 0x0" />!<pageBreak /><anim id="Greeting" target="actor" targetSpec="" />Je crois<tag a="110" b="0" /> que j'en ai vu <tag a="50" b="17" arg="0x15 0xcd00 0x4 0x75 0x6e 0x6 0x75 0x6e 0x65 0x0" /> à
 l'endroit où la rivière se jette dans
 la mer.<anim id="Greeting" target="actor" targetSpec="" /> Commence par là!</message>
 	<message label="214" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Vite, vite! J'ai trop hâte d'avoir <tag a="50" b="2" /><tag a="125" b="3" arg="0xcd00" />! J'en peux plus d'attendre!!!<pageBreak /><anim id="Hello" target="actor" targetSpec="" />Regarde dans la mer, <delay frames="50" /><anim id="Smiling" target="actor" targetSpec="" />c'est là que tu

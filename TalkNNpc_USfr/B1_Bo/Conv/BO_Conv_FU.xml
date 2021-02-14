@@ -2,7 +2,7 @@
 	<message label="001" attrib="00 00 00 00 00 00 00 00"><20_3 arg="0" />Salut, <tag a="110" b="3" />! <anim id="Hello" target="actor" targetSpec="" />Tu as remarqué ce fumet qui volait dans l'air, hier?<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" /><delay20 /><20_3 arg="7" />Comme une délicieuse odeur
 <delay20 /><gender4 m="de " f="d'" />⁠<tag a="135" b="7" arg="0xcd00" /><anim id="Love" target="actor" targetSpec="" /> juste devant chez <tag a="110" b="31" arg="0xcd01" />?</message>
 	<message label="002" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Je confirme, ça venait de chez moi<tag a="110" b="0" />
-Je suis impressionnée que tu aies
+<20_3 arg="7" />Je suis impressionnée que tu aies
 reconnu l'odeur!</message>
 	<message label="003" attrib="00 00 00 00 00 00 00 00">C'est que j'ai un nez exceptionnel! Il
 repère la nourriture de très loin,
@@ -29,8 +29,8 @@ vrai!<anim id="Laughing" target="actor" targetSpec="" /> Je peux goûter, mainte
 	<message label="010" attrib="00 00 00 00 00 00 00 00">.<delay frames="20" />.<delay frames="20" />.<delay frames="40" /><anim id="Sighing" target="actor" targetSpec="" /><delay20 /> C'est comme donner de la
 confiture aux cochons.</message>
 	<message label="101" attrib="00 00 00 00 00 00 00 00">Dis, <tag a="110" b="31" arg="0xcd01" />, est-ce que tu aurais<anim id="QuestionMark" target="actor" targetSpec="" /> un livre à me recommander?</message>
-	<message label="102" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Oh! Tu veux lire, <tag a="110" b="31" arg="0xcd00" />?<delay20 /> <anim id="Confused" target="actor" targetSpec="" />Euh, oui, bien sûr<tag a="110" b="0" />.<pageBreak /><anim id="Thinking" target="actor" targetSpec="" />Laisse-moi réfléchir<tag a="110" b="0" /><delay frames="60" /> Ça dépend de
-ce que tu aimes<tag a="110" b="0" /><pageBreak />Personnellement, j'ai adoré <anim id="EmotEnd" target="actor" targetSpec="" />« ⁠<tag a="135" b="0" arg="0xcd00" /> »<tag a="110" b="0" /><pageBreak /><tag a="110" b="0" /> et <anim id="Greeting" target="actor" targetSpec="" />« ⁠<tag a="135" b="0" arg="0xcd01" /> ».</message>
+	<message label="102" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Oh! Tu veux lire, <tag a="110" b="31" arg="0xcd00" />?<delay20 /> <anim id="Confused" target="actor" targetSpec="" />Euh, oui, bien sûr<tag a="110" b="0" /><pageBreak /><anim id="Thinking" target="actor" targetSpec="" />Laisse-moi réfléchir<tag a="110" b="0" /><delay frames="60" /> Ça dépend de
+ce que tu aimes<tag a="110" b="0" /><pageBreak />Personnellement, j'ai adoré <anim id="EmotEnd" target="actor" targetSpec="" />« ⁠<tag a="135" b="0" arg="0xcd00" /> ⁠»<tag a="110" b="0" /><pageBreak /><tag a="110" b="0" /> et <anim id="Greeting" target="actor" targetSpec="" />« ⁠<tag a="135" b="0" arg="0xcd01" /> ⁠».</message>
 	<message label="103" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Parfait, parfait<tag a="110" b="0" /> Et, euh<tag a="110" b="0" />
 <anim id="Pardon" target="actor" targetSpec="" />lequel a le plus d'images?<anim id="Eh" target="subNpc" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" /></message>
 	<message label="104" attrib="00 00 00 00 00 00 00 00">Des images? <delay20 /><anim id="SmugFace" target="actor" targetSpec="" />Aucun des deux n'a
@@ -42,12 +42,10 @@ pourrais le découvrir en grignotant.</message>
 	<message label="106" attrib="00 00 00 00 00 00 00 00"><anim id="WrySmile" target="actor" targetSpec="" />« <tag a="135" b="0" arg="0xcd00" /> » a été adapté pour le cinéma, c'était pas mal.<pageBreak />Même s'ils ont changé la fin.<10_4 /> Et le
 début<tag a="110" b="0" /><10_4 /> Le milieu aussi, maintenant
 que j'y pense.</message>
-	<message label="107" attrib="00 00 00 00 00 00 00 00"><anim id="WrySmile" target="actor" targetSpec="" />« <tag a="135" b="0" arg="0xcd01" /> ». C'est ce que j'appelle un « ⁠film popcorn »!<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />L'adaptation est très mauvaise.<delay8 /> <anim id="Grin" target="actor" targetSpec="" />Mais
+	<message label="107" attrib="00 00 00 00 00 00 00 00"><anim id="WrySmile" target="actor" targetSpec="" />« <tag a="135" b="0" arg="0xcd01" /> ». C'est ce que j'appelle un « ⁠film popcorn ⁠»!<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />L'adaptation est très mauvaise.<delay8 /> <anim id="Grin" target="actor" targetSpec="" />Mais
 avec du très, très bon popcorn,
 ça peut passer.</message>
-	<message label="201" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Coucou, <tag a="110" b="31" arg="0xcd01" />!<delay frames="40" /> Tu sais
-quoi? Je m'ennuie un peu. Pas toi?<delay20 />
-<anim id="HappyFlower" target="actor" targetSpec="" />Tu veux qu'on danse, <tag a="110" b="6" />?<anim id="EmotEnd" target="actor" targetSpec="" /></message>
+	<message label="201" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Coucou, <tag a="110" b="31" arg="0xcd01" />!<delay frames="40" /> Tu sais quoi? Je m'ennuie un peu. Pas toi?<delay20 /> <anim id="HappyFlower" target="actor" targetSpec="" />Tu veux qu'on danse, <tag a="110" b="6" />?<anim id="EmotEnd" target="actor" targetSpec="" /></message>
 	<message label="202" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Mon grand-père disait que si on
 s'ennuie, c'est parce qu'on lutte
 contre son moi intérieur.

@@ -1,11 +1,11 @@
 <msbt attribsize="4">
 	<message label="001" attrib="00 00 00 00">Значит так<tag a="110" b="0" /></message>
-	<message label="001_01" attrib="00 00 00 00"><anim id="HappyFlower" target="actor" targetSpec="" />Позвольте мне приступить
-к торжественному открытию
-<colour id="1" /><tag a="50" b="23" arg="0xcd03" /><tag a="115" b="7" arg="0xcd00" /><colour id="65535" />!</message>
-	<message label="001_02" attrib="00 00 00 00"><anim id="HappyFlower" target="actor" targetSpec="" />Позвольте мне приступить
-к торжественному повторному
-открытию <colour id="1" /><tag a="50" b="23" arg="0xcd03" /><tag a="115" b="7" arg="0xcd00" /><colour id="65535" />!</message>
+	<message label="001_01" attrib="00 00 00 00"><anim id="HappyFlower" target="actor" targetSpec="" /><colour id="1" /><tag a="50" b="3" /><tag a="115" b="7" arg="0xcd00" /> <colour id="65535" />построен<tag a="50" b="24" arg="0x10 0xcd00 0x0 0x2 0x430 0x2 0x43e 0x2 0x44b" />!
+Позвольте мне приступить
+к торжественному открытию!</message>
+	<message label="001_02" attrib="00 00 00 00"><anim id="HappyFlower" target="actor" targetSpec="" /><colour id="1" /><tag a="50" b="3" /><tag a="115" b="7" arg="0xcd00" /> <colour id="65535" />можно снова
+открыть! Позвольте мне приступить
+к торжественной части!</message>
 	<message label="002" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Спасибо-спасибо!</message>
 	<message label="002_01" attrib="00 00 00 00"><anim id="AbsentMindedness" target="actor" targetSpec="" />Остров <tag a="110" b="8" /> был
 по-настоящему необитаемым<tag a="110" b="0" />
@@ -15,27 +15,27 @@
 	<message label="002_02" attrib="00 00 00 00"><anim id="HappyDance" target="actor" targetSpec="" />Благодаря неустанному труду
 всех поселенцев остров <delay20 /><tag a="110" b="8" /> развивается!</message>
 	<message label="002_03" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Я считаю, что новый мост —
-это решающий шаг на пути
+это переломный момент на пути
 к процветанию нашего острова!</message>
 	<message label="003_01" attrib="00 00 00 00">Дорогие поселенцы<tag a="110" b="0" /><delay40 />
-<anim id="Smiling" target="actor" targetSpec="" />Приготовьтесь вместе со мной
-завершить эту церемонию.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Желающие сделать фотографию
+<anim id="Smiling" target="actor" targetSpec="" />Давайте завершим эту
+церемонию все вместе.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Желающие сделать фотографию
 на память приготовьтесь нажать
 кнопку <colour id="1" /><colour id="65535" />!<anim id="Smiling" target="actor" targetSpec="" /></message>
 	<message label="003_02" attrib="00 00 00 00">Да-да<tag a="110" b="0" /> Ну<tag a="110" b="0" /><pageBreak /><anim id="Smiling" target="actor" targetSpec="" />В надежде на будущее развитие
-острова <tag a="110" b="8" /> и в честь
-нов<tag a="50" b="24" arg="0xf 0xcd00 0x6 0x43e 0x433 0x43e 0x4 0x43e 0x439 0x6 0x43e 0x433 0x43e 0x4 0x44b 0x445" /> <colour id="1" /><tag a="50" b="23" arg="0xcd03" /><tag a="115" b="7" arg="0xcd00" /><colour id="65535" /><tag a="110" b="0" /></message>
+острова <tag a="110" b="8" /><tag a="110" b="0" />
+<tag a="50" b="3" /><colour id="1" /><tag a="50" b="23" arg="0xcd02" /><tag a="115" b="7" arg="0xcd00" /><colour id="65535" /><tag a="110" b="0" /></message>
 	<message label="003_03" attrib="00 00 00 00"><tag a="10" b="12" />                    <size value="150" />Ура!<size value="100" /><10_8 arg="45" /></message>
 	<message label="004_01" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Всем спасибо!<anim id="EmotEnd" target="actor" targetSpec="" /></message>
 	<message label="004_02" attrib="00 00 00 00">На этом торжество завершается!<10_4 />
-<anim id="Greeting" target="actor" targetSpec="" />Доброго пути домой или по делам!</message>
+<anim id="Greeting" target="actor" targetSpec="" />Доброго пути домой или еще куда!</message>
 	<message label="005" attrib="03 00 00 00"><anim id="Hello" target="actor" targetSpec="" />Не хочешь что-нибудь добавить,
 <tag a="110" b="1" />?</message>
 	<message label="005_a" attrib="00 00 00 00">Здорово!</message>
 	<message label="005_b" attrib="00 00 00 00">Ура нам!</message>
 	<message label="005_c" attrib="00 00 00 00">Эх, заживем!</message>
 	<message label="006" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Да-да! Благодарю!<delay frames="40" /><anim id="EmotEnd" target="actor" targetSpec="" /> Спасибо за
-<anim id="Smiling" target="actor" targetSpec="" />подбадривающий комментарий,
+<anim id="Smiling" target="actor" targetSpec="" />воодушевляющий комментарий,
 <tag a="110" b="1" />!</message>
 	<message label="007" attrib="00 00 00 00">Уф<tag a="110" b="0" /><delay frames="30" /> <anim id="ShyBoy" target="actor" targetSpec="" />Тесновато тут<tag a="110" b="0" />
 Но что ж поделать<tag a="110" b="0" /></message>
@@ -69,8 +69,8 @@
 вклад в развитие нашего острова.<pageBreak /><tag a="50" b="3" /><tag a="110" b="1" />, я имею в виду,
 <anim id="Smiling" target="actor" targetSpec="" />конечно, тебя — нашего спикера!</message>
 	<message label="221" attrib="00 00 00 00">А сейчас мы услышим<tag a="110" b="0" /> краткую
-речь <colour id="3" />Блезерса<colour id="65535" />, который будет
-куратором нового <colour id="1" />музея<colour id="65535" />!<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" /><colour id="3" />Блезерс<colour id="65535" />,<delay frames="30" /><anim id="Hello" target="actor" targetSpec="" /> прошу.</message>
+речь <colour id="3" />Блезерса<colour id="65535" />, куратора нашего
+нового <colour id="1" />музея<colour id="65535" />!<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" /><colour id="3" />Блезерс<colour id="65535" />,<delay frames="30" /><anim id="Hello" target="actor" targetSpec="" /> прошу.</message>
 	<message label="222" attrib="00 00 00 00"><anim id="Silent" target="actor" targetSpec="" />Жители острова <tag a="110" b="8" />!<delay frames="40" />
 <anim id="Smiling" target="actor" targetSpec="" />Я <colour id="3" />Блезерс<colour id="65535" />, куратор музея, к вашим
 услугам.<pageBreak /><anim id="HappyFlower" target="actor" targetSpec="" />Я вне себя<tag a="110" b="0" /> вне себя от счастья,
@@ -78,24 +78,24 @@
 потрясающий музей.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Это достижение стало возможным<delay20 />
 <anim id="Pardon" target="actor" targetSpec="" />только благодаря значительной
 поддержке с вашей стороны.<delay20 /><anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak /><anim id="AbsentMindedness" target="actor" targetSpec="" />На этом острове богатая
-экосистема, неисчерпаемое
-множество интересных видов.<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Это еще больше подстегивает меня
+экосистема, неисчислимое
+множество интересных видов.<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Это еще больше вдохновляло меня
 организовать для всех вас <colour id="1" />музей<colour id="65535" />,
-полных чудес природы!<pageBreak /><anim id="BigSmile" target="actor" targetSpec="" />В завершение я попрошу вас
+полный чудес природы!<pageBreak /><anim id="BigSmile" target="actor" targetSpec="" />В завершение я попрошу вас
 по-прежнему поддерживать
 развитие музея!<delay20 /><anim id="FaintSmile" target="actor" targetSpec="" /></message>
 	<message label="223" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Спасибо<tag a="110" b="0" /> за воодушевляющую
 речь, <colour id="3" />Блезерс<colour id="65535" />!<delay frames="30" /></message>
-	<message label="224" attrib="00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />А теперь я передам слово <anim id="Explain" target="actor" targetSpec="" />тому, чья
+	<message label="224" attrib="00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />А теперь я передам слово <anim id="Explain" target="actor" targetSpec="" />то<gender2 m="му" f="й" />, чья
 поддержка сделала открытие музея
 возможным.<pageBreak /><tag a="50" b="3" /><tag a="110" b="1" />, я имею в виду,
 конечно, тебя — нашего спикера!</message>
 	<message label="231" attrib="00 00 00 00"><anim id="ShyBoy" target="actor" targetSpec="" />Признаюсь, я думал, что наше
 <colour id="1" />бюро услуг<colour id="65535" /> всегда будет ютиться
 в скромной палатке.<pageBreak /><anim id="BigSmile" target="actor" targetSpec="" />Но взгляните на это чудесное новое
-здание на радость всем жителям
-острова!<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Я еще раз хочу поблагодарить всех,
-кто оказывал нам поддержку.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Я также не премину представить<delay20 />
+здание, которое теперь будет
+радовать всех жителей острова!<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Я еще раз хочу поблагодарить всех,
+кто оказывал нам поддержку.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />А также не премину представить<delay20 />
 <anim id="HappyDance" target="actor" targetSpec="" />мою новую помощницу!<pageBreak /><anim id="Smiling" target="actor" targetSpec="" /><colour id="3" />Изабель<colour id="65535" />, прошу <anim id="Hello" target="actor" targetSpec="" />сказать пару слов
 островитянам<tag a="110" b="0" /> Мы тут все свои.</message>
 	<message label="232" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Спасибо за доверие, жители острова <tag a="110" b="8" />!<delay frames="30" /> <anim id="EmotEnd" target="actor" targetSpec="" />Как уже сказал <colour id="3" />господин Нук<colour id="65535" />,<delay20 /> <anim id="Hello" target="actor" targetSpec="" />я <colour id="3" />Изабель<colour id="65535" />!<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Я еще не так давно на этом острове,
@@ -128,7 +128,7 @@
 что нужно развивающемуся острову.<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Попрошу всех заглядывать
 в <colour id="1" />кемпинг <colour id="65535" />и производить на гостей
 хорошее впечатление!</message>
-	<message label="252" attrib="00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />По поводу хорошего впечатления:<delay20 /><anim id="Explain" target="actor" targetSpec="" />
+	<message label="252" attrib="00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Кстати, о хорошем впечатлении:<delay20 /><anim id="Explain" target="actor" targetSpec="" />
 даю слово тому, кто приложил свою
 руку к созданию <colour id="1" />кемпинга<colour id="65535" />.<pageBreak /><tag a="50" b="3" /><tag a="110" b="1" />, я имею в виду,
 конечно, тебя — нашего спикера!</message>

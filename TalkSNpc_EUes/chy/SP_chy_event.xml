@@ -205,7 +205,8 @@ por la revolución estética<tag a="110" b="0" />
 eventos,<delay8 /> pero la reivindicación de los
 bichos justifica ciertas excepciones.
 <anim id="Restless" target="actor" targetSpec="" />Total,<delay8 /> que deberías unirte a la causa<delay8 />
-y jugar una ronda.</message>
+y jugar una ronda.<delay20 /> Tienes tiempo
+hasta las <colour id="1" /><tag a="90" b="37" arg="0xcd01" />:00<colour id="65535" />.</message>
 	<message label="037" attrib="00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />La <colour id="1" />Caza de Bichos<colour id="65535" /> ya está aquí.<delay20 />
 <anim id="Serious" target="actor" targetSpec="" />En ningún otro momento están
 los bichos más cerca de nosotros.
@@ -261,7 +262,7 @@ al mejor precio.<delay20 /> Te prometo que conmigo
 serán felices.<size value="100" /></message>
 	<message label="049_a" attrib="00 00 00 00">¿Te vendo bichos?</message>
 	<message label="049_b" attrib="00 00 00 00">Quiero canjear puntos</message>
-	<message label="049_c" attrib="00 00 00 00">Otra cosa...</message>
+	<message label="049_c" attrib="00 00 00 00">Sobre la Caza de Bichos</message>
 	<message label="049_d" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Da igual</message>
 	<message label="050" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />¡Por supuesto!<delay20 /> ¿De qué bichos
 <anim id="QuestionMark" target="actor" targetSpec="" />estás dispuest<gender2 m="o" f="a" /> a desprenderte?</message>
@@ -305,10 +306,15 @@ y he notado <anim id="BrokenHeart" target="actor" targetSpec="" />que careces de
 persuadir a los bichos de que acudan
 a ti?<delay20 /> Sin red,<delay8 /> <anim id="Serious" target="actor" targetSpec="" />igual te cazan ellos<tag a="110" b="0" /></message>
 	<message label="061" attrib="00 00 00 00"><anim id="Sighing" target="actor" targetSpec="" />Perdona que sea tan materialista,<delay8 />
-<anim id="OhGeez" target="actor" targetSpec="" />pero no tienes suficientes bayas.<pageBreak /><anim id="Worried" target="actor" targetSpec="" />Después de la primera ronda,<delay8 />
-participar cuesta <colour id="1" /><tag a="90" b="21" arg="0x2" /><colour id="65535" />.<delay20 />
-Lo siento.</message>
-	<message label="062" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Muy bien,<delay8 /> son <colour id="1" /><tag a="90" b="21" arg="0x2" /><colour id="65535" />.</message>
+<anim id="OhGeez" target="actor" targetSpec="" />pero no tienes suficientes bayas.<pageBreak /><anim id="Worried" target="actor" targetSpec="" />Necesitarás <colour id="1" /><tag a="90" b="21" arg="0x2" /><colour id="65535" /> si quieres participar.<delay20 /> Lo siento.</message>
+	<message label="062" attrib="02 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Si fuera una luciérnaga,<delay8 /> brillaría
+de alegría.<delay20 /><anim id="Negative" target="actor" targetSpec="" /> Pero no lo soy.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Participar cuesta <colour id="1" /><tag a="90" b="21" arg="0x2" />
+<colour id="65535" />después de la primera ronda.<delay20 />
+<anim id="QuestionMark" target="actor" targetSpec="" />¿Te parece bien?</message>
+	<message label="062_a" attrib="00 00 00 00">¡Perfecto!</message>
+	<message label="062_b" attrib="00 00 00 00">Mejor paso</message>
+	<message label="062_01" attrib="00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Entonces cobraré las <colour id="1" /><tag a="90" b="21" arg="0x2" />
+<colour id="65535" />ahora.<delay20 /> Gracias<tag a="110" b="0" /></message>
 	<message label="063" attrib="00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Dispones de <colour id="1" /><tag a="90" b="0" arg="0xe" /> minutos<colour id="65535" />.<delay20 /> Ya sabes,<delay8 />
 <anim id="Nodding" target="actor" targetSpec="" />a cazar todos los bichos que puedas.<delay20 />
 <anim id="FaintSmile" target="actor" targetSpec="" />Obtienes puntos extra si llegas a <colour id="1" /><tag a="90" b="1" arg="0x4" /><colour id="65535" />.
@@ -553,6 +559,32 @@ concede más puntos adicionales aún.
 <anim id="Thinking" target="actor" targetSpec="" />Sumando tus bichos y todos
 los puntos adicionales<tag a="110" b="0" /><delay8 /> <anim id="Shocked" target="actor" targetSpec="" />Hala.<delay8 />
 Eso hace un total de <colour id="1" /><tag a="90" b="2" arg="0x7" /> puntos<colour id="65535" />.</message>
+	<message label="151" attrib="00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Tu red,<delay8 /> rápida como el relámpago,<delay8 />
+ha atrapado nada menos <anim id="Eh" target="actor" targetSpec="" />que
+<colour id="1" /><tag a="90" b="1" arg="0x8" /> bichos<colour id="65535" />.<delay20 /> Impresionante.
+<anim id="Explain" target="actor" targetSpec="" />La <colour id="1" />jaula para bichos<colour id="65535" /> no admite más
+de veinte a la vez.<delay20 /> <anim id="Negative" target="actor" targetSpec="" />No es seguro.<delay20 />
+Podría pasar <anim id="Confused" target="actor" targetSpec="" />cualquier cosa<tag a="110" b="0" />
+<anim id="EmotEnd" target="actor" targetSpec="" />He tenido que liberar a los demás.<delay20 />
+<anim id="Negative" target="actor" targetSpec="" />Pero no te preocupes.<delay20 />
+<anim id="Nodding" target="actor" targetSpec="" />Recibirás tus puntos.
+<anim id="Thinking" target="actor" targetSpec="" />Te corresponden <colour id="1" /><tag a="90" b="1" arg="0x8" /><colour id="65535" /><delay8 /> y, al sumar la
+bonificación por atrapar más de <colour id="1" /><tag a="90" b="1" arg="0x4" /><colour id="65535" />,<delay8 />
+<anim id="Silent" target="actor" targetSpec="" />hace un total de <colour id="1" /><tag a="90" b="2" arg="0x7" /> puntos<colour id="65535" />.</message>
+	<message label="152" attrib="00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Tu red,<delay8 /> rápida como el relámpago,<delay8 />
+ha atrapado nada menos <anim id="Eh" target="actor" targetSpec="" />que
+<colour id="1" /><tag a="90" b="1" arg="0x8" /> bichos<colour id="65535" />.<delay20 /> Impresionante.
+<anim id="Explain" target="actor" targetSpec="" />La <colour id="1" />jaula para bichos<colour id="65535" /> no admite más
+de veinte a la vez.<delay20 /> <anim id="Negative" target="actor" targetSpec="" />No es seguro.<delay20 />
+Podría pasar <anim id="Confused" target="actor" targetSpec="" />cualquier cosa<tag a="110" b="0" />
+<anim id="EmotEnd" target="actor" targetSpec="" />He tenido que liberar a los demás.<delay20 />
+<anim id="Negative" target="actor" targetSpec="" />Pero no te preocupes.<delay20 />
+<anim id="Nodding" target="actor" targetSpec="" />Recibirás tus puntos.
+<anim id="Thinking" target="actor" targetSpec="" />A ver,<delay8 /> entre todos los participantes
+habéis cazado <colour id="1" /><tag a="90" b="2" arg="0x9" /> bichos<colour id="65535" />,<delay8 /> lo que
+supera la barrera de los <colour id="1" /><tag a="90" b="1" arg="0xa" /><colour id="65535" />.
+<anim id="Silent" target="actor" targetSpec="" />Por tanto,<delay8 /> os lleváis la bonificación
+y sumáis un total de <colour id="1" /><tag a="90" b="2" arg="0x7" /> puntos<colour id="65535" />.</message>
 	<message label="160" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />La <colour id="1" />jaula para bichos<colour id="65535" />,<delay8 /> bajo el toldo,<delay8 />
 acoge todos los que habéis cazado.<delay20 />
 Échales un ojo compuesto.

@@ -1,0 +1,24 @@
+<msbt attribsize="8">
+	<message label="001" attrib="00 00 00 00 00 00 00 00"><anim id="Hello" target="actor" targetSpec="" />Ну что, возьмешь инструкцию
+для <colour id="1" />короны на День зайцев<colour id="65535" />?</message>
+	<message label="002" attrib="00 00 00 00 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Ну что, возьмешь инструкцию
+для <colour id="1" />сумки на День зайцев<colour id="65535" />?</message>
+	<message label="010" attrib="00 00 00 00 00 00 00 00"><anim id="Scheming" target="actor" targetSpec="" />Слушай, <delay20 />а хочешь поспорить, кто из
+нас быстрее эту штуку смастерит?<delay frames="40" />
+<anim id="Laughing" target="actor" targetSpec="" />Ой, да шучу я, шучу! <tag a="50" b="3" /><tag a="110" b="5" />!</message>
+	<message label="011" attrib="00 00 00 00 00 00 00 00"><anim id="Sighing" target="actor" targetSpec="" />Эй, у тебя же карманы
+все еще забиты.<pageBreak /><anim id="OhGeez" target="actor" targetSpec="" />Нет, я могу попытаться затолкать
+туда инструкцию<tag a="110" b="0" /><delay20 /> но лучше все же
+освободи место. <tag a="50" b="3" /><tag a="110" b="5" />!</message>
+	<message label="020" attrib="00 00 00 00 00 00 00 00"><anim id="Hello" target="actor" targetSpec="" />У меня есть для тебя кое-что.<delay20 />
+Смотри.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Я искала <tag a="50" b="23" arg="0xcd01" /><tag a="135" b="5" arg="0xcd00" />, а нашла
+инструкцию «Сделай сам» для
+<colour id="1" />короны на День зайцев<colour id="65535" />.<delay20 /> Хочешь?</message>
+	<message label="021" attrib="00 00 00 00 00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Никогда не знаешь, что найдется
+во время уборки<tag a="110" b="0" /><pageBreak /><anim id="Explain" target="actor" targetSpec="" />Хочешь инструкцию «Сделай сам»
+для <colour id="1" />сумки на День зайцев<colour id="65535" />?<delay20 /> У меня
+уже есть такая.<delay frames="40" /> <anim id="Grin" target="actor" targetSpec="" />Отдам даром.</message>
+	<message label="100" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Привет, незнаком<gender2 m="ец" f="ка" />. <delay20 />Секунду<tag a="110" b="0" /></message>
+	<message label="101" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="110" b="3" />! <delay20 />Ты как раз
+вовремя.<delay20 /> Подожди-ка.</message>
+</msbt>

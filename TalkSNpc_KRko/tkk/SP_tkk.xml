@@ -1,20 +1,20 @@
 <msbt attribsize="4">
 	<message label="001" attrib="00 00 00 00">오늘 라이브는 이미 끝났어요<delay frames="60" />
-<snpcAnim id="TkkNodding" target="actor" targetSpec="" />괜찮다면<delay8 /> 다음 주에 들으러 와줘요</message>
+<snpcAnim id="TkkNodding" target="actor" targetSpec="" />시간 되면<delay8 /> 다음에 또 들으러 와줘요</message>
 	<message label="002" attrib="00 00 00 00"><snpcAnim id="TkkQuestionMark" target="actor" targetSpec="" />무슨 일 있나요?<delay frames="40" />
 <anim id="EmotEnd" target="actor" targetSpec="" />당신이 자리에 앉으면<delay8 /> 연주를 시작할게요</message>
 	<message label="003" attrib="00 00 00 00"><snpcAnim id="TkkQuestionMark" target="actor" targetSpec="" />당신이 자리에 앉으면 연주를 시작할게요<10_4 />
 <anim id="EmotEnd" target="actor" targetSpec="" />함께 듣고 싶은 사람에게도<delay20 />
 <snpcAnim id="TkkNodding" target="actor" targetSpec="" />자리에 앉아달라고<delay8 /> 전해주세요</message>
 	<message label="004" attrib="00 00 00 00">곧 연주를 시작할 거예요<10_4 />
-<snpcAnim id="TkkQuestionMark" target="actor" targetSpec="" />괜찮다면 당신도 의자에 앉아서<delay8 />
+<snpcAnim id="TkkQuestionMark" target="actor" targetSpec="" />당신도 의자에 앉아서<delay8 />
 한 곡 듣고 가요</message>
 	<message label="005" attrib="00 00 00 00"><snpcAnim id="TkkQuestionMark" target="actor" targetSpec="" /><colour id="1" />모두 자리에 앉으면<colour id="65535" /> 노래를 시작할게요<10_4 />
 <anim id="EmotEnd" target="actor" targetSpec="" />의자에 앉아서 기다리도록<delay20 />
 <snpcAnim id="TkkNodding" target="actor" targetSpec="" />당신이 잘 말해줘요</message>
 	<message label="006" attrib="00 00 00 00">지금부터 노래할게요<10_4 />
 <snpcAnim id="TkkQuestionMark" target="actor" targetSpec="" />당신도 자리에 앉아서 <delay8 />들어줘요</message>
-	<message label="007" attrib="02 00 00 00"><snpcAnim id="TkkQuestionMark" target="actor" targetSpec="" />괜찮다면<delay8 /> 한 곡 들려드릴까요?</message>
+	<message label="007" attrib="02 00 00 00"><snpcAnim id="TkkQuestionMark" target="actor" targetSpec="" />시간 되면<delay8 /> 한 곡 들려드릴까요?</message>
 	<message label="007_a" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />들려주세요</message>
 	<message label="007_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />사양할게요</message>
 	<message label="008" attrib="00 00 00 00"><snpcAnim id="TkkQuestionMark" target="actor" targetSpec="" />좋아요<delay frames="40" />
@@ -33,7 +33,7 @@
 오늘 밤 라이브가 곧 끝나는데 괜찮나요?</message>
 	<message label="013" attrib="02 00 00 00"><tag a="110" b="0" />혹시<delay20 />
 <snpcAnim id="TkkEh" target="actor" targetSpec="" />저번에도 들으러 와줬던가요?<10_4 />
-<anim id="EmotEnd" target="actor" targetSpec="" />괜찮다면<delay20 /> <snpcAnim id="TkkQuestionMark" target="actor" targetSpec="" />오늘 밤도 한 곡 들려드릴까요?</message>
+<anim id="EmotEnd" target="actor" targetSpec="" />원한다면<delay20 /> <snpcAnim id="TkkQuestionMark" target="actor" targetSpec="" />오늘 밤도 한 곡 들려드릴까요?</message>
 	<message label="013_a" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />들려주세요</message>
 	<message label="013_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />사양할게요</message>
 	<message label="014" attrib="02 00 00 00"><snpcAnim id="TkkEh" target="actor" targetSpec="" />안녕, 당신이군요<delay frames="40" />
@@ -43,7 +43,7 @@
 	<message label="014_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />사양할게요</message>
 	<message label="015" attrib="02 00 00 00">멋진 밤이에요, <tag a="110" b="1" />씨!<delay20 />
 <snpcAnim id="TkkNodding" target="actor" targetSpec="" />또 와줬군요<10_4 />
-<snpcAnim id="TkkQuestionMark" target="actor" targetSpec="" />괜찮다면 오늘 밤도 한 곡 <delay20 />들려드릴까요?</message>
+<snpcAnim id="TkkQuestionMark" target="actor" targetSpec="" />원한다면 오늘 밤도 한 곡 <delay20 />들려드릴까요?</message>
 	<message label="015_a" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />들려주세요!</message>
 	<message label="015_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />사양할게요</message>
 	<message label="016" attrib="02 00 00 00"><snpcAnim id="TkkEh" target="actor" targetSpec="" />안녕, 와줬군요<delay20 />
@@ -62,7 +62,7 @@
 	<message label="018_a" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />물론이죠!</message>
 	<message label="018_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />사양할게</message>
 	<message label="019" attrib="02 00 00 00"><tag a="110" b="0" /><snpcAnim id="TkkNodding" target="actor" targetSpec="" />항상 고마워요<delay frames="40" />
-<anim id="EmotEnd" target="actor" targetSpec="" />괜찮다면 당신에게<delay8 />
+<anim id="EmotEnd" target="actor" targetSpec="" />시간이 된다면 당신에게<delay8 />
 <snpcAnim id="TkkQuestionMark" target="actor" targetSpec="" />한 곡 선물해도 될까요?</message>
 	<message label="019_a" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />들려주세요</message>
 	<message label="019_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />사양할게요</message>
@@ -85,17 +85,17 @@
 	<message label="023_a" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />물론이죠!</message>
 	<message label="023_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />사양할게</message>
 	<message label="025" attrib="02 00 00 00">아까 곡은 어땠나요?<10_4 />
-<snpcAnim id="TkkQuestionMark" target="actor" targetSpec="" />괜찮다면 한 곡 더 <delay20 />불러도 될까요?</message>
+<snpcAnim id="TkkQuestionMark" target="actor" targetSpec="" />혹시 한 곡 더 <delay20 />불러도 될까요?</message>
 	<message label="025_a" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />들려주세요</message>
 	<message label="025_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />사양할게요</message>
 	<message label="026" attrib="06 00 00 00"><snpcAnim id="TkkNodding" target="actor" targetSpec="" />고마워요<delay frames="40" />
-뭔가 듣고 싶은 곡은 없나요?<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />노래 제목이나
+혹시 듣고 싶은 곡은 없나요?<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />노래 제목이나
 당신의 지금 기분을 말해주면<delay20 />
 <snpcAnim id="TkkQuestionMark" target="actor" targetSpec="" />적당한 곡을 들려드리죠</message>
 	<message label="026_a" attrib="00 00 00 00">아무거나 들려줘요</message>
 	<message label="026_b" attrib="00 00 00 00">지금 내 기분은…</message>
 	<message label="026_c" attrib="00 00 00 00">신청곡 있어요</message>
-	<message label="026_d" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />역시 됐어요</message>
+	<message label="026_d" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />음<tag a="110" b="0" /> 안 들을래요</message>
 	<message label="027" attrib="00 00 00 00">그럼<tag a="110" b="0" /><delay20 />
 당신이 듣고 싶은 곡의
 <snpcAnim id="TkkQuestionMark" target="actor" targetSpec="" />제목을 알려줄래요?</message>
@@ -103,15 +103,15 @@
 	<message label="028_a" attrib="00 00 00 00">아무거나 들려줘요</message>
 	<message label="028_b" attrib="00 00 00 00">지금 내 기분은…</message>
 	<message label="028_c" attrib="00 00 00 00">신청곡 있어요</message>
-	<message label="028_d" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />역시 됐어요</message>
+	<message label="028_d" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />음<tag a="110" b="0" /> 안 들을래요</message>
 	<message label="029" attrib="06 00 00 00"><snpcAnim id="TkkNodding" target="actor" targetSpec="" />그 곡은 특별한 곡이라<delay8 />
 신청곡으로 받기는 힘들어요<delay20 />
-<anim id="EmotEnd" target="actor" targetSpec="" /><tag a="110" b="0" />미안해요<pageBreak />괜찮다면<delay20 /> 다른 곡으로
+<anim id="EmotEnd" target="actor" targetSpec="" /><tag a="110" b="0" />미안해요<pageBreak />다른 곡이라도<delay20 /> 상관없다면
 <snpcAnim id="TkkQuestionMark" target="actor" targetSpec="" />신청해주지 않겠어요?</message>
 	<message label="029_a" attrib="00 00 00 00">아무거나 들려줘요</message>
 	<message label="029_b" attrib="00 00 00 00">지금 내 기분은…</message>
 	<message label="029_c" attrib="00 00 00 00">신청곡 있어요</message>
-	<message label="029_d" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />역시 됐어요</message>
+	<message label="029_d" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />음<tag a="110" b="0" /> 안 들을래요</message>
 	<message label="030" attrib="00 00 00 00"><snpcAnim id="TkkEh" target="actor" targetSpec="" />앗,<delay8 /> 당신<delay20 /> 그 곡을 알고 있군요<10_4 />
 <anim id="EmotEnd" target="actor" targetSpec="" /><tag a="125" b="0" arg="0x0" /><gender5 m="은" f="는" /><delay8 />
 공개되지 않은 곡인데<tag a="110" b="0" /><pageBreak /><snpcAnim id="TkkNodding" target="actor" targetSpec="" />그럼<delay20 /> 신청을 받았으니 들려드리죠<delay frames="40" />
@@ -140,11 +140,11 @@
 <anim id="EmotEnd" target="actor" targetSpec="" /><tag a="110" b="0" /><delay20 />그 곡이 좋겠군요<10_4 />
 <snpcAnim id="TkkNodding" target="actor" targetSpec="" />그럼 <delay8 />연주할 테니<delay8 /> 자리에 앉아줄래요?<pageBreak />함께 듣고 싶은 사람에게도<delay20 />
 자리에 앉아달라고<delay8 /><snpcAnim id="TkkQuestionMark" target="actor" targetSpec="" /> 전해주세요</message>
-	<message label="042" attrib="02 00 00 00"><snpcAnim id="TkkEh" target="actor" targetSpec="" />안녕,<delay8 /> 반가워요<10_4 />
+	<message label="042" attrib="02 00 00 00"><snpcAnim id="TkkEh" target="actor" targetSpec="" />안녕,<delay8 /> 오셨군요<10_4 />
 <anim id="EmotEnd" target="actor" targetSpec="" />내 이름은 <colour id="3" />K.K.<colour id="65535" /><delay frames="40" />
 <snpcAnim id="TkkNodding" target="actor" targetSpec="" />보시다시피 뮤지션이에요<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />여기는 참 멋진 곳이군요<10_4 />
 악상이 끊임없이 떠올라서<delay20 />
-좋은 곡을 만들 수 있을 것 같아요<pageBreak />괜찮다면 <delay20 />한 곡
+좋은 곡을 만들 수 있을 것 같아요<pageBreak />시간이 된다면 <delay20 />한 곡
 <snpcAnim id="TkkQuestionMark" target="actor" targetSpec="" />선물해도 될까요?</message>
 	<message label="042_a" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />들려주세요</message>
 	<message label="042_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />사양할게요</message>
@@ -156,7 +156,7 @@
 	<message label="051" attrib="00 00 00 00"><snpcAnim id="TkkEh" target="actor" targetSpec="" />그래요<tag a="110" b="0" /><delay frames="30" />
 당신이 꼭<delay8 /> 들어줬음 했는데<tag a="110" b="0" /></message>
 	<message label="052" attrib="00 00 00 00">오늘은<snpcAnim id="TkkNodding" target="actor" targetSpec="" /> 이 <tag a="110" b="32" />에 사는 그 사람을 위해<delay20 />
-노래하러 왔어요<tag a="110" b="0" /><pageBreak />혹시 괜찮다면
+노래하러 왔어요<tag a="110" b="0" /><pageBreak />혹시 그 사람을
 <snpcAnim id="TkkQuestionMark" target="actor" targetSpec="" />불러주지 않겠어요?</message>
 	<message label="053" attrib="02 00 00 00">아까 들은 곡을<delay20 /><snpcAnim id="TkkQuestionMark" target="actor" targetSpec="" />
 한 번 더 들려드릴까요?</message>
@@ -186,7 +186,7 @@
 한 곡 <snpcAnim id="TkkQuestionMark" target="actor" targetSpec="" />들려드릴까요?</message>
 	<message label="066_a" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />들려주세요</message>
 	<message label="066_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />사양할게요</message>
-	<message label="067" attrib="02 00 00 00">혹시<delay20 /> 괜찮다면
+	<message label="067" attrib="02 00 00 00">혹시<delay20 />
 한 곡 더 <delay20 /><snpcAnim id="TkkQuestionMark" target="actor" targetSpec="" />들려드릴까요?</message>
 	<message label="067_a" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />들려주세요</message>
 	<message label="067_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />사양할게요</message>

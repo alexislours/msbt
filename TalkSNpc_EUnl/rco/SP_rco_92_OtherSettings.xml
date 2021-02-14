@@ -2,6 +2,9 @@
 	<message label="001" attrib="00 00 00 00">Hallo, <tag a="110" b="1" />.<delay20 /> Hier kun je je opgeslagen gegevens wissen.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Je keuzes hebben grote gevolgen,
 dus als je een kind bent, moet je een
 ouder of verzorger om hulp vragen.<anim id="FaintSmile" target="actor" targetSpec="" /></message>
+	<message label="002" attrib="00 00 00 00">Hallo, <tag a="110" b="1" />.<10_4 /> Hier kun je belangrijke instellingen aanpassen.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Je keuzes hebben grote gevolgen,
+dus als je een kind bent, moet je een
+ouder of verzorger om hulp vragen.<anim id="FaintSmile" target="actor" targetSpec="" /></message>
 	<message label="010_01" attrib="00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Nu ik dat heb verteld<tag a="110" b="0" /></message>
 	<message label="010_02" attrib="00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Dat was het wel, denk ik.<10_4 /> Ja, ja, het
 is zoals ik het eerder heb verteld<tag a="110" b="0" /></message>
@@ -15,6 +18,13 @@ wat dat betekent?</message>
 	<message label="012_a" attrib="00 00 00 00">Ik wil een registratie wissen.</message>
 	<message label="012_b" attrib="00 00 00 00">Leg maar uit!</message>
 	<message label="012_c" attrib="00 00 00 00">Laat maar.</message>
+	<message label="020" attrib="04 00 00 00">Over welke instellingen wil je
+vandaag praten?</message>
+	<message label="020_a" attrib="00 00 00 00">Opgeslagen gegevens.</message>
+	<message label="020_b" attrib="00 00 00 00">NookLink.</message>
+	<message label="020_c" attrib="00 00 00 00">Eh, laat maar zitten.</message>
+	<message label="021" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Opgeslagen gegevens, hm?<delay20 />
+Maar natuurlijk!</message>
 	<message label="051" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Ja, ja, ik begrijp het!<10_4 /> Laten we in dat
 geval teruggaan naar het titelscherm.<pageBreak /><anim id="Greeting" target="actor" targetSpec="" /><delay8 />Ik hoop dat je blijft genieten van je
 leven op <tag a="110" b="9" />!</message>
@@ -39,7 +49,7 @@ je een beslissing neemt.</message>
 komen om hun bewonerregistratie
 te wissen.<pageBreak /><anim id="Serious" target="actor" targetSpec="" />Met andere woorden: <delay20 /><colour id="1" />het wissen van
 je opgeslagen gegevens <colour id="65535" />voor
-<colour id="1" />Animal Crossing: New Horizons<colour id="65535" />.<pageBreak /><anim id="Worried" target="actor" targetSpec="" />Je kunt in de systeeminstellingen van
+<colour id="2" />Animal Crossing: New Horizons<colour id="65535" />.<pageBreak /><anim id="Worried" target="actor" targetSpec="" />Je kunt in de systeeminstellingen van
 het Nintendo Switch-systeem geen
 specifieke spelergegevens wissen.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Dus, <delay20 />als je informatie wilt wissen
 over dat je op dit eiland woont,<delay20 /> kom
@@ -56,10 +66,10 @@ stap alleen te nemen als het echt
 absoluut nodig is.</message>
 	<message label="063_01" attrib="00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Ik zal je wat informatie geven over
 het wissen van bewonergegevens<tag a="110" b="0" /><pageBreak /><anim id="Explain" target="actor" targetSpec="" />Als je die wist, verdwijnt iedere herinnering aan <tag a="115" b="0" arg="0xcd00" /> op <tag a="110" b="9" />.<anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak /><anim id="Worried" target="actor" targetSpec="" />De andere bewoners en ik zullen niet
-meer weten wie dat is, en <tag a="50" b="17" arg="0xd 0xcd00 0x8 0x7a 0x69 0x6a 0x6e 0x8 0x68 0x61 0x61 0x72 0x0" /> huis,
-klingels en miles verdwijnen ook.<pageBreak /><anim id="Thinking" target="actor" targetSpec="" />Omdat <tag a="50" b="17" arg="0xd 0xcd00 0x8 0x7a 0x69 0x6a 0x6e 0x8 0x68 0x61 0x61 0x72 0x0" /> gegevens niet gekoppeld
+meer weten wie dat is, en <tag a="50" b="17" arg="0xe 0xcd00 0x8 0x7a 0x69 0x6a 0x6e 0x8 0x68 0x61 0x61 0x72 0x0" /> huis,
+klingels en miles verdwijnen ook.<pageBreak /><anim id="Thinking" target="actor" targetSpec="" />Omdat <tag a="50" b="17" arg="0xe 0xcd00 0x8 0x7a 0x69 0x6a 0x6e 0x8 0x68 0x61 0x61 0x72 0x0" /> gegevens niet gekoppeld
 zijn aan een profiel op het Nintendo
-Switch-systeem, <delay20 />kan <tag a="50" b="17" arg="0xd 0xcd00 0x6 0x68 0x69 0x6a 0x4 0x7a 0x65 0x0" /> niet spelen.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Maar als iemand een profiel gebruikt
+Switch-systeem, <delay20 />kan <tag a="50" b="17" arg="0xe 0xcd00 0x6 0x68 0x69 0x6a 0x4 0x7a 0x65 0x0" /> niet spelen.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Maar als iemand een profiel gebruikt
 waar nog geen bewonerregistratie
 aan is gekoppeld<tag a="110" b="0" /><pageBreak /><anim id="Nodding" target="actor" targetSpec="" /><tag a="110" b="0" />kan die gebruiker ervoor kiezen om
 te spelen als <tag a="115" b="0" arg="0xcd00" />.</message>
@@ -67,7 +77,7 @@ te spelen als <tag a="115" b="0" arg="0xcd00" />.</message>
 mij hebben over het wissen van hun
 bewonerregistratie.<pageBreak /><anim id="Serious" target="actor" targetSpec="" />Wat ik daarmee bedoel, is<delay20 /> <colour id="1" />het wissen
 van opgeslagen spelergegevens <colour id="65535" />voor
-<colour id="1" />Animal Crossing: New Horizons<colour id="65535" />.<pageBreak /><anim id="Worried" target="actor" targetSpec="" />Je kunt in de systeeminstellingen van
+<colour id="2" />Animal Crossing: New Horizons<colour id="65535" />.<pageBreak /><anim id="Worried" target="actor" targetSpec="" />Je kunt in de systeeminstellingen van
 het Nintendo Switch-systeem geen
 specifieke spelergegevens wissen.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Dus, <delay20 />als je informatie wilt wissen
 over dat een speler op dit eiland
@@ -80,14 +90,14 @@ die speler van <tag a="110" b="9" />.<anim id="EmotEnd" target="actor" targetSpe
 verdwijnen, en andere bewoners en
 ik weten niet meer wie de speler was.</message>
 	<message label="064_03" attrib="00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Maar, <tag a="110" b="1" /><tag a="110" b="0" /><delay20 /> voor jou werkt het anders.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Als eilandwoordvoerder heb je een belangrijke rol te vervullen op <tag a="110" b="9" />.<pageBreak />Jij en dit eiland zijn met elkaar
-verbonden<tag a="110" b="0" /><pageBreak /><anim id="Worried" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="110" b="9" /> zou niet meer kunnen functioneren als jij ons zou verlaten.<pageBreak />Daarom kan ik geen enkel verzoek
+verbonden<tag a="110" b="0" /><pageBreak /><anim id="Worried" target="actor" targetSpec="" /><tag a="110" b="9" /> zou niet meer kunnen functioneren als jij ons zou verlaten.<pageBreak />Daarom kan ik geen enkel verzoek
 van je accepteren voor het wissen
 van je bewonerregistratie.</message>
 	<message label="071_01" attrib="00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Als je per se je gegevens wilt wissen, <tag a="110" b="1" />, dan heb je maar één optie als eilandwoordvoerder<tag a="110" b="0" /><pageBreak /><anim id="Serious" target="actor" targetSpec="" />Je enige optie is om alle opgeslagen
 gegevens van de game te wissen!<pageBreak />Om dat te doen moet je via het
 HOME-menu van je Nintendo Switch
 naar de <colour id="1" />systeeminstellingen<colour id="65535" /> gaan.<pageBreak />Kies daar <colour id="1" />GEHEUGENBEHEER<colour id="65535" /> en
-<colour id="1" />OPGESLAGEN GEGEVENS WISSEN<colour id="65535" />.<pageBreak /><anim id="Serious" target="actor" targetSpec="" />Vervolgens <colour id="1" />ANIMAL CROSSING:
+<colour id="1" />OPGESLAGEN GEGEVENS WISSEN<colour id="65535" />.<pageBreak /><anim id="Serious" target="actor" targetSpec="" />Vervolgens <colour id="2" />ANIMAL CROSSING:
 NEW HORIZONS<colour id="65535" /><tag a="110" b="0" /><pageBreak /><tag a="110" b="0" />en ten slotte <colour id="1" />ALLE OPGESLAGEN
 GEGEVENS VAN DEZE SOFTWARE
 WISSEN<colour id="65535" />.<pageBreak /><anim id="Shocked" target="actor" targetSpec="" />Nogmaals: door dit te doen, wis je
@@ -99,7 +109,7 @@ heb je maar één optie<tag a="110" b="0" /><pageBreak /><anim id="Serious" targ
 gegevens van de game te wissen!<pageBreak />Om dat te doen moet je via het
 HOME-menu van je Nintendo Switch
 naar de <colour id="1" />systeeminstellingen<colour id="65535" /> gaan.<pageBreak />Kies daar <colour id="1" />GEHEUGENBEHEER<colour id="65535" /> en
-<colour id="1" />OPGESLAGEN GEGEVENS WISSEN<colour id="65535" />.<pageBreak /><anim id="Serious" target="actor" targetSpec="" />Vervolgens <colour id="1" />ANIMAL CROSSING:
+<colour id="1" />OPGESLAGEN GEGEVENS WISSEN<colour id="65535" />.<pageBreak /><anim id="Serious" target="actor" targetSpec="" />Vervolgens <colour id="2" />ANIMAL CROSSING:
 NEW HORIZONS<colour id="65535" /><tag a="110" b="0" /><pageBreak /><tag a="110" b="0" />en ten slotte <colour id="1" />ALLE OPGESLAGEN
 GEGEVENS VAN DEZE SOFTWARE
 WISSEN<colour id="65535" />.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Hou er rekening mee dat je met deze
@@ -121,7 +131,7 @@ Nintendo Switch-systeem zijn
 gekoppeld.</message>
 	<message label="104" attrib="04 00 00 00"><tag a="50" b="3" /><tag a="110" b="1" />,<delay20 /> denk je erover om gegevens te wissen die van jezelf zijn of van iemand anders?</message>
 	<message label="104_a" attrib="00 00 00 00">Mijn registratie wissen.</message>
-	<message label="104_b" attrib="00 00 00 00">Een andere speler wissen.</message>
+	<message label="104_b" attrib="00 00 00 00">Een andere bewoner wissen.</message>
 	<message label="104_c" attrib="00 00 00 00">Ik wil niets wissen.</message>
 	<message label="105_01" attrib="00 00 00 00">In dat geval is hier de bewoner<tag a="110" b="0" /><pageBreak /><tag a="110" b="0" />die niet is gekoppeld aan een
 profiel op het Nintendo Switch-
@@ -164,7 +174,7 @@ bewonerregistratie wis, dus daar kan
 ik geen aanvraag voor accepteren.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Goed<tag a="110" b="0" /><delay8 /> welke bewonerregistratie zou
 je willen wissen?</message>
 	<message label="112_a" attrib="00 00 00 00">Mijn registratie wissen.</message>
-	<message label="112_b" attrib="00 00 00 00">Een andere speler wissen.</message>
+	<message label="112_b" attrib="00 00 00 00">Een andere bewoner wissen.</message>
 	<message label="112_c" attrib="00 00 00 00">En de eilandwoordvoerder?</message>
 	<message label="112_d" attrib="00 00 00 00">Ik wil niets wissen.</message>
 	<message label="201" attrib="00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Wil je een bewonerregistratie
@@ -190,6 +200,6 @@ gekoppeld.</message>
 	<message label="205" attrib="02 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />In dit geval kan ik op verzoek ook de
 gegevens van een andere bewoner
 wissen.<delay20 /> Wil je dat?</message>
-	<message label="205_a" attrib="00 00 00 00">Een andere speler wissen.</message>
+	<message label="205_a" attrib="00 00 00 00">Een andere bewoner wissen.</message>
 	<message label="205_b" attrib="00 00 00 00">Ik wil niets wissen.</message>
 </msbt>

@@ -3,7 +3,7 @@
 <anim id="Hesitate" target="actor" targetSpec="" />Могу я поинтересоваться твоими
 предпочтениями?</message>
 	<message label="002" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Я хотела бы узнать своих соседей
-получше<delay8 /><tag a="110" b="0" /><pageBreak /><anim id="Hesitate" target="actor" targetSpec="" />Поэтому хожу<delay20 /> и всех расспрашиваю!</message>
+получше<delay8 /><tag a="110" b="0" /><pageBreak /><anim id="Hesitate" target="actor" targetSpec="" />Поэтому<delay20 /> всех расспрашиваю!</message>
 	<message label="003" attrib="00 00 00 00 00 00 00 00"><anim id="AbsentMindedness" target="actor" targetSpec="" />Я где-то вычитала, что правильно
 заданные вопросы помогают узнать
 собеседника получше.<delay40 /> <anim id="EmotEnd" target="actor" targetSpec="" />К примеру<delay8 /><tag a="110" b="0" /></message>
@@ -79,15 +79,16 @@
 	<message label="010_04_b" attrib="00 00 00 00 00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Все уже изменилось.</message>
 	<message label="011_04" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Просто я сказала <tag a="50" b="23" arg="0xcd02" /><tag a="110" b="11" arg="0xcd00" />, что тебе нравится <tag a="140" b="12" arg="0xcd00" />.<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Рада, что никого не сбила с толку!</message>
 	<message label="010_104" attrib="00 00 01 00 00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />«<tag a="50" b="3" /><tag a="140" b="13" arg="0xcd00" />» —
-ты мне сказал<gender2 m="" f="а" />, что ты мечтаешь
-именно об этом<delay8 /><tag a="110" b="0" /><pageBreak /><anim id="QuestionMark" target="actor" targetSpec="" />Ничего не поменялось?
+ты мне сказал<gender2 m="" f="а" />, что ты любишь
+заниматься именно этим<delay8 /><tag a="110" b="0" /><pageBreak /><anim id="QuestionMark" target="actor" targetSpec="" />Ничего не поменялось?
 <tag a="50" b="3" /><tag a="110" b="5" />!</message>
 	<message label="010_104_a" attrib="00 00 00 00 00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Все так и есть!
 <anim id="Negative" target="actor" targetSpec="" />Все без изменений.</message>
 	<message label="010_104_b" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Поменялось!</message>
 	<message label="011_104" attrib="00 00 00 00 00 00 00 00"><anim id="Hesitate" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="110" b="11" arg="0xcd00" /> и я обсуждали, кто
 чем увлекается. Он<gender3 m="" f="а" /> и про твое
-хобби спрашивал<gender3 m="" f="а" />.<pageBreak />Я сказала <gender3 m="ему" f="ей" />: «<tag a="50" b="3" /><tag a="140" b="13" arg="0xcd00" />».</message>
+хобби спрашивал<gender3 m="" f="а" />.<pageBreak />Я сказала <gender3 m="ему" f="ей" />:
+«<tag a="50" b="3" /><tag a="140" b="13" arg="0xcd00" />».</message>
 	<message label="010_05" attrib="00 00 01 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Ты как-то сказал<gender2 m="" f="а" />, что у тебя
 отлично получается <tag a="140" b="12" arg="0xcd00" /><delay8 /><tag a="110" b="0" />
 <anim id="QuestionMark" target="actor" targetSpec="" />Ты до сих пор этим занимаешься?
@@ -148,7 +149,7 @@
 <delay20 /><anim id="Hesitate" target="actor" targetSpec="" />новые грани вкуса<delay20 /> и понимаешь,
 сколько еще неизведанного<delay8 /><tag a="110" b="0" /></message>
 	<message label="032_02" attrib="00 00 00 00 00 00 00 00">Насколько ты уверен<gender2 m="" f="а" /> в том,
-что тебе нрав<tag a="50" b="24" arg="0x32 0xcd00 0x2 0x438 0x2 0x438 0x2 0x438 0x2 0x44f" />тся именно
+что тебе нрав<tag a="50" b="24" arg="0x33 0xcd00 0x2 0x438 0x2 0x438 0x2 0x438 0x2 0x44f" />тся именно
 <tag a="140" b="12" arg="0xcd00" />?<pageBreak /><anim id="Worried" target="actor" targetSpec="" />У тебя нет сомнений по этому
 поводу?<anim id="Hesitate" target="actor" targetSpec="" /> Я спрашиваю, <anim id="Restless" target="actor" targetSpec="" />потому что
 у меня они обычно есть.</message>
@@ -321,7 +322,7 @@
 	<message label="051_b" attrib="00 00 00 00 00 00 00 00">Неправильно!
 Секундочку!</message>
 	<message label="052" attrib="00 00 00 00 00 00 00 00"><anim id="Oops" target="actor" targetSpec="" />Ой!<delay frames="40" /> <anim id="Hesitate" target="actor" targetSpec="" />Давай попробуем еще раз.</message>
-	<message label="060_01" attrib="00 00 00 00 00 00 00 00">Понятно!<delay20 /> <anim id="FaintSmile" target="actor" targetSpec="" />Значит, тебе нрав<tag a="50" b="24" arg="0x32 0xcd00 0x2 0x438 0x2 0x438 0x2 0x438 0x2 0x44f" />тся
+	<message label="060_01" attrib="00 00 00 00 00 00 00 00">Понятно!<delay20 /> <anim id="FaintSmile" target="actor" targetSpec="" />Значит, тебе нрав<tag a="50" b="24" arg="0x33 0xcd00 0x2 0x438 0x2 0x438 0x2 0x438 0x2 0x44f" />тся
 <tag a="140" b="12" arg="0xcd00" /><delay8 /><tag a="110" b="0" /></message>
 	<message label="060_101" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Значит, правильный ответ все же<delay20 />
 <anim id="FaintSmile" target="actor" targetSpec="" />«<tag a="140" b="13" arg="0xcd00" />»!</message>

@@ -76,11 +76,11 @@
 	<message label="202" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
 	<message label="202_01" attrib="00 00 00 00 00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" /><delay20 />Я будущая всемирно известная
 певица <tag a="110" b="10" />!<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" /><delay20 />Меня сюда пригласили потусить!</message>
-	<message label="202_02" attrib="00 00 00 00 00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" /><delay20 />Я <tag a="110" b="10" />! Меня сюда кое-
-кто пригласил потусить!</message>
-	<message label="202_03" attrib="00 00 00 00 00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />Я <tag a="110" b="10" />! Мне только
-сказали: «Приезжай!» И бац —
-я уже тут как тут!</message>
+	<message label="202_02" attrib="00 00 00 00 00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" /><delay20 />Меня сюда пригласил<tag a="50" b="24" arg="0xe 0xcd00 0x0 0x2 0x430 0x0 0x0" /> потусить
+<tag a="115" b="0" arg="0xcd00" />! Мы хорошие друзья!</message>
+	<message label="202_03" attrib="00 00 00 00 00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="115" b="0" arg="0xcd00" /> мне только
+сказал<tag a="50" b="24" arg="0xe 0xcd00 0x0 0x2 0x430 0x0 0x0" />: «Приезжай!» И бац —
+я уже тут как тут! <tag a="50" b="3" /><tag a="110" b="6" />!</message>
 	<message label="301" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
 	<message label="301_01" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" /><delay20 />Мне так легко дышится на острове
 <tag a="110" b="33" />.<delay40 /><anim id="Hello" target="actor" targetSpec="" /><delay20 /> Серьезно. <delay frames="40" />Здесь
@@ -137,7 +137,7 @@
 	<message label="402_01" attrib="00 00 00 00 00 00 00 00"><anim id="WrySmile" target="actor" targetSpec="" />Рассказать тебе суперновость?<10_4 />
 <anim id="Greeting" target="actor" targetSpec="" />Я<delay20 /><anim id="BigSmile" target="actor" targetSpec="" /> буду жить на этом острове!<pageBreak /><anim id="Explain" target="actor" targetSpec="" /><delay20 /><tag a="50" b="3" /><tag a="115" b="0" arg="0xcd00" /> пригласил<gender1 m="" f="а" /> меня
 сюда. <tag a="50" b="3" /><tag a="110" b="8" /> — крутой
-остров. Конечно, я согласилась!<pageBreak /><anim id="Hello" target="actor" targetSpec="" />Да здравству<tag a="50" b="24" arg="0x22 0xcd00 0x2 0x435 0x2 0x435 0x2 0x435 0x2 0x44e" />т <tag a="135" b="7" arg="0xcd00" />!
+остров. Конечно, я согласилась!<pageBreak /><anim id="Hello" target="actor" targetSpec="" />Да здравству<tag a="50" b="24" arg="0x23 0xcd00 0x2 0x435 0x2 0x435 0x2 0x435 0x2 0x44e" />т <tag a="135" b="7" arg="0xcd00" />!
 Вот мы здесь оторвемся!<10_4 />
 <anim id="SmugFace" target="actor" targetSpec="" />Так что...<delay20 /> готовься!</message>
 	<message label="402_02" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" /><delay20 />А знаешь что?! Я остаюсь жить на
@@ -166,7 +166,7 @@
 Это я умею.<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Просто скажу, что хотелось бы
 и мне жить на таком крутом
 острове!</message>
-	<message label="501_01_a" attrib="00 00 00 00 00 00 00 00">Да, здесь классно.</message>
+	<message label="501_01_a" attrib="00 00 00 00 00 00 00 00">Переезжай к нам!</message>
 	<message label="501_01_b" attrib="00 00 00 00 00 00 00 00">Счастливого пути!</message>
 	<message label="501_02" attrib="00 00 01 00 00 00 00 00"><anim id="SadSpiral" target="actor" targetSpec="" />Уф-ф-ф<tag a="110" b="0" /><delay40 /> Мне так понравилось
 гостить здесь с палаткой, не хочу

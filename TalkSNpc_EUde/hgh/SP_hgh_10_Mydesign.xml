@@ -18,7 +18,7 @@ die untere?</message>
 	<message label="001_b" attrib="00 00 00 00">Die untere bitte.</message>
 	<message label="001_c" attrib="00 00 00 00">Was ist das?</message>
 	<message label="001_d" attrib="00 00 00 00">Ich gucke nur...</message>
-	<message label="002" attrib="04 00 00 00"><anim id="Smiling" target="actor" targetSpec="" /><tag a="115" b="3" arg="0xcd00" />?
+	<message label="002" attrib="04 00 00 00"><anim id="Smiling" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="115" b="3" arg="0xcd00" />?
 Das ist von dir, nicht wahr?<10_4 />
 Also<tag a="110" b="0" /> <anim id="QuestionMark" target="actor" targetSpec="" />was möchtest du tun?</message>
 	<message label="002_a" attrib="00 00 00 00">Will ich haben!</message>
@@ -28,10 +28,20 @@ Also<tag a="110" b="0" /> <anim id="QuestionMark" target="actor" targetSpec="" /
 	<message label="003_a" attrib="00 00 00 00">Will ich haben!</message>
 	<message label="003_b" attrib="00 00 00 00">Darf ich ausstellen?</message>
 	<message label="003_c" attrib="00 00 00 00">Ich gucke nur...</message>
+	<message label="003_01" attrib="06 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Das Design von <tag a="115" b="0" arg="0xcd00" /> heißt „⁠<tag a="115" b="3" arg="0xcd00" />⁠“. Also<tag a="110" b="0" /><anim id="QuestionMark" target="actor" targetSpec="" /> was hast du vor?</message>
+	<message label="003_01_a" attrib="00 00 00 00">Will ich haben!</message>
+	<message label="003_01_b" attrib="00 00 00 00">Darf ich ausstellen?</message>
+	<message label="003_01_c" attrib="00 00 00 00">Melden</message>
+	<message label="003_01_d" attrib="00 00 00 00">Ich gucke nur...</message>
 	<message label="004" attrib="04 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Dieses Design heißt „⁠<tag a="115" b="3" arg="0xcd00" />⁠“.<pageBreak /><tag a="50" b="3" /><tag a="115" b="0" arg="0xcd00" /> von <tag a="115" b="2" arg="0xcd00" /> hat es entworfen. <delay20 /><anim id="QuestionMark" target="actor" targetSpec="" />Was möchtest du tun?</message>
 	<message label="004_a" attrib="00 00 00 00">Will ich haben!</message>
 	<message label="004_b" attrib="00 00 00 00">Darf ich ausstellen?</message>
 	<message label="004_c" attrib="00 00 00 00">Ich gucke nur...</message>
+	<message label="004_01" attrib="06 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Dieses Design heißt „⁠<tag a="115" b="3" arg="0xcd00" />⁠“.<pageBreak /><tag a="50" b="3" /><tag a="115" b="0" arg="0xcd00" /> von <tag a="115" b="2" arg="0xcd00" /> hat es entworfen. <delay20 /><anim id="QuestionMark" target="actor" targetSpec="" />Was möchtest du tun?</message>
+	<message label="004_01_a" attrib="00 00 00 00">Will ich haben!</message>
+	<message label="004_01_b" attrib="00 00 00 00">Darf ich ausstellen?</message>
+	<message label="004_01_c" attrib="00 00 00 00">Melden</message>
+	<message label="004_01_d" attrib="00 00 00 00">Ich gucke nur...</message>
 	<message label="005" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Sicher!<delay20 /> Nimm dir Zeit.</message>
 	<message label="006" attrib="02 00 00 00">Um Platz zu schaffen, musst du eines
 der aktuellen eigenen Designs
@@ -90,4 +100,14 @@ die Profi-Edition.
 <anim id="Nodding" target="actor" targetSpec="" />Du bekommst sie für Meilen beim
 <colour id="1" />NookPortal<colour id="65535" /> im <colour id="1" />Servicecenter<colour id="65535" />.<delay20 /><anim id="FaintSmile" target="actor" targetSpec="" /> Probier
 das doch bei Gelegenheit mal aus!</message>
+	<message label="040" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Gut, <delay8 />gut<tag a="110" b="0" /> <delay20 />Dann werde ich dieses
+Design mal entfernen.</message>
+	<message label="051" attrib="00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Moment mal, <delay8 /><tag a="110" b="1" />!<delay20 />
+<anim id="EmotEnd" target="actor" targetSpec="" />Du hast das Design überschrieben,<delay8 />
+das du gerade trägst, <delay8 />oder?
+<anim id="Explain" target="actor" targetSpec="" />Wenn du ein Design bei uns über-
+schreibst,<delay8 /> ändert sich dadurch nicht
+automatisch das von dir getragene.<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Falls du das neue Design anlegen
+möchtest, <delay8 />rufe es auf und wähle
+dann <colour id="1" />Anziehen<colour id="65535" /> aus.</message>
 </msbt>

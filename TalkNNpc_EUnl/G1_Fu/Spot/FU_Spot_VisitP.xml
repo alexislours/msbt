@@ -1,6 +1,6 @@
 <msbt attribsize="8">
 	<message label="001" attrib="00 00 00 00 00 00 00 00">Hoi! Ik ben het, <tag a="110" b="10" />. Mag ik naar binnen komen?<10_7 arg="120" /></message>
-	<message label="002" attrib="00 00 00 00 00 00 00 00">Is er iemand thuis! <delay20 />Ik ben het, <tag a="110" b="10" />. Komt het uit als ik even naar binnen kom?<10_7 arg="120" /></message>
+	<message label="002" attrib="00 00 00 00 00 00 00 00">Is er iemand thuis? <delay20 />Ik ben het, <tag a="110" b="10" />. Komt het uit als ik even naar binnen kom?<10_7 arg="120" /></message>
 	<message label="003" attrib="00 00 00 00 00 00 00 00"><tag a="50" b="3" /><tag a="110" b="3" />? Ik ben het, <tag a="110" b="10" />!<10_7 arg="120" /></message>
 	<message label="004" attrib="00 00 00 00 00 00 00 00">Hallo? <tag a="50" b="3" /><tag a="110" b="3" />? Als je thuis bent, kun je dan de deur openmaken?<10_7 arg="120" /></message>
 	<message label="005" attrib="00 00 00 00 00 00 00 00">Hmmm<tag a="110" b="0" /> Ik hoor niets. Misschien is
@@ -9,7 +9,7 @@
 op bezoek te gaan!<10_7 arg="120" /></message>
 	<message label="007" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Ik kom je even gedag zeggen!<10_7 arg="120" /></message>
 	<message label="008" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Ik stoor toch niet?<10_7 arg="120" /></message>
-	<message label="100" attrib="00 00 00 00 00 00 00 00"><anim id="Hesitate" target="actor" targetSpec="" />Sorry dat ik zo onverwachts
+	<message label="100" attrib="00 00 00 00 00 00 00 00"><anim id="Hesitate" target="actor" targetSpec="" />Sorry dat ik zo onverwacht
 langskom<tag a="110" b="0" /><pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Ik vroeg me af hoe het met jou ging,
 <anim id="Blushing" target="actor" targetSpec="" />dus besloot ik even bij je langs te
 gaan.</message>
@@ -20,13 +20,11 @@ even bij te kletsen.</message>
 kijken of je thuis was. <anim id="HappyFlower" target="actor" targetSpec="" />Ik ben blij
 dat je er bent!</message>
 	<message label="200" attrib="00 00 00 00 00 00 00 00"><anim id="Hesitate" target="actor" targetSpec="" />Ik heb een kleinigheidje voor je.
-<anim id="FaintSmile" target="actor" targetSpec="" />Ik hoop dat je wat hebt aan <tag a="50" b="19" arg="0x15 0xcd00 0x8 0x64 0x65 0x7a 0x65 0x6 0x64 0x69 0x74 0x8 0x64 0x65 0x7a 0x65" />
+<anim id="FaintSmile" target="actor" targetSpec="" />Ik hoop dat je wat hebt aan <tag a="50" b="19" arg="0x16 0xcd00 0x8 0x64 0x65 0x7a 0x65 0x6 0x64 0x69 0x74 0x8 0x64 0x65 0x7a 0x65" />
 <tag a="50" b="23" arg="0xcd03" /><tag a="125" b="4" arg="0x0" />.</message>
 	<message label="201" attrib="00 00 00 00 00 00 00 00"><anim id="Hesitate" target="actor" targetSpec="" />Ik wil je graag iets geven. Alsjeblieft,
 <tag a="50" b="2" /><tag a="125" b="4" arg="0x0" />.</message>
-	<message label="202" attrib="00 00 00 00 00 00 00 00"><anim id="Hesitate" target="actor" targetSpec="" />O ja, ik heb nog een kleinigheidje
-voor je meegenomen: <anim id="EmotEnd" target="actor" targetSpec="" /><tag a="50" b="2" />
-<tag a="125" b="4" arg="0x0" />.</message>
+	<message label="202" attrib="00 00 00 00 00 00 00 00"><anim id="Hesitate" target="actor" targetSpec="" />O ja, ik heb nog een kleinigheidje voor je meegenomen: <anim id="EmotEnd" target="actor" targetSpec="" /><tag a="50" b="2" /><tag a="125" b="4" arg="0x0" />.</message>
 	<message label="203" attrib="00 00 00 00 00 00 00 00"><anim id="Hesitate" target="actor" targetSpec="" />Ik weet niet of je ervan houdt, maar
 <anim id="FaintSmile" target="actor" targetSpec="" />ik heb iets voor je meegenomen:
 <tag a="50" b="2" /><tag a="125" b="4" arg="0x0" />!
@@ -38,8 +36,7 @@ gezegd dat ik genoeg te eten heb<tag a="110" b="0" /></message>
 <tag a="125" b="4" arg="0x0" />.<pageBreak /><anim id="Hesitate" target="actor" targetSpec="" />Misschien komt het van pas als
 je honger hebt.</message>
 	<message label="205" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Ik heb ook nog een kleinigheidje
-voor je!<pageBreak /><anim id="Hesitate" target="actor" targetSpec="" />Hopelijk ben je blij met <tag a="50" b="2" />
-<tag a="125" b="4" arg="0x0" />.</message>
+voor je!<pageBreak /><anim id="Hesitate" target="actor" targetSpec="" />Hopelijk ben je blij met <tag a="50" b="2" /><tag a="125" b="4" arg="0x0" />.</message>
 	<message label="206" attrib="00 00 00 00 00 00 00 00"><anim id="Hesitate" target="actor" targetSpec="" />Sorry voor mijn onaangekondigde
 bezoekje, maar <anim id="FaintSmile" target="actor" targetSpec="" />bedankt voor je
 gastvrijheid.</message>

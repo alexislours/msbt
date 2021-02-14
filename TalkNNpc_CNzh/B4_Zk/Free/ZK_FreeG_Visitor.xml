@@ -5,7 +5,7 @@
 	<message label="001_a" attrib="04 00 00 00 00 00 00 00">当然！</message>
 	<message label="001_b" attrib="05 00 00 00 00 00 00 00">不知道</message>
 	<message label="002" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="23" arg="0xd 0xe 0xf 0xffff" /></message>
-	<message label="003" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x10 0x11 0xffff 0xffff" /></message>
+	<message label="003" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x1 0x10 0x11 0x12" /></message>
 	<message label="004" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />哎呀，我真是太不识趣了。<delay frames="40" />
 <anim id="Nodding" target="actor" targetSpec="" />你知道那就好<tag a="110" b="0" />
 很美味的，去吃吃看吧。<tag a="110" b="6" />。</message>
@@ -33,10 +33,11 @@
 有一个<colour id="3" />傅达<colour id="65535" />的帐篷吗？　<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />虽然现在还是小小一个帐篷，<delay20 />
 但是我听说总有一天那里会建成一座<colour id="1" />博物馆<colour id="65535" />。<delay frames="40" />
 <anim id="Nodding" target="actor" targetSpec="" />充满梦想是件很棒的事呀。<tag a="110" b="6" />。</message>
-	<message label="017" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="2" arg="0x15 0x16 0x17 0x19" /></message>
+	<message label="017" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="3" arg="0x15 0x16 0x17 0x18 0x19" /></message>
 	<message label="021" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1c00 0x1900 0xcd00" /></message>
 	<message label="022" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1d01 0x1900 0xcd00" /></message>
 	<message label="023" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1e02 0x1900 0xcd00" /></message>
+	<message label="024" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1f03 0x1900 0xcd00" /></message>
 	<message label="025" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />这个<tag a="110" b="8" />
 <colour id="1" />博物馆<colour id="65535" />里的展览室，<delay20 />
 是非常值得推荐的景点哦。<pageBreak /><anim id="AbsentMindedness" target="actor" targetSpec="" /><delay frames="20" />在宁静的空间之中，<delay20 />
@@ -61,43 +62,44 @@
 <anim id="AbsentMindedness" target="actor" targetSpec="" /><delay frames="20" />历经漫长岁月的沧桑感<delay20 />
 仿佛传达出了强烈的讯息<tag a="110" b="0" /><delay20 />
 <anim id="Nodding" target="actor" targetSpec="" />那才是真正的浪漫结晶啊。<tag a="110" b="6" />。</message>
-	<message label="101" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="0" arg="0x66 0x6a" /></message>
-	<message label="102" attrib="00 00 03 00 00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />可以问你一件事吗？<delay20 />
-<tag a="110" b="4" /><tag a="110" b="0" /><pageBreak /><anim id="Hesitate" target="actor" targetSpec="" />你搬走之后，<delay20 />
-再也没有见过我了，<delay8 />
-会不会有时<tag a="110" b="0" />感觉寂寞呢？</message>
-	<message label="102_a" attrib="67 00 00 00 00 00 00 00">当然！</message>
-	<message label="102_b" attrib="68 00 00 00 00 00 00 00">没有吧……</message>
-	<message label="102_c" attrib="69 00 00 00 00 00 00 00">你呢，有感觉寂寞吗？</message>
-	<message label="103" attrib="00 00 00 00 00 00 00 00"><anim id="Grin" target="actor" targetSpec="" />我的心情和你一样呢<tag a="110" b="0" /><10_4 />
+	<message label="201" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="0" arg="0xca 0xce" /></message>
+	<message label="202" attrib="00 00 03 00 00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />可以问你一件事吗？<delay20 />
+<tag a="110" b="4" /><tag a="110" b="0" /><pageBreak /><anim id="Hesitate" target="actor" targetSpec="" />我搬走之后，<delay20 />
+你就再也没有见到<tag a="110" b="10" />我了，<delay8 />
+会不会有时<tag a="110" b="0" /><delay8 />感觉寂寞呢？</message>
+	<message label="202_a" attrib="cb 00 00 00 00 00 00 00">当然！</message>
+	<message label="202_b" attrib="cc 00 00 00 00 00 00 00">没有吧……</message>
+	<message label="202_c" attrib="cd 00 00 00 00 00 00 00">你呢，有感觉寂寞吗？</message>
+	<message label="203" attrib="00 00 00 00 00 00 00 00"><anim id="Grin" target="actor" targetSpec="" />我的心情和你一样呢<tag a="110" b="0" /><10_4 />
 <anim id="Nodding" target="actor" targetSpec="" />如果感觉寂寞了，<delay20 />
 欢迎你随时来找我。<tag a="110" b="6" />。</message>
-	<message label="104" attrib="00 00 00 00 00 00 00 00"><anim id="WrySmile" target="actor" targetSpec="" /><delay frames="16" />这倒是另一种寂寞<tag a="110" b="0" /><delay20 />
+	<message label="204" attrib="00 00 00 00 00 00 00 00"><anim id="WrySmile" target="actor" targetSpec="" /><delay frames="16" />这倒是另一种寂寞<tag a="110" b="0" /><delay20 />
 <anim id="FaintSmile" target="actor" targetSpec="" />不过我放心了。<delay8 /><tag a="110" b="6" />。<pageBreak /><anim id="Grin" target="actor" targetSpec="" />你总是大步向前走呢。<delay frames="40" />
 <anim id="Nodding" target="actor" targetSpec="" />今后我也会在远方<delay20 />
 祈祷你大展身手的。</message>
-	<message label="105" attrib="00 00 00 00 00 00 00 00"><anim id="Hello" target="actor" targetSpec="" />我吗？<delay frames="40" />
+	<message label="205" attrib="00 00 00 00 00 00 00 00"><anim id="Hello" target="actor" targetSpec="" />我吗？<delay frames="40" />
 <anim id="WrySmile" target="actor" targetSpec="" /><delay frames="16" />不明确说出来就置若罔闻，<delay20 />
 你是个多么贪心的人呀。<pageBreak /><anim id="Serious" target="actor" targetSpec="" />我从未有一刻忘记过你。<delay frames="30" />
 你我相伴度过的岁月，<delay frames="40" />
 <anim id="Grin" target="actor" targetSpec="" />对我来说是永恒的珍宝<tag a="110" b="0" /><tag a="110" b="6" />。</message>
-	<message label="106" attrib="6b 00 00 00 00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />现在<delay8 />这座<tag a="110" b="32" />上的流行<tag a="110" b="0" /></message>
-	<message label="107" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="2" arg="0x6c 0x6d 0x6e 0x6f" /></message>
-	<message label="108" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />是海钓呀！<pageBreak /><anim id="AbsentMindedness" target="actor" targetSpec="" /><delay frames="20" />远眺波光粼粼的海景，<delay20 />
+	<message label="206" attrib="cf 00 00 00 00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />现在<delay8 />这座<tag a="110" b="32" />上的流行<tag a="110" b="0" /></message>
+	<message label="207" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="2" arg="0xd0 0xd1 0xd2 0xd3" /></message>
+	<message label="208" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />是海钓呀！<pageBreak /><anim id="AbsentMindedness" target="actor" targetSpec="" /><delay frames="20" />远眺波光粼粼的海景，<delay20 />
 沐浴着海浪和自然融为一体<tag a="110" b="0" /><delay20 />
-<anim id="FaintSmile" target="actor" targetSpec="" />钓起大鱼时的惊喜更为强烈！
-<anim id="ShyBoy" target="actor" targetSpec="" /><delay frames="12" />不过冬钓会有点冷啦～<tag a="110" b="6" />。</message>
-	<message label="109" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />是捕虫呀！<pageBreak /><anim id="Explain" target="actor" targetSpec="" />或许你看不出来，<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />钓起大鱼时的惊喜更为强烈！<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />不过也有比我体型还大的鱼，<delay20 />
+<anim id="WrySmile" target="actor" targetSpec="" />钓鱼的同时也得万般注意<delay20 />
+不要被鱼钓走呢。<tag a="110" b="6" />。</message>
+	<message label="209" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />是捕虫呀！<pageBreak /><anim id="Explain" target="actor" targetSpec="" />或许你看不出来，<delay20 />
 它们可是通告着季节变化的<delay20 />
 浪漫主义者呢。<tag a="110" b="6" />。<pageBreak /><anim id="WrySmile" target="actor" targetSpec="" /><delay frames="16" />呵呵呵，<delay20 />
 而追逐着浪漫主义者的我，<delay20 />
 或许才是真正的浪漫化身<tag a="110" b="0" /><anim id="BigSmile" target="actor" targetSpec="" />讲笑啦！</message>
-	<message label="110" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />是挖洞呀！<pageBreak /><anim id="Hello" target="actor" targetSpec="" />你是不是觉得挖洞太单调了？<10_4 />
+	<message label="210" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />是挖洞呀！<pageBreak /><anim id="Hello" target="actor" targetSpec="" />你是不是觉得挖洞太单调了？<10_4 />
 <anim id="Explain" target="actor" targetSpec="" />但是挖得越多越深，<delay20 />
 就感觉自己离新世界越近呢。<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />你也可以试试挑战那些<delay20 />
 乍看之下毫无意义的事情。<pageBreak /><anim id="Serious" target="actor" targetSpec="" />至今从未见过的新世界，<delay frames="40" />
 <anim id="Grin" target="actor" targetSpec="" />或许就会为你敞开大门<tag a="110" b="0" /><tag a="110" b="6" />。</message>
-	<message label="111" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />是园艺呀！<pageBreak /><anim id="Explain" target="actor" targetSpec="" />每一天，<delay20 />灌注水泽、滋润以爱，<delay20 />
+	<message label="211" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />是园艺呀！<pageBreak /><anim id="Explain" target="actor" targetSpec="" />每一天，<delay20 />灌注水泽、滋润以爱，<delay20 />
 仔细地照料它们，<delay20 />
 <anim id="Explain" target="actor" targetSpec="" />每一天，<delay20 />它们看起来都会变得不同。<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />注视着亲手培育长大的植物，<delay20 />
 就会从心底产生无限怜爱，<delay20 />

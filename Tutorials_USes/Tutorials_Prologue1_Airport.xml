@@ -12,7 +12,7 @@ Nook Inc. de escapada a islas
 desiertas!
 <anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" /><anim id="BigSmile" target="actor" targetSpec="" />Te esperan muchas sorpresas.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Pero primero vamos a presentarnos.<delay8 />
 <anim id="Greeting" target="mainNpc" targetSpec="" />Yo soy <colour id="3" />Tendo<colour id="65535" />,<delay8 /> un empleado de
-Nook Inc.</message>
+<colour id="1" />Nook Inc.<colour id="65535" /></message>
 	<message label="002_02" attrib="00 00 00"><anim id="Greeting" target="subNpc" targetSpec="" />¡Y yo soy <colour id="3" />Nendo<colour id="65535" />!</message>
 	<message label="003_01" attrib="00 00 00"><anim id="Nodding" target="mainNpc" targetSpec="" />Te acompañaremos en el vuelo
 hacia la isla y te ayudaremos a
@@ -26,7 +26,7 @@ tu <colour id="1" />nombre <colour id="65535" />y tu <colour id="1" />cumpleaño
 	<message label="003_03" attrib="00 00 00"><tag a="50" b="3" /><tag a="110" b="1" /><tag a="110" b="0" />
 <tag a="50" b="3" /><tag a="110" b="1" /><tag a="110" b="0" /><delay8 />
 A ver<tag a="110" b="0" /><10_7 arg="100" /></message>
-	<message label="003_05" attrib="00 00 00"><anim id="BigSmile" target="mainNpc" targetSpec="" /><anim id="BigSmile" target="subNpc" targetSpec="" />¡Ah! <delay8 />¡Aquí estás!</message>
+	<message label="003_05" attrib="00 00 00"><anim id="BigSmile" target="mainNpc" targetSpec="" /><anim id="BigSmile" target="subNpc" targetSpec="" />¡Ah! <delay8 />¡Te encontramos!</message>
 	<message label="005_01" attrib="00 00 00"><anim id="Explain" target="mainNpc" targetSpec="" />Ahora lo que sigue es tomarte
 una foto, <tag a="110" b="1" />.<pageBreak /><anim id="Smiling" target="mainNpc" targetSpec="" />Si deseas unos minutos para
 arreglarte un poco, no te preocupes.
@@ -70,12 +70,12 @@ a una isla desierta,<delay20 /><anim id="QuestionMark" target="mainNpc" targetSp
 	<message label="023_c" attrib="00 00 00">Algo de comida</message>
 	<message label="023_d" attrib="00 00 00">Algo para entretenerme</message>
 	<message label="024" attrib="00 00 00"><anim id="Thinking" target="actor" targetSpec="" />Qué interesante<tag a="110" b="0" /><pageBreak /><anim id="Shocked" target="actor" targetSpec="" />¡Ah, perdona!<delay20 /> <anim id="Blushing" target="actor" targetSpec="" />Obviamente solo
-era una pregunta hipotética.<pageBreak /><anim id="BigSmile" target="actor" targetSpec="" /><anim id="FaintSmile" target="subNpc" targetSpec="" />Te aseguramos que Nook Inc.
+era una pregunta hipotética.<pageBreak /><anim id="BigSmile" target="actor" targetSpec="" /><anim id="FaintSmile" target="subNpc" targetSpec="" />Te aseguramos que <colour id="1" />Nook Inc.<colour id="65535" />
 cubrirá todas tus necesidades
 básicas en la isla.</message>
 	<message label="025" attrib="00 00 1c"><tag a="100" b="7" />Su atención, por favor.
 <anim id="Eh" target="mainNpc" targetSpec="" /><anim id="Eh" target="subNpc" targetSpec="" />Aviso para todos los pasajeros.<10_8 arg="60" /><endTag a="100" b="7" /></message>
-	<message label="025_01" attrib="00 00 1c"><tag a="100" b="7" />El vuelo del Paquete Nook Inc. de
+	<message label="025_01" attrib="00 00 1c"><tag a="100" b="7" />El vuelo del Paquete <colour id="1" />Nook Inc.<colour id="65535" /> de
 escapada a islas desiertas está listo
 para embarcar.
 Se ruega a los pasajeros que se
@@ -101,8 +101,8 @@ Inc. de escapada a islas desiertas.<delay20 /><100_3 arg="PlaneAnnounceOff" /><e
 mudanza a <tag a="110" b="8" />!<pageBreak /><anim id="EmotEnd" target="subNpc" targetSpec="" /><anim id="BigSmile" target="mainNpc" targetSpec="" />Tenemos muchas cosas para
 explicarte,<delay8 /><anim id="Nodding" target="mainNpc" targetSpec="" /> pero primero vamos
 a presentarnos.
-<anim id="Greeting" target="mainNpc" targetSpec="" />Soy un empleado de Nook Inc.
-y me llamo <colour id="3" />Tendo<colour id="65535" />.</message>
+<anim id="Greeting" target="mainNpc" targetSpec="" />Soy un empleado de <colour id="1" />Nook Inc.
+<colour id="65535" />y me llamo <colour id="3" />Tendo<colour id="65535" />.</message>
 	<message label="102" attrib="00 00 00"><anim id="Nodding" target="mainNpc" targetSpec="" />Ambos ya vivimos en <tag a="110" b="8" /> y nuestra tarea es ayudar a los residentes como tú.
 <anim id="FaintSmile" target="mainNpc" targetSpec="" /><anim id="FaintSmile" target="subNpc" targetSpec="" />Vamos a convivir todos juntos,<delay8 /> así
 que esperamos que nos veas como
@@ -115,4 +115,7 @@ guiaremos a lo largo del proceso.</message>
 necesitamos!<pageBreak /><anim id="Explain" target="mainNpc" targetSpec="" />Una vez que arribemos,<anim id="Nodding" target="subNpc" targetSpec="" />
 te mostraremos la isla y todo lo que
 puedes hacer allí.<anim id="Smiling" target="mainNpc" targetSpec="" /><tag a="100" b="4" /><delay8 /><anim id="Smiling" target="subNpc" targetSpec="" /> <size value="75" />¡No te preocupes!<size value="100" /><endTag a="100" b="4" /></message>
+	<message label="203_02" attrib="00 00 00" />
+	<message label="203_03" attrib="00 00 00" />
+	<message label="203_04" attrib="00 00 00" />
 </msbt>

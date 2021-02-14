@@ -137,6 +137,9 @@
 	<message label="091_02" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />感谢您的确认！<delay40 />
 <anim id="FaintSmile" target="actor" targetSpec="" />那么<tag a="110" b="0" /></message>
 	<message label="091" attrib="00 00 00 00" />
+	<message label="092" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />了解了！<delay8 /><anim id="EmotEnd" target="actor" targetSpec="" />不好意思，<delay8 />
+在使用互联网之前，<delay8 />
+能否确认一下<anim id="Hello" target="actor" targetSpec="" />这些内容呢？</message>
 	<message label="101" attrib="04 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />近距离的<colour id="1" />本地联机<colour id="65535" />的岛，<delay20 />
 和远距离的<colour id="1" />互联网连接<colour id="65535" />的岛，<delay20 />
 <anim id="QuestionMark" target="actor" targetSpec="" />您要去哪个？</message>
@@ -269,6 +272,10 @@
 	<message label="130" attrib="02 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />那么，<delay20 />即将连接到互联网！</message>
 	<message label="130_a" attrib="00 00 00 00">好的！</message>
 	<message label="130_b" attrib="00 00 00 00">还是取消吧！</message>
+	<message label="140" attrib="00 00 00 00">看来，大门已经关闭了。</message>
+	<message label="150" attrib="02 00 00 00">要搜索其他外出地吗？</message>
+	<message label="150_a" attrib="00 00 00 00">搜索其他岛</message>
+	<message label="150_b" attrib="00 00 00 00">还是下次再来</message>
 	<message label="200" attrib="06 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />您好！<delay frames="40" />
 <anim id="QuestionMark" target="actor" targetSpec="" />有什么需要我为您服务的吗？</message>
 	<message label="200_a" attrib="00 00 00 00">打开大门</message>
@@ -282,6 +289,13 @@
 	<message label="201_c" attrib="00 00 00 00">忘记了密码</message>
 	<message label="201_d" attrib="00 00 00 00">还是想外出</message>
 	<message label="201_e" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />没事了</message>
+	<message label="202" attrib="08 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />您好！<delay frames="40" />
+<anim id="QuestionMark" target="actor" targetSpec="" />有什么需要我为您服务的吗？</message>
+	<message label="202_a" attrib="00 00 00 00">打开大门</message>
+	<message label="202_b" attrib="00 00 00 00">结束联机</message>
+	<message label="202_c" attrib="00 00 00 00">忘记了密码</message>
+	<message label="202_d" attrib="00 00 00 00">还是想外出</message>
+	<message label="202_e" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />没事了</message>
 	<message label="210" attrib="04 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />您好！<delay frames="40" />
 <anim id="QuestionMark" target="actor" targetSpec="" />有什么需要我为您服务的吗？</message>
 	<message label="210_a" attrib="00 00 00 00">关闭大门</message>
@@ -293,6 +307,12 @@
 	<message label="211_b" attrib="00 00 00 00">忘记了密码</message>
 	<message label="211_c" attrib="00 00 00 00">还是想外出</message>
 	<message label="211_d" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />没事了</message>
+	<message label="212" attrib="06 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />您好！<delay frames="40" />
+<anim id="QuestionMark" target="actor" targetSpec="" />有什么需要我为您服务的吗？</message>
+	<message label="212_a" attrib="00 00 00 00">关闭大门</message>
+	<message label="212_b" attrib="00 00 00 00">忘记了密码</message>
+	<message label="212_c" attrib="00 00 00 00">还是想外出</message>
+	<message label="212_d" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />没事了</message>
 	<message label="220" attrib="02 00 00 00"><anim id="Eh" target="actor" targetSpec="" />您不是想邀请好友来玩，<delay20 />
 <anim id="QuestionMark" target="actor" targetSpec="" />而是想出岛玩，对吗？</message>
 	<message label="220_a" attrib="00 00 00 00">是这样的</message>
@@ -304,7 +324,11 @@
 <anim id="Nodding" target="actor" targetSpec="" />我就这样结束连接了哦。</message>
 	<message label="223" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />目前设置的密码是<delay20 />
 <anim id="FaintSmile" target="actor" targetSpec="" />“<colour id="1" /><tag a="110" b="26" /><colour id="65535" />”！</message>
-	<message label="251" attrib="00 00 00 00" />
+	<message label="224" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />目前设置的密码是<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />“<colour id="1" /><tag a="110" b="25" /><colour id="65535" />”！</message>
+	<message label="251_01" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />明白了！<delay frames="40" />
+<anim id="EmotEnd" target="actor" targetSpec="" />即将结束联机。</message>
+	<message label="251_02" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />请下次再来使用我们的服务！</message>
 	<message label="252" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />下次<delay8 />想要邀请客人时，<delay frames="30" />
 <anim id="EmotEnd" target="actor" targetSpec="" />会打开大门，<delay20 />
 <anim id="FaintSmile" target="actor" targetSpec="" />所以尽管告诉我。</message>
@@ -324,6 +348,16 @@
 	<message label="302_a" attrib="00 00 00 00">关闭大门</message>
 	<message label="302_b" attrib="00 00 00 00">忘记了密码</message>
 	<message label="302_c" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />没事了</message>
+	<message label="303" attrib="04 00 00 00">顺便问一下，<delay8 />
+<anim id="QuestionMark" target="actor" targetSpec="" />有什么需要帮忙的吗？</message>
+	<message label="303_a" attrib="00 00 00 00">打开大门</message>
+	<message label="303_b" attrib="00 00 00 00">忘记了密码</message>
+	<message label="303_c" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />没事了</message>
+	<message label="304" attrib="04 00 00 00">顺便问一下，<delay8 />
+<anim id="QuestionMark" target="actor" targetSpec="" />有什么需要帮忙的吗？</message>
+	<message label="304_a" attrib="00 00 00 00">关闭大门</message>
+	<message label="304_b" attrib="00 00 00 00">忘记了密码</message>
+	<message label="304_c" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />没事了</message>
 	<message label="305" attrib="02 00 00 00">顺便问一下，<delay8 />
 <anim id="QuestionMark" target="actor" targetSpec="" />有什么需要帮忙的吗？</message>
 	<message label="305_a" attrib="00 00 00 00">打开大门</message>

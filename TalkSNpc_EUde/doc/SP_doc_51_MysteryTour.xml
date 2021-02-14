@@ -27,15 +27,13 @@ nicht weg!<delay20 /> Komm vorbei, wenn du
 Werkzeug oder 'nen Flug brauchst!
 <anim id="BigSmile" target="actor" targetSpec="" />Ob Bienchen oder Bäumelein,
 <delay8 />der Dodo sagt:<delay8 /> Pack's einfach ein!</message>
-	<message label="002" attrib="04 00 00 00"><tag a="135" b="7" arg="0xcd00" /> an <tag a="135" b="7" arg="0xcd01" />, <delay8 />was kann ich für dich tun?</message>
+	<message label="002" attrib="04 00 00 00"><tag a="135" b="7" arg="0xcd00" /> an <tag a="135" b="7" arg="0xcd01" />, <delay8 /><anim id="QuestionMark" target="actor" targetSpec="" />was kann ich für dich tun?</message>
 	<message label="002_a" attrib="00 00 00 00">Fliegen wir zurück?</message>
 	<message label="002_b" attrib="00 00 00 00">Ich brauch Werkzeug.</message>
 	<message label="002_c" attrib="00 00 00 00"><anim id="Negative" target="player" targetSpec="" />Momentan gar nichts...</message>
-	<message label="003" attrib="02 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Du willst Flug <tag a="135" b="7" arg="0xcd00" />
-mit Destination <tag a="110" b="9" />
-nehmen?</message>
-	<message label="003_a" attrib="00 00 00 00"><anim id="Nodding" target="player" targetSpec="" />Ganz genau!</message>
-	<message label="003_b" attrib="00 00 00 00"><anim id="Negative" target="player" targetSpec="" />Nein, noch nicht...</message>
+	<message label="003" attrib="02 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Du willst Flug <tag a="135" b="7" arg="0xcd00" /> mit Ziel <tag a="110" b="9" /> nehmen?<delay20 /> Hast du auch nichts vergessen?</message>
+	<message label="003_a" attrib="00 00 00 00"><anim id="Nodding" target="player" targetSpec="" />Los geht's!</message>
+	<message label="003_b" attrib="00 00 00 00"><anim id="Negative" target="player" targetSpec="" />Einen Moment noch...</message>
 	<message label="004" attrib="00 00 00 00"><snpcAnim id="DodRoger" target="actor" targetSpec="" /><delay20 />Roger!<delay20 /> Fertig machen zum Abflug!</message>
 	<message label="008" attrib="00 00 00 00"><anim id="Assent" target="actor" targetSpec="" />Roger! <delay20 />Flug <tag a="135" b="7" arg="0xcd00" />
 verzögert sich um einige Seemeilen!<delay20 />

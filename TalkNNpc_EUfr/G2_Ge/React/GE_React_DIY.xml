@@ -2,13 +2,13 @@
 	<message label="001" attrib="00 00 02 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Hm ?<delay20 /> Oh,<delay8 /> tu me parlais,<delay8 />
 <tag a="110" b="3" /> ?<pageBreak />Désolée !<anim id="ShyBoy" target="actor" targetSpec="" /> J'étais complètement
 partie dans mon truc.<delay40 /></message>
-	<message label="001_a" attrib="00 00 00 00 00 00 00 00">Tu fais quoi ?</message>
-	<message label="001_b" attrib="00 00 00 00 00 00 00 00">Je disais juste bonjour.</message>
+	<message label="001_a" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Tu fais quoi ?</message>
+	<message label="001_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Je disais juste bonjour.</message>
 	<message label="015" attrib="00 00 02 00 00 00 00 00"><anim id="Confused" target="actor" targetSpec="" />Je suis jamais sûre qu'un gros coup
 de marteau est la bonne solution<tag a="110" b="0" />
 <anim id="Hello" target="actor" targetSpec="" />Tiens ! Salut,<delay8 /> <tag a="110" b="3" /> !</message>
-	<message label="015_a" attrib="00 00 00 00 00 00 00 00">T'es occupée ?</message>
-	<message label="015_b" attrib="00 00 00 00 00 00 00 00">Salut !</message>
+	<message label="015_a" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />T'es occupée ?</message>
+	<message label="015_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Salut !</message>
 	<message label="016" attrib="00 00 02 00 00 00 00 00"><anim id="HappyDance" target="actor" targetSpec="" /><10_5 />La vache <endTag a="10" b="5" /><delay8 />!<delay8 /> J'ai de l'or dans les
 doigts !<delay20 /> <anim id="Pardon" target="actor" targetSpec="" />T'as vu ce que j'ai fabriqué,
 <tag a="110" b="3" /> ?</message>
@@ -17,9 +17,9 @@ doigts !<delay20 /> <anim id="Pardon" target="actor" targetSpec="" />T'as vu ce 
 	<message label="002" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Bonne question !<delay20 /> Eh ben, <delay20 />je bricole
 <tag a="50" b="2" /><tag a="125" b="0" arg="0x0" /> !<pageBreak /><anim id="AbsentMindedness" target="actor" targetSpec="" />Hier soir, je lisais une bédé pour
 m'endormir. Dedans, y a cette nana
-qu'est super et tout<tag a="110" b="0" /><pageBreak />Bref, elle s'était fabriqué <tag a="50" b="2" /><tag a="125" b="0" arg="0x0" />. Alors je me suis dit « ⁠pourquoi pas moi ? »</message>
+qu'est super et tout<tag a="110" b="0" /><pageBreak />Bref, elle s'était fabriqué <tag a="50" b="2" /><tag a="125" b="0" arg="0x0" />. Alors je me suis dit « ⁠pourquoi pas moi ? ⁠»</message>
 	<message label="003" attrib="00 00 02 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="110" b="3" /> !<anim id="EmotEnd" target="actor" targetSpec="" /> Tu veux que je te dise comment on fabrique <anim id="FaintSmile" target="actor" targetSpec="" /><tag a="50" b="2" /><tag a="125" b="0" arg="0x0" /> ?</message>
-	<message label="003_a" attrib="00 00 00 00 00 00 00 00">Vas-y, balance !</message>
+	<message label="003_a" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Vas-y, balance !</message>
 	<message label="003_b" attrib="00 00 00 00 00 00 00 00">Merci, mais non merci.</message>
 	<message label="007" attrib="00 00 00 00 00 00 00 00"><anim id="Restless" target="actor" targetSpec="" />Arf, OK.<delay40 />
 <anim id="EmotEnd" target="actor" targetSpec="" />Bah j'ai un truc à finir, là<tag a="110" b="0" />
@@ -30,8 +30,7 @@ qu'est super et tout<tag a="110" b="0" /><pageBreak />Bref, elle s'était fabriq
 	<message label="009" attrib="00 00 00 00 00 00 00 00"><anim id="OhGeez" target="actor" targetSpec="" />Alors là, tu m'en bouches un coin !<delay8 />
 Je me voyais déjà en train de te
 montrer comment faire et tout<tag a="110" b="0" />
-<anim id="Nodding" target="actor" targetSpec="" />Je suis fière de toi,
-<tag a="110" b="3" /> !</message>
+<anim id="Nodding" target="actor" targetSpec="" />Je suis fière de toi, <tag a="110" b="3" /> !</message>
 	<message label="010" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Oh !<delay20 /> Tu te trimballes déjà un sacré
 bazar !<anim id="Hello" target="actor" targetSpec="" /> Repasse me voir quand tu
 auras fait du tri !</message>
@@ -40,7 +39,7 @@ auras fait du tri !</message>
 chanteuse/icône du bricolage, je
 note les plans que je connais !<pageBreak />Tiens, c'est pour toi, <tag a="110" b="6" /> !</message>
 	<message label="018" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Tu verras, y a rien de plus simple.<delay20 />
-<anim id="Clapping" target="actor" targetSpec="" />Tu en auras bricolé <tag a="50" b="17" arg="0x11 0xcd00 0x4 0x75 0x6e 0x6 0x75 0x6e 0x65 0x0" /> en moins
+<anim id="Clapping" target="actor" targetSpec="" />Tu en auras bricolé <tag a="50" b="17" arg="0x12 0xcd00 0x4 0x75 0x6e 0x6 0x75 0x6e 0x65 0x0" /> en moins
 de deux, <tag a="110" b="3" /> !</message>
 	<message label="019" attrib="00 00 00 00 00 00 00 00"><anim id="IdeaBulb" target="actor" targetSpec="" />Hé, on connaît déjà tou<gender2 m="" f="te" />s les deux
 ce plan, alors n'hésite pas à en faire

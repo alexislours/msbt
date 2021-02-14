@@ -5,7 +5,7 @@ aquí en <tag a="110" b="8" />?</message>
 	<message label="001_a" attrib="04 00 00 00 00 00 00 00">¡Pues claro!</message>
 	<message label="001_b" attrib="05 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />No, ni idea</message>
 	<message label="002" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="23" arg="0xd 0xe 0xf 0xffff" /></message>
-	<message label="003" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x10 0x11 0xffff 0xffff" /></message>
+	<message label="003" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x1 0x10 0x11 0x12" /></message>
 	<message label="004" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />¿En serio?<delay20 /> ¿<tag a="50" b="17" arg="0x1 0xcd00 0x1c 0x45 0x6c 0x20 0x63 0x65 0x6c 0x65 0x62 0xe9 0x72 0x72 0x69 0x6d 0x6f 0x1c 0x4c 0x61 0x20 0x63 0x65 0x6c 0x65 0x62 0xe9 0x72 0x72 0x69 0x6d 0x61 0x0" /> <tag a="110" b="7" arg="0xcd00" />?<delay20 /> <anim id="Grin" target="actor" targetSpec="" />Bueno,<delay8 /> no debería
 sorprenderme que lo supieses.
 <anim id="FaintSmile" target="actor" targetSpec="" />Ya me dirás qué tal saben,<delay8 /> ¿vale?</message>
@@ -40,12 +40,13 @@ apañado con una tienda de campaña.<delay20 />
 Bueno,<delay8 /> tú échale un ojo,<delay8 /> y espero
 <anim id="Smiling" target="actor" targetSpec="" />que vuelvas a visitarnos cuando
 tengamos un recinto decente.</message>
-	<message label="017" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="2" arg="0x15 0x16 0x17 0x19" /></message>
+	<message label="017" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="3" arg="0x15 0x16 0x17 0x18 0x19" /></message>
 	<message label="021" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1c00 0x1900 0xcd00" /></message>
 	<message label="022" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1d01 0x1900 0xcd00" /></message>
 	<message label="023" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1e02 0x1900 0xcd00" /></message>
+	<message label="024" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1f03 0x1900 0xcd00" /></message>
 	<message label="025" attrib="00 00 00 00 00 00 00 00"><anim id="Scheming" target="actor" targetSpec="" />Te cuento algo,<delay8 /> entre tú y yo<tag a="110" b="0" />
-El <colour id="1" />museo <colour id="65535" />de <tag a="110" b="8" /> tiene una política de excelencia, ¿sabes?<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />¡Eso quiere decir que  fue construido
+El <colour id="1" />museo <colour id="65535" />de <tag a="110" b="8" /> tiene una política de excelencia, ¿sabes?<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />¡Eso quiere decir que fue construido
 con visión de futuro para reunir una
 enorme variedad de valiosos objetos!
 <anim id="Smiling" target="actor" targetSpec="" />En unos cuantos añitos será como
@@ -70,43 +71,39 @@ muy notables.<delay20 /> Mi favorito es
 <tag a="50" b="1" /><tag a="135" b="13" arg="0x2" />.
 <anim id="BigSmile" target="actor" targetSpec="" />Pues sí,<delay8 /> ¡en comparación yo estoy
 hecho un chaval!</message>
-	<message label="101" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="0" arg="0x66 0x69" /></message>
-	<message label="102" attrib="00 00 02 00 00 00 00 00">Permíteme una pregunta un tanto
-indiscreta.<delay20 /> <anim id="QuestionMark" target="actor" targetSpec="" />¿No echas de menos
-vivir aquí en <tag a="110" b="8" />?</message>
-	<message label="102_a" attrib="67 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Un poco</message>
-	<message label="102_b" attrib="68 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Más bien nada</message>
-	<message label="103" attrib="00 00 00 00 00 00 00 00"><anim id="WrySmile" target="actor" targetSpec="" />¿Solo un poco?<delay20 /> Venga,<delay8 /> no ocultes
-tus sentimientos.<delay20 /> Prometo no
-contárselo a nadie.
-<anim id="OhGeez" target="actor" targetSpec="" />Bueno,<delay8 /> no puedo forzar una
-confesión de sentimientos.<delay20 /> <anim id="Smiling" target="actor" targetSpec="" />Pero
-visítanos cuando quieras,<delay8 /> ¿vale?</message>
-	<message label="104" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Así que tu espíritu no conoce
-la nostalgia,<delay8 /> ¿eh?<delay20 /> <anim id="Grin" target="actor" targetSpec="" />A mí me parece
-que te gusta hacerte <gender2 m="el duro" f="la dura" />.
-<anim id="AbsentMindedness" target="actor" targetSpec="" />Eso o simplemente te va muy bien
-en tu nueva isla,<delay8 /> <anim id="WrySmile" target="actor" targetSpec="" />cosa que
-me alegra.</message>
-	<message label="105" attrib="00 00 04 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Anda,<delay8 /> pero si es <tag a="110" b="3" />,<delay8 />
-<gender2 m="el" f="la" /> que nos dejó tirad<tag a="110" b="0" /> Eh,<delay8 /> esto<tag a="110" b="0" /><pageBreak /><anim id="Smiling" target="actor" targetSpec="" />¿Qué tal te tratan en tu nueva isla?</message>
-	<message label="105_a" attrib="6a 00 00 00 00 00 00 00">¡Genial!</message>
-	<message label="105_b" attrib="6b 00 00 00 00 00 00 00">No me tratan mal...</message>
-	<message label="105_c" attrib="6c 00 00 00 00 00 00 00">¡Buaaah!</message>
-	<message label="106" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />¡Me alegro!<delay20 /> Aunque tampoco me
-sorprende,<delay8 /> porque sabía que te
-iría bien en cualquier sitio.<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Pero no te olvides de tus amigos de <tag a="110" b="8" /><delay8 /> <anim id="Greeting" target="actor" targetSpec="" />¡y ven a vernos
-cuando quieras!</message>
-	<message label="107" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />¿Y eso?<delay20 /> Bueno,<delay8 /> espero que lo
+	<message label="201" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="0" arg="0xca 0xcd" /></message>
+	<message label="202" attrib="00 00 02 00 00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />Permíteme una pregunta un tanto
+indiscreta.<pageBreak /><anim id="QuestionMark" target="actor" targetSpec="" />¿Qué te trae por <tag a="110" b="8" />, el turismo o venir a charlar conmigo?</message>
+	<message label="202_a" attrib="cb 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />¡Quería verte!</message>
+	<message label="202_b" attrib="cc 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Me gusta esta isla</message>
+	<message label="203" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />¿Me lo dices en serio?<delay20 /> Fíjate que
+lo insinuaba en broma<tag a="110" b="0" /><delay20 /><anim id="WrySmile" target="actor" targetSpec="" /> Pero no te
+preocupes:<delay8 /> no se lo contaré a nadie.
+<anim id="Smiling" target="actor" targetSpec="" />Me halaga que disfrutes tanto de
+mi compañía, <delay8 />así que ya sabes:<delay20 />
+¡ven a verme cuanto quieras!</message>
+	<message label="204" attrib="00 00 00 00 00 00 00 00"><anim id="OhGeez" target="actor" targetSpec="" />Tenía que habérmelo imaginado, sí.<delay20 />
+<anim id="Grin" target="actor" targetSpec="" />A menos que te estés haciendo <gender2 m="el" f="la" />
+dur<gender2 m="o" f="a" /> para disimular.
+<anim id="Nodding" target="actor" targetSpec="" />Sea lo que sea, me alegra tenerte
+por aquí. <delay20 /><anim id="WrySmile" target="actor" targetSpec="" />¡Ya sabes que eres más
+que bienvenid<gender2 m="o" f="a" /> en la isla!</message>
+	<message label="205" attrib="00 00 04 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />¡Anda,<delay8 /> pero si es <tag a="110" b="3" />!<delay20 /> <anim id="Smiling" target="actor" targetSpec="" />Cuenta, ¿qué tal te tratan en mi antigua isla?</message>
+	<message label="205_a" attrib="ce 00 00 00 00 00 00 00">¡Genial!</message>
+	<message label="205_b" attrib="cf 00 00 00 00 00 00 00">No me tratan mal...</message>
+	<message label="205_c" attrib="d0 00 00 00 00 00 00 00">¡Buaaah!</message>
+	<message label="206" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />¡Me alegro!<delay20 /> Aunque tampoco me
+sorprende,<delay8 /> <anim id="Grin" target="actor" targetSpec="" />porque a ti te va bien
+en cualquier sitio.
+<anim id="Smiling" target="actor" targetSpec="" />Pero no te olvides de que <tag a="110" b="8" /> existe, ¿eh?<delay8 /> <anim id="Greeting" target="actor" targetSpec="" />¡Ven a verme de vez en cuando!</message>
+	<message label="207" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />¿Y eso?<delay20 /> Bueno,<delay8 /> espero que lo
 digas en sentido literal,<delay8 /> es decir,<delay8 />
 que no te pasa nada malo.
 <anim id="OhGeez" target="actor" targetSpec="" />Pero confío en que te pueda ir aún
 mejor.<pageBreak /><anim id="SmugFace" target="actor" targetSpec="" />O haz como yo,<delay8 /> que voy allí donde
 me lleva el viento y fluyen ríos de
 <tag a="135" b="1" arg="0xcd00" />,<delay8 /> <anim id="Laughing" target="actor" targetSpec="" />¡ja, ja, ja!</message>
-	<message label="108" attrib="00 00 00 00 00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Ay<tag a="110" b="0" /><delay20 /> Lo siento,<delay8 /> ¿he tocado algún
+	<message label="208" attrib="00 00 00 00 00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Ay<tag a="110" b="0" /><delay20 /> Lo siento,<delay8 /> ¿he tocado algún
 tema delicado?<pageBreak /><anim id="Thinking" target="actor" targetSpec="" />Tómate un descanso,<delay8 /> respira aire
-fresco,<delay8 /> búscate una afición<tag a="110" b="0" /><pageBreak />Como <tag a="135" b="8" arg="0xcd00" />,<delay8 /> por poner
-un ejemplo<tag a="110" b="0" /><delay20 /> <anim id="OhGeez" target="actor" targetSpec="" />Simplemente relájate,<delay8 />
-no sufras.</message>
+fresco,<delay8 /> búscate una afición<tag a="110" b="0" /><pageBreak />Como <tag a="135" b="8" arg="0xcd00" />,<delay8 /> por poner un ejemplo<tag a="110" b="0" /><delay20 /> <anim id="OhGeez" target="actor" targetSpec="" />Simplemente relájate,<delay8 /> no sufras.</message>
 </msbt>

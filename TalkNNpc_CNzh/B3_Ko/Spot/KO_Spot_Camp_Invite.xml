@@ -6,6 +6,11 @@
 我也在这座<tag a="110" b="32" />住下！<pageBreak /><anim id="HappyDance" target="actor" targetSpec="" />既然这样决定了的话，那好事不宜迟！<delay frames="40" />
 我赶快去问一下
 这座<tag a="110" b="32" />的<colour id="1" />服务处<colour id="65535" />吧！<tag a="110" b="6" />。</message>
+	<message label="003" attrib="00 00 00 00 00 00 00 00"><anim id="ShyBoy" target="actor" targetSpec="" />嗯<tag a="110" b="0" />受到这么多次邀请，
+真让人开心啊<tag a="110" b="0" /><delay frames="40" />
+<anim id="Nodding" target="actor" targetSpec="" />我算是败给你的热情了。<pageBreak /><anim id="BigSmile" target="actor" targetSpec="" />好！<delay20 />我也搬到这座<tag a="110" b="32" />来住吧！<delay frames="40" />
+<anim id="FaintSmile" target="actor" targetSpec="" />那么首先得<delay8 />向这座<tag a="110" b="32" />的<colour id="1" />服务处<colour id="65535" />询问一下
+现在能不能搬过来才行。<tag a="110" b="6" />。</message>
 	<message label="101" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
 	<message label="101_01" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />啊，<delay8 />你是认真的吗？！<delay frames="40" />
 <anim id="EmotEnd" target="actor" targetSpec="" />你能这么说，我很高兴，<delay20 />
@@ -86,28 +91,19 @@
 	<message label="206" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
 	<message label="206_01" attrib="00 00 00 00 00 00 00 00"><anim id="WrySmile" target="actor" targetSpec="" />虽然很不甘心，但是我输了。<delay frames="40" />
 <anim id="EmotEnd" target="actor" targetSpec="" />好！<delay20 /><anim id="Negative" target="actor" targetSpec="" />男子汉说一不二！<delay frames="40" />
-<anim id="FaintSmile" target="actor" targetSpec="" />按照约定，<delay8 />我就搬家来这座<tag a="110" b="32" />上。
-<anim id="ShyBoy" target="actor" targetSpec="" />认真比试完之后，
-也必要再自我介绍了吧，<delay8 />
-不过姑且还是说一下。
-<anim id="Greeting" target="actor" targetSpec="" />我的名字是<tag a="110" b="10" />！<delay frames="30" />
-<anim id="EmotEnd" target="actor" targetSpec="" />你是<tag a="110" b="3" />没错吧？<delay frames="40" />
-<anim id="Smiling" target="actor" targetSpec="" />以后我们好好相处吧！<tag a="110" b="6" />。</message>
+<anim id="FaintSmile" target="actor" targetSpec="" />按照约定，<delay8 />我就搬来这座<tag a="110" b="32" />上吧。<pageBreak /><anim id="Shocked" target="actor" targetSpec="" /><tag a="110" b="0" />不过在那之前，<delay20 />
+<anim id="Nodding" target="actor" targetSpec="" />得先去<colour id="1" />服务处<colour id="65535" />确认一下<delay frames="40" />
+<anim id="BigSmile" target="actor" targetSpec="" />我能不能搬过来啊。<tag a="110" b="6" />。<delay8 /><anim id="FaintSmile" target="actor" targetSpec="" /></message>
 	<message label="206_02" attrib="00 00 00 00 00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />我不为败北找借口。<delay frames="40" />
-<anim id="Greeting" target="actor" targetSpec="" />能和你认真比试一场，我很高兴。<delay frames="40" />
-<anim id="BigSmile" target="actor" targetSpec="" />好！<delay20 /><anim id="FaintSmile" target="actor" targetSpec="" />接下来我就去做搬家的准备！
-<anim id="Shocked" target="actor" targetSpec="" />啊，<delay8 />在此之前，<delay20 /><anim id="EmotEnd" target="actor" targetSpec="" />还是先做个自我介绍吧！<delay frames="40" />
-我是<tag a="110" b="10" />！<delay20 />
-你是<tag a="110" b="0" /><tag a="110" b="3" />啊！
-<anim id="Smiling" target="actor" targetSpec="" />以后我们就作为同座<tag a="110" b="32" />的伙伴，
-好好相处吧！<delay20 />
-请多关照啊！<tag a="110" b="6" />。</message>
-	<message label="206_03" attrib="00 00 00 00 00 00 00 00">居然在游戏中赢了我，<delay20 />
-<anim id="BigSmile" target="actor" targetSpec="" />你挺能干的啊。<delay8 /><anim id="FaintSmile" target="actor" targetSpec="" /><pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />搬家的事也决定了，<delay20 />那就再打一次招呼吧。<delay frames="40" />
-<anim id="Greeting" target="actor" targetSpec="" />我叫<tag a="110" b="10" />。<delay frames="40" />
-<anim id="Nodding" target="actor" targetSpec="" />你是<tag a="110" b="3" />吧。<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />和能让我满足的家伙成为<delay8 />
-同座<tag a="110" b="32" />的伙伴，我很高兴。<delay frames="40" />
-<anim id="Hello" target="actor" targetSpec="" />以后请多关照！<tag a="110" b="6" />。</message>
+<anim id="FaintSmile" target="actor" targetSpec="" />能和你认真比试一场，我很高兴。<delay frames="40" />
+<anim id="BigSmile" target="actor" targetSpec="" />好！<delay20 />接下来就该准备搬家了！<anim id="FaintSmile" target="actor" targetSpec="" /><pageBreak /><anim id="Shocked" target="actor" targetSpec="" />哎呀，<delay8 />在那之前得先去一趟<colour id="1" />服务处<colour id="65535" />才行。<delay frames="40" />
+<anim id="Smiling" target="actor" targetSpec="" />我要去问问这座<tag a="110" b="32" />上<delay8 />
+还有没有空间可以给我入住啊！<tag a="110" b="6" />。</message>
+	<message label="206_03" attrib="00 00 00 00 00 00 00 00">竟然能在游戏中赢过我，<delay20 />
+<anim id="BigSmile" target="actor" targetSpec="" />你挺有一手的啊。<delay frames="40" />
+<anim id="FaintSmile" target="actor" targetSpec="" />那么<delay8 />关于我们约定好的搬家事宜<tag a="110" b="0" /><pageBreak /><anim id="Nodding" target="actor" targetSpec="" />我先去<colour id="1" />服务处<colour id="65535" /><delay8 />
+确认一下这座<tag a="110" b="32" /><delay20 />
+能不能接受我入住吧。<tag a="110" b="6" />。</message>
 	<message label="302" attrib="00 00 01 00 00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />久等了！<delay frames="40" />
 我去问了问
 这座<tag a="110" b="32" />的<colour id="1" />服务处<colour id="65535" /><tag a="110" b="0" />
@@ -156,24 +152,15 @@
 	<message label="312" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />这样啊，<delay20 />既然你都这么说了，
 这次就放弃吧。<delay frames="40" />
 <anim id="FaintSmile" target="actor" targetSpec="" />下次还有机会的话要叫我哦！<tag a="110" b="6" />。</message>
-	<message label="402" attrib="00 00 00 00 00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />久等了！<delay frames="40" />
-我马上去问了<delay8 />
-这座<tag a="110" b="32" />的<colour id="1" />服务处<colour id="65535" /><tag a="110" b="0" />
-<anim id="OhGeez" target="actor" targetSpec="" />听说有和我长得很像的居民住在这里，<delay8 />
-如果我也搬来，会让其他居民混乱的。<delay8 />
-所以人家让我还是不要移居过来了。
-<anim id="Worried" target="actor" targetSpec="" />真让人难以置信<tag a="110" b="0" />
-不过，<delay8 />肯定也是有他们的苦衷的。<delay frames="40" />
-这次就放弃吧。<tag a="110" b="6" />。</message>
-	<message label="403" attrib="00 00 00 00 00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />久等了！<delay frames="40" />
-我马上去问了<delay8 />
-这座<tag a="110" b="32" />的<colour id="1" />服务处<colour id="65535" /><tag a="110" b="0" />
-<anim id="Worried" target="actor" targetSpec="" />听说最近有个和我长得很像的家伙
-要搬家到这座<tag a="110" b="32" />上，<delay8 />
-两个人的话容易混淆，所以不行。
-<anim id="Frantic" target="actor" targetSpec="" />可恶<tag a="110" b="0" />如果我先人一步决定搬家过来，<delay8 />
-就能和你一起住在同座<tag a="110" b="32" />上了。<delay20 />
-<anim id="Sighing" target="actor" targetSpec="" />真可惜啊。<tag a="110" b="6" />。</message>
+	<message label="313" attrib="00 00 01 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />噢，真的有啊？！<pageBreak /><anim id="Explain" target="actor" targetSpec="" />说起来，刚才我在<colour id="1" />服务处<colour id="65535" />也听说<delay20 />
+可以试着去找<delay8 />
+名叫<tag a="115" b="1" arg="0xcd00" />的居民商量一下。<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />我可以现在就去<delay8 />
+<anim id="Hello" target="actor" targetSpec="" />问问那家伙吗？<tag a="110" b="6" />。</message>
+	<message label="313_a" attrib="00 00 00 00 00 00 00 00">好啊！</message>
+	<message label="313_b" attrib="00 00 00 00 00 00 00 00">那有点……</message>
+	<message label="314" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />这样啊，<delay20 />既然你都这么说的，
+那这次就先算了吧。<delay frames="40" />
+<anim id="FaintSmile" target="actor" targetSpec="" />下次有机会再拜托你啦！<tag a="110" b="6" />。</message>
 	<message label="404" attrib="00 00 00 00 00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />久等了！<delay frames="40" />
 我马上去问了<delay8 />
 这座<tag a="110" b="32" />的<colour id="1" />服务处<colour id="65535" /><tag a="110" b="0" />
@@ -182,14 +169,6 @@
 再多容纳一个新居民了。<pageBreak /><anim id="Sighing" target="actor" targetSpec="" />这样的话就没办法了呢。<delay frames="40" />
 <anim id="EmotEnd" target="actor" targetSpec="" />如果有天<delay8 />我能和你
 住在同座<tag a="110" b="32" />上就好了。<tag a="110" b="6" />。</message>
-	<message label="405" attrib="00 00 00 00 00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />久等了！<delay frames="40" />
-我马上去问了<delay8 />
-这座<tag a="110" b="32" />的<colour id="1" />服务处<colour id="65535" /><tag a="110" b="0" />
-<anim id="Worried" target="actor" targetSpec="" />似乎现在你的<tag a="110" b="32" />上
-建筑物已经多到<delay8 />
-没有地方给我建房子了。
-<anim id="Sighing" target="actor" targetSpec="" />是这种理由的话，我也只能接受了<tag a="110" b="0" /><delay8 />
-很遗憾，但这次就放弃吧。<tag a="110" b="6" />。</message>
 	<message label="406" attrib="00 00 00 00 00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />久等了！<delay frames="40" />
 我马上去问了<delay8 />
 这座<tag a="110" b="32" />的<colour id="1" />服务处<colour id="65535" /><tag a="110" b="0" /><pageBreak /><anim id="BigSmile" target="actor" targetSpec="" />说是<delay8 />可以搬家过来！<delay20 />
@@ -206,28 +185,10 @@
 	<message label="411" attrib="00 00 00 00 00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />说得也是啊。<delay20 />
 还是干脆地放弃吧<tag a="110" b="0" />
 <anim id="WrySmile" target="actor" targetSpec="" />不我也想被当成不知礼数的家伙。<tag a="110" b="6" />。</message>
-	<message label="421" attrib="00 00 00 00 00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />话说回来<tag a="110" b="0" />
-有个和我很像的家伙住在这里啊。<delay frames="40" />
-<anim id="Laughing" target="actor" targetSpec="" />不过，<delay8 />肯定是我更有男子气概！
-<anim id="EmotEnd" target="actor" targetSpec="" />虽然不能如愿搬到你的<tag a="110" b="32" />上，<delay20 />
-<anim id="FaintSmile" target="actor" targetSpec="" />但能得到你的邀请，我还是很高兴的！<delay frames="40" />
-非常感谢你。<tag a="110" b="6" />。</message>
-	<message label="422" attrib="00 00 00 00 00 00 00 00"><anim id="OhGeez" target="actor" targetSpec="" />没想到会在同一时间点
-还有其他人搬家过来，<delay20 />
-<anim id="WrySmile" target="actor" targetSpec="" />而且还是和我长得一模一样的家伙！
-<anim id="ShyBoy" target="actor" targetSpec="" />几乎不可能的两个偶然竟然同时发生了。<delay frames="40" />
-<anim id="EmotEnd" target="actor" targetSpec="" />虽然很遗憾，<delay8 />但这次就放弃吧。<delay20 />
-<anim id="FaintSmile" target="actor" targetSpec="" />还能在哪里遇见的话，请多关照。<tag a="110" b="6" />。</message>
 	<message label="423" attrib="00 00 00 00 00 00 00 00">竟然已经达到容纳居民数的极限，<delay20 />
 <anim id="Nodding" target="actor" targetSpec="" />你的<tag a="110" b="32" />太有人气了啊。<pageBreak />不能住在这样的<tag a="110" b="32" />上还挺遗憾的，<delay20 />
 <anim id="FaintSmile" target="actor" targetSpec="" />但能得到你的邀请，我很高兴！<delay20 />
 还能在哪里遇见的话，请多关照。<tag a="110" b="6" />。</message>
-	<message label="424" attrib="00 00 00 00 00 00 00 00">竟然建筑物多到<delay8 />
-连家都没地方可建，<delay20 />
-<anim id="Nodding" target="actor" targetSpec="" />简直像城市一样啊。
-不能搬家过来是很遗憾，<delay8 />
-<anim id="FaintSmile" target="actor" targetSpec="" />不过能得到你的邀请，我还是很高兴的。<delay frames="40" />
-非常感谢你。<tag a="110" b="6" />。</message>
 	<message label="504" attrib="00 00 01 00 00 00 00 00">纵容着我这个外来者的任性，<delay frames="30" />
 <anim id="Laughing" target="actor" targetSpec="" />这座<tag a="110" b="32" />上的人<delay20 />
 真的都太好了！<pageBreak /><anim id="Serious" target="actor" targetSpec="" />不对，<delay8 />这不是我最想说的<tag a="110" b="0" /><delay20 />

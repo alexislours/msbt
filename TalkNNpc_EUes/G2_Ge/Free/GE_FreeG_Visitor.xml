@@ -5,7 +5,7 @@ fruta de <tag a="110" b="8" />?</message>
 	<message label="001_a" attrib="04 00 00 00 00 00 00 00">Sí</message>
 	<message label="001_b" attrib="05 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />¿Qué?</message>
 	<message label="002" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="23" arg="0xd 0xe 0xf 0xffff" /></message>
-	<message label="003" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x10 0x11 0xffff 0xffff" /></message>
+	<message label="003" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x1 0x10 0x11 0x12" /></message>
 	<message label="004" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Menos mal,<delay8 /> porque no te puedes
 perder nuestr<tag a="50" b="17" arg="0x1 0xcd00 0x2 0x6f 0x2 0x61 0x0" />s <tag a="110" b="7" arg="0xcd01" />.<delay20 />
 <anim id="Love" target="actor" targetSpec="" />¡Son lo más dulcísimo del mundo!</message>
@@ -35,10 +35,11 @@ que es ahora en cero coma.</message>
 tiendita de campaña superhumilde!<pageBreak /><anim id="BigSmile" target="actor" targetSpec="" />Pásate a saludar a <colour id="3" />Sócrates<colour id="65535" />,<delay8 />
 que seguro que eso de investigar
 todo <anim id="Nodding" target="actor" targetSpec="" />solo le aburre mogollón.</message>
-	<message label="017" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="2" arg="0x15 0x16 0x17 0x19" /></message>
+	<message label="017" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="3" arg="0x15 0x16 0x17 0x18 0x19" /></message>
 	<message label="021" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1c00 0x1900 0xcd00" /></message>
 	<message label="022" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1d01 0x1900 0xcd00" /></message>
 	<message label="023" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1e02 0x1900 0xcd00" /></message>
+	<message label="024" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1f03 0x1900 0xcd00" /></message>
 	<message label="025" attrib="00 00 00 00 00 00 00 00"><anim id="WrySmile" target="actor" targetSpec="" />Pues yo creo que deberías visitar
 el <colour id="1" />museo<colour id="65535" />,<delay8 /> que tiene cosis idealas
 y así como muy bien expuestas.
@@ -51,36 +52,42 @@ mismo es ir al <colour id="1" />museo<colour id="65535" /> a ver
 <anim id="Hello" target="actor" targetSpec="" />Es como fascinante, ¿sabes?<delay20 />
 <anim id="Nodding" target="actor" targetSpec="" />Te superrecomiendo que vayas,
 <tag a="110" b="3" />.</message>
-	<message label="029" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />No te puedes perder <tag a="50" b="1" /><tag a="135" b="13" arg="0x1" /> que tienen en el <colour id="1" />museo<colour id="65535" />.<pageBreak /><anim id="Assent" target="actor" targetSpec="" />Yo, desde que <tag a="50" b="17" arg="0x28 0xcd00 0x4 0x6c 0x6f 0x4 0x6c 0x61 0x0" /> vi, soy <10_5 />mega<endTag a="10" b="5" />fán,
+	<message label="029" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />No te puedes perder <tag a="50" b="1" /><tag a="135" b="13" arg="0x1" /> que tienen en el <colour id="1" />museo<colour id="65535" />.<pageBreak /><anim id="Assent" target="actor" targetSpec="" />Yo, desde que <tag a="50" b="17" arg="0x29 0xcd00 0x4 0x6c 0x6f 0x4 0x6c 0x61 0x0" /> vi, soy <10_5 />mega<endTag a="10" b="5" />fán,
 <tag a="110" b="6" />.</message>
 	<message label="030" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />El <colour id="1" />museo <colour id="65535" />de <tag a="110" b="8" /> tiene una exposición de fósiles que es como<tag a="110" b="0" /><delay8 /> en plan<tag a="110" b="0" /><delay8 /> increíble, ¿vale?
-<anim id="Greeting" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="50" b="1" /><tag a="135" b="13" arg="0x2" /> es mi superprefe.<delay20 /> <anim id="Nodding" target="actor" targetSpec="" />Ve a verl<tag a="50" b="17" arg="0x28 0xcd00 0x2 0x6f 0x2 0x61 0x0" /> y entenderás lo que digo.</message>
+<anim id="Greeting" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="50" b="1" /><tag a="135" b="13" arg="0x2" /> es mi superprefe.<delay20 /> <anim id="Nodding" target="actor" targetSpec="" />Ve a verl<tag a="50" b="17" arg="0x29 0xcd00 0x2 0x6f 0x2 0x61 0x0" /> y entenderás lo que digo.</message>
 	<message label="101" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="0" arg="0x66 0x69" /></message>
-	<message label="102" attrib="00 00 02 00 00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />¡Has vuelto, <tag a="110" b="3" />!<delay8 /> <anim id="Blushing" target="actor" targetSpec="" />Ay, ¿es porque me echabas de
-menos?</message>
-	<message label="102_a" attrib="67 00 00 00 00 00 00 00">¡Sí!</message>
-	<message label="102_b" attrib="68 00 00 00 00 00 00 00">Pues no mucho...</message>
-	<message label="103" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />¡Qué mon<gender2 m="o" f="a" />!<delay8 /> <anim id="ShyBoy" target="actor" targetSpec="" />Yo a ti también,<delay8 /> que
-lo sepas, <tag a="110" b="3" />.<pageBreak /><anim id="Negative" target="actor" targetSpec="" />Me quedé así como plof cuando
-te fuiste,<delay8 /> <anim id="Smiling" target="actor" targetSpec="" />pero sabía que volverías
-de visita algún día.
-<anim id="Assent" target="actor" targetSpec="" />A ver,<delay8 /> que para algo somos amiguis.<delay20 />
-Vuelve cuando quieras, guapísim<gender2 m="o" f="a" />.</message>
-	<message label="104" attrib="00 00 00 00 00 00 00 00"><anim id="Laughing" target="actor" targetSpec="" />¡Ja!<delay8 /> ¡No me lo creo!<delay8 /> <anim id="Grin" target="actor" targetSpec="" />No puedes
-vivir sin míiiii<tag a="110" b="0" /><pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Ahora en serio,<delay8 /> <anim id="OhGeez" target="actor" targetSpec="" />cuando te fuiste me
-dio un poco así de bajón, ¿sabes?<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Pero descubrí <tag a="135" b="8" arg="0xcd00" /> y, oye, como que me animó mucho.<delay20 />
-<anim id="EmotEnd" target="actor" targetSpec="" />Ahora lo hago todo el rato.</message>
-	<message label="105" attrib="00 00 01 00 00 00 00 00">Bueno, <tag a="110" b="3" />,<delay8 /> ahora vives en <tag a="110" b="9" />, ¿no?<delay20 /> <anim id="Nodding" target="actor" targetSpec="" />Pues cuenta, cuenta.</message>
-	<message label="105_a" attrib="6a 00 00 00 00 00 00 00">¡Es muy divertida!</message>
-	<message label="105_b" attrib="6b 00 00 00 00 00 00 00">¡Es muy bonita!</message>
-	<message label="106" attrib="00 00 00 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />¿Ah, sí?<delay8 /> Yo soy <10_5 />super<endTag a="10" b="5" /><delay8 /><10_5 />fán<endTag a="10" b="5" /> de la
+	<message label="201" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="0" arg="0xca 0xcd" /></message>
+	<message label="202" attrib="00 00 02 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Has venido de visita porque me
+echabas de menos,<delay8 /> ¿a que sí, <tag a="110" b="3" />?</message>
+	<message label="202_a" attrib="cb 00 00 00 00 00 00 00">¡Totalmente!</message>
+	<message label="202_b" attrib="cc 00 00 00 00 00 00 00">No ha sido por eso, no</message>
+	<message label="203" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />¡Qué mon<gender2 m="o" f="a" />!<delay20 /> Yo también te echo
+de menos <anim id="ShyBoy" target="actor" targetSpec="" />a ti,<delay8 /> que lo sepas, <tag a="110" b="3" />.<pageBreak /><anim id="Hesitate" target="actor" targetSpec="" />Si te soy sincera, estoy la mar de
+feliz y emocionada viviendo aquí,<delay8 />
+<anim id="Restless" target="actor" targetSpec="" />¡pero me acuerdo muchérrimo de ti!
+<anim id="Assent" target="actor" targetSpec="" />A ver,<delay8 /> que para algo somos amiguis
+inseparables.<delay20 /> Ven a verme cuanto
+quieras, guapísim<gender2 m="o" f="a" />.</message>
+	<message label="204" attrib="00 00 00 00 00 00 00 00"><anim id="Laughing" target="actor" targetSpec="" />¡Ja!<delay8 /> ¡No me lo creo!<delay8 /> <anim id="Grin" target="actor" targetSpec="" />No puedes
+vivir sin míiiii<tag a="110" b="0" /><pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Ahora en serio,<delay8 /> <anim id="OhGeez" target="actor" targetSpec="" />cuando me marché
+me dio un poco así de bajón,
+¿sabes?
+<anim id="Explain" target="actor" targetSpec="" />Pero descubrí que me encanta <tag a="135" b="8" arg="0xcd00" /> y, oye, como que me animó mucho.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Ahora lo hago todo el rato.</message>
+	<message label="205" attrib="00 00 01 00 00 00 00 00"><anim id="Pardon" target="actor" targetSpec="" />Bueno, <tag a="110" b="3" />,<delay8 /> ¿qué tal la vida en <tag a="110" b="9" /> desde que me fui?<delay20 /> <anim id="Nodding" target="actor" targetSpec="" />Cuenta, cuenta.</message>
+	<message label="205_a" attrib="ce 00 00 00 00 00 00 00">¡Muy divertida!</message>
+	<message label="205_b" attrib="cf 00 00 00 00 00 00 00">Bastante tranquila</message>
+	<message label="206" attrib="00 00 00 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />¿Ah, sí?<delay8 /> Yo soy <10_5 />super<endTag a="10" b="5" /><delay8 /><10_5 />fán<endTag a="10" b="5" /> de la
 diversión en todas sus formas.<pageBreak /><anim id="IdeaBulb" target="actor" targetSpec="" />¡Eh!<delay20 /> Escucha,<delay8 /> escucha:<delay8 /> cuando sea
 famosa y esté en plan de gira
-y eso, ¿vale?
+y eso, <tag a="110" b="6" /><tag a="110" b="0" />
 <anim id="BigSmile" target="actor" targetSpec="" />¡Aprovecharé para pasar por <tag a="110" b="9" /> y así nos vemos! <anim id="Love" target="actor" targetSpec="" />¡Aaay, qué chipichipi será!</message>
-	<message label="107" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />¿Ah, sí?<delay8 /> <anim id="Explain" target="actor" targetSpec="" />Pues me alegro,<delay8 /> porque
-la bonitez de una isla también
-es importante.
-<anim id="Hello" target="actor" targetSpec="" />Y además estás tú allí para darle
-tu toque divino a todo.<delay20 /> <anim id="Love" target="actor" targetSpec="" />Qué envidia me da <tag a="110" b="9" /><tag a="110" b="0" /></message>
+	<message label="207" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />¿Ah, sí?<delay8 /> <anim id="Explain" target="actor" targetSpec="" />Pues me alegro,<delay8 /> porque
+la tranquilidad en la vida a veces
+también es importante.
+<anim id="Hello" target="actor" targetSpec="" />Pero, oye, un poco de animación
+y emoción tampoco está mal de
+vez en cuando, ¿a que no?
+<anim id="Nodding" target="actor" targetSpec="" />Tú no te preocupes:<delay8 /> cuando salga
+de gira mundial, <delay8 /><anim id="EmotEnd" target="actor" targetSpec="" />hago parada en <tag a="110" b="9" /> fijo fijo, <delay8 />guapi.</message>
 </msbt>

@@ -1,5 +1,5 @@
 <msbt attribsize="8">
-	<message label="001" attrib="00 00 02 00 00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />Weißt du, was... Du brauchst einen
+	<message label="001" attrib="00 00 02 00 00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />Weißt du, was<tag a="110" b="0" /><delay8 /> Du brauchst einen
 Spitznamen. <delay20 />Was meinst du?<delay20 /> <anim id="SmugFace" target="actor" targetSpec="" />Ich
 hab ein Gespür für so was.</message>
 	<message label="001_a" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Was schlägst du vor?</message>
@@ -14,7 +14,7 @@ nennt dich in letzter Zeit
 <tag a="115" b="0" arg="0xcd00" />.
 <anim id="QuestionMark" target="actor" targetSpec="" />Hättest du was dagegen, wenn ich
 dich auch so nenne?</message>
-	<message label="003_a" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Nur zu!</message>
+	<message label="003_a" attrib="00 00 00 00 00 00 00 00">Nur zu!</message>
 	<message label="003_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Wehe!</message>
 	<message label="004" attrib="00 00 02 00 00 00 00 00"><anim id="IdeaBulb" target="actor" targetSpec="" />Ich hatte grad 'ne Glanzidee...
 <anim id="Smiling" target="actor" targetSpec="" />Ich ruf dich ab jetzt mit einem
@@ -27,13 +27,10 @@ Spitznamen für dich. <delay20 /><anim id="QuestionMark" target="actor" targetSp
 	<message label="005_a" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Lass hören.</message>
 	<message label="005_b" attrib="00 00 00 00 00 00 00 00">Danke, nein.</message>
 	<message label="006" attrib="00 00 02 00 00 00 00 00"><anim id="ShyBoy" target="actor" targetSpec="" />Also, ist nicht so, als wär ich
-neidisch auf die anderen, aber...<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Mir ist aufgefallen, dass dich in
-letzter Zeit viele <tag a="115" b="0" arg="0xcd00" />
-nennen.
-<anim id="QuestionMark" target="actor" targetSpec="" />Hättest du was dagegen, wenn ich
-auch unter die „<tag a="115" b="0" arg="0xcd00" />“-
-Sager gehe?</message>
-	<message label="006_a" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Nur zu!</message>
+neidisch auf die anderen, aber...<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Mir ist aufgefallen, <delay8 />dass dich in
+letzter Zeit viele <tag a="115" b="0" arg="0xcd00" /> nennen.<pageBreak /><anim id="QuestionMark" target="actor" targetSpec="" />Hättest du was dagegen, wenn ich
+auch unter die „<tag a="115" b="0" arg="0xcd00" />“-Sager gehe?</message>
+	<message label="006_a" attrib="00 00 00 00 00 00 00 00">Nur zu!</message>
 	<message label="006_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Sei nicht albern.</message>
 	<message label="100" attrib="00 00 02 00 00 00 00 00">Also...<delay20 /><anim id="SmugFace" target="actor" targetSpec="" /> Pass auf...
 „<tag a="110" b="3" />“!<delay20 />
@@ -57,7 +54,7 @@ Monate handeln.<delay20 /> <anim id="Laughing" target="actor" targetSpec="" />Bw
 <tag a="110" b="3" /> benutzen?</message>
 	<message label="105_a" attrib="00 00 00 00 00 00 00 00">Ja, bitte!</message>
 	<message label="105_b" attrib="00 00 00 00 00 00 00 00">Nee, warte mal...</message>
-	<message label="106" attrib="00 00 02 00 00 00 00 00"><anim id="Hello" target="actor" targetSpec="" /><tag a="110" b="3" /> soll ich dich also
+	<message label="106" attrib="00 00 02 00 00 00 00 00"><anim id="Hello" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="110" b="3" /> soll ich dich also
 nennen? <delay20 />Hast du dir das gut
 überlegt?</message>
 	<message label="106_a" attrib="00 00 00 00 00 00 00 00">Na klar!</message>

@@ -1,6 +1,6 @@
 <msbt attribsize="8">
-	<message label="001" attrib="00 00 01 00 00 00 00 00"><anim id="Silent" target="actor" targetSpec="" />如果用<tag a="110" b="9" />的材料<delay20 />
-製作<tag a="125" b="0" arg="0x0" />，<delay20 />
+	<message label="001" attrib="00 00 01 00 00 00 00 00"><anim id="Silent" target="actor" targetSpec="" />如果用<tag a="110" b="9" />的風格<delay20 />
+來製作<tag a="125" b="0" arg="0x0" />，<delay20 />
 <anim id="QuestionMark" target="actor" targetSpec="" />不知道會是什麼樣的感覺？<tag a="110" b="6" />。</message>
 	<message label="001_a" attrib="00 00 00 00 00 00 00 00">要我幫你製作嗎？</message>
 	<message label="001_b" attrib="00 00 00 00 00 00 00 00">不知道耶～</message>
@@ -19,9 +19,9 @@
 	<message label="005" attrib="00 00 00 00 00 00 00 00"><anim id="Restless" target="actor" targetSpec="" />雖然這樣有點得寸進尺，<delay20 />
 不過希望盡可能在今天內完成。<delay frames="40" />
 <anim id="Nodding" target="actor" targetSpec="" />因為我預計明天就要回家了，<tag a="110" b="6" />。</message>
-	<message label="006" attrib="00 00 00 00 00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />我覺得一定有種溫度，<delay8 />
-只有<tag a="110" b="9" />上材料製作的家具<delay20 />
-<anim id="Nodding" target="actor" targetSpec="" />才能傳達～</message>
+	<message label="006" attrib="00 00 00 00 00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />因為這東西
+是在<tag a="110" b="9" />上製作的<tag a="110" b="0" /><delay20 />
+<anim id="Nodding" target="actor" targetSpec="" />所以才會有這種溫暖感吧～</message>
 	<message label="007" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />等你很久了！<delay frames="40" />
 <anim id="Nodding" target="actor" targetSpec="" />那麼……這個就給你吧！<delay20 />
 <tag a="125" b="0" arg="0x0" />的方程式！</message>
@@ -68,9 +68,9 @@
 	<message label="205" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />原來如此！<delay frames="40" />
 這就是誕生於<tag a="110" b="9" />的<delay8 />
 <tag a="125" b="0" arg="0x0" />啊～</message>
-	<message label="206" attrib="00 00 00 00 00 00 00 00"><anim id="Hesitate" target="actor" targetSpec="" />讓你們為我製作了這麼多家具，<delay20 />
-我到底該怎麼道謝才好呢<tag a="110" b="0" /></message>
-	<message label="207" attrib="00 00 00 00 00 00 00 00"><anim id="ShyBoy" target="actor" targetSpec="" />居然做了這麼多家具給我，<delay20 />
+	<message label="206" attrib="00 00 00 00 00 00 00 00"><anim id="Hesitate" target="actor" targetSpec="" />竟然為我製作了這麼精美的東西，<delay20 />
+我真不知道該怎麼道謝才好呢<tag a="110" b="0" /></message>
+	<message label="207" attrib="00 00 00 00 00 00 00 00"><anim id="ShyBoy" target="actor" targetSpec="" />居然用心做了這麼多東西給我，<delay20 />
 我真是個Lucky boy～<delay frames="40" />
 <anim id="Nodding" target="actor" targetSpec="" />它們全都是我的寶物，<delay20 />毋庸置疑！</message>
 	<message label="208" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
@@ -81,7 +81,7 @@
 <anim id="Grin" target="actor" targetSpec="" />讓我們對彼此坦率一點吧<tag a="110" b="0" /><tag a="110" b="6" />。</message>
 	<message label="209" attrib="00 00 00 00 00 00 00 00"><anim id="AbsentMindedness" target="actor" targetSpec="" />如果我沒有來到這裡，<delay20 />就不會認識大家，<delay20 />
 也沒有機會<delay20 />
-請你幫我做家具了吧<tag a="110" b="0" /><pageBreak /><anim id="Blushing" target="actor" targetSpec="" />所以說，<delay20 />我真的很慶幸
+請你幫我做東西了吧<tag a="110" b="0" /><pageBreak /><anim id="Blushing" target="actor" targetSpec="" />所以說，<delay20 />我真的很慶幸
 自己有到<tag a="110" b="8" />來。<delay frames="40" />
 <anim id="Nodding" target="actor" targetSpec="" />如果你不介意，請再找我來吧，<tag a="110" b="6" />。</message>
 	<message label="209_02" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />很高興我又多了一個美好的回憶。<delay frames="40" />
@@ -89,7 +89,7 @@
 <anim id="Grin" target="actor" targetSpec="" />我的第二個故鄉了，<tag a="110" b="6" />。<pageBreak /><anim id="Hesitate" target="actor" targetSpec="" />如果下次有機會，<delay20 />　
 希望你能再找我來這座島喔～</message>
 	<message label="209_03" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />現在<tag a="110" b="8" />對我來說，<delay20 />
-已經是個很特別的地方了。<pageBreak /><anim id="AbsentMindedness" target="actor" targetSpec="" />只要輕撫著我所收到的家具，<delay20 />
+已經是個很特別的地方了。<pageBreak /><anim id="AbsentMindedness" target="actor" targetSpec="" />只要輕撫著我所收到的禮物，<delay20 />
 就能感受到這座島上的風土和居民的溫柔，<delay20 />
 我的心情也會因此愉悅起來呢，<tag a="110" b="6" />。</message>
 	<message label="301" attrib="00 00 00 00 00 00 00 00"><anim id="Blushing" target="actor" targetSpec="" />呵呵<tag a="110" b="0" />每次看到你為我製作的<delay20 />

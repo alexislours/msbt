@@ -17,9 +17,9 @@ kaart sturen. <delay20 /><anim id="FaintSmile" target="actor" targetSpec="" />In
 je allerlei soorten.</message>
 	<message label="001_03_01" attrib="00 00 00 00">Trouwens<tag a="110" b="0" /><delay40 /> jij bent toch <delay8 /><anim id="QuestionMark" target="actor" targetSpec="" /><tag a="110" b="1" />?<pageBreak /><anim id="BigSmile" target="actor" targetSpec="" />Dit is een klein eilandje. <delay frames="40" /><anim id="Laughing" target="actor" targetSpec="" />Je hoort
 weleens wat.</message>
-	<message label="001_03_02" attrib="00 00 00 00">Ik kreeg net een <colour id="1" />Nook-miles-bon <colour id="65535" />van <colour id="3" />Tom Nook<colour id="65535" /> waar "<tag a="110" b="1" />" op staat. Die moet van jou zijn.<pageBreak />Dus als je deze bon wilt gebruiken,
-hoef je alleen maar te zeggen: "<colour id="1" />Ik wil
-op reis.<colour id="65535" />" Duidelijk?</message>
+	<message label="001_03_02" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Ik kreeg net een <colour id="1" />Nook-miles-bon <colour id="65535" />van <colour id="3" />Tom Nook<colour id="65535" /> waar "<tag a="110" b="1" />" op staat. <delay20 /><anim id="FaintSmile" target="actor" targetSpec="" />Dus die moet van jou zijn.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Als je deze bon wilt gebruiken, hoef
+je alleen maar te zeggen: "<colour id="1" />Ik wil op
+reis.<colour id="65535" />" <delay20 /><anim id="FaintSmile" target="actor" targetSpec="" />Duidelijk?</message>
 	<message label="001_03_03" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />We bieden hier dus heel wat diensten
 aan, <delay20 /><anim id="OhGeez" target="actor" targetSpec="" />maar alleen aan bewoners.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Je moet hier op het eiland wonen,
 <delay20 />al is het maar in een tent. <delay frames="40" /><anim id="FaintSmile" target="actor" targetSpec="" />Kom maar
@@ -53,13 +53,13 @@ willen gebruiken.</message>
 	<message label="006_01" attrib="04 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Dus<tag a="110" b="0" /><delay20 /> even voor de goede orde: <anim id="QuestionMark" target="actor" targetSpec="" />waar
 wil je naartoe gaan?</message>
 	<message label="006_01_a" attrib="00 00 00 00">Ik wil iemand bezoeken.</message>
-	<message label="006_01_b" attrib="00 00 00 00">Ik heb een Nook-miles-bon.</message>
+	<message label="006_01_b" attrib="00 00 00 00">Ik heb een <colour id="1" />Nook-miles-bon<colour id="65535" />.</message>
 	<message label="006_01_c" attrib="00 00 00 00">Laat maar...</message>
 	<message label="006_02" attrib="06 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Ik heb hier trouwens een <colour id="1" />Nook-
 miles-bon<colour id="65535" /> met jouw naam erop,
 dus gebruik hem wanneer je wilt.</message>
 	<message label="006_02_a" attrib="00 00 00 00">Ik wil iemand bezoeken.</message>
-	<message label="006_02_b" attrib="00 00 00 00">Ik heb een Nook-miles-bon.</message>
+	<message label="006_02_b" attrib="00 00 00 00">Ik heb een <colour id="1" />Nook-miles-bon<colour id="65535" />.</message>
 	<message label="006_02_c" attrib="00 00 00 00">Ik wil naar Harvey-eiland.</message>
 	<message label="006_02_d" attrib="00 00 00 00">Laat maar...</message>
 	<message label="006_03" attrib="04 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Dus<tag a="110" b="0" /><delay20 /> even voor de goede orde: <anim id="QuestionMark" target="actor" targetSpec="" />waar
@@ -70,7 +70,7 @@ wil je naartoe gaan?</message>
 	<message label="006_04" attrib="06 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Dus<tag a="110" b="0" /><delay20 /> even voor de goede orde: <anim id="QuestionMark" target="actor" targetSpec="" />waar
 wil je naartoe gaan?</message>
 	<message label="006_04_a" attrib="00 00 00 00">Ik wil iemand bezoeken.</message>
-	<message label="006_04_b" attrib="00 00 00 00">Ik heb een Nook-miles-bon.</message>
+	<message label="006_04_b" attrib="00 00 00 00">Ik heb een <colour id="1" />Nook-miles-bon<colour id="65535" />.</message>
 	<message label="006_04_c" attrib="00 00 00 00">Ik wil naar Harvey-eiland.</message>
 	<message label="006_04_d" attrib="00 00 00 00">Laat maar...</message>
 	<message label="011" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Hé, hoi, ho! <delay20 /><anim id="Nodding" target="actor" targetSpec="" />Welkom bij de enige echte <delay20 /><anim id="EmotEnd" target="actor" targetSpec="" /><colour id="1" />luchthaven <colour id="65535" />van <tag a="110" b="9" />!<pageBreak /><anim id="QuestionMark" target="actor" targetSpec="" />O, jij bent het!<delay20 /><anim id="BigSmile" target="actor" targetSpec="" /> Wat een timing!</message>
@@ -90,33 +90,32 @@ verwachtingen zal overtreffen!<pageBreak /><anim id="AbsentMindedness" target="a
 het zo gek niet bedenken of onze
 piloot durft erop te landen!
 <anim id="Explain" target="actor" targetSpec="" />Deze reis is voor ECHTE fans van
-onverkend terrein, voor de reizigers<delay20 /><anim id="Serious" target="actor" targetSpec="" />
-die geen steen onomgekeerd laten.
+onverkend terrein<delay20 /><anim id="Serious" target="actor" targetSpec="" /> en voor wie geen
+eiland ongerept genoeg is.
 <anim id="Explain" target="actor" targetSpec="" />Je mag alles verzamelen, dus neem
 je gereedschap mee.<anim id="BigSmile" target="actor" targetSpec="" /><delay8 /> En wie weet
 ontmoet je wel een nieuwe buur!
 <anim id="Serious" target="actor" targetSpec="" /><size value="75" />Tickets zijn enkel verkrijgbaar bij je <colour id="1" />NookStation<colour id="65535" />.
-Onwettige aanbiedingen zijn ongeldig. Dodo
+Niet geldig waar wetgeving dit verbiedt. Dodo
 Airlines is nergens aansprakelijk voor.<size value="100" /></message>
 	<message label="032" attrib="02 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Ennnn daarmee heb ik zo'n beetje
 alles verteld over de <delay20 /><anim id="SmugFace" target="actor" targetSpec="" />verrassingsreis
-van Dodo Airlines.<pageBreak /><anim id="BigSmile" target="actor" targetSpec="" />Daarmee bedoel ik dat je meteen
-kunt vertrekken als je je gereedschap
-en zo paraat hebt. <delay40 /><anim id="QuestionMark" target="actor" targetSpec="" />Wat zeg je ervan?</message>
-	<message label="032_a" attrib="00 00 00 00">Daar gaan we!</message>
+van Dodo Airlines.<pageBreak /><anim id="BigSmile" target="actor" targetSpec="" />Je kunt dus meteen vertrekken als je
+je gereedschap en zo paraat hebt.<delay40 />
+<anim id="QuestionMark" target="actor" targetSpec="" />Wat zeg je ervan?</message>
+	<message label="032_a" attrib="00 00 00 00">Ik ben er klaar voor!</message>
 	<message label="032_b" attrib="00 00 00 00">Laat maar...</message>
-	<message label="035" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Dus je wilt je <colour id="1" /><tag a="50" b="0" arg="0x104 0xcd03" />Nook-miles-bon
-<colour id="65535" />gebruiken?<delay40 /> <snpcAnim id="DodRoger" target="actor" targetSpec="" />Luid en duidelijk!<anim id="EmotEnd" target="actor" targetSpec="" /></message>
+	<message label="035" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Dus je wilt je <colour id="1" />Nook-miles-bon
+<colour id="65535" />gebruiken?<delay40 /> <snpcAnim id="DodRoger" target="actor" targetSpec="" />Luid en duidelijk!<delay frames="50" /><anim id="EmotEnd" target="actor" targetSpec="" /></message>
 	<message label="035_01" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />In dat geval<delay20 /> pak ik even de bon die
 ik van <colour id="3" />Tom Nook <colour id="65535" />heb gekregen<tag a="110" b="0" /></message>
 	<message label="036" attrib="04 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />We zijn klaar voor vertrek, maar eerst
 een snelle controle<tag a="110" b="0" /> <delay20 /><anim id="QuestionMark" target="actor" targetSpec="" />Heb je alles
 ingepakt? <delay20 />Is je gereedschap gereed?</message>
-	<message label="036_a" attrib="00 00 00 00">Daar gaan we!</message>
+	<message label="036_a" attrib="00 00 00 00">Ik ben er klaar voor!</message>
 	<message label="036_b" attrib="00 00 00 00">Hoezo?</message>
 	<message label="036_c" attrib="00 00 00 00">Laat maar...</message>
-	<message label="037" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" /><10_5 />Prima!<endTag a="10" b="5" /><delay frames="40" /> <anim id="Smiling" target="actor" targetSpec="" />Dan kan je vlucht zo
-beginnen.<10_8 arg="60" /></message>
+	<message label="037" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" /><10_5 />Prima!<endTag a="10" b="5" /><delay frames="40" /> <anim id="Smiling" target="actor" targetSpec="" />Dan ben je klaar voor vertrek.<10_8 arg="60" /></message>
 	<message label="037_01" attrib="00 00 00 00"><tag a="10" b="12" /><snpcAnim id="DodWireless" target="actor" targetSpec="" /><delay frames="30" /><100_3 arg="PlaneAnnounceOn" /><size value="75" />Dodo Eén, dit is Dodo-toren.<delay8 /> <colour id="3" />Wilbur<colour id="65535" />, hoor je me?
 <delay20 />Heb hier een loper die vleugels nodig heeft, <delay frames="30" />over.<delay frames="90" />
 <colour id="5" />Begrepen!<delay20 /> Ik ben klaar voor vertrek!<colour id="65535" /><size value="100" /><delay20 /><100_3 arg="PlaneAnnounceOff" /><10_8 arg="40" /><pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" /><delay frames="50" /><anim id="FaintSmile" target="actor" targetSpec="" />Oké.<delay8 /> Fijne vlucht, <gender2 m="vriend" f="vriendin" />!<delay frames="40" /> En als je
@@ -142,6 +141,9 @@ eenmaal, <delay20 /><anim id="Serious" target="actor" targetSpec="" />dus lees a
 	<message label="091_02" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Bedankt voor je aandacht.<delay20 /><anim id="FaintSmile" target="actor" targetSpec="" /> Dan
 kunnen we nu verder<tag a="110" b="0" /></message>
 	<message label="091" attrib="00 00 00 00" />
+	<message label="092" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Luid en duidelijk!<pageBreak /><anim id="Blushing" target="actor" targetSpec="" />Sorry als je dit al hebt gezien,<delay20 /> maar
+van onze juristen van De Gier moeten
+we dit doen als iemand online gaat.</message>
 	<message label="101" attrib="04 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Wil je naar een eiland in de buurt via
 <colour id="1" />lokaal spelen<colour id="65535" /> of naar een ver eiland
 via <colour id="1" />online spelen<colour id="65535" />?</message>
@@ -159,28 +161,26 @@ bezoeken?</message>
 	<message label="104_a" attrib="00 00 00 00">Vliegen maar!</message>
 	<message label="104_b" attrib="00 00 00 00">Ik wil nog eens zoeken.</message>
 	<message label="104_c" attrib="00 00 00 00">Laat maar...</message>
-	<message label="105" attrib="02 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Ik heb de bestemming gevonden<tag a="110" b="0" /><delay frames="30" />
-maar <anim id="Worried" target="actor" targetSpec="" /><tag a="115" b="2" arg="0xcd00" /> is vol en
-ontvangt nu geen nieuwe gasten.</message>
+	<message label="105" attrib="02 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Ik heb een eiland gevonden genaamd <tag a="115" b="2" arg="0xcd00" /><tag a="110" b="0" /><delay frames="30" /><anim id="Oops" target="actor" targetSpec="" /> Het is alleen vol en ontvangt nu geen gasten.</message>
 	<message label="105_a" attrib="00 00 00 00">Probeer het nog eens!</message>
 	<message label="105_b" attrib="00 00 00 00">Laat maar...</message>
 	<message label="106" attrib="00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Wacht even!<delay20 /><anim id="Thinking" target="actor" targetSpec="" /> Je hebt een
-<colour id="1" />Dodo-code™ <colour id="65535" />nodig om dit eiland te
+<colour id="1" />Dodo-code <colour id="65535" />nodig om dit eiland te
 bezoeken.<10_4 /> <anim id="EmotEnd" target="actor" targetSpec="" />Voer de vier cijfers in.</message>
 	<message label="107" attrib="02 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Oei, dat is de verkeerde
-Dodo-code™.<delay frames="40" /> <anim id="QuestionMark" target="actor" targetSpec="" />Wil je het nog
+Dodo-code.<delay frames="40" /> <anim id="QuestionMark" target="actor" targetSpec="" />Wil je het nog
 een keer proberen?</message>
 	<message label="107_a" attrib="00 00 00 00">Ja, graag.</message>
 	<message label="107_b" attrib="00 00 00 00">Laat maar...</message>
-	<message label="108" attrib="04 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Oei!<anim id="Thinking" target="actor" targetSpec="" /> Een radiostoring<tag a="110" b="0" /> Momentje<tag a="110" b="0" />
-<delay frames="40" /><anim id="Angry" target="actor" targetSpec="" /><size value="75" />Heeft iemand vergeten zijn NookPhone in
-de vliegtuigstand te zetten?<size value="100" /></message>
+	<message label="108" attrib="04 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Oei!<anim id="Thinking" target="actor" targetSpec="" /> Een radiostoring<tag a="110" b="0" /> Momentje<tag a="110" b="0" /><delay20 />
+<anim id="OhGeez" target="actor" targetSpec="" /><size value="75" />Er is blijkbaar nog iemand in gesprek of met
+werkzaamheden bezig.<size value="100" /></message>
 	<message label="108_a" attrib="00 00 00 00">Probeer het nog eens!</message>
 	<message label="108_b" attrib="00 00 00 00">Wat bedoel je?</message>
 	<message label="108_c" attrib="00 00 00 00">Laat maar...</message>
-	<message label="108_01" attrib="04 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Oei!<anim id="Thinking" target="actor" targetSpec="" /> Een radiostoring<tag a="110" b="0" /> Momentje<tag a="110" b="0" />
-<delay frames="40" /><anim id="Angry" target="actor" targetSpec="" /><size value="75" />Heeft iemand vergeten zijn NookPhone in
-de vliegtuigstand te zetten?<size value="100" /></message>
+	<message label="108_01" attrib="04 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Oei!<anim id="Thinking" target="actor" targetSpec="" /> Er gaat iets mis<tag a="110" b="0" /> Momentje<tag a="110" b="0" /><delay20 />
+<anim id="OhGeez" target="actor" targetSpec="" /><size value="75" />Er is blijkbaar nog iemand in gesprek of met
+werkzaamheden bezig.<size value="100" /></message>
 	<message label="108_01_a" attrib="00 00 00 00">Probeer het nog eens!</message>
 	<message label="108_01_b" attrib="00 00 00 00">Wat bedoel je?</message>
 	<message label="108_01_c" attrib="00 00 00 00">Een andere keer misschien.</message>
@@ -204,7 +204,7 @@ spelen voorbereiden.</message>
 	<message label="112_b" attrib="00 00 00 00">Laat maar...</message>
 	<message label="113" attrib="04 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Wil je dat ik de gate opengooi zodat
 iedereen die lokaal spelen gebruikt,
-naar het eiland kan komen?<pageBreak /><anim id="Silent" target="actor" targetSpec="" />Of wil je dat ik een <colour id="1" />Dodo-code™
+naar het eiland kan komen?<pageBreak /><anim id="Silent" target="actor" targetSpec="" />Of wil je dat ik een <colour id="1" />Dodo-code
 <colour id="65535" />instel <anim id="QuestionMark" target="actor" targetSpec="" />om het plebs buiten te
 houden?</message>
 	<message label="113_a" attrib="00 00 00 00">Gooi maar open!</message>
@@ -227,9 +227,9 @@ later opnieuw proberen.
 <anim id="IdeaBulb" target="actor" targetSpec="" />O,<delay20 /> maar als je de andere speler ook
 op een andere manier kunt bereiken,<delay20 />
 dan kun je dat proberen!
-<anim id="Thinking" target="actor" targetSpec="" />Zoals met een bericht als: "<colour id="1" />Ik wil op
-bezoek komen,<delay20 /> maar dat kan pas als
-je je NookPhone niet gebruikt<colour id="65535" />."
+<anim id="Thinking" target="actor" targetSpec="" />Zoals met een bericht als: "<colour id="1" />Ik kan je
+niet bezoeken als je met iemand
+praat of je NookPhone gebruikt.<colour id="65535" />"
 <anim id="FaintSmile" target="actor" targetSpec="" />Maar wees niet onaardig. <delay frames="40" /><anim id="Laughing" target="actor" targetSpec="" />Iedereen
 verliest weleens de tijd uit het oog
 bij het gebruik van de NookPhone.</message>
@@ -237,18 +237,18 @@ bij het gebruik van de NookPhone.</message>
 probeer?</message>
 	<message label="117_02_a" attrib="00 00 00 00">Probeer het nog eens!</message>
 	<message label="117_02_b" attrib="00 00 00 00">Een andere keer misschien.</message>
-	<message label="118_01" attrib="00 00 00 00"><anim id="ShyBoy" target="actor" targetSpec="" />Nou, <delay20 />we kunnen niet naar een eiland
-reizen als daar iemand in gesprek is
-of ergens aan werkt.
+	<message label="118_01" attrib="00 00 00 00"><anim id="ShyBoy" target="actor" targetSpec="" />Nou, <delay20 />we kunnen niet van een eiland
+vertrekken als hier iemand in gesprek
+is of ergens aan werkt.
 <anim id="Nodding" target="actor" targetSpec="" />Als het na een paar pogingen niet is
 gelukt,<delay20 /> kun je het misschien beter
 later opnieuw proberen.
 <anim id="IdeaBulb" target="actor" targetSpec="" />O,<delay20 /> maar als je de andere speler ook
 op een andere manier kunt bereiken,<delay20 />
 dan kun je dat proberen!
-<anim id="Thinking" target="actor" targetSpec="" />Zoals met een bericht als: "<colour id="1" />Ik wil
-naar huis gaan,<delay20 /> maar dat kan pas als
-je je NookPhone niet gebruikt<colour id="65535" />."
+<anim id="Thinking" target="actor" targetSpec="" />Zoals met een bericht als: "<colour id="1" />Ik kan
+niet naar huis gaan als je met iemand
+praat of je NookPhone gebruikt.<colour id="65535" />"
 <anim id="FaintSmile" target="actor" targetSpec="" />Maar wees niet onaardig. <delay frames="40" /><anim id="Laughing" target="actor" targetSpec="" />Iedereen
 verliest weleens de tijd uit het oog
 bij het gebruik van de NookPhone.</message>
@@ -256,9 +256,10 @@ bij het gebruik van de NookPhone.</message>
 probeer?</message>
 	<message label="118_02_a" attrib="00 00 00 00">Probeer het nog eens!</message>
 	<message label="118_02_b" attrib="00 00 00 00">Een andere keer misschien.</message>
-	<message label="120" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Begrepen!<delay frames="40" /> <anim id="Hello" target="actor" targetSpec="" />Dan open ik nu de gate.</message>
+	<message label="120" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Goed, daar gaan we!<delay frames="40" /> <anim id="Hello" target="actor" targetSpec="" />Dan open ik nu
+de gate.</message>
 	<message label="120_01" attrib="00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Zo te zien ben je nog met de
-<colour id="1" />Eilandontwerper <colour id="65535" />bezig.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Je kunt die app niet gebruiken
+<colour id="1" />Eilandontwerper<colour id="65535" />-app bezig.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Je kunt die app niet gebruiken
 tijdens een vlucht en tijdens het
 <colour id="1" />lokaal spelen<colour id="65535" /> of <colour id="1" />online spelen<colour id="65535" />.
 <anim id="ShyBoy" target="actor" targetSpec="" />Dus ik zal de app uitschakelen.<delay20 />
@@ -267,8 +268,8 @@ Bedankt voor je medewerking.</message>
 andere luchthavens plagen ons als
 het hier een rotzooi is.<anim id="EmotEnd" target="actor" targetSpec="" /></message>
 	<message label="121_01" attrib="00 00 00 00"><anim id="Confused" target="actor" targetSpec="" />O, verhip!<delay frames="40" /> <anim id="ShyBoy" target="actor" targetSpec="" />Ik ben vergeten om te
-controleren of je de <colour id="1" />Eilandontwerper-
-<colour id="65535" />app aan het gebruiken bent.
+controleren of je de <colour id="1" />Eilandontwerper<colour id="65535" />-
+app aan het gebruiken bent.
 <anim id="Worried" target="actor" targetSpec="" />Je kunt deze app niet gebruiken
 tijdens een vlucht en tijdens het
 <colour id="1" />lokaal spelen<colour id="65535" /> of <colour id="1" />online spelen<colour id="65535" />.<pageBreak />Daarom<delay20 /> zal ik de app voor je
@@ -282,7 +283,7 @@ het gepeupel buiten wilt houden,
 <delay20 /><anim id="Scheming" target="actor" targetSpec="" />kan ik de gate voor je sluiten.
 <anim id="Laughing" target="actor" targetSpec="" />Goed, ik zal nu mijn snavel houden.<delay20 />
 Ga jij maar lol trappen!</message>
-	<message label="126" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Geef gewoon je Dodo-code™, <colour id="1" /><tag a="110" b="26" /><colour id="65535" />,
+	<message label="126" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Geef gewoon je Dodo-code, <colour id="1" /><tag a="110" b="26" /><colour id="65535" />,
 aan iedereen die je wilt uitnodigen.<delay20 /><anim id="EmotEnd" target="actor" targetSpec="" />
 Zo makkelijk is het!</message>
 	<message label="130" attrib="02 00 00 00">Begrepen. <delay20 />Dan verbind ik je nu met
@@ -290,6 +291,13 @@ het internet zodat je online kunt
 spelen<tag a="110" b="0" /></message>
 	<message label="130_a" attrib="00 00 00 00">Luid en duidelijk!</message>
 	<message label="130_b" attrib="00 00 00 00">Laat maar...</message>
+	<message label="140" attrib="00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Verhip! <delay20 />Iemand heeft <anim id="Oops" target="actor" targetSpec="" />de gate
+op dat eiland gesloten.</message>
+	<message label="150" attrib="02 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Wil je misschien een ander eiland
+bezoeken?<delay20 /><anim id="EmotEnd" target="actor" targetSpec="" /> Dan ga ik opnieuw op
+zoek.</message>
+	<message label="150_a" attrib="00 00 00 00">Ja, graag.</message>
+	<message label="150_b" attrib="00 00 00 00">Een andere keer misschien.</message>
 	<message label="200" attrib="06 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Hé, hoi, ho! Daar ben je weer.<delay frames="40" /> <anim id="QuestionMark" target="actor" targetSpec="" />
 Wat kan ik voor je betekenen?</message>
 	<message label="200_a" attrib="00 00 00 00">Mag de gate open?</message>
@@ -303,6 +311,13 @@ Wat kan ik voor je betekenen?</message>
 	<message label="201_c" attrib="00 00 00 00">Wat is mijn Dodo-code?</message>
 	<message label="201_d" attrib="00 00 00 00">Ik wil op reis gaan!</message>
 	<message label="201_e" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Niks op het moment...</message>
+	<message label="202" attrib="08 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Hé, hoi, ho! Daar ben je weer.<delay frames="40" /> <anim id="QuestionMark" target="actor" targetSpec="" />
+Wat kan ik voor je betekenen?</message>
+	<message label="202_a" attrib="00 00 00 00">Mag de gate open?</message>
+	<message label="202_b" attrib="00 00 00 00">Verbreek de verbinding.</message>
+	<message label="202_c" attrib="00 00 00 00">Wat is de Dodo-code?</message>
+	<message label="202_d" attrib="00 00 00 00">Ik wil op reis gaan!</message>
+	<message label="202_e" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Niks op het moment...</message>
 	<message label="210" attrib="04 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Hé, hoi, ho! Daar ben je weer.<delay frames="40" /> <anim id="QuestionMark" target="actor" targetSpec="" />
 Wat kan ik voor je betekenen?</message>
 	<message label="210_a" attrib="00 00 00 00">De gate kan dicht!</message>
@@ -314,6 +329,12 @@ Wat kan ik voor je betekenen?</message>
 	<message label="211_b" attrib="00 00 00 00">Wat is mijn Dodo-code?</message>
 	<message label="211_c" attrib="00 00 00 00">Ik wil op reis gaan!</message>
 	<message label="211_d" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Niks op het moment...</message>
+	<message label="212" attrib="06 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Hé, hoi, ho! Daar ben je weer.<delay frames="40" /> <anim id="QuestionMark" target="actor" targetSpec="" />
+Wat kan ik voor je betekenen?</message>
+	<message label="212_a" attrib="00 00 00 00">De gate kan dicht!</message>
+	<message label="212_b" attrib="00 00 00 00">Wat is de Dodo-code?</message>
+	<message label="212_c" attrib="00 00 00 00">Ik wil op reis gaan!</message>
+	<message label="212_d" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Niks op het moment...</message>
 	<message label="220" attrib="02 00 00 00"><anim id="Eh" target="actor" targetSpec="" />O, dus in plaats van bezoek te
 ontvangen, <delay20 /><anim id="QuestionMark" target="actor" targetSpec="" />ga je liever zelf op reis?</message>
 	<message label="220_a" attrib="00 00 00 00">Inderdaad.</message>
@@ -325,7 +346,12 @@ ontvangen, <delay20 /><anim id="QuestionMark" target="actor" targetSpec="" />ga 
 bezoek, dus dat is geen probleem!</message>
 	<message label="223" attrib="00 00 00 00"><snpcAnim id="DodRoger" target="actor" targetSpec="" />Luid en duidelijk!<delay20 /> De code is nu
 <delay20 /><anim id="FaintSmile" target="actor" targetSpec="" />"<colour id="1" /><tag a="110" b="26" /><colour id="65535" />"!</message>
-	<message label="251" attrib="00 00 00 00" />
+	<message label="224" attrib="00 00 00 00"><snpcAnim id="DodRoger" target="actor" targetSpec="" />Luid en duidelijk! De code is nu
+<delay20 /><anim id="FaintSmile" target="actor" targetSpec="" />"<colour id="1" /><tag a="110" b="25" /><colour id="65535" />"!</message>
+	<message label="251_01" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Begrepen.<delay frames="40" /> <anim id="EmotEnd" target="actor" targetSpec="" />Tijd voor wat radiostilte.<delay20 />
+Ik zal de communicatie nu verbreken!</message>
+	<message label="251_02" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Hopelijk maak je snel nog eens van
+onze dienst gebruik!</message>
 	<message label="252" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Begrepen.<delay20 /> Laat het me maar weten
 als je bezoek wilt ontvangen,<delay frames="30" /><anim id="EmotEnd" target="actor" targetSpec="" /> <anim id="Hello" target="actor" targetSpec="" />dan
 open ik de gate.</message>
@@ -334,21 +360,31 @@ open ik de gate.</message>
 wilt sluiten.</message>
 	<message label="300" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Hé, hoi, ho!<delay frames="60" /> <anim id="Nodding" target="actor" targetSpec="" />Hopelijk ben je klaar
 voor bezoek<anim id="FaintSmile" target="actor" targetSpec="" /> van een ander eiland.</message>
-	<message label="301" attrib="04 00 00 00">Trouwens<delay20 /><anim id="QuestionMark" target="actor" targetSpec="" /> kan ik je ergens mee
+	<message label="301" attrib="04 00 00 00">Trouwens,<delay20 /><anim id="QuestionMark" target="actor" targetSpec="" /> kan ik je ergens mee
 helpen?</message>
 	<message label="301_a" attrib="00 00 00 00">Mag de gate open?</message>
 	<message label="301_b" attrib="00 00 00 00">Wat is mijn Dodo-code?</message>
 	<message label="301_c" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Niks op het moment...</message>
-	<message label="302" attrib="04 00 00 00">Trouwens<delay20 /><anim id="QuestionMark" target="actor" targetSpec="" /> kan ik je ergens mee
+	<message label="302" attrib="04 00 00 00">Trouwens,<delay20 /><anim id="QuestionMark" target="actor" targetSpec="" /> kan ik je ergens mee
 helpen?</message>
 	<message label="302_a" attrib="00 00 00 00">De gate kan dicht!</message>
 	<message label="302_b" attrib="00 00 00 00">Wat is mijn Dodo-code?</message>
 	<message label="302_c" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Niks op het moment...</message>
-	<message label="305" attrib="02 00 00 00">Trouwens<delay20 /><anim id="QuestionMark" target="actor" targetSpec="" /> kan ik je ergens mee
+	<message label="303" attrib="04 00 00 00">Trouwens,<delay20 /><anim id="QuestionMark" target="actor" targetSpec="" /> kan ik je ergens mee
+helpen?</message>
+	<message label="303_a" attrib="00 00 00 00">Mag de gate open?</message>
+	<message label="303_b" attrib="00 00 00 00">Wat is de Dodo-code?</message>
+	<message label="303_c" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Niks op het moment...</message>
+	<message label="304" attrib="04 00 00 00">Trouwens,<delay20 /><anim id="QuestionMark" target="actor" targetSpec="" /> kan ik je ergens mee
+helpen?</message>
+	<message label="304_a" attrib="00 00 00 00">De gate kan dicht!</message>
+	<message label="304_b" attrib="00 00 00 00">Wat is de Dodo-code?</message>
+	<message label="304_c" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Niks op het moment...</message>
+	<message label="305" attrib="02 00 00 00">Trouwens,<delay20 /><anim id="QuestionMark" target="actor" targetSpec="" /> kan ik je ergens mee
 helpen?</message>
 	<message label="305_a" attrib="00 00 00 00">Mag de gate open?</message>
 	<message label="305_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Nee, hoor.</message>
-	<message label="306" attrib="02 00 00 00">Trouwens<delay20 /><anim id="QuestionMark" target="actor" targetSpec="" /> kan ik je ergens mee
+	<message label="306" attrib="02 00 00 00">Trouwens,<delay20 /><anim id="QuestionMark" target="actor" targetSpec="" /> kan ik je ergens mee
 helpen?</message>
 	<message label="306_a" attrib="00 00 00 00">De gate kan dicht!</message>
 	<message label="306_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Nee, hoor.</message>
@@ -385,7 +421,7 @@ maatje!<delay frames="50" /><anim id="EmotEnd" target="actor" targetSpec="" /></
 	<message label="901" attrib="02 00 00 00">Ik kan dat meteen voor je regelen,
 maar ben jij er klaar voor?<delay20 /><anim id="QuestionMark" target="actor" targetSpec="" /> Is alles
 ingepakt en zo?</message>
-	<message label="901_a" attrib="00 00 00 00">Daar gaan we!</message>
+	<message label="901_a" attrib="00 00 00 00">Ik ben er klaar voor!</message>
 	<message label="901_b" attrib="00 00 00 00">Laat maar...</message>
 	<message label="903" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Oké. <delay20 /><anim id="FaintSmile" target="actor" targetSpec="" />Nou, hopelijk kunnen we je
 binnenkort weer van dienst zijn.

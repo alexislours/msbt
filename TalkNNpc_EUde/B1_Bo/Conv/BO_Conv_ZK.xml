@@ -1,8 +1,6 @@
 <msbt attribsize="8">
 	<message label="001" attrib="00 00 00 00 00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />Hallihallo, <delay8 /><tag a="110" b="3" />!<delay20 />
-<anim id="Smiling" target="actor" targetSpec="" /><anim id="FaintSmile" target="subNpc" targetSpec="" />Wir reden gerade über Essen!<pageBreak /><tag a="110" b="31" arg="0xcd01" /> weiß alles über
-<anim id="EmotEnd" target="subNpc" targetSpec="" />Gerichte, von denen ich noch
-nicht mal gehört habe!</message>
+<anim id="Smiling" target="actor" targetSpec="" /><anim id="FaintSmile" target="subNpc" targetSpec="" />Wir reden gerade über Essen!<pageBreak /><tag a="110" b="31" arg="0xcd01" /> weiß alles über <anim id="EmotEnd" target="subNpc" targetSpec="" />Gerichte, von denen ich noch nicht mal gehört habe!</message>
 	<message label="002" attrib="00 00 00 00 00 00 00 00">Nun ja, <delay8 />ich bin in der Hinsicht in
 der Tat nicht ganz unbeleckt.<delay frames="80" />
 <20_3 arg="7" /><20_3 arg="5" /><anim id="EmotEnd" target="actor" targetSpec="" />Gestern zum Beispiel<tag a="110" b="0" /><anim id="EmotEnd" target="subNpc" targetSpec="" /></message>
@@ -74,23 +72,17 @@ geschrieben!<anim id="TakenAback" target="mainNpc" targetSpec="" /><anim id="Emo
 auf meinem Gesicht?!<pageBreak />Dabei hab ich mich doch letztens
 erst gewaschen, <delay8 />richtig mit Wasser
 und so!</message>
-	<message label="201" attrib="00 00 00 00 00 00 00 00"><anim id="Hesitate" target="actor" targetSpec="" />Boah, <delay8 />du bist so was von cool,<delay8 />
-<tag a="110" b="31" arg="0xcd01" />! <delay20 /><anim id="Greeting" target="actor" targetSpec="" />Was ist dein
-Geheimnis, <delay8 /><tag a="110" b="5" />?</message>
-	<message label="202" attrib="00 00 00 00 00 00 00 00">Ich habe keine Geheimnisse,<delay8 />
-<anim id="OhGeez" target="actor" targetSpec="" /><tag a="110" b="31" arg="0xcd00" />!
+	<message label="201" attrib="00 00 00 00 00 00 00 00"><anim id="Hesitate" target="actor" targetSpec="" />Boah, <delay8 />du bist so was von cool,<delay8 /> <tag a="110" b="31" arg="0xcd01" />! <delay20 /><anim id="Greeting" target="actor" targetSpec="" />Was ist dein Geheimnis, <delay8 /><tag a="110" b="5" />?</message>
+	<message label="202" attrib="00 00 00 00 00 00 00 00">Ich habe keine Geheimnisse,<delay8 /> <anim id="OhGeez" target="actor" targetSpec="" /><tag a="110" b="31" arg="0xcd00" />!
 <delay20 />Absolut nicht!<pageBreak /><anim id="Pardon" target="actor" targetSpec="" />Was DU da aber eben gesagt hast...
 <delay20 />„<tag a="50" b="3" /><tag a="110" b="5" />“ <delay8 />war es, <delay8 />oder?<delay20 />
 <anim id="Nodding" target="actor" targetSpec="" />Das klingt wie ein Codewort.
 Bist du nicht derjenige, der ein
-Geheimnis hat, <delay8 />mein junger
-<tag a="110" b="31" arg="0xcd00" />?</message>
-	<message label="203" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="subNpc" targetSpec="" />Ach was! <delay20 />„<tag a="50" b="3" /><tag a="110" b="5" />“ ist doch
-nur mein Spruch!<delay20 /><anim id="QuestionMark" target="actor" targetSpec="" /><delay frames="40" /> <anim id="Smiling" target="actor" targetSpec="" />Du solltest ihn
-auch mal sagen!<anim id="Shocked" target="subNpc" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" /><anim id="EmotEnd" target="actor" targetSpec="" /></message>
+Geheimnis hat, <delay8 />mein junger <tag a="110" b="31" arg="0xcd00" />?</message>
+	<message label="203" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="subNpc" targetSpec="" />Ach was! <delay20 />„<tag a="50" b="3" /><tag a="110" b="5" />“ ist doch nur mein Spruch!<delay20 /><anim id="QuestionMark" target="actor" targetSpec="" /><delay frames="40" /> <anim id="Smiling" target="actor" targetSpec="" />Du solltest ihn auch mal sagen!<anim id="Shocked" target="subNpc" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" /><anim id="EmotEnd" target="actor" targetSpec="" /></message>
 	<message label="204" attrib="00 00 00 00 00 00 00 00"><anim id="ShyBoy" target="actor" targetSpec="" />Nun ja, <delay8 />es ist nicht meine Art,
 anderer Leute Sprüche zu stehlen.
-<delay20 />Aber wenn du darauf bestehst<tag a="110" b="0" /><pageBreak /><anim id="FaintSmile" target="mainNpc" targetSpec="" /><anim id="Dance" target="actor" targetSpec="" /><delay frames="40" />Äh, he he he<tag a="110" b="0" /><delay8 /> Mein Name ist <tag a="110" b="10" />, <delay8 />und ich bin ein Geheimagent, <delay8 /><tag a="110" b="5" />!<anim id="Aha" target="mainNpc" targetSpec="" /><pageBreak /><anim id="Blushing" target="actor" targetSpec="" />Nun, <delay8 />wie war ich?<anim id="EmotEnd" target="actor" targetSpec="" /><anim id="EmotEnd" target="mainNpc" targetSpec="" /></message>
+<delay20 />Aber wenn du darauf bestehst<tag a="110" b="0" /><pageBreak /><anim id="FaintSmile" target="mainNpc" targetSpec="" /><anim id="Dance" target="actor" targetSpec="" /><delay frames="40" />Äh, he he he<tag a="110" b="0" /><delay8 /> Mein Name ist <tag a="110" b="31" arg="0xcd01" />, <delay8 />und ich bin ein Geheimagent, <delay8 /><tag a="110" b="5" />!<anim id="Aha" target="mainNpc" targetSpec="" /><pageBreak /><anim id="Blushing" target="actor" targetSpec="" />Nun, <delay8 />wie war ich?<anim id="EmotEnd" target="actor" targetSpec="" /><anim id="EmotEnd" target="mainNpc" targetSpec="" /></message>
 	<message label="205" attrib="00 00 00 00 00 00 00 00"><anim id="Clapping" target="actor" targetSpec="" />Oooh, wooow, <delay8 /><tag a="110" b="31" arg="0xcd01" />!<pageBreak /><anim id="HappyDance" target="actor" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" />Meinen Spruch aus dem Mund von
 jemandem zu hören, der so cool ist
 wie du, <delay8 />ist echt was Besonderes!</message>

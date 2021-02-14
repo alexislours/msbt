@@ -1,17 +1,17 @@
 <msbt attribsize="8">
 	<message label="001" attrib="00 00 00 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Enfin !<delay20 /> Ça fait une éternité que
-j'attends mon adorable petit<tag a="50" b="17" arg="0x13 0xcd00 0x0 0x2 0x65 0x0" />
+j'attends mon adorable petit<tag a="50" b="17" arg="0x14 0xcd00 0x0 0x2 0x65 0x0" />
 <tag a="125" b="2" arg="0xcd00" /> !</message>
 	<message label="002" attrib="00 00 00 00 00 00 00 00"><anim id="Dance" target="actor" targetSpec="" />Bienvenue dans l'univers étonnant
-de l'ébouriffant <tag a="110" b="10" />, joli<tag a="50" b="17" arg="0x13 0xcd00 0x0 0x2 0x65 0x0" /> <tag a="125" b="2" arg="0xcd00" /> !</message>
+de l'ébouriffant <tag a="110" b="10" />, joli<tag a="50" b="17" arg="0x14 0xcd00 0x0 0x2 0x65 0x0" /> <tag a="125" b="2" arg="0xcd00" /> !</message>
 	<message label="003" attrib="00 00 00 00 00 00 00 00"><anim id="Grin" target="actor" targetSpec="" />Nous voilà enfin réunis,
-mon adorable et magnifique <tag a="50" b="17" arg="0x11 0xcd00 0xa 0x70 0x65 0x74 0x69 0x74 0xc 0x70 0x65 0x74 0x69 0x74 0x65 0x0" />
+mon adorable et magnifique <tag a="50" b="17" arg="0x12 0xcd00 0xa 0x70 0x65 0x74 0x69 0x74 0xc 0x70 0x65 0x74 0x69 0x74 0x65 0x0" />
 <tag a="125" b="0" arg="0x0" /> !</message>
 	<message label="004" attrib="00 00 02 00 00 00 00 00"><anim id="Surprised" target="actor" targetSpec="" />Attends, t'es <gender2 m="sûr" f="sûre" /> de ton coup, là ?<delay20 />
 Tu veux vraiment me donner
 <tag a="50" b="2" /><tag a="125" b="0" arg="0x0" /> ?</message>
 	<message label="004_a" attrib="00 00 00 00 00 00 00 00">Bah oui, pourquoi ?</message>
-	<message label="004_b" attrib="00 00 00 00 00 00 00 00">Hmm, en fait...</message>
+	<message label="004_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Hmm, en fait...</message>
 	<message label="005" attrib="00 00 00 00 00 00 00 00">Oh purée !</message>
 	<message label="006" attrib="00 00 00 00 00 00 00 00"><anim id="Sighing" target="actor" targetSpec="" />Ouf ! <delay20 />Parce que bon, recevoir
 un cadeau comme ça, c'est quand
@@ -52,7 +52,7 @@ souches d'arbre, tu me le donnes ?</message>
 tremblantes d'émotion sur
 <tag a="50" b="2" /><tag a="125" b="3" arg="0xcd00" /> !</message>
 	<message label="022" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Tu as trouvé un nouveau papa,
-petit<tag a="50" b="17" arg="0x14 0xcd00 0x0 0x2 0x65 0x0" /> <tag a="125" b="3" arg="0xcd00" />.</message>
+petit<tag a="50" b="17" arg="0x15 0xcd00 0x0 0x2 0x65 0x0" /> <tag a="125" b="3" arg="0xcd00" />.</message>
 	<message label="023" attrib="00 00 00 00 00 00 00 00"><anim id="Grin" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="110" b="5" />, c'est génial !<delay20 />
 Je vais enfin devenir propriétaire
 d'<tag a="50" b="2" /><tag a="125" b="0" arg="0x0" /> !</message>
@@ -73,9 +73,7 @@ un cadeau comme ça, c'est quand
 même une pression de fou !
 <anim id="Nodding" target="actor" targetSpec="" />Mais ce bon vieux poisson d'eau
 de mer, tu me le donnes ?</message>
-	<message label="031" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="110" b="3" />, j'ai envie de
-te remercier.<delay20 /> <anim id="SmugFace" target="actor" targetSpec="" />Je vais te faire un
-autographe, dis-moi où signer.</message>
+	<message label="031" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="110" b="3" />, j'ai envie de te remercier.<delay20 /> <anim id="SmugFace" target="actor" targetSpec="" />Je vais te faire un autographe, dis-moi où signer.</message>
 	<message label="032" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />T'es au top, <tag a="110" b="3" /> !
 Merci beaucoup !</message>
 	<message label="033" attrib="00 00 00 00 00 00 00 00"><anim id="OhGeez" target="actor" targetSpec="" />Je vais pas te laisser partir les pattes
@@ -153,15 +151,15 @@ tu devrais en trouver.</message>
 	<message label="207" attrib="00 00 00 00 00 00 00 00"><anim id="Frantic" target="actor" targetSpec="" />Eh, j'te rappelle qu'il me faut
 <tag a="50" b="2" /><tag a="125" b="2" arg="0xcd00" /> !<pageBreak /><anim id="Hello" target="actor" targetSpec="" />Va à la plage, tu devrais en trouver !</message>
 	<message label="211" attrib="00 00 00 00 00 00 00 00"><anim id="Frantic" target="actor" targetSpec="" />Il me faut absolument
-<tag a="50" b="2" /><tag a="125" b="3" arg="0xcd00" />.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" /><tag a="50" b="17" arg="0x14 0xcd00 0x6 0x49 0x6c 0x73 0xa 0x45 0x6c 0x6c 0x65 0x73 0x0" /> barbotent dans les coins d'eau
+<tag a="50" b="2" /><tag a="125" b="3" arg="0xcd00" />.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" /><tag a="50" b="17" arg="0x15 0xcd00 0x6 0x49 0x6c 0x73 0xa 0x45 0x6c 0x6c 0x65 0x73 0x0" /> barbotent dans les coins d'eau
 douce, ou les rivières,<delay8 /> pour être plus
 précis.</message>
 	<message label="212" attrib="00 00 00 00 00 00 00 00"><anim id="Frantic" target="actor" targetSpec="" />Il me faut absolument
-<tag a="50" b="2" /><tag a="125" b="3" arg="0xcd00" />.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" /><tag a="50" b="17" arg="0x14 0xcd00 0x6 0x49 0x6c 0x73 0xa 0x45 0x6c 0x6c 0x65 0x73 0x0" /> barbotent dans les coins d'eau
+<tag a="50" b="2" /><tag a="125" b="3" arg="0xcd00" />.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" /><tag a="50" b="17" arg="0x15 0xcd00 0x6 0x49 0x6c 0x73 0xa 0x45 0x6c 0x6c 0x65 0x73 0x0" /> barbotent dans les coins d'eau
 douce, ou les étangs, pour être plus
 précis.</message>
 	<message label="213" attrib="00 00 00 00 00 00 00 00"><anim id="Frantic" target="actor" targetSpec="" />Il me faut absolument
-<tag a="50" b="2" /><tag a="125" b="3" arg="0xcd00" />.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" /><tag a="50" b="17" arg="0x14 0xcd00 0x6 0x49 0x6c 0x73 0xa 0x45 0x6c 0x6c 0x65 0x73 0x0" /> ne sont pas faciles à dénicher,
+<tag a="50" b="2" /><tag a="125" b="3" arg="0xcd00" />.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" /><tag a="50" b="17" arg="0x15 0xcd00 0x6 0x49 0x6c 0x73 0xa 0x45 0x6c 0x6c 0x65 0x73 0x0" /> ne sont pas faciles à dénicher,
 mais essaie de lancer ta ligne là où
 se rencontrent la rivière et l'océan.</message>
 	<message label="214" attrib="00 00 00 00 00 00 00 00"><anim id="Frantic" target="actor" targetSpec="" />Il me faut absolument

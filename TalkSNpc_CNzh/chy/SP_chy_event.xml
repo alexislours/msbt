@@ -142,9 +142,8 @@
 报名费一次<colour id="1" /><tag a="90" b="21" arg="0x2" /><colour id="65535" />哦。</message>
 	<message label="029_a" attrib="00 00 00 00">参加大赛</message>
 	<message label="029_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />不参加</message>
-	<message label="030" attrib="02 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />那么，事不宜迟。
-你要参加<colour id="1" />捕虫大赛<colour id="65535" />吗？<delay40 />
-<anim id="EmotEnd" target="actor" targetSpec="" />第一次参加是免费的。</message>
+	<message label="030" attrib="02 00 00 00">那么，<anim id="QuestionMark" target="actor" targetSpec="" />你要参加<colour id="1" />捕虫大赛<colour id="65535" />吗？<delay frames="50" />
+<anim id="EmotEnd" target="actor" targetSpec="" />今天第一次参加的人可以免费参加哦。</message>
 	<message label="030_a" attrib="00 00 00 00">参加大赛</message>
 	<message label="030_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />不参加</message>
 	<message label="031" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />嘿，
@@ -235,7 +234,7 @@
 高价收购<tag a="110" b="0" /></message>
 	<message label="049_a" attrib="00 00 00 00">想卖虫子</message>
 	<message label="049_b" attrib="00 00 00 00">用点数兑换</message>
-	<message label="049_c" attrib="00 00 00 00">别的事情</message>
+	<message label="049_c" attrib="00 00 00 00">大赛的事情</message>
 	<message label="049_d" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />没什么</message>
 	<message label="050" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" /><tag a="110" b="0" /><anim id="FaintSmile" target="actor" targetSpec="" />谢谢！<delay40 />
 <anim id="EmotEnd" target="actor" targetSpec="" />那么，快点告诉我
@@ -272,12 +271,17 @@
 	<message label="060" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />哎呀<tag a="110" b="0" /><delay20 />
 <anim id="Silent" target="actor" targetSpec="" />你好像<delay8 />没带捕虫网来啊。<pageBreak /><anim id="Negative" target="actor" targetSpec="" />赤手空拳可捕不了虫。<delay frames="30" />
 <anim id="Serious" target="actor" targetSpec="" />没有捕虫网就不能开始哦。</message>
-	<message label="061" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" /><tag a="110" b="0" />哎呀？
-你身上带的钱不够啊。<pageBreak /><anim id="Worried" target="actor" targetSpec="" />从第2次参加开始，
-每次参加都需要<colour id="1" /><tag a="90" b="21" arg="0x2" /><colour id="65535" />报名费。
-不好意思哦。</message>
-	<message label="062" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" /><tag a="110" b="0" />那么，
-报名费<colour id="1" /><tag a="90" b="21" arg="0x2" /><colour id="65535" />我收下了。</message>
+	<message label="061" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />嗯<tag a="110" b="0" /><delay20 />
+<anim id="Silent" target="actor" targetSpec="" />你带的钱好像不够啊。<pageBreak /><anim id="ShyBoy" target="actor" targetSpec="" />不好意思，<delay20 />麻烦你准备好<colour id="1" /><tag a="90" b="21" arg="0x2" /><colour id="65535" />之后<delay8 />
+再来<delay8 />和我说吧。</message>
+	<message label="062" attrib="02 00 00 00"><anim id="Aha" target="actor" targetSpec="" />噢<tag a="110" b="0" />这样啊！<delay40 />
+<anim id="FaintSmile" target="actor" targetSpec="" />欢迎你来参加！<pageBreak /><anim id="ShyBoy" target="actor" targetSpec="" />从第2次参加开始，<delay8 />
+每次都要收取<colour id="1" /><tag a="90" b="21" arg="0x2" /><colour id="65535" />，<delay frames="30" />
+<anim id="Hello" target="actor" targetSpec="" />可以吧？</message>
+	<message label="062_a" attrib="00 00 00 00">当然！</message>
+	<message label="062_b" attrib="00 00 00 00">还是算了</message>
+	<message label="062_01" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />嗯<tag a="110" b="0" /><delay20 />
+<anim id="Silent" target="actor" targetSpec="" />那么我就收取<delay8 /><colour id="1" /><tag a="90" b="21" arg="0x2" /><colour id="65535" />的报名费了。</message>
 	<message label="063" attrib="00 00 00 00">那么<tag a="110" b="0" /><anim id="Serious" target="actor" targetSpec="" />接下来将开始<colour id="1" /><tag a="90" b="0" arg="0xe" />分钟<colour id="65535" />倒计时。<delay frames="40" /><anim id="Nodding" target="actor" targetSpec="" />
 不管是什么虫子都可以，<delay20 />
 总之请尽可能多地捕捉！<pageBreak /><anim id="Explain" target="actor" targetSpec="" />抓到<colour id="1" /><tag a="90" b="1" arg="0x4" />只<colour id="65535" />以上的话，还能获得额外点数，<delay20 />
@@ -480,6 +484,26 @@
 <anim id="Serious" target="actor" targetSpec="" />所以有额外的挑战奖励！<pageBreak /><anim id="Explain" target="actor" targetSpec="" />你捉到的虫子<delay20 />有<colour id="1" /><tag a="90" b="1" arg="0x8" />只<colour id="65535" />，<delay20 />
 再加上各种奖励<tag a="110" b="0" /><10_4 />
 <anim id="Shocked" target="actor" targetSpec="" />好厉害！<delay frames="30" /><anim id="BigSmile" target="actor" targetSpec="" />总共获得<colour id="1" /><tag a="90" b="2" arg="0x7" />点<colour id="65535" />哦！<delay20 /><anim id="EmotEnd" target="actor" targetSpec="" /></message>
+	<message label="151" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />我看看～<delay20 /><colour id="1" />虫虫观察箱<colour id="65535" />中的
+虫子的数目<delay20 />总共有<colour id="1" /><tag a="90" b="1" arg="0x8" />只<colour id="65535" /><tag a="110" b="0" />
+<anim id="FaintSmile" target="actor" targetSpec="" />真棒，你的状态绝佳！<pageBreak /><anim id="Serious" target="actor" targetSpec="" />由于中途虫虫观察箱就已经放满了，<delay20 />
+<anim id="SmugFace" target="actor" targetSpec="" />超过20只的部分，<delay8 />
+我就擅自<delay20 />将它们收下了。<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />这也是为了世界，为了虫子<tag a="110" b="0" /><delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />更是为今后的活动所做的慈善，
+希望你能谅解。<pageBreak /><anim id="Eh" target="actor" targetSpec="" />对了，<delay8 />点数当然是会给你的！<delay frames="40" />
+<anim id="Thinking" target="actor" targetSpec="" />首先是基础的<colour id="1" /><tag a="90" b="1" arg="0x8" />点<colour id="65535" />，<delay20 />
+再加上抓到<colour id="1" /><tag a="90" b="1" arg="0x4" />只以上<colour id="65535" />的奖励<tag a="110" b="0" /><pageBreak /><anim id="Silent" target="actor" targetSpec="" />总共可以获得<colour id="1" /><tag a="90" b="2" arg="0x7" />点<colour id="65535" />！</message>
+	<message label="152" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />我看看～<delay20 /><colour id="1" />虫虫观察箱<colour id="65535" />中的
+虫子的数目<delay20 />总共有<colour id="1" /><tag a="90" b="1" arg="0x8" />只<colour id="65535" /><tag a="110" b="0" />
+<anim id="FaintSmile" target="actor" targetSpec="" />真棒，你的状态绝佳！<pageBreak /><anim id="Serious" target="actor" targetSpec="" />由于途中虫虫观察箱就已经放满了，<delay20 />
+<anim id="SmugFace" target="actor" targetSpec="" />超过20只的部分，<delay8 />
+我就擅自<delay20 />将它们收下了。<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />]这也是为了世界，为了虫子<tag a="110" b="0" /><delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />]更是为今后的活动所做的慈善，
+希望你能谅解。<pageBreak /><anim id="Eh" target="actor" targetSpec="" />对了，点数当然还是
+会根据你抓住的只数来给！<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />首先是基础的<colour id="1" /><tag a="90" b="1" arg="0x8" />点<colour id="65535" />，<delay20 />
+因为你抓到了<colour id="1" /><tag a="90" b="1" arg="0x4" />只以上<colour id="65535" />，还可以获得奖励。<pageBreak /><anim id="Thinking" target="actor" targetSpec="" />这么一来，<delay20 />这次参加者
+抓住的虫子总数合计有<colour id="1" /><tag a="90" b="2" arg="0x9" />只<colour id="65535" />啊<tag a="110" b="0" /><pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />达到了<colour id="1" /><tag a="90" b="1" arg="0xa" />只以上<colour id="65535" />，<delay20 /><anim id="Serious" target="actor" targetSpec="" />还可以获得合作奖励！<delay frames="40" />
+<anim id="Silent" target="actor" targetSpec="" />也就是说，你总共可以获得<colour id="1" /><tag a="90" b="2" arg="0x7" />点<colour id="65535" />！</message>
 	<message label="160" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />那边帐篷下<delay20 />
 有你参加的挑战的<colour id="1" />虫虫观察箱<colour id="65535" />哦。<pageBreak /><anim id="Explain" target="actor" targetSpec="" />帮手抓到的虫子，<delay8 />
 也都一起放在里面了，去确认一下吧。<pageBreak /><anim id="Eh" target="actor" targetSpec="" />啊，<delay8 />如果你不想要它们，<delay20 />
@@ -539,7 +563,7 @@
 <anim id="Nodding" target="actor" targetSpec="" />今天是虫子的祭典——<colour id="1" />捕虫大赛<colour id="65535" />哦！<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />参加报名从<colour id="1" /><tag a="90" b="37" arg="0xcd00" />点<colour id="65535" />开始。<delay frames="30" />
 <anim id="FaintSmile" target="actor" targetSpec="" />虫子们的气息，<delay20 />
 <anim id="Silent" target="actor" targetSpec="" />希望你能用全身去充分感受！</message>
-	<message label="170" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />嗯～今天的<colour id="1" />捕虫大赛<colour id="65535" />，<delay40 />
+	<message label="170" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />嗯～这次的<colour id="1" />捕虫大赛<colour id="65535" />，<delay40 />
 <anim id="EmotEnd" target="actor" targetSpec="" />于我而言是一场
 精彩的虫子祭典啊。</message>
 	<message label="171" attrib="06 00 00 00"><anim id="Eh" target="actor" targetSpec="" />嘿，状态如何？<delay40 />

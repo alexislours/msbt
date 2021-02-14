@@ -8,7 +8,7 @@ fantaisie :<delay20 /> j'aimerais bien me trouver
 de mettre la patte sur un exemplaire
 digne de ce nom,<delay8 /> mais sans succès!
 <anim id="TakenAback" target="actor" targetSpec="" />Quoi?!<delay8 /> Tu en as justement
-<tag a="50" b="17" arg="0x11 0xcd00 0x4 0x75 0x6e 0x6 0x75 0x6e 0x65 0x0" /> sur toi?!<pageBreak /><anim id="Frantic" target="actor" targetSpec="" />Je t'en supplie, <gender2 m="le jeune" f="la jeune" />! <delay8 />Il faut
+<tag a="50" b="17" arg="0x12 0xcd00 0x4 0x75 0x6e 0x6 0x75 0x6e 0x65 0x0" /> sur toi?!<pageBreak /><anim id="Frantic" target="actor" targetSpec="" />Je t'en supplie, <gender2 m="le jeune" f="la jeune" />! <delay8 />Il faut
 que tu me laisses te l'acheter!</message>
 	<message label="003_a" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Combien tu mets?</message>
 	<message label="003_b" attrib="00 00 00 00 00 00 00 00">C'est pas à vendre.</message>
@@ -20,7 +20,7 @@ je baisse les bras!<delay8 /> Foi <gender4 m="de " f="d'" />⁠<tag a="110" b="1
 de me dire que t'as justement
 ce que je recherche?!
 <anim id="Frantic" target="actor" targetSpec="" />Dis, dis, tu voudrais bien me
-<tag a="50" b="17" arg="0x11 0xcd00 0x4 0x6c 0x65 0x4 0x6c 0x61 0x0" /> vendre?!</message>
+<tag a="50" b="17" arg="0x12 0xcd00 0x4 0x6c 0x65 0x4 0x6c 0x61 0x0" /> vendre?!</message>
 	<message label="004_a" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Pour combien?</message>
 	<message label="004_b" attrib="00 00 00 00 00 00 00 00">Euh... Non.</message>
 	<message label="005" attrib="00 00 00 00 00 00 00 00"><anim id="Angry" target="actor" targetSpec="" />Ah ben j'vois le genre. <delay8 />Merci de
@@ -131,11 +131,9 @@ avec toi, <tag a="110" b="3" />!</message>
 Je t'en propose <tag a="90" b="21" arg="0x3" />,<delay8 />
 qu'est-ce que t'en dis?</message>
 	<message label="304_a" attrib="00 00 00 00 00 00 00 00">Tape-là!</message>
-	<message label="304_b" attrib="00 00 00 00 00 00 00 00">Bof...</message>
+	<message label="304_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Bof...</message>
 	<message label="305" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />C'est vrai?! <delay frames="40" /><anim id="HappyFlower" target="actor" targetSpec="" />Marché conclu, l'<gender2 m="ami" f="amie" />!</message>
-	<message label="306" attrib="00 00 00 00 00 00 00 00"><anim id="Sighing" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="110" b="5" />, j'aurais dû me douter
-que tu en profiterais pour demander
-un prix indécent<tag a="110" b="0" /></message>
+	<message label="306" attrib="00 00 00 00 00 00 00 00"><anim id="Sighing" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="110" b="5" />, j'aurais dû me douter que tu en profiterais pour demander un prix indécent<tag a="110" b="0" /></message>
 	<message label="307" attrib="00 00 00 00 00 00 00 00"><anim id="HappyFlower" target="actor" targetSpec="" />Je sais déjà comment je vais
 l'incorporer à mon décor intérieur.
 <delay8 />J'ai hâte!</message>
@@ -143,7 +141,7 @@ l'incorporer à mon décor intérieur.
 quelque chose comme<tag a="110" b="0" />
 <tag a="90" b="21" arg="0x2" />.<delay8 /><anim id="QuestionMark" target="actor" targetSpec="" /> T'en dis quoi?</message>
 	<message label="400_a" attrib="00 00 00 00 00 00 00 00">Marché conclu!</message>
-	<message label="400_b" attrib="00 00 00 00 00 00 00 00">J'en dis : « ⁠Bof... »</message>
+	<message label="400_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />J'en dis : « ⁠Bof... »</message>
 	<message label="401" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Vraiment?!<delay frames="40" /> <tag a="50" b="3" /><tag a="110" b="5" />!</message>
 	<message label="402" attrib="00 00 00 00 00 00 00 00"><anim id="Sighing" target="actor" targetSpec="" />Tant pis<tag a="110" b="0" /><delay8 /><anim id="FaintSmile" target="actor" targetSpec="" /> Faut croire que tout
 le monde n'est pas forcément

@@ -1,7 +1,7 @@
 <msbt attribsize="8">
 	<message label="001" attrib="00 00 02 00 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Je me demande de quoi aurait l'air
-<tag a="50" b="2" /><tag a="125" b="0" arg="0x0" /> <delay20 />fait<tag a="50" b="17" arg="0x11 0xcd00 0x0 0x2 0x65 0x0" /> par quelqu'un de cette île<tag a="110" b="0" /></message>
-	<message label="001_a" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Je peux en fabriquer un<tag a="50" b="17" arg="0x11 0xcd00 0x0 0x2 0x65 0x0" /> !</message>
+<tag a="50" b="2" /><tag a="125" b="0" arg="0x0" /> <delay20 />fait<tag a="50" b="17" arg="0x12 0xcd00 0x0 0x2 0x65 0x0" /> par quelqu'un de cette île<tag a="110" b="0" /></message>
+	<message label="001_a" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Je peux en fabriquer un<tag a="50" b="17" arg="0x12 0xcd00 0x0 0x2 0x65 0x0" /> !</message>
 	<message label="001_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Aucune idée...</message>
 	<message label="002" attrib="00 00 00 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Vraiment ? <delay frames="40" />Tu ferais ça pour moi ?!<delay frames="40" />
 <anim id="BigSmile" target="actor" targetSpec="" />J'ai bien fait de t'en parler ! J'ai hâte
@@ -35,7 +35,7 @@ changes d'avis. Je serai là toute la
 journée,<anim id="FaintSmile" target="actor" targetSpec="" /> <tag a="110" b="6" />.</message>
 	<message label="101" attrib="00 00 02 00 00 00 00 00">Alors,<delay frames="40" /><anim id="QuestionMark" target="actor" targetSpec="" /> tu as tous les matériaux pour fabriquer <tag a="50" b="2" /><tag a="125" b="0" arg="0x0" /> ?</message>
 	<message label="101_a" attrib="00 00 00 00 00 00 00 00">J'y travaille.</message>
-	<message label="101_b" attrib="00 00 00 00 00 00 00 00">À ce sujet...</message>
+	<message label="101_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />À ce sujet...</message>
 	<message label="102" attrib="00 00 00 00 00 00 00 00"><anim id="HappyDance" target="actor" targetSpec="" />Hé hé hé !<delay20 /> C'est pas toujours facile
 de rassembler des matériaux.<delay20 />
 Courage, tu peux y arriver !</message>
@@ -47,12 +47,12 @@ trucs<tag a="110" b="0" /> Une autre fois, peut-être ?</message>
 que tu as fabriqué l'objet dont je
 t'avais parlé, <tag a="110" b="6" /> ?!</message>
 	<message label="201_a" attrib="00 00 00 00 00 00 00 00">C'est bien ça !</message>
-	<message label="201_b" attrib="00 00 00 00 00 00 00 00">Attends encore un peu.</message>
+	<message label="201_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Attends encore un peu.</message>
 	<message label="202" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Pour te remercier, je t'offre <tag a="50" b="2" /><tag a="125" b="4" arg="0x0" /> !</message>
-	<message label="202_02" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Tiens, c'est pour te remercier ! <delay frames="40" />C'est <tag a="50" b="2" /><tag a="125" b="4" arg="0x0" />,<delay frames="40" /><anim id="EmotEnd" target="actor" targetSpec="" /> et <tag a="50" b="17" arg="0x15 0xcd00 0x4 0x69 0x6c 0x8 0x65 0x6c 0x6c 0x65 0x0" /> colle presque pas !</message>
+	<message label="202_02" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Tiens, c'est pour te remercier ! <delay frames="40" />C'est <tag a="50" b="2" /><tag a="125" b="4" arg="0x0" />,<delay frames="40" /><anim id="EmotEnd" target="actor" targetSpec="" /> et <tag a="50" b="17" arg="0x16 0xcd00 0x4 0x69 0x6c 0x8 0x65 0x6c 0x6c 0x65 0x0" /> colle presque pas !</message>
 	<message label="202_03" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Avant que j'oublie !<delay frames="40" /><anim id="Greeting" target="actor" targetSpec="" /> Voilà <tag a="50" b="2" /><tag a="125" b="4" arg="0x0" /> pour te remercier !</message>
-	<message label="204" attrib="00 00 00 00 00 00 00 00">Encore un peu ?<delay frames="40" /><anim id="AbsentMindedness" target="actor" targetSpec="" /> Tu veux qu'<tag a="50" b="17" arg="0x11 0xcd00 0x4 0x69 0x6c 0x8 0x65 0x6c 0x6c 0x65 0x0" /> soit
-absolument parfait<tag a="50" b="17" arg="0x11 0xcd00 0x0 0x2 0x65 0x0" />, c'est ça ?</message>
+	<message label="204" attrib="00 00 00 00 00 00 00 00">Encore un peu ?<delay frames="40" /><anim id="AbsentMindedness" target="actor" targetSpec="" /> Tu veux qu'<tag a="50" b="17" arg="0x12 0xcd00 0x4 0x69 0x6c 0x8 0x65 0x6c 0x6c 0x65 0x0" /> soit
+absolument parfait<tag a="50" b="17" arg="0x12 0xcd00 0x0 0x2 0x65 0x0" />, c'est ça ?</message>
 	<message label="205" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="50" b="2" /><tag a="125" b="0" arg="0x0" /> made in <tag a="110" b="9" /> ! <delay20 /><anim id="Smiling" target="actor" targetSpec="" />Comment c'est trop la classe !</message>
 	<message label="206" attrib="00 00 00 00 00 00 00 00"><anim id="HappyFlower" target="actor" targetSpec="" />Ouais !<delay20 /> Ça me fait un autre souvenir
 fait main <gender4 m="de " f="d'⁠" /><tag a="110" b="9" /> !</message>
@@ -75,7 +75,7 @@ encore.<delay20 /><anim id="Greeting" target="actor" targetSpec="" /> J'attendra
 J'adore trop cette île !<delay20 /> Encore plus
 que les sandwiches !<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Mais quand même moins que les
 sandwiches à la glace.</message>
-	<message label="301" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Hé hé !<delay8 /> J'adore <tag a="50" b="1" /><tag a="125" b="0" arg="0x0" /> que tu m'as fabriqué<tag a="50" b="17" arg="0x11 0xcd00 0x0 0x2 0x65 0x0" /> !<delay20 /> Encore merci !</message>
+	<message label="301" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Hé hé !<delay8 /> J'adore <tag a="50" b="1" /><tag a="125" b="0" arg="0x0" /> que tu m'as fabriqué<tag a="50" b="17" arg="0x12 0xcd00 0x0 0x2 0x65 0x0" /> !<delay20 /> Encore merci !</message>
 	<message label="302" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Ils sont trop gentils, les gens sur
 cette île, <tag a="110" b="6" /> !<pageBreak /><anim id="Blushing" target="actor" targetSpec="" />Il y a même quelqu'un qui m'a fabriqué <tag a="50" b="2" /><tag a="125" b="0" arg="0x0" /> !</message>
 </msbt>

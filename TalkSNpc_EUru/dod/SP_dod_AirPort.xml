@@ -17,11 +17,11 @@
 	<message label="001_03_01" attrib="00 00 00 00">Кстати<tag a="110" b="0" /><delay40 /> ты же <delay8 /><anim id="QuestionMark" target="actor" targetSpec="" /><tag a="110" b="1" />,
 я ничего не перепутал?<pageBreak /><anim id="BigSmile" target="actor" targetSpec="" />Остров маленький. <delay frames="40" /><anim id="Laughing" target="actor" targetSpec="" />Здесь все
 друг друга знают.</message>
-	<message label="001_03_02" attrib="00 00 00 00">Мне пришел <colour id="1" />билет за мили Нука
+	<message label="001_03_02" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Мне пришел <colour id="1" />билет за мили Нука
 <colour id="65535" />от <colour id="3" />Тома Нука<colour id="65535" />, и на нем написано
-«<tag a="110" b="1" />». Это ведь ты?<pageBreak />Если хочешь его использовать,
+«<tag a="110" b="1" />».<delay20 /><anim id="FaintSmile" target="actor" targetSpec="" /><pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Если хочешь его использовать,
 просто скажи волшебные слова:
-«<colour id="1" />Хочу в путешествие.<colour id="65535" />» Понял<gender2 m="" f="а" />?</message>
+«<colour id="1" />Хочу в путешествие<colour id="65535" />». <delay20 /><anim id="FaintSmile" target="actor" targetSpec="" />Понял<gender2 m="" f="а" />?</message>
 	<message label="001_03_03" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />В общем, спектр услуг у нас
 широкий. <delay20 /><anim id="OhGeez" target="actor" targetSpec="" />Правда, доступны
 они только жителям острова.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Хоть шалаш, хоть палатка, <delay20 />но у тебя
@@ -91,13 +91,13 @@
 за мили Нука<colour id="65535" />?<delay40 /> <anim id="Serious" target="actor" targetSpec="" />О, ты обратил<gender2 m="ся" f="ась" />
 к правильному додо!</message>
 	<message label="031_02" attrib="00 00 00 00"><anim id="SmugFace" target="actor" targetSpec="" />За<colour id="1" /> билет за мили Нука<colour id="65535" /> (доступны
-в <colour id="1" /><delay20 />Нук-терминале<delay20 /><colour id="65535" />) <anim id="Pardon" target="actor" targetSpec="" />можешь слетать
+в <colour id="1" /><delay20 />Нук-терминале<delay20 /><colour id="65535" />) <anim id="Pardon" target="actor" targetSpec="" />можно слетать
 в сюрприз-вояж в райские места!<pageBreak /><anim id="AbsentMindedness" target="actor" targetSpec="" />А если честно, просто на маленький
 остров. <anim id="Shocked" target="actor" targetSpec="" />Любой.<delay20 /> Наш отважный
 пилот их случайно выбирает.
 <anim id="Explain" target="actor" targetSpec="" />Этот сервис предназначен для
 настоящих фанатов необитаемых
-островов.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />На них можно собирать и добывать
+островов.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Там можно собирать и добывать
 что угодно — бери инструменты!
 А может,<anim id="BigSmile" target="actor" targetSpec="" /><delay8 /> ты даже кого встретишь.<pageBreak /><anim id="Serious" target="actor" targetSpec="" /><size value="75" />Билеты доступны только в <colour id="1" />Нук-терминале<colour id="65535" />.
 Предложение доступно не везде. Dodo Airlines
@@ -106,22 +106,22 @@
 сюрприз-вояж от Dodo Airlines!<pageBreak /><anim id="BigSmile" target="actor" targetSpec="" />Если у тебя все инструменты
 с собой, можем отправиться
 хоть сейчас. <delay40 /><anim id="QuestionMark" target="actor" targetSpec="" />Что скажешь?</message>
-	<message label="032_a" attrib="00 00 00 00">Пора в полет!</message>
+	<message label="032_a" attrib="00 00 00 00">Я готов<gender2 m="" f="а" />!</message>
 	<message label="032_b" attrib="00 00 00 00">Ничего не надо.</message>
 	<message label="035" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Хочешь использовать свой <colour id="1" />билет
-за мили Нука<colour id="65535" />?<delay40 /> <snpcAnim id="DodRoger" target="actor" targetSpec="" />Понял!<anim id="EmotEnd" target="actor" targetSpec="" /></message>
+за мили Нука<colour id="65535" />?<delay40 /> <snpcAnim id="DodRoger" target="actor" targetSpec="" />Понял!<delay frames="50" /><anim id="EmotEnd" target="actor" targetSpec="" /></message>
 	<message label="035_01" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Все понятно. <delay20 />Я зарегистрирую
 билет от <colour id="3" />Тома Нука<colour id="65535" /><tag a="110" b="0" /></message>
 	<message label="036" attrib="04 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Экипаж ко взлету готов, но нужно
 проверить пассажиров. <delay20 /><anim id="QuestionMark" target="actor" targetSpec="" />Ты сам<gender2 m="" f="а" />-то готов<gender2 m="" f="а" />? <delay20 /><anim id="QuestionMark" target="actor" targetSpec="" />Инструменты все взял<gender2 m="" f="а" />?</message>
-	<message label="036_a" attrib="00 00 00 00">Пора в полет!</message>
+	<message label="036_a" attrib="00 00 00 00">Я готов<gender2 m="" f="а" />!</message>
 	<message label="036_b" attrib="00 00 00 00">А подробнее?</message>
 	<message label="036_c" attrib="00 00 00 00">Ничего не надо.</message>
 	<message label="037" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" /><10_5 />Замечательно!<endTag a="10" b="5" /><delay frames="40" /> <anim id="Smiling" target="actor" targetSpec="" />Сейчас ты воспаришь
 над облаками!<10_8 arg="60" /></message>
-	<message label="037_01" attrib="00 00 00 00"><tag a="10" b="12" /><snpcAnim id="DodWireless" target="actor" targetSpec="" /><delay frames="30" /><100_3 arg="PlaneAnnounceOn" /><delay20 /><size value="75" />«Додо-1», на связи «Додо-радар»! <delay8 /><colour id="3" />Уилбур,<colour id="65535" /> как
+	<message label="037_01" attrib="00 00 00 00"><tag a="10" b="12" /><snpcAnim id="DodWireless" target="actor" targetSpec="" /><delay frames="30" /><100_3 arg="PlaneAnnounceOn" /><delay20 /><size value="75" />«Додо-1», на связи «Додо-радар»! <delay8 /><colour id="3" />Уилбур<colour id="65535" />, как
 слышно?<delay20 /> У нас тут страус хочет в небо, <delay frames="30" />прием.<delay frames="90" />
-<colour id="5" />Вас понял!<delay20 /> Ко взлету готов! Прием!<colour id="65535" /><size value="100" /><delay20 /><100_3 arg="PlaneAnnounceOff" /><10_8 arg="40" /><pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" /><delay frames="50" /><anim id="FaintSmile" target="actor" targetSpec="" />Ну что ж, желаю<delay8 /> приятного полета!
+<colour id="5" />Вас понял!<delay20 /> Ко взлету готов! Прием!<colour id="65535" /><size value="100" /><delay20 /><100_3 arg="PlaneAnnounceOff" /><10_8 arg="80" /><pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" /><delay frames="50" /><anim id="FaintSmile" target="actor" targetSpec="" />Ну что ж, желаю<delay8 /> приятного полета!
 <delay frames="40" />И не забывай<tag a="110" b="0" /><snpcAnim id="DodRoger" target="actor" targetSpec="" /> наша авиалиния
 додомчит куда угодно в два счета!<delay frames="60" /><anim id="FaintSmile" target="actor" targetSpec="" /></message>
 	<message label="037_02" attrib="00 00 00 00" />
@@ -130,7 +130,7 @@
 нужно как следует подготовиться.<pageBreak /><anim id="Hello" target="actor" targetSpec="" />Возвращайся, когда почистишь
 перья и наточишь клюв,<delay20 /> <anim id="Blushing" target="actor" targetSpec="" />как
 говорится.</message>
-	<message label="090_01" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />А!<delay20 /> Ты хочешь слетать к кому-то
+	<message label="090_01" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Ты хочешь слетать к кому-то
 в гости на другой остров?</message>
 	<message label="090_02" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />А, тебя нужна компания?<delay20 />
 <anim id="FaintSmile" target="actor" targetSpec="" />Понимаю!</message>
@@ -143,6 +143,9 @@
 	<message label="091_02" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Спасибо, что не заснул<gender2 m="" f="а" />.<delay20 /><anim id="FaintSmile" target="actor" targetSpec="" />
 Поехали дальше<tag a="110" b="0" /></message>
 	<message label="091" attrib="00 00 00 00" />
+	<message label="092" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Понял!<pageBreak /><anim id="Blushing" target="actor" targetSpec="" />Если ты это уже слышал<gender2 m="" f="а" />, извини.<delay20 />
+Но правила требуют этого перед
+каждым выходом онлайн.</message>
 	<message label="101" attrib="04 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />На соседний остров в <colour id="1" />локальном
 режиме<colour id="65535" /> или на дальний<delay20 /> остров
 <colour id="1" />через Интернет<colour id="65535" />?</message>
@@ -152,20 +155,20 @@
 	<message label="102" attrib="02 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Ну вот<tag a="110" b="0" /><delay frames="30" /> <anim id="Oops" target="actor" targetSpec="" />К сожалению, сейчас мы
 не можем додоставить тебя ни на
 один остров<tag a="110" b="0" /> <delay20 /><anim id="Worried" target="actor" targetSpec="" />Ты уж извини.</message>
-	<message label="102_a" attrib="00 00 00 00">Повторить поиск.</message>
+	<message label="102_a" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Повтори поиск!</message>
 	<message label="102_b" attrib="00 00 00 00">Попробую потом.</message>
 	<message label="103" attrib="00 00 00 00">Так-так...<delay20 /> <anim id="QuestionMark" target="actor" targetSpec="" />Какой остров ты хочешь
 посетить?</message>
 	<message label="104" attrib="04 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />Мы готовимся к полету на остров
 <tag a="115" b="5" arg="0xcd00" /> прямо сейчас<tag a="110" b="0" /><delay frames="30" />
 <anim id="QuestionMark" target="actor" targetSpec="" />Ты на этот остров хочешь?</message>
-	<message label="104_a" attrib="00 00 00 00">Полетели!</message>
-	<message label="104_b" attrib="00 00 00 00">Повторить поиск.</message>
+	<message label="104_a" attrib="00 00 00 00">Да, полетели!</message>
+	<message label="104_b" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Повтори поиск!</message>
 	<message label="104_c" attrib="00 00 00 00">Я передумал<gender2 m="" f="а" />.</message>
-	<message label="105" attrib="02 00 00 00"><anim id="Serious" target="actor" targetSpec="" />В общем, я нашел это место<tag a="110" b="0" /><delay frames="30" /> <anim id="Worried" target="actor" targetSpec="" />но
-остров <tag a="115" b="2" arg="0xcd00" /> не дает
-сейчас разрешение на посадку.</message>
-	<message label="105_a" attrib="00 00 00 00">Да, проверь!</message>
+	<message label="105" attrib="02 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Я нашел остров <tag a="115" b="2" arg="0xcd00" /><tag a="110" b="0" />
+<delay frames="30" /><anim id="Oops" target="actor" targetSpec="" />но на нем и так столько гостей, что
+они больше никого не принимают.</message>
+	<message label="105_a" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Проверь еще раз!</message>
 	<message label="105_b" attrib="00 00 00 00">Попробую потом.</message>
 	<message label="106" attrib="00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />О, подожди-ка!<delay20 /> <anim id="Thinking" target="actor" targetSpec="" />Чтобы попасть
 на этот остров, нужен <colour id="1" />Додо-код™<colour id="65535" />.<10_4 />
@@ -177,13 +180,13 @@
 	<message label="108" attrib="04 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Ой!<delay20 /><anim id="Thinking" target="actor" targetSpec="" /> Похоже, у нас помехи<tag a="110" b="0" />
 Подожди немного<tag a="110" b="0" /><delay frames="40" /><anim id="Angry" target="actor" targetSpec="" /> <size value="75" />Кто-то
 не переключил нукофон в режим полета?<size value="100" /></message>
-	<message label="108_a" attrib="00 00 00 00">Да, проверь!</message>
+	<message label="108_a" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Проверь еще раз!</message>
 	<message label="108_b" attrib="00 00 00 00">Ты о чем?</message>
 	<message label="108_c" attrib="00 00 00 00">Попробую потом.</message>
 	<message label="108_01" attrib="04 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Ой!<delay20 /><anim id="Thinking" target="actor" targetSpec="" /> Похоже, у нас помехи<tag a="110" b="0" />
 Подожди немного<tag a="110" b="0" /><delay frames="40" /><anim id="Angry" target="actor" targetSpec="" /> <size value="75" />Кто-то
 не переключил нукофон в режим полета?<size value="100" /></message>
-	<message label="108_01_a" attrib="00 00 00 00">Да, проверь!</message>
+	<message label="108_01_a" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Проверь еще раз!</message>
 	<message label="108_01_b" attrib="00 00 00 00">Ты о чем?</message>
 	<message label="108_01_c" attrib="00 00 00 00">Попробую потом.</message>
 	<message label="109" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Вот и славно! Все готово!<delay20 />
@@ -199,9 +202,8 @@
 я настрою локальный режим.</message>
 	<message label="111_a" attrib="00 00 00 00">Ладно!</message>
 	<message label="111_b" attrib="00 00 00 00">Знаешь, не надо.</message>
-	<message label="112" attrib="02 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Окей!<delay8 /> <anim id="EmotEnd" target="actor" targetSpec="" />Разъединяю подключение
-к Интернету<delay20 /> <anim id="FaintSmile" target="actor" targetSpec="" />и настраиваю
-локальный режим.</message>
+	<message label="112" attrib="02 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Понял!<delay8 /> <anim id="EmotEnd" target="actor" targetSpec="" />Отсоединяюсь от Интернета
+<delay20 /><anim id="FaintSmile" target="actor" targetSpec="" />и настраиваю локальный режим.</message>
 	<message label="112_a" attrib="00 00 00 00">Ладно!</message>
 	<message label="112_b" attrib="00 00 00 00">Знаешь, не надо.</message>
 	<message label="113" attrib="04 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Распахнуть гейт настежь для всех,
@@ -227,20 +229,20 @@
 ведь может увлечься в телефоне,
 в этом нет ничего плохого!</message>
 	<message label="117_02" attrib="02 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Ну что, попробуем еще раз?</message>
-	<message label="117_02_a" attrib="00 00 00 00">Да, проверь!</message>
+	<message label="117_02_a" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Проверь еще раз!</message>
 	<message label="117_02_b" attrib="00 00 00 00">Тогда в другой раз.</message>
 	<message label="118_01" attrib="00 00 00 00"><anim id="ShyBoy" target="actor" targetSpec="" />Видишь ли, <delay20 />мы не можем взлететь,
 когда кто-то над чем-то работает.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Попробуй еще пару раз, но если
 так и не получится соединиться,<delay20 />
 то придется отложить.<pageBreak /><anim id="IdeaBulb" target="actor" targetSpec="" />Хм!<delay20 /> Если ты можешь как-нибудь
 связаться с пригласившим тебя
-игроком,<delay20 /> так может быть быстрее!<pageBreak /><anim id="Thinking" target="actor" targetSpec="" />Можешь написать: «<colour id="1" />Я хочу в гости,<delay20 />
+игроком,<delay20 /> так может быть быстрее!<pageBreak /><anim id="Thinking" target="actor" targetSpec="" />Можешь написать: «<colour id="1" />Я хочу улететь,<delay20 />
 но для этого тебе нужно прекратить
 беседу и закрыть нукофон<colour id="65535" />!»<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Только будь вежлив<gender2 m="" f="а" />. <delay frames="40" /><anim id="Laughing" target="actor" targetSpec="" />Кто угодно
 ведь может увлечься в телефоне,
 в этом нет ничего плохого!</message>
 	<message label="118_02" attrib="02 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Ну что, попробуем еще раз?</message>
-	<message label="118_02_a" attrib="00 00 00 00">Да, проверь!</message>
+	<message label="118_02_a" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Проверь еще раз!</message>
 	<message label="118_02_b" attrib="00 00 00 00">Тогда в другой раз.</message>
 	<message label="120" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Понял!<delay frames="40" /> <anim id="Hello" target="actor" targetSpec="" />Открываю гейт.</message>
 	<message label="120_01" attrib="00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Ты же используешь «<colour id="1" />Редактор
@@ -265,8 +267,7 @@
 В океане островов много.<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Так что если ты не хочешь, чтобы
 докучали посетители, просто
 <delay20 /><anim id="Scheming" target="actor" targetSpec="" />скажи мне, и я закрою гейт.
-<anim id="FaintSmile" target="actor" targetSpec="" />Бывай!<delay20 /> <anim id="Laughing" target="actor" targetSpec="" />И не забывай следовать
-моим советам!</message>
+<anim id="FaintSmile" target="actor" targetSpec="" />Ну, развлекайся!</message>
 	<message label="126" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Просто сообщи свой Додо-код™
 (<colour id="1" /><tag a="110" b="26" /><colour id="65535" />) тому, кого хочешь
 пригласить.<delay20 /><anim id="EmotEnd" target="actor" targetSpec="" /> Проще простого!</message>
@@ -274,6 +275,12 @@
 к Интернету для игры онлайн<tag a="110" b="0" /></message>
 	<message label="130_a" attrib="00 00 00 00">Ладно!</message>
 	<message label="130_b" attrib="00 00 00 00">Знаешь, не надо.</message>
+	<message label="140" attrib="00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Ой! <delay20 />Похоже, там кто-то <anim id="Oops" target="actor" targetSpec="" />закрыл гейт.</message>
+	<message label="150" attrib="02 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Не хочешь слетать в другое место?
+<delay20 /><anim id="EmotEnd" target="actor" targetSpec="" />Я могу поискать что-нибудь
+подходящее.</message>
+	<message label="150_a" attrib="00 00 00 00">Поищи!</message>
+	<message label="150_b" attrib="00 00 00 00">Тогда в другой раз.</message>
 	<message label="200" attrib="06 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />И снова приветствую!<delay frames="40" /> <anim id="QuestionMark" target="actor" targetSpec="" />Чем могу
 быть полезен?</message>
 	<message label="200_a" attrib="00 00 00 00">Открыть гейт.</message>
@@ -284,9 +291,16 @@
 быть полезен?</message>
 	<message label="201_a" attrib="00 00 00 00">Открыть гейт.</message>
 	<message label="201_b" attrib="00 00 00 00">Прервать связь.</message>
-	<message label="201_c" attrib="00 00 00 00">Я забыл<gender2 m="" f="а" /> Додо-код.</message>
+	<message label="201_c" attrib="00 00 00 00">Я забыл<gender2 m="" f="а" /> Додо-код™.</message>
 	<message label="201_d" attrib="00 00 00 00">Хочу путешествовать.</message>
 	<message label="201_e" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Ничего не надо.</message>
+	<message label="202" attrib="08 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />И снова приветствую!<delay frames="40" /> <anim id="QuestionMark" target="actor" targetSpec="" />Чем могу
+быть полезен?</message>
+	<message label="202_a" attrib="00 00 00 00">Открыть гейт.</message>
+	<message label="202_b" attrib="00 00 00 00">Прервать связь.</message>
+	<message label="202_c" attrib="00 00 00 00">Я забыл<gender2 m="" f="а" /> пароль.</message>
+	<message label="202_d" attrib="00 00 00 00">Хочу путешествовать.</message>
+	<message label="202_e" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Ничего не надо.</message>
 	<message label="210" attrib="04 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />И снова приветствую!<delay frames="40" /> <anim id="QuestionMark" target="actor" targetSpec="" />Чем могу
 быть полезен?</message>
 	<message label="210_a" attrib="00 00 00 00">Закрыть гейт.</message>
@@ -295,9 +309,15 @@
 	<message label="211" attrib="06 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />И снова приветствую!<delay frames="40" /> <anim id="QuestionMark" target="actor" targetSpec="" />Чем могу
 быть полезен?</message>
 	<message label="211_a" attrib="00 00 00 00">Закрыть гейт.</message>
-	<message label="211_b" attrib="00 00 00 00">Я забыл<gender2 m="" f="а" /> Додо-код.</message>
+	<message label="211_b" attrib="00 00 00 00">Я забыл<gender2 m="" f="а" /> Додо-код™.</message>
 	<message label="211_c" attrib="00 00 00 00">Хочу путешествовать.</message>
 	<message label="211_d" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Ничего не надо.</message>
+	<message label="212" attrib="06 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />И снова приветствую!<delay frames="40" /> <anim id="QuestionMark" target="actor" targetSpec="" />Чем могу
+быть полезен?</message>
+	<message label="212_a" attrib="00 00 00 00">Закрыть гейт.</message>
+	<message label="212_b" attrib="00 00 00 00">Я забыл<gender2 m="" f="а" /> пароль.</message>
+	<message label="212_c" attrib="00 00 00 00">Хочу путешествовать.</message>
+	<message label="212_d" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Ничего не надо.</message>
 	<message label="220" attrib="02 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Передумал<gender2 m="" f="а" /> приглашать гостей?
 <delay20 /><anim id="QuestionMark" target="actor" targetSpec="" />Захотелось попутешествовать?</message>
 	<message label="220_a" attrib="00 00 00 00">Да!</message>
@@ -307,8 +327,12 @@
 	<message label="222" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Отключить связь и закрыть гейт?<10_4 />
 <anim id="FaintSmile" target="actor" targetSpec="" />Ну, гостей сейчас нет, так что без
 проблем!</message>
-	<message label="223" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Сейчас! <delay20 />Код — <delay20 /><anim id="FaintSmile" target="actor" targetSpec="" /> <colour id="1" /><tag a="110" b="26" /><colour id="65535" />!</message>
-	<message label="251" attrib="00 00 00 00" />
+	<message label="223" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Сейчас! <delay20 />Код — <delay20 /><anim id="FaintSmile" target="actor" targetSpec="" /><colour id="1" /><tag a="110" b="26" /><colour id="65535" />!</message>
+	<message label="224" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Сейчас! <delay20 />Код — <delay20 /><anim id="FaintSmile" target="actor" targetSpec="" /><colour id="1" /><tag a="110" b="25" /><colour id="65535" />!</message>
+	<message label="251_01" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Запросто!<delay frames="40" /> <anim id="EmotEnd" target="actor" targetSpec="" />Радиомолчание!<delay20 />
+Отключаю связь...</message>
+	<message label="251_02" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Спасибо, что воспользовал<gender2 m="ся" f="ась" />
+нашими услугами!</message>
 	<message label="252" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Готово.<delay20 /> Если захочешь кого-то
 впустить,<delay frames="30" /><anim id="EmotEnd" target="actor" targetSpec="" /> дай мне знать, и я снова
 открою.</message>
@@ -319,12 +343,20 @@
 гостей с другого острова!</message>
 	<message label="301" attrib="04 00 00 00">Кстати,<delay20 /><anim id="QuestionMark" target="actor" targetSpec="" /> чем могу быть полезен?</message>
 	<message label="301_a" attrib="00 00 00 00">Открыть гейт.</message>
-	<message label="301_b" attrib="00 00 00 00">Я забыл<gender2 m="" f="а" /> Додо-код.</message>
+	<message label="301_b" attrib="00 00 00 00">Я забыл<gender2 m="" f="а" /> Додо-код™.</message>
 	<message label="301_c" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Ничего не надо.</message>
 	<message label="302" attrib="04 00 00 00">Кстати,<delay20 /><anim id="QuestionMark" target="actor" targetSpec="" /> чем могу быть полезен?</message>
 	<message label="302_a" attrib="00 00 00 00">Закрыть гейт.</message>
-	<message label="302_b" attrib="00 00 00 00">Я забыл<gender2 m="" f="а" /> Додо-код.</message>
+	<message label="302_b" attrib="00 00 00 00">Я забыл<gender2 m="" f="а" /> Додо-код™.</message>
 	<message label="302_c" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Ничего не надо.</message>
+	<message label="303" attrib="04 00 00 00">Кстати,<delay20 /><anim id="QuestionMark" target="actor" targetSpec="" /> чем могу быть полезен?</message>
+	<message label="303_a" attrib="00 00 00 00">Открыть гейт.</message>
+	<message label="303_b" attrib="00 00 00 00">Я забыл<gender2 m="" f="а" /> пароль.</message>
+	<message label="303_c" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Ничего не надо.</message>
+	<message label="304" attrib="04 00 00 00">Кстати,<delay20 /><anim id="QuestionMark" target="actor" targetSpec="" /> чем могу быть полезен?</message>
+	<message label="304_a" attrib="00 00 00 00">Закрыть гейт.</message>
+	<message label="304_b" attrib="00 00 00 00">Я забыл<gender2 m="" f="а" /> пароль.</message>
+	<message label="304_c" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Ничего не надо.</message>
 	<message label="305" attrib="02 00 00 00">Кстати,<delay20 /><anim id="QuestionMark" target="actor" targetSpec="" /> чем могу быть полезен?</message>
 	<message label="305_a" attrib="00 00 00 00">Открыть гейт.</message>
 	<message label="305_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Ничего не надо.</message>
@@ -345,7 +377,7 @@
 ограничение на свободное общение
 в родительском контроле.</message>
 	<message label="700" attrib="02 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Привет! Остров <tag a="110" b="8" /> всегда рад гостям!<delay40 /> <anim id="QuestionMark" target="actor" targetSpec="" />Чем могу помочь?</message>
-	<message label="700_a" attrib="00 00 00 00">Хочу домой!</message>
+	<message label="700_a" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Хочу домой!</message>
 	<message label="700_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Ничего не надо.</message>
 	<message label="701" attrib="00 00 00 00">Понял! <delay20 /><anim id="FaintSmile" target="actor" targetSpec="" />Скажи, когда соберешься
 на взлет.</message>
@@ -360,8 +392,8 @@
 	<message label="900_02" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Остров Харви?<delay frames="40" /> <snpcAnim id="DodRoger" target="actor" targetSpec="" /><delay20 />Все понял!<delay frames="50" /><anim id="EmotEnd" target="actor" targetSpec="" /></message>
 	<message label="901" attrib="02 00 00 00">Самолет готов,<delay20 /><anim id="QuestionMark" target="actor" targetSpec="" /> но у тебя-то весь
 багаж с собой? Ничего не забыл<gender2 m="" f="а" />?</message>
-	<message label="901_a" attrib="00 00 00 00">Пора в полет!</message>
-	<message label="901_b" attrib="00 00 00 00">Ничего не надо.</message>
+	<message label="901_a" attrib="00 00 00 00">Я готов<gender2 m="" f="а" />!</message>
+	<message label="901_b" attrib="00 00 00 00">Я передумал<gender2 m="" f="а" />.</message>
 	<message label="903" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Ясно. <delay20 /><anim id="FaintSmile" target="actor" targetSpec="" />Ну, тогда в другой раз. <delay20 />Пока!</message>
 	<message label="998" attrib="00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" /><delay20 />Ой, подожди!<delay40 /> <anim id="Smiling" target="actor" targetSpec="" />Мы предоставляем
 почтовые услуги только тем, кто

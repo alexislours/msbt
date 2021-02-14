@@ -1,10 +1,5 @@
 <msbt attribsize="8">
-	<message label="001" attrib="00 00 00 00 00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />¡Hola, <tag a="110" b="3" />!<delay8 />
-<anim id="Smiling" target="actor" targetSpec="" />Estábamos hablando de comida,
-¿sabes?
-¡<tag a="50" b="3" /><tag a="110" b="31" arg="0xcd01" /> conoce un
-montón de platos <anim id="FaintSmile" target="subNpc" targetSpec="" />que a mí ni me
-suenan!<anim id="EmotEnd" target="subNpc" targetSpec="" /></message>
+	<message label="001" attrib="00 00 00 00 00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />¡Hola, <tag a="110" b="3" />!<delay8 /> <anim id="Smiling" target="actor" targetSpec="" />Estábamos hablando de comida, ¿sabes?<pageBreak />¡<tag a="50" b="3" /><tag a="110" b="31" arg="0xcd01" /> conoce un montón de platos <anim id="FaintSmile" target="subNpc" targetSpec="" />que a mí ni me suenan!<anim id="EmotEnd" target="subNpc" targetSpec="" /></message>
 	<message label="002" attrib="00 00 00 00 00 00 00 00">No vayas diciendo eso por toda la
 isla,<delay8 /> <20_3 arg="7" /><20_3 arg="5" /><anim id="EmotEnd" target="actor" targetSpec="" />que tampoco quiero que
 piensen que soy un presuntuoso<tag a="110" b="0" /><anim id="EmotEnd" target="subNpc" targetSpec="" /></message>
@@ -16,8 +11,8 @@ aceite de oliva y sazonados con sal
 de primera calidad.
 <20_2 arg="8" /><anim id="HappyFlower" target="actor" targetSpec="" />¡Con pan está de<delay8 />li<delay8 />cio<delay8 />so!</message>
 	<message label="004" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="subNpc" targetSpec="" />Jo<tag a="110" b="0" /><delay8 /><anim id="Love" target="actor" targetSpec="" /> ¡qué suerte!<10_4 />
-<anim id="Pardon" target="actor" targetSpec="" />Yo ayer cené unos simples huevos
-fritos con patatas.<anim id="Shocked" target="subNpc" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" /></message>
+<anim id="Pardon" target="actor" targetSpec="" />Yo ayer cené unos simples
+huevos fritos con patatas.<anim id="Shocked" target="subNpc" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" /></message>
 	<message label="005" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Aunque ayer para almorzar tomé un
 manjar a base de fina masa de harina
 de trigo,<20_2 arg="8" /> tomate fresco y mozarella.</message>
@@ -34,24 +29,23 @@ de los lados de cada rebanada.
 	<message label="008" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="subNpc" targetSpec="" />Vaya<tag a="110" b="0" /><delay8 /> <anim id="Eh" target="actor" targetSpec="" />¡Qué platos más chachis que
 comes!<delay20 /> <anim id="BigSmile" target="actor" targetSpec="" />Yo desayuné dos simples
 tostadas con mermelada.<anim id="Shocked" target="subNpc" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" /></message>
-	<message label="009" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="mainNpc" targetSpec="" />¿Qué es todo eso?<delay20 /> Lo que comes
+	<message label="009" attrib="00 00 00 00 00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />Qué interesante<tag a="110" b="0" /><delay20 /> <anim id="FaintSmile" target="mainNpc" targetSpec="" />Lo que comes
 suena la mar de tradicional<tag a="110" b="0" /><pageBreak /><anim id="Nodding" target="actor" targetSpec="" />¡A lo mejor debería probarlo para ver
-si sabe tan exótico como suena,
-<tag a="110" b="6" />!</message>
+si sabe tan exótico como suena, <tag a="110" b="6" />!</message>
 	<message label="101" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Oye, <tag a="110" b="31" arg="0xcd01" />,<delay8 /> adivina qué estoy pensando<tag a="110" b="0" /><delay20 /> <anim id="Pardon" target="actor" targetSpec="" />¡ahora mismo!<anim id="Eh" target="subNpc" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" /></message>
 	<message label="102" attrib="00 00 00 00 00 00 00 00">¿En qué estás pensando, dices?<delay20 />
 <anim id="Thinking" target="actor" targetSpec="" />Vamos a ver<tag a="110" b="0" /></message>
-	<message label="103" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Te encantan las siestas,<delay8 /> ¿así que
-estás pensando en el sueño que has
-tenido en tu última cabezadita?<anim id="Shocked" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="mainNpc" targetSpec="" /></message>
+	<message label="103" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Te encantan las siestas,<delay8 /> así que
+¿estás pensando en el sueño que
+has tenido en tu última cabezadita?<anim id="Shocked" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="mainNpc" targetSpec="" /></message>
 	<message label="104" attrib="00 00 00 00 00 00 00 00"><anim id="HappyDance" target="actor" targetSpec="" />¡He soñado que estaba en un enorme
-cubo de <tag a="135" b="7" arg="0xcd00" />!<pageBreak /><anim id="Love" target="actor" targetSpec="" />Y por más que comía,<delay8 />
+cubo de <tag a="135" b="7" arg="0xcd00" />!<pageBreak /><anim id="Love" target="actor" targetSpec="" />Y, por más que comía,<delay8 />
 ¡no se acababa nunca!<pageBreak /><anim id="BigSmile" target="actor" targetSpec="" />¡Increíble!<delay8 />
 ¿Cómo lo has sabido?</message>
 	<message label="105" attrib="00 00 00 00 00 00 00 00">Pues teniendo en cuenta lo que te
 gusta la pitanza,<delay8 /> <anim id="Laughing" target="actor" targetSpec="" />¡estarás pensando
 en tu cena de esta noche!<anim id="Shocked" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="mainNpc" targetSpec="" /></message>
-	<message label="106" attrib="00 00 00 00 00 00 00 00">¡<tag a="50" b="3" /><tag a="110" b="5" />! <delay frames="40" /><anim id="FaintSmile" target="actor" targetSpec="" /><anim id="WrySmile" target="actor" targetSpec="" /><delay8 />Sí<tag a="110" b="0" /><delay20 /> no sé si cenar <tag a="135" b="3" arg="0xcd00" /> o <tag a="135" b="3" arg="0xcd01" />.<pageBreak /><anim id="Oops" target="actor" targetSpec="" />Anoche estuve toda la noche en vela
+	<message label="106" attrib="00 00 00 00 00 00 00 00">¡<tag a="50" b="3" /><tag a="110" b="5" />! <delay frames="40" /><anim id="FaintSmile" target="actor" targetSpec="" /><anim id="WrySmile" target="actor" targetSpec="" /><delay8 />Sí<tag a="110" b="0" /><delay20 /> No sé si cenar <tag a="135" b="3" arg="0xcd00" /> o <tag a="135" b="3" arg="0xcd01" />.<pageBreak /><anim id="Oops" target="actor" targetSpec="" />Anoche estuve toda la noche en vela
 con esto<tag a="110" b="0" /> ¿Cómo lo has sabido?</message>
 	<message label="107" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Siempre andas detrás de sabores
 vanguardistas para tus papilas
@@ -78,10 +72,7 @@ oculto,<delay8 /> <tag a="110" b="31" arg="0xcd00" />?</message>
 tú también?<anim id="Shocked" target="subNpc" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" /><anim id="EmotEnd" target="actor" targetSpec="" /></message>
 	<message label="204" attrib="00 00 00 00 00 00 00 00"><anim id="ShyBoy" target="actor" targetSpec="" />Yo soy de los que crean su propio
 estilo más que copiarlo de los demás,<delay8 />
-pero si insistes<tag a="110" b="0" /><pageBreak /><anim id="Dance" target="actor" targetSpec="" />«¡Soy yo, <tag a="110" b="10" />,<delay8 /> y
-siempre puedes contar conmigo!<delay20 />
-<anim id="EmotEnd" target="actor" targetSpec="" />Ejem<tag a="110" b="0" /><delay20 /> <anim id="Aha" target="mainNpc" targetSpec="" />¡<tag a="50" b="3" /><tag a="110" b="5" />!»
-<anim id="QuestionMark" target="actor" targetSpec="" />Bueno,<delay8 /> ¿qué te parece?<anim id="EmotEnd" target="actor" targetSpec="" /><anim id="EmotEnd" target="mainNpc" targetSpec="" /></message>
+pero si insistes<tag a="110" b="0" /><pageBreak /><anim id="Dance" target="actor" targetSpec="" />«¡Soy yo, <tag a="110" b="31" arg="0xcd01" />,<delay8 /> y siempre puedes contar conmigo!<delay20 /> <anim id="EmotEnd" target="actor" targetSpec="" />Ejem<tag a="110" b="0" /><delay20 /> <anim id="Aha" target="mainNpc" targetSpec="" />¡⁠<tag a="50" b="3" /><tag a="110" b="5" />!»<pageBreak /><anim id="QuestionMark" target="actor" targetSpec="" />Bueno,<delay8 /> ¿qué te parece?<anim id="EmotEnd" target="actor" targetSpec="" /><anim id="EmotEnd" target="mainNpc" targetSpec="" /></message>
 	<message label="205" attrib="00 00 00 00 00 00 00 00"><anim id="Clapping" target="actor" targetSpec="" />¡Genial, <tag a="110" b="31" arg="0xcd01" />!<pageBreak /><anim id="Smiling" target="subNpc" targetSpec="" />¡Me ha encantado oír mi muletilla
 de los labios de alguien tan molón
 como tú!</message>

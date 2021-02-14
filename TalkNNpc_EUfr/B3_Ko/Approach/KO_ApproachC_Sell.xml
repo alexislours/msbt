@@ -11,7 +11,7 @@ drôlement bien, <tag a="110" b="3" /> !<pageBreak /><anim id="ShyBoy" target="a
 de liquidité.<pageBreak />Du coup,<delay8 /> je dois me séparer de
 quelques trésors<tag a="110" b="0" /> quatre pour être
 précis.<delay20 /> <anim id="Scheming" target="actor" targetSpec="" />T'as envie d'y jeter un œil ?</message>
-	<message label="003_a" attrib="00 00 00 00 00 00 00 00">Allez, fais voir.</message>
+	<message label="003_a" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Allez, fais voir.</message>
 	<message label="003_b" attrib="00 00 00 00 00 00 00 00">Non merci.</message>
 	<message label="004" attrib="00 00 02 00 00 00 00 00"><anim id="ShyBoy" target="actor" targetSpec="" />Hé, <tag a="110" b="3" />. <delay20 />T'aurais une minute ?<delay20 /> <anim id="Serious" target="actor" targetSpec="" />Je suis dans une situation plutôt épineuse<tag a="110" b="0" /><pageBreak /><anim id="Thinking" target="actor" targetSpec="" />J'ai comme qui dirait flashé sur <tag a="50" b="2" /><tag a="125" b="0" arg="0x0" /><tag a="110" b="0" /><pageBreak /><anim id="Frantic" target="actor" targetSpec="" />... et je crois que j'ai contracté la
 fièvre acheteuse !<10_4 /> <anim id="Oops" target="actor" targetSpec="" />Même que j'ai
@@ -40,7 +40,7 @@ dépannes quand tu en as les moyens.</message>
 séparer pour <tag a="90" b="21" arg="0x2" />.<delay8 />
 Qu'est-ce que t'en dis ?</message>
 	<message label="100_a" attrib="00 00 00 00 00 00 00 00">J'achète !</message>
-	<message label="100_b" attrib="00 00 00 00 00 00 00 00">Mouais...</message>
+	<message label="100_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Mouais...</message>
 	<message label="101" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Marché conclu !</message>
 	<message label="102" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Je compte sur toi pour en prendre
 soin. <delay20 /><anim id="Nodding" target="actor" targetSpec="" />C'est l'une des rares choses
@@ -66,7 +66,7 @@ la fine bouche à l'annonce du prix !</message>
 <anim id="WrySmile" target="actor" targetSpec="" />Puisque c'est comme ça<tag a="110" b="0" /> Je t'en
 propose <tag a="90" b="21" arg="0x2" /> !</message>
 	<message label="201_a" attrib="00 00 00 00 00 00 00 00">Je prends !</message>
-	<message label="201_b" attrib="00 00 00 00 00 00 00 00">Toujours trop cher !</message>
+	<message label="201_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Toujours trop cher !</message>
 	<message label="202" attrib="00 00 00 00 00 00 00 00"><anim id="HappyDance" target="actor" targetSpec="" />Marché conclu !</message>
 	<message label="203" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Étonnamment, c'était un plaisir
 de faire des affaires avec toi !</message>
@@ -75,7 +75,7 @@ en profitera à ta place !</message>
 	<message label="205" attrib="00 00 02 00 00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Dis donc, tu es <gender2 m="dur" f="dure" /> en affaires !<delay20 />
 <anim id="EmotEnd" target="actor" targetSpec="" />Bon<tag a="110" b="0" /><anim id="Hello" target="actor" targetSpec="" /> <tag a="90" b="21" arg="0x1" />, alors ?</message>
 	<message label="205_a" attrib="00 00 00 00 00 00 00 00">Ça me va !</message>
-	<message label="205_b" attrib="00 00 00 00 00 00 00 00">Encore trop cher !</message>
+	<message label="205_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Encore trop cher !</message>
 	<message label="206" attrib="00 00 00 00 00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Désolé, <gender2 m="gamin" f="gamine" />.<delay20 /> Je ne peux pas aller
 plus bas. <delay20 /><anim id="FaintSmile" target="actor" targetSpec="" />On en reparlera peut-être
 quand tu seras moins <gender2 m="radin" f="radine" />.</message>
@@ -83,10 +83,8 @@ quand tu seras moins <gender2 m="radin" f="radine" />.</message>
 de ma patience ! <delay20 /><anim id="EmotEnd" target="actor" targetSpec="" /><anim id="Serious" target="actor" targetSpec="" /><tag a="90" b="21" arg="0x0" />,<delay8 />
 dernière offre, <tag a="110" b="6" /> !</message>
 	<message label="207_a" attrib="00 00 00 00 00 00 00 00">Je prends !</message>
-	<message label="207_b" attrib="00 00 00 00 00 00 00 00">Dans ce cas, tant pis.</message>
-	<message label="208" attrib="00 00 00 00 00 00 00 00"><anim id="Hot" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="110" b="5" /> !<delay20 /> Faire des affaires
-avec toi, c'est vraiment pas de tout
-repos !</message>
+	<message label="207_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Dans ce cas, tant pis.</message>
+	<message label="208" attrib="00 00 00 00 00 00 00 00"><anim id="Hot" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="110" b="5" /> !<delay20 /> Faire des affaires avec toi, c'est vraiment pas de tout repos !</message>
 	<message label="209" attrib="00 00 00 00 00 00 00 00"><anim id="Grin" target="actor" targetSpec="" />Eh bien, <gender2 m="gamin" f="gamine" />.<delay8 /> Tu m'en auras fait
 voir des vertes et des pas mûres
 sur ce coup !<delay20 /><anim id="Laughing" target="actor" targetSpec="" /> Ha ha ha !</message>
@@ -120,7 +118,7 @@ génération de p'tits difficiles<tag a="110" b="0" /></message>
 	<message label="400" attrib="00 00 02 00 00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />Eh bien<tag a="110" b="0" /> je pensais te l'offrir
 pour <tag a="90" b="21" arg="0x3" />.<delay20 /> <anim id="Hello" target="actor" targetSpec="" />Ça t'irait ?</message>
 	<message label="400_a" attrib="00 00 00 00 00 00 00 00">Tout à fait !</message>
-	<message label="400_b" attrib="00 00 00 00 00 00 00 00">C'est un peu cher...</message>
+	<message label="400_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />C'est un peu cher...</message>
 	<message label="401" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Alors marché conclu !</message>
 	<message label="402" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Pfiou ! <delay8 />On peut dire que tu me
 retires une belle épine de la patte,
@@ -129,19 +127,19 @@ retires une belle épine de la patte,
 la situation pour tenter de négocier<tag a="110" b="0" /><pageBreak /><anim id="Hello" target="actor" targetSpec="" />Puisque c'est comme ça, je t'en
 propose <tag a="90" b="21" arg="0x2" />.<delay8 /> Alors ?</message>
 	<message label="403_a" attrib="00 00 00 00 00 00 00 00">J'achète !</message>
-	<message label="403_b" attrib="00 00 00 00 00 00 00 00">Encore trop cher...</message>
+	<message label="403_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Encore trop cher...</message>
 	<message label="404" attrib="00 00 02 00 00 00 00 00"><anim id="Confused" target="actor" targetSpec="" />T'es <gender2 m="dur, gamin" f="dure, gamine" /><tag a="110" b="0" /><delay20 /> <anim id="Explain" target="actor" targetSpec="" />Bon, <delay8 />je suis prêt
 à descendre à <tag a="90" b="21" arg="0x1" />.<delay20 />
 On a un accord ?</message>
 	<message label="404_a" attrib="00 00 00 00 00 00 00 00">On a un accord !</message>
-	<message label="404_b" attrib="00 00 00 00 00 00 00 00">Toujours trop cher !</message>
+	<message label="404_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Toujours trop cher !</message>
 	<message label="405" attrib="00 00 02 00 00 00 00 00"><anim id="Frantic" target="actor" targetSpec="" />Aïe aïe aïe ! <delay8 />Mais c'est qu'<gender2 m="il" f="elle" /> est
 <gender2 m="décidé" f="décidée" /> à me pousser dans mes
 derniers retranchements !
 <anim id="Assent" target="actor" targetSpec="" />Ultime offre ! <delay8 /><tag a="90" b="21" arg="0x0" /> !
 <delay8 />À prendre ou à laisser !</message>
 	<message label="405_a" attrib="00 00 00 00 00 00 00 00">Alors je prends !</message>
-	<message label="405_b" attrib="00 00 00 00 00 00 00 00">Dans ce cas, je laisse.</message>
+	<message label="405_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Dans ce cas, je laisse.</message>
 	<message label="406" attrib="00 00 00 00 00 00 00 00"><anim id="Hot" target="actor" targetSpec="" />Ouf !<delay20 /> Content de voir qu'on a enfin
 pu trouver un accord, <gender2 m="gamin" f="gamine" />.</message>
 	<message label="407" attrib="00 00 00 00 00 00 00 00"><anim id="Grin" target="actor" targetSpec="" />Je prends note en tout cas que

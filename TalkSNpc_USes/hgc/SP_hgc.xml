@@ -39,12 +39,12 @@ ayudarme una vez más?</message>
 	<message label="009" attrib="00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />Te daré una prenda con el estilo
 <colour id="1" /><tag a="140" b="3" arg="0xcd00" /><colour id="65535" /> que busco.<pageBreak />Para que te des una idea de lo que estoy buscando<tag a="110" b="0" /></message>
 	<message label="010" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />¡Aquí tienes!<delay20 /> Se trata de
-<tag a="50" b="2" /><colour id="1" /><tag a="125" b="0" arg="0x0" /><colour id="65535" />.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Úsal<tag a="50" b="17" arg="0x11 0xcd00 0x2 0x6f 0x2 0x61 0x0" /> como inspiración para vestirte
+<tag a="50" b="2" /><colour id="1" /><tag a="125" b="0" arg="0x0" /><colour id="65535" />.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Úsal<tag a="50" b="17" arg="0x12 0xcd00 0x2 0x6f 0x2 0x61 0x0" /> como inspiración para vestirte
 de pies a cabeza con un estilo
 <colour id="1" /><tag a="140" b="3" arg="0xcd00" /><colour id="65535" />.
 Si no sabes bien qué ponerte, <anim id="Greeting" target="actor" targetSpec="" />solo
 tienes que pensar en prendas que
-combinen con <tag a="50" b="17" arg="0x11 0xcd00 0x4 0xe9 0x6c 0x8 0x65 0x6c 0x6c 0x61 0x0" />.
+combinen con <tag a="50" b="17" arg="0x12 0xcd00 0x4 0xe9 0x6c 0x8 0x65 0x6c 0x6c 0x61 0x0" />.
 <anim id="ShyBoy" target="actor" targetSpec="" />Si llegas a combinar a la perfección
 todo tu atuendo, sería ge<delay8 />nial.</message>
 	<message label="011" attrib="00 00 00 00">Oh<tag a="110" b="0" /><delay20 /><anim id="Negative" target="actor" targetSpec="" /> No tienes espacio en los
@@ -52,7 +52,7 @@ bolsillos. <delay20 /><anim id="EmotEnd" target="actor" targetSpec="" />Ven a ve
 liberado un poco de espacio, ¿sí?</message>
 	<message label="012" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />¡Me quedaré aquí esperando!</message>
 	<message label="013" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />¡Aquí tienes!<delay20 /> Se trata de
-<tag a="50" b="2" /><colour id="1" /><tag a="125" b="0" arg="0x0" /><colour id="65535" />.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Úsal<tag a="50" b="17" arg="0x11 0xcd00 0x2 0x6f 0x2 0x61 0x0" /> como inspiración para vestirte
+<tag a="50" b="2" /><colour id="1" /><tag a="125" b="0" arg="0x0" /><colour id="65535" />.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Úsal<tag a="50" b="17" arg="0x12 0xcd00 0x2 0x6f 0x2 0x61 0x0" /> como inspiración para vestirte
 de pies a cabeza con un estilo
 <colour id="1" /><tag a="140" b="3" arg="0xcd00" /><colour id="65535" />.
 <anim id="FaintSmile" target="actor" targetSpec="" />Si el reto es demasiado difícil, basta
@@ -64,7 +64,7 @@ espacio en tus bolsillos, ¿sí?</message>
 	<message label="015" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />¡Aquí te espero!</message>
 	<message label="016" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />¡Toma! Se trata de
 <tag a="50" b="2" /><colour id="1" /><tag a="125" b="0" arg="0x0" /><colour id="65535" />.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Para mí, tiene totalmente un estilo
-<colour id="1" /><tag a="140" b="3" arg="0xcd00" /><colour id="65535" />,<delay8 /><anim id="BigSmile" target="actor" targetSpec="" /> ¡pero combínal<tag a="50" b="17" arg="0x11 0xcd00 0x2 0x6f 0x2 0x61 0x0" /> como mejor te parezca!</message>
+<colour id="1" /><tag a="140" b="3" arg="0xcd00" /><colour id="65535" />,<delay8 /><anim id="BigSmile" target="actor" targetSpec="" /> ¡pero combínal<tag a="50" b="17" arg="0x12 0xcd00 0x2 0x6f 0x2 0x61 0x0" /> como mejor te parezca!</message>
 	<message label="017" attrib="00 00 00 00">Oh<tag a="110" b="0" /><delay20 /><anim id="Negative" target="actor" targetSpec="" /> Lamento decirte que no tienes
 espacio libre, <tag a="110" b="1" />.<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Ven a verme cuando ya tengas, ¿sí?</message>
 	<message label="018" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />¡Aquí te esperaré!</message>
@@ -297,6 +297,31 @@ diseños!</message>
 en busca de inspiración para crear
 nuevos diseños.
 <anim id="Smiling" target="actor" targetSpec="" />¡En <tag a="110" b="8" /> hay tanta gente interesante que es imposible irse sin aprender algo nuevo!</message>
+	<message label="160" attrib="00 00 00 00"><anim id="Hello" target="actor" targetSpec="" />Ah, te cambiaste, ¡muy bien!<delay20 />
+<anim id="Surprised" target="actor" targetSpec="" />Uy, veo que tienes puesto un diseño
+personalizado.
+<anim id="Worried" target="actor" targetSpec="" />Lo siento, pero tendrás que
+quitártelo si quieres que examine
+el atuendo que has preparado.
+<anim id="FaintSmile" target="actor" targetSpec="" />Vuelve a hablar conmigo cuando
+estés list<gender2 m="o" f="a" />, ¿sí?<delay20 /> ¡Gracias!</message>
+	<message label="161" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />¿Te cambiaste de ropa? ¡Genial!<delay20 />
+<anim id="Aha" target="actor" targetSpec="" />Ah, pero veo que tienes puesto
+un diseño personalizado<tag a="110" b="0" />
+<anim id="Explain" target="actor" targetSpec="" />Tendrás que quitártelo para que
+pueda ver tu atuendo.<delay20 /> ¿Te molesta?<pageBreak /><anim id="Hello" target="actor" targetSpec="" />Ven a hablar conmigo cuando lo
+hayas hecho.<delay20 /> ¡Aquí estaré!</message>
+	<message label="164" attrib="02 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />¿Me permites echarle un vistazo
+a tu atuendo?</message>
+	<message label="164_a" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />¡Por supuesto!</message>
+	<message label="164_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Aún no estoy list<gender2 m="o" f="a" /></message>
+	<message label="165" attrib="02 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />¿Puedo examinar tu atuendo?</message>
+	<message label="165_a" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />¡Claro!</message>
+	<message label="165_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Todavía no...</message>
+	<message label="166" attrib="02 00 00 00"><anim id="Hello" target="actor" targetSpec="" />¡Me encantaría ver tu atuendo!<delay20 />
+<anim id="ShyBoy" target="actor" targetSpec="" />¿Me dejas?</message>
+	<message label="166_a" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />¡Sí!</message>
+	<message label="166_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />¡Todavía no!</message>
 	<message label="200" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Quisiera que me mostraras
 un <colour id="1" />atuendo de fiesta<colour id="65535" />.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Imagina que te invitan a una
 celebración.<delay8 /> ¿Qué te pondrías?</message>

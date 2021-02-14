@@ -30,9 +30,9 @@ of vergezocht<tag a="110" b="0" /><delay frames="40" /> <anim id="HappyFlower" t
 best doen om ze goed te vertellen!</message>
 	<message label="011" attrib="02 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Kan ik je misschien ergens mee
 helpen?</message>
-	<message label="011_a" attrib="00 00 00 00">Moet je dit eens zien!</message>
-	<message label="011_b" attrib="00 00 00 00">Zin om te praten?</message>
-	<message label="012" attrib="00 00 00 00"><anim id="IdeaBulb" target="actor" targetSpec="" />Maar natuurlijk! <delay20 />Wat je daar hebt <tag a="50" b="19" arg="0x11 0xcd00 0x4 0x69 0x73 0x4 0x69 0x73 0x8 0x7a 0x69 0x6a 0x6e" /><tag a="110" b="0" /><delay20 />
+	<message label="011_a" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Moet je dit eens zien!</message>
+	<message label="011_b" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Zin om te praten?</message>
+	<message label="012" attrib="00 00 00 00"><anim id="IdeaBulb" target="actor" targetSpec="" />Maar natuurlijk! <delay20 />Wat je daar hebt <tag a="50" b="19" arg="0x12 0xcd00 0x4 0x69 0x73 0x4 0x69 0x73 0x8 0x7a 0x69 0x6a 0x6e" /><tag a="110" b="0" /><delay20 />
 <tag a="50" b="2" /><tag a="125" b="0" arg="0x0" />!</message>
 	<message label="013" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Nou, toedel-hoe! <delay20 />Hopelijk heb je een
 stralende avond!</message>
@@ -216,11 +216,13 @@ de sterren te maken heeft,<delay20 /> deel ik
 mijn kennis daarover graag met je!</message>
 	<message label="101" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Gegroe-hoe-hoet en een
 goedenavond!<delay frames="40" /> <anim id="EmotEnd" target="actor" targetSpec="" />Woon jij op dit eiland?</message>
-	<message label="102" attrib="00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Ah!<delay20 /> De befaamde <tag a="110" b="1" />!<delay20 /><anim id="HappyFlower" target="actor" targetSpec="" /> Leuk je te ontmoeten. Ik ben <colour id="3" />Celeste<colour id="65535" />!<delay20 /> Mijn broer heeft het vaak over je.<pageBreak /><anim id="Smiling" target="actor" targetSpec="" /><colour id="3" />Blathers <colour id="65535" />blijft maar kwebbelen over
-hoe jij hem hebt geholpen met het
-<colour id="1" />museum<colour id="65535" />. <delay20 /><anim id="Blushing" target="actor" targetSpec="" />Die gekke Blabbelkous!<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Hoe dan ook, bedankt voor al het
-werk dat je voor mijn grote broer
-hebt gedaan!<delay frames="100" /><anim id="EmotEnd" target="actor" targetSpec="" /></message>
+	<message label="102" attrib="00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Aha!<delay20 /> Jij moet de befaamde <tag a="110" b="1" /> zijn!<pageBreak /><anim id="HappyFlower" target="actor" targetSpec="" />Leuk je te ontmoeten. Ik ben <colour id="3" />Celeste<colour id="65535" />!<delay frames="60" />
+<anim id="Nodding" target="actor" targetSpec="" />Wellicht ken je mijn broer, <colour id="3" />Blathers<colour id="65535" />?<delay20 />
+Hij is een museumconservator.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Die <colour id="3" />Blabbelkous<colour id="65535" />,<anim id="Eh" target="actor" targetSpec="" /> eh<tag a="110" b="0" /><delay20 /> mijn lieve
+broer praat graag honderduit over
+van alles en nog wat<tag a="110" b="0" /><pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Als je geen haast hebt, is wat hij
+vertelt vaak nog best interessant.<delay frames="40" /> <anim id="Blushing" target="actor" targetSpec="" />O,
+ik kan er zelf ook wat van!</message>
 	<message label="103" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Ik ben hier op aanraden van <colour id="3" />Blathers<colour id="65535" />
 om de sterrenhemel te bestuderen.
 En<tag a="110" b="0" />	</message>

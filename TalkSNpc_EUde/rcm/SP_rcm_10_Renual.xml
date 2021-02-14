@@ -1,6 +1,7 @@
 <msbt attribsize="4">
-	<message label="002_02" attrib="00 00 00 00"><anim id="HappyDance" target="actor" targetSpec="" />Beehre uns bald wieder!<delay20 />
-<colour id="1" />Nooks Laden <colour id="65535" />freut sich auf dich!<delay frames="40" /><anim id="EmotEnd" target="actor" targetSpec="" /></message>
+	<message label="002_02" attrib="00 00 00 00"><anim id="HappyDance" target="actor" targetSpec="" />Bitte bleib uns weiter treu!<delay20 />
+<colour id="1" />Nooks Laden <colour id="65535" />freut sich auf dich!<delay20 /><anim id="Hello" target="subNpc" targetSpec="" />
+<tag a="100" b="4" /><size value="75" />Ganz doll!<size value="100" /><endTag a="100" b="4" /></message>
 	<message label="002_03" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Aber, <delay8 />äh<tag a="110" b="0" /><delay8 /> <anim id="FaintSmile" target="actor" targetSpec="" />du hast dir ja gerade
 diesen Artikel hier angeschaut...</message>
 	<message label="051" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Hereinspaziert!<delay20 /><anim id="Smiling" target="actor" targetSpec="" /> Es ist so weit!<delay frames="40" /><anim id="EmotEnd" target="actor" targetSpec="" />
@@ -65,11 +66,12 @@ verkaufen möchtest.<delay20 /><anim id="Smiling" target="actor" targetSpec="" /
 mal keine Zeit hast,<delay8 /><anim id="Smiling" target="subNpc" targetSpec="" /> reinzukommen!
 <anim id="Explain" target="mainNpc" targetSpec="" />Den Erlös aus deinem Verkauf?<delay20 />
 Den bekommst du von uns im
-Eiltempo auf dein Konto überwiesen.<pageBreak /><anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="ShyBoy" target="subNpc" targetSpec="" />Zwei Konditiönchen hätte die Sache
+Eiltempo auf dein Konto überwiesen.<pageBreak /><anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="ShyBoy" target="subNpc" targetSpec="" />Drei Konditiönchen hätte die Sache
 nur.<delay20 /> Erstens: <delay8 />Wir berechnen eine
-geringe Gebühr für Kistenkäufe.<pageBreak />Und zweitens: <delay8 />Rüben sowie unser
-Top-Ankauf des Tages dürfen nicht
-in die Box eingeworfen werden.<anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" /></message>
+geringe Gebühr für Kistenkäufe.<pageBreak />Zweitens: <delay8 />Rüben werden nicht
+angenommen.<pageBreak />Und drittens: <delay8 />Für unseren
+Top-Ankauf des Tages bekommst
+du in der Box nur den Normalpreis.<anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" /></message>
 	<message label="061_05" attrib="00 00 00 00"><tag a="110" b="0" /><anim id="Smiling" target="mainNpc" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" />Und das wär's schon!</message>
 	<message label="101" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Hör mal,<delay20 /> <tag a="110" b="1" /><tag a="110" b="0" /><delay frames="40" />
 <anim id="Aha" target="actor" targetSpec="" />Ich weiß was,<delay8 /> das wird dir gefallen!</message>
@@ -89,14 +91,14 @@ Ziemlich kurzfristig,<delay8 /> ich weiß ja<tag a="110" b="0" />
 günstigen Preise und einzigartigen
 Service<tag a="110" b="0" /><delay8 /><anim id="Nodding" target="actor" targetSpec="" /> Ja,<delay8 /> das wird nicht einfach.<pageBreak />Aber übermorgen sehen wir uns
 dafür doch sicher wieder,<delay8 /> oder?<delay20 /><anim id="Smiling" target="actor" targetSpec="" /></message>
-	<message label="151" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Willkommen in unserem brandneuen,<delay8 />
+	<message label="151" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Willkommen in unserem brandneuen,<anim id="FaintSmile" target="subNpc" targetSpec="" /><delay8 />
 vollrenovierten,<delay8 /> generalüberholten,<delay8 />
-extra ausgebauten Einkaufstempel!<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Und du beehrst uns gleich am
+extra ausgebauten Einkaufstempel!<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" />Und du beehrst uns gleich am
 ersten Tag nach der Neueröffnung!<delay20 />
-<anim id="Hello" target="actor" targetSpec="" />Hach,<delay8 /> womit haben wir DAS verdient!</message>
-	<message label="151_01" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="110" b="1" />! <delay20 />So eine Freude!<delay frames="40" /><anim id="Nodding" target="actor" targetSpec="" />
+<anim id="Hello" target="actor" targetSpec="" /><anim id="FaintSmile" target="subNpc" targetSpec="" />Hach,<delay8 /> womit haben wir DAS verdient!</message>
+	<message label="151_01" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="110" b="1" />! <delay20 /><anim id="FaintSmile" target="subNpc" targetSpec="" />So eine Freude!<delay frames="40" /><anim id="Nodding" target="actor" targetSpec="" />
 Du bist zum ersten Mal hier,<delay8 /> seit wir
-den Laden ausgebaut haben,<delay8 /> oder?<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Tja!<delay20 /> Wie du siehst,<delay8 /> hat uns <anim id="Hello" target="actor" targetSpec="" />der
+den Laden ausgebaut haben,<delay8 /> oder?<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" />Tja!<delay20 /> Wie du siehst,<delay8 /> hat uns <anim id="Hello" target="actor" targetSpec="" /><anim id="FaintSmile" target="subNpc" targetSpec="" />der
 kleine Tapetenwechsel gutgetan!</message>
 	<message label="152" attrib="00 00 00 00"><anim id="HappyDance" target="actor" targetSpec="" />Wir wünschen weiterhin eine
 frohe Schnäppchenjagd hier in

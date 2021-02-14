@@ -9,7 +9,7 @@ Pas de jaloux, non, non.</message>
 	<message label="002" attrib="00 00 00 00"><anim id="WrySmile" target="actor" targetSpec="" />Tu as changé d'avis, hm?<delay20 />
 <anim id="FaintSmile" target="actor" targetSpec="" />Ma foi, je ne bouge pas d'ici, alors
 n'hésite pas à rechanger d'avis.</message>
-	<message label="003_01" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Je vois que tu as mis la patte sur un<tag a="50" b="17" arg="0x11 0xcd00 0x0 0x2 0x65 0x0" />
+	<message label="003_01" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Je vois que tu as mis la patte sur un<tag a="50" b="17" arg="0x12 0xcd00 0x0 0x2 0x65 0x0" />
 autre <tag a="125" b="0" arg="0x0" />?<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Je suis toujours l'heureux
 propriétaire du précédent spécimen,
 tu peux donc garder celui-ci, oui, oui.
@@ -49,7 +49,7 @@ créature à mon ami conservateur?</message>
 	<message label="005_03_a" attrib="00 00 00 00">OK!</message>
 	<message label="005_03_b" attrib="00 00 00 00">Comment dire...</message>
 	<message label="006_01" attrib="00 00 00 00"><anim id="HappyFlower" target="actor" targetSpec="" />Merci!<delay20 /> Je te promets de prendre
-grand soin de ce<tag a="50" b="17" arg="0x11 0xcd00 0x0 0x6 0x74 0x74 0x65 0x0" /> magnifique
+grand soin de ce<tag a="50" b="17" arg="0x12 0xcd00 0x0 0x6 0x74 0x74 0x65 0x0" /> magnifique
 <tag a="125" b="0" arg="0x0" />!</message>
 	<message label="007_01" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />J'espère que tu m'apporteras
 d'autres trouvailles. <delay20 /><anim id="Greeting" target="actor" targetSpec="" />Cela fait partie
@@ -62,9 +62,9 @@ chose<tag a="110" b="0" /></message>
 	<message label="011_01_01" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Ça n'a rien à voir avec le généreux
 don que tu viens de faire, mais j'ai
 une appli fort utile à te montrer.</message>
-	<message label="011_02" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Je t'ai envoyé l'application
+	<message label="011_02" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Je t'ai envoyé l'application
 <colour id="1" />Bibittopédie<colour id="65535" />!<pageBreak />Elle sera d'une aide précieuse <gender2 m="au" f="à la" />
-chercheu<gender2 m="r" f="se" /> en herbe que tu es.<pageBreak /><anim id="Cheering" target="actor" targetSpec="" />Cette simple application te donnera
+chercheu<gender2 m="r" f="se" /> en herbe que tu es.<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Cette simple application te donnera
 tous les détails sur les insectes et
 poissons que tu attrapes.<delay20 /><anim id="FaintSmile" target="actor" targetSpec="" /> Oui, oui!</message>
 	<message label="011_03" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Continue à la remplir en multipliant
@@ -145,10 +145,10 @@ ce genre de choses<tag a="110" b="0" />
 <anim id="WrySmile" target="actor" targetSpec="" />Mais tu as capturé de jolis spécimens
 pour moi, <delay20 /><anim id="Laughing" target="actor" targetSpec="" />alors je ne fais que te
 renvoyer l'ascenseur insulaire!</message>
-	<message label="015_01" attrib="00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Oh, j'ai un appel, un instant!<10_7 arg="90" /></message>
-	<message label="015_02" attrib="00 00 00 00"><colour id="3" /><anim id="QuestionMark" target="actor" targetSpec="" />Thibou<colour id="65535" />, c'est toi?<10_4 /> <anim id="Cheering" target="actor" targetSpec="" />
+	<message label="015_01" attrib="00 00 00 00">Oh, j'ai un appel, un instant!<10_7 arg="90" /></message>
+	<message label="015_02" attrib="00 00 00 13"><colour id="3" /><anim id="QuestionMark" target="actor" targetSpec="" />Thibou<colour id="65535" />, c'est toi?<10_4 /> <anim id="Smiling" target="actor" targetSpec="" />
 Tu tombes à pic, oui, oui.</message>
-	<message label="015_03" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Tu te souviens de ce projet aussi
+	<message label="015_03" attrib="00 00 00 13"><anim id="Nodding" target="actor" targetSpec="" />Tu te souviens de ce projet aussi
 risqué qu'excitant dont je te parlais?<delay20 />
 <anim id="BigSmile" target="actor" targetSpec="" />Eh bien, c'est en excellente voie!
 <anim id="Explain" target="actor" targetSpec="" />Je me trouve actuellement sur une
@@ -157,7 +157,7 @@ risqué qu'excitant dont je te parlais?<delay20 />
 <anim id="HappyFlower" target="actor" targetSpec="" />Oui, oui<tag a="110" b="0" /> la faune y est aussi
 abondante qu'on peut l'imaginer.<delay20 />
 Je te l'avais bien dit!</message>
-	<message label="015_04" attrib="00 00 00 00"><anim id="AbsentMindedness" target="actor" targetSpec="" /><size value="75" />Hm, hm<tag a="110" b="0" /><10_7 arg="60" /><size value="100" /><pageBreak /><anim id="QuestionMark" target="actor" targetSpec="" />Combien d'espèces exactement?<delay frames="40" />
+	<message label="015_04" attrib="00 00 00 13"><anim id="AbsentMindedness" target="actor" targetSpec="" /><size value="75" />Hm, hm<tag a="110" b="0" /><10_7 arg="60" /><size value="100" /><pageBreak /><anim id="QuestionMark" target="actor" targetSpec="" />Combien d'espèces exactement?<delay frames="40" />
 <anim id="Negative" target="actor" targetSpec="" />Malheureusement, je ne peux pas
 encore répondre précisément.
 <anim id="Thinking" target="actor" targetSpec="" />Mais j'ai d'ores et déjà reçu<tag a="110" b="0" /> voyons, voyons<tag a="110" b="0" /> cinq remarquables

@@ -1,5 +1,5 @@
 <msbt attribsize="4">
-	<message label="001" attrib="00 00 00 00"><tag a="10" b="12" /><anim id="Sleepy" target="actor" targetSpec="" /><size value="75" />Uh uuuh<delay frames="8" />.<delay frames="8" />.<delay frames="8" />.<size value="100" /><delay frames="40" /><anim id="Shocked" target="actor" targetSpec="" /><10_8 arg="80" /> <anim id="Surprised" target="actor" targetSpec="" /><delay frames="5" /><size value="150" />CHI È?!<size value="100" /><10_8 arg="30" /></message>
+	<message label="001" attrib="00 00 00 00"><tag a="10" b="12" /><anim id="Sleepy" target="actor" targetSpec="" /><size value="75" />Uh uuuh<delay frames="8" />.<delay frames="8" />.<delay frames="8" />.<size value="100" /><delay frames="40" /><anim id="Shocked" target="actor" targetSpec="" /><10_8 arg="80" /> <anim id="Surprised" target="actor" targetSpec="" /><delay frames="5" /><size value="150" />CHI È?!<size value="100" /><10_8 arg="60" /></message>
 	<message label="002" attrib="00 00 00 00"><anim id="Frantic" target="actor" targetSpec="" />Uuuh! <delay8 />Perdonami!<delay frames="40" /> Sono un animale
 notturno e di giorno devo recuperare
 il sonno perduto.<pageBreak /><anim id="Eh" target="actor" targetSpec="" />Allora<tag a="110" b="0" /></message>
@@ -46,13 +46,17 @@ utile?</message>
 	<message label="015" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Molto bene, <delay frames="30" /><anim id="EmotEnd" target="actor" targetSpec="" />ti auguro una buona
 permanenza all'interno del nostro
 museo!</message>
-	<message label="016" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Non c'è fretta!<delay20 /><anim id="Serious" target="actor" targetSpec="" /> Dai un'occhiata in giro<tag a="110" b="0" /><anim id="EmotEnd" target="actor" targetSpec="" /></message>
-	<message label="017" attrib="06 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Mh? <delay8 />Uuuh! <anim id="EmotEnd" target="actor" targetSpec="" /><delay8 /><anim id="Nodding" target="actor" targetSpec="" />Come posso aiutarti?</message>
+	<message label="016" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Non c'è fretta!<delay20 /><anim id="Serious" target="actor" targetSpec="" /> Dai un'occhiata in
+giro e prenditi tutto il tempo che
+vuoi<tag a="110" b="0" /><anim id="EmotEnd" target="actor" targetSpec="" /></message>
+	<message label="017" attrib="06 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Ah, <delay8 />ma prima<tag a="110" b="0" /><delay20 /><anim id="Hello" target="actor" targetSpec="" /> Come posso aiutarti,
+<delay8 />uuuh?</message>
 	<message label="017_a" attrib="00 00 00 00">Donazione!</message>
 	<message label="017_b" attrib="00 00 00 00">Esamina fossili.</message>
 	<message label="017_c" attrib="00 00 00 00">Cos'è questa cosa?</message>
 	<message label="017_d" attrib="00 00 00 00">Non importa, grazie.</message>
-	<message label="018" attrib="04 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Mh? <delay8 />Uuuh! <anim id="EmotEnd" target="actor" targetSpec="" /><delay8 /><anim id="Nodding" target="actor" targetSpec="" />Come posso aiutarti?</message>
+	<message label="018" attrib="04 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Ah, <delay8 />ma prima<tag a="110" b="0" /><delay20 /><anim id="Hello" target="actor" targetSpec="" /> Come posso aiutarti,
+<delay8 />uuuh?</message>
 	<message label="018_a" attrib="00 00 00 00">Esamina fossili.</message>
 	<message label="018_b" attrib="00 00 00 00">Cos'è questa cosa?</message>
 	<message label="018_c" attrib="00 00 00 00">Non importa, grazie.</message>
@@ -114,19 +118,17 @@ ospiti ci onorano della loro presenza.
 <anim id="EmotEnd" target="actor" targetSpec="" />Sono molto spiacente, uh uuuh!<delay frames="13" />
 <anim id="Nodding" target="actor" targetSpec="" />Spero comunque di rivederti presto.</message>
 	<message label="104" attrib="00 00 00 00"><anim id="Pardon" target="actor" targetSpec="" />Uh,<delay8 /> benissimo!<delay frames="40" /><anim id="HappyDance" target="actor" targetSpec="" /> Cosa pensavi di
-donare al nostro museo?<delay20 /><anim id="Love" target="actor" targetSpec="" /> Non sto
-nelle piume dall'emozione!</message>
+donare?<delay20 /><anim id="Love" target="actor" targetSpec="" /> Non sto nelle piume
+dall'emozione!</message>
 	<message label="105" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Uuuh?<delay20 /><anim id="Pardon" target="actor" targetSpec="" /> Hai cambiato idea?<delay20 />
 <anim id="Nodding" target="actor" targetSpec="" />Sarà per la prossima volta.<delay frames="15" /><anim id="Smiling" target="actor" targetSpec="" /> Siamo
 sempre grati di ricevere donazioni!</message>
-	<message label="106" attrib="00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Uh uuuh! Vedo che hai portato
-diverse cosette!<delay frames="30" /> <anim id="Smiling" target="actor" targetSpec="" />Diamo un'occhiata.
-<delay frames="40" /><tag a="10" b="6" /><anim id="Thinking" target="actor" targetSpec="" />Cos'hai di bello?<delay20 /><endTag a="10" b="6" /><10_8 arg="30" /></message>
+	<message label="106" attrib="00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Uh uuuh!<delay20 /> Vedo che hai portato
+diverse cosette.<delay20 /> <tag a="10" b="6" /><anim id="Thinking" target="actor" targetSpec="" /><10_8 arg="30" />Diamo un'occhiata<tag a="110" b="0" /><delay frames="20" /><endTag a="10" b="6" /><10_8 arg="30" /></message>
 	<message label="109" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Uuuh, sì!<delay frames="30" /><anim id="Smiling" target="actor" targetSpec="" /> Saremo felici di accettare
 queste donazioni!</message>
-	<message label="110" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Uuuh, <delay20 />non preoccuparti!
-<anim id="Smiling" target="actor" targetSpec="" />Lascia fare a me. Ci penso io!<delay20 />
-Uh uuuh!</message>
+	<message label="110" attrib="00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Ah,<delay8 /> non ti disturbare a tirare fuori
+tutto.<delay20 /> <anim id="Smiling" target="actor" targetSpec="" />Lascia fare a me, <delay8 />ci penso io!<anim id="EmotEnd" target="actor" targetSpec="" /></message>
 	<message label="111" attrib="00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Uh! Tra le cose che intendi donare
 ci sono dei doppioni,<delay20 /><anim id="FaintSmile" target="actor" targetSpec="" /> ma a noi serve
 solo un esemplare per tipo.
@@ -168,9 +170,9 @@ per me,<delay20 /> <anim id="Assent" target="actor" targetSpec="" />ti assicuro 
 <anim id="Smiling" target="actor" targetSpec="" /><tag a="50" b="2" /><tag a="125" b="0" arg="0x0" />!</message>
 	<message label="125" attrib="00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Uh uuuh uuuh!<delay8 /> Cosa vedo?<delay20 /> È<tag a="110" b="0" />
 <anim id="BigSmile" target="actor" targetSpec="" /><tag a="50" b="2" /><tag a="125" b="0" arg="0x0" />!</message>
-	<message label="126" attrib="02 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Ma allora<tag a="110" b="0" />?<delay frames="30" /> <anim id="HappyDance" target="actor" targetSpec="" />Sì! Ci sono tutti i pezzi!
+	<message label="126" attrib="02 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Ma allora<tag a="110" b="0" /><delay frames="30" /> <anim id="HappyDance" target="actor" targetSpec="" />Sì! <delay8 />Ci sono tutti i pezzi!
 <delay20 />Abbiamo completato un magnifico
-esemplare di <colour id="1" /><tag a="140" b="0" arg="0xcd00" /><colour id="65535" />!<pageBreak /><anim id="AbsentMindedness" target="actor" targetSpec="" />Uuuh,<delay20 /> è spettacolare!<pageBreak /><anim id="Silent" target="actor" targetSpec="" />Uh<tag a="110" b="0" /> chiedo venia.<delay frames="40" /><anim id="Hesitate" target="actor" targetSpec="" /> Vuoi conoscere meglio <tag a="50" b="1" /><colour id="1" /><tag a="140" b="0" arg="0xcd00" /><colour id="65535" />? Scoprire dettagli interessanti?</message>
+esemplare di <colour id="1" /><tag a="140" b="0" arg="0xcd00" /><colour id="65535" />!<pageBreak /><anim id="AbsentMindedness" target="actor" targetSpec="" />Uuuh,<delay20 /> è spettacolare!<pageBreak /><anim id="Silent" target="actor" targetSpec="" />Uh<tag a="110" b="0" /> chiedo venia.<delay frames="40" /><anim id="Hesitate" target="actor" targetSpec="" /> Vuoi conoscere meglio <tag a="50" b="1" /><colour id="1" /><tag a="140" b="0" arg="0xcd00" /><colour id="65535" />? <delay8 />Scoprire dettagli interessanti?</message>
 	<message label="126_a" attrib="00 00 00 00">Certo!</message>
 	<message label="126_b" attrib="00 00 00 00">Non adesso.</message>
 	<message label="127" attrib="00 00 00 00"><anim id="HappyFlower" target="actor" targetSpec="" />Magnifico!<delay20 /> È un tema affascinante,
@@ -183,9 +185,9 @@ con gratitudine<delay20 /><anim id="FaintSmile" target="actor" targetSpec="" /> 
 contributo.<pageBreak /><anim id="Thinking" target="actor" targetSpec="" />Spero che sia possibile reperire le
 restanti parti<delay20 /><anim id="Serious" target="actor" targetSpec="" /> per esporre un reperto
 nella sua integrità!<delay frames="40" /><anim id="Smiling" target="actor" targetSpec="" /> Buona fortuna!</message>
-	<message label="129_01" attrib="00 00 00 00"><anim id="ShyBoy" target="actor" targetSpec="" />E questo<tag a="110" b="0" /> è quanto. <delay8 /><anim id="Nodding" target="actor" targetSpec="" />E ora mi
-prenderò con gioia cura della tua
-donazione.<pageBreak /><anim id="Thinking" target="actor" targetSpec="" />Speriamo di poter trovare le parti
+	<message label="129_01" attrib="00 00 00 00"><anim id="ShyBoy" target="actor" targetSpec="" />E questo<tag a="110" b="0" /> è quanto. <delay8 /><anim id="Nodding" target="actor" targetSpec="" />Ora, con
+grande gioia, mi prenderò cura
+della tua donazione!<pageBreak /><anim id="Thinking" target="actor" targetSpec="" />Speriamo di poter trovare le parti
 mancanti<delay20 /><anim id="Serious" target="actor" targetSpec="" /> per mostrare il fossile
 intero, in tutta la sua magnificenza!
 <anim id="FaintSmile" target="actor" targetSpec="" />Grazie infinite e che la buona sorte
@@ -195,9 +197,9 @@ sull'argomento? Sono alquanto
 ferrato in materia,<delay8 /> te lo assicuro.</message>
 	<message label="130_a" attrib="00 00 00 00">Sono tutt'orecchi!</message>
 	<message label="130_b" attrib="00 00 00 00">Avrei da fare...</message>
-	<message label="131" attrib="02 00 00 00"><anim id="Silent" target="actor" targetSpec="" />Se vuoi<tag a="110" b="0" /><delay8 /><anim id="Hesitate" target="actor" targetSpec="" /> Posso condividere con te
-le mie conoscenze concernenti
-<tag a="50" b="1" /><tag a="125" b="0" arg="0x0" /><tag a="110" b="0" /></message>
+	<message label="131" attrib="02 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Se vuoi, posso condividere con te le
+mie conoscenze concernenti <tag a="50" b="17" arg="0x12 0xcd00 0xc 0x71 0x75 0x65 0x73 0x74 0x6f 0xc 0x71 0x75 0x65 0x73 0x74 0x61 0x0" />
+<tag a="125" b="0" arg="0x0" />.</message>
 	<message label="131_a" attrib="00 00 00 00">Fai pure!</message>
 	<message label="131_b" attrib="00 00 00 00">Ora non ho tempo...</message>
 	<message label="132" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Ottimo! Con molto piacere!</message>
@@ -207,9 +209,9 @@ non credi?</message>
 sarà per un'altra volta<tag a="110" b="0" /><pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Comunque ti assicuro che<delay20 /><anim id="FaintSmile" target="actor" targetSpec="" /> ci
 prenderemo cura di ciò che ci hai
 tanto generosamente donato!</message>
-	<message label="141" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Uh uuuh!<delay8 /> Grazie tante!<delay20 /> <tag a="110" b="0" /><anim id="Shocked" target="actor" targetSpec="" /> Per tutti i
-gufi!<pageBreak /><anim id="Thinking" target="actor" targetSpec="" />A quanto pare non hai nulla con te
-che possa interessarci, al momento<tag a="110" b="0" /></message>
+	<message label="141" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Uh uuuh!<delay8 /> Grazie tante!<delay20 /><anim id="Shocked" target="actor" targetSpec="" /> Per tutti
+i gufi!<pageBreak /><anim id="Thinking" target="actor" targetSpec="" />A quanto pare non hai nulla con te
+che possa interessarci<tag a="110" b="0" /></message>
 	<message label="142" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Al momento accettiamo <colour id="1" />insetti<colour id="65535" />,<delay20 />
 <colour id="1" />creature acquatiche<colour id="65535" /><delay20 /> e <colour id="1" />fossili <colour id="65535" />già
 esaminati e certificati<tag a="110" b="0" /></message>
@@ -218,7 +220,7 @@ esaminati e certificati<tag a="110" b="0" /></message>
 esaminati<tag a="110" b="0" /></message>
 	<message label="144" attrib="00 00 00 00">Uh uuuh<tag a="110" b="0" /><anim id="SmugFace" target="actor" targetSpec="" /> I fossili devono essere
 esaminati da me.<delay20 /> Se hai un fossile,<delay8 />
-<anim id="Nodding" target="actor" targetSpec="" />lascia che lo identifichi per te!</message>
+<anim id="Nodding" target="actor" targetSpec="" />lascia che te lo identifichi!</message>
 	<message label="145" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Se ti capitasse di trovare qualcosa
 appartenente a queste categorie,<delay20 />
 <anim id="FaintSmile" target="actor" targetSpec="" />considera di donarla!</message>
@@ -243,10 +245,10 @@ sento di dire che si tratta di
 <tag a="50" b="2" /><tag a="125" b="0" arg="0x0" />!</message>
 	<message label="206_03" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Ma certo! Può trattarsi solo di
 <tag a="50" b="2" /><tag a="125" b="0" arg="0x0" />!</message>
-	<message label="209" attrib="00 00 00 00"><tag a="50" b="3" /><tag a="50" b="2" /><tag a="125" b="0" arg="0x0" /><tag a="110" b="0" /><pageBreak /><anim id="Worried" target="actor" targetSpec="" /><tag a="50" b="17" arg="0x11 0xcd00 0x4 0x4c 0x6f 0x4 0x4c 0x61 0x0" /> acquisterei senz'altro per la mia
-collezione personale,<delay8 /> <anim id="Greeting" target="actor" targetSpec="" />ma il museo
-ce l'ha già. Puoi riprender<tag a="50" b="17" arg="0x11 0xcd00 0x4 0x6c 0x6f 0x4 0x6c 0x61 0x0" />.</message>
-	<message label="210" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" /><tag a="50" b="17" arg="0x11 0xcd00 0xc 0x51 0x75 0x65 0x73 0x74 0x6f 0xc 0x51 0x75 0x65 0x73 0x74 0x61 0x0" /> <tag a="125" b="0" arg="0x0" />
+	<message label="209" attrib="00 00 00 00"><tag a="50" b="3" /><tag a="50" b="2" /><tag a="125" b="0" arg="0x0" /> non finisce mai di stupirmi, <delay8 />per <tag a="50" b="17" arg="0x12 0xcd00 0xc 0x71 0x75 0x61 0x6e 0x74 0x69 0xc 0x71 0x75 0x61 0x6e 0x74 0x65 0x0" /> ne abbia <tag a="50" b="17" arg="0x12 0xcd00 0xa 0x76 0x69 0x73 0x74 0x69 0xa 0x76 0x69 0x73 0x74 0x65 0x0" /><tag a="110" b="0" /><pageBreak />L'accetterei volentieri,<delay8 /> però ne
+abbiamo già un esemplare, <delay8 />quindi<tag a="110" b="0" />
+te <tag a="50" b="17" arg="0x12 0xcd00 0x4 0x6c 0x6f 0x4 0x6c 0x61 0x0" /> restituisco, <delay8 />uh uuuh.</message>
+	<message label="210" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" /><tag a="50" b="17" arg="0x12 0xcd00 0xc 0x51 0x75 0x65 0x73 0x74 0x6f 0xc 0x51 0x75 0x65 0x73 0x74 0x61 0x0" /> <tag a="125" b="0" arg="0x0" />
 è certamente molto interessante.<pageBreak /><anim id="Confused" target="actor" targetSpec="" />Mi farebbe piacere una donazione,
 ma al momento abbiamo visite e non
 posso occuparmene.
@@ -267,27 +269,27 @@ della nostra collezione!
 <anim id="Explain" target="actor" targetSpec="" />Il destino vuole che ci manchi una
 sola donazione per perorare la causa
 della costruzione del museo!
-<anim id="ShyBoy" target="actor" targetSpec="" />Quest<tag a="50" b="17" arg="0x11 0xcd00 0x2 0x6f 0x2 0x61 0x0" /> <tag a="125" b="0" arg="0x0" /> potrebbe essere decisiv<tag a="50" b="17" arg="0x11 0xcd00 0x2 0x6f 0x2 0x61 0x0" /> per il nostro progetto.<pageBreak />Cosa ne pensi?<delay frames="13" /><anim id="QuestionMark" target="actor" targetSpec="" /> Vuoi contribuire con
+<anim id="ShyBoy" target="actor" targetSpec="" />Quest<tag a="50" b="17" arg="0x12 0xcd00 0x2 0x6f 0x2 0x61 0x0" /> <tag a="125" b="0" arg="0x0" /> potrebbe essere decisiv<tag a="50" b="17" arg="0x12 0xcd00 0x2 0x6f 0x2 0x61 0x0" /> per il nostro progetto.<pageBreak />Cosa ne pensi?<delay frames="13" /><anim id="QuestionMark" target="actor" targetSpec="" /> Vuoi contribuire con
 questo fossile all'ampliamento del
 nostro amato museo?</message>
 	<message label="212_a" attrib="00 00 00 00">Certamente!</message>
 	<message label="212_b" attrib="00 00 00 00">No, è tutto mio.</message>
 	<message label="213" attrib="02 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Meraviglioso, oserei dire splendido!
 <delay20 /><anim id="Smiling" target="actor" targetSpec="" />Un fossile raro che non fa ancora
-parte della nostra collezione.<pageBreak /><anim id="HappyDance" target="actor" targetSpec="" /><tag a="50" b="17" arg="0x11 0xcd00 0xc 0x51 0x75 0x65 0x73 0x74 0x6f 0xc 0x51 0x75 0x65 0x73 0x74 0x61 0x0" /> <tag a="125" b="0" arg="0x0" /> apporterebbe un contributo notevole alla diffusione di cultura e scienza.<pageBreak />Cosa ne dici?<delay20 /> <anim id="Hesitate" target="actor" targetSpec="" />Ne faresti dono alla
+parte della nostra collezione.<pageBreak /><anim id="HappyDance" target="actor" targetSpec="" /><tag a="50" b="17" arg="0x12 0xcd00 0xc 0x51 0x75 0x65 0x73 0x74 0x6f 0xc 0x51 0x75 0x65 0x73 0x74 0x61 0x0" /> <tag a="125" b="0" arg="0x0" /> apporterebbe un contributo notevole alla diffusione di cultura e scienza.<pageBreak /><anim id="QuestionMark" target="actor" targetSpec="" />Cosa ne dici?<delay20 /> Ne faresti dono alla
 nostra nobile istituzione?</message>
 	<message label="213_a" attrib="00 00 00 00">Certamente!</message>
 	<message label="213_b" attrib="00 00 00 00">No, è tutto mio.</message>
 	<message label="214" attrib="00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Uh uuuh! Quante cose!<delay20 /> <anim id="Thinking" target="actor" targetSpec="" />Fammi
 esaminare attentamente<tag a="110" b="0" /></message>
-	<message label="215" attrib="00 00 00 00"><anim id="Clapping" target="actor" targetSpec="" />Uuuh!<delay20 /> <anim id="HappyDance" target="actor" targetSpec="" />Sono tutti fossili che non
+	<message label="215" attrib="00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Uuuh!<delay20 /> <anim id="HappyDance" target="actor" targetSpec="" />Sono tutti fossili che non
 fanno ancora parte della nostra
 collezione.<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Mi sorprende la tua capacità di
 reperire fossili di valore!</message>
-	<message label="216" attrib="00 00 00 00"><anim id="Clapping" target="actor" targetSpec="" />Uh uuuh!<delay20 /> <anim id="Smiling" target="actor" targetSpec="" />Tra questi fossili c'è
+	<message label="216" attrib="00 00 00 00"><anim id="HappyFlower" target="actor" targetSpec="" />Uh uuuh!<delay20 /> Tra questi fossili c'è
 qualche rarità che non abbiamo
 ancora nella nostra collezione!
-<anim id="HappyFlower" target="actor" targetSpec="" />Sono senza parole!<delay20 /> Sembra che tu
+<anim id="Smiling" target="actor" targetSpec="" />Sono senza parole!<delay20 /> Sembra che tu
 attragga fossili come una calamita!</message>
 	<message label="217" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Spero tu prenda in considerazione
 l'idea di donare ciò che hai trovato.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Lo sviluppo culturale di <tag a="110" b="33" /> è una nobile causa,<delay8 /> ricordalo.<pageBreak /><anim id="Greeting" target="actor" targetSpec="" />Per ora, ti restituisco tutto quanto.
@@ -306,9 +308,9 @@ subito alla nostra collezione!</message>
 	<message label="223" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Ti ringrazio.<delay20 /> <anim id="Thinking" target="actor" targetSpec="" />Uh! Se solo avessimo
 le parti mancanti<tag a="110" b="0" /> potremmo
 ammirare questa creatura per intero!</message>
-	<message label="224" attrib="02 00 00 00"><anim id="Clapping" target="actor" targetSpec="" />Uh uuuh<tag a="110" b="0" /> Ce l'abbiamo fatta!<delay20 /> <anim id="Smiling" target="actor" targetSpec="" />Abbiamo completato <tag a="50" b="1" /><tag a="140" b="0" arg="0xcd00" />!<pageBreak /><anim id="HappyDance" target="actor" targetSpec="" />Che essere straordinario!<pageBreak /><tag a="50" b="3" /><tag a="50" b="1" /><tag a="140" b="0" arg="0xcd00" /> era una
-creatura affascinante. <anim id="Hesitate" target="actor" targetSpec="" />Desideri avere
-qualche informazione in proposito?</message>
+	<message label="224" attrib="02 00 00 00"><anim id="Clapping" target="actor" targetSpec="" />Uh uuuh<tag a="110" b="0" /> Ce l'abbiamo
+fatta!<delay20 /> <anim id="Smiling" target="actor" targetSpec="" />Abbiamo completato
+<tag a="50" b="1" /><tag a="140" b="0" arg="0xcd00" />!<pageBreak /><anim id="HappyDance" target="actor" targetSpec="" />Che essere straordinario!<pageBreak /><tag a="50" b="3" /><tag a="50" b="1" /><tag a="140" b="0" arg="0xcd00" /> era una creatura affascinante. <delay20 /><anim id="Hesitate" target="actor" targetSpec="" />Desideri avere qualche informazione in proposito?</message>
 	<message label="224_a" attrib="00 00 00 00">Certamente!</message>
 	<message label="224_b" attrib="00 00 00 00">Avrei da fare...</message>
 	<message label="225" attrib="00 00 00 00"><anim id="HappyFlower" target="actor" targetSpec="" />Stupendo!<delay8 /> Magnifico!<delay8 /> Vedrai che non
@@ -336,7 +338,7 @@ cosa mi hai portato questa volta!</message>
 	<message label="303" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Ne sei sicur<gender2 m="o" f="a" />?<delay20 /><anim id="Nodding" target="actor" targetSpec="" /> Se desideri avere
 informazioni, puoi rivolgerti a me
 in qualsiasi momento!</message>
-	<message label="304" attrib="00 00 00 00"><anim id="Surprised" target="actor" targetSpec="" />Uh!<delay frames="13" /> O ancora meglio: pfui!<delay20 /><anim id="Worried" target="actor" targetSpec="" /> È<tag a="110" b="0" /> <tag a="50" b="2" /><tag a="125" b="0" arg="0x0" />!<pageBreak /><anim id="Frantic" target="actor" targetSpec="" />Fai attenzione, non farl<tag a="50" b="17" arg="0x11 0xcd00 0x2 0x6f 0x2 0x61 0x0" /> uscire
+	<message label="304" attrib="00 00 00 00"><anim id="Surprised" target="actor" targetSpec="" />Uh!<delay frames="13" /> O ancora meglio: pfui!<delay20 /><anim id="Worried" target="actor" targetSpec="" /> È<tag a="110" b="0" /> <tag a="50" b="2" /><tag a="125" b="0" arg="0x0" />!<pageBreak /><anim id="Frantic" target="actor" targetSpec="" />Fai attenzione, non farl<tag a="50" b="17" arg="0x12 0xcd00 0x2 0x6f 0x2 0x61 0x0" /> uscire
 dalla gabbietta! <size value="75" /><delay20 /><anim id="Shaking" target="actor" targetSpec="" />Tremo solo al pensiero!<size value="100" /></message>
 	<message label="306" attrib="00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Uh e ancora uuuh!<delay20 /><anim id="Smiling" target="actor" targetSpec="" /> Che adorabile <tag a="125" b="0" arg="0x0" />!</message>
 	<message label="308" attrib="02 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Uuuh!<delay frames="13" /> Dobbiamo esaminare questo
@@ -360,24 +362,25 @@ per donarlo al museo?</message>
 	<message label="361" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Uh! Chiedo venia!<delay20 /> Quando parlo di
 fossili <anim id="Blushing" target="actor" targetSpec="" />mi faccio prendere dalla foga
 e non mi fermo più.</message>
-	<message label="362" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Se dipendesse da me, lo comprerei
-subito per la collezione<tag a="110" b="0" /><pageBreak /><anim id="Explain" target="actor" targetSpec="" />Ma vista la precaria situazione
-finanziaria del nuovo museo, devo
-usare molta parsimonia.<pageBreak /><anim id="AbsentMindedness" target="actor" targetSpec="" />Mi dovrò accontentare di ammirare
-questo fossile.<delay20 /> <anim id="FaintSmile" target="actor" targetSpec="" />Ti ringrazio per
-avermelo mostrato!</message>
+	<message label="362" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Personalmente, sarei davvero felice
+di acquistarlo<tag a="110" b="0" /> ma siamo alle prese
+con l'inaugurazione del museo.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />E per realizzare un simile progetto,
+devo essere molto oculato con i fondi
+a disposizione.<pageBreak /><anim id="AbsentMindedness" target="actor" targetSpec="" />Uh uuuh! <delay20 />Per ora mi accontento
+di averlo ammirato.<delay20 /> <anim id="FaintSmile" target="actor" targetSpec="" />Grazie mille
+di avermelo mostrato!</message>
 	<message label="363" attrib="00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Lo acquisterei volentieri per la mia
-collezione personale, ma,<delay20 /><anim id="Negative" target="actor" targetSpec="" /> ahimè, non
-dispongo di una tale somma.
-<anim id="FaintSmile" target="actor" targetSpec="" />Mi dovrò accontentare di ammirare
-questo fossile.<delay20 /> Uh! Ti ringrazio per
-avermelo mostrato!</message>
+collezione personale, ma,<delay20 /><anim id="Negative" target="actor" targetSpec="" /> ahimè,
+non dispongo di una tale somma.
+<anim id="FaintSmile" target="actor" targetSpec="" />Però sono felice di averlo potuto
+ammirare<delay20 /> e ti ringrazio di avermene
+dato la possibilità, <delay20 />uh uuuh!</message>
 	<message label="364" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="50" b="1" /><tag a="125" b="0" arg="0x0" /> non è ancora presente nella nostra collezione.<pageBreak /><anim id="Hesitate" target="actor" targetSpec="" />Prenderesti in considerazione una
 donazione? <delay20 /><anim id="Smiling" target="actor" targetSpec="" />Sarebbe un contributo
 culturale importante per tutti noi.</message>
 	<message label="365_01" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Ammetto che la nostra umile
 collezione non include ancora
-<tag a="50" b="2" /><tag a="125" b="0" arg="0x0" />.<pageBreak /><anim id="Hesitate" target="actor" targetSpec="" />Spero tu voglia donarl<tag a="50" b="17" arg="0x11 0xcd00 0x2 0x6f 0x2 0x61 0x0" /> non appena
+<tag a="50" b="2" /><tag a="125" b="0" arg="0x0" />.<pageBreak /><anim id="Hesitate" target="actor" targetSpec="" />Spero tu voglia donarl<tag a="50" b="17" arg="0x12 0xcd00 0x2 0x6f 0x2 0x61 0x0" /> non appena
 i lavori saranno terminati.</message>
 	<message label="365_02" attrib="00 00 00 00">Comunque, uh, <anim id="Hesitate" target="actor" targetSpec="" />grazie per avermi
 mostrato questa meraviglia!</message>

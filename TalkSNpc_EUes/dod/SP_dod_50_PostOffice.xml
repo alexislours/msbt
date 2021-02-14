@@ -1,4 +1,15 @@
 <msbt attribsize="4">
+	<message label="010" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />¡Ah,<delay8 /> <tag a="110" b="1" />!<delay20 /> <anim id="Smiling" target="actor" targetSpec="" />¿Sabes que es posible enviar postales a los amigos con los que hayas jugado?</message>
+	<message label="020" attrib="00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Pero, antes de que puedas usar
+este servicio,<delay8 /> tengo que informarte
+de ciertos asuntos legales.
+<anim id="ShyBoy" target="actor" targetSpec="" />¿Te importaría leerte esto
+con atención?</message>
+	<message label="040" attrib="02 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Bueno, ahora que ya nos hemos
+quitado esto de encima,<delay8 /> <anim id="QuestionMark" target="actor" targetSpec="" />¿quieres
+probar a enviar una postal?</message>
+	<message label="040_a" attrib="00 00 00 00">¡Sí, por favor!</message>
+	<message label="040_b" attrib="00 00 00 00">Pues no...</message>
 	<message label="050" attrib="02 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Oh, ¿quieres enviar una postal?<pageBreak /><anim id="Blushing" target="actor" targetSpec="" />Esto<tag a="110" b="0" /><delay8 /> Por supuesto, pero<tag a="110" b="0" /><delay8 /> deberías
 saber que no se me da demasiado
 bien supervisar varias cosas a la vez.
@@ -9,6 +20,19 @@ mientras nos ocupamos del envío?</message>
 	<message label="051" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Gracias por tu comprensión.<delay20 />
 ¡Muy bien, cerraré las puertas!</message>
 	<message label="052" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />¡Ya podemos proceder!</message>
+	<message label="053" attrib="02 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Oh, ¿quieres enviar una postal?<pageBreak /><anim id="Blushing" target="actor" targetSpec="" />Esto<tag a="110" b="0" /><delay8 /> Por supuesto, pero<tag a="110" b="0" /><delay8 /> deberías
+saber que no se me da demasiado
+bien supervisar varias cosas a la vez.
+<anim id="QuestionMark" target="actor" targetSpec="" />¿Te importa si antes desactivo
+la comunicación inalámbrica?</message>
+	<message label="053_a" attrib="00 00 00 00">¡Adelante!</message>
+	<message label="053_b" attrib="00 00 00 00">No, espera</message>
+	<message label="054" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Gracias por tu comprensión.<delay20 />
+¡Voy a desactivar la comunicación
+inalámbrica!</message>
+	<message label="055" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />¡Claro, tú mandas!<delay20 /> No tocaré nada.<delay20 />
+<anim id="Explain" target="actor" targetSpec="" />Avísame si cambias de opinión y
+quieres usar el servicio postal.</message>
 	<message label="070" attrib="02 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />¿Enviamos una postal entonces?</message>
 	<message label="070_a" attrib="00 00 00 00">¡Sí, por favor!</message>
 	<message label="070_b" attrib="00 00 00 00">Ahora mismo no</message>
@@ -18,6 +42,13 @@ si eres tan amable.<anim id="EmotEnd" target="actor" targetSpec="" /></message>
 	<message label="080_a" attrib="00 00 00 00">A alguien de la isla</message>
 	<message label="080_b" attrib="00 00 00 00">A mi futur<gender2 m="o" f="a" /> yo</message>
 	<message label="080_c" attrib="00 00 00 00">Mejor no...</message>
+	<message label="081" attrib="0c 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Bien, si quieres enviar una postal,<delay8 />
+empieza por decirme a quién,
+si eres tan amable.<anim id="EmotEnd" target="actor" targetSpec="" /></message>
+	<message label="081_a" attrib="00 00 00 00">A alguien de la isla</message>
+	<message label="081_b" attrib="00 00 00 00">A mi futur<gender2 m="o" f="a" /> yo</message>
+	<message label="081_c" attrib="00 00 00 00">A un amigo</message>
+	<message label="081_e" attrib="00 00 00 00">Mejor no...</message>
 	<message label="200" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />¡Recibido! <anim id="QuestionMark" target="actor" targetSpec="" />¿A qué residente de
 la isla?</message>
 	<message label="210_01" attrib="00 00 00 00">¿Es para <tag a="115" b="0" arg="0xcd00" />? ¡Vale!</message>
@@ -32,10 +63,50 @@ así que no puedo aceptar más.
 <anim id="Worried" target="actor" targetSpec="" />Lamento importunarte,<delay8 /> pero ¿te
 importaría volver más tarde y así
 pongo un poco de orden aquí?</message>
+	<message label="301" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />¡Tú mandas! ¿A qué amigo se la
+enviamos?</message>
+	<message label="311" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Para enviar postales,<delay8 /> debes activar
+la comunicación con otros usuarios
+en los ajustes del control parental.</message>
+	<message label="312" attrib="00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />Vaya, vaya<tag a="110" b="0" /><delay20 /> Parece que aún no
+tienes la dirección de ningún amigo.<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Te explico:<delay8 /> para enviar postales a tus
+amigos,<delay8 /> primero tienes que hacerles
+una visita en línea.</message>
 	<message label="320" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />¡Anda!<delay20 /> Pero si hoy ya has enviado
 dos postales a <tag a="115" b="0" arg="0xcd00" />.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Me temo que hasta mañana no
 podrás enviarle ninguna más.<delay20 />
 <anim id="Worried" target="actor" targetSpec="" />Disculpa las molestias.</message>
+	<message label="321" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Bien, vamos a prepararlo todo
+para que puedas enviar postales
+a tus amigos.</message>
+	<message label="350" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Ah, ¿es la primera vez que escribes
+a Nintendo? <anim id="Negative" target="actor" targetSpec="" />Pues debes saber que
+no recibirás ninguna respuesta<tag a="110" b="0" />
+<anim id="Explain" target="actor" targetSpec="" />Eso sí, podrían publicar tu postal en
+su sitio web o en las redes sociales.<pageBreak />Por eso es mejor que no incluyas
+ninguna información personal.<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Y ya está, esas son las advertencias
+legales que tenía que comunicarte.
+¡Ya puedes ponerte a escribir!</message>
+	<message label="351" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Ah, ¿vas a enviar una postal
+a Nintendo?<delay20 /><anim id="BigSmile" target="actor" targetSpec="" /> ¡Qué detallista!</message>
+	<message label="352" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />¡Anda!<delay8 /> Se ve que hoy ya has enviado
+dos postales a Nintendo y ese es
+el límite.
+<anim id="Serious" target="actor" targetSpec="" />Me temo que hasta mañana no
+podrás enviar ninguna más.<delay20 />
+<anim id="Pardon" target="actor" targetSpec="" />Disculpa las molestias.</message>
+	<message label="353" attrib="00 00 00 00">¡Perfecto! Voy a poner en marcha
+el sistema de contacto con
+Nintendo<tag a="110" b="0" /></message>
+	<message label="380" attrib="02 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Huy, parece que ha habido algún
+problemilla. <delay20 /><anim id="QuestionMark" target="actor" targetSpec="" />¿Quieres que volvamos
+a probar ahora o mejor más tarde?</message>
+	<message label="380_a" attrib="00 00 00 00">¡Ahora!</message>
+	<message label="380_b" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />En otro momento...</message>
+	<message label="381" attrib="00 00 00 00"><anim id="Hello" target="actor" targetSpec="" />Entendido.<delay20 /> Entonces te devuelvo
+las bayas.</message>
+	<message label="382" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Ah, y te devuelvo también el regalo
+que ibas a enviar con la postal, claro.</message>
 	<message label="400" attrib="00 00 00 00" />
 	<message label="401" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Entonces, ¿a qué fecha del futuro
 enviamos la postal?</message>
@@ -95,7 +166,7 @@ continuar en otro momento.</message>
 lo que has hecho hasta ahora por si
 quieres seguir en otro momento.</message>
 	<message label="522" attrib="00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Ah, ¿ya no te motiva esa postal?<delay20 />
-<anim id="FaintSmile" target="actor" targetSpec="" />¡Recibido!<delay20 /> <10_4 /><anim id="Smiling" target="actor" targetSpec="" />Avísame si vuelves a
+<anim id="Smiling" target="actor" targetSpec="" />¡Recibido!<delay20 /> Avísame si vuelves a
 necesitar mi ayuda.</message>
 	<message label="523" attrib="00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />¿Lo dejas por el momento?<delay20 /> <anim id="FaintSmile" target="actor" targetSpec="" />¡Ningún
 problema!<delay20 /> Avísame si te animas
@@ -127,8 +198,19 @@ enviarle nada a <tag a="115" b="1" arg="0xcd00" />.<pageBreak /><anim id="Questi
 	<message label="620" attrib="01 00 00 00">¿A quién quieres enviar la postal?</message>
 	<message label="620_a" attrib="00 00 00 00">A alguien de la isla</message>
 	<message label="620_b" attrib="00 00 00 00">A mi futur<gender2 m="o" f="a" /> yo</message>
+	<message label="621" attrib="0b 00 00 00">¿A quién quieres enviar la postal?</message>
+	<message label="621_a" attrib="00 00 00 00">A alguien de la isla</message>
+	<message label="621_b" attrib="00 00 00 00">A mi futur<gender2 m="o" f="a" /> yo</message>
+	<message label="621_c" attrib="00 00 00 00">A un amigo</message>
+	<message label="621_d" attrib="00 00 00 00">A Nintendo</message>
+	<message label="625" attrib="00 00 00 00">Ah, veo que ya habías pagado por
+el envío.<pageBreak />Déjame devolverte las bayas primero
+y luego cambias el destinatario, ¿sí?</message>
 	<message label="630" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Muy bien; pues se va a la papelera.
 ¡Aquí se recicla todo!</message>
+	<message label="631" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Muy bien;<delay8 /> la postal ya está lista para
+reciclarla y enseguida te devuelvo
+las 200 bayas que habías abonado<tag a="110" b="0" /></message>
 	<message label="800" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />¡Gracias por depositar
 tu confianza en Dodo Airlines!</message>
 	<message label="801" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />De acuerdo. <delay20 />Tú avísame cuando

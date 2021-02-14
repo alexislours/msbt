@@ -36,8 +36,8 @@ un premio?</message>
 	<message label="005_a" attrib="00 00 00 00">Sì.</message>
 	<message label="005_b" attrib="00 00 00 00">No.</message>
 	<message label="006" attrib="02 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Eh? Che cosa c'è?<anim id="EmotEnd" target="actor" targetSpec="" /></message>
-	<message label="006_a" attrib="00 00 00 00">Voglio usare i punti.</message>
-	<message label="006_b" attrib="00 00 00 00">Niente, non importa.</message>
+	<message label="006_a" attrib="00 00 00 00"><anim id="EmotEnd" target="player" targetSpec="" />Voglio usare i punti.</message>
+	<message label="006_b" attrib="00 00 00 00"><anim id="EmotEnd" target="player" targetSpec="" />Niente, non importa.</message>
 	<message label="010" attrib="00 00 00 00"><anim id="TakenAback" target="actor" targetSpec="" />Un momento.<delay20 /> Non hai più spazio
 disponibile, non puoi ricevere nulla.<pageBreak /><anim id="Serious" target="actor" targetSpec="" />Torna quando avrai fatto un po' di
 pulizia nelle tasche.</message>
@@ -147,8 +147,8 @@ all'<colour id="1" />Insettomania<colour id="65535" />?<delay40 /><anim id="Nodd
 	<message label="029_a" attrib="00 00 00 00">Proviamo!</message>
 	<message label="029_b" attrib="00 00 00 00">Non adesso.</message>
 	<message label="030" attrib="02 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Quindi,<delay20 /> vuoi per caso partecipare
-all'<colour id="1" />Insettomania<colour id="65535" />?<delay40 /> <anim id="EmotEnd" target="actor" targetSpec="" />Il primo round è
-gratis, approfittane!</message>
+all'<colour id="1" />Insettomania<colour id="65535" />?<delay40 /> <anim id="EmotEnd" target="actor" targetSpec="" />Il primo round
+di oggi è gratis, approfittane!</message>
 	<message label="030_a" attrib="00 00 00 00">Proviamo!</message>
 	<message label="030_b" attrib="00 00 00 00">Non adesso.</message>
 	<message label="031" attrib="00 00 00 00"><anim id="Cheering" target="actor" targetSpec="" />L'<colour id="1" />Insettomania <colour id="65535" />è in corso e continuerà fino alle ore <colour id="1" /><tag a="90" b="37" arg="0xcd01" /><colour id="65535" />!<pageBreak />È un'occasione unica per interagire
@@ -183,11 +183,13 @@ totalmente dedicato agli insetti!
 ammiratore di tutto ciò che brulica.
 <delay20 /><anim id="SmugFace" target="actor" targetSpec="" />Noto anche come l'artista artropode.
 <anim id="Blushing" target="actor" targetSpec="" />I grandi eventi non fanno per me,<delay20 /><anim id="AbsentMindedness" target="actor" targetSpec="" />
-ma a questo non potevo proprio dire
-di no!
+ma a questo non potevo proprio
+dire di no!
 <anim id="Greeting" target="actor" targetSpec="" />Ad ogni modo, devi partecipare!<delay20 />
 <anim id="Cheering" target="actor" targetSpec="" />L'<colour id="1" />Insettomania<colour id="65535" /> ti trasporterà nel
-magico mondo degli insetti!</message>
+magico mondo degli insetti!
+Puoi unirti alla festa quando vuoi.
+<delay20 />Si concluderà alle ore <colour id="1" /><tag a="90" b="37" arg="0xcd01" /><colour id="65535" />.</message>
 	<message label="037" attrib="00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />È finalmente arrivato il momento
 dell'<colour id="1" />Insettomania<colour id="65535" />!<delay20 /> Il momento in cui
 entriamo nel mondo degli insetti!
@@ -243,12 +245,12 @@ risposte quindi adesso le ho tutte!</message>
 	<message label="048" attrib="00 00 00 00"><anim id="Blushing" target="actor" targetSpec="" />Oh,<delay20 /> OK.<delay40 /> Io sarò qui anche dopo la
 fine dell'evento, diciamo fino alle
 ore <colour id="1" /><tag a="90" b="37" arg="0xcd02" /><colour id="65535" />.<delay20 /> <size value="75" />Vieni pure quando vuoi!<size value="100" /></message>
-	<message label="049" attrib="06 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Oh,<delay20 /> c-certo!<delay20 /> Mh,<delay20 /> che ne diresti se<tag a="110" b="0" /><delay frames="40" />
-<anim id="Blushing" target="actor" targetSpec="" /><size value="75" />Comprassi io i tuoi insetti a un prezzo strepitoso
-per te e li allevassi con tanto tanto amore?!<size value="100" /></message>
+	<message label="049" attrib="06 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Oh,<delay20 /> c-certo!<delay20 /> Dimmi pure<tag a="110" b="0" /><delay frames="40" />
+<anim id="Blushing" target="actor" targetSpec="" /><size value="75" />Compro io i tuoi insetti a un prezzo strepitoso
+e li allevo con tanto tanto amore!<size value="100" /></message>
 	<message label="049_a" attrib="00 00 00 00">Posso venderti insetti?</message>
 	<message label="049_b" attrib="00 00 00 00">Uso i punti.</message>
-	<message label="049_c" attrib="00 00 00 00">Qualcos'altro.</message>
+	<message label="049_c" attrib="00 00 00 00">L'Insettomania...</message>
 	<message label="049_d" attrib="00 00 00 00">Niente, non importa.</message>
 	<message label="050" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />S-Sì, <delay20 />ma certo! <delay20 /><anim id="QuestionMark" target="actor" targetSpec="" />Da quale dei tuoi
 insetti sei pront<gender2 m="o" f="a" /> a separarti?</message>
@@ -261,8 +263,8 @@ la mia anima gemella chitinosa?<colour id="65535" /><pageBreak /><anim id="Quest
 	<message label="051_b" attrib="00 00 00 00">Non importa.</message>
 	<message label="052" attrib="02 00 00 00"><anim id="Aha" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="50" b="2" /><tag a="125" b="0" arg="0x1" />!<delay20 />
 Non ho mai avuto l'onore di vederne
-<tag a="50" b="17" arg="0x111 0xcd00 0x6 0x75 0x6e 0x6f 0x6 0x75 0x6e 0x61 0x0" />.<delay frames="40" /> <colour id="4" />Non ad occhi aperti, almeno<tag a="110" b="0" />
-<anim id="QuestionMark" target="actor" targetSpec="" /><colour id="65535" />Mi venderesti <tag a="50" b="17" arg="0x111 0xcd00 0xc 0x69 0x6c 0x20 0x74 0x75 0x6f 0xc 0x6c 0x61 0x20 0x74 0x75 0x61 0x0" /> <tag a="125" b="0" arg="0x1" /> per <tag a="90" b="26" arg="0x3" />?</message>
+<tag a="50" b="17" arg="0x112 0xcd00 0x6 0x75 0x6e 0x6f 0x6 0x75 0x6e 0x61 0x0" />.<delay frames="40" /> <colour id="4" />Non ad occhi aperti, almeno<tag a="110" b="0" />
+<anim id="QuestionMark" target="actor" targetSpec="" /><colour id="65535" />Mi venderesti <tag a="50" b="17" arg="0x112 0xcd00 0xc 0x69 0x6c 0x20 0x74 0x75 0x6f 0xc 0x6c 0x61 0x20 0x74 0x75 0x61 0x0" /> <tag a="125" b="0" arg="0x1" /> per <tag a="90" b="26" arg="0x3" />?</message>
 	<message label="052_a" attrib="00 00 00 00">Va bene.</message>
 	<message label="052_b" attrib="00 00 00 00">Non importa.</message>
 	<message label="053" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />È sempre un piacere acquistare
@@ -288,9 +290,17 @@ conoscere tanti amici zampettanti!</message>
 <anim id="Serious" target="actor" targetSpec="" />E questo è un bel problema.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Senza un retino è impossibile
 partecipare a questo glorioso evento!
 <anim id="Pardon" target="actor" targetSpec="" />Mi spiace, sono le regole!</message>
-	<message label="061" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Oh!<delay20 /> Mh, perdonami, ma non hai abbastanza stelline.<pageBreak /><anim id="Worried" target="actor" targetSpec="" />Dopo la prima volta, partecipare
-costa <colour id="1" /><tag a="90" b="21" arg="0x2" /><colour id="65535" />.<delay20 /> Scusami!</message>
-	<message label="062" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />OK, bene. <delay20 />Mi prendo <colour id="1" /><tag a="90" b="21" arg="0x2" /><colour id="65535" />.</message>
+	<message label="061" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Oh!<delay20 /> Perdonami, ma non hai
+abbastanza stelline.<pageBreak /><anim id="Worried" target="actor" targetSpec="" />Torna da me quando avrai racimolato
+<colour id="1" /><tag a="90" b="21" arg="0x2" /><colour id="65535" />.<delay20 /> Scusami, eh!</message>
+	<message label="062" attrib="02 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Ottimo! <delay20 />È bello che tu voglia
+rimetterti alla prova<tag a="110" b="0" /><pageBreak /><anim id="ShyBoy" target="actor" targetSpec="" />Dunque, <delay8 />dalla seconda volta in poi,
+partecipare costa <colour id="1" /><tag a="90" b="21" arg="0x2" /><colour id="65535" />.
+<delay20 /><anim id="QuestionMark" target="actor" targetSpec="" />Ci stai?</message>
+	<message label="062_a" attrib="00 00 00 00">Certo!</message>
+	<message label="062_b" attrib="00 00 00 00">No, lasciamo stare.</message>
+	<message label="062_01" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Fantastico! <delay20 /><anim id="Silent" target="actor" targetSpec="" />Allora mi prendo
+<colour id="1" /><tag a="90" b="21" arg="0x2" /><colour id="65535" /><tag a="110" b="0" /></message>
 	<message label="063" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />OK! Imposterò il timer su <colour id="1" /><tag a="90" b="0" arg="0xe" /> minuti<colour id="65535" />.<delay20 />
 Tu devi acchiappare gli insetti. <delay20 />Di
 qualsiasi tipo, ma prendine tanti!
@@ -408,8 +418,8 @@ insetti dell'evento?</message>
 	<message label="094_a" attrib="00 00 00 00">Sì.</message>
 	<message label="094_b" attrib="00 00 00 00">No.</message>
 	<message label="100" attrib="02 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Ehi,<delay20 /> mh,<delay20 /> hai bisogno di aiuto?</message>
-	<message label="100_a" attrib="00 00 00 00">Spendere i punti.</message>
-	<message label="100_b" attrib="00 00 00 00">Niente, non importa.</message>
+	<message label="100_a" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Usare i punti.</message>
+	<message label="100_b" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Niente, non importa.</message>
 	<message label="101" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />La prossima <colour id="1" />Insettomania <colour id="65535" />è <tag a="50" b="15" /> <colour id="1" /><tag a="90" b="35" arg="0xcd00" /><colour id="65535" />.<delay20 /> Spero che parteciperai
 a questo evento fenomenale!</message>
 	<message label="102" attrib="00 00 00 00"><anim id="AbsentMindedness" target="actor" targetSpec="" />La stagione degli insetti<delay20 /> non è
@@ -549,6 +559,34 @@ bonus di sfida!
 <anim id="Explain" target="actor" targetSpec="" />Allora, considerati tutti gli insetti che
 hai preso e tutti i bonus<tag a="110" b="0" /> <anim id="Shocked" target="actor" targetSpec="" />Accidenti!<delay frames="30" />
 <anim id="BigSmile" target="actor" targetSpec="" />Fa <colour id="1" /><tag a="90" b="2" arg="0x7" /> punti<colour id="65535" />!</message>
+	<message label="151" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Con il tuo retino supersonico hai già
+catturato la bellezza di <colour id="1" /><tag a="90" b="1" arg="0x8" /> insetti<colour id="65535" />.<delay frames="40" />
+<anim id="FaintSmile" target="actor" targetSpec="" />Davvero niente male!
+<anim id="Explain" target="actor" targetSpec="" />Solo che la <colour id="1" />gabbia degli insetti<colour id="65535" /> non
+può contenerne più di 20 alla volta.
+<delay20 /><anim id="Negative" target="actor" targetSpec="" />Sai, non è sicuro<tag a="110" b="0" />
+<anim id="Hesitate" target="actor" targetSpec="" />Ecco perché mi sono preso la libertà
+di lasciarne andare un po'.<delay20 /> Gli insetti
+e il mondo te ne saranno grati!
+<anim id="Nodding" target="actor" targetSpec="" />Non preoccuparti, però<tag a="110" b="0" /> Avrai ciò
+che ti spetta.<pageBreak /><anim id="Thinking" target="actor" targetSpec="" />Allora, sono <colour id="1" /><tag a="90" b="1" arg="0x8" /> punti<colour id="65535" />, <delay8 />più un bonus
+per aver catturato più di <colour id="1" /><tag a="90" b="1" arg="0x4" /> insetti<colour id="65535" /><tag a="110" b="0" /><delay8 />
+<anim id="Silent" target="actor" targetSpec="" />fa un totale di <colour id="1" /><tag a="90" b="2" arg="0x7" /> punti<colour id="65535" />!</message>
+	<message label="152" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Con il tuo retino supersonico hai già
+catturato la bellezza di <colour id="1" /><tag a="90" b="1" arg="0x8" /> insetti<colour id="65535" />.<delay frames="40" />
+<anim id="FaintSmile" target="actor" targetSpec="" />Davvero niente male!
+<anim id="Explain" target="actor" targetSpec="" />Solo che la <colour id="1" />gabbia degli insetti<colour id="65535" /> non
+può contenerne più di 20 alla volta.
+<delay20 /><anim id="Negative" target="actor" targetSpec="" />Sai, non è sicuro<tag a="110" b="0" />
+<anim id="Hesitate" target="actor" targetSpec="" />Ecco perché mi sono preso la libertà
+di lasciarne andare un po'.<delay20 /> Gli insetti
+e il mondo te ne saranno grati!
+<anim id="Nodding" target="actor" targetSpec="" />Non preoccuparti, però<tag a="110" b="0" /> Avrai ciò
+che ti spetta.<pageBreak /><anim id="Thinking" target="actor" targetSpec="" />Vediamo, <delay8 />i partecipanti hanno
+catturato <colour id="1" /><tag a="90" b="2" arg="0x9" /> insetti <colour id="65535" />in totale<tag a="110" b="0" /><pageBreak /><anim id="Explain" target="actor" targetSpec="" />E questo significa che avete
+raggiunto <colour id="1" />il numero minimo di <tag a="90" b="1" arg="0xa" /><colour id="65535" />.<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Ciò significa che avete diritto
+a un bonus per cui totalizzate<tag a="110" b="0" />
+<colour id="1" /><tag a="90" b="2" arg="0x7" /> punti<colour id="65535" />!</message>
 	<message label="160" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />La <colour id="1" />gabbia degli insetti<colour id="65535" /> contiene tutti
 quelli che hai preso e si trova vicino
 al gazebo. <anim id="AbsentMindedness" target="actor" targetSpec="" />Segui le vibrazioni<tag a="110" b="0" />
@@ -626,9 +664,9 @@ finalmente pupe<tag a="110" b="0" />
 <anim id="FaintSmile" target="actor" targetSpec="" />Si comincia alle ore <colour id="1" /><tag a="90" b="37" arg="0xcd00" /><colour id="65535" />.<pageBreak />Fino ad allora, cerca di restare nella
 pelle per l'emozione! Non è ancora
 arrivata l'ora della muta!</message>
-	<message label="170" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Allora, ti è piaciuta l'<colour id="1" />insettomania<colour id="65535" />
-di oggi? <delay20 />Ti senti spiritualmente
-arricchit<gender2 m="o" f="a" />?</message>
+	<message label="170" attrib="00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />Mmmh<tag a="110" b="0" /><delay20 /> Quest'<colour id="1" />Insettomania <colour id="65535" /><anim id="Nodding" target="actor" targetSpec="" />è
+stata un vero inno alla bellezza
+delle nostre care bestioline!</message>
 	<message label="171" attrib="06 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Ciao!<delay20 /> Vuoi partecipare a un round
 dell'<colour id="1" />Insettomania<colour id="65535" />?<delay20 /> Se è la prima
 volta con altri abitanti, è gratis!

@@ -4,7 +4,7 @@ bekendstaat, <tag a="110" b="6" />?</message>
 	<message label="001_a" attrib="04 00 00 00 00 00 00 00">Ja.</message>
 	<message label="001_b" attrib="05 00 00 00 00 00 00 00">Nee.</message>
 	<message label="002" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="23" arg="0xd 0xe 0xf 0xffff" /></message>
-	<message label="003" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x10 0x11 0xffff 0xffff" /></message>
+	<message label="003" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x1 0x10 0x11 0x12" /></message>
 	<message label="004" attrib="00 00 00 00 00 00 00 00"><anim id="Laughing" target="actor" targetSpec="" />Ah! Mooi zo!<delay frames="40" /> <anim id="Greeting" target="actor" targetSpec="" />Eet er maar lekker van!</message>
 	<message label="005" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Het zijn <tag a="110" b="7" arg="0xcd01" />!<delay frames="40" /> <anim id="HappyDance" target="actor" targetSpec="" />Na een potje <tag a="135" b="6" arg="0xcd00" /><delay8 /> smaakt <tag a="50" b="2" /><tag a="110" b="7" arg="0xcd00" /> het best!</message>
 	<message label="013" attrib="00 00 00 00 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Heb je de winkel bij de <colour id="1" />servicebalie<colour id="65535" />
@@ -24,10 +24,11 @@ dragen is supergoed voor je armen!</message>
 gaat het nog ver schoppen.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Ja, dat denk ik echt<tag a="110" b="0" /><anim id="Laughing" target="actor" targetSpec="" /> want je moet
 ambities hebben als je wilt winnen,
 of niet soms?</message>
-	<message label="017" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="2" arg="0x15 0x16 0x17 0x19" /></message>
+	<message label="017" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="3" arg="0x15 0x16 0x17 0x18 0x19" /></message>
 	<message label="021" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1c00 0x1900 0xcd00" /></message>
 	<message label="022" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1d01 0x1900 0xcd00" /></message>
 	<message label="023" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1e02 0x1900 0xcd00" /></message>
+	<message label="024" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1f03 0x1900 0xcd00" /></message>
 	<message label="025" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Ben je al in ons <colour id="1" />museum<colour id="65535" /> geweest?
 Er is zoveel te zien in die enorme
 zaal!<pageBreak /><anim id="Eh" target="actor" targetSpec="" />Hè? Wat ík er doe?<delay frames="40" /> <anim id="ShyBoy" target="actor" targetSpec="" />Nou, ik kan er
@@ -40,31 +41,36 @@ spierpijn heb om te trainen!</message>
 aftroeven<tag a="110" b="0" /></message>
 	<message label="030" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="50" b="1" /><tag a="50" b="23" arg="0xcd03" /><tag a="135" b="13" arg="0x2" /> is mijn favoriete fossiel in het <colour id="1" />museum<colour id="65535" />.<pageBreak /><anim id="Love" target="actor" targetSpec="" />Wat een stoere, coole vorm!<delay frames="40" /> <anim id="Frantic" target="actor" targetSpec="" />En dat
 zonder spieren! Ik ben jaloers.</message>
-	<message label="101" attrib="66 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Jouw gezicht weer zien roept zoveel
-herinneringen op<tag a="110" b="0" /> <anim id="Grin" target="actor" targetSpec="" />Weet je nog dat
-ik altijd won met <tag a="135" b="6" arg="0xcd00" />?</message>
-	<message label="102" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="1" arg="0x67 0x68 0x69" /></message>
-	<message label="103" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Sinds je weg bent heb ik elke dag
-mijn supergeheime trainings-
-programma gevolgd.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />En jij? Doe je nog steeds aan kracht-
-training? Op hoeveel kilo zit je nu?</message>
-	<message label="104" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Hmm<tag a="110" b="0" /> We weten trouwens nog
-steeds niet<delay frames="40" /><anim id="Blushing" target="actor" targetSpec="" /> wie van ons het meest
-gespierd is, of wel?</message>
-	<message label="105" attrib="00 00 02 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Laten we deze kwestie voor eens en
+	<message label="201" attrib="ca 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Jou weer zien roept een boel
+herinneringen op<tag a="110" b="0" /><delay frames="40" /> <anim id="Grin" target="actor" targetSpec="" />Weet je nog hoe
+we altijd onze spieren vergeleken?</message>
+	<message label="202" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="1" arg="0xcb 0xcc 0xcd" /></message>
+	<message label="203" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Sinds ik hier weg ben, heb ik elke
+dag mijn supergeheime trainings-
+programma gevolgd.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />En jij? Doe je nog steeds aan
+bankdrukken? Op hoeveel kilo
+zit je nu?</message>
+	<message label="204" attrib="00 00 00 00 00 00 00 00"><anim id="Restless" target="actor" targetSpec="" />Ik moet eerlijk toegeven<tag a="110" b="0" /><delay20 /> dat ik
+niet weet of ik je ooit had kunnen
+verslaan.<anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak />Nu ik je spierballen weer zie<tag a="110" b="0" /> Ja, dat
+was me nooit gelukt.<delay20 /> <anim id="Greeting" target="actor" targetSpec="" />Ik ben trots op
+je, <tag a="110" b="5" />!</message>
+	<message label="205" attrib="00 00 02 00 00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />Hmm<tag a="110" b="0" /> We weten trouwens nog
+steeds niet<delay20 /> wie van ons het
+gespierdst is, of wel?<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Laten we deze kwestie voor eens en
 altijd oplossen<delay frames="40" /> <anim id="BigSmile" target="actor" targetSpec="" />door onze sixpacks te
-vergelijken? Deal?</message>
-	<message label="105_a" attrib="6a 00 00 00 00 00 00 00">Ja, kom maar op!</message>
-	<message label="105_b" attrib="6b 00 00 00 00 00 00 00">Nee, dank je.</message>
-	<message label="106" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Oké, hou je vast: mijn sixpack is<tag a="110" b="0" /><delay8 />
+vergelijken! Deal, <tag a="110" b="5" />?</message>
+	<message label="205_a" attrib="ce 00 00 00 00 00 00 00">Ja, kom maar op!</message>
+	<message label="205_b" attrib="cf 00 00 00 00 00 00 00">Nee, dank je.</message>
+	<message label="206" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Oké, hou je vast: mijn sixpack is<tag a="110" b="0" /><delay8 />
 <anim id="SmugFace" target="actor" targetSpec="" />dus een twaalfpack! Had je niet
 gedacht, hè?<pageBreak /><anim id="TakenAback" target="actor" targetSpec="" />Huh? Je gelooft me niet op mijn
 woord? En ik dacht nog wel dat we
 vrienden waren!<pageBreak /><anim id="Fuming" target="actor" targetSpec="" />Ik zweer het! Ik telde er gisteren
-twaalf! Echt wel!<delay frames="40" /> <anim id="Serious" target="actor" targetSpec="" />Wat kijk je nou?<pageBreak /><anim id="OhGeez" target="actor" targetSpec="" />Oke, <delay8 />dan geloof je me niet. <delay8 />Pech
-voor jou. <delay8 /><anim id="Sighing" target="actor" targetSpec="" />Maar het is echt een
+twaalf! Echt wel!<delay frames="40" /> <anim id="Serious" target="actor" targetSpec="" />Wat kijk je nou, <tag a="110" b="5" />?<pageBreak /><anim id="OhGeez" target="actor" targetSpec="" />Oké, <delay20 />dan geloof je me niet. <delay20 />Pech
+voor jou. <10_4 /><anim id="Sighing" target="actor" targetSpec="" />Maar het is echt een
 twaalfpack!</message>
-	<message label="107" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Bah, met jou is ook geen lol te
-beleven! <anim id="Grin" target="actor" targetSpec="" />Maar ik snap het.<delay frames="40" /> <anim id="SmugFace" target="actor" targetSpec="" />Tegen die
+	<message label="207" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Bah, met jou is ook geen lol te
+beleven! <delay20 />Maar ik snap het.<delay frames="40" /> <anim id="SmugFace" target="actor" targetSpec="" />Tegen die
 spiermassa van mij kan niemand op!</message>
 </msbt>
