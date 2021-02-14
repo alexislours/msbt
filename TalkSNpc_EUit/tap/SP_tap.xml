@@ -37,7 +37,7 @@ confortevoli server.</message>
 	<message label="002_d" attrib="00 00 00 00">Voglio svegliarmi.</message>
 	<message label="002_01" attrib="06 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Come posso esserti utile?</message>
 	<message label="002_01_a" attrib="00 00 00 00">Voglio sognare.</message>
-	<message label="002_01_b" attrib="00 00 00 00">Il sogno che ho condiviso...</message>
+	<message label="002_01_b" attrib="00 00 00 00">Il sogno della mia isola...</message>
 	<message label="002_01_c" attrib="00 00 00 00">Dove mi trovo?</message>
 	<message label="002_01_d" attrib="00 00 00 00">Voglio svegliarmi.</message>
 	<message label="002_02" attrib="06 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Posso ancora esserti d'aiuto?</message>
@@ -47,7 +47,7 @@ confortevoli server.</message>
 	<message label="002_02_d" attrib="00 00 00 00">Voglio svegliarmi.</message>
 	<message label="002_03" attrib="06 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Posso ancora esserti d'aiuto?</message>
 	<message label="002_03_a" attrib="00 00 00 00">Voglio sognare.</message>
-	<message label="002_03_b" attrib="00 00 00 00">Il sogno che ho condiviso...</message>
+	<message label="002_03_b" attrib="00 00 00 00">Il sogno della mia isola...</message>
 	<message label="002_03_c" attrib="00 00 00 00">Dove mi trovo?</message>
 	<message label="002_03_d" attrib="00 00 00 00">Voglio svegliarmi.</message>
 	<message label="002_04" attrib="06 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Come posso esserti utile?</message>
@@ -57,7 +57,7 @@ confortevoli server.</message>
 	<message label="002_04_d" attrib="00 00 00 00">Voglio svegliarmi.</message>
 	<message label="002_05" attrib="06 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Come posso esserti utile?</message>
 	<message label="002_05_a" attrib="00 00 00 00">Voglio sognare.</message>
-	<message label="002_05_b" attrib="00 00 00 00">Il sogno che ho condiviso...</message>
+	<message label="002_05_b" attrib="00 00 00 00">Il sogno della mia isola...</message>
 	<message label="002_05_c" attrib="00 00 00 00">E... che posto è questo?</message>
 	<message label="002_05_d" attrib="00 00 00 00">Voglio svegliarmi.</message>
 	<message label="002_06" attrib="06 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Posso ancora esserti d'aiuto?</message>
@@ -67,7 +67,7 @@ confortevoli server.</message>
 	<message label="002_06_d" attrib="00 00 00 00">Voglio svegliarmi.</message>
 	<message label="002_07" attrib="06 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Posso ancora esserti d'aiuto?</message>
 	<message label="002_07_a" attrib="00 00 00 00">Voglio sognare.</message>
-	<message label="002_07_b" attrib="00 00 00 00">Il sogno che ho condiviso...</message>
+	<message label="002_07_b" attrib="00 00 00 00">Il sogno della mia isola...</message>
 	<message label="002_07_c" attrib="00 00 00 00">E... che posto è questo?</message>
 	<message label="002_07_d" attrib="00 00 00 00">Voglio svegliarmi.</message>
 	<message label="003" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Capisco. <delay8 />Torna presto a trovarmi.<delay8 />
@@ -101,10 +101,20 @@ per recuperare il sogno desiderato<tag a="110" b="0" /></message>
 "<tag a="115" b="2" arg="0xcd00" />".<delay20 /> <anim id="QuestionMark" target="actor" targetSpec="" />Dico bene?</message>
 	<message label="1005_a" attrib="00 00 00 00">Dici benissimo!</message>
 	<message label="1005_b" attrib="00 00 00 00">Ehm, no.</message>
-	<message label="1006" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Meraviglioso! <delay20 />Allora è tutto pronto.<delay20 />
+	<message label="1006" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Meraviglioso! <delay20 />Ora è tutto pronto.<delay20 />
 <anim id="AbsentMindedness" target="actor" targetSpec="" />Chiudi gli occhi e<tag a="110" b="0" /> rilassati<tag a="110" b="0" /><anim id="EmotEnd" target="actor" targetSpec="" /></message>
-	<message label="1006_01" attrib="00 00 00 00">Vaga nei meandri della rete<tag a="110" b="0" />
-ed emergi nel sogno di <tag a="115" b="2" arg="0xcd00" /><tag a="110" b="0" /><10_8 arg="75" /></message>
+	<message label="1006_01" attrib="00 00 00 00">Vaga nei meandri della
+rete<tag a="110" b="0" /> ed emergi nel sogno
+di <tag a="115" b="2" arg="0xcd00" /><tag a="110" b="0" /><10_8 arg="75" /></message>
+	<message label="1010" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Certo, certo! <delay8 />Ma prima di guidarti
+nel sogno, lascia che ti illustri un
+paio di cose.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Come molte altre cose oggigiorno,
+<delay8 />i sogni si scaricano da <colour id="1" />Internet<colour id="65535" />.<delay20 /> Per
+questo ti serve una connessione.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Per visitare un sogno specifico, <delay8 />ti
+serve il suo <colour id="1" />codice del sogno<colour id="65535" />, che
+lo identifica in modo inequivocabile.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Però se preferisci l'effetto sorpresa,<delay8 />
+posso scegliere io per te!<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />In questo caso, ti basta dirmi
+<delay20 /><anim id="Hello" target="actor" targetSpec="" />"<colour id="1" />Sorprendimi!<colour id="65535" />", <delay8 />d'accordo?</message>
 	<message label="1031" attrib="02 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Sono desolata, <delay8 />ma non trovo alcun
 sogno associato a questo <colour id="1" />codice<colour id="65535" />.</message>
 	<message label="1031_a" attrib="00 00 00 00">Proviamo di nuovo.</message>
@@ -157,6 +167,58 @@ esiste più.<delay8 /> Vuoi visitarne un altro?</message>
 nessun sogno che puoi visitare
 nuovamente.<pageBreak /><anim id="Worried" target="actor" targetSpec="" />Se vuoi visitarne un altro, <delay8 />dovrai
 darmi il <colour id="1" />codice del sogno<colour id="65535" />.</message>
+	<message label="1060" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Ah,<delay8 /> se preferisci che scelga io
+un sogno per te,<delay8 /> sarò ben lieta
+di provare a sorprenderti.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Non servirà nessun codice del sogno,<delay20 />
+perché sarò io a pescare da Internet
+un sogno da farti vivere.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Se vuoi avventurarti nell'ignoto, <delay8 />devi
+solamente dirmi <anim id="Hello" target="actor" targetSpec="" />"<colour id="1" />Sorprendimi!<colour id="65535" />".</message>
+	<message label="1061" attrib="06 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />C'è qualcosa che posso fare per te?</message>
+	<message label="1061_a" attrib="00 00 00 00">Cerca con codice del sogno.</message>
+	<message label="1061_b" attrib="00 00 00 00">Visito di nuovo un sogno.</message>
+	<message label="1061_c" attrib="00 00 00 00">Sorprendimi!</message>
+	<message label="1061_d" attrib="00 00 00 00">Sono a posto così.</message>
+	<message label="1062" attrib="02 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Con molto piacere!<delay8 /> Ogni sogno è
+colmo di meraviglie da scoprire.<delay20 />
+Allora, cominciamo?</message>
+	<message label="1062_a" attrib="00 00 00 00">Vai pure.</message>
+	<message label="1062_b" attrib="00 00 00 00">Lascia stare.</message>
+	<message label="1063" attrib="02 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Oh!<delay8 /> Purtroppo non ho trovato alcun
+sogno<tag a="110" b="0" /> In un certo senso anche
+questa è una sorpresa.
+<anim id="QuestionMark" target="actor" targetSpec="" />Vuoi che provi di nuovo?</message>
+	<message label="1063_a" attrib="00 00 00 00">Sì, grazie!</message>
+	<message label="1063_b" attrib="00 00 00 00">Non fa niente.</message>
+	<message label="1065" attrib="04 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />C'è qualcosa che posso fare per te?</message>
+	<message label="1065_a" attrib="00 00 00 00">Usa codice del sogno.</message>
+	<message label="1065_b" attrib="00 00 00 00">Sorprendimi!</message>
+	<message label="1065_c" attrib="00 00 00 00">Sono a posto così.</message>
+	<message label="1066" attrib="02 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Posso chiederti una gentilezza?<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Mi autorizzi a condividere il tuo
+sogno di <tag a="110" b="9" /> se qualcuno mi chiede di scegliere?<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Se mi permetti di sorprendere
+altri con il tuo sogno,<delay8 /> dovrei
+anche aggiornarlo.<delay20 /> <anim id="QuestionMark" target="actor" targetSpec="" />Che ne dici?</message>
+	<message label="1066_a" attrib="00 00 00 00">Procedi pure!</message>
+	<message label="1066_b" attrib="00 00 00 00">Meglio di no.</message>
+	<message label="1067" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Che meraviglia! <delay20 />Sono sicura che
+il tuo sogno donerà felicità a molti.<delay8 />
+Ti sono grata per la tua fiducia.<pageBreak /><anim id="AbsentMindedness" target="actor" targetSpec="" />Bene,<delay8 /> ora aggiorniamo il tuo sogno
+di <tag a="110" b="9" /><tag a="110" b="0" /></message>
+	<message label="1068" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Ecco fatto! <delay8 />Il tuo sogno è aggiornato.
+<delay20 />I sognatori riceveranno una gradita
+sorpresa quando lo visiteranno.</message>
+	<message label="1069" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Questo è il codice del sogno
+di <tag a="110" b="9" />:
+<tag a="140" b="17" arg="0xcd00" />.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Se non vuoi che il tuo sogno venga
+usato con chi vuole essere sorpreso,
+<delay8 />possiamo rimediare facilmente. 
+Basta dirmi <anim id="Hello" target="actor" targetSpec="" />"<colour id="1" />Sogno a sorpresa<colour id="65535" />"
+e cambieremo le impostazioni.</message>
+	<message label="1070" attrib="00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Capisco perfettamente. <delay20 />In tal caso,
+il tuo sogno non verrà condiviso se
+qualcuno mi chiede di sorprenderlo.</message>
+	<message label="1071" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Se dovessi cambiare idea,<delay8 /> possiamo
+facilmente cambiare le impostazioni.<pageBreak />Basta che tu venga da me e dica<delay20 />
+<anim id="Hello" target="actor" targetSpec="" />"<colour id="1" />Sogno a sorpresa<colour id="65535" />".</message>
 	<message label="2001" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Ma certo. <delay20 /><anim id="Serious" target="actor" targetSpec="" />Prima però, ci sono
 alcune <colour id="1" />informazioni importanti
 <colour id="65535" />che devi leggere.</message>
@@ -235,6 +297,31 @@ Sarò ben lieta di ritentare.</message>
 devi attivare <delay8 />Comunicazione libera
 con altri utenti<delay8 /> in Filtro famiglia.<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Quando sarà tutto pronto, torna
 pure a trovarmi.</message>
+	<message label="2100" attrib="02 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Visto che sei stat<gender2 m="o" f="a" /> così gentile da
+condividere il tuo codice del sogno,<delay20 />
+avrei un altro favore da chiederti.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />A volte, alcuni giocatori mi chiedono
+di sorprenderli con un sogno scelto
+da me.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Ma io non mi permetterei mai
+di condividere un sogno senza
+il permesso del suo proprietario.
+Quindi<tag a="110" b="0" /> <anim id="QuestionMark" target="actor" targetSpec="" />Potrei sorprendere altri
+utenti condividendo il tuo sogno
+di <tag a="110" b="9" />?</message>
+	<message label="2100_a" attrib="00 00 00 00">Ma certo!</message>
+	<message label="2100_b" attrib="00 00 00 00">Preferisco di no.</message>
+	<message label="2101" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Splendido! <delay20 />Sono certa che molta
+gente sarà felice di visitare il tuo
+sogno.<delay20 /> <anim id="AbsentMindedness" target="actor" targetSpec="" />Dammi solo un momento<tag a="110" b="0" /></message>
+	<message label="2102" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Ecco fatto! <delay20 />Non vedo l'ora che altri
+sognatori possano essere allietati
+dal tuo meraviglioso sogno.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Se non volessi più condividere il tuo
+sogno,<delay20 /> dimmi <anim id="Hello" target="actor" targetSpec="" />"<colour id="1" />Sogno a sorpresa<colour id="65535" />" e
+cambieremo le impostazioni.</message>
+	<message label="2103" attrib="00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Sono spiacente,<delay8 /> ma non è stato
+possibile recuperare né aggiornare
+il tuo sogno di <tag a="110" b="9" />.
+<anim id="EmotEnd" target="actor" targetSpec="" />Ti prego di riprovare in un altro
+momento.<delay20 /> <anim id="Nodding" target="actor" targetSpec="" />Accetta le mie scuse.</message>
 	<message label="3001" attrib="06 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Ho un sogno di <tag a="110" b="9" /> associato al <colour id="1" />codice<colour id="65535" /> <tag a="140" b="17" arg="0xcd00" />.</message>
 	<message label="3001_a" attrib="00 00 00 00">Carica il sogno.</message>
 	<message label="3001_b" attrib="00 00 00 00">La privacy del codice.</message>
@@ -246,9 +333,17 @@ il sogno caricato?</message>
 	<message label="3001_01_b" attrib="00 00 00 00">La privacy del codice.</message>
 	<message label="3001_01_c" attrib="00 00 00 00">Cancella il sogno.</message>
 	<message label="3001_01_d" attrib="00 00 00 00">Non importa.</message>
+	<message label="3002" attrib="08 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Ho un sogno di <tag a="110" b="9" /> associato al <colour id="1" />codice<colour id="65535" /> <tag a="140" b="17" arg="0xcd00" />.</message>
+	<message label="3002_a" attrib="00 00 00 00">Carica il sogno.</message>
+	<message label="3002_b" attrib="00 00 00 00">La privacy del codice.</message>
+	<message label="3002_c" attrib="00 00 00 00">Sogno a sorpresa.</message>
+	<message label="3002_d" attrib="00 00 00 00">Cancella il sogno.</message>
+	<message label="3002_e" attrib="00 00 00 00">Non importa.</message>
+	<message label="3002_02" attrib="08 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Posso aiutarti in qualche modo con
+il sogno caricato?</message>
 	<message label="3002_02_a" attrib="00 00 00 00">Carica il sogno.</message>
 	<message label="3002_02_b" attrib="00 00 00 00">La privacy del codice.</message>
-	<message label="3002_02_c" attrib="00 00 00 00">La privacy del codice.</message>
+	<message label="3002_02_c" attrib="00 00 00 00">Sogno a sorpresa.</message>
 	<message label="3002_02_d" attrib="00 00 00 00">Cancella il sogno.</message>
 	<message label="3002_02_e" attrib="00 00 00 00">Non importa.</message>
 	<message label="3101" attrib="02 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Per precauzione, <delay8 />devo chiederti se
@@ -308,14 +403,14 @@ Ciò significa che è visibile ad altri
 sul tuo <colour id="1" />passaporto<colour id="65535" /> e sulla <colour id="1" />mappa<colour id="65535" />.<pageBreak /><anim id="QuestionMark" target="actor" targetSpec="" />Vuoi impostare il <colour id="1" />codice<colour id="65535" /> come
 privato, in modo che non sia più
 visibile ad altri utenti?</message>
-	<message label="3401_a" attrib="00 00 00 00">No, lascialo com'è.</message>
-	<message label="3401_b" attrib="00 00 00 00">Sì, rendilo privato.</message>
+	<message label="3401_a" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />No, lascialo com'è.</message>
+	<message label="3401_b" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Sì, rendilo privato.</message>
 	<message label="3402" attrib="01 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Il tuo <colour id="1" />codice del sogno<colour id="65535" /> è privato.
 Ciò significa che non è visibile agli
 altri utenti.<pageBreak /><anim id="QuestionMark" target="actor" targetSpec="" />Vuoi impostare il <colour id="1" />codice<colour id="65535" /> come
 pubblico, in modo che appaia sul
 tuo <colour id="1" />passaporto<colour id="65535" /> e sulla <colour id="1" />mappa<colour id="65535" />?</message>
-	<message label="3402_a" attrib="00 00 00 00">No, lascialo com'è.</message>
+	<message label="3402_a" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />No, lascialo com'è.</message>
 	<message label="3402_b" attrib="00 00 00 00">Sì, rendilo pubblico.</message>
 	<message label="3403" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />D'accordo. <delay8 />Le impostazioni del tuo
 <colour id="1" />codice del sogno<colour id="65535" /> non cambieranno.</message>
@@ -325,6 +420,41 @@ sul <colour id="1" />passaporto<colour id="65535" /> e sulla <colour id="1" />ma
 	<message label="3405" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Voilà! <delay20 />Ora il tuo <colour id="1" />codice del sogno<colour id="65535" /> è
 pubblico e sarà visibile ad altri utenti
 sul <colour id="1" />passaporto<colour id="65535" /> e sulla <colour id="1" />mappa<colour id="65535" />.</message>
+	<message label="3500" attrib="01 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Al momento, ho il permesso
+di condividere il tuo sogno
+di <tag a="110" b="9" />.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Quindi, se qualcuno mi chiede un
+sogno a sorpresa,<delay8 /> potrei condividere
+il tuo.<delay20 /> <anim id="QuestionMark" target="actor" targetSpec="" />Va bene?</message>
+	<message label="3500_a" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Non condividerlo più.</message>
+	<message label="3500_b" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Condividilo pure.</message>
+	<message label="3501" attrib="01 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Al momento, non ho il permesso
+di condividere il tuo sogno di
+<tag a="110" b="9" />.<pageBreak /><anim id="QuestionMark" target="actor" targetSpec="" />Vuoi che il tuo sogno sia tra quelli
+che potrei condividere quando mi
+chiedono un sogno a sorpresa?</message>
+	<message label="3501_a" attrib="00 00 00 00">Sì, condividilo pure.</message>
+	<message label="3501_b" attrib="00 00 00 00">No, non condividerlo.</message>
+	<message label="3502" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />D'accordo. <delay20 />Il tuo sogno potrà ancora
+essere condiviso quando mi chiedono
+un sogno a sorpresa.</message>
+	<message label="3503" attrib="00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Nessun problema. <delay20 />Non condividerò
+più il tuo sogno quando mi chiedono
+un sogno a sorpresa.</message>
+	<message label="3504" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Splendido! <delay20 />Ora il tuo sogno farà
+parte di quelli che potrei scegliere
+quando mi chiedono una sorpresa.</message>
+	<message label="3505" attrib="00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Molto bene. <delay20 />Non cambierò nulla e
+quindi non sceglierò il tuo sogno
+quando mi chiedono una sorpresa.</message>
+	<message label="3506" attrib="01 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Al momento, non ho il permesso
+di condividere il tuo sogno di
+<tag a="110" b="9" />.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Vuoi che aggiunga il tuo sogno a
+quelli che potrei selezionare quando
+mi chiedono un sogno a sorpresa?
+<anim id="EmotEnd" target="actor" targetSpec="" />Se mi permetti di farlo,<delay8 /> vorrei anche
+aggiornarlo.<delay20 /><anim id="QuestionMark" target="actor" targetSpec="" /> Che ne dici?</message>
+	<message label="3506_a" attrib="00 00 00 00">Procedi pure!</message>
+	<message label="3506_b" attrib="00 00 00 00">Non lo condividere.</message>
 	<message label="4000" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Questo è il mondo<delay8 /> dove sognatori
 e sogni digitali si incontrano.<delay20 />
 <anim id="Nodding" target="actor" targetSpec="" />Sarò io a farti da guida.<pageBreak /><anim id="AbsentMindedness" target="actor" targetSpec="" />Posso aiutarti a sognare, oppure a
@@ -346,11 +476,11 @@ di un altro utente, sarà come averla
 raggiunta fisicamente.<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Però le isole nei sogni non cambiano.<delay20 />
 Qualsiasi cosa farai, non si rifletterà
 sull'isola vera, quindi<tag a="110" b="0" /> sbizzarrisciti!</message>
-	<message label="4002_00" attrib="00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />L'unica condizione è che<tag a="110" b="0" /> per
-visitare un sogno devi essere
-a mani vuote.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Ma niente paura.<delay8 /> Baderò io ai tuoi
+	<message label="4002_00" attrib="00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />C'è però un piccolo dettaglio di cui
+tenere conto: <delay20 />per visitare un sogno,
+devi essere a zampe vuote.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Ma niente paura!<delay8 /> Baderò io ai tuoi
 oggetti e potrai riprenderli quando
-ti risvegli.</message>
+ti risveglierai.</message>
 	<message label="4002_01" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Infine, per visitare un sogno ti
 servono il relativo <colour id="1" />codice<colour id="65535" /> e una
 <colour id="1" />connessione a Internet<colour id="65535" />.<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Tutto qui!</message>
@@ -373,4 +503,13 @@ disponibili come a dei souvenir
 di <tag a="110" b="9" />!</message>
 	<message label="4003_03" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />E con questo, ti ho detto tutto quello
 che c'è da sapere!</message>
+	<message label="4010" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Oh! <delay8 />Devo dirti che questa procedura
+richiede una <colour id="1" />connessione a Internet<colour id="65535" />.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Inoltre, se vuoi visitare un sogno
+specifico, <delay8 />dovrai fornirmi il suo
+<colour id="1" />codice del sogno<colour id="65535" />.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Se invece preferisci che ti sorprenda,
+<delay8 />posso scegliere io stessa il sogno
+che visiterai.
+<anim id="Hello" target="actor" targetSpec="" />Basta che tu mi dica "<colour id="1" />Sorprendimi!<colour id="65535" />"
+e io mi occuperò del resto.<delay20 /> <anim id="FaintSmile" target="actor" targetSpec="" />Questo
+è tutto!</message>
 </msbt>

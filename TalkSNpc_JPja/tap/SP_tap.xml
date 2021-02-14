@@ -115,6 +115,17 @@
 	<message label="1006_01" attrib="00 00 00 00">さあ<tag a="110" b="0" /><delay frames="40" />
 <ruby a="4" b="6">みわく</ruby>魅惑の　<tag a="115" b="2" arg="0xcd00" />の<ruby a="4" b="6">せかい</ruby>世界へ<delay20 />
 <ruby a="2" b="4">まい</ruby>参りましょう<tag a="110" b="0" /><10_8 arg="45" /></message>
+	<message label="1010" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />かしこまりました、<delay frames="40" />
+<anim id="EmotEnd" target="actor" targetSpec="" />それでは<delay8 />　<ruby a="2" b="4">ゆめ</ruby>夢をお<ruby a="2" b="2">と</ruby>取り<ruby a="2" b="2">よ</ruby>寄せする<ruby a="2" b="4">まえ</ruby>前に、<delay20 />
+<ruby a="2" b="4">すこ</ruby>少しだけ　<ruby a="4" b="8">せつめい</ruby>説明をさせていただきますね<pageBreak /><anim id="Explain" target="actor" targetSpec="" />まず、<delay8 /><ruby a="2" b="4">ゆめ</ruby>夢のお<ruby a="2" b="2">と</ruby>取り<ruby a="2" b="2">よ</ruby>寄せには
+<colour id="1" />インターネット<ruby a="4" b="8">つうしん</ruby>通信<colour id="65535" />を　<ruby a="2" b="4">つか</ruby>使いますので、<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" /><ruby a="4" b="6">じぜん</ruby>事前のご<ruby a="4" b="8">じゅんび</ruby>準備を　お<ruby a="2" b="4">ねが</ruby>願いいたします<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />それから、お<ruby a="2" b="4">のぞ</ruby>望みの<ruby a="2" b="4">ゆめ</ruby>夢を<ruby a="2" b="4">さが</ruby>探すには<delay20 />
+<colour id="1" /><anim id="Nodding" target="actor" targetSpec="" /><ruby a="6" b="10">ゆめばんち</ruby>夢番地<colour id="65535" />と<ruby a="2" b="2">よ</ruby>呼ばれる　<ruby a="2" b="4">ゆめ</ruby>夢の<ruby a="4" b="10">じゅうしょ</ruby>住所のようなものが<delay8 />
+<ruby a="4" b="8">ひつよう</ruby>必要になりますの<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" /><ruby a="2" b="2">み</ruby>見たい<ruby a="2" b="4">ゆめ</ruby>夢を<ruby a="2" b="2">み</ruby>見るには、あらかじめ<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" /><ruby a="6" b="10">ゆめばんち</ruby>夢番地を　<ruby a="2" b="4">しら</ruby>調べておくようにしてくださいね<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />また、<delay8 />わたくしに　おまかせくだされば<delay20 />
+<anim id="Nodding" target="actor" targetSpec="" />あなたが　お<ruby a="2" b="2">き</ruby>気に<ruby a="2" b="2">め</ruby>召しそうな<ruby a="2" b="4">ゆめ</ruby>夢を<delay8 />
+お<ruby a="2" b="2">と</ruby>取り<ruby a="2" b="2">よ</ruby>寄せすることも　できますの<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" /><ruby a="2" b="4">ゆめ</ruby>夢を<ruby a="2" b="2">み</ruby>見るときに　<delay20 />『<colour id="1" />おまかせする<colour id="65535" />』<delay20 />を<delay8 />
+<anim id="FaintSmile" target="actor" targetSpec="" />お<ruby a="2" b="4">えら</ruby>選びくださいまし</message>
 	<message label="1031" attrib="02 00 00 00"><anim id="Worried" target="actor" targetSpec="" /><ruby a="4" b="8">ざんねん</ruby>残念ですが、<delay8 />この<colour id="1" /><ruby a="6" b="10">ゆめばんち</ruby>夢番地<colour id="65535" />は
 <anim id="Negative" target="actor" targetSpec="" /><ruby a="2" b="4">いま</ruby>今は　<ruby a="2" b="4">つか</ruby>使われていないようです<tag a="110" b="0" /><delay frames="40" />
 <anim id="EmotEnd" target="actor" targetSpec="" />もう<ruby a="4" b="6">いちど</ruby>一度、<delay8 /><colour id="1" /><ruby a="6" b="10">ゆめばんち</ruby>夢番地<colour id="65535" />を　<anim id="QuestionMark" target="actor" targetSpec="" /><ruby a="2" b="4">おし</ruby>教えていただけますか？</message>
@@ -165,6 +176,60 @@
 1<ruby a="2" b="4">けん</ruby>件もないようですわね<tag a="110" b="0" /><pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" /><ruby a="4" b="6">きろく</ruby>記録にない　<ruby a="2" b="4">ゆめ</ruby>夢を<ruby a="2" b="2">み</ruby>見たいときは、<delay8 />
 <anim id="Explain" target="actor" targetSpec="" /><colour id="1" /><ruby a="6" b="10">ゆめばんち</ruby>夢番地<colour id="65535" />を　<ruby a="2" b="4">おし</ruby>教えてくだされば<delay frames="30" />
 <anim id="Smiling" target="actor" targetSpec="" />ご<ruby a="4" b="6">きぼう</ruby>希望の<ruby a="2" b="4">ゆめ</ruby>夢を　お<ruby a="2" b="4">さが</ruby>探しいたしますからね</message>
+	<message label="1060" attrib="00 00 00 00">ところで、<ruby a="2" b="4">ゆめ</ruby>夢のお<ruby a="2" b="2">と</ruby>取り<ruby a="2" b="2">よ</ruby>寄せについて<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />お<ruby a="2" b="2">し</ruby>知らせしたいことが　ございます<tag a="110" b="0" /><pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" /><ruby a="6" b="10">ゆめばんち</ruby>夢番地を　<ruby a="2" b="2">し</ruby>知らなくても<delay20 />
+「おまかせ」で<delay8 />　<anim id="Smiling" target="actor" targetSpec="" />お<ruby a="2" b="2">き</ruby>気に<ruby a="2" b="2">め</ruby>召しそうな<ruby a="2" b="4">ゆめ</ruby>夢を<delay20 />
+<anim id="Smiling" target="actor" targetSpec="" />お<ruby a="2" b="2">と</ruby>取り<ruby a="2" b="2">よ</ruby>寄せできるように　なりましたの<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />お<ruby a="2" b="4">のぞ</ruby>望みでしたら　<ruby a="2" b="4">ゆめ</ruby>夢を<ruby a="2" b="2">み</ruby>見るときに<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />『<colour id="1" />おまかせする<colour id="65535" />』<delay20 />を　<ruby a="2" b="4">えら</ruby>選んでくださいまし</message>
+	<message label="1061" attrib="06 00 00 00"><anim id="Serious" target="actor" targetSpec="" />では<tag a="110" b="0" /><delay frames="40" />
+<anim id="EmotEnd" target="actor" targetSpec="" /><ruby a="4" b="8">ほんじつ</ruby>本日は　どのような<ruby a="4" b="8">ほうほう</ruby>方法で、<delay20 />
+<anim id="QuestionMark" target="actor" targetSpec="" /><ruby a="2" b="4">ゆめ</ruby>夢を　ご<ruby a="4" b="6">ようい</ruby>用意いたしましょうか？</message>
+	<message label="1061_a" attrib="00 00 00 00"><ruby a="2" b="4">ゆめ</ruby>夢<ruby a="4" b="6">ばんち</ruby>番地で<ruby a="2" b="4">さが</ruby>探す</message>
+	<message label="1061_b" attrib="00 00 00 00"><ruby a="2" b="4">まえ</ruby>前に<ruby a="2" b="2">み</ruby>見た<ruby a="2" b="4">ゆめ</ruby>夢を<ruby a="2" b="2">み</ruby>見る</message>
+	<message label="1061_c" attrib="00 00 00 00">おまかせする</message>
+	<message label="1061_d" attrib="00 00 00 00">やっぱやめる</message>
+	<message label="1062" attrib="02 00 00 00">それでは、お<ruby a="2" b="2">き</ruby>気に<ruby a="2" b="2">め</ruby>召しそうな<ruby a="2" b="4">ゆめ</ruby>夢を<delay20 />
+<anim id="Smiling" target="actor" targetSpec="" />お<ruby a="2" b="2">と</ruby>取り<ruby a="2" b="2">よ</ruby>寄せ　いたしますわね</message>
+	<message label="1062_a" attrib="00 00 00 00">お<ruby a="2" b="4">ねが</ruby>願いします</message>
+	<message label="1062_b" attrib="00 00 00 00">やめておきます</message>
+	<message label="1063" attrib="02 00 00 00"><anim id="Eh" target="actor" targetSpec="" />あら、<delay20 /><ruby a="2" b="4">ゆめ</ruby>夢のお<ruby a="2" b="2">と</ruby>取り<ruby a="2" b="2">よ</ruby>寄せに<delay20 />
+<anim id="Worried" target="actor" targetSpec="" /><ruby a="4" b="8">しっぱい</ruby>失敗してしまいましたわ<tag a="110" b="0" /><delay20 /><pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />しばらく<delay8 />　<ruby a="4" b="6">じかん</ruby>時間をおいてから<delay20 />
+<anim id="Hello" target="actor" targetSpec="" /><ruby a="2" b="4">ため</ruby>試してみてくださいね</message>
+	<message label="1063_a" attrib="00 00 00 00">もう<ruby a="4" b="6">いちど</ruby>一度<ruby a="2" b="4">さが</ruby>探す</message>
+	<message label="1063_b" attrib="00 00 00 00">やめておきます</message>
+	<message label="1065" attrib="04 00 00 00"><anim id="Serious" target="actor" targetSpec="" />では<tag a="110" b="0" /><delay frames="40" />
+<anim id="EmotEnd" target="actor" targetSpec="" /><ruby a="4" b="8">ほんじつ</ruby>本日は　どのような<ruby a="4" b="8">ほうほう</ruby>方法で、<delay20 />
+<anim id="QuestionMark" target="actor" targetSpec="" /><ruby a="2" b="4">ゆめ</ruby>夢を　ご<ruby a="4" b="6">ようい</ruby>用意いたしましょうか？</message>
+	<message label="1065_a" attrib="00 00 00 00"><ruby a="2" b="4">ゆめ</ruby>夢<ruby a="4" b="6">ばんち</ruby>番地で<ruby a="2" b="4">さが</ruby>探す</message>
+	<message label="1065_b" attrib="00 00 00 00">おまかせする</message>
+	<message label="1065_c" attrib="00 00 00 00">やっぱやめる</message>
+	<message label="1066" attrib="02 00 00 00">それと、<delay8 />わたくしから<delay8 />
+お<ruby a="2" b="4">ねが</ruby>願いがあるのですが<tag a="110" b="0" /><pageBreak /><anim id="Explain" target="actor" targetSpec="" /><tag a="110" b="34" />の<ruby a="2" b="4">ゆめ</ruby>夢を<delay8 />
+「おまかせ」で<ruby a="2" b="2">み</ruby>見られるように　<ruby a="4" b="8">せってい</ruby>設定しても<delay20 />
+<anim id="QuestionMark" target="actor" targetSpec="" />よろしいでしょうか？<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />「おまかせ」で<ruby a="2" b="2">み</ruby>見られるように　<ruby a="4" b="8">せってい</ruby>設定した<ruby a="2" b="4">うえ</ruby>上で<delay20 />
+<ruby a="2" b="4">ゆめ</ruby>夢を　フレッシュなものに<delay20 />
+<anim id="Smiling" target="actor" targetSpec="" /><ruby a="4" b="8">こうしん</ruby>更新させていただきたいのです</message>
+	<message label="1066_a" attrib="00 00 00 00"><ruby a="4" b="8">こうしん</ruby>更新します</message>
+	<message label="1066_b" attrib="00 00 00 00">やめておきます</message>
+	<message label="1067" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />ご<ruby a="4" b="12">きょうりょく</ruby>協力　<ruby a="4" b="8">かんしゃ</ruby>感謝いたします<delay frames="40" />
+<anim id="EmotEnd" target="actor" targetSpec="" />きっと<delay8 />　たくさんの<ruby a="2" b="4">かた</ruby>方たちが<delay20 />
+<anim id="Nodding" target="actor" targetSpec="" />あなたの<ruby a="2" b="4">ゆめ</ruby>夢を　<ruby a="2" b="2">み</ruby>見てくださると<ruby a="2" b="4">おも</ruby>思いますわ<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />では<delay8 />、<tag a="110" b="34" />の<ruby a="2" b="4">ゆめ</ruby>夢を<delay20 />
+「おまかせ」で<delay8 /><ruby a="2" b="2">み</ruby>見られるように　<ruby a="4" b="8">せってい</ruby>設定して、<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" /><ruby a="2" b="4">ゆめ</ruby>夢を<delay8 />　<ruby a="4" b="8">こうしん</ruby>更新いたしますわね</message>
+	<message label="1068" attrib="00 00 00 00">おつかれさまで　ございました<tag a="110" b="0" /><10_4 />
+<anim id="Nodding" target="actor" targetSpec="" /><tag a="110" b="34" />の<ruby a="2" b="4">ゆめ</ruby>夢を<delay20 />
+<ruby a="4" b="8">こうしん</ruby>更新いたしました</message>
+	<message label="1069" attrib="00 00 00 00"><ruby a="2" b="2">ひ</ruby>引き<ruby a="2" b="4">つづ</ruby>続き、<tag a="110" b="34" />の<ruby a="6" b="10">ゆめばんち</ruby>夢番地は
+<tag a="140" b="17" arg="0xcd00" />となっております<pageBreak /><anim id="Explain" target="actor" targetSpec="" />「おまかせ」の<delay8 />　<ruby a="4" b="8">せってい</ruby>設定の<ruby a="4" b="8">へんこう</ruby>変更は<delay20 />
+いつでも　<ruby a="2" b="2">う</ruby>受け<ruby a="2" b="2">つ</ruby>付けますので、<delay20 />
+<anim id="Hello" target="actor" targetSpec="" />わたくしに<delay20 />　お<ruby a="2" b="4">もう</ruby>申し<ruby a="2" b="2">つ</ruby>付けくださいね</message>
+	<message label="1070" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />かしこまりました<tag a="110" b="0" /><delay frames="40" />
+<anim id="EmotEnd" target="actor" targetSpec="" />「おまかせ」で<delay8 />　<ruby a="2" b="4">ゆめ</ruby>夢が<ruby a="2" b="2">み</ruby>見られないように、<delay20 />
+<anim id="Nodding" target="actor" targetSpec="" /><ruby a="4" b="8">せってい</ruby>設定いたしますわね</message>
+	<message label="1071" attrib="00 00 00 00">「おまかせ」で　<ruby a="2" b="4">ゆめ</ruby>夢を<ruby a="2" b="2">み</ruby>見られないように<delay20 />
+<ruby a="4" b="8">せってい</ruby>設定いたしました<pageBreak /><anim id="Explain" target="actor" targetSpec="" />「おまかせ」の　<ruby a="4" b="8">せってい</ruby>設定の<ruby a="4" b="8">へんこう</ruby>変更は<delay20 />
+いつでも<delay8 />　<ruby a="2" b="2">う</ruby>受け<ruby a="2" b="2">つ</ruby>付けますので、<delay20 />
+<anim id="Hello" target="actor" targetSpec="" />わたくしに　お<ruby a="2" b="4">もう</ruby>申し<ruby a="2" b="2">つ</ruby>付けくださいね</message>
 	<message label="2001" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />ご<ruby a="4" b="12">きょうりょく</ruby>協力<delay8 />　<ruby a="4" b="8">かんしゃ</ruby>感謝いたしますわ<10_4 />
 <anim id="EmotEnd" target="actor" targetSpec="" />では、あなたの<tag a="110" b="32" />を　<ruby a="2" b="4">ほか</ruby>他の<ruby a="2" b="4">かた</ruby>方にお<ruby a="2" b="2">み</ruby>見せする<ruby a="2" b="4">まえ</ruby>前に<delay8 />
 <anim id="Hello" target="actor" targetSpec="" />こちらを　ご<ruby a="4" b="8">かくにん</ruby>確認いただけますか？</message>
@@ -259,6 +324,23 @@
 「ほかの<ruby a="2" b="4">ひと</ruby>人との<ruby a="4" b="6">じゆう</ruby>自由なコミュニケーション」の
 <ruby a="4" b="8">せいげん</ruby>制限を<delay20 />　<ruby a="4" b="8">かいじょ</ruby>解除する<ruby a="4" b="8">ひつよう</ruby>必要がありますの<anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" /><ruby a="4" b="8">じゅんび</ruby>準備が　お<ruby a="2" b="2">す</ruby>済みになりましたら、<delay20 />
 また　お<ruby a="2" b="4">もう</ruby>申し<ruby a="2" b="2">つ</ruby>付けくださいね</message>
+	<message label="2100" attrib="02 00 00 00">それと<tag a="110" b="0" /><delay20 />、<anim id="Nodding" target="actor" targetSpec="" /><ruby a="2" b="4">ゆめ</ruby>夢をご<ruby a="4" b="10">ていきょう</ruby>提供くださった
+<tag a="110" b="1" /><ruby a="2" b="4">さま</ruby>様に、<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />わたくしから<delay8 />　お<ruby a="2" b="4">ねが</ruby>願いがございますの<pageBreak /><anim id="Explain" target="actor" targetSpec="" /><tag a="110" b="34" />の<ruby a="2" b="4">ゆめ</ruby>夢を<delay8 />
+「おまかせ」で　<ruby a="2" b="2">み</ruby>見られるように、<delay20 />
+<ruby a="4" b="8">せってい</ruby>設定させていただいて　<anim id="QuestionMark" target="actor" targetSpec="" />よろしいでしょうか？</message>
+	<message label="2100_a" attrib="00 00 00 00"><ruby a="4" b="8">せってい</ruby>設定します</message>
+	<message label="2100_b" attrib="00 00 00 00">やめておきます</message>
+	<message label="2101" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />ご<ruby a="4" b="12">きょうりょく</ruby>協力　<ruby a="4" b="8">かんしゃ</ruby>感謝いたします<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />では、<delay8 /><tag a="110" b="34" />の<ruby a="2" b="4">ゆめ</ruby>夢を
+「おまかせ」で　<ruby a="2" b="2">み</ruby>見られるように<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" /><ruby a="4" b="8">せってい</ruby>設定いたしますわね</message>
+	<message label="2102" attrib="00 00 00 00">おつかれさまで　ございました<tag a="110" b="0" /><pageBreak /><anim id="Nodding" target="actor" targetSpec="" /><tag a="110" b="34" />の<ruby a="2" b="4">ゆめ</ruby>夢が
+「おまかせ」で<delay8 />　<ruby a="2" b="2">み</ruby>見られるように<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" /><ruby a="4" b="8">せってい</ruby>設定いたしました</message>
+	<message label="2103" attrib="00 00 00 00"><anim id="Worried" target="actor" targetSpec="" /><ruby a="2" b="4">もう</ruby>申し<ruby a="2" b="4">わけ</ruby>訳ございません<tag a="110" b="0" /><delay frames="40" />
+<anim id="EmotEnd" target="actor" targetSpec="" /><tag a="110" b="34" />の<ruby a="2" b="4">ゆめ</ruby>夢を<delay20 />
+<anim id="Negative" target="actor" targetSpec="" />お<ruby a="2" b="4">あず</ruby>預かりすることが　できませんでした<tag a="110" b="0" /><pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" /><ruby a="2" b="4">ゆめ</ruby>夢のお<ruby a="2" b="4">あず</ruby>預かりは、<delay8 />また<ruby a="2" b="6">あらた</ruby>改めて<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />お<ruby a="2" b="4">ねが</ruby>願いいたしますわね</message>
 	<message label="3001" attrib="06 00 00 00"><ruby a="4" b="8">げんざい</ruby>現在、<tag a="110" b="34" />の<ruby a="2" b="4">ゆめ</ruby>夢を<delay8 />
 <colour id="1" /><ruby a="6" b="10">ゆめばんち</ruby>夢番地<colour id="65535" />　<tag a="140" b="17" arg="0xcd00" />で
 お<ruby a="2" b="4">あず</ruby>預かりしておりますが、<delay20 /><anim id="QuestionMark" target="actor" targetSpec="" />どうなさいますか？</message>
@@ -272,9 +354,19 @@
 	<message label="3001_01_b" attrib="00 00 00 00"><ruby a="2" b="4">ゆめ</ruby>夢<ruby a="4" b="6">ばんち</ruby>番地の<ruby a="4" b="8">こうかい</ruby>公開について</message>
 	<message label="3001_01_c" attrib="00 00 00 00"><ruby a="2" b="4">ゆめ</ruby>夢を<ruby a="2" b="2">け</ruby>消したい</message>
 	<message label="3001_01_d" attrib="00 00 00 00"><ruby a="2" b="4">とく</ruby>特にないです</message>
+	<message label="3002" attrib="08 00 00 00"><ruby a="4" b="8">げんざい</ruby>現在、<tag a="110" b="34" />の<ruby a="2" b="4">ゆめ</ruby>夢を<delay8 />
+<colour id="1" /><ruby a="6" b="10">ゆめばんち</ruby>夢番地<colour id="65535" />　<tag a="140" b="17" arg="0xcd00" />で
+お<ruby a="2" b="4">あず</ruby>預かりしておりますが、<delay20 /><anim id="QuestionMark" target="actor" targetSpec="" />どうなさいますか？</message>
+	<message label="3002_a" attrib="00 00 00 00"><ruby a="2" b="4">ゆめ</ruby>夢を<ruby a="4" b="8">こうしん</ruby>更新したい</message>
+	<message label="3002_b" attrib="00 00 00 00"><ruby a="2" b="4">ゆめ</ruby>夢<ruby a="4" b="6">ばんち</ruby>番地の<ruby a="4" b="8">こうかい</ruby>公開について</message>
+	<message label="3002_c" attrib="00 00 00 00">「おまかせ」の<ruby a="4" b="8">せってい</ruby>設定について</message>
+	<message label="3002_d" attrib="00 00 00 00"><ruby a="2" b="4">ゆめ</ruby>夢を<ruby a="2" b="2">け</ruby>消したい</message>
+	<message label="3002_e" attrib="00 00 00 00"><ruby a="2" b="4">とく</ruby>特にないです</message>
+	<message label="3002_02" attrib="08 00 00 00">お<ruby a="2" b="4">あず</ruby>預かりしている　<ruby a="2" b="4">ゆめ</ruby>夢について、<delay20 />
+<ruby a="2" b="4">ほか</ruby>他に　ご<ruby a="4" b="8">ようけん</ruby>用件は　<anim id="QuestionMark" target="actor" targetSpec="" />ございますか？</message>
 	<message label="3002_02_a" attrib="00 00 00 00"><ruby a="2" b="4">ゆめ</ruby>夢を<ruby a="4" b="8">こうしん</ruby>更新したい</message>
 	<message label="3002_02_b" attrib="00 00 00 00"><ruby a="2" b="4">ゆめ</ruby>夢<ruby a="4" b="6">ばんち</ruby>番地の<ruby a="4" b="8">こうかい</ruby>公開について</message>
-	<message label="3002_02_c" attrib="00 00 00 00"><ruby a="2" b="4">ゆめ</ruby>夢<ruby a="4" b="6">ばんち</ruby>番地の<ruby a="4" b="8">こうかい</ruby>公開について</message>
+	<message label="3002_02_c" attrib="00 00 00 00">「おまかせ」の<ruby a="4" b="8">せってい</ruby>設定について</message>
 	<message label="3002_02_d" attrib="00 00 00 00"><ruby a="2" b="4">ゆめ</ruby>夢を<ruby a="2" b="2">け</ruby>消したい</message>
 	<message label="3002_02_e" attrib="00 00 00 00"><ruby a="2" b="4">とく</ruby>特にないです</message>
 	<message label="3101" attrib="02 00 00 00"><anim id="Eh" target="actor" targetSpec="" />あら<tag a="110" b="0" /><delay20 />　<anim id="EmotEnd" target="actor" targetSpec="" /><tag a="110" b="34" />の<ruby a="2" b="4">ゆめ</ruby>夢を<delay20 />
@@ -360,6 +452,41 @@
 	<message label="3405" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />かしこまりました<tag a="110" b="0" /><pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" /><colour id="1" />パスポート<colour id="65535" />や<colour id="1" />マップ<colour id="65535" />に<delay8 />　<colour id="1" /><ruby a="6" b="10">ゆめばんち</ruby>夢番地<colour id="65535" />を<ruby a="2" b="2">の</ruby>載せて、<delay frames="30" />
 <anim id="Nodding" target="actor" targetSpec="" /><ruby a="4" b="8">いっしょ</ruby>一緒に<ruby a="2" b="4">あそ</ruby>遊んだ<ruby a="2" b="4">かた</ruby>方から　<ruby a="2" b="2">み</ruby>見てもらえるように<delay20 />
 <anim id="FaintSmile" target="actor" targetSpec="" /><ruby a="4" b="8">へんこう</ruby>変更しておきますわね</message>
+	<message label="3500" attrib="01 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />「おまかせ」の<delay8 />　<ruby a="4" b="8">せってい</ruby>設定についてですわね<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" /><ruby a="4" b="8">げんざい</ruby>現在、<delay8 /><tag a="110" b="34" />の<ruby a="2" b="4">ゆめ</ruby>夢は<delay20 />
+<anim id="Explain" target="actor" targetSpec="" />「おまかせ」で　<ruby a="2" b="2">み</ruby>見られるように<delay20 />
+<ruby a="4" b="8">せってい</ruby>設定されています<anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak /><anim id="Explain" target="actor" targetSpec="" />こちらを<ruby a="4" b="8">へんこう</ruby>変更して、<delay20 />
+「おまかせ」で　<tag a="110" b="34" />の<ruby a="2" b="4">ゆめ</ruby>夢を<delay8 />
+<anim id="QuestionMark" target="actor" targetSpec="" /><ruby a="2" b="2">み</ruby>見られないようにしますか？</message>
+	<message label="3500_a" attrib="00 00 00 00"><ruby a="2" b="2">み</ruby>見られないようにしたい</message>
+	<message label="3500_b" attrib="00 00 00 00">そのままでいい</message>
+	<message label="3501" attrib="01 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />「おまかせ」の<delay8 />　<ruby a="4" b="8">せってい</ruby>設定についてですわね<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" /><ruby a="4" b="8">げんざい</ruby>現在、<delay8 /><tag a="110" b="34" />の<ruby a="2" b="4">ゆめ</ruby>夢は<delay20 />
+<anim id="Explain" target="actor" targetSpec="" />「おまかせ」で　<ruby a="2" b="2">み</ruby>見られないように<delay20 />
+<ruby a="4" b="8">せってい</ruby>設定されています<anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak /><anim id="Explain" target="actor" targetSpec="" />こちらを<ruby a="4" b="8">へんこう</ruby>変更して、<delay20 />
+「おまかせ」で　<tag a="110" b="34" />の<ruby a="2" b="4">ゆめ</ruby>夢を<delay8 />
+<anim id="QuestionMark" target="actor" targetSpec="" /><ruby a="2" b="2">み</ruby>見られるようにしますか？</message>
+	<message label="3501_a" attrib="00 00 00 00"><ruby a="2" b="2">み</ruby>見られるようにしたい</message>
+	<message label="3501_b" attrib="00 00 00 00">そのままでいい</message>
+	<message label="3502" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />かしこまりました<tag a="110" b="0" /><delay frames="40" /><pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />それでは<delay8 />　<ruby a="4" b="8">せってい</ruby>設定はそのままで<delay20 />
+<anim id="Nodding" target="actor" targetSpec="" /><tag a="110" b="34" />の<ruby a="2" b="4">ゆめ</ruby>夢が<delay8 />
+<ruby a="2" b="2">み</ruby>見られるように<delay20 />　<anim id="FaintSmile" target="actor" targetSpec="" />しておきますわね</message>
+	<message label="3503" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />かしこまりました<tag a="110" b="0" /><pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />それでは<delay8 />　「おまかせ」で
+<anim id="Nodding" target="actor" targetSpec="" /><tag a="110" b="34" />の<ruby a="2" b="4">ゆめ</ruby>夢が<delay8 />
+<ruby a="2" b="2">み</ruby>見られないように<delay20 />　<anim id="FaintSmile" target="actor" targetSpec="" /><ruby a="4" b="8">せってい</ruby>設定を<ruby a="4" b="8">へんこう</ruby>変更いたしますわね</message>
+	<message label="3504" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />かしこまりました<tag a="110" b="0" /><pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />「おまかせ」で<delay8 />
+<anim id="Nodding" target="actor" targetSpec="" /><tag a="110" b="34" />の<ruby a="2" b="4">ゆめ</ruby>夢を<delay8 />
+<ruby a="2" b="2">み</ruby>見られるように<delay20 />　<anim id="FaintSmile" target="actor" targetSpec="" /><ruby a="4" b="8">せってい</ruby>設定を<ruby a="4" b="8">へんこう</ruby>変更いたしますわね</message>
+	<message label="3505" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />かしこまりました<tag a="110" b="0" /><delay frames="40" /><pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />それでは<delay8 />　<ruby a="4" b="8">せってい</ruby>設定はそのままで<delay20 />
+<anim id="Nodding" target="actor" targetSpec="" /><tag a="110" b="34" />の<ruby a="2" b="4">ゆめ</ruby>夢が<delay8 />
+<ruby a="2" b="2">み</ruby>見られないように<delay20 />　<anim id="FaintSmile" target="actor" targetSpec="" />しておきますわね</message>
+	<message label="3506" attrib="01 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />「おまかせ」の<delay8 />　<ruby a="4" b="8">せってい</ruby>設定についてですわね<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" /><ruby a="4" b="8">げんざい</ruby>現在、<delay8 /><tag a="110" b="34" />の<ruby a="2" b="4">ゆめ</ruby>夢は<delay20 />
+<anim id="Explain" target="actor" targetSpec="" />「おまかせ」で　<ruby a="2" b="2">み</ruby>見られないように<delay20 />
+<ruby a="4" b="8">せってい</ruby>設定されています<anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak /><anim id="Nodding" target="actor" targetSpec="" />こちらを<ruby a="4" b="8">へんこう</ruby>変更して、<delay20 />
+「おまかせ」で　<tag a="110" b="34" />の<ruby a="2" b="4">ゆめ</ruby>夢を<delay8 />
+<anim id="QuestionMark" target="actor" targetSpec="" /><ruby a="2" b="2">み</ruby>見られるようにしますか？<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />「おまかせ」で<ruby a="2" b="2">み</ruby>見られるように　<ruby a="4" b="8">せってい</ruby>設定した<ruby a="2" b="4">うえ</ruby>上で、<delay20 />
+<ruby a="2" b="4">ゆめ</ruby>夢をフレッシュなものに<delay20 />
+<anim id="Smiling" target="actor" targetSpec="" /><ruby a="4" b="8">こうしん</ruby>更新させていただきますわ</message>
+	<message label="3506_a" attrib="00 00 00 00"><ruby a="4" b="8">こうしん</ruby>更新します</message>
+	<message label="3506_b" attrib="00 00 00 00">そのままでいい</message>
 	<message label="4000" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />ここは　<ruby a="2" b="4">ゆめ</ruby>夢と<ruby a="2" b="4">ゆめ</ruby>夢をつなぐ<ruby a="4" b="6">はざま</ruby>狭間の<ruby a="4" b="6">せかい</ruby>世界<tag a="110" b="0" /><delay frames="40" />
 <anim id="EmotEnd" target="actor" targetSpec="" />わたくしは<delay8 />　みなさんが<ruby a="2" b="2">よ</ruby>良い<ruby a="2" b="4">ゆめ</ruby>夢を<ruby a="2" b="2">み</ruby>見られるよう<delay8 />
 <anim id="FaintSmile" target="actor" targetSpec="" />ここで　ご<ruby a="4" b="8">あんない</ruby>案内をしておりますの<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />あなたに　<ruby a="2" b="2">よ</ruby>良い<ruby a="2" b="4">ゆめ</ruby>夢を<ruby a="2" b="2">み</ruby>見ていただくのはもちろん<delay20 />
@@ -414,4 +541,13 @@
 <anim id="FaintSmile" target="actor" targetSpec="" /><ruby a="4" b="6">じぜん</ruby>事前に　<colour id="1" />マイデザイン・ショーケース<colour id="65535" />を<delay8 />
 チェックなさってくださいね</message>
 	<message label="4003_03" attrib="00 00 00 00">ご<ruby a="4" b="8">せつめい</ruby>説明は　こんなところでしょうか<tag a="110" b="0" /></message>
+	<message label="4010" attrib="00 00 00 00">それから、<delay8 /><ruby a="2" b="4">ゆめ</ruby>夢をお<ruby a="2" b="2">と</ruby>取り<ruby a="2" b="2">よ</ruby>寄せするためには、<delay20 />
+<anim id="Explain" target="actor" targetSpec="" /><colour id="1" />インターネット<ruby a="4" b="8">つうしん</ruby>通信<colour id="65535" />のご<ruby a="4" b="8">じゅんび</ruby>準備が<delay8 />
+<ruby a="4" b="8">ひつよう</ruby>必要になりますの<anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak /><colour id="1" />インターネット<ruby a="4" b="8">つうしん</ruby>通信<colour id="65535" />が<ruby a="4" b="6">かのう</ruby>可能な<ruby a="4" b="6">ばしょ</ruby>場所で<delay8 />
+<anim id="FaintSmile" target="actor" targetSpec="" />お<ruby a="2" b="4">たの</ruby>楽しみくださいね<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />それと、<delay8 /><ruby a="4" b="6">じぜん</ruby>事前に　<delay8 /><anim id="Nodding" target="actor" targetSpec="" /><ruby a="2" b="2">み</ruby>見たい<ruby a="2" b="4">ゆめ</ruby>夢の<colour id="1" /><ruby a="6" b="10">ゆめばんち</ruby>夢番地<colour id="65535" />を<delay20 />
+ご<ruby a="4" b="8">じゅんび</ruby>準備くださいまし<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />また、<delay8 />わたくしに　おまかせくだされば、<delay20 />
+<colour id="1" /><anim id="Nodding" target="actor" targetSpec="" /><ruby a="6" b="10">ゆめばんち</ruby>夢番地<colour id="65535" />を<delay8 />　ご<ruby a="2" b="4">ぞん</ruby>存じなくても<delay8 />
+<ruby a="2" b="4">ゆめ</ruby>夢を　<ruby a="2" b="2">と</ruby>取り<ruby a="2" b="2">よ</ruby>寄せることができますの<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" /><ruby a="2" b="4">ゆめ</ruby>夢を<ruby a="2" b="2">み</ruby>見るときに　<delay20 />『<colour id="1" />おまかせする<colour id="65535" />』<delay20 />と<delay8 />
+お<ruby a="2" b="4">もう</ruby>申し<ruby a="2" b="2">つ</ruby>付けください<10_4 />
+<anim id="Hello" target="actor" targetSpec="" /><ruby a="4" b="8">せつめい</ruby>説明は　こんなところでしょうか<tag a="110" b="0" /></message>
 </msbt>

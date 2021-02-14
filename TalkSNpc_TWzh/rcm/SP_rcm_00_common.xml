@@ -87,6 +87,13 @@
 我可以用<tag a="90" b="21" arg="0x0" />跟您買下來<tag a="110" b="0" /></message>
 	<message label="037_a" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />賣！</message>
 	<message label="037_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />算了</message>
+	<message label="037_01" attrib="02 00 00 00"><anim id="Shocked" target="mainNpc" targetSpec="" /><anim id="Shocked" target="subNpc" targetSpec="" />哇！<delay40 />
+這是<tag a="125" b="0" arg="0x0" />的
+ＤＩＹ方程式啊～！<pageBreak /><anim id="Worried" target="mainNpc" targetSpec="" />如此<anim id="Nodding" target="subNpc" targetSpec="" />貴重的方程式，<delay20 />
+真的要賣掉嗎<tag a="110" b="0" />？<delay40 />
+我可以用<tag a="90" b="21" arg="0x0" />跟您買下來<tag a="110" b="0" /></message>
+	<message label="037_01_a" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />賣！</message>
+	<message label="037_01_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />算了</message>
 	<message label="038" attrib="02 00 00 00"><anim id="Worried" target="mainNpc" targetSpec="" /><anim id="Worried" target="subNpc" targetSpec="" />啊<tag a="110" b="0" /><delay40 />
 不好意思，這些東西無法賣錢<tag a="110" b="0" /><pageBreak />如果您不要的話，
 我們可以免費幫您處理掉<tag a="110" b="0" /></message>
@@ -110,6 +117,11 @@
 <anim id="QuestionMark" target="mainNpc" targetSpec="" /><anim id="QuestionMark" target="subNpc" targetSpec="" />也要賣掉嗎？</message>
 	<message label="043_a" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />要</message>
 	<message label="043_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />算了</message>
+	<message label="043_01" attrib="02 00 00 00"><anim id="FaintSmile" target="mainNpc" targetSpec="" /><anim id="FaintSmile" target="subNpc" targetSpec="" />您帶了不少東西來呢<tag a="110" b="0" /><anim id="Shocked" target="mainNpc" targetSpec="" /><anim id="Shocked" target="subNpc" targetSpec="" /><delay8 />咦？<delay20 />
+<anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" />這裡面有相當貴重的方程式，<delay20 />
+<anim id="QuestionMark" target="mainNpc" targetSpec="" /><anim id="QuestionMark" target="subNpc" targetSpec="" />也要賣掉嗎？</message>
+	<message label="043_01_a" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />要</message>
+	<message label="043_01_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />算了</message>
 	<message label="044_01" attrib="00 00 00 00"><anim id="Smiling" target="mainNpc" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" />明白了！<tag a="100" b="4" />　<delay8 /><size value="75" />明白了！<size value="100" /><endTag a="100" b="4" /><delay frames="40" />
 <anim id="AbsentMindedness" target="mainNpc" targetSpec="" /><anim id="Nodding" target="subNpc" targetSpec="" />那麼，<delay20 />我馬上來算算看多少錢<tag a="110" b="0" /></message>
 	<message label="044_02" attrib="00 00 00 00"><anim id="Smiling" target="mainNpc" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" />明白了！<tag a="100" b="4" />　<delay8 /><size value="75" />明白了！<size value="100" /><endTag a="100" b="4" /><delay frames="40" />
@@ -370,6 +382,11 @@
 	<message label="144_06" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />客人，<delay8 />您今天
 已經買過糖果了，<delay20 />
 請下次有機會再來吧～！</message>
+	<message label="145" attrib="00 00 00 00"><anim id="Eh" target="mainNpc" targetSpec="" />啊！對了！<delay frames="30" />
+<anim id="EmotEnd" target="actor" targetSpec="" />我們開始販售玩具系列的家具了。<delay20 />
+<anim id="Nodding" target="mainNpc" targetSpec="" /><anim id="FaintSmile" target="subNpc" targetSpec="" />可以買來當作聖誕節禮物喔！<pageBreak /><anim id="Explain" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" />那是只賣到12月25日的限定商品。<delay20 />
+要是喜歡的話，
+<anim id="FaintSmile" target="mainNpc" targetSpec="" /><anim id="FaintSmile" target="subNpc" targetSpec="" />請千萬不要錯過喔！　<size value="75" /><delay20 /><tag a="100" b="4" />錯過喔！<endTag a="100" b="4" /><size value="100" /></message>
 	<message label="200" attrib="00 00 00 00"><anim id="Smiling" target="mainNpc" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" />謝謝光臨！<tag a="100" b="4" />　<delay8 /><size value="75" />光臨！<size value="100" /><endTag a="100" b="4" /><anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" /><10_7 arg="90" /></message>
 	<message label="201" attrib="00 00 00 00"><anim id="FaintSmile" target="mainNpc" targetSpec="" /><anim id="FaintSmile" target="subNpc" targetSpec="" />歡迎光臨！<tag a="100" b="4" />　<delay8 /><size value="75" />光臨！<size value="100" /><endTag a="100" b="4" /><delay40 />
 歡迎來到Nook商店！<tag a="100" b="4" />　<delay8 /><size value="75" />Nook商店！<size value="100" /><endTag a="100" b="4" /></message>
@@ -412,4 +429,22 @@
 <anim id="FaintSmile" target="actor" targetSpec="" />請隨時跟我們說！<tag a="100" b="4" />　<delay8 /><size value="75" />跟我們說！<size value="100" /><endTag a="100" b="4" /></message>
 	<message label="905" attrib="00 00 00 00"><anim id="Smiling" target="mainNpc" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" />那麼，<delay8 />要是還有什麼需要的話，<delay20 />
 <anim id="FaintSmile" target="actor" targetSpec="" />請不要客氣，歡迎隨時跟我們說！<tag a="100" b="4" />　<delay8 /><size value="75" />跟我們說！<size value="100" /><endTag a="100" b="4" /></message>
+	<message label="2001" attrib="00 00 00 00"><anim id="Eh" target="mainNpc" targetSpec="" />對了對了，<delay8 /><tag a="125" b="0" arg="0x0" /><delay20 />
+<anim id="EmotEnd" target="mainNpc" targetSpec="" />是感恩節相關的限定商品。
+貨架上的賣完就沒有了喔<tag a="110" b="0" /><pageBreak /><anim id="Nodding" target="mainNpc" targetSpec="" /><anim id="Nodding" target="subNpc" targetSpec="" />而收錄其製作方法的方程式集，<delay8 />
+會在<colour id="1" />貨架上期間限定販售<colour id="65535" />。<delay20 />
+<anim id="Hello" target="mainNpc" targetSpec="" /><anim id="Hello" target="subNpc" targetSpec="" />請務必都參考看看喔！　<tag a="100" b="4" /><delay8 /><size value="75" />看看喔！<size value="100" /><endTag a="100" b="4" /></message>
+	<message label="2002" attrib="02 00 00 00">那麼<tag a="110" b="0" /><delay frames="40" />
+這件商品的價錢是<delay8 /><anim id="Nodding" target="mainNpc" targetSpec="" /><tag a="90" b="24" arg="0x0" />，<delay20 />
+<anim id="Hello" target="mainNpc" targetSpec="" /><anim id="Hello" target="subNpc" targetSpec="" />要買嗎？</message>
+	<message label="2002_a" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />買！</message>
+	<message label="2002_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />算了</message>
+	<message label="2003" attrib="00 00 00 00"><anim id="Nodding" target="mainNpc" targetSpec="" /><tag a="110" b="1" />，<delay8 />
+收錄在此的ＤＩＹ方程式，<delay20 />
+<anim id="Smiling" target="mainNpc" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" />您好像都已經學會了！<pageBreak /><anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" />那麼，請一定要<delay8 />自己做做看<delay20 />
+<anim id="Hello" target="mainNpc" targetSpec="" /><anim id="Hello" target="subNpc" targetSpec="" />感恩節的相關商品喔！</message>
+	<message label="2004" attrib="00 00 00 00"><anim id="Explain" target="mainNpc" targetSpec="" />這件<tag a="125" b="0" arg="0x0" /><delay20 />
+<anim id="Smiling" target="subNpc" targetSpec="" />收錄了感恩節相關商品的<delay8 />
+<colour id="1" /><anim id="Smiling" target="mainNpc" targetSpec="" />ＤＩＹ<colour id="65535" />方程式！<pageBreak /><anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" />而這件商品<delay8 />是期間限定販售的，<delay20 />
+<anim id="Nodding" target="mainNpc" targetSpec="" />只會賣到這個月底喔<tag a="110" b="0" /></message>
 </msbt>

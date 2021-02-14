@@ -36,7 +36,7 @@
 	<message label="002_d" attrib="00 00 00 00">Хочу проснуться.</message>
 	<message label="002_01" attrib="06 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Чем могу помочь?</message>
 	<message label="002_01_a" attrib="00 00 00 00">Хочу видеть сон.</message>
-	<message label="002_01_b" attrib="00 00 00 00">Я поделил<gender2 m="ся" f="ась" /> сном...</message>
+	<message label="002_01_b" attrib="00 00 00 00">Насчет моего сна...</message>
 	<message label="002_01_c" attrib="00 00 00 00">Где я?</message>
 	<message label="002_01_d" attrib="00 00 00 00">Хочу проснуться.</message>
 	<message label="002_02" attrib="06 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Могу ли я помочь тебе еще чем-то?</message>
@@ -46,7 +46,7 @@
 	<message label="002_02_d" attrib="00 00 00 00">Хочу проснуться.</message>
 	<message label="002_03" attrib="06 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Могу ли я помочь тебе еще чем-то?</message>
 	<message label="002_03_a" attrib="00 00 00 00">Хочу видеть сон.</message>
-	<message label="002_03_b" attrib="00 00 00 00">Я поделил<gender2 m="ся" f="ась" /> сном...</message>
+	<message label="002_03_b" attrib="00 00 00 00">Насчет моего сна...</message>
 	<message label="002_03_c" attrib="00 00 00 00">Где я?</message>
 	<message label="002_03_d" attrib="00 00 00 00">Хочу проснуться.</message>
 	<message label="002_04" attrib="06 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Чем могу помочь?</message>
@@ -56,7 +56,7 @@
 	<message label="002_04_d" attrib="00 00 00 00">Хочу проснуться.</message>
 	<message label="002_05" attrib="06 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Чем могу помочь?</message>
 	<message label="002_05_a" attrib="00 00 00 00">Хочу видеть сон.</message>
-	<message label="002_05_b" attrib="00 00 00 00">Я поделил<gender2 m="ся" f="ась" /> сном...</message>
+	<message label="002_05_b" attrib="00 00 00 00">Насчет моего сна...</message>
 	<message label="002_05_c" attrib="00 00 00 00">Еще раз: где это я?</message>
 	<message label="002_05_d" attrib="00 00 00 00">Хочу проснуться.</message>
 	<message label="002_06" attrib="06 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Могу ли я помочь тебе еще чем-то?</message>
@@ -66,7 +66,7 @@
 	<message label="002_06_d" attrib="00 00 00 00">Хочу проснуться.</message>
 	<message label="002_07" attrib="06 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Могу ли я помочь тебе еще чем-то?</message>
 	<message label="002_07_a" attrib="00 00 00 00">Хочу видеть сон.</message>
-	<message label="002_07_b" attrib="00 00 00 00">Я поделил<gender2 m="ся" f="ась" /> сном...</message>
+	<message label="002_07_b" attrib="00 00 00 00">Насчет моего сна...</message>
 	<message label="002_07_c" attrib="00 00 00 00">Еще раз: где это я?</message>
 	<message label="002_07_d" attrib="00 00 00 00">Хочу проснуться.</message>
 	<message label="003" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Поняла. <delay8 />Возвращайся.<delay8 />
@@ -103,6 +103,17 @@
 и расслабься<tag a="110" b="0" /><anim id="EmotEnd" target="actor" targetSpec="" /></message>
 	<message label="1006_01" attrib="00 00 00 00">Лети в эфир<tag a="110" b="0" /><delay8 /> и погружайся в сон
 об острове <tag a="115" b="2" arg="0xcd00" /><tag a="110" b="0" /><10_8 arg="75" /></message>
+	<message label="1010" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Конечно, конечно! <delay8 />Но прежде чем
+отправить тебя в страну снов,
+я должна кое-что пояснить.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Сны, <delay8 />как и многое другое в наши
+дни,<delay8 /> загружаются через <colour id="1" />Интернет<colour id="65535" />.<delay8 />
+Конечно, необходимо подключение.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Чтобы посетить определенный сон,<delay8 />
+требуется <colour id="1" />шифр сна<colour id="65535" /> — он уникален
+для каждого сна.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />С другой стороны,<delay8 /> если ты любишь
+сюрпризы,<delay20 /> я с удовольствием сама
+выберу тебе сон.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Если ты хочешь, чтобы я выбрала
+для тебя сон, просто скажи<delay20 />
+<anim id="Hello" target="actor" targetSpec="" />«<colour id="1" />Хочу сюрприз!<colour id="65535" />»</message>
 	<message label="1031" attrib="02 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Извини, <delay8 />но под этим <colour id="1" />шифром сна<colour id="65535" />
 нет зарегистрированных данных.</message>
 	<message label="1031_a" attrib="00 00 00 00">Попробуем еще раз.</message>
@@ -152,6 +163,56 @@
 ты можешь пересмотреть.<pageBreak /><anim id="Worried" target="actor" targetSpec="" />Если хочешь посмотреть сон,<delay8 />
 попроси предоставить тебе
 <colour id="1" />шифр сна<colour id="65535" />.</message>
+	<message label="1060" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Кстати,<delay8 /> если ты хочешь, чтобы
+я сама выбрала для тебя сон,<delay8 />
+буду рада устроить тебе сюрприз.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Для этого не нужен шифр сна.<delay20 />
+Я наугад выберу для тебя приятный
+сон на просторах Интернета.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Так что если хочешь, чтобы
+я выбрала для тебя сон, просто
+скажи<delay20 /> <anim id="Hello" target="actor" targetSpec="" />«<colour id="1" />Хочу сюрприз!<colour id="65535" />»</message>
+	<message label="1061" attrib="06 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Как будешь готовиться ко сну?</message>
+	<message label="1061_a" attrib="00 00 00 00">Искать по шифру сна.</message>
+	<message label="1061_b" attrib="00 00 00 00">Пересмотреть сон.</message>
+	<message label="1061_c" attrib="00 00 00 00">Хочу сюрприз!</message>
+	<message label="1061_d" attrib="00 00 00 00">Я передумал<gender2 m="" f="а" />.</message>
+	<message label="1062" attrib="02 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />С удовольствием.<delay8 /> В снах так много
+чудесных сюрпризов!<delay20 /> Позволь мне
+что-нибудь для тебя найти<tag a="110" b="0" /></message>
+	<message label="1062_a" attrib="00 00 00 00">Я готов<gender2 m="" f="а" />.</message>
+	<message label="1062_b" attrib="00 00 00 00">Я передумал<gender2 m="" f="а" />.</message>
+	<message label="1063" attrib="02 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Ох!<delay8 /> Я ничего не смогла найти<tag a="110" b="0" />
+что само по себе уже является
+сюрпризом.<delay20 /> <anim id="QuestionMark" target="actor" targetSpec="" />Попробовать снова?</message>
+	<message label="1063_a" attrib="00 00 00 00">Да, пожалуйста!</message>
+	<message label="1063_b" attrib="00 00 00 00">Я передумал<gender2 m="" f="а" />.</message>
+	<message label="1065" attrib="04 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Как будешь готовиться ко сну?</message>
+	<message label="1065_a" attrib="00 00 00 00">Искать по шифру сна.</message>
+	<message label="1065_b" attrib="00 00 00 00">Хочу сюрприз!</message>
+	<message label="1065_c" attrib="00 00 00 00">Я передумал<gender2 m="" f="а" />.</message>
+	<message label="1066" attrib="02 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Можно мне побеспокоить тебя
+просьбой?<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Я хотела бы разрешение показать
+сон об острове <tag a="110" b="9" />, если кто-то еще попросит сюрприз.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Если разрешишь удивлять других
+твоим сном,<delay8 /> мне хотелось бы также
+обновить его.<delay20 /> <anim id="QuestionMark" target="actor" targetSpec="" />Что скажешь?</message>
+	<message label="1066_a" attrib="00 00 00 00">Разрешаю!</message>
+	<message label="1066_b" attrib="00 00 00 00">Не хочу!</message>
+	<message label="1067" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Чудесно. <delay20 />Уверена, многие будут
+рады случайно попасть в твой сон.<delay8 />
+Спасибо за доверие.<pageBreak /><anim id="AbsentMindedness" target="actor" targetSpec="" />А теперь<delay8 /> давай обновим твой сон
+об острове <tag a="110" b="9" /><tag a="110" b="0" /></message>
+	<message label="1068" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Вот и все! <delay8 />Твой сон обновлен.<delay20 />
+Мне уже не терпится удивить
+им кого-нибудь!</message>
+	<message label="1069" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Прошу отметить, что сну об острове
+<tag a="110" b="9" /> присвоен такой шифр сна: <tag a="140" b="17" arg="0xcd00" />.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Не хочешь, чтобы я показывала этот
+сон, когда просят о сюрпризе?
+Скажи<delay20 /> <anim id="Hello" target="actor" targetSpec="" />«<colour id="1" />Настроить сюрприз<colour id="65535" />».</message>
+	<message label="1070" attrib="00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Я полностью понимаю. <delay20 />Тогда я не
+буду показывать твой сон, если
+меня попросят о сюрпризе.</message>
+	<message label="1071" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Если все же решишь разрешить мне
+его показывать,<delay8 /> просто скажи<delay20 />
+<anim id="Hello" target="actor" targetSpec="" />«<colour id="1" />Настроить сюрприз<colour id="65535" />».</message>
 	<message label="2001" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />С удовольствием. <delay20 /><anim id="Serious" target="actor" targetSpec="" />Но сначала тебе
 следует ознакомиться с <colour id="1" />важной
 информацией<colour id="65535" />.</message>
@@ -239,6 +300,28 @@
 свободное общение ограничено
 родительским контролем.<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Обращайся ко мне, когда этот
 вопрос будет улажен.</message>
+	<message label="2100" attrib="02 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Поскольку ты разрешил<gender2 m="" f="а" /> делиться
+твоим шифром сна,<delay20 /> у меня к тебе
+просьба.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Иногда посетители просят устроить
+им сюрприз и самой выбрать для
+них сон.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Но конечно же, я никогда не
+показываю сон без разрешения
+его владельца. <delay20 />Так что<tag a="110" b="0" /><pageBreak /><anim id="QuestionMark" target="actor" targetSpec="" />Если меня попросят о сюрпризе,
+можно я буду показывать сон об
+острове <tag a="110" b="9" />?</message>
+	<message label="2100_a" attrib="00 00 00 00">Да, пожалуйста!</message>
+	<message label="2100_b" attrib="00 00 00 00">Нет, не надо.</message>
+	<message label="2101" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Превосходно. <delay20 />Я уверена, твой сон
+многим понравится.<delay20 /> <anim id="AbsentMindedness" target="actor" targetSpec="" />Одну минутку<tag a="110" b="0" /></message>
+	<message label="2102" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Вот и все! <delay20 />Мне уже не терпится
+удивить кого-нибудь твоим сном.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Не хочешь, чтобы я показывала
+твой сон, когда просят о сюрпризе?
+Скажи<delay20 /> <anim id="Hello" target="actor" targetSpec="" />«<colour id="1" />Настроить сюрприз<colour id="65535" />».</message>
+	<message label="2103" attrib="00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Мне ужасно жаль,<delay8 /> но я не смогла
+скомпилировать и обновить твой
+сон об острове <tag a="110" b="9" />.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Возможно, что тебе придется
+попробовать в другой раз.<delay20 />
+<anim id="Nodding" target="actor" targetSpec="" />Приношу свои извинения.</message>
 	<message label="3001" attrib="06 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Под шифром <tag a="140" b="17" arg="0xcd00" />
 зарегистрирован сон об острове
 <tag a="110" b="9" />.</message>
@@ -252,9 +335,19 @@
 	<message label="3001_01_b" attrib="00 00 00 00">Секретность шифра сна...</message>
 	<message label="3001_01_c" attrib="00 00 00 00">Удали сон.</message>
 	<message label="3001_01_d" attrib="00 00 00 00">Ничего не надо.</message>
+	<message label="3002" attrib="08 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Под шифром <tag a="140" b="17" arg="0xcd00" />
+зарегистрирован сон об острове
+<tag a="110" b="9" />.</message>
+	<message label="3002_a" attrib="00 00 00 00">Обнови сон.</message>
+	<message label="3002_b" attrib="00 00 00 00">Секретность шифра сна...</message>
+	<message label="3002_c" attrib="00 00 00 00">Настроить сюрприз.</message>
+	<message label="3002_d" attrib="00 00 00 00">Удали сон.</message>
+	<message label="3002_e" attrib="00 00 00 00">Ничего не надо.</message>
+	<message label="3002_02" attrib="08 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Я могу помочь тебе с загруженным
+сном еще как-нибудь?</message>
 	<message label="3002_02_a" attrib="00 00 00 00">Обнови сон.</message>
 	<message label="3002_02_b" attrib="00 00 00 00">Секретность шифра сна...</message>
-	<message label="3002_02_c" attrib="00 00 00 00">Секретность шифра сна...</message>
+	<message label="3002_02_c" attrib="00 00 00 00">Настроить сюрприз.</message>
 	<message label="3002_02_d" attrib="00 00 00 00">Удали сон.</message>
 	<message label="3002_02_e" attrib="00 00 00 00">Ничего не надо.</message>
 	<message label="3101" attrib="02 00 00 00"><anim id="Serious" target="actor" targetSpec="" />На всякий случай<delay8 /> подтверди, что
@@ -339,6 +432,40 @@
 	<message label="3405" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Твой <colour id="1" />шифр сна<colour id="65535" /> сделан публичным.<delay20 />
 Теперь он появляется у тебя
 в <colour id="1" />паспорте<colour id="65535" /> и на <colour id="1" />карте <colour id="65535" />острова.</message>
+	<message label="3500" attrib="01 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Хорошо. <delay20 />Сейчас у меня есть
+разрешение показывать твой сон
+об острове <tag a="110" b="9" />.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />То есть, когда меня попросят
+о сюрпризе,<delay8 /> возможно, что будет
+выбран именно он.<delay20 /> <anim id="QuestionMark" target="actor" targetSpec="" />Ты не против?</message>
+	<message label="3500_a" attrib="00 00 00 00">Больше не показывай.</message>
+	<message label="3500_b" attrib="00 00 00 00">Продолжай показывать.</message>
+	<message label="3501" attrib="01 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Хорошо. <delay20 />Я не показываю твой сон
+об острове <tag a="110" b="9" />.<pageBreak /><anim id="QuestionMark" target="actor" targetSpec="" />Но если меня попросят о сюрпризе,
+ты не против, если я выберу этот
+сон?</message>
+	<message label="3501_a" attrib="00 00 00 00">Можешь показывать.</message>
+	<message label="3501_b" attrib="00 00 00 00">Не показывай мой сон.</message>
+	<message label="3502" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Понятно. <delay20 />Твой сон останется
+в списке тех, что я могу выбрать,
+если меня попросят о сюрпризе.</message>
+	<message label="3503" attrib="00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Ладно. <delay20 />Я больше не буду
+показывать твой сон, если меня
+попросят устроить сюрприз.</message>
+	<message label="3504" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Чудесно. <delay20 />Возможно, теперь я буду
+выбирать твой сон об острове
+<tag a="110" b="9" /> в виде сюрприза.</message>
+	<message label="3505" attrib="00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Готово. <delay20 />Я удостоверилась, что твой
+сон не будет выбран, если меня
+попросят устроить сюрприз.</message>
+	<message label="3506" attrib="01 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Согласно актуальным настройкам
+я не показываю другим твой сон об
+острове <tag a="110" b="9" />.<pageBreak /><anim id="QuestionMark" target="actor" targetSpec="" />Хочешь, чтобы я выбирала и твой
+сон, когда меня попросят устроить
+сюрприз?<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Если ты разрешишь мне показывать
+другим твой сон в виде сюрприза,<delay8 />
+я бы его обновила.<delay20 /> <anim id="QuestionMark" target="actor" targetSpec="" />Что скажешь?</message>
+	<message label="3506_a" attrib="00 00 00 00">Разрешаю!</message>
+	<message label="3506_b" attrib="00 00 00 00">Не показывай мой сон.</message>
 	<message label="4000" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Ты в мире между миров.<delay8 /> Здесь
 встречаются цифровые сны и те,
 кому они снятся.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Я библиотекарь снов и твой
@@ -391,4 +518,11 @@
 своего рода сувениры с острова
 <tag a="110" b="9" />.</message>
 	<message label="4003_03" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Теперь у тебя есть вся информация!</message>
+	<message label="4010" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />О! Мне следует упомянуть, что
+для этого процесса требуется
+<colour id="1" />подключение к Интернету<colour id="65535" />.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />А если хочешь посетить какой-то
+определенный сон, ты долж<gender2 m="ен" f="на" />
+предоставить <colour id="1" />шифр сна<colour id="65535" />.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Если ты любишь сюрпризы
+и хочешь, чтобы я сама выбрала
+сон, скажи<delay20 /> <anim id="Hello" target="actor" targetSpec="" />«<colour id="1" />Хочу сюрприз!<colour id="65535" />»<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Вот и все!</message>
 </msbt>

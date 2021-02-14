@@ -168,6 +168,8 @@ secreto».<delay frames="40" /> По-моему, не стоит
 	<message label="200" attrib="00 00 18">Новая жизнь начинается...<delay frames="30" />
 Буду жить как захочу!<delay frames="30" />
 Ура!!!</message>
+	<message label="200_01" attrib="00 00 18">Я переехал<gender2 m="" f="а" />...<delay frames="30" /> Начинается
+новая островная жизнь!</message>
 	<message label="204_02" attrib="00 00 18">Ура!<delay frames="30" /> Я полностью
 расплатил<gender2 m="ся" f="ась" /> за дом!</message>
 	<message label="204_03" attrib="00 00 18">Здорово!<delay frames="30" /> Я полностью и навсегда
@@ -208,6 +210,12 @@ secreto».<delay frames="40" /> По-моему, не стоит
 	<message label="210_10" attrib="00 00 18">Я узнал<gender2 m="" f="а" /> о новых <colour id="1" />цветах глаз<colour id="65535" />!
 Попробую освежить стиль
 у <colour id="1" />трюмо<colour id="65535" /> или у <colour id="1" />зеркала<colour id="65535" />.</message>
+	<message label="210_13" attrib="00 00 18">Я научил<gender2 m="ся" f="ась" /> делать новые<colour id="1" />
+прически<colour id="65535" />! Попробую освежить
+стиль у <colour id="1" />трюмо<colour id="65535" /> или у <colour id="1" />зеркала<colour id="65535" />.</message>
+	<message label="210_14" attrib="00 00 18">Я выучил<gender2 m="" f="а" /> новые <colour id="1" />реакции<colour id="65535" />!<delay40 /> Можно
+просмотреть их все, нажав <colour id="1" /><colour id="65535" />.
+Какие чувства я хочу выразить?</message>
 	<message label="211_01" attrib="00 00 18">Теперь я могу <colour id="1" />создавать реки
 и озера <colour id="65535" />в «<colour id="1" />Редакторе острова<colour id="65535" />»!</message>
 	<message label="211_02" attrib="00 00 18">Теперь я могу <colour id="1" />возводить скалы<colour id="65535" />
@@ -299,10 +307,23 @@ secreto».<delay frames="40" /> По-моему, не стоит
 	<message label="701" attrib="00 00 18">Скорее всего, внутри есть припасы
 для клиентов с пакетом услуг
 «Необитаемый остров».</message>
+	<message label="702" attrib="00 00 18">В мешке еще <tag a="90" b="1" arg="0x0" /> подар<50_9 x="0" y="0" a="ок" b="ка" c="ков" />.</message>
+	<message label="703_01" attrib="00 00 18">Так-так, у меня еще остались
+подарки для<tag a="110" b="0" /><pageBreak /><tag a="50" b="23" arg="0xcd03" /><tag a="115" b="1" arg="0xcd00" />,<delay20 /> <tag a="50" b="23" arg="0xcd03" /><tag a="115" b="1" arg="0xcd01" /> и<delay20 /> <tag a="50" b="23" arg="0xcd03" /><tag a="115" b="1" arg="0xcd02" />.</message>
+	<message label="703_02" attrib="00 00 18">Хм, посмотрим. У меня еще
+остались подарки для<tag a="110" b="0" /><10_4 />
+<tag a="50" b="23" arg="0xcd03" /><tag a="115" b="1" arg="0xcd00" /> и<delay20 /> <tag a="50" b="23" arg="0xcd03" /><tag a="115" b="1" arg="0xcd01" />.</message>
+	<message label="703_03" attrib="00 00 18">Остался подарок для<tag a="110" b="0" /><10_4 />
+<tag a="50" b="23" arg="0xcd03" /><tag a="115" b="1" arg="0xcd00" />.</message>
+	<message label="704" attrib="00 00 18">Мешок пуст!</message>
 	<message label="901" attrib="04 00 18">Поставить палатку здесь?</message>
 	<message label="901_a" attrib="00 00 00">Представим себе...</message>
 	<message label="901_b" attrib="00 00 00">Отличное место!</message>
 	<message label="901_c" attrib="00 00 00">Надо подумать...</message>
+	<message label="901_01" attrib="04 00 18">Поставить дом здесь?</message>
+	<message label="901_01_a" attrib="00 00 00">Представим себе...</message>
+	<message label="901_01_b" attrib="00 00 00">Отличное место!</message>
+	<message label="901_01_c" attrib="00 00 00">Надо подумать...</message>
 	<message label="902" attrib="04 00 18">Это хорошее место для
 палатки <colour id="3" />Блезерса<colour id="65535" />?</message>
 	<message label="902_a" attrib="00 00 00">Представим себе...</message>
@@ -484,6 +505,9 @@ secreto».<delay frames="40" /> По-моему, не стоит
 	<message label="960_05" attrib="00 00 18">Я выбрал<gender2 m="" f="а" /> место под <colour id="1" />кемпинг<colour id="65535" />.
 Надеюсь, к нам будет приезжать
 еще больше туристов.</message>
+	<message label="961" attrib="00 00 18">Я выбрал<gender2 m="" f="а" /> место для дома!
+Теперь можно начинать
+приключения на острове!</message>
 	<message label="990" attrib="00 09 22">Сейчас я охочусь за сокровищем.<delay20 />
 Поищу место для набора потом.</message>
 	<message label="1001" attrib="00 00 18">Мне кто-то звонит!</message>

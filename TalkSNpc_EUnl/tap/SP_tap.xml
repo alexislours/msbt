@@ -41,7 +41,7 @@ zijn?</message>
 	<message label="002_01" attrib="06 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Hoe kan ik je vandaag van dienst
 zijn?</message>
 	<message label="002_01_a" attrib="00 00 00 00">Ik wil dromen.</message>
-	<message label="002_01_b" attrib="00 00 00 00">Over mijn gedeelde droom...</message>
+	<message label="002_01_b" attrib="00 00 00 00">Over mijn droomeiland...</message>
 	<message label="002_01_c" attrib="00 00 00 00">Waar ben ik?</message>
 	<message label="002_01_d" attrib="00 00 00 00">Ik wil wakker worden.</message>
 	<message label="002_02" attrib="06 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Kan ik je met iets anders van dienst
@@ -53,7 +53,7 @@ zijn?</message>
 	<message label="002_03" attrib="06 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Kan ik je met iets anders van dienst
 zijn?</message>
 	<message label="002_03_a" attrib="00 00 00 00">Ik wil dromen.</message>
-	<message label="002_03_b" attrib="00 00 00 00">Over mijn gedeelde droom...</message>
+	<message label="002_03_b" attrib="00 00 00 00">Over mijn droomeiland...</message>
 	<message label="002_03_c" attrib="00 00 00 00">Waar ben ik?</message>
 	<message label="002_03_d" attrib="00 00 00 00">Ik wil wakker worden.</message>
 	<message label="002_04" attrib="06 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Hoe kan ik je vandaag van dienst
@@ -65,7 +65,7 @@ zijn?</message>
 	<message label="002_05" attrib="06 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Hoe kan ik je vandaag van dienst
 zijn?</message>
 	<message label="002_05_a" attrib="00 00 00 00">Ik wil dromen.</message>
-	<message label="002_05_b" attrib="00 00 00 00">Over mijn gedeelde droom...</message>
+	<message label="002_05_b" attrib="00 00 00 00">Over mijn droomeiland...</message>
 	<message label="002_05_c" attrib="00 00 00 00">Waar ben ik nu?</message>
 	<message label="002_05_d" attrib="00 00 00 00">Ik wil wakker worden.</message>
 	<message label="002_06" attrib="06 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Kan ik je met iets anders van dienst
@@ -77,7 +77,7 @@ zijn?</message>
 	<message label="002_07" attrib="06 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Kan ik je met iets anders van dienst
 zijn?</message>
 	<message label="002_07_a" attrib="00 00 00 00">Ik wil dromen.</message>
-	<message label="002_07_b" attrib="00 00 00 00">Over mijn gedeelde droom...</message>
+	<message label="002_07_b" attrib="00 00 00 00">Over mijn droomeiland...</message>
 	<message label="002_07_c" attrib="00 00 00 00">Waar ben ik nu?</message>
 	<message label="002_07_d" attrib="00 00 00 00">Ik wil wakker worden.</message>
 	<message label="003" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Goed. <delay8 /><anim id="FaintSmile" target="actor" targetSpec="" />Hopelijk zie ik je binnenkort
@@ -113,10 +113,22 @@ gegeven, leidt naar een eiland met
 de naam "<tag a="115" b="2" arg="0xcd00" />".<pageBreak /><anim id="QuestionMark" target="actor" targetSpec="" />Is dat correct?</message>
 	<message label="1005_a" attrib="00 00 00 00">Jazeker!</message>
 	<message label="1005_b" attrib="00 00 00 00">Nee, dat klopt niet.</message>
-	<message label="1006" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Uitstekend! <delay20 />Dan is alles in orde.<delay20 />
-<anim id="AbsentMindedness" target="actor" targetSpec="" /><delay20 />Sluit dan nu je ogen<tag a="110" b="0" /> en ontspan
-je<tag a="110" b="0" /><anim id="EmotEnd" target="actor" targetSpec="" /></message>
-	<message label="1006_01" attrib="00 00 00 00">Ontdaan van alle bagage<tag a="110" b="0" /><delay8 /> reis je af naar het droomeiland <tag a="115" b="2" arg="0xcd00" /><tag a="110" b="0" /><10_8 arg="75" /></message>
+	<message label="1006" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Uitstekend! <delay20 />Dan kunnen we nu naar
+de volgende stap.<delay20 /> <anim id="AbsentMindedness" target="actor" targetSpec="" /><delay20 />Sluit je ogen<tag a="110" b="0" />
+en ontspan je<tag a="110" b="0" /><anim id="EmotEnd" target="actor" targetSpec="" /></message>
+	<message label="1006_01" attrib="00 00 00 00">Ontdaan van alle bagage<tag a="110" b="0" /><delay8 /> reis je af naar het droomeiland<tag a="110" b="0" /> <tag a="115" b="2" arg="0xcd00" /><tag a="110" b="0" /><10_8 arg="75" /></message>
+	<message label="1010" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Uiteraard! <delay8 />Voordat ik je naar een
+droom kan gidsen, leg ik je graag
+het een en ander uit.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Zoals zoveel dingen tegenwoordig<delay8 />
+worden dromen gedownload van
+het <colour id="1" />internet<colour id="65535" />.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Een netwerkverbinding is derhalve
+onmisbaar.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Als je een specifieke droom zoekt,
+heb je bovendien een <colour id="1" />droomadres
+<colour id="65535" />nodig.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Dat is een unieke code die eigen is
+aan iedere droom.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Als je je echter wilt laten verrassen,<delay20 />
+kan ik een droom voor je uitkiezen.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Dan hoef je enkel<delay20 /> <anim id="Hello" target="actor" targetSpec="" />"<colour id="1" />Verras me!<colour id="65535" />" te
+zeggen<delay8 /> en zal ik een prachtige
+droom voor je vinden.</message>
 	<message label="1031" attrib="02 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Het spijt me zeer, <delay8 />maar op dat
 <colour id="1" />droomadres <colour id="65535" />is geen enkele droom
 geregistreerd.</message>
@@ -168,6 +180,56 @@ een andere droom bezoeken?</message>
 droomeilanden die je nog eens
 kunt bezoeken.<pageBreak /><anim id="Worried" target="actor" targetSpec="" />Als je toch wilt dromen, <delay8 />heb ik een
 <colour id="1" />droomadres <colour id="65535" />van je nodig.</message>
+	<message label="1060" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Mocht je trouwens liever hebben<delay8 /> dat
+een droom voor je uitkies,<delay8 /> ben ik je
+uiteraard graag van dienst.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Als je je wilt laten verrassen met een
+droom die ik uit het dromenrijk kies,<delay20 />
+heb je geen droomadres nodig.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />In dat geval volstaat het om enkel<delay20 />
+<anim id="Hello" target="actor" targetSpec="" />"<colour id="1" />Verras me!<colour id="65535" />" te zeggen.</message>
+	<message label="1061" attrib="06 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Wat voor soort droom wil je dat ik
+voor je voorbereid?</message>
+	<message label="1061_a" attrib="00 00 00 00">Op droomadres zoeken.</message>
+	<message label="1061_b" attrib="00 00 00 00">Droom opnieuw bezoeken.</message>
+	<message label="1061_c" attrib="00 00 00 00">Verras me!</message>
+	<message label="1061_d" attrib="00 00 00 00">Laat maar...</message>
+	<message label="1062" attrib="02 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Maar natuurlijk.<delay8 /> Ontspan je en <delay20 />laat je
+verrassen door een droom die ik voor
+je uitkies<tag a="110" b="0" /></message>
+	<message label="1062_a" attrib="00 00 00 00">Ik ben er klaar voor.</message>
+	<message label="1062_b" attrib="00 00 00 00">Eigenlijk liever niet.</message>
+	<message label="1063" attrib="02 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Ach!<delay8 /> Het is me niet gelukt een droom
+voor je te vinden<tag a="110" b="0" /> Dat is inderdaad
+een verrassing!<pageBreak /><anim id="QuestionMark" target="actor" targetSpec="" />Zal ik het opnieuw proberen?</message>
+	<message label="1063_a" attrib="00 00 00 00">Ja, alsjeblieft!</message>
+	<message label="1063_b" attrib="00 00 00 00">Laat maar zitten...</message>
+	<message label="1065" attrib="04 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Wat voor soort droom wil je dat ik
+voor je voorbereid?</message>
+	<message label="1065_a" attrib="00 00 00 00">Op droomadres zoeken.</message>
+	<message label="1065_b" attrib="00 00 00 00">Verras me!</message>
+	<message label="1065_c" attrib="00 00 00 00">Laat maar...</message>
+	<message label="1066" attrib="02 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Mag ik je om een gunst vragen?<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Wanneer dromers verrast willen
+worden, wil ik ze graag jouw droom
+van <tag a="110" b="9" /> laten zien.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Als je daarin toestemt, <delay8 />dan zal ik je
+droom eerst willen updaten.<delay20 /> <anim id="QuestionMark" target="actor" targetSpec="" />Vind je
+het goed als ik dat doe?</message>
+	<message label="1066_a" attrib="00 00 00 00">Ja, dat lijkt me prima.</message>
+	<message label="1066_b" attrib="00 00 00 00">Nee, liever niet.</message>
+	<message label="1067" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Uitstekend. <delay20 />Ik twijfel er niet aan dat
+veel dromers aangenaam verrast
+zullen worden.<delay8 /> Dank je wel daarvoor.<pageBreak /><anim id="AbsentMindedness" target="actor" targetSpec="" />Goed,<delay8 /> dan zal ik nu je droom van <tag a="110" b="9" /> updaten<tag a="110" b="0" /></message>
+	<message label="1068" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Zo! <delay8 />Het updaten van je droom is
+klaar.<delay20 /> Ik kijk ernaar uit er andere
+dromers mee te verrassen.</message>
+	<message label="1069" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Je droom van <tag a="110" b="9" /> is geregistreerd op het droomadres <tag a="140" b="17" arg="0xcd00" />.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Als je niet meer wilt dat ik anderen
+met je droom verras,<delay8 /> is dat uiteraard
+geen enkel probleem!<pageBreak />Spreek me in dat geval aan over het
+onderwerp<delay20 /> <anim id="Hello" target="actor" targetSpec="" />"<colour id="1" />Verrassingsdromen.<colour id="65535" />"</message>
+	<message label="1070" attrib="00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Duidelijk. <delay20 />In dat geval zal ik andere
+dromers niet met jouw droom
+verrassen.</message>
+	<message label="1071" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Mocht je toch nog van gedachten
+veranderen,<delay8 /> spreek me dan rustig
+aan over<delay20 /> <anim id="Hello" target="actor" targetSpec="" />"<colour id="1" />Verrassingsdromen.<colour id="65535" />"</message>
 	<message label="2001" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Uiteraard. <delay20 /><anim id="Serious" target="actor" targetSpec="" />Maar voor je verdergaat,
 moet je eerst wat <colour id="1" />belangrijke
 informatie<colour id="65535" /> lezen.</message>
@@ -250,6 +312,28 @@ om een droom te kunnen uploaden<tag a="110" b="0" /><pageBreak /><anim id="Expla
 MET ANDEREN toegestaan te
 worden in het ouderlijk toezicht.<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Kom alsjeblieft bij me terug zodra dat
 in orde is.</message>
+	<message label="2100" attrib="02 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Aangezien je zo vriendelijk bent
+geweest om je droomadres te delen,<delay20 />
+wil ik je nog iets voorstellen!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Het gebeurt soms dat dromers mij
+vragen of ik hen wil verrassen met
+een droom van mijn keuze.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Maar ik deel dromen uiteraard alleen
+als ik de expliciete toestemming van
+de dromer heb.<delay20 /> Vandaar mijn vraag<tag a="110" b="0" /><pageBreak /><anim id="QuestionMark" target="actor" targetSpec="" />Mag ik anderen verrassen met jouw
+droom van <tag a="110" b="9" />?</message>
+	<message label="2100_a" attrib="00 00 00 00">Ja, dat is goed!</message>
+	<message label="2100_b" attrib="00 00 00 00">Nee, liever niet.</message>
+	<message label="2101" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Schitterend. <delay20 />Ik weet zeker dat menig
+dromer door jouw droom aangenaam
+verrast zal worden.<delay20 /> <anim id="AbsentMindedness" target="actor" targetSpec="" />Momentje<tag a="110" b="0" /></message>
+	<message label="2102" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Klaar! <delay20 />Ik kan niet wachten om andere
+dromers met jouw droom te
+verrassen.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Als je niet meer wilt dat ik anderen
+met je droom verras,<delay8 /> is dat uiteraard
+geen enkel probleem!<pageBreak />Spreek me in dat geval aan over het
+onderwerp<delay20 /> <anim id="Hello" target="actor" targetSpec="" />"<colour id="1" />Verrassingsdromen.<colour id="65535" />"</message>
+	<message label="2103" attrib="00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Het spijt me zeer,<delay8 /> maar ik ben er niet in geslaagd je droom van <tag a="110" b="9" /> te updaten.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Ik vrees dat je het op een ander
+moment opnieuw moet proberen.<delay20 />
+<anim id="Nodding" target="actor" targetSpec="" />Mijn excuses voor het ongemak.</message>
 	<message label="3001" attrib="06 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Een droom van <tag a="110" b="9" /> is geregistreerd op het <colour id="1" />droomadres <colour id="65535" />"⁠<tag a="140" b="17" arg="0xcd00" />⁠".</message>
 	<message label="3001_a" attrib="00 00 00 00">Ik wil de droom updaten.</message>
 	<message label="3001_b" attrib="00 00 00 00">Is mijn droomadres zichtbaar?</message>
@@ -261,9 +345,17 @@ iets voor je betekenen?</message>
 	<message label="3001_01_b" attrib="00 00 00 00">Is mijn droomadres zichtbaar?</message>
 	<message label="3001_01_c" attrib="00 00 00 00">Ik wil de droom verwijderen.</message>
 	<message label="3001_01_d" attrib="00 00 00 00">Laat maar...</message>
+	<message label="3002" attrib="08 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Een droom van <tag a="110" b="9" /> is geregistreerd op het <colour id="1" />droomadres <colour id="65535" />"⁠<tag a="140" b="17" arg="0xcd00" />⁠".</message>
+	<message label="3002_a" attrib="00 00 00 00">Ik wil de droom updaten.</message>
+	<message label="3002_b" attrib="00 00 00 00">Is mijn droomadres zichtbaar?</message>
+	<message label="3002_c" attrib="00 00 00 00">Verrassingsdromen.</message>
+	<message label="3002_d" attrib="00 00 00 00">Ik wil de droom verwijderen.</message>
+	<message label="3002_e" attrib="00 00 00 00">Laat maar...</message>
+	<message label="3002_02" attrib="08 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Kan ik wat betreft je huidige droom
+iets voor je betekenen?</message>
 	<message label="3002_02_a" attrib="00 00 00 00">Ik wil de droom updaten.</message>
 	<message label="3002_02_b" attrib="00 00 00 00">Is mijn droomadres zichtbaar?</message>
-	<message label="3002_02_c" attrib="00 00 00 00">Is mijn droomadres zichtbaar?</message>
+	<message label="3002_02_c" attrib="00 00 00 00">Verrassingsdromen.</message>
 	<message label="3002_02_d" attrib="00 00 00 00">Ik wil de droom verwijderen.</message>
 	<message label="3002_02_e" attrib="00 00 00 00">Laat maar...</message>
 	<message label="3101" attrib="02 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Voorzichtigheid is een groot goed.<delay20 />
@@ -342,6 +434,35 @@ of de <colour id="1" />plattegrond<colour id="65535" /> van je eiland.</message>
 nu openbaar.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Anderen zullen het kunnen zien op je
 <colour id="1" />paspoort <colour id="65535" />of op de <colour id="1" />plattegrond <colour id="65535" />van je
 eiland.</message>
+	<message label="3500" attrib="01 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Welnu, <delay20 />momenteel heb ik je
+toestemming om je droom van
+<tag a="110" b="9" /> te delen.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Wanneer dromers me vragen om ze
+met een droom te verrassen,<delay8 /> kan het
+zijn dat ik jouw droom met ze deel.<pageBreak /><anim id="QuestionMark" target="actor" targetSpec="" />Is dat nog steeds in orde?</message>
+	<message label="3500_a" attrib="00 00 00 00">Stop mijn droom te delen.</message>
+	<message label="3500_b" attrib="00 00 00 00">Blijf mijn droom delen.</message>
+	<message label="3501" attrib="01 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Welnu, <delay20 />momenteel wordt je droom van <tag a="110" b="9" /> niet met anderen gedeeld.<pageBreak /><anim id="QuestionMark" target="actor" targetSpec="" />Wanneer dromers me vragen om ze
+met een droom te verrassen,<delay8 /> mag ik
+dan ook jouw droom met ze delen?</message>
+	<message label="3501_a" attrib="00 00 00 00">Niet mijn droom delen.</message>
+	<message label="3501_b" attrib="00 00 00 00">Mijn droom mag je delen.</message>
+	<message label="3502" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Begrepen. <delay20 />Dan blijft het zo dat ik
+anderen met je droom kan verrassen.</message>
+	<message label="3503" attrib="00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Duidelijk. <delay20 />Dan wordt je droom niet
+meer gedeeld wanneer ik andere
+dromers verras.</message>
+	<message label="3504" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Schitterend.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Wanneer een dromer verrast wil
+worden, kan ik weleens jouw droom
+van <tag a="110" b="9" /> kiezen.</message>
+	<message label="3505" attrib="00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Maar natuurlijk.<delay20 /> Dan blijft alles zoals
+het was.<anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak />Je droom van <tag a="110" b="9" /> zal niet worden gedeeld wanneer andere dromers verrast willen worden.</message>
+	<message label="3506" attrib="01 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Welnu, <delay20 />momenteel wordt je droom van <tag a="110" b="9" /> niet met anderen gedeeld.<pageBreak /><anim id="QuestionMark" target="actor" targetSpec="" />Wanneer dromers me vragen om ze
+met een droom te verrassen,<delay8 /> mag ik
+dan ook jouw droom met ze delen?<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Als je daarin toestemt, <delay8 />dan zal ik je
+droom eerst updaten.<delay20 /> <anim id="QuestionMark" target="actor" targetSpec="" />Vind je het
+goed als ik dat doe?</message>
+	<message label="3506_a" attrib="00 00 00 00">Ja, dat lijkt me prima.</message>
+	<message label="3506_b" attrib="00 00 00 00">Niet mijn droom delen.</message>
 	<message label="4000" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Dit is een wereld tussen werelden<delay8 />
 waar dromers elektronische dromen
 vinden. <delay20 /><anim id="Nodding" target="actor" targetSpec="" />Ik ben hier de gids.<pageBreak /><anim id="AbsentMindedness" target="actor" targetSpec="" />Ik kan je helpen om je eigen droom
@@ -394,4 +515,13 @@ in jouw droom zichtbaar zullen zijn.<pageBreak /><anim id="FaintSmile" target="a
 souvenir van <tag a="110" b="9" />.</message>
 	<message label="4003_03" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />En hiermee ben je volledig
 up-to-date!</message>
+	<message label="4010" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />O! <delay8 />Het is ook van belang om te
+weten dat dit proces <colour id="1" />toegang tot
+het internet<colour id="65535" /> vereist.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Als je een specifieke droom zoekt,
+heb je bovendien een <colour id="1" />droomadres
+<colour id="65535" />nodig.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Als je je echter wilt laten verrassen,<delay20 />
+kan ik een droom voor je uitkiezen.<pageBreak />Dan hoef je enkel<delay20 /> <anim id="Hello" target="actor" targetSpec="" />"<colour id="1" />Verras me!<colour id="65535" />" te
+zeggen<delay8 /> en zal ik een prachtige
+droom voor je vinden.<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Daarmee hebben we de belangrijkste
+zaken wel besproken!</message>
 </msbt>

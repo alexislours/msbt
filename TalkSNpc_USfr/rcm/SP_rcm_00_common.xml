@@ -84,6 +84,12 @@ sais?<delay20 /> Mais si tu veux t'en séparer, je
 peux t'en offrir<tag a="110" b="0" /> <tag a="90" b="21" arg="0x0" />?</message>
 	<message label="037_a" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Marché conclu!</message>
 	<message label="037_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />En fait, non.</message>
+	<message label="037_01" attrib="02 00 00 00"><anim id="Shocked" target="mainNpc" targetSpec="" /><anim id="Shocked" target="subNpc" targetSpec="" />AH!<delay20 /> Un plan de bricolage pour faire
+<tag a="50" b="2" /><tag a="125" b="0" arg="0x0" />!<pageBreak /><anim id="Worried" target="mainNpc" targetSpec="" />C'est un article de valeur.<delay frames="40" /><anim id="QuestionMark" target="mainNpc" targetSpec="" /> Veux-tu
+vraiment le vendre? <delay20 /><anim id="Nodding" target="subNpc" targetSpec="" />On peut t'en
+offrir <tag a="90" b="21" arg="0x0" />,<delay8 /> pas plus<tag a="110" b="0" /></message>
+	<message label="037_01_a" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Marché conclu!</message>
+	<message label="037_01_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />En fait, non.</message>
 	<message label="038" attrib="02 00 00 00"><anim id="Worried" target="mainNpc" targetSpec="" /><anim id="Worried" target="subNpc" targetSpec="" />Oh<tag a="110" b="0" /><delay40 /> Alors, merci, mais je ne peux
 pas te donner quoi que ce soit pour
 des objets de ce genre.<pageBreak />Par contre, si tu veux, je peux t'en
@@ -112,6 +118,11 @@ pour<delay8 /> <tag a="90" b="26" arg="0x0" />.<delay8 /> <anim id="FaintSmile" 
 rare.<delay20 /><anim id="QuestionMark" target="mainNpc" targetSpec="" /><anim id="QuestionMark" target="subNpc" targetSpec="" /> Tu veux vraiment t'en séparer?</message>
 	<message label="043_a" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Je sais ce que je fais.</message>
 	<message label="043_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Oh, une seconde...</message>
+	<message label="043_01" attrib="02 00 00 00"><anim id="FaintSmile" target="mainNpc" targetSpec="" /><anim id="FaintSmile" target="subNpc" targetSpec="" />Que de jolies chos<tag a="110" b="0" /><anim id="Shocked" target="mainNpc" targetSpec="" /><anim id="Shocked" target="subNpc" targetSpec="" /><delay8 /> OH!<delay20 /> <anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" />Il y a un
+plan très rare dans la sélection.<delay20 /><anim id="QuestionMark" target="mainNpc" targetSpec="" /><anim id="QuestionMark" target="subNpc" targetSpec="" />
+Veux-tu vraiment le vendre aussi?</message>
+	<message label="043_01_a" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Je sais ce que je fais.</message>
+	<message label="043_01_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Oh, une seconde...</message>
 	<message label="044_01" attrib="00 00 00 00"><anim id="Smiling" target="mainNpc" targetSpec="" /><delay8 /><anim id="Smiling" target="subNpc" targetSpec="" />Très bien!<tag a="100" b="4" /> <delay8 /><size value="75" />Le client est roi!<size value="100" /><endTag a="100" b="4" /><pageBreak /><anim id="AbsentMindedness" target="mainNpc" targetSpec="" /><anim id="Nodding" target="subNpc" targetSpec="" />Laisse-moi additionner tout ça<tag a="110" b="0" /></message>
 	<message label="044_02" attrib="00 00 00 00"><anim id="Smiling" target="mainNpc" targetSpec="" /><delay8 /><anim id="Smiling" target="subNpc" targetSpec="" />Très bien!<tag a="100" b="4" /> <delay8 /><size value="75" />Le client est roi!<size value="100" /><endTag a="100" b="4" /><pageBreak /><anim id="Thinking" target="mainNpc" targetSpec="" /><anim id="AbsentMindedness" target="subNpc" targetSpec="" />Alors, en considérant notre liste des
 articles phares, ça nous fait donc<tag a="110" b="0" /></message>
@@ -376,6 +387,12 @@ et je crains qu'aujourd'hui ne soit le
 dernier jour de disponibilité<tag a="110" b="0" /><pageBreak /><anim id="Smiling" target="actor" targetSpec="" />J'espère que tu reviendras dès
 que l'occasion se présentera à
 nouveau!</message>
+	<message label="145" attrib="00 00 00 00"><anim id="Eh" target="mainNpc" targetSpec="" />Ah,<delay8 /> tu as remarqué! <delay20 /><anim id="Nodding" target="mainNpc" targetSpec="" />Oui,<delay8 /> nous avons
+décidé de nous lancer dans la vente
+de jouets!<pageBreak /><anim id="Explain" target="mainNpc" targetSpec="" /><anim id="FaintSmile" target="subNpc" targetSpec="" />C'est une offre limitée jusqu'au
+25 décembre pour permettre aux
+gens de trouver des cadeaux à offrir.<pageBreak /><anim id="FaintSmile" target="mainNpc" targetSpec="" /><anim id="FaintSmile" target="subNpc" targetSpec="" />Viens nous voir si quelque chose te
+plaît! <tag a="100" b="4" /><delay8 /><size value="75" />... ou plaira à quelqu'un d'autre!<size value="100" /><endTag a="100" b="4" /></message>
 	<message label="200" attrib="00 00 00 00"><anim id="Smiling" target="mainNpc" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" />Merci!<tag a="100" b="4" /><delay8 /> <size value="75" />Beaucoup, beaucoup!<size value="100" /><endTag a="100" b="4" /><anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" /><10_7 arg="90" /></message>
 	<message label="201" attrib="00 00 00 00"><anim id="FaintSmile" target="mainNpc" targetSpec="" /><delay8 /><anim id="FaintSmile" target="subNpc" targetSpec="" />Bonjour!<10_4 /> Sois <gender2 m="le" f="la" /> bienvenu<gender2 m="" f="e" /> à la
 <colour id="1" />Boutique Nook<colour id="65535" />!<tag a="100" b="4" /><delay8 /> <size value="75" />C'est un plaisir!<size value="100" /><endTag a="100" b="4" /></message>
@@ -412,4 +429,26 @@ chose, n'hésite pas à me demander.</message>
 	<message label="904" attrib="00 00 00 00"><anim id="FaintSmile" target="mainNpc" targetSpec="" /><anim id="FaintSmile" target="subNpc" targetSpec="" />Compris!<tag a="100" b="4" /><delay8 /> <size value="75" />Comme tu veux!<size value="100" /><endTag a="100" b="4" /><delay frames="40" /> Si je peux faire autre chose pour toi,<delay8 /><anim id="FaintSmile" target="actor" targetSpec="" /> n'hésite pas.<tag a="100" b="4" /><delay8 /> <size value="75" />On sera ravis de t'aider!<size value="100" /><endTag a="100" b="4" /></message>
 	<message label="905" attrib="00 00 00 00"><anim id="Smiling" target="mainNpc" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" />Comme tu veux, <anim id="FaintSmile" target="mainNpc" targetSpec="" />mais n'oublie pas
 qu'on est là pour toi!<tag a="100" b="4" /> <delay8 /><size value="75" />Et pour t'aider!<size value="100" /><endTag a="100" b="4" /></message>
+	<message label="2001" attrib="00 00 00 00"><anim id="Eh" target="mainNpc" targetSpec="" />Ah! <delay8 /><anim id="EmotEnd" target="mainNpc" targetSpec="" /><tag a="50" b="3" /><tag a="50" b="1" /><tag a="125" b="0" arg="0x0" />. Un article estampillé fête du partage.<pageBreak /><anim id="Explain" target="mainNpc" targetSpec="" />Sache que cet article est en édition
+limitée<tag a="110" b="0" /><anim id="FaintSmile" target="subNpc" targetSpec="" /> mais qu'il existe un plan de
+bricolage pour le fabriquer<tag a="110" b="0" /><pageBreak /><anim id="Hello" target="mainNpc" targetSpec="" /><anim id="Hello" target="subNpc" targetSpec="" />D'ailleurs,<delay8 /> nous proposons des plans
+de bricolage <colour id="1" />en solde dans la vitrine
+<colour id="65535" />en ce moment même<tag a="110" b="0" /><pageBreak /><anim id="Nodding" target="mainNpc" targetSpec="" /><anim id="Nodding" target="subNpc" targetSpec="" />Juste au cas où tu ne le savais pas.<delay20 />
+Si le client est content,<delay8 /> nous sommes
+ravis!<tag a="100" b="4" /><delay8 /><size value="75" /><tag a="110" b="0" /> On travaille dur pour ça!<size value="100" /><endTag a="100" b="4" /></message>
+	<message label="2002" attrib="02 00 00 00"><anim id="OhGeez" target="mainNpc" targetSpec="" />Oh, j'ai oublié de te dire le prix!<delay frames="40" />
+<anim id="Hello" target="mainNpc" targetSpec="" /><anim id="Hello" target="subNpc" targetSpec="" />C'est <tag a="90" b="24" arg="0x0" />.<delay20 />
+Qu'est-ce que tu en dis?</message>
+	<message label="2002_a" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />J'achète!</message>
+	<message label="2002_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />En fait, non.</message>
+	<message label="2003" attrib="00 00 00 00"><anim id="Smiling" target="mainNpc" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" />Si mes registres sont bons<tag a="110" b="0" /><delay20 /> <anim id="OhGeez" target="mainNpc" targetSpec="" />tu as
+déjà tous les plans de bricolage de
+cette collection!<delay20 /><anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" /><pageBreak /><anim id="Hello" target="mainNpc" targetSpec="" /><anim id="Hello" target="subNpc" targetSpec="" />Peut-être devrais-tu te lancer dans
+la pratique,<delay8 /> et créer des objets sur le
+thème du jour du partage?</message>
+	<message label="2004" attrib="00 00 00 00"><anim id="Explain" target="mainNpc" targetSpec="" />Ah! <delay20 />Tu as vu notre série de plans sur
+le thème du jour du partage. <delay20 /><anim id="Smiling" target="subNpc" targetSpec="" />C'est
+<tag a="50" b="1" /><tag a="125" b="0" arg="0x0" />!<pageBreak /><anim id="Serious" target="mainNpc" targetSpec="" />Nous ne proposerons cette série que
+jusqu'à la fin du mois,<delay8 /> alors dépêche-
+toi si tu es intéressé<gender2 m="" f="e" />.</message>
 </msbt>

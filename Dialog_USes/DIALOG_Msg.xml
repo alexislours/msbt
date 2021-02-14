@@ -252,6 +252,19 @@ por <colour id="1" /><tag a="90" b="26" arg="0x0" /><colour id="65535" />.
 	<message label="1105_a" attrib="01 00">A mi casa</message>
 	<message label="1105_b" attrib="01 00">A otra casa</message>
 	<message label="1105_c" attrib="01 00">Cancelar</message>
+	<message label="1106" attrib="08 00">¿Quieres pedir <tag a="50" b="2" />
+<colour id="1" /><tag a="125" b="0" arg="0x0" /><colour id="65535" /> por
+<colour id="1" /><tag a="90" b="26" arg="0x0" /><colour id="65535" />? <colour id="0" />Podrás personalizar
+tu teléfono en una mesa de taller.<colour id="65535" /></message>
+	<message label="1106_a" attrib="01 00">Cancelar</message>
+	<message label="1106_b" attrib="01 00">Hacer pedido</message>
+	<message label="1107" attrib="0c 00">¿Quieres pedir <tag a="50" b="2" />
+<colour id="1" /><tag a="125" b="0" arg="0x0" /><colour id="65535" /> por
+<colour id="1" /><tag a="90" b="26" arg="0x0" /><colour id="65535" />? <colour id="0" />Podrás personalizar
+tu teléfono en una mesa de taller.<colour id="65535" /></message>
+	<message label="1107_a" attrib="01 00">A mi casa</message>
+	<message label="1107_b" attrib="01 00">A otra casa</message>
+	<message label="1107_c" attrib="01 00">Cancelar</message>
 	<message label="1108" attrib="06 06">¡Se realizó el pedido!
 Lo recibirás en tu buzón muy pronto.</message>
 	<message label="1108_a" attrib="01 06">Aceptar</message>
@@ -1141,6 +1154,13 @@ opciones de pintura corporal.
 y disfruta de un cambio de imagen
 con nuevos colores de ojos.
 <colour id="0" />Se imprimirá de inmediato.<colour id="65535" /></message>
+	<message label="3026" attrib="01 00">Aprende diversas emociones y llena
+de expresividad tu vida en la isla.
+<colour id="0" />Se imprimirá de inmediato.<colour id="65535" /></message>
+	<message label="3027" attrib="01 00">Usa un <colour id="1" />espejo <colour id="65535" />o un <colour id="1" />tocador<colour id="65535" />
+y disfruta de un cambio de imagen
+con estos peinados adicionales.
+<colour id="0" />Se imprimirá de inmediato.<colour id="65535" /></message>
 	<message label="5001" attrib="01 00"><colour id="1" />Cámara<colour id="65535" />
 Te permite tomar fotos y aplicarles
 diversos filtros y efectos.<pageBreak /><colour id="0" />Las imágenes se guardarán en el
@@ -1512,7 +1532,7 @@ primero es necesario abandonar el
 sueño y luego equiparlo utilizando
 la opción <colour id="1" />Equipar<colour id="65535" />.</message>
 	<message label="5303" attrib="01 09">Un conjunto de varita utiliza un
-un diseño personalizado. El diseño
+diseño personalizado. El diseño
 de tu atuendo no cambiará aunque
 lo modifiques o sobrescribas.<pageBreak />Sin embargo, si después de modificar
 un diseño personalizado, cambias
@@ -1647,6 +1667,10 @@ dicha verificación.</message>
 	<message label="8020_a" attrib="01 00">No</message>
 	<message label="8020_b" attrib="01 00">Cerrar</message>
 	<message label="8019" attrib="01 00">Volver a empezar la partida</message>
+	<message label="8021" attrib="01 00">Se han detectado datos de un
+jugador que se estaba mudando
+desde otra isla. El proceso
+se reanudará a continuación.</message>
 	<message label="9001" attrib="08 00">¿Quieres comenzar el proceso de
 recuperación de datos de guardado?</message>
 	<message label="9001_a" attrib="01 00">Cancelar</message>
@@ -1662,4 +1686,53 @@ A continuación se volverá al juego.</message>
 	<message label="9013_a" attrib="01 00">Aceptar</message>
 	<message label="9016" attrib="02 00">Guardando<tag a="110" b="0" /><delay8 />
 <colour id="0" />No toques .<colour id="65535" /></message>
+	<message label="9101" attrib="08 00">El perfil de usuario que estás
+utilizando no está vinculado
+a ninguna cuenta Nintendo.<pageBreak />¿Quieres vincular una cuenta
+Nintendo para poder conservar
+los datos de guardado de las
+funciones que usan internet?</message>
+	<message label="9101_a" attrib="01 00">Cancelar</message>
+	<message label="9101_b" attrib="01 00">Vincular</message>
+	<message label="9102" attrib="08 00">Si no vinculas una cuenta Nintendo
+antes de comenzar, se reiniciarán
+todas aquellas funciones que utilicen
+internet. ¿Quieres continuar?</message>
+	<message label="9102_a" attrib="01 00">Cancelar</message>
+	<message label="9102_b" attrib="01 00">Borrar y seguir</message>
+	<message label="9103" attrib="08 00">La cuenta Nintendo vinculada a este
+perfil de usuario no es la misma que
+se utilizaba en la consola anterior.<pageBreak />Por lo tanto, antes de la mudanza se
+reiniciarán aquellas funciones que
+utilizan internet, como la lista de
+mejores amigos. ¿Quieres continuar?</message>
+	<message label="9103_a" attrib="01 00">Cancelar</message>
+	<message label="9103_b" attrib="01 00">Borrar y seguir</message>
+	<message label="9104" attrib="05 00">Se han reiniciado los datos de
+guardado de aquellas funciones
+que utilizan internet.</message>
+	<message label="9104_a" attrib="01 00">Aceptar</message>
+	<message label="9105" attrib="03 00">Accede al <colour id="1" />menú HOME<colour id="65535" /> y cierra el
+juego. Vincula un perfil de usuario a
+la misma cuenta Nintendo que usabas
+previamente y vuelve a abrir el juego.</message>
+	<message label="9105_01" attrib="03 00">Accede al <colour id="1" />menú HOME<colour id="65535" /> y cierra el juego.
+Vuelve a abrir el juego usando un perfil
+de usuario vinculado a la misma cuenta
+Nintendo que usabas antes de mudarte.</message>
+	<message label="9111" attrib="08 00">La consola Nintendo Switch de
+destino no tiene datos de guardado
+de <colour id="2" />Animal Crossing: New Horizons<colour id="65535" />.<pageBreak />Si sigues adelante con la mudanza,
+<colour id="2" /><tag a="115" b="0" arg="0xcd00" /><colour id="65535" /> será <tag a="50" b="17" arg="0xe 0xcd00 0x4 0x65 0x6c 0x4 0x6c 0x61 0x0" /> <colour id="1" />portavoz
+vecinal<colour id="65535" /> de la isla de esa consola.
+¿Quieres continuar?</message>
+	<message label="9111_a" attrib="01 00">No</message>
+	<message label="9111_b" attrib="01 00">Sí</message>
+	<message label="9112" attrib="12 00">El proceso de transferencia de datos
+llevará su tiempo. Si estás jugando
+en modo portátil, conecta la consola
+al adaptador de corriente de
+Nintendo Switch antes de empezar
+el proceso.</message>
+	<message label="9112_a" attrib="01 00">Aceptar</message>
 </msbt>

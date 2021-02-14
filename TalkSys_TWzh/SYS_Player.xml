@@ -167,6 +167,8 @@
 什麼……<delay frames="40" />是「全力」？</message>
 	<message label="200" attrib="00 00 18">新生活開始了～！<delay frames="30" />
 想做什麼都能自己決定！<delay frames="30" />自由啦～！</message>
+	<message label="200_01" attrib="00 00 18">已轉移到新的島上了！<delay frames="30" />
+無人島生活再次開始～！</message>
 	<message label="204_02" attrib="00 00 18">太好了～！<delay frames="30" />
 房子的貸款，<delay frames="10" />全部還清了～！</message>
 	<message label="204_03" attrib="00 00 18">太好了～！<delay frames="30" />
@@ -205,6 +207,12 @@
 	<message label="210_10" attrib="00 00 18">學會了新的<colour id="1" />眼睛顏色<colour id="65535" />！<delay40 />
 如果有<colour id="1" />全身鏡<colour id="65535" />或<colour id="1" />梳妝台<colour id="65535" />
 就能改變造型！</message>
+	<message label="210_13" attrib="00 00 18">學會了新的<colour id="1" />頭髮造型<colour id="65535" />！<delay40 />
+如果有<colour id="1" />全身鏡<colour id="65535" />或<colour id="1" />梳妝台<colour id="65535" />，
+就能變換更多造型！</message>
+	<message label="210_14" attrib="00 00 18">學會了新的<colour id="1" />表情<colour id="65535" />！<delay40 />
+按下<colour id="1" /><colour id="65535" />，找出自己喜歡的，<delay8 />
+讓交流更豐富吧！</message>
 	<message label="211_01" attrib="00 00 18">現在可以用<colour id="1" />島嶼創作家<colour id="65535" />
 進行<colour id="1" />河川施工<colour id="65535" />了！</message>
 	<message label="211_02" attrib="00 00 18">現在可以用<colour id="1" />島嶼創作家<colour id="65535" />
@@ -278,10 +286,26 @@
 得到了生日的祝福～！</message>
 	<message label="701" attrib="00 00 18">裡面好像放著
 移居計畫的配給品。</message>
+	<message label="702" attrib="00 00 18">袋子裡還剩下
+<tag a="90" b="1" arg="0x0" />個禮物。</message>
+	<message label="703_01" attrib="00 00 18">我看看，剩下的禮物有<tag a="110" b="0" /><pageBreak />給<tag a="115" b="1" arg="0xcd00" />的、<delay20 />
+給<tag a="115" b="1" arg="0xcd01" />的和<delay20 />
+給<tag a="115" b="1" arg="0xcd02" />的。</message>
+	<message label="703_02" attrib="00 00 18">我看看，剩下的禮物有<tag a="110" b="0" /><10_4 />
+給<tag a="115" b="1" arg="0xcd00" />的和<delay20 />
+給<tag a="115" b="1" arg="0xcd01" />的。</message>
+	<message label="703_03" attrib="00 00 18">我看看<tag a="110" b="0" />只剩下<10_4 />
+給<tag a="115" b="1" arg="0xcd00" />的禮物了。</message>
+	<message label="704" attrib="00 00 18">袋子空了！</message>
 	<message label="901" attrib="04 00 18">要在這裡搭建帳篷嗎……？</message>
 	<message label="901_a" attrib="00 00 00">先想像一下</message>
 	<message label="901_b" attrib="00 00 00">就決定是這裡！</message>
 	<message label="901_c" attrib="00 00 00">重新考慮</message>
+	<message label="901_01" attrib="04 00 18">要把這裡作為
+自己家的位置嗎<tag a="110" b="0" />？</message>
+	<message label="901_01_a" attrib="00 00 00">先想像一下</message>
+	<message label="901_01_b" attrib="00 00 00">就決定是這裡！</message>
+	<message label="901_01_c" attrib="00 00 00">重新考慮</message>
 	<message label="902" attrib="04 00 18">要把這裡作為
 <colour id="3" />傅達<colour id="65535" />的帳篷預定地嗎……？</message>
 	<message label="902_a" attrib="00 00 00">先想像一下</message>
@@ -450,6 +474,8 @@
 	<message label="960_04" attrib="00 00 18">決定<colour id="1" />裁縫屋<colour id="65535" />的遷移地點了！</message>
 	<message label="960_05" attrib="00 00 18">決定<colour id="1" />露營地<colour id="65535" />的遷移地點了！
 希望會有更多人過來！</message>
+	<message label="961" attrib="00 00 18">決定好自己家的地點了！<delay frames="30" />
+完成島上生活的基地！</message>
 	<message label="990" attrib="00 09 22">現在正在玩尋寶遊戲，<delay8 />
 還是之後再找地點吧。</message>
 	<message label="1001" attrib="00 00 18">……手機在響了。</message>

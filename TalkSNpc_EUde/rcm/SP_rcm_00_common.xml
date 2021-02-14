@@ -83,6 +83,12 @@ Brauchst du sie wirklich nicht selbst?<delay40 />
 Wir zahlen dir <tag a="90" b="21" arg="0x0" /> dafür<tag a="110" b="0" /></message>
 	<message label="037_a" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Abgemacht!</message>
 	<message label="037_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Lieber nicht.</message>
+	<message label="037_01" attrib="02 00 00 00"><anim id="Shocked" target="mainNpc" targetSpec="" /><anim id="Shocked" target="subNpc" targetSpec="" />Ui!<delay40 /> Eine Bastelanleitung für <tag a="50" b="17" arg="0x12 0xcd00 0xa 0x65 0x69 0x6e 0x65 0x6e 0x8 0x65 0x69 0x6e 0x65 0x6 0x65 0x69 0x6e" />
+<tag a="50" b="23" arg="0xcd01" /><tag a="125" b="0" arg="0x0" />!<pageBreak /><anim id="Worried" target="mainNpc" targetSpec="" />Diese Anleitung ist überaus wertvoll.<delay20 />
+<anim id="QuestionMark" target="mainNpc" targetSpec="" />Brauchst du sie wirklich nicht selbst?<delay40 />
+<anim id="Nodding" target="subNpc" targetSpec="" />Wir zahlen dir <tag a="90" b="21" arg="0x0" /> dafür<tag a="110" b="0" /></message>
+	<message label="037_01_a" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Abgemacht!</message>
+	<message label="037_01_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Lieber nicht.</message>
 	<message label="038" attrib="02 00 00 00"><anim id="Worried" target="mainNpc" targetSpec="" /><anim id="Worried" target="subNpc" targetSpec="" />Oh<tag a="110" b="0" /><delay40 /> Entschuldige,<delay8 /> aber dafür
 können wir dir leider nichts geben.<pageBreak />Wir können es aber kostenlos für
 dich entsorgen,<delay8 /> wenn du möchtest!</message>
@@ -108,6 +114,11 @@ Bastelanleitung sieht recht wertvoll
 aus. <delay20 /><anim id="QuestionMark" target="mainNpc" targetSpec="" /><anim id="QuestionMark" target="subNpc" targetSpec="" />Willst du sie wirklich verkaufen?</message>
 	<message label="043_a" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Ja, gerne.</message>
 	<message label="043_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Ach, lieber doch nicht.</message>
+	<message label="043_01" attrib="02 00 00 00"><anim id="FaintSmile" target="mainNpc" targetSpec="" /><anim id="FaintSmile" target="subNpc" targetSpec="" />Da hast du ja einiges<tag a="110" b="0" /> <delay frames="40" /><anim id="Shocked" target="mainNpc" targetSpec="" /><anim id="Shocked" target="subNpc" targetSpec="" />Ui!<delay40 /> <anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" />Diese
+Bastelanleitung sieht recht wertvoll
+aus. <delay20 /><anim id="QuestionMark" target="mainNpc" targetSpec="" /><anim id="QuestionMark" target="subNpc" targetSpec="" />Willst du sie wirklich verkaufen?</message>
+	<message label="043_01_a" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Ja, gerne.</message>
+	<message label="043_01_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Ach, lieber doch nicht.</message>
 	<message label="044_01" attrib="00 00 00 00"><anim id="Smiling" target="mainNpc" targetSpec="" /><delay8 /><anim id="Smiling" target="subNpc" targetSpec="" />Sehr wohl!<tag a="100" b="4" /> <delay8 /><size value="75" />...wohl!<size value="100" /><endTag a="100" b="4" /><delay frames="40" />
 <anim id="AbsentMindedness" target="mainNpc" targetSpec="" /><anim id="Nodding" target="subNpc" targetSpec="" />Dann lass mich nur schnell den
 Wert zusammenrechnen<tag a="110" b="0" /></message>
@@ -387,6 +398,12 @@ gekauft,<delay8 /> und leider führen wir diesen
 Artikel ab morgen nicht mehr...<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Aber sobald wir im nächsten Jahr
 wieder Süßigkeiten anbieten, <delay8 />darfst
 du gerne erneut zugreifen!</message>
+	<message label="145" attrib="00 00 00 00"><anim id="Eh" target="mainNpc" targetSpec="" />Ah, <delay8 />du interessierst dich für unsere
+neuen Waren. <delay20 /><anim id="Nodding" target="mainNpc" targetSpec="" />Wir haben kürzlich
+beschlossen, <delay8 />Spielzeug zu verkaufen.<pageBreak /><anim id="Explain" target="mainNpc" targetSpec="" /><anim id="FaintSmile" target="subNpc" targetSpec="" />Die Produkte sind als Spielzeugtag-
+geschenke gedacht, <delay8 />weshalb wir sie
+bis zum 25. Dezember anbieten.<pageBreak /><anim id="FaintSmile" target="mainNpc" targetSpec="" /><anim id="FaintSmile" target="subNpc" targetSpec="" />Lass es uns wissen, <delay8 />wenn dir etwas
+ins Auge sticht!<tag a="100" b="4" /><delay8 /> <size value="75" />...Piks,<delay8 /> piks!<size value="100" /><endTag a="100" b="4" /></message>
 	<message label="200" attrib="00 00 00 00"><anim id="Smiling" target="mainNpc" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" />Vielen Dank!<tag a="100" b="4" /><delay8 /> <size value="75" />...Danke schön!<size value="100" /><endTag a="100" b="4" /><anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" /><10_7 arg="90" /></message>
 	<message label="201" attrib="00 00 00 00"><anim id="FaintSmile" target="mainNpc" targetSpec="" /><delay8 /><anim id="FaintSmile" target="subNpc" targetSpec="" />Hallo!<tag a="100" b="4" /><delay8 /> <size value="75" />...hallo!<size value="100" /><endTag a="100" b="4" />
 <delay40 />Willkommen in <colour id="1" />Nooks Laden<colour id="65535" />!</message>
@@ -430,4 +447,28 @@ sag einfach Bescheid! <tag a="100" b="4" /><delay20 /><size value="75" />Jederze
 	<message label="905" attrib="00 00 00 00"><anim id="Smiling" target="mainNpc" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" />Gut, <delay8 />wenn du sonst noch etwas
 benötigst,<delay8 /> <anim id="FaintSmile" target="mainNpc" targetSpec="" />sind wir jederzeit für
 dich da! <tag a="100" b="4" /><delay20 /><size value="75" />Jederzeit!<size value="100" /><endTag a="100" b="4" /></message>
+	<message label="2001" attrib="00 00 00 00"><anim id="Eh" target="mainNpc" targetSpec="" />Ah! <delay20 />Produkte wie <tag a="50" b="17" arg="0x12 0xcd00 0xc 0x64 0x69 0x65 0x73 0x65 0x6e 0xa 0x64 0x69 0x65 0x73 0x65 0xc 0x64 0x69 0x65 0x73 0x65 0x73" /> <tag a="50" b="23" arg="0xcd01" /><tag a="125" b="0" arg="0x0" /> verkaufen wir für das Schlemmfest.<pageBreak /><anim id="Explain" target="mainNpc" targetSpec="" />Unser Vorrat ist begrenzt und
+außerdem<tag a="110" b="0" /> <anim id="FaintSmile" target="subNpc" targetSpec="" />kannst du Ähnliches
+durchaus auch selbst basteln.<pageBreak /><anim id="Hello" target="mainNpc" targetSpec="" /><anim id="Hello" target="subNpc" targetSpec="" />Ich glaube, <delay8 />wir haben momentan
+entsprechende Anleitungen 
+<colour id="1" />im Regal<colour id="65535" />.<pageBreak /><anim id="Nodding" target="mainNpc" targetSpec="" /><anim id="Nodding" target="subNpc" targetSpec="" />Das wollte ich nur als weitere Option
+erwähnen. <delay20 />Wir sind stets zu deinen
+Diensten!<tag a="100" b="4" /><delay8 /> <size value="75" />Jederzeit!<size value="100" /><endTag a="100" b="4" /></message>
+	<message label="2002" attrib="02 00 00 00"><anim id="OhGeez" target="mainNpc" targetSpec="" />Ach, <delay8 />der Preis<tag a="110" b="0" /> <delay20 /><anim id="Hello" target="mainNpc" targetSpec="" /><anim id="Hello" target="subNpc" targetSpec="" />Also, <delay8 />der beläuft
+sich auf <tag a="90" b="24" arg="0x0" />.<delay20 />
+Na, <delay8 />was sagst du?</message>
+	<message label="2002_a" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Nehm ich!</message>
+	<message label="2002_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Lieber nicht.</message>
+	<message label="2003" attrib="00 00 00 00"><anim id="Smiling" target="mainNpc" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" />Nicht, <delay8 />dass ich darüber Buch führen
+würde, <delay8 />aber<tag a="110" b="0" /> <delay20 /><anim id="OhGeez" target="mainNpc" targetSpec="" />Die Bastelanleitungen
+zu dem Thema kennst du schon!<anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" />
+<anim id="Hello" target="mainNpc" targetSpec="" /><anim id="Hello" target="subNpc" targetSpec="" />Wären nicht Bastelanleitungen mit
+Bezug zum Schlemmfest eine schöne
+neue Herausforderung?</message>
+	<message label="2004" attrib="00 00 00 00"><anim id="Explain" target="mainNpc" targetSpec="" /><tag a="50" b="3" /><tag a="50" b="1" /><tag a="125" b="0" arg="0x0" />!
+<anim id="Smiling" target="subNpc" targetSpec="" />Diese Sammlung umfasst Bastelanlei-
+tungen mit Bezug zum Schlemmfest!
+<anim id="Serious" target="mainNpc" targetSpec="" />Diese Anleitungen sind nur bis Ende
+des Monats verfügbar. <delay20 />Wenn du
+interessiert bist, <delay8 />beeil dich!</message>
 </msbt>

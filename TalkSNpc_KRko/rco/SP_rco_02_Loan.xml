@@ -51,12 +51,11 @@
 <anim id="Thinking" target="actor" targetSpec="" />이걸 모두 갚아 버리다니<tag a="110" b="0" /><delay40 />
 <anim id="Laughing" target="actor" targetSpec="" /><delay8 />정말이지<delay20 /> 대단한 사람이야구리<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />빚도 없이 그런 멋진 집에서 살 수 있다니<delay20 />
 <tag a="110" b="1" />님은 평생<delay8 />
-걱정 없이 살 수 있겠어구리!<pageBreak />너굴 하우징에서도
-<tag a="110" b="1" />님의 집을
-영원히 보증한다는 의미로<tag a="110" b="0" /><pageBreak /><anim id="BigSmile" target="actor" targetSpec="" />앞으로는 하루에 한 번<delay20 />
-익스테리어를 무료로
-변경할 수 있게 해줄게구리!<pageBreak /><anim id="Greeting" target="actor" targetSpec="" />그럼 <delay8 />앞으로도 너굴 하우징을
-이용해줘! <delay20 />구리!</message>
+걱정 없이 살 수 있겠어구리!<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Nook Inc.에서도<delay20 />
+<tag a="110" b="1" />님의 집을<delay20 />
+<anim id="Assent" target="actor" targetSpec="" />영원히 보증한다는 의미로<tag a="110" b="0" /><pageBreak /><anim id="BigSmile" target="actor" targetSpec="" />앞으로는<delay8 /> 하루에 한 번<delay20 />
+집 외관을 무료로<delay8 /> 리폼할 수 있게 해줄게구리!<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />그럼 <delay8 />앞으로도 Nook Inc.를
+<anim id="Greeting" target="actor" targetSpec="" />이용해줘! <delay20 />구리!</message>
 	<message label="011" attrib="00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />어서 와!<delay20 />
 <tag a="110" b="1" />님!</message>
 	<message label="012_01" attrib="00 00 00 00">집 <delay8 />잘 <anim id="QuestionMark" target="actor" targetSpec="" />지어졌지?<10_4 />
@@ -88,7 +87,7 @@
 <anim id="Smiling" target="actor" targetSpec="" />나눠서 내는 건 괜찮아!<pageBreak />여유 있을 때 조금씩 해도 되니까<delay8 />
 <colour id="1" />너굴포트<colour id="65535" />의 <colour id="1" />ATM<colour id="65535" />으로 입금 부탁해구리</message>
 	<message label="012_05" attrib="01 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />자, <delay20 />집에 대한 설명은 여기까지 하고<tag a="110" b="0" /><pageBreak /><anim id="Smiling" target="actor" targetSpec="" />마지막으로 <tag a="110" b="1" />님께
-새집 구입 기념 선물을 줄 생각이야구리!<pageBreak /><anim id="Grin" target="actor" targetSpec="" />그건 바로<tag a="110" b="0" />!<delay40 />
+새 집 구입 기념 선물을 줄 생각이야구리!<pageBreak /><anim id="Grin" target="actor" targetSpec="" />그건 바로<tag a="110" b="0" />!<delay40 />
 <anim id="HappyFlower" target="actor" targetSpec="" />마일 교환 상품 중에 가장 인기 있는<delay8 />
 <colour id="1" />마일 여행권<colour id="65535" />을 선물할게구리!</message>
 	<message label="012_05_a" attrib="00 00 00 00">마일 여행권?</message>
@@ -105,7 +104,7 @@ DIY 재료 수집에 열중해도 좋으니까<delay20 />
 원하는 대로 즐기다 오면 돼구리!<pageBreak />아무튼 <delay8 /><colour id="1" />비행장<colour id="65535" />에 맡겨뒀으니까<delay20 />
 원하는 타이밍에
 언제든지 사용해줘구리!</message>
-	<message label="012_07" attrib="00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />그럼 <delay20 />따끈따끈한 새집에서
+	<message label="012_07" attrib="00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />그럼 <delay20 />따끈따끈한 새 집에서
 즐겁게 생활해!<delay20 /> 구리!<anim id="Smiling" target="actor" targetSpec="" /></message>
 	<message label="021_01" attrib="00 00 00 00">집이 <delay20 /><anim id="QuestionMark" target="actor" targetSpec="" />넓어졌지?<10_4 />
 <anim id="Smiling" target="actor" targetSpec="" />조금이지만 더 넓어져서
@@ -183,6 +182,75 @@ DIY 재료 수집에 열중해도 좋으니까<delay20 />
 집을 지을 수 없게 되니까
 주객전도가 될 거야구리<tag a="110" b="0" /></message>
 	<message label="102" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="0" />그건 <delay20 />두 사람이 어떻게든 잘해줘구리!<10_4 />
-몇 년동안 내 밑에서 수행했으니까<delay8 />
+몇 년 동안 내 밑에서 수행했으니까<delay8 />
 <anim id="Laughing" target="actor" targetSpec="" />이 정도는 <delay8 />누워서 떡 먹기일 거야구리<tag a="110" b="0" /><delay8 /><anim id="Shocked" target="actor" targetSpec="" /><delay20 /><20_2 arg="0" /></message>
+	<message label="1001" attrib="00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />어서 와, <delay20 /><tag a="110" b="1" />님!<10_4 />
+<anim id="EmotEnd" target="actor" targetSpec="" />그러고 보니 <tag a="110" b="1" />님은
+<anim id="Serious" target="actor" targetSpec="" />이사 오기 전에 대출을 받았던데<tag a="110" b="0" /></message>
+	<message label="1002" attrib="00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />어서 와!<delay20 />
+<tag a="110" b="1" />님!<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />그러고 보니 <tag a="110" b="1" />님은<delay8 />
+이 <tag a="110" b="32" />으로 이사 오기 전에<delay20 />
+<anim id="Smiling" target="actor" targetSpec="" />마이 홈 건축을 의뢰했던데<tag a="110" b="0" /></message>
+	<message label="1003" attrib="00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />어서 와!<delay20 /> <tag a="110" b="1" />님!<10_4 />
+<anim id="EmotEnd" target="actor" targetSpec="" />그러고 보니 <tag a="110" b="1" />님은<delay20 />
+<anim id="Nodding" target="actor" targetSpec="" />이사 오기 전에<delay8 /> 증축 공사를 의뢰했었지?</message>
+	<message label="1101" attrib="00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />어서 와!<delay20 />
+<tag a="110" b="1" />님!</message>
+	<message label="1102" attrib="01 00 00 00">전에 살던 <tag a="110" b="32" />에서 이사 온 뒤로
+조금은 <tag a="110" b="34" />에서의
+새로운 생활에 익숙해졌어구리?</message>
+	<message label="1102_a" attrib="00 00 00 00">그럭저럭!</message>
+	<message label="1102_b" attrib="00 00 00 00">조금은?</message>
+	<message label="1103" attrib="01 00 00 00">그래, 그렇구나! <delay frames="40" /><anim id="Explain" target="actor" targetSpec="" /><tag a="110" b="1" />님이
+하고 싶은 대로 재밌게 살다 보면
+<anim id="Smiling" target="actor" targetSpec="" />금방 새로운 <tag a="110" b="32" />에도 적응이 될 거야구리!
+그건 그렇고, <delay20 /><anim id="Nodding" target="actor" targetSpec="" />항상 우리 회사를 아껴주는<delay8 />
+<tag a="110" b="1" />님한테<delay20 />
+<anim id="Smiling" target="actor" targetSpec="" />오늘은 내가 선물을 준비했어구리!<pageBreak /><anim id="Grin" target="actor" targetSpec="" />뭐냐면<tag a="110" b="0" />!<delay40 />
+<anim id="HappyFlower" target="actor" targetSpec="" />마일 교환의 최고 인기 아이템,<delay8 />
+<colour id="1" />마일 여행권<colour id="65535" />이야구리!</message>
+	<message label="1103_a" attrib="00 00 00 00">고마워!</message>
+	<message label="1103_b" attrib="00 00 00 00">그게 뭐더라?</message>
+	<message label="1104" attrib="00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />그럼 계속해서<delay20 />
+새로운 곳에서의 생활을<delay8 /> 즐겨줘구리～!<anim id="Smiling" target="actor" targetSpec="" /></message>
+	<message label="1105" attrib="00 00 00 00"><anim id="HappyDance" target="actor" targetSpec="" />이 여행권을 사용하면 <delay20 />언제든지 손쉽게
+어딘가의 작은 무인도로 휙 날아갈 수 있어!<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />여행지의 만남을 기대해도 좋고,<delay20 />
+DIY 재료 수집에 열중해도 좋으니까<delay20 />
+원하는 대로 즐기다 오면 돼구리!<pageBreak />아무튼 <delay8 /><colour id="1" />비행장<colour id="65535" />에 맡겨뒀으니까<delay20 />
+원하는 타이밍에
+언제든지 사용해줘구리!</message>
+	<message label="1201" attrib="00 00 00 00"><anim id="HappyFlower" target="actor" targetSpec="" />집 대출금을 <delay8 />전부 갚아줘서
+고마워, <delay8 />구리!<pageBreak /><anim id="Thinking" target="actor" targetSpec="" />액수가 상당했는데
+이걸 모두 갚아 버리다니<tag a="110" b="0" /><delay40 />
+<anim id="Laughing" target="actor" targetSpec="" /><delay8 />정말이지<delay20 /> 대단한 사람이야구리<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />빚도 없이 그런 멋진 집에서 살 수 있다니<delay20 />
+<tag a="110" b="1" />님은 평생<delay8 />
+<anim id="Smiling" target="actor" targetSpec="" />걱정 없이 살 수 있겠어구리!<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Nook Inc.에서도<delay20 />
+<tag a="110" b="1" />님의 집을<delay20 />
+<anim id="Assent" target="actor" targetSpec="" />영원히 보증한다는 의미로<tag a="110" b="0" /><pageBreak /><anim id="BigSmile" target="actor" targetSpec="" />앞으로는<delay8 /> 하루에 한 번<delay20 />
+집 외관을 무료로<delay8 /> 리폼할 수 있게 해줄게구리!<anim id="FaintSmile" target="actor" targetSpec="" /></message>
+	<message label="1201_01" attrib="00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />그리고 하나 더,<delay frames="40" />
+<anim id="Thinking" target="actor" targetSpec="" />집을 지금보다<delay8 />
+더 크게 만들 수는 없지만<tag a="110" b="0" /><pageBreak /><anim id="Explain" target="actor" targetSpec="" />마이 홈을 이만큼 증축한 사람에겐<delay20 />
+<anim id="Nodding" target="actor" targetSpec="" /><colour id="1" />수납 공간 확장 공사<colour id="65535" />에 대해<delay8 />
+안내하고 있어구리!</message>
+	<message label="1201_02" attrib="00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />비용도 그럭저럭 들고,<delay frames="30" />
+<anim id="Explain" target="actor" targetSpec="" />증축이랑은 다르게 <delay8 />공사 대금을
+선불로 받고 있지만<anim id="EmotEnd" target="actor" targetSpec="" /><tag a="110" b="0" /></message>
+	<message label="1201_03" attrib="00 00 00 00"><tag a="110" b="1" />님도<delay8 />
+<anim id="Smiling" target="actor" targetSpec="" />이 섬에서 살면서<delay20 />
+마이 홈을 최대로 증축할 정도니까<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />지금까지 모은 가구나 다른 물건들을
+둘 곳이 슬슬 부족하지 않을까 하는데<delay20 />
+<anim id="Hello" target="actor" targetSpec="" />꼭 한번 검토해주길 바라구리!<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />수납 공간 확장 공사는<delay20 />
+<anim id="EmotEnd" target="actor" targetSpec="" />마이 홈 상담에서<delay8 />
+<anim id="Greeting" target="actor" targetSpec="" />접수하고 있어구리!</message>
+	<message label="1201_04" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />그럼 <delay8 />앞으로도 Nook Inc.를
+<anim id="Greeting" target="actor" targetSpec="" />많이 이용해줘! <delay20 />구리!</message>
+	<message label="1202" attrib="00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />참고로 <delay8 /><tag a="110" b="1" />님의 집은<delay20 />
+더 이상 크게 만들 수 없지만<tag a="110" b="0" /><pageBreak /><anim id="Explain" target="actor" targetSpec="" />이번 대출금을 전부 갚아준 사람에게는<delay20 />
+새롭게 마이 홈의 <colour id="1" />수납 공간 확장 공사<colour id="65535" />를<delay8 />
+<anim id="Smiling" target="actor" targetSpec="" />제안하고 있어구리!<pageBreak /><anim id="AbsentMindedness" target="actor" targetSpec="" />지금까지 모은 가구나 다른 물건들,<delay8 />
+슬슬 둘 자리가 부족해졌을 것 같아서 말이야<delay frames="40" />
+<anim id="Nodding" target="actor" targetSpec="" />부디 한번 검토해주길 바라구리!<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />그럼, <delay20 />입금은 평소처럼<delay8 />
+<colour id="1" />너굴포트<colour id="65535" />의 <colour id="1" />ATM<colour id="65535" />에서 할 수 있으니까<delay20 />
+<anim id="Greeting" target="actor" targetSpec="" />이번에도 잘 부탁해～!</message>
 </msbt>

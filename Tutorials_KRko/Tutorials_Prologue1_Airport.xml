@@ -107,4 +107,82 @@
 	<message label="203_02" attrib="00 00 00" />
 	<message label="203_03" attrib="00 00 00" />
 	<message label="203_04" attrib="00 00 00" />
+	<message label="1003_02" attrib="01 00 00"><anim id="Nodding" target="mainNpc" targetSpec="" />우선 이주 신청을 확인해야 하는데요,<delay20 />
+손님은 이주 패키지를
+<anim id="Hello" target="mainNpc" targetSpec="" /><anim id="Hello" target="subNpc" targetSpec="" />처음 이용하시는 건가요?</message>
+	<message label="1003_02_a" attrib="00 00 00">처음이야!</message>
+	<message label="1003_02_b" attrib="00 00 00">다른 섬에서 이사 오는 거야</message>
+	<message label="1003_02_01" attrib="00 00 00"><anim id="BigSmile" target="mainNpc" targetSpec="" /><anim id="BigSmile" target="subNpc" targetSpec="" />알겠습니다－! <delay20 /><tag a="100" b="4" /><size value="75" />알겠습니다－!<size value="100" /><endTag a="100" b="4" /><pageBreak /><anim id="Nodding" target="mainNpc" targetSpec="" />그럼 이주 신청 확인을 위해서<delay20 />
+손님의 <colour id="1" />성함<colour id="65535" />과<delay8 /> <colour id="1" />생일<colour id="65535" />을<delay20 />
+<anim id="Hello" target="mainNpc" targetSpec="" /><anim id="Hello" target="subNpc" targetSpec="" />알려주시겠어요? <delay20 /><tag a="100" b="4" /><size value="75" />알려주시겠어요－?<size value="100" /><endTag a="100" b="4" /></message>
+	<message label="2001" attrib="00 00 00"><anim id="BigSmile" target="mainNpc" targetSpec="" /><anim id="BigSmile" target="subNpc" targetSpec="" />알겠습니다－!<delay frames="40" />
+<anim id="EmotEnd" target="actor" targetSpec="" />다른 '<colour id="2" />모여봐요 동물의 숲<colour id="65535" />' <tag a="110" b="32" />에서
+<anim id="Smiling" target="mainNpc" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" />이사 오시는 거군요－ <delay20 /><tag a="100" b="4" /><size value="75" />거군요－<size value="100" /><endTag a="100" b="4" /></message>
+	<message label="2001_01" attrib="00 00 00">혹시, 이번 이사와 함께<delay20 />
+Nintendo Switch 본체에서도<delay8 />
+<anim id="Hello" target="mainNpc" targetSpec="" /><anim id="Hello" target="subNpc" targetSpec="" />"<colour id="1" />유저의 이사<colour id="65535" />"를 희망하고 계신가요?<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />만약 그러시다면, <delay20 />먼저 본체 설정에서
+"<colour id="1" />유저의 이사<colour id="65535" />"를 끝마치신 다음에<delay20 />
+<anim id="Smiling" target="mainNpc" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" />이사 수속을 진행해주세요－ <delay20 /><tag a="100" b="4" /><size value="75" />진행해주세요－<size value="100" /><endTag a="100" b="4" /></message>
+	<message label="2002" attrib="04 00 00"><anim id="Smiling" target="mainNpc" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" />그럼 이사 수속을 진행할 테니<delay20 />
+<anim id="EmotEnd" target="actor" targetSpec="" />살고 계신 <tag a="110" b="32" />이 있는 Nintendo Switch에서<delay8 />
+<anim id="Hello" target="mainNpc" targetSpec="" /><anim id="Hello" target="subNpc" targetSpec="" />이사 신청을 해주시겠어요?</message>
+	<message label="2002_a" attrib="00 00 00">알았어!</message>
+	<message label="2002_b" attrib="00 00 00">어떻게 하는 건데?</message>
+	<message label="2002_c" attrib="00 00 00">그만둘래</message>
+	<message label="2002_01" attrib="02 00 00">이제 살고 계신 <tag a="110" b="32" />이 있는
+<anim id="Nodding" target="actor" targetSpec="" />Nintendo Switch 본체를<delay20 />
+조작해주세요－ <delay20 /><tag a="100" b="4" /><size value="75" />주세요－<size value="100" /><endTag a="100" b="4" />
+<anim id="Smiling" target="actor" targetSpec="" />'<colour id="0" />이사 신청서가 발행되었습니다<colour id="65535" />'<delay20 />라고
+<anim id="EmotEnd" target="actor" targetSpec="" />살고 계신 <tag a="110" b="32" />에서 안내가 나오면<delay20 />
+<anim id="Explain" target="actor" targetSpec="" />여기에서 <colour id="1" />이사 수속 시작<colour id="65535" />을 선택해주세요<anim id="EmotEnd" target="actor" targetSpec="" /></message>
+	<message label="2002_01_a" attrib="00 00 00"><colour id="1" />이사 수속 시작<colour id="65535" /></message>
+	<message label="2002_01_b" attrib="00 00 00">그만둘래</message>
+	<message label="2004" attrib="02 00 00"><anim id="BigSmile" target="mainNpc" targetSpec="" /><anim id="BigSmile" target="subNpc" targetSpec="" /><tag a="115" b="5" arg="0xcd00" />의<delay8 />
+<tag a="115" b="0" arg="0xcd00" />님을 찾았습니다!<delay frames="40" />
+<anim id="Hello" target="mainNpc" targetSpec="" /><anim id="Hello" target="subNpc" targetSpec="" />맞는지 확인해주시겠어요－?</message>
+	<message label="2004_a" attrib="00 00 00">맞아!</message>
+	<message label="2004_b" attrib="00 00 00">그만둘래</message>
+	<message label="2005" attrib="00 00 00"><anim id="Smiling" target="mainNpc" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" />그럼 <delay8 />이사 수속을 진행하겠습니다－!</message>
+	<message label="2006" attrib="00 00 00"><anim id="BigSmile" target="mainNpc" targetSpec="" /><anim id="BigSmile" target="subNpc" targetSpec="" />네!<delay frames="40" />
+<anim id="Smiling" target="mainNpc" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" />이사 수속을 마쳤습니다－!</message>
+	<message label="2007" attrib="00 00 00"><anim id="Smiling" target="mainNpc" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" />살고 계신 <tag a="110" b="32" />이 있는
+Nintendo Switch 본체에서<delay8 />
+이사 신청을 하기 위해서는<tag a="110" b="0" /><pageBreak /><anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" />타이틀 화면에서 <colour id="1" /> 버튼<colour id="65535" />을 누르고<delay8 />
+<anim id="Nodding" target="mainNpc" targetSpec="" /><anim id="Nodding" target="subNpc" targetSpec="" />각종 설정 화면에 들어가셔서<delay20 />
+'<colour id="1" />다른 섬으로 이사<colour id="65535" />'를 선택해주세요<pageBreak /><anim id="Explain" target="mainNpc" targetSpec="" /><anim id="Explain" target="subNpc" targetSpec="" />거기에서 안내에 따라 진행하면<delay20 />
+<anim id="BigSmile" target="mainNpc" targetSpec="" /><anim id="BigSmile" target="subNpc" targetSpec="" />이사 신청을 하실 수 있어요</message>
+	<message label="2008" attrib="00 00 00">참고로 Nintendo Switch 본체에서<delay20 />
+<anim id="Explain" target="actor" targetSpec="" />"<colour id="1" />유저의 이사<colour id="65535" />"를 하신 경우에는<tag a="110" b="0" /><anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak />"<colour id="1" />유저의 이사<colour id="65535" />"를 완료했기 때문에<delay20 />
+<anim id="Explain" target="actor" targetSpec="" />출발지 본체에서 <delay20 />유저 본인이<delay8 />
+없어지셨을 거예요<anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak />그런 경우에는 <delay20 />출발지 본체를<delay8 />
+<colour id="1" />다른 주민으로 대신 조작해서<colour id="65535" /><delay20 />
+<anim id="Smiling" target="mainNpc" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" />이사 수속을 진행해주세요－ <delay20 /><tag a="100" b="4" /><size value="75" />진행해주세요－<size value="100" /><endTag a="100" b="4" /></message>
+	<message label="2009" attrib="04 00 00">설명은 이상인데요<tag a="110" b="0" /><delay frames="40" />
+<anim id="Hello" target="mainNpc" targetSpec="" /><anim id="Hello" target="subNpc" targetSpec="" />이사 수속을 시작해도 괜찮을까요－?</message>
+	<message label="2009_a" attrib="00 00 00">오케이!</message>
+	<message label="2009_b" attrib="00 00 00">다시 한번 말해줘</message>
+	<message label="2009_c" attrib="00 00 00">그만둘래</message>
+	<message label="2021" attrib="02 00 00">이사 수속을<delay8 />
+<anim id="Hello" target="mainNpc" targetSpec="" /><anim id="Hello" target="subNpc" targetSpec="" />취소하시는 건가요－?</message>
+	<message label="2021_a" attrib="00 00 00">응, 취소할래</message>
+	<message label="2021_b" attrib="00 00 00">아니, 계속할래</message>
+	<message label="2023" attrib="00 00 00">네, 이주 패키지 수속을<delay8 />
+<anim id="Nodding" target="actor" targetSpec="" />중지하겠습니다<delay frames="30" />
+<anim id="Smiling" target="mainNpc" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" />이대로 게임을 마쳐주세요－</message>
+	<message label="2024" attrib="02 00 00"><anim id="Worried" target="mainNpc" targetSpec="" /><anim id="Worried" target="subNpc" targetSpec="" />이사 오실 분을
+찾는 데 실패했어요<tag a="110" b="0" /><delay frames="40" />
+<anim id="QuestionMark" target="mainNpc" targetSpec="" /><anim id="QuestionMark" target="subNpc" targetSpec="" />다시 한번 찾아볼까요－?</message>
+	<message label="2024_a" attrib="00 00 00">다시 한번 찾아줘</message>
+	<message label="2024_b" attrib="00 00 00">그만둘래</message>
+	<message label="2025" attrib="00 00 00"><anim id="Worried" target="mainNpc" targetSpec="" /><anim id="Worried" target="subNpc" targetSpec="" />이사 수속을 진행하는 데 실패했어요<tag a="110" b="0" /></message>
+	<message label="2051" attrib="00 00 00"><anim id="Smiling" target="mainNpc" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" /><tag a="110" b="1" />님,<delay frames="30" />
+기다리고 있었어요－! <delay20 /><tag a="100" b="4" /><size value="75" />있었어요－!<size value="100" /><endTag a="100" b="4" /><10_4 />
+<anim id="Hello" target="mainNpc" targetSpec="" /><anim id="Hello" target="subNpc" targetSpec="" />다른 <tag a="110" b="32" />에서 이사 오시는 수속<delay8 /> 중이었죠?</message>
+	<message label="2052" attrib="00 00 00">그럼<delay8 /> 계속해서
+<anim id="Smiling" target="mainNpc" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" />이사 수속을 진행하겠습니다－! <delay20 /><tag a="100" b="4" /><size value="75" />진행하겠습니다－!<size value="100" /><endTag a="100" b="4" /></message>
+	<message label="2053" attrib="00 00 00"><anim id="Smiling" target="mainNpc" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" />출발 전에 필요한 절차는<delay8 />
+모두 마쳤으니까<delay20 />
+<anim id="BigSmile" target="mainNpc" targetSpec="" /><anim id="BigSmile" target="subNpc" targetSpec="" />출발할 때까지 잠시만 기다려주세요－! <delay20 /><tag a="100" b="4" /><size value="75" />주세요－!<size value="100" /><endTag a="100" b="4" /><pageBreak /><anim id="Explain" target="mainNpc" targetSpec="" />실제 생활에 대해서는<delay20 />
+<anim id="Nodding" target="subNpc" targetSpec="" /><tag a="110" b="32" />에 도착한 후 자세히 설명해드릴 테니<delay8 />
+걱정하지 않으셔도 됩니다－!<anim id="Smiling" target="actor" targetSpec="" /><anim id="Smiling" target="actor" targetSpec="" /> <delay20 /><tag a="100" b="4" /><size value="75" />됩니다－!<size value="100" /><endTag a="100" b="4" /></message>
 </msbt>

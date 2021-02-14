@@ -41,7 +41,7 @@ Sie heute brauchen.</message>
 	<message label="002_d" attrib="00 00 00 00">Ich möchte aufwachen.</message>
 	<message label="002_01" attrib="06 00 00 00">Also<tag a="110" b="0" /> <delay8 /><anim id="QuestionMark" target="actor" targetSpec="" />was kann ich für Sie tun?</message>
 	<message label="002_01_a" attrib="00 00 00 00">Ich möchte träumen!</message>
-	<message label="002_01_b" attrib="00 00 00 00">Mein geteilter Traum...</message>
+	<message label="002_01_b" attrib="00 00 00 00">Wegen des Inseltraums...</message>
 	<message label="002_01_c" attrib="00 00 00 00">Wo bin ich?</message>
 	<message label="002_01_d" attrib="00 00 00 00">Ich möchte aufwachen.</message>
 	<message label="002_02" attrib="06 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Kann ich Ihnen sonst irgendwie
@@ -53,7 +53,7 @@ weiterhelfen?</message>
 	<message label="002_03" attrib="06 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Kann ich Ihnen sonst irgendwie
 weiterhelfen?</message>
 	<message label="002_03_a" attrib="00 00 00 00">Ich möchte träumen!</message>
-	<message label="002_03_b" attrib="00 00 00 00">Mein geteilter Traum...</message>
+	<message label="002_03_b" attrib="00 00 00 00">Wegen des Inseltraums...</message>
 	<message label="002_03_c" attrib="00 00 00 00">Wo bin ich?</message>
 	<message label="002_03_d" attrib="00 00 00 00">Ich möchte aufwachen.</message>
 	<message label="002_04" attrib="06 00 00 00">Also<tag a="110" b="0" /> <delay8 /><anim id="QuestionMark" target="actor" targetSpec="" />was kann ich für Sie tun?</message>
@@ -63,7 +63,7 @@ weiterhelfen?</message>
 	<message label="002_04_d" attrib="00 00 00 00">Ich möchte aufwachen.</message>
 	<message label="002_05" attrib="06 00 00 00">Also<tag a="110" b="0" /> <delay8 /><anim id="QuestionMark" target="actor" targetSpec="" />was kann ich für Sie tun?</message>
 	<message label="002_05_a" attrib="00 00 00 00">Ich möchte träumen!</message>
-	<message label="002_05_b" attrib="00 00 00 00">Mein geteilter Traum...</message>
+	<message label="002_05_b" attrib="00 00 00 00">Wegen des Inseltraums...</message>
 	<message label="002_05_c" attrib="00 00 00 00">Wo bin ich noch gleich?</message>
 	<message label="002_05_d" attrib="00 00 00 00">Ich möchte aufwachen.</message>
 	<message label="002_06" attrib="06 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Kann ich Ihnen sonst irgendwie
@@ -75,7 +75,7 @@ weiterhelfen?</message>
 	<message label="002_07" attrib="06 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Kann ich Ihnen sonst irgendwie
 weiterhelfen?</message>
 	<message label="002_07_a" attrib="00 00 00 00">Ich möchte träumen!</message>
-	<message label="002_07_b" attrib="00 00 00 00">Mein geteilter Traum...</message>
+	<message label="002_07_b" attrib="00 00 00 00">Wegen des Inseltraums...</message>
 	<message label="002_07_c" attrib="00 00 00 00">Wo bin ich noch gleich?</message>
 	<message label="002_07_d" attrib="00 00 00 00">Ich möchte aufwachen.</message>
 	<message label="003" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Sehr wohl. <delay20 />Ich hoffe, <delay8 />wir sehen uns
@@ -112,12 +112,24 @@ Träume zu durchstöbern<tag a="110" b="0" /></message>
 einer Insel namens <tag a="115" b="2" arg="0xcd00" />.<delay20 /> <anim id="QuestionMark" target="actor" targetSpec="" />Ist das korrekt?</message>
 	<message label="1005_a" attrib="00 00 00 00">Jawohl!</message>
 	<message label="1005_b" attrib="00 00 00 00">Nein...</message>
-	<message label="1006" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Wunderbar! <delay20 />Dann hat alles seine
-Richtigkeit.<delay20 /> <anim id="AbsentMindedness" target="actor" targetSpec="" /><delay20 />Schließen Sie Ihre
+	<message label="1006" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Wunderbar! <delay20 />Dann können wir getrost
+fortfahren.<delay20 /> <anim id="AbsentMindedness" target="actor" targetSpec="" /><delay20 />Schließen Sie Ihre
 Augen<tag a="110" b="0" /> <delay8 />und entspannen Sie sich<tag a="110" b="0" /><anim id="EmotEnd" target="actor" targetSpec="" /></message>
 	<message label="1006_01" attrib="00 00 00 00">Öffnen Sie Ihren Geist dem
 Datenstrom<tag a="110" b="0" /><delay8 /> und betreten Sie den
-Traum von <tag a="115" b="2" arg="0xcd00" /><tag a="110" b="0" /><10_8 arg="75" /></message>
+Traum<tag a="110" b="0" /><delay8 /> von <tag a="115" b="2" arg="0xcd00" /><tag a="110" b="0" /><10_8 arg="75" /></message>
+	<message label="1010" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Sehr gern! <delay20 />Dann müssen wir nur
+noch einige Formalitäten klären...<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Für Träume benötigt man, <delay8 />wie
+für fast alles heutzutage,<delay8 /> eine
+Verbindung zum <colour id="1" />Internet<colour id="65535" />.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Möchten Sie einen bestimmten
+Traum erkunden, <delay8 />benötigen Sie
+hierfür eine <colour id="1" />Schlummeranschrift<colour id="65535" />.
+<anim id="Nodding" target="actor" targetSpec="" />Das ist sozusagen die einzigartige
+Kennung eines Traums.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Falls Sie sich jedoch überraschen
+lassen möchten, <delay8 />kann ich auch gern
+einen Traum für Sie aussuchen.<pageBreak />Sagen Sie einfach <anim id="Hello" target="actor" targetSpec="" />„<colour id="1" />Überraschen Sie
+mich<colour id="65535" />“, <delay8 />und ich werde mich für Sie
+umgehend auf Traumsuche begeben!</message>
 	<message label="1031" attrib="02 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Es tut mir leid, <delay8 />aber unter dieser
 <colour id="1" />Schlummeranschrift<colour id="65535" /> kann ich leider
 keinen Traum finden<tag a="110" b="0" /></message>
@@ -172,6 +184,63 @@ Träume zu geben, <delay8 />die Sie erneut
 besuchen können.<pageBreak /><anim id="Worried" target="actor" targetSpec="" />Wenn Sie träumen möchten, <delay8 />müssten
 Sie eine <colour id="1" />Schlummeranschrift
 <colour id="65535" />angeben...</message>
+	<message label="1060" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Nebenbei bemerkt,<delay8 /> ich kann Ihnen
+auch bei der Auswahl eines Traums
+behilflich sein.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Möchten Sie sich einfach nur über-
+raschen lassen, <delay8 />benötigen Sie keine
+Schlummeranschrift.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Ich werde Ihnen dann einfach einen
+hübschen Traum aus den endlosen
+Weiten des Internets fischen.<pageBreak />Sagen Sie einfach<delay8 /> <anim id="Hello" target="actor" targetSpec="" />„<colour id="1" />Überraschen Sie
+mich<colour id="65535" />“, <delay8 />und ich werde mich für Sie
+umgehend auf Traumsuche begeben!</message>
+	<message label="1061" attrib="06 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Wie darf ich den Traum denn heute
+für Sie heraufbeschwören?</message>
+	<message label="1061_a" attrib="00 00 00 00">Via Schlummeranschrift</message>
+	<message label="1061_b" attrib="00 00 00 00">Traum erneut besuchen</message>
+	<message label="1061_c" attrib="00 00 00 00">Überraschen Sie mich.</message>
+	<message label="1061_d" attrib="00 00 00 00">Doch nicht träumen...</message>
+	<message label="1062" attrib="02 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Sehr gern!<delay20 /> Entspannen Sie sich und
+genießen Sie den Traum,<delay8 /> den ich für
+Sie finden werde.</message>
+	<message label="1062_a" attrib="00 00 00 00">Ich bin bereit.</message>
+	<message label="1062_b" attrib="00 00 00 00">Lieber doch nicht...</message>
+	<message label="1063" attrib="02 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Huch! <delay20 />Ich konnte keinen Traum für
+Sie finden. <delay20 /><anim id="WrySmile" target="actor" targetSpec="" />Das ist in der Tat eine
+Überraschung!<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Möchten Sie,<delay8 /> dass ich es <anim id="Hello" target="actor" targetSpec="" />gleich noch
+einmal versuche?</message>
+	<message label="1063_a" attrib="00 00 00 00">Ja, bitte!</message>
+	<message label="1063_b" attrib="00 00 00 00">Nein, dann nicht.</message>
+	<message label="1065" attrib="04 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Wie darf ich den Traum denn heute
+für Sie heraufbeschwören?</message>
+	<message label="1065_a" attrib="00 00 00 00">Via Schlummeranschrift</message>
+	<message label="1065_b" attrib="00 00 00 00">Überraschen Sie mich.</message>
+	<message label="1065_c" attrib="00 00 00 00">Doch nicht träumen...</message>
+	<message label="1066" attrib="02 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Eine Frage hätte ich noch kurz,<delay8 />
+Ihren Traum von <tag a="110" b="9" /> betreffend...<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Wäre es Ihnen recht, <delay8 />dass ich Ihren
+Traum mit anderen Träumern teile,<delay8 />
+die sich überraschen lassen wollen?<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Falls Sie zustimmen, <delay8 />würde ich Ihren
+Traum zuvor noch kurz aktualisieren.<delay20 />
+<anim id="QuestionMark" target="actor" targetSpec="" />Habe ich dafür Ihre Erlaubnis?</message>
+	<message label="1066_a" attrib="00 00 00 00">Gerne! Nur zu!</message>
+	<message label="1066_b" attrib="00 00 00 00">Nein, lieber nicht.</message>
+	<message label="1067" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Wunderbar. <delay20 />Ich bin mir sicher, <delay8 />Ihr
+Traum wird viele Traumreisende
+erfreuen. <delay20 />Danke für Ihr Vertrauen.<pageBreak /><anim id="AbsentMindedness" target="actor" targetSpec="" />Lassen Sie mich Ihren Traum von
+<tag a="110" b="9" /> also rasch aktualisieren<tag a="110" b="0" /></message>
+	<message label="1068" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Fertig!<delay20 /> Ihr Traum wurde aktualisiert!<delay20 />
+Ich freue mich schon jetzt, <delay8 />zahlreiche
+Träumer damit zu überraschen.</message>
+	<message label="1069" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Ihr Traum von <tag a="110" b="9" /> wurde unter der <colour id="1" />Schlummeranschrift<colour id="65535" /> <tag a="140" b="17" arg="0xcd00" /> registriert.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Falls Sie nicht mehr wünschen,<delay8 /> dass
+ich ihren Traum mit anderen teile,<delay8 />
+überhaupt kein Problem!<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Sprechen Sie mich in diesem
+Fall einfach kurz auf das <anim id="Hello" target="actor" targetSpec="" />Thema
+„<colour id="1" />Zufallstraum-Option<colour id="65535" />“ an.</message>
+	<message label="1070" attrib="00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Ich verstehe.<delay20 /> In diesem Fall werde
+ich andere Träumer natürlich nicht
+mit Ihrem Traum überraschen.</message>
+	<message label="1071" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Sollten Sie Ihre Meinung doch noch
+ändern, <delay8 />sprechen Sie mich ruhig auf
+das<anim id="Hello" target="actor" targetSpec="" /> Thema „<colour id="1" />Zufallstraum-Option<colour id="65535" />“ an.</message>
 	<message label="2001" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Sehr wohl. <delay20 /><anim id="Serious" target="actor" targetSpec="" />Dann müsste ich Sie
 bitten,<delay8 /> die folgenden <colour id="1" />wichtigen
 Informationen <colour id="65535" />durchzulesen<tag a="110" b="0" /></message>
@@ -264,6 +333,29 @@ anderen Tag erneut versuchen.</message>
 schränkungen „Freie Kommunikation
 mit anderen“ erlauben...<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Bitte kommen Sie erneut zu mir,<delay8 />
 wenn alles bereit ist.</message>
+	<message label="2100" attrib="02 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Da Sie bereits so freundlich waren,<delay8 />
+Ihre Schlummeranschrift zu teilen,<delay8 />
+hätte ich noch ein weiteres Anliegen.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Es kommt hin und wieder vor, <delay8 />dass
+mich Träumer bitten, <delay8 />sie mit einem
+Traum meiner Wahl zu überraschen.<pageBreak /><anim id="Negative" target="actor" targetSpec="" />Natürlich würde ich dies niemals
+ohne die Einwilligung des Traum-
+erstellers tun. <delay20 /><anim id="EmotEnd" target="actor" targetSpec="" />Deshalb meine Frage...<pageBreak /><anim id="QuestionMark" target="actor" targetSpec="" />Dürfte ich Ihren Traum von <tag a="110" b="9" /> teilen und andere damit überraschen?</message>
+	<message label="2100_a" attrib="00 00 00 00">Klar, gerne!</message>
+	<message label="2100_b" attrib="00 00 00 00">Nein, bitte nicht.</message>
+	<message label="2101" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Wunderbar. <delay20 />Ich bin mir sicher, <delay8 />Ihr
+Traum wird viele Traumreisende
+erfreuen. <delay20 /><anim id="AbsentMindedness" target="actor" targetSpec="" />Einen Moment bitte<tag a="110" b="0" /></message>
+	<message label="2102" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Fertig!<delay20 /> Ich freue mich schon jetzt,<delay8 />
+zahlreiche Träumer damit zu
+überraschen.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Falls Sie nicht mehr wünschen,<delay8 /> dass
+ich ihren Traum mit anderen teile,<delay8 />
+überhaupt kein Problem!<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Sprechen Sie mich in diesem
+Fall einfach kurz auf das <anim id="Hello" target="actor" targetSpec="" />Thema
+„<colour id="1" />Zufallstraum-Option<colour id="65535" />“ an.</message>
+	<message label="2103" attrib="00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Es tut mir sehr leid, <delay8 />doch ich konnte
+Ihren Traum von <tag a="110" b="9" /> weder formen noch aktualisieren.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Ich fürchte,<delay8 /> wir müssen es zu einem
+anderen Zeitpunkt erneut versuchen.<delay20 />
+<anim id="Nodding" target="actor" targetSpec="" />Verzeihen Sie mir.</message>
 	<message label="3001" attrib="06 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Unter der <colour id="1" />Schlummeranschrift
 <colour id="65535" /><tag a="140" b="17" arg="0xcd00" /> existiert schon
 ein Traum von <tag a="110" b="9" />.</message>
@@ -278,9 +370,20 @@ etwas für Sie tun?</message>
 	<message label="3001_01_b" attrib="00 00 00 00">Anschrift-Sichtbarkeit...</message>
 	<message label="3001_01_c" attrib="00 00 00 00">Bitte löschen!</message>
 	<message label="3001_01_d" attrib="00 00 00 00">Nichts weiter...</message>
+	<message label="3002" attrib="08 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Unter der <colour id="1" />Schlummeranschrift
+<colour id="65535" /><tag a="140" b="17" arg="0xcd00" /> existiert schon
+ein Traum von <tag a="110" b="9" />.</message>
+	<message label="3002_a" attrib="00 00 00 00">Bitte aktualisieren!</message>
+	<message label="3002_b" attrib="00 00 00 00">Anschrift-Sichtbarkeit...</message>
+	<message label="3002_c" attrib="00 00 00 00">Zufallstraum-Option...</message>
+	<message label="3002_d" attrib="00 00 00 00">Bitte löschen!</message>
+	<message label="3002_e" attrib="00 00 00 00">Nichts weiter...</message>
+	<message label="3002_02" attrib="08 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Kann ich bezüglich Ihres
+hochgeladenen Traums sonst
+etwas für Sie tun?</message>
 	<message label="3002_02_a" attrib="00 00 00 00">Bitte aktualisieren!</message>
 	<message label="3002_02_b" attrib="00 00 00 00">Anschrift-Sichtbarkeit...</message>
-	<message label="3002_02_c" attrib="00 00 00 00">Anschrift-Sichtbarkeit...</message>
+	<message label="3002_02_c" attrib="00 00 00 00">Zufallstraum-Option...</message>
 	<message label="3002_02_d" attrib="00 00 00 00">Bitte löschen!</message>
 	<message label="3002_02_e" attrib="00 00 00 00">Nichts weiter...</message>
 	<message label="3101" attrib="02 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Sie möchten also den bestehenden
@@ -363,6 +466,35 @@ nicht auf Ihrem <colour id="1" />Pass<colour id="65535" /> und der <colour id="1
 	<message label="3405" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Bitte schön. <delay20 />Ihre <colour id="1" />Schlummeranschrift
 <colour id="65535" />ist ab sofort öffentlich <delay8 />und erscheint
 auf Ihrem <colour id="1" />Pass<colour id="65535" /> und der <colour id="1" />Karte<colour id="65535" />.</message>
+	<message label="3500" attrib="01 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Nun<tag a="110" b="0" /> <delay8 />Momentan habe ich Ihre
+Erlaubnis,<delay8 /> Ihren Traum von <tag a="110" b="9" /> zu teilen.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Falls mich Träumer bitten,<delay8 /> sie mit
+einem Traum zu überraschen, <delay8 />werde
+ich eventuell den Ihrigen teilen.<pageBreak /><anim id="QuestionMark" target="actor" targetSpec="" />Ist das weiterhin in Ordnung für Sie?</message>
+	<message label="3500_a" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Nicht mehr teilen.</message>
+	<message label="3500_b" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Ja, kein Problem.</message>
+	<message label="3501" attrib="01 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Nun<tag a="110" b="0" /> <delay8 />Momentan wird Ihr Traum von <tag a="110" b="9" /> nicht mit anderen geteilt.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Falls mich Träumer bitten,<delay8 /> sie mit
+einem Traum zu überraschen, <delay8 />dürfte
+ich dann den Ihrigen teilen?</message>
+	<message label="3501_a" attrib="00 00 00 00">Teilen Sie ihn ruhig!</message>
+	<message label="3501_b" attrib="00 00 00 00">Bitte nicht teilen.</message>
+	<message label="3502" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Sehr wohl. <delay20 /><anim id="EmotEnd" target="actor" targetSpec="" />Dann bleibt Ihr Traum<anim id="Nodding" target="actor" targetSpec="" />
+weiterhin Träumern zugänglich,<delay8 />
+die überrascht werden möchten.</message>
+	<message label="3503" attrib="00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Also gut.<delay20 /> Ihr Traum wird künftig nicht
+mehr mit Träumern geteilt,<delay8 /> die von
+mir überrascht werden möchten.</message>
+	<message label="3504" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Ganz wie Sie wünschen.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Andere Träumer werden von nun an<anim id="Nodding" target="actor" targetSpec="" />
+möglicherweise mit Ihrem Traum von
+<tag a="110" b="9" /> überrascht.</message>
+	<message label="3505" attrib="00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Selbstverständlich. <delay20 />Dann bleibt alles
+so wie bisher.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Ihr Traum von <tag a="110" b="9" /> wird anderen Träumern künftig nicht als Überraschung präsentiert.</message>
+	<message label="3506" attrib="01 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Nun<tag a="110" b="0" /> <delay8 />Momentan wird Ihr Traum von <tag a="110" b="9" /> nicht mit anderen geteilt.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Falls mich Träumer bitten,<delay8 /> sie mit
+einem Traum zu überraschen, <delay8 /><anim id="QuestionMark" target="actor" targetSpec="" />dürfte
+ich dann den Ihrigen teilen?<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Falls Sie zustimmen, <delay8 />würde ich Ihren
+Traum zuvor noch kurz aktualisieren.<delay20 />
+<anim id="Smiling" target="actor" targetSpec="" />Habe ich dafür Ihre Erlaubnis?</message>
+	<message label="3506_a" attrib="00 00 00 00">Gerne! Nur zu!</message>
+	<message label="3506_b" attrib="00 00 00 00">Bitte nicht teilen.</message>
 	<message label="4000" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Dies hier ist eine Welt zwischen den
 Welten, <delay8 />in der elektronische Träume
 und Träumer zusammenfinden.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Meine Arbeit hier ist mit der einer
@@ -421,4 +553,12 @@ am besten als Souvenirs für die
 Besucher von <tag a="110" b="9" />.</message>
 	<message label="4003_03" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Damit sollte hoffentlich alles geklärt
 sein<tag a="110" b="0" /></message>
+	<message label="4010" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Oh! <delay20 />Ich sollte noch erwähnen, <delay8 />dass
+dieser Prozess einen Zugang zum
+<colour id="1" />Internet<colour id="65535" /> erfordert.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Sollten Sie zudem einen bestimmten
+Traum besuchen wollen,<delay8 /> benötigen
+Sie dessen <colour id="1" />Schlummeranschrift<colour id="65535" />.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Möchten Sie jedoch von einem Traum
+meiner Wahl überrascht werden,<delay8 />
+sagen Sie <anim id="Hello" target="actor" targetSpec="" />„<colour id="1" />Überraschen Sie mich<colour id="65535" />“.<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Damit sollte alles Wissenswerte rund
+um das Thema Träume gesagt sein!</message>
 </msbt>

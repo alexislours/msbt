@@ -76,6 +76,12 @@
 продать?<delay40 /> Могу дать <tag a="90" b="21" arg="0x0" /><tag a="110" b="0" /></message>
 	<message label="037_a" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Продано!</message>
 	<message label="037_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Откажусь все-таки.</message>
+	<message label="037_01" attrib="02 00 00 00"><anim id="Shocked" target="mainNpc" targetSpec="" /><anim id="Shocked" target="subNpc" targetSpec="" />Ого!<delay20 /> Да это же инструкция
+«Сделай сам» для <tag a="50" b="23" arg="0xcd03" /><tag a="125" b="0" arg="0x0" />!<pageBreak /><anim id="Worried" target="mainNpc" targetSpec="" />Редкая и ценная вещь.<delay frames="40" /><anim id="QuestionMark" target="mainNpc" targetSpec="" /> Точно
+хочешь продать ее? <delay20 /><anim id="Nodding" target="subNpc" targetSpec="" />Боюсь, мы
+можем дать только <tag a="90" b="21" arg="0x0" />.</message>
+	<message label="037_01_a" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Продано!</message>
+	<message label="037_01_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Откажусь все-таки.</message>
 	<message label="038" attrib="02 00 00 00"><anim id="Worried" target="mainNpc" targetSpec="" /><anim id="Worried" target="subNpc" targetSpec="" />О<tag a="110" b="0" /><delay40 /> Но купить у тебя это
 я не могу.<pageBreak />Если хочешь, возьму и бесплатно
 утилизирую!</message>
@@ -98,6 +104,11 @@
 хочешь ее тоже продать?</message>
 	<message label="043_a" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Отлично, давай!</message>
 	<message label="043_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Э, погоди-погоди...</message>
+	<message label="043_01" attrib="02 00 00 00"><anim id="FaintSmile" target="mainNpc" targetSpec="" /><anim id="FaintSmile" target="subNpc" targetSpec="" />Столько всего<tag a="110" b="0" /><anim id="Shocked" target="mainNpc" targetSpec="" /><anim id="Shocked" target="subNpc" targetSpec="" /><delay8 /> Ой!<delay20 /> <anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" />У тебя же там
+очень ценная инструкция.<delay20 /><anim id="QuestionMark" target="mainNpc" targetSpec="" /><anim id="QuestionMark" target="subNpc" targetSpec="" /> Ты точно
+хочешь ее тоже продать?</message>
+	<message label="043_01_a" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Отлично, давай!</message>
+	<message label="043_01_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Э, погоди-погоди...</message>
 	<message label="044_01" attrib="00 00 00 00"><anim id="Smiling" target="mainNpc" targetSpec="" /><delay8 /><anim id="Smiling" target="subNpc" targetSpec="" />Понял!<tag a="100" b="4" /> <delay8 /><size value="75" />Да, все ясно!<size value="100" /><endTag a="100" b="4" /><delay frames="40" />
 <anim id="AbsentMindedness" target="mainNpc" targetSpec="" /><anim id="Nodding" target="subNpc" targetSpec="" />Сейчас подсчитаю<tag a="110" b="0" /></message>
 	<message label="044_02" attrib="00 00 00 00"><anim id="Smiling" target="mainNpc" targetSpec="" /><delay8 /><anim id="Smiling" target="subNpc" targetSpec="" />Понял!<tag a="100" b="4" /> <delay8 /><size value="75" />Ага, все понятно!<size value="100" /><endTag a="100" b="4" /><delay frames="40" />
@@ -368,6 +379,12 @@
 день продажи конфет в этом году.<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Надеюсь, ты еще придешь за
 ними, когда снова представится
 такая возможность!</message>
+	<message label="145" attrib="00 00 00 00"><anim id="Eh" target="mainNpc" targetSpec="" />А, похоже, придется объяснить.
+<delay20 /><anim id="Nodding" target="mainNpc" targetSpec="" />Как видишь, мы решили начать
+продавать игрушки!<pageBreak /><anim id="Explain" target="mainNpc" targetSpec="" /><anim id="FaintSmile" target="subNpc" targetSpec="" />Предложение действует только до
+25 декабря, чтобы все смогли
+купить подарки на День игрушек.<pageBreak /><anim id="FaintSmile" target="mainNpc" targetSpec="" /><anim id="FaintSmile" target="subNpc" targetSpec="" />Скажи, если тебе что-то
+понравится! <tag a="100" b="4" /><delay8 /><size value="75" />Понравится!<size value="100" /><endTag a="100" b="4" /></message>
 	<message label="200" attrib="00 00 00 00"><anim id="Smiling" target="mainNpc" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" />Спасибо!<tag a="100" b="4" /><delay8 /> <size value="75" />Спасибо тебе!<size value="100" /><endTag a="100" b="4" /><anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" /><10_7 arg="90" /></message>
 	<message label="201" attrib="00 00 00 00"><anim id="FaintSmile" target="mainNpc" targetSpec="" /><delay8 /><anim id="FaintSmile" target="subNpc" targetSpec="" />Привет!<tag a="100" b="4" /><delay8 /> <size value="75" />Здравствуй!<size value="100" /><endTag a="100" b="4" /><delay40 />
 Приветствуем в <colour id="1" />лавке Нука<colour id="65535" />!</message>
@@ -407,4 +424,27 @@
 <size value="75" /><tag a="100" b="4" /><delay8 />Обращайся, да!<endTag a="100" b="4" /><size value="100" /></message>
 	<message label="905" attrib="00 00 00 00"><anim id="Smiling" target="mainNpc" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" />Если что-то нужно, <anim id="FaintSmile" target="mainNpc" targetSpec="" />обращайся!<tag a="100" b="4" />
 <delay8 /><size value="75" />Обращайся, да!<size value="100" /><endTag a="100" b="4" /></message>
+	<message label="2001" attrib="00 00 00 00"><anim id="Eh" target="mainNpc" targetSpec="" />Ах! <delay8 /><anim id="EmotEnd" target="mainNpc" targetSpec="" />Вещь на День изобилия!
+Я имею в виду<delay20 /> <tag a="50" b="23" arg="0xcd01" /><tag a="125" b="0" arg="0x0" />.<pageBreak /><anim id="Explain" target="mainNpc" targetSpec="" />Сразу предупреждаю, что товара
+у нас немного<tag a="110" b="0" /><anim id="FaintSmile" target="subNpc" targetSpec="" /> и такое можно и со
+«Сделай сам» смастерить<tag a="110" b="0" /><pageBreak /><anim id="Hello" target="mainNpc" targetSpec="" /><anim id="Hello" target="subNpc" targetSpec="" />Кстати, у нас сейчас имеются
+<colour id="1" />в продаже инструкции.
+Посмотри на полках<colour id="65535" /><tag a="110" b="0" /><pageBreak /><anim id="Nodding" target="mainNpc" targetSpec="" /><anim id="Nodding" target="subNpc" targetSpec="" />Просто предлагаю тебе варианты.<delay20 />
+Продажам мы всегда рады!
+<tag a="100" b="4" /><delay8 /><size value="75" />Очень рады!<size value="100" /><endTag a="100" b="4" /></message>
+	<message label="2002" attrib="02 00 00 00"><anim id="OhGeez" target="mainNpc" targetSpec="" />Ого! Я совсем забыл сказать тебе
+цену! <delay frames="40" /><anim id="Hello" target="mainNpc" targetSpec="" /><anim id="Hello" target="subNpc" targetSpec="" /><tag a="90" b="24" arg="0x0" />.<delay20 />
+Что скажешь?</message>
+	<message label="2002_a" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Беру!</message>
+	<message label="2002_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Откажусь все-таки.</message>
+	<message label="2003" attrib="00 00 00 00"><anim id="Smiling" target="mainNpc" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" />Не то чтобы мы следили за тобой<tag a="110" b="0" /><delay20 />
+<anim id="OhGeez" target="mainNpc" targetSpec="" />но ты выучил<gender2 m="" f="а" /> все инструкции
+«Сделай сам» из этого сборника!<delay20 /><anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" /><pageBreak /><anim id="Hello" target="mainNpc" targetSpec="" /><anim id="Hello" target="subNpc" targetSpec="" />Может, тебе будет интересно
+смастерить что-нибудь ко
+Дню изобилия?</message>
+	<message label="2004" attrib="00 00 00 00"><anim id="Explain" target="mainNpc" targetSpec="" />А! <tag a="50" b="3" /><tag a="125" b="0" arg="0x0" />!
+<delay20 /><anim id="Smiling" target="subNpc" targetSpec="" />Это сборник инструкций «Сделай
+сам» в духе Дня изобилия.<pageBreak /><anim id="Serious" target="mainNpc" targetSpec="" />Он будет доступен только до конца
+месяца, так что не медли, если
+хочешь его приобрести!</message>
 </msbt>

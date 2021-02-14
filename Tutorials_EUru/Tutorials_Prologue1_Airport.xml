@@ -113,4 +113,84 @@ Nook Inc. «Необитаемый остров»!<delay20 /><100_3 arg="PlaneAn
 	<message label="203_02" attrib="00 00 00" />
 	<message label="203_03" attrib="00 00 00" />
 	<message label="203_04" attrib="00 00 00" />
+	<message label="1003_02" attrib="01 00 00"><anim id="Nodding" target="mainNpc" targetSpec="" />Сначала мы проверим твою заявку.<delay20 /> <anim id="Hello" target="mainNpc" targetSpec="" /><anim id="Hello" target="subNpc" targetSpec="" />Ты в первый раз обращаешься за
+нашим пакетом услуг?</message>
+	<message label="1003_02_a" attrib="00 00 00">Да, в первый.</message>
+	<message label="1003_02_b" attrib="00 00 00">Переезд с другого острова.</message>
+	<message label="1003_02_01" attrib="00 00 00"><anim id="BigSmile" target="mainNpc" targetSpec="" /><anim id="BigSmile" target="subNpc" targetSpec="" />Понятно!<delay8 /><size value="75" /><tag a="100" b="4" /> Ясно!<endTag a="100" b="4" /><size value="100" /><pageBreak /><anim id="Nodding" target="mainNpc" targetSpec="" />Теперь пройдемся по документам.<delay20 /> <anim id="Hello" target="mainNpc" targetSpec="" /><anim id="Hello" target="subNpc" targetSpec="" />Назови, пожалуйста, свое <colour id="1" />имя
+<colour id="65535" />и <colour id="1" />дату рождения<colour id="65535" />.<delay8 /><size value="75" /><tag a="100" b="4" /> Рождения!<endTag a="100" b="4" /><size value="100" /></message>
+	<message label="2001" attrib="00 00 00"><anim id="BigSmile" target="mainNpc" targetSpec="" /><anim id="BigSmile" target="subNpc" targetSpec="" />Понятно!<size value="75" /><delay8 /><tag a="100" b="4" /> Ясно!<endTag a="100" b="4" /><size value="100" /><pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Ты переезжаешь с другого острова
+<colour id="2" />Animal Crossing: New Horizons<colour id="65535" />.<delay20 /><anim id="Smiling" target="mainNpc" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" />
+Здорово!<delay8 /> <tag a="100" b="4" /><size value="75" />Очень здорово!<size value="100" /><endTag a="100" b="4" /></message>
+	<message label="2001_01" attrib="00 00 00">Прежде чем мы продолжим,
+скажи<tag a="110" b="0" /><pageBreak /><anim id="Hello" target="mainNpc" targetSpec="" /><anim id="Hello" target="subNpc" targetSpec="" />Ты собираешься <colour id="1" />переносить
+пользователей <colour id="65535" />с одной консоли
+Nintendo Switch на другую?<pageBreak /><anim id="Explain" target="mainNpc" targetSpec="" /><anim id="Explain" target="subNpc" targetSpec="" />Если да, сперва сделай это, выбрав
+<colour id="1" />Передать сведения о пользователе
+<colour id="65535" />в системных настройках.<pageBreak /><anim id="Smiling" target="mainNpc" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" />А после этого мы с удовольствием
+обработаем данные о твоем
+переезде!<delay20 /><tag a="100" b="4" /><size value="75" /> С удовольствием!<size value="100" /><endTag a="100" b="4" /></message>
+	<message label="2002" attrib="04 00 00"><anim id="Smiling" target="mainNpc" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" />Мы с удовольствием поможем тебе
+с переездом.<pageBreak /><anim id="QuestionMark" target="mainNpc" targetSpec="" /><anim id="QuestionMark" target="subNpc" targetSpec="" />Тебе уже удалось отправить <colour id="0" />запрос
+на передачу данных<colour id="65535" /> с Nintendo
+Switch с твоим текущим островом?</message>
+	<message label="2002_a" attrib="00 00 00">Да, уже.</message>
+	<message label="2002_b" attrib="00 00 00">Как это сделать?</message>
+	<message label="2002_c" attrib="00 00 00">Лучше отменим.</message>
+	<message label="2002_01" attrib="02 00 00">Хорошо, взгляни на консоль
+Nintendo Switch<delay20 /> <anim id="Nodding" target="actor" targetSpec="" />с островом, на
+котором ты сейчас живешь.<delay8 /><size value="75" /><tag a="100" b="4" /> Сейчас.<endTag a="100" b="4" /><size value="100" />
+<anim id="Smiling" target="actor" targetSpec="" />Если ты видишь там «<colour id="0" />Запрос на
+передачу данных отправлен<colour id="65535" />»,<delay20 />
+<anim id="Explain" target="actor" targetSpec="" />выбери здесь «<colour id="1" />Начать процесс<colour id="65535" />».</message>
+	<message label="2002_01_a" attrib="00 00 00"><colour id="1" />Начать процесс.<colour id="65535" /></message>
+	<message label="2002_01_b" attrib="00 00 00">Лучше отменим.</message>
+	<message label="2004" attrib="02 00 00"><anim id="BigSmile" target="mainNpc" targetSpec="" /><anim id="BigSmile" target="subNpc" targetSpec="" />Я нашел в системе пользователя
+<tag a="115" b="0" arg="0xcd00" /><delay8 /> с острова <tag a="115" b="2" arg="0xcd00" />!<delay frames="40" /> <anim id="Hello" target="mainNpc" targetSpec="" /><anim id="Hello" target="subNpc" targetSpec="" />Все правильно?</message>
+	<message label="2004_a" attrib="00 00 00">Все правильно.</message>
+	<message label="2004_b" attrib="00 00 00">Лучше отменим.</message>
+	<message label="2005" attrib="00 00 00"><anim id="Smiling" target="mainNpc" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" />В таком случае <delay8 />продолжим!</message>
+	<message label="2006" attrib="00 00 00"><anim id="BigSmile" target="mainNpc" targetSpec="" /><anim id="BigSmile" target="subNpc" targetSpec="" />Вот и все!<delay20 /> Переезд завершен!</message>
+	<message label="2007" attrib="00 00 00"><anim id="Explain" target="mainNpc" targetSpec="" /><anim id="Explain" target="subNpc" targetSpec="" />Для <colour id="0" />запроса на передачу данных<colour id="65535" /><delay8 />
+потребуется консоль Nintendo
+Switch с текущим островом.<anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" /><pageBreak />Сначала запусти игру
+<colour id="2" />Animal Crossing: New Horizons<colour id="65535" />.<anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" /><pageBreak />Потом на начальном экране<delay8 /> нажми
+<colour id="1" />кнопку <colour id="65535" />, чтобы открыть меню
+настроек.<anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" /><pageBreak />Когда будет предложено, выбери<delay8 />
+«<colour id="1" />Переезд на новый остров...<colour id="65535" />».<anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" /><pageBreak />Затем, следуя инструкциям на
+экране, начни переезд <delay8 />и отправь
+<colour id="0" />запрос на передачу данных<colour id="65535" />.</message>
+	<message label="2008" attrib="00 00 00"><anim id="Shocked" target="actor" targetSpec="" />А!<delay frames="40" /><anim id="Explain" target="actor" targetSpec="" /> Важный пункт на случай, если
+сведения о пользователе с другой
+консоли уже передавались.<anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak /><anim id="Nodding" target="actor" targetSpec="" />После <colour id="1" />передачи сведений
+о пользователе<colour id="65535" /><delay20 /><anim id="Explain" target="actor" targetSpec="" /> твоя учетная запись
+исчезнет с исходной консоли.<anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak />Если это уже случилось, <delay20 /><anim id="Smiling" target="mainNpc" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" />попроси
+<colour id="1" />другого жителя с исходной консоли<delay8 />
+начать процесс за тебя<colour id="65535" />.</message>
+	<message label="2009" attrib="04 00 00">Ну, вроде бы все! <delay20 /><anim id="Hello" target="mainNpc" targetSpec="" /><anim id="Hello" target="subNpc" targetSpec="" />Ну что, начнем
+процесс переезда?<delay20 /><size value="75" /><tag a="100" b="4" /> Начнем?<endTag a="100" b="4" /><size value="100" /></message>
+	<message label="2009_a" attrib="00 00 00">Да, пожалуйста!</message>
+	<message label="2009_b" attrib="00 00 00">Можете повторить?</message>
+	<message label="2009_c" attrib="00 00 00">Нет, не сейчас.</message>
+	<message label="2021" attrib="02 00 00">Ой!<delay20 /> <anim id="Hello" target="mainNpc" targetSpec="" /><anim id="Hello" target="subNpc" targetSpec="" />Хочешь отменить переезд?</message>
+	<message label="2021_a" attrib="00 00 00">Отмени переезд.</message>
+	<message label="2021_b" attrib="00 00 00">Нет, продолжим.</message>
+	<message label="2023" attrib="00 00 00"><anim id="Eh" target="mainNpc" targetSpec="" /><anim id="Eh" target="subNpc" targetSpec="" />А! <delay8 />В таком случае мы прерываем
+процесс в нашей системе.
+<anim id="Smiling" target="mainNpc" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" />Всего доброго!<delay8 /> <size value="75" /><tag a="100" b="4" />Всего хорошего!<endTag a="100" b="4" /><size value="100" /></message>
+	<message label="2024" attrib="02 00 00"><anim id="Worried" target="mainNpc" targetSpec="" /><anim id="Worried" target="subNpc" targetSpec="" />Желающие переехать в системе не
+находятся<tag a="110" b="0" /><delay20 /> <anim id="QuestionMark" target="mainNpc" targetSpec="" /><anim id="QuestionMark" target="subNpc" targetSpec="" /> Повторить поиск?</message>
+	<message label="2024_a" attrib="00 00 00">Поищи снова.</message>
+	<message label="2024_b" attrib="00 00 00">Нет, спасибо.</message>
+	<message label="2025" attrib="00 00 00"><anim id="Worried" target="mainNpc" targetSpec="" /><anim id="Worried" target="subNpc" targetSpec="" />Хм? <delay8 />Переезд не удался<tag a="110" b="0" /></message>
+	<message label="2051" attrib="00 00 00"><anim id="Smiling" target="mainNpc" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" /><tag a="50" b="3" /><tag a="110" b="1" />,<delay20 /> тебя ждем!<delay8 />
+<size value="75" /><tag a="100" b="4" />Заждались!<endTag a="100" b="4" /><size value="100" /><pageBreak /><anim id="Hello" target="mainNpc" targetSpec="" /><anim id="Hello" target="subNpc" targetSpec="" />Ведь ты собирал<gender2 m="ся" f="ась" /> переезжать на
+другой остров, верно?</message>
+	<message label="2052" attrib="00 00 00"><anim id="Smiling" target="mainNpc" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" />Давай возобновим процесс
+переезда!<delay8 /><size value="75" /><tag a="100" b="4" /> Возобновим!<endTag a="100" b="4" /><size value="100" /></message>
+	<message label="2053" attrib="00 00 00"><anim id="Nodding" target="mainNpc" targetSpec="" /><anim id="Nodding" target="subNpc" targetSpec="" />Мы подготовили все необходимое
+перед полетом,<delay20 /> <anim id="BigSmile" target="mainNpc" targetSpec="" />осталось дождаться
+посадки в самолет!<pageBreak /><anim id="Explain" target="mainNpc" targetSpec="" /><anim id="Nodding" target="subNpc" targetSpec="" />Мы предоставим тебе полную
+информацию о жизни на острове,<delay8 />
+как только приземлимся!<delay8 /><anim id="Smiling" target="actor" targetSpec="" /><anim id="Smiling" target="actor" targetSpec="" /> <size value="75" /><tag a="100" b="4" />Как только!<endTag a="100" b="4" /><size value="100" /></message>
 </msbt>

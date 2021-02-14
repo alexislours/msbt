@@ -171,6 +171,8 @@ DIY 레시피가 번뜩인다!</message>
 어디 보자<tag a="110" b="0" /><delay frames="40" /> '근성'?</message>
 	<message label="200" attrib="00 00 18">새로운 생활이 시작됐다～!<delay frames="30" />
 뭘 하든 내 자유야! <delay frames="30" />야호～!</message>
+	<message label="200_01" attrib="00 00 18">새로운 <tag a="110" b="32" />으로 이사를 마쳤다!<delay frames="30" />
+다시 무인도 생활이 시작될 거야～!</message>
 	<message label="204_02" attrib="00 00 18">야호～!<delay frames="30" />
 집 대출금을 <delay frames="10" />모두 갚았어～!</message>
 	<message label="204_03" attrib="00 00 18">신난다～!<delay frames="30" />
@@ -211,6 +213,12 @@ DIY 레시피가 번뜩인다!</message>
 	<message label="210_10" attrib="00 00 18">새로운 <colour id="1" />아이 컬러<colour id="65535" />를 배웠다!<delay40 />
 <colour id="1" />거울<colour id="65535" />이나 <colour id="1" />화장대<colour id="65535" />가 있으면
 이미지 변신을 할 수 있어!</message>
+	<message label="210_13" attrib="00 00 18">새로운 <colour id="1" />헤어스타일<colour id="65535" />을 배웠다!<delay40 />
+<colour id="1" />거울<colour id="65535" />이나 <colour id="1" />화장대<colour id="65535" />가 있으면
+새롭게 이미지 변신을 할 수 있어!</message>
+	<message label="210_14" attrib="00 00 18">새로운 <colour id="1" />리액션<colour id="65535" />을 배웠다!<delay40 />
+<colour id="1" /><colour id="65535" />로 마음에 드는 리액션을 찾아보고<delay8 />
+풍부하게 감정 표현을 해보자!</message>
 	<message label="211_01" attrib="00 00 18"><colour id="1" />섬 크리에이터<colour id="65535" />로
 <colour id="1" />하천 공사<colour id="65535" />를 할 수 있게 됐다!</message>
 	<message label="211_02" attrib="00 00 18"><colour id="1" />섬 크리에이터<colour id="65535" />로
@@ -286,10 +294,26 @@ DIY 레시피가 번뜩인다!</message>
 생일을 축하받았어～!</message>
 	<message label="701" attrib="00 00 18">이주 플랜의 지급품이
 들어 있는 모양이야</message>
+	<message label="702" attrib="00 00 18">선물 보따리 안에는
+<tag a="90" b="1" arg="0x0" />개의 선물이 남아 있네</message>
+	<message label="703_01" attrib="00 00 18">어디 보자～ 이제 남은 선물은<tag a="110" b="0" /><pageBreak /><tag a="115" b="1" arg="0xcd00" />님 선물이랑<delay20 />
+<tag a="115" b="1" arg="0xcd01" />님 선물,<delay20 />
+<tag a="115" b="1" arg="0xcd02" />님 선물이네</message>
+	<message label="703_02" attrib="00 00 18">어디 보자～ 이제 남은 선물은<tag a="110" b="0" /><10_4 />
+<tag a="115" b="1" arg="0xcd00" />님 선물이랑<delay20 />
+<tag a="115" b="1" arg="0xcd01" />님 선물이네</message>
+	<message label="703_03" attrib="00 00 18">어디 보자～ 이제 남은 선물은<tag a="110" b="0" /><10_4 />
+<tag a="115" b="1" arg="0xcd00" />님 선물이네</message>
+	<message label="704" attrib="00 00 18">선물 보따리가 텅텅 비었다!</message>
 	<message label="901" attrib="04 00 18">여기에 텐트를 칠까<tag a="110" b="0" />?</message>
 	<message label="901_a" attrib="00 00 00">상상해보기</message>
 	<message label="901_b" attrib="00 00 00">여기로 결정!</message>
 	<message label="901_c" attrib="00 00 00">다시 생각할래</message>
+	<message label="901_01" attrib="04 00 18">내 집의 위치를
+여기로 정할까<tag a="110" b="0" />?</message>
+	<message label="901_01_a" attrib="00 00 00">상상해보기</message>
+	<message label="901_01_b" attrib="00 00 00">여기로 결정!</message>
+	<message label="901_01_c" attrib="00 00 00">다시 생각할래</message>
 	<message label="902" attrib="04 00 18"><colour id="3" />부엉<colour id="65535" />님의 텐트를
 여기에 설치할까<tag a="110" b="0" />?</message>
 	<message label="902_a" attrib="00 00 00">상상해보기</message>
@@ -466,6 +490,8 @@ DIY 레시피가 번뜩인다!</message>
 	<message label="960_05" attrib="00 00 18"><colour id="1" />캠핑장<colour id="65535" />의 이사 예정지를 정했다!
 더 많은 사람들이
 놀러오면 좋겠어～!</message>
+	<message label="961" attrib="00 00 18">내 집의 위치를 정했다!<delay frames="30" />
+이 섬 생활의 첫걸음을 내딛었어!</message>
 	<message label="990" attrib="00 09 22">지금은 보물찾기 중이니까<delay8 />
 설치 장소는 나중에 찾아야겠다</message>
 	<message label="1001" attrib="00 00 18"><tag a="110" b="0" />스마트폰이 울린다</message>

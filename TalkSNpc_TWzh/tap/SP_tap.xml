@@ -115,6 +115,17 @@
 	<message label="1006_01" attrib="00 00 00 00">那麼<tag a="110" b="0" /><delay frames="40" />
 讓我們一起前往充滿魅力的<delay20 />
 <tag a="115" b="2" arg="0xcd00" />的世界吧<tag a="110" b="0" /><10_8 arg="45" /></message>
+	<message label="1010" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />明白了。<delay frames="40" />
+<anim id="EmotEnd" target="actor" targetSpec="" />那麼，<delay8 />在提取夢境之前，<delay20 />
+請讓我為您說明一下。<pageBreak /><anim id="Explain" target="actor" targetSpec="" />首先，<delay8 />要提取夢境的話，
+必須要使用<colour id="1" />網路通訊<colour id="65535" />，<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />這部分還希望您能事先準備好。<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />另外，如果要搜尋您想要的夢境，<delay20 />
+<colour id="1" /><anim id="Nodding" target="actor" targetSpec="" /><colour id="65535" />則需要<colour id="1" />夢境門牌號<colour id="65535" />，<delay8 />
+就是相當於夢境地址的東西。<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />在進入想前往的夢境之前，<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />請先調查好夢境門牌號喔。<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />另外，<delay8 />您也可以交給我決定。<delay20 />
+<anim id="Nodding" target="actor" targetSpec="" />那麼，我就會幫您提取<delay8 />
+您可能會感興趣的夢境。<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />只要在進入夢境前，<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />選擇「<colour id="1" />交給你決定<colour id="65535" />」<delay8 />就可以了。</message>
 	<message label="1031" attrib="02 00 00 00"><anim id="Worried" target="actor" targetSpec="" />很可惜，<delay8 />這個<colour id="1" />夢境門牌號<colour id="65535" />
 <anim id="Negative" target="actor" targetSpec="" />目前似乎無人使用<tag a="110" b="0" /><delay frames="40" />
 <anim id="EmotEnd" target="actor" targetSpec="" />可以再告訴我一次<delay8 /><anim id="QuestionMark" target="actor" targetSpec="" /><colour id="1" />夢境門牌號<colour id="65535" />嗎？</message>
@@ -162,6 +173,58 @@
 您似乎沒有進入夢境的記錄呢<tag a="110" b="0" /><pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />如果記錄中沒有您想進入的夢境，<delay8 />
 <anim id="Explain" target="actor" targetSpec="" />請把<colour id="1" />夢境門牌號<colour id="65535" />告訴我，<delay frames="30" />
 <anim id="Smiling" target="actor" targetSpec="" />我就可以搜尋您想進入的夢境囉。</message>
+	<message label="1060" attrib="00 00 00 00">另外，關於提取夢境這件事，<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />我有一件事要告訴您<tag a="110" b="0" /><pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />即使您不知道夢境門牌號，<delay20 />
+還是可以用「交給你決定」，<delay8 />
+<anim id="Smiling" target="actor" targetSpec="" />讓我為您提取<delay20 /><anim id="Smiling" target="actor" targetSpec="" />您可能會感興趣的夢境喔。<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />當您想要這樣做的時候，只要在進入夢境前，<delay8 />
+<anim id="FaintSmile" target="actor" targetSpec="" />選擇「<colour id="1" />交給你決定<colour id="65535" />」<delay20 />就可以了。</message>
+	<message label="1061" attrib="06 00 00 00"><anim id="Serious" target="actor" targetSpec="" />那麼<tag a="110" b="0" /><delay frames="40" />
+<anim id="EmotEnd" target="actor" targetSpec="" />今天要用什麼樣的方法<delay20 />
+<anim id="QuestionMark" target="actor" targetSpec="" />來進入夢境呢？</message>
+	<message label="1061_a" attrib="00 00 00 00">使用夢境門牌號搜尋</message>
+	<message label="1061_b" attrib="00 00 00 00">進入之前去過的夢境</message>
+	<message label="1061_c" attrib="00 00 00 00">交給你決定</message>
+	<message label="1061_d" attrib="00 00 00 00">還是算了</message>
+	<message label="1062" attrib="02 00 00 00">那麼，我就幫您提取<delay frames="40" />
+<anim id="Smiling" target="actor" targetSpec="" />您可能會感興趣的夢境了。</message>
+	<message label="1062_a" attrib="00 00 00 00">麻煩你了</message>
+	<message label="1062_b" attrib="00 00 00 00">算了</message>
+	<message label="1063" attrib="02 00 00 00"><anim id="Eh" target="actor" targetSpec="" />哎呀，<delay frames="40" /><anim id="Thinking" target="actor" targetSpec="" />夢境提取失敗了<tag a="110" b="0" /><delay frames="40" /><pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />請過一段時間<delay20 />
+<anim id="Explain" target="actor" targetSpec="" />再試試看。</message>
+	<message label="1063_a" attrib="00 00 00 00">再搜尋一次</message>
+	<message label="1063_b" attrib="00 00 00 00">算了</message>
+	<message label="1065" attrib="04 00 00 00"><anim id="Serious" target="actor" targetSpec="" />那麼<tag a="110" b="0" /><delay frames="40" />
+<anim id="EmotEnd" target="actor" targetSpec="" />今天要用什麼樣的方法<delay20 />
+<anim id="QuestionMark" target="actor" targetSpec="" />來進入夢境呢？</message>
+	<message label="1065_a" attrib="00 00 00 00">使用夢境門牌號搜尋</message>
+	<message label="1065_b" attrib="00 00 00 00">交給你決定</message>
+	<message label="1065_c" attrib="00 00 00 00">還是算了</message>
+	<message label="1066" attrib="02 00 00 00">然後，<delay8 />我有一件事<delay8 />
+想跟您商量一下<tag a="110" b="0" /><pageBreak /><anim id="Explain" target="actor" targetSpec="" />我可以將<tag a="110" b="34" />的夢境<delay20 />
+<anim id="QuestionMark" target="actor" targetSpec="" />設定為<delay8 />能藉由「交給你決定」進入嗎？<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />在設定為能藉由「交給你決定」進入後，<delay20 />
+我想把夢境<delay20 /><anim id="Smiling" target="actor" targetSpec="" />
+更新為最新的夢境，可以嗎？</message>
+	<message label="1066_a" attrib="00 00 00 00">更新</message>
+	<message label="1066_b" attrib="00 00 00 00">還是算了</message>
+	<message label="1067" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />感謝您的幫忙。<delay frames="40" />
+<anim id="EmotEnd" target="actor" targetSpec="" />一定會<delay8 />有很多人<delay20 />
+<anim id="Nodding" target="actor" targetSpec="" />來參觀您的夢境的。<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />那麼，<delay8 />我就將<tag a="110" b="34" />的夢境<delay20 />
+設定為<delay8 />能藉由「交給你決定」進入，<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />並更新夢境囉。</message>
+	<message label="1068" attrib="00 00 00 00">讓您久等了<tag a="110" b="0" /><10_4 />
+<anim id="Nodding" target="actor" targetSpec="" />我已經更新好<delay20 />
+<tag a="110" b="34" />的夢境了。</message>
+	<message label="1069" attrib="00 00 00 00">接著，<tag a="110" b="34" />的夢境門牌號
+是<tag a="140" b="17" arg="0xcd00" />。<pageBreak /><anim id="Explain" target="actor" targetSpec="" />「交給你決定」的設定<delay20 />
+隨時都可以更改。<delay20 />
+<anim id="Hello" target="actor" targetSpec="" />要更改時，<delay20 />請來跟我說一聲。</message>
+	<message label="1070" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />明白了<tag a="110" b="0" /><delay frames="40" />
+<anim id="EmotEnd" target="actor" targetSpec="" />我將設定為<delay20 />
+<anim id="Nodding" target="actor" targetSpec="" />無法藉由「交給你決定」進入夢境。</message>
+	<message label="1071" attrib="00 00 00 00">已設定為<delay20 />
+無法藉由「交給你決定」進入夢境。<pageBreak /><anim id="Explain" target="actor" targetSpec="" />「交給你決定」的設定<delay20 />
+隨時都可以更改。<delay20 />
+<anim id="Hello" target="actor" targetSpec="" />要更改時，<delay20 />請來跟我說一聲。</message>
 	<message label="2001" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />非常感謝<delay8 />您的協助。<10_4 />
 <anim id="EmotEnd" target="actor" targetSpec="" />那麼，在將您的島向其他人公開前，<delay8 />
 <anim id="Hello" target="actor" targetSpec="" />可以請您先確認以下內容嗎？</message>
@@ -256,6 +319,20 @@
 必須先解除Parental Controls設定裡的<delay8 />
 「與其他用戶自由溝通」的限制。<anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />請您準備好之後，<delay20 />
 再來跟我說一聲吧。</message>
+	<message label="2100" attrib="02 00 00 00">然後<tag a="110" b="0" /><delay20 /><anim id="Nodding" target="actor" targetSpec="" />我有件事<delay20 />
+想跟提供夢境給我的<delay8 />
+<anim id="FaintSmile" target="actor" targetSpec="" /><tag a="110" b="1" />商量。<pageBreak /><anim id="Explain" target="actor" targetSpec="" />我可以將<tag a="110" b="34" />的夢境<delay20 />
+<anim id="QuestionMark" target="actor" targetSpec="" />設定為<delay8 />能藉由「交給你決定」進入嗎？</message>
+	<message label="2100_a" attrib="00 00 00 00">進行設定</message>
+	<message label="2100_b" attrib="00 00 00 00">還是算了</message>
+	<message label="2101" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />感謝您的幫忙。<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />那麼，<delay8 />我就將<tag a="110" b="34" />的夢境<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />設定為<delay8 />能藉由「交給你決定」進入囉。</message>
+	<message label="2102" attrib="00 00 00 00">讓您久等了<tag a="110" b="0" /><pageBreak /><anim id="Nodding" target="actor" targetSpec="" />我已經將<tag a="110" b="34" />的夢境<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />設定為<delay8 />能藉由「交給你決定」進入了。</message>
+	<message label="2103" attrib="00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />很抱歉<tag a="110" b="0" /><delay frames="40" />
+<anim id="EmotEnd" target="actor" targetSpec="" /><tag a="110" b="34" />的夢境<delay20 />
+<anim id="Negative" target="actor" targetSpec="" />無法寄存<tag a="110" b="0" /><pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />得再次麻煩您<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />重新寄存夢境了。</message>
 	<message label="3001" attrib="06 00 00 00">目前<tag a="110" b="34" />的夢境
 正以<colour id="1" />夢境門牌號<colour id="65535" /><tag a="140" b="17" arg="0xcd00" />
 被寄存著，您要怎麼處理呢？</message>
@@ -269,9 +346,19 @@
 	<message label="3001_01_b" attrib="00 00 00 00">關於公開夢境門牌號</message>
 	<message label="3001_01_c" attrib="00 00 00 00">我想要刪除夢境</message>
 	<message label="3001_01_d" attrib="00 00 00 00">沒事</message>
+	<message label="3002" attrib="08 00 00 00">目前<tag a="110" b="34" />的夢境
+正以<colour id="1" />夢境門牌號<colour id="65535" /><tag a="140" b="17" arg="0xcd00" />
+被寄存著，您要怎麼處理呢？</message>
+	<message label="3002_a" attrib="00 00 00 00">我想要更新夢境</message>
+	<message label="3002_b" attrib="00 00 00 00">關於公開夢境門牌號</message>
+	<message label="3002_c" attrib="00 00 00 00">關於「交給你決定」的設定</message>
+	<message label="3002_d" attrib="00 00 00 00">我想要刪除夢境</message>
+	<message label="3002_e" attrib="00 00 00 00">沒事</message>
+	<message label="3002_02" attrib="08 00 00 00">關於寄存的夢境，<delay20 />
+<anim id="QuestionMark" target="actor" targetSpec="" />您還有其他事情嗎？</message>
 	<message label="3002_02_a" attrib="00 00 00 00">我想要更新夢境</message>
 	<message label="3002_02_b" attrib="00 00 00 00">關於公開夢境門牌號</message>
-	<message label="3002_02_c" attrib="00 00 00 00">關於公開夢境門牌號</message>
+	<message label="3002_02_c" attrib="00 00 00 00">關於「交給你決定」的設定</message>
 	<message label="3002_02_d" attrib="00 00 00 00">我想要刪除夢境</message>
 	<message label="3002_02_e" attrib="00 00 00 00">沒事</message>
 	<message label="3101" attrib="02 00 00 00"><anim id="Eh" target="actor" targetSpec="" />哎呀<tag a="110" b="0" /><delay20 /><anim id="EmotEnd" target="actor" targetSpec="" />您要把
@@ -356,6 +443,35 @@
 	<message label="3405" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />明白了<tag a="110" b="0" /><pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />我將更改為<delay20 />
 <anim id="Nodding" target="actor" targetSpec="" />在<colour id="1" />護照<colour id="65535" />或<colour id="1" />地圖<colour id="65535" />上<delay8 />顯示<colour id="1" />夢境門牌號<colour id="65535" />，<delay20 />
 <anim id="FaintSmile" target="actor" targetSpec="" />讓一起遊玩過的人可以看見。</message>
+	<message label="3500" attrib="01 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />是關於「交給你決定」的設定啊。<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />目前，<delay8 /><tag a="110" b="34" />的夢境<delay20 />
+<anim id="Explain" target="actor" targetSpec="" />已設定為<delay8 />能藉由「交給你決定」進入。<anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak /><anim id="Explain" target="actor" targetSpec="" />您要更改這裡的設定，<delay20 />
+讓<tag a="110" b="34" />的夢境<delay20 />
+<anim id="QuestionMark" target="actor" targetSpec="" />無法藉由「交給你決定」進入嗎？</message>
+	<message label="3500_a" attrib="00 00 00 00">我想更改為無法進入</message>
+	<message label="3500_b" attrib="00 00 00 00">維持現狀就可以了</message>
+	<message label="3501" attrib="01 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />是關於「交給你決定」的設定啊。<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />目前，<delay8 /><tag a="110" b="34" />的夢境<delay20 />
+<anim id="Explain" target="actor" targetSpec="" />已設定為<delay8 />無法藉由「交給你決定」進入。<anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak /><anim id="Explain" target="actor" targetSpec="" />您要更改這裡的設定，<delay20 />
+讓<tag a="110" b="34" />的夢境<delay8 />
+<anim id="QuestionMark" target="actor" targetSpec="" />能藉由「交給你決定」進入嗎？</message>
+	<message label="3501_a" attrib="00 00 00 00">我想更改為能進入</message>
+	<message label="3501_b" attrib="00 00 00 00">維持現狀就可以了</message>
+	<message label="3502" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />明白了<tag a="110" b="0" /><delay frames="40" /><pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />那麼<delay8 />設定將維持在<delay20 />
+<anim id="Nodding" target="actor" targetSpec="" />能進入<anim id="FaintSmile" target="actor" targetSpec="" /><tag a="110" b="34" />的夢境。</message>
+	<message label="3503" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />明白了<tag a="110" b="0" /><pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />那麼，<delay8 />我將更改設定為<delay8 />
+<anim id="Nodding" target="actor" targetSpec="" /><tag a="110" b="34" />的夢境<delay8 />
+<anim id="FaintSmile" target="actor" targetSpec="" />無法藉由「交給你決定」進入。</message>
+	<message label="3504" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />明白了<tag a="110" b="0" /><pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />我將更改設定為<delay8 />
+<anim id="Nodding" target="actor" targetSpec="" /><tag a="110" b="34" />的夢境<delay8 />
+<anim id="FaintSmile" target="actor" targetSpec="" />能藉由「交給你決定」進入。</message>
+	<message label="3505" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />明白了<tag a="110" b="0" /><delay frames="40" /><pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />那麼<delay8 />設定將維持在<delay20 />
+<anim id="Nodding" target="actor" targetSpec="" />無法進入<anim id="FaintSmile" target="actor" targetSpec="" /><tag a="110" b="34" />的夢境。</message>
+	<message label="3506" attrib="01 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />是關於「交給你決定」的設定啊。<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />目前，<delay8 /><tag a="110" b="34" />的夢境<delay20 />
+<anim id="Explain" target="actor" targetSpec="" />已設定為<delay8 />無法藉由「交給你決定」進入。<anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak /><anim id="Nodding" target="actor" targetSpec="" />您要更改這裡的設定，<delay20 />
+讓<tag a="110" b="34" />的夢境<delay8 />
+<anim id="QuestionMark" target="actor" targetSpec="" />能藉由「交給你決定」進入嗎？<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />設定為能藉由「交給你決定」進入後，<delay20 />
+<anim id="Smiling" target="actor" targetSpec="" />我將會更新夢境。</message>
+	<message label="3506_a" attrib="00 00 00 00">更新</message>
+	<message label="3506_b" attrib="00 00 00 00">維持現狀就可以了</message>
 	<message label="4000" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />這裡是夢境和夢境之間狹窄的世界<tag a="110" b="0" /><delay frames="40" />
 <anim id="EmotEnd" target="actor" targetSpec="" />我會在這裡<delay8 />帶領大家<delay8 />
 <anim id="FaintSmile" target="actor" targetSpec="" />進入美好的夢境。<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />當然，我可以帶你進入美好的夢境，<delay20 />
@@ -411,4 +527,12 @@
 哪些作品能被帶回去，<delay20 />
 <anim id="FaintSmile" target="actor" targetSpec="" />請事先到<colour id="1" />「我的設計」展示櫃<colour id="65535" />查看。</message>
 	<message label="4003_03" attrib="00 00 00 00">我的說明就差不多到這裡了<tag a="110" b="0" /></message>
+	<message label="4010" attrib="00 00 00 00">接下來，<delay8 />要提取夢境時，<delay20 />
+<anim id="Explain" target="actor" targetSpec="" />必須先準備好<colour id="1" />網路通訊<colour id="65535" />。<anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak />請在能夠進行<colour id="1" />網路通訊<colour id="65535" />的地方，<delay8 />
+<anim id="FaintSmile" target="actor" targetSpec="" />好好享受夢境。<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />然後，<delay8 />也請事先準備好<delay8 />
+<anim id="Nodding" target="actor" targetSpec="" />想進入的<colour id="1" />夢境門牌號<colour id="65535" />。<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />另外，<delay8 />如果交給我決定的話，<delay20 />
+<colour id="1" /><anim id="Nodding" target="actor" targetSpec="" /><colour id="65535" />即使不知道<colour id="1" />夢境門牌號<colour id="65535" />，<delay8 />
+也能提取夢境。<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />只要在進入夢境前，<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />跟我說一聲<delay20 />「<colour id="1" />交給你決定<colour id="65535" />」就可以了。<10_4 />
+<anim id="Hello" target="actor" targetSpec="" />那我的說明就到這裡了<tag a="110" b="0" /></message>
 </msbt>
