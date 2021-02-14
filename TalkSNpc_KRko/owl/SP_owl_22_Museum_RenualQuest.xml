@@ -8,7 +8,7 @@
 열화와 같은 성원 덕분입니다!<pageBreak /><anim id="Silent" target="actor" targetSpec="" />그래서<tag a="110" b="0" /><delay frames="40" />
 <anim id="Thinking" target="actor" targetSpec="" />슬슬 그림 같은 <colour id="1" />미술품<colour id="65535" /> 전시를 시작해도<delay20 />
 괜찮을 것 같다는 생각이 들었습니다!<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />혹시 <colour id="1" />미술품<colour id="65535" />을 갖게 되시면<delay20 />
-<anim id="Assent" target="actor" targetSpec="" />꼭 제게 보여주십시오!<anim id="FaintSmile" target="actor" targetSpec="" /></message>
+<anim id="Assent" target="actor" targetSpec="" />꼭 제게 보여주십시오!<delay20 /><anim id="FaintSmile" target="actor" targetSpec="" /></message>
 	<message label="002" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />오호!<delay20 />
 <anim id="EmotEnd" target="actor" targetSpec="" /><tag a="110" b="1" />님!<delay20 />
 <anim id="FaintSmile" target="actor" targetSpec="" />드릴 말씀이 있습니다!<pageBreak /><anim id="HappyDance" target="actor" targetSpec="" />우리 <tag a="110" b="33" /> 박물관이<delay frames="40" />
@@ -40,6 +40,13 @@
 	<message label="104_b" attrib="00 00 00 00">화석 감정</message>
 	<message label="104_c" attrib="00 00 00 00">이게 뭐야?</message>
 	<message label="104_d" attrib="00 00 00 00">괜찮아</message>
+	<message label="105" attrib="0a 00 00 00">이외에 <delay8 />더 도와드릴 일이<delay20 /> <anim id="QuestionMark" target="actor" targetSpec="" />있나요?</message>
+	<message label="105_a" attrib="00 00 00 00"><colour id="1" />해산물을 잡았어!<colour id="65535" /></message>
+	<message label="105_b" attrib="00 00 00 00"><colour id="1" />미술품을 찾았어!<colour id="65535" /></message>
+	<message label="105_c" attrib="00 00 00 00">기증할래</message>
+	<message label="105_d" attrib="00 00 00 00">화석 감정</message>
+	<message label="105_e" attrib="00 00 00 00">이게 뭐야?</message>
+	<message label="105_f" attrib="00 00 00 00">괜찮아</message>
 	<message label="201" attrib="01 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />허거걱?! <delay20 />혹시나<delay8 />
 <anim id="Serious" target="actor" targetSpec="" /><tag a="110" b="1" />님 주머니의 그것은<tag a="110" b="0" /><delay frames="30" />
 혹시 <colour id="1" />미술품<colour id="65535" />이 아닙니까?!</message>

@@ -190,7 +190,7 @@ attendons au <colour id="1" />bureau des résidents<colour id="65535" /> !</mess
 chaque année à prendre un peu
 plus soin de notre environnement.
 <anim id="EmotEnd" target="actor" targetSpec="" />J'ajoute enfin que les activités liées à
-cette fête dureront jusqu'au 4 mai.
+cette fête dureront jusqu'au <colour id="1" />4 mai<colour id="65535" />.
 <delay20 /><anim id="Greeting" target="actor" targetSpec="" />Bonne journée et vive l'écologie !</message>
 	<message label="008_04" attrib="00 00 00 00"><anim id="AbsentMindedness" target="actor" targetSpec="" />C'est déjà juin<tag a="110" b="0" /> L'amour est dans
 l'air<tag a="110" b="0" /> Ce n'est pas pour rien qu'on
@@ -209,6 +209,32 @@ rallye tampons du 18 au 31 mai !
 <anim id="EmotEnd" target="actor" targetSpec="" />Hé hé ! Je sens qu'on va bien
 s'amuser. <anim id="Hello" target="actor" targetSpec="" />Alors tous au musée
 et vive le rallye !</message>
+	<message label="008_07_01" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Nook Inc. a effectué une évaluation
+des conditions océaniques autour
+de l'île<tag a="110" b="0" /><pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Et au vu des résultats,<delay8 /> j'ai le plaisir
+d'autoriser la baignade !<delay8 /><anim id="BigSmile" target="actor" targetSpec="" /> Il est donc
+possible d'aller nager !<pageBreak /><anim id="Explain" target="actor" targetSpec="" />De plus,<delay8 /> l'eau est exceptionnellement
+limpide dans les profondeurs,<delay8 /> ce qui
+devrait ravir les plongeurs !<pageBreak /><anim id="Serious" target="actor" targetSpec="" />Pour votre sécurité,<delay20 /> veuillez utiliser
+un équipement adéquat et en bon
+état pour plonger.
+<anim id="Explain" target="actor" targetSpec="" />D'ailleurs,<delay8 /> Nook Shopping et le
+magasin proposent des combinaisons
+de plongée à la vente.<pageBreak />Oh, <anim id="HappyFlower" target="actor" targetSpec="" />je suis impatiente de voir tout le
+monde s'amuser dans l'eau<tag a="110" b="0" /><delay20 /><anim id="EmotEnd" target="actor" targetSpec="" /> Et ne
+me rapportez pas de méduse, brrr !</message>
+	<message label="008_07_02" attrib="00 00 00 00">Comme je vous l'ai dit,<delay20 /><anim id="BigSmile" target="actor" targetSpec="" /> la baignade
+est désormais autorisée dans la mer !<pageBreak />Mieux encore,<delay20 /><anim id="Nodding" target="actor" targetSpec="" /> l'eau est limpide et
+pure,<delay8 /><anim id="Hello" target="actor" targetSpec="" /> ce qui devrait faire la joie des
+amateurs de plongée sous-marine !
+<anim id="Serious" target="actor" targetSpec="" />Pour votre sécurité,<delay20 /> veuillez utiliser
+un équipement adéquat et en bon
+état pour plonger.
+<anim id="Explain" target="actor" targetSpec="" />D'ailleurs,<delay8 /> Nook Shopping et le
+magasin proposent des combinaisons
+de plongée à la vente.<pageBreak />Oh, <anim id="HappyFlower" target="actor" targetSpec="" />je suis impatiente de voir tout le
+monde s'amuser dans l'eau<tag a="110" b="0" /><delay20 /><anim id="EmotEnd" target="actor" targetSpec="" /> Et ne
+me rapportez pas de méduse, brrr !</message>
 	<message label="010" attrib="00 00 00 00"><anim id="Smiling" target="mainNpc" targetSpec="" />Chers amis.<delay40 /> Je me permets de vous
 interrompre dans vos activités
 quotidiennes.<pageBreak /><anim id="EmotEnd" target="mainNpc" targetSpec="" />Il est exactement <tag a="90" b="30" />:<tag a="90" b="31" /><delay20 /> <anim id="Smiling" target="actor" targetSpec="" />et je vais
@@ -259,12 +285,12 @@ plus naturel que d'aller le saluer ?</message>
 	<message label="400" attrib="00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Ces derniers temps, il a été fait état
 de la présence d'un individu suspect
 sur les îles de la région.
-Ce<tag a="110" b="0" /> visiteur <delay20 /><anim id="Negative" target="actor" targetSpec="" />se livre au commerce
+Ce<tag a="110" b="0" /> visiteur <delay20 /><anim id="Shocked" target="actor" targetSpec="" />se livre au commerce
 honteux d'œuvres d'art aux origines
 intraçables.
 <anim id="EmotEnd" target="actor" targetSpec="" />On ne déplore aucun blessé parmi
 les personnes ayant été en contact
-avec lui<tag a="110" b="0" /><anim id="Nodding" target="actor" targetSpec="" /> mais restez prudents !</message>
+avec lui<tag a="110" b="0" /><anim id="Serious" target="actor" targetSpec="" /> mais restez prudents !</message>
 	<message label="600" attrib="00 00 00 00"><tag a="60" b="20" /></message>
 	<message label="600_01" attrib="00 00 00 00"><anim id="IdeaBulb" target="actor" targetSpec="" />Oh, j'oubliais !</message>
 	<message label="600_02" attrib="00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />J'ai failli oublier !</message>
@@ -677,7 +703,7 @@ intéressants, <anim id="Sighing" target="actor" targetSpec="" />mais les prése
 ne les laissent jamais en placer une !<pageBreak /><anim id="AbsentMindedness" target="actor" targetSpec="" />À croire qu'ils n'ont jamais l'occasion
 de parler en dehors de l'émission<tag a="110" b="0" /><delay20 /></message>
 	<message label="825" attrib="00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Mais oui ! <delay40 /><anim id="QuestionMark" target="actor" targetSpec="" />Vous avez regardé
-l'émission culinaire d'hier, à la télé ?<pageBreak /><anim id="Love" target="actor" targetSpec="" />Je n'avais jamais vu <tag a="50" b="2" /><tag a="135" b="3" arg="0xcd00" /> aussi appétissant<tag a="50" b="17" arg="0x1f 0xcd00 0x0 0x2 0x65 0x0" /> !<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Pour ma part, j'ai bien intention de
+l'émission culinaire d'hier, à la télé ?<pageBreak /><anim id="Love" target="actor" targetSpec="" />Je n'avais jamais vu <tag a="50" b="2" /><tag a="135" b="3" arg="0xcd00" /> aussi appétissant<tag a="50" b="17" arg="0x20 0xcd00 0x0 0x2 0x65 0x0" /> !<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Pour ma part, j'ai bien intention de
 m'essayer à cette recette dès ce
 soir.<delay20 /> Je vais bien m'appliquer !</message>
 	<message label="826" attrib="00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Ah oui ! Est-ce que vous avez

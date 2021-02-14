@@ -4,10 +4,10 @@
 <colour id="3" /><anim id="Smiling" target="actor" targetSpec="" />파니엘<colour id="65535" />이야,<delay20 /> 잘 부탁해!<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />파니라고 불러도 돼!<delay frames="30" />
 <anim id="Laughing" target="actor" targetSpec="" />하<delay frames="4" />하<delay frames="4" />핫!<delay frames="40" />
 <anim id="FaintSmile" target="actor" targetSpec="" /><colour id="4" />아무도 그렇게 불러주지 않지만<tag a="110" b="0" /><colour id="65535" /></message>
-	<message label="001_02" attrib="00 00 00 00">그건 그렇고<tag a="110" b="0" /><pageBreak />내가 여기 온 이유는<delay20 />
-요즘 <tag a="110" b="34" /><gender5 m="이" f="가" />
-화제의 중심이라는 이야기를 들었거든<tag a="110" b="0" /><pageBreak />나도 내 이상적인 <colour id="1" />공동체<colour id="65535" />를 꾸려 가는 데
-참고하고 싶어서 <anim id="BigSmile" target="actor" targetSpec="" />견학 겸 와본 거야!</message>
+	<message label="001_02" attrib="00 00 00 00">그건 그렇고<tag a="110" b="0" /><pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />내가 여기 온 이유는<delay20 />
+<anim id="Explain" target="actor" targetSpec="" />요즘 <tag a="110" b="34" /><gender5 m="이" f="가" /><delay8 />
+화제의 중심이라는 이야기를 들었거든<tag a="110" b="0" /><pageBreak /><anim id="AbsentMindedness" target="actor" targetSpec="" />나도 <delay8 />내 이상적인 <colour id="1" />공동체<colour id="65535" />를 꾸려 가는 데
+참고하고 싶어서<delay20 /> <anim id="BigSmile" target="actor" targetSpec="" />견학 겸 와본 거야!</message>
 	<message label="001_03" attrib="00 00 00 00">그런데 여기<tag a="110" b="0" /><delay8 />
 <anim id="OhGeez" target="actor" targetSpec="" />처음엔 무인도였다고 들었는데<delay20 />
 꽤 활기 넘치는 곳이라 놀랐어!<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />이 섬이 여기까지 발전한 건 설마<tag a="110" b="0" /><delay8 />
@@ -34,7 +34,7 @@
 	<message label="003_01" attrib="00 00 00 00">너도 이 섬을 관광하러 왔어?<10_4 />
 <anim id="Smiling" target="actor" targetSpec="" />나도 그렇거든<delay8 />
 이 섬은 참 멋진 곳이야</message>
-	<message label="003_02" attrib="00 00 00 00">여행지에서 우연히 만난 사람과
+	<message label="003_02" attrib="00 00 00 00"><anim id="AbsentMindedness" target="actor" targetSpec="" />여행지에서 우연히 만난 사람과<delay8 />
 이야기를 나누는 시간<tag a="110" b="0" /><delay40 />
 <anim id="Smiling" target="actor" targetSpec="" />이런 게 여행의 묘미지</message>
 	<message label="003_03" attrib="00 00 00 00">너에게선 이 섬에 사는 사람들과
@@ -44,12 +44,12 @@
 <anim id="Grin" target="actor" targetSpec="" />이래 봬도 냄새 맡는 데는 자신 있거든<delay20 />
 <anim id="Laughing" target="actor" targetSpec="" />하<delay frames="4" />하<delay frames="4" />핫!</message>
 	<message label="004" attrib="00 00 00 00"><tag a="60" b="20" /></message>
-	<message label="004_01" attrib="00 00 00 00">안녕, <delay8 /><tag a="110" b="1" /><10_4 />
-여기서 널 만나다니
-이런 우연이 다 있네</message>
-	<message label="004_02" attrib="00 00 00 00">이렇게 여행지에서
-우연히 아는 사람과 마주치면<delay8 />
-세상 참 좁다는 생각이 들어</message>
+	<message label="004_01" attrib="00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />안녕, <delay8 /><tag a="110" b="1" /><delay frames="40" />
+<anim id="EmotEnd" target="actor" targetSpec="" />여기서 널 만나다니<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />이런 우연이 다 있네</message>
+	<message label="004_02" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />이렇게 여행지에서<delay8 />
+우연히 아는 사람과 마주치면<delay20 />
+<anim id="ShyBoy" target="actor" targetSpec="" />세상 참 좁다는 생각이 들어</message>
 	<message label="004_03" attrib="00 00 00 00"><tag a="110" b="1" />, <delay8 />잘 지내고 있지?<10_4 />
 <anim id="Smiling" target="actor" targetSpec="" />괜찮다면 내가 사는 섬에도
 또 놀러와줘!</message>

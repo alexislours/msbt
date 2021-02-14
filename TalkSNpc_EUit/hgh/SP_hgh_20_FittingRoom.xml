@@ -9,11 +9,14 @@ nostra sartoria che costa fino a
 sartoria<colour id="65535" />? <delay20 />Bene, bene!<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Puoi scambiarli con un articolo della
 nostra sartoria che costa fino a
 <tag a="90" b="21" arg="0x1" />.<delay20 /><anim id="FaintSmile" target="actor" targetSpec="" /> Usali quando vuoi!</message>
-	<message label="003" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Quello è il nostro <colour id="1" />camerino di prova<colour id="65535" />!<delay40 /> Usalo per provarti quello che vuoi.<pageBreak /><delay20 />Se trovi qualcosa che ti piace, puoi
+	<message label="003" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Quello è il nostro <colour id="1" />camerino di prova<colour id="65535" />!<delay20 />
+Usalo per provarti quello che vuoi.<pageBreak /><delay20 />Se trovi qualcosa che ti piace, puoi
 acquistarlo subito lì dentro!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Il camerino ti permette di vedere se
 gli articoli che ti piacciono ti stanno
-bene<delay20 /> e di comprarli con facilità.
-<anim id="HappyFlower" target="actor" targetSpec="" />Usalo pure quando vuoi!</message>
+bene.
+<anim id="Smiling" target="actor" targetSpec="" />Inoltre, puoi provare più articoli
+insieme in una sola volta! <delay8 />Pratico,
+eh? <delay20 /><anim id="HappyFlower" target="actor" targetSpec="" />Usalo pure quando vuoi!</message>
 	<message label="010" attrib="00 00 00 00"><tag a="60" b="20" /></message>
 	<message label="010_01" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Che meraviglia!<delay20 /> Grazie mille!</message>
 	<message label="010_02" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Uau, stai benissimo!<delay20 /> Grazie per
@@ -46,4 +49,12 @@ nuovo te stess<gender2 m="o" f="a" />.</message>
 	<message label="020" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Non puoi usarlo quando sei sotto
 l'effetto di una bacchetta magica.<delay20 />
 <anim id="FaintSmile" target="actor" targetSpec="" />Un cambiamento alla volta, OK?</message>
+	<message label="021" attrib="00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Oh, mi dispiace molto,<delay20 /> ma non puoi
+utilizzare il camerino se indossi una
+muta.
+<anim id="Smiling" target="actor" targetSpec="" />Ti prego di tornare quando te la sarai
+tolta.</message>
+	<message label="022" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Detto questo, <delay8 />non puoi usarlo
+quando indossi una muta.<delay20 /> <anim id="FaintSmile" target="actor" targetSpec="" />Torna
+quando l'avrai tolta, OK?</message>
 </msbt>

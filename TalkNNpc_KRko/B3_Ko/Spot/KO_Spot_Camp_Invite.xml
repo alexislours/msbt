@@ -66,9 +66,8 @@
 	<message label="202_03" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />어라, <delay8 />안 하냐?<delay20 />
 <anim id="FaintSmile" target="actor" targetSpec="" />뭐, 억지로 하자고는 안 할게<delay frames="40" />
 다음 기회에 대결해보자고, <tag a="110" b="6" /></message>
-	<message label="203_01" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />좋아! <delay20 />그럼 카드 게임으로 결판을 내자<delay frames="40" />
-<anim id="EmotEnd" target="actor" targetSpec="" />이제부터 내가 카드를 뽑을 테니까<delay20 />
-그림이 뭔지 맞춰보라고, <tag a="110" b="6" /></message>
+	<message label="203_01" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />좋아! <delay20 />그렇게 나와야지!<delay20 />
+그럼 카드 게임으로 결판을 내자, <tag a="110" b="6" />!</message>
 	<message label="204" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
 	<message label="204_01" attrib="00 00 00 00 00 00 00 00"><anim id="Laughing" target="actor" targetSpec="" />아쉽구만!<delay frames="40" />
 <anim id="Restless" target="actor" targetSpec="" />그럼<delay8 /> 내 이사 얘기는
@@ -80,7 +79,7 @@
 다음 기회로 미루자고!</message>
 	<message label="205" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
 	<message label="205_01" attrib="00 00 00 00 00 00 00 00">니 덕분에 좋은 추억 하나 생겼네<delay frames="40" />
-<anim id="Hello" target="actor" targetSpec="" />같이 게임 해줘서 고맙다!<delay frames="40" />
+<anim id="Hello" target="actor" targetSpec="" />같이 게임해줘서 고맙다!<delay frames="40" />
 <anim id="FaintSmile" target="actor" targetSpec="" />재밌었어, <tag a="110" b="6" /></message>
 	<message label="205_02" attrib="00 00 00 00 00 00 00 00"><anim id="Blushing" target="actor" targetSpec="" />그나저나<delay8 /> 자기 운명을 게임에 맡기다니<delay20 />
 상당히 스릴 있는 경험이었어<delay frames="40" />
@@ -171,6 +170,13 @@
 <anim id="Serious" target="actor" targetSpec="" />자, 그럼 <delay8 />자기 소개나 해볼까<tag a="110" b="0" /><pageBreak /><anim id="BigSmile" target="actor" targetSpec="" />난 <tag a="110" b="10" /><gender5 m="이" f="" />라고 한다<delay frames="40" />
 <anim id="FaintSmile" target="actor" targetSpec="" />넌 <tag a="110" b="3" /> 맞지?<delay frames="40" />
 <anim id="Hello" target="actor" targetSpec="" />앞으로 잘 지내보자! <tag a="110" b="6" />!</message>
+	<message label="309_01" attrib="00 00 00 00 00 00 00 00"><tag a="115" b="1" arg="0xcd00" />네 집에 가봤더니<delay20 />
+사람도 없고 텅텅 비었던데?<delay40 />
+<anim id="Negative" target="actor" targetSpec="" />아무래도 그 녀석 <delay8 />이사 간 것 같아<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />헷, <delay8 />이거 수고를 덜었구만!<delay frames="30" />
+<anim id="EmotEnd" target="actor" targetSpec="" />이제 내가<delay8 /> 이 <tag a="110" b="32" />에 올 수 있겠어<10_4 />
+<anim id="Nodding" target="actor" targetSpec="" />그럼 다시 자기소개를 할게!<pageBreak /><anim id="Assent" target="actor" targetSpec="" />나는 <tag a="110" b="10" />!<delay40 />
+<anim id="EmotEnd" target="actor" targetSpec="" />너는<tag a="110" b="0" /> <delay8 /><tag a="110" b="3" /><gender5 m="이" f="" />랬지?<delay40 />
+<anim id="Greeting" target="actor" targetSpec="" />이제 이웃이니까 <delay8 />편하게 대해 주라! <tag a="110" b="6" />!</message>
 	<message label="310" attrib="00 00 01 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />야, <delay8 />왜 그래?<delay frames="40" />
 <anim id="Worried" target="actor" targetSpec="" />역시 좀 그러냐? <tag a="110" b="6" /></message>
 	<message label="310_a" attrib="00 00 00 00 00 00 00 00">괜찮아</message>

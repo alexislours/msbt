@@ -128,15 +128,15 @@
 	<message label="067" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />기분은 좀 어때예?<delay20 />
 <tag a="110" b="1" />씨</message>
 	<message label="070" attrib="00 00 00 00">저희,<delay20 /> 전에는 다른 곳에서<delay20 />
-똑같이 옷가게를 하고 있었어예<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />거기는 돌아가신 부모님이 남겨주신
+똑같이 <colour id="1" />옷가게<colour id="65535" />를 하고 있었어예<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />거기는 돌아가신 부모님이 남겨주신
 가게였는데<tag a="110" b="0" /><pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" /><colour id="3" />고숙이<colour id="65535" />도 여행을 떠나고<delay20 />
 단골 손님들도 다<delay8 /> 새로운 곳으로
 도전한다 카면서 나가더라고예<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />그래가,<delay8 /> 우리도 새 출발을
 해야 되지 않겠나 싶은 생각이 들더라고예<pageBreak />그래서 이 <tag a="110" b="33" />에
 오게 됐십니더</message>
 	<message label="071" attrib="00 00 00 00"><20_2 arg="7" /><anim id="Smiling" target="actor" targetSpec="" />이리 옮겨 오기를<delay8 /> <20_2 arg="2" />참말로 잘한 것 같아예!<delay40 />
-시끌벅적해서 좋고,<delay8 /> 풍경도 예쁘고,<delay8 />　
-참 좋은 곳이라예!<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />뭐, 옛날 가게가 가끔씩<delay20 />
+<20_2 arg="8" />시끌벅적해서 좋고,<delay20 /><20_3 arg="8" /> 풍경도 예쁘고,<delay20 />
+<anim id="BigSmile" target="subNpc" targetSpec="" />참 좋은 곳이라예!<pageBreak /><anim id="ShyBoy" target="subNpc" targetSpec="" />뭐, 옛날 가게가 가끔씩<delay20 />
 생각나기는 하지만서도예</message>
 	<message label="072" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />맞데이<tag a="110" b="0" /><20_2 arg="3" /><delay8 />
 <20_3 arg="7" /><anim id="AbsentMindedness" target="actor" targetSpec="" />그 가게도 참 오래 했지<delay20 />
@@ -160,8 +160,8 @@
 	<message label="080" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />아, <delay8 /><tag a="110" b="1" />씨<delay20 />
 어서 오이소<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />늘 이래 말을 걸어주셔도<delay20 />
 <anim id="Worried" target="actor" targetSpec="" />천천히 얘기도 못 나누고<delay8 />
-죄송합니데이<pageBreak /><anim id="Eh" target="actor" targetSpec="" /><tag a="110" b="0" />네?<delay20 /> 뒤에 있는 사진예?<delay40 />
-이건 어릴 적 우리 자매랑<delay20 />
+죄송합니데이<pageBreak /><anim id="Eh" target="actor" targetSpec="" /><tag a="110" b="0" />네?<delay20 /> 뒤에 있는 사진예?<delay frames="40" />
+<anim id="FaintSmile" target="actor" targetSpec="" />이건 어릴 적 우리 자매랑<delay20 />
 아버지, <delay8 />어머니<delay8 /> 사진입니더<pageBreak /><anim id="Serious" target="actor" targetSpec="" />두 분 다<delay8 /> 꽤 오래전에 돌아가셔가<delay20 />
 <anim id="EmotEnd" target="actor" targetSpec="" />이래 사진을 보고 있으면<delay20 />
 <anim id="FaintSmile" target="actor" targetSpec="" />여러 추억들이 떠오르곤 하지예</message>
@@ -220,11 +220,11 @@
 	<message label="113" attrib="00 00 00 00">오늘은 수요일<tag a="110" b="0" /><delay20 />
 일주일의 전환점이지예<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />피로가 쌓이기 쉬운 날이지만<delay20 />
 오늘도 힘냅시더!</message>
-	<message label="114" attrib="00 00 00 00">벌써 목요일이네예<delay20 />
-<tag a="110" b="1" />씨는<delay8 />
-피로가 쌓이지는 않았어예?
-<anim id="FaintSmile" target="actor" targetSpec="" />이제 곧 주말이니까<delay20 />
-조금만 더<delay8 /> 힘냅시더!</message>
+	<message label="114" attrib="00 00 00 00">벌써 목요일이네예<delay frames="30" />
+<tag a="110" b="1" />씨는<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />피로가 쌓이지는 않았어예?
+<anim id="EmotEnd" target="actor" targetSpec="" />이제 곧 주말이니까<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />조금만 더<delay8 /> 힘냅시더!</message>
 	<message label="115" attrib="00 00 00 00">오늘은 금요일이네예<delay frames="40" />
 <anim id="FaintSmile" target="actor" targetSpec="" /><tag a="110" b="1" />씨,<delay20 />
 내일은 쉬시지예?<pageBreak /><anim id="Eh" target="actor" targetSpec="" />아,<delay20 /> 제 일정 말입니꺼?<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />저는 평소랑 똑같이<delay8 />
@@ -238,34 +238,34 @@
 조금이라도 일을 정리해놔야지예<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />뭐든 꾸준히 하는 게 최고의 지름길이다<tag a="110" b="0" /><delay frames="30" />
 라고 어머니께서<delay20 />
 <anim id="FaintSmile" target="actor" targetSpec="" />어릴 적부터 말씀하셨거든예<tag a="110" b="0" /></message>
-	<message label="117" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />일요일인데<delay8 />
-일부러 찾아와주셔가
-기분이 좋네예<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />네? 저예?<delay40 />
-<anim id="FaintSmile" target="actor" targetSpec="" />후후후<tag a="110" b="0" /><pageBreak />저는 이래<delay20 />
-일하믄서 잡담이나 하는 기<delay8 />
-제일 즐겁습니데이<tag a="110" b="0" /></message>
+	<message label="117" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />일요일인데
+일부러 찾아와주셔가<delay20 />
+기분이 좋네예<pageBreak /><anim id="Eh" target="actor" targetSpec="" />네? 저예?<delay40 />
+<anim id="FaintSmile" target="actor" targetSpec="" />후후후<tag a="110" b="0" /><pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />저는 이래<delay20 />
+일하믄서 잡담이나 하는 기<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />제일 즐겁습니데이<tag a="110" b="0" /></message>
 	<message label="120" attrib="00 00 00 00"><tag a="60" b="8" arg="0x79 0x7a 0x7b 0x7c 0x7d 0x7e 0x7f" /></message>
-	<message label="121" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />하루 종일 가게 안에 있지만서도<delay20 />
-이래 날씨가 좋은 날은
-그래도 기분이 더 좋아예<pageBreak />오늘 같은 날은<delay8 />
-무심결에 밝은 색 옷감을
+	<message label="121" attrib="00 00 00 00">하루 종일 가게 안에 있지만서도<delay frames="30" />
+이래 날씨가 좋은 날은<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />그래도 기분이 더 좋아예<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />오늘 같은 날은<delay8 />
+무심결에 밝은 색 옷감을<delay20 />
 계속 만지게 되더라고예</message>
 	<message label="122" attrib="00 00 00 00">하늘이 우중충하게 흐리면<delay20 />
-괜히 마음도 가라앉고
-별로더라고예<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />이런 날은<delay8 />
+<anim id="Serious" target="actor" targetSpec="" />괜히 마음도 가라앉고<delay8 />
+별로더라고예<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />이런 날은<delay8 />
 오히려 밝은 색 옷을 만들어서<delay20 />
-기분을 끌어올려야지예</message>
+<anim id="FaintSmile" target="actor" targetSpec="" />기분을 끌어올려야지예</message>
 	<message label="123" attrib="00 00 00 00">오늘 비도 오는데<delay8 />
 힘들게 찾아주셔가<delay20 />
 <anim id="FaintSmile" target="actor" targetSpec="" />참말로 고맙습니데이</message>
-	<message label="124" attrib="00 00 00 00">오늘은<delay8 /> 비가 어지간히 내리네예<pageBreak />젖어서 감기 걸리지 않도록<delay8 />
-조심하이소</message>
+	<message label="124" attrib="00 00 00 00">오늘은<delay8 /> 비가 어지간히 내리네예<pageBreak />젖어서 감기 걸리지 않도록<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />조심하이소</message>
 	<message label="125" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />이래 눈이 오는데<delay20 />
-힘들게 찾아주셔가<delay8 />
-참말로 고맙습니데이<pageBreak />미끄러져가 다치치 않도록<delay20 />
+힘들게 찾아주셔가<delay20 />
+참말로 고맙습니데이<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />미끄러져가 다치지 않도록<delay20 />
 걸을 때 조심하이소</message>
 	<message label="126" attrib="00 00 00 00">오늘은 눈이 억수로 내리네예<delay20 />
-바깥은 춥지예?<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />감기에 안 걸리도록<delay8 />
+<anim id="Worried" target="actor" targetSpec="" />바깥은 춥지예?<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />감기에 안 걸리도록<delay20 />
 최대한 따뜻하게 입고 다니시지예</message>
 	<message label="127" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />요새는 벚꽃잎이 지는 게<delay8 />
 참말로 예쁘네예<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />옛날에는 꽃구경도
@@ -273,78 +273,80 @@
 <anim id="FaintSmile" target="actor" targetSpec="" />나중에 시간 생기면 가고 싶네예</message>
 	<message label="130" attrib="00 00 00 00"><tag a="60" b="14" arg="0x8a 0x8a 0x8b 0x83 0x84 0x84 0x85 0x86 0x87 0x88 0x89 0x8a" /></message>
 	<message label="130_01" attrib="00 00 00 00"><tag a="60" b="14" arg="0x85 0x86 0x87 0x88 0x89 0x8a 0x8a 0x8a 0x8b 0x83 0x84 0x84" /></message>
-	<message label="131" attrib="00 00 00 00">완전히<delay8 /> 봄답게
-계절이 참 좋아졌네예<pageBreak />이럴 때 옷도 새로 장만하면<delay8 />
-기분이 참 좋아지지예</message>
+	<message label="131" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />완전히 봄답게<delay20 />
+계절이 참 좋아졌네예<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />이럴 때 옷도 새로 장만하면<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />기분이 참 좋아지지예</message>
 	<message label="132" attrib="00 00 00 00">요새는 슬슬 따뜻하다기보다는<delay8 />
 더운 날이 늘었지예<pageBreak />옷차림이 바뀔 시기라<delay20 />
 <anim id="FaintSmile" target="actor" targetSpec="" />지도 평소보다 열심히<delay8 />
 옷을 만들어야겠네예!</message>
-	<message label="133" attrib="00 00 00 00">여름 옷 준비는 다 해놨심니꺼?</message>
-	<message label="134" attrib="00 00 00 00">올여름도
-진짜로 덥네예<tag a="110" b="0" /><pageBreak />매년 이때만 되면<delay8 />
+	<message label="133" attrib="00 00 00 00">여름옷 준비는 다 해놨심니꺼?</message>
+	<message label="134" attrib="00 00 00 00">올여름도 진짜로 덥네예<tag a="110" b="0" /><10_4 />
+<anim id="Nodding" target="actor" targetSpec="" />매년 이때만 되면<delay20 />
 민소매 옷이 잘 팔리지예</message>
-	<message label="135" attrib="00 00 00 00">요새는 아침저녁으로
+	<message label="135" attrib="00 00 00 00">요새는 <delay20 /><anim id="Negative" target="actor" targetSpec="" />아침저녁으로
 기온이 완전히 달라져서<delay20 />
-난감한 시기지예<pageBreak />그래도 이런 계절에만 입을 수 있는 옷을
+난감한 시기지예<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />그래도 이런 계절에만 입을 수 있는 옷을
 잘 소화하는 사람이<delay20 />
-진짜로 멋쟁이다 아임니꺼</message>
-	<message label="136" attrib="00 00 00 00">슬슬 겨울 옷 준비를 하셔야지예?<pageBreak />추워지기 전에<delay8 /> 얼른 준비하이소</message>
-	<message label="137" attrib="00 00 00 00">올겨울도<delay8 /> 엄청스럽게
-춥다고 카네예<pageBreak />우리도 겨울 옷을<delay8 />
-마이 준비했으니까<delay20 /> 보고 가이소</message>
-	<message label="138" attrib="00 00 00 00">올겨울도
-참말로 춥네예<tag a="110" b="0" /><pageBreak />겨울 옷으로 패션도 즐기면서<delay8 />
-추위를 이겨 보자꼬예!</message>
-	<message label="139" attrib="00 00 00 00">점점 추위도 꺾이는 기
-지내기가 좋아졌네예<pageBreak />저희도 봄 옷을
+<anim id="FaintSmile" target="actor" targetSpec="" />진짜로 멋쟁이다 아임니꺼</message>
+	<message label="136" attrib="00 00 00 00">슬슬 겨울옷 준비를 하셔야지예?<delay frames="40" />
+<anim id="Nodding" target="actor" targetSpec="" />추워지기 전에<delay20 /> 얼른 준비하이소</message>
+	<message label="137" attrib="00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />올겨울도 엄청스럽게<delay20 /> 춥다고 카네예<delay frames="40" />
+<anim id="EmotEnd" target="actor" targetSpec="" />우리도 겨울옷을<delay8 />
+마이 준비했으니까<delay20 /><anim id="FaintSmile" target="actor" targetSpec="" /> 보고 가이소</message>
+	<message label="138" attrib="00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />올겨울도<delay20 />
+참말로 춥네예<tag a="110" b="0" /><pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />겨울옷으로 패션도 즐기면서<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />추위를 이겨 보자꼬예!</message>
+	<message label="139" attrib="00 00 00 00">점점 추위도 꺾이는 기<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />지내기가 좋아졌네예<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />저희도 봄옷을
 준비해 뒀으니까<delay20 />
-시간 있으면 보고 가이소</message>
-	<message label="150" attrib="00 00 00 00">우리한테는 <delay8 />자매가 하나 더 있어예<10_4 />
-둘째인데<delay20 />
-패션 디자이너 일을 하고 있어예<pageBreak />지금은 디자이너 일도 하면서<delay20 />
-패션 공부를 할라꼬<delay8 />
-여러 곳을 여행 다니고 있지예<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />이 <tag a="110" b="32" />에도 가끔 오니까<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />시간 있으면 보고 가이소</message>
+	<message label="150" attrib="00 00 00 00">우리한테는<delay20 />
+<anim id="Nodding" target="actor" targetSpec="" />자매가 하나 더 있어예<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />둘째인데<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />패션 디자이너 일을 하고 있어예<pageBreak /><anim id="Explain" target="actor" targetSpec="" />지금은 디자이너 일도 하면서<delay frames="30" />
+패션 공부를 할라꼬<delay20 />
+<anim id="Nodding" target="actor" targetSpec="" />여러 곳을 여행 다니고 있지예<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />이 <tag a="110" b="32" />에도 가끔 오니까<delay20 />
 언제 만나게 되면<delay8 />
-살갑게 맞아주이소</message>
-	<message label="151" attrib="00 00 00 00">가끔 섬에
-<colour id="3" />고숙이<colour id="65535" />라는 아가 오지예?<delay20 />
-<anim id="FaintSmile" target="actor" targetSpec="" />제 동생이라예<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />가는<delay8 /> 쪼메 쌀쌀맞은 면이
-있기는 한데<delay20 /> 사이좋게 지내주이소<pageBreak />저랑 비슷하게 낯을 가려 가꼬예<tag a="110" b="0" /><delay20 />
-<anim id="FaintSmile" target="actor" targetSpec="" />후훗,<delay8 /> 이런 것도 닮았네예</message>
-	<message label="152" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" /><tag a="110" b="1" />씨,<delay20 />
-<colour id="3" />고숙이<colour id="65535" />의 디자이너 수업을 위해서<delay8 />
-도움을 많이 주고 계신다꼬예<pageBreak />참말로 고맙심더<delay40 />
-<tag a="110" b="1" />씨 덕분에<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />살갑게 맞아주이소</message>
+	<message label="151" attrib="00 00 00 00">가끔 섬에<delay20 />
+<colour id="3" /><anim id="Nodding" target="actor" targetSpec="" />고숙이<colour id="65535" />라는 아가 오지예?<delay frames="40" />
+<anim id="FaintSmile" target="actor" targetSpec="" />제 동생이라예<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />가는<delay20 /> 쪼메 쌀쌀맞은 면이
+있기는 한데<delay20 /> 사이좋게 지내주이소<pageBreak /><anim id="Negative" target="actor" targetSpec="" />저랑 비슷하게 낯을 가려 가꼬예<tag a="110" b="0" /><delay frames="30" />
+<anim id="FaintSmile" target="actor" targetSpec="" />후훗,<delay20 /> 이런 것도 닮았네예</message>
+	<message label="152" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" /><tag a="110" b="1" />씨,<delay frames="30" />
+<colour id="3" /><anim id="Nodding" target="actor" targetSpec="" />고숙이<colour id="65535" />의 디자이너 수행을 위해서<delay20 />
+도움을 많이 주고 계신다꼬예<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />참말로 고맙심더<delay40 />
+<anim id="EmotEnd" target="actor" targetSpec="" /><tag a="110" b="1" />씨 덕분에<delay20 />
 가도 잘 성장할 낍니더</message>
 	<message label="153" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />항상 <colour id="3" />고숙이<colour id="65535" />를 도와주셔가<delay20 />
-진짜로 고맙심더<pageBreak />이야기 자주 들어예<delay20 />
-얼마 전 <tag a="110" b="1" />씨
-코디가 좋았다든가<pageBreak />다양한 코디를 보고 와서<delay20 />
-요새는 좋은 아이디어가
+진짜로 고맙심더<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />이야기 자주 들어예<delay20 />
+<anim id="Nodding" target="actor" targetSpec="" />얼마 전 <tag a="110" b="1" />씨
+코디가 좋았다든가<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />다양한 코디를 보고 와서<delay20 />
+<anim id="Nodding" target="actor" targetSpec="" />요새는 좋은 아이디어가<delay20 />
 마구 샘솟는다든가<tag a="110" b="0" />
-우리 자매가 다<delay8 /> <tag a="110" b="1" />씨한테
-신세를 많이 지네예</message>
+<anim id="EmotEnd" target="actor" targetSpec="" />우리 자매가 다<delay8 /> <tag a="110" b="1" />씨한테<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />신세를 많이 지네예</message>
 	<message label="200" attrib="00 00 00 00"><tag a="110" b="1" />씨,<delay20 />
 이것 좀 받아 주이소</message>
 	<message label="201" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />이거, 제가 만든 긴데<delay20 />
 무늬가 있는 천이라예<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />가구는 천 부분을 바꿔가<delay20 />
-리폼할 수 있잖아예<10_4 />
-거기 쓸 수 있지 않을까 싶어서<tag a="110" b="0" /><pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />무늬 종류도 많이 만들었으니까<delay20 />
-혹시 마음에 드시는 게 있으믄 써 보이소</message>
-	<message label="202" attrib="00 00 00 00">사용법은예,<delay20 /> 작업대에서
+<anim id="Hello" target="actor" targetSpec="" />리폼할 수 있잖아예<10_4 />
+<anim id="EmotEnd" target="actor" targetSpec="" />거기 쓸 수 있지 않을까 싶어서<tag a="110" b="0" /><pageBreak /><anim id="Nodding" target="actor" targetSpec="" />무늬 종류도 많이 만들었으니까<delay20 />
+혹시 마음에 드시는 게 있으믄<delay8 />
+<anim id="FaintSmile" target="actor" targetSpec="" />써 보이소</message>
+	<message label="202" attrib="00 00 00 00">사용법은예,<delay frames="30" /><anim id="Nodding" target="actor" targetSpec="" /> 작업대에서
 가구를 리폼할 때<delay20 /> <colour id="1" />'패턴'<delay8 /><colour id="65535" />을 선택하면
-마음에 드는 무늬를 고를 수 있어예<pageBreak />단, 모든 가구에 쓸 수 있는 건 아니고<delay20 />
-물건에 따라 다르니까<delay8 /> 주의하이소<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />진심을 다해서 만들었으니까<delay20 />
+마음에 드는 무늬를 고를 수 있어예<pageBreak /><anim id="Explain" target="actor" targetSpec="" />단, 모든 가구에 쓸 수 있는 건 아니고<delay20 />
+물건에 따라 다르니까<delay8 /> <anim id="EmotEnd" target="actor" targetSpec="" />주의하이소<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />진심을 다해서 만들었으니까<delay20 />
 한번 써 보이소</message>
-	<message label="205" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />앗, <tag a="110" b="1" />씨<delay20 />
-어서 오이소<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />맞다,<delay20 /> 가구 리폼에 쓸 수 있는 천을<delay20 />
-또 새로 만들었으니까<delay8 />
+	<message label="205" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />앗, <delay8 /><tag a="110" b="1" />씨<delay20 />
+어서 오이소<pageBreak /><anim id="Eh" target="actor" targetSpec="" />맞다,<delay20 /> <anim id="EmotEnd" target="actor" targetSpec="" />가구 리폼에 쓸 수 있는 천을<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />또 새로 만들었으니까<delay8 />
 한번 보이소</message>
 	<message label="206" attrib="00 00 00 00"><tag a="60" b="20" /></message>
-	<message label="206_01" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />잠깐 기분 전환 삼아
-만들기 시작했는데<delay20 />
-하다 보니까 재밌더라꼬예<tag a="110" b="0" /><pageBreak />은근히 집중해서 만들게 되네예</message>
+	<message label="206_01" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />잠깐 기분 전환 삼아
+만들기 시작했는데<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />하다 보니까 재밌더라꼬예<tag a="110" b="0" /><delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />은근히 집중해서 만들게 되네예</message>
 	<message label="206_02" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />마음에 드실지는 모르겠지만서도<delay20 />
 좋아해주시면 좋겠네예</message>
 	<message label="206_03" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />마음을 담아서 만들었으니까<delay20 />

@@ -54,8 +54,7 @@ Torna quando avrai fatto un po'
 di spazio.</message>
 	<message label="013" attrib="00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Missione annullata? <delay20 /><anim id="EmotEnd" target="actor" targetSpec="" />Oscar Kilo!<delay20 />
 Fammi sapere se ti serve qualcosa.</message>
-	<message label="014" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="50" b="2" /><tag a="125" b="0" arg="0x0" /> costa <tag a="90" b="40" arg="0xcd00" />, <delay frames="30" /><anim id="Worried" target="actor" targetSpec="" />ma temo che tu non ne abbia abbastanza.
-<anim id="FaintSmile" target="actor" targetSpec="" />Torna quando avrai fatto il pieno
+	<message label="014" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="50" b="2" /><tag a="125" b="0" arg="0x0" /> costa <tag a="90" b="40" arg="0xcd00" />, <delay frames="30" /><anim id="Worried" target="actor" targetSpec="" />ma temo che tu non ne abbia abbastanza.<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Torna quando avrai fatto il pieno
 di miglia.</message>
 	<message label="015" attrib="02 00 00 00"><anim id="Nodding" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="50" b="2" /><tag a="125" b="0" arg="0x0" /> costa <delay8 /><tag a="90" b="40" arg="0xcd00" />. <anim id="QuestionMark" target="actor" targetSpec="" />Affare fatto?</message>
 	<message label="015_a" attrib="00 00 00 00"><anim id="Nodding" target="player" targetSpec="" />Ricevuto! Passo e chiudo!</message>
@@ -222,13 +221,10 @@ troverai a breve nella tua cassetta.
 il decollo? <delay20 />Passo.</message>
 	<message label="054_a" attrib="00 00 00 00">Sì!</message>
 	<message label="054_b" attrib="00 00 00 00">No, aspetta un attimo.</message>
-	<message label="055" attrib="02 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Prima di ripartire per tornare a casa,
-<delay8 />devo avvertirti di una cosa.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Le destinazioni del <colour id="1" />viaggio Primo
-maggio<colour id="65535" /> cambiano ogni volta.<pageBreak /><anim id="Negative" target="actor" targetSpec="" />Se ora decolliamo da quest'isola,
-<delay8 />non potremo ritornarci. <delay20 /><anim id="Thinking" target="actor" targetSpec="" /><colour id="4" />(Non che
-tu abbia altro da fare qui, mi pare<tag a="110" b="0" />)
-<anim id="QuestionMark" target="actor" targetSpec="" /><colour id="65535" />Allora, <delay8 />confermi di voler tornare
-a casa?</message>
+	<message label="055" attrib="02 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Se partiamo adesso, non potrai
+più visitare questa destinazione
+del <colour id="1" />viaggio Primo maggio<colour id="65535" />.
+<anim id="QuestionMark" target="actor" targetSpec="" />Sei pront<gender2 m="o" f="a" /> per il decollo?</message>
 	<message label="055_a" attrib="00 00 00 00">Sì!</message>
 	<message label="055_b" attrib="00 00 00 00">No, aspetta un attimo.</message>
 </msbt>

@@ -3,17 +3,15 @@
 	<message label="004_a" attrib="00 00 00 00">Ich möchte einkaufen.</message>
 	<message label="004_b" attrib="00 00 00 00">Unkraut gefällig?</message>
 	<message label="004_c" attrib="00 00 00 00">Schon gut...</message>
-	<message label="005" attrib="04 00 00 00"><anim id="Smiling" target="mainNpc" targetSpec="" />Schön, <delay8 />dich wiederzusehen.<delay20 />
-<anim id="QuestionMark" target="mainNpc" targetSpec="" />Was kann ich für dich tun?</message>
+	<message label="005" attrib="04 00 00 00"><anim id="Smiling" target="mainNpc" targetSpec="" />Schön, <delay8 />dich wiederzusehen,<delay8 /> <tag a="110" b="1" />.<delay20 /> <anim id="QuestionMark" target="mainNpc" targetSpec="" />Was kann ich für dich tun?</message>
 	<message label="005_a" attrib="00 00 00 00">Ich möchte einkaufen.</message>
 	<message label="005_b" attrib="00 00 00 00">Unkraut gefällig?</message>
 	<message label="005_c" attrib="00 00 00 00">Schon gut...</message>
 	<message label="007" attrib="00 00 00 00"><anim id="Hesitate" target="actor" targetSpec="" />Aber selbstverständlich. <delay40 /><anim id="Smiling" target="actor" targetSpec="" />Wirf ruhig
 einen Blick auf die Blumensamen und
 Setzlinge, <delay8 />die ich heute dabeihabe!<anim id="EmotEnd" target="actor" targetSpec="" /></message>
-	<message label="008" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Ganz wie du magst. <delay40 />Falls du deine
-Meinung doch noch ändern solltest,<delay8 />
-findest du mich hier.<anim id="Hello" target="actor" targetSpec="" /></message>
+	<message label="008" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Ganz wie du magst. <delay40 />Wenn du mich
+brauchst,<delay8 /> findest du mich hier.<anim id="Hello" target="actor" targetSpec="" /></message>
 	<message label="011" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Eine ganz ausgezeichnete Wahl!<delay frames="60" />
 <anim id="EmotEnd" target="actor" targetSpec="" />Oh, <delay8 /><anim id="Hesitate" target="actor" targetSpec="" />aber du hast ja gar keinen Platz
 in deiner Tasche<tag a="110" b="0" />
@@ -64,9 +62,9 @@ mir wohl deinen Namen verraten?</message>
 	<message label="041" attrib="00 00 00 00"><anim id="Hesitate" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="110" b="1" />, <delay8 />sagst du?<delay frames="60" />
 Ein wirklich hübscher Name! <delay20 />Oh,<delay8 />
 ach so. <delay20 />Ich heiße übrigens <colour id="3" />Gerd<colour id="65535" />.</message>
-	<message label="042" attrib="00 00 00 00">Wie ich hörte, <delay8 />hat mein guter Freund
-<colour id="3" />Nepp<colour id="65535" /> hier einen Laden eröffnet. <delay20 /><anim id="Smiling" target="actor" targetSpec="" />Da
-wollte ich mal kurz vorbeischauen.</message>
+	<message label="042" attrib="00 00 00 00">Wie ich hörte, <delay8 />hat es meinen guten
+Freund <colour id="3" />Nepp<colour id="65535" /> hierher verschlagen.<delay20 />
+<anim id="Smiling" target="actor" targetSpec="" />Da wollte ich kurz vorbeischauen.</message>
 	<message label="043" attrib="01 00 00 00"><anim id="Hesitate" target="actor" targetSpec="" /><colour id="3" />Nepp<colour id="65535" /> hat mir erzählt,<delay8 /> dass diese
 Insel vor deiner Ankunft verlassen
 war<tag a="110" b="0" /><delay frames="60" /> <anim id="HappyFlower" target="actor" targetSpec="" />Wie aufregend!
@@ -96,9 +94,9 @@ schönen Ziergewächsen,<delay8 /> macht man
 auf keinen Fall etwas falsch!</message>
 	<message label="081" attrib="00 00 00 00">Übrigens habe ich gerade einen
 wunderschönen Busch im Angebot.<delay40 />
-<anim id="Greeting" target="actor" targetSpec="" /><tag a="50" b="17" arg="0x35 0xcd00 0x6 0x44 0x65 0x6e 0x6 0x44 0x69 0x65 0x6 0x44 0x61 0x73" /> <colour id="1" /><tag a="140" b="20" arg="0xcd00" /><colour id="65535" />!
-<anim id="EmotEnd" target="actor" targetSpec="" />Glücklicherweise hat <tag a="50" b="17" arg="0x35 0xcd00 0x4 0x65 0x72 0x6 0x73 0x69 0x65 0x4 0x65 0x73" /> gerade
-Blütezeit, <delay8 /><anim id="Love" target="actor" targetSpec="" />also kannst du <tag a="50" b="17" arg="0x35 0xcd00 0xa 0x73 0x65 0x69 0x6e 0x65 0x8 0x69 0x68 0x72 0x65 0xa 0x73 0x65 0x69 0x6e 0x65" /> volle
+<anim id="Greeting" target="actor" targetSpec="" /><tag a="50" b="17" arg="0x36 0xcd00 0x6 0x44 0x65 0x6e 0x6 0x44 0x69 0x65 0x6 0x44 0x61 0x73" /> <colour id="1" /><tag a="140" b="20" arg="0xcd00" /><colour id="65535" />!
+<anim id="EmotEnd" target="actor" targetSpec="" />Glücklicherweise hat <tag a="50" b="17" arg="0x36 0xcd00 0x4 0x65 0x72 0x6 0x73 0x69 0x65 0x4 0x65 0x73" /> gerade
+Blütezeit, <delay8 /><anim id="Love" target="actor" targetSpec="" />also kannst du <tag a="50" b="17" arg="0x36 0xcd00 0xa 0x73 0x65 0x69 0x6e 0x65 0x8 0x69 0x68 0x72 0x65 0xa 0x73 0x65 0x69 0x6e 0x65" /> volle
 Pracht sofort genießen.</message>
 	<message label="044" attrib="01 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Oh,<delay8 /> <tag a="110" b="1" />! <delay40 /><anim id="Hesitate" target="actor" targetSpec="" />Möchtest du
 mir vielleicht etwas von deinem
@@ -165,13 +163,13 @@ nicht lange andauern. <delay20 />Komm nach
 deiner nächsten Sterni-Ernte wieder!</message>
 	<message label="056" attrib="00 00 00 00"><anim id="QuestionMark" target="mainNpc" targetSpec="" />Gibt es sonst noch etwas, <delay8 />das ich
 für dich tun kann, <delay8 /><gender2 m="mein Guter" f="meine Gute" />?<anim id="EmotEnd" target="actor" targetSpec="" /></message>
-	<message label="057" attrib="00 00 00 00">Oh!<delay20 /> <anim id="Greeting" target="actor" targetSpec="" />Huhu,<delay8 /> <tag a="110" b="1" />!<delay frames="60" />
+	<message label="057" attrib="00 00 00 00">Oh!<delay20 /> <anim id="Greeting" target="actor" targetSpec="" />Hallihallo!<delay frames="60" />
 <anim id="HappyFlower" target="actor" targetSpec="" />Ist das nicht ein wunderschöner Tag,<delay8 />
 um ein paar Blümchen zu kaufen?</message>
 	<message label="058" attrib="00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Und vielleicht noch einen Busch
 dazu? <delay frames="60" /><anim id="FaintSmile" target="actor" targetSpec="" />Du hast Glück, <delay8 />denn heute
-verkaufe ich<anim id="Love" target="actor" targetSpec="" /> <tag a="50" b="17" arg="0x35 0xcd00 0x6 0x64 0x65 0x6e 0x6 0x64 0x69 0x65 0x6 0x64 0x61 0x73" /> <colour id="1" /><tag a="140" b="20" arg="0xcd00" /><colour id="65535" />!
-Zu dieser Jahreszeit trägt <tag a="50" b="17" arg="0x35 0xcd00 0x4 0x65 0x72 0x6 0x73 0x69 0x65 0x4 0x65 0x73" /> sogar
-Blüten! <delay20 /><anim id="HappyFlower" target="actor" targetSpec="" />Du kannst dich also bald
-nach dem Einpflanzen dran erfreuen.</message>
+verkaufe ich<anim id="Love" target="actor" targetSpec="" /> <tag a="50" b="17" arg="0x36 0xcd00 0x6 0x64 0x65 0x6e 0x6 0x64 0x69 0x65 0x6 0x64 0x61 0x73" /> <colour id="1" /><tag a="140" b="20" arg="0xcd00" /><colour id="65535" />!
+<anim id="EmotEnd" target="actor" targetSpec="" />Zu dieser Jahreszeit zeigt <tag a="50" b="17" arg="0x36 0xcd00 0x10 0x65 0x72 0x20 0x73 0x65 0x69 0x6e 0x65 0x10 0x73 0x69 0x65 0x20 0x69 0x68 0x72 0x65 0x10 0x65 0x73 0x20 0x73 0x65 0x69 0x6e 0x65" />
+volle Pracht, <delay20 /><anim id="HappyFlower" target="actor" targetSpec="" />also mach dich bald ans
+Einpflanzen!</message>
 </msbt>

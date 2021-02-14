@@ -1,6 +1,6 @@
 <msbt attribsize="8">
-	<message label="002" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Cavoli, ma scherzi?<delay8 /><10_4 /><anim id="Thinking" target="actor" targetSpec="" /> Cioè<tag a="110" b="0" /> forse<tag a="110" b="0" /> <anim id="Nodding" target="actor" targetSpec="" />OK, ci sto.<delay20 /><anim id="EmotEnd" target="actor" targetSpec="" /> Da ora, <tag a="110" b="9" /> sarà casa mia!
-<anim id="Grin" target="actor" targetSpec="" />Dov'è il <colour id="1" />centro servizi<colour id="65535" />? Voglio
+	<message label="002" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Cavoli, ma scherzi?<delay20 /><anim id="Thinking" target="actor" targetSpec="" /> Cioè<tag a="110" b="0" /> forse<tag a="110" b="0" />
+<delay8 /><anim id="Nodding" target="actor" targetSpec="" />OK, ci sto.<delay20 /><anim id="EmotEnd" target="actor" targetSpec="" /> Da questo momento, <delay8 /><tag a="110" b="9" /> sarà casa mia!<pageBreak /><anim id="Grin" target="actor" targetSpec="" />Dov'è il <colour id="1" />centro servizi<colour id="65535" />? <delay8 />Voglio
 sbrigare subito tutte le pratiche
 per il trasferimento.</message>
 	<message label="003" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Non sapevo che ci tenessi così
@@ -58,9 +58,8 @@ volta allora, <tag a="110" b="6" />.</message>
 	<message label="202_03" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Non ne hai voglia?<delay20 /> <anim id="Sighing" target="actor" targetSpec="" />Ecco un'altra mia
 grande idea buttata via<tag a="110" b="0" /><pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Meglio raccoglierla, prima che mi
 facciano la multa.<delay20 /> <anim id="Laughing" target="actor" targetSpec="" />AHAHAH!</message>
-	<message label="203_01" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Benissimo!<delay8 /><anim id="Explain" target="actor" targetSpec="" /> Giocheremo con delle
-carte: io ne scelgo una e tu devi
-indovinare qualcosa sulla mia carta.</message>
+	<message label="203_01" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Così mi piace!<delay frames="40" /> <anim id="Nodding" target="actor" targetSpec="" />Bene, <delay8 />si tratta
+di un semplice gioco di carte<tag a="110" b="0" /></message>
 	<message label="204" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
 	<message label="204_01" attrib="00 00 00 00 00 00 00 00"><anim id="Laughing" target="actor" targetSpec="" />Peccato!<delay frames="40" /> <anim id="OhGeez" target="actor" targetSpec="" />Il mio trasferimento non
 avverrà.</message>
@@ -161,13 +160,19 @@ il nome, <tag a="110" b="6" />?</message>
 	<message label="308" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Se lo dici tu<tag a="110" b="0" /><anim id="EmotEnd" target="actor" targetSpec="" /> <anim id="WrySmile" target="actor" targetSpec="" />È un peccato, ma
 avresti potuto dirlo subito e
 evitare di farmi perdere tempo.</message>
-	<message label="309" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Evvai!<delay frames="30" /> Missione compiuta!<delay frames="40" />
-<anim id="HappyDance" target="actor" targetSpec="" />Possiamo dare inizio
-all'operazione "trasloco"!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Sai, <tag a="115" b="1" arg="0xcd00" /> aveva già intenzione di lasciare l'isola,<delay frames="40" /> quindi posso trasferirmi subito!<delay frames="40" />
-<anim id="Serious" target="actor" targetSpec="" />Visto che saremo praticamente
+	<message label="309" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Evvai!<delay8 /> Missione compiuta!<delay20 /> <anim id="HappyDance" target="actor" targetSpec="" />Possiamo
+dare inizio all'operazione "trasloco"!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Sai, <delay8 /><tag a="115" b="1" arg="0xcd00" /> aveva già intenzione di lasciare l'isola,<delay frames="40" /> quindi posso trasferirmi subito!<pageBreak /><anim id="Serious" target="actor" targetSpec="" />E visto che saremo praticamente
 vicini di casa,<delay8 /> sarà meglio che ci
-presentiamo<tag a="110" b="0" /><pageBreak /><anim id="BigSmile" target="actor" targetSpec="" />Io mi chiamo <tag a="110" b="10" />.<delay frames="40" /> <anim id="FaintSmile" target="actor" targetSpec="" />E tu sei <tag a="110" b="3" />, vero?<delay frames="40" /> <anim id="Hello" target="actor" targetSpec="" />
-Bene, ci vediamo in giro!</message>
+presentiamo<tag a="110" b="0" /><pageBreak /><anim id="BigSmile" target="actor" targetSpec="" />Io mi chiamo <tag a="110" b="10" />.<delay frames="40" /> <anim id="FaintSmile" target="actor" targetSpec="" />E tu sei <tag a="110" b="3" />, vero?<delay20 /> <anim id="Hello" target="actor" targetSpec="" />Bene, ci vediamo in giro!</message>
+	<message label="309_01" attrib="00 00 00 00 00 00 00 00">Beh, sarà più semplice del previsto: <delay20 /><anim id="FaintSmile" target="actor" targetSpec="" />pare che <tag a="115" b="1" arg="0xcd00" /> abbia già fatto i bagagli!<anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak />A questo punto, <delay8 />immagino di poter
+andare a vivere al suo posto senza
+problemi<tag a="110" b="0" /><pageBreak /><anim id="Eh" target="actor" targetSpec="" />A proposito! <delay8 />Io non mi sono ancora
+presentato, <delay8 />dico bene? <delay20 /><anim id="Greeting" target="actor" targetSpec="" />Beh, <delay8 />il mio
+nome è <tag a="110" b="10" />.<pageBreak /><anim id="Serious" target="actor" targetSpec="" />E se la memoria non mi inganna, <delay8 />tu dovresti essere<tag a="110" b="0" /> <tag a="110" b="3" />. <delay20 /><anim id="QuestionMark" target="actor" targetSpec="" />È così?<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Piacere, <delay8 />mi<gender2 m="o" f="a" /> car<gender2 m="o" f="a" /> nuov<gender2 m="o" f="a" /> vicin<gender2 m="o" f="a" />.
+<delay20 />Vedrai, <delay8 />ci sarà grande sintonia
+tra noi, <tag a="110" b="6" />.
+<anim id="Nodding" target="actor" targetSpec="" />E se non sarà così, <delay8 />useremo un
+metronomo. <delay20 /><anim id="Laughing" target="actor" targetSpec="" />AHAHAH!</message>
 	<message label="310" attrib="00 00 01 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Ehi, che succede?<delay frames="40" /><anim id="Worried" target="actor" targetSpec="" /> Ti sei <gender2 m="dimenticato" f="dimenticata" />
 il nome, <tag a="110" b="6" />?</message>
 	<message label="310_a" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />No, me lo ricordo.</message>
@@ -206,8 +211,7 @@ alle 2 del mattino no. <anim id="Laughing" target="actor" targetSpec="" /><delay
 	<message label="406" attrib="00 00 00 00 00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Mi sono rivolto al <colour id="1" />centro servizi
 <colour id="65535" />per sapere se c'è posto per me
 sull'isola e mi hanno detto che c'è<tag a="110" b="0" />
-<anim id="Cheering" target="actor" targetSpec="" />Quindi sono un abitante di <tag a="110" b="9" />,<delay8 /> è ufficiale!<pageBreak /><anim id="Shocked" target="actor" targetSpec="" />Adesso devo presentarmi.<delay frames="40" /><anim id="FaintSmile" target="actor" targetSpec="" /> Mi
-chiamo <tag a="110" b="10" />!<delay frames="40" /> <anim id="Nodding" target="actor" targetSpec="" />Tu sei <tag a="110" b="3" />, giusto?<pageBreak /><anim id="SmugFace" target="actor" targetSpec="" />Mi sa che da ora ci vedremo spesso
+<anim id="Cheering" target="actor" targetSpec="" />Quindi sono un abitante di <tag a="110" b="9" />,<delay8 /> è ufficiale!<pageBreak /><anim id="Shocked" target="actor" targetSpec="" />Adesso devo presentarmi.<delay frames="40" /><anim id="FaintSmile" target="actor" targetSpec="" /> Mi chiamo <tag a="110" b="10" />!<delay frames="40" /> <anim id="Nodding" target="actor" targetSpec="" />Tu sei <tag a="110" b="3" />, giusto?<pageBreak /><anim id="SmugFace" target="actor" targetSpec="" />Mi sa che da ora ci vedremo spesso
 in giro. <delay20 />Purtroppo per te. <anim id="Laughing" target="actor" targetSpec="" /><delay20 />AHAHAH!<anim id="FaintSmile" target="actor" targetSpec="" /><delay8 /></message>
 	<message label="410" attrib="00 00 01 00 00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />Aspetta un attimo.<delay40 /> Forse potrei
 provare a chiedere con maggiore

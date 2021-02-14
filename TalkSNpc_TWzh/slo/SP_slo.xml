@@ -4,8 +4,9 @@
 	<message label="004_a" attrib="00 00 00 00">我來買東西～</message>
 	<message label="004_b" attrib="00 00 00 00">收購雜草</message>
 	<message label="004_c" attrib="00 00 00 00">沒事了</message>
-	<message label="005" attrib="04 00 00 00"><anim id="Smiling" target="mainNpc" targetSpec="" />你又來了啊，<delay8 />謝謝你～<delay20 />
-<anim id="QuestionMark" target="mainNpc" targetSpec="" />有什麼事呢～？</message>
+	<message label="005" attrib="04 00 00 00"><anim id="Smiling" target="mainNpc" targetSpec="" /><tag a="110" b="1" />，<delay20 />
+謝謝你<delay8 />又來光顧～<delay frames="40" />
+<anim id="EmotEnd" target="actor" targetSpec="" />那麼，<delay20 /><anim id="QuestionMark" target="mainNpc" targetSpec="" />有什麼事呢～？</message>
 	<message label="005_a" attrib="00 00 00 00">我來買東西～</message>
 	<message label="005_b" attrib="00 00 00 00">收購雜草</message>
 	<message label="005_c" attrib="00 00 00 00">沒事了</message>
@@ -55,8 +56,8 @@
 	<message label="041" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />這樣啊～！<10_4 />
 我叫<delay8 /><colour id="3" />然然<colour id="65535" />，<delay20 />
 <anim id="Hello" target="actor" targetSpec="" />請多指教，<delay8 /><tag a="110" b="1" />！</message>
-	<message label="042" attrib="00 00 00 00">我有一個認識的人<delay8 />叫做<colour id="3" />豆狸<colour id="65535" />，<delay8 />
-聽說在這裡開了商店，<delay20 />
+	<message label="042" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />我有一個認識的人<delay8 />叫做<colour id="3" />豆狸<colour id="65535" />，<delay8 />
+聽說搬來這裡了，<delay20 />
 <anim id="Smiling" target="actor" targetSpec="" />所以我就過來玩了～！</message>
 	<message label="043" attrib="01 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />在<colour id="3" />豆狸<colour id="65535" />他們搬來之前，<delay20 />
 <anim id="QuestionMark" target="actor" targetSpec="" />這裡都是無人島吧？<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" /><anim id="Worried" target="actor" targetSpec="" />光是要除草就很辛苦了，<delay20 />
@@ -118,10 +119,9 @@
 <anim id="Worried" target="actor" targetSpec="" />你的錢好像不夠呢～<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />等手頭上的錢較寬裕的時候，<delay20 />
 <anim id="Hello" target="actor" targetSpec="" />再過來吧～</message>
 	<message label="056" attrib="00 00 00 00">還有<delay8 /><anim id="QuestionMark" target="mainNpc" targetSpec="" />其他事嗎～？<anim id="EmotEnd" target="actor" targetSpec="" /></message>
-	<message label="057" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" /><tag a="110" b="1" />，<delay20 />歡迎光臨～<10_4 />
-<anim id="EmotEnd" target="actor" targetSpec="" />謝謝你今天<delay20 /><anim id="Hello" target="actor" targetSpec="" />也過來～</message>
-	<message label="058" attrib="00 00 00 00">今天的推薦是<delay20 />
-<anim id="Clapping" target="actor" targetSpec="" /><colour id="1" /><tag a="140" b="20" arg="0xcd00" /><colour id="65535" />～！<delay frames="40" /><anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak /><anim id="Nodding" target="actor" targetSpec="" />現在這個季節，
-剛好會開出美麗的花朵，<delay20 />
-<anim id="Greeting" target="actor" targetSpec="" />請你一定要種植看看喔～</message>
+	<message label="057" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />哎呀，<delay20 />歡迎光臨～<10_4 />
+<anim id="EmotEnd" target="actor" targetSpec="" />謝謝你<delay20 /><anim id="Hello" target="actor" targetSpec="" />來光顧～</message>
+	<message label="058" attrib="00 00 00 00">今天的推薦商品是<delay20 />
+<anim id="BigSmile" target="actor" targetSpec="" /><colour id="1" /><tag a="140" b="20" arg="0xcd00" /><colour id="65535" />喔～！<delay frames="40" /><anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak /><anim id="Nodding" target="actor" targetSpec="" />現在正是觀賞它的最佳季節，<delay20 />
+<anim id="Greeting" target="actor" targetSpec="" />請你一定要<delay8 />種種看喔～</message>
 </msbt>

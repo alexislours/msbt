@@ -273,6 +273,15 @@
 <anim id="Nodding" target="actor" targetSpec="" />请先找我来鉴定吧！</message>
 	<message label="145" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />今后要是得到了这些物品，<delay20 />
 <anim id="FaintSmile" target="actor" targetSpec="" />请一定要帮忙捐赠啊！</message>
+	<message label="149" attrib="00 00 00 00">现在可以接收的有<delay20 />
+<anim id="AbsentMindedness" target="actor" targetSpec="" /><colour id="1" />虫类<colour id="65535" />、<delay20 /><colour id="1" />鱼类<colour id="65535" />、<delay20 /><colour id="1" />海洋生物<colour id="65535" />、<delay20 />还有<colour id="1" />化石<colour id="65535" />，<delay20 />
+<tag a="110" b="0" /><anim id="EmotEnd" target="actor" targetSpec="" />就是这些了。</message>
+	<message label="150" attrib="00 00 00 00">可以作为收藏品接收的有<delay20 />
+<anim id="AbsentMindedness" target="actor" targetSpec="" /><colour id="1" />虫类<colour id="65535" />、<delay20 /><colour id="1" />鱼类<colour id="65535" />、<delay20 /><colour id="1" />海洋生物<colour id="65535" />、<delay20 />还有<colour id="1" />化石<colour id="65535" />，<delay20 />
+<tag a="110" b="0" /><anim id="EmotEnd" target="actor" targetSpec="" />就是这些了。</message>
+	<message label="151" attrib="00 00 00 00">可以作为收藏品接收的有<delay20 />
+<anim id="AbsentMindedness" target="actor" targetSpec="" /><colour id="1" />虫类<colour id="65535" />、<delay20 /><colour id="1" />鱼类<colour id="65535" />、<delay20 /><colour id="1" />海洋生物<colour id="65535" />、<delay20 /><colour id="1" />化石<colour id="65535" />、<delay20 />还有<colour id="1" />艺术品<colour id="65535" />，<delay20 />
+<tag a="110" b="0" /><anim id="EmotEnd" target="actor" targetSpec="" />就是这些了。</message>
 	<message label="201" attrib="00 00 00 00"><tag a="110" b="0" /><anim id="Eh" target="actor" targetSpec="" />哎呀？<delay frames="40" />
 <anim id="EmotEnd" target="actor" targetSpec="" />即便你这么说了，<delay20 />
 但你好像<anim id="QuestionMark" target="actor" targetSpec="" />没有未鉴定的化石？
@@ -430,7 +439,7 @@
 这是<tag a="125" b="0" arg="0x0" />！
 没错！</message>
 	<message label="351" attrib="00 00 00 00"><anim id="WrySmile" target="actor" targetSpec="" />嗯，怎么说呢，
-美术品中有时会有这样的东西，
+艺术品中有时会有这样的东西，
 要小心呢……</message>
 	<message label="352" attrib="00 00 00 00"><tag a="110" b="0" />嗯，<delay20 /><anim id="Serious" target="actor" targetSpec="" />大致就是这样，<10_4 />
 <anim id="Worried" target="actor" targetSpec="" />你能把<tag a="125" b="0" arg="0x0" /><delay20 />
@@ -495,7 +504,7 @@
 	<message label="403" attrib="00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />呀啊啊？！<delay20 />
 这么一来，<delay frames="30" />
 虫类就全部收集齐了？！<pageBreak /><anim id="Clapping" target="actor" targetSpec="" />太感谢了！<delay20 />
-昆虫收藏完成了！<delay frames="40" />
+虫类收藏完成了！<delay frames="40" />
 唬唬！<delay20 />可喜可贺！<pageBreak /><anim id="Explain" target="actor" targetSpec="" />贡献了最后一件藏品的<delay8 />
 <tag a="110" b="1" />，<delay frames="30" />
 <anim id="Love" target="actor" targetSpec="" />我对你真是感激不尽！<pageBreak /><anim id="BigSmile" target="actor" targetSpec="" />多谢你的鼎力相助！<delay20 /><anim id="FaintSmile" target="actor" targetSpec="" /></message>
@@ -511,14 +520,19 @@
 终于成功了呢！<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" /><delay20 />这样一来，化石全部收集齐了！<delay frames="30" />
 <anim id="Laughing" target="actor" targetSpec="" />也就是说，全部都完成了！<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />呀，<delay20 />真的是<delay8 />
 <anim id="BigSmile" target="actor" targetSpec="" />非常非常感谢！<delay8 />没错！<delay20 /><anim id="FaintSmile" target="actor" targetSpec="" /></message>
-	<message label="406" attrib="00 00 00 00">呀啊啊？！
-这么一来，
-美术品就全部收集齐了？！<pageBreak />太感谢了！
-美术品的收藏完成了！
-唬唬！可喜可贺！<pageBreak />贡献了最后一件藏品的
-<tag a="110" b="1" />，
-你会成为传说被人们记住的！
-多谢你的鼎力相助！</message>
+	<message label="406" attrib="00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />呀啊啊？！<delay20 />
+这么一来，<delay frames="30" />
+艺术品就全部收集齐了？！<pageBreak /><anim id="Clapping" target="actor" targetSpec="" />太感谢了！<delay20 />
+艺术品的收藏完成了！<delay frames="40" />
+唬唬！<delay20 />可喜可贺！<pageBreak /><anim id="Explain" target="actor" targetSpec="" />贡献了最后一件藏品的<delay8 />
+<tag a="110" b="1" />，<delay frames="30" />
+<anim id="EmotEnd" target="actor" targetSpec="" />你会成为传说被人们记住的！<pageBreak /><anim id="BigSmile" target="actor" targetSpec="" />多谢你的鼎力相助！<delay20 /><anim id="FaintSmile" target="actor" targetSpec="" /></message>
+	<message label="410" attrib="00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />呀啊啊？！<delay20 />
+这么一来，<delay frames="30" />
+海洋生物就全部收集齐了？！<pageBreak /><anim id="Clapping" target="actor" targetSpec="" />太感谢了！<delay20 />
+海洋生物的收藏完成了！<delay frames="40" />
+唬唬！<delay20 />可喜可贺！<pageBreak /><anim id="Love" target="actor" targetSpec="" /><tag a="110" b="1" />，<delay frames="30" />
+我对你真是感激不尽！<pageBreak /><anim id="BigSmile" target="actor" targetSpec="" />多谢你的鼎力相助！<delay20 /><anim id="FaintSmile" target="actor" targetSpec="" /></message>
 	<message label="501" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />本博物馆里展出了<delay20 />
 这个世界上存在的<delay frames="30" />
 许多珍稀物品和名品。<pageBreak /><anim id="HappyFlower" target="actor" targetSpec="" />请慢慢用心欣赏<delay20 />

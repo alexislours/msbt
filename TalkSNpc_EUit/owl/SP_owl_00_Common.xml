@@ -176,7 +176,7 @@ per me,<delay20 /> <anim id="Assent" target="actor" targetSpec="" />ti assicuro 
 <delay8 />uh<tag a="110" b="0" /> esserino sarà in buone zampe.</message>
 	<message label="120" attrib="00 00 00 00"><tag a="60" b="20" /></message>
 	<message label="120_01" attrib="00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Uuuh uh!<delay20 /> <anim id="Nodding" target="actor" targetSpec="" />Ma è<tag a="110" b="0" /><delay8 /> <anim id="Smiling" target="actor" targetSpec="" /><tag a="50" b="2" /><tag a="125" b="0" arg="0x0" />!</message>
-	<message label="120_02" attrib="00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Uuuh uh!<delay20 /> <anim id="Nodding" target="actor" targetSpec="" />Deve trattarsi di<tag a="110" b="0" />
+	<message label="120_02" attrib="00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Uuuh uh!<delay20 /> <anim id="Nodding" target="actor" targetSpec="" />Non può essere altro che<tag a="110" b="0" />
 <anim id="Smiling" target="actor" targetSpec="" /><tag a="50" b="2" /><tag a="125" b="0" arg="0x0" />!</message>
 	<message label="120_03" attrib="00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Uuuh uh!<delay20 /> <anim id="Nodding" target="actor" targetSpec="" />È senza ombra di dubbio<tag a="110" b="0" /><delay8 />
 <anim id="Smiling" target="actor" targetSpec="" /><tag a="50" b="2" /><tag a="125" b="0" arg="0x0" />!</message>
@@ -269,6 +269,15 @@ esaminati da me.<delay20 /> Se hai un fossile,<delay8 />
 	<message label="145" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Se ti capitasse di trovare qualcosa
 appartenente a queste categorie,<delay20 />
 <anim id="FaintSmile" target="actor" targetSpec="" />considera di donarla!</message>
+	<message label="149" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Al momento accettiamo <colour id="1" />insetti<colour id="65535" />,<delay8 />
+<colour id="1" />pesci<colour id="65535" />, <delay8 /><colour id="1" />creature marine<colour id="65535" /> <delay8 />e <colour id="1" />fossili
+<colour id="65535" />già esaminati e certificati<tag a="110" b="0" /></message>
+	<message label="150" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Accettiamo donazioni di <colour id="1" />insetti<colour id="65535" />,<delay8 />
+<colour id="1" />pesci<colour id="65535" />, <delay8 /><colour id="1" />creature marine<colour id="65535" /> <delay8 />e <colour id="1" />fossili
+<colour id="65535" />già esaminati<tag a="110" b="0" /></message>
+	<message label="151" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Accettiamo donazioni di <colour id="1" />insetti<colour id="65535" />,<delay8 />
+<colour id="1" />pesci<colour id="65535" />,<delay8 /> <colour id="1" />creature marine<colour id="65535" />, <delay8 /><colour id="1" />fossili
+<colour id="65535" />già esaminati e <colour id="1" />opere d'arte<colour id="65535" /><tag a="110" b="0" /></message>
 	<message label="201" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Uh<tag a="110" b="0" />? Uuuh<tag a="110" b="0" />?<delay20 /><anim id="Negative" target="actor" targetSpec="" /> Non vedo nessun
 fossile da sottoporre al mio esame.<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Non crucciartene,<delay8 /> portami un
 fossile quando vuoi e lo esaminerò
@@ -529,6 +538,15 @@ meritat<gender2 m="o" f="a" /> il titolo di "mecenate",
 <anim id="FaintSmile" target="actor" targetSpec="" />Grazie di averci aiutato così tanto
 a ottenere una collezione artistica
 di tale prestigio, <delay8 />uh uuuh!</message>
+	<message label="410" attrib="00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Uh uuuh?!<delay8 /> Sogno o son desto?
+<delay20 /><anim id="QuestionMark" target="actor" targetSpec="" />Con questa donazione la collezione
+di creature marine è completa!
+<anim id="Cheering" target="actor" targetSpec="" />Uuuuuuh!<delay20 /> Santi gufi! <delay20 />Uuuuuurrà!<delay frames="40" />
+<anim id="EmotEnd" target="actor" targetSpec="" />E soprattutto<tag a="110" b="0" /><anim id="BigSmile" target="actor" targetSpec="" /> GRAZIE!<pageBreak /><anim id="HappyFlower" target="actor" targetSpec="" />Che onore è per tutti noi poter
+ammirare le meraviglie dell'oceano
+quando più ci aggrada.<pageBreak /><anim id="Love" target="actor" targetSpec="" />Il tuo impegno è davvero apprezzato,
+credimi. <delay20 /><anim id="FaintSmile" target="actor" targetSpec="" />E ti saremo per sempre
+riconoscenti.</message>
 	<message label="501" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Nel nostro museo sono esposti
 creature e reperti d'eccezione,
 oltre a capolavori dell'arte.<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Addentrati pure nelle nostre sale

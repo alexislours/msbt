@@ -259,6 +259,15 @@
 	<message label="145" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Если у тебя будет что-нибудь из
 этого списка,<delay20 /> пожалуйста, <anim id="FaintSmile" target="actor" targetSpec="" />подумай
 о том, чтобы пожертвовать музею!</message>
+	<message label="149" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />В данный момент мы принимаем
+<colour id="1" />насекомых<colour id="65535" />,<delay8 /> <colour id="1" />рыб<colour id="65535" /><delay8 />, <colour id="1" />глубоководных<colour id="65535" /><delay8 /> и
+прошедшие оценку <colour id="1" />окаменелости<colour id="65535" /><delay20 /><tag a="110" b="0" /><anim id="EmotEnd" target="actor" targetSpec="" /></message>
+	<message label="150" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Мы принимаем в дар <colour id="1" />насекомых<colour id="65535" />,<delay8 />
+<colour id="1" />рыб<colour id="65535" />,<delay8 /> <colour id="1" />глубоководных<colour id="65535" />,<delay8 /> а также
+прошедшие оценку <colour id="1" />окаменелости<colour id="65535" /><delay20 /><tag a="110" b="0" /><anim id="EmotEnd" target="actor" targetSpec="" /></message>
+	<message label="151" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Принимаем <colour id="1" />насекомых<colour id="65535" />,<delay8 /> <colour id="1" />рыб<colour id="65535" />,<delay8 /> <colour id="1" />глубо-
+ководных<colour id="65535" />,<delay8 /> <colour id="1" />окаменелости <colour id="65535" />после
+оценки<delay8 /> и <colour id="1" />предметы искусства<colour id="65535" /><tag a="110" b="0" /><anim id="EmotEnd" target="actor" targetSpec="" /></message>
 	<message label="201" attrib="00 00 00 00">Гм<tag a="110" b="0" /><delay frames="40" /> Угу<tag a="110" b="0" /><delay frames="13" /> <anim id="Negative" target="actor" targetSpec="" />У тебя нет неизвестных
 окаменелостей, которые я мог бы
 оценить.<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Не переживай,<delay frames="13" /> иногда они падают<delay frames="13" />
@@ -345,7 +354,7 @@
 если бы у нас были все фрагменты
 этого существа, <delay frames="13" />мы бы его собрали!</message>
 	<message label="224" attrib="02 00 00 00"><anim id="Clapping" target="actor" targetSpec="" />Угу-угу! <delay frames="13" />Значит<tag a="110" b="0" /> мы справились!
-<anim id="Smiling" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="140" b="0" arg="0xcd00" /> собран<tag a="50" b="24" arg="0x2a 0xcd00 0x0 0x2 0x430 0x2 0x43e 0x2 0x44b" />!<pageBreak /><anim id="HappyDance" target="actor" targetSpec="" />Ах, какое импозантное ископаемое!<delay frames="13" />
+<anim id="Smiling" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="140" b="0" arg="0xcd00" /> собран<tag a="50" b="24" arg="0x2b 0xcd00 0x0 0x2 0x430 0x2 0x43e 0x2 0x44b" />!<pageBreak /><anim id="HappyDance" target="actor" targetSpec="" />Ах, какое импозантное ископаемое!<delay frames="13" />
 Какое поразительное!
 Я в таком воодушевлении!<pageBreak /><tag a="50" b="3" /><tag a="140" b="0" arg="0xcd00" />... <anim id="Hesitate" target="actor" targetSpec="" />Могу
 поделиться с тобой парочкой
@@ -498,13 +507,22 @@
 тему окаменелостей.<pageBreak /><anim id="ShyBoy" target="actor" targetSpec="" />Кхе-кхе.<delay frames="13" /> М-да.<delay frames="13" /> Так сказать<tag a="110" b="0" /><pageBreak /><anim id="Greeting" target="actor" targetSpec="" />Спасибо тебе за неутомимые
 поиски и пожертвования и, тем
 самым, <anim id="Smiling" target="actor" targetSpec="" />за развитие нашего музея!</message>
-	<message label="406" attrib="00 00 00 00">Угу-го! Ух ты<tag a="110" b="0" /><pageBreak />Это последний шедевр в коллекции
-искусства! Наша художественная
-галерея теперь заполнена!<pageBreak />А ты, <tag a="110" b="3" />, настоящ<gender2 m="ий" f="ая" />
-покровитель<gender2 m="" f="ница" /> искусств. Снимаю
-перед тобой шляпу!<pageBreak />Спасибо, что ты помог<gender2 m="" f="ла" /> собрать
-такую коллекцию изысканных
-шедевров. Молодец! Угу!</message>
+	<message label="406" attrib="00 00 00 00"><anim id="HappyFlower" target="actor" targetSpec="" />Угу-го! <delay8 />Угу-ра!<delay8 /> Какое счастье!<delay frames="40" />
+<anim id="Smiling" target="actor" targetSpec="" />Это — заключительный шедевр
+в нашей коллекции! Она закончена!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Художественная галерея просто
+ломится от самых чудеснейших
+произведений искусства.<pageBreak /><anim id="Love" target="actor" targetSpec="" />А куратор музея полон радости
+и благодарности аж до самых
+кисточек ушей.<pageBreak /><anim id="Greeting" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="110" b="1" />,<delay8 /> ты истинн<gender2 m="ый" f="ая" />
+покровитель<gender2 m="" f="ница" /> искусств.<delay20 /><anim id="Clapping" target="actor" targetSpec="" /> Снимаю
+перед тобой (образно) шляпу!<delay frames="50" /><anim id="FaintSmile" target="actor" targetSpec="" /></message>
+	<message label="410" attrib="00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Угу-угу?!<delay8 /> Как? <delay20 /><anim id="QuestionMark" target="actor" targetSpec="" />Неужели это был
+последний экземпляр в нашей
+коллекции глубоководных?!<pageBreak /><anim id="Cheering" target="actor" targetSpec="" />Угу!<delay20 /> Ура! <delay20 />Нам удалось невероятное!<delay frames="40" />
+<anim id="EmotEnd" target="actor" targetSpec="" />И все благодаря тебе<tag a="110" b="0" /><anim id="BigSmile" target="actor" targetSpec="" /> Спасибо!!!<pageBreak /><anim id="HappyFlower" target="actor" targetSpec="" />Эти замечательные океанические
+экспонаты принесут населению
+острова столько пользы!<pageBreak /><anim id="Love" target="actor" targetSpec="" />Я очень <delay8 />ценю твой труд на благо
+музея.<delay20 /> <anim id="FaintSmile" target="actor" targetSpec="" />Мы тебе стольким обязаны!</message>
 	<message label="501" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />В нашем музее представлено
 множество редких объектов
 и шедевров из разных областей.<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Пройдись по залам и окунись

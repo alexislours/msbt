@@ -147,9 +147,9 @@ raíz. <delay20 />Si tuvieses una pala, claro.</message>
 encantados de que nos vendas
 fruta<tag a="110" b="0" /><pageBreak />¡Pero también puedes intentar
 <colour id="1" />comerla <colour id="65535" />de vez en cuando! <tag a="100" b="4" /><size value="75" /><delay8 />¡Ya verás!<size value="100" /><endTag a="100" b="4" /></message>
-	<message label="061" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" />¿Te intriga saber qué hay en
-la vitrina?<delay20 /> ¡Pues esto es lo
-que tenemos hoy!<tag a="100" b="4" /><anim id="Smiling" target="subNpc" targetSpec="" /> <delay8 /><size value="75" />¡Mira, mira!<size value="100" /><endTag a="100" b="4" /></message>
+	<message label="061" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" />¿Te intriga saber qué hay en la
+vitrina?<delay20 /> ¡Pues esto es lo que
+tenemos hoy!<tag a="100" b="4" /><anim id="Smiling" target="subNpc" targetSpec="" /> <delay8 /><size value="75" />¡Mira, mira!<size value="100" /><endTag a="100" b="4" /></message>
 	<message label="081" attrib="00 00 00 00">Los nabos están a <anim id="FaintSmile" target="actor" targetSpec="" /><anim id="FaintSmile" target="subNpc" targetSpec="" /><tag a="90" b="20" arg="0x0" /> la unidad.</message>
 	<message label="082" attrib="00 00 00 00">Los domingos no compramos nabos.<delay20 />
 Normativa oficial; ya sabes.<delay20 />
@@ -161,8 +161,7 @@ están disponibles hoy!<anim id="EmotEnd" target="actor" targetSpec="" /></messa
 	<message label="092_b" attrib="00 00 00 00">¡No necesito nada!</message>
 	<message label="093" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Sí, sí, por supuesto.<delay20 /> ¡Mira la lista
 todas las veces que quieras!<anim id="EmotEnd" target="actor" targetSpec="" /></message>
-	<message label="094" attrib="02 00 00 00"><anim id="Nodding" target="actor" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" /><tag a="50" b="3" /><tag a="50" b="2" /><tag a="125" b="0" arg="0x0" /> cuesta <tag a="90" b="26" arg="0x0" />.<delay8 /> <anim id="FaintSmile" target="actor" targetSpec="" />
-¿Qué te parece?</message>
+	<message label="094" attrib="02 00 00 00"><anim id="Nodding" target="actor" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" /><tag a="50" b="3" /><tag a="50" b="2" /><tag a="125" b="0" arg="0x0" /> cuesta <tag a="90" b="26" arg="0x0" />⁠.<delay8 /><anim id="FaintSmile" target="actor" targetSpec="" /> ¿Qué te parece?</message>
 	<message label="094_a" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />¡Para mí!</message>
 	<message label="094_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Cambié de idea</message>
 	<message label="096" attrib="02 00 00 00"><anim id="Shocked" target="mainNpc" targetSpec="" /><anim id="Shocked" target="subNpc" targetSpec="" />¡Ah!<delay20 /> ¿Te interesa la <colour id="1" />caña de pescar<colour id="65535" />?<pageBreak /><anim id="EmotEnd" target="mainNpc" targetSpec="" />También puedes fabricar una gratis.<delay20 />
@@ -307,6 +306,38 @@ tráelos! <size value="75" /><tag a="100" b="4" /><delay8 />¡Te daremos el dobl
 	<message label="131_a" attrib="00 00 00 00">Una (<colour id="1" /><tag a="90" b="12" arg="0x0" /> <colour id="65535" />)</message>
 	<message label="131_b" attrib="00 00 00 00">Cinco (<colour id="1" /><tag a="90" b="13" arg="0x1" /> <colour id="65535" />)</message>
 	<message label="131_c" attrib="00 00 00 00">Cambié de parecer</message>
+	<message label="141_01" attrib="00 00 00 00"><anim id="Eh" target="mainNpc" targetSpec="" />Ah, <anim id="Eh" target="subNpc" targetSpec="" />¿estás pensando en ir a nadar?<delay20 />
+<anim id="Nodding" target="mainNpc" targetSpec="" />Sí, <anim id="EmotEnd" target="subNpc" targetSpec="" />entonces te va a venir bien
+<tag a="50" b="2" /><tag a="125" b="0" arg="0x0" />.
+<anim id="FaintSmile" target="mainNpc" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" />Pero primero, quizás podríamos
+darte algunos consejos.<tag a="100" b="4" /> <delay8 /><size value="75" />¡Unos consejos!<size value="100" /><endTag a="100" b="4" /></message>
+	<message label="141_02" attrib="00 00 00 00"><anim id="Explain" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" />En primer lugar, deberás ponerte
+un <colour id="1" />traje de buceo <colour id="65535" />adecuado,<delay8 /> <anim id="Nodding" target="subNpc" targetSpec="" />como
+est<tag a="50" b="17" arg="0x12 0xcd00 0x2 0x65 0x2 0x61 0x0" /> <tag a="125" b="0" arg="0x0" />.
+<anim id="Smiling" target="mainNpc" targetSpec="" /><anim id="FaintSmile" target="subNpc" targetSpec="" />Una vez que l<tag a="50" b="17" arg="0x12 0xcd00 0x2 0x6f 0x2 0x61 0x0" /> tengas puest<tag a="50" b="17" arg="0x12 0xcd00 0x2 0x6f 0x2 0x61 0x0" />, solo
+tendrás que oprimir <colour id="1" /> <colour id="65535" />en la playa o
+en las rocas cercanas y<tag a="110" b="0" /><delay8 /> ¡al agua!
+<anim id="Explain" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" />Cuando ya estés en el agua, sigue
+oprimiendo <colour id="1" /> <colour id="65535" />para nadar;<delay8 /> es así de sencillo.<pageBreak /><anim id="IdeaBulb" target="mainNpc" targetSpec="" />¡Ah, por cierto!<delay20 /> Si ves una silueta,<anim id="Shocked" target="subNpc" targetSpec="" /><delay8 />
+puedes oprimir <colour id="1" /> <colour id="65535" />para bucear
+y examinarla más de cerca.
+<anim id="HappyDance" target="actor" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" />¡Nunca se sabe qué clase de <colour id="1" />fauna
+marina <colour id="65535" />podrías encontrar ahí abajo!<delay20 />
+<anim id="Blushing" target="actor" targetSpec="" />Y luego traer aquí arriba<tag a="110" b="0" /></message>
+	<message label="142" attrib="04 00 00 00"><anim id="Nodding" target="mainNpc" targetSpec="" />Bien, creo que ya tienes toda la
+información que necesitas para
+ponerte a nadar.<tag a="100" b="4" /><delay8 /><anim id="BigSmile" target="subNpc" targetSpec="" /> <size value="75" />¡Todo listo!<size value="100" /><endTag a="100" b="4" />
+<anim id="EmotEnd" target="mainNpc" targetSpec="" />¿En qué estábamos?<anim id="FaintSmile" target="subNpc" targetSpec="" /><delay8 /> ¡Ah, sí!<delay8 /> Puedes
+llevarte el artículo que querías por
+solo <tag a="90" b="26" arg="0x0" />.
+<anim id="QuestionMark" target="mainNpc" targetSpec="" />¿Y bien?<anim id="QuestionMark" target="subNpc" targetSpec="" /><delay20 /> ¿Quieres comprar
+<tag a="50" b="1" /><tag a="125" b="0" arg="0x0" />?</message>
+	<message label="142_a" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />¡Para mí!</message>
+	<message label="142_b" attrib="00 00 00 00">¿Cómo se nadaba?</message>
+	<message label="142_c" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Cambié de idea</message>
+	<message label="143" attrib="00 00 00 00"><anim id="FaintSmile" target="mainNpc" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" />¿Necesitas que te refresquemos la
+memoria?<delay20 /> ¡Claro que sí! Veamos qué
+debes saber antes de nadar.<tag a="100" b="4" /><delay8 /><anim id="Nodding" target="subNpc" targetSpec="" /> <size value="75" />¡Y bucear!<size value="100" /><endTag a="100" b="4" /></message>
 	<message label="200" attrib="00 00 00 00"><anim id="Smiling" target="mainNpc" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" />¡Gracias!<tag a="100" b="4" /><delay8 /> <size value="75" />¡Hasta pronto!<size value="100" /><endTag a="100" b="4" /><anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" /><10_7 arg="90" /></message>
 	<message label="201" attrib="00 00 00 00"><anim id="FaintSmile" target="mainNpc" targetSpec="" /><anim id="FaintSmile" target="subNpc" targetSpec="" />¡Hola! <tag a="100" b="4" /><delay8 /><size value="75" />¡Hola!<size value="100" /><endTag a="100" b="4" /><delay8 /> ¡Bienvenid<gender2 m="o" f="a" /> a <colour id="1" /><tag a="50" b="0" arg="0x1 0xcd00" />MiniNook<colour id="65535" />!</message>
 	<message label="202" attrib="00 00 00 00"><anim id="Smiling" target="mainNpc" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" />¡Bienvenid<gender2 m="o" f="a" />!<delay20 /> <size value="75" /><tag a="100" b="4" /><delay8 />¡Pasa, pasa!<endTag a="100" b="4" /><size value="100" /><pageBreak /><anim id="Eh" target="mainNpc" targetSpec="" /><anim id="Eh" target="subNpc" targetSpec="" />¡Qué alegría, <tag a="110" b="1" />!<delay20 />

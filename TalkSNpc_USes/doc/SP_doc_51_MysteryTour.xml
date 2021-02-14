@@ -99,8 +99,8 @@ que necesitas para llegar al centro.
 <anim id="Nodding" target="actor" targetSpec="" />Si tienes dificultad para encontrar
 la salida <anim id="Hello" target="actor" targetSpec="" />recuerda que puedes llamar
 al <colour id="1" />servicio de rescate<colour id="65535" />.
-Nuestros<tag a="110" b="0" /><delay8 /> topógrafos<delay8 /> se pondrán
-a trabajar y <delay8 /><anim id="FaintSmile" target="actor" targetSpec="" />dejarán el laberinto
+Nuestros topógrafos se pondrán
+a trabajar<delay20 /> y <anim id="FaintSmile" target="actor" targetSpec="" />dejarán el laberinto
 como estaba al principio.
 <anim id="Hello" target="actor" targetSpec="" />De esa forma te podrás tomar un
 descanso, recargar combustible
@@ -198,8 +198,8 @@ tu <colour id="1" />excursión del Primero de Mayo<colour id="65535" />.<pageBre
 vuelo.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Si tienes dificultad para encontrar
 la salida <anim id="Hello" target="actor" targetSpec="" />recuerda que puedes llamar
 al <colour id="1" />servicio de rescate<colour id="65535" />.
-Nuestros<tag a="110" b="0" /><delay8 /> topógrafos<delay8 /> se pondrán
-a trabajar y <delay8 /><anim id="FaintSmile" target="actor" targetSpec="" />dejarán el laberinto
+Nuestros topógrafos se pondrán
+a trabajar<delay20 /> y <anim id="FaintSmile" target="actor" targetSpec="" />dejarán el laberinto
 como estaba al principio.
 <anim id="Hello" target="actor" targetSpec="" />De esa forma te podrás tomar un
 descanso, recargar combustible
@@ -261,14 +261,9 @@ tu visita.<colour id="1" />
 <delay8 /><anim id="QuestionMark" target="actor" targetSpec="" />¿emprendemos el regreso? <delay20 />Cambio.</message>
 	<message label="054_a" attrib="00 00 00 00"><anim id="Nodding" target="player" targetSpec="" />¡Volvamos a casa!</message>
 	<message label="054_b" attrib="00 00 00 00"><anim id="Negative" target="player" targetSpec="" />Todavía no<tag a="110" b="0" /></message>
-	<message label="055" attrib="02 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Antes de emprender el regreso,
-te advierto una cosa.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Los destinos de la <colour id="1" />excursión del
-Primero de Mayo<colour id="65535" /> son siempre
-distintos.
-<anim id="Negative" target="actor" targetSpec="" />Si nos vamos, no podrás volver.<delay20 />
-<anim id="Thinking" target="actor" targetSpec="" /><colour id="4" />(Aunque parece que ya le sacaste
-todo el provecho posible a esta isla).<colour id="65535" />
-<anim id="QuestionMark" target="actor" targetSpec="" />Bien, ¿despegamos?</message>
-	<message label="055_a" attrib="00 00 00 00"><anim id="Nodding" target="player" targetSpec="" />¡Volvamos a casa!</message>
-	<message label="055_b" attrib="00 00 00 00"><anim id="Negative" target="player" targetSpec="" />Todavía no<tag a="110" b="0" /></message>
+	<message label="055" attrib="02 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Te advierto que, si nos vamos, no
+podrás regresar a este destino de la
+<colour id="1" />excursión del Primero de Mayo<colour id="65535" /><tag a="110" b="0" /></message>
+	<message label="055_a" attrib="00 00 00 00">Da igual, ¡vámonos!</message>
+	<message label="055_b" attrib="00 00 00 00">Ah, entonces espera</message>
 </msbt>

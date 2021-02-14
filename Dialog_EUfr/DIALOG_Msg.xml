@@ -103,6 +103,8 @@ une baguette est considéré comme
 une transformation plutôt qu'un
 simple changement de tenue.<pageBreak />La tenue que tu portes en dessous
 de ta transformation ne change pas.<colour id="65535" /></message>
+	<message label="0505" attrib="01 00">Tu ne peux pas te changer tant que
+tu portes ta combinaison de plongée.</message>
 	<message label="0551" attrib="01 09">Tu ne portes aucun vêtement qui
 puisse constituer une tenue !</message>
 	<message label="0552" attrib="01 09">Tu n'as pas assez de place dans
@@ -1062,6 +1064,10 @@ complètement Nook !
 Réunis-les tous pour que la
 nookitude envahisse ton intérieur !
 <colour id="0" />Produit livré par voie postale.<colour id="65535" /></message>
+	<message label="3021" attrib="01 00">La <colour id="1" />combinaison de plongée<colour id="65535" /> conçue
+par Nook Inc. te permet de nager et
+d'explorer librement les fonds marins.
+<colour id="0" />Produit livré par voie postale.<colour id="65535" /></message>
 	<message label="5001" attrib="01 00"><colour id="1" />Appareil photo<colour id="65535" />
 Prends des photos et applique
 divers filtres et effets sur tes clichés.<pageBreak /><colour id="0" />Les photos sont sauvegardées dans
@@ -1088,6 +1094,14 @@ possibilités qui te sont offertes !</message>
 Consulte cette application pour en
 savoir plus sur les insectes et les
 poissons que tu as attrapés.</message>
+	<message label="5022" attrib="01 00"><colour id="1" />Bébêtopédie<colour id="65535" />
+Consulte cette application pour en
+savoir plus sur les insectes, poissons
+et créatures marines que tu as attrapés.</message>
+	<message label="5023" attrib="01 00"><colour id="1" />Bébêtopédie<colour id="65535" />
+L'application a été mise à jour et contient
+à présent des informations au sujet des
+créatures marines que tu as attrapées.</message>
 	<message label="5031" attrib="01 00"><colour id="1" />Créations<colour id="65535" />
 Consulte cette application pour en
 savoir plus sur les plans de bricolage
@@ -1518,17 +1532,28 @@ Meilleurs amis, seront réinitialisées si
 tu reprends cette partie. Continuer ?</message>
 	<message label="8016_a" attrib="01 00">Non</message>
 	<message label="8016_b" attrib="01 00">Oui</message>
-	<message label="8017" attrib="08 00">Aucun compte Nintendo n'est
-associé à cet utilisateur, ou
-l'utilisateur doit se reconnecter
-à son compte Nintendo.<pageBreak />Toutes les fonctions nécessitant
-un accès à Internet, comme les
-Meilleurs amis, seront réinitialisées si
-tu reprends cette partie.
-Souhaites-tu reprendre cette partie
-et réinitialiser toutes les fonctions
-nécessitant une connexion Internet ?</message>
+	<message label="8017" attrib="08 00">L'association entre le compte de cet
+utilisateur et un compte Nintendo
+valide doit être vérifiée via Internet.<pageBreak />Si tu commences à jouer avant cette
+vérification, toutes les fonctions
+nécessitant un accès à Internet (dont
+les meilleurs amis) seront réinitialisées.<pageBreak />Réinitialiser toutes les fonctions
+nécessitant un accès à Internet et
+commencer à jouer ?</message>
 	<message label="8017_a" attrib="01 00">Non</message>
 	<message label="8017_b" attrib="01 00">Oui</message>
+	<message label="8018" attrib="01 00">L'association entre le compte de cet
+utilisateur et un compte Nintendo
+valide doit être vérifiée via Internet.<pageBreak />Tu vas maintenant avoir la possibilité
+de te connecter à Internet pour
+effectuer cette vérification.</message>
+	<message label="8018_a" attrib="01 00">OK</message>
+	<message label="8020" attrib="08 00">L'association entre le compte de cet
+utilisateur et un compte Nintendo
+valide doit être vérifiée via Internet.<pageBreak />Tu vas maintenant avoir la possibilité
+de te connecter à Internet pour
+effectuer cette vérification.</message>
+	<message label="8020_a" attrib="01 00">Non</message>
+	<message label="8020_b" attrib="01 00">OK</message>
 	<message label="8019" attrib="01 00">Reprendre la partie</message>
 </msbt>

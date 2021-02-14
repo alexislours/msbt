@@ -47,7 +47,7 @@ meglio e scambiarci informazioni
 su <tag a="110" b="33" />.</message>
 	<message label="011" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
 	<message label="011_01" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Ah, <tag a="110" b="3" />! <delay20 />Ma che bello incontrarti subito dopo il mio arrivo!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />È <tag a="50" b="17" arg="0xe 0xcd00 0xa 0x73 0x74 0x61 0x74 0x6f 0xa 0x73 0x74 0x61 0x74 0x61 0x0" /> <tag a="115" b="0" arg="0xcd00" /> a consigliarmi quest'isola. <delay20 />Ha detto che vivere qui è formidaaabile!<pageBreak /><anim id="Hello" target="actor" targetSpec="" />Visto che conosci l'isola meglio
-di me, <delay8 />mi darai una mano ad
+di me, <delay8 />mi darai una zampa ad
 ambientarmi, <tag a="110" b="6" />?</message>
 	<message label="011_02" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Salut, <tag a="110" b="3" />. <delay20 />Sei <gender2 m="sorpreso" f="sorpresa" /> di vedermi? <delay20 /><anim id="Hello" target="actor" targetSpec="" />Beh, ora questo è il mio nuovo pied-à-terre!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Dopo che <tag a="115" b="0" arg="0xcd00" /> mi ha parlato di quest'isola, ho deciso di trasferirmi.<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Spero che riusciremo ad organizzarci
 per passare presto un po' di tempo
@@ -281,14 +281,13 @@ spesso<anim id="FaintSmile" target="actor" targetSpec="" /><tag a="110" b="0" />
 di incontrarmi qui, <delay20 />n'est-ce pas?<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Mi sono trasferita su consiglio di <tag a="115" b="0" arg="0xcd00" />, che ho conosciuto all'<colour id="1" />area per campeggio<colour id="65535" />.<pageBreak /><anim id="HappyFlower" target="actor" targetSpec="" />Rivederti mi riempie di gioia<delay20 /> e mi
 conferma che ho fatto bene a venire
 a vivere qui,<delay20 /> <tag a="110" b="5" />!</message>
-	<message label="213" attrib="00 00 00 00 00 00 00 00"><anim id="Hesitate" target="actor" targetSpec="" />Non abbiamo avuto ancora occasione di parlare, sono desolata.<delay40 /> Non so se
+	<message label="213" attrib="00 00 00 00 00 00 00 00"><anim id="Hesitate" target="actor" targetSpec="" />Non abbiamo avuto ancora occasione
+di parlare, sono desolata.<delay40 /> Non so se
 lo sai, <delay20 /><anim id="Assent" target="actor" targetSpec="" />ma adesso vivo qui.
-<anim id="Explain" target="actor" targetSpec="" />Quando ero all'<colour id="1" />area per campeggio<colour id="65535" />,<delay20 /> ho conosciuto <tag a="115" b="0" arg="0xcd00" /> che mi ha convinta a trasferirmi qui.
-<anim id="FaintSmile" target="actor" targetSpec="" />Oh, sapere che ci sei anche tu<tag a="110" b="0" />
+<anim id="Explain" target="actor" targetSpec="" />Quando ero all'<colour id="1" />area per campeggio<colour id="65535" />,<delay20 /> ho conosciuto <tag a="115" b="0" arg="0xcd00" /> che mi ha convinta a trasferirmi qui.<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Oh, sapere che ci sei anche tu<tag a="110" b="0" />
 <anim id="Smiling" target="actor" targetSpec="" />Beh,<delay20 /> è come la ciliegina sulla torta,
 <delay20 /><tag a="110" b="5" />!</message>
-	<message label="214" attrib="00 00 00 00 00 00 00 00"><anim id="Sneezing" target="actor" targetSpec="" />EEECCÌ!<delay frames="40" /> <anim id="Hesitate" target="actor" targetSpec="" />Salut, <tag a="110" b="3" /><tag a="110" b="0" /> Non pensavi di vedermi qui, n'est-ce pas?<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Mi ha convinta <tag a="115" b="0" arg="0xcd00" /><delay20 /> a trasferirmi, quando eravamo all'<colour id="1" />area per campeggio<colour id="65535" />.
-<anim id="Worried" target="actor" targetSpec="" />Se non fossi così raffreddata<delay8 /><tag a="110" b="0" />
+	<message label="214" attrib="00 00 00 00 00 00 00 00"><anim id="Sneezing" target="actor" targetSpec="" />EEECCÌ!<delay frames="40" /> <anim id="Hesitate" target="actor" targetSpec="" />Salut, <tag a="110" b="3" /><tag a="110" b="0" /> Non pensavi di vedermi qui, n'est-ce pas?<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Mi ha convinta <tag a="115" b="0" arg="0xcd00" /><delay20 /> a trasferirmi, quando eravamo all'<colour id="1" />area per campeggio<colour id="65535" />.<pageBreak /><anim id="Worried" target="actor" targetSpec="" />Se non fossi così raffreddata<delay8 /><tag a="110" b="0" />
 <anim id="Sneezing" target="actor" targetSpec="" />E-EEECCÌ!!<delay frames="40" /> <anim id="EmotEnd" target="actor" targetSpec="" />Ti proporrei di passare
 un po' di tempo insieme.<delay40 /> <anim id="Sneezing" target="actor" targetSpec="" />EEECCÌ!
 <anim id="FaintSmile" target="actor" targetSpec="" />Rimandiamo<delay20 /> a quando mi sentirò un
@@ -334,7 +333,8 @@ parte tua venirmi a trovare,
 <delay8 /><tag a="110" b="3" />.<pageBreak /><anim id="Hesitate" target="actor" targetSpec="" />Ti sarò sempre grata di avermi
 chiesto di trasferirmi qui,<delay20 /> mentre
 ero all'<colour id="1" />area per campeggio<colour id="65535" />.
-<anim id="Explain" target="actor" targetSpec="" />Devo sistemare ancora un paio di cosine,<delay8 /> ma domani dovrei aver finito.
+<anim id="Explain" target="actor" targetSpec="" />Devo sistemare ancora un paio di
+cosine,<delay8 /> ma domani dovrei aver finito.
 <delay20 /><anim id="Greeting" target="actor" targetSpec="" />Torna a trovarmi, <tag a="110" b="6" />!</message>
 	<message label="301_03" attrib="00 00 00 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Capperini! <delay20 /><anim id="Worried" target="actor" targetSpec="" />Per favore, <delay8 />non badare
 a questo disordine incroyable,

@@ -102,6 +102,8 @@ later aantrekken met een <colour id="1" />toverstaf<colour id="65535" />.<pageBr
 transformatie van je look, geen
 kledingwisseling.<pageBreak />Wat je onder een flitsoutfit draagt,
 verandert niet.<colour id="65535" /></message>
+	<message label="0505" attrib="01 00">Voor je je kunt omkleden, moet je
+eerst je duikpak uittrekken.</message>
 	<message label="0551" attrib="01 09">Je draagt niets dat onderdeel
 kan uitmaken van een outfit!</message>
 	<message label="0552" attrib="01 09">Deze outfit past momenteel niet in
@@ -663,7 +665,7 @@ releaseversie.</message>
 bijgewerkt en de game zal nu
 opstarten.</message>
 	<message label="1374_a" attrib="01 00">Oké.</message>
-	<message label="1401" attrib="01 00">Er is een bestevriendverzoek
+	<message label="1401" attrib="01 00">Er is een bestevriend-verzoek
 verstuurd aan <colour id="2" /><tag a="115" b="0" arg="0xcd00" /><colour id="65535" />.</message>
 	<message label="1402" attrib="01 00">Je bent nu beste vrienden met
 <colour id="2" /><tag a="115" b="0" arg="0xcd00" /><colour id="65535" />.</message>
@@ -1066,6 +1068,10 @@ de hele set om er stralend uit te zien!
 Veel plezier bij het verzamelen van
 de set en het klussen in je woning!
 <colour id="0" />Je ontvangt de goederen per post.<colour id="65535" /></message>
+	<message label="3021" attrib="01 00">Een origineel <colour id="1" />duikpak<colour id="65535" /> van Nook Inc.
+Hiermee kun je in de zee zwemmen
+en duiken.
+<colour id="0" />Het artikel wordt per post bezorgd.<colour id="65535" /></message>
 	<message label="5001" attrib="01 00"><colour id="1" />Camera<colour id="65535" />
 Neem foto's en gebruik
 verschillende filters en effecten.<pageBreak /><colour id="0" />De foto's worden opgeslagen in je
@@ -1091,6 +1097,14 @@ die alleen gelden voor leden van
 Gebruik deze app voor informatie
 over de insecten en vissen die je
 hebt gevangen.</message>
+	<message label="5022" attrib="01 00"><colour id="1" />Encyclopedie<colour id="65535" />
+Gebruik deze app voor informatie
+over de insecten, vissen en diepzee-
+wezens die je hebt gevangen.</message>
+	<message label="5023" attrib="01 00"><colour id="1" />Encyclopedie<colour id="65535" />
+Deze app is bijgewerkt met informatie
+over de diepzeewezens die je hebt
+gevangen.</message>
 	<message label="5031" attrib="01 00"><colour id="1" />Doe-het-zelf<colour id="65535" />
 Gebruik deze app voor informatie
 over de <colour id="1" />doe-het-zelfplannen<colour id="65535" /> die
@@ -1197,10 +1211,10 @@ stijl!</message>
 Je kunt deze app gebruiken om de
 chatgesprekken met andere spelers
 waar en wanneer je wilt terug te lezen.
-Misschien heb je niet de kans
-gehad om iets te lezen terwijl jullie
-samen aan het spelen waren.<pageBreak />Of je wilt een bericht lezen van een
-van je beste vrienden die ver weg
+Dit is ideaal voor als je niet de kans
+hebt gehad om iets te lezen terwijl
+jullie samen aan het spelen waren...<pageBreak />...of als je een bericht wilt lezen van
+een van je beste vrienden die ver weg
 woont. Best een handige app, hè?!</message>
 	<message label="5201_00_01" attrib="0e 00"><colour id="0" />Buurten<colour id="65535" />
 In Buurten kunnen eilandbewoners
@@ -1465,7 +1479,7 @@ om dit scherm te sluiten.</message>
 gebruiker is gekoppeld, is anders
 dan voorheen.<pageBreak />Functies die het internet gebruiken,
 waaronder de lijst 'Beste vrienden',
-worden naar de oorspronkelijk staat
+worden naar de oorspronkelijke staat
 teruggezet zodra je verder speelt.<pageBreak />Wil je opnieuw spelen als
 <colour id="2" /><tag a="115" b="0" arg="0xcd00" /><colour id="65535" />?</message>
 	<message label="8014_a" attrib="01 00">Nee.</message>
@@ -1473,7 +1487,7 @@ teruggezet zodra je verder speelt.<pageBreak />Wil je opnieuw spelen als
 	<message label="8015" attrib="08 00">Deze gebruiker is niet gekoppeld
 aan een Nintendo-account.<pageBreak />Functies die het internet gebruiken,
 waaronder de lijst 'Beste vrienden',
-worden naar de oorspronkelijk staat
+worden naar de oorspronkelijke staat
 teruggezet zodra je verder speelt.<pageBreak />Wil je opnieuw spelen als
 <colour id="2" /><tag a="115" b="0" arg="0xcd00" /><colour id="65535" />?</message>
 	<message label="8015_a" attrib="01 00">Nee.</message>
@@ -1485,16 +1499,28 @@ gebruiken, zoals de Beste vrienden-app,
 naar de begininstellingen teruggezet.<pageBreak />Wil je doorgaan?</message>
 	<message label="8016_a" attrib="01 00">Nee.</message>
 	<message label="8016_b" attrib="01 00">Ja.</message>
-	<message label="8017" attrib="08 00">Aan deze gebruiker is geen Nintendo-
-account gekoppeld of het is nodig dat
-er opnieuw op de Nintendo-account
-wordt ingelogd.<pageBreak />Wanneer je de game weer speelt,
-worden alle functies die het internet
+	<message label="8017" attrib="08 00">De koppeling van deze gebruiker met
+een geldige Nintendo-account moet via
+het internet worden bevestigd.<pageBreak />Als je dit niet doet voor je de game
+speelt, worden functies die het internet
 gebruiken, zoals de Beste vrienden-app,
-naar de begininstellingen teruggezet.<pageBreak />Wil je weer beginnen te spelen en alle
-functies die het internet gebruiken,
-naar de begininstellingen terugzetten?</message>
+naar de begininstellingen teruggezet.<pageBreak />Wil je alle functies die het internet
+gebruiken, naar de begininstellingen
+terugzetten en beginnen met spelen?</message>
 	<message label="8017_a" attrib="01 00">Nee.</message>
 	<message label="8017_b" attrib="01 00">Ja.</message>
+	<message label="8018" attrib="01 00">De koppeling van deze gebruiker met
+een geldige Nintendo-account moet
+via het internet worden bevestigd.<pageBreak />Je kunt nu verbinding maken met
+het internet om de koppeling te
+bevestigen.</message>
+	<message label="8018_a" attrib="01 00">Oké!</message>
+	<message label="8020" attrib="08 00">De koppeling van deze gebruiker met
+een geldige Nintendo-account moet
+via het internet worden bevestigd.<pageBreak />Je kunt nu verbinding maken met
+het internet om de koppeling te
+bevestigen.</message>
+	<message label="8020_a" attrib="01 00">Nee.</message>
+	<message label="8020_b" attrib="01 00">Oké!</message>
 	<message label="8019" attrib="01 00">Bezig de game te starten...</message>
 </msbt>

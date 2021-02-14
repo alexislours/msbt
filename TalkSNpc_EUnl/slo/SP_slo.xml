@@ -4,8 +4,7 @@ maken?</message>
 	<message label="004_a" attrib="00 00 00 00">Ik wil dingen kopen!</message>
 	<message label="004_b" attrib="00 00 00 00">Ik wil onkruid verkopen!</message>
 	<message label="004_c" attrib="00 00 00 00">O, nergens mee.</message>
-	<message label="005" attrib="04 00 00 00"><anim id="Smiling" target="mainNpc" targetSpec="" />Ik ben zo blij <delay8 />om je weer te zien!<delay20 />
-Wat kan ik <delay20 /><anim id="QuestionMark" target="mainNpc" targetSpec="" />voor je doen?</message>
+	<message label="005" attrib="04 00 00 00"><anim id="Smiling" target="mainNpc" targetSpec="" />Ik ben zo blij om je weer te zien, <delay8 /><tag a="110" b="1" />!<delay20 /> Wat kan ik <delay20 /><anim id="QuestionMark" target="mainNpc" targetSpec="" />voor je doen?</message>
 	<message label="005_a" attrib="00 00 00 00">Ik wil dingen kopen!</message>
 	<message label="005_b" attrib="00 00 00 00">Ik wil onkruid verkopen!</message>
 	<message label="005_c" attrib="00 00 00 00">O, niets.</message>
@@ -60,8 +59,8 @@ Hoe <anim id="QuestionMark" target="actor" targetSpec="" />mag ik je noemen?</me
 	<message label="040_b" attrib="00 00 00 00"><tag a="50" b="3" /><tag a="110" b="1" /><tag a="110" b="0" /></message>
 	<message label="041" attrib="00 00 00 00"><anim id="Hesitate" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="110" b="1" /> zei je?<delay frames="60" /> <anim id="HappyFlower" target="actor" targetSpec="" />Wat een blije naam!<delay40 /> <anim id="BigSmile" target="actor" targetSpec="" />Ah, o ja. <delay20 />Mijn naam is <colour id="3" />Leif<colour id="65535" />.</message>
 	<message label="042" attrib="00 00 00 00">Ik hoorde dat mijn lieve vriend <colour id="3" />Timmy<colour id="65535" /><delay8 />
-hier een winkel had geopend,<delay20 /><anim id="Smiling" target="actor" targetSpec="" /> dus dat
-wilde ik weleens zien.</message>
+hiernaartoe was verhuisd,<delay20 /><anim id="Smiling" target="actor" targetSpec="" /> dus ik
+wilde graag eens bij hem op bezoek.</message>
 	<message label="043" attrib="01 00 00 00"><anim id="Hesitate" target="actor" targetSpec="" /><colour id="3" />Timmy <colour id="65535" />zei<delay8 /> dat dit eiland helemaal
 verlaten was<delay8 /> voor jij hier aankwam<tag a="110" b="0" /><delay frames="60" />
 <anim id="HappyFlower" target="actor" targetSpec="" />Wat een vrolijk avontuur!
@@ -112,7 +111,7 @@ onkruidvrij eiland!</message>
 	<message label="060_b" attrib="00 00 00 00">Nee, nu niet.</message>
 	<message label="048" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Nou<tag a="110" b="0" /><delay20 /> Het was heel leuk om je te
 ontmoeten.<delay20 /><anim id="Greeting" target="actor" targetSpec="" /> Hopelijk tot snel, <tag a="110" b="1" />.</message>
-	<message label="050" attrib="00 00 00 00"><anim id="Hello" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="110" b="1" />,<delay20 /><anim id="HappyFlower" target="actor" targetSpec="" /> heb ik je al eens verteld<delay8 /> dat je me aan <tag a="50" b="2" /><tag a="50" b="19" arg="0x1e 0xcd00 0x12 0x73 0x74 0x72 0x61 0x6c 0x65 0x6e 0x64 0x65 0x10 0x73 0x74 0x72 0x61 0x6c 0x65 0x6e 0x64 0x12 0x73 0x74 0x72 0x61 0x6c 0x65 0x6e 0x64 0x65" /> <tag a="135" b="2" arg="0xcd00" /> doet denken?
+	<message label="050" attrib="00 00 00 00"><anim id="Hello" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="110" b="1" />,<delay20 /><anim id="HappyFlower" target="actor" targetSpec="" /> heb ik je al eens verteld<delay8 /> dat je me aan <tag a="50" b="2" /><tag a="50" b="19" arg="0x1f 0xcd00 0x12 0x73 0x74 0x72 0x61 0x6c 0x65 0x6e 0x64 0x65 0x10 0x73 0x74 0x72 0x61 0x6c 0x65 0x6e 0x64 0x12 0x73 0x74 0x72 0x61 0x6c 0x65 0x6e 0x64 0x65" /> <tag a="135" b="2" arg="0xcd00" /> doet denken?
 <anim id="AbsentMindedness" target="actor" targetSpec="" />Hmm<tag a="110" b="0" /><delay20 /> Hoewel ik op dit moment ook
 iets van <tag a="50" b="2" /><tag a="135" b="2" arg="0xcd01" /> bespeur.<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Wat ik wil zeggen is:<delay20 /> je bent een van
 mijn beste klanten, <delay20 />en daarom wil ik
@@ -141,8 +140,10 @@ die mooie klingels geoogst!<anim id="BigSmile" target="actor" targetSpec="" /> I
 nu al naar uit<delay8 /> om je dan weer te zien!</message>
 	<message label="056" attrib="00 00 00 00"><anim id="QuestionMark" target="mainNpc" targetSpec="" />Kan ik anders<delay8 /> nog iets voor je doen,<delay8 />
 mijn lieve scheutje?<anim id="EmotEnd" target="actor" targetSpec="" /></message>
-	<message label="057" attrib="00 00 00 00">O!<delay20 /><anim id="Greeting" target="actor" targetSpec="" /> Hoi hoi, <delay8 /><tag a="110" b="1" />!<delay frames="60" /> <anim id="HappyFlower" target="actor" targetSpec="" />Is dit niet een hele mooie dag<delay8 /> om wat lieve bloempjes te kopen?</message>
-	<message label="058" attrib="00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />En vergeet de struiken niet!<delay frames="60" /> <anim id="FaintSmile" target="actor" targetSpec="" />Je hebt geluk,<delay20 /> want vandaag verkoop ik <anim id="Love" target="actor" targetSpec="" /><delay8 /><tag a="50" b="2" /><colour id="1" /><tag a="140" b="20" arg="0xcd00" /><colour id="65535" />!<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />En <tag a="50" b="19" arg="0x35 0xcd00 0xe 0x64 0x69 0x65 0x20 0x7a 0x61 0x6c 0xe 0x68 0x65 0x74 0x20 0x7a 0x61 0x6c 0x14 0x64 0x69 0x65 0x20 0x7a 0x75 0x6c 0x6c 0x65 0x6e" /> dit seizoen nog<delay20 /> in bloei komen te staan ook! <pageBreak />Als je <tag a="50" b="19" arg="0x35 0xcd00 0x6 0x68 0x65 0x6d 0x6 0x68 0x65 0x74 0x4 0x7a 0x65" /> nu plant,<delay8 /><anim id="HappyFlower" target="actor" targetSpec="" /> kun je gauw
+	<message label="057" attrib="00 00 00 00">O!<delay20 /><anim id="Greeting" target="actor" targetSpec="" /> Hoi hoi! <delay frames="60" /><anim id="HappyFlower" target="actor" targetSpec="" />Is dit niet een hele mooie
+dag<delay8 /> om wat lieve bloempjes te
+kopen?</message>
+	<message label="058" attrib="00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />En vergeet de struiken niet!<delay frames="60" /> <anim id="FaintSmile" target="actor" targetSpec="" />Je hebt geluk,<delay20 /> want vandaag verkoop ik <anim id="Love" target="actor" targetSpec="" /><delay8 /><tag a="50" b="2" /><colour id="1" /><tag a="140" b="20" arg="0xcd00" /><colour id="65535" />!<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />En <tag a="50" b="19" arg="0x36 0xcd00 0xe 0x64 0x69 0x65 0x20 0x7a 0x61 0x6c 0xe 0x68 0x65 0x74 0x20 0x7a 0x61 0x6c 0x14 0x64 0x69 0x65 0x20 0x7a 0x75 0x6c 0x6c 0x65 0x6e" /> dit seizoen nog<delay20 /> in bloei komen te staan ook! <pageBreak />Als je <tag a="50" b="19" arg="0x36 0xcd00 0x6 0x68 0x65 0x6d 0x6 0x68 0x65 0x74 0x4 0x7a 0x65" /> nu plant,<delay8 /><anim id="HappyFlower" target="actor" targetSpec="" /> kun je gauw
 volop van de prachtige bloemen
 genieten!</message>
 </msbt>
