@@ -141,7 +141,7 @@ Nintendo Switch 본체에 저장됩니다.
 여러 번 실패할 경우, 프로필 사진을
 다시 찍은 후에 시도해 주세요.</message>
 	<message label="0820_a" attrib="01 06">알겠습니다</message>
-	<message label="0830" attrib="12 09"><colour id="6" />〔꿈 제공 시 주의사항〕<colour id="65535" />
+	<message label="0830" attrib="12 09"><colour id="6" />〔꿈 제공 시 주의 사항〕<colour id="65535" />
 당신의 섬을 꿈으로 제공하면
 다른 플레이어나 모르는 분이 당신의 섬에
 꿈을 통해 방문할 수 있게 됩니다.
@@ -149,7 +149,7 @@ Nintendo Switch 본체에 저장됩니다.
  <colour id="6" />(당신의 이름과 여권, 섬 전체・집・
   게시판・마이 디자인 등)<colour id="1" />가 공개됩니다.<colour id="65535" /></message>
 	<message label="0830_a" attrib="01 00">알겠습니다</message>
-	<message label="0831" attrib="12 09"><colour id="6" />〔꿈 제공 시 주의사항〕<colour id="65535" />
+	<message label="0831" attrib="12 09"><colour id="6" />〔꿈 제공 시 주의 사항〕<colour id="65535" />
 당신의 섬을 꿈으로 제공하면
 다른 플레이어나 모르는 분이 당신의 섬에
 꿈을 통해 방문할 수 있게 됩니다.
@@ -157,6 +157,12 @@ Nintendo Switch 본체에 저장됩니다.
  <colour id="6" />(주민의 이름과 여권, 섬 전체・집・
   게시판・마이 디자인 등)<colour id="1" />가 공개됩니다.<colour id="65535" /></message>
 	<message label="0831_a" attrib="01 00">알겠습니다</message>
+	<message label="0841" attrib="08 00"><colour id="0" /><tag a="115" b="5" arg="0xcd00" /><colour id="65535" />의 꿈을
+기록에서 삭제하시겠습니까?</message>
+	<message label="0841_a" attrib="01 00">그만둘래</message>
+	<message label="0841_b" attrib="01 00">삭제할래</message>
+	<message label="0842" attrib="01 09">즐겨찾기로 등록한 꿈은
+기록에서 삭제할 수 없습니다.</message>
 	<message label="0921" attrib="06 06">한 번 외출할 때
 2개까지 등록할 수 있습니다.</message>
 	<message label="0921_a" attrib="01 06">오케이!</message>
@@ -693,6 +699,10 @@ laatst hebt gespeeld.
 커뮤니케이션 기능이 OFF가 되었습니다.
 다시 ON으로 변경한 후 시도해주세요.</message>
 	<message label="1456_a" attrib="01 00">뒤로</message>
+	<message label="1457" attrib="08 00">베스트 프렌드 리스트를 이용하기 위해
+인터넷에 접속하시겠습니까?</message>
+	<message label="1457_a" attrib="01 00">그만둘래</message>
+	<message label="1457_b" attrib="01 00">접속하기</message>
 	<message label="1501" attrib="08 00">변경을 취소할까요?</message>
 	<message label="1501_a" attrib="01 00">계속할래!</message>
 	<message label="1501_b" attrib="01 00">취소할래</message>
@@ -817,7 +827,7 @@ PRO를 위한 마이 디자인입니다.<pageBreak />PRO 디자인을 새로 만
 타인이 봐도 불쾌감을 느끼지 않을
 적절한 내용으로 변경해주세요.</message>
 	<message label="2401_a" attrib="01 00">알겠습니다</message>
-	<message label="2421" attrib="12 09">〔<colour id="0" />등록 전 주의사항<colour id="65535" />〕
+	<message label="2421" attrib="12 09">〔<colour id="0" />등록 전 주의 사항<colour id="65535" />〕
 마이 디자인 작품을 등록하면 전 세계
 플레이어가 그 작품을 볼 수 있게 됩니다.
 위법한 내용 또는 다른 플레이어에게
@@ -892,11 +902,11 @@ SNS에 공유하시겠습니까?</message>
 	<message label="2440_a" attrib="01 00">뒤로</message>
 	<message label="2440_b" attrib="01 00">나의 작품 보기</message>
 	<message label="2441" attrib="01 00">SNS 공유에 실패했습니다.</message>
-	<message label="2442" attrib="08 00"><tag a="115" b="0" arg="0xcd00" /> 님을
+	<message label="2442" attrib="08 00"><tag a="115" b="0" arg="0xcd00" />님을
 즐겨 찾는 작성자에서 삭제하시겠습니까?</message>
 	<message label="2442_a" attrib="01 00">그만두기</message>
 	<message label="2442_b" attrib="01 00">삭제하기</message>
-	<message label="2444" attrib="01 00"><tag a="115" b="0" arg="0xcd00" /> 님을
+	<message label="2444" attrib="01 00"><tag a="115" b="0" arg="0xcd00" />님을
 즐겨 찾는 작성자에서 삭제했습니다</message>
 	<message label="2445" attrib="01 09">즐겨 찾는 작성자가 가득 차서
 더 이상 등록할 수 없습니다</message>
@@ -904,19 +914,19 @@ SNS에 공유하시겠습니까?</message>
 작품을 찾을 수 없습니다.
 다시 한번 입력하시겠습니까?</message>
 	<message label="2447" attrib="01 00"><colour id="0" />＜마이 디자인 검색 방법이 추가되었습니다＞<colour id="65535" />
-'조건으로 검색'과 '즐겨 찾는 작성자'
+'조건으로 검색'과 '즐겨찾기에서 검색'
 기능이 새롭게 추가되었습니다.<pageBreak /><colour id="1" />＜조건으로 검색＞<colour id="65535" />
 마이 디자인의 이름이나 용도를 지정해서
 작품을 검색할 수 있습니다.<pageBreak /><colour id="1" />＜즐겨찾기에서 검색＞<colour id="65535" />
 즐겨찾기로 등록한 작성자의 작품을
-검색할 수 있습니다.<pageBreak />즐겨찾기는 검색으로 발견한 마이 디자인의
-저장 화면에서 등록할 수 있습니다.
+검색할 수 있습니다.<pageBreak />검색으로 발견한 마이 디자인의 저장 화면에서
+작성자를 즐겨찾기에 등록할 수 있습니다.
 꼭 한번 이용해 보세요!</message>
 	<message label="2448" attrib="0e 00"><colour id="0" />＜마이 디자인의 용도＞<colour id="65535" />
 PRO 디자인을 제외한 마이 디자인 작품은
 바닥 장식이나 페이스 페인팅 등,
-추천하는 용도를 설정할 수 있습니다
-를 눌러 설정해주세요.
+추천하는 용도를 설정할 수 있습니다.
+<colour id="1" /><colour id="65535" />를 눌러 설정해주세요.
 <colour id="0" />※용도를 제한하는 설정이 아닙니다.
 ※등록 후에도 설정을 변경할 수 있습니다.<colour id="65535" /></message>
 	<message label="2449" attrib="01 00">용도를 갱신했습니다</message>
@@ -1011,6 +1021,14 @@ PRO 디자인을 제외한 마이 디자인 작품은
 	<message label="3021" attrib="01 00">Nook Inc.의 오리지널 <colour id="1" />잠수복<colour id="65535" />입니다.
 바다에서 헤엄칠 때 사용해보세요.
 <colour id="0" />※이 상품은 우편으로 배달됩니다.<colour id="65535" /></message>
+	<message label="3022" attrib="01 00"><colour id="1" />거울・화장대<colour id="65535" /> 등에서 페인팅할 수 있는
+버라이어티한 보디 컬러를 소개합니다.
+<colour id="0" />※이 상품을 교환하시면
+바로 인쇄해드립니다.<colour id="65535" /></message>
+	<message label="3023" attrib="01 00"><colour id="1" />거울・화장대<colour id="65535" /> 등에서 갈아 끼울 수 있는
+컬러 렌즈를 소개합니다.
+<colour id="0" />※이 상품을 교환하시면
+바로 인쇄해드립니다.<colour id="65535" /></message>
 	<message label="5001" attrib="01 00">〔<colour id="1" />카메라<colour id="65535" />〕
 카메라 기능을 사용하면
 다양한 필터나 효과를 입힌
@@ -1019,9 +1037,9 @@ HOME 메뉴의 앨범에 저장되므로
 같은 본체를 사용하는 다른 유저도
 볼 수 있습니다.<colour id="65535" /></message>
 	<message label="5002" attrib="01 00">〔<colour id="1" />조작 가이드 ON/OFF<colour id="65535" />〕
-<colour id="1" />을 눌러서 <colour id="65535" />조작 가이드를 
-ON/OFF할 수 있게 되었습니다.<pageBreak /><colour id="0" />※Joy-Con 가로 잡기 중에는
-OFF할 수 없습니다.<colour id="65535" /></message>
+<colour id="1" />을 눌러서 <colour id="65535" />조작 가이드의 ON/OFF
+설정을 변경할 수 있게 되었습니다.<pageBreak /><colour id="0" />※Joy-Con 가로 잡기 중에는
+OFF로 변경할 수 없습니다.<colour id="65535" /></message>
 	<message label="5011" attrib="01 00">〔<colour id="1" />너굴 마일리지<colour id="65535" />〕
 너굴 마일리지 프로그램에
 가입해 주셔서 감사합니다!<pageBreak />이 프로그램에서는 당신의

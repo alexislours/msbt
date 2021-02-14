@@ -43,7 +43,8 @@ a <tag a="115" b="0" arg="0xcd01" /> este estupendo
 artículo.
 <anim id="ShyBoy" target="actor" targetSpec="" />¡Tiene un gusto que da gusto,
 <tag a="110" b="5" />!</message>
-	<message label="101" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />¡Mira lo bien que me queda <tag a="50" b="17" arg="0x17 0xcd00 0x8 0x65 0x73 0x74 0x65 0x8 0x65 0x73 0x74 0x61 0x0" />
+	<message label="101" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
+	<message label="101_01" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />¡Mira lo bien que me queda <tag a="50" b="17" arg="0x17 0xcd00 0x8 0x65 0x73 0x74 0x65 0x8 0x65 0x73 0x74 0x61 0x0" />
 <tag a="125" b="5" arg="0xcd00" />,
 <tag a="110" b="5" />!
 <anim id="Angry" target="actor" targetSpec="" />Cuando estreno ropa, suelo ejercitar
@@ -51,33 +52,66 @@ músculos que normalmente no
 trabajo.
 <anim id="Thinking" target="actor" targetSpec="" />Aunque, ahora que lo pienso,
 de esos ya casi no me quedan<tag a="110" b="0" /></message>
-	<message label="102" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Con algo simple y sencillo como
+	<message label="101_02" attrib="00 00 00 00 00 00 00 00"><anim id="Hello" target="actor" targetSpec="" />¿Te gusta cómo me he vestido hoy?<delay20 />
+Me pareció que de vez en cuando
+puedo cambiar de estilo.<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Ya ves,<delay8 /> <anim id="EmotEnd" target="actor" targetSpec="" />¡hay vida más allá
+del chándal y las sudaderas!</message>
+	<message label="102" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
+	<message label="102_01" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Con algo simple y sencillo como
 <tag a="50" b="17" arg="0x17 0xcd00 0x8 0x65 0x73 0x74 0x65 0x8 0x65 0x73 0x74 0x61 0x0" /> <tag a="125" b="5" arg="0xcd00" />,
 me siento más relajado.
 <anim id="AbsentMindedness" target="actor" targetSpec="" />Es como si hoy no tuviera ninguna
 preocupación<tag a="110" b="0" /><delay20 /><10_4 /> <10_10 /><anim id="Frantic" target="actor" targetSpec="" />¡Ay!<delay8 /> Aún tengo
 que hacer mis mil flexiones diarias.</message>
-	<message label="103" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Fíjate qué maravilla de
+	<message label="102_02" attrib="00 00 00 00 00 00 00 00"><anim id="ShyBoy" target="actor" targetSpec="" />He pensado que podría ponerme
+algo más guay que simple ropa deportiva.<delay20 />
+<anim id="QuestionMark" target="actor" targetSpec="" />¿Qué te parece,<delay8 /> <tag a="110" b="5" />?<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Eso sí,<delay8 /> debo andarme con ojo,<delay8 />
+porque hago una flexión con esto
+<anim id="Oops" target="actor" targetSpec="" />¡y rompo las costuras!</message>
+	<message label="103" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
+	<message label="103_01" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Fíjate qué maravilla de
 <tag a="125" b="5" arg="0xcd00" />.<pageBreak />A mí no me hacen falta modelitos
 molones para estar estupendo.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Cuando voy de tranqui, me apaño
 con algo sencillito.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Sencillito, ¡pero siempre marcando
 músculo, <tag a="110" b="5" />!</message>
-	<message label="104" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />¿Qué te parece, <gender2 m="campeón" f="campeona" />?<delay frames="60" />
+	<message label="103_02" attrib="00 00 00 00 00 00 00 00"><anim id="OhGeez" target="actor" targetSpec="" />Venga,<delay8 /> no te cortes,<delay8 /> dímelo:<delay8 /> <anim id="Blushing" target="actor" targetSpec="" />no
+puedo pasar desapercibido con
+la elegancia de esta ropa.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Después de todo,<delay8 /> realza mis
+músculos,<delay8 /> <anim id="SmugFace" target="actor" targetSpec="" />que ya de por sí
+son muy llamativos, <tag a="110" b="5" />.</message>
+	<message label="104" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
+	<message label="104_01" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />¿Qué te parece, <gender2 m="campeón" f="campeona" />?<delay frames="60" />
 <anim id="Smiling" target="actor" targetSpec="" />¿Estoy para que me inmortalicen,
 o qué?<pageBreak /><anim id="ShyBoy" target="actor" targetSpec="" />Je, je, je<tag a="110" b="0" /><delay8 /> Me juego mi tipito a que
 estoy tan sideral que podrían
 considerarme monumento insular.</message>
-	<message label="105" attrib="00 00 00 00 00 00 00 00"><anim id="HappyDance" target="actor" targetSpec="" />¡Vaya toalla!<delay8 /> ¡Menudo sentido de
+	<message label="104_02" attrib="00 00 00 00 00 00 00 00"><anim id="Grin" target="actor" targetSpec="" />Fíjate,<delay8 /> por fin me puedo poner algo
+<anim id="HappyFlower" target="actor" targetSpec="" />que está a la altura de mi buen ver
+natural.<pageBreak /><anim id="Negative" target="actor" targetSpec="" />Bueno,<delay8 /> casi,<delay8 /> porque no hay fibra
+que puede compararse con
+la de<tag a="110" b="0" /> <anim id="EmotEnd" target="actor" targetSpec="" />¡mis músculos!</message>
+	<message label="105" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
+	<message label="105_01" attrib="00 00 00 00 00 00 00 00"><anim id="HappyDance" target="actor" targetSpec="" />¡Vaya toalla!<delay8 /> ¡Menudo sentido de
 la dinámica que tiene este diseñaco,
 <tag a="110" b="5" />!
 <anim id="SmugFace" target="actor" targetSpec="" />Justo mi rollo:<delay8 /> combina deportividad
 y pectorales en pleno marcado.</message>
-	<message label="106" attrib="00 00 00 00 00 00 00 00"><anim id="SmugFace" target="actor" targetSpec="" />Estoy elegante, ¿a que sí?<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Con estos abultados músculos que
+	<message label="105_02" attrib="00 00 00 00 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />¿Qué te parece cómo voy hoy?<delay20 />
+<anim id="WrySmile" target="actor" targetSpec="" />¿Tan deportivo como siempre
+o aún más?<pageBreak /><anim id="OhGeez" target="actor" targetSpec="" />Sé que la vestimenta no me hará
+más rápido o más fuerte<tag a="110" b="0" /><delay8 /><pageBreak /><anim id="Laughing" target="actor" targetSpec="" />¡pero con una buena aerodinámica
+siempre se puede recortar unos segundos!</message>
+	<message label="106" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
+	<message label="106_01" attrib="00 00 00 00 00 00 00 00"><anim id="SmugFace" target="actor" targetSpec="" />Estoy elegante, ¿a que sí?<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Con estos abultados músculos que
 me caracterizan,<delay8 /> a veces es difícil
 que te quede bien algo fino.
 <anim id="Laughing" target="actor" targetSpec="" />¡Pero, gracias al estilazo que tengo,<delay8 />
 no hay modelito que se me resista,
 <tag a="110" b="5" />!</message>
+	<message label="106_02" attrib="00 00 00 00 00 00 00 00"><anim id="Grin" target="actor" targetSpec="" />¿No me notas algo diferente,<delay8 /> <tag a="110" b="5" />?<delay20 /> <anim id="BigSmile" target="actor" targetSpec="" />¡Hoy me he puesto algo especial!<pageBreak /><anim id="Blushing" target="actor" targetSpec="" />Me ha costado lo suyo meter mi
+musculatura en este modelito<tag a="110" b="0" /><pageBreak />Por favor,<delay8 /> no me cuentes chistes
+ni me hagas reír,<delay8 /> <anim id="Oops" target="actor" targetSpec="" />que no quiero
+romper las costuras.</message>
 	<message label="201" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Me encanta cómo me queda <tag a="50" b="17" arg="0x17 0xcd00 0x8 0x65 0x73 0x74 0x65 0x8 0x65 0x73 0x74 0x61 0x0" />
 <tag a="125" b="5" arg="0xcd00" />,<delay8 /> ¿a ti no?<pageBreak /><anim id="Thinking" target="actor" targetSpec="" />Resalta mucho mis oblicuos,<delay8 /> que
 seguramente sean mis músculos

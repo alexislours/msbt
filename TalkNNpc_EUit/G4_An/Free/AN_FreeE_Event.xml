@@ -1,10 +1,10 @@
 <msbt attribsize="8">
 	<message label="001" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Ho sentito parlare di un grande
-evento che avverrà presto, <delay8 />ma non
-ho capito bene di cosa si tratti!
-<anim id="Worried" target="actor" targetSpec="" />Uff! <delay8 />Odio i misteri! <delay8 /><anim id="Frantic" target="actor" targetSpec="" />Adesso non so
-come vestirmi e se devo portare
-qualcosa da mangiare. <delay20 />Che rabbia!</message>
+evento imminente, <delay8 />ma non ho capito
+bene di cosa si tratti, <tag a="110" b="6" />.
+<anim id="Worried" target="actor" targetSpec="" />Uff! <delay8 />Odio i misteri! <delay20 />E allo stesso
+tempo<tag a="110" b="0" /><anim id="SadSpiral" target="actor" targetSpec="" /><delay20 /> non vedo l'ora che arrivi
+l'evento.</message>
 	<message label="002" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />È tutto pronto per la baldoria di
 domani?<delay20 /> <anim id="Nodding" target="actor" targetSpec="" />Io sono prontissima!<delay8 /> Sarà
 un evento indimenticabile per tutti!
@@ -76,4 +76,11 @@ evento su un'altra isola.<pageBreak /><anim id="Explain" target="actor" targetSp
 <delay frames="40" /><anim id="Laughing" target="actor" targetSpec="" />Sa davvero tenere i segreti!<pageBreak /><anim id="Grin" target="actor" targetSpec="" />Beh, domani iniziano i festeggiamenti
 del <colour id="1" />Primo maggio<colour id="65535" /> e <colour id="3" />Tom Nook<colour id="65535" /> ci dirà
 tutto.<delay20 /><anim id="ShyBoy" target="actor" targetSpec="" /> Pazientiamo, <tag a="110" b="6" />.</message>
+	<message label="103" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Il 31 ottobre è alle porte.<delay20 /> Significa
+che è quasi Halloween!<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Meglio se ti dai da fare con il tuo
+costume e i <colour id="1" />dolcetti<colour id="65535" />,<delay20 /><anim id="HappyDance" target="actor" targetSpec="" /> perché
+quest'anno IO farò fuoco e fiamme!</message>
+	<message label="104" attrib="00 00 00 00 00 00 00 00"><anim id="Pardon" target="actor" targetSpec="" />Domani è Halloween! <delay8 />Dolcetti e
+scherzetti! <delay8 />Tu sei pront<gender2 m="o" f="a" />?<delay8 /> Ce l'hai
+il costume?<delay8 /> <anim id="WrySmile" target="actor" targetSpec="" />Bisogna fare festa!</message>
 </msbt>

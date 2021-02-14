@@ -319,6 +319,25 @@ Wir zahlen dir den doppelten Preis<tag a="110" b="0" /><delay20 />
 	<message label="131_a" attrib="00 00 00 00">1 (<colour id="1" /><tag a="90" b="12" arg="0x0" /> <colour id="65535" />).</message>
 	<message label="131_b" attrib="00 00 00 00">5 (<colour id="1" /><tag a="90" b="13" arg="0x1" /> <colour id="65535" />).</message>
 	<message label="131_c" attrib="00 00 00 00">Doch nicht...</message>
+	<message label="132_01" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Ah, <delay8 /><tag a="125" b="0" arg="0x200" />?<delay frames="40" />
+Die sind nur im Oktober erhältlich!
+<tag a="100" b="4" /><delay8 /><size value="75" />...Zeitexklusiv!<size value="100" /><endTag a="100" b="4" /></message>
+	<message label="132_02" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Du kannst diese <colour id="1" />Kürbissetzlinge<colour id="65535" />
+ein paar Tage nach dem Pflanzen
+abernten.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Und wenn du sie dazu noch täglich
+gießt, <delay8 />wird deine Ernte um einiges
+ertragreicher ausfallen!</message>
+	<message label="132_03" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Kürbisse wachsen in vier
+verschiedenen Farben:<delay20 />
+<colour id="1" />orange<colour id="65535" />, <delay8 /><colour id="1" />grün<colour id="65535" />, <delay8 /><colour id="1" />gelb <colour id="65535" />und <colour id="1" />weiß<colour id="65535" />.<pageBreak /><anim id="Serious" target="actor" targetSpec="" />Welche Farbe man erhält, <delay8 />lässt sich
+vor dem Anbau nicht sagen.<delay20 /> <anim id="Smiling" target="actor" targetSpec="" />Das
+macht die Sache umso spannender!</message>
+	<message label="132_04" attrib="04 00 00 00"><anim id="Nodding" target="subNpc" targetSpec="" />Du kannst auch mehrere auf einmal
+kaufen.<delay20 /> <anim id="QuestionMark" target="mainNpc" targetSpec="" />Wie viele möchtest du denn
+haben?</message>
+	<message label="132_04_a" attrib="00 00 00 00">1 (<colour id="1" /><tag a="90" b="12" arg="0x0" /> <colour id="65535" />).</message>
+	<message label="132_04_b" attrib="00 00 00 00">5 (<colour id="1" /><tag a="90" b="13" arg="0x1" /> <colour id="65535" />).</message>
+	<message label="132_04_c" attrib="00 00 00 00">Doch nicht...</message>
 	<message label="141_01" attrib="00 00 00 00"><anim id="Eh" target="mainNpc" targetSpec="" /><anim id="Eh" target="subNpc" targetSpec="" />Oh! <delay20 />Du spielst wohl mit dem
 Gedanken, <delay8 />die hiesigen Gewässer
 zu erkunden?
@@ -347,6 +366,27 @@ fachwissen verfügen!<tag a="100" b="4" /><delay8 /> <size value="75" />...Hurra
 	<message label="143" attrib="00 00 00 00"><anim id="FaintSmile" target="mainNpc" targetSpec="" /><anim id="FaintSmile" target="subNpc" targetSpec="" />Selbstverständlich! <delay20 />Hier noch mal
 alles, <delay8 />was du beim Schwimmen im
 Meer beachten solltest.<tag a="100" b="4" /><delay8 /> <size value="75" />...im Meer.<size value="100" /><endTag a="100" b="4" /></message>
+	<message label="144_01" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Aha, <delay8 />du interessierst dich also für
+<tag a="125" b="0" arg="0x200" />?<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Die gibt es bei uns aber nur im
+Oktober,<delay8 /> also solltest du lieber
+schnell zuschlagen!<tag a="100" b="4" /><delay8 /> <size value="75" />...ganz schnell!<size value="100" /><endTag a="100" b="4" /></message>
+	<message label="144_02" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Aufgrund der voraussichtlich hohen
+Nachfrage können wir <colour id="1" />jedem Kunden<colour id="65535" />
+nur <colour id="1" />ein Exemplar pro Tag<colour id="65535" /> verkaufen.</message>
+	<message label="144_03" attrib="02 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Möchtest du <tag a="50" b="17" arg="0x12 0xcd00 0xa 0x65 0x69 0x6e 0x65 0x6e 0x8 0x65 0x69 0x6e 0x65 0x8 0x65 0x69 0x6e 0x73" /> haben?</message>
+	<message label="144_03_a" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Nehm ich!</message>
+	<message label="144_03_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Lieber nicht.</message>
+	<message label="144_04" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Tut mir wirklich leid, <delay8 /><anim id="Nodding" target="actor" targetSpec="" />aber wir können
+jedem Kunden nur <colour id="1" />eine Süßigkeit pro
+Tag<colour id="65535" /> verkaufen.</message>
+	<message label="144_05" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Heute hast du bereits etwas Süßes
+gekauft, <delay8 />morgen können wir dir aber
+wieder Nachschub bieten.</message>
+	<message label="144_06" attrib="00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Du hast heute schon etwas Süßes
+gekauft,<delay8 /> und leider führen wir diesen
+Artikel ab morgen nicht mehr...<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Aber sobald wir im nächsten Jahr
+wieder Süßigkeiten anbieten, <delay8 />darfst
+du gerne erneut zugreifen!</message>
 	<message label="200" attrib="00 00 00 00"><anim id="Smiling" target="mainNpc" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" />Vielen Dank!<tag a="100" b="4" /><delay8 /> <size value="75" />...Danke schön!<size value="100" /><endTag a="100" b="4" /><anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" /><10_7 arg="90" /></message>
 	<message label="201" attrib="00 00 00 00"><anim id="FaintSmile" target="mainNpc" targetSpec="" /><delay8 /><anim id="FaintSmile" target="subNpc" targetSpec="" />Hallo!<tag a="100" b="4" /><delay8 /> <size value="75" />...hallo!<size value="100" /><endTag a="100" b="4" />
 <delay40 />Willkommen in <colour id="1" />Nooks Laden<colour id="65535" />!</message>

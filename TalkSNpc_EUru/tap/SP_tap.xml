@@ -123,6 +123,35 @@
 свободное общение ограничено
 родительским контролем.<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Обращайся ко мне, когда этот
 вопрос будет улажен.</message>
+	<message label="1051" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Связь установлена.<delay frames="40" /> <anim id="EmotEnd" target="actor" targetSpec="" />Попрошу
+секунду твоего внимания, <delay8 />у меня
+для тебя приятные новости.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />С этого момента <delay8 />у тебя есть
+возможность легко и просто снова
+посетить понравившийся сон.<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Недавно виденные сны можно
+теперь выбирать из списка<delay8 />
+и наслаждаться ими снова и снова.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Чтобы снова отправиться в сон из
+списка,<delay8 /> просто скажи мне, что ты
+хочешь<delay8 /> <anim id="Hello" target="actor" targetSpec="" /><colour id="1" />пересмотреть сон<colour id="65535" />.<delay20 /> Ну<tag a="110" b="0" /></message>
+	<message label="1052" attrib="04 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Как будешь готовиться ко сну?</message>
+	<message label="1052_a" attrib="00 00 00 00">Искать по шифру сна.</message>
+	<message label="1052_b" attrib="00 00 00 00">Пересмотреть сон.</message>
+	<message label="1052_c" attrib="00 00 00 00">Я передумал<gender2 m="" f="а" />.</message>
+	<message label="1055" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Превосходно.<delay8 /> <anim id="Nodding" target="actor" targetSpec="" />Выбери сон, который
+хочешь пересмотреть.</message>
+	<message label="1056" attrib="02 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Хочешь пересмотреть сон об
+острове <tag a="115" b="2" arg="0xcd00" />?<delay20 />
+<anim id="QuestionMark" target="actor" targetSpec="" />Я правильно поняла?</message>
+	<message label="1056_a" attrib="00 00 00 00">Точно!</message>
+	<message label="1056_b" attrib="00 00 00 00">Нет.</message>
+	<message label="1057" attrib="02 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Мне очень жаль, <delay8 />но под этим
+<colour id="1" />шифром<colour id="65535" /> больше нет сна. <delay8 />Хочешь
+посетить другой сон?</message>
+	<message label="1057_a" attrib="00 00 00 00">Да.</message>
+	<message label="1057_b" attrib="00 00 00 00">Я передумал<gender2 m="" f="а" />.</message>
+	<message label="1058" attrib="00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />Хм<tag a="110" b="0" /> Похоже, нет снов, которые
+ты можешь пересмотреть.<pageBreak /><anim id="Worried" target="actor" targetSpec="" />Если хочешь посмотреть сон,<delay8 />
+попроси предоставить тебе
+<colour id="1" />шифр сна<colour id="65535" />.</message>
 	<message label="2001" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />С удовольствием. <delay20 /><anim id="Serious" target="actor" targetSpec="" />Но сначала тебе
 следует ознакомиться с <colour id="1" />важной
 информацией<colour id="65535" />.</message>
@@ -223,6 +252,11 @@
 	<message label="3001_01_b" attrib="00 00 00 00">Секретность шифра сна...</message>
 	<message label="3001_01_c" attrib="00 00 00 00">Удали сон.</message>
 	<message label="3001_01_d" attrib="00 00 00 00">Ничего не надо.</message>
+	<message label="3002_02_a" attrib="00 00 00 00">Обнови сон.</message>
+	<message label="3002_02_b" attrib="00 00 00 00">Секретность шифра сна...</message>
+	<message label="3002_02_c" attrib="00 00 00 00">Секретность шифра сна...</message>
+	<message label="3002_02_d" attrib="00 00 00 00">Удали сон.</message>
+	<message label="3002_02_e" attrib="00 00 00 00">Ничего не надо.</message>
 	<message label="3101" attrib="02 00 00 00"><anim id="Serious" target="actor" targetSpec="" />На всякий случай<delay8 /> подтверди, что
 ты хочешь обновить сон об острове
 <tag a="110" b="9" />.<delay20 /> <anim id="QuestionMark" target="actor" targetSpec="" />Подтверждаешь?</message>

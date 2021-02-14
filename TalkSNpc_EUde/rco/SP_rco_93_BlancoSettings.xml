@@ -1,5 +1,5 @@
 <msbt attribsize="4">
-	<message label="001" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />NookLink, <delay8 />hm?<delay20 />
+	<message label="001" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" /><colour id="1" />NookLink<colour id="65535" />, <delay8 />hm?<delay20 />
 Nichts lieber als das!</message>
 	<message label="010" attrib="04 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Möchtest du eine Verbindung zum
 Internet herstellen <delay8 />und Zugriff <anim id="Hello" target="actor" targetSpec="" />auf
@@ -7,9 +7,15 @@ Internet herstellen <delay8 />und Zugriff <anim id="Hello" target="actor" target
 	<message label="010_a" attrib="00 00 00 00">Ja!</message>
 	<message label="010_b" attrib="00 00 00 00">Details bitte.</message>
 	<message label="010_c" attrib="00 00 00 00">Nein danke.</message>
-	<message label="015" attrib="02 00 00 00"><anim id="Eh" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="110" b="1" />, <delay8 />du hast doch bereits <anim id="EmotEnd" target="actor" targetSpec="" />Zugriff auf NookLink. <delay frames="30" /><anim id="QuestionMark" target="actor" targetSpec="" />Möchtest du mehr darüber hören?</message>
+	<message label="015" attrib="02 00 00 00"><anim id="Eh" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="110" b="1" />, <delay8 />du hast doch bereits <anim id="EmotEnd" target="actor" targetSpec="" />Zugriff auf <colour id="1" />NookLink<colour id="65535" />. <delay frames="30" /><anim id="QuestionMark" target="actor" targetSpec="" />Möchtest du mehr darüber hören?</message>
 	<message label="015_a" attrib="00 00 00 00">Ja, Details bitte!</message>
 	<message label="015_b" attrib="00 00 00 00">Nein danke.</message>
+	<message label="016" attrib="04 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Du hast doch bereits Zugriff auf
+<colour id="1" />NookLink<colour id="65535" />! <delay frames="30" /><anim id="QuestionMark" target="actor" targetSpec="" />Wie kann ich dir sonst
+noch helfen, <delay8 /><tag a="110" b="1" />?</message>
+	<message label="016_a" attrib="00 00 00 00">Was ist NookLink?</message>
+	<message label="016_b" attrib="00 00 00 00">Spieldaten hochladen!</message>
+	<message label="016_c" attrib="00 00 00 00">Schon okay...</message>
 	<message label="020" attrib="04 00 00 00">So weit die Erklärung.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Möchtest du also eine Verbindung
 zum Internet herstellen <delay8 />und Zugriff
 <anim id="Hello" target="actor" targetSpec="" />auf <colour id="1" />NookLink<colour id="65535" /> erhalten?</message>
@@ -26,8 +32,8 @@ spielbezogenen Services <delay8 /><anim id="Hello" target="actor" targetSpec="" 
 <colour id="1" />Nintendo Switch Online-App<colour id="65535" /> zu.</message>
 	<message label="120" attrib="00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" /><delay8 />Ich hoffe, du genießt weiterhin
 dein Leben auf <tag a="110" b="9" />.</message>
-	<message label="150" attrib="02 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Es tut mir leid, <delay8 />aber die Einrichtung
-ist fehlgeschlagen. <delay20 /><anim id="QuestionMark" target="actor" targetSpec="" />Versuchen wir es
+	<message label="150" attrib="02 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Es tut mir leid, <delay8 />aber der Prozess ist
+fehlgeschlagen. <delay20 /><anim id="QuestionMark" target="actor" targetSpec="" />Versuchen wir es
 noch einmal?</message>
 	<message label="150_a" attrib="00 00 00 00">Ja, bitte!</message>
 	<message label="150_b" attrib="00 00 00 00">Ein andermal.</message>
@@ -36,6 +42,16 @@ nikation mit anderen<colour id="65535" /><delay8 /> <anim id="Nodding" target="a
 beschränkungen erlaubt werden.<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Ich bringe dich erst mal zum
 Titelbildschirm zurück, <delay8 />hm?
 <delay20 /><anim id="Smiling" target="actor" targetSpec="" />Aber weiterhin viel Spaß!</message>
+	<message label="160" attrib="02 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Ich kann dir gern dabei helfen,<delay8 /> deine
+Spieldaten und dein <colour id="1" />NookLink<colour id="65535" />-Profil
+via Internet hochzuladen,<delay8 /> ja, ja.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Möchtest du <anim id="Hello" target="actor" targetSpec="" />jetzt eine Verbindung
+zum Internet herstellen?</message>
+	<message label="160_a" attrib="00 00 00 00">Sehr gerne!</message>
+	<message label="160_b" attrib="00 00 00 00">Nein, danke.</message>
+	<message label="161" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Deine Spieldaten wurden
+hochgeladen!<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Wenn du einen Moment Zeit hast,<delay8 />
+ruf bitte kurz <colour id="1" />NookLink <colour id="65535" />in der
+<anim id="Hello" target="actor" targetSpec="" /><colour id="1" />Nintendo Switch Online-App<colour id="65535" /> auf.</message>
 	<message label="200" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" /><colour id="1" />NookLink<colour id="65535" /> ist ein spielspezifischer
 Service von Nook Inc.<delay8 /> <anim id="FaintSmile" target="actor" targetSpec="" />für die
 <colour id="1" />Nintendo Switch Online-App<colour id="65535" />.

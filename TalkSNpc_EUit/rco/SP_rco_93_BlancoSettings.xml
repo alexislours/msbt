@@ -1,6 +1,6 @@
 <msbt attribsize="4">
-	<message label="001" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />NookLink, eh? <delay20 />Ma certo!</message>
-	<message label="010" attrib="04 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Bene, bene, <delay8 />sei <gender2 m="pronto" f="pronta" /> a connetterti
+	<message label="001" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" /><colour id="1" />NookLink<colour id="65535" />, eh? <delay20 />Ma certo!</message>
+	<message label="010" attrib="04 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Bene, bene, <delay8 />sei <gender2 m="pronto" f="pronta" /> a collegarti
 a Internet per configurare l'accesso
 a <colour id="1" />NookLink<colour id="65535" />?</message>
 	<message label="010_a" attrib="00 00 00 00">Sì.</message>
@@ -9,8 +9,14 @@ a <colour id="1" />NookLink<colour id="65535" />?</message>
 	<message label="015" attrib="02 00 00 00">Bene, bene, <tag a="110" b="1" /><tag a="110" b="0" /><anim id="Thinking" target="actor" targetSpec="" /> Immagino tu possa già accedere a <colour id="1" />NookLink<colour id="65535" />, sì?<pageBreak /><anim id="QuestionMark" target="actor" targetSpec="" />Volevi sapere di cosa si tratta?</message>
 	<message label="015_a" attrib="00 00 00 00">Sì, per favore!</message>
 	<message label="015_b" attrib="00 00 00 00">Non serve, grazie.</message>
+	<message label="016" attrib="04 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Dovresti già avere accesso
+a <colour id="1" />NookLink<colour id="65535" />, vero? <anim id="QuestionMark" target="actor" targetSpec="" />Dimmi, come
+posso aiutarti, <tag a="110" b="1" />?</message>
+	<message label="016_a" attrib="00 00 00 00">Cos'è NookLink?</message>
+	<message label="016_b" attrib="00 00 00 00">Invia i miei dati di gioco!</message>
+	<message label="016_c" attrib="00 00 00 00">Sono a posto così.</message>
 	<message label="020" attrib="04 00 00 00"><anim id="Explain" target="actor" targetSpec="" />E questo è tutto. <delay20 /><anim id="QuestionMark" target="actor" targetSpec="" />Adesso sei <gender2 m="pronto" f="pronta" /> a
-connetterti a Internet per configurare
+collegarti a Internet per configurare
 l'accesso a <colour id="1" />NookLink<colour id="65535" />?</message>
 	<message label="020_a" attrib="00 00 00 00">Sì.</message>
 	<message label="020_b" attrib="00 00 00 00">Spiegami di nuovo...</message>
@@ -37,6 +43,14 @@ con altri utenti<colour id="65535" /> in Filtro famiglia.
 <anim id="FaintSmile" target="actor" targetSpec="" />Per adesso, <delay8 />torniamo allo schermo
 del titolo e riprendiamo la nostra
 gioiosa vita sull'isola, sì?</message>
+	<message label="160" attrib="02 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Ma certo, <delay20 />ti aiuterò a connetterti
+a Internet per inviare i dati di gioco
+e il profilo che usi su <colour id="1" />NookLink<colour id="65535" />.<pageBreak /><anim id="Hello" target="actor" targetSpec="" />Vogliamo connetterci ora?</message>
+	<message label="160_a" attrib="00 00 00 00">Sì, grazie.</message>
+	<message label="160_b" attrib="00 00 00 00">No, non ora.</message>
+	<message label="161" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />I dati sono stati caricati, sì, sì!<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Quando hai un attimo, ricordati di
+accedere a <colour id="1" />NookLink <colour id="65535" />con l'<colour id="1" />app
+Nintendo Switch Online<colour id="65535" />.</message>
 	<message label="200" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" /><colour id="1" />NookLink<colour id="65535" /> è un servizio specifico del
 gioco sviluppato dalla Nook Inc.,
 per <colour id="1" />Nintendo Switch Online<colour id="65535" />.

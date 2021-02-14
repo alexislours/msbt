@@ -307,6 +307,23 @@
 	<message label="131_a" attrib="00 00 00 00">1 (<colour id="1" /><tag a="90" b="12" arg="0x0" /><colour id="65535" />)</message>
 	<message label="131_b" attrib="00 00 00 00">5 (<colour id="1" /><tag a="90" b="13" arg="0x1" /><colour id="65535" />)</message>
 	<message label="131_c" attrib="00 00 00 00">Я передумал<gender2 m="" f="а" />.</message>
+	<message label="132_01" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="125" b="0" arg="0x200" />?<delay frames="40" />
+Этот товар доступен только
+в октябре! <tag a="100" b="4" /><delay8 /><size value="75" />В октябре!<size value="100" /><endTag a="100" b="4" /></message>
+	<message label="132_02" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" /><colour id="1" />Побеги тыквы<colour id="65535" /> дадут плоды через
+несколько дней после посадки.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Растут они и сами по себе, но
+урожай будет богаче, если
+поливать их каждый день.</message>
+	<message label="132_03" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Тыквы бывают четырех цветов:
+<colour id="1" />оранжевые<colour id="65535" />, <colour id="1" />зеленые<colour id="65535" />, <colour id="1" />желтые
+<colour id="65535" />и <colour id="1" />белые<colour id="65535" />.<pageBreak /><anim id="Serious" target="actor" targetSpec="" />Пока не вырастишь тыкву, не
+узнаешь, какой у нее цвет.<delay frames="40" />
+<anim id="Smiling" target="actor" targetSpec="" />Урожай — всегда сюрприз!</message>
+	<message label="132_04" attrib="04 00 00 00"><anim id="Nodding" target="subNpc" targetSpec="" />Можешь купить сразу несколько.<delay20 />
+<anim id="QuestionMark" target="mainNpc" targetSpec="" />Сколько тебе?</message>
+	<message label="132_04_a" attrib="00 00 00 00">1 (<colour id="1" /><tag a="90" b="12" arg="0x0" /><colour id="65535" />)</message>
+	<message label="132_04_b" attrib="00 00 00 00">5 (<colour id="1" /><tag a="90" b="13" arg="0x1" /><colour id="65535" />)</message>
+	<message label="132_04_c" attrib="00 00 00 00">Я передумал<gender2 m="" f="а" />.</message>
 	<message label="141_01" attrib="00 00 00 00"><anim id="Eh" target="mainNpc" targetSpec="" /><anim id="Eh" target="subNpc" targetSpec="" />Вот как! <delay20 />Поплавать надумал<gender2 m="" f="а" />? <delay20 /><anim id="Nodding" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" />Без
 <tag a="50" b="23" arg="0xcd03" /><tag a="125" b="0" arg="0x0" /> тебе не обойтись.<pageBreak /><anim id="FaintSmile" target="mainNpc" targetSpec="" /><anim id="FaintSmile" target="subNpc" targetSpec="" />Когда соберешься, подойди к нам.
 Дадим тебе пару полезных советов
@@ -331,6 +348,26 @@
 	<message label="142_c" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Откажусь все-таки.</message>
 	<message label="143" attrib="00 00 00 00"><anim id="FaintSmile" target="mainNpc" targetSpec="" /><anim id="FaintSmile" target="subNpc" targetSpec="" />Разумеется!<delay20 /> Для купания в океане
 важно запомнить азы.<tag a="100" b="4" /><delay8 /> <size value="75" />Да-да, азы!<size value="100" /><endTag a="100" b="4" /></message>
+	<message label="144_01" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="125" b="0" arg="0x200" />?
+Ты заинтересован<gender2 m="" f="а" /> в покупке?<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Имей в виду, этот товар доступен
+ограниченное время — только
+в октябре!<tag a="100" b="4" /><delay8 /> <size value="75" />В октябре!<size value="100" /><endTag a="100" b="4" /></message>
+	<message label="144_02" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Эти сезонные предметы пользуются
+спросом, <delay20 />поэтому мы ограничили
+продажу до <colour id="1" />1 в день на покупателя<colour id="65535" />.</message>
+	<message label="144_03" attrib="02 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Будешь брать?</message>
+	<message label="144_03_a" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Беру!</message>
+	<message label="144_03_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Откажусь все-таки.</message>
+	<message label="144_04" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Ой, извини! <delay20 /><anim id="Nodding" target="actor" targetSpec="" />Мы продаем только
+<colour id="1" />по одной конфете в день<colour id="65535" /> на
+покупателя.</message>
+	<message label="144_05" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Сегодня ты уже купил<gender2 m="" f="а" /> конфету,
+заходи завтра за следующей!</message>
+	<message label="144_06" attrib="00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Ты сегодня уже купил<gender2 m="" f="а" /> конфету.
+К сожалению, это был последний
+день продажи конфет в этом году.<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Надеюсь, ты еще придешь за
+ними, когда снова представится
+такая возможность!</message>
 	<message label="200" attrib="00 00 00 00"><anim id="Smiling" target="mainNpc" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" />Спасибо!<tag a="100" b="4" /><delay8 /> <size value="75" />Спасибо тебе!<size value="100" /><endTag a="100" b="4" /><anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" /><10_7 arg="90" /></message>
 	<message label="201" attrib="00 00 00 00"><anim id="FaintSmile" target="mainNpc" targetSpec="" /><delay8 /><anim id="FaintSmile" target="subNpc" targetSpec="" />Привет!<tag a="100" b="4" /><delay8 /> <size value="75" />Здравствуй!<size value="100" /><endTag a="100" b="4" /><delay40 />
 Приветствуем в <colour id="1" />лавке Нука<colour id="65535" />!</message>

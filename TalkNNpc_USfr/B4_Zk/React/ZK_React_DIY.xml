@@ -50,7 +50,7 @@ que ce plan de bricolage prenne
 la poussière.
 <anim id="Hello" target="actor" targetSpec="" />T'as qu'à le prendre, tu trouveras
 bien un ami qui en voudra.<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Après tout, qui n'a jamais rêvé
-d'avoir <tag a="50" b="2" /><tag a="125" b="0" arg="0x0" /><delay20 /><anim id="EmotEnd" target="actor" targetSpec="" />?<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Estampillé <tag a="110" b="10" />, qui plus est!</message>
+d'avoir <tag a="50" b="2" /><colour id="1" /><tag a="125" b="0" arg="0x0" /><colour id="65535" /><delay20 /><anim id="EmotEnd" target="actor" targetSpec="" />?<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Estampillé <tag a="110" b="10" />, qui plus est!</message>
 	<message label="020" attrib="00 00 00 00 00 00 00 00"><anim id="AbsentMindedness" target="actor" targetSpec="" />Avec un peu de chance<tag a="110" b="0" /><delay20 /> D'ici peu
 tout le monde voudra fabriquer
 <tag a="50" b="2" /><tag a="125" b="0" arg="0x200" />!
@@ -58,6 +58,36 @@ Tu pourras peut-être m'aider à
 démarrer une autre sensation
 internationale, <tag a="110" b="5" />!</message>
 	<message label="021" attrib="00 00 00 00 00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />Voici le plan de bricolage pour
-fabriquer <tag a="50" b="2" /><tag a="125" b="0" arg="0x0" />.<pageBreak /><delay frames="40" /><anim id="Explain" target="actor" targetSpec="" />Tu verras, c'est pas un jeu
+fabriquer <tag a="50" b="2" /><colour id="1" /><tag a="125" b="0" arg="0x0" /><colour id="65535" />.<pageBreak /><delay frames="40" /><anim id="Explain" target="actor" targetSpec="" />Tu verras, c'est pas un jeu
 d'enfant, mais presque.</message>
+	<message label="030" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />La mauvaise nouvelle,<delay8 /> c'est qu'il te
+faudra des citrouilles. <delay frames="40" /><anim id="Nodding" target="actor" targetSpec="" />La bonne,<delay8 />
+c'est qu'tu peux les faire pousser!</message>
+	<message label="031" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Au fait, si tu veux sortir un peu de
+l'ordinaire, hésite pas à utiliser des
+citrouilles de différentes couleurs!
+<anim id="Nodding" target="actor" targetSpec="" />Au final, quand t'auras terminé ton
+bricolage, il sera de la même couleur
+que la citrouille utilisée.
+Et pour avoir une citrouille de la
+couleur désirée<tag a="110" b="0" /> <anim id="OhGeez" target="actor" targetSpec="" />fais-en pousser
+plein jusqu'à obtenir la bonne.</message>
+	<message label="032" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />J'suis bien content que tu sois
+revenu<gender2 m="" f="e" />.<delay frames="40" /> Tiens, <tag a="110" b="5" />!</message>
+	<message label="033" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />J'pourrais te parler de ce plan en
+long,<anim id="FaintSmile" target="actor" targetSpec="" /> en large et en travers,<anim id="FaintSmile" target="actor" targetSpec="" /> mais
+tu le connais déjà, <tag a="110" b="5" />!</message>
+	<message label="034" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Mais j'vais pas te laisser partir
+les pattes vides et le cœur lourd.<delay20 />
+Tiens, quelques ingrédients!</message>
+	<message label="035" attrib="00 00 00 00 00 00 00 00"><anim id="SmugFace" target="actor" targetSpec="" />Ces <colour id="1" />citrouilles<colour id="65535" /> ont poussé sous le
+double soleil <gender4 m="de " f="d'" /><tag a="110" b="8" /> et de mon sourire éclatant.</message>
+	<message label="036" attrib="00 00 00 00 00 00 00 00"><anim id="Hello" target="actor" targetSpec="" />Ce n'est pas un plan,<delay8 /> mais c'est fort
+gentil de ma part quand même,<delay8 /> si je
+peux me permettre<tag a="110" b="0" /> Un <colour id="1" />bonbon<colour id="65535" />!<pageBreak /><anim id="SmugFace" target="actor" targetSpec="" />Accepte cette petite douceur pour
+te remercier de la tienne. <delay20 /><anim id="Grin" target="actor" targetSpec="" />
+Et puis, l'Halloween s'en vient<tag a="110" b="0" /></message>
+	<message label="037" attrib="00 00 00 00 00 00 00 00"><anim id="Silent" target="actor" targetSpec="" />Évite d'engloutir ce bonbon avant
+le début de la fête de l'Halloween<tag a="110" b="0" />
+<anim id="WrySmile" target="actor" targetSpec="" />Tu me remercieras!</message>
 </msbt>

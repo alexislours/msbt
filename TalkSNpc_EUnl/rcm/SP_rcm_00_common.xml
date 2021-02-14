@@ -76,7 +76,7 @@ wilt?<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />We kunnen je
 	<message label="038" attrib="02 00 00 00"><anim id="Worried" target="mainNpc" targetSpec="" /><anim id="Worried" target="subNpc" targetSpec="" />O jee<tag a="110" b="0" /><delay40 /> Het spijt me, maar voor dit
 soort dingen kunnen we je niets
 betalen.<pageBreak />We kunnen het wel kosteloos voor je
-opuimen, als je dat wilt.
+opruimen, als je dat wilt.
 </message>
 	<message label="038_a" attrib="00 00 00 00">Ruim maar op, alsjeblieft!</message>
 	<message label="038_b" attrib="00 00 00 00">Ik hou het wel bij me.</message>
@@ -276,11 +276,25 @@ dus sla je slag!<tag a="100" b="4" /><delay8 /> <size value="75" />Grijp je kans
 	<message label="131_a" attrib="00 00 00 00">1 (<colour id="1" /> <tag a="90" b="12" arg="0x0" /><colour id="65535" />)</message>
 	<message label="131_b" attrib="00 00 00 00">5 (<colour id="1" /> <tag a="90" b="13" arg="0x1" /><colour id="65535" />)</message>
 	<message label="131_c" attrib="00 00 00 00">Ik heb me bedacht.</message>
+	<message label="132_01" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />O, <tag a="125" b="0" arg="0x200" />?<delay frames="40" /> Die kun je alleen in oktober kopen! <tag a="100" b="4" /><delay8 /><size value="75" />Een exclusieve aanbieding!<size value="100" /><endTag a="100" b="4" /></message>
+	<message label="132_02" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Een paar dagen nadat je deze
+pompoenzaailingen hebt geplant,
+kun je ze al oogsten!<anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Wanneer je ze dagelijks water geeft,
+zal je oogst nog beter uitvallen!</message>
+	<message label="132_03" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Pompoen zijn er in vier kleuren:
+<colour id="1" />oranje<colour id="65535" />, <colour id="1" />groen<colour id="65535" />, <colour id="1" />geel<colour id="65535" /> en <colour id="1" />wit<colour id="65535" />.<pageBreak /><anim id="Serious" target="actor" targetSpec="" />Van te voren weet je niet welke
+kleur je krijgt!<delay frames="40" /> <anim id="Smiling" target="actor" targetSpec="" />Dat maakt het
+boerenleven des te spannender!</message>
+	<message label="132_04" attrib="04 00 00 00"><anim id="Nodding" target="subNpc" targetSpec="" />Hier kun je er meerdere tegelijk van
+kopen.<delay20 /><anim id="QuestionMark" target="mainNpc" targetSpec="" /> Hoeveel mogen het er zijn?</message>
+	<message label="132_04_a" attrib="00 00 00 00">1 (<colour id="1" /> <tag a="90" b="12" arg="0x0" /><colour id="65535" />)</message>
+	<message label="132_04_b" attrib="00 00 00 00">5 (<colour id="1" /> <tag a="90" b="13" arg="0x1" /><colour id="65535" />)</message>
+	<message label="132_04_c" attrib="00 00 00 00">Ik heb me bedacht.</message>
 	<message label="141_01" attrib="00 00 00 00"><anim id="Eh" target="mainNpc" targetSpec="" /><anim id="Eh" target="subNpc" targetSpec="" />Aha! <delay20 />Ben je van plan je in het water
 te begeven?<pageBreak /><anim id="Nodding" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" />Ja, ja<tag a="110" b="0" /> Wie wil zwemmen of duiken, kan <tag a="50" b="2" /><tag a="125" b="0" arg="0x0" /> zoals <tag a="50" b="19" arg="0x12 0xcd00 0x8 0x64 0x65 0x7a 0x65 0x6 0x64 0x69 0x74 0x8 0x64 0x65 0x7a 0x65" /> goed gebruiken!<pageBreak /><anim id="FaintSmile" target="mainNpc" targetSpec="" /><anim id="FaintSmile" target="subNpc" targetSpec="" />Voordat je naar het strand gaat,
 geven we je graag nog een paar
 zwemtips!<tag a="100" b="4" /><delay8 /> <size value="75" />Veiligheid voorop!<size value="100" /><endTag a="100" b="4" /></message>
-	<message label="141_02" attrib="00 00 00 00"><anim id="Explain" target="mainNpc" targetSpec="" />Alleerst moet je een geschikt <colour id="1" />duikpak<colour id="65535" /> hebben <anim id="Nodding" target="subNpc" targetSpec="" />zoals <tag a="50" b="19" arg="0x12 0xcd00 0x8 0x64 0x65 0x7a 0x65 0x6 0x64 0x69 0x74 0x8 0x64 0x65 0x7a 0x65" /> <tag a="50" b="23" arg="0xcd03" /><tag a="125" b="0" arg="0x0" /> hier.<pageBreak /><anim id="Smiling" target="mainNpc" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" />Dan kies je op het strand of op de
+	<message label="141_02" attrib="00 00 00 00"><anim id="Explain" target="mainNpc" targetSpec="" />Allereerst moet je een geschikt <colour id="1" />duikpak<colour id="65535" /> hebben <anim id="Nodding" target="subNpc" targetSpec="" />zoals <tag a="50" b="19" arg="0x12 0xcd00 0x8 0x64 0x65 0x7a 0x65 0x6 0x64 0x69 0x74 0x8 0x64 0x65 0x7a 0x65" /> <tag a="50" b="23" arg="0xcd03" /><tag a="125" b="0" arg="0x0" /> hier.<pageBreak /><anim id="Smiling" target="mainNpc" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" />Dan kies je op het strand of op de
 rotsen een mooi plekje om het water
 in te duiken door op <colour id="1" /><colour id="65535" /> te drukken!<pageBreak /><anim id="Explain" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" />Om lekker een paar baantjes te
 trekken hoef je enkel op <colour id="1" /> <colour id="65535" />te
@@ -298,6 +312,26 @@ wezens <colour id="65535" />je in de diepte opwachten!
 	<message label="143" attrib="00 00 00 00"><anim id="FaintSmile" target="mainNpc" targetSpec="" /><anim id="FaintSmile" target="subNpc" targetSpec="" />Natuurlijk!<delay20 /> Bij het zwemmen in de
 zee moet je rekening houden met
 het volgende<tag a="110" b="0" /><tag a="100" b="4" /><delay8 /> <size value="75" />Niet onbelangrijk!<size value="100" /><endTag a="100" b="4" /></message>
+	<message label="144_01" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Ah, heb je interesse in <tag a="125" b="0" arg="0x200" />?<pageBreak /><anim id="Nodding" target="actor" targetSpec="" /><tag a="50" b="19" arg="0x12 0xcd02 0x6 0x44 0x69 0x65 0x6 0x44 0x61 0x74 0x6 0x44 0x69 0x65" /> bieden we alleen in oktober aan,<delay8 />
+dus je kunt beter snel handelen!<tag a="100" b="4" /><delay8 />
+<size value="75" />Grijp je kans!<size value="100" /><endTag a="100" b="4" /></message>
+	<message label="144_02" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Omdat we verwachten dat er veel
+vraag naar zal zijn, <delay20 />mag <colour id="1" />iedere klant
+er maar één per dag<colour id="65535" /> kopen.</message>
+	<message label="144_03" attrib="02 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Wil je er eentje kopen?</message>
+	<message label="144_03_a" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Koop ik!</message>
+	<message label="144_03_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Nee, toch maar niet...</message>
+	<message label="144_04" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />O, het spijt me, <delay20 /><anim id="Nodding" target="actor" targetSpec="" />maar we kunnen
+<colour id="1" />iedere klant maar één snoepje per
+dag<colour id="65535" /> verkopen.</message>
+	<message label="144_05" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Omdat je er vandaag al eentje hebt
+gekocht, hoop ik dat je morgen weer
+terugkomt.</message>
+	<message label="144_06" attrib="00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Je hebt er vandaag al eentje gekocht,<delay8 />
+en helaas verkopen we vanaf morgen
+geen snoep meer<tag a="110" b="0" /><pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Maar zodra we het in het volgende
+jaar weer aanbieden, <delay8 />moet je maar
+snel je slag slaan!</message>
 	<message label="200" attrib="00 00 00 00"><anim id="Smiling" target="mainNpc" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" />Dank je wel!<tag a="100" b="4" /><delay8 /> <size value="75" />Bedankt!<size value="100" /><endTag a="100" b="4" /><anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" /><10_7 arg="90" /></message>
 	<message label="201" attrib="00 00 00 00"><anim id="FaintSmile" target="mainNpc" targetSpec="" /><delay8 /><anim id="FaintSmile" target="subNpc" targetSpec="" />Hallo!<tag a="100" b="4" /><delay8 /> <size value="75" />Hoi, hoi!<size value="100" /><endTag a="100" b="4" /><delay40 /> Welkom bij <colour id="1" />Nooks hoek<colour id="65535" />!</message>
 	<message label="202" attrib="00 00 00 00"><anim id="Smiling" target="mainNpc" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" />Welkom!<tag a="100" b="4" /><delay8 /> <size value="75" />Ja, ja!<size value="100" /><endTag a="100" b="4" /> <pageBreak /><anim id="Shocked" target="mainNpc" targetSpec="" /><anim id="Shocked" target="subNpc" targetSpec="" />O,<delay20 /> <tag a="110" b="1" />!<delay40 /><anim id="BigSmile" target="mainNpc" targetSpec="" /><anim id="BigSmile" target="subNpc" targetSpec="" /> Wat leuk dat je er bent!<tag a="100" b="4" /><delay8 /> <size value="75" />Gezellig!<size value="100" /><endTag a="100" b="4" /></message>

@@ -1,12 +1,12 @@
 <msbt attribsize="8">
-	<message label="999" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />這麼說起來，我好像在哪裡讀過……<delay20 />
+	<message label="999" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
+	<message label="999_01" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />這麼說起來，我好像在哪裡讀過……<delay20 />
 「室內擺設會表現出人的內心世界」這句話。<delay frames="40" />
 <anim id="Blushing" target="actor" targetSpec="" />所以被人看到家裡會讓我有點緊張呢，<tag a="110" b="6" />。</message>
-	<message label="001" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />晚上睡不著的時候，<delay8 />我都會在床上<delay20 />
+	<message label="001" attrib="00 00 00 00 00 00 00 00"><20_2 arg="10" /><20_2 arg="9" /><anim id="FaintSmile" target="actor" targetSpec="" />我有時<delay8 />會在<tag a="125" b="0" arg="0x0" />上<delay20 />
 看看書，<delay8 />或是打毛線。<delay frames="40" />
 <anim id="Hesitate" target="actor" targetSpec="" />這樣是不是<delay8 />有點懶散呢<tag a="110" b="0" />
-<anim id="EmotEnd" target="actor" targetSpec="" /><20_2 arg="10" /><20_2 arg="9" />在<tag a="125" b="0" arg="0x0" />上，<delay8 />
-不論睡覺還是坐著都非常舒服，<20_3 arg="3" /><delay8 /><20_3 arg="6" />
+<20_3 arg="3" /><20_3 arg="6" /><anim id="EmotEnd" target="actor" targetSpec="" />在那上面<delay8 />不論睡覺還是坐著都非常舒服，<delay8 />
 <anim id="Blushing" target="actor" targetSpec="" />我一不小心就會在上面待很久呢，<tag a="110" b="6" />。</message>
 	<message label="002" attrib="00 00 00 00 00 00 00 00">其實我不太看電視，<delay20 />
 但我還是會<anim id="SmugFace" target="actor" targetSpec="" />每天收看天氣預報喔。<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />畢竟如果天氣不好，衣服就很難晾乾，<delay20 />
@@ -97,4 +97,31 @@
 <20_3 arg="3" /><20_3 arg="6" />不知道會不會有天起床後，<delay8 />
 <anim id="Pardon" target="actor" targetSpec="" />發現那東西展現出驚人的成長，<delay frames="40" />
 <anim id="Laughing" target="actor" targetSpec="" />因此大吃一驚呢？<tag a="110" b="6" />。</message>
+	<message label="028" attrib="00 00 00 00 00 00 00 00"><20_2 arg="10" /><20_2 arg="9" /><anim id="Blushing" target="actor" targetSpec="" />我覺得<delay20 />那張照片<delay8 />
+拍得還滿好看的喔。<pageBreak /><20_3 arg="3" /><20_3 arg="6" /><anim id="Hesitate" target="actor" targetSpec="" />啊，<delay20 />可是本人卻沒有那麼<tag a="110" b="0" /><delay frames="30" />
+<anim id="Frantic" target="actor" targetSpec="" />呃，<delay20 />你這樣一直盯著我看，<delay8 />
+會害我很緊張的～<tag a="110" b="6" />。</message>
+	<message label="029" attrib="00 00 00 00 00 00 00 00"><20_2 arg="10" /><20_2 arg="9" />我的房間裡擺著
+<tag a="125" b="0" arg="0x0" />，<delay20 />
+<anim id="Hello" target="actor" targetSpec="" />你是不是感到很意外啊？<pageBreak /><20_3 arg="3" /><20_3 arg="6" /><anim id="Explain" target="actor" targetSpec="" />把這種東西擺在房間裡
+能讓人覺得很開心喔。<delay20 />
+<anim id="Love" target="actor" targetSpec="" />我覺得超棒的～<tag a="110" b="6" />。</message>
+	<message label="030" attrib="00 00 00 00 00 00 00 00"><20_2 arg="10" /><20_2 arg="9" /><anim id="Eh" target="actor" targetSpec="" />你說<tag a="125" b="0" arg="0x0" />嗎？<delay frames="40" />
+<anim id="Laughing" target="actor" targetSpec="" />我想之後也許可以<delay20 />靠它轉換心情，<delay8 />
+所以就一直閒置在那裡了。
+<20_3 arg="3" /><20_3 arg="6" /><anim id="Confused" target="actor" targetSpec="" />啊，<delay20 />因為它也算是很好的擺設，<delay8 />
+所以這不是閒置，<delay20 />
+<anim id="SmugFace" target="actor" targetSpec="" />而是有計畫性地展示！<tag a="110" b="6" />。</message>
+	<message label="031" attrib="00 00 00 00 00 00 00 00"><20_2 arg="10" /><20_2 arg="9" />這個<tag a="125" b="0" arg="0x0" />，<delay20 />
+<anim id="Silent" target="actor" targetSpec="" />雖然不像生活必需品那樣，<delay frames="40" />
+<20_3 arg="3" /><20_3 arg="6" /><anim id="ShyBoy" target="actor" targetSpec="" />沒有就沒辦法過生活<tag a="110" b="0" />
+<anim id="Nodding" target="actor" targetSpec="" />但是它總能讓我真切地感受到
+我生活在這個家裡，<delay20 />
+<anim id="Smiling" target="actor" targetSpec="" />讓我非常安心呢，<tag a="110" b="6" />。</message>
+	<message label="032" attrib="00 00 00 00 00 00 00 00"><20_2 arg="10" /><20_2 arg="9" />雖然我一直在研究
+<anim id="Thinking" target="actor" targetSpec="" />有沒有辦法<delay8 />可以善用<delay20 />
+<tag a="125" b="0" arg="0x0" /><tag a="110" b="0" />
+<20_3 arg="3" /><20_3 arg="6" /><anim id="BigSmile" target="actor" targetSpec="" />不過我最近開始覺得，
+<anim id="FaintSmile" target="actor" targetSpec="" />這種家電還是<delay20 />
+普通地使用比較好，<tag a="110" b="6" />。</message>
 </msbt>

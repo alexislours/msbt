@@ -1,7 +1,6 @@
 <msbt attribsize="8">
-	<message label="001" attrib="00 00 01 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Приветик!<delay20 /> Хочешь сыграть в игру?<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Если ты выиграешь, я отдам тебе
-<tag a="50" b="23" arg="0xcd01" /><tag a="125" b="0" arg="0x0" />.<delay20 />
-Ну, <delay20 /><anim id="Pardon" target="actor" targetSpec="" />что скажешь? <tag a="50" b="3" /><tag a="110" b="5" />!</message>
+	<message label="001" attrib="00 00 01 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Приветик!<delay20 /> Хочешь сыграть в игру?<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Что скажешь? <delay20 />Если ты выиграешь,
+<delay8 /><anim id="Hello" target="actor" targetSpec="" />я отдам тебе <tag a="50" b="23" arg="0xcd01" /><tag a="125" b="0" arg="0x0" />!</message>
 	<message label="001_a" attrib="00 00 00 00 00 00 00 00">Хочу!</message>
 	<message label="001_b" attrib="00 00 00 00 00 00 00 00">Сейчас не могу...</message>
 	<message label="002" attrib="00 00 01 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Объяснить тебе правила?</message>

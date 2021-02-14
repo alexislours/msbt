@@ -205,6 +205,13 @@ de l'île, les pièces dans les maisons,
 tes motifs perso et le contenu du
 panneau d'affichage.<colour id="65535" /></message>
 	<message label="0831_a" attrib="01 00">OK</message>
+	<message label="0841" attrib="08 00">Veux-tu retirer le rêve
+<gender4 m="de " f="d'" /><colour id="0" /><tag a="115" b="2" arg="0xcd00" /><colour id="65535" />
+de la liste?</message>
+	<message label="0841_a" attrib="01 00">Non.</message>
+	<message label="0841_b" attrib="01 00">Oui, le retirer.</message>
+	<message label="0842" attrib="01 09">Tes rêves favoris ne peuvent pas être
+retirés de la liste.</message>
 	<message label="0921" attrib="06 06">Tu peux publier jusqu'à deux
 messages au cours d'un voyage.</message>
 	<message label="0921_a" attrib="01 06">OK</message>
@@ -274,8 +281,8 @@ Veux-tu réessayer?</message>
 	<message label="1116_a" attrib="01 00">Annuler</message>
 	<message label="1117" attrib="02 00">Connexion à Internet...</message>
 	<message label="1118" attrib="02 00">Envoi de l'article...
-<colour id="0" />Sauvegarde en cours, n'appuie pas
-sur le bouton POWER .<colour id="65535" /></message>
+<colour id="0" />Sauvegarde en cours, ne touche pas
+au bouton POWER .<colour id="65535" /></message>
 	<message label="1119" attrib="06 00">La somme de <colour id="1" /><tag a="90" b="26" arg="0x0" />
 <colour id="65535" />va t'être remise.</message>
 	<message label="1119_a" attrib="01 00">OK</message>
@@ -694,8 +701,7 @@ tu as joué.</message>
 	<message label="1372_a" attrib="01 00">OK</message>
 	<message label="1373" attrib="02 00">Mise à jour des données
 de sauvegarde...
-<colour id="0" />N'appuie pas sur
-le bouton POWER .<colour id="65535" /></message>
+<colour id="0" />Ne touche pas au bouton POWER .<colour id="65535" /></message>
 	<message label="1374" attrib="06 00">Les données de sauvegarde ont été
 mises à jour. Le jeu va démarrer.</message>
 	<message label="1374_a" attrib="01 00">OK</message>
@@ -788,6 +794,11 @@ en raison d'une mauvaise connexion
 avec le réseau. Réactive la 
 communication et réessaie.</message>
 	<message label="1456_a" attrib="01 00">Retour</message>
+	<message label="1457" attrib="08 00">Tu dois te connecter à Internet avant
+d'utiliser l'appli Meilleurs amis.
+Veux-tu te connecter maintenant?</message>
+	<message label="1457_a" attrib="01 00"><anim id="EmotEnd" target="actor" targetSpec="" />Non.</message>
+	<message label="1457_b" attrib="01 00">Se connecter.</message>
 	<message label="1501" attrib="08 00">Tu veux vraiment oublier tous
 les changements que tu as faits?</message>
 	<message label="1501_a" attrib="01 00">Nooon!</message>
@@ -1074,7 +1085,7 @@ pour <colour id="1" />3 000 clochettes<colour id="65535" />.
 une escapade un peu spéciale.
 Demande des détails à l'aéroport.
 <colour id="0" />Ticket émis directement.<colour id="65535" /></message>
-	<message label="3003" attrib="01 00">Ensemble de 6 plans de bricolage
+	<message label="3003" attrib="01 00">Ensemble de 6 <colour id="1" />plans de bricolage<colour id="65535" />
 pour outils d'excellente durabilité.
 <colour id="0" />Données envoyées sur le NookPhone
 du client au moment de l'échange.<colour id="65535" /></message>
@@ -1106,7 +1117,7 @@ plus de choses.
 professionnels à l'application de
 <colour id="1" />Motifs personnalisés<colour id="65535" />.
 <colour id="0" />Application mise à jour directement.<colour id="65535" /></message>
-	<message label="3011" attrib="01 00">Plan de bricolage spécial disponible
+	<message label="3011" attrib="01 00"><colour id="1" />Plan de bricolage<colour id="65535" /> spécial disponible
 uniquement par échange de points.
 À utiliser pour personnaliser l'île.
 <colour id="0" />Plan imprimé directement.<colour id="65535" /></message>
@@ -1148,6 +1159,14 @@ nookitude envahisse ton intérieur!
 par Nook Inc. te permet de nager et
 d'explorer librement les fonds marins.
 <colour id="0" />Produit livré par voie postale.<colour id="65535" /></message>
+	<message label="3022" attrib="01 00">Révolutionne ton look grâce à de
+nombreuses peintures corporelles en
+utilisant un <colour id="1" />miroir<colour id="65535" /> ou une <colour id="1" />coiffeuse<colour id="65535" />.
+<colour id="0" />Instructions imprimées sur place.<colour id="65535" /></message>
+	<message label="3023" attrib="01 00">Révolutionne ton look grâce à de
+nouveaux choix de colorations des yeux
+en utilisant un <colour id="1" />miroir<colour id="65535" /> ou une <colour id="1" />coiffeuse<colour id="65535" />.
+<colour id="0" />Instructions imprimées sur place.<colour id="65535" /></message>
 	<message label="5001" attrib="01 00"><colour id="1" />Appareil photo<colour id="65535" />
 Prends des photos et applique
 divers filtres et effets sur tes clichés.<pageBreak /><colour id="0" />Les photos sont sauvegardées dans
@@ -1189,7 +1208,7 @@ L'application a été mise à jour et contient
 créatures marines que tu as attrapées.</message>
 	<message label="5031" attrib="01 00"><colour id="1" />Créations<colour id="65535" />
 Consulte cette application pour en
-savoir plus sur les plans de bricolage
+savoir plus sur les <colour id="1" />plans de bricolage<colour id="65535" />
 que tu as obtenus.<pageBreak />Tu peux effectuer des recherches
 ciblées, te constituer une liste de
 favoris... Laisse-toi contaminer
@@ -1663,6 +1682,5 @@ l'archive est terminée. Le jeu
 va reprendre.</message>
 	<message label="9013_a" attrib="01 00">OK</message>
 	<message label="9016" attrib="02 00">Sauvegarde...
-<colour id="0" />N'appuie pas sur
-le bouton POWER .<colour id="65535" /></message>
+<colour id="0" />Ne touche pas au bouton POWER .<colour id="65535" /></message>
 </msbt>

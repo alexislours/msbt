@@ -1,8 +1,7 @@
 <msbt attribsize="4">
 	<message label="001" attrib="00 00 00 00"><tag a="100" b="10" />Bienvenid<gender2 m="o" f="a" /><tag a="110" b="0" /><endTag a="100" b="10" /><10_8 arg="55" /></message>
 	<message label="001_01" attrib="01 00 00 00">Si no estoy equivocada,<delay8 /> vienes de
-<tag a="110" b="9" />,<delay8 /> ¿no?<delay20 /> Y debes
-ser <gender2 m="el" f="la" /> célebre <tag a="110" b="1" />.</message>
+<tag a="110" b="9" />,<delay8 /> ¿no?<delay20 /> Y debes ser <gender2 m="el" f="la" /> célebre <tag a="110" b="1" />.</message>
 	<message label="001_01_a" attrib="00 00 00 00">¡Así es!</message>
 	<message label="001_01_b" attrib="00 00 00 00">¿Cómo lo sabes?</message>
 	<message label="001_02" attrib="01 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Mmm<tag a="110" b="0" /><delay8 /> Hay pocos lugares en donde
@@ -105,7 +104,7 @@ para iniciar la descarga<tag a="110" b="0" /></message>
 	<message label="1003" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />¿Cuál es el <colour id="1" />número de sueño<colour id="65535" /> que
 usaremos?</message>
 	<message label="1004" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Gracias.<delay20 /> <anim id="Silent" target="actor" targetSpec="" />Ahora dame un momentito
-para buscarlo en el catálogo<tag a="110" b="0" /></message>
+para buscarlo en la biblioteca<tag a="110" b="0" /></message>
 	<message label="1005" attrib="02 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Parece que ese <colour id="1" />número de sueño<colour id="65535" />
 corresponde a una isla llamada
 <tag a="115" b="2" arg="0xcd00" />.<delay20 /> <anim id="QuestionMark" target="actor" targetSpec="" />¿Es correcto?</message>
@@ -138,6 +137,39 @@ comunicación con otros usuarios en
 el control parental para poder soñar.
 <anim id="FaintSmile" target="actor" targetSpec="" />Avísame cuando lo hayas hecho,<delay8 />
 querid<gender2 m="o" f="a" />.</message>
+	<message label="1051" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Ya estamos conectados.<delay frames="40" /><anim id="EmotEnd" target="actor" targetSpec="" /> Antes de
+seguir,<delay8 /> me gustaría explicarte algo
+que creo que te gustará saber.
+<anim id="Explain" target="actor" targetSpec="" />A partir de ahora, si visitas un sueño
+que te guste especialmente,<delay8 /> podrás
+volver a visitarlo muy fácilmente.
+<anim id="FaintSmile" target="actor" targetSpec="" />Los sueños que hayas visitado
+recientemente se guardarán en
+una lista.
+<anim id="EmotEnd" target="actor" targetSpec="" />Para visitar de nuevo un sueño de
+esa lista,<delay8 /> basta con decirme que
+quieres "<colour id="1" />Volver a un sueño<colour id="65535" />".
+<anim id="Hello" target="actor" targetSpec="" />Continuemos<tag a="110" b="0" /></message>
+	<message label="1052" attrib="04 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />¿Qué clase de sueño quieres que
+prepare?</message>
+	<message label="1052_a" attrib="00 00 00 00">Usar número de sueño</message>
+	<message label="1052_b" attrib="00 00 00 00">Volver a un sueño</message>
+	<message label="1052_c" attrib="00 00 00 00">Olvídalo</message>
+	<message label="1055" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />De acuerdo.<delay20 /><anim id="Nodding" target="actor" targetSpec="" /> Elige el sueño de la lista
+al que quieres volver.</message>
+	<message label="1056" attrib="02 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Quieres volver a la isla llamada
+<tag a="115" b="2" arg="0xcd00" />.<delay20 /><anim id="QuestionMark" target="actor" targetSpec="" /> ¿Verdad?</message>
+	<message label="1056_a" attrib="00 00 00 00">¡Correcto!</message>
+	<message label="1056_b" attrib="00 00 00 00">Creo que no...</message>
+	<message label="1057" attrib="02 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Me temo que ya no existe ningún
+sueño con ese <colour id="1" />número de sueño<colour id="65535" />,
+querid<gender2 m="o" f="a" />.<pageBreak /><anim id="QuestionMark" target="actor" targetSpec="" />¿Hay algún otro sueño que quieras
+visitar hoy?</message>
+	<message label="1057_a" attrib="00 00 00 00">¡Sí, claro!</message>
+	<message label="1057_b" attrib="00 00 00 00">Pues no</message>
+	<message label="1058" attrib="00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />Mmm<tag a="110" b="0" /><delay8 /> Parece que no hay ningún
+sueño que puedas volver a visitar.<pageBreak /><anim id="Worried" target="actor" targetSpec="" />Si deseas soñar,<delay8 /> tendrás que darme
+un <colour id="1" />número de sueño<colour id="65535" />, querid<gender2 m="o" f="a" />.</message>
 	<message label="2001" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />¡Desde ya!<delay20 /> <anim id="Serious" target="actor" targetSpec="" />Pero antes<tag a="110" b="0" /><delay20 />
 ¿podrías echarle un vistazo
 a esta <colour id="1" />información importante<colour id="65535" />?</message>
@@ -145,10 +177,10 @@ a esta <colour id="1" />información importante<colour id="65535" />?</message>
 Primero,<delay8 /> convertiré tu recuerdo de
 <tag a="110" b="9" /> en un sueño.<anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak />Y luego nos conectaremos a <colour id="1" />internet<colour id="65535" />
 para subir el sueño y que se añada
-al catálogo.</message>
+a la biblioteca.</message>
 	<message label="2002_01" attrib="00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />¡Ah!<delay20 /> Hay algo más que deberías
 tener en cuenta sobre el sueño que
-quieres compartir<tag a="110" b="0" /><pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Sus visitantes pueden llevarse los
+quieres compartir<tag a="110" b="0" /><pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Sus visitantes pueden conseguir los
 diseños que hayas publicado en
 el <colour id="1" />portal de diseños personalizados<colour id="65535" />.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Echa un vistazo al portal antes de
 subir el sueño por si quieres añadir
@@ -208,7 +240,7 @@ podemos efectuar más operaciones.<delay40 />
 <anim id="Explain" target="actor" targetSpec="" />Mañana ya podrás subir uno nuevo.</message>
 	<message label="2034" attrib="00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />¡Estupendo!<delay20 /> Por cierto,<delay8 /> hay otra cosa
 importante que debes saber sobre
-el sueño que quieres compartir<tag a="110" b="0" /><pageBreak /><anim id="Explain" target="actor" targetSpec="" />Sus visitantes pueden llevarse los
+el sueño que quieres compartir<tag a="110" b="0" /><pageBreak /><anim id="Explain" target="actor" targetSpec="" />Sus visitantes pueden conseguir los
 diseños que hayas publicado en
 el <colour id="1" />portal de diseños personalizados<colour id="65535" />.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Echa un vistazo al portal antes de
 subir el sueño por si quieres añadir
@@ -238,6 +270,11 @@ compartir el sueño,<delay8 /> querid<gender2 m="o" f="a" />?</message>
 	<message label="3001_01_b" attrib="00 00 00 00">Sobre la privacidad...</message>
 	<message label="3001_01_c" attrib="00 00 00 00">Lo borramos</message>
 	<message label="3001_01_d" attrib="00 00 00 00">Dejémoslo entonces...</message>
+	<message label="3002_02_a" attrib="00 00 00 00">Lo actualizamos</message>
+	<message label="3002_02_b" attrib="00 00 00 00">Sobre la privacidad...</message>
+	<message label="3002_02_c" attrib="00 00 00 00">Sobre la privacidad...</message>
+	<message label="3002_02_d" attrib="00 00 00 00">Lo borramos</message>
+	<message label="3002_02_e" attrib="00 00 00 00">Dejémoslo entonces...</message>
 	<message label="3101" attrib="02 00 00 00"><anim id="Serious" target="actor" targetSpec="" />La precaución es lo primero,<delay8 />
 querid<gender2 m="o" f="a" /> <tag a="110" b="3" />,<delay8 /> así que permíteme que te pregunte<tag a="110" b="0" /><pageBreak /><anim id="QuestionMark" target="actor" targetSpec="" />¿Seguro que quieres actualizar el
 sueño de <tag a="110" b="9" />?</message>
@@ -366,8 +403,8 @@ necesitarás disponer de <colour id="1" />acceso a
 internet<colour id="65535" />.<delay20 /> ¡Asegúrate de tenerlo listo!</message>
 	<message label="4003_02" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Y te cuento una última cosa acerca
 de los visitantes que pisen tu isla
-en sueños:
-<anim id="Explain" target="actor" targetSpec="" />Ellos podrían llevarse los diseños
+en sueños<tag a="110" b="0" />
+<anim id="Explain" target="actor" targetSpec="" />Ellos podrían conseguir los diseños
 que hayas publicado en el <colour id="1" />portal
 de diseños personalizados<colour id="65535" />.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Antes de que subas tu sueño,<delay8 /> echa
 un vistazo al portal por si quieres

@@ -140,6 +140,38 @@ den Sie besuchen möchten?</message>
 schränkungen „Freie Kommunikation
 mit anderen“ erlauben...<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Bitte suchen Sie mich erneut auf,<delay8 />
 wenn alles bereit ist.</message>
+	<message label="1051" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Die Verbindung wurde aufgebaut.<delay frames="40" />
+<anim id="EmotEnd" target="actor" targetSpec="" />Dürfte ich kurz eines anmerken?<delay20 />
+Es wird Ihnen zusagen, <delay8 />hoffe ich<tag a="110" b="0" /><pageBreak /><anim id="Explain" target="actor" targetSpec="" />Sollten Sie einen besonders
+angenehmen Traum erleben,<delay8 /> können
+Sie ihn ganz einfach wiederfinden.<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Kürzlich besuchte Träume sind
+nämlich ab sofort auf einer Liste zu
+sehen.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Möchten Sie einen davon erneut
+besuchen, <delay8 />sagen Sie mir einfach<delay8 />
+<anim id="Hello" target="actor" targetSpec="" />„<colour id="1" />Traum erneut besuchen<colour id="65535" />“.<delay20 /> Also<tag a="110" b="0" /></message>
+	<message label="1052" attrib="04 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Wie darf ich den Traum denn heute
+für Sie heraufbeschwören?</message>
+	<message label="1052_a" attrib="00 00 00 00">Via Schlummeranschrift</message>
+	<message label="1052_b" attrib="00 00 00 00">Traum erneut besuchen</message>
+	<message label="1052_c" attrib="00 00 00 00">Doch nicht träumen...</message>
+	<message label="1055" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Sehr gern.<delay20 /> <anim id="Nodding" target="actor" targetSpec="" />Bitte wählen Sie den
+Traum aus, <delay8 />den Sie erneut
+durchleben möchten.</message>
+	<message label="1056" attrib="02 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Sie möchten also noch einmal von
+<tag a="115" b="2" arg="0xcd00" /> träumen?<delay20 /> <anim id="QuestionMark" target="actor" targetSpec="" />Ist das korrekt?</message>
+	<message label="1056_a" attrib="00 00 00 00">Jawohl!</message>
+	<message label="1056_b" attrib="00 00 00 00">Nein...</message>
+	<message label="1057" attrib="02 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Leider befindet sich unter dieser
+<colour id="1" />Schlummeranschrift<colour id="65535" /> kein Traum mehr
+in meiner Bibliothek<tag a="110" b="0" /><pageBreak />Möchten Sie stattdessen einen
+anderen Traum erleben?</message>
+	<message label="1057_a" attrib="00 00 00 00">Ja, bitte!</message>
+	<message label="1057_b" attrib="00 00 00 00">Nein, dann nicht.</message>
+	<message label="1058" attrib="00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />Hmm<tag a="110" b="0" /> <delay20 />Es scheint gerade keine
+Träume zu geben, <delay8 />die Sie erneut
+besuchen können.<pageBreak /><anim id="Worried" target="actor" targetSpec="" />Wenn Sie träumen möchten, <delay8 />müssten
+Sie eine <colour id="1" />Schlummeranschrift
+<colour id="65535" />angeben...</message>
 	<message label="2001" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Sehr wohl. <delay20 /><anim id="Serious" target="actor" targetSpec="" />Dann müsste ich Sie
 bitten,<delay8 /> die folgenden <colour id="1" />wichtigen
 Informationen <colour id="65535" />durchzulesen<tag a="110" b="0" /></message>
@@ -246,6 +278,11 @@ etwas für Sie tun?</message>
 	<message label="3001_01_b" attrib="00 00 00 00">Anschrift-Sichtbarkeit...</message>
 	<message label="3001_01_c" attrib="00 00 00 00">Bitte löschen!</message>
 	<message label="3001_01_d" attrib="00 00 00 00">Nichts weiter...</message>
+	<message label="3002_02_a" attrib="00 00 00 00">Bitte aktualisieren!</message>
+	<message label="3002_02_b" attrib="00 00 00 00">Anschrift-Sichtbarkeit...</message>
+	<message label="3002_02_c" attrib="00 00 00 00">Anschrift-Sichtbarkeit...</message>
+	<message label="3002_02_d" attrib="00 00 00 00">Bitte löschen!</message>
+	<message label="3002_02_e" attrib="00 00 00 00">Nichts weiter...</message>
 	<message label="3101" attrib="02 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Sie möchten also den bestehenden
 Traum von <tag a="110" b="9" /> aktualisieren<tag a="110" b="0" /><delay20 /> <anim id="QuestionMark" target="actor" targetSpec="" />Sind Sie ganz sicher?</message>
 	<message label="3101_a" attrib="00 00 00 00">Ja, aktualisieren!</message>

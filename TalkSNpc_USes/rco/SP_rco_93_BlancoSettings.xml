@@ -1,5 +1,5 @@
 <msbt attribsize="4">
-	<message label="001" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Con los ajustes de NookLink.<delay8 />
+	<message label="001" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Con los ajustes de <colour id="1" />NookLink<colour id="65535" />.<delay8 />
 ¡Entendido!</message>
 	<message label="010" attrib="04 00 00 00"><anim id="Explain" target="actor" targetSpec="" />¿Estás list<gender2 m="o" f="a" /> para conectarte a
 internet y configurar el acceso
@@ -10,6 +10,12 @@ a <colour id="1" />NookLink<colour id="65535" />?</message>
 	<message label="015" attrib="02 00 00 00"><anim id="Eh" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="110" b="1" />, creo que ya tienes acceso a <colour id="1" />NookLink<colour id="65535" />.<delay20 /><anim id="QuestionMark" target="actor" targetSpec="" /> ¿Quieres oír la explicación de todas formas?</message>
 	<message label="015_a" attrib="00 00 00 00">Sí, por favor</message>
 	<message label="015_b" attrib="00 00 00 00">No, gracias</message>
+	<message label="016" attrib="04 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Creo que ya tienes acceso a
+<colour id="1" />NookLink<colour id="65535" />, ¿no?<delay20 /> <anim id="QuestionMark" target="actor" targetSpec="" />¿Qué más puedo
+hacer por ti, <tag a="110" b="1" />?</message>
+	<message label="016_a" attrib="00 00 00 00">¿Qué es NookLink?</message>
+	<message label="016_b" attrib="00 00 00 00">Enviar datos de juego</message>
+	<message label="016_c" attrib="00 00 00 00">No necesito nada</message>
 	<message label="020" attrib="04 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Y eso es todo.<delay20 /> <anim id="FaintSmile" target="actor" targetSpec="" />¿Estás list<gender2 m="o" f="a" /> para
 conectarte a internet y configurar
 el acceso a <colour id="1" />NookLink<colour id="65535" />?</message>
@@ -37,6 +43,17 @@ los ajustes del control parental.
 <anim id="FaintSmile" target="actor" targetSpec="" />Ahora volvamos a la pantalla del
 título para que puedas seguir
 jugando, ¿sí?</message>
+	<message label="160" attrib="02 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Claro, nos conectaremos a internet
+y enviaré los datos de juego y
+tu perfil de <colour id="1" />NookLink<colour id="65535" />, sí, sí.
+<anim id="Hello" target="actor" targetSpec="" />¿Quieres conectarte a internet
+ahora?</message>
+	<message label="160_a" attrib="00 00 00 00">¡Sí!</message>
+	<message label="160_b" attrib="00 00 00 00">No, gracias</message>
+	<message label="161" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />¡Ya enviamos tus datos de juego
+a internet!<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Cuando puedas, abre <colour id="1" />NookLink <colour id="65535" />con
+la <colour id="1" />aplicación de Nintendo Switch
+Online <colour id="65535" />así lo compruebas.</message>
 	<message label="200" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" /><colour id="1" />NookLink <colour id="65535" />es un servicio específico
 para este juego que desarrolla Nook
 Inc. para <colour id="1" />Nintendo Switch Online<colour id="65535" />.

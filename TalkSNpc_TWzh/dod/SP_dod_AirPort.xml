@@ -237,21 +237,23 @@
 <anim id="Hello" target="actor" targetSpec="" />現在大門已經打開！</message>
 	<message label="120_01" attrib="00 00 00 00"><anim id="Confused" target="actor" targetSpec="" />不好意思！<delay frames="40" />
 <anim id="Worried" target="actor" targetSpec="" />這位客人，<delay20 />
-您正在使用<colour id="1" />島嶼創作家<colour id="65535" />吧<tag a="110" b="0" />
+您正在使用<colour id="1" />島嶼創作家<colour id="65535" />吧<tag a="110" b="0" /><10_7 arg="90" />
 <anim id="Explain" target="actor" targetSpec="" />在通訊遊玩或飛行途中，<delay20 />
 基於安全上的考量，
-是禁止使用<colour id="1" />島嶼創作家<colour id="65535" />的<tag a="110" b="0" /><anim id="EmotEnd" target="actor" targetSpec="" />
-<anim id="ShyBoy" target="actor" targetSpec="" />因此，<delay20 />非常抱歉，
-我這裡得先強制結束
-您正在使用的<colour id="1" />島嶼創作家<colour id="65535" /><tag a="110" b="0" /></message>
+是禁止使用<colour id="1" />島嶼創作家<colour id="65535" />的<tag a="110" b="0" /><anim id="EmotEnd" target="actor" targetSpec="" /><10_7 arg="90" />
+<anim id="ShyBoy" target="actor" targetSpec="" />因此，<delay20 />非常抱歉，<delay frames="30" />
+我這裡得先強制結束<delay20 />
+您正在使用的<colour id="1" />島嶼創作家<colour id="65535" /><tag a="110" b="0" /><10_7 arg="90" /></message>
 	<message label="120_02" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />謝謝您的幫忙！<delay frames="40" />
-<anim id="Smiling" target="actor" targetSpec="" />那麼<tag a="110" b="0" /></message>
+<anim id="EmotEnd" target="actor" targetSpec="" />那麼<tag a="110" b="0" /><10_7 arg="60" /></message>
 	<message label="121_01" attrib="00 00 00 00"><anim id="Confused" target="actor" targetSpec="" />不好意思！<delay frames="40" />
-<anim id="ShyBoy" target="actor" targetSpec="" />我又忘了確認您的<colour id="1" />島嶼創作家<colour id="65535" />了<tag a="110" b="0" /><pageBreak /><anim id="Worried" target="actor" targetSpec="" />在通訊遊玩或飛行途中，
-是禁止使用<colour id="1" />島嶼創作家<colour id="65535" />的，<delay20 />
-因此我這裡得先幫您強制結束了<tag a="110" b="0" /></message>
+<anim id="WrySmile" target="actor" targetSpec="" />我又忘記
+確認您的<colour id="1" />島嶼創作家<colour id="65535" />了<tag a="110" b="0" /><10_7 arg="60" />
+<anim id="Worried" target="actor" targetSpec="" />在通訊遊玩或飛行途中，<delay20 />
+是禁止使用<colour id="1" />島嶼創作家<colour id="65535" />的，<delay frames="30" />
+因此我這裡得先幫您強制結束了<tag a="110" b="0" /><10_7 arg="60" /></message>
 	<message label="121_02" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />再次謝謝您的幫忙<tag a="110" b="0" /><delay frames="40" />
-<anim id="Smiling" target="actor" targetSpec="" />那麼<tag a="110" b="0" /></message>
+<anim id="EmotEnd" target="actor" targetSpec="" />那麼<tag a="110" b="0" /><10_7 arg="60" /></message>
 	<message label="122" attrib="00 00 00 00"><snpcAnim id="DodRoger" target="actor" targetSpec="" /><delay20 />我現在<delay8 />就將大門打開！</message>
 	<message label="125" attrib="00 00 00 00">我補充說明一下，<delay20 /><anim id="Nodding" target="actor" targetSpec="" />在大門開著的期間，<delay20 />
 訪客可以自由進出<tag a="110" b="0" /><pageBreak /><anim id="Explain" target="actor" targetSpec="" />同時也可能會有<delay8 />

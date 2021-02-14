@@ -26,9 +26,9 @@
 	<message label="007" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />这样啊～<delay frames="40" />
 <anim id="Negative" target="actor" targetSpec="" />我现在没有时间，<delay20 />
 <anim id="Greeting" target="actor" targetSpec="" />待会儿再一起玩吧～<tag a="110" b="6" />。</message>
-	<message label="008" attrib="00 00 01 00 00 00 00 00"><tag a="110" b="0" /><anim id="Eh" target="actor" targetSpec="" />诶？<delay frames="40" />
-<anim id="EmotEnd" target="actor" targetSpec="" /><tag a="125" b="0" arg="0x0" />的做法，<delay20 />
-你也知道吗？<tag a="110" b="6" />。</message>
+	<message label="008" attrib="00 00 01 00 00 00 00 00"><tag a="110" b="0" /><anim id="Eh" target="actor" targetSpec="" />诶？<delay frames="60" />
+<anim id="EmotEnd" target="actor" targetSpec="" />你说<tag a="125" b="0" arg="0x0" />的话，<delay20 />
+你也知道制作方法吗？<tag a="110" b="6" />。</message>
 	<message label="008_a" attrib="00 00 00 00 00 00 00 00">知道！</message>
 	<message label="008_b" attrib="00 00 00 00 00 00 00 00">当然！</message>
 	<message label="009" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />这样啊～<delay frames="40" />
@@ -52,7 +52,34 @@
 	<message label="020" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />我希望有很多人都来制作<delay8 />
 <tag a="125" b="0" arg="0x0" />，<delay20 />
 那样我会很高兴的～<tag a="110" b="6" />。</message>
-	<message label="021" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />这个是<delay20 /><tag a="125" b="0" arg="0x0" />的<delay8 />
-制作方法～<delay frames="40" />
-<anim id="Hello" target="actor" targetSpec="" />注意别弄丢咯～！<tag a="110" b="6" />。</message>
+	<message label="021" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />啊，<delay8 />刚才没能给你的
+<tag a="125" b="0" arg="0x0" />的手册，<delay8 />
+你是来拿它的吧？<pageBreak /><anim id="Explain" target="actor" targetSpec="" />你瞧，<delay8 />制作方法已经记在这上面了，<delay20 />
+<anim id="Hello" target="actor" targetSpec="" />你小心点不要弄丢哦～</message>
+	<message label="030" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />要制作这个的话，<delay8 />
+得先有南瓜才行，<delay20 /><anim id="FaintSmile" target="actor" targetSpec="" />等种出南瓜后
+再试着挑战看看吧～<tag a="110" b="6" />。</message>
+	<message label="031" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />要有相应颜色的南瓜，<delay20 />
+才能够对它<delay8 />
+进行改造哦～<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />先种下很多很多的南瓜，<delay20 />
+之后或许就会渐渐结出<delay8 />
+<anim id="Greeting" target="actor" targetSpec="" />不一样颜色的南瓜吧～<tag a="110" b="6" />。</message>
+	<message label="032" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />啊，<delay20 />你是来拿<delay20 />
+刚才没能交给你的东西的吧。<delay frames="40" />
+<anim id="Greeting" target="actor" targetSpec="" />来，<delay8 />请收下这个吧～</message>
+	<message label="033" attrib="00 00 00 00 00 00 00 00"><tag a="110" b="0" /><anim id="Eh" target="actor" targetSpec="" />咦？<delay frames="40" />
+你也知道制作方法吗？<delay frames="30" /></message>
+	<message label="034" attrib="00 00 00 00 00 00 00 00">这样啊，<delay20 /><anim id="Greeting" target="actor" targetSpec="" />真不愧是你～！<delay frames="40" />
+<anim id="FaintSmile" target="actor" targetSpec="" />那么，<delay8 />我就不给你手册了，
+分你一些用作材料的<colour id="1" />南瓜<colour id="65535" />吧～</message>
+	<message label="035" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />用这<colour id="1" />南瓜<colour id="65535" />制作出超棒的物品吧～<delay frames="40" />
+<tag a="125" b="0" arg="0x0" /><delay20 />
+最适合现在这个季节了～！<tag a="110" b="6" />。</message>
+	<message label="036" attrib="00 00 00 00 00 00 00 00"><anim id="ShyBoy" target="actor" targetSpec="" />这样啊，<delay20 />我本来是想，<delay8 />
+如果你不知道制作方法，就把手册给你的<tag a="110" b="0" /><delay frames="40" />
+<anim id="Thinking" target="actor" targetSpec="" />有没有什么别的能给你的东西呢～<pageBreak /><anim id="IdeaBulb" target="actor" targetSpec="" /><delay20 />对了！<delay frames="40" />
+<anim id="Smiling" target="actor" targetSpec="" /><colour id="1" />糖果<colour id="65535" />怎么样？<delay frames="40" />
+现在正好是万圣节时期嘛！</message>
+	<message label="037" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />万圣节怎么也少不了<colour id="1" />糖果<colour id="65535" />对吧～<delay frames="40" />
+<anim id="Blushing" target="actor" targetSpec="" />我呀，<delay8 />收集了很多呢～<tag a="110" b="6" />。</message>
 </msbt>

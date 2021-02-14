@@ -30,9 +30,8 @@
 	<message label="005_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="player" targetSpec="" />Нет, не готов<gender2 m="" f="а" />.</message>
 	<message label="006" attrib="00 00 02 00 00 00 00 00"><anim id="TakenAback" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="110" b="3" /><tag a="110" b="0" /><delay20 />
 <anim id="Thinking" target="actor" targetSpec="" />Скажу без обиняков.
-<tag a="50" b="3" /><tag a="110" b="5" />!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />На днях слышала, как кто-то
-назвал тебя <tag a="110" b="3" />.<delay20 />
-И я подумала: <delay frames="40" /><anim id="Pardon" target="actor" targetSpec="" />«Отличная идея!»<pageBreak /><anim id="Restless" target="actor" targetSpec="" />Как бы это сказать<tag a="110" b="0" /><delay20 /> Ты не против,
+<tag a="50" b="3" /><tag a="110" b="5" />!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />На днях я услышала твое прозвище,<delay20 />
+<tag a="50" b="3" /><tag a="115" b="0" arg="0xcd00" />, и подумала: <delay frames="40" /><anim id="Pardon" target="actor" targetSpec="" />«Отличная идея!»<pageBreak /><anim id="Restless" target="actor" targetSpec="" />Как бы это сказать<tag a="110" b="0" /><delay20 /> Ты не против,
 если и я буду тебя так называть?</message>
 	<message label="006_a" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Пожалуйста!</message>
 	<message label="006_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="player" targetSpec="" />Не надо, пожалуйста.
@@ -75,6 +74,10 @@
 <anim id="Nodding" target="actor" targetSpec="" />Ты себя знаешь, <tag a="110" b="6" />!<anim id="FaintSmile" target="actor" targetSpec="" /></message>
 	<message label="110" attrib="00 00 00 00 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Что? <delay20 />Не поняла!<delay frames="40" /> <anim id="ShyBoy" target="actor" targetSpec="" />Повтори <delay20 />еще
 разок. <tag a="50" b="3" /><tag a="110" b="5" />!</message>
+	<message label="111" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Поняла. <delay8 />Хочешь, чтобы было просто
+«<tag a="110" b="1" />»?<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Звучит неплохо.<delay8 /> <anim id="Grin" target="actor" targetSpec="" />Я ничего не
+придумаю класснее, чем
+«<tag a="110" b="1" />». <tag a="50" b="3" /><tag a="110" b="6" />!</message>
 	<message label="200" attrib="00 00 00 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Правда? <tag a="50" b="3" /><tag a="110" b="5" />! <delay frames="40" /><anim id="Blushing" target="actor" targetSpec="" />Ой, <delay20 />спасибо,
 <tag a="110" b="3" />!</message>
 	<message label="201" attrib="00 00 00 00 00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Не повезло мне сегодня.<delay20 /> <anim id="Thinking" target="actor" targetSpec="" />Но я же

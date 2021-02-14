@@ -47,35 +47,74 @@
 <anim id="FaintSmile" target="actor" targetSpec="" />주신 거예요～<pageBreak /><anim id="Hesitate" target="actor" targetSpec="" />저한테 안 어울릴까봐 걱정했는데<delay20 />
 <anim id="EmotEnd" target="actor" targetSpec="" />입다 보니까 지금은<delay8 />
 <anim id="SmugFace" target="actor" targetSpec="" />어울리는 것 같아요, <tag a="110" b="6" />!</message>
-	<message label="101" attrib="00 00 00 00 00 00 00 00"><anim id="Dance" target="actor" targetSpec="" />어떤가요,<delay20 />
+	<message label="101" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
+	<message label="101_01" attrib="00 00 00 00 00 00 00 00"><anim id="Dance" target="actor" targetSpec="" />어떤가요,<delay20 />
 이 <tag a="125" b="5" arg="0xcd00" />!<delay frames="40" />
 <anim id="Smiling" target="actor" targetSpec="" />귀엽지 않나요?<pageBreak /><anim id="AbsentMindedness" target="actor" targetSpec="" />이런 옷을 입으면<delay8 />
 달콤하고 부드러운 과자를
 만들고 싶어져요, <tag a="110" b="6" />!</message>
-	<message label="102" attrib="00 00 00 00 00 00 00 00"><tag a="125" b="5" arg="0xcd00" /><gender5 m="을" f="를" /> 입으면<delay8 />
+	<message label="101_02" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" /><tag a="110" b="4" />님! <delay8 />이걸 봐주세요!<delay frames="40" />
+<anim id="Blushing" target="actor" targetSpec="" /><tag a="125" b="5" arg="0xcd00" /><gender6 m="으로" f="로" />
+코디에 포인트를 줘봤어요
+<anim id="AbsentMindedness" target="actor" targetSpec="" />이런 느낌의 옷이<delay20 />
+잘 어울리는 사람이 되고 싶다고<delay8 />
+다시 한번 생각했답니다, <tag a="110" b="6" />～</message>
+	<message label="102" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
+	<message label="102_01" attrib="00 00 00 00 00 00 00 00"><tag a="125" b="5" arg="0xcd00" /><gender5 m="을" f="를" /> 입으면<delay8 />
 저도 어른스러운 분위기가
 <anim id="EmotEnd" target="actor" targetSpec="" />난답니다!<pageBreak /><anim id="AbsentMindedness" target="actor" targetSpec="" />이런 스타일에는<delay20 />
 밀크티보다<delay8 />
 커피가 어울리겠죠? <tag a="110" b="6" />?</message>
-	<message label="103" attrib="00 00 00 00 00 00 00 00">이 <tag a="125" b="5" arg="0xcd00" />,<delay20 />
+	<message label="102_02" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" /><tag a="110" b="4" />님, 어떤가요?<delay frames="40" />
+<anim id="Dance" target="actor" targetSpec="" /><tag a="125" b="5" arg="0xcd00" /><gender5 m="을" f="를" /> 입은<delay8 />
+제 모습 말이에요!
+<anim id="Blushing" target="actor" targetSpec="" />조금 어른스러운 느낌으로 입어 봤는데<delay20 />
+잘 어울리나요? <tag a="110" b="6" />～</message>
+	<message label="103" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
+	<message label="103_01" attrib="00 00 00 00 00 00 00 00">이 <tag a="125" b="5" arg="0xcd00" />,<delay20 />
 <anim id="EmotEnd" target="actor" targetSpec="" />멋지지 않나요?<pageBreak /><anim id="Explain" target="actor" targetSpec="" />이렇게 심플한 옷일수록<delay8 />
 소재가 중요한 법이죠!<delay20 />
 마치 <anim id="Smiling" target="actor" targetSpec="" />요리처럼요, <tag a="110" b="6" />!</message>
-	<message label="104" attrib="00 00 00 00 00 00 00 00">이 <tag a="125" b="5" arg="0xcd00" />,<delay20 />
+	<message label="103_02" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />제가 지금 입고 있는
+<tag a="125" b="5" arg="0xcd00" /><gender5 m="은" f="는" /><delay8 />
+<anim id="FaintSmile" target="actor" targetSpec="" />심플해서 마음에 들어요
+<anim id="AbsentMindedness" target="actor" targetSpec="" />매일 입어도 질리지 않는<delay8 />
+쌀밥에 김치찌개같은 조합이랄까요<tag a="110" b="0" /><delay20 />
+<anim id="Love" target="actor" targetSpec="" />입으면 왠지 안심이 돼요, <tag a="110" b="6" />～</message>
+	<message label="104" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
+	<message label="104_01" attrib="00 00 00 00 00 00 00 00">이 <tag a="125" b="5" arg="0xcd00" />,<delay20 />
 입기만 해도<delay8 />
 <anim id="HappyFlower" target="actor" targetSpec="" />럭셔리해진 기분이 들어요!<pageBreak /><anim id="HappyDance" target="actor" targetSpec="" />후후후, <delay20 />오늘 티타임에는
 큰맘 먹고 <delay8 /><tag a="135" b="7" arg="0xcd00" />에
 생크림을 올려봐야겠어요! <tag a="110" b="6" />!</message>
-	<message label="105" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />이 <tag a="125" b="5" arg="0xcd00" /><gender5 m="은" f="는" /><delay20 />
+	<message label="104_02" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />럭셔리한 옷을 입으면<delay8 />
+저도 럭셔리해 보일까 싶어서<delay20 /> 입어봤어요!<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" /><tag a="125" b="5" arg="0xcd00" /><gender5 m="이" f="" />요～<pageBreak /><anim id="Thinking" target="actor" targetSpec="" />하지만 사실 경험해 본 적이 없어서<delay frames="40" />
+<anim id="ShyBoy" target="actor" targetSpec="" />럭셔리한 제 자신이<delay8 />
+잘 상상은 안 되네요, <tag a="110" b="6" />～</message>
+	<message label="105" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
+	<message label="105_01" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />이 <tag a="125" b="5" arg="0xcd00" /><gender5 m="은" f="는" /><delay20 />
 입기만 해도<delay8 />
 <anim id="Dance" target="actor" targetSpec="" />기운이 솟는 것 같아요!<pageBreak /><anim id="AbsentMindedness" target="actor" targetSpec="" />음～ <delay8 />마실 것에 비유하자면<delay frames="40" />
 <anim id="IdeaBulb" target="actor" targetSpec="" />탄산이 톡톡 터지는<delay8 />
 <tag a="135" b="1" arg="0xcd00" /><delay8 /><anim id="EmotEnd" target="actor" targetSpec="" /> 느낌이랄까요? <tag a="110" b="6" />?</message>
-	<message label="106" attrib="00 00 00 00 00 00 00 00"><anim id="Hello" target="actor" targetSpec="" />저 어때요?<delay frames="40" />
+	<message label="105_02" attrib="00 00 00 00 00 00 00 00"><tag a="125" b="5" arg="0xcd00" /> 같은<delay8 />
+활동적인 옷은 <delay20 /><anim id="Nodding" target="actor" targetSpec="" />착용감이나 디자인 때문에
+자주 입는데요<tag a="110" b="0" />
+<anim id="ShyBoy" target="actor" targetSpec="" />실내를 더 좋아하는 저한테도
+그럭저럭 잘 어울려서<delay20 />
+<anim id="Laughing" target="actor" targetSpec="" />꽤 마음에 들어요! <tag a="110" b="6" />!</message>
+	<message label="106" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
+	<message label="106_01" attrib="00 00 00 00 00 00 00 00"><anim id="Hello" target="actor" targetSpec="" />저 어때요?<delay frames="40" />
 <anim id="FaintSmile" target="actor" targetSpec="" /><tag a="125" b="5" arg="0xcd00" /><gender5 m="을" f="를" /> 입으면<delay8 />
 자연스럽게 몸가짐이 단정해져요!<pageBreak /><anim id="AbsentMindedness" target="actor" targetSpec="" />이런 복장으로
 <tag a="135" b="7" arg="0xcd00" /><gender5 m="을" f="를" /> 만들면<delay8 /> 고급스러운
 맛을 낼 수 있을 것 같아요, <tag a="110" b="6" />!</message>
+	<message label="106_02" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />오늘은 <delay8 /><tag a="125" b="5" arg="0xcd00" /><gender5 m="을" f="를" />
+입어봤어요<delay frames="40" />
+<anim id="Blushing" target="actor" targetSpec="" />어떤가요? <delay20 />저, <delay8 />우아해 보이나요?<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />예전부터 이런 스타일의 옷을
+입어보고 싶었거든요～<delay20 />
+<anim id="Love" target="actor" targetSpec="" />이렇게 경험하게 돼서 기뻐요, <tag a="110" b="6" />!</message>
 	<message label="201" attrib="00 00 00 00 00 00 00 00">저기, <delay20 />이 <anim id="Dance" target="actor" targetSpec="" /><tag a="125" b="5" arg="0xcd00" /><delay20 />
 어떤가요?<pageBreak /><anim id="Blushing" target="actor" targetSpec="" />딱히 약속은 없지만<delay20 />
 이런 <delay8 />나들이 옷을 입으니까

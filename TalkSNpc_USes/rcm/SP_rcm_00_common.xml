@@ -306,6 +306,26 @@ tráelos! <size value="75" /><tag a="100" b="4" /><delay8 />¡Te daremos el dobl
 	<message label="131_a" attrib="00 00 00 00">Una (<colour id="1" /><tag a="90" b="12" arg="0x0" /> <colour id="65535" />)</message>
 	<message label="131_b" attrib="00 00 00 00">Cinco (<colour id="1" /><tag a="90" b="13" arg="0x1" /> <colour id="65535" />)</message>
 	<message label="131_c" attrib="00 00 00 00">Cambié de parecer</message>
+	<message label="132_01" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />¿<tag a="50" b="3" /><tag a="50" b="1" /><tag a="125" b="0" arg="0x200" />?<delay8 />
+Es un producto especial que solo
+vendemos en octubre.<tag a="100" b="4" /><delay8 /> <size value="75" />¡Solo en octubre!<size value="100" /><endTag a="100" b="4" /></message>
+	<message label="132_02" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Puedes plantarlas para que,<delay8 /> en unos
+pocos días,<delay8 /> se conviertan en
+calabazas que puedas cosechar.
+<anim id="FaintSmile" target="actor" targetSpec="" />No necesitan ningún tipo de cuidado,<delay8 />
+pero si las riegas todos los días,<delay8 />
+el producto será de mejor calidad.</message>
+	<message label="132_03" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Puedes cultivar cuatro tipos de
+calabazas diferentes:<delay8 /> <colour id="1" />naranjas<colour id="65535" />,
+<colour id="1" />verdes<colour id="65535" />, <colour id="1" />amarillas <colour id="65535" />y <colour id="1" />blancas<colour id="65535" />.
+<anim id="Serious" target="actor" targetSpec="" />Es imposible saber de qué color
+serán hasta que empiecen a crecer.<delay20 />
+<anim id="Smiling" target="actor" targetSpec="" />¡Así es más emocionante!</message>
+	<message label="132_04" attrib="04 00 00 00"><anim id="Nodding" target="subNpc" targetSpec="" />Puedo venderte un solo retoño
+o varios.<delay20 /> <anim id="QuestionMark" target="mainNpc" targetSpec="" />¿Cuántos quieres?</message>
+	<message label="132_04_a" attrib="00 00 00 00">Una (<colour id="1" /><tag a="90" b="12" arg="0x0" /> <colour id="65535" />)</message>
+	<message label="132_04_b" attrib="00 00 00 00">Cinco (<colour id="1" /><tag a="90" b="13" arg="0x1" /> <colour id="65535" />)</message>
+	<message label="132_04_c" attrib="00 00 00 00">Cambié de parecer</message>
 	<message label="141_01" attrib="00 00 00 00"><anim id="Eh" target="mainNpc" targetSpec="" />Ah, <anim id="Eh" target="subNpc" targetSpec="" />¿estás pensando en ir a nadar?<delay20 />
 <anim id="Nodding" target="mainNpc" targetSpec="" />Sí, <anim id="EmotEnd" target="subNpc" targetSpec="" />entonces te va a venir bien
 <tag a="50" b="2" /><tag a="125" b="0" arg="0x0" />.
@@ -338,6 +358,28 @@ solo <tag a="90" b="26" arg="0x0" />.
 	<message label="143" attrib="00 00 00 00"><anim id="FaintSmile" target="mainNpc" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" />¿Necesitas que te refresquemos la
 memoria?<delay20 /> ¡Claro que sí! Veamos qué
 debes saber antes de nadar.<tag a="100" b="4" /><delay8 /><anim id="Nodding" target="subNpc" targetSpec="" /> <size value="75" />¡Y bucear!<size value="100" /><endTag a="100" b="4" /></message>
+	<message label="144_01" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />¿<tag a="50" b="3" /><tag a="50" b="1" /><tag a="125" b="0" arg="0x0" />?
+Imaginé que te interesaría eso.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Es un producto especial que solo
+vendemos en octubre.<tag a="100" b="4" /><delay8 /><size value="75" /> ¡Solo en octubre!<size value="100" /><endTag a="100" b="4" /></message>
+	<message label="144_02" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Como es un producto de temporada,<delay8 />
+esperamos que tenga mucha
+demanda.
+<anim id="FaintSmile" target="actor" targetSpec="" />Por eso hemos limitado la compra
+a <colour id="1" />una unidad por cliente, por día<colour id="65535" />.</message>
+	<message label="144_03" attrib="02 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />¿Te gustaría comprar una unidad?</message>
+	<message label="144_03_a" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />¡Para mí!</message>
+	<message label="144_03_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Cambié de idea</message>
+	<message label="144_04" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Vaya, lo siento,<delay8 /> <anim id="Nodding" target="actor" targetSpec="" />pero solo podemos
+vender <colour id="1" />una unidad por cliente,
+por día<colour id="65535" />.</message>
+	<message label="144_05" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Como hoy ya compraste,<delay8 />
+tendrás que volver mañana si
+quieres más.</message>
+	<message label="144_06" attrib="00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Ya compraste hoy,<delay8 /> y me temo
+que es el último día que van
+a estar a la venta.
+<anim id="Smiling" target="actor" targetSpec="" />Espero que vuelvas la próxima vez
+que estén a la venta.</message>
 	<message label="200" attrib="00 00 00 00"><anim id="Smiling" target="mainNpc" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" />¡Gracias!<tag a="100" b="4" /><delay8 /> <size value="75" />¡Hasta pronto!<size value="100" /><endTag a="100" b="4" /><anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" /><10_7 arg="90" /></message>
 	<message label="201" attrib="00 00 00 00"><anim id="FaintSmile" target="mainNpc" targetSpec="" /><anim id="FaintSmile" target="subNpc" targetSpec="" />¡Hola! <tag a="100" b="4" /><delay8 /><size value="75" />¡Hola!<size value="100" /><endTag a="100" b="4" /><delay8 /> ¡Bienvenid<gender2 m="o" f="a" /> a <colour id="1" /><tag a="50" b="0" arg="0x1 0xcd00" />MiniNook<colour id="65535" />!</message>
 	<message label="202" attrib="00 00 00 00"><anim id="Smiling" target="mainNpc" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" />¡Bienvenid<gender2 m="o" f="a" />!<delay20 /> <size value="75" /><tag a="100" b="4" /><delay8 />¡Pasa, pasa!<endTag a="100" b="4" /><size value="100" /><pageBreak /><anim id="Eh" target="mainNpc" targetSpec="" /><anim id="Eh" target="subNpc" targetSpec="" />¡Qué alegría, <tag a="110" b="1" />!<delay20 />

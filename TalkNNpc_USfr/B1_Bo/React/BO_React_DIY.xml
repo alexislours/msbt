@@ -16,9 +16,8 @@ plancher m'a soufflé les instructions
 à l'oreille dans mon sommeil.<pageBreak /><anim id="Laughing" target="actor" targetSpec="" />Alors il faut que j'en fabrique <tag a="50" b="17" arg="0x12 0xcd00 0x4 0x75 0x6e 0x6 0x75 0x6e 0x65 0x0" />
 avant que j'oublie tout ça!</message>
 	<message label="003" attrib="00 00 02 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Regarde un peu ça! C'est
-les plans pour fabriquer <tag a="50" b="2" />
-<tag a="125" b="0" arg="0x0" />!<pageBreak /><anim id="Pardon" target="actor" targetSpec="" />Je peux t'apprendre comment on fait,
-si tu veux!</message>
+les plans pour fabriquer <tag a="50" b="2" /><colour id="1" /><tag a="125" b="0" arg="0x0" /><colour id="65535" />!<pageBreak /><anim id="Pardon" target="actor" targetSpec="" />Je peux t'apprendre comment
+on fait, si tu veux!</message>
 	<message label="003_a" attrib="00 00 00 00 00 00 00 00">Oui, je veux bien!</message>
 	<message label="003_b" attrib="00 00 00 00 00 00 00 00">Non, merci, ça ira.</message>
 	<message label="007" attrib="00 00 00 00 00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Désolé, je suis super débordé! Je
@@ -41,13 +40,37 @@ tu peux pas te tromper!</message>
 	<message label="018" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Si même moi, j'y arrive, <delay20 /><anim id="Laughing" target="actor" targetSpec="" />alors tu
 devrais pouvoir fabriquer ça en un
 clin d'œil, <tag a="110" b="3" />!</message>
-	<message label="019" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Je veux que tout le monde sache comment fabriquer <tag a="50" b="2" /><tag a="125" b="0" arg="0x0" />.<pageBreak />Alors j'ai dessiné un plan avec
+	<message label="019" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Je veux que tout le monde sache comment fabriquer <tag a="50" b="2" /><colour id="1" /><tag a="125" b="0" arg="0x0" /><colour id="65535" />.<pageBreak />Alors j'ai dessiné un plan avec
 des instructions!<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Si tu rencontres quelqu'un qu'a
-envie d'en fabriquer un<tag a="50" b="17" arg="0x12 0xcd00 0x0 0x2 0x65 0x0" />,<delay20 /><anim id="Greeting" target="actor" targetSpec="" />
-donne-lui ce plan.
+envie d'en fabriquer un<tag a="50" b="17" arg="0x12 0xcd00 0x0 0x2 0x65 0x0" />,<delay20 /><anim id="Greeting" target="actor" targetSpec="" /> donne-lui
+ce plan.
 <anim id="Blushing" target="actor" targetSpec="" />Et dis-lui que je m'excuse pour la
 graisse de biscuit au milieu<tag a="110" b="0" /></message>
 	<message label="020" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Ce serait cool si tout le monde pouvait fabriquer <tag a="50" b="2" /><tag a="125" b="0" arg="0x0" />!</message>
-	<message label="021" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Oh! <delay8 />Tu es de retour pour mon plan secret, c'est bien ça?<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Tiens, le voilà,<delay8 /> le plan secret pour fabriquer
-<tag a="50" b="2" /><tag a="125" b="0" arg="0x0" />!<delay frames="40" /> <anim id="Hello" target="actor" targetSpec="" />Surtout, le perds pas, <tag a="110" b="6" />!</message>
+	<message label="021" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Voilà le plan secret pour fabriquer
+<tag a="50" b="2" /><colour id="1" /><tag a="125" b="0" arg="0x0" /><colour id="65535" />!<delay frames="40" /> <anim id="Hello" target="actor" targetSpec="" />Surtout, le perds pas, <tag a="110" b="6" />!</message>
+	<message label="030" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Tu vas avoir besoin de citrouilles,<delay8 />
+aussi.<delay20 /><anim id="FaintSmile" target="actor" targetSpec="" /> Mais ça pousse facilement.
+Essaie,<delay8 /> tu verras, <tag a="110" b="6" />!</message>
+	<message label="031" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Pour personnaliser ta création,<delay20 /> c'est
+pas un kit normal qu'il te faut<tag a="110" b="0" /> <delay20 />mais
+plutôt une citrouille colorée!<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Si tu en as pas de couleur différente,
+fais pousser plein de citrouilles!<delay8 /><anim id="Greeting" target="actor" targetSpec="" /> Ça
+finira bien par arriver!</message>
+	<message label="032" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Tu es revenu<gender2 m="" f="e" /> chercher quelque
+chose?<delay frames="40" /><anim id="Greeting" target="actor" targetSpec="" /> Alors tiens,<delay8 /> c'est pour toi,
+<tag a="110" b="6" />!</message>
+	<message label="033" attrib="00 00 00 00 00 00 00 00"><tag a="110" b="0" /><anim id="Eh" target="actor" targetSpec="" /> Sans blague?<delay frames="40" /> Tu sais déjà bricoler
+ce truc?<delay frames="30" /></message>
+	<message label="034" attrib="00 00 00 00 00 00 00 00">C'est pas possible! <delay20 /><anim id="Greeting" target="actor" targetSpec="" />Mais tu sais tout
+faire, ma parole!<delay frames="40" /><anim id="FaintSmile" target="actor" targetSpec="" /> Bon, dans ce cas,
+accepte quelques <colour id="1" />citrouilles<colour id="65535" />.</message>
+	<message label="035" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Fais-en bon usage, promis?<delay frames="40" /> C'est la
+saison idéale pour <tag a="50" b="2" /><tag a="125" b="0" arg="0x0" />.</message>
+	<message label="036" attrib="00 00 00 00 00 00 00 00"><anim id="ShyBoy" target="actor" targetSpec="" />Snif. Je me faisais une joie de t'offrir
+ce plan. <delay frames="40" /><anim id="Thinking" target="actor" targetSpec="" />Hmm<tag a="110" b="0" /> Qu'est-ce que j'ai qui
+te fera autant plaisir?<pageBreak /><anim id="IdeaBulb" target="actor" targetSpec="" /><delay20 />Oh, mais oui! <delay frames="40" /><anim id="Smiling" target="actor" targetSpec="" />Tu veux un <colour id="1" />bonbon<colour id="65535" />?<delay frames="40" />Après tout, c'est bientôt l'Halloween!</message>
+	<message label="037" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Tu veux pas te retrouver à court de
+<colour id="1" />bonbons<colour id="65535" /> à l'Halloween, pas vrai?<delay frames="40" />
+J'en garde toujours un peu sur moi.</message>
 </msbt>
