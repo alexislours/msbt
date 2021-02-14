@@ -1,0 +1,93 @@
+<msbt attribsize="8">
+	<message label="001" attrib="00 00 00 00 00 00 13 00"><tag a="60" b="20" /></message>
+	<message label="001_01" attrib="00 00 00 00 00 00 13 00"><tag a="100" b="5" /><colour id="1" /><tag a="115" b="1" arg="0xcd00" />입니다<delay frames="40" />
+지금은 이사 준비를 하고 있어서<delay20 />
+전화를 받을 수 없어요! <tag a="110" b="6" />!<colour id="65535" /><endTag a="100" b="5" /></message>
+	<message label="001_02" attrib="00 00 00 00 00 00 13 00"><tag a="100" b="5" /><colour id="1" />전화해주셔서 감사합니다!<delay frames="40" />
+<tag a="115" b="1" arg="0xcd00" /><gender5 m="은" f="는" /> <delay8 />지금 이사 준비 중이라<delay20 />
+전화를 받을 수 없답니다! <tag a="110" b="6" />!<colour id="65535" /><endTag a="100" b="5" /></message>
+	<message label="001_03" attrib="00 00 00 00 00 00 13 00"><tag a="100" b="5" /><colour id="1" />네, <delay20 /><tag a="115" b="1" arg="0xcd00" />입니다<delay frames="40" />
+지금은 이사 준비를 하고 있어서<delay20 />
+받을 수가 없어요! <tag a="110" b="6" />!<colour id="65535" /><endTag a="100" b="5" /></message>
+	<message label="001_04" attrib="00 00 00 00 00 00 13 00"><tag a="100" b="5" /><colour id="1" /><tag a="115" b="1" arg="0xcd00" />입니다<delay frames="40" />
+죄송해요, <delay frames="30" />이사 준비를 하느라<delay20 />
+지금은 전화를 받을 수 없답니다! <tag a="110" b="6" />!<colour id="65535" /><endTag a="100" b="5" /></message>
+	<message label="102" attrib="00 00 00 00 00 00 13 00"><tag a="60" b="20" /></message>
+	<message label="102_01" attrib="00 00 00 00 00 00 13 00"><tag a="110" b="0" /><delay20 /><anim id="Eh" target="actor" targetSpec="" />네?<delay frames="30" />
+<tag a="110" b="34" />의 <colour id="1" />캠핑장<colour id="65535" />에<delay8 />
+놀러오지 않겠냐고요?<delay frames="40" />
+<anim id="HappyDance" target="actor" targetSpec="" />정말 기뻐요～!<delay frames="40" />
+<anim id="Nodding" target="actor" targetSpec="" />바로 준비해서 <delay8 />출발할게요, <tag a="110" b="6" />!<anim id="FaintSmile" target="actor" targetSpec="" /></message>
+	<message label="102_02" attrib="00 00 00 00 00 00 13 00"><tag a="110" b="0" /><delay20 /><anim id="Aha" target="actor" targetSpec="" /><tag a="110" b="34" />의
+<colour id="1" />캠핑장<colour id="65535" />에 초대<tag a="110" b="0" />해주신다고요?!<delay frames="40" />
+<anim id="HappyDance" target="actor" targetSpec="" />어머나～ <delay20 />너무 기뻐요～
+<anim id="EmotEnd" target="actor" targetSpec="" />그럼 바로<delay8 /> 거기로
+<anim id="Smiling" target="actor" targetSpec="" />출발할게요, <tag a="110" b="6" />!</message>
+	<message label="102_03" attrib="00 00 00 00 00 00 13 00"><tag a="110" b="0" /><delay20 /><anim id="BigSmile" target="actor" targetSpec="" /><tag a="110" b="34" />의
+<colour id="1" />캠핑장<colour id="65535" />으로 가면 되죠?<delay frames="30" />
+<anim id="Nodding" target="actor" targetSpec="" />네, <delay20 />알겠어요!
+<anim id="EmotEnd" target="actor" targetSpec="" />바로 준비해서<delay8 />
+<anim id="Hello" target="actor" targetSpec="" />그쪽으로 갈게요～! <tag a="110" b="6" />!</message>
+	<message label="102_04" attrib="00 00 00 00 00 00 13 00"><tag a="110" b="0" /><delay20 /><anim id="BigSmile" target="actor" targetSpec="" />알겠어요!<delay frames="40" />
+<anim id="FaintSmile" target="actor" targetSpec="" /><tag a="110" b="34" />의
+<colour id="1" />캠핑장<colour id="65535" /> 말씀이시죠?<pageBreak /><anim id="HappyDance" target="actor" targetSpec="" />초대해주셔서 감사합니다!<delay frames="40" />
+<anim id="FaintSmile" target="actor" targetSpec="" />금방 준비해서 갈 테니까<delay20 />
+<anim id="Greeting" target="actor" targetSpec="" />잘 부탁드려요, <tag a="110" b="6" />～</message>
+	<message label="202" attrib="00 00 00 00 00 00 13 00"><tag a="60" b="20" /></message>
+	<message label="202_01" attrib="00 00 00 00 00 00 13 00"><tag a="110" b="0" /><delay20 /><anim id="Shocked" target="actor" targetSpec="" />네?! <delay20 />저를 <tag a="110" b="34" />의<delay8 />
+<colour id="1" />캠핑장<colour id="65535" />에 초대하시겠다고요<tag a="110" b="0" />?<delay frames="40" />
+<anim id="HappyFlower" target="actor" targetSpec="" />가고 싶어요! <delay frames="30" />꼭 갈게요!
+<anim id="EmotEnd" target="actor" targetSpec="" />금방 준비할 테니까<delay8 />
+<anim id="FaintSmile" target="actor" targetSpec="" />기다려주세요! <tag a="110" b="6" />!</message>
+	<message label="202_02" attrib="00 00 00 00 00 00 13 00"><anim id="Nodding" target="actor" targetSpec="" />아<tag a="110" b="0" /> <delay20 /><tag a="110" b="34" />의
+<colour id="1" />캠핑장 <colour id="65535" />말이군요<tag a="110" b="0" /><pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />네! <delay20 />궁금하네요!<delay frames="40" />
+<anim id="Greeting" target="actor" targetSpec="" />꼭 <delay8 />놀러갈게요, <tag a="110" b="6" />!</message>
+	<message label="202_03" attrib="00 00 00 00 00 00 13 00"><tag a="110" b="0" /><delay20 /><anim id="Aha" target="actor" targetSpec="" />앗! <delay20 /><tag a="110" b="34" />의
+<colour id="1" />캠핑장<colour id="65535" />에 초대해주시겠다고요?<delay frames="30" />
+<anim id="HappyDance" target="actor" targetSpec="" />재밌을 것 같네요～
+<anim id="FaintSmile" target="actor" targetSpec="" />그럼 바로 짐을 챙길 테니까<delay20 />
+잠시 기다려주세요! <tag a="110" b="6" />!</message>
+	<message label="202_04" attrib="00 00 00 00 00 00 13 00"><tag a="110" b="0" /><delay20 /><anim id="Aha" target="actor" targetSpec="" />어머나, <delay20 />정말요?<delay frames="40" />
+<anim id="EmotEnd" target="actor" targetSpec="" /><colour id="1" />캠핑장<colour id="65535" />에 가도 되나요?<delay frames="30" />
+그럼<tag a="110" b="0" /> <delay8 /><anim id="BigSmile" target="actor" targetSpec="" />갈게요! <tag a="110" b="6" />!<anim id="FaintSmile" target="actor" targetSpec="" /></message>
+	<message label="301" attrib="00 00 00 00 00 00 13 00"><tag a="60" b="20" /></message>
+	<message label="301_01" attrib="00 00 00 00 00 00 13 00">네! <delay20 /><tag a="110" b="10" />입니다<delay frames="40" />
+<anim id="Eh" target="actor" targetSpec="" />어머, <delay20 /><tag a="110" b="4" />님!<delay frames="40" />
+<anim id="Hello" target="actor" targetSpec="" />어쩐 일이신가요? <tag a="110" b="6" />?</message>
+	<message label="301_02" attrib="00 00 00 00 00 00 13 00">네! <delay20 /><tag a="110" b="10" />입니다<delay frames="40" />
+<anim id="Eh" target="actor" targetSpec="" />어머, <delay8 /><tag a="110" b="4" />님?<pageBreak /><anim id="Restless" target="actor" targetSpec="" />음<tag a="110" b="0" /> <delay20 />뭔가 얼굴 보고 말하긴 힘든<delay8 />
+이야기인가요? <tag a="110" b="6" />?</message>
+	<message label="301_03" attrib="00 00 00 00 00 00 13 00">여보세요, <delay8 /><tag a="110" b="10" />입니다<delay frames="40" />
+<anim id="Eh" target="actor" targetSpec="" />앗! <delay20 /><tag a="110" b="4" />님?!<pageBreak /><anim id="Laughing" target="actor" targetSpec="" />우후후, <delay20 />같은 <tag a="110" b="32" />에 사는데
+이렇게 전화로 이야기하니까<delay20 />
+재밌네요! <tag a="110" b="6" />!</message>
+	<message label="301_04" attrib="00 00 00 00 00 00 13 00">네, <delay8 />여보세요! <tag a="110" b="10" />입니다<tag a="110" b="0" /><delay frames="30" />
+<anim id="Eh" target="actor" targetSpec="" /><tag a="110" b="4" />님?<delay frames="40" />
+<anim id="Hello" target="actor" targetSpec="" />무슨 일 있으세요? <tag a="110" b="6" />?</message>
+	<message label="302" attrib="00 00 00 00 00 00 13 00"><tag a="60" b="20" /></message>
+	<message label="302_01" attrib="00 00 00 00 00 00 13 00"><anim id="Worried" target="actor" targetSpec="" />그러니까,<delay20 /> 우리 <tag a="110" b="32" />의 <colour id="1" />캠핑장<colour id="65535" />에서<delay8 />
+<anim id="QuestionMark" target="actor" targetSpec="" />캠핑을 한다는 거죠?<pageBreak /><anim id="Thinking" target="actor" targetSpec="" />으음～ <delay20 />재밌을 것 같긴 하지만<delay8 />
+거긴 손님들을 위한 시설이니까<tag a="110" b="0" /><delay20 />
+<anim id="Worried" target="actor" targetSpec="" />사양할게요, 죄송해요! <tag a="110" b="6" />!</message>
+	<message label="302_02" attrib="00 00 00 00 00 00 13 00"><tag a="110" b="0" /><delay20 /><anim id="Shocked" target="actor" targetSpec="" />네? <delay20 />제가 <colour id="1" />캠핑장<colour id="65535" />에서 캠핑이요?<delay frames="40" />
+<anim id="Restless" target="actor" targetSpec="" />음, <delay20 />그치만 제가 사는 <tag a="110" b="32" />인데<tag a="110" b="0" /><pageBreak /><anim id="WrySmile" target="actor" targetSpec="" />재밌을 것 같긴 하지만<delay8 /> 전 사양할게요<delay frames="40" />
+<anim id="Worried" target="actor" targetSpec="" />죄송해요! <tag a="110" b="6" />!</message>
+	<message label="302_03" attrib="00 00 00 00 00 00 13 00"><anim id="Thinking" target="actor" targetSpec="" />으음～ <delay20 />우리 <tag a="110" b="32" />의
+<colour id="1" />캠핑장<colour id="65535" />에 놀러오라고요<tag a="110" b="0" />?<delay frames="30" />
+<anim id="QuestionMark" target="actor" targetSpec="" />거기서 제가 캠핑하는 건가요?
+<anim id="WrySmile" target="actor" targetSpec="" />모처럼 이야기 꺼내주셨는데 죄송하지만<delay8 />
+아무래도 그건 내키지 않네요<delay frames="40" />
+<anim id="Worried" target="actor" targetSpec="" />죄송해요, <tag a="110" b="6" />!</message>
+	<message label="302_04" attrib="00 00 00 00 00 00 13 00"><tag a="110" b="0" /><delay20 /><anim id="Shocked" target="actor" targetSpec="" />네～? <delay20 /><tag a="110" b="32" />의 <colour id="1" />캠핑장<colour id="65535" />에서<delay8 />
+캠핑이요? <delay frames="30" />제가요?<pageBreak /><anim id="Thinking" target="actor" targetSpec="" />으음～ <delay20 />그건 좀<tag a="110" b="0" /><delay frames="30" />
+<anim id="Confused" target="actor" targetSpec="" />죄송해요! <delay frames="30" />전 사양할게요, <tag a="110" b="6" />!</message>
+	<message label="401" attrib="00 00 00 00 00 00 13 00"><tag a="60" b="20" /></message>
+	<message label="401_01" attrib="00 00 00 00 00 00 13 00">네, <delay8 /><tag a="110" b="10" />입니다～<delay frames="40" />
+<anim id="QuestionMark" target="actor" targetSpec="" />어쩐 일로 전화하셨어요? <tag a="110" b="6" />?</message>
+	<message label="401_02" attrib="00 00 00 00 00 00 13 00"><anim id="FaintSmile" target="actor" targetSpec="" />네, <delay8 /><tag a="110" b="10" />입니다<delay frames="40" />
+<anim id="EmotEnd" target="actor" targetSpec="" />앗, <delay20 /><anim id="Hello" target="actor" targetSpec="" />무슨 일 있으세요? <tag a="110" b="6" />?</message>
+	<message label="401_03" attrib="00 00 00 00 00 00 13 00"><anim id="FaintSmile" target="actor" targetSpec="" />네, <delay8 />여보세요～ <delay20 /><tag a="110" b="10" />입니다!<delay frames="40" />
+앗, <delay20 /><anim id="QuestionMark" target="actor" targetSpec="" />어쩐 일이세요? <tag a="110" b="6" />?</message>
+	<message label="401_04" attrib="00 00 00 00 00 00 13 00"><anim id="Smiling" target="actor" targetSpec="" />네, <delay8 /><tag a="110" b="10" />입니다!<delay frames="40" />
+<anim id="Hello" target="actor" targetSpec="" />편하게 말씀하세요! <tag a="110" b="6" />!</message>
+</msbt>

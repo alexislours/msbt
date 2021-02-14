@@ -1,0 +1,19 @@
+<msbt attribsize="8">
+	<message label="001" attrib="00 00 00 01 00 07 00 00"><tag a="60" b="7" arg="0x710 0x800 0xcd00" /></message>
+	<message label="002" attrib="00 00 00 01 00 03 00 00"><tag a="60" b="7" arg="0x910 0xa00 0xcd00" /></message>
+	<message label="003" attrib="00 00 00 01 00 04 00 00"><tag a="60" b="7" arg="0xb10 0xc00 0xcd00" /></message>
+	<message label="004" attrib="00 00 00 01 00 09 00 00"><tag a="60" b="7" arg="0xd10 0xe00 0xcd00" /></message>
+	<message label="007" attrib="00 00 0c 00 00 07 00 00">아침부터 날씨가 좋으니까<delay20 />
+<anim id="EmotEnd" target="actor" targetSpec="" />기운이<delay8 /> 팍팍 솟는구만! <tag a="110" b="6" />!<setNpcTalkChoices chatOption="0" cancelOption="1" /></message>
+	<message label="008" attrib="00 00 0c 00 00 07 00 00">이런 날씨일수록<delay20 />
+<anim id="EmotEnd" target="actor" targetSpec="" />기운차게<delay8 /> 다녀야지! <tag a="110" b="6" />!<setNpcTalkChoices chatOption="0" cancelOption="1" /></message>
+	<message label="009" attrib="00 00 0c 00 00 03 00 00"><anim id="Greeting" target="actor" targetSpec="" />또 만났네!<delay frames="30" />
+너도 <delay8 />비 좋아하냐? <tag a="110" b="6" />?<setNpcTalkChoices chatOption="1" cancelOption="1" /></message>
+	<message label="010" attrib="00 00 0c 00 00 03 00 00"><anim id="Nodding" target="actor" targetSpec="" />너도 참 비 오는데<delay8 /> 고생이다! <tag a="110" b="6" />!<setNpcTalkChoices chatOption="0" cancelOption="1" /></message>
+	<message label="011" attrib="00 00 0c 00 00 04 00 00"><anim id="HappyDance" target="actor" targetSpec="" />비 오는 날을<delay8 /> 즐기자구! <tag a="110" b="6" />!<setNpcTalkChoices chatOption="0" cancelOption="1" /></message>
+	<message label="012" attrib="00 00 0c 00 00 04 00 00"><anim id="Thinking" target="actor" targetSpec="" />비가<delay8 /> 대체 언제 그치려나<tag a="110" b="0" /> <tag a="110" b="6" /><tag a="110" b="0" /><setNpcTalkChoices chatOption="0" cancelOption="1" /></message>
+	<message label="013" attrib="00 00 0c 00 00 09 00 00"><anim id="Explain" target="actor" targetSpec="" />비 오는 날은<delay20 /> 공기에서 느껴지는
+<delay8 />독특한 냄새가 좋아! <tag a="110" b="6" />!<setNpcTalkChoices chatOption="0" cancelOption="1" /></message>
+	<message label="014" attrib="00 00 0c 00 00 09 00 00">비 오는데도 고생이 많구나<delay frames="40" />
+<anim id="Nodding" target="actor" targetSpec="" />너도 참 대단하다! <tag a="110" b="6" />!<setNpcTalkChoices chatOption="0" cancelOption="1" /></message>
+</msbt>

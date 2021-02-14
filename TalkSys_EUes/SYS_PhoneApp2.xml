@@ -1,0 +1,200 @@
+<msbt attribsize="3">
+	<message label="001" attrib="00 00 00">dummy</message>
+	<message label="010" attrib="00 00 13">　　　　<tag a="10" b="12" /><tag a="100" b="2" /><tag a="100" b="5" />¡Hasta luego!<endTag a="100" b="5" /><endTag a="100" b="2" /><10_7 arg="20" /></message>
+	<message label="011" attrib="00 00 13"><tag a="10" b="12" />　　　　　　　<tag a="100" b="5" /><size value="150" />¡Hola!<size value="100" /><10_7 arg="15" /><pageBreak />Gracias por llamar
+al <colour id="1" />servicio de rescate<colour id="65535" />.<endTag a="100" b="5" /></message>
+	<message label="011_01" attrib="00 00 13"><tag a="100" b="5" />Deja que compruebe quién eres<tag a="110" b="0" /><endTag a="100" b="5" /><10_7 arg="30" /></message>
+	<message label="011_02" attrib="00 00 13"><tag a="100" b="5" />Y ahora estás en<tag a="110" b="0" /><endTag a="100" b="5" /><10_7 arg="30" /></message>
+	<message label="012" attrib="00 00 13"><tag a="100" b="5" />Pero ¿qué<tag a="110" b="0" />?<delay20 /> La señal está dando
+vueltas en círculos, como loca.<delay20 />
+Me recuerda a cierto familiar mío<tag a="110" b="0" /><endTag a="100" b="5" /></message>
+	<message label="012_01" attrib="00 00 13"><tag a="100" b="5" />Una pregunta:<delay8 /><delay8 /> ¿ha venido alguien
+de otra isla a visitarte, figura?<pageBreak />Porque el sistema no funciona
+cuando hay varias señales juntas,
+¿sabes?
+Es como a Rese T., no le viene
+bien el estrés<tag a="110" b="0" /><pageBreak />Mira, si de verdad tienes una
+emergencia,<delay8 /> abre el menú con <colour id="1" /><colour id="65535" />
+y elige <colour id="1" />Finalizar la sesión<colour id="65535" />, ¿vale?<endTag a="100" b="5" /></message>
+	<message label="012_02" attrib="00 00 13"><tag a="100" b="5" />Me parece que ya sé cuál es
+el problema<tag a="110" b="0" /><delay8 /> ¿A que estás
+de visita en otra isla, figura?
+Porque este trasto y yo ya tenemos
+una edad y nos cuesta atinar cuando
+hay más de una señal.
+Si de verdad tienes una emergencia,<delay8 />
+abre el menú con <colour id="1" /> <colour id="65535" />y elige
+<colour id="1" />Volver a mi isla<colour id="65535" />, ¿vale?<endTag a="100" b="5" /></message>
+	<message label="013" attrib="00 00 13"><tag a="100" b="5" />Un momento.<delay8 /> Por lo que veo
+estás dentro de un edificio.<pageBreak />Pues siento comunicarte que este
+servicio solo funciona al aire libre.<pageBreak />No puedo recogerte si hay vigas
+y cables de por medio.<delay20 /> Sería
+peligroso.
+Si quieres usar el servicio de rescate,<delay8 />
+haz el favor de salir al exterior.<delay20 />
+Qué te cuesta<tag a="110" b="0" /><endTag a="100" b="5" /></message>
+	<message label="021_01" attrib="00 00 13"><tag a="100" b="5" />¡Ahí estás!<delay8 /> Eres <tag a="110" b="1" /> de <tag a="110" b="8" />, ¿no?<endTag a="100" b="5" /></message>
+	<message label="021_02" attrib="00 00 13"><tag a="100" b="5" />A ver<tag a="110" b="0" /><delay8 /> Eres <tag a="110" b="1" /> de <tag a="110" b="8" />, ¿no?<delay20 /> Gracias por usar nuestro servicio.<endTag a="100" b="5" /></message>
+	<message label="021_03" attrib="00 00 13"><tag a="100" b="5" />Pero<tag a="110" b="0" /><delay8 /> ¿Eres <tag a="110" b="1" /> otra vez?<delay8 /> ¿Vuelves a estar en apuros?<anim id="Nodding" target="player" targetSpec="" /><endTag a="100" b="5" /></message>
+	<message label="022" attrib="00 00 13" />
+	<message label="023_01" attrib="02 00 13"><tag a="100" b="5" />Un rescate te costará <colour id="1" />100 <colour id="65535" />millas.<delay8 />
+¿Te parece bien?<endTag a="100" b="5" /></message>
+	<message label="023_01_a" attrib="00 00 13"><anim id="Nodding" target="player" targetSpec="" />¡Sí, ayúdame!</message>
+	<message label="023_01_b" attrib="00 00 13"><anim id="Negative" target="player" targetSpec="" />No, gracias</message>
+	<message label="023_02" attrib="02 00 13"><tag a="100" b="5" />Serán <colour id="1" />100 <colour id="65535" />millas por el rescate.
+¿Te parece bien?<endTag a="100" b="5" /></message>
+	<message label="023_02_a" attrib="00 00 13"><anim id="Nodding" target="player" targetSpec="" />¡Sí, ayúdame!</message>
+	<message label="023_02_b" attrib="00 00 13"><anim id="Negative" target="player" targetSpec="" />No, gracias</message>
+	<message label="023_03" attrib="02 00 13"><tag a="100" b="5" />Por cierto, la última vez que usaste
+este servicio no tenías millas
+suficientes, ¿recuerdas?
+Pero seguro que esta vez ya
+lo habrás tenido en cuenta.<pageBreak />Serán <colour id="1" />100 <colour id="65535" />millas por el rescate.<delay8 />
+¿Te parece bien?<endTag a="100" b="5" /></message>
+	<message label="023_03_a" attrib="00 00 13"><anim id="Nodding" target="player" targetSpec="" />¡Sí, ayúdame!</message>
+	<message label="023_03_b" attrib="00 00 13"><anim id="Negative" target="player" targetSpec="" />No, gracias</message>
+	<message label="031_01" attrib="00 00 13"><tag a="100" b="5" />¿Estás segur<gender2 m="o" f="a" />?<endTag a="100" b="5" /></message>
+	<message label="031_02" attrib="00 00 13"><tag a="100" b="5" />¿Cómo?<delay8 /> Oye, a nadie le importa que
+no pudieras pagar la última vez,<delay8 /> así
+que no te preocupes.<endTag a="100" b="5" /></message>
+	<message label="032_01" attrib="00 00 13"><tag a="100" b="5" />¡Si tienes problemas, dilo y
+acudiremos de inmediato!<endTag a="100" b="5" /></message>
+	<message label="032_02" attrib="00 00 13"><tag a="100" b="5" />Si el problema es que ahora
+tampoco tienes,<delay8 /> no te preocupes.<delay8 />
+Ya pensaremos en algo, ¿vale?<delay8 />
+Si estás en apuros, dilo y
+acudiremos de inmediato.<endTag a="100" b="5" /></message>
+	<message label="041_01" attrib="00 00 13"><tag a="100" b="5" />¡Enseguida!<delay8 /> Primero voy a cobrar
+las <colour id="1" />100 <colour id="65535" />millas<tag a="110" b="0" /><endTag a="100" b="5" /></message>
+	<message label="041_02" attrib="00 00 13"><tag a="100" b="5" />De acuerdo.<delay20 /> Parece que esta vez sí
+tienes millas suficientes,<delay8 /> así que voy
+a cobrar las <colour id="1" />100 <colour id="65535" />millas ahora<tag a="110" b="0" /><endTag a="100" b="5" /></message>
+	<message label="042_01" attrib="00 00 13"><tag a="100" b="5" />¡Entendido!<delay8 /> Primero voy a cobrar
+las <colour id="1" />100 <colour id="65535" />millas y luego<tag a="110" b="0" /><endTag a="100" b="5" /><10_7 arg="75" /></message>
+	<message label="042_02" attrib="00 00 13"><10_10 /><tag a="10" b="12" />　　<anim id="TakenAback" target="player" targetSpec="" /><tag a="100" b="5" /><size value="150" />¡UN SEGUNDO!<size value="100" /><delay20 /><10_9 /><pageBreak />Te faltan millas, amig<gender2 m="o" f="a" />. No estarás
+intentando usar el servicio de gratis,
+¿verdad?
+En ese caso tendré que dejarte
+ahí tirad<gender2 m="o" f="a" /><tag a="110" b="0" /><delay20 /> ¡Es broma,<delay8 /> yo jamás
+haría eso!
+Aunque tienes suerte que no te
+haya respondido mi hermano<tag a="110" b="0" /><pageBreak />A este rescate invita la casa.<endTag a="100" b="5" /></message>
+	<message label="042_03" attrib="00 00 13"><10_10 /><tag a="10" b="12" />　　<anim id="TakenAback" target="player" targetSpec="" /><tag a="100" b="5" /><size value="150" />¡EEEEEEH!<size value="100" /><delay20 /><10_9 /><pageBreak />No puede ser<tag a="110" b="0" /><delay8 /> ¿Vas cort<gender2 m="o" f="a" /> de millas
+otra vez?<delay8 /> ¿En qué te las gastas
+todas, chic<gender2 m="o" f="a" />?
+Es igual,<delay8 /> no puedo dejarte ahí,
+así que voy a rescatarte sin cobrar<tag a="110" b="0" />
+¡otra vez!<endTag a="100" b="5" /></message>
+	<message label="042_04" attrib="00 00 13"><tag a="100" b="5" />Y, ya que lo hago como favor,
+te llevaré al sitio que yo elija.<delay8 />
+¡Faltaría más!<endTag a="100" b="5" /></message>
+	<message label="043" attrib="00 00 13"><tag a="100" b="5" />Por cierto, como no viajas sol<gender2 m="o" f="a" />,
+tendré que dejaros en la <colour id="1" />plaza<colour id="65535" />.<endTag a="100" b="5" /></message>
+	<message label="044_01" attrib="06 00 13"><tag a="100" b="5" />Listo.<delay8 /> ¿Dónde quieres que te lleve?<endTag a="100" b="5" /></message>
+	<message label="044_01_a" attrib="00 00 13">A casa</message>
+	<message label="044_01_b" attrib="00 00 13">A la plaza</message>
+	<message label="044_01_c" attrib="00 00 13">Al aeródromo</message>
+	<message label="044_01_d" attrib="00 00 13">He cambiado de idea</message>
+	<message label="044_02" attrib="06 00 13"><tag a="100" b="5" />Listo.<delay8 /> ¿Dónde quieres que te lleve?<endTag a="100" b="5" /></message>
+	<message label="044_02_a" attrib="00 00 13">A mi tienda</message>
+	<message label="044_02_b" attrib="00 00 13">A la plaza</message>
+	<message label="044_02_c" attrib="00 00 13">Al aeródromo</message>
+	<message label="044_02_d" attrib="00 00 13">He cambiado de idea</message>
+	<message label="044_03" attrib="08 00 13"><tag a="100" b="5" />Listo.<delay8 /> ¿Dónde quieres que te lleve?<endTag a="100" b="5" /></message>
+	<message label="044_03_a" attrib="00 00 13">A casa</message>
+	<message label="044_03_b" attrib="00 00 13">A la plaza</message>
+	<message label="044_03_c" attrib="00 00 13">A la tienda</message>
+	<message label="044_03_d" attrib="00 00 13">Al aeródromo</message>
+	<message label="044_03_e" attrib="00 00 13">He cambiado de idea</message>
+	<message label="045" attrib="04 00 13"><tag a="100" b="5" />Muy bien, atiende:<delay8 /> parece que aún
+no tienes un lugar donde vivir,
+¿no es así?
+Entonces tendrás que decirme dónde
+quieres que te lleve exactamente,<delay8 />
+porque no soy adivino<tag a="110" b="0" /><endTag a="100" b="5" /></message>
+	<message label="045_a" attrib="00 00 13">A la plaza</message>
+	<message label="045_b" attrib="00 00 13">Al aeródromo</message>
+	<message label="045_c" attrib="00 00 13">He cambiado de idea</message>
+	<message label="046" attrib="06 00 13"><tag a="100" b="5" />Veamos, figura:<delay8 /> por lo que parece,
+aún no tienes un lugar donde vivir.<pageBreak />Tendrás que decirme dónde quieres
+que te lleve<tag a="110" b="0" /><endTag a="100" b="5" /></message>
+	<message label="046_a" attrib="00 00 13">A la plaza</message>
+	<message label="046_b" attrib="00 00 13">A la tienda</message>
+	<message label="046_c" attrib="00 00 13">Al aeródromo</message>
+	<message label="046_d" attrib="00 00 13">He cambiado de idea</message>
+	<message label="047" attrib="08 00 13"><tag a="100" b="5" />Listo. ¿Dónde quieres que te lleve?<endTag a="100" b="5" /></message>
+	<message label="047_a" attrib="00 00 13">A mi tienda</message>
+	<message label="047_b" attrib="00 00 13">A la plaza</message>
+	<message label="047_c" attrib="00 00 13">A la tienda</message>
+	<message label="047_d" attrib="00 00 13">Al aeródromo</message>
+	<message label="047_e" attrib="00 00 13">He cambiado de idea</message>
+	<message label="048" attrib="02 00 13"><tag a="100" b="5" />Vaya, qué lejos estás<tag a="110" b="0" /><delay8 />
+¿Has ido a hacer turismo?<delay20 />
+Pues me alegro por ti.
+Lo malo es que no tengo datos
+cartográficos de esta isla<tag a="110" b="0" /><pageBreak />Voy a tener que dejarte <colour id="1" />donde
+aterrizan los aviones<colour id="65535" />.<delay20 /> ¿De acuerdo?<endTag a="100" b="5" /></message>
+	<message label="048_a" attrib="00 00 13">¡Me vale!</message>
+	<message label="048_b" attrib="00 00 13">He cambiado de idea</message>
+	<message label="050_01" attrib="00 00 13"><tag a="100" b="5" />¿A tu tienda de campaña?<delay8 />
+¡Dicho y hecho!<endTag a="100" b="5" /></message>
+	<message label="050_02" attrib="00 00 13"><tag a="100" b="5" />¿A tu casa?<delay8 /> ¡Dalo por hecho!<endTag a="100" b="5" /></message>
+	<message label="050_03" attrib="00 00 13"><tag a="100" b="5" />¿A la plaza?<delay8 /> ¡Perfecto!<endTag a="100" b="5" /></message>
+	<message label="050_04" attrib="00 00 13"><tag a="100" b="5" />¿A la tienda de la isla?<delay8 /> ¡De acuerdo!<endTag a="100" b="5" /></message>
+	<message label="050_05" attrib="00 00 13" />
+	<message label="050_06" attrib="00 00 13"><tag a="100" b="5" />¡Muy bien!<delay20 /> ¡En marcha!<endTag a="100" b="5" /></message>
+	<message label="050_07" attrib="00 00 13"><tag a="100" b="5" />¡Al aeródromo entonces!<endTag a="100" b="5" /></message>
+	<message label="051" attrib="00 00 13"><tag a="60" b="20" /></message>
+	<message label="051_01" attrib="00 00 13"><tag a="100" b="5" />A ver si no la lío<tag a="110" b="0" />
+<size value="75" />¿Qué botón era?<tag a="110" b="0" /><size value="100" /><endTag a="100" b="5" /></message>
+	<message label="051_02" attrib="00 00 13"><tag a="100" b="5" />Vamos, Forma T., tú puedes<tag a="110" b="0" />
+<size value="75" />Le daré a este botón y a ver qué pasa.<size value="100" /><endTag a="100" b="5" /></message>
+	<message label="051_03" attrib="00 00 13"><tag a="100" b="5" />¿No tenía que pulsar aquí?
+<size value="75" />Juraría que era este botón<tag a="110" b="0" /><size value="100" /><endTag a="100" b="5" /></message>
+	<message label="052" attrib="00 00 13"><tag a="100" b="5" />Vale, creo que ya lo tengo.<delay8 />
+Ahora sabremos si he acertado.<endTag a="100" b="5" /></message>
+	<message label="053" attrib="00 00 13"><tag a="10" b="12" />          <tag a="100" b="2" /><tag a="100" b="5" /><size value="150" />¡VAMOS ALLÁ!<size value="100" /><endTag a="100" b="5" /><endTag a="100" b="2" /><10_8 arg="30" /></message>
+	<message label="061" attrib="00 00 13"><tag a="100" b="5" />¡Ya has llegado!<delay8 /> Abre los ojos.<endTag a="100" b="5" /></message>
+	<message label="062" attrib="00 00 13"><tag a="100" b="5" />Ah, sí,<delay8 /> una última cosa<tag a="110" b="0" /><endTag a="100" b="5" /></message>
+	<message label="063" attrib="00 00 13"><tag a="60" b="20" /></message>
+	<message label="063_01" attrib="00 00 13"><tag a="100" b="5" />No sé si sabes que soy un gran
+admirador del lenguaje.<pageBreak />Hasta he escrito relatos sobre
+el alfabeto.<delay20 /> La letra «F» está
+inspirada en un topo muy apuesto.<endTag a="100" b="5" /></message>
+	<message label="063_02" attrib="00 00 13"><tag a="100" b="5" />Nunca he entendido la expresión
+«pelillos a la mar».<pageBreak />¿Acaso arrancarte pelillos y
+lanzarlos al mar te ayuda a
+olvidar lo malo del pasado?
+Porque a mí no me ha funcionado<tag a="110" b="0" /><endTag a="100" b="5" /></message>
+	<message label="063_03" attrib="00 00 13"><tag a="100" b="5" />Tengo un primo que siempre usa
+la expresión «tener dos pelos de
+frente».
+Le he intentado explicar que se dice
+«dos dedos» y no «dos pelos», pero
+no me cree.
+Y no le culpo;<delay8 /> tiene más lógica
+tener pelos en la frente y no
+dedos<tag a="110" b="0" /><endTag a="100" b="5" /></message>
+	<message label="064" attrib="00 00 13"><tag a="60" b="20" /></message>
+	<message label="064_01" attrib="00 00 13"><tag a="100" b="5" />No sé si sabes que soy un gran
+admirador del lenguaje.<pageBreak />Hasta he escrito relatos sobre
+el alfabeto.<delay20 /> La letra «F» está
+inspirada en un topo muy apuesto.<endTag a="100" b="5" /></message>
+	<message label="064_02" attrib="00 00 13"><tag a="100" b="5" />Nunca he entendido la expresión
+«pelillos a la mar».<pageBreak />¿Acaso arrancarte pelillos y
+lanzarlos al mar te ayuda a
+olvidar lo malo del pasado?
+Porque a mí no me ha funcionado<tag a="110" b="0" /><endTag a="100" b="5" /></message>
+	<message label="064_03" attrib="00 00 13"><tag a="100" b="5" />¿Usas la <colour id="1" />terminal Nook<colour id="65535" /> todos
+los días?<delay8 /> Es la forma más fácil
+de ganar millas.<endTag a="100" b="5" /></message>
+	<message label="2001" attrib="00 00 13"><tag a="100" b="5" />¿Qué?<delay8 /> ¿Dices que hoy parezco
+distinto?<delay20 /> Me alegra que lo hayas
+notado, figura.
+Hoy <colour id="3" />Rese<colour id="65535" /><tag a="110" b="0" /><delay8 /> digo,<delay8 /> el operador
+habitual<delay8 /> se ha tomado el día libre.<pageBreak />Así que le sustituyo yo.<delay20 /> Más o menos
+sé cómo funciona esto, pero puede
+que vaya un poco más lento.
+En fin, basta de cháchara
+y a la faena<tag a="110" b="0" /><endTag a="100" b="5" /></message>
+</msbt>

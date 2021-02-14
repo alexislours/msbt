@@ -1,0 +1,206 @@
+<msbt attribsize="3">
+	<message label="001" attrib="00 00 00">dummy</message>
+	<message label="010" attrib="00 00 13">                   <tag a="10" b="12" /><tag a="100" b="2" /><tag a="100" b="5" />Arrivederci!<endTag a="100" b="5" /><endTag a="100" b="2" /><10_7 arg="20" /></message>
+	<message label="011" attrib="00 00 13"><tag a="10" b="12" />                   <tag a="100" b="5" />Äh<tag a="110" b="0" /> <delay20 />Salve!<10_7 arg="15" /><pageBreak />Hier spricht die <colour id="1" />Notrettung<colour id="65535" />.<delay frames="30" />
+Spezialisten für Klemmen, Miseren
+und ähnliche Bredouillen.<endTag a="100" b="5" /></message>
+	<message label="011_01" attrib="00 00 13"><tag a="100" b="5" />Wer ist denn dort bitte?<delay20 />
+Moment, <delay8 />mal sehen<tag a="110" b="0" /><endTag a="100" b="5" /><10_7 arg="30" /></message>
+	<message label="011_02" attrib="00 00 13"><tag a="100" b="5" />Du befindest dich gerade<tag a="110" b="0" /><endTag a="100" b="5" /><10_7 arg="30" /></message>
+	<message label="012" attrib="00 00 13"><tag a="100" b="5" />Was ist das?!<delay20 />
+Das Signal spinnt ganz schön rum.<endTag a="100" b="5" /></message>
+	<message label="012_01" attrib="00 00 13"><tag a="100" b="5" />Kann es sein, dass du im Moment
+irgendwen von einer anderen Insel
+zu Besuch hast?<pageBreak />Dann ist es kein Wunder,<delay8 /> dass die
+Signale durcheinandergeraten.<pageBreak />Aber wenn's halt ein Notfall ist,<delay8 />
+dann öffne mit <colour id="1" /><colour id="65535" /> dein Menü <delay8 />und
+wähle dort <colour id="1" />Schluss machen<colour id="65535" />.<delay20 /> Capisce?<endTag a="100" b="5" /></message>
+	<message label="012_02" attrib="00 00 13"><tag a="100" b="5" />Bist du zufällig gerade auf einer
+anderen Insel zu Gast?<pageBreak />Dann ist ja wohl klar, <delay8 />dass das mit
+dem Abtransport nicht funktionieren
+kann.<pageBreak />Aber, <delay8 />hör zu<tag a="110" b="0" /><delay20 /> Wenn's wirklich ein
+Notfall ist, <delay8 />öffne mit <colour id="1" /><colour id="65535" /> das Menü
+und wähle <colour id="1" />Zurück auf meine Insel<colour id="65535" />.<endTag a="100" b="5" /></message>
+	<message label="013" attrib="00 00 13"><tag a="100" b="5" />Moment... <delay20 />Befindest du dich etwa
+gerade in einem Gebäude?<delay20 />
+Dann klappt das nicht.<pageBreak />Der Rettungsdienst kann nur
+arbeiten,<delay8 /> wenn jemand im Freien
+feststeckt.<pageBreak />Wäre sonst einfach zu gefährlich,<delay8 />
+das musst du verstehen!<pageBreak />Also geh einfach raus, <delay8 />wenn du
+wirklich unsere Hilfe brauchst.<endTag a="100" b="5" /></message>
+	<message label="021_01" attrib="00 00 13"><tag a="100" b="5" /><tag a="50" b="3" /><tag a="110" b="1" /> von <tag a="110" b="8" />,<delay8 /> ja? <anim id="Nodding" target="player" targetSpec="" /><delay20 />Alles klar.<endTag a="100" b="5" /></message>
+	<message label="021_02" attrib="00 00 13"><tag a="100" b="5" />Ach, <delay8 /><tag a="110" b="1" /> von <tag a="110" b="8" /> wieder?<anim id="Nodding" target="player" targetSpec="" /> <delay20 />Kein Problem, <delay8 />wir helfen immer gern.<endTag a="100" b="5" /></message>
+	<message label="021_03" attrib="00 00 13"><tag a="100" b="5" />Bitte?<delay20 /> <tag a="50" b="3" /><tag a="110" b="1" /> schon wieder? <delay20 />Mal wieder in Schwierigkeiten,<delay8 /> was?<anim id="Nodding" target="player" targetSpec="" /><endTag a="100" b="5" /></message>
+	<message label="022" attrib="00 00 13" />
+	<message label="023_01" attrib="02 00 13"><tag a="100" b="5" />Pro Rettung wären <colour id="1" />100<colour id="65535" /> Meilen fällig.<delay20 />
+Na,<delay8 /> einverstanden?<endTag a="100" b="5" /></message>
+	<message label="023_01_a" attrib="00 00 13"><anim id="Nodding" target="player" targetSpec="" />Ja, bitte!</message>
+	<message label="023_01_b" attrib="00 00 13"><anim id="Negative" target="player" targetSpec="" />Dann doch nicht.</message>
+	<message label="023_02" attrib="02 00 13"><tag a="100" b="5" />Kleiner Flug gegen Zahlung
+von <colour id="1" />100<colour id="65535" /> Meilen gefällig?<endTag a="100" b="5" /></message>
+	<message label="023_02_a" attrib="00 00 13"><anim id="Nodding" target="player" targetSpec="" />Ja, bitte!</message>
+	<message label="023_02_b" attrib="00 00 13"><anim id="Negative" target="player" targetSpec="" />Dann doch nicht.</message>
+	<message label="023_03" attrib="02 00 13"><tag a="100" b="5" />Oh, <delay8 />letztes Mal hattest du ja gar
+nicht genug Meilen auf dem Konto.<delay20 />
+Sieht das jetzt besser aus?<pageBreak />Eine Rettung kostet nämlich
+<colour id="1" />100<colour id="65535" /> Meilen. <delay20 />Ist das so in Ordnung?<endTag a="100" b="5" /></message>
+	<message label="023_03_a" attrib="00 00 13"><anim id="Nodding" target="player" targetSpec="" />Ja, bitte!</message>
+	<message label="023_03_b" attrib="00 00 13"><anim id="Negative" target="player" targetSpec="" />Dann doch nicht.</message>
+	<message label="031_01" attrib="00 00 13"><tag a="100" b="5" />Hm? <delay20 />Also lieber doch nicht?<endTag a="100" b="5" /></message>
+	<message label="031_02" attrib="00 00 13"><tag a="100" b="5" />Was? <delay20 />Jetzt plötzlich doch nicht?!<delay frames="40" />
+Keine Angst, <delay8 />die Meilen vom letzten
+Mal musst du nicht nachzahlen!<endTag a="100" b="5" /></message>
+	<message label="032_01" attrib="00 00 13"><tag a="100" b="5" />Wenn du in Schwierigkeiten steckst,<delay8 />
+sag einfach Bescheid!<endTag a="100" b="5" /></message>
+	<message label="032_02" attrib="00 00 13"><tag a="100" b="5" />Falls du nicht genug Meilen hast
+oder so was, <delay8 />können wir da ein
+bisschen was drehen<tag a="110" b="0" />
+Also sag Bescheid, wenn du wirklich
+Hilfe brauchst.<endTag a="100" b="5" /></message>
+	<message label="041_01" attrib="00 00 13"><tag a="100" b="5" />Alles paletti.<delay20 /> Dann lass mal
+<colour id="1" />100<colour id="65535" /> Meilen rüberwachsen!<endTag a="100" b="5" /></message>
+	<message label="041_02" attrib="00 00 13"><tag a="100" b="5" />Alles paletti.<delay20 /> Und diesmal kannst du
+ja auch zahlen. <delay20 />Dann <colour id="1" />100<colour id="65535" /> Meilen
+bitte.<endTag a="100" b="5" /></message>
+	<message label="042_01" attrib="00 00 13"><tag a="100" b="5" />Alles paletti.<delay20 /> Dann gib mir schnell
+die <colour id="1" />100<colour id="65535" /> Meilen, <delay8 />und schon sind<tag a="110" b="0" /><endTag a="100" b="5" /><10_7 arg="75" /></message>
+	<message label="042_02" attrib="00 00 13"><10_10 /><tag a="10" b="12" /><anim id="TakenAback" target="player" targetSpec="" />　　　　　       <tag a="100" b="5" /><size value="150" />Oha!<size value="100" /><delay20 /><10_9 /><pageBreak /><anim id="EmotEnd" target="player" targetSpec="" />Du hast leider nicht genug Meilen auf dem Konto. <delay20 />So geht das ja eigentlich
+nicht<tag a="110" b="0" /><pageBreak />Aber wenn es halt ein Notfall ist,<delay8 />
+kann man wohl nichts machen.<delay20 />
+Dann geht es diesmal aufs Haus.<endTag a="100" b="5" /></message>
+	<message label="042_03" attrib="00 00 13"><10_10 /><tag a="10" b="12" /><anim id="TakenAback" target="player" targetSpec="" />　　　　       　<tag a="100" b="5" /><size value="150" />Oha!<size value="100" /><delay20 /><10_9 /><pageBreak /><anim id="EmotEnd" target="player" targetSpec="" />Du hast ja schon wieder zu wenig
+Meilen auf dem Konto! <delay20 />So geht das
+ja eigentlich nicht<tag a="110" b="0" /><pageBreak />Aber wenn es halt ein Notfall ist,<delay8 />
+kann man wohl nichts machen.<delay20 />
+Geht es eben wieder aufs Haus.<endTag a="100" b="5" /></message>
+	<message label="042_04" attrib="00 00 13"><tag a="100" b="5" />Wir setzen dich dann aber irgendwo
+ab, <delay8 />wo es uns grad gut in den Kram
+passt.<endTag a="100" b="5" /></message>
+	<message label="043" attrib="00 00 13"><tag a="100" b="5" />Ach übrigens, <delay8 />was deine Begleitung
+angeht... <delay frames="30" />Wir setzen euch beide
+einfach auf dem <colour id="1" />Festplatz<colour id="65535" /> ab.<endTag a="100" b="5" /></message>
+	<message label="044_01" attrib="06 00 13"><tag a="100" b="5" />Prima, dann wäre das ja geklärt.<delay20 />
+Also dann, <delay8 />wohin soll die Reise
+gehen?<endTag a="100" b="5" /></message>
+	<message label="044_01_a" attrib="00 00 13">Nach Hause.</message>
+	<message label="044_01_b" attrib="00 00 13">Zum Festplatz.</message>
+	<message label="044_01_c" attrib="00 00 13">Zum Flughafen.</message>
+	<message label="044_01_d" attrib="00 00 13">Ich will doch bleiben.</message>
+	<message label="044_02" attrib="06 00 13"><tag a="100" b="5" />Prima, dann wäre das ja geklärt.<delay20 />
+Also dann, <delay8 />wohin soll die Reise
+gehen?<endTag a="100" b="5" /></message>
+	<message label="044_02_a" attrib="00 00 13">Zu meinem Zelt.</message>
+	<message label="044_02_b" attrib="00 00 13">Zum Festplatz.</message>
+	<message label="044_02_c" attrib="00 00 13">Zum Flughafen.</message>
+	<message label="044_02_d" attrib="00 00 13">Ich will doch bleiben.</message>
+	<message label="044_03" attrib="08 00 13"><tag a="100" b="5" />Prima, dann wäre das ja geklärt.<delay20 />
+Also dann, <delay8 />wohin soll die Reise
+gehen?<endTag a="100" b="5" /></message>
+	<message label="044_03_a" attrib="00 00 13">Nach Hause.</message>
+	<message label="044_03_b" attrib="00 00 13">Zum Festplatz.</message>
+	<message label="044_03_c" attrib="00 00 13">Zum Laden.</message>
+	<message label="044_03_d" attrib="00 00 13">Zum Flughafen.</message>
+	<message label="044_03_e" attrib="00 00 13">Ich will doch bleiben.</message>
+	<message label="045" attrib="04 00 13"><tag a="100" b="5" />So<tag a="110" b="0" /> <delay20 />Einziges Problem ist jetzt,<delay8 />
+dass du anscheinend noch keinen
+festen Wohnsitz hier hast.<pageBreak />Könntest du mir also 'nen Tipp
+geben, <delay8 />wo's hingehen soll?<endTag a="100" b="5" /></message>
+	<message label="045_a" attrib="00 00 13">Zum Festplatz.</message>
+	<message label="045_b" attrib="00 00 13">Zum Flughafen.</message>
+	<message label="045_c" attrib="00 00 13">Ich will doch bleiben.</message>
+	<message label="046" attrib="06 00 13"><tag a="100" b="5" />So<tag a="110" b="0" /> <delay20 />Einziges Problem ist jetzt,<delay8 />
+dass du anscheinend noch keinen
+festen Wohnsitz hier hast.<pageBreak />Könntest du mir also 'nen Tipp
+geben, <delay8 />wo's hingehen soll?<endTag a="100" b="5" /></message>
+	<message label="046_a" attrib="00 00 13">Zum Festplatz.</message>
+	<message label="046_b" attrib="00 00 13">Zum Laden.</message>
+	<message label="046_c" attrib="00 00 13">Zum Flughafen.</message>
+	<message label="046_d" attrib="00 00 13">Ich will doch bleiben.</message>
+	<message label="047" attrib="08 00 13"><tag a="100" b="5" />Alles klärchen? Spitze.<delay20 />
+Dann sag mal, <delay8 />wohin soll die Reise
+denn gehen?<endTag a="100" b="5" /></message>
+	<message label="047_a" attrib="00 00 13">Zu meinem Zelt.</message>
+	<message label="047_b" attrib="00 00 13">Zum Festplatz.</message>
+	<message label="047_c" attrib="00 00 13">Zum Laden.</message>
+	<message label="047_d" attrib="00 00 13">Zum Flughafen.</message>
+	<message label="047_e" attrib="00 00 13">Ich will doch bleiben.</message>
+	<message label="048" attrib="02 00 13"><tag a="100" b="5" /><tag a="110" b="0" />Oha. <delay40 />Du bist grad fern der
+Heimat, <delay8 />was?<pageBreak />Unsere Karte ist etwas ungenau,
+<delay20 />also würde ich dich <colour id="1" />beim Flugzeug
+<colour id="65535" />absetzen.<delay20 /> Okay für dich?<endTag a="100" b="5" /></message>
+	<message label="048_a" attrib="00 00 13">Klar!</message>
+	<message label="048_b" attrib="00 00 13">Ich will doch bleiben.</message>
+	<message label="050_01" attrib="00 00 13"><tag a="100" b="5" />Du willst zu deinem Zelt?<delay20 />
+Gut, <delay8 />kannste haben!<endTag a="100" b="5" /></message>
+	<message label="050_02" attrib="00 00 13"><tag a="100" b="5" />Nach Hause willst du?<delay20 />
+Wird gemacht, <delay8 />Chef.<endTag a="100" b="5" /></message>
+	<message label="050_03" attrib="00 00 13"><tag a="100" b="5" />Zum <colour id="1" />Festplatz <colour id="65535" />der Insel? <delay20 />Auf geht's.<endTag a="100" b="5" /></message>
+	<message label="050_04" attrib="00 00 13"><tag a="100" b="5" />Zum Laden der Insel?
+<delay20 />Gut, <delay8 />null Problemo.<endTag a="100" b="5" /></message>
+	<message label="050_05" attrib="00 00 13" />
+	<message label="050_06" attrib="00 00 13"><tag a="100" b="5" />Alles klar!<delay frames="30" />
+Dann nichts wie los.<endTag a="100" b="5" /></message>
+	<message label="050_07" attrib="00 00 13"><tag a="100" b="5" />Einmal <colour id="1" />Flughafen<colour id="65535" />?
+<delay20 />Wird gemacht, <delay8 />Chef.<endTag a="100" b="5" /></message>
+	<message label="051" attrib="00 00 13"><tag a="60" b="20" /></message>
+	<message label="051_01" attrib="00 00 13"><tag a="100" b="5" />Aaaalso<tag a="110" b="0" />
+<size value="75" />Ich drück mal den Knopf hier.<size value="100" /><endTag a="100" b="5" /></message>
+	<message label="051_02" attrib="00 00 13"><tag a="100" b="5" />Aaaalso<tag a="110" b="0" /><delay8 />
+<size value="75" />Ich hoffe, <delay8 />ich mach das richtig.<size value="100" /><endTag a="100" b="5" /></message>
+	<message label="051_03" attrib="00 00 13"><tag a="100" b="5" />Aaaalso<tag a="110" b="0" /><delay8 />
+<size value="75" />Muss das hier so klein geschrieben sein?<size value="100" /><endTag a="100" b="5" /></message>
+	<message label="052" attrib="00 00 13"><tag a="100" b="5" />So, <delay8 />jetzt kann's losgehen<tag a="110" b="0" /><endTag a="100" b="5" /></message>
+	<message label="053" attrib="00 00 13"><tag a="10" b="12" />                    <tag a="100" b="2" /><tag a="100" b="5" />Andiamo!<endTag a="100" b="5" /><endTag a="100" b="2" /><10_8 arg="30" /></message>
+	<message label="061" attrib="00 00 13"><tag a="100" b="5" />Und schon sind wir da!<endTag a="100" b="5" /></message>
+	<message label="062" attrib="00 00 13"><tag a="100" b="5" />Ach ja, <delay8 />eine Sache noch<tag a="110" b="0" /><endTag a="100" b="5" /></message>
+	<message label="063" attrib="00 00 13"><tag a="60" b="20" /></message>
+	<message label="063_01" attrib="00 00 13"><tag a="100" b="5" />Hast du auch schon mal den
+Ausdruck <delay8 />„Mund-zu-Mund-
+Propaganda“ <delay8 />gehört?<pageBreak />Der ist nämlich falsch!<delay frames="40" />
+„Mund-zu-Mund“ gibt's höchstens
+bei der Beatmung.<pageBreak />Wenn du allen erzählst, <delay8 />wie sehr dir
+die Notrettung geholfen hast, <delay8 />dann
+ist das „Mundpropaganda“!<endTag a="100" b="5" /></message>
+	<message label="063_02" attrib="00 00 13"><tag a="100" b="5" />Kennst du den Unterschied zwischen
+„Katheter“ und „Katheder“? <delay20 />Dann
+bist du was ganz Besonderes!<pageBreak />Der Katheter ist ein medizinisches
+Instrument. <delay20 />Findet man in
+Krankenhäusern und so.
+Das Katheder ist ein Pult, <delay8 />von dem
+ich meine Weisheiten predigen
+könnte, <delay20 />wenn ich eins hätte.<endTag a="100" b="5" /></message>
+	<message label="063_03" attrib="00 00 13"><tag a="100" b="5" />Hast du auch schon mal gehört,<delay8 />
+wie jemand gesagt hat, <delay8 />er wäre
+„baff erstaunt“?<pageBreak />Hoffentlich nicht, <delay8 />denn das ist
+Quatsch.<delay20 /> Man ist entweder „bass
+erstaunt“ oder einfach nur „baff“!<pageBreak />So wie ich, <delay8 />wenn ich heutzutage
+noch mal jemandem begegne, <delay8 />der
+Redewendungen korrekt verwendet.<endTag a="100" b="5" /></message>
+	<message label="064" attrib="00 00 13"><tag a="60" b="20" /></message>
+	<message label="064_01" attrib="00 00 13"><tag a="100" b="5" />Hast du auch schon mal den
+Ausdruck <delay8 />„Mund-zu-Mund-
+Propaganda“ <delay8 />gehört?<pageBreak />Der ist nämlich falsch!<delay frames="40" />
+„Mund-zu-Mund“ gibt's höchstens
+bei der Beatmung.<pageBreak />Wenn du allen erzählst, <delay8 />wie sehr dir
+die Notrettung geholfen hast, <delay8 />dann
+ist das „Mundpropaganda“!<endTag a="100" b="5" /></message>
+	<message label="064_02" attrib="00 00 13"><tag a="100" b="5" />Kennst du den Unterschied zwischen
+„Katheter“ und „Katheder“? <delay20 />Dann
+bist du was ganz Besonderes!<pageBreak />Der Katheter ist ein medizinisches
+Instrument. <delay20 />Findet man in
+Krankenhäusern und so.
+Das Katheder ist ein Pult, <delay8 />von dem
+ich meine Weisheiten predigen
+könnte, <delay20 />wenn ich eins hätte.<endTag a="100" b="5" /></message>
+	<message label="064_03" attrib="00 00 13"><tag a="100" b="5" />Beim <colour id="1" />NookPortal<colour id="65535" /> im Servicecenter<delay8 />
+kannst du jeden Tag Meilen
+absahnen.<delay20 /> Ganz mühelos.<endTag a="100" b="5" /></message>
+	<message label="2001" attrib="00 00 13"><tag a="100" b="5" />Wie bitte, <delay8 />dir ist aufgefallen, <delay8 />dass
+heute hier jemand anderes am
+Schaltpult sitzt als sonst?<pageBreak />Nicht schlecht, <delay8 /><tag a="110" b="1" />.
+<delay20 />Hast 'n feines Näschen.<pageBreak />Es ist wahr, <delay8 />der Kleine<tag a="110" b="0" /><delay8 /> also, <delay8 />ich
+meine,<delay8 /> der Kollege <delay8 />hat heute frei,
+<delay8 />deshalb springe ich ein.<pageBreak />Ich hab hier nicht so die Routine wie
+er, <delay8 />also nimm's mir nicht krumm,<delay8 />
+wenn's heute etwas unrund läuft.<pageBreak />Ähem, <delay8 />weiter im Text...<endTag a="100" b="5" /></message>
+</msbt>

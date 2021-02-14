@@ -1,0 +1,134 @@
+<msbt attribsize="8">
+	<message label="001" attrib="00 00 00 00 00 00 00 00"><anim id="Hello" target="mainNpc" targetSpec="" /><tag a="50" b="3" /><tag a="110" b="3" /> !<delay20 /> Tu tombes bien.<pageBreak /><anim id="Scheming" target="mainNpc" targetSpec="" />J'allais justement proposer à <tag a="110" b="31" arg="0xcd01" /><20_2 arg="7" /> de jouer à faire <anim id="Greeting" target="mainNpc" targetSpec="" />une petite chaîne de mots !<pageBreak /><anim id="Explain" target="mainNpc" targetSpec="" />Le premier dit un mot,<delay8 /> et on doit tour
+à tour trouver un mot qui commence
+par la dernière lettre du précédent.</message>
+	<message label="002" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="subNpc" targetSpec="" />Chouette ! J'accepte le défi.<delay20 /> <anim id="Greeting" target="subNpc" targetSpec="" />Allez,
+c'est moi qui commence !<pageBreak /><anim id="Thinking" target="subNpc" targetSpec="" />Hmm<tag a="110" b="0" /> Je vais dire<tag a="110" b="0" /><delay40 /> <anim id="IdeaBulb" target="subNpc" targetSpec="" />« Gym » !<delay40 /> <20_2 arg="7" /><anim id="FaintSmile" target="subNpc" targetSpec="" />Bon,
+à <tag a="110" b="31" arg="0xcd00" />, maintenant !</message>
+	<message label="003" attrib="00 00 10 00 00 00 00 00"><anim id="Thinking" target="mainNpc" targetSpec="" />Voyons<tag a="110" b="0" /> « M »<tag a="110" b="0" /><delay20 /> « M »<tag a="110" b="0" /><delay40 />
+<anim id="Aha" target="mainNpc" targetSpec="" />Ça y est : « Muscle » !<pageBreak /><20_3 arg="6" /><anim id="Smiling" target="mainNpc" targetSpec="" />Ouaip !<delay20 /> Allez, un mot qui commence
+par « E », <20_2 arg="8" /><tag a="110" b="3" /> !</message>
+	<message label="003_a" attrib="00 00 00 00 00 00 00 00">Entraînement quotidien.</message>
+	<message label="003_b" attrib="00 00 00 00 00 00 00 00">Étirements.</message>
+	<message label="003_c" attrib="00 00 00 00 00 00 00 00">Échauffement.</message>
+	<message label="003_d" attrib="00 00 00 00 00 00 00 00">Exercice.</message>
+	<message label="003_e" attrib="00 00 00 00 00 00 00 00">Élongation.</message>
+	<message label="009" attrib="00 00 00 00 00 00 00 00"><anim id="TakenAback" target="subNpc" targetSpec="" />« Entraînement quotidien » ?!<delay20 /> Mais
+ça fait deux mots ! <20_2 arg="7" /><anim id="Frantic" target="subNpc" targetSpec="" />Comment on fait
+dans ces cas-là ?
+<anim id="Thinking" target="actor" targetSpec="" />D'ailleurs<tag a="110" b="0" /><delay20 /><anim id="Surprised" target="actor" targetSpec="" /> J'ai pas terminé mon
+entraînement quotidien,<delay8 /> aujourd'hui !<delay frames="40" />
+Trop nul !</message>
+	<message label="010" attrib="00 00 00 00 00 00 00 00"><anim id="TakenAback" target="mainNpc" targetSpec="" />« Trop Nul » ?<delay frames="40" /> Ouah,<delay8 /> t'es super fort !<pageBreak /><anim id="Clapping" target="actor" targetSpec="" />Tu as réussi à combiner le « T »
+d'« entraînemenT » avec le « N »
+de « quotidieN » !<anim id="EmotEnd" target="mainNpc" targetSpec="" />
+<anim id="Smiling" target="actor" targetSpec="" />Franchement,<delay8 /> je pense pas pouvoir
+faire mieux.<delay frames="40" /> J'admets ma défaite.</message>
+	<message label="011" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="subNpc" targetSpec="" />Euh<tag a="110" b="0" /> ça veut dire que<tag a="110" b="0" /> j'ai gagné ?<pageBreak /><anim id="HappyFlower" target="subNpc" targetSpec="" />Youpi !<delay20 /> J'ai gagné !<delay20 /> Même si j'ai pas
+très bien compris pourquoi !<anim id="EmotEnd" target="actor" targetSpec="" /></message>
+	<message label="012" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="subNpc" targetSpec="" />Des étirements ? <delay20 /><anim id="Love" target="subNpc" targetSpec="" />Oh, ça j'adore !<delay40 />
+<20_2 arg="7" />Abdos et étirements, y a pas mieux
+pour se faire des muscles d'acier !</message>
+	<message label="013" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="mainNpc" targetSpec="" />Ah, t'as bien raison !<delay20 /> <20_3 arg="7" /><anim id="AbsentMindedness" target="mainNpc" targetSpec="" />Et le lendemain,
+quand tous les muscles te font mal ?<pageBreak />Là au moins, tu sais que t'as BIEN
+bossé, <tag a="110" b="6" />.</message>
+	<message label="014" attrib="00 00 00 00 00 00 00 00"><anim id="Angry" target="subNpc" targetSpec="" />Pff<tag a="110" b="0" /> Pourquoi on reste là, à faire des
+jeux avec des mots, en fait ?!<pageBreak /><anim id="Frantic" target="subNpc" targetSpec="" />J'ai qu'une envie, c'est de foncer
+à la salle de sport pour m'éclater
+en faisant de la musculation !</message>
+	<message label="015" attrib="00 00 00 00 00 00 00 00"><anim id="Greeting" target="mainNpc" targetSpec="" />Ouais !<delay20 /> <anim id="HappyDance" target="mainNpc" targetSpec="" />Vas-y, je te suis ! Enfin<tag a="110" b="0" /> Je
+vais sûrement te dépasser, je cours
+plus vite que toi ! <tag a="50" b="3" /><tag a="110" b="6" /> !</message>
+	<message label="016" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Ah,<delay8 /> c'est important, l'échauffement.<delay frames="40" />
+Ça permet de mieux s'entraîner pour
+avoir des abdos en béton.
+<anim id="SmugFace" target="subNpc" targetSpec="" />Regardez-moi ça.<delay8 /> Voilà une superbe
+tablette de chocolat comme on n'en
+voit pas tous les jours.</message>
+	<message label="017" attrib="00 00 00 00 00 00 00 00"><anim id="Laughing" target="mainNpc" targetSpec="" />À force de t'échauffer,<delay8 /><20_3 arg="7" /> elle a pas un
+peu fondu, ta tablette ?<pageBreak /><anim id="Negative" target="mainNpc" targetSpec="" />Non, si on veut voir des abdos en
+béton, des vrais de vrais<tag a="110" b="0" /><delay8 /> <anim id="BigSmile" target="mainNpc" targetSpec="" />c'est
+vers moi qu'il faut se tourner.</message>
+	<message label="018" attrib="00 00 00 00 00 00 00 00"><anim id="Fuming" target="subNpc" targetSpec="" />Quoi ? Tu te moques de mes abdos
+super musclés ? C'est quoi ce coup
+de poing dans le ventre en traître ?!<anim id="Angry" target="subNpc" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" /></message>
+	<message label="019" attrib="00 00 00 00 00 00 00 00"><anim id="Outraged" target="mainNpc" targetSpec="" />C'est pour montrer à quel point t'as
+le ventre mou, tiens !<delay8 /> <anim id="Angry" target="mainNpc" targetSpec="" />De toute façon,
+y a que la vérité qui blesse, na !
+<anim id="EmotEnd" target="mainNpc" targetSpec="" />Mais, euh<tag a="110" b="0" /> <anim id="QuestionMark" target="mainNpc" targetSpec="" />de quoi on parlait déjà,
+avant de grossièrement nous
+interrompre nous-mêmes ?</message>
+	<message label="020" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="subNpc" targetSpec="" />Hein ?<delay8 /> Euh<tag a="110" b="0" /> <anim id="QuestionMark" target="subNpc" targetSpec="" />D'échauffement, non ?
+<delay40 />Tiens, si on s'échauffait ensemble ?<pageBreak /><anim id="BigSmile" target="subNpc" targetSpec="" />On en profitera pour s'échanger des
+trucs pour développer encore plus
+nos abdos, <tag a="110" b="6" /> !</message>
+	<message label="021" attrib="00 00 00 00 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />« Exercice » ?<delay frames="40" /> Mais ça finit aussi
+par un « E » !<anim id="Worried" target="actor" targetSpec="" /> C'est un peu répétitif,<delay8 />
+non ?
+<anim id="Thinking" target="actor" targetSpec="" />D'un autre côté<tag a="110" b="0" /> la répétition est
+à la base de tout exercice<tag a="110" b="0" /><pageBreak />Et ce jeu est une sorte d'exercice
+pour le cerveau, donc<tag a="110" b="0" />
+<20_2 arg="7" /><anim id="BigSmile" target="actor" targetSpec="" />Je vais dire « Exercice » !</message>
+	<message label="022" attrib="00 00 00 00 00 00 00 00"><anim id="TakenAback" target="actor" targetSpec="" />Hein ?<delay frames="40" /> C'est pas un peu trop facile ?<delay frames="40" />
+Si c'est comme ça, moi aussi je peux
+dire « Exercice » !</message>
+	<message label="023" attrib="00 00 00 00 00 00 00 00"><anim id="HappyFlower" target="actor" targetSpec="" />Tu as tout compris !<delay frames="40" /> Si on répète ça
+quelques centaines de fois, on sera
+super musclés du ciboulot !
+Allez,<delay8 /> c'est parti.<anim id="Fuming" target="actor" targetSpec="" /> Exercice !<delay frames="40" /> Exercice !<delay frames="40" />
+Exercice !</message>
+	<message label="024" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="mainNpc" targetSpec="" />Oh ! Ça fait mal, ça<tag a="110" b="0" /> <anim id="Serious" target="mainNpc" targetSpec="" />Moi je dis, un
+claquage, c'est quand même la tuile !</message>
+	<message label="025" attrib="00 00 00 00 00 00 00 00"><anim id="TakenAback" target="subNpc" targetSpec="" />« Claquage » ?!<delay20 /> <anim id="Outraged" target="subNpc" targetSpec="" />Mais y a pas de « C »
+à la fin, dans « Élongation » !<delay8 /> Y en a
+même pas du tout, d'ailleurs !<pageBreak /><anim id="Negative" target="subNpc" targetSpec="" />Non, là, c'est pas du jeu.<delay8 /> Y a faute,<delay8 />
+t'es disqualifié !</message>
+	<message label="026" attrib="00 00 00 00 00 00 00 00"><anim id="Surprised" target="mainNpc" targetSpec="" />Quoi ?!<delay40 /><anim id="Angry" target="actor" targetSpec="" /> Mais pas du tout !<delay20 /> Je donnais
+pas le mot suivant,<delay8 /> je commentais
+juste son mot à <gender2 m="lui" f="elle" /> !<pageBreak /><anim id="Laughing" target="actor" targetSpec="" />Et puis d'ailleurs,<delay8 /> tout le monde sait
+que « Claquage » commence par un
+« K », comme « K.-O. technique » !</message>
+	<message label="101" attrib="00 00 00 01 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Je veux devenir un athlète de premier
+plan,<delay8 /> alors je dois m'entraîner aussi
+<anim id="BigSmile" target="actor" targetSpec="" />aux interviews avec les journalistes.</message>
+	<message label="102" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="subNpc" targetSpec="" />C'est vrai ! <tag a="50" b="3" /><tag a="110" b="6" /> !<delay20 />
+Je vais t'aider à t'entraîner.<pageBreak /><anim id="Explain" target="subNpc" targetSpec="" />Hum<tag a="110" b="0" /><delay8 /> « Bonjour à tous !<delay20 /> Nous voici
+avec <tag a="110" b="31" arg="0xcd00" />,<delay8 /> le célèbre champion de <tag a="135" b="6" arg="0xcd00" />. »<pageBreak /><anim id="Greeting" target="subNpc" targetSpec="" />« <tag a="110" b="31" arg="0xcd00" />,<delay8 /> dites-nous<tag a="110" b="0" /><delay8 />
+À quoi devez-vous votre victoire ? »</message>
+	<message label="103" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="mainNpc" targetSpec="" />« La préparation, c'est la clé du
+succès. <anim id="ShyBoy" target="mainNpc" targetSpec="" />Je me donne à 210 % et
+je fais <tag a="90" b="3" arg="0x100" /> <50_8 x="0" y="0" a="pompe" b="pompe" c="pompes" /> par jour ! »</message>
+	<message label="104" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="subNpc" targetSpec="" />« Ah, très bien, très intéressant !<delay20 /> Et
+pour tous les fans qui nous écoutent,<delay8 />
+<anim id="Greeting" target="subNpc" targetSpec="" />pouvez-vous nous en dire plus ? »</message>
+	<message label="105" attrib="00 00 00 00 00 00 00 00"><anim id="SmugFace" target="mainNpc" targetSpec="" />« Eh bien, pour parvenir au succès,<delay8 /> il
+me semble essentiel d'avoir de beaux
+biceps.<delay20 /> C'est ma règle de vie. »</message>
+	<message label="106" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="subNpc" targetSpec="" />Attends une minute.<delay8 /> Temps mort.<delay20 />
+<anim id="QuestionMark" target="subNpc" targetSpec="" />Tu voulais parler des triceps, non ?<pageBreak /><anim id="Explain" target="subNpc" targetSpec="" />Les pompes,<delay8 /> ça fait travailler les
+triceps<tag a="110" b="0" /> Donc la clé du succès,<delay8 /> ce
+serait les triceps ?</message>
+	<message label="107" attrib="00 00 00 00 00 00 00 00"><anim id="Laughing" target="mainNpc" targetSpec="" />Non, non !<delay8 /> J'ai bien dit « biceps » !<delay20 />
+Les biceps, ça passe mieux à l'écran !</message>
+	<message label="108" attrib="00 00 00 00 00 00 00 00"><anim id="IdeaBulb" target="subNpc" targetSpec="" />Ah<tag a="110" b="0" /> D'accord,<delay8 /> je comprends !<pageBreak /><anim id="HappyDance" target="subNpc" targetSpec="" />« T'entraîner aux interviews » voulait
+dire<delay8 /> « t'entraîner à être classe face à
+la caméra »,<delay8 /> en fait ! <tag a="50" b="3" /><tag a="110" b="6" /> !</message>
+	<message label="201" attrib="00 00 00 01 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Eh,<delay8 /> <tag a="110" b="31" arg="0xcd01" /> !<delay20 /> Ça te dirait
+qu'on se fasse un entraînement à la
+super-héros ?<delay20 /> Allez, <tag a="110" b="6" /> !</message>
+	<message label="202" attrib="00 00 00 00 00 00 00 00"><anim id="HappyDance" target="actor" targetSpec="" />Ah oui !<delay8 /> Avec plaisir !<delay40 /> <anim id="EmotEnd" target="actor" targetSpec="" />Mais attends<tag a="110" b="0" />
+<anim id="QuestionMark" target="actor" targetSpec="" />Tu viens de dire « <tag a="110" b="5" /> »,<delay8 />
+je me trompe pas ?<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />C'est chouette.<delay20 /> On dirait un nom de
+coup spécial super classe !<delay20 /> <anim id="Smiling" target="actor" targetSpec="" />Ça me
+plaît.<delay8 /> Vraiment.<delay8 /> Beaucoup, même !</message>
+	<message label="203" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="mainNpc" targetSpec="" />Hein ?<delay8 /> C'est vrai ?<delay20 /> <anim id="Cheering" target="mainNpc" targetSpec="" />« <tag a="50" b="3" /><tag a="110" b="5" /> ».<delay40 /><anim id="EmotEnd" target="mainNpc" targetSpec="" />
+<anim id="Blushing" target="actor" targetSpec="" />Hé hé,<delay8 /> ça me fait plaisir que tu
+l'apprécies, <tag a="110" b="6" />.</message>
+	<message label="204" attrib="00 00 00 00 00 00 00 00"><anim id="Clapping" target="actor" targetSpec="" />J'adore !<delay20 /> <anim id="Aha" target="actor" targetSpec="" />Hé !<delay8 /> Ce serait chouette de
+hurler ça tous les deux en même
+temps !<delay20 /> Qu'est-ce que t'en dis ?</message>
+	<message label="205" attrib="00 00 00 00 00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Ah, ouais !<delay20 /> Ce serait TROP cool !
+<anim id="Laughing" target="actor" targetSpec="" />Allez, faisons un essai !</message>
+	<message label="206" attrib="00 00 00 00 00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />C'est d'accord ! <delay20 />T'es prêt ?<pageBreak /><10_10 /><anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" /><tag a="50" b="3" /><tag a="110" b="5" /> !<delay20 /> Par la force de mes
+muscles phénoménaux !<delay20 /> <anim id="Clapping" target="player" targetSpec="" /><anim id="Laughing" target="mainNpc" targetSpec="" /><delay20 /><anim id="Laughing" target="subNpc" targetSpec="" /><delay8 />Ha ha ha !</message>
+</msbt>

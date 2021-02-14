@@ -1,0 +1,105 @@
+<msbt attribsize="8">
+	<message label="001" attrib="00 00 02 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />А знаешь что?<delay frames="40" /><anim id="BigSmile" target="actor" targetSpec="" /> Если у тебя есть
+немного времени, можем сыграть
+в поиски сокровищ.</message>
+	<message label="001_a" attrib="00 00 00 00 00 00 00 00">Конечно, давай!</message>
+	<message label="001_b" attrib="00 00 00 00 00 00 00 00">У меня нет времени...</message>
+	<message label="002" attrib="00 00 02 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />У меня вопрос:<delay20 /> <anim id="EmotEnd" target="actor" targetSpec="" />поиски сокровищ?<delay8 />
+<anim id="Greeting" target="actor" targetSpec="" />В смысле, хочешь сыграть в поиски
+сокровищ со мной?</message>
+	<message label="002_a" attrib="00 00 00 00 00 00 00 00">Да!</message>
+	<message label="002_b" attrib="00 00 00 00 00 00 00 00">Не сейчас...</message>
+	<message label="003" attrib="00 00 02 00 00 00 00 00"><anim id="IdeaBulb" target="actor" targetSpec="" />Ой, у меня мышцы мозга свело,
+и родилась одна идея!<delay frames="40" /><anim id="EmotEnd" target="actor" targetSpec="" /> Я думаю, нам
+надо сыграть<anim id="Smiling" target="actor" targetSpec="" /> в поиски сокровищ!</message>
+	<message label="003_a" attrib="00 00 00 00 00 00 00 00">Хорошо!</message>
+	<message label="003_b" attrib="00 00 00 00 00 00 00 00">Нет, спасибо.</message>
+	<message label="004" attrib="00 00 00 00 00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />Класс! Погнали!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Я пойду спрячу сокровище<delay frames="40" /><anim id="EmotEnd" target="actor" targetSpec="" />
+и вернусь через минутку.</message>
+	<message label="005" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Отлично! Погнали!<delay frames="40" /><anim id="Nodding" target="actor" targetSpec="" />
+Чтобы искать что-то,<delay8 /> нужно сначала<delay8 />
+это спрятать!<delay8 /><anim id="Greeting" target="actor" targetSpec="" /> Так что жди здесь.</message>
+	<message label="006" attrib="00 00 00 00 00 00 00 00"><anim id="Laughing" target="actor" targetSpec="" />Класс! <delay8 />Начинаем!
+<delay frames="40" /><anim id="Greeting" target="actor" targetSpec="" />Я пойду спрячу сокровище, а ты
+пока подожди здесь. <tag a="50" b="3" /><tag a="110" b="6" />!</message>
+	<message label="007" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Подожди-ка. Уже так поздно?<pageBreak /><anim id="OhGeez" target="actor" targetSpec="" />Давай лучше отложим игру. <anim id="WrySmile" target="actor" targetSpec="" />Ночью
+искать сокровище гораздо сложней.<delay8 /><anim id="EmotEnd" target="actor" targetSpec="" /></message>
+	<message label="008" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Значит, мимо?<delay frames="40" /><anim id="FaintSmile" target="actor" targetSpec="" /> Ну ладно, тогда
+в другой раз.</message>
+	<message label="009" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Вот же ж порванный эспандер!<delay20 />
+<anim id="Smiling" target="actor" targetSpec="" />Ну ладно, сыграем в другой раз.
+<tag a="50" b="3" /><tag a="110" b="6" />!</message>
+	<message label="010" attrib="00 00 00 00 00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Эх, жалко.<delay frames="40" /><anim id="Nodding" target="actor" targetSpec="" /> Но если ты не хочешь,
+то лучше не будем.<delay frames="40" /><anim id="Greeting" target="actor" targetSpec="" /> В другой раз!</message>
+	<message label="011" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Итак, объясняю правила<tag a="110" b="0" /><10_7 arg="120" /><pageBreak /><anim id="Explain" target="actor" targetSpec="" />Я зарыл сокровище,<delay20 /> и если ты
+найдешь его до истечения
+времени, ты победишь!<10_7 arg="180" /><pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Оно зарыто в землю,<delay20 /><anim id="Negative" target="actor" targetSpec="" /> так что
+можешь не вламываться в чужие
+дома.<delay frames="40" /> <anim id="EmotEnd" target="actor" targetSpec="" />Поехали!<10_7 arg="240" /></message>
+	<message label="011_01" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Так, объясняю правила<tag a="110" b="0" /><10_7 arg="120" /><pageBreak /><anim id="Explain" target="actor" targetSpec="" />Я закопал сокровище.<delay20 /> Если ты его
+найдешь до того, как истечет время,
+ты выиграл<gender2 m="" f="а" />!<10_7 arg="180" /><pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Оно зарыто на улице,<delay20 /> <anim id="Negative" target="actor" targetSpec="" />так что
+можешь не ломиться ни к кому
+в дом.<10_7 arg="180" /><pageBreak /><anim id="Serious" target="actor" targetSpec="" />Играем только мы с тобой.<delay frames="40" /> <anim id="Greeting" target="actor" targetSpec="" />Другие
+могут только наблюдать за игрой
+и болеть за нас!<10_7 arg="180" /><pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Начали! <tag a="50" b="3" /><tag a="110" b="5" />!<10_7 arg="240" /></message>
+	<message label="012" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Ладно, объясню правила.<10_7 arg="120" /><pageBreak /><anim id="Explain" target="actor" targetSpec="" />Я зарыл сокровище, и если ты
+найдешь его до истечения времени,
+ты победил<gender2 m="" f="а" />!<10_7 arg="180" /><pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Но времени у тебя будет меньше,
+чем обычно,<delay20 /> так что будет сложнее.<delay40 />
+<anim id="EmotEnd" target="actor" targetSpec="" />Поехали!<10_7 arg="240" /></message>
+	<message label="012_01" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Так, объясняю правила<tag a="110" b="0" /><10_7 arg="120" /><pageBreak /><anim id="Explain" target="actor" targetSpec="" />Я закопал сокровище.<delay20 /> Если ты его
+найдешь до того, как истечет время,
+ты выиграл<gender2 m="" f="а" />!<10_7 arg="180" /><pageBreak /><anim id="Serious" target="actor" targetSpec="" />Играем только мы с тобой.<delay frames="40" /> <anim id="Greeting" target="actor" targetSpec="" />Другие
+могут только наблюдать за игрой
+и болеть за нас!<10_7 arg="180" /><pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Но времени у тебя будет меньше,
+чем обычно,<delay20 /> так что будет сложнее.<delay40 />
+<anim id="EmotEnd" target="actor" targetSpec="" />Поехали!<10_7 arg="240" /></message>
+	<message label="013" attrib="00 00 02 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Для начала уточню<tag a="110" b="0" /><delay20 /><anim id="QuestionMark" target="actor" targetSpec="" /> Ты правила-то
+помнишь? Или нужно повторить?
+<tag a="50" b="3" /><tag a="110" b="6" />?</message>
+	<message label="013_a" attrib="00 00 00 00 00 00 00 00">Давай.</message>
+	<message label="013_b" attrib="00 00 00 00 00 00 00 00">Нет, не нужно.</message>
+	<message label="014" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Тогда давай начнем!<10_7 arg="60" /></message>
+	<message label="014_01" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Да, кстати!<delay frames="40" /> <anim id="EmotEnd" target="actor" targetSpec="" />Это одиночное
+соревнование, так что откопать
+сокровище можешь только ты.<10_7 arg="180" /><pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Итак, <delay20 />начинаем! <tag a="50" b="3" /><tag a="110" b="5" />!<10_7 arg="120" /></message>
+	<message label="015" attrib="00 00 00 00 00 00 00 00"><anim id="WrySmile" target="actor" targetSpec="" />Время ограничено, так что
+придется побегать.<anim id="HappyDance" target="actor" targetSpec="" /> Удачи!<10_7 arg="120" /></message>
+	<message label="015_01" attrib="00 00 00 00 00 00 00 00"><anim id="Grin" target="actor" targetSpec="" />Время очень ограничено, так что
+будет сложно!<10_7 arg="120" /><pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Да, кстати!<delay20 /> Это одиночное
+соревнование, так что откопать
+сокровище можешь только ты.<10_7 arg="180" /><pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Итак, <delay20 />начинаем! <tag a="50" b="3" /><tag a="110" b="5" />!<10_7 arg="120" /></message>
+	<message label="101" attrib="00 00 02 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Если у тебя есть время<tag a="110" b="0" /> <delay20 /><anim id="Laughing" target="actor" targetSpec="" />не хочешь
+сыграть со мной в поиски
+сокровищ? <tag a="50" b="3" /><tag a="110" b="6" />!</message>
+	<message label="101_a" attrib="00 00 00 00 00 00 00 00">Конечно, есть!</message>
+	<message label="101_b" attrib="00 00 00 00 00 00 00 00">Извини, я занят.</message>
+	<message label="102" attrib="00 00 02 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Зацени-ка, <tag a="110" b="3" /><tag a="110" b="0" /><pageBreak /><anim id="Thinking" target="actor" targetSpec="" />Я тут думал над тем, как любителю
+вроде тебя набрать мышечную
+массу, и меня осенило<tag a="110" b="0" /><pageBreak /><anim id="IdeaBulb" target="actor" targetSpec="" /><delay20 />Поиски сокровищ!<delay frames="40" /><anim id="Smiling" target="actor" targetSpec="" /> Тебе обязательно
+нужно сыграть со мной в поиски
+сокровищ.<pageBreak /><anim id="AbsentMindedness" target="actor" targetSpec="" />Бегаешь по острову, ищешь
+сокровище<tag a="110" b="0" /><delay frames="60" /><anim id="BigSmile" target="actor" targetSpec="" /> Классный способ
+накачать мышцы! <tag a="50" b="3" /><tag a="110" b="5" />!</message>
+	<message label="102_a" attrib="00 00 00 00 00 00 00 00">Давай попробуем!</message>
+	<message label="102_b" attrib="00 00 00 00 00 00 00 00">Что-то не хочется.</message>
+	<message label="103" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Уже так поздно?!<delay frames="40" /><anim id="Worried" target="actor" targetSpec="" /> В темноте мы не
+то что сокровище, а вообще ничего
+не найдем.<delay20 /><anim id="FaintSmile" target="actor" targetSpec="" /> Давай в другой раз!</message>
+	<message label="104" attrib="00 00 00 00 00 00 00 00"><anim id="HappyDance" target="actor" targetSpec="" />Класс! Пойду спрячу сокровище.<delay frames="40" />
+<anim id="Greeting" target="actor" targetSpec="" />Жди здесь! <tag a="50" b="3" /><tag a="110" b="5" />!</message>
+	<message label="105" attrib="00 00 00 00 00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Нет? Не получится?<delay frames="40" />
+<anim id="EmotEnd" target="actor" targetSpec="" />Ну, если передумаешь, приходи.</message>
+	<message label="106" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Что?! Я только сейчас понял, что
+уже поздно!<delay frames="40" /><anim id="OhGeez" target="actor" targetSpec="" /> В темноте сокровище
+не найти!<anim id="FaintSmile" target="actor" targetSpec="" /> Тебе будет сложно.<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Давай попробуем в другой раз.</message>
+	<message label="107" attrib="00 00 00 00 00 00 00 00"><anim id="HappyDance" target="actor" targetSpec="" />Отлично! Я пойду спрячу
+сокровище, <delay20 /><anim id="Greeting" target="actor" targetSpec="" />а ты подожди здесь.</message>
+	<message label="108" attrib="00 00 00 00 00 00 00 00"><anim id="BrokenHeart" target="actor" targetSpec="" />Нет? Но<tag a="110" b="0" /><delay frames="60" /><anim id="WrySmile" target="actor" targetSpec="" /> Эх, а мне казалось, что
+это классная идея. <tag a="50" b="3" /><tag a="110" b="6" />.<anim id="EmotEnd" target="actor" targetSpec="" /></message>
+	<message label="200" attrib="00 00 00 00 00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Я так и не смог найти, где бы мне
+спрятать сокровище. Думал-думал,
+но так ничего и не придумал!<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Ну ладно. Может быть, в другой
+раз получится. <tag a="50" b="3" /><tag a="110" b="6" />.</message>
+</msbt>

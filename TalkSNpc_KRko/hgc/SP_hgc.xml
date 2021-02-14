@@ -1,0 +1,371 @@
+<msbt attribsize="4">
+	<message label="001" attrib="00 00 00 00">안녕하세요<delay20 />
+저는 패션 디자이너
+<colour id="3" />고숙이<colour id="65535" />라고 합니다<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />디자이너라고는 해도
+독립한 지 얼마 되지 않아서<delay8 />
+아직 부족한 부분이 많지만요<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />지금은 <delay8 />디자인 공부를 위해<delay20 />
+다양한 패션을 보러 각지를
+돌아다니고 있어요</message>
+	<message label="002" attrib="00 00 00 00">안녕하세요, <delay20 />또 뵙네요<delay40 />
+오늘도 디자이너 수행을 하러<delay8 />
+<tag a="110" b="33" />에 왔어요</message>
+	<message label="003" attrib="02 00 00 00">혹시 시간이 되신다면<tag a="110" b="0" /><delay20 />
+<anim id="QuestionMark" target="actor" targetSpec="" />저를 도와주시겠어요?<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />정해진 <colour id="1" />패션 테마<colour id="65535" />에 맞는 복장으로
+갈아입고 <delay20 />제게 보여주셨으면 해요<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />대단한 건 아니지만<delay8 />
+사례도 꼭 하겠습니다<tag a="110" b="0" /></message>
+	<message label="003_a" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />좋아요</message>
+	<message label="003_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />그건 좀…</message>
+	<message label="004" attrib="02 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />앗<tag a="110" b="0" /><delay20 /><anim id="EmotEnd" target="actor" targetSpec="" /> 혹시<delay8 />
+<anim id="QuestionMark" target="actor" targetSpec="" />도와주실 건가요?</message>
+	<message label="004_a" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />도울게요!</message>
+	<message label="004_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />안 되겠어요</message>
+	<message label="005" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />감사합니다!<10_4 />
+그럼 <delay8 />바로 말씀드릴게요<tag a="110" b="0" /></message>
+	<message label="006" attrib="00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />그렇군요<tag a="110" b="0" /><10_4 />
+<anim id="EmotEnd" target="actor" targetSpec="" />혹시 마음이 변하면<delay8 />
+다시 제게 말을 걸어주세요</message>
+	<message label="007" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />어머, 안녕하세요<delay20 />
+오늘도 디자이너 수행을 위해<delay8 />
+<tag a="110" b="33" />에 왔답니다<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />혹시 괜찮으시다면<delay8 />
+또 도움을 부탁드리고 싶은데<tag a="110" b="0" /></message>
+	<message label="008" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />어머, <tag a="110" b="1" />씨<delay20 />
+안녕하세요!<pageBreak />오늘도 디자이너 수행을 하러<delay8 />
+<tag a="110" b="33" />에 찾아왔어요<pageBreak />이번에도 저번처럼<delay8 />
+코디를 보여주실 수 있을까요?</message>
+	<message label="009" attrib="00 00 00 00">참고용으로 <delay8 /><tag a="140" b="3" arg="0xcd00" /> 이미지의
+옷을 드릴게요</message>
+	<message label="010" attrib="00 00 00 00"><tag a="125" b="0" arg="0x0" /><gender5 m="이에요" f="예요" /><10_4 />
+<anim id="Nodding" target="actor" targetSpec="" />이런 느낌으로<delay20 /> <colour id="1" /><tag a="140" b="3" arg="0xcd00" /><colour id="65535" /> 스타일<delay8 />
+코디를 해보세요<pageBreak /><anim id="Eh" target="actor" targetSpec="" />만약 코디가 생각나지 않으면<delay frames="30" />
+<anim id="EmotEnd" target="actor" targetSpec="" />이것과 어울릴 것 같은 아이템을<delay20 />
+<anim id="Hello" target="actor" targetSpec="" />착용해보시는 것도 좋아요<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />물론<delay20 /> 머리부터 발끝까지<delay8 />
+<anim id="Smiling" target="actor" targetSpec="" />꼼꼼하게 코디해주시면<delay20 /> 좋겠어요!</message>
+	<message label="011" attrib="00 00 00 00"><tag a="110" b="0" />그런데<delay8 />
+주머니가 가득 차서
+옷을 드릴 수가 없네요<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />소지품 정리를 하신 후에
+다시 말을 걸어주세요</message>
+	<message label="012" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />전 여기서 기다리고 있을게요<delay20 />
+그럼 부탁드려요</message>
+	<message label="013" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" /><colour id="1" /><tag a="125" b="0" arg="0x0" /><colour id="65535" /><gender5 m="이에요" f="예요" /><10_4 />
+<anim id="Nodding" target="actor" targetSpec="" />이런 느낌으로<delay20 /> <colour id="1" /><tag a="140" b="3" arg="0xcd00" /><colour id="65535" /> 스타일<delay8 />
+전신 코디를 해보세요<pageBreak /><anim id="Eh" target="actor" targetSpec="" />만약에 조금 어려울 것 같으면<delay frames="30" />
+<anim id="EmotEnd" target="actor" targetSpec="" />이것과 어울릴 것 같은 아이템을<delay20 />
+<anim id="Hello" target="actor" targetSpec="" />착용하시기만 해도 괜찮아요</message>
+	<message label="014" attrib="00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" /><tag a="110" b="0" />어머?<delay8 />
+주머니가 가득 차서
+옷을 드릴 수가 없네요<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />주머니에 공간이 생기면
+다시<delay8 /> 말을 걸어주세요</message>
+	<message label="015" attrib="00 00 00 00">전 여기서 기다리고 있을게요<delay20 />
+그럼 부탁드려요</message>
+	<message label="016" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" /><colour id="1" /><tag a="125" b="0" arg="0x0" /><colour id="65535" /><gender5 m="이에요" f="예요" /><10_4 />
+저는 이게<delay20 /> <colour id="1" /><tag a="140" b="3" arg="0xcd00" /><colour id="65535" /> 이미지라고 생각하는데<tag a="110" b="0" /><pageBreak /><anim id="BigSmile" target="actor" targetSpec="" /><tag a="110" b="1" />씨의 센스를 발휘해서<delay frames="30" />
+<anim id="Smiling" target="actor" targetSpec="" />자유롭게 코디해보셨으면 해요</message>
+	<message label="017" attrib="00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />어머, 그런데 <tag a="110" b="1" />씨
+<anim id="Worried" target="actor" targetSpec="" />이를 어쩌죠<tag a="110" b="0" /><delay8 />
+주머니가 가득 차서 드릴 수가 없네요<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />나중에<delay8 /> 주머니에 빈 공간이 생기면
+다시 말을 걸어주세요</message>
+	<message label="018" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />전 여기 있을게요<delay20 />
+그럼 부탁드려요</message>
+	<message label="023" attrib="00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />저, 저기<tag a="110" b="0" /><delay20 />
+옷은 위아래 모두 입어주세요<delay20 />
+부탁드려요</message>
+	<message label="024" attrib="00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />앗, 저<tag a="110" b="0" />
+옷은 위아래 다 제대로 입어주세요</message>
+	<message label="025" attrib="00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />휴<tag a="110" b="0" /><delay20 /> <tag a="110" b="1" />씨<delay20 />
+옷은 위아래 다 입어주세요</message>
+	<message label="026" attrib="02 00 00 00">앗, 갈아입고 오셨군요<delay20 />
+코디가 완성되었다면<delay8 />
+<anim id="QuestionMark" target="actor" targetSpec="" />한번 봐도 될까요?</message>
+	<message label="026_a" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />좋아요</message>
+	<message label="026_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />아직 아니에요</message>
+	<message label="027" attrib="02 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />어머, 갈아입고 오셨군요<delay20 />
+그 코디를<delay8 /> <anim id="QuestionMark" target="actor" targetSpec="" />살펴봐도 될까요?</message>
+	<message label="027_a" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />네!</message>
+	<message label="027_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />아직 아니에요</message>
+	<message label="028" attrib="02 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />갈아입고 오셨군요<delay20 />
+<anim id="EmotEnd" target="actor" targetSpec="" />그 코디를 <anim id="QuestionMark" target="actor" targetSpec="" />봐도 될까요?</message>
+	<message label="028_a" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />오케이!</message>
+	<message label="028_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />조금만 기다려줘…</message>
+	<message label="029" attrib="00 00 00 00">알겠습니다<delay20 />
+나머지도 잘 부탁드려요<delay8 />
+저는 여기서 기다릴게요</message>
+	<message label="030" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />네, 부탁드려요<delay20 />
+전 여기서 기다리고 있을게요</message>
+	<message label="031" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />네, 얼마든지요<delay20 />
+전 여기 있을 테니<delay8 />
+나머지도 잘 부탁드려요</message>
+	<message label="032" attrib="00 00 00 00">그러고 보니<delay8 /> <tag a="140" b="3" arg="0xcd00" /> 이미지의 옷을
+아직 전해드리지 못했었죠<delay20 />
+참고용으로 드릴게요</message>
+	<message label="035" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />저기<tag a="110" b="0" /> <delay20 />혹시<delay20 />
+<anim id="Worried" target="actor" targetSpec="" />변신 지팡이로<delay8 /> 변신하고 계신가요?<pageBreak /><anim id="Negative" target="actor" targetSpec="" />확인 중에 변신이 풀리면 곤란하니까<delay frames="30" />
+<anim id="EmotEnd" target="actor" targetSpec="" />괜찮으시면 확인 전에<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />변신을 풀어주실 수 있을까요?</message>
+	<message label="036" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />어머,<delay8 /> <tag a="110" b="1" />님<delay20 />
+<anim id="Silent" target="actor" targetSpec="" />혹시 변신 지팡이로<delay8 />
+변신하고 계신가요?<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />변신을 풀어주시면<delay8 />
+<anim id="Nodding" target="actor" targetSpec="" />패션을 봐드릴 테니까<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />준비가 되면 말을 걸어주세요</message>
+	<message label="037" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />어머,<delay8 /> <tag a="110" b="1" />님도 참,<delay20 />
+<anim id="Angry" target="actor" targetSpec="" />변신 지팡이로 변신 중이시죠?<delay frames="40" />
+<anim id="Grin" target="actor" targetSpec="" />제 눈은<delay8 /> 속일 수 없다니까요～<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />변신을 푸시고<delay20 />
+옷을 갈아입으신 다음에<delay20 />
+<anim id="Hello" target="actor" targetSpec="" />다시 말을 걸어주세요</message>
+	<message label="038_01" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />저기<tag a="110" b="0" /> <delay20 />혹시 지금<delay20 />
+<anim id="Worried" target="actor" targetSpec="" />섬 개발 공사를 진행 중이신가요?<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />코디를 보여주실 때에는
+<anim id="Nodding" target="actor" targetSpec="" />헬멧을 벗어주세요<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />작업이 끝난 다음이여도 괜찮으니까<delay20 />
+잘 부탁드려요</message>
+	<message label="038_02" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />어머, <delay8 /><tag a="110" b="1" />님<delay20 />
+<anim id="EmotEnd" target="actor" targetSpec="" />혹시<delay8 /> 지금 섬 개발 공사를
+진행 중이신가요?<pageBreak />코디를 보여주실 때에는
+<anim id="Nodding" target="actor" targetSpec="" />헬멧을 벗어주세요<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />작업이 끝난 다음이여도 괜찮으니까<delay8 />
+잘 부탁드려요<delay20 />
+준비가 되면 말을 걸어주세요</message>
+	<message label="038_03" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />어머, <delay8 /><tag a="110" b="1" />님<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />섬 개발 공사를 진행 중이신가요?<delay20 />
+<anim id="Worried" target="actor" targetSpec="" />바쁘실 텐데 죄송해요<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />헬멧을 벗으면<delay8 />
+코디를 봐드릴 수 있으니까<delay20 />
+다시 말을 걸어주세요
+<anim id="Smiling" target="actor" targetSpec="" />물론 <delay8 /><tag a="110" b="1" />님의
+작업이 끝난 다음이여도 괜찮아요<delay20 />
+잘 부탁드려요</message>
+	<message label="040" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />감사합니다<delay20 />
+그럼 살펴볼게요<tag a="110" b="0" /></message>
+	<message label="040_01" attrib="00 00 00 00">흠흠<tag a="110" b="0" /><delay20 />
+이런 식으로<tag a="110" b="0" /><delay20 /><10_8 arg="130" /></message>
+	<message label="040_02" attrib="00 00 00 00">흠흠<tag a="110" b="0" /><delay20 />
+이런 식으로<tag a="110" b="0" /><delay20 /><10_8 arg="130" /></message>
+	<message label="041" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />사례로 <colour id="1" />옷가게 쿠폰<colour id="65535" />을 드릴게요<delay20 />
+우편으로 보내드릴 테니까<delay20 />
+다음에 옷을 사실 때<delay8 /> 사용해보세요<pageBreak /><colour id="1" />옷가게 쿠폰<colour id="65535" />은<delay8 />
+<colour id="1" />옷가게<colour id="65535" />에서 <colour id="1" />3,000벨 이내<colour id="65535" />의 상품과
+교환할 수 있는 티켓이랍니다<pageBreak /><colour id="3" />콩돌이<colour id="65535" />씨네 가게에서는 사용할 수 없지만<delay8 />
+<colour id="1" />옷가게<colour id="65535" />에서는 대부분의 상품에 쓸 수 있어요<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />도움이 되었으면<delay8 /> 좋겠네요</message>
+	<message label="042" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />사례로 <colour id="1" />옷가게 쿠폰<colour id="65535" />을<delay8 />
+우편으로 보내 둘게요<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" /><colour id="1" />옷가게<colour id="65535" />에서 꼭 사용해보세요</message>
+	<message label="043" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />그리고<tag a="110" b="0" /> 이것도 받아주세요<delay20 />
+제가 디자인했답니다<10_4 />
+마음에 드실지는 모르겠지만<tag a="110" b="0" /></message>
+	<message label="044" attrib="00 00 00 00"><tag a="110" b="0" />그런데<delay20 />
+주머니가 가득 차셨나보네요<delay20 />
+이것도 우편으로 보내 둘게요</message>
+	<message label="045" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />이번에 만든 신작이랍니다<delay20 />
+조만간 <colour id="1" />옷가게<colour id="65535" />에도<delay8 />
+상품으로 진열할 예정이에요</message>
+	<message label="047" attrib="00 00 00 00">다음에 다시 뵈면<delay8 />
+그때도 잘 부탁드려요<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />오늘 도와주셔서 감사합니다</message>
+	<message label="048" attrib="00 00 00 00"><colour id="1" /><anim id="FaintSmile" target="actor" targetSpec="" /><tag a="125" b="4" arg="0x0" /><colour id="65535" /><gender5 m="이에요" f="예요" /><delay frames="40" />
+<anim id="EmotEnd" target="actor" targetSpec="" />그건 제가 만든 브랜드의<delay20 />
+아이템이랍니다<pageBreak /><anim id="Hesitate" target="actor" targetSpec="" />생긴 지 얼마 되지 않은 브랜드라<delay8 />
+별로 유명하진 않지만<tag a="110" b="0" /><delay20 />
+<anim id="Nodding" target="actor" targetSpec="" />괜찮다면 받아주세요<pageBreak /><anim id="Serious" target="actor" targetSpec="" />참고로 그 아이템의 브랜드 이름은<delay20 />
+<anim id="Explain" target="actor" targetSpec="" />예전에 디자이너 이름으로 사용했던<delay8 />
+'<colour id="1" />케이트<colour id="65535" />'에서 따왔어요<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />지금은 본명인 '<colour id="3" />고숙이<colour id="65535" />'로 활동하고 있지만<delay frames="30" />
+<anim id="FaintSmile" target="actor" targetSpec="" />얼마 전까지는 <colour id="1" />케이트<colour id="65535" />라는 이름을 썼거든요</message>
+	<message label="049" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" /><colour id="1" /><tag a="125" b="4" arg="0x0" /><colour id="65535" /><gender5 m="이에요" f="예요" /><delay frames="40" />
+<anim id="Nodding" target="actor" targetSpec="" />그것도 제가 만든 브랜드의 아이템이에요<tag a="110" b="0" /><delay8 />
+<anim id="Hello" target="actor" targetSpec="" />받아주셨으면 좋겠어요</message>
+	<message label="052" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />사례인 <colour id="1" />옷가게 쿠폰<colour id="65535" />은<delay8 />
+댁으로 보내 둘게요<delay20 />
+<colour id="1" />옷가게<colour id="65535" />에서 사용해보세요</message>
+	<message label="053" attrib="00 00 00 00">그리고<tag a="110" b="0" /><delay8 /> 이것도 받아주세요<delay20 />
+제가 디자인했답니다<delay20 />
+마음에 드시면 좋겠네요<tag a="110" b="0" /></message>
+	<message label="054" attrib="00 00 00 00"><anim id="Worried" target="actor" targetSpec="" /><tag a="110" b="0" />어머? <delay8 />그런데
+주머니가 가득 차셨나보네요<10_4 />
+<anim id="FaintSmile" target="actor" targetSpec="" />이것도 <delay8 />우편으로 보내 둘게요</message>
+	<message label="055" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />이번에 만든 신작이랍니다<delay20 />
+조만간 <colour id="1" />옷가게<colour id="65535" />에도<delay8 />
+상품으로 진열할 예정이에요</message>
+	<message label="057" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />다음에 다시 뵈면<delay8 />
+그때도 잘 부탁드려요<delay20 />
+감사합니다</message>
+	<message label="058" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" /><colour id="1" /><tag a="125" b="4" arg="0x0" /><colour id="65535" /><gender5 m="이에요" f="예요" /><delay frames="40" />
+<anim id="Nodding" target="actor" targetSpec="" />이것도 제가 만든 브랜드의<delay20 />
+아이템 중 하나랍니다</message>
+	<message label="062" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />사례인 <colour id="1" />옷가게 쿠폰<colour id="65535" />은<delay8 />
+나중에 집으로 보내 둘게요<delay20 />
+다음에 가게에서 사용해보세요</message>
+	<message label="063" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />그리고<delay8 /> 이것도 받아주세요<delay20 />
+제가 디자인했답니다<delay20 />
+마음에 드셨으면 좋겠네요</message>
+	<message label="064" attrib="00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />어머, <tag a="110" b="1" />씨<delay8 />
+주머니가 가득 찼나 봐요<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />이것도 나중에<delay8 /> 집으로 보내드릴게요</message>
+	<message label="065" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />나온 지 얼마 안 된 신작이랍니다<delay20 />
+조만간 <colour id="1" />옷가게<colour id="65535" />에도 진열될 예정이니<delay8 />
+한번 들러서 구경해보세요</message>
+	<message label="067" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />항상 정말 고맙습니다<delay20 />
+다음에도<delay8 /> 잘 부탁드려요</message>
+	<message label="068" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" /><colour id="1" /><tag a="125" b="4" arg="0x0" /><colour id="65535" /><gender5 m="이에요" f="예요" /><delay frames="40" />
+<anim id="Nodding" target="actor" targetSpec="" />이것도 <delay8 />제가 디자인했답니다<delay20 />
+<anim id="Smiling" target="actor" targetSpec="" />한번 사용해보세요</message>
+	<message label="100" attrib="00 00 00 00">도움 주셔서 감사합니다<delay20 />
+기회가 된다면 <delay8 />다음에도 잘 부탁드려요</message>
+	<message label="101" attrib="00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />으음<tag a="110" b="0" /><delay20 />
+신작에 쓸 만한<delay8 /> 좋은 아이디어가 없을지<tag a="110" b="0" /></message>
+	<message label="105" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />여행하다 보면<delay8 /> 영감을 주는 것들이
+많아서 <delay20 />자극도 되고 좋답니다</message>
+	<message label="106" attrib="00 00 00 00">신작 아이템을 위한<delay8 />
+아이디어를 스케치하고 있어요<pageBreak /><anim id="Thinking" target="actor" targetSpec="" />저는<delay8 /> 디자이너로서
+이제 막 홀로서기를 한 참인데<tag a="110" b="0" /><delay20 />
+생각처럼 잘 되진 않네요<tag a="110" b="0" /></message>
+	<message label="110" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />항상 도와주셔서<delay8 /> 감사합니다<delay20 />
+덕분에 큰 힘이 되어요</message>
+	<message label="111" attrib="00 00 00 00">이 섬에 있는 <colour id="1" />옷가게<colour id="65535" /><delay20 />
+<colour id="1" />에이블 시스터즈<colour id="65535" />는<delay8 />
+제 자매들이 운영하는 곳이에요<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />외모도 많이 닮았다 보니
+이미 알고 계실지도 모르겠지만요</message>
+	<message label="115" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />이 섬에 올 때마다<delay8 />
+제가 디자인한 옷이나 액세서리를<delay20 />
+<colour id="1" />옷가게<colour id="65535" />에 납품하고 있어요<pageBreak />다음날이면<delay8 /> 가게 상품으로
+진열돼 있을 거예요<delay40 />
+시간 되시면 한번 들러보세요</message>
+	<message label="116" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />좋은 아이디어가<delay20 /> 조금이나마
+전보다 많이 떠오르는 것 같아요<delay20 />
+다 <tag a="110" b="1" />씨 덕분이에요</message>
+	<message label="120" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" /><tag a="110" b="1" />씨의 코디는<delay8 />
+늘 참고가 많이 돼요<delay20 />
+정말 고마워요</message>
+	<message label="121" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />이 섬에 오는 건,<delay20 /><anim id="Nodding" target="actor" targetSpec="" /> 물론 패션 공부를
+하기 위해서이기도 하지만<tag a="110" b="0" /><pageBreak /><anim id="Smiling" target="actor" targetSpec="" /><colour id="1" />옷가게<colour id="65535" />의<delay8 /> 언니와 동생을<delay8 />
+만나기 위해서가<delay frames="30" /> 더 큰 이유예요<delay frames="40" />
+<anim id="Hesitate" target="actor" targetSpec="" />그리고<delay20 /> <tag a="110" b="1" />씨도요<tag a="110" b="0" /></message>
+	<message label="122" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" /><tag a="110" b="33" /><gender5 m="은" f="는" /> 좋은 곳이에요<delay20 />
+다들 친절하시고, 자연 환경도 좋고<delay8 />
+여기 있으면 일이 잘돼요<pageBreak /><tag a="110" b="1" />씨도 계시고<delay20 />
+여기 사는 자매들이 부럽네예</message>
+	<message label="125" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" /><tag a="110" b="1" />씨에게는<delay8 />
+항상 감사한 마음뿐이에요<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" /><tag a="110" b="1" />씨의 도움이 있었기에<delay20 />
+디자이너로서 성장할 수 있었어요</message>
+	<message label="126" attrib="00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />전 항상<delay8 /> 빨리 혼자서도
+제 몫을 해내고 싶어서 조급해지는데<delay20 />
+그러면 오히려 일이 잘 안 풀려서<tag a="110" b="0" /><pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />하지만 그러다가도<delay8 />
+<tag a="110" b="1" />씨와 이야기를 나누면<delay20 />
+긴장이 풀리곤 해요</message>
+	<message label="127" attrib="00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />으음<tag a="110" b="0" /><delay20 />
+여기는 이렇게 하는 게<tag a="110" b="0" /><pageBreak /><anim id="Shocked" target="actor" targetSpec="" />앗, <delay20 /><anim id="FaintSmile" target="actor" targetSpec="" />죄송해요<delay8 />
+<tag a="110" b="1" />씨<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />새로운 디자인을 생각하다 보면
+저도 모르게 집중해 버려서<tag a="110" b="0" /><delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />제 버릇이에요</message>
+	<message label="130" attrib="00 00 00 00"><tag a="110" b="1" />씨는
+잘 모르실 수도 있지만<tag a="110" b="0" /><delay20 /><pageBreak />저<delay8 /> 얼마 전까지는
+'<colour id="1" />케이트<colour id="65535" />'라는 이름으로
+디자이너 활동을 했어요<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />디자이너로서 완전히 독립한 지
+얼마 되지 않았는데, <delay20 />독립할 때
+본명인 '<colour id="3" />고숙이<colour id="65535" />'로 활동명을 바꿨답니다<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />초심으로 돌아가서
+새로 시작하고 싶었거든요</message>
+	<message label="131" attrib="00 00 00 00">얼마 전까지<delay8 /><anim id="Explain" target="actor" targetSpec="" /> 디자이너 활동을 하며
+사용했던 <delay8 />'<colour id="1" />케이트<colour id="65535" />'라는 이름은<delay frames="30" />
+<anim id="Nodding" target="actor" targetSpec="" />전에 절 도와주신 분이 지어준 이름이에요<pageBreak /><anim id="AbsentMindedness" target="actor" targetSpec="" />그분은<delay8 /> 아주 유명한<delay20 />
+패션 디자이너세요<pageBreak /><anim id="Silent" target="actor" targetSpec="" />저는 그분 밑에서<delay frames="30" />
+<anim id="Nodding" target="actor" targetSpec="" />디자이너가 되기 위해 필요한<delay20 />
+모든 것을 배웠답니다<delay20 /><anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak /><anim id="Smiling" target="actor" targetSpec="" />그분 덕분에<delay8 /> 지금의 제가
+있는 거나<delay20 /> 마찬가지예요<pageBreak /><anim id="Eh" target="actor" targetSpec="" />물론 <tag a="110" b="1" />씨도<delay20 />
+<anim id="Smiling" target="actor" targetSpec="" />정말 소중한 분이시죠!<delay frames="40" />
+<anim id="Hello" target="actor" targetSpec="" />항상 <delay8 />고마워요</message>
+	<message label="150" attrib="00 00 00 00">당신도 이 <tag a="110" b="32" /> 사람이 아니로군요<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />낯선 지역에 가면<delay8 /> 신선한 자극을
+받을 수 있어서 좋죠</message>
+	<message label="151" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />역시 외딴섬은 녹지가 많아서<delay20 />
+기분이 상쾌해져요</message>
+	<message label="152" attrib="00 00 00 00">전 여러 지역을 돌아다니면서<delay8 />
+패션 공부를 하고 있어요<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />오늘은 <tag a="110" b="33" />에
+와봤는데<delay20 /> 개성 넘치는 분들이 많네요</message>
+	<message label="200" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />이번에 부탁드리고 싶은 건<delay8 />
+<colour id="1" />파티 <colour id="65535" />코디예요<pageBreak />화려한 파티에 가게 됐을 때<delay8 />
+어떤 차림이 어울릴지 생각하면서
+코디해주셨으면 해요</message>
+	<message label="201" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />이번에 부탁드리고 싶은 건<delay8 />
+<colour id="1" />스포티<colour id="65535" /> 코디예요<pageBreak />운동하기 편한<delay8 /> 활동성 좋은 복장이나<delay20 />
+운동선수의<delay8 /> 유니폼 같은
+느낌으로 입어주시면 좋겠어요</message>
+	<message label="202" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />이번에 부탁드리고 싶은 건<delay8 />
+<colour id="1" />일<colour id="65535" />에 어울리는 코디예요<pageBreak />정장처럼 각 잡힌 복장도 좋고<delay20 />
+요리사나 의사 등<delay20 />
+어떤 직업에 어울리는 복장도 좋아요</message>
+	<message label="203" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />이번에 부탁드리고 싶은 건<delay8 />
+<colour id="1" />휴식<colour id="65535" />에 어울리는 코디예요<pageBreak />집에서 편안히 쉰다는 느낌으로<delay20 />
+갈아입어 주셨으면 해요</message>
+	<message label="204" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />이번에 부탁드리고 싶은 건<delay8 />
+<colour id="1" />아웃도어 <colour id="65535" />코디예요<pageBreak />등산, 캠핑, <delay8 />낚시 등에
+어울리는 복장을<delay8 /> 보여주셨으면 해요<pageBreak />아니면 좀 더 가볍게<delay8 />
+피크닉 가는 느낌으로<delay20 />
+입으셔도 좋고요</message>
+	<message label="205" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />이번에 부탁드리고 싶은 건<delay8 />
+<colour id="1" />메르헨<colour id="65535" /> 코디예요<pageBreak />살랑살랑<delay8 /> 귀여운 코디도 좋고<delay20 />
+동화나<delay8 /> 그림책에 나올 것 같은<delay20 />
+판타지풍 코디를 보여주세요</message>
+	<message label="206" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />이번에 부탁드리고 싶은 건<delay8 />
+<colour id="1" />호러<colour id="65535" /> 코디예요<pageBreak />할로윈 데이에 어울리는<delay20 />
+조금 무섭고 <delay8 />어두운 코디를
+보여주시면 좋겠어요</message>
+	<message label="208" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />이번에 보여주셨으면 하는 건<delay8 />
+<colour id="1" />무대<colour id="65535" />에 서기 위한 코디예요<pageBreak />무대 하면<delay20 />
+아이돌이나 뮤지션 등<delay8 />
+화려한 라이브 공연이 연상되죠<pageBreak />무대에도 여러 종류가 있으니까<delay20 />
+뮤지컬이나 오페라 같은 무대 연극이나<delay8 />
+개그 쇼 의상도 괜찮답니다</message>
+	<message label="209" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />이번에 보여주셨으면 하는 건<delay8 />
+<colour id="1" />바캉스<colour id="65535" />용 코디예요<pageBreak />여름 방학처럼 긴 휴가에<delay20 />
+리조트에 놀러 간다고 생각하고<delay8 />
+코디해주세요<pageBreak />바다나 산, 강, 외딴 시골 마을 등<delay20 />
+느긋한 한때를 보내기 위한 차림을<delay8 />
+꾸며주시면 된답니다</message>
+	<message label="210" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />이번에 보여주셨으면 하는 건<delay8 />
+<colour id="1" />포멀<colour id="65535" />한 코디예요<pageBreak />졸업식이나 고급 레스토랑 등<delay20 />
+격식을 차려야 하는 장소에 입고 갈 만한
+단정한 복장으로 갈아입고 와주세요</message>
+	<message label="211" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />이번에 보여주셨으면 하는 건<delay8 />
+<colour id="1" />데일리<colour id="65535" /> 코디예요<pageBreak />보통 때 입을 만한<delay20 />
+평범하고 편안한 복장으로
+갈아입어주세요<pageBreak />평소에 입는 옷이니까<delay20 />
+튀지 않게 심플하면서도<delay8 /> 멋진 옷차림으로
+코디하는 게 좋을 것 같아요</message>
+	<message label="300" attrib="00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />그 코디는<delay8 />
+<tag a="140" b="3" arg="0xcd00" /> 이미지가<delay8 />
+별로 느껴지지는 않지만<tag a="110" b="0" /><pageBreak /><anim id="Nodding" target="actor" targetSpec="" />그런 조합도 나쁘지 않네요<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />많이 공부가 됐어요<delay20 />
+감사합니다</message>
+	<message label="301" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" /><tag a="140" b="3" arg="0xcd00" /> 느낌이 적당히 가미된
+코디라는 느낌이네요<delay40 />
+개성도 드러나고 <delay8 />멋져요<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />이 코디를 보고<delay8 />
+시야가 조금 넓어진 것 같아요<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />정말 감사합니다</message>
+	<message label="302" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" /><tag a="140" b="3" arg="0xcd00" /><gender5 m="을" f="를" /><delay8 /> 완벽하게 표현한 코디네요!<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />아이템을 적절히 조합해서<delay20 />
+패션 테마를 아주 훌륭하게<delay20 />
+표현하셨어요
+<anim id="Smiling" target="actor" targetSpec="" />많이 공부가 됐네요<delay20 />
+정말 감사합니다</message>
+	<message label="303" attrib="00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />후, 훌륭해요!<delay20 />
+<anim id="Smiling" target="actor" targetSpec="" />제가 꿈에 그리던
+이상적인 코디예요!<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />이렇게 <tag a="140" b="3" arg="0xcd00" /> 이미지를
+완벽하게 나타내는 조합이 있다니<tag a="110" b="0" /><delay40 />
+감동적이에요<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />저도 그런 센스를 익히고 싶네요<delay20 />
+<anim id="BigSmile" target="actor" targetSpec="" />도와주셔서 정말 <delay8 />감사합니다!</message>
+	<message label="320" attrib="00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />그 코디는<delay8 />
+<tag a="140" b="3" arg="0xcd00" /> 이미지가<delay8 />
+별로 느껴지지 않네요<tag a="110" b="0" /><pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />하지만 그런 식으로 매치하는 것도
+생각해볼 만한 것 같아요<delay20 />
+참고할게요,<delay20 /> 감사합니데이!</message>
+	<message label="321" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" /><tag a="140" b="3" arg="0xcd00" /> 이미지가 살아있으면서도<delay8 />
+<tag a="110" b="1" />씨의 개성이
+느껴지는 코디네요<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />시야가 넓어진 것 같아요<delay20 />
+<anim id="BigSmile" target="actor" targetSpec="" />감사합니데이!</message>
+	<message label="322" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />어머!<delay20 />
+정말 <tag a="140" b="3" arg="0xcd00" /> 이미지 그 자체네요!<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />사소한 부분까지 센스가 느껴지고<delay20 />
+전체적으로도 굉장히 조화로워서<delay8 />
+아주 멋져요!<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />증말로 <tag a="110" b="1" />씨의
+코디를 보면 공부가 되네예<delay20 />
+<anim id="BigSmile" target="actor" targetSpec="" />감사합니데이!</message>
+	<message label="323" attrib="00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />어머나!<delay20 />
+<anim id="Smiling" target="actor" targetSpec="" />이렇게 완벽한 코디는<delay20 />
+태어나서 처음 봐요!<pageBreak /><anim id="Love" target="actor" targetSpec="" />착용한 아이템 하나하나
+<tag a="140" b="3" arg="0xcd00" /> 이미지가 살아있어서<tag a="110" b="0" />
+아주 근사해요!<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />증말로 <tag a="110" b="1" />씨는
+센스가 보통이 아니시네예<delay20 />
+많이 배워갑니더!<delay20 /> <anim id="BigSmile" target="actor" targetSpec="" />감사합니데이!</message>
+</msbt>

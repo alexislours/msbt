@@ -1,0 +1,149 @@
+<msbt attribsize="4">
+	<message label="050" attrib="02 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Oh, <delay8 />wolltest du etwa eine Karte
+verschicken?<delay frames="40" /> <tag a="110" b="0" /><anim id="Blushing" target="actor" targetSpec="" />Ähm, <delay8 />alles klar<tag a="110" b="0" /><delay frames="40" />
+Bin nur kein Freund von Multitasking.
+<anim id="QuestionMark" target="actor" targetSpec="" />Würde es dir etwas ausmachen,<delay8 />
+wenn ich vorher noch schnell den
+Flugsteig schließe?</message>
+	<message label="050_a" attrib="00 00 00 00">Nee, mach ruhig!</message>
+	<message label="050_b" attrib="00 00 00 00">Nein, lass ihn offen!</message>
+	<message label="051" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Vielen Dank für dein Verständnis.<delay20 />
+Alles klar, dann machen wir den
+Flugsteig mal flugs dicht!</message>
+	<message label="052" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Uuund erledigt!</message>
+	<message label="070" attrib="02 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Möchtest du eine Karte verschicken?</message>
+	<message label="070_a" attrib="00 00 00 00">Gerne!</message>
+	<message label="070_b" attrib="00 00 00 00">Ein andermal.</message>
+	<message label="080" attrib="04 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Alles klar!<delay20 /> An wen möchtest
+du schreiben?<anim id="EmotEnd" target="actor" targetSpec="" /></message>
+	<message label="080_a" attrib="00 00 00 00">Nachbar.</message>
+	<message label="080_b" attrib="00 00 00 00">Mein Zukunfts-Ich.</message>
+	<message label="080_c" attrib="00 00 00 00">Doch nicht...</message>
+	<message label="200" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Aha. <delay20 />An jemanden auf dieser Insel.<delay frames="40" />
+<anim id="EmotEnd" target="actor" targetSpec="" />Und an wen genau?</message>
+	<message label="210_01" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />An <tag a="115" b="0" arg="0xcd00" />? <delay20 />Alles klar!</message>
+	<message label="210_02" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />An <tag a="115" b="1" arg="0xcd00" />? Alles klar!</message>
+	<message label="210_03" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />An Zukunfts-<tag a="110" b="1" /> also!</message>
+	<message label="220_01" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Dann such dir einfach eine Karte aus
+und schreib deine Nachricht darauf!<anim id="FaintSmile" target="actor" targetSpec="" /></message>
+	<message label="220_02" attrib="00 00 00 00">Also gut. <delay20 />Hier ist deine Karte!</message>
+	<message label="290" attrib="00 00 00 00"><anim id="Oops" target="actor" targetSpec="" />Tut mir leid, <delay8 />aber hier stapeln sich
+bereits die Karten.<delay frames="40" /><anim id="Worried" target="actor" targetSpec="" /> Ich konnte deine
+leider noch nicht verschicken.
+<anim id="Negative" target="actor" targetSpec="" />Bis auf Weiteres können keine neuen
+Karten mehr angenommen werden.<delay20 /><anim id="Nodding" target="actor" targetSpec="" />
+Schau bitte später wieder vorbei.</message>
+	<message label="320" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Oh! <delay20 />Wie's aussieht hast du
+heute bereits zwei Karten an
+<tag a="115" b="0" arg="0xcd00" /> verschickt.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Falls du <tag a="115" b="0" arg="0xcd00" /> weitere
+Karten senden willst, <delay8 />musst du dich<anim id="FaintSmile" target="actor" targetSpec="" />
+leider bis morgen gedulden.</message>
+	<message label="400" attrib="00 00 00 00" />
+	<message label="401" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Also, <delay8 />an welchem Datum soll dir
+die Karte zugestellt werden?</message>
+	<message label="402" attrib="02 00 00 00">Du möchtest sie also am<anim id="QuestionMark" target="actor" targetSpec="" />
+<colour id="1" /><tag a="90" b="36" arg="0xcd00" /> <tag a="90" b="35" arg="0xcd00" /> <tag a="90" b="34" arg="0xcd00" /> <colour id="65535" />erhalten?</message>
+	<message label="402_a" attrib="00 00 00 00">Ganz genau.</message>
+	<message label="402_b" attrib="00 00 00 00">Nein, warte...</message>
+	<message label="410" attrib="00 00 00 00">Hab ich mich etwa verhört?
+Tut mir leid. Dann auf ein Neues!</message>
+	<message label="415" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Okidoki! <delay20 />Oh, <delay8 />warte mal!<delay20 />
+Du hast schon was an Zukunfts-
+<tag a="110" b="1" /> geschickt!
+<anim id="Explain" target="actor" targetSpec="" />Wenn du eine andere Karte in die
+Zukunft senden möchtest, <delay8 />musst du
+die alte zuerst entsorgen.</message>
+	<message label="416" attrib="00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Bevor ich die Karte wegwerfe,<delay8 />
+sollst du aber dein Geschenk
+zurückbekommen<tag a="110" b="0" />
+Oh, <delay8 /><anim id="Worried" target="actor" targetSpec="" />du hast dafür ja gar keinen Platz
+mehr. <delay20 /><anim id="ShyBoy" target="actor" targetSpec="" />Komm bitte wieder, <delay8 />wenn du
+deine Tasche ausgemistet hast.<anim id="EmotEnd" target="actor" targetSpec="" /></message>
+	<message label="420" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Alles klar, <delay8 />die Karte wurde entsorgt.<delay20 /><anim id="Smiling" target="actor" targetSpec="" />
+Bereit, <delay8 />eine neue zu schreiben?</message>
+	<message label="420_01" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Dann entsorge ich die Karte an dein
+Zukunfts-Ich jetzt.<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Nimm diese Karte und bearbeite sie.
+Um sie an dich selbst zu schicken. In
+der Zukunft.</message>
+	<message label="421" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Ich habe die alte Karte entsorgt
+und dir das beigefügte Geschenk
+zurückgegeben.<anim id="EmotEnd" target="actor" targetSpec="" />
+<anim id="Smiling" target="actor" targetSpec="" />Wenn du möchtest, <delay8 />kannst du dir
+jetzt eine neue Karte aussuchen.</message>
+	<message label="421_01" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Ich habe die alte Karte entsorgt und<anim id="Nodding" target="actor" targetSpec="" />
+dir das beigefügte Geschenk
+zurückgegeben.<anim id="EmotEnd" target="actor" targetSpec="" />
+<anim id="Smiling" target="actor" targetSpec="" />Nimm diese Karte und bearbeite sie.
+Um sie an dich selbst zu schicken. In
+der Zukunft.</message>
+	<message label="500" attrib="00 00 00 00">Also gut, <delay8 /><anim id="FaintSmile" target="actor" targetSpec="" />die Zustellgebühren
+belaufen sich auf <colour id="1" />200 Sternis<colour id="65535" />.</message>
+	<message label="501" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Die Karte wurde verschickt!<delay20 />
+Vielen Dank!</message>
+	<message label="502" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Besten Dank!<delay20 /> Ich werde die Karte am
+gewünschten Datum versenden!</message>
+	<message label="510" attrib="00 00 00 00"><anim id="TakenAback" target="actor" targetSpec="" />Oh oh! <delay20 />Du hast leider nicht genug
+Sternis. <delay20 /><anim id="FaintSmile" target="actor" targetSpec="" />Schau wieder vorbei, <delay8 />wenn
+du die <colour id="1" />200<colour id="65535" /> zusammenhast!
+In der Zwischenzeit bewahre ich
+deine Karte für dich auf.<delay20 /><anim id="Laughing" target="actor" targetSpec="" /> Ich werde
+sie auch nicht lesen, <delay8 />versprochen!</message>
+	<message label="520" attrib="00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Oh, du möchtest schon aufhören?<delay20 />
+<anim id="Nodding" target="actor" targetSpec="" />Ich behalte die Karte hier, für den
+Fall, dass du weiterschreiben willst.</message>
+	<message label="521" attrib="00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Du willst für heute Schluss machen?<delay40 /><anim id="FaintSmile" target="actor" targetSpec="" />
+Dann hebe ich die Karte einfach bis
+zum nächsten Mal für dich auf.</message>
+	<message label="522" attrib="00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Keine Lust mehr auf das Karten-
+schreiben?<delay20 /><anim id="FaintSmile" target="actor" targetSpec="" /> Kein Ding.<delay20 /> Sag Bescheid,
+wenn ich wieder helfen kann.</message>
+	<message label="523" attrib="00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Wie, <delay8 />schon fertig? <delay20 /><anim id="FaintSmile" target="actor" targetSpec="" />Kein Problem.<delay20 />
+Gib mir einfach Bescheid, <delay8 />wenn du
+wieder meine Hilfe brauchst.</message>
+	<message label="550" attrib="00 00 00 00"><anim id="Hello" target="actor" targetSpec="" />Oh, <delay8 />aber lass mich dir noch schnell
+das Item wiedergeben, <delay8 />das du der
+Karte beigefügt hattest.</message>
+	<message label="551" attrib="00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Oh! <delay40 />Eine Sache noch...<anim id="EmotEnd" target="actor" targetSpec="" /><anim id="Blushing" target="actor" targetSpec="" /> Ich habe hier
+keinen Platz, um Geschenke aufzube-
+wahren, <delay8 />also gebe ich dir das zurück.</message>
+	<message label="552" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Ich bin hier, <delay8 />wenn du mich brauchst!</message>
+	<message label="600" attrib="00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Wolltest du eine Karte schreiben?<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Ich habe hier eine unvollständige
+Karte an <tag a="115" b="0" arg="0xcd00" /> liegen.</message>
+	<message label="601" attrib="00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Wolltest du eine Karte schreiben?<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Ich habe hier eine unvollständige
+Karte an <tag a="115" b="1" arg="0xcd00" /> liegen.</message>
+	<message label="602" attrib="00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Wolltest du eine Karte schreiben?<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Ich habe hier eine unvollständige
+Karte an dein Zukunfts-Ich liegen.</message>
+	<message label="604" attrib="00 00 00 00">Apropos Kartenschreiben.<delay40 /><anim id="EmotEnd" target="actor" targetSpec="" /> Ich habe
+hier eine unvollständige Karte liegen.</message>
+	<message label="610" attrib="01 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Tut mir leid,<delay8 /> aber unglücklicherweise
+können wir keine Karten mehr an
+<tag a="115" b="0" arg="0xcd00" /> zustellen.<pageBreak /><anim id="QuestionMark" target="actor" targetSpec="" />Möchtest du einen anderen
+Empfänger wählen oder die
+Karte lieber wegwerfen?</message>
+	<message label="610_a" attrib="00 00 00 00">Anderer Adressat...</message>
+	<message label="610_b" attrib="00 00 00 00">Wegwerfen.</message>
+	<message label="611" attrib="01 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Tut mir leid,<delay8 /> aber unglücklicherweise
+können wir keine Karten mehr an
+<tag a="115" b="1" arg="0xcd00" /> zustellen.<pageBreak /><anim id="QuestionMark" target="actor" targetSpec="" />Möchtest du einen anderen
+Empfänger wählen oder die
+Karte lieber wegwerfen?</message>
+	<message label="611_a" attrib="00 00 00 00">Anderer Adressat...</message>
+	<message label="611_b" attrib="00 00 00 00">Wegwerfen.</message>
+	<message label="620" attrib="01 00 00 00">An wen soll die Karte gehen?</message>
+	<message label="620_a" attrib="00 00 00 00">Nachbar.</message>
+	<message label="620_b" attrib="00 00 00 00">Mein Zukunfts-Ich.</message>
+	<message label="630" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Und schwupps – schon liegt die
+Karte im Papierkorb.</message>
+	<message label="800" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Danke für deinen Besuch!</message>
+	<message label="801" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Verstanden. <delay20 />Lass es mich einfach
+wissen,<delay8 /> falls du mal wieder etwas
+verschicken möchtest.</message>
+	<message label="802" attrib="00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Oh, <delay8 />du hast es dir anders überlegt?<delay20 />
+Auch gut. <delay20 /><anim id="FaintSmile" target="actor" targetSpec="" />Wenn ich dir mal wieder
+helfen kann, <delay8 />lass es mich wissen!</message>
+	<message label="803" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Verstanden!<10_4 /> Ich werde die Karte
+aufbewahren, bis sie verschickt werden soll.</message>
+	<message label="804" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Roger!<pageBreak />Ich lasse den Flugsteig geöffnet.<delay20 />
+Sag einfach Bescheid, <delay8 />wenn du den
+Post-Service nutzen willst.</message>
+</msbt>

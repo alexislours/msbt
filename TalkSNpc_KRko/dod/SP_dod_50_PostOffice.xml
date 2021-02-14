@@ -1,0 +1,139 @@
+<msbt attribsize="4">
+	<message label="050" attrib="02 00 00 00"><anim id="Shocked" target="actor" targetSpec="" /><delay20 />앗!<delay20 />
+메시지 카드를 <anim id="QuestionMark" target="actor" targetSpec="" />보내시려고요?<pageBreak /><anim id="ShyBoy" target="actor" targetSpec="" />그럼 죄송하지만<tag a="110" b="0" /><delay frames="30" />
+<anim id="Negative" target="actor" targetSpec="" />여러 업무를 동시에 할 자신이 없어서 그런데<delay20 />
+<anim id="QuestionMark" target="actor" targetSpec="" />일단 탑승구를 닫아도 될까요?</message>
+	<message label="050_a" attrib="00 00 00 00">응!</message>
+	<message label="050_b" attrib="00 00 00 00">아니, 닫지 마!</message>
+	<message label="051" attrib="00 00 00 00">죄송합니다<tag a="110" b="0" /><delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />그럼 탑승구를 닫겠습니다!</message>
+	<message label="052" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />오래 기다리셨습니다!<delay20 /><anim id="FaintSmile" target="actor" targetSpec="" /></message>
+	<message label="070" attrib="02 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />메시지 카드를 보내시겠습니까?</message>
+	<message label="070_a" attrib="00 00 00 00">보낼래</message>
+	<message label="070_b" attrib="00 00 00 00">다음에 보낼래</message>
+	<message label="080" attrib="04 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />알겠습니다!<delay frames="30" />
+<anim id="EmotEnd" target="actor" targetSpec="" />어느 분께 보내시겠습니까?</message>
+	<message label="080_a" attrib="00 00 00 00">이 <tag a="110" b="32" />의 주민</message>
+	<message label="080_b" attrib="00 00 00 00">미래의 나</message>
+	<message label="080_c" attrib="00 00 00 00">그만둘래</message>
+	<message label="200" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />이 <tag a="110" b="32" />에 사는 분께 보내시는 거군요<delay frames="40" />
+<anim id="QuestionMark" target="actor" targetSpec="" />어떤 분에게 보내실 건가요?</message>
+	<message label="210_01" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" /><tag a="115" b="0" arg="0xcd00" />님께 보내시는 거군요</message>
+	<message label="210_02" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" /><tag a="115" b="1" arg="0xcd00" />님께 보내시는 거군요</message>
+	<message label="210_03" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />미래의 <tag a="110" b="1" />님, 본인에게<delay8 />
+보내시는 거군요</message>
+	<message label="220_01" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />그럼<delay8 /> 카드를 선택해서
+메시지를 작성해주세요!<anim id="FaintSmile" target="actor" targetSpec="" /></message>
+	<message label="220_02" attrib="00 00 00 00">카드는 여기 있습니다!</message>
+	<message label="290" attrib="00 00 00 00"><anim id="Oops" target="actor" targetSpec="" />죄송합니다<10_4 />
+<anim id="Worried" target="actor" targetSpec="" />사실 아직 배달하지 못한
+카드가<delay20 /> 쌓여 있어서<tag a="110" b="0" />
+지금은 메시지 카드를<delay20 />
+<anim id="Negative" target="actor" targetSpec="" />맡을 수가 없습니다<pageBreak />죄송하지만 <delay20 />조금 시간이 지난 다음에
+<anim id="Nodding" target="actor" targetSpec="" />다시 와주세요</message>
+	<message label="320" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />앗! <delay20 />오늘 <tag a="115" b="0" arg="0xcd00" />님께<delay20 />
+이미 2통의 카드를 보내셨군요<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />내일이 되면 다시 보내실 수 있습니다!<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />그때까지 기다려주세요</message>
+	<message label="400" attrib="00 00 00 00" />
+	<message label="401" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />그럼 <delay20 />언제쯤 받을 수 있게
+해드릴까요?</message>
+	<message label="402" attrib="02 00 00 00"><colour id="1" /><tag a="90" b="34" arg="0xcd00" />년 <tag a="90" b="35" arg="0xcd00" />월 <tag a="90" b="36" arg="0xcd00" />일<colour id="65535" />에<delay20 />
+<anim id="QuestionMark" target="actor" targetSpec="" />받을 수 있게 해드릴까요?</message>
+	<message label="402_a" attrib="00 00 00 00">오케이!</message>
+	<message label="402_b" attrib="00 00 00 00">날짜를 바꿀게</message>
+	<message label="410" attrib="00 00 00 00">알겠습니다!<delay40 />
+<anim id="FaintSmile" target="actor" targetSpec="" />그럼 <delay20 />원하시는 날짜를
+다시 알려주세요!</message>
+	<message label="415" attrib="00 00 00 00">미래의 <tag a="110" b="1" />님에게는<delay20 />
+<anim id="Silent" target="actor" targetSpec="" />이미 맡겨 두신 카드가 있습니다<pageBreak /><anim id="Explain" target="actor" targetSpec="" />새로 보내시려면<delay20 /> 맡기신 카드를 버리고
+새로 쓰셔야 하는데<delay20 />
+<anim id="QuestionMark" target="actor" targetSpec="" />어떻게 하시겠어요?</message>
+	<message label="416" attrib="00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />앗<tag a="110" b="0" /> <delay frames="40" /><anim id="EmotEnd" target="actor" targetSpec="" />이전에 맡겨 두신 선물을
+돌려드리고 싶지만<delay frames="30" />
+<anim id="Negative" target="actor" targetSpec="" />주머니가 가득 차신 것 같네요<tag a="110" b="0" /><pageBreak /><anim id="ShyBoy" target="actor" targetSpec="" />죄송하지만<delay20 />
+선물을 돌려드릴 수 있을 때<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />다시 한번 말을 걸어주세요!</message>
+	<message label="420" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />그럼 <delay8 />이 카드는 버리겠습니다!<delay20 />
+원하는 카드를 골라서<delay8 />
+<anim id="Smiling" target="actor" targetSpec="" />새로 써주세요!</message>
+	<message label="420_01" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />그럼 <delay8 />배달 예정 카드는 버리겠습니다!<delay20 />
+<anim id="Smiling" target="actor" targetSpec="" />이 카드에 <delay20 />미래의 본인에게 보낼 카드를<delay8 />
+다시 써주세요!</message>
+	<message label="421" attrib="00 00 00 00">알겠습니다!<10_4 />
+<anim id="Nodding" target="actor" targetSpec="" />함께 맡겨 두신 선물만 돌려드리고<delay20 />
+카드는 버리겠습니다!<anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak /><anim id="Smiling" target="actor" targetSpec="" />그럼 <delay8 />원하는 카드를 골라서<delay20 />
+새로 써주세요!</message>
+	<message label="421_01" attrib="00 00 00 00">알겠습니다!<10_4 />
+<anim id="Nodding" target="actor" targetSpec="" />함께 맡겨 두신 선물만 돌려드리고<delay20 />
+카드는 버리겠습니다!<anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak /><anim id="Smiling" target="actor" targetSpec="" />그럼 <delay8 />원하는 카드를 골라서<delay20 />
+미래의 본인에게 새로 써주세요!</message>
+	<message label="500" attrib="00 00 00 00">그럼<tag a="110" b="0" /><delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />대금은 <colour id="1" />200벨<colour id="65535" /><delay8 />입니다!</message>
+	<message label="501" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />감사합니다!<delay frames="30" />
+카드를 보내겠습니다!<anim id="FaintSmile" target="actor" targetSpec="" /></message>
+	<message label="502" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />감사합니다!<delay frames="30" />
+<anim id="EmotEnd" target="actor" targetSpec="" />그럼 <delay8 />원하시는 날짜에<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />카드를 보내겠습니다!</message>
+	<message label="510" attrib="00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />이런,<delay20 /><anim id="Worried" target="actor" targetSpec="" /> 대금이 부족한 것 같군요<tag a="110" b="0" /><10_4 />
+<anim id="EmotEnd" target="actor" targetSpec="" /><colour id="1" />200벨<colour id="65535" />을 준비해주신 후에<delay8 />
+다시 한번 말을 걸어주세요<pageBreak />그때까지<delay20 /> 이 카드는
+맡아 두도록 하겠습니다</message>
+	<message label="520" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />알겠습니다!<delay frames="40" />
+<anim id="Nodding" target="actor" targetSpec="" />이 카드는 작성 중인 카드로<delay20 />
+일단 보관해 두겠습니다!<anim id="FaintSmile" target="actor" targetSpec="" /></message>
+	<message label="521" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />앗, <delay20 />그만두실 건가요?<delay40 />
+<anim id="Nodding" target="actor" targetSpec="" />그럼 <delay20 />이 카드는 작성 중인 카드로<delay20 />
+일단 보관해 두겠습니다!<anim id="FaintSmile" target="actor" targetSpec="" /></message>
+	<message label="522" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />앗, <delay20 />그만두실 건가요?<delay frames="40" />
+<anim id="FaintSmile" target="actor" targetSpec="" />다시 필요해지면 언제든 말을 걸어주세요!</message>
+	<message label="523" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />앗, <delay20 />그만두실 건가요?<delay frames="40" />
+<anim id="FaintSmile" target="actor" targetSpec="" />다시 필요해지면 언제든 말을 걸어주세요!</message>
+	<message label="550" attrib="00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />앗!<delay40 /> 그리고<tag a="110" b="0" /><delay8 />
+<anim id="EmotEnd" target="actor" targetSpec="" />함께 맡겨 두신 선물은<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />돌려드리겠습니다!</message>
+	<message label="551" attrib="00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />앗!<delay20 /> 다만<tag a="110" b="0" /><delay8 />
+<anim id="EmotEnd" target="actor" targetSpec="" />선물은 분실 우려도 있으니<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />돌려드리도록 할게요!</message>
+	<message label="552" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />다음에 또 이용해주세요!</message>
+	<message label="600" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />메시지 카드 말인가요?<delay frames="40" /><anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak /><anim id="Nodding" target="actor" targetSpec="" />그럼 <delay20 />작성 중에 맡겨 두신<delay8 />
+<tag a="115" b="0" arg="0xcd00" />님에게 보내는 카드를<delay8 />
+<anim id="FaintSmile" target="actor" targetSpec="" />꺼내드리겠습니다!</message>
+	<message label="601" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />메시지 카드 말인가요?<delay frames="40" /><anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak /><anim id="Nodding" target="actor" targetSpec="" />그럼 <delay20 />작성 중에 맡겨 두신<delay8 />
+<tag a="115" b="1" arg="0xcd00" />님에게 보내는 카드를<delay8 />
+<anim id="FaintSmile" target="actor" targetSpec="" />꺼내드리겠습니다!</message>
+	<message label="602" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />메시지 카드 말인가요?<delay frames="40" /><anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak /><anim id="Nodding" target="actor" targetSpec="" />그럼 <delay20 />작성 중에 맡겨 두신<delay8 />
+미래의 손님, 본인에게 보내는 카드를<delay8 />
+<anim id="FaintSmile" target="actor" targetSpec="" />꺼내드리겠습니다!</message>
+	<message label="604" attrib="00 00 00 00">그런데 <delay20 />메시지 카드 말인데요<tag a="110" b="0" /><delay20 />
+<anim id="Nodding" target="actor" targetSpec="" />지금 작성 중에 맡겨 두신 카드를<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />꺼내드리겠습니다!</message>
+	<message label="610" attrib="01 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />아<tag a="110" b="0" /><delay20 /> <anim id="Worried" target="actor" targetSpec="" />죄송한 말씀입니다만
+<tag a="115" b="0" arg="0xcd00" />님에게는<delay20 />
+<anim id="Negative" target="actor" targetSpec="" />더 이상 보내지 못하는 모양입니다<pageBreak /><anim id="Silent" target="actor" targetSpec="" />다른 사람에게 보내시겠습니까?<delay frames="30" />
+<anim id="QuestionMark" target="actor" targetSpec="" />아니면 이건 버릴까요?</message>
+	<message label="610_a" attrib="00 00 00 00">받는 사람을 바꿀래</message>
+	<message label="610_b" attrib="00 00 00 00">버려줘</message>
+	<message label="611" attrib="01 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />아<tag a="110" b="0" /><delay20 /> <anim id="Worried" target="actor" targetSpec="" />죄송한 말씀입니다만
+<tag a="115" b="1" arg="0xcd00" />님에게는<delay20 />
+<anim id="Negative" target="actor" targetSpec="" />더 이상 보내지 못하는 모양입니다<pageBreak /><anim id="Silent" target="actor" targetSpec="" />다른 사람에게 보내시겠습니까?<delay frames="30" />
+<anim id="QuestionMark" target="actor" targetSpec="" />아니면 이건 버릴까요?</message>
+	<message label="611_a" attrib="00 00 00 00">받는 사람을 바꿀래</message>
+	<message label="611_b" attrib="00 00 00 00">버려줘</message>
+	<message label="620" attrib="01 00 00 00">어느 분으로 바꾸시겠습니까?</message>
+	<message label="620_a" attrib="00 00 00 00">이 <tag a="110" b="32" />의 주민</message>
+	<message label="620_b" attrib="00 00 00 00">미래의 나</message>
+	<message label="630" attrib="00 00 00 00">그럼 <delay20 />맡겨 두신 카드는<delay8 />
+<anim id="Nodding" target="actor" targetSpec="" />저희가 버리겠습니다!</message>
+	<message label="800" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />이용해주셔서 감사합니다!</message>
+	<message label="801" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />그렇군요<delay20 />
+다시 이용하시고 싶어지시면
+언제든 말씀해주세요!</message>
+	<message label="802" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />앗! <delay20 />괜찮으신가요?<delay40 />
+<anim id="FaintSmile" target="actor" targetSpec="" />그럼 <delay8 />다음에 또 이용해주세요!</message>
+	<message label="803" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />알겠습니다!<delay frames="40" />
+<anim id="EmotEnd" target="actor" targetSpec="" />그럼 이 카드는 계속해서<delay20 />
+<anim id="Nodding" target="actor" targetSpec="" />배달할 날까지 맡아 두겠습니다!</message>
+	<message label="804" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />알겠습니다!<delay frames="30" /><anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak /><anim id="Explain" target="actor" targetSpec="" />그럼 <delay8 />탑승구는 계속 열어두겠습니다!<delay frames="30" />
+<anim id="FaintSmile" target="actor" targetSpec="" />우편 서비스를 이용하고 싶으실 때<delay8 />
+다시 말씀해주세요!</message>
+</msbt>

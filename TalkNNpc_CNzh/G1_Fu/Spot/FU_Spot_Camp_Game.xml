@@ -1,0 +1,78 @@
+<msbt attribsize="8">
+	<message label="001" attrib="00 00 01 00 00 00 00 00"><anim id="Hesitate" target="actor" targetSpec="" />那个<tag a="110" b="0" /><delay20 />如果你愿意的话，<delay8 />
+和我玩一场游戏吗？<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />如果是你获胜的话，<delay20 />
+<tag a="125" b="0" arg="0x0" />就当礼物<delay8 />
+<anim id="Smiling" target="actor" targetSpec="" />送给你！<delay frames="30" /><anim id="Hello" target="actor" targetSpec="" />你看可以吗？<tag a="110" b="6" />。</message>
+	<message label="001_a" attrib="00 00 00 00 00 00 00 00">我要玩！</message>
+	<message label="001_b" attrib="00 00 00 00 00 00 00 00">现在不想玩</message>
+	<message label="002" attrib="00 00 01 00 00 00 00 00">你要听一听<delay20 />
+<anim id="QuestionMark" target="actor" targetSpec="" />规则说明吗？<tag a="110" b="6" />。</message>
+	<message label="002_a" attrib="00 00 00 00 00 00 00 00">我要听！</message>
+	<message label="002_b" attrib="00 00 00 00 00 00 00 00">我知道的</message>
+	<message label="003" attrib="00 00 00 00 00 00 00 00">哎呀，<delay8 />这样呀。<delay frames="40" />
+<anim id="Smiling" target="actor" targetSpec="" />那就<delay8 />下次再玩吧！<tag a="110" b="6" />。</message>
+	<message label="004" attrib="00 00 00 00 00 00 00 00"><anim id="NpcShuffle" target="actor" targetSpec="" />那么，<delay8 />
+我就赶紧<delay20 />来切牌吧<tag a="110" b="0" /></message>
+	<message label="005" attrib="00 00 00 00 00 00 00 00"><anim id="Grin" target="actor" targetSpec="" />不改了哦？！<delay frames="40" /><anim id="FaintSmile" target="actor" targetSpec="" />那么我们来揭晓答案～</message>
+	<message label="006_01" attrib="00 00 00 00 00 00 00 00">是你赢了，<delay8 />那么按照约定，<delay20 />
+<tag a="125" b="0" arg="0x0" /><delay8 />
+<anim id="Smiling" target="actor" targetSpec="" />就送给你了！</message>
+	<message label="006_02" attrib="00 00 00 00 00 00 00 00"><anim id="WrySmile" target="actor" targetSpec="" />是我输了呢，<delay frames="40" /><anim id="EmotEnd" target="actor" targetSpec="" />那么按照约定，<delay20 />
+<tag a="125" b="0" arg="0x0" /><delay8 />
+<anim id="Smiling" target="actor" targetSpec="" />就送给你了！</message>
+	<message label="006_03" attrib="00 00 00 00 00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />对不起，<delay frames="30" />这件奖品<tag a="110" b="0" /><delay frames="30" />
+<anim id="ColdChill" target="actor" targetSpec="" />你只好放弃了。</message>
+	<message label="007_01" attrib="00 00 00 00 00 00 00 00">你很擅长<delay20 /><anim id="Hello" target="actor" targetSpec="" />玩这类游戏吗？<delay frames="40" />
+<anim id="Nodding" target="actor" targetSpec="" />能够猜得这么准确，<delay8 />真是厉害呢。<delay frames="40" />
+<anim id="FaintSmile" target="actor" targetSpec="" />如果你愿意，我们下次再玩吧。<tag a="110" b="6" />。</message>
+	<message label="007_03" attrib="00 00 00 00 00 00 00 00">这种事情也是时有发生的，<delay8 />
+还请你不要过于失落。<delay frames="40" />
+<anim id="FaintSmile" target="actor" targetSpec="" />如果你愿意，下次再一起玩吧。<tag a="110" b="6" />。</message>
+	<message label="008" attrib="00 00 00 00 00 00 00 00"><anim id="HappyDance" target="actor" targetSpec="" />真的吗？！<delay frames="50" />
+<anim id="Eh" target="actor" targetSpec="" />啊<tag a="110" b="0" /><delay20 />可是，<delay8 />
+你的口袋已经满了。
+<anim id="Thinking" target="actor" targetSpec="" />这样你就没法把奖品带回去了。<delay frames="40" />
+<anim id="EmotEnd" target="actor" targetSpec="" />所以，<delay20 />很抱歉。<anim id="FaintSmile" target="actor" targetSpec="" />请你把口袋整理出空位，
+然后再来玩游戏吧！<tag a="110" b="6" />。</message>
+	<message label="100" attrib="00 00 00 00 00 00 00 00"><anim id="Hello" target="actor" targetSpec="" />那么，<delay8 />我来说明一下。<delay frames="40" />
+<anim id="Explain" target="actor" targetSpec="" />这里有<delay8 />4张牌，<delay20 />
+分别画有<delay8 /><colour id="6" />♥♦<colour id="65535" /><colour id="7" />♠♣<colour id="65535" />这些图案<tag a="110" b="0" />
+<anim id="EmotEnd" target="actor" targetSpec="" />我会从其中抽1张牌，<delay20 />
+请你猜一下<delay8 /><anim id="FaintSmile" target="actor" targetSpec="" />牌的图案。<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />如果猜对了，<delay8 />就是你获胜。<delay frames="40" />
+<anim id="FaintSmile" target="actor" targetSpec="" />我就把<tag a="125" b="0" arg="0x0" /><delay8 />
+送给你哦。
+<anim id="FaintSmile" target="actor" targetSpec="" /><anim id="NpcShuffle" target="actor" targetSpec="" />那么赶紧开始吧。<delay frames="40" />
+首先，<delay20 />我们来切牌<tag a="110" b="0" /></message>
+	<message label="101" attrib="00 00 05 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />好了！<delay frames="30" />现在抽出的这张牌<tag a="110" b="0" /><delay8 />
+<anim id="EmotEnd" target="actor" targetSpec="" />是<colour id="6" />♥♦<colour id="65535" /><colour id="7" />♠♣<colour id="65535" />中的<delay20 /><anim id="Pardon" target="actor" targetSpec="" />哪种呢？！<tag a="110" b="6" />。<delay20 /><anim id="FaintSmile" target="actor" targetSpec="" /></message>
+	<message label="101_a" attrib="00 00 00 00 00 00 00 00"><colour id="6" />♥（红心）<colour id="65535" /></message>
+	<message label="101_b" attrib="00 00 00 00 00 00 00 00"><colour id="6" />♦（方块）<colour id="65535" /></message>
+	<message label="101_c" attrib="00 00 00 00 00 00 00 00"><colour id="7" />♠（黑桃）<colour id="65535" /></message>
+	<message label="101_d" attrib="00 00 00 00 00 00 00 00"><colour id="7" />♣（梅花）<colour id="65535" /></message>
+	<message label="102_01" attrib="00 00 00 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />是<tag a="140" b="14" arg="0xcd00" />！<delay frames="40" />
+<anim id="Clapping" target="actor" targetSpec="" />回答正确！</message>
+	<message label="102_02" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />是<tag a="140" b="14" arg="0xcd00" />！<delay frames="40" />
+<anim id="Oops" target="actor" targetSpec="" />很遗憾，<delay20 />猜错了<tag a="110" b="0" /></message>
+	<message label="200" attrib="00 00 00 00 00 00 00 00"><anim id="Hello" target="actor" targetSpec="" />那么，<delay8 />我来说明一下。<delay frames="40" />
+<anim id="Explain" target="actor" targetSpec="" />这里有<delay8 />4张牌，<delay20 />
+分别画有<delay8 /><colour id="6" />♥♦<colour id="65535" /><colour id="7" />♠♣<colour id="65535" />这些图案<tag a="110" b="0" />
+我会从其中抽1张牌，<delay20 />
+请你猜一下<delay8 /><anim id="FaintSmile" target="actor" targetSpec="" />牌的颜色。<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />如果猜对了，<delay8 />就是你获胜。<delay frames="40" />
+<anim id="FaintSmile" target="actor" targetSpec="" />我就把<tag a="125" b="0" arg="0x0" /><delay8 />
+送给你哦。
+<anim id="FaintSmile" target="actor" targetSpec="" /><anim id="NpcShuffle" target="actor" targetSpec="" />那么赶紧开始吧。<delay frames="40" />
+首先，<delay20 />我们来切牌<tag a="110" b="0" /></message>
+	<message label="201" attrib="00 00 01 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />好了，<delay frames="30" />现在抽出的这张牌<tag a="110" b="0" /><delay8 />
+<anim id="EmotEnd" target="actor" targetSpec="" />是“<colour id="6" />红<colour id="65535" />”与“<colour id="7" />黑<colour id="65535" />”中的<delay20 />
+<anim id="Pardon" target="actor" targetSpec="" />哪一个颜色呢？！<tag a="110" b="6" />。<delay20 /><anim id="FaintSmile" target="actor" targetSpec="" /></message>
+	<message label="201_a" attrib="00 00 00 00 00 00 00 00"><colour id="6" />红<colour id="65535" /></message>
+	<message label="201_b" attrib="00 00 00 00 00 00 00 00"><colour id="7" />黑<colour id="65535" /></message>
+	<message label="202_01" attrib="00 00 00 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" /><tag a="140" b="14" arg="0xcd00" />！<delay frames="40" />是“<colour id="6" />红<colour id="65535" />”！<delay frames="40" />
+<anim id="Clapping" target="actor" targetSpec="" />回答正确～</message>
+	<message label="202_02" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" /><tag a="140" b="14" arg="0xcd00" />！<delay frames="40" /><anim id="Oops" target="actor" targetSpec="" />很遗憾，<delay20 />是“<colour id="7" />黑<colour id="65535" />”。<delay frames="40" />
+<anim id="Worried" target="actor" targetSpec="" />猜错了<tag a="110" b="0" /></message>
+	<message label="202_03" attrib="00 00 00 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" /><tag a="140" b="14" arg="0xcd00" />！<delay frames="40" />是“<colour id="7" />黑<colour id="65535" />”！<delay frames="40" />
+<anim id="Clapping" target="actor" targetSpec="" />回答正确～</message>
+	<message label="202_04" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" /><tag a="140" b="14" arg="0xcd00" />！<delay frames="40" /><anim id="Oops" target="actor" targetSpec="" />很遗憾，<delay20 />是“<colour id="6" />红<colour id="65535" />”。<delay frames="40" />
+<anim id="Worried" target="actor" targetSpec="" />猜错了<tag a="110" b="0" /></message>
+</msbt>

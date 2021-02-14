@@ -1,0 +1,176 @@
+<msbt attribsize="3">
+	<message label="001" attrib="00 00 00">dummy</message>
+	<message label="010" attrib="00 00 13">　　　　　<tag a="10" b="12" /><tag a="100" b="2" /><tag a="100" b="5" />이만 실례하겠심더～<endTag a="100" b="5" /><endTag a="100" b="2" /><10_7 arg="20" /></message>
+	<message label="011" attrib="00 00 13"><tag a="10" b="12" />　　　　　　　　<tag a="100" b="5" />예, 예에!<10_7 arg="15" /><pageBreak />전화 주셔서 고맙심더!<delay frames="30" />
+<colour id="1" /><delay8 />긴급 탈출 서비스<colour id="65535" />라예!<endTag a="100" b="5" /></message>
+	<message label="011_01" attrib="00 00 13"><tag a="100" b="5" />에～<delay20 /> 손님은<tag a="110" b="0" /><endTag a="100" b="5" /><10_7 arg="30" /></message>
+	<message label="011_02" attrib="00 00 13"><tag a="100" b="5" />손님의 현재 위치는<tag a="110" b="0" /><endTag a="100" b="5" /><10_7 arg="30" /></message>
+	<message label="012" attrib="00 00 13"><tag a="100" b="5" />응?<delay frames="30" />
+와 이라는지는 잘 모리겠는데,<delay20 />
+전파가 잘 안 터지네예<tag a="110" b="0" /><endTag a="100" b="5" /></message>
+	<message label="012_01" attrib="00 00 13"><tag a="100" b="5" />손님, <delay20 />혹시 지금 딴 섬에서
+누구 놀러온 사람 계십니꺼?<pageBreak />죄송한데예, <delay8 />이게 통신이 혼잡하믄
+전송이 잘 안 돼 가꼬예<tag a="110" b="0" /><pageBreak />도저히 못 움직이겠으믄<delay8 />
+<colour id="1" /> <colour id="65535" />버튼으로 메뉴를 열어가
+<colour id="1" />접속을 종료하기<colour id="65535" /> 한번 눌러보이소!<endTag a="100" b="5" /></message>
+	<message label="012_02" attrib="00 00 13"><tag a="100" b="5" />손님, <delay20 />혹시 지금
+딴 섬에 놀러가 계십니꺼?<pageBreak />죄송한데예, <delay8 />이게 통신이 혼잡하믄
+전송이 잘 안 돼 가꼬예<tag a="110" b="0" /><pageBreak />도저히 못 움직이겠으믄<delay8 />
+<colour id="1" /> <colour id="65535" />버튼으로 메뉴를 열어가
+<colour id="1" />내 섬으로 돌아가기<colour id="65535" /> 한번 눌러보이소!<endTag a="100" b="5" /></message>
+	<message label="013" attrib="00 00 13"><tag a="100" b="5" />아, <delay20 />손님 지금<delay20 />
+어데 건물 안에 들어가 계십니꺼?<pageBreak />죄송한데예, 이 서비스<delay20 />
+실내에서는 못 씁니더<tag a="110" b="0" /><pageBreak />와 그 <delay20 />천장에 머리라도 받아뿌면<delay20 />
+억수로 아프지 않겠심니꺼?<pageBreak />그니까 <delay20 />이용하고 싶으시면<delay20 />
+일단 밖에 <delay20 />나와주이소!<endTag a="100" b="5" /></message>
+	<message label="021_01" attrib="00 00 13"><tag a="100" b="5" />아～ <delay20 /><tag a="110" b="33" />의
+<tag a="110" b="1" />님 맞지예?<anim id="Nodding" target="player" targetSpec="" /><endTag a="100" b="5" /></message>
+	<message label="021_02" attrib="00 00 13"><tag a="100" b="5" />아～ <delay8 />예, 예～<delay20 />
+<tag a="110" b="33" />의
+<tag a="110" b="1" />님 <anim id="Nodding" target="player" targetSpec="" /><delay frames="30" />맞지예?<endTag a="100" b="5" /></message>
+	<message label="021_03" attrib="00 00 13"><tag a="100" b="5" />으이?<delay20 />
+<tag a="110" b="1" />님 아니십니꺼!<delay20 />
+또 뭔 일 나셨어예?<anim id="Nodding" target="player" targetSpec="" /><endTag a="100" b="5" /></message>
+	<message label="022" attrib="00 00 13" />
+	<message label="023_01" attrib="02 00 13"><tag a="100" b="5" />1회 이용료는
+<colour id="1" />100<colour id="65535" />마일인데<tag a="110" b="0" /><delay20 />
+함 써보실라예?<endTag a="100" b="5" /></message>
+	<message label="023_01_a" attrib="00 00 13"><anim id="Nodding" target="player" targetSpec="" />부탁할게요!</message>
+	<message label="023_01_b" attrib="00 00 13"><anim id="Negative" target="player" targetSpec="" />괜찮아요</message>
+	<message label="023_02" attrib="02 00 13"><tag a="100" b="5" /><colour id="1" />100<colour id="65535" />마일로 긴급 탈출<delay20 /> 함 해보실라예?<endTag a="100" b="5" /></message>
+	<message label="023_02_a" attrib="00 00 13"><anim id="Nodding" target="player" targetSpec="" />부탁할게요!</message>
+	<message label="023_02_b" attrib="00 00 13"><anim id="Negative" target="player" targetSpec="" />괜찮아요</message>
+	<message label="023_03" attrib="02 00 13"><tag a="100" b="5" />근데 <tag a="110" b="1" />님<delay20 />
+지난번에는 마일이 부족하셨는데<delay8 />
+인제 괜찮심니꺼?<pageBreak />1회 <colour id="1" />100<colour id="65535" />마일인데<delay20 /> 함 이용해보실라예?<endTag a="100" b="5" /></message>
+	<message label="023_03_a" attrib="00 00 13"><anim id="Nodding" target="player" targetSpec="" />부탁할게요!</message>
+	<message label="023_03_b" attrib="00 00 13"><anim id="Negative" target="player" targetSpec="" />괜찮아요</message>
+	<message label="031_01" attrib="00 00 13"><tag a="100" b="5" />응?<delay20 /> 그만두실라꼬예?<endTag a="100" b="5" /></message>
+	<message label="031_02" attrib="00 00 13"><tag a="100" b="5" />응?<delay20 /> 안 하실라꼬예?<delay40 />
+거<tag a="110" b="0" /> <delay8 />지난번에 마일 부족했다캐서<delay20 />
+너무 신경 쓰지 않으셔도 됩니더!<endTag a="100" b="5" /></message>
+	<message label="032_01" attrib="00 00 13"><tag a="100" b="5" />진짜 난처하면 무리하지 마시고<delay20 />
+얼마든지 말씀만 하이소!<endTag a="100" b="5" /></message>
+	<message label="032_02" attrib="00 00 13"><tag a="100" b="5" />혹시 마일이 모자라믄<delay8 />
+우야든동 잘 도와드릴 테니까<tag a="110" b="0" /><pageBreak />진짜 난처하면 무리하지 말고<delay20 />
+얼마든지 말씀해주이소!<endTag a="100" b="5" /></message>
+	<message label="041_01" attrib="00 00 13"><tag a="100" b="5" />알겠심더～<10_4 />
+일단 <delay20 /><colour id="1" />100<colour id="65535" />마일 선불로 받아갑니데이～<endTag a="100" b="5" /></message>
+	<message label="041_02" attrib="00 00 13"><tag a="100" b="5" />알겠심더～<10_4 />
+이번에는 마일도 다 있는 모양이니<delay8 />
+<colour id="1" />100<colour id="65535" />마일 선불로 받아갑니데이～<endTag a="100" b="5" /></message>
+	<message label="042_01" attrib="00 00 13"><tag a="100" b="5" />알겠심더!<delay40 />
+그카믄 <delay20 /><colour id="1" />100<colour id="65535" />마일 선불로<tag a="110" b="0" /><delay8 /> 응?<endTag a="100" b="5" /><10_7 arg="75" /></message>
+	<message label="042_02" attrib="00 00 13"><10_10 /><tag a="10" b="12" /><anim id="TakenAback" target="player" targetSpec="" />　　　　　　　<tag a="100" b="5" /><size value="150" />아악!<size value="100" /><delay20 /><10_9 /><pageBreak /><anim id="EmotEnd" target="player" targetSpec="" />스톱, 스톱!<delay frames="40" />
+손님, <delay20 />마일이 모자라네예!<pageBreak />하이고～ <delay20 />이를 우짜노<tag a="110" b="0" /><delay20 />
+그래도 명색이 긴급 탈출이니까<tag a="110" b="0" /><delay frames="40" />
+마!<delay20 /> 이번엔 서비스로 그냥 해드리겠심더!<endTag a="100" b="5" /></message>
+	<message label="042_03" attrib="00 00 13"><10_10 /><tag a="10" b="12" /><anim id="TakenAback" target="player" targetSpec="" />　　　　　　　<tag a="100" b="5" /><size value="150" />아악!<size value="100" /><delay20 /><10_9 /><pageBreak /><anim id="EmotEnd" target="player" targetSpec="" />스톱, 스토옵 손님～!<delay frames="40" />
+또 마일이 부족하지 않심니꺼!<pageBreak />하이고～ <delay20 />이를 우짜노<tag a="110" b="0" /><delay20 />
+그래도 명색이 긴급 탈출이니까<tag a="110" b="0" /><delay frames="40" />
+이번에도 서비스로 그냥 해드리겠심더!<endTag a="100" b="5" /></message>
+	<message label="042_04" attrib="00 00 13"><tag a="100" b="5" />그 대신 <delay20 />어데로 보낼지는
+지 맘대로 할 테니 그리 아이소!<endTag a="100" b="5" /></message>
+	<message label="043" attrib="00 00 13"><tag a="100" b="5" />근데 손님,<delay20 />
+지금 일행분도 계시는 거 같으니까<delay frames="30" />
+이번에는 그냥 <colour id="1" />광장<colour id="65535" />으로 보내드리겠심더!<endTag a="100" b="5" /></message>
+	<message label="044_01" attrib="06 00 13"><tag a="100" b="5" />그카믄 손님,<delay20 />
+어데로 보내드릴까예?<endTag a="100" b="5" /></message>
+	<message label="044_01_a" attrib="00 00 13">우리 집</message>
+	<message label="044_01_b" attrib="00 00 13">광장</message>
+	<message label="044_01_c" attrib="00 00 13">비행장</message>
+	<message label="044_01_d" attrib="00 00 13"><anim id="Negative" target="player" targetSpec="" />그만둘래요</message>
+	<message label="044_02" attrib="06 00 13"><tag a="100" b="5" />그카믄 손님,<delay20 />
+어데로 보내드릴까예?<endTag a="100" b="5" /></message>
+	<message label="044_02_a" attrib="00 00 13">내 텐트</message>
+	<message label="044_02_b" attrib="00 00 13">광장</message>
+	<message label="044_02_c" attrib="00 00 13">비행장</message>
+	<message label="044_02_d" attrib="00 00 13"><anim id="Negative" target="player" targetSpec="" />그만둘래요</message>
+	<message label="044_03" attrib="08 00 13"><tag a="100" b="5" />그카믄 손님,<delay20 />
+어데로 보내드릴까예?<endTag a="100" b="5" /></message>
+	<message label="044_03_a" attrib="00 00 13">우리 집</message>
+	<message label="044_03_b" attrib="00 00 13">광장</message>
+	<message label="044_03_c" attrib="00 00 13">가게</message>
+	<message label="044_03_d" attrib="00 00 13">비행장</message>
+	<message label="044_03_e" attrib="00 00 13"><anim id="Negative" target="player" targetSpec="" />그만둘래요</message>
+	<message label="045" attrib="04 00 13"><tag a="100" b="5" />근데 <delay20 />손님은 아직
+잘 곳을 못 정하셨나 보네예<tag a="110" b="0" /><delay frames="40" />
+어데로 보내드리면 될까예?<endTag a="100" b="5" /></message>
+	<message label="045_a" attrib="00 00 13">광장</message>
+	<message label="045_b" attrib="00 00 13">비행장</message>
+	<message label="045_c" attrib="00 00 13"><anim id="Negative" target="player" targetSpec="" />그만둘래요</message>
+	<message label="046" attrib="06 00 13"><tag a="100" b="5" />근데 <delay20 />손님은 아직
+잘 곳을 못 정하셨나 보네예<tag a="110" b="0" /><delay frames="40" />
+어데로 보내드리면 될까예?<endTag a="100" b="5" /></message>
+	<message label="046_a" attrib="00 00 13">광장</message>
+	<message label="046_b" attrib="00 00 13">가게</message>
+	<message label="046_c" attrib="00 00 13">비행장</message>
+	<message label="046_d" attrib="00 00 13"><anim id="Negative" target="player" targetSpec="" />그만둘래요</message>
+	<message label="047" attrib="08 00 13"><tag a="100" b="5" />그카믄 손님,<delay20 />
+어데로 보내주꼬?<endTag a="100" b="5" /></message>
+	<message label="047_a" attrib="00 00 13">내 텐트</message>
+	<message label="047_b" attrib="00 00 13">광장</message>
+	<message label="047_c" attrib="00 00 13">가게</message>
+	<message label="047_d" attrib="00 00 13">비행장</message>
+	<message label="047_e" attrib="00 00 13"><anim id="Negative" target="player" targetSpec="" />그만둘래요</message>
+	<message label="048" attrib="02 00 13"><tag a="100" b="5" /><tag a="110" b="0" />응?<delay40 /> 머꼬, <delay8 />손님 지금
+어디 외출해 계심니꺼?<pageBreak />정확한 지도 데이터가 없어가꼬<delay20 />
+<colour id="1" />지금 계신 섬의 비행장<colour id="65535" />으로만
+보내드릴 수 있는데 <delay20 />우짜실라예?<endTag a="100" b="5" /></message>
+	<message label="048_a" attrib="00 00 13">부탁할게요!</message>
+	<message label="048_b" attrib="00 00 13"><anim id="Negative" target="player" targetSpec="" />그만둘래요</message>
+	<message label="050_01" attrib="00 00 13"><tag a="100" b="5" />손님 텐트 맞지예? <delay20 />알겠심더～<endTag a="100" b="5" /></message>
+	<message label="050_02" attrib="00 00 13"><tag a="100" b="5" />손님네 집 맞지예?<delay20 /> 알겠심더～<endTag a="100" b="5" /></message>
+	<message label="050_03" attrib="00 00 13"><tag a="100" b="5" />섬 광장 맞지예?<delay20 /> 알겠심더～<endTag a="100" b="5" /></message>
+	<message label="050_04" attrib="00 00 13"><tag a="100" b="5" />섬 가게 맞지예?<delay20 /> 알겠심더～<endTag a="100" b="5" /></message>
+	<message label="050_05" attrib="00 00 13" />
+	<message label="050_06" attrib="00 00 13"><tag a="100" b="5" />알겠심더～<delay frames="30" />
+그라믄 <tag a="110" b="32" /> 거기로 보내드리겠심더～<endTag a="100" b="5" /></message>
+	<message label="050_07" attrib="00 00 13"><tag a="100" b="5" />비행장 맞지예?<delay20 /> 알겠심더～<endTag a="100" b="5" /></message>
+	<message label="051" attrib="00 00 13"><tag a="60" b="20" /></message>
+	<message label="051_01" attrib="00 00 13"><tag a="100" b="5" /><tag a="110" b="0" />에～ 어데 보자<tag a="110" b="0" />
+　　　　　  　　　　　　　 <size value="75" />이 버튼이 맞든가<tag a="110" b="0" /><size value="100" /><endTag a="100" b="5" /></message>
+	<message label="051_02" attrib="00 00 13"><tag a="100" b="5" /><tag a="110" b="0" />에～ 그라믄<tag a="110" b="0" />
+　　　　　　　　  <size value="75" />이기 복잡해 가꼬 헷갈리네<tag a="110" b="0" /><size value="100" /><endTag a="100" b="5" /></message>
+	<message label="051_03" attrib="00 00 13"><tag a="100" b="5" /><tag a="110" b="0" />에～<tag a="110" b="0" />
+　　　　　　 <size value="75" />글씨가 작아가꼬 쫌 키우믄 좋을 낀데<tag a="110" b="0" /><size value="100" /><endTag a="100" b="5" /></message>
+	<message label="052" attrib="00 00 13"><tag a="100" b="5" />휴～ <delay8 />그라믄 갑니데이<tag a="110" b="0" /><endTag a="100" b="5" /></message>
+	<message label="053" attrib="00 00 13"><tag a="10" b="12" />　　　　　　　<tag a="100" b="2" /><tag a="100" b="5" />으라차차!<endTag a="100" b="5" /><endTag a="100" b="2" /><10_8 arg="30" /></message>
+	<message label="061" attrib="00 00 13"><tag a="100" b="5" />자, <delay20 />도착했심더!<endTag a="100" b="5" /></message>
+	<message label="062" attrib="00 00 13"><tag a="100" b="5" />맞다, <delay8 />마지막으로 한마디<tag a="110" b="0" /><endTag a="100" b="5" /></message>
+	<message label="063" attrib="00 00 13"><tag a="60" b="20" /></message>
+	<message label="063_01" attrib="00 00 13"><tag a="100" b="5" />왜 그 <delay8 />정석대로 하는 거를<delay20 />
+정공법이라는 뜻으로<delay20 />
+'왕도'라꼬 하는 사람들이 있는데예<tag a="110" b="0" /><pageBreak />'왕도'라는 거는<delay20 />
+'쉬운 방법'이라는<delay8 /> 뜻입니데이!<endTag a="100" b="5" /></message>
+	<message label="063_02" attrib="00 00 13"><tag a="100" b="5" />높으신 분들이 가끔<delay20 />
+'유감스럽다'<delay8 />라는 말을
+쓰지 않십니꺼<tag a="110" b="0" /><pageBreak />그거는 <delay8 />사과할 때 하는 말이 아이고<delay20 />
+내 마음에 안 차서 서운할 때<delay20 />
+쓰는 말이라예!<endTag a="100" b="5" /></message>
+	<message label="063_03" attrib="00 00 13"><tag a="100" b="5" />왜 그 <delay8 />가격이 싸다는 뜻으로<delay20 />
+'합리적인 가격'<delay8 />이라는<delay8 />
+표현 많이 들어보셨지예?<pageBreak />'합리적'이라는 거는<delay8 /> '이치에 맞는',<delay20 />
+'타당한'<delay20 />이라는 뜻이라 안 합니꺼!<pageBreak />마 <delay8 />'합리적인 가격'이라 카면<delay20 />
+말도 안 되게<delay20 /> 비싸다는 거는 아니니까<delay20 />
+틀린 말은 아니지만 말입니더<tag a="110" b="0" /><endTag a="100" b="5" /></message>
+	<message label="064" attrib="00 00 13"><tag a="60" b="20" /></message>
+	<message label="064_01" attrib="00 00 13"><tag a="100" b="5" />왜 그 <delay8 />정석대로 하는 거를<delay20 />
+정공법이라는 뜻으로<delay20 />
+'왕도'라꼬 하는 사람들이 있는데예<tag a="110" b="0" /><pageBreak />'왕도'라는 거는<delay20 />
+'쉬운 방법'이라는<delay8 /> 뜻입니데이!<endTag a="100" b="5" /></message>
+	<message label="064_02" attrib="00 00 13"><tag a="100" b="5" />높으신 분들이 가끔<delay20 />
+'유감스럽다'<delay8 />라는 말을
+쓰지 않십니꺼<tag a="110" b="0" /><pageBreak />그거는 <delay8 />사과할 때 하는 말이 아이고<delay20 />
+내 마음에 안 차서 서운할 때<delay20 />
+쓰는 말이라예!<endTag a="100" b="5" /></message>
+	<message label="064_03" attrib="00 00 13"><tag a="100" b="5" />안내소에서 <colour id="1" />너굴포트<colour id="65535" />에 접속만 해도<delay20 />
+매일 마일을 주니까는 잊지 마이소!<delay frames="40" />
+티끌 모아 태산이라는 말<delay8 /> 들어보셨지예?<endTag a="100" b="5" /></message>
+	<message label="2001" attrib="00 00 13"><tag a="100" b="5" />아, <delay8 />평소랑 좀 다르다꼬예?<delay frames="30" />
+역시 눈치가 빠르시네예～!<pageBreak />이야～ <delay20 /><tag a="110" b="1" />님은<delay8 />
+못 속이겠심더<tag a="110" b="0" /><pageBreak />사실은 <colour id="3" />도루<colour id="65535" /><tag a="110" b="0" /><delay8 /> 우리 담당 직원이<delay20 />
+지금 잠깐 쉬러 갔다 아입니꺼<pageBreak />그래서 지가 잠깐<delay20 />
+대타로 들어오게 됐심더<pageBreak />평소랑 쪼메 다른 부분이 있어도<delay20 />
+너그러이 봐주이소～<pageBreak />에, <delay8 />그라믄<tag a="110" b="0" /><endTag a="100" b="5" /></message>
+</msbt>

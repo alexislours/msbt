@@ -1,0 +1,80 @@
+<msbt attribsize="8">
+	<message label="001" attrib="00 00 01 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Oh,<delay20 /> si on faisait un petit jeu,
+histoire de mettre l'ambiance!<pageBreak />Si tu gagnes, je te donne <tag a="50" b="2" /><tag a="125" b="0" arg="0x0" />. <delay20 /><anim id="Pardon" target="actor" targetSpec="" />Ça se refuse pas, hein?</message>
+	<message label="001_a" attrib="00 00 00 00 00 00 00 00">Amène ton jeu!</message>
+	<message label="001_b" attrib="00 00 00 00 00 00 00 00">Je peux pas, là.</message>
+	<message label="002" attrib="00 00 01 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Tu veux que je t'explique les règles?</message>
+	<message label="002_a" attrib="00 00 00 00 00 00 00 00">Je t'écoute.</message>
+	<message label="002_b" attrib="00 00 00 00 00 00 00 00">Nan, ça ira.</message>
+	<message label="003" attrib="00 00 00 00 00 00 00 00"><anim id="Oops" target="actor" targetSpec="" />OK, pas grave, c'est cool!<delay frames="60" /> <anim id="EmotEnd" target="actor" targetSpec="" /><anim id="FaintSmile" target="actor" targetSpec="" />On jouera
+une autre fois, <tag a="110" b="6" />.</message>
+	<message label="004" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />OK!<delay20 /><anim id="FaintSmile" target="actor" targetSpec="" /><delay20 /> Dans ce cas, c'est parti!<delay40 /> <anim id="NpcShuffle" target="actor" targetSpec="" />Pour
+commencer, je vais bien mélanger
+les cartes<tag a="110" b="0" /></message>
+	<message label="005" attrib="00 00 00 00 00 00 00 00">Voyons voir ce qu'on a<tag a="110" b="0" /></message>
+	<message label="006_01" attrib="00 00 00 00 00 00 00 00">Chose promise, chose due, <anim id="Greeting" target="actor" targetSpec="" /><delay20 />tu as gagné <tag a="50" b="17" arg="0x11 0xcd00 0x4 0x75 0x6e 0x6 0x75 0x6e 0x65 0x0" /> fabuleu<tag a="50" b="17" arg="0x11 0xcd00 0x2 0x78 0x4 0x73 0x65 0x0" /> <tag a="125" b="0" arg="0x0" />! Bravo!</message>
+	<message label="006_02" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Bien joué, y'a pas à dire!<delay40 /> <anim id="Nodding" target="actor" targetSpec="" />Comme
+promis, tu remportes <anim id="Greeting" target="actor" targetSpec="" /><tag a="50" b="2" /><tag a="125" b="0" arg="0x0" />!</message>
+	<message label="006_03" attrib="00 00 00 00 00 00 00 00">Déso<delay20 />, tu repars sans cadeau!
+<anim id="Grin" target="actor" targetSpec="" />La prochaine fois, peut-être.</message>
+	<message label="007_01" attrib="00 00 00 00 00 00 00 00"><anim id="Restless" target="actor" targetSpec="" />Snif! La prochaine fois, je gagnerai!<delay40 /><anim id="EmotEnd" target="actor" targetSpec="" /> Sois cool avec <tag a="50" b="17" arg="0x11 0xcd00 0x6 0x6d 0x6f 0x6e 0x4 0x6d 0x61 0x0" /> petit<tag a="50" b="17" arg="0x11 0xcd00 0x0 0x2 0x65 0x0" /> <tag a="125" b="0" arg="0x0" />, OK?</message>
+	<message label="007_03" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />C'était top!<delay8 /> À refaire absolument!<delay8 />
+Repasse me voir, <tag a="110" b="6" />!</message>
+	<message label="008" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Youpiii!<delay20 /> Un jeu! Un jeu!<delay frames="40" /> <anim id="Pardon" target="actor" targetSpec="" />Oh, mais
+attends un peu<tag a="110" b="0" /><delay20 /> Si tu gagnes, tu la
+mets où, ta récompense?<delay frames="40" />
+<anim id="EmotEnd" target="actor" targetSpec="" />Allez, va faire un peu de ménage
+dans ces grandes poches, <delay20 /><anim id="Greeting" target="actor" targetSpec="" />et reviens
+te mesurer à moi, <tag a="110" b="6" />.</message>
+	<message label="100" attrib="00 00 00 00 00 00 00 00">Et une petite explication pour
+<gender2 m="le" f="la" /> <gender2 m="monsieur" f="madame" />!<pageBreak /><anim id="Explain" target="actor" targetSpec="" /><delay20 />J'ai quatre cartes. Sur chacune,
+il y a un symbole différent : <colour id="6" />cœur ♥<colour id="65535" />,
+<colour id="6" />carreau ♦<colour id="65535" />, <colour id="7" />pique ♠ <colour id="65535" />ou <colour id="7" />trèfle ♣<colour id="65535" />.
+J'explique bien, ou bien?<delay20 /><anim id="Explain" target="actor" targetSpec="" /> Je vais
+tirer une carte<tag a="110" b="0" /> et tu devras me dire
+laquelle c'est.
+<anim id="Smiling" target="actor" targetSpec="" /><delay20 />Fastoche hein?<delay20 /> Si tu mets dans le
+mille, tu repars avec <delay20 /><anim id="Nodding" target="actor" targetSpec="" /><tag a="50" b="2" /><tag a="125" b="0" arg="0x0" />!<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Ça te fait une chance sur quatre.<delay20 />
+Ça devrait le faire, non?<anim id="NpcShuffle" target="actor" targetSpec="" /> Et voilà
+la reine du mélange à l'action<tag a="110" b="0" /></message>
+	<message label="101" attrib="00 00 05 00 00 00 00 00"><anim id="NpcHoldout" target="actor" targetSpec="" />Ayé, j'ai tiré une carte, <tag a="110" b="6" />.<delay40 />
+<anim id="FaintSmile" target="actor" targetSpec="" />Si on était à la télé, y aurait une
+musique méga angoissante.<pageBreak />Et pis un gros zoom de la caméra en
+plein sur ta face, et je demanderais<tag a="110" b="0" /><pageBreak /><anim id="Serious" target="actor" targetSpec="" /><delay20 />Quel symbole est imprimé sur cette
+carte<tag a="110" b="0" /> Est-ce <colour id="6" />cœur ♥<colour id="65535" />? <colour id="6" />Carreau ♦<colour id="65535" />?
+<colour id="7" />Pique ♠<colour id="65535" />? Ou est-ce <colour id="7" />trèfle ♣<colour id="65535" />?
+<anim id="Laughing" target="actor" targetSpec="" />Vous sentez la grosse montée de
+stress qui vous envahit?<delay20 /> Et
+maintenant<tag a="110" b="0" /><anim id="Serious" target="actor" targetSpec="" /><delay20 /> répondez-moi!</message>
+	<message label="101_a" attrib="00 00 00 00 00 00 00 00"><colour id="6" />Cœur ♥<colour id="65535" />!</message>
+	<message label="101_b" attrib="00 00 00 00 00 00 00 00"><colour id="6" />Carreau ♦<colour id="65535" />!</message>
+	<message label="101_c" attrib="00 00 00 00 00 00 00 00"><colour id="7" />Pique ♠<colour id="65535" />!</message>
+	<message label="101_d" attrib="00 00 00 00 00 00 00 00"><colour id="7" />Trèfle ♣<colour id="65535" />!</message>
+	<message label="102_01" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Et c'est<tag a="110" b="0" /><delay frames="40" /> un <tag a="140" b="14" arg="0xcd00" />!<delay40 />
+<anim id="Clapping" target="actor" targetSpec="" />Bravo! C'est la bonne réponse!</message>
+	<message label="102_02" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Et c'est un <tag a="140" b="14" arg="0xcd00" />!<delay40 /> <anim id="EmotEnd" target="actor" targetSpec="" />Oh là là,
+<anim id="Oops" target="actor" targetSpec="" /><delay20 />mauvaise réponse! Dommage<tag a="110" b="0" /></message>
+	<message label="200" attrib="00 00 00 00 00 00 00 00">Et une petite explication pour
+<gender2 m="le" f="la" /> <gender2 m="monsieur" f="madame" />!<pageBreak /><anim id="Explain" target="actor" targetSpec="" /><delay20 />J'ai quatre cartes. Sur chacune,
+il y a un symbole différent : <colour id="6" />cœur ♥<colour id="65535" />,
+<colour id="6" />carreau ♦<colour id="65535" />, <colour id="7" />pique ♠ <colour id="65535" />ou<colour id="6" /> <colour id="7" />trèfle ♣<colour id="6" /><colour id="65535" />.
+Je vais tirer une carte<tag a="110" b="0" /> et tu devras
+deviner de quelle couleur elle est!<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Si tu trouves,<delay20 /> <anim id="Nodding" target="actor" targetSpec="" />je te donne <tag a="50" b="2" />
+<tag a="125" b="0" arg="0x0" />!<anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />On va bien s'amuser!<delay20 /> <anim id="NpcShuffle" target="actor" targetSpec="" />Je mélange,
+tu mélanges, il mélange<tag a="110" b="0" /></message>
+	<message label="201" attrib="00 00 01 00 00 00 00 00"><anim id="NpcHoldout" target="actor" targetSpec="" />Voilà, j'ai tiré une carte!<delay40 />
+<anim id="EmotEnd" target="actor" targetSpec="" />Alors,<delay20 /> tu choisis quelle couleur?
+<anim id="Pardon" target="actor" targetSpec="" /><delay20 /><colour id="6" />Rouge<delay20 /><colour id="65535" /> ou <colour id="7" />noir?<colour id="65535" />!</message>
+	<message label="201_a" attrib="00 00 00 00 00 00 00 00"><colour id="6" />Rouge<colour id="65535" />!</message>
+	<message label="201_b" attrib="00 00 00 00 00 00 00 00"><colour id="7" />Noir<colour id="65535" />!</message>
+	<message label="202_01" attrib="00 00 00 00 00 00 00 00"><tag a="110" b="0" /><anim id="Aha" target="actor" targetSpec="" /> C'est un <tag a="140" b="14" arg="0xcd00" />!<delay40 />
+<anim id="Clapping" target="actor" targetSpec="" />Ce qui veut dire <colour id="6" />rouge<colour id="65535" />!<delay20 /> Bien vu!</message>
+	<message label="202_02" attrib="00 00 00 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />C'est un <tag a="140" b="14" arg="0xcd00" />!<delay40 /><anim id="EmotEnd" target="actor" targetSpec="" /> Par conséquent,
+c'est <colour id="7" />noir<colour id="65535" />! Quelle tragédie,<anim id="Oops" target="actor" targetSpec="" /><delay20 /> tu avais
+une chance sur deux!</message>
+	<message label="202_03" attrib="00 00 00 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />C'est un <tag a="140" b="14" arg="0xcd00" />!<delay40 /> <anim id="Clapping" target="actor" targetSpec="" />Donc <colour id="7" />noir<colour id="65535" />!
+Tu as parfaitement deviné!</message>
+	<message label="202_04" attrib="00 00 00 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />C'est un <tag a="140" b="14" arg="0xcd00" />!<delay40 /><anim id="EmotEnd" target="actor" targetSpec="" /> Aïe, aïe, aïe,
+c'est donc <colour id="6" />rouge<colour id="65535" />! Désolée,<delay20 /><anim id="Oops" target="actor" targetSpec="" /> tu t'es
+trompé<gender2 m="" f="e" />!</message>
+</msbt>

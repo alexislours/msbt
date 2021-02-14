@@ -1,0 +1,137 @@
+<msbt attribsize="8">
+	<message label="001" attrib="00 00 02 00 00 00 00 00"><anim id="IdeaBulb" target="actor" targetSpec="" /><tag a="110" b="0" />맞다!<delay8 />
+<tag a="110" b="4" /><gender2 m="군" f="양" />!<delay40 />
+<anim id="QuestionMark" target="actor" targetSpec="" />보물찾기 게임을 하지 않겠어? <tag a="110" b="6" />?</message>
+	<message label="001_a" attrib="00 00 00 00 00 00 00 00">좋은 생각이야
+할래, 할래!</message>
+	<message label="001_b" attrib="00 00 00 00 00 00 00 00">지금 좀 바빠서…
+<anim id="Apologize" target="player" targetSpec="" />미안</message>
+	<message label="002" attrib="00 00 02 00 00 00 00 00"><anim id="IdeaBulb" target="actor" targetSpec="" /><tag a="110" b="0" />좋은 생각이 났어!<delay frames="40" />
+<anim id="QuestionMark" target="actor" targetSpec="" />지금부터 게임을 시작할까?<10_4 />
+<anim id="Thinking" target="actor" targetSpec="" /><delay frames="24" />보물찾기 게임 같은 거, <tag a="110" b="6" /><tag a="110" b="0" /></message>
+	<message label="002_a" attrib="00 00 00 00 00 00 00 00">재밌겠네
+할래, 할래!</message>
+	<message label="002_b" attrib="00 00 00 00 00 00 00 00">지금 좀 바빠서…
+<anim id="Apologize" target="player" targetSpec="" />미안</message>
+	<message label="003" attrib="00 00 02 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />그래! <delay20 />우리 지금부터
+보물찾기 게임을 하자, <tag a="110" b="6" />!</message>
+	<message label="003_a" attrib="00 00 00 00 00 00 00 00">재밌겠네
+할래, 할래!</message>
+	<message label="003_b" attrib="00 00 00 00 00 00 00 00">지금 좀 바빠서…
+<anim id="Apologize" target="player" targetSpec="" />미안</message>
+	<message label="004" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />예스!<delay20 />
+그렇게 나올 줄 알았어!<pageBreak /><anim id="Hello" target="actor" targetSpec="" />잠시 기다려주겠어?<10_4 />
+<anim id="Nodding" target="actor" targetSpec="" />지금 <tag a="110" b="10" />님 비장의 보물을<delay20 />
+묻어두고 올 테니까, <tag a="110" b="6" /><tag a="110" b="0" /></message>
+	<message label="005" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />오케이!<delay frames="40" />
+<anim id="FaintSmile" target="actor" targetSpec="" />내 갑작스런 제안을 들어줘서<delay20 />
+고마워! <tag a="110" b="6" />!
+<anim id="Nodding" target="actor" targetSpec="" />그럼, 지금<delay20 />
+내 보물을<delay8 /> 묻어두고 올게!</message>
+	<message label="006" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />엑설런트!<delay20 />
+역시 <tag a="110" b="4" /><gender2 m="군" f="양" />이야!<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />그럼 서프라이즈 선물을<delay8 />
+숨겨두고 올게<tag a="110" b="0" /><pageBreak /><anim id="ShyBoy" target="actor" targetSpec="" /><delay frames="12" />앗, 말해버리면<delay20 />
+서프라이즈가 아닌데～! <tag a="110" b="6" />!</message>
+	<message label="007" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />어라? <delay20 />벌써 시간이 이렇게 됐군<tag a="110" b="0" /><10_4 />
+<anim id="Worried" target="actor" targetSpec="" />아쉽지만 다음에 해야겠는걸, <tag a="110" b="6" /><delay20 />
+지금은 게임할 때가 아닌 것 같아</message>
+	<message label="008" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />오케이!<delay20 />
+그러면 다음 기회를 기약하지, <tag a="110" b="6" /></message>
+	<message label="009" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />괜찮아, <delay8 />신경 쓸 것 없어<delay20 />
+억지로 하면 재미없으니까, <tag a="110" b="6" /></message>
+	<message label="010" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />알겠어!<delay20 />
+다음에 다시 물어볼게, <tag a="110" b="6" /></message>
+	<message label="011" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />그러면 룰을 설명할게<delay40 />
+<anim id="Explain" target="actor" targetSpec="" />이 <tag a="110" b="33" /> 어딘가에<delay20 />
+보물이 묻혀 있어<10_7 arg="90" />
+<anim id="Explain" target="actor" targetSpec="" />그 보물을 제한 시간 내에<delay20 />
+찾아서 파내면<delay20 />
+그대의 승리야! <tag a="110" b="6" />!<10_7 arg="90" />
+<anim id="Explain" target="actor" targetSpec="" />찾은 보물은 그대에게 줄 테니까<delay20 />
+열심히 해줬으면 좋겠군<tag a="110" b="0" /><delay40 />
+<anim id="Serious" target="actor" targetSpec="" />자, <delay8 />준비는 됐으려나?<10_7 arg="120" /></message>
+	<message label="011_01" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />그럼 룰을 설명하지<delay40 />
+<anim id="Explain" target="actor" targetSpec="" />이 <tag a="110" b="33" /> 어딘가에<delay20 />
+보물을 묻어 놨어<tag a="110" b="0" /><10_7 arg="90" />
+<anim id="Explain" target="actor" targetSpec="" />그 보물을 제한 시간 내에<delay20 /> 찾아서 파내면<delay20 />
+그대의 승리야! <tag a="110" b="6" />!<10_7 arg="90" /><pageBreak /><anim id="Explain" target="actor" targetSpec="" />무사히 보물을 찾아내면
+그대에게 줄 테니까<delay20 /> 열심히 찾아보라구<10_7 arg="90" /><pageBreak /><anim id="Eh" target="actor" targetSpec="" />아, 그리고<tag a="110" b="0" />
+<anim id="Nodding" target="actor" targetSpec="" />이건 그대와 나의 승부니까<delay20 />
+다른 친구의 손은 빌리지 말기를 바랄게<10_7 arg="90" />
+<anim id="Serious" target="actor" targetSpec="" />자, <delay8 />준비됐어?<10_7 arg="120" /></message>
+	<message label="012" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />그러면 룰을 설명할게<delay40 />
+<anim id="Explain" target="actor" targetSpec="" />이 <tag a="110" b="33" /> 어딘가에<delay20 />
+보물이 묻혀 있어<10_7 arg="90" />
+<anim id="Explain" target="actor" targetSpec="" />그 보물을 제한 시간 내에<delay20 />
+찾아서 파내면<delay20 />
+그대의 승리야! <tag a="110" b="6" />!<10_7 arg="90" />
+<anim id="Explain" target="actor" targetSpec="" />이번엔 제한 시간이 짧아서<delay8 />
+좀 어려울지도 모르지만<delay20 />
+열심히 해줬으면 좋겠군!<10_7 arg="60" />
+<anim id="Serious" target="actor" targetSpec="" />자, <delay8 />준비는 됐으려나?<10_7 arg="120" /></message>
+	<message label="012_01" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />그럼 룰을 설명하지<delay40 />
+<anim id="Explain" target="actor" targetSpec="" />이 <tag a="110" b="33" /> 어딘가에<delay20 />
+보물이 묻혀 있어<tag a="110" b="0" /><10_7 arg="90" />
+<anim id="Explain" target="actor" targetSpec="" />그 보물을 제한 시간 내에<delay20 /> 찾아서 파내면<delay20 />
+그대의 승리야! <tag a="110" b="6" />!<10_7 arg="90" /><pageBreak /><anim id="Explain" target="actor" targetSpec="" />이번엔 제한 시간이 짧아서<delay8 />
+만만치 않을 테지만<delay20 />
+열심히 해줬으면 좋겠군!<10_7 arg="90" />
+<anim id="Eh" target="actor" targetSpec="" />아, 그리고<tag a="110" b="0" />
+<anim id="Nodding" target="actor" targetSpec="" />이건 그대와 나의 승부니까<delay20 />
+다른 친구의 손은 빌리지 말기를 바랄게<10_7 arg="90" />
+<anim id="Serious" target="actor" targetSpec="" />자, <delay8 />준비됐어?<10_7 arg="120" /></message>
+	<message label="013" attrib="00 00 02 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />으음, <delay20 />룰 설명이
+필요하려나? <tag a="110" b="6" />?</message>
+	<message label="013_a" attrib="00 00 00 00 00 00 00 00">필요해</message>
+	<message label="013_b" attrib="00 00 00 00 00 00 00 00">안 필요해</message>
+	<message label="014" attrib="00 00 00 00 00 00 00 00"><anim id="WrySmile" target="actor" targetSpec="" /><delay20 />후후후, <delay20 />룰은 이미 알고 있다고?<delay40 />
+<anim id="EmotEnd" target="actor" targetSpec="" />좋아, <delay8 />그럼 스타트! <tag a="110" b="6" />!<10_7 arg="90" /></message>
+	<message label="014_01" attrib="00 00 00 00 00 00 00 00"><anim id="WrySmile" target="actor" targetSpec="" />친구의 힘을 빌리지 않고<delay20 />
+그대 손으로 직접 찾아달라구<delay frames="40" />
+<anim id="EmotEnd" target="actor" targetSpec="" />그럼 시작해볼까? <tag a="110" b="6" />?<10_7 arg="90" /></message>
+	<message label="015" attrib="00 00 00 00 00 00 00 00"><anim id="WrySmile" target="actor" targetSpec="" /><delay20 />후후후, <delay20 />이번엔 시간이 짧아서<delay8 />
+어려울지도 몰라!<delay40 />
+<anim id="EmotEnd" target="actor" targetSpec="" />자, <delay8 />그럼 스타트! <tag a="110" b="6" />!<10_7 arg="90" /></message>
+	<message label="015_01" attrib="00 00 00 00 00 00 00 00"><anim id="WrySmile" target="actor" targetSpec="" /><delay20 />후후후, <delay20 />이번엔 시간이 짧아서<delay8 />
+어려울지도 모른다구! <tag a="110" b="6" />!
+<10_7 arg="90" />
+<anim id="Silent" target="actor" targetSpec="" />그래도 다른 사람의 힘을<delay20 />
+빌리는 건 없기야<tag a="110" b="0" /><delay20 />
+<anim id="Grin" target="actor" targetSpec="" />이건 그대와 나의 승부니까 말이지<10_7 arg="90" />
+<anim id="EmotEnd" target="actor" targetSpec="" />자, <delay8 />그럼 스타트!<10_7 arg="90" /></message>
+	<message label="101" attrib="00 00 02 00 00 00 00 00"><anim id="HappyFlower" target="actor" targetSpec="" />나와 지금부터<tag a="110" b="0" />
+보물찾기 게임으로<delay20 />
+친목을 다져보지 않겠어? <tag a="110" b="6" />?</message>
+	<message label="101_a" attrib="00 00 00 00 00 00 00 00">좋아!</message>
+	<message label="101_b" attrib="00 00 00 00 00 00 00 00">지금은 별로…</message>
+	<message label="102" attrib="00 00 02 00 00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" /><delay frames="24" />아아<tag a="110" b="0" /><delay20 />
+따분함이라는 이름의 어둠이<delay20 />
+나를 해치고 있어, <tag a="110" b="6" /><tag a="110" b="0" /><pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />하지만 눈에 보이는 것이 전부는 아니지!<delay frames="40" />
+<anim id="Angry" target="actor" targetSpec="" />이 <tag a="110" b="32" />에도 희망으로 가득 찬 빛이<delay20 />
+어딘가에 숨겨져 있을 터!<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" /><tag a="110" b="0" />그런 의미에서<delay8 />
+<tag a="110" b="4" /><gender2 m="군" f="양" />!<delay frames="40" />
+<anim id="QuestionMark" target="actor" targetSpec="" />같이 보물찾기 게임을 하지 않을래?</message>
+	<message label="102_a" attrib="00 00 00 00 00 00 00 00">같이하자!</message>
+	<message label="102_b" attrib="00 00 00 00 00 00 00 00">안 할래</message>
+	<message label="103" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />어라? 벌써 시간이 이렇게 됐네<tag a="110" b="0" /><delay20 />
+<anim id="WrySmile" target="actor" targetSpec="" /><delay frames="16" />그대와 함께하는 시간은 순식간이군<pageBreak /><anim id="Serious" target="actor" targetSpec="" />밤길은 조심해야 돼<tag a="110" b="0" /><delay8 />
+<anim id="Nodding" target="actor" targetSpec="" />게임은 다음 기회에 하자! <tag a="110" b="6" />!</message>
+	<message label="104" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />오케이!<delay frames="40" />
+<anim id="Nodding" target="actor" targetSpec="" />그러면 <delay20 />지금 내가 이 <tag a="110" b="32" /> 어딘가에
+보물을 묻어두고 올게! <tag a="110" b="6" />!</message>
+	<message label="105" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />그래!<delay20 />
+슬프지만 어쩔 수 없지, <tag a="110" b="6" /></message>
+	<message label="106" attrib="00 00 00 00 00 00 00 00"><anim id="Worried" target="actor" targetSpec="" /><tag a="110" b="0" />앗, 벌써 시간이!<delay20 />
+미안, 내 불찰이야<pageBreak /><anim id="ShyBoy" target="actor" targetSpec="" /><delay frames="12" />제안해 놓고 이런 말 하기 미안하지만<delay20 />
+다음 기회를 기약하자, <tag a="110" b="6" /><tag a="110" b="0" /></message>
+	<message label="107" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />역시 <tag a="110" b="4" /><gender2 m="군" f="양" />이야!<delay20 />
+<anim id="Smiling" target="actor" targetSpec="" />그대라면 오케이할 거라고 <delay8 />믿었다구!<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />그럼 <delay8 />내가 보물을 묻어두고 올 테니까<delay20 />
+잠시 기다려주겠어? <tag a="110" b="6" />?</message>
+	<message label="108" attrib="00 00 00 00 00 00 00 00"><anim id="WrySmile" target="actor" targetSpec="" /><delay frames="16" />뭐, <delay8 />굳이 찾으려 하지 않아도<delay20 />
+보물은 이미 있지만 말이야<tag a="110" b="0" /><delay frames="40" />
+<anim id="Grin" target="actor" targetSpec="" />그대 눈동자에, <tag a="110" b="6" /><tag a="110" b="0" /></message>
+	<message label="200" attrib="00 00 00 00 00 00 00 00"><anim id="SadSpiral" target="actor" targetSpec="" /><delay frames="20" />이럴 수가!<delay20 />
+이 <tag a="110" b="32" />에는 더 이상 묻을 공간이<delay8 />
+없는 것 같아, <tag a="110" b="6" /><tag a="110" b="0" /><pageBreak /><anim id="Worried" target="actor" targetSpec="" />내가 하자고 한 건데 미안해,
+<tag a="110" b="4" /><gender2 m="군" f="양" /><tag a="110" b="0" /></message>
+</msbt>

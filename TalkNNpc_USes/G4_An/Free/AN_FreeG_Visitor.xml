@@ -1,0 +1,92 @@
+<msbt attribsize="8">
+	<message label="001" attrib="00 00 01 01 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />¡Ahí te va una pregunta! <delay20 />¿Cuál es la fruta típica de <tag a="110" b="8" />?<delay20 /> Piénsale bien, ¿eh?</message>
+	<message label="001_a" attrib="04 00 00 00 00 00 00 00">¡Esa de ahí!</message>
+	<message label="001_b" attrib="05 00 00 00 00 00 00 00">Es... una muy rica</message>
+	<message label="002" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="23" arg="0xd 0xe 0xf 0xffff" /></message>
+	<message label="003" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x10 0x11 0xffff 0xffff" /></message>
+	<message label="004" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />¡Estás en lo correcto!<delay20 />
+<anim id="EmotEnd" target="actor" targetSpec="" />¡La fruta típica es <tag a="50" b="1" /><tag a="110" b="7" arg="0xcd00" />!</message>
+	<message label="005" attrib="00 00 00 00 00 00 00 00"><anim id="Scheming" target="actor" targetSpec="" />¡Ajá!<delay20 /> No tienes ni la más remota idea,
+¿verdad, tú?<pageBreak /><anim id="SmugFace" target="actor" targetSpec="" />¡Pues es <tag a="50" b="1" /><tag a="110" b="7" arg="0xcd00" />!<delay8 /> En lo
+que sí acertaste es en que<anim id="Cheering" target="actor" targetSpec="" /> l<tag a="50" b="17" arg="0x1 0xcd00 0x2 0x6f 0x2 0x61 0x0" />s de
+<tag a="110" b="8" /> son riquísim<tag a="50" b="17" arg="0x1 0xcd00 0x2 0x6f 0x2 0x61 0x0" />s.</message>
+	<message label="013" attrib="00 00 00 00 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />¿De casualidad conoces a <colour id="3" />Tendo<colour id="65535" />? <delay20 />
+<anim id="Nodding" target="actor" targetSpec="" />Si no, date una vuelta por la <colour id="1" /><tag a="50" b="0" arg="0x202 0xcd04" />oficina de gestión vecinal <colour id="65535" />para verlo.
+<anim id="SmugFace" target="actor" targetSpec="" />¡Es muy buen rollo ese muchachito!<delay20 />
+Siempre está dispuesto a ayudar.<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Bueno, ¿eso es suficiente para que
+vayas a visitarlo, o tengo que seguir
+echándole flores?</message>
+	<message label="014" attrib="00 00 00 00 00 00 00 00"><anim id="SmugFace" target="actor" targetSpec="" />¿No te gustaría llevarte algún
+recuerdo de la isla? <delay20 />¡Así se lo
+presumes a tus compis!
+<anim id="Nodding" target="actor" targetSpec="" />Te recomiendo que vayas a <colour id="1" /><tag a="50" b="0" arg="0x1 0xcd00" />MiniNook<colour id="65535" />.<delay20 />
+Es pequeño, pero tiene un montonal
+de cosas.</message>
+	<message label="015" attrib="00 00 00 00 00 00 00 00"><anim id="Scheming" target="actor" targetSpec="" />Si se te queman las bayas en la
+mano y quieres ir a despilfarrarlas,<delay8 />
+deberías ir a <colour id="1" />MiniNook<colour id="65535" />.
+<anim id="Nodding" target="actor" targetSpec="" />Los muchachones que atienden,<delay8 />
+<colour id="3" />Tendo <colour id="65535" />y <colour id="3" />Nendo<colour id="65535" />, son bien chéveres.<pageBreak /><anim id="SmugFace" target="actor" targetSpec="" />¡Tienen un surtido bárbaro!</message>
+	<message label="016" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Al parecer están preparando todo
+para tener un <colour id="1" />museo <colour id="65535" />tremendo. <delay20 />
+¡Qué locurón, tú!
+<anim id="BigSmile" target="actor" targetSpec="" />Seguro que vendrá un montón de
+gente a visitarlo. <anim id="SmugFace" target="actor" targetSpec="" />¡Qué ambientazo
+se va a armar, ya verás!</message>
+	<message label="017" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="2" arg="0x15 0x16 0x17 0x19" /></message>
+	<message label="021" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1c00 0x1900 0xcd00" /></message>
+	<message label="022" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1d01 0x1900 0xcd00" /></message>
+	<message label="023" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1e02 0x1900 0xcd00" /></message>
+	<message label="025" attrib="00 00 00 00 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />¿Ya visitaste el <colour id="1" />museo<colour id="65535" />, tú?<pageBreak /><anim id="OhGeez" target="actor" targetSpec="" />No me salgas con que eres de
+es<gender2 m="o" f="a" />s que evitan el rollo cultural<tag a="110" b="0" /><pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />¡Este museo está bue<delay8 />ní<delay8 />si<delay8 />mo! <delay8 />
+<anim id="SmugFace" target="actor" targetSpec="" />Si vas a verlo, ¡no te arrepentirás!<delay20 />
+¡Hazme caso!</message>
+	<message label="028" attrib="00 00 00 00 00 00 00 00"><anim id="OhGeez" target="actor" targetSpec="" />Si no has ido al <colour id="1" />museo <colour id="65535" />todavía, no sé
+qué esperas, guapuraza.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Tenemos cosas que no se ven
+todos los días, ¿eh?<delay8 /> Por ejemplo<tag a="110" b="0" /><anim id="EmotEnd" target="actor" targetSpec="" />¡Un<tag a="50" b="17" arg="0x28 0xcd00 0x0 0x2 0x61 0x0" /> <tag a="135" b="13" arg="0x0" />!</message>
+	<message label="029" attrib="00 00 00 00 00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />Oye, ¿alguna vez has visto <tag a="50" b="2" /><tag a="135" b="13" arg="0x1" /> en vivo y a todo color, tú?<pageBreak /><anim id="SmugFace" target="actor" targetSpec="" />¡Porque en el <colour id="1" />museo <colour id="65535" />tenemos un<tag a="50" b="17" arg="0x28 0xcd00 0x2 0x6f 0x2 0x61 0x0" />
+vivit<tag a="50" b="17" arg="0x28 0xcd00 0x2 0x6f 0x2 0x61 0x0" /> y coleando! <delay8 /><anim id="EmotEnd" target="actor" targetSpec="" />No te l<tag a="50" b="17" arg="0x28 0xcd00 0x2 0x6f 0x2 0x61 0x0" /> puedes
+perder, hazme caso.</message>
+	<message label="030" attrib="00 00 00 00 00 00 00 00">A todo esto, <anim id="Frantic" target="actor" targetSpec="" />¡no puedes decir que
+fuiste a <tag a="110" b="8" /> si no
+visitaste el <colour id="1" />museo<colour id="65535" />!<pageBreak /><anim id="SmugFace" target="actor" targetSpec="" />En los fósiles tienen algo que
+te dejará con la boca abierta:<delay8 />
+¡<tag a="50" b="2" /><tag a="135" b="13" arg="0x2" />!</message>
+	<message label="101" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="0" arg="0x66 0x69" /></message>
+	<message label="102" attrib="00 00 01 00 00 00 00 00"><anim id="OhGeez" target="actor" targetSpec="" />A ver confiesa: <delay8 /><anim id="Scheming" target="actor" targetSpec="" />¿en realidad viniste
+a visitar <tag a="110" b="8" /> o a mí?</message>
+	<message label="102_a" attrib="67 00 00 00 00 00 00 00">¡A ti, claro!</message>
+	<message label="102_b" attrib="68 00 00 00 00 00 00 00">Quería ver la isla</message>
+	<message label="103" attrib="00 00 00 00 00 00 00 00"><anim id="SmugFace" target="actor" targetSpec="" />¡Ya me las olía!<delay20 /> Como que siempre
+tengo ese efecto en la gente.<delay20 /> No sé
+por qué, la verdad.
+<anim id="Nodding" target="actor" targetSpec="" />Pero que sepas que el sentimiento
+es mutuo.<delay20 /> ¡Eres un<gender2 m="o" f="a" /> de mis compis
+preferid<gender2 m="o" f="a" />s!</message>
+	<message label="104" attrib="00 00 00 00 00 00 00 00"><anim id="TakenAback" target="actor" targetSpec="" />¡¿No tenías ni poquititas ganas
+de verme a mí?!<delay20 /> Al menos disimula
+un poquito, ¿no?
+<anim id="Nodding" target="actor" targetSpec="" />Pero te entiendo y te perdono<tag a="110" b="0" /><delay20 />
+<anim id="EmotEnd" target="actor" targetSpec="" />¡solo porque sé lo chévere que
+es <tag a="110" b="8" />!</message>
+	<message label="105" attrib="6a 00 00 00 00 00 00 00">Desembucha, <tag a="110" b="3" /><tag a="110" b="0" /><delay8 />
+<anim id="QuestionMark" target="actor" targetSpec="" />¿Cómo te trata la vida en tu nuevo
+hogar? <delay8 />¿Te gusta vivir en otra isla?</message>
+	<message label="106" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
+	<message label="106_01" attrib="00 00 00 00 00 00 00 00"><anim id="Silent" target="actor" targetSpec="" />Más les vale a todos los lugareños
+de por allá ser agradables contigo<tag a="110" b="0" /><delay20 />
+<anim id="Angry" target="actor" targetSpec="" />¡o se van a enterar de quién soy yo!
+<anim id="Smiling" target="actor" targetSpec="" />Aunque la verdad es que contigo
+es imposible no ser agradable.</message>
+	<message label="106_02" attrib="00 00 00 00 00 00 00 00"><anim id="Hello" target="actor" targetSpec="" />¿Tienen muchas flores por allá?<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />Si es así, más te vale que las estés
+regando y toda la cosa, ¿eh?
+<anim id="Explain" target="actor" targetSpec="" />Las florecitas son bien roqueras
+y hay que cuidarlas.</message>
+	<message label="106_03" attrib="00 00 00 00 00 00 00 00">Cuéntame, <anim id="QuestionMark" target="actor" targetSpec="" />¿hay muchos insectos
+y peces por allá? <delay20 />¿Andas de un lado
+para el otro con la red y la caña<tag a="110" b="0" />?
+<anim id="OhGeez" target="actor" targetSpec="" />A quién quiero engañar<tag a="110" b="0" /> lo que en
+realidad me interesa saber es qué
+tan bueno se pone el jolgorio.</message>
+</msbt>

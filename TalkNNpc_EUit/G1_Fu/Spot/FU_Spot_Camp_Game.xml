@@ -1,0 +1,66 @@
+<msbt attribsize="8">
+	<message label="001" attrib="00 00 01 00 00 00 00 00"><anim id="Hesitate" target="actor" targetSpec="" />Mi è venuta un'idea<tag a="110" b="0" /> Ti andrebbe
+di fare un gioco con le carte e
+mettere in palio qualcosa?<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Se vinci tu, <delay8 />ti prendi <anim id="Smiling" target="actor" targetSpec="" /><tag a="50" b="17" arg="0x11 0xcd00 0xc 0x69 0x6c 0x20 0x6d 0x69 0x6f 0xc 0x6c 0x61 0x20 0x6d 0x69 0x61 0x0" />
+<tag a="125" b="0" arg="0x0" />!<pageBreak /><anim id="Hello" target="actor" targetSpec="" />Alors, <delay8 />che ne dici? <delay20 />Non è un'idea
+subliiime?</message>
+	<message label="001_a" attrib="00 00 00 00 00 00 00 00">Giochiamo!</message>
+	<message label="001_b" attrib="00 00 00 00 00 00 00 00">Non adesso.</message>
+	<message label="002" attrib="00 00 01 00 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Vuoi che ti parli delle regole?</message>
+	<message label="002_a" attrib="00 00 00 00 00 00 00 00">Certo!</message>
+	<message label="002_b" attrib="00 00 00 00 00 00 00 00">Non serve, giochiamo.</message>
+	<message label="003" attrib="00 00 00 00 00 00 00 00">D'accord,<delay20 /> <anim id="FaintSmile" target="actor" targetSpec="" />allora non importa.</message>
+	<message label="004" attrib="00 00 00 00 00 00 00 00"><anim id="NpcShuffle" target="actor" targetSpec="" />Bien,<delay20 /> adesso mescolo le carte.</message>
+	<message label="005" attrib="00 00 00 00 00 00 00 00"><anim id="Grin" target="actor" targetSpec="" />È quella la tua risposta?<delay frames="40" /> <anim id="FaintSmile" target="actor" targetSpec="" />Alors
+verifichiamo!</message>
+	<message label="006_01" attrib="00 00 00 00 00 00 00 00">Hai vinto tu, félicitations!<delay20 /> <anim id="Smiling" target="actor" targetSpec="" />Il premio è
+<tag a="50" b="17" arg="0x11 0xcd00 0xc 0x69 0x6c 0x20 0x6d 0x69 0x6f 0xc 0x6c 0x61 0x20 0x6d 0x69 0x61 0x0" /> <tag a="125" b="0" arg="0x0" />!</message>
+	<message label="006_02" attrib="00 00 00 00 00 00 00 00"><anim id="Grin" target="actor" targetSpec="" />Acciderbolina, ho perso.<delay frames="40" /> <anim id="EmotEnd" target="actor" targetSpec="" /><anim id="Smiling" target="actor" targetSpec="" />Hai vinto
+<tag a="50" b="17" arg="0x11 0xcd00 0xc 0x69 0x6c 0x20 0x6d 0x69 0x6f 0xc 0x6c 0x61 0x20 0x6d 0x69 0x61 0x0" /> <tag a="125" b="0" arg="0x0" />!</message>
+	<message label="006_03" attrib="00 00 00 00 00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Quanto mi dispiace! <delay20 />Questa volta
+non hai vinto nulla, <tag a="110" b="6" />.</message>
+	<message label="007_01" attrib="00 00 00 00 00 00 00 00"><anim id="Pardon" target="actor" targetSpec="" />Parbleu, non sarai per caso <gender2 m="un indovino" f="un'indovina" />?!<delay frames="40" /> <anim id="Grin" target="actor" targetSpec="" />Dovremo rigiocare
+in futuro,<delay20 /> <tag a="110" b="5" />.</message>
+	<message label="007_03" attrib="00 00 00 00 00 00 00 00"><anim id="Blushing" target="actor" targetSpec="" />Accipicchia, <delay8 />mi dispiace. <delay20 /><anim id="FaintSmile" target="actor" targetSpec="" />Si tu veux,<delay8 />
+possiamo giocare ancora in futuro.</message>
+	<message label="008" attrib="00 00 00 00 00 00 00 00"><anim id="HappyDance" target="actor" targetSpec="" />Oooh, dici sul serio?<delay frames="50" /> <anim id="Eh" target="actor" targetSpec="" />Aspetta, <delay20 />le tue tasche sono pienissimissime.<pageBreak /><anim id="Negative" target="actor" targetSpec="" />Se vinci, non posso darti il premio.<delay frames="40" /> <anim id="EmotEnd" target="actor" targetSpec="" />Giochiamo un'altra volta, quando
+avrai un po' di spazio,<delay20 /> <tag a="110" b="5" />.</message>
+	<message label="100" attrib="00 00 00 00 00 00 00 00"><anim id="Hello" target="actor" targetSpec="" />Bien,<delay8 /> ti spiego le regole del gioco.
+<delay20 /><anim id="Explain" target="actor" targetSpec="" />Io ho 4 carte,<delay8 /> ognuna di un seme
+diverso: <colour id="6" />♥<colour id="65535" />,<delay20 /> <colour id="6" />♦<colour id="65535" />,<delay20 /> <colour id="7" />♠<colour id="65535" />,<delay20 /> o <colour id="7" />♣<colour id="65535" /><tag a="110" b="0" />
+<anim id="EmotEnd" target="actor" targetSpec="" />Ne scelgo una<delay8 /> e sta a te dire
+<anim id="FaintSmile" target="actor" targetSpec="" />a che seme appartiene.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Se indovini,<delay8 /><anim id="Nodding" target="actor" targetSpec="" /> ottieni <tag a="50" b="17" arg="0x11 0xcd00 0xc 0x69 0x6c 0x20 0x6d 0x69 0x6f 0xc 0x6c 0x61 0x20 0x6d 0x69 0x61 0x0" /> sublime
+<tag a="125" b="0" arg="0x0" />.<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Tu as bien compris? <delay20 /><anim id="NpcShuffle" target="actor" targetSpec="" />Allora mescolo
+le carte, <tag a="110" b="6" />.</message>
+	<message label="101" attrib="00 00 05 00 00 00 00 00">E voilà!<delay frames="30" /> <anim id="Grin" target="actor" targetSpec="" />A quale seme appartiene
+la carta che ho appena pescato?
+<delay8 /><colour id="6" />♥<colour id="65535" />, <colour id="6" />♦<colour id="65535" />, <colour id="7" />♠<colour id="65535" /> o <colour id="7" />♣<colour id="65535" />?</message>
+	<message label="101_a" attrib="00 00 00 00 00 00 00 00">Cuori <colour id="6" />♥<colour id="65535" />!</message>
+	<message label="101_b" attrib="00 00 00 00 00 00 00 00">Quadri <colour id="6" />♦<colour id="65535" />!</message>
+	<message label="101_c" attrib="00 00 00 00 00 00 00 00"><colour id="7" />Picche ♠!<colour id="65535" /></message>
+	<message label="101_d" attrib="00 00 00 00 00 00 00 00"><colour id="7" />Fiori ♣!<colour id="65535" /></message>
+	<message label="102_01" attrib="00 00 00 00 00 00 00 00"><anim id="Clapping" target="actor" targetSpec="" />Direi proprio di sì! <delay20 />È <tag a="140" b="14" arg="0xcd00" />,
+<delay8 />hai vinto!</message>
+	<message label="102_02" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Acciderbolina, <delay8 />è <tag a="140" b="14" arg="0xcd00" />! <delay20 /><anim id="Worried" target="actor" targetSpec="" />Je suis
+désolée, <delay8 />ma non hai indovinato<tag a="110" b="0" /></message>
+	<message label="200" attrib="00 00 00 00 00 00 00 00"><anim id="Hello" target="actor" targetSpec="" />D'accord,<delay20 /> ti spiego le regole del
+gioco.<delay frames="40" /> <anim id="Explain" target="actor" targetSpec="" />Io ho 4 carte,<delay20 /> ognuna di
+un seme diverso: <colour id="6" />♥<colour id="65535" />,<delay20 /> <colour id="6" />♦<colour id="65535" />,<delay20 /> <colour id="7" />♠<colour id="65535" /><delay20 /> o <colour id="7" />♣<colour id="65535" /><tag a="110" b="0" />
+<anim id="EmotEnd" target="actor" targetSpec="" />Donc, ne scelgo una<delay20 /> e sta a te dire
+<anim id="FaintSmile" target="actor" targetSpec="" />di che colore è il seme.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Se indovini,<delay20 /><anim id="Nodding" target="actor" targetSpec="" /> ottieni <tag a="50" b="17" arg="0x11 0xcd00 0xc 0x69 0x6c 0x20 0x6d 0x69 0x6f 0xc 0x6c 0x61 0x20 0x6d 0x69 0x61 0x0" /> sublime
+<tag a="125" b="0" arg="0x0" />.<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Tu as bien compris?<delay20 /> <anim id="NpcShuffle" target="actor" targetSpec="" />Mescolo
+le carte, <tag a="110" b="6" />.</message>
+	<message label="201" attrib="00 00 01 00 00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Bien, <delay8 />il seme della carta che ho
+scelto è <colour id="6" />rosso<colour id="65535" /> oppure <colour id="7" />nero<colour id="65535" />,
+<tag a="110" b="6" />?</message>
+	<message label="201_a" attrib="00 00 00 00 00 00 00 00"><colour id="6" />Rosso<colour id="65535" />!</message>
+	<message label="201_b" attrib="00 00 00 00 00 00 00 00"><colour id="7" />Nero<colour id="65535" />!</message>
+	<message label="202_01" attrib="00 00 00 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Il seme è <tag a="140" b="14" arg="0xcd00" />!<delay frames="40" /> Quindi il colore
+è <colour id="6" />rosso<colour id="65535" />!<delay frames="40" /> <anim id="Clapping" target="actor" targetSpec="" />Fantastique, hai indovinato!</message>
+	<message label="202_02" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Il seme è <tag a="140" b="14" arg="0xcd00" />!<delay frames="40" /> <anim id="Worried" target="actor" targetSpec="" />Accipicchia,
+<delay20 />il colore è <colour id="7" />nero<colour id="65535" />.<delay frames="40" /> Non hai indovinato<delay8 /><tag a="110" b="0" /></message>
+	<message label="202_03" attrib="00 00 00 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Il seme è <tag a="140" b="14" arg="0xcd00" />!<delay frames="40" /> Quindi il colore
+è <colour id="7" />nero<colour id="65535" />!<delay frames="40" /> <anim id="Clapping" target="actor" targetSpec="" />Fantastique, hai indovinato!</message>
+	<message label="202_04" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Il seme è <tag a="140" b="14" arg="0xcd00" />!<delay frames="40" /> <anim id="Worried" target="actor" targetSpec="" />Accipicchia, <delay20 />il
+colore è <colour id="6" />rosso<colour id="65535" />.<delay frames="40" /> Non hai indovinato<delay8 /><tag a="110" b="0" /></message>
+</msbt>

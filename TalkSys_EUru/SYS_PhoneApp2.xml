@@ -1,0 +1,187 @@
+<msbt attribsize="3">
+	<message label="001" attrib="00 00 00">dummy</message>
+	<message label="010" attrib="00 00 13">                  <tag a="10" b="12" /><tag a="100" b="2" /><tag a="100" b="5" />До встречи!<endTag a="100" b="5" /><endTag a="100" b="2" /><10_7 arg="20" /></message>
+	<message label="011" attrib="00 00 13"><tag a="10" b="12" />                       <tag a="100" b="5" /><size value="150" />Алло!<size value="100" /><10_7 arg="15" /><pageBreak />Спасибо за звонок.<delay frames="30" /> Горячая линия
+<colour id="1" />службы спасения <colour id="65535" />на связи.<endTag a="100" b="5" /></message>
+	<message label="011_01" attrib="00 00 13"><tag a="100" b="5" />Секунду,<delay20 /> ты<tag a="110" b="0" /><endTag a="100" b="5" /><10_7 arg="30" /></message>
+	<message label="011_02" attrib="00 00 13"><tag a="100" b="5" />Ты сейчас находишься<tag a="110" b="0" /><endTag a="100" b="5" /><10_7 arg="30" /></message>
+	<message label="012" attrib="00 00 13"><tag a="100" b="5" />А, да что ж такое! <delay frames="30" />Ничего
+не разобрать. <delay20 />Прямо как почерк
+моего младшего брата...<endTag a="100" b="5" /></message>
+	<message label="012_01" attrib="00 00 13"><tag a="100" b="5" />Слушай,<delay20 /> у тебя гости?<delay20 />
+Разговариваете о том о сем, да?<pageBreak />Короче.<delay20 /> Слишком много помех,
+и система не фурычит.<delay20 /> Как мой
+брат, когда кофе выпьет<tag a="110" b="0" /><pageBreak />Если у тебя чрезвычайная ситуация,<delay frames="30" />
+открой меню с помощью <colour id="1" />
+<colour id="65535" />и выбери <colour id="1" />Завершить сеанс<colour id="65535" />, OK?<endTag a="100" b="5" /></message>
+	<message label="012_02" attrib="00 00 13"><tag a="100" b="5" />Ага, кажется, я понял, в чем дело.<delay20 />
+Ты путешествуешь? <delay20 />У кого-то
+в гостях на чужом острове?<pageBreak />Тут у меня помехи всякие
+сильно<tag a="110" b="0" /> мешают.<pageBreak />Если тебе нужна помощь,<delay frames="30" /> нажми
+в меню <colour id="1" /><colour id="65535" /> и выбери опцию
+<colour id="1" />На мой остров<colour id="65535" />, ладно?<endTag a="100" b="5" /></message>
+	<message label="013" attrib="00 00 13"><tag a="100" b="5" />Так,<delay20 /> ты что, не на улице?
+Тут такое дело. <delay20 />В помещении
+я тебе не в силах помочь.<pageBreak />Я не волшебник. Если у меня
+мириады помех на пути, то я пас.
+<delay20 />Ничего личного.<pageBreak />Так что, <delay20 />если тебе нужна помощь,<delay20 />
+придется выйти на улицу.<endTag a="100" b="5" /></message>
+	<message label="021_01" attrib="00 00 13"><tag a="100" b="5" />Связь есть! <delay20 />Ты <tag a="110" b="1" />
+с острова <tag a="110" b="33" />,
+правильно?<endTag a="100" b="5" /></message>
+	<message label="021_02" attrib="00 00 13"><tag a="100" b="5" />Так<tag a="110" b="0" /> Есть связь!<delay20 /> <tag a="50" b="3" /><tag a="110" b="1" />
+с острова <tag a="110" b="33" />?
+<anim id="Nodding" target="player" targetSpec="" /><delay frames="30" />Рад слышать твой голос.<endTag a="100" b="5" /></message>
+	<message label="021_03" attrib="00 00 13"><tag a="100" b="5" />Так-так<tag a="110" b="0" /><delay20 /> А, это ты,
+<tag a="110" b="1" />!<delay20 />
+Опять неприятности?<anim id="Nodding" target="player" targetSpec="" /><endTag a="100" b="5" /></message>
+	<message label="022" attrib="00 00 13" />
+	<message label="023_01" attrib="02 00 13"><tag a="100" b="5" />Система простая: <colour id="1" />100<colour id="65535" /> миль,
+и я тебя спасаю.<delay20 /> Идет?<endTag a="100" b="5" /></message>
+	<message label="023_01_a" attrib="00 00 13"><anim id="Nodding" target="player" targetSpec="" />Да! Спаси меня!</message>
+	<message label="023_01_b" attrib="00 00 13"><anim id="Negative" target="player" targetSpec="" />Нет уж, обойдусь.</message>
+	<message label="023_02" attrib="02 00 13"><tag a="100" b="5" /><colour id="1" />100<colour id="65535" /> миль за спасение.<delay20 />
+Что скажешь?<endTag a="100" b="5" /></message>
+	<message label="023_02_a" attrib="00 00 13"><anim id="Nodding" target="player" targetSpec="" />Да! Спаси меня!</message>
+	<message label="023_02_b" attrib="00 00 13"><anim id="Negative" target="player" targetSpec="" />Нет уж, обойдусь.</message>
+	<message label="023_03" attrib="02 00 13"><tag a="100" b="5" />Привет, <tag a="110" b="1" />! <delay frames="40" />У тебя
+миль в прошлый раз не было.<delay20 />
+Надеюсь, ситуация изменилась<tag a="110" b="0" /><pageBreak />У меня все по-прежнему: <colour id="1" />100<colour id="65535" /> миль.
+<delay20 />По рукам?<endTag a="100" b="5" /></message>
+	<message label="023_03_a" attrib="00 00 13"><anim id="Nodding" target="player" targetSpec="" />Да! Спаси меня!</message>
+	<message label="023_03_b" attrib="00 00 13"><anim id="Negative" target="player" targetSpec="" />Нет уж, обойдусь.</message>
+	<message label="031_01" attrib="00 00 13"><tag a="100" b="5" />Ты серьезно?!<endTag a="100" b="5" /></message>
+	<message label="031_02" attrib="00 00 13"><tag a="100" b="5" />Э? <delay20 />Как так?<delay frames="40" /> Слушай<tag a="110" b="0" /><delay20 /> Давай
+про прошлый раз просто забудем?
+<delay20 />Как говорится, кто старое помянет...<endTag a="100" b="5" /></message>
+	<message label="032_01" attrib="00 00 13"><tag a="100" b="5" />Если ты на мели, <delay20 />просто скажи!<endTag a="100" b="5" /></message>
+	<message label="032_02" attrib="00 00 13"><tag a="100" b="5" />Тебе нужна помощь или нет? 
+Слушай<tag a="110" b="0" /><delay20 /> Мне все равно, есть ли
+у тебя мили Нука.<pageBreak />Если ты в западне,<delay20 /> я тебя
+вытащу.<delay frames="40" /> Не будь я крот!<endTag a="100" b="5" /></message>
+	<message label="041_01" attrib="00 00 13"><tag a="100" b="5" />Отлично! <10_4 />Теперь перейдем к делу.
+<delay20 />У тебя <colour id="1" />100 <colour id="65535" />миль есть?<endTag a="100" b="5" /></message>
+	<message label="041_02" attrib="00 00 13"><tag a="100" b="5" />Отлично. <10_4 />Но в прошлый раз ты
+меня<tag a="110" b="0" /> огорчил<gender2 m="" f="а" />, поэтому оплата
+вперед! 100 <colour id="1" />миль<colour id="65535" /> на бочку.<endTag a="100" b="5" /></message>
+	<message label="042_01" attrib="00 00 13"><tag a="100" b="5" />Чудно!<delay40 /> <colour id="1" />100<colour id="65535" /> миль в кармане<delay20 />, можно
+начинать<tag a="110" b="0" /><endTag a="100" b="5" /><10_7 arg="75" /></message>
+	<message label="042_02" attrib="00 00 13"><10_10 /><tag a="10" b="12" />　　<tag a="100" b="5" />　<size value="150" />Секундочку!<size value="100" /><delay20 /><10_9 /><pageBreak />Ты что это задумал<gender2 m="" f="а" />?<delay frames="40" />
+Миль-то у тебя недостаточно.<pageBreak />Хм. <delay20 />Пожалуй, оставлю тебя там<tag a="110" b="0" /><10_4 />
+Шучу, шучу... Даже крот на такое
+не способен.<delay20 /> За мой счет!<endTag a="100" b="5" /></message>
+	<message label="042_03" attrib="00 00 13"><10_10 /><tag a="10" b="12" />　　　　　　　<tag a="100" b="5" /><size value="150" />Эй!<size value="100" /><delay20 /><10_9 /><pageBreak /><anim id="EmotEnd" target="player" targetSpec="" />Ты должно быть шутишь! <delay frames="40" />
+У тебя опять миль нет?!<pageBreak />Да что ж такое! <delay20 />Ну и денек<tag a="110" b="0" /><delay20 />
+Ну ладно...<delay frames="40" /> Не оставлять же тебя
+пропадать. <delay20 />Эх, за мой счет...<endTag a="100" b="5" /></message>
+	<message label="042_04" attrib="00 00 13"><tag a="100" b="5" />Но раз уж я такой добрый,<delay20 />
+высажу тебя, где захочу!<delay20 />
+Возражения не принимаются!<endTag a="100" b="5" /></message>
+	<message label="043" attrib="00 00 13"><tag a="100" b="5" />Еще кое-что.<delay20 /> Так как ты не <gender2 m="один" f="одна" />,<delay frames="30" />
+я высажу вас на <colour id="1" />площади<colour id="65535" />.<endTag a="100" b="5" /></message>
+	<message label="044_01" attrib="06 00 13"><tag a="100" b="5" />Так, формальности улажены,<delay20 />
+куда тебя везти?<endTag a="100" b="5" /></message>
+	<message label="044_01_a" attrib="00 00 13">Домой</message>
+	<message label="044_01_b" attrib="00 00 13">На площадь</message>
+	<message label="044_01_c" attrib="00 00 13">В аэропорт.</message>
+	<message label="044_01_d" attrib="00 00 13">Отмена</message>
+	<message label="044_02" attrib="06 00 13"><tag a="100" b="5" />Так, формальности улажены,<delay20 />
+куда тебя везти?<endTag a="100" b="5" /></message>
+	<message label="044_02_a" attrib="00 00 13">К палатке</message>
+	<message label="044_02_b" attrib="00 00 13">На площадь</message>
+	<message label="044_02_c" attrib="00 00 13">В аэропорт.</message>
+	<message label="044_02_d" attrib="00 00 13">Отмена</message>
+	<message label="044_03" attrib="08 00 13"><tag a="100" b="5" />Так, формальности улажены,<delay20 />
+куда тебя везти?<endTag a="100" b="5" /></message>
+	<message label="044_03_a" attrib="00 00 13">Домой</message>
+	<message label="044_03_b" attrib="00 00 13">На площадь.</message>
+	<message label="044_03_c" attrib="00 00 13">К магазину</message>
+	<message label="044_03_d" attrib="00 00 13">В аэропорт.</message>
+	<message label="044_03_e" attrib="00 00 13">Отмена</message>
+	<message label="045" attrib="04 00 13"><tag a="100" b="5" />Так, дружище. <delay20 />Тут вот какое дело.<delay20 />
+Постоянного места жительства на
+острове у тебя нет<tag a="110" b="0" /><pageBreak />Так что я не знаю, куда тебя
+доставить.<delay frames="40" /> Идеи какие будут?<endTag a="100" b="5" /></message>
+	<message label="045_a" attrib="00 00 13">На площадь</message>
+	<message label="045_b" attrib="00 00 13">В аэропорт.</message>
+	<message label="045_c" attrib="00 00 13">Отмена</message>
+	<message label="046" attrib="06 00 13"><tag a="100" b="5" />Так, дружище. <delay20 />Тут вот какое дело.<delay20 />
+Постоянного места жительства на
+острове у тебя нет<tag a="110" b="0" /><pageBreak />Так что я не знаю, куда тебя
+доставить.<delay frames="40" /> Идеи какие будут?<endTag a="100" b="5" /></message>
+	<message label="046_a" attrib="00 00 13">На площадь.</message>
+	<message label="046_b" attrib="00 00 13">К магазину.</message>
+	<message label="046_c" attrib="00 00 13">В аэропорт.</message>
+	<message label="046_d" attrib="00 00 13">Отмена</message>
+	<message label="047" attrib="08 00 13"><tag a="100" b="5" />Со всем разобрались.<delay20 />
+Куда тебя доставить?<endTag a="100" b="5" /></message>
+	<message label="047_a" attrib="00 00 13">К моей палатке.</message>
+	<message label="047_b" attrib="00 00 13">На площадь.</message>
+	<message label="047_c" attrib="00 00 13">К магазину.</message>
+	<message label="047_d" attrib="00 00 13">В аэропорт.</message>
+	<message label="047_e" attrib="00 00 13">Отмена</message>
+	<message label="048" attrib="02 00 13"><tag a="100" b="5" />Да что ж такое!<delay40 /> Слушай, дружище?<delay8 />
+Ты там достопримечательностями
+любуешься, что ли?<pageBreak />Видишь ли, у меня нет карты того
+острова. <delay20 />Я тебя туда отправлю,<colour id="1" /> где
+самолеты садятся<colour id="65535" />.<delay20 /> Лады?<endTag a="100" b="5" /></message>
+	<message label="048_a" attrib="00 00 13">У меня нет выбора.</message>
+	<message label="048_b" attrib="00 00 13">Отмена</message>
+	<message label="050_01" attrib="00 00 13"><tag a="100" b="5" />К палатке, так к палатке.<endTag a="100" b="5" /></message>
+	<message label="050_02" attrib="00 00 13"><tag a="100" b="5" />Домой? Как скажешь.<endTag a="100" b="5" /></message>
+	<message label="050_03" attrib="00 00 13"><tag a="100" b="5" />На площадь? <delay20 />В путь!<endTag a="100" b="5" /></message>
+	<message label="050_04" attrib="00 00 13"><tag a="100" b="5" />К магазину? <delay20 />Да не вопрос!<endTag a="100" b="5" /></message>
+	<message label="050_05" attrib="00 00 13" />
+	<message label="050_06" attrib="00 00 13"><tag a="100" b="5" />Так точно!<delay frames="30" />
+На старт, внимание, <delay20 />вперед!<endTag a="100" b="5" /></message>
+	<message label="050_07" attrib="00 00 13"><tag a="100" b="5" />В аэропорт?<delay20 /> Ясно.<endTag a="100" b="5" /></message>
+	<message label="051" attrib="00 00 13"><tag a="60" b="20" /></message>
+	<message label="051_01" attrib="00 00 13"><tag a="100" b="5" />Так, что тут у нас?
+              <size value="75" />Нажму-ка на эту кнопку, пожалуй<tag a="110" b="0" /><size value="100" /><endTag a="100" b="5" /></message>
+	<message label="051_02" attrib="00 00 13"><tag a="100" b="5" />Кроты знают все<tag a="110" b="0" />
+　<size value="75" />Жми себе на кнопки, <delay20 />что может быть проще!<size value="100" /><endTag a="100" b="5" /></message>
+	<message label="051_03" attrib="00 00 13"><tag a="100" b="5" />Давай, Ресетти, покажи класс<tag a="110" b="0" />
+<size value="75" />Как шрифт побольше сделать, а?<size value="100" /><endTag a="100" b="5" /></message>
+	<message label="052" attrib="00 00 13"><tag a="100" b="5" />Отлично. Выдохнули<delay20 /> и помчали.<endTag a="100" b="5" /></message>
+	<message label="053" attrib="00 00 13"><tag a="10" b="12" />　　 　　<tag a="100" b="2" /><tag a="100" b="5" /><size value="150" />От винта!<size value="100" /><endTag a="100" b="5" /><endTag a="100" b="2" /><10_8 arg="30" /></message>
+	<message label="061" attrib="00 00 13"><tag a="100" b="5" />Глаза-то открой!<delay20 /> Мы на месте!<endTag a="100" b="5" /></message>
+	<message label="062" attrib="00 00 13"><tag a="100" b="5" />А, да. <delay8 />Еще кое-что<tag a="110" b="0" /><endTag a="100" b="5" /></message>
+	<message label="063" attrib="00 00 13"><tag a="60" b="20" /></message>
+	<message label="063_01" attrib="00 00 13"><tag a="100" b="5" />Я, надо тебе сказать, <delay8 />большой
+любитель лингвистики.<delay20 /> В общем,
+я типа очень грамотный,<delay20 /> вот.
+Я даже тут книгу написал, да.<delay frames="40" />
+«Крот-гений и его брат-неуч».
+Автобиография, так сказать.<endTag a="100" b="5" /></message>
+	<message label="063_02" attrib="00 00 13"><tag a="100" b="5" />Знаешь, некоторые любят
+повторять, что им все
+«по барабану»?<pageBreak />Вот я думаю, причем здесь
+барабан?<delay20 /> Может, они баранов
+имеют в виду?<delay frames="40" /> И зачем им бараны?<endTag a="100" b="5" /></message>
+	<message label="063_03" attrib="00 00 13"><tag a="100" b="5" />Mой брат про всех говорит
+«два сапога — тара».<delay frames="40" /> Неуч!<pageBreak />Он всю обувь уже в утиль
+сдал! Русский язык в школе
+не учил, вот и допрыгался!<endTag a="100" b="5" /></message>
+	<message label="064" attrib="00 00 13"><tag a="60" b="20" /></message>
+	<message label="064_01" attrib="00 00 13"><tag a="100" b="5" />Я, надо тебе сказать, <delay8 />большой
+любитель лингвистики.<delay20 /> В общем,
+я типа очень грамотный,<delay20 /> вот.
+Я даже тут книгу написал, да.<delay frames="40" />
+«Крот-гений и его брат-неуч».
+Автобиография, так сказать.<endTag a="100" b="5" /></message>
+	<message label="064_02" attrib="00 00 13"><tag a="100" b="5" />Знаешь, некоторые любят
+повторять, что им все
+«по барабану»?<pageBreak />Вот я думаю, причем здесь
+барабан?<delay20 /> Может, они баранов
+имеют в виду?<delay frames="40" /> И зачем им бараны?<endTag a="100" b="5" /></message>
+	<message label="064_03" attrib="00 00 13"><tag a="100" b="5" />Ты же не забываешь использовать
+<colour id="1" />Нук-терминал<colour id="65535" /> в бюро услуг
+и получать мили?<delay frames="40" /> Это важно.<endTag a="100" b="5" /></message>
+	<message label="2001" attrib="00 00 13"><tag a="100" b="5" />Привет! Удивлен<gender2 m="" f="а" />?<delay frames="30" /> Спорю, что
+ты сразу заметил<gender2 m="" f="а" /> разницу.<pageBreak />Да, <delay20 />от тебя ничего не скрыть,<tag a="110" b="1" />.<pageBreak />Этот крот, <colour id="3" />Ресе<colour id="65535" /><tag a="110" b="0" /> ну, диспетчер
+этот<delay20 />, оставил что-то на включенной
+плите и теперь кипит<tag a="110" b="0" /> от гнева.<pageBreak />Я вместо него. <delay20 />И я умнее.<delay20 />
+И скромнее.<pageBreak />Ты не подумай, <delay8 />я не то чтобы
+прямо аристокрот, или как там
+это называется.<pageBreak />В общем, обращайся.<endTag a="100" b="5" /></message>
+</msbt>

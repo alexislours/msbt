@@ -1,0 +1,200 @@
+<msbt attribsize="3">
+	<message label="001" attrib="00 00 00">dummy</message>
+	<message label="010" attrib="00 00 13">                      <tag a="10" b="12" /><tag a="100" b="2" /><tag a="100" b="5" />Tot kijk!<endTag a="100" b="5" /><endTag a="100" b="2" /><10_7 arg="20" /></message>
+	<message label="011" attrib="00 00 13"><tag a="10" b="12" />                       <tag a="100" b="5" /><size value="150" />Hallo, hallo!<size value="100" /><10_7 arg="15" /><pageBreak />Bedankt voor het bellen.<delay frames="30" /> Hier
+spreekt de <delay8 /><colour id="1" />reddingsdienst<colour id="65535" />.<endTag a="100" b="5" /></message>
+	<message label="011_01" attrib="00 00 13"><tag a="100" b="5" />Wie heb ik aan de lijn<tag a="110" b="0" /><delay20 /> Jij bent<tag a="110" b="0" /><endTag a="100" b="5" /><10_7 arg="30" /></message>
+	<message label="011_02" attrib="00 00 13"><tag a="100" b="5" />Je bevindt je<tag a="110" b="0" /><endTag a="100" b="5" /><10_7 arg="30" /></message>
+	<message label="012" attrib="00 00 13"><tag a="100" b="5" />Ah, krijg nou de kriebels! <delay frames="30" />Dit signaal
+is zo onduidelijk<tag a="110" b="0" /> <delay20 />Het lijkt m'n
+broertjes handschrift wel<tag a="110" b="0" /><endTag a="100" b="5" /></message>
+	<message label="012_01" attrib="00 00 13"><tag a="100" b="5" />Luister eens: <delay20 />heb je toevallig bezoek
+op het eiland?<delay20 /> Iemand die eens
+lekker aan het rondkijken is?<pageBreak />Dan is het geen wonder dat het
+allemaal niet lekker werkt:<delay20 />
+te veel signalen!<pageBreak />Het hele systeem raakt overstuur als
+het te veel tegelijk moet doen<tag a="110" b="0" /> Net
+als Sonny met koffie op.<pageBreak />Als het een noodgeval is,<delay frames="30" /> open dan
+het menu met <colour id="1" /> <colour id="65535" />en kies <colour id="1" />Ja, ik ben
+klaar<colour id="65535" />, gesnopen?<endTag a="100" b="5" /></message>
+	<message label="012_02" attrib="00 00 13"><tag a="100" b="5" />Ik geloof dat ik het probleem al in de
+smiezen heb.<delay20 /> Ben je de toerist aan
+het uithangen op iemands eiland?<pageBreak />Wat je over mij moet weten,<delay20 /> is dat ik
+het graag simpel houd.<delay20 /> Te veel
+signalen overal<tag a="110" b="0" /> da's niet simpel.<pageBreak />Als je echt hulp nodig hebt,<delay frames="30" /> open dan
+het menu met <colour id="1" /><colour id="65535" /> en kies <colour id="1" />Terug naar
+mijn eiland<colour id="65535" />,<delay20 /> snappie?<endTag a="100" b="5" /></message>
+	<message label="013" attrib="00 00 13"><tag a="100" b="5" />Ho eens even, wat maak je me nou.<delay20 />
+Jij bent in een gebouw,<delay20 /> of niet? <pageBreak />Zo werkt dit dus niet, hè, makker.<delay20 />
+Bij deze dienst gaan we niet binnen
+te werk.<pageBreak />Is toch niet zo gek? <delay20 />Ik kom je niet
+halen als ik dwars door de fundering
+moet. <delay20 />Stel je voor wat een rotzooi!<pageBreak />Dus eh, <delay20 />als je mijn hulp nodig hebt,<delay20 />
+dan moet ik je toch echt vragen <delay20 />om
+even naar buiten te gaan, oké?<endTag a="100" b="5" /></message>
+	<message label="021_01" attrib="00 00 13"><tag a="100" b="5" /><tag a="50" b="3" /><tag a="110" b="1" /> van <tag a="110" b="33" />,<delay8 /> correct?<anim id="Nodding" target="player" targetSpec="" /><delay20 /> Mooi, mooi.<endTag a="100" b="5" /></message>
+	<message label="021_02" attrib="00 00 13"><tag a="100" b="5" />Momentje hoor<tag a="110" b="0" /> Aha!<delay20 /> <tag a="110" b="1" /> van <tag a="110" b="33" />, toch?<pageBreak /><anim id="Nodding" target="player" targetSpec="" /><delay frames="30" />Altijd leuk om van je te horen.<endTag a="100" b="5" /></message>
+	<message label="021_03" attrib="00 00 13"><tag a="100" b="5" />Even zien<tag a="110" b="0" /><delay20 /> Wablief? <tag a="50" b="3" /><tag a="110" b="1" />?<delay20 /> Zit je nou alweer in de nesten?<anim id="Nodding" target="player" targetSpec="" /><endTag a="100" b="5" /></message>
+	<message label="022" attrib="00 00 13" />
+	<message label="023_01" attrib="02 00 13"><tag a="100" b="5" />Onze prijslijst is vrij overzichtelijk:<delay8 />
+een redding kost <colour id="1" />100 <colour id="65535" />miles.<delay20 />
+Ja of nee?<endTag a="100" b="5" /></message>
+	<message label="023_01_a" attrib="00 00 13"><anim id="Nodding" target="player" targetSpec="" />Ja, ik heb hulp nodig!</message>
+	<message label="023_01_b" attrib="00 00 13"><anim id="Negative" target="player" targetSpec="" />Nee, bedankt.</message>
+	<message label="023_02" attrib="02 00 13"><tag a="100" b="5" />Voor <colour id="1" />100 <colour id="65535" />miles word je gered.<delay20 /> Wat
+zeg je ervan?<endTag a="100" b="5" /></message>
+	<message label="023_02_a" attrib="00 00 13"><anim id="Nodding" target="player" targetSpec="" />Ja, ik heb hulp nodig!</message>
+	<message label="023_02_b" attrib="00 00 13"><anim id="Negative" target="player" targetSpec="" />Nee, bedankt.</message>
+	<message label="023_03" attrib="02 00 13"><tag a="100" b="5" />Zeg ehm, <tag a="110" b="1" /><tag a="110" b="0" /><delay frames="40" />
+De vorige keer dat je belde kwam je
+wat miles tekort.<pageBreak />Ik mag hopen dat je wat beter in de
+slappe was zit, ondertussen<tag a="110" b="0" /><pageBreak />Het kost <colour id="1" />100 <colour id="65535" />miles.<delay20 /> Hebben we een
+deal?<endTag a="100" b="5" /></message>
+	<message label="023_03_a" attrib="00 00 13"><anim id="Nodding" target="player" targetSpec="" />Ja, ik heb hulp nodig!</message>
+	<message label="023_03_b" attrib="00 00 13"><anim id="Negative" target="player" targetSpec="" />Nee, bedankt.</message>
+	<message label="031_01" attrib="00 00 13"><tag a="100" b="5" />Wacht, meen je dat nou?<endTag a="100" b="5" /></message>
+	<message label="031_02" attrib="00 00 13"><tag a="100" b="5" />Watte? <delay20 />Niet?<delay frames="40" /> Maar<tag a="110" b="0" /><delay20 /> Zeg, maak je
+over dat gedoe met die miles van
+vorige keer geen zorgen, hoor.<pageBreak />Vergeven en vergeten, oké?<endTag a="100" b="5" /></message>
+	<message label="032_01" attrib="00 00 13"><tag a="100" b="5" />Als je in de penarie zit,<delay20 /> hoef je het
+maar te zeggen!<endTag a="100" b="5" /></message>
+	<message label="032_02" attrib="00 00 13"><tag a="100" b="5" />Als je echt hulp nodig hebt,<delay20 /> dan
+passen we er wel een mouw aan<tag a="110" b="0" /><delay20 /> Al
+heb je geen Nook-mile te makken.<pageBreak />Dus aarzel geen moment als je gered
+moet worden,<delay20 /> hoor je?<delay frames="40" /><endTag a="100" b="5" /></message>
+	<message label="041_01" attrib="00 00 13"><tag a="100" b="5" />Pico bello! <10_4 />Als jij die <colour id="1" />100 <colour id="65535" />miles
+tevoorschijn tovert,<delay20 /> kunnen we zaken
+doen.<endTag a="100" b="5" /></message>
+	<message label="041_02" attrib="00 00 13"><tag a="100" b="5" />Pico bello. <10_4 />En deze keer kun je het
+zelfs betalen.<delay20 /> <colour id="1" />100 <colour id="65535" />miles deze kant
+op,<delay8 /> als het je belieft!<endTag a="100" b="5" /></message>
+	<message label="042_01" attrib="00 00 13"><tag a="100" b="5" />Heel verstandig!<delay40 /> Dat zijn dan <colour id="1" />100<colour id="65535" />
+miles, <delay20 />handje contantje<tag a="110" b="0" /><endTag a="100" b="5" /><10_7 arg="75" /></message>
+	<message label="042_02" attrib="00 00 13"><10_10 /><tag a="10" b="12" /><anim id="TakenAback" target="player" targetSpec="" /><tag a="100" b="5" />　　　<size value="150" />HO EENS EVEN!<size value="100" /><delay20 /><10_9 /><pageBreak /><anim id="EmotEnd" target="player" targetSpec="" />Probeer je me nou een poot uit te draaien?<delay frames="40" /> Daar missen wat miles, makker.<pageBreak />Nou,<delay20 /> dan laat ik je maar hier<tag a="110" b="0" /><10_4 /> Nah,
+grapje toch! Wat zou ik dan voor mol zijn? <delay20 />Deze krijg je van het huis!<endTag a="100" b="5" /></message>
+	<message label="042_03" attrib="00 00 13"><10_10 /><tag a="10" b="12" /><anim id="TakenAback" target="player" targetSpec="" />　　　　　　　<tag a="100" b="5" /><size value="150" />WAT!?<size value="100" /><delay20 /><10_9 /><pageBreak /><anim id="EmotEnd" target="player" targetSpec="" />Wat gaan we nou beleven! <delay frames="40" />Alweer te weinig miles?<delay frames="40" /> Wat is dat nou voor mentaliteit<tag a="110" b="0" />
+Sjonge, <delay20 />wat een dag<tag a="110" b="0" /><delay20 /> Nou ja, geen
+nood.<delay frames="40" /> Ik laat je natuurlijk niet
+stikken.<delay20 /> Deze is voor mijn rekening.<endTag a="100" b="5" /></message>
+	<message label="042_04" attrib="00 00 13"><tag a="100" b="5" />Maar als je voor niks meelift,<delay20 /> dan zet
+ik je af waar het mij uitkomt.<delay20 /> Anders moet ik omreizen.<endTag a="100" b="5" /></message>
+	<message label="043" attrib="00 00 13"><tag a="100" b="5" />Nog één dingetje.<delay20 /> Aangezien je niet
+alleen reist,<delay frames="30" /> zet ik jullie op het <colour id="1" />plein
+<colour id="65535" />af.<delay frames="30" /> We hebben richtlijnen, weet je.<endTag a="100" b="5" /></message>
+	<message label="044_01" attrib="06 00 13"><tag a="100" b="5" />Oké, nu we dat helder hebben<tag a="110" b="0" /><delay20 /> Waar
+gaat de reis heen?<endTag a="100" b="5" /></message>
+	<message label="044_01_a" attrib="00 00 13">Naar huis.</message>
+	<message label="044_01_b" attrib="00 00 13">Naar het plein.</message>
+	<message label="044_01_c" attrib="00 00 13">Naar de luchthaven.</message>
+	<message label="044_01_d" attrib="00 00 13">Ik wil toch blijven...</message>
+	<message label="044_02" attrib="06 00 13"><tag a="100" b="5" />Oké, nu we dat helder hebben<tag a="110" b="0" /><delay20 /> Waar
+gaat de reis heen?<endTag a="100" b="5" /></message>
+	<message label="044_02_a" attrib="00 00 13">Naar mijn tent.</message>
+	<message label="044_02_b" attrib="00 00 13">Naar het plein.</message>
+	<message label="044_02_c" attrib="00 00 13">Naar de luchthaven.</message>
+	<message label="044_02_d" attrib="00 00 13">Ik wil toch blijven...</message>
+	<message label="044_03" attrib="08 00 13"><tag a="100" b="5" />Oké, nu we dat helder hebben<tag a="110" b="0" /><delay20 /> Waar
+gaat de reis heen?<endTag a="100" b="5" /></message>
+	<message label="044_03_a" attrib="00 00 13">Naar huis.</message>
+	<message label="044_03_b" attrib="00 00 13">Naar het plein.</message>
+	<message label="044_03_c" attrib="00 00 13">Naar de winkel.</message>
+	<message label="044_03_d" attrib="00 00 13">Naar de luchthaven.</message>
+	<message label="044_03_e" attrib="00 00 13">Ik wil toch blijven...</message>
+	<message label="045" attrib="04 00 13"><tag a="100" b="5" />Oké, maatje. <delay20 />Het zit zo. <delay20 />Je hebt nog
+geen stekkie gekozen om in te wonen<tag a="110" b="0" /><pageBreak />Dus heb ik geen andere keuze dan je
+op het <colour id="1" />plein <colour id="65535" />af te zetten.<delay frames="40" /> Kun je daar
+mee leven?<endTag a="100" b="5" /></message>
+	<message label="045_a" attrib="00 00 13">Naar het plein.</message>
+	<message label="045_b" attrib="00 00 13">Naar de luchthaven.</message>
+	<message label="045_c" attrib="00 00 13">Ik wil toch blijven...</message>
+	<message label="046" attrib="06 00 13"><tag a="100" b="5" />Oké, maatje. <delay20 />Het zit zo. <delay20 />Je hebt nog
+geen stekkie gekozen om te wonen<tag a="110" b="0" /><pageBreak />Ik weet dus niet waar ik je af moet
+zetten.<delay frames="40" /> Kun je me misschien een hint
+geven?<endTag a="100" b="5" /></message>
+	<message label="046_a" attrib="00 00 13">Naar het plein.</message>
+	<message label="046_b" attrib="00 00 13">Naar de winkel.</message>
+	<message label="046_c" attrib="00 00 13">Naar de luchthaven.</message>
+	<message label="046_d" attrib="00 00 13">Ik wil toch blijven...</message>
+	<message label="047" attrib="08 00 13"><tag a="100" b="5" />Zo, nu we dat hebben afgehandeld,<delay20 />
+waar kan ik je heen brengen?<endTag a="100" b="5" /></message>
+	<message label="047_a" attrib="00 00 13">Naar mijn tent.</message>
+	<message label="047_b" attrib="00 00 13">Naar het plein.</message>
+	<message label="047_c" attrib="00 00 13">Naar de winkel.</message>
+	<message label="047_d" attrib="00 00 13">Naar de luchthaven.</message>
+	<message label="047_e" attrib="00 00 13">Ik wil toch blijven...</message>
+	<message label="048" attrib="02 00 13"><tag a="100" b="5" />Hè? <delay40 />Hoor je me? <delay8 />Zo te zien ben je
+op rondreis?<pageBreak />Ik kan alleen geen gegevens vinden
+voor dat eiland. <delay20 />Dus ik moet je
+afzetten <colour id="1" />waar het vliegtuig landt<colour id="65535" />.<pageBreak />Is dat een probleem?<endTag a="100" b="5" /></message>
+	<message label="048_a" attrib="00 00 13">Nee, hoor!</message>
+	<message label="048_b" attrib="00 00 13">Ik wil toch blijven...</message>
+	<message label="050_01" attrib="00 00 13"><tag a="100" b="5" />Je wilt naar je tent? <delay20 />Prima, doen we
+dat!<endTag a="100" b="5" /></message>
+	<message label="050_02" attrib="00 00 13"><tag a="100" b="5" />Lekker naar huis? <delay20 />Jouw wens is mijn
+bevel.<endTag a="100" b="5" /></message>
+	<message label="050_03" attrib="00 00 13"><tag a="100" b="5" />Je wilt naar het plein? <delay20 />Helemaal fijn.<endTag a="100" b="5" /></message>
+	<message label="050_04" attrib="00 00 13"><tag a="100" b="5" />Naar de eilandwinkel? <delay20 />Fluitje van een
+klingel.<endTag a="100" b="5" /></message>
+	<message label="050_05" attrib="00 00 13" />
+	<message label="050_06" attrib="00 00 13"><tag a="100" b="5" />Begrepen!<delay frames="30" /> Daar gaaaan we dan!<endTag a="100" b="5" /></message>
+	<message label="050_07" attrib="00 00 13"><tag a="100" b="5" />De luchthaven? <delay20 />Prima, maatje.<endTag a="100" b="5" /></message>
+	<message label="051" attrib="00 00 13"><tag a="60" b="20" /></message>
+	<message label="051_01" attrib="00 00 13"><tag a="100" b="5" />Eens zien, hoe werkt dit ook weer<tag a="110" b="0" />?
+              <colour id="4" /><size value="75" />Hoort dat draadje los te zitten<tag a="110" b="0" /><size value="100" /><colour id="65535" /><endTag a="100" b="5" /></message>
+	<message label="051_02" attrib="00 00 13"><tag a="100" b="5" />Alles onder controle, Don<tag a="110" b="0" />
+　<colour id="4" /><size value="75" />Gewoon een knop kiezen. <delay20 />Hopelijk mol ik niks.<size value="100" /><colour id="65535" /><endTag a="100" b="5" /></message>
+	<message label="051_03" attrib="00 00 13"><tag a="100" b="5" />Je kunt het, Resetti<tag a="110" b="0" />
+　　　　 <colour id="4" /><size value="75" />Kunnen die lettertjes niet wat groter?<size value="100" /><colour id="65535" /><endTag a="100" b="5" /></message>
+	<message label="052" attrib="00 00 13"><tag a="100" b="5" />Zo, alles is er klaar voor. <delay20 />Dit gaat
+helemaal zeker weten hartstikke
+goed.<endTag a="100" b="5" /></message>
+	<message label="053" attrib="00 00 13"><tag a="10" b="12" />　　 　<tag a="100" b="2" /><tag a="100" b="5" /><size value="150" />Op hoop van zegen!<size value="100" /><endTag a="100" b="5" /><endTag a="100" b="2" /><10_8 arg="30" /></message>
+	<message label="061" attrib="00 00 13"><tag a="100" b="5" />Doe je ogen maar weer open! <delay20 />We zijn
+waar we wezen moeten!<endTag a="100" b="5" /></message>
+	<message label="062" attrib="00 00 13"><tag a="100" b="5" />O, ja. <delay8 />Nog één dingetje<tag a="110" b="0" /><endTag a="100" b="5" /></message>
+	<message label="063" attrib="00 00 13"><tag a="60" b="20" /></message>
+	<message label="063_01" attrib="00 00 13"><tag a="100" b="5" />Ken je die uitdrukking <delay8 />"wie een gat
+graaft voor een ander,<delay8 /> valt er zelf
+in"? <delay20 />
+Ik snap die uitdrukking niet<tag a="110" b="0" /> Als je
+niet in je eigen gaten valt, hoe kom
+je dan thuis?<endTag a="100" b="5" /></message>
+	<message label="063_02" attrib="00 00 13"><tag a="100" b="5" />Ik hoor bewoners altijd zeggen<delay20 />
+"ik irriteer me aan jou".<delay8 /> Ja, dat
+klopt dus niet, hè.<pageBreak />Iets irriteert je,<delay8 /> of je ergert je aan
+iets.<delay20 /> Dus daar erger ik me dan
+weer aan.<pageBreak />Maar<delay8 /> hoe vaak ik ook uitleg hoe
+het zit,<delay frames="40" /> om de een of andere reden
+blijven ze het maar zeggen<tag a="110" b="0" /><endTag a="100" b="5" /></message>
+	<message label="063_03" attrib="00 00 13"><tag a="100" b="5" />Een neef van mij<delay8 /> zegt altijd<delay20 /> 
+"blaffende honden slapen niet."<delay8 /><pageBreak />Ik wil hem elke keer corrigeren,<delay8 />
+maar eigenlijk klopt het ook wel.<pageBreak />Alleen toen hij begon te beweren dat
+je bijtende honden niet wakker moet
+maken<tag a="110" b="0" /><pageBreak />Toen moest ik er toch wel wat van
+zeggen, dacht ik zo.<endTag a="100" b="5" /></message>
+	<message label="064" attrib="00 00 13"><tag a="60" b="20" /></message>
+	<message label="064_01" attrib="00 00 13"><tag a="100" b="5" />Ken je die uitdrukking <delay8 />"wie een gat
+graaft voor een ander,<delay8 /> valt er zelf
+in"? <delay20 />
+Ik snap die uitdrukking niet<tag a="110" b="0" /> Als je
+niet in je eigen gaten valt, hoe kom
+je dan thuis?<endTag a="100" b="5" /></message>
+	<message label="064_02" attrib="00 00 13"><tag a="100" b="5" />Ik hoor bewoners altijd zeggen<delay20 />
+"ik irriteer me aan jou".<delay8 /> Ja, dat
+klopt dus niet, hè.<pageBreak />Iets irriteert je,<delay8 /> of je ergert je aan
+iets.<delay20 /> Dus daar erger ik me dan
+weer aan.<pageBreak />Maar<delay8 /> hoe vaak ik ook uitleg hoe
+het zit,<delay frames="40" /> om de een of andere reden
+blijven ze het maar zeggen<tag a="110" b="0" /><endTag a="100" b="5" /></message>
+	<message label="064_03" attrib="00 00 13"><tag a="100" b="5" />Je gebruikt toch wel elke dag het
+<colour id="1" />NookStation<colour id="65535" /> in de servicebalie voor
+de miles, hè?<delay frames="40" /> Makkelijk verdiend.<endTag a="100" b="5" /></message>
+	<message label="2001" attrib="00 00 13"><tag a="100" b="5" />Pardon?<delay8 /> O, je hoorde al dat er
+vandaag<delay frames="30" /> iemand anders aan de
+knoppen zit dan anders?<pageBreak />Jou kun je niks wijsmaken,<delay20 /> <tag a="110" b="1" />.<pageBreak />Het zit zo:<delay8 /> broerlief<tag a="110" b="0" /> eh, m'n waarde<delay8 />
+collega <delay20 />had een spoedklus.<delay8 /> Die
+moest ergens anders opduiken.<pageBreak />Dus hier ben ik.<delay20 /> Als een soort<delay8 />
+invalmeester, zeg maar.<pageBreak />Ik heb niet helemaal de routine van
+m'n collega, <delay8 />dus als het wat anders
+loopt dan normaal,<delay20 /> nou,<delay8 /> sorry alvast.<pageBreak />Afijn, <delay8 />eens zien<tag a="110" b="0" /><endTag a="100" b="5" /></message>
+</msbt>

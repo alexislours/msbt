@@ -1,0 +1,79 @@
+<msbt attribsize="8">
+	<message label="001" attrib="00 00 02 00 00 00 00 00"><tag a="110" b="4" />,<delay8 />
+<anim id="Greeting" target="actor" targetSpec="" />컨디션은 어때? <tag a="110" b="6" />?<pageBreak /><anim id="Oops" target="actor" targetSpec="" />어머? <delay20 />또 나왔네, '<tag a="110" b="5" />'～<delay40 />
+<anim id="Worried" target="actor" targetSpec="" />이건 내 말버릇이야<pageBreak /><anim id="ShyBoy" target="actor" targetSpec="" />어른에게 어울리는 말버릇이 맞는지<delay20 />
+요즘 들어 너무 걱정되는 거 있지<tag a="110" b="0" /><10_4 />
+<anim id="QuestionMark" target="actor" targetSpec="" />역시 바꾸는 게 좋을까?</message>
+	<message label="001_a" attrib="00 00 00 00 00 00 00 00">바꿔버려</message>
+	<message label="001_b" attrib="00 00 00 00 00 00 00 00">그대로도 괜찮아</message>
+	<message label="002" attrib="00 00 02 00 00 00 00 00"><tag a="110" b="5" /><delay8 /><gender5 m="이라는" f="라는" /> 말을<delay20 />
+버릇처럼 계속 쓰는데<delay frames="40" />
+<anim id="OhGeez" target="actor" targetSpec="" />왠지 나랑 안 어울리는 것 같아～<pageBreak /><anim id="Serious" target="actor" targetSpec="" />그래서 이렇게 된 김에<delay20 />
+<anim id="Thinking" target="actor" targetSpec="" />말버릇을 바꿔보면 어떨까 하는데<delay20 />
+<anim id="QuestionMark" target="actor" targetSpec="" />어떻게 생각해?</message>
+	<message label="002_a" attrib="00 00 00 00 00 00 00 00">바꾸는 것도 좋지</message>
+	<message label="002_b" attrib="00 00 00 00 00 00 00 00">그대로 괜찮아</message>
+	<message label="003" attrib="00 00 02 00 00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />으음<tag a="110" b="0" /><pageBreak />내 말버릇은 '<tag a="110" b="5" />'인데<delay20 />
+<anim id="Restless" target="actor" targetSpec="" />아까 <tag a="110" b="11" arg="0xcd00" />한테<delay20 />
+이상하다고 <delay20 />지적을 당했지 뭐니<tag a="110" b="0" /></message>
+	<message label="003_a" attrib="00 00 00 00 00 00 00 00">그럼 바꾸자!</message>
+	<message label="003_b" attrib="00 00 00 00 00 00 00 00">안 그래～</message>
+	<message label="004" attrib="00 00 02 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />아, <delay8 /><tag a="110" b="4" />!
+잘 지냈어? <tag a="110" b="6" />?<pageBreak /><anim id="Oops" target="actor" targetSpec="" />아이참～ <delay20 />'<tag a="110" b="5" />' 소리가<delay8 />
+<anim id="Worried" target="actor" targetSpec="" />버릇처럼 튀어나온다니까<tag a="110" b="0" /><pageBreak /><anim id="Thinking" target="actor" targetSpec="" />실은 <delay20 />나를 더 잘 드러내는 말버릇이<delay8 />
+따로 있을 것 같아서<delay20 />
+고민하는 중이야<tag a="110" b="0" /></message>
+	<message label="004_a" attrib="00 00 00 00 00 00 00 00">그럼 바꿔버리자</message>
+	<message label="004_b" attrib="00 00 00 00 00 00 00 00">지금이 좋은데?</message>
+	<message label="005" attrib="00 00 00 00 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />어머나, 그래?<delay40 />
+<anim id="Nodding" target="actor" targetSpec="" /><tag a="110" b="4" /> <delay20 />당신이
+<anim id="FaintSmile" target="actor" targetSpec="" />그렇게 말해준다면 <delay8 />이대로 둬야겠네～<pageBreak /><anim id="Explain" target="actor" targetSpec="" />사람은 보통<delay20 /> 자신에게
+객관적이지 못하잖아<delay20 />
+<anim id="Smiling" target="actor" targetSpec="" />당신에게 상담하길 <delay8 />잘했어, <tag a="110" b="6" />!</message>
+	<message label="006" attrib="00 00 00 00 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />어머, 그래?<pageBreak /><anim id="Nodding" target="actor" targetSpec="" /><tag a="110" b="4" /><gender5 m="이" f="가" /><delay20 />
+괜찮다면야<tag a="110" b="0" /><delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />너무 신경 쓰지 말아야겠네, <tag a="110" b="6" />～</message>
+	<message label="007" attrib="00 00 00 00 00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />어쩜, <delay8 />상냥하기는～<pageBreak /><anim id="Nodding" target="actor" targetSpec="" /><tag a="110" b="4" /><gender5 m="이" f="가" /><delay20 />
+<anim id="Smiling" target="actor" targetSpec="" />그렇게 말해준다면야<delay20 />
+이대로 그냥 써야겠어, <tag a="110" b="6" />～</message>
+	<message label="008" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />그런가?<delay40 />
+<anim id="Smiling" target="actor" targetSpec="" />그럼 앞으로는 당당하게<delay20 />
+'<tag a="110" b="5" /><gender5 m="'이" f="'" />라고 말해야지, <tag a="110" b="6" />!</message>
+	<message label="100" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />그럴까?!<delay frames="40" />
+<anim id="HappyDance" target="actor" targetSpec="" />그럼 새 말버릇 좀 생각해주겠어?<10_4 />
+<anim id="Greeting" target="actor" targetSpec="" />나랑 어울리는 걸로 부탁할게, <tag a="110" b="6" />!</message>
+	<message label="101" attrib="00 00 02 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" /><tag a="110" b="0" />'<tag a="110" b="5" />'! <delay20 />이렇게 하면 돼?</message>
+	<message label="101_a" attrib="00 00 00 00 00 00 00 00">오케이!</message>
+	<message label="101_b" attrib="00 00 00 00 00 00 00 00">아니야</message>
+	<message label="102" attrib="00 00 02 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />'<tag a="110" b="5" />'<tag a="110" b="0" /> <delay20 />이거 맞지?<10_4 />
+<anim id="EmotEnd" target="actor" targetSpec="" />원래 말버릇을<delay20 /> 그대로 써도<delay8 />
+<anim id="QuestionMark" target="actor" targetSpec="" />이상하지 않다는 거니?</message>
+	<message label="102_a" attrib="00 00 00 00 00 00 00 00">그래, 맞아</message>
+	<message label="102_b" attrib="00 00 00 00 00 00 00 00">틀렸어</message>
+	<message label="103" attrib="00 00 00 00 00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />어머, 미안!<delay40 />
+<anim id="Greeting" target="actor" targetSpec="" />그럼 <delay20 />한 번 더 가르쳐줄래?</message>
+	<message label="104" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />어머, <delay20 />그렇게 고민돼?<delay frames="40" />
+<anim id="BigSmile" target="actor" targetSpec="" />그러지 말고 느낌대로 해봐!<delay frames="40" />
+<anim id="FaintSmile" target="actor" targetSpec="" />자, 다시 한번 말해줘!</message>
+	<message label="200" attrib="00 00 00 00 00 00 00 00"><anim id="AbsentMindedness" target="actor" targetSpec="" /><tag a="110" b="6" /><tag a="110" b="0" />!<delay frames="60" />
+<anim id="Hello" target="actor" targetSpec="" />너무 좋다, 이거!</message>
+	<message label="201" attrib="00 00 00 00 00 00 00 00"><anim id="AbsentMindedness" target="actor" targetSpec="" /><tag a="110" b="6" /><tag a="110" b="0" />!<delay frames="60" />
+<anim id="Smiling" target="actor" targetSpec="" />정말 입에 딱 붙네!</message>
+	<message label="202" attrib="00 00 00 00 00 00 00 00"><anim id="HappyDance" target="actor" targetSpec="" /><tag a="110" b="5" /><tag a="110" b="0" /><delay20 /> <tag a="110" b="5" /><tag a="110" b="0" /><delay40 />
+<anim id="Smiling" target="actor" targetSpec="" />우후훗, <delay20 />왠지 발음도
+더 예쁜 것 같아! <tag a="110" b="6" />!</message>
+	<message label="203" attrib="00 00 00 00 00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />당신, <delay20 />센스가 좋구나!<delay40 />
+<anim id="Smiling" target="actor" targetSpec="" />바로 지금부터 쓸래, <tag a="110" b="6" />!</message>
+	<message label="204" attrib="00 00 00 00 00 00 00 00"><anim id="HappyDance" target="actor" targetSpec="" />정말 고마워!<delay frames="60" />
+<anim id="Smiling" target="actor" targetSpec="" />당신에게 물어보길 잘했어, <tag a="110" b="6" />!</message>
+	<message label="300" attrib="00 00 00 00 00 00 00 00"><anim id="ShyBoy" target="actor" targetSpec="" />당신이 그렇게 말해줬으니까<delay20 />
+'<tag a="110" b="5" />', 이 말버릇을 유지할래!<10_4 />
+<anim id="FaintSmile" target="actor" targetSpec="" />이미 익숙하기도 하니까, <tag a="110" b="6" />!</message>
+	<message label="301" attrib="00 00 00 00 00 00 00 00"><anim id="ShyBoy" target="actor" targetSpec="" />당신 말을 듣고 나니까<delay20 />
+이대로 써도 괜찮을 것 같아!<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />혹시라도 또 마음이 바뀌면
+다시 상담 부탁할게, <tag a="110" b="6" />!</message>
+	<message label="302" attrib="00 00 00 00 00 00 00 00"><anim id="ShyBoy" target="actor" targetSpec="" />당신은 '<tag a="110" b="5" />'도 괜찮다니까<delay20 />
+이대로 그냥 써도 되겠어～<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />고민이 될 땐 혼자 머리 싸매지 않고<delay20 />
+친구의 조언을 <anim id="Smiling" target="actor" targetSpec="" />받아들이는
+편이거든, <tag a="110" b="6" />!</message>
+</msbt>

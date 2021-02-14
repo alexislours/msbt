@@ -1,0 +1,62 @@
+<msbt attribsize="8">
+	<message label="001" attrib="00 00 01 00 00 00 00 00"><anim id="Hesitate" target="actor" targetSpec="" />Ik<delay20 /> heb een leuk idee<delay8 /><tag a="110" b="0" /> Zullen we een
+spelletje spelen?<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Als je wint,<delay20 /> geef ik jou mijn <tag a="50" b="23" arg="0xcd03" /><tag a="125" b="0" arg="0x0" />!<pageBreak /><anim id="Hello" target="actor" targetSpec="" />Wil je het proberen,<delay20 /> <tag a="110" b="5" />?</message>
+	<message label="001_a" attrib="00 00 00 00 00 00 00 00">Ja, lijkt me leuk!</message>
+	<message label="001_b" attrib="00 00 00 00 00 00 00 00">Nu even niet, dank je.</message>
+	<message label="002" attrib="00 00 01 00 00 00 00 00">Wil je <anim id="QuestionMark" target="actor" targetSpec="" />de spelregels horen?</message>
+	<message label="002_a" attrib="00 00 00 00 00 00 00 00">Ja, graag!</message>
+	<message label="002_b" attrib="00 00 00 00 00 00 00 00">Nee, hoeft niet.</message>
+	<message label="003" attrib="00 00 00 00 00 00 00 00">Oké,<delay20 /> <anim id="FaintSmile" target="actor" targetSpec="" />dan misschien een andere keer.</message>
+	<message label="004" attrib="00 00 00 00 00 00 00 00"><anim id="NpcShuffle" target="actor" targetSpec="" />Goed,<delay20 /> dan zal ik de kaarten
+schudden.</message>
+	<message label="005" attrib="00 00 00 00 00 00 00 00"><anim id="Grin" target="actor" targetSpec="" />Dus dat wordt het?<delay frames="40" /> <anim id="FaintSmile" target="actor" targetSpec="" />Laten we snel
+kijken of je gelijk hebt.</message>
+	<message label="006_01" attrib="00 00 00 00 00 00 00 00">Omdat je gewonnen hebt,<delay20 /> <anim id="Smiling" target="actor" targetSpec="" />mag je mijn <tag a="50" b="23" arg="0xcd03" /><tag a="125" b="0" arg="0x0" /> hebben!</message>
+	<message label="006_02" attrib="00 00 00 00 00 00 00 00"><anim id="Grin" target="actor" targetSpec="" />Ik heb verloren.<delay frames="40" /> <anim id="EmotEnd" target="actor" targetSpec="" />Dus jij krijgt<delay20 /><anim id="Smiling" target="actor" targetSpec="" /> mijn
+<tag a="50" b="23" arg="0xcd03" /><tag a="125" b="0" arg="0x0" />!</message>
+	<message label="006_03" attrib="00 00 00 00 00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Jammer.<delay frames="30" /> Je hebt deze keer geen prijs
+gewonnen.</message>
+	<message label="007_01" attrib="00 00 00 00 00 00 00 00"><anim id="Pardon" target="actor" targetSpec="" />Ben je soms een expert in raden?<delay frames="40" />
+<anim id="Grin" target="actor" targetSpec="" />We moeten een andere keer nog
+maar eens spelen,<delay20 /> <tag a="110" b="5" />.</message>
+	<message label="007_03" attrib="00 00 00 00 00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Ik hoop dat je<delay20 /> later nog een keer zin
+hebt<anim id="FaintSmile" target="actor" targetSpec="" /> om een spelletje te spelen.</message>
+	<message label="008" attrib="00 00 00 00 00 00 00 00"><anim id="HappyDance" target="actor" targetSpec="" />O, meen je dat?<delay frames="50" /> <anim id="Eh" target="actor" targetSpec="" />Wacht, <delay20 />je zakken
+zitten veel te vol.<pageBreak /><anim id="Negative" target="actor" targetSpec="" />Dan kan ik je geen prijs geven.<delay frames="40" /> <anim id="EmotEnd" target="actor" targetSpec="" />Laten
+we maar een andere keer spelen,<anim id="FaintSmile" target="actor" targetSpec="" /><delay20 /> als
+je meer plek hebt,<delay20 /> <tag a="110" b="5" />.</message>
+	<message label="100" attrib="00 00 00 00 00 00 00 00"><anim id="Hello" target="actor" targetSpec="" />Oké,<delay20 /> de regels zijn simpel.<delay frames="40" /><anim id="Explain" target="actor" targetSpec="" /> Ik heb 4
+kaarten<delay20 /> en iedere kaart heeft een
+ander symbool: <colour id="6" />♥<colour id="65535" />,<delay20 /> <colour id="6" />♦<colour id="65535" />,<delay20 /> <colour id="7" />♠<colour id="65535" />,<delay20 /> en <colour id="7" />♣<colour id="65535" /><tag a="110" b="0" />
+<anim id="EmotEnd" target="actor" targetSpec="" />Ik zal een kaart trekken<delay20 /> en jij moet
+raden<anim id="FaintSmile" target="actor" targetSpec="" /> welk symbool er op de kaart
+staat.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Als je het goed raadt,<delay20 /><anim id="Nodding" target="actor" targetSpec="" /> win je mijn
+<tag a="50" b="23" arg="0xcd03" /><tag a="125" b="0" arg="0x0" />.<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Ben je er klaar voor?<delay40 /> <anim id="NpcShuffle" target="actor" targetSpec="" />Ik ga nu
+schudden.</message>
+	<message label="101" attrib="00 00 05 00 00 00 00 00">Oké!<delay frames="30" /> <anim id="Grin" target="actor" targetSpec="" />Wat staat er op de kaart die ik
+heb getrokken? <colour id="6" />♥ Harten<colour id="65535" />, <colour id="6" />♦ ruiten<colour id="65535" />,
+<colour id="7" />♠ schoppen<colour id="65535" />, of <colour id="7" />♣ klaveren<colour id="65535" />?</message>
+	<message label="101_a" attrib="00 00 00 00 00 00 00 00"><colour id="6" />♥ Harten!<colour id="65535" /></message>
+	<message label="101_b" attrib="00 00 00 00 00 00 00 00"><colour id="6" />♦ Ruiten!<colour id="65535" /></message>
+	<message label="101_c" attrib="00 00 00 00 00 00 00 00"><colour id="7" />♠ Schoppen!<colour id="65535" /></message>
+	<message label="101_d" attrib="00 00 00 00 00 00 00 00"><colour id="7" />♣ Klaveren!<colour id="65535" /></message>
+	<message label="102_01" attrib="00 00 00 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" /><capitaliseNextWord /><tag a="140" b="14" arg="0xcd00" />!<delay frames="40" /><anim id="Clapping" target="actor" targetSpec="" /> Je hebt het goed!</message>
+	<message label="102_02" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" /><capitaliseNextWord /><tag a="140" b="14" arg="0xcd00" />!<delay frames="40" /><anim id="Worried" target="actor" targetSpec="" /> Ah,<delay20 /> dat is niet goed<delay8 /><tag a="110" b="0" /></message>
+	<message label="200" attrib="00 00 00 00 00 00 00 00"><anim id="Hello" target="actor" targetSpec="" />Oké,<delay20 /> hier komen de spelregels.<delay frames="40" />
+<anim id="Explain" target="actor" targetSpec="" />Ik heb 4 kaarten,<delay20 /> ieder met een ander symbool: <colour id="6" />♥<colour id="65535" />,<delay20 /> <colour id="6" />♦<colour id="65535" />,<delay20 /> <colour id="7" />♠<colour id="65535" />,<delay20 /> en <colour id="7" />♣<colour id="65535" /><tag a="110" b="0" /><pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Ik trek een kaart<delay20 /> en jij moet raden
+<anim id="FaintSmile" target="actor" targetSpec="" />wat de kleur van het symbool is op
+de kaart.<delay20 /> <colour id="6" />Rood<colour id="65535" /> of <colour id="7" />zwart<colour id="65535" />.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Als je het goed raadt,<delay20 /> win je<anim id="Nodding" target="actor" targetSpec="" /> mijn
+<tag a="50" b="23" arg="0xcd03" /><tag a="125" b="0" arg="0x0" />.<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Simpel, hè?<delay40 /> <anim id="NpcShuffle" target="actor" targetSpec="" />Ik zal nu de kaarten
+schudden.</message>
+	<message label="201" attrib="00 00 01 00 00 00 00 00">Oké,<delay20 /> <anim id="Grin" target="actor" targetSpec="" />heeft de kaart die ik net heb
+getrokken<delay8 /><tag a="110" b="0" /><anim id="EmotEnd" target="actor" targetSpec="" /> een <colour id="6" />rood<colour id="65535" /><delay20 /> of een <colour id="7" />zwart<colour id="65535" />
+symbool?<delay40 />
+<anim id="Pardon" target="actor" targetSpec="" />Wat kies je,<delay20 /> <tag a="110" b="5" />?</message>
+	<message label="201_a" attrib="00 00 00 00 00 00 00 00"><colour id="6" />Rood!<colour id="65535" /></message>
+	<message label="201_b" attrib="00 00 00 00 00 00 00 00"><colour id="7" />Zwart!<colour id="65535" /></message>
+	<message label="202_01" attrib="00 00 00 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" /><tag a="140" b="14" arg="0xcd00" />!<delay frames="40" /> Dat is <colour id="6" />rood<colour id="65535" />!<delay frames="40" /><anim id="Clapping" target="actor" targetSpec="" /> Je hebt het
+goed!</message>
+	<message label="202_02" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" /><tag a="140" b="14" arg="0xcd00" />!<delay frames="40" /> <anim id="Worried" target="actor" targetSpec="" />Ah, <delay20 />dat is <colour id="7" />zwart<colour id="65535" />.<delay frames="40" /> Je hebt het helaas niet goed<delay8 /><tag a="110" b="0" /></message>
+	<message label="202_03" attrib="00 00 00 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" /><tag a="140" b="14" arg="0xcd00" />!<delay frames="40" /> Dat is <colour id="7" />zwart<colour id="65535" />!<delay frames="40" /><anim id="Clapping" target="actor" targetSpec="" /> Je hebt het goed!</message>
+	<message label="202_04" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" /><tag a="140" b="14" arg="0xcd00" />!<delay frames="40" /> <anim id="Worried" target="actor" targetSpec="" />Ah, <delay20 />dat is <colour id="6" />rood<colour id="65535" />.<delay frames="40" /> Je hebt het helaas niet goed<delay8 /><tag a="110" b="0" /></message>
+</msbt>

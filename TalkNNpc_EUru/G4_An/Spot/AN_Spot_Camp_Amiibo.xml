@@ -1,0 +1,91 @@
+<msbt attribsize="8">
+	<message label="001" attrib="00 00 00 00 00 00 13 00"><tag a="60" b="20" /></message>
+	<message label="001_01" attrib="00 00 00 00 00 00 13 00"><tag a="100" b="5" /><colour id="1" />Привет, это <tag a="115" b="1" arg="0xcd00" />.<delay20 />
+Я занята<tag a="110" b="0" /><delay20 /> подготовкой к переезду!
+Извини, сейчас не могу ответить!<colour id="65535" /><endTag a="100" b="5" /></message>
+	<message label="001_02" attrib="00 00 00 00 00 00 13 00"><tag a="100" b="5" /><colour id="1" />Добрый день.<delay20 /> Я робот, который
+делает вид, что он <tag a="115" b="1" arg="0xcd00" />.<delay20 />
+Прикольно, да?<pageBreak />Я сейчас занята — готовлюсь
+к переезду.<delay20 /> Прости, что не
+ответила.<delay20 /> Поговорим в другой раз?<colour id="65535" /><endTag a="100" b="5" /></message>
+	<message label="001_03" attrib="00 00 00 00 00 00 13 00"><tag a="100" b="5" /><colour id="1" />Привет! <delay20 />Это <tag a="115" b="1" arg="0xcd00" />.
+<delay20 />Но не совсем.<delay frames="40" /> Точнее, совсем не я<tag a="110" b="0" /><pageBreak />Я сейчас занята и поэтому <delay8 />слегка<delay20 />
+недоступна.<delay20 /> Извини!<colour id="65535" /><endTag a="100" b="5" /></message>
+	<message label="001_04" attrib="00 00 00 00 00 00 13 00"><tag a="100" b="5" /><colour id="1" />Надеюсь, вы хотели дозвониться
+<tag a="50" b="23" arg="0xcd02" /><tag a="115" b="1" arg="0xcd00" />, потому что
+вот она я!<pageBreak />Ну, <delay20 />на самом деле это совсем не я.
+<delay20 />Я готовлюсь к переезду и все такое.<delay20 />
+Позвоните попозже!<colour id="65535" /><endTag a="100" b="5" /></message>
+	<message label="102" attrib="00 00 00 00 00 00 13 00"><tag a="60" b="20" /></message>
+	<message label="102_01" attrib="00 00 00 00 00 00 13 00"><anim id="QuestionMark" target="actor" targetSpec="" />Что? <delay20 />В твой <colour id="1" />кемпинг<colour id="65535" />? <delay20 />Вообще-то<tag a="110" b="0" /><delay20 />
+<anim id="Smiling" target="actor" targetSpec="" />это как раз то, что мне нужно! <delay20 />Бегу
+собираться! <tag a="50" b="3" /><tag a="110" b="5" />!</message>
+	<message label="102_02" attrib="00 00 00 00 00 00 13 00"><anim id="QuestionMark" target="actor" targetSpec="" />Что? <delay20 />В <colour id="1" />кемпинг <colour id="65535" />на вашем острове?
+<delay frames="40" /><anim id="Grin" target="actor" targetSpec="" />Отличный план. <delay20 />Собираюсь и бегу!
+<tag a="50" b="3" /><tag a="110" b="5" />!</message>
+	<message label="102_03" attrib="00 00 00 00 00 00 13 00"><anim id="Thinking" target="actor" targetSpec="" /><colour id="1" />Кемпинг <colour id="65535" />на вашем острове? <delay20 />Вот это
+совпадение, я как раз думала, <delay20 />что
+мне не помешает небольшой отпуск.<pageBreak /><anim id="BigSmile" target="actor" targetSpec="" />До встречи! <tag a="50" b="3" /><tag a="110" b="5" />!</message>
+	<message label="102_04" attrib="00 00 00 00 00 00 13 00"><anim id="Explain" target="actor" targetSpec="" />В <colour id="1" />кемпинг<colour id="65535" />? К вам?<delay20 /> Знаешь, если бы
+меня кто-то другой пригласил, я бы
+не поехала.<delay frames="40" /> <anim id="BigSmile" target="actor" targetSpec="" />Но это ты!<pageBreak />Так что я собираюсь! <tag a="50" b="3" /><tag a="110" b="5" />!</message>
+	<message label="202" attrib="00 00 00 00 00 00 13 00"><tag a="60" b="20" /></message>
+	<message label="202_01" attrib="00 00 00 00 00 00 13 00"><anim id="QuestionMark" target="actor" targetSpec="" />В <colour id="1" />кемпинг<colour id="65535" />?<delay20 /> На острове <tag a="110" b="9" />?<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Бомбический план!<delay20 /> Новые места,<delay20 />
+новые лица<tag a="110" b="0" /><delay20 /><anim id="Nodding" target="actor" targetSpec="" /> Да, давай.<delay20 />
+Пойду собираться! <tag a="50" b="3" /><tag a="110" b="5" />!</message>
+	<message label="202_02" attrib="00 00 00 00 00 00 13 00"><anim id="Thinking" target="actor" targetSpec="" />В твой <colour id="1" />кемпинг<colour id="65535" />? <delay20 />Как-то странно
+ехать в <colour id="1" />кемпинг <colour id="65535" />с совсем новыми
+знакомыми, но с другой стороны<tag a="110" b="0" /><pageBreak /><anim id="BigSmile" target="actor" targetSpec="" />Почему бы и нет?<delay20 /> Отличная идея!
+<tag a="50" b="3" /><tag a="110" b="5" />!</message>
+	<message label="202_03" attrib="00 00 00 00 00 00 13 00"><anim id="QuestionMark" target="actor" targetSpec="" />Приехать к вам в <colour id="1" />кемпинг<colour id="65535" />?<delay20 /> Хм-м<tag a="110" b="0" />
+<delay20 />Я сто лет не была на природе.<delay frames="40" />
+<anim id="BigSmile" target="actor" targetSpec="" />Да, отличный план. <tag a="50" b="3" /><tag a="110" b="5" />!</message>
+	<message label="202_04" attrib="00 00 00 00 00 00 13 00"><anim id="BigSmile" target="actor" targetSpec="" />В <colour id="1" />кемпинг <colour id="65535" />на вашем острове?<delay20 /> Да, да
+и еще раз да!<delay20 /> Это будет просто
+бомба.<pageBreak />Я приеду как можно быстрее!
+<tag a="50" b="3" /><tag a="110" b="5" />!</message>
+	<message label="301" attrib="00 00 00 00 00 00 13 00"><tag a="60" b="20" /></message>
+	<message label="301_01" attrib="00 00 00 00 00 00 13 00"><anim id="Grin" target="actor" targetSpec="" />А-ха, это <tag a="110" b="10" />!<delay frames="40" />
+<anim id="Smiling" target="actor" targetSpec="" />О! <delay20 /><tag a="50" b="3" /><tag a="110" b="3" />! <delay20 />Привет!
+<anim id="Hesitate" target="actor" targetSpec="" />Хм-м<tag a="110" b="0" /><pageBreak />Ты мог<gender2 m="" f="ла" /> бы просто зайти ко мне,<delay20 />
+тебе тут<delay20 /> метров десять пройти.<delay frames="40" />
+<anim id="Nodding" target="actor" targetSpec="" />Ладно уж. Что случилось?</message>
+	<message label="301_02" attrib="00 00 00 00 00 00 13 00"><anim id="Serious" target="actor" targetSpec="" />Это <tag a="110" b="10" />.<delay frames="40" />
+<anim id="Smiling" target="actor" targetSpec="" />О, как дела, <tag a="110" b="3" />?</message>
+	<message label="301_03" attrib="00 00 00 00 00 00 13 00"><tag a="110" b="10" />, <delay20 />царица рока,
+слушает. <anim id="Eh" target="actor" targetSpec="" />О! <delay20 />Привет,
+<tag a="110" b="3" />.<pageBreak /><anim id="Blushing" target="actor" targetSpec="" />Э-э<tag a="110" b="0" /><delay20 /> Как дела?<delay20 /> Чем я могу тебе
+помочь?</message>
+	<message label="301_04" attrib="00 00 00 00 00 00 13 00"><anim id="Smiling" target="actor" targetSpec="" />Привет! <delay20 />Это <tag a="110" b="10" />!<delay frames="40" />
+<anim id="Nodding" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="110" b="3" />! <delay20 />Вот это да!
+<delay20 />Что-то случилось?</message>
+	<message label="302" attrib="00 00 00 00 00 00 13 00"><tag a="60" b="20" /></message>
+	<message label="302_01" attrib="00 00 00 00 00 00 13 00"><anim id="Silent" target="actor" targetSpec="" />А, ты хочешь пойти в поход
+с палатками!<delay20 /> Круто!<delay20 /> <anim id="QuestionMark" target="actor" targetSpec="" />Но почему на
+острове <tag a="110" b="9" />?<pageBreak /><anim id="OhGeez" target="actor" targetSpec="" />Если уж я и соберусь в <colour id="1" />кемпинг<colour id="65535" />, то
+куда-то,<delay20 /> где я не буду видеть свой
+дом из палатки. <tag a="50" b="3" /><tag a="110" b="5" />!</message>
+	<message label="302_02" attrib="00 00 00 00 00 00 13 00"><anim id="QuestionMark" target="actor" targetSpec="" />Ты хочешь поехать в <colour id="1" />кемпинг<colour id="65535" />?
+На острове <tag a="110" b="9" />?<delay frames="40" /> <anim id="Negative" target="actor" targetSpec="" />Нет.<pageBreak /><anim id="OhGeez" target="actor" targetSpec="" />Я не любительница ходить в походы
+по собственному двору.<delay20 /> Моя душа
+просит простора! <tag a="50" b="3" /><tag a="110" b="5" />!</message>
+	<message label="302_03" attrib="00 00 00 00 00 00 13 00"><anim id="QuestionMark" target="actor" targetSpec="" />Что? <delay20 />Зачем мне ехать в <colour id="1" />кемпинг<colour id="65535" />
+у нас на острове? <tag a="50" b="3" /><tag a="110" b="5" />!<pageBreak /><anim id="OhGeez" target="actor" targetSpec="" />Слушай, у меня нет времени,<delay frames="40" /> у меня
+вода в ванне остывает... <anim id="Eh" target="actor" targetSpec="" />ш-ш-ш<tag a="110" b="0" /><delay20 />
+Связь прерывается!<delay20 /> Ш-ш...<delay frames="40" /><anim id="Angry" target="actor" targetSpec="" /><delay8 /> Покеда.</message>
+	<message label="302_04" attrib="00 00 00 00 00 00 13 00"><anim id="QuestionMark" target="actor" targetSpec="" />Ты это мне предлагаешь?<delay20 /> Пожить
+в палатке в нашем же <colour id="1" />кемпинге<colour id="65535" />?<delay frames="40" />
+<anim id="Negative" target="actor" targetSpec="" />Нет, прости,<delay20 /> я занята<tag a="110" b="0" /> Э-э, чем?..<pageBreak />Да чем угодно! Все лучше, чем идти
+в поход в собственном дворе!
+<tag a="50" b="3" /><tag a="110" b="5" />!</message>
+	<message label="401" attrib="00 00 00 00 00 00 13 00"><tag a="60" b="20" /></message>
+	<message label="401_01" attrib="00 00 00 00 00 00 13 00"><anim id="FaintSmile" target="actor" targetSpec="" />Это <tag a="110" b="10" />. <delay20 />Чего надо?</message>
+	<message label="401_02" attrib="00 00 00 00 00 00 13 00"><anim id="Hello" target="actor" targetSpec="" />Это <tag a="110" b="10" />.</message>
+	<message label="401_03" attrib="00 00 00 00 00 00 13 00"><anim id="Nodding" target="actor" targetSpec="" />Это <tag a="110" b="10" />.<delay20 /> Прости, что
+заставила ждать!</message>
+	<message label="401_04" attrib="00 00 00 00 00 00 13 00"><anim id="Angry" target="actor" targetSpec="" />Это снова <tag a="110" b="10" />.<delay20 /> Как
+всегда.<delay20 /> Слушай, если ты думаешь,
+что я передумаю<tag a="110" b="0" /><delay20 /><anim id="Aha" target="actor" targetSpec="" /><delay20 /> Ой!<pageBreak /><anim id="Blushing" target="actor" targetSpec="" />Прости. <delay20 />Мне весь день продавец
+пылесосов названивает. Думала,
+опять он.<delay frames="40" /> <anim id="BigSmile" target="actor" targetSpec="" />А это ты. Ну, как дела?</message>
+</msbt>

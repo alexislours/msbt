@@ -1,0 +1,80 @@
+<msbt attribsize="8">
+	<message label="001" attrib="00 00 02 01 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />А ты знаешь, какими фруктами
+прославился этот остров?
+<tag a="50" b="3" /><tag a="110" b="6" />?</message>
+	<message label="001_a" attrib="04 00 00 00 00 00 00 00">Знаю.</message>
+	<message label="001_b" attrib="05 00 00 00 00 00 00 00">Нет, не знаю.</message>
+	<message label="002" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="23" arg="0xd 0xe 0xf 0xffff" /></message>
+	<message label="003" attrib="00 00 00 01 00 00 00 00"><tag a="60" b="22" arg="0x10 0x11 0xffff 0xffff" /></message>
+	<message label="004" attrib="00 00 00 00 00 00 00 00"><anim id="Laughing" target="actor" targetSpec="" />А! Ну ладно тогда!<delay frames="40" />
+<anim id="Greeting" target="actor" targetSpec="" />Приятного аппетита!</message>
+	<message label="005" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Это <tag a="110" b="7" arg="0xcd01" />!<delay frames="40" />
+<anim id="HappyDance" target="actor" targetSpec="" />Что может быть лучше <tag a="50" b="23" arg="0xcd03" /><tag a="110" b="7" arg="0xcd01" />
+после <tag a="50" b="23" arg="0xcd03" /><tag a="135" b="6" arg="0xcd00" /><delay8 />!</message>
+	<message label="013" attrib="00 00 00 00 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Ну как, был<gender2 m="" f="а" /> уже в островном
+магазине в <colour id="1" />бюро услуг<colour id="65535" />? Или
+островитянском?.. Не важно! Был<gender2 m="" f="а" />?<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Выбор пока что маловат, зато
+внутри как в секретном полевом
+штабе!</message>
+	<message label="014" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Как тебе <colour id="1" />лавка Нука<colour id="65535" />?<delay frames="40" /> <anim id="Nodding" target="actor" targetSpec="" />Там столько
+всякой всячины!<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Я купил сверхтяжелые гантели
+и банку протеинового коктейля
+для гурманов! <tag a="50" b="3" /><tag a="110" b="6" />!</message>
+	<message label="015" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" /><colour id="1" />Лавка Нука<colour id="65535" /> всегда завалена
+интересным барахлом!<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Там даже глазеть интересно!<delay frames="40" />
+<anim id="Laughing" target="actor" targetSpec="" />А если что-то купишь, подкачаешь
+мышцы, пока несешь домой!</message>
+	<message label="016" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" /><colour id="3" />Блезерс <colour id="65535" />хочеть сделать из своей
+палатки <colour id="1" />музей<colour id="65535" />! Когда-нибудь этот
+<colour id="1" />музей <colour id="65535" />станет чемпионом!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Ну, как мне кажется<tag a="110" b="0" /><delay frames="40" /><anim id="Laughing" target="actor" targetSpec="" /> А даже если
+нет, все равно нужно болеть
+за своих, правильно ведь?</message>
+	<message label="017" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="2" arg="0x15 0x16 0x17 0x19" /></message>
+	<message label="021" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1c00 0x1900 0xcd00" /></message>
+	<message label="022" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1d01 0x1900 0xcd00" /></message>
+	<message label="023" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="29" arg="0x1e02 0x1900 0xcd00" /></message>
+	<message label="025" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Рекомендую заценить экспозиции
+в залах <colour id="1" />музея<colour id="65535" />. Можешь приходить
+туда в любое время.<pageBreak /><anim id="Eh" target="actor" targetSpec="" />Спрашиваешь, хожу ли туда я?<delay frames="40" /> <anim id="ShyBoy" target="actor" targetSpec="" />Ну
+да, в те редкие минуты, когда нет
+сил тренироваться.</message>
+	<message label="028" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Я бы хотел быть таким же, как
+<tag a="135" b="13" arg="0x0" /> в <colour id="1" />музее<colour id="65535" />.<pageBreak /><anim id="AbsentMindedness" target="actor" targetSpec="" />Всегда споко<tag a="50" b="24" arg="0x28 0xcd00 0x4 0x435 0x43d 0x6 0x439 0x43d 0x430 0x6 0x439 0x43d 0x43e 0x6 0x439 0x43d 0x44b" />, даже под водой.<delay frames="60" />
+<anim id="Frantic" target="actor" targetSpec="" />Почему у меня так не получается?!</message>
+	<message label="029" attrib="00 00 00 00 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Ты когда-нибудь видел<gender2 m="" f="а" />
+<tag a="50" b="23" arg="0xcd01" /><tag a="135" b="13" arg="0x1" />
+в нашем <colour id="1" />музее<colour id="65535" />?<pageBreak /><anim id="Scheming" target="actor" targetSpec="" />Он<tag a="50" b="24" arg="0x28 0xcd00 0x0 0x2 0x430 0x2 0x43e 0x2 0x438" /> навел<tag a="50" b="24" arg="0x28 0xcd00 0x0 0x2 0x430 0x2 0x43e 0x2 0x438" /> меня на мысль о новой
+тренировочной системе!<delay20 /> Жаль, нет
+времени ее опробовать.</message>
+	<message label="030" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Эт<tag a="50" b="24" arg="0x28 0xcd00 0x4 0x43e 0x442 0x2 0x430 0x2 0x43e 0x2 0x438" /> <tag a="135" b="13" arg="0x2" /> —
+моя любимая окаменелость в <colour id="1" />музее<colour id="65535" />.<pageBreak /><anim id="Love" target="actor" targetSpec="" />Какой строгий, прекрасный рельеф!<delay20 />
+Даже без мышц круто смотрится!<delay frames="40" />
+<anim id="Frantic" target="actor" targetSpec="" />Невероятно, но факт! <tag a="50" b="3" /><tag a="110" b="5" />!</message>
+	<message label="101" attrib="66 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Увидел тебя, и сразу нахлынули
+воспоминания<tag a="110" b="0" /> <anim id="Grin" target="actor" targetSpec="" />Помнишь, как
+мы с тобой мышцы сравнивали?</message>
+	<message label="102" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="1" arg="0x67 0x68 0x69" /></message>
+	<message label="103" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />С тех пор как ты уехал<gender2 m="" f="а" />, я каждый
+день выполнял сверхсекретную
+тренировку.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />А ты? Все качаешься? Сколько
+в толчке берешь?</message>
+	<message label="104" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Хм-м-м<tag a="110" b="0" /> Кстати говоря,<delay frames="40" /><anim id="Blushing" target="actor" targetSpec="" /> мы ведь
+так и не выяснили, у кого
+мышечная масса больше...</message>
+	<message label="105" attrib="00 00 02 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Давай решающий поединок!<delay frames="40" />
+<anim id="BigSmile" target="actor" targetSpec="" />Чем бы нам таким помериться...
+О! Давай «кубиками» на животе!</message>
+	<message label="105_a" attrib="6a 00 00 00 00 00 00 00">Хорошо!</message>
+	<message label="105_b" attrib="6b 00 00 00 00 00 00 00">Я пас.</message>
+	<message label="106" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Ну что ж, готов<gender2 m="" f="а" />? Мои «кубики»<tag a="110" b="0" /><delay frames="40" />
+<anim id="SmugFace" target="actor" targetSpec="" />как кирпичная стена! Неплохо, да?
+<tag a="50" b="3" /><tag a="110" b="5" />!<pageBreak /><anim id="TakenAback" target="actor" targetSpec="" />А? Ты мне на слово не веришь?
+Как так?<delay20 /> Мы же друзья!<pageBreak /><anim id="Fuming" target="actor" targetSpec="" />Точно тебе говорю — как стена!
+Хоть граффити рисуй!<delay frames="40" /> <anim id="Serious" target="actor" targetSpec="" />Ну что ты
+на меня так смотришь...<pageBreak /><anim id="OhGeez" target="actor" targetSpec="" />Ну, не хочешь — не верь.<delay20 />
+Дело твое. <delay20 />Мне-то что.
+<10_4 /><anim id="Sighing" target="actor" targetSpec="" />Но они как стена, говорю тебе!</message>
+	<message label="107" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Блин от штанги! Скучно с тобой.
+<anim id="Grin" target="actor" targetSpec="" />Но вообще я тебя понимаю.<delay frames="40" /> <anim id="SmugFace" target="actor" targetSpec="" />Я бы
+тоже с собой тягаться не стал...</message>
+</msbt>

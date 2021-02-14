@@ -1,0 +1,139 @@
+<msbt attribsize="4">
+	<message label="050" attrib="02 00 00 00"><anim id="Shocked" target="actor" targetSpec="" /><delay20 />啊，<delay20 />
+您要寄出<anim id="QuestionMark" target="actor" targetSpec="" />心意卡吗？<pageBreak /><anim id="ShyBoy" target="actor" targetSpec="" />那么，嗯<tag a="110" b="0" /><delay20 />
+因为我没自信可以同时处理多个业务，<delay8 />
+请让我先关上大门，可以吗？</message>
+	<message label="050_a" attrib="00 00 00 00">好的</message>
+	<message label="050_b" attrib="00 00 00 00">不要关上！</message>
+	<message label="051" attrib="00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />不好意思<tag a="110" b="0" /><delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />那么，我要关上大门了！</message>
+	<message label="052" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />让您久等了！<delay20 /><anim id="FaintSmile" target="actor" targetSpec="" /></message>
+	<message label="070" attrib="02 00 00 00">要寄送心意卡吗？</message>
+	<message label="070_a" attrib="00 00 00 00">寄送</message>
+	<message label="070_b" attrib="00 00 00 00">下次吧</message>
+	<message label="080" attrib="04 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />明白了！<delay frames="30" />
+<anim id="EmotEnd" target="actor" targetSpec="" />要寄给谁呢？</message>
+	<message label="080_a" attrib="00 00 00 00">这座岛上的居民</message>
+	<message label="080_b" attrib="00 00 00 00">未来的自己</message>
+	<message label="080_c" attrib="00 00 00 00">还是算了</message>
+	<message label="200" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />要寄送给这座岛上的人啊。<delay frames="40" />
+<anim id="EmotEnd" target="actor" targetSpec="" />那么，<delay20 /><anim id="QuestionMark" target="actor" targetSpec="" />要寄给谁呢？</message>
+	<message label="210_01" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />要寄给<tag a="115" b="0" arg="0xcd00" />啊！</message>
+	<message label="210_02" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />要寄给<tag a="115" b="1" arg="0xcd00" />啊！</message>
+	<message label="210_03" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />是要寄给<delay8 />
+未来的<tag a="110" b="1" />自己啊！</message>
+	<message label="220_01" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />那么，<delay20 />请选择喜爱的卡片
+书写信息吧！<anim id="FaintSmile" target="actor" targetSpec="" /></message>
+	<message label="220_02" attrib="00 00 00 00">卡片就选这张了！</message>
+	<message label="290" attrib="00 00 00 00">非常抱歉。
+其实，这里积压了很多
+还没派送的信件……
+所以现在暂时没法
+收下您的信件。<pageBreak />真的很不好意思，
+请您过一段时间后
+再过来吧。</message>
+	<message label="320" attrib="00 00 00 00">哎呀，您今天已经给<tag a="115" b="0" arg="0xcd00" />
+寄过2次信了呢。<pageBreak />要明天才能再寄送了，
+所以请明天再来吧。</message>
+	<message label="400" attrib="00 00 00 00" />
+	<message label="401" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />那么，<delay20 />您想要在哪一天
+收到这张卡片呢？</message>
+	<message label="402" attrib="02 00 00 00">在<colour id="1" /><tag a="90" b="34" arg="0xcd00" />年<tag a="90" b="35" arg="0xcd00" />月<tag a="90" b="36" arg="0xcd00" /><colour id="65535" />收到，<delay20 />
+<anim id="QuestionMark" target="actor" targetSpec="" />可以吗？</message>
+	<message label="402_a" attrib="00 00 00 00">好的！</message>
+	<message label="402_b" attrib="00 00 00 00">换别的日子</message>
+	<message label="410" attrib="00 00 00 00">明白了！<delay40 />
+<anim id="FaintSmile" target="actor" targetSpec="" />那么，<delay20 />请重新告诉我
+希望收到的日期。</message>
+	<message label="415" attrib="00 00 00 00"><anim id="Silent" target="actor" targetSpec="" />这里好像已经有一张卡片
+要寄给未来的<tag a="110" b="1" />了。<anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak /><anim id="Explain" target="actor" targetSpec="" />要想寄一张新的卡片，<delay20 />
+必须要丢弃之前的，并重新书写。<delay20 />
+<anim id="QuestionMark" target="actor" targetSpec="" />怎么样呢？</message>
+	<message label="416" attrib="00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />哎呀<tag a="110" b="0" /><delay8 /><anim id="EmotEnd" target="actor" targetSpec="" />我想先把之前的
+礼物还给您，<delay frames="30" />
+<anim id="Negative" target="actor" targetSpec="" />但您的持有物已满了哦<tag a="110" b="0" /><pageBreak /><anim id="ShyBoy" target="actor" targetSpec="" />不好意思，<delay20 />
+等可以归还礼物的时候，<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />麻烦再来跟我说一声吧。</message>
+	<message label="420" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />那么，<delay8 />我这边会处理掉，<delay20 />
+<anim id="Smiling" target="actor" targetSpec="" />请选择喜爱的卡片<delay8 />
+重新书写吧。</message>
+	<message label="420_01" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />那么，<delay8 />原本预定送达的卡片
+会被处理掉，<delay20 /><anim id="Smiling" target="actor" targetSpec="" />请重新编辑这里的卡片<delay20 />
+送给未来的自己。</message>
+	<message label="421" attrib="00 00 00 00">明白了。<10_4 />
+<anim id="Nodding" target="actor" targetSpec="" />我只归还附带的礼物，<delay20 />
+卡片会被处理掉哦。<anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak /><anim id="Smiling" target="actor" targetSpec="" />那么，<delay8 />请选择喜爱的卡片<delay20 />
+重新书写吧。</message>
+	<message label="421_01" attrib="00 00 00 00">明白了。<10_4 />
+<anim id="Nodding" target="actor" targetSpec="" />我只归还附带的礼物，<delay frames="30" />
+卡片会被处理掉哦。<anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak /><anim id="Smiling" target="actor" targetSpec="" />那么，<delay8 />请重新编辑这里的卡片<delay20 />
+送给未来的自己。</message>
+	<message label="500" attrib="00 00 00 00">那么<tag a="110" b="0" /><delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />费用是<colour id="1" />200铃钱<colour id="65535" />！</message>
+	<message label="501" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />非常感谢！<delay frames="30" />
+我要寄送这张卡片啦！<anim id="FaintSmile" target="actor" targetSpec="" /></message>
+	<message label="502" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />非常感谢！<delay frames="30" />
+<anim id="EmotEnd" target="actor" targetSpec="" />那么，<delay8 />我会在指定的日期<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />寄送卡片哦！</message>
+	<message label="510" attrib="00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />哎呀，<delay20 /><anim id="Worried" target="actor" targetSpec="" />您的钱好像不够呢<tag a="110" b="0" /><10_4 />
+<anim id="EmotEnd" target="actor" targetSpec="" />请准备好<colour id="1" />200铃钱<colour id="65535" />后，<delay8 />
+再来跟我说吧。<pageBreak />在这之前，<delay20 />
+卡片我就先收下了哦。</message>
+	<message label="520" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />明白了。<delay frames="40" />
+<anim id="Nodding" target="actor" targetSpec="" />那我就先把这个<delay20 />
+作为书写中的卡片收着吧！<anim id="FaintSmile" target="actor" targetSpec="" /></message>
+	<message label="521" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />哎呀，<delay20 />不写了吗。<delay40 />
+<anim id="Nodding" target="actor" targetSpec="" />那么，<delay20 />我就先把这个<delay20 />
+作为书写中的卡片收着吧！<anim id="FaintSmile" target="actor" targetSpec="" /></message>
+	<message label="522" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />哎呀，<delay20 />不写了啊。<delay frames="40" />
+<anim id="FaintSmile" target="actor" targetSpec="" />要是还想继续写，请尽管跟我说。</message>
+	<message label="523" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />哎呀，<delay20 />不写了啊。<delay frames="40" />
+<anim id="FaintSmile" target="actor" targetSpec="" />要是还想继续写，请尽管跟我说。</message>
+	<message label="550" attrib="00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />啊！<delay40 />还有<delay8 /><anim id="FaintSmile" target="actor" targetSpec="" />附在卡片上的礼物，
+也先还给您。</message>
+	<message label="551" attrib="00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />啊！<delay40 />但是，<delay8 /><anim id="EmotEnd" target="actor" targetSpec="" />因为我这里
+对礼物的丢失是不负责任的，<delay20 />
+所以先还给您哦。</message>
+	<message label="552" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />期待您再次使用！</message>
+	<message label="600" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />是心意卡吗？<delay20 /><anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak /><anim id="Nodding" target="actor" targetSpec="" />不过，<delay20 />这里还有一张书写中的<delay8 />
+给<tag a="115" b="0" arg="0xcd00" />的卡片，<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />是要寄出去的吧！</message>
+	<message label="601" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />是心意卡吗？<delay20 /><anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak /><anim id="Nodding" target="actor" targetSpec="" />不过，<delay20 />这里还有一张书写中的<delay8 />
+给<tag a="115" b="1" arg="0xcd00" />的卡片，<delay8 />
+<anim id="FaintSmile" target="actor" targetSpec="" />是要寄出去的吧！</message>
+	<message label="602" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />是心意卡吗？<delay20 /><anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak /><anim id="Nodding" target="actor" targetSpec="" />不过，<delay20 />这里还有一张书写中的<delay8 />
+给未来的您自己的卡片，<delay8 />
+<anim id="FaintSmile" target="actor" targetSpec="" />是要寄出去的吧！</message>
+	<message label="604" attrib="00 00 00 00">那么，<delay20 />是心意卡啊<tag a="110" b="0" /><delay20 />
+<anim id="Nodding" target="actor" targetSpec="" />我这里还有一张书写中的卡片，<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />是要寄出去的吧！</message>
+	<message label="610" attrib="01 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />哎呀<tag a="110" b="0" /><delay20 /><anim id="Worried" target="actor" targetSpec="" />真可惜。
+看来已经没法<delay20 />
+<anim id="Negative" target="actor" targetSpec="" />再寄给<tag a="115" b="0" arg="0xcd00" />了。<pageBreak /><anim id="Silent" target="actor" targetSpec="" />要更改收件人吗？<delay frames="30" />
+<anim id="QuestionMark" target="actor" targetSpec="" />还是由我这里处理掉呢？</message>
+	<message label="610_a" attrib="00 00 00 00">更改收件人</message>
+	<message label="610_b" attrib="00 00 00 00">处理掉</message>
+	<message label="611" attrib="01 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />哎呀<tag a="110" b="0" /><delay20 /><anim id="Worried" target="actor" targetSpec="" />真可惜。
+看来已经没法<delay20 />
+<anim id="Negative" target="actor" targetSpec="" />再寄给<tag a="115" b="1" arg="0xcd00" />了。<pageBreak /><anim id="Silent" target="actor" targetSpec="" />要更改收件人吗？<delay frames="30" />
+<anim id="QuestionMark" target="actor" targetSpec="" />还是由我这里处理掉呢？</message>
+	<message label="611_a" attrib="00 00 00 00">更改收件人</message>
+	<message label="611_b" attrib="00 00 00 00">处理掉</message>
+	<message label="620" attrib="01 00 00 00">要把收件人改成谁呢？</message>
+	<message label="620_a" attrib="00 00 00 00">这座岛上的居民</message>
+	<message label="620_b" attrib="00 00 00 00">未来的自己</message>
+	<message label="630" attrib="00 00 00 00">那么，<delay20 />放在这里的卡片<delay8 />
+<anim id="Nodding" target="actor" targetSpec="" />会由我这里处理掉。</message>
+	<message label="800" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />感谢您使用本服务！</message>
+	<message label="801" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />是这样啊。<delay20 />
+那么下次想要使用服务时，
+请随时过来！</message>
+	<message label="802" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />哎呀？<delay20 />可以吗？<delay40 />
+<anim id="FaintSmile" target="actor" targetSpec="" />那么，<delay8 />请下次再使用本服务！</message>
+	<message label="803" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />明白了。<delay frames="40" />
+<anim id="EmotEnd" target="actor" targetSpec="" />那么，这张卡片会继续<delay20 />
+<anim id="Nodding" target="actor" targetSpec="" />存放到要寄送的那一天哦。</message>
+	<message label="804" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />明白了。<delay frames="30" /><anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak /><anim id="Explain" target="actor" targetSpec="" />那么，<delay8 />大门已经开着，<delay frames="30" />
+<anim id="FaintSmile" target="actor" targetSpec="" />要使用邮寄服务的时候，<delay8 />
+请再来告诉我哦。</message>
+</msbt>

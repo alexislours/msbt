@@ -1,0 +1,74 @@
+<msbt attribsize="8">
+	<message label="001" attrib="00 00 01 00 00 00 00 00"><anim id="Hesitate" target="actor" targetSpec="" />저기<tag a="110" b="0" /> <delay20 />괜찮으시다면<delay8 />
+게임 한판 어떠세요?<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />당신이 이기면 상품으로<delay20 />
+<tag a="125" b="0" arg="0x0" /><gender5 m="을" f="를" /><delay8 />
+<anim id="Smiling" target="actor" targetSpec="" />드릴게요! <delay frames="30" /><anim id="Hello" target="actor" targetSpec="" />어떠세요? <tag a="110" b="6" />?</message>
+	<message label="001_a" attrib="00 00 00 00 00 00 00 00">할래!</message>
+	<message label="001_b" attrib="00 00 00 00 00 00 00 00">지금은 됐어</message>
+	<message label="002" attrib="00 00 01 00 00 00 00 00">규칙을 <delay20 /><anim id="QuestionMark" target="actor" targetSpec="" />설명해드릴까요? <tag a="110" b="6" />?</message>
+	<message label="002_a" attrib="00 00 00 00 00 00 00 00">설명해줘!</message>
+	<message label="002_b" attrib="00 00 00 00 00 00 00 00">알아</message>
+	<message label="003" attrib="00 00 00 00 00 00 00 00">어머, <delay8 />그러시군요<delay frames="40" />
+<anim id="Smiling" target="actor" targetSpec="" />그럼 <delay8 />다음에 해요! <tag a="110" b="6" />!</message>
+	<message label="004" attrib="00 00 00 00 00 00 00 00"><anim id="NpcShuffle" target="actor" targetSpec="" />그럼 <delay8 />바로 <delay20 />카드를 섞을게요<tag a="110" b="0" /></message>
+	<message label="005" attrib="00 00 00 00 00 00 00 00"><anim id="Grin" target="actor" targetSpec="" />괜찮으신 거죠? <delay frames="40" /><anim id="FaintSmile" target="actor" targetSpec="" />그럼 어디 확인해봐요!</message>
+	<message label="006_01" attrib="00 00 00 00 00 00 00 00">당신이 이기셨으니까 <delay8 />약속대로<delay20 />
+<tag a="125" b="0" arg="0x0" /><gender5 m="을" f="를" /><delay8 />
+<anim id="Smiling" target="actor" targetSpec="" />드릴게요!</message>
+	<message label="006_02" attrib="00 00 00 00 00 00 00 00"><anim id="WrySmile" target="actor" targetSpec="" />제가 졌어요<tag a="110" b="0" /><delay frames="40" /><anim id="EmotEnd" target="actor" targetSpec="" /> 약속한 대로<delay20 />
+<tag a="125" b="0" arg="0x0" /><gender5 m="을" f="를" /><delay8 />
+<anim id="Smiling" target="actor" targetSpec="" />드릴게요!</message>
+	<message label="006_03" attrib="00 00 00 00 00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />죄송해요, <delay frames="30" />상품은<tag a="110" b="0" /><delay frames="30" />
+<anim id="ColdChill" target="actor" targetSpec="" />포기하셔야겠어요<tag a="110" b="0" /></message>
+	<message label="007_01" attrib="00 00 00 00 00 00 00 00">이런 게임 <delay20 /><anim id="Hello" target="actor" targetSpec="" />원래 잘하세요?<delay frames="40" />
+<anim id="Nodding" target="actor" targetSpec="" />이렇게 딱 맞히시다니, <delay8 />대단해요!<delay frames="40" />
+<anim id="FaintSmile" target="actor" targetSpec="" />기회가 된다면 또 하고 놀아요! <tag a="110" b="6" />!</message>
+	<message label="007_03" attrib="00 00 00 00 00 00 00 00">이런 날도 있는 법이니까요,<delay8 />
+너무 슬퍼하지 마세요!<delay frames="40" />
+<anim id="FaintSmile" target="actor" targetSpec="" />괜찮으시면 다음에 또 해요, <tag a="110" b="6" />!</message>
+	<message label="008" attrib="00 00 00 00 00 00 00 00"><anim id="HappyDance" target="actor" targetSpec="" />정말요?!<delay frames="50" />
+<anim id="Eh" target="actor" targetSpec="" />아<tag a="110" b="0" /> <delay20 />그런데 <delay8 />주머니가 꽉 찼네요<pageBreak /><anim id="Thinking" target="actor" targetSpec="" />이래선 상품을 드릴 수가 없겠어요<delay frames="40" />
+<anim id="EmotEnd" target="actor" targetSpec="" />죄송하지만 <delay20 />게임은 <anim id="FaintSmile" target="actor" targetSpec="" />주머니에
+여유가 있을 때 해요! <tag a="110" b="6" />!</message>
+	<message label="100" attrib="00 00 00 00 00 00 00 00"><anim id="Hello" target="actor" targetSpec="" />그럼 <delay8 />설명할게요!<delay frames="40" />
+<anim id="Explain" target="actor" targetSpec="" />여기 <delay8 /><colour id="6" />♥♦<colour id="65535" /><colour id="7" />♠♣<colour id="65535" /> <delay20 />중 하나의 그림이 그려진
+카드가 <delay8 />4장 있죠?
+<anim id="EmotEnd" target="actor" targetSpec="" />여기서 제가 카드를 한 장 뽑을 테니<delay20 />
+그 카드의 그림을<delay8 /><anim id="FaintSmile" target="actor" targetSpec="" /> 맞혀주시면 돼요<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />정답을 맞히시면<delay8 /> 당신의 승리!<delay8 />
+<anim id="FaintSmile" target="actor" targetSpec="" /><tag a="125" b="0" arg="0x0" /><gender5 m="을" f="를" /><delay8 />
+상품으로 드릴게요!
+<anim id="FaintSmile" target="actor" targetSpec="" /><anim id="NpcShuffle" target="actor" targetSpec="" />바로 시작해도 될까요?<delay frames="40" />
+먼저 <delay20 />카드를 섞을게요<tag a="110" b="0" /></message>
+	<message label="101" attrib="00 00 05 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />자!<delay frames="30" /> 지금 뽑은 이 카드는<tag a="110" b="0" /><delay8 />
+<anim id="EmotEnd" target="actor" targetSpec="" /><colour id="6" />♥♦<colour id="65535" /><colour id="7" />♠♣ <colour id="65535" />중 <delay20 /><anim id="Pardon" target="actor" targetSpec="" />어떤 카드일까요? <tag a="110" b="6" />?<delay20 /><anim id="FaintSmile" target="actor" targetSpec="" /></message>
+	<message label="101_a" attrib="00 00 00 00 00 00 00 00"><colour id="6" />♥(하트)<colour id="65535" /></message>
+	<message label="101_b" attrib="00 00 00 00 00 00 00 00"><colour id="6" />♦(다이아몬드)<colour id="65535" /></message>
+	<message label="101_c" attrib="00 00 00 00 00 00 00 00"><colour id="7" />♠(스페이드)<colour id="65535" /></message>
+	<message label="101_d" attrib="00 00 00 00 00 00 00 00"><colour id="7" />♣(클로버)<colour id="65535" /></message>
+	<message label="102_01" attrib="00 00 00 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" /><tag a="140" b="14" arg="0xcd00" />!<delay frames="40" />
+<anim id="Clapping" target="actor" targetSpec="" />정답입니다～!</message>
+	<message label="102_02" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" /><tag a="140" b="14" arg="0xcd00" />!<delay frames="40" />
+<anim id="Oops" target="actor" targetSpec="" />아쉽지만 <delay20 />틀렸네요<tag a="110" b="0" /></message>
+	<message label="200" attrib="00 00 00 00 00 00 00 00"><anim id="Hello" target="actor" targetSpec="" />그럼 <delay8 />설명할게요<delay frames="40" />
+<anim id="Explain" target="actor" targetSpec="" />여기 <delay8 /><colour id="6" />♥♦<colour id="65535" /><colour id="7" />♠♣<colour id="65535" /> <delay20 />중 하나가 그려진
+카드가 <delay8 />4장 있죠?
+제가 이 중 하나를 뽑을 테니까<delay20 />
+그 카드의 색을<delay8 /><anim id="FaintSmile" target="actor" targetSpec="" /> 맞혀주시면 돼요!<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />정답을 맞히시면 <delay8 />당신의 승리!<delay8 />
+<anim id="FaintSmile" target="actor" targetSpec="" /><tag a="125" b="0" arg="0x0" /><gender5 m="을" f="를" /><delay8 />
+드릴게요～
+<anim id="FaintSmile" target="actor" targetSpec="" /><anim id="NpcShuffle" target="actor" targetSpec="" />그럼 바로 시작해볼까요?<delay frames="40" />
+먼저 <delay20 />카드를 잘 섞어야 해요<tag a="110" b="0" /></message>
+	<message label="201" attrib="00 00 01 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />자, <delay frames="30" />지금 뽑은 카드는<tag a="110" b="0" /><delay8 />
+<anim id="EmotEnd" target="actor" targetSpec="" />'<colour id="6" />빨간색<colour id="65535" />'일까요～<delay20 />
+<anim id="Pardon" target="actor" targetSpec="" />'<colour id="7" />검은색<colour id="65535" />'일까요? <tag a="110" b="6" />?<delay20 /><anim id="FaintSmile" target="actor" targetSpec="" /></message>
+	<message label="201_a" attrib="00 00 00 00 00 00 00 00"><colour id="6" />빨간색<colour id="65535" /></message>
+	<message label="201_b" attrib="00 00 00 00 00 00 00 00"><colour id="7" />검은색<colour id="65535" /></message>
+	<message label="202_01" attrib="00 00 00 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" /><tag a="140" b="14" arg="0xcd00" />!<delay frames="40" /> '<colour id="6" />빨간색<colour id="65535" />'이네요!<delay frames="40" />
+<anim id="Clapping" target="actor" targetSpec="" />정답이에요～!</message>
+	<message label="202_02" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" /><tag a="140" b="14" arg="0xcd00" />!<delay frames="40" /> <anim id="Oops" target="actor" targetSpec="" />아쉽지만 <delay20 />'<colour id="7" />검은색<colour id="65535" />'이에요<delay frames="40" />
+<anim id="Worried" target="actor" targetSpec="" />틀렸네요<tag a="110" b="0" /></message>
+	<message label="202_03" attrib="00 00 00 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" /><tag a="140" b="14" arg="0xcd00" />!<delay frames="40" /> '<colour id="7" />검은색<colour id="65535" />'이네요!<delay frames="40" />
+<anim id="Clapping" target="actor" targetSpec="" />정답이에요～!</message>
+	<message label="202_04" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" /><tag a="140" b="14" arg="0xcd00" />!<delay frames="40" /> <anim id="Oops" target="actor" targetSpec="" />아쉽지만 <delay20 />'<colour id="6" />빨간색<colour id="65535" />'이에요<delay frames="40" />
+<anim id="Worried" target="actor" targetSpec="" />틀렸네요<tag a="110" b="0" /></message>
+</msbt>

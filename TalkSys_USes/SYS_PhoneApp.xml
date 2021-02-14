@@ -1,0 +1,403 @@
+<msbt attribsize="3">
+	<message label="000" attrib="00 00 17">¿Que el servicio está fuera
+de cobertura? Supongo que aquí
+no puedo usar la aplicación.</message>
+	<message label="001" attrib="02 00 17">¿Quieres llamar al servicio
+de rescate?</message>
+	<message label="001_a" attrib="00 00 00"><anim id="EmotEnd" target="player" targetSpec="" />¡Sí!</message>
+	<message label="001_b" attrib="00 00 00"><anim id="EmotEnd" target="player" targetSpec="" />Ahora no</message>
+	<message label="010" attrib="00 00 13">　　　　<tag a="10" b="12" /><tag a="100" b="2" /><tag a="100" b="5" /><size value="150" />¡Adiós!<size value="100" /><endTag a="100" b="5" /><endTag a="100" b="2" /><10_7 arg="30" /></message>
+	<message label="011" attrib="00 00 13"><tag a="100" b="5" /><tag a="10" b="12" />　　　　　　　<size value="150" />¡Hola!<size value="100" /><pageBreak />Gracias por llamar<10_7 arg="30" />
+al <colour id="1" />servicio de rescate<colour id="65535" />.<endTag a="100" b="5" /></message>
+	<message label="011_01" attrib="00 00 13"><tag a="100" b="5" />Veamos,<delay20 /> tú eres<tag a="110" b="0" /><10_7 arg="40" /><endTag a="100" b="5" /></message>
+	<message label="011_02" attrib="00 00 13"><tag a="100" b="5" />Tu ubicación actual es<tag a="110" b="0" /><endTag a="100" b="5" /><10_7 arg="40" /></message>
+	<message label="012" attrib="00 00 13"><tag a="100" b="5" />¡Rayos! <delay8 />¿Qué le pasa a esta cosa?<delay8 />
+La señal se volvió loca<tag a="110" b="0" /><endTag a="100" b="5" /></message>
+	<message label="012_01" attrib="00 00 13"><tag a="100" b="5" />Dime una cosa<tag a="110" b="0" /> ¿Tienes visita
+ahora mismo? ¿O tienes las puertas
+del aeródromo abiertas?
+Porque esto es lo que pasa cuando
+hay muchas señales juntas: la cosa
+deja de funcionar.
+Si de verdad tienes una emergencia,
+abre el menú con el botón <colour id="1" /> <colour id="65535" />y elige
+<colour id="1" />Finalizar la sesión<colour id="65535" />, ¿entendido?<endTag a="100" b="5" /></message>
+	<message label="012_02" attrib="00 00 13"><tag a="100" b="5" />Dime una cosa<tag a="110" b="0" /><delay20 /> ¿De casualidad
+no estarás visitando la isla de
+otra persona?
+Porque la cosa esta se altera cuando
+detecta más de una señal y deja de
+funcionar así porque le da la gana.
+Si de verdad tienes una emergencia,
+abre el menú con el botón <colour id="1" /> <colour id="65535" />y elige
+<colour id="1" />Volver a mi isla<colour id="65535" />, ¿entendido?<endTag a="100" b="5" /></message>
+	<message label="013" attrib="00 00 13"><tag a="100" b="5" />Un momento.<delay8 />
+¿Estás dentro de un edificio?<pageBreak />Lamento informarte que este
+servicio solo funciona al aire libre.<pageBreak />¿O acaso quieres estamparte contra
+el techo?<delay20 /> Tú acabarás con un
+chichón y yo en los juzgados.
+Si quieres usar este servicio, tienes
+que salir al exterior, ¿entendido?<endTag a="100" b="5" /></message>
+	<message label="021_01" attrib="00 00 13"><tag a="100" b="5" />Aquí está.<delay20 /> Eres <tag a="110" b="1" /> de <tag a="110" b="8" />, ¿no?<endTag a="100" b="5" /></message>
+	<message label="021_02" attrib="00 00 13"><tag a="100" b="5" />A ver<tag a="110" b="0" /> Eres <tag a="110" b="1" /> de <tag a="110" b="8" />, ¿no?<delay20 /> Pues dime, ¿en qué lío te metiste hoy?<endTag a="100" b="5" /></message>
+	<message label="021_03" attrib="00 00 13"><tag a="100" b="5" />¿Otra vez tú, <tag a="110" b="1" />?<delay8 />
+¿No puedes estarte quiet<gender2 m="o" f="a" />
+o qué te pasa?<endTag a="100" b="5" /></message>
+	<message label="022" attrib="00 00 13"><tag a="100" b="5" />Veo que es la primera vez que usas
+nuestro servicio.<delay20 /> Te voy a explicar
+de qué se trata esto.
+Básicamente estamos aquí para
+ayudarte cuando te quedes atrapad<gender2 m="o" f="a" />
+en algún lugar y no sepas salir.
+Llámanos y te transportaremos
+a un lugar seguro antes de que
+puedas decir "Reseteo".
+¡Se trata de una tecnología
+revolucionaria!<delay20 /> De la que no
+pienso darte más detalles.<endTag a="100" b="5" /></message>
+	<message label="023_01" attrib="02 00 13"><tag a="100" b="5" />Obviamente te cobraremos algo
+por cada rescate, ¿pues qué creías?<delay8 />
+¡En la vida nada es gratis!
+Un rescate te costará <colour id="1" /><colour id="1" />100 <colour id="1" />millas<colour id="65535" />
+del programa de millas Nook.<delay8 />
+¿Te parece?<endTag a="100" b="5" /></message>
+	<message label="023_01_a" attrib="00 00 13"><anim id="Nodding" target="player" targetSpec="" />¡Sí! ¡Ayuda!</message>
+	<message label="023_01_b" attrib="00 00 13"><anim id="Negative" target="player" targetSpec="" />No, gracias</message>
+	<message label="023_02" attrib="02 00 13"><tag a="100" b="5" />Serán <colour id="1" /><colour id="1" />100 <colour id="1" />millas<colour id="65535" /> por el rescate.<delay20 />
+¿Te parece?<endTag a="100" b="5" /></message>
+	<message label="023_02_a" attrib="00 00 13"><anim id="Nodding" target="player" targetSpec="" />¡Sí! ¡Ayuda!</message>
+	<message label="023_02_b" attrib="00 00 13"><anim id="Negative" target="player" targetSpec="" />No, gracias</message>
+	<message label="023_03" attrib="02 00 13"><tag a="100" b="5" />Ah, sí<tag a="110" b="0" /><delay8 /> La última vez que
+solicitaste el servicio no tenías
+millas suficientes, jovencit<gender2 m="o" f="a" /><tag a="110" b="0" />
+Espero que hayas aprendido
+la lección y que no vuelva a
+repetirse.
+Serán <colour id="1" /><colour id="1" />100 <colour id="1" />millas<colour id="65535" /> por el rescate.<delay20 />
+¿Te parece?<endTag a="100" b="5" /></message>
+	<message label="023_03_a" attrib="00 00 13"><anim id="Nodding" target="player" targetSpec="" />¡Sí! ¡Ayuda!</message>
+	<message label="023_03_b" attrib="00 00 13"><anim id="Negative" target="player" targetSpec="" />No, gracias</message>
+	<message label="031_01" attrib="00 00 13"><tag a="100" b="5" />¿Y eso?<delay20 /> ¿No necesitabas el servicio?<endTag a="100" b="5" /></message>
+	<message label="031_02" attrib="00 00 13"><tag a="100" b="5" />¿Y eso?<delay20 /> ¿Todo bien?<delay20 />
+No estoy enojado porque no tuviste
+millas suficientes la última vez, ¿eh?<endTag a="100" b="5" /></message>
+	<message label="032_01" attrib="00 00 13"><tag a="100" b="5" />¡Si estás en apuros, dilo y
+te ayudaremos de inmediato!<endTag a="100" b="5" /></message>
+	<message label="032_02" attrib="00 00 13"><tag a="100" b="5" />¿Que no tienes millas Nook?<delay8 />
+No pasa nada.<delay20 /> Pensaremos
+en algo, ¿de acuerdo?
+Si estás en apuros, dilo y
+te ayudaremos de inmediato.<endTag a="100" b="5" /></message>
+	<message label="041_01" attrib="00 00 13"><tag a="100" b="5" />¡Enseguida!<delay8 /> Primero voy a cobrarte
+las <colour id="1" /><colour id="1" />100 <colour id="1" />millas<colour id="65535" /><tag a="110" b="0" /><endTag a="100" b="5" /></message>
+	<message label="041_02" attrib="00 00 13"><tag a="100" b="5" />¡Chic<gender2 m="o" f="a" /> list<gender2 m="o" f="a" />! Parece que esta vez sí
+tienes millas suficientes, así que me
+ahorras el discurso.
+Ahora voy a cobrarte las <colour id="1" /><colour id="1" />100 <colour id="1" />millas<colour id="65535" /><tag a="110" b="0" /><endTag a="100" b="5" /></message>
+	<message label="042_01" attrib="00 00 13"><tag a="100" b="5" />¡Entendido!<delay8 /> Primero voy a cobrar
+las <colour id="1" /><colour id="1" />100 <colour id="1" />millas<colour id="65535" /> y luego<tag a="110" b="0" /><10_7 arg="75" /><endTag a="100" b="5" /></message>
+	<message label="042_02" attrib="00 00 13"><tag a="100" b="5" /><10_10 /><tag a="10" b="12" />　　<size value="150" />¡OYE!<size value="100" /><delay20 /><10_9 /><pageBreak />¿Qué te traes, <gender2 m="muchachito" f="muchachita" />?<delay20 />
+¡No tienes millas suficientes!<delay20 />
+¡¿Intentas tomarme el pelo?!
+Tranquilo, Rese T.,<delay8 /> respira hondo
+y profundo<tag a="110" b="0" /><delay8 /> Recuerda tus sesiones
+de control de la ira<tag a="110" b="0" />
+Mira, como es una emergencia,
+esta vez no te cobraré nada,<delay8 />
+¡pero no te acostumbres!<endTag a="100" b="5" /></message>
+	<message label="042_03" attrib="00 00 13"><tag a="100" b="5" /><10_10 /><tag a="10" b="12" />　　<size value="150" />¡OYE!<size value="100" /><delay20 /><10_9 /><pageBreak />¡Otra vez no tienes millas suficientes
+para pagar!<delay20 /> ¿Cómo puedes ir así por
+la vida, <gender2 m="muchachito" f="muchachita" />?
+¿Acaso crees que gozas de
+privilegios únicos y especiales?<pageBreak />Supongo que por tratarse de una
+emergencia tendré que ayudarte
+sin cobrar<tag a="110" b="0" /> ¡otra vez!<endTag a="100" b="5" /></message>
+	<message label="042_04" attrib="00 00 13"><tag a="100" b="5" />Y ya que lo hago por pura caridad,
+voy a llevarte donde me dé la gana.<delay20 />
+Es lo que hay.<endTag a="100" b="5" /></message>
+	<message label="043" attrib="00 00 13"><tag a="100" b="5" />Por cierto, como vas acompañad<gender2 m="o" f="a" />,
+se irán directo a la <colour id="1" />plaza<colour id="65535" />.<endTag a="100" b="5" /></message>
+	<message label="044_01" attrib="06 00 13">Listo. ¿<tag a="100" b="5" />Dónde quieres que te lleve?<endTag a="100" b="5" /></message>
+	<message label="044_01_a" attrib="00 00 13">A casa</message>
+	<message label="044_01_b" attrib="00 00 13">A la plaza</message>
+	<message label="044_01_c" attrib="00 00 13">Al aeródromo</message>
+	<message label="044_01_d" attrib="00 00 13">Ya no quiero</message>
+	<message label="044_02" attrib="06 00 13">Listo. ¿<tag a="100" b="5" />Dónde quieres que te lleve?<endTag a="100" b="5" /></message>
+	<message label="044_02_a" attrib="00 00 13">A mi tienda de campaña</message>
+	<message label="044_02_b" attrib="00 00 13">A la plaza</message>
+	<message label="044_02_c" attrib="00 00 13">Al aeródromo</message>
+	<message label="044_02_d" attrib="00 00 13">Cambié de idea</message>
+	<message label="044_03" attrib="08 00 13">Listo. ¿<tag a="100" b="5" />Dónde quieres que te lleve?<endTag a="100" b="5" /></message>
+	<message label="044_03_a" attrib="00 00 13">A casa</message>
+	<message label="044_03_b" attrib="00 00 13">A la plaza</message>
+	<message label="044_03_c" attrib="00 00 13">A la tienda</message>
+	<message label="044_03_d" attrib="00 00 13">Al aeródromo</message>
+	<message label="044_03_e" attrib="00 00 13">Ya no quiero</message>
+	<message label="045" attrib="04 00 13"><tag a="100" b="5" />Por cierto,<delay20 /> todavía no tienes
+un lugar donde vivir, ¿no?<pageBreak />Tendrás que decirme adónde
+quieres que te lleve<tag a="110" b="0" /><endTag a="100" b="5" /></message>
+	<message label="045_a" attrib="00 00 13">A la plaza</message>
+	<message label="045_b" attrib="00 00 13">Al aeródromo</message>
+	<message label="045_c" attrib="00 00 13">Ya no quiero</message>
+	<message label="046" attrib="06 00 13"><tag a="100" b="5" />Por cierto,<delay20 /> todavía no tienes
+un lugar donde vivir, ¿no?<pageBreak />Tendrás que decirme adónde
+quieres que te lleve<tag a="110" b="0" /><endTag a="100" b="5" /></message>
+	<message label="046_a" attrib="00 00 13">A la plaza</message>
+	<message label="046_b" attrib="00 00 13">A la tienda</message>
+	<message label="046_c" attrib="00 00 13">Al aeródromo</message>
+	<message label="046_d" attrib="00 00 13">Ya no quiero</message>
+	<message label="047" attrib="08 00 13">Listo. ¿<tag a="100" b="5" />Dónde quieres que te lleve?<endTag a="100" b="5" /></message>
+	<message label="047_a" attrib="00 00 13">A mi tienda de campaña</message>
+	<message label="047_b" attrib="00 00 13">A la plaza</message>
+	<message label="047_c" attrib="00 00 13">A la tienda</message>
+	<message label="047_d" attrib="00 00 13">Al aeródromo</message>
+	<message label="047_e" attrib="00 00 13">Ya no quiero</message>
+	<message label="048" attrib="02 00 13"><tag a="100" b="5" />Rayos<tag a="110" b="0" /><delay20 /> Qué viajecito hiciste<tag a="110" b="0" /><pageBreak />No tengo información cartográfica
+de esa isla,<delay8 /> así que voy a dejarte
+<colour id="1" />donde aterrizan los aviones<colour id="65535" />.
+¿Te parece?<endTag a="100" b="5" /></message>
+	<message label="048_a" attrib="00 00 13">¡Sí, porfa!</message>
+	<message label="048_b" attrib="00 00 13">Ya no quiero</message>
+	<message label="050_01" attrib="00 00 13"><tag a="100" b="5" />¿A tu tienda de campaña?<delay8 />
+¡Dicho y hecho!<endTag a="100" b="5" /></message>
+	<message label="050_02" attrib="00 00 13"><tag a="100" b="5" />¿A tu casa?<delay8 /> ¡Dalo por hecho!<endTag a="100" b="5" /></message>
+	<message label="050_03" attrib="00 00 13"><tag a="100" b="5" />¿A la plaza?<delay8 /> ¡Perfecto!<endTag a="100" b="5" /></message>
+	<message label="050_04" attrib="00 00 13"><tag a="100" b="5" />¿A la tienda de la isla?<delay8 /> ¡De acuerdo!<endTag a="100" b="5" /></message>
+	<message label="050_05" attrib="00 00 13" />
+	<message label="050_06" attrib="00 00 13"><tag a="100" b="5" />Listo,<delay8 /> ¡pues abróchate el cinturón
+que allá vamos!<endTag a="100" b="5" /></message>
+	<message label="050_07" attrib="00 00 13"><tag a="100" b="5" />¡Pues allá vamos!<delay8 /> ¡Cambio y fuera,<delay8 />
+o como se diga!<endTag a="100" b="5" /></message>
+	<message label="051" attrib="00 00 13"><tag a="60" b="20" /></message>
+	<message label="051_01" attrib="00 00 13"><tag a="100" b="5" />Mmm<tag a="110" b="0" />
+　　　　　　　 <size value="75" />¿Qué botón era?<tag a="110" b="0" /><size value="100" /><endTag a="100" b="5" /></message>
+	<message label="051_02" attrib="00 00 13"><tag a="100" b="5" />Veamos<tag a="110" b="0" />
+<size value="75" />　　　　　　　          ¿Era este botón?<size value="100" /><endTag a="100" b="5" /></message>
+	<message label="051_03" attrib="00 00 13"><tag a="100" b="5" />A ver<tag a="110" b="0" />
+　　　　 <size value="75" />¡Rayos! Odio estas cosas<tag a="110" b="0" /><size value="100" /><endTag a="100" b="5" /></message>
+	<message label="052" attrib="00 00 13"><tag a="100" b="5" />Bien, creo que ya lo tengo.<delay8 />
+Ahora lo comprobaremos.<endTag a="100" b="5" /></message>
+	<message label="053" attrib="00 00 14"><tag a="10" b="12" />          <tag a="100" b="2" /><size value="150" />¡EN CAMINO!<size value="100" /><endTag a="100" b="2" /><10_8 arg="30" /></message>
+	<message label="061" attrib="00 00 13"><tag a="100" b="5" />¡Listo!<delay20 /> Fin del viaje.<endTag a="100" b="5" /></message>
+	<message label="062" attrib="00 00 13"><tag a="100" b="5" />Ah, sí,<delay8 /> una última cosa<tag a="110" b="0" /><endTag a="100" b="5" /></message>
+	<message label="063" attrib="00 00 13"><tag a="60" b="20" /></message>
+	<message label="063_01" attrib="00 00 13"><tag a="100" b="5" />Una isla es como un saco de
+papas:<delay8 /> si la llenas mucho,
+se rompe.
+La clave es la moderación.<endTag a="100" b="5" /></message>
+	<message label="063_02" attrib="00 00 13"><tag a="100" b="5" />Ahora que está la función de
+autoguardado ya no puedes resetear
+el progreso en <tag a="110" b="33" />.<endTag a="100" b="5" /></message>
+	<message label="063_03" attrib="00 00 13"><tag a="100" b="5" />No intentes abarcarlo todo de golpe.
+Dedícale su tiempo a cada cosa,
+tanto en la isla como en la vida.<endTag a="100" b="5" /></message>
+	<message label="064" attrib="00 00 13"><tag a="60" b="20" /></message>
+	<message label="064_01" attrib="00 00 13"><tag a="100" b="5" />Una isla es como un saco de
+papas:<delay8 /> si la llenas mucho,
+se rompe.
+La clave es la moderación.<endTag a="100" b="5" /></message>
+	<message label="064_02" attrib="00 00 13"><tag a="100" b="5" />Ahora que está la función de
+autoguardado ya no puedes resetear
+el progreso en <tag a="110" b="33" />.<endTag a="100" b="5" /></message>
+	<message label="064_03" attrib="00 00 13"><tag a="100" b="5" />No necesitas estudiar astrofísica
+para conseguir muchas millas Nook.<pageBreak />Por ejemplo, te dan millas por usar
+la <colour id="1" />terminal Nook <colour id="65535" />todos los días.<delay20 />
+¡No lo olvides!<endTag a="100" b="5" /></message>
+	<message label="201" attrib="06 00 17">¿Abro la aplicación <colour id="1" />Obras públicas
+<colour id="65535" />y empiezo a trabajar?</message>
+	<message label="201_a" attrib="00 00 17">¡Sí!</message>
+	<message label="201_b" attrib="00 00 17">Servicio de limpieza</message>
+	<message label="201_c" attrib="00 00 17">Ver el manual</message>
+	<message label="201_d" attrib="00 00 17">No</message>
+	<message label="202" attrib="00 00 20">Solicitando el permiso de obras<tag a="110" b="0" /><10_8 arg="60" /></message>
+	<message label="202_01" attrib="00 00 20">¡La aplicación <colour id="1" />Obras públicas<colour id="65535" /> está
+lista! Por tu seguridad, trabaja
+siempre con el casco puesto.</message>
+	<message label="205" attrib="06 00 17">¿Dejo ya de trabajar en las obras
+públicas?</message>
+	<message label="205_a" attrib="00 00 17">Sí, ya terminé</message>
+	<message label="205_b" attrib="00 00 17">Servicio de limpieza</message>
+	<message label="205_c" attrib="00 00 17">Ver el manual</message>
+	<message label="205_d" attrib="00 00 17">No, quiero seguir</message>
+	<message label="206" attrib="00 00 20">¡Error de conexión!<10_8 arg="30" /></message>
+	<message label="207" attrib="00 00 17">La conexión no es muy buena.
+Debería <colour id="1" />levantarme <colour id="65535" />e intentarlo
+de nuevo.</message>
+	<message label="208" attrib="00 00 17" />
+	<message label="209" attrib="00 00 20">Estás <colour id="1" />fuera de la zona de servicio<colour id="65535" />.
+Solo puedes usar esta aplicación en <tag a="110" b="34" /> al aire libre.</message>
+	<message label="210" attrib="00 00 20">Cerrando la aplicación<tag a="110" b="0" /><10_8 arg="60" /></message>
+	<message label="211" attrib="00 00 20">¡Se cerró la aplicación! Esperamos
+que vuelvas a usar pronto este
+servicio.</message>
+	<message label="212" attrib="00 09 21">No puedo usar la aplicación <colour id="1" />Obras públicas<colour id="65535" /> mientras las puertas del
+<colour id="1" />aeródromo<colour id="65535" /> estén abiertas.</message>
+	<message label="213" attrib="00 09 21">No puedo usar la aplicación
+<colour id="1" />Obras públicas<colour id="65535" /> mientras tenga
+visita en la isla.</message>
+	<message label="214" attrib="00 09 21">La comunicación inalámbrica
+está activada. Si la desactivo en el
+aeródromo, podré usar la aplicación.</message>
+	<message label="221" attrib="00 00 20">¡La aplicación <colour id="1" />Obras públicas<colour id="65535" />
+está lista!</message>
+	<message label="221_01" attrib="00 00 20">Usa el <colour id="1" />botón  <colour id="65535" />para cambiar entre
+las distintas opciones. Para más
+información, consulta el <colour id="1" />manual<colour id="65535" />.</message>
+	<message label="221_02" attrib="00 00 20">Oprime <colour id="1" /> <colour id="65535" />o <colour id="1" /> <colour id="65535" />para cambiar entre
+las distintas opciones al usar
+el control Joy-Con en horizontal.
+Consulta el <colour id="1" />manual <colour id="65535" />para más
+información.</message>
+	<message label="222" attrib="00 00 20"><colour id="0" />Notificación<colour id="65535" />
+Se añadió el <colour id="1" />permiso
+de obras fluviales<colour id="65535" />.</message>
+	<message label="223" attrib="00 00 20"><colour id="0" />Notificación<colour id="65535" />
+Se añadió el <colour id="1" />permiso de desniveles<colour id="65535" />.</message>
+	<message label="224" attrib="00 00 20"><colour id="0" />Notificación<colour id="65535" />
+Se añadieron el <colour id="1" />permiso de obras
+fluviales <colour id="65535" />y el <colour id="1" />permiso de desniveles<colour id="65535" />.</message>
+	<message label="225" attrib="00 00 20">Usa el <colour id="1" />botón  <colour id="65535" />para cambiar entre
+las opciones. Consulta el <colour id="1" />manual
+<colour id="65535" />para más información.</message>
+	<message label="225_01" attrib="00 00 20">Oprime <colour id="1" /> <colour id="65535" />o <colour id="1" /> <colour id="65535" />para cambiar entre
+las opciones al usar el control
+Joy-Con en horizontal.
+Consulta el <colour id="1" />manual<colour id="65535" /> para más
+información.</message>
+	<message label="241" attrib="00 00 20">Sobre la aplicación <colour id="1" />Obras públicas<colour id="65535" /><pageBreak /><colour id="0" />Empezar y terminar las obras<colour id="65535" />
+Usa la aplicación tanto para empezar
+como para terminar la obra.</message>
+	<message label="241_01_00" attrib="00 00 20"><colour id="0" />Cambiar de permiso<colour id="65535" />
+Mientras trabajes, puedes oprimir
+<colour id="1" /><colour id="65535" /> para cambiar de permiso.</message>
+	<message label="241_01_01" attrib="00 00 20"><colour id="0" />Cambiar de permiso<pageBreak /><colour id="65535" />Cuando uses el control Joy-Con
+en horizontal, usa <colour id="1" /> <colour id="65535" />o <colour id="1" /> <colour id="65535" />para
+cambiar de permiso.</message>
+	<message label="241_02" attrib="00 00 20">Ten en cuenta que los permisos de
+la aplicación <colour id="1" />Obras públicas <colour id="65535" />solo
+son válidos en <tag a="110" b="9" />.<pageBreak />Si sales de la isla, la aplicación
+se cerrará y no podrás seguir
+trabajando.
+Por tu seguridad, trabaja siempre
+con el casco puesto.</message>
+	<message label="242" attrib="00 00 20">Guía para construir caminos
+Oprime <colour id="1" /> <colour id="65535" />en zonas de césped
+para poner o quitar caminos.</message>
+	<message label="242_00_01" attrib="00 00 20">Guía para construir caminos
+Oprime <colour id="1" /> <colour id="65535" />en zonas de césped
+para poner o quitar caminos.</message>
+	<message label="242_01_00" attrib="00 00 20"><colour id="0" />Elegir diseños para los caminos<colour id="65535" />
+Oprime <colour id="1" /> <colour id="65535" />para seleccionar un
+diseño.</message>
+	<message label="242_01_01" attrib="00 00 20"><colour id="0" />Elegir diseños para los caminos<colour id="65535" /><pageBreak />Cuando uses el control Joy-Con
+en horizontal, usa <colour id="1" /> <colour id="65535" />o <colour id="1" /> <colour id="65535" />para
+seleccionar un diseño.</message>
+	<message label="243" attrib="00 00 20">Guía de obras fluviales<pageBreak />Oprime <colour id="1" /> <colour id="65535" />para cavar en la tierra y
+crear nuevos ríos, estanques, etc.,
+o modificar los ya existentes.
+<colour id="0" />Crear cascadas<colour id="65535" />
+Cava en el borde de un desnivel
+para crear <colour id="1" />cascadas<colour id="65535" />.</message>
+	<message label="243_01" attrib="00 00 20">Guía de obras fluviales<pageBreak />Oprime <colour id="1" /> <colour id="65535" />para cavar en la tierra y
+crear nuevos ríos, estanques, etc.,
+o modificar los ya existentes.
+<colour id="0" />Crear cascadas<colour id="65535" />
+Cava en el borde de un desnivel
+para crear <colour id="1" />cascadas<colour id="65535" />.</message>
+	<message label="244" attrib="00 00 20">Guía de desniveles<pageBreak />Oprime <colour id="1" /> <colour id="65535" />para construir desniveles,
+redondear los bordes de un desnivel
+o para destruirlo.
+<colour id="0" />Sobreponer desniveles<colour id="65535" />
+Puedes apilar hasta dos desniveles,
+uno encima del otro.
+No puedes colocar desniveles en
+los bordes, es necesario tener una
+superficie ancha.
+<colour id="0" />Destruir cascadas<colour id="65535" />
+Primero, usa el permiso de obras
+fluviales para quitar la cascada.
+Luego podrás destruir el desnivel
+libremente.</message>
+	<message label="244_01" attrib="00 00 20">Guía de desniveles<pageBreak />Oprime <colour id="1" /> <colour id="65535" />para construir desniveles,
+redondear los bordes de un desnivel
+o para destruirlo.
+<colour id="0" />Sobreponer desniveles<colour id="65535" />
+Puedes apilar desniveles de
+manera escalonada.
+No puedes colocar desniveles cerca
+de bordes, es necesario tener una
+meseta amplia para hacerlo.
+<colour id="0" />Destruir cascadas<colour id="65535" />
+Primero, usa el permiso de obras
+fluviales para quitar la cascada.
+Luego podrás reducir libremente
+la altura del desnivel.</message>
+	<message label="245" attrib="00 00 20"><colour id="1" />Servicio de limpieza<colour id="65535" /><pageBreak />Este servicio es útil durante las
+obras públicas, en las que es común
+terminar con objetos que estorban.
+Retira muebles o vallas <colour id="1" />que estén
+a tu alrededor<colour id="65535" /> aunque estén fuera
+de tu alcance (p. ej. terreno elevado).
+Asegúrate de acercarte al objeto
+que quieres retirar antes de solicitar
+el <colour id="1" />servicio de limpieza<colour id="65535" />.
+Los objetos recolectados se enviarán
+al <colour id="1" />depósito de reciclaje<colour id="65535" /> de la <colour id="1" />oficina
+de gestión<colour id="65535" />. ¡No olvides recogerlos!</message>
+	<message label="251" attrib="06 00 17">¿Qué debería consultar?</message>
+	<message label="251_a" attrib="00 00 17">Guía básica</message>
+	<message label="251_b" attrib="00 00 17">Construir caminos</message>
+	<message label="251_c" attrib="00 00 17">Servicio de limpieza</message>
+	<message label="251_d" attrib="00 00 17">Dejar de leer</message>
+	<message label="251_01" attrib="08 00 17">¿Qué debería consultar?</message>
+	<message label="251_01_a" attrib="00 00 17">Guía básica</message>
+	<message label="251_01_b" attrib="00 00 17">Construir caminos</message>
+	<message label="251_01_c" attrib="00 00 17">Obras fluviales</message>
+	<message label="251_01_d" attrib="00 00 17">Servicio de limpieza</message>
+	<message label="251_01_e" attrib="00 00 17">Dejar de leer</message>
+	<message label="251_02" attrib="08 00 17">¿Qué debería consultar?</message>
+	<message label="251_02_a" attrib="00 00 17">Guía básica</message>
+	<message label="251_02_b" attrib="00 00 17">Construir caminos</message>
+	<message label="251_02_c" attrib="00 00 17">Desniveles</message>
+	<message label="251_02_d" attrib="00 00 17">Servicio de limpieza</message>
+	<message label="251_02_e" attrib="00 00 17">Dejar de leer</message>
+	<message label="251_03" attrib="0a 00 17">¿Qué debería consultar?</message>
+	<message label="251_03_a" attrib="00 00 17">Guía básica</message>
+	<message label="251_03_b" attrib="00 00 17">Construir caminos</message>
+	<message label="251_03_c" attrib="00 00 17">Obras fluviales</message>
+	<message label="251_03_d" attrib="00 00 17">Desniveles</message>
+	<message label="251_03_e" attrib="00 00 17">Servicio de limpieza</message>
+	<message label="251_03_f" attrib="00 00 17">Dejar de leer</message>
+	<message label="261" attrib="00 00 20">Durante las obras de construcción,
+es posible que te tropieces con
+pequeños inconvenientes.
+Quizá un objeto te estorbe para
+moverte o no puedas recoger algo
+de un desnivel cercano.
+En estos casos, el <colour id="1" />servicio de
+limpieza<colour id="65535" /> te será útil: puede retirar
+cualquier decoración circundante.
+Los objetos retirados se guardarán
+en el <colour id="1" />depósito de reciclaje<colour id="65535" /> de la
+<colour id="1" />oficina de gestión vecinal<colour id="65535" />.<pageBreak />Para obtener más información,
+consulta el manual de la aplicación.</message>
+	<message label="262" attrib="02 00 20">¿Quieres que los objetos cercanos
+se envíen al depósito de reciclaje
+de la oficina de gestión vecinal?</message>
+	<message label="262_a" attrib="00 00 20">Sí, despeja la zona</message>
+	<message label="262_b" attrib="00 00 20">No por ahora</message>
+	<message label="263" attrib="00 00 20">¡Entendido!<delay20 /> Espera un momento
+mientras limpiamos la zona.</message>
+	<message label="264" attrib="00 00 20">¡Tarea completada!<delay20 /> No olvides
+recoger los objetos del <colour id="1" />depósito de
+reciclaje<colour id="65535" /> de la <colour id="1" />oficina de gestión<colour id="65535" />.</message>
+	<message label="265" attrib="00 00 20">No se ha podido retirar nada.<pageBreak />El servicio de limpieza solo retira
+los objetos o vallas que estén
+al rededor de ti.</message>
+	<message label="301" attrib="00 00 17">Parece que la aplicación del mapa
+no funciona en esta isla.</message>
+	<message label="311" attrib="00 00 17">Dice que estoy fuera de la zona de
+servicio. Supongo que no puedo
+usar la aplicación aquí.</message>
+	<message label="999" attrib="00 00 13"><colour id="1" />100 <colour id="65535" />millas</message>
+</msbt>

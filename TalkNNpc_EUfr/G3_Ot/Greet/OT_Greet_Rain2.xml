@@ -1,0 +1,31 @@
+<msbt attribsize="8">
+	<message label="001" attrib="00 00 00 01 00 07 00 00"><tag a="60" b="7" arg="0x710 0x800 0xcd00" /></message>
+	<message label="002" attrib="00 00 00 01 00 03 00 00"><tag a="60" b="7" arg="0x910 0xa00 0xcd00" /></message>
+	<message label="003" attrib="00 00 00 01 00 04 00 00"><tag a="60" b="7" arg="0xb10 0xc00 0xcd00" /></message>
+	<message label="004" attrib="00 00 00 01 00 09 00 00"><tag a="60" b="7" arg="0xd10 0xe00 0xcd00" /></message>
+	<message label="005" attrib="00 00 0c 01 00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />Re-bonjour,<delay8 /> <tag a="110" b="3" />.<delay40 />
+<anim id="Nodding" target="actor" targetSpec="" />Je regardais la pluie tomber sur
+les pétales des fleurs.<setNpcTalkChoices chatOption="0" cancelOption="1" /></message>
+	<message label="007" attrib="00 00 0c 00 00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />Tiens, c'est encore toi.<delay40 /><anim id="FaintSmile" target="actor" targetSpec="" /> Je profite
+au maximum de la pluie, comme
+tu peux le voir.<setNpcTalkChoices chatOption="1" cancelOption="1" /></message>
+	<message label="008" attrib="00 00 0c 00 00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />Oh,<delay8 /> re-bonjour !<delay40 /><anim id="Thinking" target="actor" targetSpec="" /> Dis,<delay8 /> penses-tu
+que cette pluie cessera bientôt,
+<tag a="110" b="6" /> ?<setNpcTalkChoices chatOption="0" cancelOption="0" /></message>
+	<message label="009" attrib="00 00 0c 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Tiens donc, <tag a="110" b="3" /> !<delay40 />
+<anim id="HappyDance" target="actor" targetSpec="" />La pluie,<delay8 /> c'est la nourriture de
+l'âme, <tag a="110" b="6" /> !<setNpcTalkChoices chatOption="0" cancelOption="1" /></message>
+	<message label="010" attrib="00 00 0c 00 00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />Ma parole, encore toi !<delay40 /><anim id="Nodding" target="actor" targetSpec="" /> Le sol peut
+être glissant quand il pleut,<anim id="FaintSmile" target="actor" targetSpec="" /> alors
+fais attention, <tag a="110" b="6" />.<setNpcTalkChoices chatOption="0" cancelOption="1" /></message>
+	<message label="011" attrib="00 00 0c 00 00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />Profites-tu bien de la pluie ?<delay40 /> <anim id="Negative" target="actor" targetSpec="" />Rester
+chez soi par un temps pareil serait
+un terrible gâchis, <tag a="110" b="6" /><tag a="110" b="0" /><setNpcTalkChoices chatOption="0" cancelOption="1" /></message>
+	<message label="012" attrib="00 00 0c 00 00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />Ah, les promenades sous la pluie<tag a="110" b="0" />
+Ça peut avoir son charme, tu sais.<setNpcTalkChoices chatOption="0" cancelOption="0" /></message>
+	<message label="013" attrib="00 00 0c 00 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Pourquoi je n'ai pas mon parapluie ?<delay40 />
+<anim id="Love" target="actor" targetSpec="" />Car j'adore la pluie, <tag a="110" b="6" /> !<setNpcTalkChoices chatOption="0" cancelOption="1" /></message>
+	<message label="014" attrib="00 00 0c 00 00 00 00 00"><anim id="AbsentMindedness" target="actor" targetSpec="" />Ah, être à deux sous le même
+parapluie<tag a="110" b="0" /><delay40 /> <anim id="Blushing" target="actor" targetSpec="" />Pardon, ce temps me
+rend nostalgique, <tag a="110" b="6" />.<setNpcTalkChoices chatOption="1" cancelOption="1" /></message>
+</msbt>

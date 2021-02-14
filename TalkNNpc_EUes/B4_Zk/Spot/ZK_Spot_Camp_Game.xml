@@ -1,0 +1,85 @@
+<msbt attribsize="8">
+	<message label="001" attrib="00 00 01 00 00 00 00 00"><anim id="IdeaBulb" target="actor" targetSpec="" />Oye, ¡tengo una idea! ¿Qué te parece
+si apostamos algo en un juego?<pageBreak /><anim id="QuestionMark" target="actor" targetSpec="" />¿Con qué podría convencerte?<delay20 /> <anim id="Thinking" target="actor" targetSpec="" />A ver
+que piense<tag a="110" b="0" /><delay20 /> <anim id="Grin" target="actor" targetSpec="" />¡Ya sé!<delay20 /> Si ganas,<delay8 /> ¡te
+doy mi <tag a="125" b="0" arg="0x0" />!</message>
+	<message label="001_a" attrib="00 00 00 00 00 00 00 00">¡Me apunto!</message>
+	<message label="001_b" attrib="00 00 00 00 00 00 00 00">Ahora no...</message>
+	<message label="002" attrib="00 00 01 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />¡Así me gusta!<delay20 /> Bien, ¿te explico
+el funcionamiento del juego?</message>
+	<message label="002_a" attrib="00 00 00 00 00 00 00 00">Sí, porfa</message>
+	<message label="002_b" attrib="00 00 00 00 00 00 00 00">¡No hace falta!</message>
+	<message label="003" attrib="00 00 00 00 00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Pues qué lástima<tag a="110" b="0" /><delay8 /> Bueno, si cambias
+de opinión avísame, ¿vale?<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />¡Que sepas que muchos seguidores
+de mi blog se pelearían por poder
+jugar conmigo, <tag a="110" b="6" />!</message>
+	<message label="004" attrib="00 00 00 00 00 00 00 00"><anim id="NpcShuffle" target="actor" targetSpec="" />¡De acuerdo!<delay20 /> ¡Pues a barajar se ha
+dicho! <delay8 />¿Sabías que tengo un talento
+natural para ello?</message>
+	<message label="005" attrib="00 00 00 00 00 00 00 00"><anim id="Grin" target="actor" targetSpec="" />Veamos a quién le ha sonreído
+la fortuna y <delay20 />a quién no.</message>
+	<message label="006_01" attrib="00 00 00 00 00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Bueno, soy <tag a="50" b="2" /><tag a="110" b="15" /> de
+palabra, así que <anim id="Nodding" target="actor" targetSpec="" />puedes quedarte
+con mi <tag a="125" b="0" arg="0x0" />.</message>
+	<message label="006_02" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Lo prometido es deuda.<delay20 /> ¡Quédate
+con mi <tag a="125" b="0" arg="0x0" />!</message>
+	<message label="006_03" attrib="00 00 00 00 00 00 00 00"><anim id="HappyDance" target="actor" targetSpec="" />¡Bravo!<delay20 /> ¡He ganado! <delay20 /><anim id="Clapping" target="actor" targetSpec="" />Y tú has
+perdid<tag a="110" b="0" /><delay20 /> <anim id="Blushing" target="actor" targetSpec="" />Esto<tag a="110" b="0" /><delay20 /> Bueno,<delay8 /> ya tendrás
+mejor suerte la próxima vez.</message>
+	<message label="007_01" attrib="00 00 00 00 00 00 00 00"><anim id="Frantic" target="actor" targetSpec="" />No me explico cómo ha podido
+ocurrir<tag a="110" b="0" /><delay8 /> ¡Es la primera vez que
+pierdo en años!
+<anim id="ShyBoy" target="actor" targetSpec="" /><colour id="4" />(Si no contamos aquella vez que me
+presenté al concurso de talentos<tag a="110" b="0" />)<colour id="65535" /><pageBreak /><anim id="Greeting" target="actor" targetSpec="" />¡Espero que algún día me concedas
+la revancha, <tag a="110" b="6" />!</message>
+	<message label="007_03" attrib="00 00 00 00 00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Las victorias solo se disfrutan si
+también sufrimos derrotas de vez
+en cuando, <anim id="EmotEnd" target="actor" targetSpec="" />así que<tag a="110" b="0" /><delay20 /> ¡de nada!</message>
+	<message label="008" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Pues venga,<delay8 /> <anim id="EmotEnd" target="actor" targetSpec="" />¡que dé comienzo el
+juego!<pageBreak /><anim id="Negative" target="actor" targetSpec="" />¡Espera,<delay8 /> espera!<delay20 /> <anim id="Oops" target="actor" targetSpec="" />No parece que
+te quede sitio para llevarte mi
+<tag a="125" b="0" arg="0x0" /><tag a="110" b="0" />
+<anim id="AbsentMindedness" target="actor" targetSpec="" />Te espero aquí hasta que hayas
+liberado algo de espacio<tag a="110" b="0" /><delay20 /> <anim id="Aha" target="actor" targetSpec="" />¡Ejem!</message>
+	<message label="100" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />¡Ojo!<delay20 /> Tengo cuatro cartas de palos
+distintos:<delay20 /> picas (<colour id="7" />♠<colour id="65535" />),<delay8 /> tréboles (<colour id="7" />♣<colour id="65535" />),<delay8 />
+diamantes (<colour id="6" />♦<colour id="65535" />)<delay8 /> y corazones (<colour id="6" />♥<colour id="65535" />).
+<anim id="Nodding" target="actor" targetSpec="" />El juego es muy sencillito:<delay20 /> cogeré
+una carta y tú tendrás que adivinar
+de qué palo es.
+<anim id="WrySmile" target="actor" targetSpec="" />Si aciertas,<delay8 /> como premio te llevas
+mi <tag a="125" b="0" arg="0x0" />.<pageBreak /><anim id="NpcShuffle" target="actor" targetSpec="" />¡Vamos <delay20 />allá!</message>
+	<message label="101" attrib="00 00 05 00 00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Piensa con todas tus fuerzas en
+la carta que tengo en la mano<tag a="110" b="0" /><pageBreak /><anim id="QuestionMark" target="actor" targetSpec="" />¿De qué palo crees que es:<delay20 />
+corazones (<colour id="6" />♥<colour id="65535" />), diamantes (<colour id="6" />♦<colour id="65535" />),
+picas (<colour id="7" />♠<colour id="65535" />) o tréboles (<colour id="7" />♣<colour id="65535" />)?</message>
+	<message label="101_a" attrib="00 00 00 00 00 00 00 00">Corazones (<colour id="6" />♥<colour id="65535" />)</message>
+	<message label="101_b" attrib="00 00 00 00 00 00 00 00">Diamantes (<colour id="6" />♦<colour id="65535" />)</message>
+	<message label="101_c" attrib="00 00 00 00 00 00 00 00">Picas (<colour id="7" />♠<colour id="65535" />)</message>
+	<message label="101_d" attrib="00 00 00 00 00 00 00 00">Tréboles (<colour id="7" />♣<colour id="65535" />)</message>
+	<message label="102_01" attrib="00 00 00 00 00 00 06 00"><size value="150" /><tag a="10" b="12" /><anim id="Aha" target="actor" targetSpec="" />¡Pero si eran <tag a="140" b="14" arg="0xcd00" />!<delay20 /><10_9 /><pageBreak /><size value="100" /><size value="100" /><anim id="Love" target="actor" targetSpec="" />¡Qué buen ojo tienes!<size value="100" /></message>
+	<message label="102_02" attrib="00 00 00 00 00 00 06 00"><size value="150" /><tag a="10" b="12" />¡Eran <anim id="Aha" target="actor" targetSpec="" /><tag a="140" b="14" arg="0xcd00" />!<delay20 /><10_9 /><pageBreak /><size value="100" /><size value="100" /><anim id="Worried" target="actor" targetSpec="" />Siento que no haya podido
+ser, <size value="100" /><tag a="110" b="6" />.</message>
+	<message label="200" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />¡Fíjate!<delay20 /> Tengo cuatro cartas de palos
+distintos:<delay20 /> picas (<colour id="7" />♠<colour id="65535" />),<delay8 /> tréboles (<colour id="7" />♣<colour id="65535" />),<delay8 />
+diamantes (<colour id="6" />♦<colour id="65535" />)<delay8 /> y corazones (<colour id="6" />♥<colour id="65535" />).
+<anim id="Nodding" target="actor" targetSpec="" />El juego es facilísimo:<delay20 /> yo cojo
+una carta y tú debes adivinar
+de qué color es el palo.
+<anim id="WrySmile" target="actor" targetSpec="" />Por ejemplo, si eliges <colour id="6" />rojo<colour id="65535" /> y la carta
+era de <colour id="6" />♥ <colour id="65535" />o <colour id="6" />♦<colour id="65535" />,<delay8 /> ¡te puedes quedar con
+mi <tag a="125" b="0" arg="0x0" />!
+<anim id="NpcShuffle" target="actor" targetSpec="" />¡Vamos al grano!<delay20 /> Barajo un poco y<tag a="110" b="0" /></message>
+	<message label="201" attrib="00 00 01 00 00 00 00 00"><anim id="Scheming" target="actor" targetSpec="" />¡Aquí está la carta!<pageBreak /><anim id="QuestionMark" target="actor" targetSpec="" />¿De qué color crees que es el palo?<delay20 />
+¿«<colour id="6" />Rouge<colour id="65535" />» o «<colour id="7" />noir<colour id="65535" />»?<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Ah, perdona. A veces me olvido
+de que no todo el mundo domina
+los idiomas. <delay20 />Probaré otra vez.
+<anim id="QuestionMark" target="actor" targetSpec="" />¿Crees que el palo es <colour id="6" />rojo <colour id="65535" />o <colour id="7" />negro<colour id="65535" />?</message>
+	<message label="201_a" attrib="00 00 00 00 00 00 00 00"><colour id="6" />Rojo<colour id="65535" /></message>
+	<message label="201_b" attrib="00 00 00 00 00 00 00 00"><colour id="7" />Negro<colour id="65535" /></message>
+	<message label="202_01" attrib="00 00 00 00 00 00 06 00"><size value="150" /><tag a="10" b="12" />Es de <anim id="Aha" target="actor" targetSpec="" /><tag a="140" b="14" arg="0xcd00" /><tag a="110" b="0" /><delay20 /> ¡Ergo <colour id="6" />rojo<colour id="65535" />!<delay frames="40" /><10_9 /><pageBreak /><anim id="SmugFace" target="actor" targetSpec="" /><size value="100" />¡Has acertado de pleno, <tag a="110" b="6" />!</message>
+	<message label="202_02" attrib="00 00 00 00 00 00 06 00"><size value="150" /><tag a="10" b="12" />Es de <anim id="Aha" target="actor" targetSpec="" /><tag a="140" b="14" arg="0xcd00" /><tag a="110" b="0" /><delay20 /> ¡Ergo <colour id="7" />negro<colour id="65535" />!<delay20 /><10_9 /><pageBreak /><size value="100" /><size value="100" /><anim id="Worried" target="actor" targetSpec="" />Se siente, <tag a="110" b="6" />.<size value="100" /></message>
+	<message label="202_03" attrib="00 00 00 00 00 00 06 00"><size value="150" /><tag a="10" b="12" />Es de <anim id="Aha" target="actor" targetSpec="" /><tag a="140" b="14" arg="0xcd00" /><tag a="110" b="0" /><delay20 /> ¡Ergo <colour id="7" />negro<colour id="65535" />!<delay20 /><10_9 /><pageBreak /><anim id="SmugFace" target="actor" targetSpec="" /><size value="100" />¡La suerte ha estado de tu lado,
+<tag a="110" b="6" />!</message>
+	<message label="202_04" attrib="00 00 00 00 00 00 06 00"><size value="150" /><tag a="10" b="12" />Es de <anim id="Aha" target="actor" targetSpec="" /><tag a="140" b="14" arg="0xcd00" /><tag a="110" b="0" /><delay20 /> ¡Ergo <colour id="6" />rojo<colour id="65535" />!<delay frames="40" /><10_9 /><pageBreak /><size value="100" /><anim id="Worried" target="actor" targetSpec="" />Mala suerte, <tag a="110" b="6" /><size value="100" />.<size value="100" /></message>
+</msbt>

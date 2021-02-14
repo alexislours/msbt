@@ -1,0 +1,93 @@
+<msbt attribsize="8">
+	<message label="001" attrib="00 00 00 00 00 00 13 00"><tag a="60" b="20" /></message>
+	<message label="001_01" attrib="00 00 00 00 00 00 13 00"><tag a="100" b="5" /><colour id="1" />哟，我是<tag a="115" b="1" arg="0xcd00" />！<delay frames="40" />
+现在<delay8 />我正准备搬家，脱不开身。<delay frames="40" />
+抱歉，下次再联络我吧！<colour id="65535" /><endTag a="100" b="5" /></message>
+	<message label="001_02" attrib="00 00 00 00 00 00 13 00"><colour id="1" /><tag a="100" b="5" /><tag a="115" b="1" arg="0xcd00" />感谢你的联络！<delay frames="40" />
+现在<delay8 />我正忙着打包搬家行李。<delay frames="40" />
+抱歉，<delay8 />之后再联络我吧！<endTag a="100" b="5" /><colour id="65535" /></message>
+	<message label="001_03" attrib="00 00 00 00 00 00 13 00"><tag a="100" b="5" /><colour id="1" />我是<tag a="115" b="1" arg="0xcd00" />。<delay frames="40" />
+现在正准备搬家！<delay frames="40" />
+难得你联络我，抱歉！<colour id="65535" /><endTag a="100" b="5" /></message>
+	<message label="001_04" attrib="00 00 00 00 00 00 13 00"><tag a="100" b="5" /><colour id="1" />我是<tag a="115" b="1" arg="0xcd00" />！<delay20 />感谢联络～！<delay frames="40" />
+现在<delay8 />正忙着收拾搬家的行李。<delay frames="30" />
+难以回应你，<delay20 />抱歉！<colour id="65535" /><endTag a="100" b="5" /></message>
+	<message label="102" attrib="00 00 00 00 00 00 13 00"><tag a="60" b="20" /></message>
+	<message label="102_01" attrib="00 00 00 00 00 00 13 00"><anim id="Shocked" target="actor" targetSpec="" />什么？<delay8 />问我要不要去露营？<delay frames="40" />
+<anim id="Smiling" target="actor" targetSpec="" />真是让人高兴的邀请啊。<delay frames="40" />
+我现在正好闲着。<tag a="110" b="6" />。</message>
+	<message label="102_02" attrib="00 00 00 00 00 00 13 00"><anim id="Shocked" target="actor" targetSpec="" />你说想让我去你那边露营？<delay frames="40" />
+<anim id="Nodding" target="actor" targetSpec="" />既然是来自你的邀请，<delay frames="30" />
+<anim id="EmotEnd" target="actor" targetSpec="" />我就去吧！<tag a="110" b="6" />。</message>
+	<message label="102_03" attrib="00 00 00 00 00 00 13 00"><anim id="Nodding" target="actor" targetSpec="" />哦哦<tag a="110" b="0" /><delay8 />邀请我露营吗？<delay frames="40" />
+<anim id="Smiling" target="actor" targetSpec="" />好啊！<delay20 />正好，<delay8 />
+我也想看看你的脸了。<tag a="110" b="6" />。</message>
+	<message label="102_04" attrib="00 00 00 00 00 00 13 00"><anim id="Shocked" target="actor" targetSpec="" />问我去不去露营？<delay20 /><anim id="FaintSmile" target="actor" targetSpec="" />好啊！<delay frames="40" />
+<anim id="EmotEnd" target="actor" targetSpec="" />我这就准备去你的<tag a="110" b="32" />，<delay20 />
+<anim id="Greeting" target="actor" targetSpec="" />你也要记得赴约啊！<tag a="110" b="6" />。</message>
+	<message label="202" attrib="00 00 00 00 00 00 13 00"><tag a="60" b="20" /></message>
+	<message label="202_01" attrib="00 00 00 00 00 00 13 00"><anim id="Eh" target="actor" targetSpec="" />你问我去不去
+你<tag a="110" b="32" />上的<colour id="1" />露营地<colour id="65535" />玩？<delay frames="40" />
+<anim id="Smiling" target="actor" targetSpec="" />好啊！<delay20 />这也算是缘分吧。<tag a="110" b="6" />。</message>
+	<message label="202_02" attrib="00 00 00 00 00 00 13 00"><anim id="Shocked" target="actor" targetSpec="" />什么，问我去不去<colour id="1" /><delay8 />露营地<colour id="65535" />？<delay frames="40" />
+<anim id="ShyBoy" target="actor" targetSpec="" />这邀请真突如其来啊。<delay frames="40" />
+<anim id="FaintSmile" target="actor" targetSpec="" />行，我去！<delay20 />反正我也没什么事干。<tag a="110" b="6" />。</message>
+	<message label="202_03" attrib="00 00 00 00 00 00 13 00"><anim id="Nodding" target="actor" targetSpec="" />原来如此，<delay8 />邀请我去露营啊。<delay frames="40" />
+<anim id="FaintSmile" target="actor" targetSpec="" />挺难得的，<delay8 />我就去吧？<delay frames="40" />
+我马上准备好，你等着！<tag a="110" b="6" />。</message>
+	<message label="202_04" attrib="00 00 00 00 00 00 13 00"><anim id="FaintSmile" target="actor" targetSpec="" />哦，<delay8 />去你的<tag a="110" b="32" />露营吗？<delay frames="40" />
+<anim id="Greeting" target="actor" targetSpec="" />这个邀请，<delay8 />我接受了！<delay frames="40" /><anim id="EmotEnd" target="actor" targetSpec="" />那么<delay8 /><tag a="110" b="0" />
+<anim id="ShyBoy" target="actor" targetSpec="" />我把帐篷收在哪里了啊？<tag a="110" b="6" />。</message>
+	<message label="301" attrib="00 00 00 00 00 00 13 00"><tag a="60" b="20" /></message>
+	<message label="301_01" attrib="00 00 00 00 00 00 13 00">你好你好，<delay8 />我是<tag a="110" b="10" />。<delay frames="40" />
+<anim id="Eh" target="actor" targetSpec="" />嗯？<delay8 />这不是<tag a="110" b="3" />吗？<delay frames="40" />
+<anim id="EmotEnd" target="actor" targetSpec="" />怎么突然联络我，<delay8 /><anim id="QuestionMark" target="actor" targetSpec="" />发生什么事吗？</message>
+	<message label="301_02" attrib="00 00 00 00 00 00 13 00">你好啊，<delay8 />我是<tag a="110" b="10" />～<delay frames="40" />
+<anim id="Eh" target="actor" targetSpec="" />咦，<delay8 />是<tag a="110" b="3" />？<delay frames="40" />
+<anim id="EmotEnd" target="actor" targetSpec="" />你联络我，<anim id="QuestionMark" target="actor" targetSpec="" />是有什么事啊？</message>
+	<message label="301_03" attrib="00 00 00 00 00 00 13 00">哟，<delay8 />我是<tag a="110" b="10" />～<delay frames="40" />
+<anim id="Smiling" target="actor" targetSpec="" />什么啊，<delay8 />这不是<tag a="110" b="3" />吗？<delay frames="40" />
+找我有何贵干？</message>
+	<message label="301_04" attrib="00 00 00 00 00 00 13 00">哟，<delay8 />久等了，<delay20 />我是<tag a="110" b="10" />。<delay frames="40" />
+<anim id="QuestionMark" target="actor" targetSpec="" /><tag a="110" b="3" />，<delay8 />发生了什么事啊？<delay frames="40" />
+你竟然会来联络我？</message>
+	<message label="302" attrib="00 00 00 00 00 00 13 00"><tag a="60" b="20" /></message>
+	<message label="302_01" attrib="00 00 00 00 00 00 13 00"><anim id="Shocked" target="actor" targetSpec="" />什么？<delay8 />在这座<tag a="110" b="32" />的<colour id="1" />露营地<colour id="65535" />露营？<delay frames="40" />
+<anim id="Thinking" target="actor" targetSpec="" />虽然偶尔在帐篷里睡觉也挺有趣的，<delay20 />
+<anim id="Negative" target="actor" targetSpec="" />不过我就算了，<delay8 />抱歉。
+我们<tag a="110" b="32" />上的<colour id="1" />露营地<colour id="65535" />，<delay8 />
+还是让从其他<tag a="110" b="32" />来的家伙们使用，<delay8 />
+<anim id="FaintSmile" target="actor" targetSpec="" />这样才热热闹闹吧？<tag a="110" b="6" />。</message>
+	<message label="302_02" attrib="00 00 00 00 00 00 13 00"><anim id="Frantic" target="actor" targetSpec="" />稍微等等<tag a="110" b="0" /><delay20 />
+刚才<delay8 />你说要我在
+<tag a="110" b="34" />上露营？！
+<anim id="Thinking" target="actor" targetSpec="" />难得要露营的话，
+我觉得还是去别的<tag a="110" b="32" />搭帐篷比较有趣<tag a="110" b="0" /><delay20 />
+<anim id="ShyBoy" target="actor" targetSpec="" />抱歉，<delay8 />我就算了。<tag a="110" b="6" />。</message>
+	<message label="302_03" attrib="00 00 00 00 00 00 13 00"><anim id="Eh" target="actor" targetSpec="" />在<tag a="110" b="34" />露营？<delay20 />
+<anim id="Laughing" target="actor" targetSpec="" />你说了有趣的话啊。<delay frames="40" />
+<anim id="EmotEnd" target="actor" targetSpec="" />这提议很不错，<delay8 /><anim id="Negative" target="actor" targetSpec="" />但是我拒绝。
+<anim id="Explain" target="actor" targetSpec="" />露营就是要在未知的地方进行<delay8 />
+才显得比较有趣。<delay frames="40" />
+<anim id="FaintSmile" target="actor" targetSpec="" />这座<tag a="110" b="32" />已经是<delay8 />我的家了。<tag a="110" b="6" />。</message>
+	<message label="302_04" attrib="00 00 00 00 00 00 13 00">你邀请我去露营，我很高兴。<delay8 />
+<anim id="OhGeez" target="actor" targetSpec="" />但是在自家<tag a="110" b="32" />上的话，我可提不起劲。<pageBreak /><anim id="ShyBoy" target="actor" targetSpec="" />就算发生什么事，
+也能马上回家，<delay20 />
+一想到这点就觉得有些扫兴啊。
+<anim id="EmotEnd" target="actor" targetSpec="" />露营啊，<delay8 />就是多少有些不方便的，
+<anim id="Hello" target="actor" targetSpec="" />所以才能品味到和日常生活不同的趣味对吧？<delay20 />
+<anim id="Nodding" target="actor" targetSpec="" />这才是它的优点啊。<tag a="110" b="6" />。<anim id="FaintSmile" target="actor" targetSpec="" /></message>
+	<message label="401" attrib="00 00 00 00 00 00 13 00"><tag a="60" b="20" /></message>
+	<message label="401_01" attrib="00 00 00 00 00 00 13 00"><anim id="FaintSmile" target="actor" targetSpec="" />你好，<delay20 />我是<tag a="110" b="10" />。<delay frames="40" />
+收到你的联络可真让我高兴啊。<delay frames="50" />
+那么，<delay8 />找我有什么事吗？</message>
+	<message label="401_02" attrib="00 00 00 00 00 00 13 00"><anim id="FaintSmile" target="actor" targetSpec="" />你好，<delay8 />我是<tag a="110" b="10" />！<delay frames="40" />
+感谢你的联络！<delay frames="50" />
+<anim id="Hello" target="actor" targetSpec="" /><tag a="110" b="0" />找我有事吗？</message>
+	<message label="401_03" attrib="00 00 00 00 00 00 13 00">你好啊～<delay20 />我是<tag a="110" b="10" />！<delay frames="40" />
+<anim id="ShyBoy" target="actor" targetSpec="" />能得到你的联络，感觉还不错！<delay frames="50" />
+<anim id="EmotEnd" target="actor" targetSpec="" />话说，<delay8 /><anim id="QuestionMark" target="actor" targetSpec="" />你找我有事吗？</message>
+	<message label="401_04" attrib="00 00 00 00 00 00 13 00"><anim id="FaintSmile" target="actor" targetSpec="" />你好！<delay8 />我是<tag a="110" b="10" />！<delay frames="40" />
+<anim id="EmotEnd" target="actor" targetSpec="" />你特意找我，<delay20 />
+<anim id="QuestionMark" target="actor" targetSpec="" />到底是有什么事？</message>
+</msbt>

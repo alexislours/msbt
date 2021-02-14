@@ -1,0 +1,58 @@
+<msbt attribsize="4">
+	<message label="001_01" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Диспетчер, прием!<delay20 /> Пингвин
+в гнезде!<delay20 /><anim id="Grin" target="actor" targetSpec="" /> Повторяю, пингвин
+в гнезде!</message>
+	<message label="001_02" attrib="00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Впервые на загадочном острове?<delay20 /><anim id="Explain" target="actor" targetSpec="" />
+Тогда тебе полагается инструктаж!<pageBreak /><anim id="Greeting" target="actor" targetSpec="" />Правило первое: кто первым встал,
+того и тапки!<delay20 /> Древесина, фрукты,
+рыба<delay8 /> — бери на здоровье!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Правило второе: сломал<gender2 m="" f="а" /> или
+забыл<gender2 m="" f="а" /> инструмент? За мили
+Нука я могу выдать тебе новый.<pageBreak /><anim id="Aha" target="actor" targetSpec="" />И главное правило — запомни его
+так, чтобы от зубов отскакивало<tag a="110" b="0" /><pageBreak /><anim id="Silent" target="actor" targetSpec="" />Если ты забудешь что-то здесь,
+пиши пропало. <delay20 />Мы на эти острова
+не возвращаемся.<pageBreak /><anim id="Serious" target="actor" targetSpec="" />Я даже план маршрута сжигаю.<delay20 />
+Конфиденциальность — это не
+шутки!<delay20 /> Больше сказать не могу.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Вроде все.<delay20 /> Можешь исследовать
+остров.<delay20 /> Спасибо,<delay20 /><anim id="AbsentMindedness" target="actor" targetSpec="" /> что выбрал<gender2 m="" f="а" />
+нашу авиалинию.</message>
+	<message label="001_03" attrib="00 00 00 00"><anim id="Assent" target="actor" targetSpec="" />Если что, я буду ждать здесь.<delay20 />
+Обращайся, если понадобится
+инструмент или захочешь обратно.<pageBreak /><anim id="BigSmile" target="actor" targetSpec="" />Все, можешь насекомых ловить
+и деревья валить!</message>
+	<message label="002" attrib="04 00 00 00">Привет, пассажир!<delay20 /><anim id="QuestionMark" target="actor" targetSpec="" /> Нужна помощь?<anim id="EmotEnd" target="actor" targetSpec="" /></message>
+	<message label="002_a" attrib="00 00 00 00">Хочу домой.</message>
+	<message label="002_b" attrib="00 00 00 00">Нужен инструмент.</message>
+	<message label="002_c" attrib="00 00 00 00"><anim id="Negative" target="player" targetSpec="" />Неважно.</message>
+	<message label="003" attrib="02 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Готов<gender2 m="" f="а" /> грузиться на борт и лететь
+назад на остров <tag a="110" b="34" />?</message>
+	<message label="003_a" attrib="00 00 00 00"><anim id="Nodding" target="player" targetSpec="" />Ага!</message>
+	<message label="003_b" attrib="00 00 00 00"><anim id="Negative" target="player" targetSpec="" />Нет, подожди<tag a="110" b="0" /></message>
+	<message label="004" attrib="00 00 00 00"><snpcAnim id="DodRoger" target="actor" targetSpec="" /><delay20 />Все понял!<delay frames="40" /> Сейчас будем в небе!</message>
+	<message label="008" attrib="00 00 00 00"><anim id="Assent" target="actor" targetSpec="" />Все понял! <delay20 />Не буду мешать.<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />Дай знать, если понадобится
+инструмент или транспорт.</message>
+	<message label="011" attrib="00 00 00 00">Инструмент? <delay20 /><anim id="Assent" target="actor" targetSpec="" />Все понял! <delay20 /><anim id="Thinking" target="actor" targetSpec="" />Сейчас
+загружу сервис<tag a="110" b="0" /></message>
+	<message label="012" attrib="00 00 00 00">Инструмент?<delay20 /> <anim id="Serious" target="actor" targetSpec="" />Извини, пассажир,<delay20 />
+у тебя грузовой отсек забит.
+<delay20 />Освободи место.</message>
+	<message label="013" attrib="00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Что, передумал<gender2 m="" f="а" />? <delay20 /><anim id="EmotEnd" target="actor" targetSpec="" />Понял!<delay20 /> Если что,
+обращайся!</message>
+	<message label="014" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="125" b="0" arg="0x0" /> сто<tag a="50" b="24" arg="0x11 0xcd00 0x2 0x438 0x2 0x438 0x2 0x438 0x2 0x44f" />т 
+<tag a="90" b="40" arg="0xcd00" />, <delay frames="30" /><anim id="Worried" target="actor" targetSpec="" />но у тебя, похоже,
+не хватает.
+<anim id="FaintSmile" target="actor" targetSpec="" />Как пополнишь баланс, обращайся.</message>
+	<message label="015" attrib="02 00 00 00"><anim id="Nodding" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="125" b="0" arg="0x0" /> сто<tag a="50" b="24" arg="0x11 0xcd00 0x2 0x438 0x2 0x438 0x2 0x438 0x2 0x44f" />т<delay8 />
+<tag a="90" b="40" arg="0xcd00" />. <anim id="QuestionMark" target="actor" targetSpec="" />По рукам?</message>
+	<message label="015_a" attrib="00 00 00 00"><anim id="Nodding" target="player" targetSpec="" />По рукам!</message>
+	<message label="015_b" attrib="00 00 00 00"><anim id="Negative" target="player" targetSpec="" />Забудь.</message>
+	<message label="016" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Понял! <delay20 /><anim id="FaintSmile" target="actor" targetSpec="" />Пользуйся на здоровье!</message>
+	<message label="017" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Если еще что понадобится —
+крякай!</message>
+	<message label="021" attrib="00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Уф! <delay20 />Напугал<gender2 m="" f="а" /> ты меня, бескрыл<gender2 m="ый" f="ая" />.
+<delay20 /><anim id="Grin" target="actor" targetSpec="" />Думал, все, додопрыгал<gender2 m="ся" f="ась" /><tag a="110" b="0" /><pageBreak /><size value="75" /><tag a="10" b="12" /><size value="100" /><snpcAnim id="DodWireless" target="actor" targetSpec="" /><size value="75" />«Додо-радар», это «Додо-1»! <delay20 />Отбой тревоги.<delay frames="90" />
+Пингвин здоров! Повторяю: пингвин здоров!
+<100_3 arg="PlaneAnnounceOn" /><delay20 /><colour id="5" />Вас понял, «Додо-1»! <delay20 />Отбой. <delay20 /><100_3 arg="PlaneAnnounceOff" /><colour id="65535" /><10_7 arg="30" />
+<anim id="EmotEnd" target="actor" targetSpec="" /><size value="100" />Если хочешь, можешь гулять
+дальше. <delay frames="40" /><anim id="FaintSmile" target="actor" targetSpec="" />Только смотри в оба!</message>
+</msbt>

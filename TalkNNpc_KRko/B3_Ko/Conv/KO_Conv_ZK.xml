@@ -1,0 +1,73 @@
+<msbt attribsize="8">
+	<message label="001" attrib="00 00 00 00 00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />음<tag a="110" b="0" />
+방금 것보단<delay8 /> 아까 그 포즈가<delay20 />
+더 괜찮았던 것 같은데<tag a="110" b="0" /></message>
+	<message label="002" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />뭐!<delay8 /> 그래?<delay20 />
+그럼 다시 표정과 함께<tag a="110" b="0" /></message>
+	<message label="003" attrib="00 00 00 00 00 00 00 00">아!<20_2 arg="6" /><delay8 /> <tag a="110" b="3" />!<20_2 arg="8" /><20_2 arg="3" /><delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />마침 잘 왔어,<delay20 />
+좀 도와주라!<pageBreak /><20_3 arg="6" /><anim id="Explain" target="actor" targetSpec="" />지금 <delay8 /><tag a="110" b="31" arg="0xcd01" /><gender5 m="이" f="가" />
+새 포즈를 개발하려고 하는데<tag a="110" b="0" />
+<anim id="Thinking" target="actor" targetSpec="" />좀처럼 정하질 못하고 있거든<pageBreak /><20_3 arg="8" /><anim id="EmotEnd" target="actor" targetSpec="" />후보 3개를<delay8 /> 보여줄 테니까<delay20 />
+니가 좀 정해주라!<10_4 />
+<anim id="Serious" target="actor" targetSpec="" />간다<tag a="110" b="0" /><pageBreak /><tag a="10" b="12" /><size value="150" />포즈 <anim id="Greeting" target="actor" targetSpec="" /><delay20 />넘버 1!<size value="100" /></message>
+	<message label="004" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" /><tag a="10" b="12" /><size value="150" />허엇!<size value="100" /></message>
+	<message label="005" attrib="00 00 00 00 00 00 00 00">다음!<pageBreak /><tag a="10" b="12" /><size value="150" />포즈 <anim id="Greeting" target="actor" targetSpec="" /><delay20 />넘버 2!<size value="100" /></message>
+	<message label="006" attrib="00 00 00 00 00 00 00 00"><anim id="Dance" target="actor" targetSpec="" /><tag a="10" b="12" /><size value="150" />하앗!<size value="100" /></message>
+	<message label="007" attrib="00 00 00 00 00 00 00 00">마지막!<pageBreak /><tag a="10" b="12" /><size value="150" />포즈 <anim id="Greeting" target="actor" targetSpec="" /><delay20 />넘버 3!<size value="100" /></message>
+	<message label="008" attrib="00 00 00 00 00 00 00 00"><anim id="SmugFace" target="actor" targetSpec="" /><tag a="10" b="12" /><size value="150" />짜잔～!<size value="100" /></message>
+	<message label="009" attrib="00 00 03 00 00 00 00 00">자, <tag a="110" b="3" /><tag a="110" b="0" /><delay20 />
+<anim id="QuestionMark" target="actor" targetSpec="" />넌 어떤 포즈가 제일 멋있는 것 같냐?</message>
+	<message label="009_a" attrib="00 00 00 00 00 00 00 00">포즈 넘버 1</message>
+	<message label="009_b" attrib="00 00 00 00 00 00 00 00">포즈 넘버 2</message>
+	<message label="009_c" attrib="00 00 00 00 00 00 00 00">포즈 넘버 3</message>
+	<message label="010" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" />오, 그래?!<delay20 />
+이거 신기한데!<delay20 />
+내 생각도 똑같거든! <tag a="110" b="6" />!</message>
+	<message label="011" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />근데, <delay8 /><tag a="110" b="31" arg="0xcd01" /><tag a="110" b="0" /><20_2 arg="7" /><delay20 />
+<anim id="QuestionMark" target="actor" targetSpec="" />포즈를 정해서<delay20 /> 뭘 하려고?</message>
+	<message label="012" attrib="00 00 00 00 00 00 00 00"><20_3 arg="7" /><anim id="FaintSmile" target="actor" targetSpec="" />그런 당연한 걸 물어보다니!<delay20 />
+<anim id="EmotEnd" target="actor" targetSpec="" />모두에게 내 매력을 어필하기 위해서지!<delay frames="40" />
+<anim id="Nodding" target="actor" targetSpec="" />아무래도 <delay8 />첫인상이 가장 중요하거든!
+<anim id="HappyDance" target="actor" targetSpec="" />새로운 포즈로<delay8 />
+모두의 마음을 사로잡는 거야! <tag a="110" b="6" />!</message>
+	<message label="013" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />나 참!<delay20 />
+<anim id="EmotEnd" target="actor" targetSpec="" />포즈보다<delay8 /> 내면이 중요하지 않나 싶은데<delay frames="40" />
+<anim id="SmugFace" target="actor" targetSpec="" />나라면 열정으로 승부하겠어! <tag a="110" b="6" />!</message>
+	<message label="014" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" /><anim id="HappyDance" target="subNpc" targetSpec="" />그래, 맞아!<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />이 중에서 제일<delay8 /> 쿨하고 멋지지!</message>
+	<message label="015" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" /><anim id="HappyFlower" target="subNpc" targetSpec="" />오! 나랑 통했네!<delay20 />
+나도 똑같이 생각했거든, <tag a="110" b="6" />!</message>
+	<message label="101" attrib="00 00 00 00 00 00 00 00">그건 그렇고 너 말이야,<delay20 />
+<anim id="OhGeez" target="actor" targetSpec="" />어떻게 그렇게<delay8 /> 끊이질 않고<delay8 />
+낯간지러운 대사가 생각나는 거냐?</message>
+	<message label="102" attrib="00 00 00 00 00 00 00 00"><anim id="Blushing" target="actor" targetSpec="" />너무 그러지 마, <delay8 /><tag a="110" b="31" arg="0xcd00" />군!<delay20 />
+그런 찬사를 들으니까 쑥스럽잖아!<anim id="Worried" target="mainNpc" targetSpec="" /><pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />난 말이지<tag a="110" b="0" />
+늘 생각을 솔직하게 표현할 뿐이야!<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />아름다운 걸 보면 아름답다고 말하지!<delay20 />
+그대도 그렇지 않아, <tag a="110" b="6" />?</message>
+	<message label="103" attrib="00 00 00 00 00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />딱히 칭찬은 아닌데<tag a="110" b="0" /><delay20 />
+<anim id="EmotEnd" target="actor" targetSpec="" />넌 대사 하나하나가 너무 작위적이야!<pageBreak />뭐였지?<delay8 /> '<anim id="AbsentMindedness" target="actor" targetSpec="" /><tag a="110" b="7" arg="0xcd00" />의 달콤쌉싸름한 맛은<delay8 />
+내 첫사랑의 추억을 불러일으켜<delay20 />'<anim id="EmotEnd" target="actor" targetSpec="" />?<10_4 />
+<anim id="Confused" target="actor" targetSpec="" />듣고 있으면 내가 다 오글거린다고!</message>
+	<message label="104" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />사실인걸?!<delay20 />
+아까 먹은 <tag a="110" b="7" arg="0xcd00" />의 달콤한 맛이<delay20 />
+<anim id="Love" target="actor" targetSpec="" />내 첫사랑의 기억을 터치했거든!</message>
+	<message label="105" attrib="00 00 00 00 00 00 00 00"><anim id="OhGeez" target="actor" targetSpec="" />히익～<delay8 /> 알았어, 알았어!<delay20 />
+이제 그만해, <tag a="110" b="6" />!</message>
+	<message label="201" attrib="00 00 00 00 00 00 00 00">나랑 넌 <anim id="OhGeez" target="actor" targetSpec="" />완전 정반대야!<delay frames="40" />
+공통점이 하나도 없어, <tag a="110" b="6" />!</message>
+	<message label="202" attrib="00 00 00 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />공통점은<delay20 /> 만들면 되는 거야!<delay frames="40" />
+<anim id="FaintSmile" target="actor" targetSpec="" />예를 들면<tag a="110" b="0" /> 그대의 말버릇!<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />나도 똑같이 쓰면 공통점이 생기는 거지!<delay20 />
+봐,<delay8 /> <tag a="110" b="6" />!<delay20 />
+금방 공통점이 생겼지?</message>
+	<message label="203" attrib="00 00 00 00 00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />말버릇만 맞추면 뭐하냐?<delay20 />
+나머지는 다 다르잖아, <tag a="110" b="6" />!</message>
+	<message label="204" attrib="00 00 00 00 00 00 00 00"><anim id="OhGeez" target="actor" targetSpec="" /><tag a="110" b="31" arg="0xcd00" />군<tag a="110" b="0" /><delay20 />
+이렇게 같은 말버릇을 쓰는 건<delay20 />
+<anim id="Assent" target="actor" targetSpec="" />우리 관계의 첫걸음일 뿐이야!<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />자, <delay8 />두 번째 공통점을 위해
+<tag a="110" b="31" arg="0xcd00" />군이 나설 차례야!<pageBreak /><anim id="HappyDance" target="actor" targetSpec="" />그대에게<delay8 /> 내 비장의 무기,<delay20 />
+<anim id="TakenAback" target="mainNpc" targetSpec="" />상대를 매혹하는 포즈를
+<anim id="Dance" target="actor" targetSpec="" />가르쳐줄게! <tag a="110" b="6" />!</message>
+	<message label="205" attrib="00 00 00 00 00 00 00 00"><anim id="OhGeez" target="actor" targetSpec="" />그건 사양한다<tag a="110" b="0" /><delay20 />
+<anim id="WrySmile" target="actor" targetSpec="" />공통점은 말버릇만으로 충분해, <tag a="110" b="6" />!</message>
+</msbt>

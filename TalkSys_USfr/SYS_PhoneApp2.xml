@@ -1,0 +1,206 @@
+<msbt attribsize="3">
+	<message label="001" attrib="00 00 00">dummy</message>
+	<message label="010" attrib="00 00 13">                      <tag a="10" b="12" /><tag a="100" b="2" />Au revoir!<endTag a="100" b="2" /><10_7 arg="20" /></message>
+	<message label="011" attrib="00 00 13"><tag a="10" b="12" />                <tag a="100" b="5" /><size value="150" />Bonjour!<size value="100" /><delay20 /><10_7 arg="15" /><pageBreak />Ici le <colour id="1" />service d'aide<colour id="65535" />. <delay frames="30" />
+Merci de cet appel.<endTag a="100" b="5" /></message>
+	<message label="011_01" attrib="00 00 13"><tag a="100" b="5" />Alors si j'ai bien compris,<delay20 /> tu es<tag a="110" b="0" /><endTag a="100" b="5" /><10_7 arg="30" /></message>
+	<message label="011_02" attrib="00 00 13"><tag a="100" b="5" />Tu te trouves actuellement<tag a="110" b="0" /><endTag a="100" b="5" /><10_7 arg="30" /></message>
+	<message label="012" attrib="00 00 13"><tag a="100" b="5" />Ah, mais zut alors!<delay frames="30" />
+Ce signal est incompréhensible!<endTag a="100" b="5" /></message>
+	<message label="012_01" attrib="00 00 13"><tag a="100" b="5" />Tu n'aurais pas de la visite,
+par hasard?<delay20 /> Quelqu'un est venu
+prendre le thé avec toi, c'est ça?
+Pour être plus clair, le système
+déraille s'il y a trop de signaux.<pageBreak />Un peu comme Sonny à la cinquième
+tasse de café<tag a="110" b="0" /><pageBreak />Alors si c'est un cas d'urgence,<delay frames="30" />
+appuie sur <colour id="1" /> <colour id="65535" />pour ouvrir le menu
+et choisis <colour id="1" />Terminer la session<colour id="65535" />!<endTag a="100" b="5" /></message>
+	<message label="012_02" attrib="00 00 13"><tag a="100" b="5" />Je pense avoir compris le problème.<pageBreak />Tu rends visite à quelqu'un sur
+une autre île, c'est ça? Et tu en
+profites pour faire du tourisme?<pageBreak />Moi, j'aime quand tout est simple,
+vois-tu.<delay20 /> Et trop de signaux d'un
+seul coup, c'est loin d'être simple.<pageBreak />Alors si c'est urgent,<delay frames="30" /> appuie sur <colour id="1" />
+<colour id="65535" />pour ouvrir le menu et choisis
+<colour id="1" />Retourner sur mon île<colour id="65535" />!<endTag a="100" b="5" /></message>
+	<message label="013" attrib="00 00 13"><tag a="100" b="5" />Alors je t'arrête tout de suite.
+Tu n'es même pas à l'extérieur,
+n'est-ce pas?
+Que je sois clair : <delay20 />le service
+ne fonctionne pas si tu es à
+l'intérieur.
+Je ne tiens pas particulièrement
+à me prendre une porte dans le nez!<pageBreak />Si tu veux mon aide, <delay20 />il faut
+que tu sortes, d'accord?<endTag a="100" b="5" /></message>
+	<message label="021_01" attrib="00 00 13"><tag a="100" b="5" />Tu es <tag a="110" b="1" /> <gender4 m="de " f="d'" />⁠<tag a="110" b="33" />, c'est bien ça?<endTag a="100" b="5" /></message>
+	<message label="021_02" attrib="00 00 13"><tag a="100" b="5" />Voyons un peu<tag a="110" b="0" /> Ah, c'est bon!<delay20 />
+Tu es <tag a="110" b="1" /> <gender4 m="de " f="d'" />⁠<tag a="110" b="33" />, c'est bien ça!<pageBreak /><anim id="Nodding" target="player" targetSpec="" /><delay frames="30" />Ça me fait plaisir d'avoir de tes
+nouvelles, même en ces piètres circonstances.<endTag a="100" b="5" /></message>
+	<message label="021_03" attrib="00 00 13"><tag a="100" b="5" />Attends un peu<tag a="110" b="0" /><delay20 /> Tu es encore
+dans le pétrin?<delay20 /><anim id="Nodding" target="player" targetSpec="" /><endTag a="100" b="5" /></message>
+	<message label="022" attrib="00 00 13" />
+	<message label="023_01" attrib="02 00 13"><tag a="100" b="5" />Le système est plutôt simple :
+je te sors de là pour <colour id="1" />100<colour id="65535" /> points
+Nook.<delay20 /> Alors?<endTag a="100" b="5" /></message>
+	<message label="023_01_a" attrib="00 00 13"><anim id="Nodding" target="player" targetSpec="" />Alors oui, à l'aide!</message>
+	<message label="023_01_b" attrib="00 00 13"><anim id="Negative" target="player" targetSpec="" />Non merci.</message>
+	<message label="023_02" attrib="02 00 13"><tag a="100" b="5" />C'est <colour id="1" />100<colour id="65535" /> points Nook le sauvetage.
+Alors, qu'est-ce que tu en penses?<endTag a="100" b="5" /></message>
+	<message label="023_02_a" attrib="00 00 13"><anim id="Nodding" target="player" targetSpec="" />Alors oui, à l'aide!</message>
+	<message label="023_02_b" attrib="00 00 13"><anim id="Negative" target="player" targetSpec="" />Non merci.</message>
+	<message label="023_03" attrib="02 00 13"><tag a="100" b="5" />Tu n'avais pas assez de points Nook
+la dernière fois, <tag a="110" b="1" />.<pageBreak />J'espère qu'aujourd'hui, tu as
+les provisions nécessaires.<delay20 />
+Alors, faut-il que je t'aide?<endTag a="100" b="5" /></message>
+	<message label="023_03_a" attrib="00 00 13"><anim id="Nodding" target="player" targetSpec="" />Alors oui, à l'aide!</message>
+	<message label="023_03_b" attrib="00 00 13"><anim id="Negative" target="player" targetSpec="" />Non merci.</message>
+	<message label="031_01" attrib="00 00 13"><tag a="100" b="5" />Vraiment?<endTag a="100" b="5" /></message>
+	<message label="031_02" attrib="00 00 13"><tag a="100" b="5" />Tu ne veux pas? Vraiment?<delay20 /> Écoute,
+ce n'est pas grave si tu n'avais pas
+les points la dernière fois.<endTag a="100" b="5" /></message>
+	<message label="032_01" attrib="00 00 13"><tag a="100" b="5" />Si tu es dans le pétrin,<delay20 /> dis-le!<endTag a="100" b="5" /></message>
+	<message label="032_02" attrib="00 00 13"><tag a="100" b="5" />Mais tu as vraiment besoin d'aide,
+non?<delay20 /> Tant pis si tu n'as pas les
+points, je suis là pour t'aider!<endTag a="100" b="5" /></message>
+	<message label="041_01" attrib="00 00 13"><tag a="100" b="5" />Très bien, et comme les bons
+comptes font les bons amis,<delay20 />
+montre-moi les <colour id="1" />100<colour id="65535" /> points Nook.<endTag a="100" b="5" /></message>
+	<message label="041_02" attrib="00 00 13"><tag a="100" b="5" />Très bien. Et comme cette fois-ci,
+tu as les fonds, j'empoche tout de
+suite les <colour id="1" />100<colour id="65535" /> pointes Nook!<endTag a="100" b="5" /></message>
+	<message label="042_01" attrib="00 00 13"><tag a="100" b="5" />Très bien! Je te rappelle que
+c'est <colour id="1" />100<colour id="65535" /> points Nook, si tu pouvais
+me les donner tout de suite<tag a="110" b="0" /><endTag a="100" b="5" /><10_7 arg="75" /></message>
+	<message label="042_02" attrib="00 00 13"><10_10 /><tag a="10" b="12" />　　 <tag a="100" b="5" /><size value="150" />Attends un peu!<size value="100" /><delay20 /><10_9 /><pageBreak />Tu t'es bien gardé<gender2 m="" f="e" /> de me dire
+que tu n'avais pas les points!<pageBreak />Je vais te laisser croupir ici alors<tag a="110" b="0" /><10_4 />
+Mais je plaisante, voyons!<delay20 />
+<delay20 />Cette fois, ce sera gratuit!<endTag a="100" b="5" /></message>
+	<message label="042_03" attrib="00 00 13"><10_10 /><tag a="10" b="12" />　　　　　 　<tag a="100" b="5" /><size value="150" />QUOIII?<size value="100" /><delay20 /><10_9 /><pageBreak /><anim id="EmotEnd" target="player" targetSpec="" />Mais pincez-moi!<delay frames="40" /> Tu es encore
+à court de points!<delay20 /> Mais qui m'a
+donné des clients pareils?!<pageBreak />Bon, ce n'est pas si grave.<delay frames="40" />
+Cette fois encore, ce sera gratuit.<endTag a="100" b="5" /></message>
+	<message label="042_04" attrib="00 00 13"><tag a="100" b="5" />Alors, vu que tu ne paies pas,<delay20 />
+je te dépose où ça m'arrange.<delay20 />
+Pas la peine de discuter.<endTag a="100" b="5" /></message>
+	<message label="043" attrib="00 00 13"><tag a="100" b="5" />Ah, au fait, comme tu n'es pas
+seul<gender2 m="" f="e" />, <delay frames="30" />je dois te déposer sur
+la <colour id="1" />place<colour id="65535" />.<endTag a="100" b="5" /></message>
+	<message label="044_01" attrib="06 00 13"><tag a="100" b="5" />Bon, maintenant que tout est en
+règle,<delay20 /> où souhaites-tu que je te
+dépose?<endTag a="100" b="5" /></message>
+	<message label="044_01_a" attrib="00 00 13">Chez moi.</message>
+	<message label="044_01_b" attrib="00 00 13">Sur la place.</message>
+	<message label="044_01_c" attrib="00 00 13">À l'aéroport.</message>
+	<message label="044_01_d" attrib="00 00 13">Finalement, j'annule.</message>
+	<message label="044_02" attrib="06 00 13"><tag a="100" b="5" />Bon, maintenant que tout est en
+règle,<delay20 /> où souhaites-tu que je te
+dépose?<endTag a="100" b="5" /></message>
+	<message label="044_02_a" attrib="00 00 13">À ma tente.</message>
+	<message label="044_02_b" attrib="00 00 13">Sur la place.</message>
+	<message label="044_02_c" attrib="00 00 13">À l'aéroport.</message>
+	<message label="044_02_d" attrib="00 00 13">Finalement, j'annule.</message>
+	<message label="044_03" attrib="08 00 13"><tag a="100" b="5" />Bon, maintenant que tout est en
+règle,<delay20 /> où souhaites-tu que je te
+dépose?<endTag a="100" b="5" /></message>
+	<message label="044_03_a" attrib="00 00 13">Chez moi.</message>
+	<message label="044_03_b" attrib="00 00 13">Sur la place.</message>
+	<message label="044_03_c" attrib="00 00 13">À la boutique.</message>
+	<message label="044_03_d" attrib="00 00 13">À l'aéroport.</message>
+	<message label="044_03_e" attrib="00 00 13">Finalement, j'annule.</message>
+	<message label="045" attrib="04 00 13"><tag a="100" b="5" />Désolé de te le dire comme ça,<delay20 />
+mais tu n'as pas encore vraiment
+de chez-toi.<pageBreak />Ce qui veut dire que je ne sais pas
+du tout où te déposer.<tag a="100" b="5" /><delay frames="40" /><endTag a="100" b="5" /> J'aurais
+rien contre un indice<tag a="110" b="0" /><endTag a="100" b="5" /></message>
+	<message label="045_a" attrib="00 00 13">Sur la place.</message>
+	<message label="045_b" attrib="00 00 13">À l'aéroport.</message>
+	<message label="045_c" attrib="00 00 13">Finalement, j'annule.</message>
+	<message label="046" attrib="06 00 13"><tag a="100" b="5" />Désolé de te le dire comme ça,<delay20 />
+mais tu n'as pas encore vraiment
+de chez-toi.<pageBreak />Ce qui veut dire que je ne sais pas
+du tout où te déposer.<tag a="100" b="5" /><delay frames="40" /><endTag a="100" b="5" /> J'aurais
+rien contre un indice<tag a="110" b="0" /><endTag a="100" b="5" /></message>
+	<message label="046_a" attrib="00 00 13">Sur la place.</message>
+	<message label="046_b" attrib="00 00 13">À la boutique.</message>
+	<message label="046_c" attrib="00 00 13">À l'aéroport.</message>
+	<message label="046_d" attrib="00 00 13">Finalement, j'annule.</message>
+	<message label="047" attrib="08 00 13"><tag a="100" b="5" />Voilà, ça c'est fait<tag a="110" b="0" /><delay20 />
+Alors, je t'emmène où?<endTag a="100" b="5" /></message>
+	<message label="047_a" attrib="00 00 13">À ma tente.</message>
+	<message label="047_b" attrib="00 00 13">Sur la place.</message>
+	<message label="047_c" attrib="00 00 13">À la boutique.</message>
+	<message label="047_d" attrib="00 00 13">À l'aéroport.</message>
+	<message label="047_e" attrib="00 00 13">Finalement, j'annule.</message>
+	<message label="048" attrib="02 00 13"><tag a="100" b="5" />Dis,<delay40 /> tu me reçois? <delay8 />Écoute, tu es
+loin de chez toi et je n'arrive pas
+à obtenir de carte de cette île.
+Cela veut dire que je vais devoir
+te laisser <colour id="1" />là où l'avion atterrira<colour id="65535" />.<delay20 />
+Est-ce que cela te convient?<endTag a="100" b="5" /></message>
+	<message label="048_a" attrib="00 00 13">J'ai pas trop le choix!</message>
+	<message label="048_b" attrib="00 00 13">Finalement, j'annule.</message>
+	<message label="050_01" attrib="00 00 13"><tag a="100" b="5" />À ta tente?<delay20 /> Aucun problème.<endTag a="100" b="5" /></message>
+	<message label="050_02" attrib="00 00 13"><tag a="100" b="5" />Chez toi?<delay20 /> D'accord!<endTag a="100" b="5" /></message>
+	<message label="050_03" attrib="00 00 13"><tag a="100" b="5" />Sur la place? <delay20 />OK!<endTag a="100" b="5" /></message>
+	<message label="050_04" attrib="00 00 13"><tag a="100" b="5" />Tu veux aller à la boutique de l'île?
+<delay20 />C'est comme si c'était fait!<endTag a="100" b="5" /></message>
+	<message label="050_05" attrib="00 00 13" />
+	<message label="050_06" attrib="00 00 13"><tag a="100" b="5" />Très bien!<delay frames="30" />
+Allons-y!<endTag a="100" b="5" /></message>
+	<message label="050_07" attrib="00 00 13"><tag a="100" b="5" />À l'aéroport? <delay20 />C'est comme si
+c'était fait.<endTag a="100" b="5" /></message>
+	<message label="051" attrib="00 00 13"><tag a="60" b="20" /></message>
+	<message label="051_01" attrib="00 00 13"><tag a="100" b="5" />Bon alors, je fais quoi, moi?
+<size value="75" />Il faut appuyer sur ce bouton?<size value="100" /><endTag a="100" b="5" /></message>
+	<message label="051_02" attrib="00 00 13"><tag a="100" b="5" />Allez, Don, tu peux le faire<tag a="110" b="0" />
+<size value="75" />Choisis un bouton au hasard. <delay20 />
+Que peut-il arriver de si grave?<size value="100" /><endTag a="100" b="5" /></message>
+	<message label="051_03" attrib="00 00 13"><tag a="100" b="5" />À toi de jouer, Resetti<tag a="110" b="0" />
+<size value="75" />Ce serait quand même bien plus simple
+si j'avais pris mes lunettes.<size value="100" /><endTag a="100" b="5" /></message>
+	<message label="052" attrib="00 00 13"><tag a="100" b="5" />Bien.<delay20 /> Le sort en est jeté.<endTag a="100" b="5" /></message>
+	<message label="053" attrib="00 00 13"><tag a="10" b="12" />　　 　　<tag a="100" b="2" /><tag a="100" b="5" />C'est parti!<endTag a="100" b="5" /><endTag a="100" b="2" /><10_8 arg="30" /></message>
+	<message label="061" attrib="00 00 13"><tag a="100" b="5" />On est arrivés! Tu peux ouvrir
+les yeux.<endTag a="100" b="5" /></message>
+	<message label="062" attrib="00 00 13"><tag a="100" b="5" />Ah,<delay8 /> une dernière chose<tag a="110" b="0" /><endTag a="100" b="5" /></message>
+	<message label="063" attrib="00 00 13"><tag a="60" b="20" /></message>
+	<message label="063_01" attrib="00 00 13"><tag a="100" b="5" />J'essaie toujours de peser mes
+mots avant de m'exprimer,
+contrairement à mon frère.<pageBreak />Je songe à écrire un dictionnaire
+du bien-parler pour lui. Ce serait
+une bonne idée, n'est-ce pas?<endTag a="100" b="5" /></message>
+	<message label="063_02" attrib="00 00 13"><tag a="100" b="5" />Cette manie qu'ont les gens de
+dire que quelque chose n'est pas
+terrible alors qu'en fait, ça l'est<tag a="110" b="0" />
+Pour me calmer et me recentrer,
+je fais du yoga.<endTag a="100" b="5" /></message>
+	<message label="063_03" attrib="00 00 13"><tag a="100" b="5" />J'ai un petit cousin qui écrit
+toujours « porc épique » au lieu
+de « porc-épic ».<pageBreak />J'ai essayé de le corriger et de lui
+montrer des documentaires
+animaliers, mais rien n'y fait.<pageBreak />Avec la jeune génération,
+mieux vaut se faire une raison<tag a="110" b="0" /><endTag a="100" b="5" /></message>
+	<message label="064" attrib="00 00 13"><tag a="60" b="20" /></message>
+	<message label="064_01" attrib="00 00 13"><tag a="100" b="5" />J'essaie toujours de peser mes
+mots avant de m'exprimer,
+contrairement à mon frère.<pageBreak />Je songe à écrire un dictionnaire
+du bien-parler pour lui. Ce serait
+une bonne idée, n'est-ce pas?<endTag a="100" b="5" /></message>
+	<message label="064_02" attrib="00 00 13"><tag a="100" b="5" />Cette manie qu'ont les gens de
+dire que quelque chose n'est pas
+terrible alors qu'en fait, ça l'est<tag a="110" b="0" />
+Pour me calmer et me recentrer,
+je fais du yoga.<endTag a="100" b="5" /></message>
+	<message label="064_03" attrib="00 00 13"><tag a="100" b="5" />Tu te sers bien tous les jours
+du <colour id="1" />Nook Stop<colour id="65535" /> au bureau des
+résidents pour gagner des points?<pageBreak />Il faut le faire, c'est vraiment la base.<endTag a="100" b="5" /></message>
+	<message label="2001" attrib="00 00 13"><tag a="100" b="5" />Oui? Ce n'est pas comme
+d'habitude, c'est ça?<delay frames="30" /> Je pensais
+bien que tu le remarquerais.
+Alors voilà. <colour id="3" />Rese<colour id="65535" /><tag a="110" b="0" /> euh, je veux
+dire ton opérateur habituel fait
+plus ou moins une pause, là.
+Donc aujourd'hui, je fais office
+de remplaçant. Pour ma première
+fois,<delay frames="40" /> j'espère que tu seras patient<gender2 m="" f="e" />.
+Alors<tag a="110" b="0" /><endTag a="100" b="5" /></message>
+</msbt>

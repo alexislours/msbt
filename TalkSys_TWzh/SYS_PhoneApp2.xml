@@ -1,0 +1,173 @@
+<msbt attribsize="3">
+	<message label="001" attrib="00 00 00">dummy</message>
+	<message label="010" attrib="00 00 13">　　　　　　　　<tag a="10" b="12" /><tag a="100" b="2" /><tag a="100" b="5" />再會～<endTag a="100" b="5" /><endTag a="100" b="2" /><10_7 arg="20" /></message>
+	<message label="011" attrib="00 00 13"><tag a="10" b="12" />　　　　　　　　<tag a="100" b="5" />好、好的～<10_7 arg="15" /><pageBreak />感謝您的來電～<delay frames="30" />
+這裡是<delay8 /><colour id="1" />緊急逃脫服務<colour id="65535" />～<endTag a="100" b="5" /></message>
+	<message label="011_01" attrib="00 00 13"><tag a="100" b="5" />我看看～<delay20 />客人你現在<tag a="110" b="0" /><endTag a="100" b="5" /><10_7 arg="30" /></message>
+	<message label="011_02" attrib="00 00 13"><tag a="100" b="5" />客人你現在的所在地是<tag a="110" b="0" /><endTag a="100" b="5" /><10_7 arg="30" /></message>
+	<message label="012" attrib="00 00 13"><tag a="100" b="5" />嗯？！<delay frames="30" />
+不知道為什麼，<delay20 />
+訊號似乎受到了嚴重的干擾啊<tag a="110" b="0" /><endTag a="100" b="5" /></message>
+	<message label="012_01" attrib="00 00 13"><tag a="100" b="5" />這位客人，<delay20 />現在該不會<delay20 />
+有其他島的人來玩吧？<pageBreak />實在非常抱歉，<delay20 />
+通訊一旦受到干擾，<delay8 />
+傳送就無法順利進行<tag a="110" b="0" /><pageBreak />如果你必須使用本服務，<delay frames="30" />
+可以請你按下<colour id="1" /><colour id="65535" />鍵，<delay20 />
+在選單選擇<colour id="1" />結束<colour id="65535" />通訊嗎？<endTag a="100" b="5" /></message>
+	<message label="012_02" attrib="00 00 13"><tag a="100" b="5" />這位客人，<delay20 />您現在該不會<delay20 />
+在其他島上玩？<pageBreak />實在非常抱歉，<delay20 />
+通訊一旦受到干擾，<delay8 />
+傳送就無法順利進行<tag a="110" b="0" /><pageBreak />如果您必須使用本服務，<delay frames="30" />
+可以請您按下<colour id="1" /><colour id="65535" />鍵，<delay20 />
+於選單中選擇<colour id="1" />回到自己的島上<colour id="65535" />嗎？<endTag a="100" b="5" /></message>
+	<message label="013" attrib="00 00 13"><tag a="100" b="5" />啊，<delay20 />這位客人，<delay20 />
+你現在是不是在建築物裡？<pageBreak />實在非常抱歉，<delay20 />
+這個服務只限室外使用<tag a="110" b="0" /><pageBreak />你想想看，<delay20 />要是一頭撞上天花板，<delay20 />
+不是很危險嗎？<pageBreak />所以啦，<delay20 />如果想要使用本服務，<delay20 />
+就請你<delay20 />先到室外去吧？<endTag a="100" b="5" /></message>
+	<message label="021_01" attrib="00 00 13"><tag a="100" b="5" />好的，<delay20 />你是<tag a="110" b="33" />的
+<tag a="110" b="1" />，對吧！<anim id="Nodding" target="player" targetSpec="" /><endTag a="100" b="5" /></message>
+	<message label="021_02" attrib="00 00 13"><tag a="100" b="5" />啊～<delay8 />我知道了，<delay20 />
+你是<tag a="110" b="33" />的
+<tag a="110" b="1" />吧？<anim id="Nodding" target="player" targetSpec="" /><delay frames="30" />歡迎再次使用！<endTag a="100" b="5" /></message>
+	<message label="021_03" attrib="00 00 13"><tag a="100" b="5" />咦？<delay20 />
+<tag a="110" b="1" />，<delay20 />
+你又碰上麻煩了啊？！<anim id="Nodding" target="player" targetSpec="" /><endTag a="100" b="5" /></message>
+	<message label="022" attrib="00 00 13" />
+	<message label="023_01" attrib="02 00 13"><tag a="100" b="5" />每使用一次<delay8 />
+就會收取<colour id="1" />100<colour id="65535" />哩數，<delay20 />
+你要使用嗎？<endTag a="100" b="5" /></message>
+	<message label="023_01_a" attrib="00 00 13"><anim id="Nodding" target="player" targetSpec="" />麻煩你了！</message>
+	<message label="023_01_b" attrib="00 00 13"><anim id="Negative" target="player" targetSpec="" />不要好了</message>
+	<message label="023_02" attrib="02 00 13"><tag a="100" b="5" />要付<colour id="1" />100<colour id="65535" />哩數，<delay20 />使用緊急逃脫嗎？<endTag a="100" b="5" /></message>
+	<message label="023_02_a" attrib="00 00 13"><anim id="Nodding" target="player" targetSpec="" />麻煩你了！</message>
+	<message label="023_02_b" attrib="00 00 13"><anim id="Negative" target="player" targetSpec="" />不要好了</message>
+	<message label="023_03" attrib="02 00 13"><tag a="100" b="5" />話說<tag a="110" b="1" />，<delay frames="40" />
+上次你的哩數好像不夠，<delay8 />
+現在已經存夠了嗎？<pageBreak />使用一次要<colour id="1" />100<colour id="65535" />哩數，<delay20 />要使用嗎？<endTag a="100" b="5" /></message>
+	<message label="023_03_a" attrib="00 00 13"><anim id="Nodding" target="player" targetSpec="" />麻煩你了！</message>
+	<message label="023_03_b" attrib="00 00 13"><anim id="Negative" target="player" targetSpec="" />不要好了</message>
+	<message label="031_01" attrib="00 00 13"><tag a="100" b="5" />哦？<delay20 />不用了嗎？<endTag a="100" b="5" /></message>
+	<message label="031_02" attrib="00 00 13"><tag a="100" b="5" />哦？<delay20 />不用了嗎？<delay frames="40" />
+那個<tag a="110" b="0" /><delay8 />上次哩數不夠的事，<delay20 />
+你不用介意喔？<endTag a="100" b="5" /></message>
+	<message label="032_01" attrib="00 00 13"><tag a="100" b="5" />要是真的碰上了麻煩，<delay20 />
+千萬不要逞強，隨便開口喔？！<endTag a="100" b="5" /></message>
+	<message label="032_02" attrib="00 00 13"><tag a="100" b="5" />要是遇上哩數不夠之類的狀況，<delay8 />
+我也會想辦法通融一下的。<pageBreak />所以要是真的碰上了麻煩，<delay20 />
+千萬不要逞強，隨便開口喔？！<endTag a="100" b="5" /></message>
+	<message label="041_01" attrib="00 00 13"><tag a="100" b="5" />好的好的！<delay20 />
+那就<delay20 />先收取<colour id="1" />100<colour id="65535" />哩數囉～！<endTag a="100" b="5" /></message>
+	<message label="041_02" attrib="00 00 13"><tag a="100" b="5" />好的好的！<delay20 />
+看來你這次有足夠哩數，<delay8 />
+那我就先收取<colour id="1" />100<colour id="65535" />哩數囉～！<endTag a="100" b="5" /></message>
+	<message label="042_01" attrib="00 00 13"><tag a="100" b="5" />好的好的！<delay20 />
+那就<delay20 />先收取<colour id="1" />100<colour id="65535" />哩數<tag a="110" b="0" /><delay8 />等等！<endTag a="100" b="5" /><10_7 arg="75" /></message>
+	<message label="042_02" attrib="00 00 13"><10_10 /><tag a="10" b="12" /><anim id="TakenAback" target="player" targetSpec="" />　　　　　　　<tag a="100" b="5" /><size value="150" />哇！<size value="100" /><delay20 /><10_9 /><pageBreak /><anim id="EmotEnd" target="player" targetSpec="" />喂喂喂！<delay frames="40" />
+這位客人，<delay20 />你的哩數不夠呀！<pageBreak />唉～<delay20 />真拿你沒辦法<tag a="110" b="0" /><delay20 />
+畢竟就是遇到困難，才需要緊急逃脫！<delay20 />
+算了，<delay20 />這次我就特別優待你吧！<endTag a="100" b="5" /></message>
+	<message label="042_03" attrib="00 00 13"><10_10 /><tag a="10" b="12" /><anim id="TakenAback" target="player" targetSpec="" />　　　　　　　<tag a="100" b="5" /><size value="150" />哇！<size value="100" /><delay20 /><10_9 /><pageBreak /><anim id="EmotEnd" target="player" targetSpec="" />喂喂喂，這位客人～！<delay frames="40" />
+你的哩數怎麼又不夠啦！<pageBreak />唉～<delay20 />真拿你沒辦法<tag a="110" b="0" /><delay20 />
+畢竟就是遇到困難，才需要緊急逃脫！<delay20 />
+這次我還是特別優待你吧！<endTag a="100" b="5" /></message>
+	<message label="042_04" attrib="00 00 13"><tag a="100" b="5" />不過呢，<delay20 />要把你傳送到哪裡，<delay20 />
+就由我來決定囉！<endTag a="100" b="5" /></message>
+	<message label="043" attrib="00 00 13"><tag a="100" b="5" />對了，這位客人，<delay20 />
+你身邊好像還有同行的朋友，<delay frames="30" />
+那這次我就先把你們都傳送到<colour id="1" />廣場<colour id="65535" />上囉！<endTag a="100" b="5" /></message>
+	<message label="044_01" attrib="06 00 13"><tag a="100" b="5" />那麼這位客人，<delay20 />
+你希望我把你傳送到哪裡呢？<endTag a="100" b="5" /></message>
+	<message label="044_01_a" attrib="00 00 13">到自己家</message>
+	<message label="044_01_b" attrib="00 00 13">到廣場</message>
+	<message label="044_01_c" attrib="00 00 13">機場</message>
+	<message label="044_01_d" attrib="00 00 13"><anim id="Negative" target="player" targetSpec="" />還是算了</message>
+	<message label="044_02" attrib="06 00 13"><tag a="100" b="5" />那麼這位客人，<delay20 />
+你希望我把你傳送到哪裡呢？<endTag a="100" b="5" /></message>
+	<message label="044_02_a" attrib="00 00 13">到自己的帳篷</message>
+	<message label="044_02_b" attrib="00 00 13">到廣場</message>
+	<message label="044_02_c" attrib="00 00 13">機場</message>
+	<message label="044_02_d" attrib="00 00 13"><anim id="Negative" target="player" targetSpec="" />還是算了</message>
+	<message label="044_03" attrib="08 00 13"><tag a="100" b="5" />那麼這位客人，<delay20 />
+你希望我把你傳送到哪裡呢？<endTag a="100" b="5" /></message>
+	<message label="044_03_a" attrib="00 00 13">到自己家</message>
+	<message label="044_03_b" attrib="00 00 13">到廣場</message>
+	<message label="044_03_c" attrib="00 00 13">到商店</message>
+	<message label="044_03_d" attrib="00 00 13">機場</message>
+	<message label="044_03_e" attrib="00 00 13"><anim id="Negative" target="player" targetSpec="" />還是算了</message>
+	<message label="045" attrib="04 00 13"><tag a="100" b="5" />對了，<delay20 />這位客人，
+您好像還沒決定好住宿的地點<tag a="110" b="0" /><delay frames="40" />
+您想我送您到哪裡去呢？<endTag a="100" b="5" /></message>
+	<message label="045_a" attrib="00 00 13">到廣場</message>
+	<message label="045_b" attrib="00 00 13">機場</message>
+	<message label="045_c" attrib="00 00 13"><anim id="Negative" target="player" targetSpec="" />還是算了</message>
+	<message label="046" attrib="06 00 13"><tag a="100" b="5" />對了，<delay20 />這位客人，
+您好像還沒決定好住宿的地點<tag a="110" b="0" /><delay frames="40" />
+您想我送您到哪裡去呢？<endTag a="100" b="5" /></message>
+	<message label="046_a" attrib="00 00 13">廣場</message>
+	<message label="046_b" attrib="00 00 13">商店</message>
+	<message label="046_c" attrib="00 00 13">機場</message>
+	<message label="046_d" attrib="00 00 13"><anim id="Negative" target="player" targetSpec="" />還是算了</message>
+	<message label="047" attrib="08 00 13"><tag a="100" b="5" />那麼這位客人，<delay20 />
+您希望我把您傳送到哪裡呢？<endTag a="100" b="5" /></message>
+	<message label="047_a" attrib="00 00 13">自己的帳篷</message>
+	<message label="047_b" attrib="00 00 13">廣場</message>
+	<message label="047_c" attrib="00 00 13">商店</message>
+	<message label="047_d" attrib="00 00 13">機場</message>
+	<message label="047_e" attrib="00 00 13"><anim id="Negative" target="player" targetSpec="" />還是算了</message>
+	<message label="048" attrib="02 00 13"><tag a="100" b="5" /><tag a="110" b="0" />咦？<delay40 />什麼啊，<delay8 />
+客人您身處別的島上嗎？<pageBreak />因為無法收到準確的地圖資料，<delay20 />
+我只能把您送到<colour id="1" />那座島上的
+飛機升降地點<colour id="65535" />，<delay20 />這樣可以嗎？<endTag a="100" b="5" /></message>
+	<message label="048_a" attrib="00 00 13">拜託你了！</message>
+	<message label="048_b" attrib="00 00 13"><anim id="Negative" target="player" targetSpec="" />還是算了</message>
+	<message label="050_01" attrib="00 00 13"><tag a="100" b="5" />傳送到客人自己的帳篷嗎？<delay20 />知道了～<endTag a="100" b="5" /></message>
+	<message label="050_02" attrib="00 00 13"><tag a="100" b="5" />傳送到客人自己的家嗎？<delay20 />知道了～<endTag a="100" b="5" /></message>
+	<message label="050_03" attrib="00 00 13"><tag a="100" b="5" />傳送到島上的廣場嗎？<delay20 />知道了～<endTag a="100" b="5" /></message>
+	<message label="050_04" attrib="00 00 13"><tag a="100" b="5" />傳送到島上的商店嗎？<delay20 />知道了～<endTag a="100" b="5" /></message>
+	<message label="050_05" attrib="00 00 13" />
+	<message label="050_06" attrib="00 00 13"><tag a="100" b="5" />收到～<delay frames="30" />
+那麼，<delay20 />我就把您送到那裡去囉～<endTag a="100" b="5" /></message>
+	<message label="050_07" attrib="00 00 13"><tag a="100" b="5" />機場沒錯吧？<delay20 />收到～<endTag a="100" b="5" /></message>
+	<message label="051" attrib="00 00 13"><tag a="60" b="20" /></message>
+	<message label="051_01" attrib="00 00 13"><tag a="100" b="5" /><tag a="110" b="0" />嗯～我看看<tag a="110" b="0" />
+　　　　　　　　 是<size value="75" />按這個按鍵嗎<tag a="110" b="0" /><size value="100" /><endTag a="100" b="5" /></message>
+	<message label="051_02" attrib="00 00 13"><tag a="100" b="5" /><tag a="110" b="0" />嗯～我看看<tag a="110" b="0" />
+　　　　　　　　　怎麼搞的<size value="75" />，我不太懂耶<tag a="110" b="0" /><size value="100" /><endTag a="100" b="5" /></message>
+	<message label="051_03" attrib="00 00 13"><tag a="100" b="5" /><tag a="110" b="0" />嗯～我看看<tag a="110" b="0" />
+　　　　 <size value="75" />這能不能改字的大小啊<tag a="110" b="0" /><size value="100" /><endTag a="100" b="5" /></message>
+	<message label="052" attrib="00 00 13"><tag a="100" b="5" />呼～<delay20 />那麼，要走囉<tag a="110" b="0" /><endTag a="100" b="5" /></message>
+	<message label="053" attrib="00 00 13"><tag a="10" b="12" />　　　　　　　<tag a="100" b="2" /><tag a="100" b="5" />出發！<endTag a="100" b="5" /><endTag a="100" b="2" /><10_8 arg="30" /></message>
+	<message label="061" attrib="00 00 13"><tag a="100" b="5" />好，<delay20 />已經到啦！<endTag a="100" b="5" /></message>
+	<message label="062" attrib="00 00 13"><tag a="100" b="5" />對了對了，<delay8 />最後讓我說件事<tag a="110" b="0" /><endTag a="100" b="5" /></message>
+	<message label="063" attrib="00 00 13"><tag a="60" b="20" /></message>
+	<message label="063_01" attrib="00 00 13"><tag a="100" b="5" />常有人說<delay8 />「愚公移山」<delay20 />
+有種死板、不懂變通的意思<tag a="110" b="0" /><pageBreak />不過「愚公移山」也意味著<delay20 />
+每天努力<delay8 />就有機會成功～<endTag a="100" b="5" /></message>
+	<message label="063_02" attrib="00 00 13"><tag a="100" b="5" />大人物常會說<delay20 />
+「感到遺憾」<delay8 /><tag a="110" b="0" /><pageBreak />可是那不是<delay8 />感到抱歉的意思，<delay20 />
+而是因為情況不順<delay20 />
+而覺得懊惱～<endTag a="100" b="5" /></message>
+	<message label="063_03" attrib="00 00 13"><tag a="100" b="5" />常有人<delay8 />用「合理」這個詞<delay20 />
+來形容價格<tag a="110" b="0" /><delay8 /><pageBreak />不過「合理」<delay8 />其實是<delay20 />
+能夠理解、<delay20 />很合適的意思～<pageBreak />不過，<delay8 />「合理」價格→<delay20 />
+價格不貴→<delay20 />便宜，<delay20 />
+這樣說其實也不算錯啦<tag a="110" b="0" /><endTag a="100" b="5" /></message>
+	<message label="064" attrib="00 00 13"><tag a="60" b="20" /></message>
+	<message label="064_01" attrib="00 00 13"><tag a="100" b="5" />常有人說<delay8 />「愚公移山」<delay20 />
+有種死板、不懂變通的意思<tag a="110" b="0" /><pageBreak />不過「愚公移山」也意味著<delay20 />
+每天努力<delay8 />就有機會成功～<endTag a="100" b="5" /></message>
+	<message label="064_02" attrib="00 00 13"><tag a="100" b="5" />大人物常會說<delay20 />
+「感到遺憾」<delay8 /><tag a="110" b="0" /><pageBreak />可是那不是<delay8 />感到抱歉的意思，<delay20 />
+而是因為情況不順<delay20 />
+而覺得懊惱～<endTag a="100" b="5" /></message>
+	<message label="064_03" attrib="00 00 13"><tag a="100" b="5" />只要每天登入服務處的<colour id="1" />狸端機<colour id="65535" /><delay20 />
+就能夠得到哩數，<delay frames="40" />
+正所謂<delay8 />「積沙成塔」嘛！<endTag a="100" b="5" /></message>
+	<message label="2001" attrib="00 00 13"><tag a="100" b="5" />咦，<delay8 />跟平常不一樣？<delay frames="30" />
+果然還是被你發現了～！<pageBreak />唉呀，<delay20 />真的都瞞不過<delay8 />
+<tag a="110" b="1" />耶<tag a="110" b="0" /><pageBreak />其實<colour id="3" />電源<colour id="65535" /><tag a="110" b="0" />，<delay8 />就是負責的操作員，<delay20 />
+現在在休息，離開了一下。<delay8 /><pageBreak />所以我就江湖救急，<delay20 />
+來代替他工作了。<pageBreak />可能會有很多服務不周的地方，<delay20 />
+還請多多指教～<pageBreak />那麼<delay8 /><tag a="110" b="0" /><endTag a="100" b="5" /></message>
+</msbt>

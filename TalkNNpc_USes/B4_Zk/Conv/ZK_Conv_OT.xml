@@ -1,0 +1,83 @@
+<msbt attribsize="8">
+	<message label="001" attrib="00 00 00 00 00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />¡Hola <tag a="110" b="3" />!<20_2 arg="3" /><delay20 />
+<anim id="Smiling" target="actor" targetSpec="" />Apareces en buen momento.<anim id="EmotEnd" target="actor" targetSpec="" /></message>
+	<message label="002" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Cierto.<delay8 /> <tag a="110" b="31" arg="0xcd00" /> me va a enseñar una coreografía que sabe hacer.<delay20 /> <anim id="WrySmile" target="actor" targetSpec="" />¡Qué primicia!<anim id="EmotEnd" target="actor" targetSpec="" /></message>
+	<message label="003" attrib="00 00 00 00 00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />¡Aquí voy!<20_2 arg="3" /><10_4 /> <anim id="EmotEnd" target="mainNpc" targetSpec="" />Zas<anim id="TakenAback" target="subNpc" targetSpec="" /><tag a="110" b="0" /><delay frames="40" /> <anim id="EmotEnd" target="mainNpc" targetSpec="" />Zas<tag a="110" b="0" /><delay frames="40" /><anim id="Dance" target="actor" targetSpec="" /><10_4 />
+<anim id="Sighing" target="actor" targetSpec="" />¡Fiu!<delay20 /> ¿Qué te pareció?<anim id="EmotEnd" target="actor" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" /></message>
+	<message label="004" attrib="00 00 00 00 00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />Mmm<tag a="110" b="0" /><delay20 /> La segunda pose es un poco
+artificial,<delay8 /><anim id="Surprised" target="mainNpc" targetSpec="" /> pero en general quedó
+fluido.<delay20 /> <anim id="Clapping" target="actor" targetSpec="" />¡Bravo,<delay8 /> <tag a="110" b="5" />!</message>
+	<message label="005" attrib="00 00 00 00 00 00 00 00">¡¿Qué?!<delay8 /><anim id="Eh" target="subNpc" targetSpec="" /><20_2 arg="3" /><delay8 /> <anim id="Outraged" target="actor" targetSpec="" />¡Sin la segunda pose,<delay8 /> se
+perdería el dramatismo del final!<delay20 />
+<anim id="OhGeez" target="actor" targetSpec="" />Bah,<delay8 /> no tienes ni idea<tag a="110" b="0" /></message>
+	<message label="014" attrib="00 00 00 00 00 00 00 00"><anim id="OhGeez" target="actor" targetSpec="" />¿Es necesario usar esa vestimenta
+tan ajustada?<anim id="Surprised" target="mainNpc" targetSpec="" /><delay20 /> <anim id="Negative" target="actor" targetSpec="" />No parece nada bueno
+para la circulación.</message>
+	<message label="015" attrib="00 00 00 00 00 00 00 00">¡¿Vestimenta?!<delay8 /><20_2 arg="3" /><anim id="Confused" target="actor" targetSpec="" /><delay8 /> ¿Qué importa eso?<delay20 />
+¡Se supone que te tienes que fijar
+en la coreografía!</message>
+	<message label="024" attrib="00 00 00 00 00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />No estoy segura<tag a="110" b="0" /><anim id="Shocked" target="mainNpc" targetSpec="" /><delay20 /> ¿Por qué
+hacías ese gesto con la boca
+<anim id="QuestionMark" target="actor" targetSpec="" />mientras te movías?</message>
+	<message label="025" attrib="00 00 00 00 00 00 00 00">¿Sonreír?<delay8 /><20_2 arg="3" /><anim id="Aha" target="subNpc" targetSpec="" /><delay20 /> <anim id="Confused" target="actor" targetSpec="" />¡¿Pero qué opinas
+del baile?!<delay20 /> ¡El baile!</message>
+	<message label="101" attrib="00 00 00 00 00 00 00 00"><anim id="Hello" target="actor" targetSpec="" />¿A qué te dedicas <20_2 arg="3" />últimamente en
+la isla, <tag a="110" b="31" arg="0xcd01" />?<delay20 /> <anim id="QuestionMark" target="actor" targetSpec="" />¿Tienes grandes proyectos en mente?</message>
+	<message label="102" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
+	<message label="102_01" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Por supuesto.<delay20 /> Por ejemplo,<delay8 /> <anim id="Explain" target="actor" targetSpec="" />ordenar
+alfabéticamente <anim id="Aha" target="mainNpc" targetSpec="" />mi colección de
+revistas es una de mis prioridades.</message>
+	<message label="102_02" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Por supuesto.<delay20 /> <anim id="Thinking" target="actor" targetSpec="" />Deja que piense<tag a="110" b="0" /><delay20 />
+<anim id="Aha" target="actor" targetSpec="" />Estoy haciendo un cursillo para ser
+embajadora <anim id="Shocked" target="mainNpc" targetSpec="" />de <tag a="110" b="8" />.</message>
+	<message label="102_03" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Sin duda.<delay20 /> Digamos que<tag a="110" b="0" /><delay8 /> <anim id="SmugFace" target="actor" targetSpec="" />estoy en
+negociaciones <anim id="Surprised" target="mainNpc" targetSpec="" />para lanzar una línea
+de artículos de diseño para el hogar.</message>
+	<message label="103" attrib="00 00 00 00 00 00 00 00">Vaya,<delay8 /> <20_2 arg="3" /><anim id="QuestionMark" target="actor" targetSpec="" />qué actividad tan poco típica
+de la vida en una isla.<delay20 /> <anim id="Scheming" target="actor" targetSpec="" />Quizás no te
+diste cuenta de que vives en una<anim id="Angry" target="subNpc" targetSpec="" /><tag a="110" b="0" /><anim id="EmotEnd" target="actor" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" /></message>
+	<message label="104" attrib="00 00 00 00 00 00 00 00">Qué comentario tan profundo
+el tuyo<anim id="EmotEnd" target="mainNpc" targetSpec="" /><tag a="110" b="0" /><pageBreak /><anim id="OhGeez" target="actor" targetSpec="" />¿Y cómo debería vivir según tú?<delay20 />
+¿Plantando palmeras y duchándome
+con agua de coco?
+<anim id="Serious" target="actor" targetSpec="" />A ver,<delay8 /> danos un ejemplo de actividad
+propiamente isleña que valga la
+pena según tu exigente criterio<tag a="110" b="0" /><anim id="EmotEnd" target="actor" targetSpec="" /></message>
+	<message label="105" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
+	<message label="105_01" attrib="00 00 00 00 00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />Pues<tag a="110" b="0" /><20_2 arg="3" /><delay8 /> <anim id="SmugFace" target="actor" targetSpec="" />el otro día organicé una
+fiesta en la que solo valía hablar
+escribiendo con tiza en una pizarra.</message>
+	<message label="105_02" attrib="00 00 00 00 00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />Pues últimamente<tag a="110" b="0" /><20_2 arg="3" /><delay8 /> <anim id="SmugFace" target="actor" targetSpec="" />estoy con los
+trámites para registrar los derechos
+de autor de mi risa:<delay20 /> <anim id="Laughing" target="actor" targetSpec="" />"¡Je, je!".</message>
+	<message label="105_03" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Pues por ejemplo:<20_2 arg="3" /><delay20 /> <anim id="SmugFace" target="actor" targetSpec="" />últimamente me
+presento a un concurso de poesías
+"vintage" todos los días.<pageBreak /><anim id="Grin" target="actor" targetSpec="" />Y los días que no hay,<delay20 /> escribo un
+guion y luego participo en la audición para el papel protagónico.</message>
+	<message label="106" attrib="00 00 00 00 00 00 00 00"><anim id="OhGeez" target="actor" targetSpec="" />Vaya,<delay8 /> perdón por haber dudado de ti.<delay20 />
+Jamás se me habría ocurrido algo
+más típico de una isla que eso<tag a="110" b="0" />
+<anim id="Worried" target="actor" targetSpec="" />Si lo sabía,<delay8 /> ni te preguntaba<tag a="110" b="0" /></message>
+	<message label="201" attrib="00 00 00 00 00 00 00 00"><20_2 arg="3" /><anim id="Thinking" target="actor" targetSpec="" />Um,<delay8 /> tengo que admitir que admiro
+la entereza con la que sobrellevas
+tu envidia hacia mí,<anim id="TakenAback" target="subNpc" targetSpec="" /> <tag a="110" b="6" />.<anim id="EmotEnd" target="subNpc" targetSpec="" /></message>
+	<message label="202" attrib="00 00 00 00 00 00 00 00">Que tú<tag a="110" b="0" /> que yo<tag a="110" b="0" /> <anim id="Pardon" target="actor" targetSpec="" />¡¿que quééé?!<delay20 />
+<anim id="Angry" target="actor" targetSpec="" />Disculpa,<delay8 /> tú estás muy confundido,<delay8 />
+<tag a="110" b="5" /><tag a="110" b="0" /><anim id="EmotEnd" target="actor" targetSpec="" /></message>
+	<message label="203" attrib="00 00 00 00 00 00 00 00"><anim id="WrySmile" target="actor" targetSpec="" />¿Para qué lo niegas?<delay20 /> Si es evidente.<delay20 />
+<anim id="Explain" target="actor" targetSpec="" />Hasta me has copiado la muletilla.<anim id="Surprised" target="subNpc" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" /></message>
+	<message label="204" attrib="00 00 00 00 00 00 00 00">¡Es cierto!<delay20 /> <anim id="Frantic" target="actor" targetSpec="" />Dije "<tag a="110" b="5" />",<delay8 />
+¿no es cierto?<anim id="Nodding" target="mainNpc" targetSpec="" /><delay20 /> ¿Qué me llevó a hacer
+algo así?<pageBreak /><anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="Thinking" target="actor" targetSpec="" />Tengo que admitir que como muletilla
+es pegadiza<tag a="110" b="0" /><delay8 /> "<tag a="50" b="3" /><tag a="110" b="5" />"<tag a="110" b="0" /><delay8 />
+<anim id="Smiling" target="mainNpc" targetSpec="" /><anim id="Aha" target="actor" targetSpec="" />Tiene elegancia.
+<anim id="HappyDance" target="actor" targetSpec="" />¿Te importa si la tomo prestada?<anim id="EmotEnd" target="subNpc" targetSpec="" /></message>
+	<message label="205" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />¡Claro que no, <tag a="110" b="31" arg="0xcd01" />!<anim id="FaintSmile" target="subNpc" targetSpec="" /><delay20 />
+Ya sabes que yo <anim id="SmugFace" target="actor" targetSpec="" />voy por la vida
+marcando tendencias.<anim id="WrySmile" target="subNpc" targetSpec="" />
+<anim id="Shocked" target="actor" targetSpec="" />Oye<tag a="110" b="0" /><delay frames="20" /> ¿Quizás también te interesaría
+practicar <tag a="135" b="6" arg="0xcd00" /> a ritmo de <tag a="135" b="4" arg="0xcd00" />?</message>
+	<message label="206" attrib="00 00 00 00 00 00 00 00">Bueno, bueno,<delay8 /> tampoco te imagines
+cosas.<anim id="Eh" target="mainNpc" targetSpec="" /><pageBreak /><anim id="Grin" target="actor" targetSpec="" />Por el momento <anim id="Blushing" target="mainNpc" targetSpec="" />me quedo con
+"<tag a="110" b="5" />" y luego ya veremos,<delay8 /> <tag a="110" b="5" />.</message>
+</msbt>

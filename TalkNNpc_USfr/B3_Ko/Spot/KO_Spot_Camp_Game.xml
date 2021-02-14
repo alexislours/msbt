@@ -1,0 +1,69 @@
+<msbt attribsize="8">
+	<message label="001" attrib="00 00 01 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Hé <gender2 m="le jeune" f="la jeune" />, ça te dit de faire un jeu?<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Si tu gagnes,<delay8 /> je te donne <tag a="50" b="2" /><tag a="125" b="0" arg="0x0" />.<delay frames="40" /><anim id="Hello" target="actor" targetSpec="" /> Qu'est-ce que tu en penses, <tag a="110" b="6" />?</message>
+	<message label="001_a" attrib="00 00 00 00 00 00 00 00">Avec plaisir!</message>
+	<message label="001_b" attrib="00 00 00 00 00 00 00 00">Pas maintenant.</message>
+	<message label="002" attrib="00 00 01 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />À la bonne heure!<delay frames="40" /><anim id="FaintSmile" target="actor" targetSpec="" /> Laisse-moi
+d'abord t'expliquer les règles,
+<tag a="110" b="6" />.</message>
+	<message label="002_a" attrib="00 00 00 00 00 00 00 00">Oui, s'il te plaît.</message>
+	<message label="002_b" attrib="00 00 00 00 00 00 00 00">Pas la peine.</message>
+	<message label="003" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="actor" targetSpec="" />Comme tu veux.<delay frames="40" /> Je ne peux pas te
+forcer à jouer un jeu<anim id="OhGeez" target="actor" targetSpec="" /> auquel tu n'as
+rien à perdre et tout à gagner<tag a="110" b="0" /></message>
+	<message label="004" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Oh,<delay8 /> je vois que nous avons affaire
+à <gender2 m="un habitué" f="une habituée" />.<delay frames="40" /><anim id="NpcShuffle" target="actor" targetSpec="" /> Entrons directement
+dans le vif du sujet dans ce cas<tag a="110" b="0" /></message>
+	<message label="005" attrib="00 00 00 00 00 00 00 00">Et la carte que j'ai tirée est du<tag a="110" b="0" /></message>
+	<message label="006_01" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Comme promis <tag a="50" b="17" arg="0x11 0xcd00 0x6 0x6d 0x6f 0x6e 0x4 0x6d 0x61 0x0" /> superbe <tag a="125" b="0" arg="0x0" /> est à toi.<delay frames="40" /><anim id="Smiling" target="actor" targetSpec="" /><anim id="Nodding" target="actor" targetSpec="" /> Tu l'as bien mérité<tag a="50" b="17" arg="0x11 0xcd00 0x0 0x2 0x65 0x0" />.</message>
+	<message label="006_02" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Tu remportes donc <tag a="50" b="17" arg="0x11 0xcd00 0x4 0x63 0x65 0xa 0x63 0x65 0x74 0x74 0x65 0x0" /> magnifique <tag a="125" b="0" arg="0x0" />!<pageBreak /><anim id="WrySmile" target="actor" targetSpec="" />En fait,<delay8 /> je me suis rendu compte que je n'en aurai pas l'usage,<delay8 /> alors tu me rends service en m'en débarrassant<tag a="110" b="0" /></message>
+	<message label="006_03" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Désolé, mais je garde <tag a="50" b="1" /><tag a="125" b="0" arg="0x0" />, comme convenu.</message>
+	<message label="007_01" attrib="00 00 00 00 00 00 00 00"><anim id="ShyBoy" target="actor" targetSpec="" />J'ai peut-être perdu, mais je me suis
+bien amusé.<delay frames="40" /><anim id="Smiling" target="actor" targetSpec="" /> Faisons une revanche
+à l'occasion, <tag a="110" b="6" />!</message>
+	<message label="007_03" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />J'ai peut-être gagné,<delay8 /> mais tu n'as
+rien perdu.<delay frames="40" /><anim id="Grin" target="actor" targetSpec="" /> Ou à la rigueur, un peu
+d'amour-propre<tag a="110" b="0" /></message>
+	<message label="008" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />À la bonne heure!<delay frames="40" /><anim id="FaintSmile" target="actor" targetSpec="" /> Laisse-moi
+d'abord t'expliquer les<tag a="110" b="0" /><delay frames="40" /><anim id="QuestionMark" target="actor" targetSpec="" /> Hm?<pageBreak /><anim id="WrySmile" target="actor" targetSpec="" />Je crois que tu as les poches pleines,<delay8 />
+<gender2 m="le jeune" f="la jeune" />.<delay frames="40" /> Je ne pourrai pas te donner
+ton dû si tu gagnes, <tag a="110" b="6" />.
+<anim id="Smiling" target="actor" targetSpec="" />Va faire de la place et reviens me voir si tu es toujours intéressé<gender2 m="" f="e" /> par <tag a="50" b="1" /><tag a="125" b="0" arg="0x0" />.</message>
+	<message label="100" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />C'est simple.<delay frames="40" /> J'ai quatre cartes avec
+quatre signes différents,<delay8 /> <colour id="6" />cœur ♥<colour id="65535" />,<delay8 />
+<colour id="6" />carreau ♦<colour id="65535" />,<delay8 /> <colour id="7" />pique ♠<colour id="65535" /> et <colour id="7" />trèfle ♣<colour id="65535" />.
+<anim id="FaintSmile" target="actor" targetSpec="" />Je vais en tirer une au hasard,<delay8 />
+et tu dois deviner son signe.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Si tu tombes juste,<delay8 /> je te donne
+<tag a="50" b="2" /><tag a="125" b="0" arg="0x0" />.<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Voilà,<delay8 /> c'est tout.<delay frames="40" /> Tu es prêt<gender2 m="" f="e" />?<delay frames="40" />
+<anim id="NpcShuffle" target="actor" targetSpec="" />Alors, c'est parti<tag a="110" b="0" /></message>
+	<message label="101" attrib="00 00 05 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Place au tirage.<delay frames="40" /> <anim id="Grin" target="actor" targetSpec="" />Sur quel signe
+paries-tu, <tag a="110" b="6" />? <colour id="6" />Cœur ♥<colour id="65535" />, <colour id="6" />carreau ♦<colour id="65535" />, <colour id="7" />pique ♠<colour id="65535" /> ou <colour id="7" />trèfle ♣<colour id="65535" />?</message>
+	<message label="101_a" attrib="00 00 00 00 00 00 00 00"><colour id="6" />Cœur ♥<colour id="65535" />!</message>
+	<message label="101_b" attrib="00 00 00 00 00 00 00 00"><colour id="6" />Carreau ♦<colour id="65535" />!</message>
+	<message label="101_c" attrib="00 00 00 00 00 00 00 00"><colour id="7" />Pique ♠<colour id="65535" />!</message>
+	<message label="101_d" attrib="00 00 00 00 00 00 00 00"><colour id="7" />Trèfle ♣<colour id="65535" />!</message>
+	<message label="102_01" attrib="00 00 00 00 00 00 00 00"><anim id="NpcHoldout" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="140" b="14" arg="0xcd00" />! Bien joué!</message>
+	<message label="102_02" attrib="00 00 00 00 00 00 00 00"><anim id="NpcHoldout" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="140" b="14" arg="0xcd00" />! Dommage...</message>
+	<message label="200" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Tu vas voir,<delay8 /> c'est on ne peut plus
+simple.<delay frames="40" /> J'ai quatre cartes qui ont
+chacune un signe différent.
+<anim id="Smiling" target="actor" targetSpec="" />Il y en a deux <colour id="6" />rouges<colour id="65535" />,<delay8 /> <colour id="6" />cœur ♥<colour id="65535" /> et
+<colour id="6" />carreau ♦<colour id="65535" />,<delay8 /> et deux <colour id="7" />noires<colour id="65535" />,<delay8 /> <colour id="7" />pique ♠
+<colour id="65535" />et<colour id="7" /> trèfle ♣<colour id="65535" />.
+<anim id="FaintSmile" target="actor" targetSpec="" />Je vais tirer une carte au hasard,<delay8 />
+et tu dois deviner s'il s'agit d'une
+carte <colour id="6" />rouge<colour id="65535" /> ou d'une carte <colour id="7" />noire<colour id="65535" />.
+<anim id="Smiling" target="actor" targetSpec="" />Si tu trouves la bonne couleur,<delay8 />
+tu gagnes <tag a="50" b="2" /><tag a="125" b="0" arg="0x0" />.<pageBreak /><anim id="Grin" target="actor" targetSpec="" />Je ne vais pas te faire l'insulte
+de te demander si tu as compris.<delay frames="40" />
+<anim id="NpcShuffle" target="actor" targetSpec="" />Allez,<delay8 /> c'est parti<tag a="110" b="0" /></message>
+	<message label="201" attrib="00 00 01 00 00 00 00 00">Très bien.<delay frames="40" /><anim id="Pardon" target="actor" targetSpec="" /> Voyons si tu arrives à lire
+dans le cœur des cartes<tag a="110" b="0" /> Sur quelle
+couleur paries-tu?<delay20 /> <colour id="6" />Rouge<colour id="65535" /> ou <colour id="7" />noir<colour id="65535" />?</message>
+	<message label="201_a" attrib="00 00 00 00 00 00 00 00"><colour id="6" />Rouge<colour id="65535" />!</message>
+	<message label="201_b" attrib="00 00 00 00 00 00 00 00"><colour id="7" />Noir<colour id="65535" />!</message>
+	<message label="202_01" attrib="00 00 00 00 00 00 00 00"><anim id="NpcHoldout" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="140" b="14" arg="0xcd00" />!<delay frames="40" /> Autrement dit,<delay8 /> du <colour id="6" />rouge<colour id="65535" />!<delay frames="40" /> <anim id="Clapping" target="actor" targetSpec="" />Félicitations!</message>
+	<message label="202_02" attrib="00 00 00 00 00 00 00 00"><anim id="NpcHoldout" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="140" b="14" arg="0xcd00" />!<delay frames="40" /> Autrement dit,<delay8 /> du <colour id="7" />noir<colour id="65535" />!<delay frames="40" />
+<anim id="WrySmile" target="actor" targetSpec="" />C'est dommage!</message>
+	<message label="202_03" attrib="00 00 00 00 00 00 00 00"><anim id="NpcHoldout" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="140" b="14" arg="0xcd00" />!<delay frames="40" /> Autrement dit,<delay8 /> du <colour id="7" />noir<colour id="65535" />!<delay frames="40" /><anim id="Clapping" target="actor" targetSpec="" /> Félicitations!</message>
+	<message label="202_04" attrib="00 00 00 00 00 00 00 00"><anim id="NpcHoldout" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="140" b="14" arg="0xcd00" />!<delay frames="40" /> Autrement dit,<delay8 /> du <colour id="6" />rouge<colour id="65535" />!<delay frames="40" /><anim id="WrySmile" target="actor" targetSpec="" /> C'est dommage!</message>
+</msbt>

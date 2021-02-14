@@ -1,0 +1,414 @@
+<msbt attribsize="3">
+	<message label="000" attrib="00 00 17">Nanu? <delay8 />„Kein Empfang“<tag a="110" b="0" /><delay20 /> Hmmm...<delay20 />
+Funktioniert wohl hier nicht.</message>
+	<message label="001" attrib="02 00 17"><colour id="1" />Notrettung<colour id="65535" /> rufen?</message>
+	<message label="001_a" attrib="00 00 00"><anim id="EmotEnd" target="player" targetSpec="" />Ja</message>
+	<message label="001_b" attrib="00 00 00"><anim id="EmotEnd" target="player" targetSpec="" />Nein</message>
+	<message label="010" attrib="00 00 13">                    <tag a="10" b="12" /><tag a="100" b="2" /><tag a="100" b="5" /><size value="150" />Bis dann!<size value="100" /><endTag a="100" b="5" /><endTag a="100" b="2" /><10_7 arg="20" /></message>
+	<message label="011" attrib="00 00 13"><tag a="100" b="5" /><tag a="10" b="12" />　　　　　　　 <size value="150" />Tag!<size value="100" /><10_7 arg="15" /><pageBreak />Hier spricht die <colour id="1" />Notrettung<colour id="65535" />.<delay frames="30" />
+Spezialisten für Klemmen,<delay8 /> Miseren
+und ähnliche Bredouillen.<endTag a="100" b="5" /></message>
+	<message label="011_01" attrib="00 00 13"><tag a="100" b="5" />Also,<delay8 /> wer ist denn dort bitte?<delay20 />
+Moment, mal sehen<tag a="110" b="0" /><endTag a="100" b="5" /><10_7 arg="30" /></message>
+	<message label="011_02" attrib="00 00 13"><tag a="100" b="5" />Du befindest dich gerade<tag a="110" b="0" /><endTag a="100" b="5" /><10_7 arg="30" /></message>
+	<message label="012" attrib="00 00 13"><tag a="100" b="5" />Was zum...?!<delay frames="30" /> Pah! Schöner Käse.<delay20 />
+Das Signal springt ja wie verrückt
+durch die Gegend!<endTag a="100" b="5" /></message>
+	<message label="012_01" attrib="00 00 13"><tag a="100" b="5" />Hör mal, du! <delay20 />Kann es sein, dass du
+im Moment irgendwen von einer
+anderen Insel zu Besuch hast?<pageBreak />Dann ist der Fall nämlich klar.<delay8 />
+Die Signale geraten durcheinander!<delay8 />
+Grah, das weiß doch jeder!<pageBreak />Na, egal. <delay8 />Wenn's echt ein Notfall ist,<delay8 />
+dann öffne mit <colour id="1" /><colour id="65535" /> dein Menü und
+wähle dort <colour id="1" />Schluss machen<colour id="65535" />.<delay8 /> Klaro?<endTag a="100" b="5" /></message>
+	<message label="012_02" attrib="00 00 13"><tag a="100" b="5" />Hör mal!<delay8 /> Kann es sein,<delay8 /> dass du im
+Moment auf einer anderen Insel zu
+Gast bist?<delay20 /> ...Was?<delay8 /> Bist du?<delay8 /> Pah!<pageBreak />Einfach so von Insel zu Insel hüpfen,<delay8 />
+das gibt doch totalen Signalsalat!<delay8 />
+Und ich schau hier in die Röhre!<pageBreak />Da ist doch klar wie dicke Torferde,<delay8 />
+dass das mit dem Abtransport nicht
+funktioniert!<delay8 /> Gah!<pageBreak />Na, ich sag dir was.<delay20 /> Wenn's wirklich
+ein Notfall ist, <delay8 />öffne mit <colour id="1" /><colour id="65535" /> das Menü
+und wähle <colour id="1" />Zurück auf meine Insel<colour id="65535" />!<endTag a="100" b="5" /></message>
+	<message label="013" attrib="00 00 13"><tag a="100" b="5" />Moment... <delay20 />Sag mal,<delay8 /> befindest du
+dich etwa gerade in einem Gebäude?<delay20 />
+Mit Dach und Wänden und so?<pageBreak />Bedaure, <delay8 />aber unser Rettungsdienst
+rückt nur an,<delay8 /> wenn irgendwer im
+Freien feststeckt.<delay8 /> Nicht drinnen!<pageBreak />Oder sollen wir dich durchs Dach
+hochziehen?<delay20 /> Und die Rübe macht
+Bekanntschaft mit der Decke?<delay20 /> Eben!<pageBreak />Erst rettest du dich nach draußen,<delay8 />
+dann rettet dich der Rettungsdienst.<delay20 />
+Einfach, oder?<delay20 /> Und jetzt tschau!<endTag a="100" b="5" /></message>
+	<message label="021_01" attrib="00 00 13"><tag a="100" b="5" /><tag a="50" b="3" /><tag a="110" b="1" /> von <tag a="110" b="8" />,<delay8 /> ja? <anim id="Nodding" target="player" targetSpec="" /><delay20 />Verstehe.<endTag a="100" b="5" /></message>
+	<message label="021_02" attrib="00 00 13"><tag a="100" b="5" />Ach, <delay8 /><tag a="110" b="1" /> von <tag a="110" b="8" /> wieder? <anim id="Nodding" target="player" targetSpec="" /><delay20 />Na, <delay8 />wenn's sein muss...<endTag a="100" b="5" /></message>
+	<message label="021_03" attrib="00 00 13"><tag a="100" b="5" />Bitte?<delay20 /> <tag a="50" b="3" /><tag a="110" b="1" /> schon wieder? <delay20 />Du ziehst den Ärger ja geradezu magisch an,<delay8 /> was?<anim id="Nodding" target="player" targetSpec="" /><endTag a="100" b="5" /></message>
+	<message label="022" attrib="00 00 13"><tag a="100" b="5" />Bist zum ersten Mal dabei, wie?
+<delay frames="30" />Dann spitz die Lauscherchen,<delay8 /> ich
+erkläre dir jetzt,<delay8 /> wie die Sache läuft!<pageBreak />Wir helfen Leuten, die in irgendeiner
+Weise feststecken – <delay20 />egal, wie sie's
+fertiggebracht haben.<pageBreak />Du sagst mir einfach Bescheid,<delay8 />
+dann macht's einmal kurz SCHWUPP!
+<tag a="110" b="0" /><delay8 />und schon bist du in Sicherheit.<pageBreak />...Bitte?<delay8 /> Wie genau das funktioniert?
+<delay20 />Auf re-<delay8 />vo-<delay8 />lu-<delay8 />tio-<delay8 />näre Weise. <delay8 />Mehr
+sag ich nicht.<delay8 /> Betriebsgeheimnis.<endTag a="100" b="5" /></message>
+	<message label="023_01" attrib="02 00 13"><tag a="100" b="5" />Ganz umsonst läuft die Sache
+aber nicht.<delay20 /> Pro Rettung musst du
+<colour id="1" />100<colour id="65535" /> Meilen latzen!<delay20 /> Na,<delay8 /> abgemacht?<endTag a="100" b="5" /></message>
+	<message label="023_01_a" attrib="00 00 13"><anim id="Nodding" target="player" targetSpec="" />Ja, bitte!</message>
+	<message label="023_01_b" attrib="00 00 13"><anim id="Negative" target="player" targetSpec="" />Dann doch nicht.</message>
+	<message label="023_02" attrib="02 00 13"><tag a="100" b="5" />Kleine Rettung gefällig?<delay20 />
+Kostet <colour id="1" />100<colour id="65535" /> Meilen,<delay8 /> der Spaß!<endTag a="100" b="5" /></message>
+	<message label="023_02_a" attrib="00 00 13"><anim id="Nodding" target="player" targetSpec="" />Ja, bitte!</message>
+	<message label="023_02_b" attrib="00 00 13"><anim id="Negative" target="player" targetSpec="" />Dann doch nicht.</message>
+	<message label="023_03" attrib="02 00 13"><tag a="100" b="5" />Ach so, <delay8 />letztes Mal hattest du ja gar
+nicht genug Meilen auf dem Konto!<delay20 />
+Hoffe mal,<delay8 /> du bist wieder flüssig!<pageBreak />Eine Rettung kostet nämlich
+<colour id="1" />100<colour id="65535" /> Meilen. <delay20 />Was sagste,<delay8 />
+ist das genehm?<endTag a="100" b="5" /></message>
+	<message label="023_03_a" attrib="00 00 13"><anim id="Nodding" target="player" targetSpec="" />Ja, bitte!</message>
+	<message label="023_03_b" attrib="00 00 13"><anim id="Negative" target="player" targetSpec="" />Dann doch nicht.</message>
+	<message label="031_01" attrib="00 00 13"><tag a="100" b="5" />Bitte? <delay20 />Jetzt plötzlich doch nicht?!<endTag a="100" b="5" /></message>
+	<message label="031_02" attrib="00 00 13"><tag a="100" b="5" />Was? <delay20 />Jetzt plötzlich doch nicht?!<delay frames="40" />
+Keine Angst, <delay8 />wegen der Meilen vom
+letzten Mal bin ich nicht stinkig!<endTag a="100" b="5" /></message>
+	<message label="032_01" attrib="00 00 13"><tag a="100" b="5" />Na gut,<delay8 /> von mir aus. <delay8 />Aber wenn du
+mal echt in Schwierigkeiten steckst,<delay8 />
+spar bloß nicht am falschen Ende!<endTag a="100" b="5" /></message>
+	<message label="032_02" attrib="00 00 13"><tag a="100" b="5" />Keine Angst,<delay8 /> falls du nicht genug
+Meilen hast oder so!<delay20 /> Da kann man
+immer ein bisschen was drehen.
+Also keine Scheu.<delay20 /> Wenn du wirklich,<delay8 />
+wirklich in Schwierigkeiten steckst,<delay8 />
+dann meld dich hier bei mir,<delay8 /> kapiert?<endTag a="100" b="5" /></message>
+	<message label="041_01" attrib="00 00 13"><tag a="100" b="5" />Schlaues Köpfchen.<10_4 /> Gut,<delay8 /> dann
+lass mal <colour id="1" />100<colour id="65535" /> Meilen rüberwachsen!<endTag a="100" b="5" /></message>
+	<message label="041_02" attrib="00 00 13"><tag a="100" b="5" />Sehr vernünftig.<10_4 /> Und hat man Worte, <delay8 />
+diesmal kannst du ja sogar bezahlen!
+Dann <delay20 /><colour id="1" />100<colour id="65535" /> Meilen bitte, <delay8 />Firma dankt!<endTag a="100" b="5" /></message>
+	<message label="042_01" attrib="00 00 13"><tag a="100" b="5" />Gute Wahl.<10_4 /> So, dann lass mal flott
+meine <colour id="1" />100<colour id="65535" /> Meilen rüberwachsen
+und wir machen uns auf d<tag a="110" b="0" /><endTag a="100" b="5" /><10_7 arg="75" /></message>
+	<message label="042_02" attrib="00 00 13"><tag a="100" b="5" /><10_10 /><tag a="10" b="12" /><anim id="TakenAback" target="player" targetSpec="" />　　<100_3 arg="Katsu" /><size value="150" />Heilige Hügelwiese!<size value="100" /><delay20 /><10_9 /><pageBreak /><anim id="EmotEnd" target="player" targetSpec="" />Willst du mich verhohnepiepeln?!<delay20 />
+Deine Meilen reichen ja gar nicht!<delay20 />
+Meilenweit davon entfernt!<pageBreak />Da platzt einem doch...<delay20 /> Puh, <delay8 />ruhig
+bleiben. <delay20 />Ist ja ein Notfall und so.
+<delay20 />Gut,<delay8 /> dann halt diesmal umsonst...<endTag a="100" b="5" /></message>
+	<message label="042_03" attrib="00 00 13"><tag a="100" b="5" /><10_10 /><tag a="10" b="12" /><anim id="TakenAback" target="player" targetSpec="" />　   <100_3 arg="Katsu" /><size value="150" />Gütige Grabekralle!<size value="100" /><delay20 /><10_9 /><pageBreak /><anim id="EmotEnd" target="player" targetSpec="" />Du hast ja SCHON WIEDER zu wenig
+Meilen!<delay20 /> Das machst du doch extra,<delay8 />
+könnte man meilen.<10_4 /> Äh,<delay8 /> meinen.<pageBreak />Sei froh,<delay8 /> dass ich auf meinen
+Blutdruck achte,<delay8 /> sonst würde ich
+mich VERGESSEN,<delay8 /> weißt du das?<pageBreak />Na ja.<delay20 /> Ist ja ein Notfall.<delay20 /> Was soll's.<delay20 />
+Gut, hol ich dich eben WIEDER MAL
+umsonst aus deiner Misere...<endTag a="100" b="5" /></message>
+	<message label="042_04" attrib="00 00 13"><tag a="100" b="5" />Aber dafür entscheide ich selbst,<delay8 />
+wo ich dich absetze,<delay8 /> klar?<delay20 /> ICH!<delay20 />
+Und WEHE,<delay8 /> es wird gemeckert!<endTag a="100" b="5" /></message>
+	<message label="043" attrib="00 00 13"><tag a="100" b="5" />Ach so, <delay8 />stopp.<delay20 />
+Bist ja in Begleitung.<delay20 />
+Das ändert die Sache so ein wenig.
+<delay frames="30" />Bei mehreren Leuten soll ich den
+<colour id="1" />Festplatz <colour id="65535" />anfliegen zum Absetzen!<delay20 />
+Sind ja keine Taxifirma hier.<endTag a="100" b="5" /></message>
+	<message label="044_01" attrib="06 00 13"><tag a="100" b="5" />Alles klärchen? Spitze.<delay20 />
+Dann sag mal, <delay8 />wohin soll die Reise
+denn gehen?<endTag a="100" b="5" /></message>
+	<message label="044_01_a" attrib="00 00 13">Nach Hause.</message>
+	<message label="044_01_b" attrib="00 00 13">Zum Festplatz.</message>
+	<message label="044_01_c" attrib="00 00 13">Zum Flughafen.</message>
+	<message label="044_01_d" attrib="00 00 13"><anim id="Negative" target="player" targetSpec="" />Ich bleib doch hier.</message>
+	<message label="044_02" attrib="06 00 13"><tag a="100" b="5" />Alles klärchen? Spitze.<delay20 />
+Dann sag mal, <delay8 />wohin soll die Reise
+denn gehen?<endTag a="100" b="5" /></message>
+	<message label="044_02_a" attrib="00 00 13">Zu meinem Zelt.</message>
+	<message label="044_02_b" attrib="00 00 13">Zum Festplatz.</message>
+	<message label="044_02_c" attrib="00 00 13">Zum Flughafen.</message>
+	<message label="044_02_d" attrib="00 00 13"><anim id="Negative" target="player" targetSpec="" />Ich bleib doch hier.</message>
+	<message label="044_03" attrib="08 00 13"><tag a="100" b="5" />Alles klärchen? Spitze.<delay20 />
+Dann sag mal, <delay8 />wohin soll die Reise
+denn gehen?<endTag a="100" b="5" /></message>
+	<message label="044_03_a" attrib="00 00 13">Nach Hause.</message>
+	<message label="044_03_b" attrib="00 00 13">Zum Festplatz.</message>
+	<message label="044_03_c" attrib="00 00 13">Zum Laden.</message>
+	<message label="044_03_d" attrib="00 00 13">Zum Flughafen.</message>
+	<message label="044_03_e" attrib="00 00 13"><anim id="Negative" target="player" targetSpec="" />Ich bleib doch hier.</message>
+	<message label="045" attrib="04 00 13"><tag a="100" b="5" />Ach so.<delay20 /> Du scheinst noch keinen
+festen Wohnort zu haben.<delay20 />
+Wo soll's denn dann hingehen?<endTag a="100" b="5" /></message>
+	<message label="045_a" attrib="00 00 13">Zum Festplatz.</message>
+	<message label="045_b" attrib="00 00 13">Zum Flughafen.</message>
+	<message label="045_c" attrib="00 00 13"><anim id="Negative" target="player" targetSpec="" />Ich bleib doch hier.</message>
+	<message label="046" attrib="06 00 13"><tag a="100" b="5" />Ach so.<delay20 /> Du scheinst noch keinen
+festen Wohnort zu haben.<delay20 />
+Wo soll's denn dann hingehen?<endTag a="100" b="5" /></message>
+	<message label="046_a" attrib="00 00 13">Zum Festplatz.</message>
+	<message label="046_b" attrib="00 00 13">Zum Laden.</message>
+	<message label="046_c" attrib="00 00 13">Zum Flughafen.</message>
+	<message label="046_d" attrib="00 00 13"><anim id="Negative" target="player" targetSpec="" />Ich bleib doch hier.</message>
+	<message label="047" attrib="08 00 13"><tag a="100" b="5" />Alles klärchen? Spitze.<delay20 />
+Dann sag mal, <delay8 />wohin soll die Reise
+denn gehen?<endTag a="100" b="5" /></message>
+	<message label="047_a" attrib="00 00 13">Zu meinem Zelt.</message>
+	<message label="047_b" attrib="00 00 13">Zum Festplatz.</message>
+	<message label="047_c" attrib="00 00 13">Zum Laden.</message>
+	<message label="047_d" attrib="00 00 13">Zum Flughafen.</message>
+	<message label="047_e" attrib="00 00 13"><anim id="Negative" target="player" targetSpec="" />Ich bleib doch hier.</message>
+	<message label="048" attrib="02 00 13"><tag a="100" b="5" />Oh<tag a="110" b="0" /><delay40 /> Du reist wohl grad durch
+die Weltgeschichte, <delay8 />was?<pageBreak />Viel gibt meine Karte nicht her,<delay20 />
+aber wir könnten dich <colour id="1" />beim Flugzeug
+<colour id="65535" />absetzen. <delay20 />Einverstanden?<endTag a="100" b="5" /></message>
+	<message label="048_a" attrib="00 00 13">Ja, bitte!</message>
+	<message label="048_b" attrib="00 00 13"><anim id="Negative" target="player" targetSpec="" />Ich bleib doch hier.</message>
+	<message label="050_01" attrib="00 00 13"><tag a="100" b="5" />Du willst zu deinem Zelt?<delay20 />
+Gut, <delay8 />kannste haben!<endTag a="100" b="5" /></message>
+	<message label="050_02" attrib="00 00 13"><tag a="100" b="5" />Nach Hause willst du,<delay8 /> ja? <delay20 />
+Alles paletti,<delay8 /> überlass das Res--<delay20 />
+äh, <delay8 />dem Rettungsdienst.<endTag a="100" b="5" /></message>
+	<message label="050_03" attrib="00 00 13"><tag a="100" b="5" />Zum Festplatz,<delay8 /> ja?
+<delay20 />Gut,<delay8 /> ist gebongt.<endTag a="100" b="5" /></message>
+	<message label="050_04" attrib="00 00 13"><tag a="100" b="5" />Zum Laden also,<delay8 /> ja?
+<delay20 />Gut, <delay8 />wie du willst.<endTag a="100" b="5" /></message>
+	<message label="050_05" attrib="00 00 13" />
+	<message label="050_06" attrib="00 00 13"><tag a="100" b="5" />Na gut.<delay frames="30" /> Dann geht sie jetzt mal ab,<delay8 />
+die Luzie.<endTag a="100" b="5" /></message>
+	<message label="050_07" attrib="00 00 13"><tag a="100" b="5" />Zum <colour id="1" />Flughafen<colour id="65535" />, <delay20 />ist gebongt.<endTag a="100" b="5" /></message>
+	<message label="051" attrib="00 00 13"><tag a="60" b="20" /></message>
+	<message label="051_01" attrib="00 00 13"><tag a="100" b="5" />Aaaalso<tag a="110" b="0" />
+<size value="75" />Ist das hier der richtige Knopf...?<size value="100" /><endTag a="100" b="5" /></message>
+	<message label="051_02" attrib="00 00 13"><tag a="100" b="5" />Aaaalso<tag a="110" b="0" />
+<size value="75" />Welcher Knopf war noch mal der richtige?<size value="100" /><endTag a="100" b="5" /></message>
+	<message label="051_03" attrib="00 00 13"><tag a="100" b="5" />Ääää<delay8 />ä<delay8 />ä<delay8 />ä<delay8 />h<tag a="110" b="0" /><delay20 /> 
+<size value="75" />Verflixte Knöpfe,<delay8 /> daran gewöhn ich mich nie!<size value="100" /><endTag a="100" b="5" /></message>
+	<message label="052" attrib="00 00 13"><tag a="100" b="5" />Da ist er,<delay8 /> der Knopf!<delay20 />
+Dann kann die Post ja abgehen!<endTag a="100" b="5" /></message>
+	<message label="053" attrib="00 00 14"><tag a="100" b="5" /><tag a="10" b="12" />    <tag a="100" b="2" /><size value="150" />Rette dich,<delay8 /> wer kann!<size value="100" /><endTag a="100" b="2" /><10_8 arg="30" /><endTag a="100" b="5" /></message>
+	<message label="061" attrib="00 00 13"><tag a="100" b="5" />Da wären wir! <delay20 />Kannst die
+Knopfäuglein wieder aufmachen.<endTag a="100" b="5" /></message>
+	<message label="062" attrib="00 00 13"><tag a="100" b="5" />Ach ja, <delay8 />eines noch<tag a="110" b="0" /><endTag a="100" b="5" /></message>
+	<message label="063" attrib="00 00 13"><tag a="60" b="20" /></message>
+	<message label="063_01" attrib="00 00 13"><tag a="100" b="5" />Eine Insel ist wie 'ne Pizza.<delay20 />
+Wenn man zu viel draufpackt,<delay8 /> wird
+die Sache albern.
+Also alles in Maßen,<delay8 /> ja?<delay20 />
+Man muss ja nicht alles zubauen,<delay8 />
+bis keiner mehr durchkommt.<endTag a="100" b="5" /></message>
+	<message label="063_02" attrib="00 00 13"><tag a="100" b="5" />Seitdem es dieses neumodische
+Auto-Speichern gibt,<delay8 /> ist's Essig mit
+RESET drücken und neu versuchen.
+Nun gilt auch auf <tag a="110" b="8" />:
+Getan ist getan,<delay8 /> und zurücknehmen
+ist nicht!<delay20 /> Tja,<delay8 /> moderne Technik!<endTag a="100" b="5" /></message>
+	<message label="063_03" attrib="00 00 13"><tag a="100" b="5" />Ist ja auch nicht wichtig,<delay8 /> was
+hinten rauskommt.<delay20 /> Es zählt nur,<delay8 />
+wie viel Spaß man beim Machen hat!
+Der Einsatz zählt, klaro? Merk dir
+das gut, dann bringst du's zu was
+im Leben.<endTag a="100" b="5" /></message>
+	<message label="064" attrib="00 00 13"><tag a="60" b="20" /></message>
+	<message label="064_01" attrib="00 00 13"><tag a="100" b="5" />Eine Insel ist wie 'ne Pizza.<delay20 />
+Wenn man zu viel draufpackt,<delay8 /> wird
+die Sache albern.
+Also alles in Maßen,<delay8 /> ja?<delay20 />
+Man muss ja nicht alles zubauen,<delay8 />
+bis keiner mehr durchkommt.<endTag a="100" b="5" /></message>
+	<message label="064_02" attrib="00 00 13"><tag a="100" b="5" />Seitdem es dieses neumodische
+Auto-Speichern gibt,<delay8 /> ist's Essig mit
+RESET drücken und neu versuchen.
+Nun gilt auch auf <tag a="110" b="8" />:
+Getan ist getan,<delay8 /> und zurücknehmen
+ist nicht!<delay20 /> Tja,<delay8 /> moderne Technik!<endTag a="100" b="5" /></message>
+	<message label="064_03" attrib="00 00 13"><tag a="100" b="5" />Kleiner Trick gefällig,<delay8 /> wie du dein
+Meilenkonto ordentlich füttern
+kannst?<pageBreak />Schau jeden Tag beim <colour id="1" />NookPortal
+<colour id="65535" />vorbei. <delay20 />Dafür gibt's schon mal ein
+paar Meilchen umsonst!<delay20 /> Fein,<delay8 /> was?<endTag a="100" b="5" /></message>
+	<message label="201" attrib="06 00 17">Soll ich die App <colour id="1" />Insel-Designer
+<colour id="65535" />öffnen und etwas bauen oder
+verändern?</message>
+	<message label="201_a" attrib="00 00 17">Ja, los geht's!</message>
+	<message label="201_b" attrib="00 00 17">Aufräum-Service!</message>
+	<message label="201_c" attrib="00 00 17">Anleitung lesen.</message>
+	<message label="201_d" attrib="00 00 17">Nö.</message>
+	<message label="202" attrib="00 00 20">Baugenehmigung wird eingeholt<tag a="110" b="0" /><10_8 arg="30" /></message>
+	<message label="202_01" attrib="00 00 20">Die App <colour id="1" />Insel-Designer <colour id="65535" />ist jetzt
+bereit! Achtung: Bei Bauarbeiten
+ist stets ein Helm zu tragen!</message>
+	<message label="205" attrib="06 00 17">So!<delay20 /> War's das mit dem Bauen?</message>
+	<message label="205_a" attrib="00 00 17">Jawoll, bin fertig.</message>
+	<message label="205_b" attrib="00 00 17">Aufräum-Service!</message>
+	<message label="205_c" attrib="00 00 17">Anleitung lesen.</message>
+	<message label="205_d" attrib="00 00 17">Nee, fehlt noch was!</message>
+	<message label="206" attrib="00 00 20"><tag a="110" b="0" /><delay40 />Verbindungsfehler!<10_8 arg="30" /></message>
+	<message label="207" attrib="00 00 17">Ob's am Empfang liegt?
+Vielleicht sollte ich mal <colour id="1" />aufstehen
+<colour id="65535" />und es noch mal versuchen.</message>
+	<message label="208" attrib="00 00 17" />
+	<message label="209" attrib="00 00 20">Du bist <colour id="1" />außerhalb des
+Gültigkeitsbereiches
+<colour id="65535" />des <colour id="1" />Insel-Designers<colour id="65535" />.<pageBreak />Du kannst die App nur
+auf <tag a="110" b="9" /> nutzen,<delay8 />
+und nur im Freien.</message>
+	<message label="210" attrib="00 00 20">Abschlussvorgang beginnt<tag a="110" b="0" /><10_8 arg="60" /></message>
+	<message label="211" attrib="00 00 20">Bauarbeiten beendet!<delay20 />
+Danke für das Benutzen der App
+und bis zum nächsten Mal!</message>
+	<message label="212" attrib="00 09 21">Wenn das Tor am <colour id="1" />Flughafen<colour id="65535" />
+offen ist,<delay8 /> kann ich den
+<colour id="1" />Insel-Designer <colour id="65535" />nicht verwenden<tag a="110" b="0" /></message>
+	<message label="213" attrib="00 09 21">Solange Besuch da ist,<delay8 />
+lass ich besser die Finger
+vom <colour id="1" />Insel-Designer<colour id="65535" />.</message>
+	<message label="214" attrib="00 09 21">Bevor ich den <colour id="1" />Insel-Designer
+<colour id="65535" />benutze, <delay8 />sollte ich am <colour id="1" />Flughafen<colour id="65535" />
+die Verbindung beenden.</message>
+	<message label="221" attrib="00 00 20">Die App <colour id="1" />Insel-Designer
+<colour id="65535" />ist jetzt bereit!</message>
+	<message label="221_01" attrib="00 00 20">Drücke <colour id="1" /><colour id="65535" />, um die Art der
+Bauarbeiten zu ändern. Details
+findest du unter <colour id="1" />Anleitung lesen<colour id="65535" />.</message>
+	<message label="221_02" attrib="00 00 20">Drücke mit waagerechtem
+Joy-Con <colour id="1" /><colour id="65535" />/<colour id="1" /><colour id="65535" />, um die Art
+der Bauarbeiten zu ändern.<pageBreak />Details findest du unter
+<colour id="1" />Anleitung lesen<colour id="65535" />.</message>
+	<message label="222" attrib="00 00 20">&lt;<colour id="0" />App-Benachrichtigung<colour id="65535" />&gt;
+Es wurde eine <colour id="1" />Gewässerlizenz
+<colour id="65535" />hinzugefügt.</message>
+	<message label="223" attrib="00 00 20">&lt;<colour id="0" />App-Benachrichtigung<colour id="65535" />&gt;
+Es wurde eine <colour id="1" />Plateaulizenz
+<colour id="65535" />hinzugefügt.</message>
+	<message label="224" attrib="00 00 20">&lt;<colour id="0" />App-Benachrichtigung<colour id="65535" />&gt;
+Es wurden eine <colour id="1" />Gewässer-<colour id="65535" /> und
+eine <colour id="1" />Plateaulizenz<colour id="65535" /> hinzugefügt.</message>
+	<message label="225" attrib="00 00 20">Drücke <colour id="1" /><colour id="65535" />, um den Modus zu ändern.
+Details findest du in der App unter
+<colour id="1" />Anleitung lesen<colour id="65535" />.</message>
+	<message label="225_01" attrib="00 00 20">Drücke mit waagerechtem Joy-Con
+<colour id="1" /><colour id="65535" />/<colour id="1" /><colour id="65535" />, um den Modus zu ändern.<pageBreak />Details findest du unter
+<colour id="1" />Anleitung lesen<colour id="65535" />.</message>
+	<message label="241" attrib="00 00 20">– Grundlagen des <colour id="1" />Insel-Designers <colour id="65535" />–<pageBreak />&lt;<colour id="0" />Bauarbeiten starten und beenden<colour id="65535" />&gt;
+Die Bauarbeiten können mithilfe der
+App gestartet und beendet werden.</message>
+	<message label="241_01_00" attrib="00 00 20">&lt;<colour id="0" />Wechsel zwischen den Lizenzen<colour id="65535" />&gt;
+Drücke <colour id="1" /><colour id="65535" />, um die Lizenz zu ändern.</message>
+	<message label="241_01_01" attrib="00 00 20">&lt;<colour id="0" />Wechsel zwischen den Lizenzen<colour id="65535" />&gt;
+Drücke mit waagerechtem Joy-Con
+<colour id="1" /><colour id="65535" />/<colour id="1" /><colour id="65535" />, um die Lizenz zu ändern.</message>
+	<message label="241_02" attrib="00 00 20">Hinweis: Die Lizenzen des <colour id="1" />Insel-
+Designers <colour id="65535" />gelten ausschließlich
+auf <tag a="110" b="9" />.<pageBreak />Wenn du die Insel verlässt,
+werden die Bauarbeiten
+automatisch beendet.<pageBreak />Und wie bei allen schweren Arbeiten
+gilt:<delay20 /> Immer einen Helm tragen,<delay8 /> denn
+Sicherheit geht vor!</message>
+	<message label="242" attrib="00 00 20">– Die Konstruktion von Wegen –<pageBreak />Drücke <colour id="1" /><colour id="65535" />, um Wege über die
+Grasflächen der Insel zu ziehen oder
+bestehende Wege zu entfernen.</message>
+	<message label="242_00_01" attrib="00 00 20">– Die Konstruktion von Wegen –<pageBreak />Drücke <colour id="1" /><colour id="65535" />, um Wege über die
+Grasflächen der Insel zu ziehen oder
+bestehende Wege zu entfernen.</message>
+	<message label="242_01_00" attrib="00 00 20">&lt;<colour id="0" />Auswahl des Wegs<colour id="65535" />&gt;
+Drücke <colour id="1" /><colour id="65535" />, um die Art des zu
+bauenden Wegs zu wechseln.</message>
+	<message label="242_01_01" attrib="00 00 20">&lt;<colour id="0" />Auswahl des Wegs<colour id="65535" />&gt;
+Drücke mit waagerechtem Joy-Con
+<colour id="1" /><colour id="65535" />/<colour id="1" /><colour id="65535" />, um andere Wegarten zu bauen.</message>
+	<message label="243" attrib="00 00 20">– Die Konstruktion von Gewässern –<pageBreak />Drücke <colour id="1" /><colour id="65535" />, um Flüsse, Teiche etc. zu
+graben oder existierende Gewässer
+zuzuschütten.<pageBreak />&lt;<colour id="0" />Wasserfälle<colour id="65535" />&gt;
+Gräbst du auf einem Plateau,
+entsteht ein <colour id="1" />Wasserfall<colour id="65535" />.</message>
+	<message label="243_01" attrib="00 00 20">– Die Konstruktion von Gewässern –<pageBreak />Drücke <colour id="1" /><colour id="65535" />, um Flüsse, Teiche etc. zu
+graben oder existierende Gewässer
+zuzuschütten.<pageBreak />&lt;<colour id="0" />Wasserfälle<colour id="65535" />&gt;
+Gräbst du auf einem Plateau,
+entsteht ein <colour id="1" />Wasserfall<colour id="65535" />.</message>
+	<message label="244" attrib="00 00 20">– Die Konstruktion von Plateaus –<pageBreak />Drücke <colour id="1" /><colour id="65535" />, um vor dir ein Plateau
+aufzutürmen oder ein bestehendes
+einzureißen.
+&lt;<colour id="0" />Plateaus auf Plateaus<colour id="65535" />&gt;
+Baust du in die Höhe, musst du
+am Rand eine Kante freilassen.
+Achte also darauf, dass auf der
+unteren Ebene genug freie Fläche
+vorhanden ist.
+&lt;<colour id="0" />Wasserfälle entfernen<colour id="65535" />&gt;
+Zuerst mit der Gewässerlizenz
+zuschütten, dann Plateau entfernen!</message>
+	<message label="244_01" attrib="00 00 20">– Die Konstruktion von Plateaus –<pageBreak />Drücke <colour id="1" /><colour id="65535" />, um vor dir ein Plateau
+aufzutürmen oder ein bestehendes
+einzureißen.
+&lt;<colour id="0" />Plateaus auf Plateaus<colour id="65535" />&gt;
+Baust du in die Höhe, musst du
+am Rand eine Kante freilassen.
+Achte also darauf, dass auf der
+unteren Ebene genug freie Fläche
+vorhanden ist.
+&lt;<colour id="0" />Wasserfälle entfernen<colour id="65535" />&gt;
+Zuerst mit der Gewässerlizenz
+zuschütten, dann Plateau entfernen!</message>
+	<message label="245" attrib="00 00 20">– Über den Aufräum-Service –<pageBreak />Beim Durchführen von Bauarbeiten
+kann so einiges schiefgehen.<pageBreak />Man versperrt sich selbst den Weg.
+Oder man will etwas bearbeiten, aber
+es liegt oben auf einem Plateau.<pageBreak />In solchen Momenten hilft der
+Aufräum-Service. Der sorgt um
+dich herum für Ordnung!<pageBreak />Davon betroffen sind Möbel,
+Zäune und ähnliche Elemente <colour id="1" />in
+deiner unmittelbaren Umgebung<colour id="65535" />.<pageBreak />Um den Service zu nutzen, solltest
+du dich also zuerst in die Nähe der
+problematischen Objekte begeben.<pageBreak />Alle dabei aufgeräumten Objekte
+landen in der <colour id="1" />Krimskramskiste<colour id="65535" /> im
+Servicecenter.<pageBreak />Vergiss nicht, sie dort zeitnah
+wieder einzusammeln!</message>
+	<message label="251" attrib="06 00 17">Welche Anleitung lesen?</message>
+	<message label="251_a" attrib="00 00 17">Grundlagen</message>
+	<message label="251_b" attrib="00 00 17">Wegebau</message>
+	<message label="251_c" attrib="00 00 17">Aufräum-Service</message>
+	<message label="251_d" attrib="00 00 17">Beenden</message>
+	<message label="251_01" attrib="08 00 17">Welche Anleitung lesen?</message>
+	<message label="251_01_a" attrib="00 00 17">Grundlagen</message>
+	<message label="251_01_b" attrib="00 00 17">Wegebau</message>
+	<message label="251_01_c" attrib="00 00 17">Gewässerbau</message>
+	<message label="251_01_d" attrib="00 00 17">Aufräum-Service</message>
+	<message label="251_01_e" attrib="00 00 17">Beenden</message>
+	<message label="251_02" attrib="08 00 17">Welche Anleitung lesen?</message>
+	<message label="251_02_a" attrib="00 00 17">Grundlagen</message>
+	<message label="251_02_b" attrib="00 00 17">Wegebau</message>
+	<message label="251_02_c" attrib="00 00 17">Plateaubau</message>
+	<message label="251_02_d" attrib="00 00 17">Aufräum-Service</message>
+	<message label="251_02_e" attrib="00 00 17">Beenden</message>
+	<message label="251_03" attrib="0a 00 17">Welche Anleitung lesen?</message>
+	<message label="251_03_a" attrib="00 00 17">Grundlagen</message>
+	<message label="251_03_b" attrib="00 00 17">Wegebau</message>
+	<message label="251_03_c" attrib="00 00 17">Gewässerbau</message>
+	<message label="251_03_d" attrib="00 00 17">Plateaubau</message>
+	<message label="251_03_e" attrib="00 00 17">Aufräum-Service</message>
+	<message label="251_03_f" attrib="00 00 17">Beenden</message>
+	<message label="261" attrib="00 00 20">Der Aufräum-Service kann helfen,
+wenn es beim Durchführen von
+Bauarbeiten zu Problemen kommt.<pageBreak />Etwa, wenn man etwas auf einem
+Plateau nicht erreicht, oder wenn
+man sich selbst den Weg versperrt.<pageBreak />Nutze in solchen Fällen den
+Aufräum-Service, um Elemente
+um dich herum zu entfernen.<pageBreak />Alle dabei aufgeräumten Objekte
+landen in der <colour id="1" />Krimskramskiste<colour id="65535" /> im
+Servicecenter.<pageBreak />Einzelheiten dazu findest du
+unter <colour id="1" />Anleitung lesen<colour id="65535" />.</message>
+	<message label="262" attrib="02 00 20">Aufräum-Service nutzen, <delay8 />um Dinge in
+deiner Umgebung in die Krimskrams-
+kiste im Servicecenter zu befördern?</message>
+	<message label="262_a" attrib="00 00 20">Ja, aufräumen!</message>
+	<message label="262_b" attrib="00 00 20">Nicht jetzt...</message>
+	<message label="263" attrib="00 00 20">Alles klar! <delay20 />Bitte warte, <delay8 />während
+wir um dich herum aufräumen.</message>
+	<message label="264" attrib="00 00 20">Fertig! <delay frames="30" />Vergiss nicht, <delay8 />die entfernten
+Objekte aus der <colour id="1" />Krimskramskiste<colour id="65535" />
+im <colour id="1" />Servicecenter <colour id="65535" />abzuholen!</message>
+	<message label="265" attrib="00 00 20">Es konnten keine Elemente
+aufgeräumt werden.<pageBreak />Der Aufräum-Service ist nur für
+Möbel, Zäune und ähnliches in deiner
+unmittelbaren Umgebung zuständig.</message>
+	<message label="301" attrib="00 00 17">Für diese Insel scheint meine
+Karten-App keine Daten zu haben<tag a="110" b="0" /></message>
+	<message label="311" attrib="00 00 17">Nanu? <delay8 />„Kein Empfang“<tag a="110" b="0" /><delay20 /> Hmmm...<delay20 />
+Funktioniert wohl hier nicht.</message>
+	<message label="999" attrib="00 00 13"><colour id="1" />100<colour id="65535" /> Meilen</message>
+</msbt>

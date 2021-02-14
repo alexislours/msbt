@@ -1,0 +1,11 @@
+<msbt attribsize="8">
+	<message label="001" attrib="00 00 0c 01 00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />¡<tag a="50" b="3" /><tag a="110" b="14" />Hola, hola<endTag a="110" b="14" />!<delay20 />
+¡Nos encontramos de nuevo!<delay8 />
+¡<tag a="50" b="3" /><tag a="110" b="5" />!<setNpcTalkChoices chatOption="1" cancelOption="1" /></message>
+	<message label="002" attrib="00 00 0c 01 00 00 00 00"><anim id="Pardon" target="actor" targetSpec="" />Vaya, hoy no haces más que hablar
+conmigo.<delay8 /> <anim id="FaintSmile" target="actor" targetSpec="" />¿Estás jugando a la
+ofensiva o qué?<setNpcTalkChoices chatOption="0" cancelOption="0" /></message>
+	<message label="003" attrib="00 00 0c 01 00 00 00 00"><anim id="ShyBoy" target="actor" targetSpec="" />Eh, oye<tag a="110" b="0" /><delay8 /> creo que no estamos
+jugando al pilla-pilla, ¿no?<delay8 />
+<anim id="EmotEnd" target="actor" targetSpec="" />Así que puedes dejar de seguirme.<setNpcTalkChoices chatOption="1" cancelOption="1" /></message>
+</msbt>

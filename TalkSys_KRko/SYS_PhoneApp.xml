@@ -1,0 +1,353 @@
+<msbt attribsize="3">
+	<message label="000" attrib="00 00 17">어?<delay8 />
+'서비스 불가 지역'이라고 나와 있네<tag a="110" b="0" /><delay20 />
+여기서는 부를 수 없나 봐</message>
+	<message label="001" attrib="02 00 17"><colour id="1" />긴급 탈출 서비스<colour id="65535" />를 부탁할까?</message>
+	<message label="001_a" attrib="00 00 00">부탁할래</message>
+	<message label="001_b" attrib="00 00 00">그만둘래</message>
+	<message label="010" attrib="00 00 13"><tag a="10" b="12" /><tag a="100" b="2" /><tag a="100" b="5" /><size value="200" />갈꾸마!<size value="100" /><endTag a="100" b="5" /><endTag a="100" b="2" /><10_7 arg="20" /></message>
+	<message label="011" attrib="00 00 13"><tag a="100" b="5" /><tag a="10" b="12" />　　　　　　　　<size value="150" />예!<size value="100" /><10_7 arg="15" /><pageBreak />전화 주셔서 고맙심더!<delay frames="30" />
+<colour id="1" />긴급 탈출 서비스<colour id="65535" />라예!<endTag a="100" b="5" /></message>
+	<message label="011_01" attrib="00 00 13"><tag a="100" b="5" />에～<delay20 /> 손님<tag a="110" b="0" /><endTag a="100" b="5" /><10_7 arg="30" /></message>
+	<message label="011_02" attrib="00 00 13"><tag a="100" b="5" />손님의 현재 위치는<tag a="110" b="0" /><endTag a="100" b="5" /><10_7 arg="30" /></message>
+	<message label="012" attrib="00 00 13"><tag a="100" b="5" />응?<delay frames="30" />
+뭐꼬, <delay20 />전파가
+와 이리 안 터지노<tag a="110" b="0" /><endTag a="100" b="5" /></message>
+	<message label="012_01" attrib="00 00 13"><tag a="100" b="5" />손님, <delay20 />혹시 지금 딴 섬에서
+누구 놀러온 사람 있나?<pageBreak />미안한데, <delay8 />이게 통신이 복잡하면
+전송이 잘 안 돼 가꼬 말이다<tag a="110" b="0" /><pageBreak />도저히 못 움직이겠으믄<delay8 />
+<colour id="1" /> <colour id="65535" />버튼으로 메뉴를 열어가
+<colour id="1" />접속을 종료하기<colour id="65535" /> 한번 눌러보그래이!<endTag a="100" b="5" /></message>
+	<message label="012_02" attrib="00 00 13"><tag a="100" b="5" />손님, <delay20 />혹시 지금
+딴 섬에 놀러가 있나?<pageBreak />미안한데, <delay8 />이게 통신이 복잡하면
+전송이 잘 안 돼 가꼬 말이다<tag a="110" b="0" /><pageBreak />도저히 못 움직이겠으믄<delay8 />
+<colour id="1" /> <colour id="65535" />버튼으로 메뉴를 열어가
+<colour id="1" />내 섬으로 돌아가기<colour id="65535" /> 한번 눌러보그래이!<endTag a="100" b="5" /></message>
+	<message label="013" attrib="00 00 13"><tag a="100" b="5" />아, <delay20 />손님 지금<delay20 />
+어디 건물 안에 드가 있나?<pageBreak />미안한데, 이 서비스<delay20 />
+실내에서는 못 쓴다<tag a="110" b="0" /><pageBreak />그 뭐꼬, <delay20 />천장에 머리라도 받아뿌면<delay20 />
+억수로 아프지 않겠나?<pageBreak />그니까 <delay20 />이용하고 싶으믄<delay20 />
+일단 밖에 <delay20 />나온나!<endTag a="100" b="5" /></message>
+	<message label="021_01" attrib="00 00 13"><tag a="100" b="5" />아～ <delay20 /><tag a="110" b="33" />의
+<tag a="110" b="1" /> 맞제?<anim id="Nodding" target="player" targetSpec="" /><endTag a="100" b="5" /></message>
+	<message label="021_02" attrib="00 00 13"><tag a="100" b="5" />아～ <delay8 />으이, 으이～<delay20 />
+<tag a="110" b="33" />의
+<tag a="110" b="1" /> 맞제?<anim id="Nodding" target="player" targetSpec="" /><endTag a="100" b="5" /></message>
+	<message label="021_03" attrib="00 00 13"><tag a="100" b="5" />뭐꼬?<delay20 />
+<tag a="110" b="1" />,<delay20 /> 니 또 뭔 일 났나?<anim id="Nodding" target="player" targetSpec="" /><endTag a="100" b="5" /></message>
+	<message label="022" attrib="00 00 13"><tag a="100" b="5" />손님은<delay20 /> 처음 이용하니까
+내 간단하게 설명해주께!<pageBreak />이 서비스는<delay8 /> 길이 막혔거나<delay8 />
+무슨 사정이 있어가
+움직일 수 없게 된 사람을<tag a="110" b="0" /><pageBreak />안전한 데로 슝 하고
+보내드리는 서비스다! 이 말이다<pageBreak />우째 하는지는 사업 비밀이니께
+자세히 물어보지 말그래이<tag a="110" b="0" /><endTag a="100" b="5" /></message>
+	<message label="023_01" attrib="02 00 13"><tag a="100" b="5" />1회 이용료는
+<colour id="1" />100<colour id="65535" />마일인데<tag a="110" b="0" /><delay20 />
+우째 할 끼고?<endTag a="100" b="5" /></message>
+	<message label="023_01_a" attrib="00 00 13"><anim id="Nodding" target="player" targetSpec="" />부탁할게요!</message>
+	<message label="023_01_b" attrib="00 00 13"><anim id="Negative" target="player" targetSpec="" />괜찮아요</message>
+	<message label="023_02" attrib="02 00 13"><tag a="100" b="5" /><colour id="1" />100<colour id="65535" />마일로<delay20 />
+함 날아가볼 끼가?<endTag a="100" b="5" /></message>
+	<message label="023_02_a" attrib="00 00 13"><anim id="Nodding" target="player" targetSpec="" />부탁할게요!</message>
+	<message label="023_02_b" attrib="00 00 13"><anim id="Negative" target="player" targetSpec="" />괜찮아요</message>
+	<message label="023_03" attrib="02 00 13"><tag a="100" b="5" />근데 <tag a="110" b="1" />,<delay20 />
+니 지난번에는 마일이 부족하드만<delay8 />
+인제 괜찮나?<pageBreak />이용료는 1회 <colour id="1" />100<colour id="65535" />마일인데<delay8 />
+함 날아가볼 끼가?<endTag a="100" b="5" /></message>
+	<message label="023_03_a" attrib="00 00 13"><anim id="Nodding" target="player" targetSpec="" />부탁할게요!</message>
+	<message label="023_03_b" attrib="00 00 13"><anim id="Negative" target="player" targetSpec="" />괜찮아요</message>
+	<message label="031_01" attrib="00 00 13"><tag a="100" b="5" />응?<delay20 /> 안 할라꼬?<endTag a="100" b="5" /></message>
+	<message label="031_02" attrib="00 00 13"><tag a="100" b="5" />응?<delay20 /> 안 할라꼬?<delay40 />
+거<tag a="110" b="0" /> <delay8 />지난번에 마일 부족했다 캐서<delay20 />
+내 화난 거는 아이다!<endTag a="100" b="5" /></message>
+	<message label="032_01" attrib="00 00 13"><tag a="100" b="5" />진짜로 난처하다 카믄 버티지 말고<delay20 />
+얼마든지 말하그래이!<endTag a="100" b="5" /></message>
+	<message label="032_02" attrib="00 00 13"><tag a="100" b="5" />혹시 마일이 모자라다든가
+뭔 사정이 있으믄<delay8 />
+우짜든지 내가 도와줄 테니까<tag a="110" b="0" />
+진짜로 난처하다 카믄 버티지 말고
+얼마든지 말하그래이!<endTag a="100" b="5" /></message>
+	<message label="041_01" attrib="00 00 13"><tag a="100" b="5" />알긋다～<10_4 />
+일단 <delay20 /><colour id="1" />100<colour id="65535" />마일 선불로 받는데이!<endTag a="100" b="5" /></message>
+	<message label="041_02" attrib="00 00 13"><tag a="100" b="5" />알긋다～<10_4 />
+이번에는 마일도 다 있는 모양이니까<delay8 />
+<colour id="1" />100<colour id="65535" />마일 선불로 받는데이!<endTag a="100" b="5" /></message>
+	<message label="042_01" attrib="00 00 13"><tag a="100" b="5" />알긋다!<delay40 />
+그카믄 <delay20 /><colour id="1" />100<colour id="65535" />마일 선불로<tag a="110" b="0" /><delay8 /> 응?<endTag a="100" b="5" /><10_7 arg="75" /></message>
+	<message label="042_02" attrib="00 00 13"><10_10 /><tag a="10" b="12" /><anim id="TakenAback" target="player" targetSpec="" />　　　　　　　<100_3 arg="Katsu" /><tag a="100" b="5" /><size value="150" />아～!<size value="100" /><delay20 /><10_9 /><pageBreak /><anim id="EmotEnd" target="player" targetSpec="" />스톱, 스톱!<delay frames="30" />
+손님, 마일이 모자라네!<pageBreak />아이고마～ <delay8 />할 수 없제<tag a="110" b="0" /><delay20 />
+곤란한 상황이라 긴급 탈출을 할라는 거니까는<delay20 />
+이번엔 서비스로 해주께!<endTag a="100" b="5" /></message>
+	<message label="042_03" attrib="00 00 13"><10_10 /><tag a="10" b="12" /><anim id="TakenAback" target="player" targetSpec="" />　　　　　　　<100_3 arg="Katsu" /><tag a="100" b="5" /><size value="150" />아～!<size value="100" /><delay20 /><10_9 /><pageBreak /><anim id="EmotEnd" target="player" targetSpec="" />스톱, 스토옵 손님～!<delay frames="30" />
+또 마일이 모자라제?<pageBreak />아이고마～ <delay20 />할 수 없제<tag a="110" b="0" /><delay20 />
+곤란한 상황이라 긴급 탈출을 할라는 거니까는<delay20 />
+이번에도 서비스로 그냥 해주께!<endTag a="100" b="5" /></message>
+	<message label="042_04" attrib="00 00 13"><tag a="100" b="5" />그 대신 <delay20 />어데로 보낼지는
+내 맘이니까 그리 알그래이!<endTag a="100" b="5" /></message>
+	<message label="043" attrib="00 00 13"><tag a="100" b="5" />근데 손님,<delay20 />
+지금 또 누가 와 있는 모양이니까
+이번에는 그냥 <colour id="1" />광장<colour id="65535" />으로 보내주꾸마!<endTag a="100" b="5" /></message>
+	<message label="044_01" attrib="06 00 13"><tag a="100" b="5" />그카믄 손님,<delay20 />
+어데로 보내주꼬?<endTag a="100" b="5" /></message>
+	<message label="044_01_a" attrib="00 00 13">우리 집</message>
+	<message label="044_01_b" attrib="00 00 13">광장</message>
+	<message label="044_01_c" attrib="00 00 13">비행장</message>
+	<message label="044_01_d" attrib="00 00 13"><anim id="Negative" target="player" targetSpec="" />그만둘래</message>
+	<message label="044_02" attrib="06 00 13"><tag a="100" b="5" />그카믄 손님,<delay20 />
+어데로 보내주꼬?<endTag a="100" b="5" /></message>
+	<message label="044_02_a" attrib="00 00 13">내 텐트</message>
+	<message label="044_02_b" attrib="00 00 13">광장</message>
+	<message label="044_02_c" attrib="00 00 13">비행장</message>
+	<message label="044_02_d" attrib="00 00 13"><anim id="Negative" target="player" targetSpec="" />그만둘래</message>
+	<message label="044_03" attrib="08 00 13"><tag a="100" b="5" />그카믄 손님,<delay20 />
+어데로 보내주꼬?<endTag a="100" b="5" /></message>
+	<message label="044_03_a" attrib="00 00 13">우리 집</message>
+	<message label="044_03_b" attrib="00 00 13">광장</message>
+	<message label="044_03_c" attrib="00 00 13">가게</message>
+	<message label="044_03_d" attrib="00 00 13">비행장</message>
+	<message label="044_03_e" attrib="00 00 13"><anim id="Negative" target="player" targetSpec="" />그만둘래</message>
+	<message label="045" attrib="04 00 13"><tag a="100" b="5" />아 근데 <delay20 />손님은 아직 머물 곳이<delay20 />
+없는 거 가튼데<tag a="110" b="0" /><delay frames="40" />
+내 어데로 보내주면 되나?<endTag a="100" b="5" /></message>
+	<message label="045_a" attrib="00 00 13">광장</message>
+	<message label="045_b" attrib="00 00 13">비행장</message>
+	<message label="045_c" attrib="00 00 13"><anim id="Negative" target="player" targetSpec="" />그만둘래</message>
+	<message label="046" attrib="06 00 13"><tag a="100" b="5" />아 근데 <delay20 />손님은 아직 머물 곳이<delay20 />
+없는 거 가튼데<tag a="110" b="0" /><delay frames="40" />
+내 어데로 보내주면 되나?<endTag a="100" b="5" /></message>
+	<message label="046_a" attrib="00 00 13">광장</message>
+	<message label="046_b" attrib="00 00 13">가게</message>
+	<message label="046_c" attrib="00 00 13">비행장</message>
+	<message label="046_d" attrib="00 00 13"><anim id="Negative" target="player" targetSpec="" />그만둘래</message>
+	<message label="047" attrib="08 00 13"><tag a="100" b="5" />그카믄 손님,<delay20 />
+어데로 보내주꼬?<endTag a="100" b="5" /></message>
+	<message label="047_a" attrib="00 00 13">내 텐트</message>
+	<message label="047_b" attrib="00 00 13">광장</message>
+	<message label="047_c" attrib="00 00 13">가게</message>
+	<message label="047_d" attrib="00 00 13">비행장</message>
+	<message label="047_e" attrib="00 00 13"><anim id="Negative" target="player" targetSpec="" />그만둘래</message>
+	<message label="048" attrib="02 00 13"><tag a="100" b="5" /><tag a="110" b="0" />응?<delay40 /> 머꼬, <delay8 />손님 지금
+어디 멀리 나가 있나?<pageBreak />정확한 지도 데이터가 없어가꼬<delay20 />
+<colour id="1" />지금 있는 섬의 비행장<colour id="65535" />으로만
+보내줄 수 있는데<delay20 /> 그라도 괜찮겠나?<endTag a="100" b="5" /></message>
+	<message label="048_a" attrib="00 00 13">부탁할게요!</message>
+	<message label="048_b" attrib="00 00 13"><anim id="Negative" target="player" targetSpec="" />그만둘래</message>
+	<message label="050_01" attrib="00 00 13"><tag a="100" b="5" />손님 텐트 말이제? <delay20 />알긋다!<endTag a="100" b="5" /></message>
+	<message label="050_02" attrib="00 00 13"><tag a="100" b="5" />손님네 집 말이제?<delay20 /> 알긋다!<endTag a="100" b="5" /></message>
+	<message label="050_03" attrib="00 00 13"><tag a="100" b="5" />섬 광장 말이제?<delay20 /> 알긋다!<endTag a="100" b="5" /></message>
+	<message label="050_04" attrib="00 00 13"><tag a="100" b="5" />섬 가게 말이제?<delay20 /> 알긋다!<endTag a="100" b="5" /></message>
+	<message label="050_05" attrib="00 00 13" />
+	<message label="050_06" attrib="00 00 13"><tag a="100" b="5" />알긋다!<delay frames="30" />
+그라믄 <delay20 />거기로 보내주꾸마<endTag a="100" b="5" /></message>
+	<message label="050_07" attrib="00 00 13"><tag a="100" b="5" />비행장 말이제?<delay20 /> 알긋다!<endTag a="100" b="5" /></message>
+	<message label="051" attrib="00 00 13"><tag a="60" b="20" /></message>
+	<message label="051_01" attrib="00 00 13"><tag a="100" b="5" /><tag a="110" b="0" />에～ 어데 보자<tag a="110" b="0" />
+　　　　　　  　　　　　　　<size value="75" />이 버튼이 맞나<tag a="110" b="0" /><size value="100" /><endTag a="100" b="5" /></message>
+	<message label="051_02" attrib="00 00 13"><tag a="100" b="5" /><tag a="110" b="0" />에～ 그라믄<tag a="110" b="0" />
+　　　　　　　　  <size value="75" />어데 보자, <delay8 />이 버튼이 맞든가<tag a="110" b="0" />?<size value="100" /><endTag a="100" b="5" /></message>
+	<message label="051_03" attrib="00 00 13"><tag a="100" b="5" /><tag a="110" b="0" />에～<tag a="110" b="0" />
+　　　　　　 <size value="75" />느려 터졌구마<tag a="110" b="0" /><delay8 /> 버튼이 뭐 이리 작노<tag a="110" b="0" /><size value="100" /><endTag a="100" b="5" /></message>
+	<message label="052" attrib="00 00 13"><tag a="100" b="5" />됐다! <delay8 />간데이<tag a="110" b="0" /><endTag a="100" b="5" /></message>
+	<message label="053" attrib="00 00 14"><tag a="10" b="12" /><tag a="100" b="2" /><size value="300" />출동!<size value="100" /><endTag a="100" b="2" /><10_8 arg="30" /></message>
+	<message label="061" attrib="00 00 13"><tag a="100" b="5" />자, <delay20 />다 왔다!<endTag a="100" b="5" /></message>
+	<message label="062" attrib="00 00 13"><tag a="100" b="5" />맞다, <delay8 />마지막으로 한마디<tag a="110" b="0" /><endTag a="100" b="5" /></message>
+	<message label="063" attrib="00 00 13"><tag a="60" b="20" /></message>
+	<message label="063_01" attrib="00 00 13"><tag a="100" b="5" />섬이나 머리나<delay8 />
+너무 꽉꽉 채우면 펑크가 나는 기다!<10_4 />
+뭐든지 정도를 알아야지! 알긋제?!<endTag a="100" b="5" /></message>
+	<message label="063_02" attrib="00 00 13"><tag a="100" b="5" />자동 저장이라는 기 생겨 가꼬<delay frames="30" />
+<tag a="110" b="33" /> 생활은<delay20 />
+<100_3 arg="Katsu" />리셋을 몬 한다!<endTag a="100" b="5" /></message>
+	<message label="063_03" attrib="00 00 13"><tag a="100" b="5" />설마<tag a="110" b="0" /><delay20 />
+<100_3 arg="Katsu" />이거를 택시 대신 쓰는<delay8 />
+사람은 없겠제?!<endTag a="100" b="5" /></message>
+	<message label="064" attrib="00 00 13"><tag a="60" b="20" /></message>
+	<message label="064_01" attrib="00 00 13"><tag a="100" b="5" />섬이나 머리나<delay8 />
+너무 꽉꽉 채우면 펑크가 나는 기다!<10_4 />
+뭐든지 정도를 알아야지! 알긋제?!<endTag a="100" b="5" /></message>
+	<message label="064_02" attrib="00 00 13"><tag a="100" b="5" />자동 저장이라는 기 생겨 가꼬<delay frames="30" />
+<tag a="110" b="33" /> 생활은<delay20 />
+<100_3 arg="Katsu" />리셋을 몬 한다!<endTag a="100" b="5" /></message>
+	<message label="064_03" attrib="00 00 13"><tag a="100" b="5" />포인트인지 마일인지<delay20 />
+그런 거는 똑똑하게 모으는
+요령이 있기 마련이다!<pageBreak />일단 매일 <colour id="1" />너굴포트<colour id="65535" />에
+접속만 해도 마일을 주니까
+<delay20 /><100_3 arg="Katsu" />잘 기억하그래이!<endTag a="100" b="5" /></message>
+	<message label="201" attrib="06 00 17"><colour id="1" />섬 크리에이터<colour id="65535" /><gender5 m="을" f="를" /> 발급받아서
+토목 공사를 시작할까?</message>
+	<message label="201_a" attrib="00 00 17">공사 시작하기</message>
+	<message label="201_b" attrib="00 00 17">정리 서비스</message>
+	<message label="201_c" attrib="00 00 17">사용 방법 보기</message>
+	<message label="201_d" attrib="00 00 17">그만둘래</message>
+	<message label="202" attrib="00 00 20">공사 허가를 신청하는 중입니다<tag a="110" b="0" /><10_8 arg="30" /></message>
+	<message label="202_01" attrib="00 00 20"><colour id="1" />섬 크리에이터<colour id="65535" /> 준비가 완료되었습니다!
+공사 중에는 반드시 헬맷을 착용하고
+안전에 주의합시다!</message>
+	<message label="205" attrib="06 00 17">공사를 마칠까?</message>
+	<message label="205_a" attrib="00 00 17">공사 마치기</message>
+	<message label="205_b" attrib="00 00 17">정리 서비스</message>
+	<message label="205_c" attrib="00 00 17">사용 방법 보기</message>
+	<message label="205_d" attrib="00 00 17">계속할래</message>
+	<message label="206" attrib="00 00 20"><tag a="110" b="0" /><delay40 />접속 에러!!<10_8 arg="30" /></message>
+	<message label="207" attrib="00 00 17">어? 전파 상태가 안 좋은가?
+<colour id="1" />일어서서<colour id="65535" /> 다시 한번 시도해봐야지!</message>
+	<message label="208" attrib="00 00 17" />
+	<message label="209" attrib="00 00 20">섬 크리에이터의 <colour id="1" />유효 구역<colour id="65535" />을 벗어났습니다<delay20 />
+이 앱은 <tag a="110" b="34" />의
+야외에서만 <delay8 />이용 가능합니다</message>
+	<message label="210" attrib="00 00 20">종료 준비를 하고 있습니다<tag a="110" b="0" /><10_8 arg="60" /></message>
+	<message label="211" attrib="00 00 20">공사가 종료되었습니다!
+다음에 다시 이용해주세요</message>
+	<message label="212" attrib="00 09 21">비행장 탑승구가 열려 있을 때는
+<colour id="1" />섬 크리에이터<colour id="65535" />를 사용할 수 없어!</message>
+	<message label="213" attrib="00 09 21">섬에 손님이 와 있을 때는
+<colour id="1" />섬 크리에이터<colour id="65535" />를 사용할 수 없어!</message>
+	<message label="214" attrib="00 09 21">통신 중에는 <colour id="1" />섬 크리에이터<colour id="65535" />를 쓸 수 없으니까<delay8 />
+미리 비행장에서 통신을 종료해야 해!</message>
+	<message label="221" attrib="00 00 20"><colour id="1" />섬 크리에이터 <colour id="65535" />준비가 완료되었습니다!</message>
+	<message label="221_01" attrib="00 00 20"><colour id="1" /> 버튼<colour id="65535" />을 눌러서 실시할 공사 종류를
+바꿀 수 있습니다. 자세한 내용은
+<colour id="1" />사용 방법 보기<colour id="65535" />를 참고해주세요</message>
+	<message label="221_02" attrib="00 00 20">Joy-Con 가로 잡기로 플레이할 경우
+<colour id="1" /><colour id="65535" /> 또는 <colour id="1" /><colour id="65535" />로 공사 종류를 바꿀 수 있습니다
+자세한 내용은 <colour id="1" />사용 방법 보기<colour id="65535" />를 참고해주세요</message>
+	<message label="222" attrib="00 00 20">＜<colour id="0" />앱 알림<colour id="65535" />＞
+<colour id="1" />하천 공사 자격증<colour id="65535" />이
+추가되었습니다</message>
+	<message label="223" attrib="00 00 20">＜<colour id="0" />앱 알림<colour id="65535" />＞
+<colour id="1" />절벽 공사 자격증<colour id="65535" />이
+추가되었습니다</message>
+	<message label="224" attrib="00 00 20">＜<colour id="0" />앱 알림<colour id="65535" />＞
+<colour id="1" />하천 공사<colour id="65535" />와 <colour id="1" />절벽 공사 자격증<colour id="65535" />이
+추가되었습니다</message>
+	<message label="225" attrib="00 00 20"><colour id="1" /> 버튼<colour id="65535" />을 눌러서 공사 종류를 바꿀 수
+있습니다. 자세한 사용 방법은 앱에서
+<colour id="1" />사용 방법 보기<colour id="65535" />를 참고해주세요</message>
+	<message label="225_01" attrib="00 00 20">Joy-Con 가로 잡기로 플레이할 경우
+<colour id="1" /><colour id="65535" /> 또는 <colour id="1" /><colour id="65535" />로 공사 종류를 바꿀 수 있습니다
+자세한 내용은 <colour id="1" />사용 방법 보기<colour id="65535" />를 참고해주세요</message>
+	<message label="241" attrib="00 00 20">～<colour id="1" />섬 크리에이터 <colour id="65535" />기본 사용 방법～<pageBreak />＜<colour id="0" />공사 시작과 종료<colour id="65535" />＞
+스마트폰의 전용 앱에서
+공사를 시작하거나 마칠 수 있습니다</message>
+	<message label="241_01_00" attrib="00 00 20">＜<colour id="0" />공사 종류 전환<colour id="65535" />＞
+공사 중 <colour id="1" /> 버튼<colour id="65535" />을 눌러서
+실시할 공사 종류를 바꿀 수 있습니다</message>
+	<message label="241_01_01" attrib="00 00 20">＜<colour id="0" />공사 종류 전환<colour id="65535" />＞
+Joy-Con 가로 잡기로 플레이할 경우 공사 중
+<colour id="1" /><colour id="65535" /> 또는 <colour id="1" /><colour id="65535" />로 공사 종류를 바꿀 수 있습니다</message>
+	<message label="241_02" attrib="00 00 20">또한 <colour id="1" />섬 크리에이터<colour id="65535" />는
+<tag a="110" b="34" /> 안에서만
+사용할 수 있습니다<pageBreak /><tag a="110" b="32" /> 바깥으로 나갈 경우
+공사가 종료되므로 주의해주세요<pageBreak />공사 중에는 반드시
+지정된 헬멧을 착용하고
+안전에 주의합시다</message>
+	<message label="242" attrib="00 00 20">～도로 공사 진행 방법～<pageBreak /><colour id="1" /> 버튼<colour id="65535" />을 눌러서
+<tag a="110" b="32" />의 잔디에 길을 깔거나
+깔아 놓은 길을 철거할 수 있습니다</message>
+	<message label="242_00_01" attrib="00 00 20">～도로 공사 진행 방법～<pageBreak /><colour id="1" /><colour id="65535" />을 눌러서
+<tag a="110" b="32" />의 잔디에 길을 깔거나
+깔아 놓은 길을 철거할 수 있습니다</message>
+	<message label="242_01_00" attrib="00 00 20">＜<colour id="0" />바닥에 깔 길 선택<colour id="65535" />＞
+<colour id="1" /> 버튼<colour id="65535" />을 누르면 깔고 싶은 길의
+종류를 선택할 수 있습니다</message>
+	<message label="242_01_01" attrib="00 00 20">＜<colour id="0" />바닥에 깔 길 선택<colour id="65535" />＞
+Joy-Con 가로 잡기로 플레이할 경우 공사 중
+<colour id="1" /><colour id="65535" /> 또는 <colour id="1" /><colour id="65535" />로 공사 종류를 바꿀 수 있습니다</message>
+	<message label="243" attrib="00 00 20">～하천 공사 진행 방법～<pageBreak /><colour id="1" /> 버튼<colour id="65535" />을 눌러서
+땅에 강을 파거나
+흐르는 강을 흙으로 덮을 수 있습니다
+＜<colour id="0" />폭포 만드는 법<colour id="65535" />＞
+절벽 위에서 사용하면
+절벽을 깎아 <colour id="1" />폭포<colour id="65535" />를 만들 수 있습니다</message>
+	<message label="243_01" attrib="00 00 20">～하천 공사 진행 방법～<pageBreak /><colour id="1" /><colour id="65535" />을 눌러서
+땅에 강을 파거나
+흐르는 강을 흙으로 덮을 수 있습니다
+＜<colour id="0" />폭포 만드는 법<colour id="65535" />＞
+절벽 위에서 사용하면
+절벽을 깎아 <colour id="1" />폭포<colour id="65535" />를 만들 수 있습니다</message>
+	<message label="244" attrib="00 00 20">～절벽 공사 진행 방법～<pageBreak /><colour id="1" /> 버튼<colour id="65535" />을 눌러서
+땅에 절벽을 세우거나
+눈앞의 절벽을 깎아 없앨 수 있습니다
+＜<colour id="0" />절벽 쌓는 법<colour id="65535" />＞
+절벽 가장자리에는 절벽을 세울 수
+없으므로 절벽 위에 또 절벽을 세우려면
+넓은 절벽을 만들어 충분한 공간을
+확보해야 합니다<pageBreak />＜<colour id="0" />폭포 없애는 법<colour id="65535" />＞
+폭포를 없애려면 절벽을 깎기 전에
+먼저 하천 공사로 폭포를 덮어야 합니다</message>
+	<message label="244_01" attrib="00 00 20">～절벽 공사 진행 방법～<pageBreak /><colour id="1" /><colour id="65535" />을 눌러서
+땅에 절벽을 세우거나
+눈앞의 절벽을 깎아 없앨 수 있습니다
+＜<colour id="0" />절벽 쌓는 법<colour id="65535" />＞
+절벽 가장자리에는 절벽을 세울 수
+없으므로 절벽 위에 또 절벽을 세우려면
+넓은 절벽을 만들어 충분한 공간을
+확보해야 합니다<pageBreak />＜<colour id="0" />폭포 없애는 법<colour id="65535" />＞
+폭포를 없애려면 절벽을 깎기 전에
+먼저 하천 공사로 폭포를 덮어야 합니다</message>
+	<message label="245" attrib="00 00 20">～정리 서비스에 대하여～<pageBreak />정리 서비스는
+개발 공사 진행에 따라 발생할 수 있는
+트러블을 해결해드리는 서비스입니다
+장식한 물건 때문에 움직일 수 없거나,
+절벽 위에 둔 물건을 주울 수 없을 때 등,
+자신의 주변에 있는 물건을 정리할 수 있습니다
+정리 서비스의 대상은
+<colour id="1" />자신의 가까이에 놓여 있는<colour id="65535" />
+가구나 울타리뿐입니다
+이용하실 때는 정리하고 싶은 물건에
+확실히 다가가서 붙으신 후에
+서비스를 신청해주세요
+정리한 물건은 안내소에 마련된
+<colour id="1" />재활용함<colour id="65535" />에 수거되니,
+빠른 시일 내에 찾아가주세요</message>
+	<message label="251" attrib="06 00 17">어떤 설명을 읽을까?</message>
+	<message label="251_a" attrib="00 00 17">기본 사용 방법</message>
+	<message label="251_b" attrib="00 00 17">도로 공사</message>
+	<message label="251_c" attrib="00 00 17">정리 서비스</message>
+	<message label="251_d" attrib="00 00 17">그만 볼래</message>
+	<message label="251_01" attrib="08 00 17">어떤 설명을 읽을까?</message>
+	<message label="251_01_a" attrib="00 00 17">기본 사용 방법</message>
+	<message label="251_01_b" attrib="00 00 17">도로 공사</message>
+	<message label="251_01_c" attrib="00 00 17">하천 공사</message>
+	<message label="251_01_d" attrib="00 00 17">정리 서비스</message>
+	<message label="251_01_e" attrib="00 00 17">그만 볼래</message>
+	<message label="251_02" attrib="08 00 17">어떤 설명을 읽을까?</message>
+	<message label="251_02_a" attrib="00 00 17">기본 사용 방법</message>
+	<message label="251_02_b" attrib="00 00 17">도로 공사</message>
+	<message label="251_02_c" attrib="00 00 17">절벽 공사</message>
+	<message label="251_02_d" attrib="00 00 17">정리 서비스</message>
+	<message label="251_02_e" attrib="00 00 17">그만 볼래</message>
+	<message label="251_03" attrib="0a 00 17">어떤 설명을 읽을까?</message>
+	<message label="251_03_a" attrib="00 00 17">기본 사용 방법</message>
+	<message label="251_03_b" attrib="00 00 17">도로 공사</message>
+	<message label="251_03_c" attrib="00 00 17">하천 공사</message>
+	<message label="251_03_d" attrib="00 00 17">절벽 공사</message>
+	<message label="251_03_e" attrib="00 00 17">정리 서비스</message>
+	<message label="251_03_f" attrib="00 00 17">그만 볼래</message>
+	<message label="261" attrib="00 00 20">정리 서비스는<delay frames="30" />
+개발 공사를 진행하며 발생할 수 있는
+문제를<delay20 /> 해결해드리는 서비스입니다.<pageBreak />절벽 위에 둔 물건을 잡을 수 없거나<delay20 />
+좁은 곳에 둔 물건 때문에 움직일 수 없을 때<delay20 />
+주변에 있는 물건을 한번에 회수할 수 있습니다.<pageBreak />회수한 물건은 <delay20 />안내소에 마련된
+<colour id="1" />재활용함<colour id="65535" />에 모이게 됩니다.<delay frames="30" />
+자세한 내용은 <colour id="1" />사용 방법 보기<colour id="65535" />를 참고해주세요.</message>
+	<message label="262" attrib="02 00 20">정리 서비스를 이용하여<delay20 />
+주변에 있는 물건을
+안내소의 재활용함에 보내시겠습니까?</message>
+	<message label="262_a" attrib="00 00 20">보낼래</message>
+	<message label="262_b" attrib="00 00 20">안 보낼래</message>
+	<message label="263" attrib="00 00 20">알겠습니다.<delay20 /> 지금 바로
+주변에 있는 물건을 정리하겠습니다.</message>
+	<message label="264" attrib="00 00 20">정리가 완료되었습니다.<delay frames="30" />
+안내소의 <colour id="1" />재활용함<colour id="65535" />에서<delay20 />
+물건을 찾아가주세요.</message>
+	<message label="265" attrib="00 00 20">정리할 수 있는 물건이 없었습니다.<pageBreak />정리 서비스의 대상은<delay20 />
+자신의 가까이에 놓여 있는<delay8 />
+가구나 울타리뿐입니다.</message>
+	<message label="301" attrib="00 00 17">이 섬은 지도 앱이
+지원하지 않는 곳인가 봐<tag a="110" b="0" /></message>
+	<message label="311" attrib="00 00 17">어?<delay8 />
+'서비스 불가 지역'이라고 나와 있네<tag a="110" b="0" /><delay20 />
+여기서는 볼 수 없나 봐</message>
+	<message label="999" attrib="00 00 13"><colour id="1" />100<colour id="65535" />마일</message>
+</msbt>

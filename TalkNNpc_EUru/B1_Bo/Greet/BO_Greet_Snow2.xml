@@ -1,0 +1,13 @@
+<msbt attribsize="8">
+	<message label="001" attrib="00 00 0c 01 00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />Знаешь,<anim id="Smiling" target="actor" targetSpec="" /> когда идет снег,
+есть <tag a="50" b="23" arg="0xcd01" /><tag a="135" b="3" arg="0xcd00" />
+одно удовольствие.<setNpcTalkChoices chatOption="0" cancelOption="1" /></message>
+	<message label="002" attrib="00 00 0c 01 00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />Хочу сделать мороженое!<delay frames="40" /> Положу
+банку сметаны на ночь в снег<tag a="110" b="0" /><pageBreak /><anim id="HappyFlower" target="actor" targetSpec="" /><delay20 /><10_10 /><10_5 />Бум!<endTag a="10" b="5" /><delay20 /><10_9 /> Получится новый вкус!<delay frames="40" /><anim id="EmotEnd" target="actor" targetSpec="" /><setNpcTalkChoices chatOption="0" cancelOption="1" /></message>
+	<message label="003" attrib="00 00 0c 01 00 00 00 00"><anim id="Shaking" target="actor" targetSpec="" />Бр-р-р<tag a="110" b="0" /> Сегодня так холодно.
+Даже мои вкусняшки смерзлись!<setNpcTalkChoices chatOption="0" cancelOption="1" /></message>
+	<message label="004" attrib="00 00 0c 01 00 00 00 00"><anim id="Love" target="actor" targetSpec="" />М-м-м<tag a="110" b="0" /><delay frames="50" /><anim id="Smiling" target="actor" targetSpec="" /> Когда идет снег, даже
+воздух вкуснее. <tag a="50" b="3" /><tag a="110" b="6" />!<setNpcTalkChoices chatOption="0" cancelOption="1" /></message>
+	<message label="005" attrib="00 00 0c 01 00 00 00 00">Обожаю снег!<delay20 /><anim id="Smiling" target="actor" targetSpec="" /> Это как дождь,
+только его можно есть.<setNpcTalkChoices chatOption="0" cancelOption="1" /></message>
+</msbt>

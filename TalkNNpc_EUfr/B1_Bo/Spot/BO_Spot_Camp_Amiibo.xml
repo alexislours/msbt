@@ -1,0 +1,73 @@
+<msbt attribsize="8">
+	<message label="001" attrib="00 00 00 00 00 00 13 00"><tag a="60" b="20" /></message>
+	<message label="001_01" attrib="00 00 00 00 00 00 13 00"><tag a="100" b="5" /><colour id="1" />Coucou !<delay20 /> Ici <tag a="115" b="1" arg="0xcd00" /> !<delay frames="40" /> Je suis en train de déménager, <delay20 />alors je peux pas répondre !<colour id="65535" /><endTag a="100" b="5" /></message>
+	<message label="001_02" attrib="00 00 00 00 00 00 13 00"><tag a="100" b="5" /><colour id="1" />Ici <tag a="115" b="1" arg="0xcd00" /><tag a="110" b="0" /><delay frames="40" /> Si vous entendez ce message,<delay8 /> ça veut dire que je suis<tag a="110" b="0" /><10_4 /> en train de déménager.<colour id="65535" /><endTag a="100" b="5" /></message>
+	<message label="001_03" attrib="00 00 00 00 00 00 13 00"><tag a="100" b="5" /><colour id="1" />Ici <tag a="115" b="1" arg="0xcd00" />.<delay8 /> Je peux pas répondre.<delay8 /> Je déménage. <delay frames="40" /><size value="75" />C'est laquelle, la touche dièse ?<size value="100" /><colour id="65535" /><endTag a="100" b="5" /></message>
+	<message label="001_04" attrib="00 00 00 00 00 00 13 00"><tag a="100" b="5" /><colour id="1" />Coucou, c'est <tag a="115" b="1" arg="0xcd00" /> !<delay frames="40" /> Là, je peux pas répondre<delay8 /> parce que je déménage.<delay frames="40" /> Désolé !<colour id="65535" /><endTag a="100" b="5" /></message>
+	<message label="102" attrib="00 00 00 00 00 00 13 00"><tag a="60" b="20" /></message>
+	<message label="102_01" attrib="00 00 00 00 00 00 13 00"><anim id="Nodding" target="actor" targetSpec="" />Hu-hum, hu-hum<tag a="110" b="0" /><delay frames="40" /><anim id="FaintSmile" target="actor" targetSpec="" /> C'est une super
+idée ! <delay frames="40" />On se voit au <colour id="1" />camping<colour id="65535" /> de ton
+île, alors !<delay20 /><anim id="Greeting" target="actor" targetSpec="" /> À bientôt, <tag a="110" b="6" /> !</message>
+	<message label="102_02" attrib="00 00 00 00 00 00 13 00"><anim id="Aha" target="actor" targetSpec="" />Oh, tu veux que je vienne camper ?!<delay frames="40" /><anim id="HappyDance" target="actor" targetSpec="" />
+Mais avec plaisir !<delay frames="40" /> J'adore le
+<colour id="1" />camping<colour id="65535" />, <tag a="110" b="6" /> !</message>
+	<message label="102_03" attrib="00 00 00 00 00 00 13 00">Du <colour id="1" />camping<colour id="65535" /> ?<delay frames="40" /> Il y a des insectes ?<delay frames="40" />
+<anim id="Nodding" target="actor" targetSpec="" />Dehors<tag a="110" b="0" /> Bien sûr<tag a="110" b="0" /> Des insectes<tag a="110" b="0" />
+C'est noté !<delay frames="40" /><anim id="Greeting" target="actor" targetSpec="" /> J'arrive, <tag a="110" b="6" /> !</message>
+	<message label="102_04" attrib="00 00 00 00 00 00 13 00"><anim id="Shocked" target="actor" targetSpec="" />Hein ?<delay frames="40" /> Que je vienne au <colour id="1" />camping<colour id="65535" /> ?<delay frames="40" />
+<anim id="Greeting" target="actor" targetSpec="" />Mais avec plaisir !<delay frames="40" /> <anim id="BigSmile" target="actor" targetSpec="" /><delay8 />Je prends le
+premier avion, <tag a="110" b="6" /> !<delay8 /><anim id="FaintSmile" target="actor" targetSpec="" /></message>
+	<message label="202" attrib="00 00 00 00 00 00 13 00"><tag a="60" b="20" /></message>
+	<message label="202_01" attrib="00 00 00 00 00 00 13 00"><anim id="Eh" target="actor" targetSpec="" />Tu veux que je vienne m'amuser au
+<colour id="1" />camping<colour id="65535" /> de ton île ?<delay frames="40" /><anim id="Smiling" target="actor" targetSpec="" /> En voilà une
+idée qu'elle est bonne !<delay frames="40" /> J'arrive !</message>
+	<message label="202_02" attrib="00 00 00 00 00 00 13 00"><anim id="Aha" target="actor" targetSpec="" />Tu m'invites à venir camper ?<delay frames="40" /> Sur
+ton île ?<delay frames="40" /> <anim id="Smiling" target="actor" targetSpec="" />Plutôt deux fois qu'une,
+<tag a="110" b="6" /> !</message>
+	<message label="202_03" attrib="00 00 00 00 00 00 13 00"><anim id="Nodding" target="actor" targetSpec="" />Tu veux que je vienne au <colour id="1" />camping<colour id="65535" /> de
+ton île ?<delay frames="40" /><anim id="HappyFlower" target="actor" targetSpec="" /> Mais avec plaisir !<delay20 /> Ça a l'air
+trop marrant, <tag a="110" b="6" /> !</message>
+	<message label="202_04" attrib="00 00 00 00 00 00 13 00"><anim id="Eh" target="actor" targetSpec="" />Que je vienne passer du temps au
+<colour id="1" />camping<colour id="65535" /> de ton île ? <delay frames="40" /><anim id="FaintSmile" target="actor" targetSpec="" />Ma foi, pourquoi
+pas !<delay frames="40" /> J'arrive tout de suite !</message>
+	<message label="301" attrib="00 00 00 00 00 00 13 00"><tag a="60" b="20" /></message>
+	<message label="301_01" attrib="00 00 00 00 00 00 13 00">Allô oui, <tag a="110" b="10" /> à l'appareil ! <delay frames="40" /><anim id="Smiling" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="110" b="3" /> ?<delay frames="40" /> Qu'est-ce qui t'arrive ?</message>
+	<message label="301_02" attrib="00 00 00 00 00 00 13 00"><tag a="110" b="10" />, j'écoute !<delay frames="40" /><pageBreak /><anim id="Smiling" target="actor" targetSpec="" />Ah, <tag a="110" b="3" />. <delay frames="40" /><anim id="EmotEnd" target="actor" targetSpec="" />Pourquoi tu
+m'appelles ?<delay20 /><anim id="Grin" target="actor" targetSpec="" /> Tu as des secrets à me
+raconter, <tag a="110" b="6" /> ?</message>
+	<message label="301_03" attrib="00 00 00 00 00 00 13 00">Ici <tag a="110" b="10" /> ! <delay frames="40" /><anim id="Smiling" target="actor" targetSpec="" />Tiens, <tag a="110" b="3" /> ! <delay frames="40" />Qu'est-ce que tu as de beau à me raconter ?</message>
+	<message label="301_04" attrib="00 00 00 00 00 00 13 00">Oui, allô ?<delay20 /> <tag a="110" b="10" /> à l'appareil.<delay frames="40" /> <tag a="50" b="3" /><tag a="110" b="3" /> ? Qu'est-ce que je peux faire pour toi ?</message>
+	<message label="302" attrib="00 00 00 00 00 00 13 00"><tag a="60" b="20" /></message>
+	<message label="302_01" attrib="00 00 00 00 00 00 13 00">Tu veux qu'on aille camper ?<delay frames="40" /><anim id="Eh" target="actor" targetSpec="" /> Sur <tag a="110" b="9" /> ?!<delay frames="40" /><anim id="Laughing" target="actor" targetSpec="" /> Hé hé hé ! En voilà une drôle d'idée !<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Nan, je préfère pas. <delay frames="40" /><anim id="Restless" target="actor" targetSpec="" />Les gens de
+l'extérieur pourront pas nous rendre
+visite si je squatte le <colour id="1" />camping<colour id="65535" />.</message>
+	<message label="302_02" attrib="00 00 00 00 00 00 13 00"><anim id="Aha" target="actor" targetSpec="" />Hein ?<delay20 /> Tu veux qu'on aille camper ?!<delay frames="40" />
+<anim id="Smiling" target="actor" targetSpec="" />D'accord !<delay frames="40" /> Où ça ?<10_4 /> <anim id="TakenAback" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="110" b="9" /> ?! Euuuuh<tag a="110" b="0" /><pageBreak /><anim id="Negative" target="actor" targetSpec="" />Alors, non merci.<delay frames="40" /> <anim id="EmotEnd" target="actor" targetSpec="" />Si je dois dormir
+sur cette île,<delay20 /> <anim id="BigSmile" target="actor" targetSpec="" />je préfère le faire par
+terre chez moi, <tag a="110" b="6" />.</message>
+	<message label="302_03" attrib="00 00 00 00 00 00 13 00"><anim id="Nodding" target="actor" targetSpec="" />Tu veux que j'aille au <colour id="1" />camping<colour id="65535" /> ?<delay frames="40" />
+<anim id="Hello" target="actor" targetSpec="" />Il y a quelqu'un de spécial, là-bas ?<delay frames="40" />
+<anim id="EmotEnd" target="actor" targetSpec="" />Hein ?<anim id="Shocked" target="actor" targetSpec="" /> Tu veux que j'y campe ?!<pageBreak /><anim id="Laughing" target="actor" targetSpec="" />Je préfère pas, hé hé hé !<delay frames="40" /><anim id="Explain" target="actor" targetSpec="" /> J'aime bien
+papoter avec les gens qui viennent
+camper,<delay8 /> <anim id="Greeting" target="actor" targetSpec="" />je veux pas les gêner.</message>
+	<message label="302_04" attrib="00 00 00 00 00 00 13 00"><anim id="Eh" target="actor" targetSpec="" />Hein ?<delay frames="40" /> Tu veux qu'on campe sur
+notre île ?!<10_4 /> <anim id="Laughing" target="actor" targetSpec="" />Tu veux aller jouer au
+<colour id="1" />camping<colour id="65535" /> alors qu'on a des maisons ?<pageBreak /><anim id="Thinking" target="actor" targetSpec="" />Euh,<delay20 /> nan.<delay frames="40" /> <anim id="ShyBoy" target="actor" targetSpec="" />Ma tente est pleine de
+taches de confiture,<delay20 /> et j'ai pas envie
+de la nettoyer maintenant.</message>
+	<message label="401" attrib="00 00 00 00 00 00 13 00"><tag a="60" b="20" /></message>
+	<message label="401_01" attrib="00 00 00 00 00 00 13 00">Ici <tag a="110" b="10" /> ! <delay frames="40" /><anim id="FaintSmile" target="actor" targetSpec="" />Qu'est-ce que je peux faire de beau pour toi ?</message>
+	<message label="401_02" attrib="00 00 00 00 00 00 13 00"><anim id="Smiling" target="actor" targetSpec="" />Allô, ici <tag a="110" b="10" />. Merci pour ton appel ! C'est à quel sujet ?</message>
+	<message label="401_03" attrib="00 00 00 00 00 00 13 00"><anim id="Greeting" target="actor" targetSpec="" />Allô, ici <tag a="110" b="10" /> !<pageBreak /><anim id="Thinking" target="actor" targetSpec="" />Tiens, au fait, pourquoi on dit
+« allô » qu'au téléphone et pas
+quand on parle de vive voix ?<pageBreak /><anim id="QuestionMark" target="actor" targetSpec="" />Et est-ce qu'on a toujours le droit
+d'utiliser « allô » au visiophone ?<pageBreak /><anim id="Shocked" target="actor" targetSpec="" />Mais c'est ce que je viens de faire !
+<anim id="Restless" target="actor" targetSpec="" />J'espère que je vais pas avoir
+d'ennuis<tag a="110" b="0" /><pageBreak /><anim id="WrySmile" target="actor" targetSpec="" />Ah, désolé, je m'égare<tag a="110" b="0" /><delay20 /> <anim id="Hello" target="actor" targetSpec="" />Qu'est-ce
+que je peux faire pour toi ?</message>
+	<message label="401_04" attrib="00 00 00 00 00 00 13 00"><anim id="FaintSmile" target="actor" targetSpec="" />Coucou, ici <tag a="110" b="10" /> !<delay frames="40" /> <anim id="EmotEnd" target="actor" targetSpec="" />J'adore qu'on m'appelle !<delay frames="50" /> <anim id="Laughing" target="actor" targetSpec="" />À chaque fois, c'est un mystère ! <pageBreak /><anim id="Thinking" target="actor" targetSpec="" /><delay20 />Qui m'appelle ?<delay20 /> Pourquoi ? <anim id="Shocked" target="actor" targetSpec="" />Qu'est-ce
+que j'ai fait ?<delay20 /> Ou pas fait ?!<pageBreak /><anim id="Frantic" target="actor" targetSpec="" />Je peux pas répondre, je sors de la
+douche !<delay20 /> Mais il faut que je sache qui
+m'appelle !<delay20 /> AAAAAAAAAAAH !!!<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Bien, <delay8 /><anim id="BigSmile" target="actor" targetSpec="" />qu'est-ce que je peux faire
+pour toi ?</message>
+</msbt>

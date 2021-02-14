@@ -1,0 +1,968 @@
+<msbt attribsize="8">
+	<message label="001" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />在人與人的交流當中，<delay20 />
+相互理解是非常重要的，對吧？<delay frames="40" />
+請你告訴我一些關於你的事情吧！</message>
+	<message label="002" attrib="00 00 00 00 00 00 00 00">我想和島上的人們加深關係，<delay20 />
+<anim id="Hello" target="actor" targetSpec="" />可以請你告訴我一些關於你的事情嗎？</message>
+	<message label="003" attrib="00 00 00 00 00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />首先嘛<tag a="110" b="0" /></message>
+	<message label="010_01" attrib="00 00 01 00 00 00 00 00">以前問你喜歡什麼的時候，<delay20 />
+你說在<tag a="140" b="11" arg="0xcd00" />當中，
+你喜歡<tag a="140" b="12" arg="0xcd00" />，對吧？<delay frames="40" />
+<anim id="QuestionMark" target="actor" targetSpec="" />現在也還是一樣嗎？<tag a="110" b="6" />。</message>
+	<message label="010_01_a" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />是喔
+<anim id="Nodding" target="actor" targetSpec="" />嗯</message>
+	<message label="010_01_b" attrib="00 00 00 00 00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />現在不一樣了</message>
+	<message label="011_01" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />這樣啊！<delay20 />那就好咧！<delay frames="40" />
+<anim id="Explain" target="actor" targetSpec="" />其實<delay8 />我之前跟<tag a="110" b="11" arg="0xcd00" />
+聊天的時候聊到了你……
+<anim id="FaintSmile" target="actor" targetSpec="" />然後一不小心就說溜了嘴，<delay8 />
+說<tag a="110" b="3" />
+喜歡的<tag a="140" b="11" arg="0xcd00" />是<tag a="140" b="12" arg="0xcd00" />。
+<anim id="ShyBoy" target="actor" targetSpec="" />幸好沒有變成謊話咧，<tag a="110" b="6" />。</message>
+	<message label="010_101" attrib="00 00 01 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />說起來，<delay20 /><anim id="EmotEnd" target="actor" targetSpec="" />以前你曾經跟我說過<delay8 />
+喜歡的<tag a="140" b="11" arg="0xcd00" />是
+<tag a="140" b="13" arg="0xcd00" />，對吧？
+<anim id="QuestionMark" target="actor" targetSpec="" /><tag a="140" b="13" arg="0xcd00" /><delay8 />
+現在還是喜歡嗎？<tag a="110" b="6" />。</message>
+	<message label="010_101_a" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />是喔
+<anim id="Nodding" target="actor" targetSpec="" />嗯</message>
+	<message label="010_101_b" attrib="00 00 00 00 00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />現在不一樣了</message>
+	<message label="011_101" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />這樣啊！<delay20 />那就沒問題咧！<delay frames="40" />
+<anim id="Hesitate" target="actor" targetSpec="" />其實我在<delay8 />跟<tag a="110" b="11" arg="0xcd00" />聊天的時候
+不小心說溜嘴了……
+<anim id="EmotEnd" target="actor" targetSpec="" />我說<tag a="110" b="3" />很喜歡<delay20 />
+<tag a="140" b="13" arg="0xcd00" />咧！<delay frames="40" />
+<anim id="FaintSmile" target="actor" targetSpec="" />呼～<delay20 />幸好我沒有搞錯，<tag a="110" b="6" />。</message>
+	<message label="010_02" attrib="00 00 01 00 00 00 00 00">之前<delay20 />我問你喜歡什麼<tag a="140" b="11" arg="0xcd00" />的時候，<delay20 />
+<anim id="QuestionMark" target="actor" targetSpec="" />你說是<tag a="140" b="12" arg="0xcd00" />，對吧？<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />你現在也還是一樣，<delay8 />
+愛<tag a="140" b="12" arg="0xcd00" />
+愛到廢寢忘食嗎？<tag a="110" b="6" />。</message>
+	<message label="010_02_a" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />是喔
+<anim id="Nodding" target="actor" targetSpec="" />嗯</message>
+	<message label="010_02_b" attrib="00 00 00 00 00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />現在不一樣了</message>
+	<message label="011_02" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />那就好咧！<delay frames="40" />
+<anim id="Hesitate" target="actor" targetSpec="" />我在和<tag a="110" b="11" arg="0xcd00" />聊天的時候啊，<delay8 />
+碰巧聊到了<tag a="140" b="12" arg="0xcd00" />……
+<anim id="ShyBoy" target="actor" targetSpec="" />我想起來你好像很喜歡這話題，
+結果一不小心<delay8 />就說溜嘴了。<pageBreak /><anim id="Confused" target="actor" targetSpec="" />後來才想到，如果你的喜好有所改變，
+那不就糟糕了嗎<tag a="110" b="0" /><delay20 />
+<anim id="Smiling" target="actor" targetSpec="" />幸好還是一樣，那我就放心咧！<tag a="110" b="6" />。</message>
+	<message label="010_102" attrib="00 00 01 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />你之前跟我說過，<delay8 />在<tag a="140" b="11" arg="0xcd00" />當中<delay8 />
+你最喜歡的是
+<tag a="140" b="13" arg="0xcd00" />，對吧？<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />你現在也還是一樣，<delay8 />
+愛<tag a="140" b="13" arg="0xcd00" />
+<anim id="QuestionMark" target="actor" targetSpec="" />愛到廢寢忘食嗎？<tag a="110" b="6" />。</message>
+	<message label="010_102_a" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />是喔
+<anim id="Nodding" target="actor" targetSpec="" />嗯</message>
+	<message label="010_102_b" attrib="00 00 00 00 00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />現在不一樣了</message>
+	<message label="011_102" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />那就好咧！<delay frames="40" />
+<anim id="Restless" target="actor" targetSpec="" />我在和<tag a="110" b="11" arg="0xcd00" />聊天的時候啊，<delay8 />
+碰巧聊到<tag a="140" b="13" arg="0xcd00" />。
+<anim id="ShyBoy" target="actor" targetSpec="" />我想起來你好像很喜歡這話題，
+結果一不小心<delay8 />就說溜嘴了。<pageBreak /><anim id="Confused" target="actor" targetSpec="" />後來才想到，如果你的喜好有所改變，
+那不就糟糕了嗎<tag a="110" b="0" /><delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />幸好還是一樣，那我就放心咧！<tag a="110" b="6" />。</message>
+	<message label="010_03" attrib="00 00 01 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />說起來，<delay20 /><anim id="EmotEnd" target="actor" targetSpec="" />我記得以前
+好像聽你說過<delay8 />未來想要成為
+<tag a="140" b="12" arg="0xcd00" />啊<tag a="110" b="0" />
+<anim id="FaintSmile" target="actor" targetSpec="" />你現在也還是<delay8 />努力朝著成為
+<tag a="140" b="12" arg="0xcd00" />前進嗎？<tag a="110" b="6" />。</message>
+	<message label="010_03_a" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />是喔
+<anim id="Nodding" target="actor" targetSpec="" />嗯</message>
+	<message label="010_03_b" attrib="00 00 00 00 00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />現在不一樣了</message>
+	<message label="011_03" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />這樣啊！<delay20 />那就好咧！<delay frames="40" />
+<anim id="Restless" target="actor" targetSpec="" />其實我在和<tag a="110" b="11" arg="0xcd00" /><delay8 />
+探討將來夢想的時候<tag a="110" b="0" />
+<anim id="ShyBoy" target="actor" targetSpec="" />不小心說溜了嘴，說你想成為
+<tag a="140" b="12" arg="0xcd00" />……<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />結果那傢伙超級支持你的！<delay frames="40" />
+我也很支持你咧，好好加油啊！<tag a="110" b="6" />。</message>
+	<message label="010_103" attrib="00 00 01 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />說起來，<delay20 /><anim id="EmotEnd" target="actor" targetSpec="" />我記得以前
+好像聽你很熱情地說過<delay8 />未來打算成為
+<tag a="140" b="13" arg="0xcd00" />啊<tag a="110" b="0" />
+現在也還是一樣，
+<anim id="QuestionMark" target="actor" targetSpec="" />沒有改變嗎？<tag a="110" b="6" />。</message>
+	<message label="010_103_a" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />是喔
+<anim id="Nodding" target="actor" targetSpec="" />嗯</message>
+	<message label="010_103_b" attrib="00 00 00 00 00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />現在不一樣了</message>
+	<message label="011_103" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />這樣啊！<delay20 />那就好咧！<delay frames="40" />
+<anim id="Restless" target="actor" targetSpec="" />其實我在和<tag a="110" b="11" arg="0xcd00" /><delay8 />
+探討將來夢想的時候<tag a="110" b="0" />
+<anim id="ShyBoy" target="actor" targetSpec="" />不小心說溜了嘴，說你想成為
+<tag a="140" b="13" arg="0xcd00" />……<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />結果那傢伙超級支持你的！<delay frames="40" />
+我也很支持你咧，好好加油啊！<tag a="110" b="6" />。</message>
+	<message label="010_04" attrib="00 00 01 00 00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />說起來，<delay20 />如果我沒有搞錯的話，
+你的興趣應該是<delay20 />
+<tag a="140" b="12" arg="0xcd00" />吧？
+<anim id="EmotEnd" target="actor" targetSpec="" />現在也還是一樣，<delay8 />
+對<tag a="140" b="12" arg="0xcd00" />
+<anim id="QuestionMark" target="actor" targetSpec="" />非常有興趣嗎？<delay20 /><tag a="110" b="6" />。</message>
+	<message label="010_04_a" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />是喔
+<anim id="Nodding" target="actor" targetSpec="" />嗯</message>
+	<message label="010_04_b" attrib="00 00 00 00 00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />現在不一樣了</message>
+	<message label="011_04" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />是這樣啊！那就好！<delay frames="40" />
+<anim id="ShyBoy" target="actor" targetSpec="" />我和<tag a="110" b="11" arg="0xcd00" />聊天的時候<delay8 />
+聊到了興趣的話題<tag a="110" b="0" />
+<anim id="FaintSmile" target="actor" targetSpec="" />我不小心順勢把<tag a="110" b="3" />的興趣
+是<tag a="140" b="12" arg="0xcd00" />這件事情<delay8 />
+給說溜嘴啦。
+<anim id="Restless" target="actor" targetSpec="" />如果你的興趣已經改變了，
+那我不就變成在說謊了嗎？
+<anim id="EmotEnd" target="actor" targetSpec="" />所以聽到沒變，<delay8 /><anim id="Smiling" target="actor" targetSpec="" />我就放心啦！<tag a="110" b="6" />。</message>
+	<message label="010_104" attrib="00 00 01 00 00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />說起來，<delay20 />如果我沒有搞錯的話，
+你的興趣應該是<delay20 />
+<tag a="140" b="13" arg="0xcd00" />吧？
+<anim id="EmotEnd" target="actor" targetSpec="" />現在也還是一樣，<delay8 />
+對<tag a="140" b="13" arg="0xcd00" />
+<anim id="QuestionMark" target="actor" targetSpec="" />非常有興趣嗎？<delay20 /><tag a="110" b="6" />。</message>
+	<message label="010_104_a" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />是喔
+<anim id="Nodding" target="actor" targetSpec="" />嗯</message>
+	<message label="010_104_b" attrib="00 00 00 00 00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />現在不一樣了</message>
+	<message label="011_104" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />是這樣啊！那就好！<delay frames="40" />
+<anim id="ShyBoy" target="actor" targetSpec="" />我和<tag a="110" b="11" arg="0xcd00" />聊天的時候<delay8 />
+聊到了興趣的話題<tag a="110" b="0" />
+<anim id="FaintSmile" target="actor" targetSpec="" />我不小心順勢把<tag a="110" b="3" />的興趣
+是<tag a="140" b="13" arg="0xcd00" />這件事情<delay8 />
+給說溜嘴啦。
+<anim id="Restless" target="actor" targetSpec="" />如果你的興趣已經改變了，
+那我不就變成在說謊了嗎？
+<anim id="EmotEnd" target="actor" targetSpec="" />所以聽到沒變，<delay8 /><anim id="Smiling" target="actor" targetSpec="" />我就放心啦！<tag a="110" b="6" />。</message>
+	<message label="010_05" attrib="00 00 01 00 00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />說起來，<delay20 />如果我沒有搞錯的話，
+你的特技應該是<delay20 />
+<tag a="140" b="12" arg="0xcd00" />吧？
+<anim id="EmotEnd" target="actor" targetSpec="" />現在也還是一樣，<delay8 />
+對<tag a="140" b="12" arg="0xcd00" />
+<anim id="QuestionMark" target="actor" targetSpec="" />非常有自信嗎？<delay20 /><tag a="110" b="6" />。</message>
+	<message label="010_05_a" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />是喔
+<anim id="Nodding" target="actor" targetSpec="" />嗯</message>
+	<message label="010_05_b" attrib="00 00 00 00 00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />現在不一樣了</message>
+	<message label="011_05" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />是這樣啊！那就好咧！<delay frames="40" />
+<anim id="ShyBoy" target="actor" targetSpec="" />其實<tag a="110" b="0" /><delay8 />我在跟<tag a="110" b="11" arg="0xcd00" />聊天時<delay8 />
+聊到了特技的話題。
+<anim id="FaintSmile" target="actor" targetSpec="" />然後就不小心說溜嘴，
+說了<tag a="110" b="3" />的特技<delay20 />
+是<tag a="140" b="12" arg="0xcd00" />……
+<anim id="Restless" target="actor" targetSpec="" />說完之後才想到
+不知道現在會不會已經變了<tag a="110" b="0" /><delay frames="30" />
+<anim id="EmotEnd" target="actor" targetSpec="" />嗯，<delay8 />知道沒有改變，<anim id="Smiling" target="actor" targetSpec="" />我就放心啦！<tag a="110" b="6" />。</message>
+	<message label="010_105" attrib="00 00 01 00 00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />說起來，<delay20 />如果我沒有搞錯的話，
+你的特技應該是<delay20 />
+<tag a="140" b="13" arg="0xcd00" />吧？
+<anim id="EmotEnd" target="actor" targetSpec="" />現在也還是一樣，<delay8 />
+對<tag a="140" b="13" arg="0xcd00" />
+<anim id="QuestionMark" target="actor" targetSpec="" />非常有自信嗎？<delay20 /><tag a="110" b="6" />。</message>
+	<message label="010_105_a" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />是喔
+<anim id="Nodding" target="actor" targetSpec="" />嗯</message>
+	<message label="010_105_b" attrib="00 00 00 00 00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />現在不一樣了</message>
+	<message label="011_105" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />是這樣啊！那就好！<delay frames="40" />
+<anim id="ShyBoy" target="actor" targetSpec="" />我和<tag a="110" b="11" arg="0xcd00" />聊天的時候<delay8 />
+聊到了特技的話題<tag a="110" b="0" />
+<anim id="FaintSmile" target="actor" targetSpec="" />我不小心順勢把<tag a="110" b="3" />的特技
+是<tag a="140" b="13" arg="0xcd00" />這件事情<delay8 />
+給說溜嘴啦。
+<anim id="Restless" target="actor" targetSpec="" />說完之後才想到
+不知道現在會不會已經變了<tag a="110" b="0" /><delay frames="30" />
+<anim id="EmotEnd" target="actor" targetSpec="" />嗯，<delay8 />知道沒有改變，<anim id="Smiling" target="actor" targetSpec="" />我就放心啦！<tag a="110" b="6" />。</message>
+	<message label="020" attrib="00 00 00 00 00 00 00 00"><anim id="Hesitate" target="actor" targetSpec="" />說起來，<delay20 />
+我曾經聽說過<tag a="110" b="0" /></message>
+	<message label="030_01" attrib="00 00 01 00 00 00 00 00"><tag a="110" b="3" /><delay20 />
+在<tag a="140" b="11" arg="0xcd00" />當中<delay8 />喜歡的是
+<anim id="QuestionMark" target="actor" targetSpec="" /><tag a="140" b="12" arg="0xcd00" />嗎？<tag a="110" b="6" />。</message>
+	<message label="030_01_a" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />是喔
+<anim id="Nodding" target="actor" targetSpec="" />嗯</message>
+	<message label="030_01_b" attrib="00 00 00 00 00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />現在不一樣了</message>
+	<message label="031_01" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" /><tag a="140" b="12" arg="0xcd00" /><delay20 />真的很棒！<delay frames="40" />
+<anim id="Smiling" target="actor" targetSpec="" />那也是我最喜歡的<delay8 /><tag a="140" b="11" arg="0xcd00" />！<pageBreak /><anim id="Grin" target="actor" targetSpec="" />感覺我們很合得來啊！<delay frames="40" />
+<anim id="EmotEnd" target="actor" targetSpec="" />只要是跟<tag a="140" b="12" arg="0xcd00" />有關的話題，<delay8 />
+<anim id="HappyDance" target="actor" targetSpec="" />我甚至能<delay8 />聊上一整晚咧！<tag a="110" b="6" />。</message>
+	<message label="032_01" attrib="00 00 00 00 00 00 00 00"><anim id="ShyBoy" target="actor" targetSpec="" /><tag a="140" b="12" arg="0xcd00" />啊<tag a="110" b="0" /><delay20 />
+我對那方面不是很熟悉咧。<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />但既然是你推薦的，<delay20 />我也想接觸看看。
+等你有空的時候<delay8 />
+再教我一些相關知識吧！<tag a="110" b="6" />。</message>
+	<message label="030_101" attrib="00 00 01 00 00 00 00 00">你喜歡的<tag a="140" b="11" arg="0xcd00" /><delay8 />
+是<tag a="140" b="13" arg="0xcd00" />
+<anim id="QuestionMark" target="actor" targetSpec="" />沒有錯吧？<tag a="110" b="6" />。</message>
+	<message label="030_101_a" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />是喔
+<anim id="Nodding" target="actor" targetSpec="" />嗯</message>
+	<message label="030_101_b" attrib="00 00 00 00 00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />現在不一樣了</message>
+	<message label="031_101" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" /><tag a="140" b="13" arg="0xcd00" /><delay20 />真的很棒！<delay frames="40" />
+<anim id="Smiling" target="actor" targetSpec="" />那也是我最喜歡的<delay8 /><tag a="140" b="11" arg="0xcd00" />！<pageBreak /><anim id="Grin" target="actor" targetSpec="" />感覺我們很合得來啊！<delay frames="40" />
+<anim id="EmotEnd" target="actor" targetSpec="" />只要跟<tag a="140" b="13" arg="0xcd00" />有關，<delay8 />
+<anim id="HappyDance" target="actor" targetSpec="" />我甚至能<delay8 />聊上一整晚咧！<tag a="110" b="6" />。</message>
+	<message label="032_101" attrib="00 00 00 00 00 00 00 00"><anim id="ShyBoy" target="actor" targetSpec="" /><tag a="140" b="13" arg="0xcd00" />啊<tag a="110" b="0" /><delay20 />
+我對那方面不是很熟悉咧。<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />但既然是你推薦的，<delay20 />我也想接觸看看。
+等你有空的時候<delay8 />
+再教我一些相關知識吧！<tag a="110" b="6" />。</message>
+	<message label="030_02" attrib="00 00 01 00 00 00 00 00"><tag a="110" b="3" />喜歡的<tag a="140" b="11" arg="0xcd00" /><delay8 />
+<anim id="QuestionMark" target="actor" targetSpec="" />是<tag a="140" b="12" arg="0xcd00" />吧？<tag a="110" b="6" />。</message>
+	<message label="030_02_a" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />是喔
+<anim id="Nodding" target="actor" targetSpec="" />嗯</message>
+	<message label="030_02_b" attrib="00 00 00 00 00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />現在不一樣了</message>
+	<message label="031_02" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />感覺你看起來<delay20 />的確就像是會喜歡<delay20 />
+<anim id="Laughing" target="actor" targetSpec="" /><tag a="140" b="12" arg="0xcd00" />啊。<anim id="FaintSmile" target="actor" targetSpec="" /><pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />講是這樣講，<delay20 />我其實也滿喜歡
+<tag a="140" b="12" arg="0xcd00" />的咧！<delay frames="40" />
+<anim id="Hello" target="actor" targetSpec="" />下次找個機會<delay8 />好好促膝長談吧！<tag a="110" b="6" />。</message>
+	<message label="032_02" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />原來如此，<tag a="140" b="12" arg="0xcd00" />嗎……<delay frames="40" />
+<anim id="ShyBoy" target="actor" targetSpec="" />我對那方面<delay8 />不太熟悉啊。<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />不過既然是你喜歡的東西，<delay8 />
+那我搞不好也會喜歡咧！<delay frames="40" />
+<anim id="Hello" target="actor" targetSpec="" />下次有機會再好好跟我說啊！<tag a="110" b="6" />。</message>
+	<message label="030_102" attrib="00 00 01 00 00 00 00 00"><tag a="110" b="3" />喜歡的<tag a="140" b="11" arg="0xcd00" /><delay8 />是
+<anim id="QuestionMark" target="actor" targetSpec="" /><tag a="140" b="13" arg="0xcd00" />吧？<tag a="110" b="6" />。</message>
+	<message label="030_102_a" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />是喔
+<anim id="Nodding" target="actor" targetSpec="" />嗯</message>
+	<message label="030_102_b" attrib="00 00 00 00 00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />現在不一樣了</message>
+	<message label="031_102" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />感覺你看起來<delay20 />的確就像是會喜歡<delay20 />
+<anim id="Laughing" target="actor" targetSpec="" /><tag a="140" b="13" arg="0xcd00" />啊。<anim id="FaintSmile" target="actor" targetSpec="" /><pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />講是這樣講，<delay20 />我其實也滿喜歡
+<tag a="140" b="13" arg="0xcd00" />的咧！<delay frames="40" />
+<anim id="Hello" target="actor" targetSpec="" />下次找個機會<delay8 />好好促膝長談吧！<tag a="110" b="6" />。</message>
+	<message label="032_102" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" /><tag a="140" b="13" arg="0xcd00" />嗎……<delay frames="40" />
+<anim id="ShyBoy" target="actor" targetSpec="" />我對那方面<delay8 />不太熟悉啊。<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />不過既然是你喜歡的東西，<delay8 />
+那我搞不好也會喜歡咧！<delay frames="40" />
+<anim id="Hello" target="actor" targetSpec="" />下次有機會再好好跟我說啊！<tag a="110" b="6" />。</message>
+	<message label="030_03" attrib="00 00 01 00 00 00 00 00"><tag a="110" b="3" />的夢想<delay20 />
+是成為<tag a="140" b="12" arg="0xcd00" />，
+<anim id="QuestionMark" target="actor" targetSpec="" />沒有錯吧？<tag a="110" b="6" />。</message>
+	<message label="030_03_a" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />是喔
+<anim id="Nodding" target="actor" targetSpec="" />嗯</message>
+	<message label="030_03_b" attrib="00 00 00 00 00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />現在不一樣了</message>
+	<message label="031_03" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />你的夢想還挺美好咧。<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />我真心祝福你早日實現
+成為<tag a="140" b="12" arg="0xcd00" />的夢想！<tag a="110" b="6" />。</message>
+	<message label="032_03" attrib="00 00 00 00 00 00 00 00"><anim id="ShyBoy" target="actor" targetSpec="" />雖然我不太清楚<tag a="140" b="12" arg="0xcd00" />，<delay20 />
+<anim id="EmotEnd" target="actor" targetSpec="" />但只要看到你的表情，我就懂了。<delay20 />
+<anim id="Serious" target="actor" targetSpec="" />你的眼神……是認真的。
+<anim id="FaintSmile" target="actor" targetSpec="" />下次有機會，<delay8 />再請你仔細說明你的夢想吧！<delay frames="40" />
+我非常好奇<delay8 />你想成為什麼咧！<tag a="110" b="6" />。</message>
+	<message label="030_103" attrib="00 00 01 00 00 00 00 00"><tag a="110" b="3" />的夢想<delay20 />
+是成為<tag a="140" b="13" arg="0xcd00" />，
+<anim id="QuestionMark" target="actor" targetSpec="" />沒有錯吧？<tag a="110" b="6" />。</message>
+	<message label="030_103_a" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />是喔
+<anim id="Nodding" target="actor" targetSpec="" />嗯</message>
+	<message label="030_103_b" attrib="00 00 00 00 00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />現在不一樣了</message>
+	<message label="031_103" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />你的夢想還挺美好咧<tag a="110" b="0" />
+<anim id="FaintSmile" target="actor" targetSpec="" />我真心祝福你早日實現夢想，<delay20 />成為
+<tag a="140" b="13" arg="0xcd00" />！<tag a="110" b="6" />。</message>
+	<message label="032_103" attrib="00 00 00 00 00 00 00 00"><anim id="ShyBoy" target="actor" targetSpec="" />雖然我不懂<tag a="140" b="13" arg="0xcd00" />，<delay20 />
+<anim id="EmotEnd" target="actor" targetSpec="" />但只要看到你的表情，我就明白了。<delay20 />
+<anim id="Serious" target="actor" targetSpec="" />你的眼神……是認真的。
+<anim id="FaintSmile" target="actor" targetSpec="" />下次有機會，<delay8 />再請你仔細說明你的夢想吧！<delay frames="40" />
+我非常好奇<delay8 />你想成為什麼咧！<tag a="110" b="6" />。</message>
+	<message label="030_04" attrib="00 00 01 00 00 00 00 00"><tag a="110" b="3" />的興趣<delay20 />
+<anim id="QuestionMark" target="actor" targetSpec="" />是<tag a="140" b="12" arg="0xcd00" />吧？<tag a="110" b="6" />。</message>
+	<message label="030_04_a" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />是喔
+<anim id="Nodding" target="actor" targetSpec="" />嗯</message>
+	<message label="030_04_b" attrib="00 00 00 00 00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />現在不一樣了</message>
+	<message label="031_04" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" /><tag a="140" b="12" arg="0xcd00" /><delay8 />真的很棒！<delay frames="40" />
+<anim id="FaintSmile" target="actor" targetSpec="" />我也非常喜歡咧！<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />擁有能夠投入的興趣，真的很幸福啊。<delay20 />
+<anim id="Greeting" target="actor" targetSpec="" />下次我們再找機會好好聊吧！<tag a="110" b="6" />。</message>
+	<message label="032_04" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" /><tag a="140" b="12" arg="0xcd00" />嗎<tag a="110" b="0" /><delay20 />
+<anim id="ShyBoy" target="actor" targetSpec="" />我對那方面不是很瞭解咧。<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />下次有機會的話多跟我說明一下吧！<delay frames="40" />
+說不定聽著聽著，<delay8 />
+<anim id="Laughing" target="actor" targetSpec="" />就連我也迷上啦！<tag a="110" b="6" />。</message>
+	<message label="030_104" attrib="00 00 01 00 00 00 00 00"><tag a="110" b="3" />的興趣<delay20 />
+<anim id="QuestionMark" target="actor" targetSpec="" />是<tag a="140" b="13" arg="0xcd00" />
+應該沒錯吧？<tag a="110" b="6" />。</message>
+	<message label="030_104_a" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />是喔
+<anim id="Nodding" target="actor" targetSpec="" />嗯</message>
+	<message label="030_104_b" attrib="00 00 00 00 00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />現在不一樣了</message>
+	<message label="031_104" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" /><tag a="140" b="13" arg="0xcd00" /><delay8 />真的很棒！<delay frames="40" />
+<anim id="FaintSmile" target="actor" targetSpec="" />我也非常喜歡咧！<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />擁有能夠投入的興趣，真的很幸福啊。<delay20 />
+<anim id="Greeting" target="actor" targetSpec="" />下次我們再找機會好好聊吧！<tag a="110" b="6" />。</message>
+	<message label="032_104" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" /><tag a="140" b="13" arg="0xcd00" />嗎<tag a="110" b="0" /><delay20 />
+<anim id="ShyBoy" target="actor" targetSpec="" />我對那方面不是很瞭解咧。<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />下次有機會的話多跟我說明一下吧！<delay frames="40" />
+說不定聽著聽著，<delay8 />
+<anim id="Laughing" target="actor" targetSpec="" />就連我也迷上啦！<tag a="110" b="6" />。</message>
+	<message label="030_05" attrib="00 00 01 00 00 00 00 00">聽說<tag a="110" b="3" />的特技<delay8 />
+是<tag a="140" b="12" arg="0xcd00" />，<delay20 />
+<anim id="QuestionMark" target="actor" targetSpec="" />真的是這樣嗎？<tag a="110" b="6" />。</message>
+	<message label="030_05_a" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />是喔
+<anim id="Nodding" target="actor" targetSpec="" />嗯</message>
+	<message label="030_05_b" attrib="00 00 00 00 00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />現在不一樣了</message>
+	<message label="031_05" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />特技居然是<tag a="140" b="12" arg="0xcd00" />！<delay frames="40" />
+<anim id="EmotEnd" target="actor" targetSpec="" />太厲害了吧<tag a="110" b="0" /><delay20 />
+<anim id="Hello" target="actor" targetSpec="" />下次露一手給我看看啊！<tag a="110" b="6" />。</message>
+	<message label="032_05" attrib="00 00 00 00 00 00 00 00"><anim id="ShyBoy" target="actor" targetSpec="" />我對<tag a="140" b="12" arg="0xcd00" /><delay8 />
+簡直可說是一無所知咧！<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />不過<delay8 />既然你擁有這樣的特殊專長，<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />下次就來露個一手吧？
+說不定會讓我也開始感興趣咧！<tag a="110" b="6" />。</message>
+	<message label="030_105" attrib="00 00 01 00 00 00 00 00">聽說<tag a="110" b="3" />的特技<delay8 />
+是<tag a="140" b="13" arg="0xcd00" />，<delay20 />
+<anim id="QuestionMark" target="actor" targetSpec="" />真的是這樣嗎？<tag a="110" b="6" />。</message>
+	<message label="030_105_a" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />是喔
+<anim id="Nodding" target="actor" targetSpec="" />嗯</message>
+	<message label="030_105_b" attrib="00 00 00 00 00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />現在不一樣了</message>
+	<message label="031_105" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />特技居然是<tag a="140" b="13" arg="0xcd00" />！<delay frames="40" />
+<anim id="EmotEnd" target="actor" targetSpec="" />太厲害了吧……<delay20 />
+<anim id="Hello" target="actor" targetSpec="" />下次露一手給我看看啊！<tag a="110" b="6" />。</message>
+	<message label="032_105" attrib="00 00 00 00 00 00 00 00"><anim id="ShyBoy" target="actor" targetSpec="" />我對<tag a="140" b="13" arg="0xcd00" /><delay8 />
+簡直可說是一無所知咧！<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />不過<delay8 />既然你擁有這樣的特殊專長，<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />下次就來露個一手吧？
+說不定會讓我也開始感興趣咧！<tag a="110" b="6" />。</message>
+	<message label="040_01" attrib="00 00 01 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />聽說<delay8 />你對音樂完全沒興趣啊？<delay frames="30" />
+現在<anim id="QuestionMark" target="actor" targetSpec="" />也還是一樣嗎？<tag a="110" b="6" />。</message>
+	<message label="040_01_a" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />是喔
+<anim id="Nodding" target="actor" targetSpec="" />嗯</message>
+	<message label="040_01_b" attrib="00 00 00 00 00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />現在不一樣了
+<anim id="Negative" target="actor" targetSpec="" />也不算是</message>
+	<message label="040_02" attrib="00 00 01 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />聽說<delay8 />你對讀書完全沒興趣啊？<delay frames="30" />
+現在<anim id="QuestionMark" target="actor" targetSpec="" />也還是一樣嗎？<tag a="110" b="6" />。</message>
+	<message label="040_02_a" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />是喔
+<anim id="Nodding" target="actor" targetSpec="" />嗯</message>
+	<message label="040_02_b" attrib="00 00 00 00 00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />現在不一樣了
+<anim id="Negative" target="actor" targetSpec="" />也不算是</message>
+	<message label="040_03" attrib="00 00 01 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />聽說<delay8 />你對漫畫完全沒興趣啊？<delay frames="30" />
+現在<anim id="QuestionMark" target="actor" targetSpec="" />也還是一樣嗎？<tag a="110" b="6" />。</message>
+	<message label="040_03_a" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />是喔
+<anim id="Nodding" target="actor" targetSpec="" />嗯</message>
+	<message label="040_03_b" attrib="00 00 00 00 00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />現在不一樣了
+<anim id="Negative" target="actor" targetSpec="" />也不算是</message>
+	<message label="040_04" attrib="00 00 01 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />聽說<delay8 />你完全不看電影啊？<delay frames="30" />
+現在<anim id="QuestionMark" target="actor" targetSpec="" />也還是一樣嗎？<tag a="110" b="6" />。</message>
+	<message label="040_04_a" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />是喔
+<anim id="Nodding" target="actor" targetSpec="" />嗯</message>
+	<message label="040_04_b" attrib="00 00 00 00 00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />現在不一樣了
+<anim id="Negative" target="actor" targetSpec="" />也不算是</message>
+	<message label="040_05" attrib="00 00 01 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />聽說<delay8 />你完全不看電視啊？<delay frames="30" />
+現在<anim id="QuestionMark" target="actor" targetSpec="" />也還是一樣嗎？<tag a="110" b="6" />。</message>
+	<message label="040_05_a" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />是喔
+<anim id="Nodding" target="actor" targetSpec="" />嗯</message>
+	<message label="040_05_b" attrib="00 00 00 00 00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />現在不一樣了
+<anim id="Negative" target="actor" targetSpec="" />也不算是</message>
+	<message label="040_06" attrib="00 00 01 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />聽說<delay8 />你對運動完全沒興趣啊？<delay frames="30" />
+現在<anim id="QuestionMark" target="actor" targetSpec="" />也還是一樣嗎？<tag a="110" b="6" />。</message>
+	<message label="040_06_a" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />是喔
+<anim id="Nodding" target="actor" targetSpec="" />嗯</message>
+	<message label="040_06_b" attrib="00 00 00 00 00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />現在不一樣了
+<anim id="Negative" target="actor" targetSpec="" />也不算是</message>
+	<message label="040_07" attrib="00 00 01 00 00 00 00 00">聽說你好像<delay20 />沒有特別喜歡的飲料啊？<delay frames="40" />
+現在<anim id="QuestionMark" target="actor" targetSpec="" />也還是一樣嗎？<tag a="110" b="6" />。</message>
+	<message label="040_07_a" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />是喔
+<anim id="Nodding" target="actor" targetSpec="" />嗯</message>
+	<message label="040_07_b" attrib="00 00 00 00 00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />現在不一樣了
+<anim id="Negative" target="actor" targetSpec="" />也不算是</message>
+	<message label="040_08" attrib="00 00 01 00 00 00 00 00">聽說你好像<delay20 />沒有特別喜歡的食物啊？<delay frames="40" />
+現在<anim id="QuestionMark" target="actor" targetSpec="" />也還是一樣嗎？<tag a="110" b="6" />。</message>
+	<message label="040_08_a" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />是喔
+<anim id="Nodding" target="actor" targetSpec="" />嗯</message>
+	<message label="040_08_b" attrib="00 00 00 00 00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />現在不一樣了
+<anim id="Negative" target="actor" targetSpec="" />也不算是</message>
+	<message label="040_09" attrib="00 00 01 00 00 00 00 00">聽說你好像沒有什麼<delay8 />
+將來特別想實現的夢想啊？<delay20 />
+現在<anim id="QuestionMark" target="actor" targetSpec="" />也還是沒有找到嗎？<tag a="110" b="6" />。</message>
+	<message label="040_09_a" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />是喔
+<anim id="Nodding" target="actor" targetSpec="" />嗯</message>
+	<message label="040_09_b" attrib="00 00 00 00 00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />現在不一樣了
+<anim id="Negative" target="actor" targetSpec="" />也不算是</message>
+	<message label="040_10" attrib="00 00 01 00 00 00 00 00">聽說你好像沒有特別投入的興趣啊？<delay20 />
+現在<anim id="QuestionMark" target="actor" targetSpec="" />也還是沒有找到嗎？<tag a="110" b="6" />。</message>
+	<message label="040_10_a" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />是喔
+<anim id="Nodding" target="actor" targetSpec="" />嗯</message>
+	<message label="040_10_b" attrib="00 00 00 00 00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />現在不一樣了
+<anim id="Negative" target="actor" targetSpec="" />也不算是</message>
+	<message label="040_11" attrib="00 00 01 00 00 00 00 00">聽說你好像<delay8 />覺得自己沒有特別突出的特技啊？<delay20 />
+現在<anim id="QuestionMark" target="actor" targetSpec="" />也還是沒有找到嗎？<tag a="110" b="6" />。</message>
+	<message label="040_11_a" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />是喔
+<anim id="Nodding" target="actor" targetSpec="" />嗯</message>
+	<message label="040_11_b" attrib="00 00 00 00 00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />現在不一樣了
+<anim id="Negative" target="actor" targetSpec="" />也不算是</message>
+	<message label="041" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />原來如此，原來如此。<delay frames="30" />
+<anim id="ShyBoy" target="actor" targetSpec="" />啊，<delay8 />我沒什麼特別的意思啦，<delay frames="40" />
+只是想確認自己有沒有聽錯而已。
+<anim id="FaintSmile" target="actor" targetSpec="" />謝謝你告訴我，<delay frames="40" />
+果然<delay8 />還是直接問本人最快咧！<tag a="110" b="6" />。</message>
+	<message label="049" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />咦，<delay8 />不是嗎！？<delay frames="40" />
+<anim id="ShyBoy" target="actor" targetSpec="" />也就是說<tag a="110" b="0" /><delay8 />
+是我聽錯了吧？</message>
+	<message label="051" attrib="00 00 02 00 00 00 00 00">呃<tag a="110" b="0" /><delay8 />
+是<tag a="140" b="13" arg="0xcd00" />，
+<anim id="QuestionMark" target="actor" targetSpec="" />沒有錯吧？<tag a="110" b="6" />。</message>
+	<message label="051_a" attrib="00 00 00 00 00 00 00 00">嗯
+是的</message>
+	<message label="051_b" attrib="00 00 00 00 00 00 00 00">搞錯了
+等一下</message>
+	<message label="052" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />居然搞錯了嗎！？<delay frames="40" />
+<anim id="FaintSmile" target="actor" targetSpec="" />那就<delay8 />請你再跟我說一次啦！<tag a="110" b="6" />。</message>
+	<message label="060_01" attrib="00 00 00 00 00 00 00 00"><anim id="Laughing" target="actor" targetSpec="" />喂喂喂，<delay8 />搞什麼啊！<delay frames="40" />
+<anim id="FaintSmile" target="actor" targetSpec="" />結果你還是喜歡<tag a="140" b="12" arg="0xcd00" />嘛！</message>
+	<message label="060_101" attrib="00 00 00 00 00 00 00 00"><anim id="Laughing" target="actor" targetSpec="" />喂喂喂，<delay8 />搞什麼啊！<delay frames="40" />
+<anim id="FaintSmile" target="actor" targetSpec="" />結果你還是喜歡
+<tag a="140" b="13" arg="0xcd00" />嘛！</message>
+	<message label="060_02" attrib="00 00 00 00 00 00 00 00"><anim id="Laughing" target="actor" targetSpec="" />喂喂喂，<delay8 />搞什麼啊！<delay frames="40" />
+<anim id="FaintSmile" target="actor" targetSpec="" />結果你還是喜歡<tag a="140" b="12" arg="0xcd00" />嘛！</message>
+	<message label="060_102" attrib="00 00 00 00 00 00 00 00"><anim id="Laughing" target="actor" targetSpec="" />喂喂喂，<delay8 />搞什麼啊！<delay frames="40" />
+<anim id="FaintSmile" target="actor" targetSpec="" />結果你還是喜歡
+<tag a="140" b="13" arg="0xcd00" />嘛！</message>
+	<message label="060_03" attrib="00 00 00 00 00 00 00 00"><anim id="Laughing" target="actor" targetSpec="" />喂喂喂，<delay8 />搞什麼啊！<delay frames="40" />
+<anim id="FaintSmile" target="actor" targetSpec="" />結果你還是想成為<tag a="140" b="12" arg="0xcd00" />嘛！</message>
+	<message label="060_103" attrib="00 00 00 00 00 00 00 00"><anim id="Laughing" target="actor" targetSpec="" />喂喂喂，<delay8 />搞什麼啊！<delay frames="40" />
+<anim id="FaintSmile" target="actor" targetSpec="" />結果你還是想成為
+<tag a="140" b="13" arg="0xcd00" />嘛！</message>
+	<message label="060_04" attrib="00 00 00 00 00 00 00 00"><anim id="Laughing" target="actor" targetSpec="" />喂喂喂，<delay8 />搞什麼啊！<delay frames="40" />
+<anim id="FaintSmile" target="actor" targetSpec="" />結果你還是喜歡<tag a="140" b="12" arg="0xcd00" />嘛！</message>
+	<message label="060_104" attrib="00 00 00 00 00 00 00 00"><anim id="Laughing" target="actor" targetSpec="" />喂喂喂，<delay8 />搞什麼啊！<delay frames="40" />
+<anim id="FaintSmile" target="actor" targetSpec="" />結果你還是喜歡
+<tag a="140" b="13" arg="0xcd00" />嘛！</message>
+	<message label="060_05" attrib="00 00 00 00 00 00 00 00"><anim id="Laughing" target="actor" targetSpec="" />喂喂喂，<delay8 />搞什麼啊！<delay frames="40" />
+<anim id="FaintSmile" target="actor" targetSpec="" />結果你還是擅長<tag a="140" b="12" arg="0xcd00" />嘛！</message>
+	<message label="060_105" attrib="00 00 00 00 00 00 00 00"><anim id="Laughing" target="actor" targetSpec="" />喂喂喂，<delay8 />搞什麼啊！<delay frames="40" />
+<anim id="FaintSmile" target="actor" targetSpec="" />結果你還是擅長
+<tag a="140" b="13" arg="0xcd00" />嘛！</message>
+	<message label="061" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />哦哦，這樣啊。<delay frames="40" />
+看樣子你和之前一樣，一點也沒變嘛。<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />不過<delay8 />沒差啦。<delay frames="40" />
+<anim id="EmotEnd" target="actor" targetSpec="" />你這種不隨波逐流的生活方式，<delay20 />
+<anim id="Blushing" target="actor" targetSpec="" />我其實還挺喜歡的咧，<tag a="110" b="6" />。</message>
+	<message label="100_01" attrib="00 00 07 00 00 00 00 00">你平常<delay8 /><anim id="QuestionMark" target="actor" targetSpec="" />會聽音樂嗎？<delay frames="40" />
+<anim id="EmotEnd" target="actor" targetSpec="" />如果你有特別喜歡的類別，<delay8 />
+<anim id="FaintSmile" target="actor" targetSpec="" />就順便告訴我吧？<tag a="110" b="6" />。</message>
+	<message label="100_01_a" attrib="00 00 00 00 00 00 00 00">搖滾樂</message>
+	<message label="100_01_b" attrib="00 00 00 00 00 00 00 00">爵士樂</message>
+	<message label="100_01_c" attrib="00 00 00 00 00 00 00 00">重金屬</message>
+	<message label="100_01_d" attrib="00 00 00 00 00 00 00 00">其他</message>
+	<message label="100_01_e" attrib="00 00 00 00 00 00 00 00">不聽音樂</message>
+	<message label="101_01" attrib="00 00 07 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />什麼？<delay8 />現在不一樣了嗎？<delay20 />
+<anim id="EmotEnd" target="actor" targetSpec="" />那你現在都聽什麼樣的音樂啊？<tag a="110" b="6" />。</message>
+	<message label="101_01_a" attrib="00 00 00 00 00 00 00 00">搖滾樂</message>
+	<message label="101_01_b" attrib="00 00 00 00 00 00 00 00">爵士樂</message>
+	<message label="101_01_c" attrib="00 00 00 00 00 00 00 00">重金屬</message>
+	<message label="101_01_d" attrib="00 00 00 00 00 00 00 00">其他</message>
+	<message label="101_01_e" attrib="00 00 00 00 00 00 00 00">不聽音樂</message>
+	<message label="102_01" attrib="00 00 07 00 00 00 00 00">那就請你再告訴我一次吧。<delay20 />
+<tag a="110" b="3" />
+<anim id="QuestionMark" target="actor" targetSpec="" />到底喜歡什麼樣的音樂咧？<tag a="110" b="6" />。</message>
+	<message label="102_01_a" attrib="00 00 00 00 00 00 00 00">搖滾樂</message>
+	<message label="102_01_b" attrib="00 00 00 00 00 00 00 00">爵士樂</message>
+	<message label="102_01_c" attrib="00 00 00 00 00 00 00 00">重金屬</message>
+	<message label="102_01_d" attrib="00 00 00 00 00 00 00 00">其他</message>
+	<message label="102_01_e" attrib="00 00 00 00 00 00 00 00">不聽音樂</message>
+	<message label="103_01" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />我懂！<delay frames="30" />
+<anim id="Smiling" target="actor" targetSpec="" />搖滾樂真的是會讓人無法自拔！<delay frames="40" />
+我也很喜歡那種自成一家的搖滾樂團！
+<anim id="EmotEnd" target="actor" targetSpec="" />如果有哪個樂團能夠激起你的熱血，<delay20 />
+<anim id="Hello" target="actor" targetSpec="" />就找個機會告訴我吧！<tag a="110" b="6" />。</message>
+	<message label="104_01" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />爵士樂<delay8 />真的很棒，<delay frames="40" />
+不管聽幾次<delay20 />都不會覺得膩，
+和其他音樂有著不同的優點咧。<pageBreak />像是每一次都加入一些即興演奏，
+讓聽眾百聽不膩之類的……<anim id="Hello" target="actor" targetSpec="" />沒錯吧？<delay frames="40" />
+<anim id="FaintSmile" target="actor" targetSpec="" />很開心能找到喜愛爵士樂的同好，<tag a="110" b="6" />。</message>
+	<message label="105_01" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />重金屬最吸引人的部分，<delay20 />
+應該就是它那獨特的沉重強力節奏了吧？<pageBreak /><anim id="HappyDance" target="actor" targetSpec="" />既深又重的吉他速彈<tag a="110" b="0" /><delay20 />
+還有那震撼五臟六腑的歌聲！<delay frames="30" />
+<anim id="Love" target="actor" targetSpec="" />只是聽著這些，就讓我內心熱血沸騰咧！<pageBreak /><anim id="Shocked" target="actor" targetSpec="" /><tag a="110" b="0" />哎呀，<delay20 /><anim id="ShyBoy" target="actor" targetSpec="" />一不小心就劈哩啪啦講了一堆。<delay frames="40" />
+<anim id="Smiling" target="actor" targetSpec="" />嘿嘿，<delay8 />找到同好實在是太讓我高興啦！<delay frames="40" />
+<anim id="Greeting" target="actor" targetSpec="" />下次找機會讓我們好好聊聊吧！<tag a="110" b="6" />。</message>
+	<message label="106_01" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />原來如此，<delay8 />
+<tag a="140" b="13" arg="0xcd00" />啊<tag a="110" b="0" /><delay20 />
+你喜歡這種類型的嗎？
+既然你都告訴我了，<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />下次我就來找個機會試聽一下吧！<delay frames="40" />
+謝謝你告訴我啊！<tag a="110" b="6" />。</message>
+	<message label="107_01" attrib="00 00 00 00 00 00 00 00">那……你喜歡大自然的聲音嗎？
+<anim id="Smiling" target="actor" targetSpec="" />我很喜歡咧！<delay20 />
+尤其是雨滴打在鐵皮屋頂上的聲音！
+<anim id="EmotEnd" target="actor" targetSpec="" />靜下心仔細聽的時候才能聽到的聲音，<delay8 />
+<anim id="Nodding" target="actor" targetSpec="" />跟音樂比起來又有另一種奧妙……<delay20 />
+<anim id="Hello" target="actor" targetSpec="" />你不覺得嗎？<tag a="110" b="6" />。</message>
+	<message label="100_02" attrib="00 00 07 00 00 00 00 00">你平常<delay8 /><anim id="QuestionMark" target="actor" targetSpec="" />會看書嗎？<delay frames="40" />
+<anim id="EmotEnd" target="actor" targetSpec="" />如果你有特別喜歡的類別，<delay8 />
+<anim id="FaintSmile" target="actor" targetSpec="" />就順便告訴我吧？<tag a="110" b="6" />。</message>
+	<message label="100_02_a" attrib="00 00 00 00 00 00 00 00">字典</message>
+	<message label="100_02_b" attrib="00 00 00 00 00 00 00 00">小說</message>
+	<message label="100_02_c" attrib="00 00 00 00 00 00 00 00">相片集</message>
+	<message label="100_02_d" attrib="00 00 00 00 00 00 00 00">其他</message>
+	<message label="100_02_e" attrib="00 00 00 00 00 00 00 00">不看書</message>
+	<message label="101_02" attrib="00 00 07 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />什麼？<delay8 />現在不一樣了嗎？<delay20 />
+<anim id="EmotEnd" target="actor" targetSpec="" />那你現在都看什麼樣的書啊？<tag a="110" b="6" />。</message>
+	<message label="101_02_a" attrib="00 00 00 00 00 00 00 00">字典</message>
+	<message label="101_02_b" attrib="00 00 00 00 00 00 00 00">小說</message>
+	<message label="101_02_c" attrib="00 00 00 00 00 00 00 00">相片集</message>
+	<message label="101_02_d" attrib="00 00 00 00 00 00 00 00">其他</message>
+	<message label="101_02_e" attrib="00 00 00 00 00 00 00 00">不看書</message>
+	<message label="102_02" attrib="00 00 07 00 00 00 00 00">那就請你再告訴我一次吧。<delay20 />
+<tag a="110" b="3" />
+<anim id="QuestionMark" target="actor" targetSpec="" />到底喜歡什麼樣的書咧？<tag a="110" b="6" />。</message>
+	<message label="102_02_a" attrib="00 00 00 00 00 00 00 00">字典</message>
+	<message label="102_02_b" attrib="00 00 00 00 00 00 00 00">小說</message>
+	<message label="102_02_c" attrib="00 00 00 00 00 00 00 00">相片集</message>
+	<message label="102_02_d" attrib="00 00 00 00 00 00 00 00">其他</message>
+	<message label="102_02_e" attrib="00 00 00 00 00 00 00 00">不看書</message>
+	<message label="103_02" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />居然會喜歡字典，<delay8 />你還真是個怪人咧！<delay frames="30" />
+<anim id="Smiling" target="actor" targetSpec="" />說是這麼說，其實我也很喜歡厚厚的字典，<delay20 />
+小時候讀得非常熱衷喔！
+<anim id="Hesitate" target="actor" targetSpec="" />沒想到居然能和你
+像這樣暢談字典的美好，<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />我真的很開心喔，<tag a="110" b="6" />。</message>
+	<message label="104_02" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />我也常看小說咧！<delay frames="40" />
+<anim id="ShyBoy" target="actor" targetSpec="" />嗯，<delay8 />雖然我看的都是歷史小說啦。<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />下次讓我們來聊聊彼此喜歡的小說吧！<delay frames="40" />
+記得順便帶一本自己最推薦的喔！<tag a="110" b="6" />。</message>
+	<message label="105_02" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />哦，<delay8 />相片集嗎！<delay frames="30" />
+<anim id="FaintSmile" target="actor" targetSpec="" />相片這種東西啊，<delay8 />有趣的地方就在於
+不同人拍攝同一片景色，風味也會有所不同。
+<anim id="EmotEnd" target="actor" targetSpec="" />我就是被這樣的特色吸引，
+所以才開始看各種相片集的咧！<delay8 />
+<anim id="Hello" target="actor" targetSpec="" />如果你有私房推薦，要告訴我啊！<tag a="110" b="6" />。</message>
+	<message label="106_02" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />原來如此，<delay8 />
+<tag a="140" b="13" arg="0xcd00" />嗎<tag a="110" b="0" /><delay20 />
+原來你喜歡這種書啊！
+既然你都告訴我了，<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />那我之後也找個機會看看好了！<delay frames="40" />
+謝謝你告訴我！<tag a="110" b="6" />。</message>
+	<message label="107_02" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />原來如此，<delay8 />是這樣嗎？<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />看來你有其他喜歡的事物啊。<pageBreak /><anim id="Thinking" target="actor" targetSpec="" />雖然我很好奇你到底喜歡什麼<tag a="110" b="0" /><delay8 />
+<anim id="Smiling" target="actor" targetSpec="" />不過先算了！<delay20 />這問題就留著下次問吧！<delay frames="40" />
+<anim id="Hello" target="actor" targetSpec="" />謝謝你告訴我啊！<tag a="110" b="6" />。</message>
+	<message label="100_03" attrib="00 00 07 00 00 00 00 00">你平常<delay8 /><anim id="QuestionMark" target="actor" targetSpec="" />會看漫畫嗎？<delay frames="40" />
+<anim id="EmotEnd" target="actor" targetSpec="" />如果你有特別喜歡的類型，<delay8 />
+<anim id="FaintSmile" target="actor" targetSpec="" />就告訴我吧，<tag a="110" b="6" />。</message>
+	<message label="100_03_a" attrib="00 00 00 00 00 00 00 00">科幻漫畫</message>
+	<message label="100_03_b" attrib="00 00 00 00 00 00 00 00">歷史虛構漫畫</message>
+	<message label="100_03_c" attrib="00 00 00 00 00 00 00 00">隨筆漫畫</message>
+	<message label="100_03_d" attrib="00 00 00 00 00 00 00 00">其他</message>
+	<message label="100_03_e" attrib="00 00 00 00 00 00 00 00">不看漫畫</message>
+	<message label="101_03" attrib="00 00 07 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />什麼？<delay8 />現在不一樣了嗎？<delay20 />
+<anim id="EmotEnd" target="actor" targetSpec="" />那你現在都看什麼樣的漫畫啊？<tag a="110" b="6" />。</message>
+	<message label="101_03_a" attrib="00 00 00 00 00 00 00 00">科幻漫畫</message>
+	<message label="101_03_b" attrib="00 00 00 00 00 00 00 00">歷史虛構漫畫</message>
+	<message label="101_03_c" attrib="00 00 00 00 00 00 00 00">隨筆漫畫</message>
+	<message label="101_03_d" attrib="00 00 00 00 00 00 00 00">其他</message>
+	<message label="101_03_e" attrib="00 00 00 00 00 00 00 00">不看漫畫</message>
+	<message label="102_03" attrib="00 00 07 00 00 00 00 00">那就請你再告訴我一次吧。<delay20 />
+<tag a="110" b="3" />
+<anim id="QuestionMark" target="actor" targetSpec="" />到底喜歡什麼樣的漫畫咧？<tag a="110" b="6" />。</message>
+	<message label="102_03_a" attrib="00 00 00 00 00 00 00 00">科幻漫畫</message>
+	<message label="102_03_b" attrib="00 00 00 00 00 00 00 00">歷史虛構漫畫</message>
+	<message label="102_03_c" attrib="00 00 00 00 00 00 00 00">隨筆漫畫</message>
+	<message label="102_03_d" attrib="00 00 00 00 00 00 00 00">其他</message>
+	<message label="102_03_e" attrib="00 00 00 00 00 00 00 00">不看漫畫</message>
+	<message label="103_03" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />喔！<delay20 />我們很合得來咧！<delay frames="40" />
+<anim id="FaintSmile" target="actor" targetSpec="" />我也很喜歡科幻題材！<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />如果故事背景設在近未來，<delay20 />
+<anim id="Smiling" target="actor" targetSpec="" />就會讓人忍不住妄想<delay8 />
+<anim id="AbsentMindedness" target="actor" targetSpec="" />自己的世界有一天也會變成那樣<tag a="110" b="0" />
+<anim id="EmotEnd" target="actor" targetSpec="" />你看，科幻題材充滿了夢想吧？<delay frames="30" />
+<anim id="Nodding" target="actor" targetSpec="" />就是這個部分讓我著迷不已咧！<delay frames="40" />
+<anim id="Shocked" target="actor" targetSpec="" />哎呀，<delay20 /><anim id="Blushing" target="actor" targetSpec="" />一不小心就講個不停了，<tag a="110" b="6" />。</message>
+	<message label="104_03" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />哦，<delay8 />歷史虛構嗎？<delay frames="40" />
+<anim id="FaintSmile" target="actor" targetSpec="" />你看的題材還挺有韻味嘛！<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />嗯，<delay8 />那些複雜的歷史事件<delay20 />
+畫成漫畫以後應該好懂不少，也是不賴！<pageBreak /><anim id="SmugFace" target="actor" targetSpec="" />我也試著努力名留青史，<delay8 />
+成為歷史作品描寫的主角好啦！<delay frames="40" />
+<anim id="Smiling" target="actor" targetSpec="" />開玩笑的，<delay20 /><anim id="Laughing" target="actor" targetSpec="" />哇～哈哈！</message>
+	<message label="105_03" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />原來如此，<delay8 />隨筆漫畫嗎？<pageBreak /><anim id="Explain" target="actor" targetSpec="" />閱讀那種作品的時候，<delay20 />
+就會深深體會到<delay8 />
+人生中什麼都有可能發生啊。
+<anim id="FaintSmile" target="actor" targetSpec="" />不過那也是這種作品有趣的地方咧！<delay20 />
+<anim id="EmotEnd" target="actor" targetSpec="" />你想啊，<delay8 />不是都說<delay8 />
+「事實往往比小說更離奇」嗎？<tag a="110" b="6" />。</message>
+	<message label="106_03" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />原來如此，<delay8 />
+<tag a="140" b="13" arg="0xcd00" />嗎<tag a="110" b="0" /><delay20 />
+原來你喜歡這種漫畫啊！
+既然你都告訴我了，<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />那我之後也找個機會看看好了！<delay frames="40" />
+謝謝你告訴我！<tag a="110" b="6" />。</message>
+	<message label="107_03" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />原來如此，<delay8 />是這樣嗎？<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />看來你有其他喜歡的事物啊。<pageBreak /><anim id="Thinking" target="actor" targetSpec="" />雖然我很好奇你到底喜歡什麼<tag a="110" b="0" /><delay8 />
+<anim id="Smiling" target="actor" targetSpec="" />不過先算了！<delay20 />這問題就留著下次問吧！<delay frames="40" />
+<anim id="Hello" target="actor" targetSpec="" />謝謝你告訴我啊！<tag a="110" b="6" />。</message>
+	<message label="100_04" attrib="00 00 07 00 00 00 00 00">你平常<delay8 /><anim id="QuestionMark" target="actor" targetSpec="" />會看電影嗎？<delay frames="40" />
+<anim id="EmotEnd" target="actor" targetSpec="" />如果你有特別喜歡的類型，<delay8 />
+<anim id="FaintSmile" target="actor" targetSpec="" />就告訴我吧，<tag a="110" b="6" />。</message>
+	<message label="100_04_a" attrib="00 00 00 00 00 00 00 00">懸疑片</message>
+	<message label="100_04_b" attrib="00 00 00 00 00 00 00 00">歷史虛構片</message>
+	<message label="100_04_c" attrib="00 00 00 00 00 00 00 00">非劇情片</message>
+	<message label="100_04_d" attrib="00 00 00 00 00 00 00 00">其他</message>
+	<message label="100_04_e" attrib="00 00 00 00 00 00 00 00">不看電影</message>
+	<message label="101_04" attrib="00 00 07 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />什麼？<delay8 />現在不一樣了嗎？<delay20 />
+<anim id="EmotEnd" target="actor" targetSpec="" />那你現在都看什麼樣的電影啊？<tag a="110" b="6" />。</message>
+	<message label="101_04_a" attrib="00 00 00 00 00 00 00 00">懸疑片</message>
+	<message label="101_04_b" attrib="00 00 00 00 00 00 00 00">歷史虛構片</message>
+	<message label="101_04_c" attrib="00 00 00 00 00 00 00 00">非劇情片</message>
+	<message label="101_04_d" attrib="00 00 00 00 00 00 00 00">其他</message>
+	<message label="101_04_e" attrib="00 00 00 00 00 00 00 00">不看電影</message>
+	<message label="102_04" attrib="00 00 07 00 00 00 00 00">那就請你再告訴我一次吧。<delay20 />
+<tag a="110" b="3" />
+<anim id="QuestionMark" target="actor" targetSpec="" />到底喜歡什麼樣的電影咧？<tag a="110" b="6" />。</message>
+	<message label="102_04_a" attrib="00 00 00 00 00 00 00 00">懸疑片</message>
+	<message label="102_04_b" attrib="00 00 00 00 00 00 00 00">歷史虛構片</message>
+	<message label="102_04_c" attrib="00 00 00 00 00 00 00 00">非劇情片</message>
+	<message label="102_04_d" attrib="00 00 00 00 00 00 00 00">其他</message>
+	<message label="102_04_e" attrib="00 00 00 00 00 00 00 00">不看電影</message>
+	<message label="103_04" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />懸疑片<delay8 />真的很棒！<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />我也很喜歡那種電影咧！<pageBreak /><anim id="HappyDance" target="actor" targetSpec="" />只要一開始看，就會沉迷在那股刺激感當中，<delay20 />
+跟著劇情心跳加速、擔心害怕，<delay8 />
+一轉眼時間就過去了！<tag a="110" b="6" />。</message>
+	<message label="104_04" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />我懂！<delay8 />我也很喜歡歷史作品！<delay20 />
+雖然透過書本和漫畫瞭解歷史也不錯，<delay8 />
+<anim id="HappyDance" target="actor" targetSpec="" />但電影的大場面看起來更棒！
+<anim id="EmotEnd" target="actor" targetSpec="" />人與人之間為了理念全力互相碰撞的樣子，<delay20 />
+不管在哪個時代都很帥咧！<delay frames="40" />
+<anim id="FaintSmile" target="actor" targetSpec="" />你不覺得嗎？<tag a="110" b="6" />。</message>
+	<message label="105_04" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />非劇情片的存在……<delay20 />
+也就代表著曾經有人
+經歷過那誇張的事實吧？<pageBreak /><anim id="Worried" target="actor" targetSpec="" />我只要想到這一切都是真實發生過的，<delay20 />
+不管是感動<delay8 />或者悲傷的感情，<delay8 />
+都會比變得虛構劇本來得更深啊，<tag a="110" b="6" />。</message>
+	<message label="106_04" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />原來如此，<delay8 />
+<tag a="140" b="13" arg="0xcd00" />嗎<tag a="110" b="0" /><delay20 />
+原來你喜歡這種電影啊！
+既然你都告訴我了，<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />那我之後也找個機會看看好了！<delay frames="40" />
+謝謝你告訴我！<tag a="110" b="6" />。</message>
+	<message label="107_04" attrib="00 00 00 00 00 00 00 00">嗯，<delay8 />畢竟如果想要好好品味電影，
+還是需要一定程度的耐心跟時間咧。<delay frames="40" />
+<anim id="WrySmile" target="actor" targetSpec="" />看你每天都那麼忙，<delay8 />肯定沒空吧？
+<anim id="FaintSmile" target="actor" targetSpec="" />所以你應該有其他的興趣吧？<delay frames="40" />
+下次有機會的話再告訴我吧！<tag a="110" b="6" />。</message>
+	<message label="100_05" attrib="00 00 07 00 00 00 00 00">你平常<delay8 /><anim id="QuestionMark" target="actor" targetSpec="" />會看電視嗎？<delay frames="40" />
+<anim id="EmotEnd" target="actor" targetSpec="" />如果你有特別喜歡的節目類型，<delay8 />
+<anim id="FaintSmile" target="actor" targetSpec="" />就告訴我吧，<tag a="110" b="6" />。</message>
+	<message label="100_05_a" attrib="00 00 00 00 00 00 00 00">紀錄片</message>
+	<message label="100_05_b" attrib="00 00 00 00 00 00 00 00">搞笑節目</message>
+	<message label="100_05_c" attrib="00 00 00 00 00 00 00 00">運動節目</message>
+	<message label="100_05_d" attrib="00 00 00 00 00 00 00 00">其他</message>
+	<message label="100_05_e" attrib="00 00 00 00 00 00 00 00">不看電視</message>
+	<message label="101_05" attrib="00 00 07 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />什麼？<delay8 />現在不一樣了嗎？<delay20 />
+<anim id="EmotEnd" target="actor" targetSpec="" />那你現在都看什麼樣的節目啊？<tag a="110" b="6" />。</message>
+	<message label="101_05_a" attrib="00 00 00 00 00 00 00 00">紀錄片</message>
+	<message label="101_05_b" attrib="00 00 00 00 00 00 00 00">搞笑節目</message>
+	<message label="101_05_c" attrib="00 00 00 00 00 00 00 00">運動節目</message>
+	<message label="101_05_d" attrib="00 00 00 00 00 00 00 00">其他</message>
+	<message label="101_05_e" attrib="00 00 00 00 00 00 00 00">不看電視</message>
+	<message label="102_05" attrib="00 00 07 00 00 00 00 00">那就請你再告訴我一次吧。<delay20 />
+<tag a="110" b="3" />
+<anim id="QuestionMark" target="actor" targetSpec="" />到底喜歡什麼樣的節目咧？<tag a="110" b="6" />。</message>
+	<message label="102_05_a" attrib="00 00 00 00 00 00 00 00">紀錄片</message>
+	<message label="102_05_b" attrib="00 00 00 00 00 00 00 00">搞笑節目</message>
+	<message label="102_05_c" attrib="00 00 00 00 00 00 00 00">運動節目</message>
+	<message label="102_05_d" attrib="00 00 00 00 00 00 00 00">其他</message>
+	<message label="102_05_e" attrib="00 00 00 00 00 00 00 00">不看電視</message>
+	<message label="103_05" attrib="00 00 00 00 00 00 00 00">我也常看紀錄片咧！<delay frames="40" />
+<anim id="HappyDance" target="actor" targetSpec="" />能夠一窺自己所不熟悉的世界，<delay8 />
+真的非常讓人興奮！
+<anim id="Smiling" target="actor" targetSpec="" />能夠遇到你這個同好，我很開心咧！<delay frames="30" />
+下次找個機會慢慢聊吧！<tag a="110" b="6" />。</message>
+	<message label="104_05" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />我也很喜歡搞笑節目咧！<delay20 />
+<anim id="EmotEnd" target="actor" targetSpec="" />雖然漫才本身就很有趣<tag a="110" b="0" /><pageBreak /><anim id="Explain" target="actor" targetSpec="" />但我主要是覺得<delay20 />站在舞台上
+只靠一支麥克風就能逗笑觀眾，
+<anim id="Nodding" target="actor" targetSpec="" />真的非常帥氣啦。
+<anim id="Pardon" target="actor" targetSpec="" />我們要不要乾脆來組個漫才搭檔，<delay8 />
+然後上個搞笑節目啊？<delay frames="30" />
+<anim id="FaintSmile" target="actor" targetSpec="" />開玩笑的，<delay20 /><anim id="Laughing" target="actor" targetSpec="" />哇～哈哈！</message>
+	<message label="105_05" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />運動節目真的很棒！<delay frames="40" />
+看著選手那麼努力的樣子，<delay20 />
+就連自己都不禁跟著熱血沸騰啦！
+<10_10 /><anim id="Cheering" target="actor" targetSpec="" /><size value="150" />衝啊──！！<delay20 />就是現在──！！<size value="100" /><delay frames="30" />
+<10_9 /><anim id="ShyBoy" target="actor" targetSpec="" />每次<delay8 />都會像這樣，不知不覺就開始大聲加油……<delay frames="40" />
+<anim id="WrySmile" target="actor" targetSpec="" />所以等到比賽結束時，我也都渾身是汗了。
+<anim id="FaintSmile" target="actor" targetSpec="" />哪天找個機會，<delay8 />和你一起觀看
+運動比賽的轉播似乎也滿有趣的！<delay frames="40" />
+<anim id="EmotEnd" target="actor" targetSpec="" />到時候我一定會盡全力大喊加油！<tag a="110" b="6" />。</message>
+	<message label="106_05" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />哦～<delay8 /><tag a="140" b="13" arg="0xcd00" />嗎？<delay20 />
+<anim id="EmotEnd" target="actor" targetSpec="" />原來有這種節目啊！<pageBreak />既然你都特地告訴我了，<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />下次就來試著看看吧！<delay frames="40" />
+謝謝你告訴我！<tag a="110" b="6" />。</message>
+	<message label="107_05" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />哦～<delay8 />原來你沒有看電視的習慣啊？<delay frames="40" />
+<anim id="Nodding" target="actor" targetSpec="" />反正現在這個時代<delay8 />
+其他消遣還多的是啊。
+<anim id="FaintSmile" target="actor" targetSpec="" />今天又多瞭解你一點了，我挺開心咧！<delay frames="40" />
+下次也要告訴我很多事情啊！<tag a="110" b="6" />。</message>
+	<message label="100_06" attrib="00 00 07 00 00 00 00 00">你平常<delay8 /><anim id="QuestionMark" target="actor" targetSpec="" />對運動有興趣嗎？<delay frames="40" />
+<anim id="EmotEnd" target="actor" targetSpec="" />如果你有特別喜歡的運動，<delay8 />
+<anim id="FaintSmile" target="actor" targetSpec="" />就告訴我吧，<tag a="110" b="6" />。</message>
+	<message label="100_06_a" attrib="00 00 00 00 00 00 00 00">橄欖球</message>
+	<message label="100_06_b" attrib="00 00 00 00 00 00 00 00">柔道</message>
+	<message label="100_06_c" attrib="00 00 00 00 00 00 00 00">拳擊</message>
+	<message label="100_06_d" attrib="00 00 00 00 00 00 00 00">其他</message>
+	<message label="100_06_e" attrib="00 00 00 00 00 00 00 00">不太喜歡運動</message>
+	<message label="101_06" attrib="00 00 07 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />什麼？<delay8 />現在不一樣了嗎？<delay20 />
+<anim id="EmotEnd" target="actor" targetSpec="" />那你現在喜歡什麼樣的運動啊？<tag a="110" b="6" />。</message>
+	<message label="101_06_a" attrib="00 00 00 00 00 00 00 00">橄欖球</message>
+	<message label="101_06_b" attrib="00 00 00 00 00 00 00 00">柔道</message>
+	<message label="101_06_c" attrib="00 00 00 00 00 00 00 00">拳擊</message>
+	<message label="101_06_d" attrib="00 00 00 00 00 00 00 00">其他</message>
+	<message label="101_06_e" attrib="00 00 00 00 00 00 00 00">不太喜歡運動</message>
+	<message label="102_06" attrib="00 00 07 00 00 00 00 00">那就請你再告訴我一次吧。<delay20 />
+<tag a="110" b="3" />
+<anim id="QuestionMark" target="actor" targetSpec="" />到底喜歡什麼樣的運動咧？<tag a="110" b="6" />。</message>
+	<message label="102_06_a" attrib="00 00 00 00 00 00 00 00">橄欖球</message>
+	<message label="102_06_b" attrib="00 00 00 00 00 00 00 00">柔道</message>
+	<message label="102_06_c" attrib="00 00 00 00 00 00 00 00">拳擊</message>
+	<message label="102_06_d" attrib="00 00 00 00 00 00 00 00">其他</message>
+	<message label="102_06_e" attrib="00 00 00 00 00 00 00 00">不太喜歡運動</message>
+	<message label="103_06" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />橄欖球嗎……<delay frames="40" />
+雖然每一種運動都不錯，<delay20 />
+不過需要大家同心協力的種類又更棒了！<anim id="FaintSmile" target="actor" targetSpec="" />
+<anim id="Explain" target="actor" targetSpec="" />尤其橄欖球<delay8 />又是那種會全力碰撞的運動，<delay20 />
+每次看著那麼白熱化的比賽，<delay8 />
+<anim id="Love" target="actor" targetSpec="" />就連我這個觀眾都會跟著興奮起來咧！
+<anim id="Hesitate" target="actor" targetSpec="" />雖然<delay8 />我不太清楚橄欖球的規則……<delay frames="40" />
+<anim id="EmotEnd" target="actor" targetSpec="" />但我還是會非常興奮！<delay20 />
+<anim id="BigSmile" target="actor" targetSpec="" />橄欖球真的很厲害！<tag a="110" b="6" />。</message>
+	<message label="104_06" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />柔道嗎……<delay frames="40" />
+如果是我要練柔道，<delay8 />
+<anim id="HappyDance" target="actor" targetSpec="" />就會想試著用過肩摔拿下「一分！」咧。
+<anim id="EmotEnd" target="actor" targetSpec="" />如果成功的話，<anim id="FaintSmile" target="actor" targetSpec="" />就超級帥氣啦！<delay frames="40" />
+<anim id="EmotEnd" target="actor" targetSpec="" />所以我要<delay8 />把自己的勝敗
+<anim id="SmugFace" target="actor" targetSpec="" />都押在一記過肩摔上！<tag a="110" b="6" />。</message>
+	<message label="105_06" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />哦～<delay8 />拳擊嗎？<delay frames="40" />
+<anim id="EmotEnd" target="actor" targetSpec="" />其實<delay8 />我以前略有涉獵喔！<pageBreak /><anim id="Explain" target="actor" targetSpec="" />那種嚴苛的運動類型<delay8 />
+比起用看的，自己上場還是比較帥吧？<delay frames="40" />
+<anim id="SmugFace" target="actor" targetSpec="" />所以我曾經以職業拳手為目標咧！
+<anim id="ShyBoy" target="actor" targetSpec="" /><tag a="110" b="0" />嗯，<delay8 />但因為進食的限制
+還有長跑訓練太過難熬，<delay8 />
+<anim id="Laughing" target="actor" targetSpec="" />我馬上就決定當個普通觀眾了！<tag a="110" b="6" />。</message>
+	<message label="106_06" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />哦～<delay8 /><tag a="140" b="13" arg="0xcd00" />嗎？<delay20 />
+<anim id="Hesitate" target="actor" targetSpec="" />其實我也有點好奇那是什麼樣的運動咧！<pageBreak /><anim id="IdeaBulb" target="actor" targetSpec="" />對啦，<delay20 /><tag a="110" b="3" />！<delay20 />
+<anim id="EmotEnd" target="actor" targetSpec="" />如果你下次要進行那種運動，<delay8 />
+<anim id="Hello" target="actor" targetSpec="" />記得叫上我一起啊！<tag a="110" b="6" />。</message>
+	<message label="107_06" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />原來如此，是這樣啊！<delay20 />
+你對運動沒什麼興趣嗎……<delay frames="40" />
+<anim id="FaintSmile" target="actor" targetSpec="" />嗯，<delay8 />反正世上還有其他很多有趣的事情！
+<anim id="EmotEnd" target="actor" targetSpec="" />謝謝你告訴我！<delay frames="30" />
+又能夠多瞭解你一點，讓我挺開心的咧！<delay frames="40" />
+<anim id="Greeting" target="actor" targetSpec="" />以後也要多告訴我關於你的事情！<tag a="110" b="6" />。</message>
+	<message label="100_07" attrib="00 00 07 00 00 00 00 00">你平常<anim id="QuestionMark" target="actor" targetSpec="" />有特別喜歡的飲料嗎？<delay frames="40" />
+<anim id="EmotEnd" target="actor" targetSpec="" />如果你有推薦的私房飲料，<delay8 />
+<anim id="FaintSmile" target="actor" targetSpec="" />就告訴我吧，<tag a="110" b="6" />。</message>
+	<message label="100_07_a" attrib="00 00 00 00 00 00 00 00">水</message>
+	<message label="100_07_b" attrib="00 00 00 00 00 00 00 00">咖啡</message>
+	<message label="100_07_c" attrib="00 00 00 00 00 00 00 00">檸檬水</message>
+	<message label="100_07_d" attrib="00 00 00 00 00 00 00 00">其他</message>
+	<message label="100_07_e" attrib="00 00 00 00 00 00 00 00">沒有特別喜歡的</message>
+	<message label="101_07" attrib="00 00 07 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />什麼？<delay8 />現在不一樣了嗎？<delay20 />
+<anim id="EmotEnd" target="actor" targetSpec="" />那你現在喜歡什麼樣的飲料啊？<tag a="110" b="6" />。</message>
+	<message label="101_07_a" attrib="00 00 00 00 00 00 00 00">水</message>
+	<message label="101_07_b" attrib="00 00 00 00 00 00 00 00">咖啡</message>
+	<message label="101_07_c" attrib="00 00 00 00 00 00 00 00">檸檬水</message>
+	<message label="101_07_d" attrib="00 00 00 00 00 00 00 00">其他</message>
+	<message label="101_07_e" attrib="00 00 00 00 00 00 00 00">沒有特別喜歡的</message>
+	<message label="102_07" attrib="00 00 07 00 00 00 00 00">那就請你再告訴我一次吧。<delay20 />
+<tag a="110" b="3" />
+<anim id="QuestionMark" target="actor" targetSpec="" />到底喜歡什麼樣的飲料咧？<tag a="110" b="6" />。</message>
+	<message label="102_07_a" attrib="00 00 00 00 00 00 00 00">水</message>
+	<message label="102_07_b" attrib="00 00 00 00 00 00 00 00">咖啡</message>
+	<message label="102_07_c" attrib="00 00 00 00 00 00 00 00">檸檬水</message>
+	<message label="102_07_d" attrib="00 00 00 00 00 00 00 00">其他</message>
+	<message label="102_07_e" attrib="00 00 00 00 00 00 00 00">沒有特別喜歡的</message>
+	<message label="103_07" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />居然喜歡喝水！<delay20 />
+看來你還挺內行的嘛。<delay frames="40" />
+<anim id="EmotEnd" target="actor" targetSpec="" />我對水的味道也是很挑剔的咧！
+或許是因為<delay8 />我對飲用的水有許多堅持，
+<anim id="EmotEnd" target="actor" targetSpec="" />所以身心都總是充滿活力咧！<delay frames="40" />
+<anim id="Nodding" target="actor" targetSpec="" />真是太多謝好水啦！<delay8 /><tag a="110" b="6" />。<anim id="FaintSmile" target="actor" targetSpec="" /></message>
+	<message label="104_07" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />咖啡嗎？<delay frames="40" />
+<anim id="FaintSmile" target="actor" targetSpec="" />我也很喜歡那種香味咧！<delay20 />
+當我想要休息的時候，就會泡上一杯。
+<anim id="AbsentMindedness" target="actor" targetSpec="" />泡杯熱呼呼的咖啡，<delay8 />
+讓人變得樂呼呼<tag a="110" b="0" /><delay20 />
+<anim id="Smiling" target="actor" targetSpec="" />開玩笑的啦！<delay20 /><anim id="Laughing" target="actor" targetSpec="" />哇～哈哈！</message>
+	<message label="105_07" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />檸檬水嗎？<delay20 />
+現在<delay8 /><anim id="QuestionMark" target="actor" targetSpec="" />是流行那個嗎？<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />既然你喜歡的話，<delay8 />
+那我也想姑且試喝個一次看看。<delay20 />
+<anim id="Thinking" target="actor" targetSpec="" />不過檸檬誰知道要去哪裡才能弄到手啊……
+雖然<delay20 />想喝檸檬水，<anim id="Pardon" target="actor" targetSpec="" />可是檸檬誰<tag a="110" b="0" /><10_4 />
+<anim id="FaintSmile" target="actor" targetSpec="" />開玩笑的啦！<delay20 /><anim id="Laughing" target="actor" targetSpec="" />哇～哈哈！</message>
+	<message label="106_07" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />嘿～<delay8 /><tag a="140" b="13" arg="0xcd00" />嗎？<delay20 />
+<anim id="EmotEnd" target="actor" targetSpec="" />居然喜歡那種飲料，<delay8 />
+<anim id="Grin" target="actor" targetSpec="" />看來你還挺內行的啊？
+<anim id="FaintSmile" target="actor" targetSpec="" />總之，<delay8 />多謝你告訴我啊！<delay frames="30" />
+又多知道一點關於你的事情，我挺高興的。<delay frames="40" />
+<anim id="Greeting" target="actor" targetSpec="" />以後也要多跟我聊聊啊！<tag a="110" b="6" />。</message>
+	<message label="107_07" attrib="00 00 00 00 00 00 00 00">嘿～<delay8 />也就是說你不怎麼挑飲料嗎？<delay frames="40" />
+<anim id="Nodding" target="actor" targetSpec="" />嗯，<delay8 />不挑食是好事！<tag a="110" b="6" />。<anim id="FaintSmile" target="actor" targetSpec="" /></message>
+	<message label="100_08" attrib="00 00 07 00 00 00 00 00">你平常<anim id="QuestionMark" target="actor" targetSpec="" />有特別喜歡的食物嗎？<delay frames="40" />
+<anim id="EmotEnd" target="actor" targetSpec="" />如果你有推薦的私房菜單，<delay8 />
+<anim id="FaintSmile" target="actor" targetSpec="" />就告訴我吧，<tag a="110" b="6" />。</message>
+	<message label="100_08_a" attrib="00 00 00 00 00 00 00 00">壽司</message>
+	<message label="100_08_b" attrib="00 00 00 00 00 00 00 00">炒飯</message>
+	<message label="100_08_c" attrib="00 00 00 00 00 00 00 00">起司蛋糕</message>
+	<message label="100_08_d" attrib="00 00 00 00 00 00 00 00">其他</message>
+	<message label="100_08_e" attrib="00 00 00 00 00 00 00 00">沒有特別喜歡的</message>
+	<message label="101_08" attrib="00 00 07 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />什麼？<delay8 />現在不一樣了嗎？<delay20 />
+<anim id="EmotEnd" target="actor" targetSpec="" />那你現在喜歡什麼樣的食物啊？<tag a="110" b="6" />。</message>
+	<message label="101_08_a" attrib="00 00 00 00 00 00 00 00">壽司</message>
+	<message label="101_08_b" attrib="00 00 00 00 00 00 00 00">炒飯</message>
+	<message label="101_08_c" attrib="00 00 00 00 00 00 00 00">起司蛋糕</message>
+	<message label="101_08_d" attrib="00 00 00 00 00 00 00 00">其他</message>
+	<message label="101_08_e" attrib="00 00 00 00 00 00 00 00">沒有特別喜歡的</message>
+	<message label="102_08" attrib="00 00 07 00 00 00 00 00">那就請你再告訴我一次吧。<delay20 />
+<tag a="110" b="3" />
+<anim id="QuestionMark" target="actor" targetSpec="" />到底喜歡什麼樣的食物咧？<tag a="110" b="6" />。</message>
+	<message label="102_08_a" attrib="00 00 00 00 00 00 00 00">壽司</message>
+	<message label="102_08_b" attrib="00 00 00 00 00 00 00 00">炒飯</message>
+	<message label="102_08_c" attrib="00 00 00 00 00 00 00 00">起司蛋糕</message>
+	<message label="102_08_d" attrib="00 00 00 00 00 00 00 00">其他</message>
+	<message label="102_08_e" attrib="00 00 00 00 00 00 00 00">沒有特別喜歡的</message>
+	<message label="103_08" attrib="00 00 00 00 00 00 00 00">說到壽司，<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />聽說最近的迴轉壽司
+好像在軌道上弄了不少名堂啊？
+<anim id="Explain" target="actor" targetSpec="" />似乎只要點<delay8 />自己想吃的壽司，
+就會從載具形狀的軌道送到位置上啊？<delay frames="40" />
+<anim id="Nodding" target="actor" targetSpec="" />壽司店也是變得挺方便啦！<tag a="110" b="6" />。</message>
+	<message label="104_08" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />炒飯<delay8 />真的很棒！<delay frames="40" />
+<anim id="EmotEnd" target="actor" targetSpec="" />畢竟只要把米和其他食材一起丟下去，
+然後隨便炒一炒就完成啦。
+<anim id="Nodding" target="actor" targetSpec="" />像我這種懶骨頭最喜歡方便的料理了！<delay frames="40" />
+<anim id="Eh" target="actor" targetSpec="" />難道說<tag a="110" b="0" /><delay20 />
+你其實也是因為方便才喜歡嗎！？<tag a="110" b="6" />。</message>
+	<message label="105_08" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />起司蛋糕嗎？<delay20 />
+<anim id="Smiling" target="actor" targetSpec="" />你看起來的確像是<delay8 />
+會喜歡起司蛋糕啊。
+<anim id="EmotEnd" target="actor" targetSpec="" />雖然都一樣叫起司蛋糕，<delay20 />
+也有分蓬鬆綿軟<delay8 />跟黏稠緊實等等不同種類，
+我說的沒錯吧？
+<anim id="FaintSmile" target="actor" targetSpec="" />嘿嘿，<delay8 />看來你對我知道這些還挺訝異的啊？<delay20 />
+這點程度的知識，不算什麼啦！<delay frames="40" />
+<anim id="Laughing" target="actor" targetSpec="" />雖然我自己沒吃過就是咧！</message>
+	<message label="106_08" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />嘿～<delay8 /><tag a="140" b="13" arg="0xcd00" />嗎？<delay20 />
+雖然我沒吃過，不過聽名字就知道了！<delay20 />
+<anim id="BigSmile" target="actor" targetSpec="" />那是種非常風雅的美食！
+<anim id="EmotEnd" target="actor" targetSpec="" /><tag a="110" b="3" /><delay20 />真是個美食家啊！<delay frames="40" />
+<anim id="Hello" target="actor" targetSpec="" />謝謝你告訴我！<tag a="110" b="6" />。</message>
+	<message label="107_08" attrib="00 00 00 00 00 00 00 00">嘿～<delay8 />也就是說你不怎麼挑嘴嗎？<delay frames="40" />
+<anim id="Nodding" target="actor" targetSpec="" />嗯，<delay8 />不挑食是好事！<tag a="110" b="6" />。<anim id="FaintSmile" target="actor" targetSpec="" /></message>
+	<message label="100_09" attrib="00 00 07 00 00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />你有夢想嗎？<delay frames="40" />
+<anim id="FaintSmile" target="actor" targetSpec="" />不一定要那種很遠大的啦，<delay20 />
+就是目標或想做的事情之類的，<tag a="110" b="6" />。</message>
+	<message label="100_09_a" attrib="00 00 00 00 00 00 00 00">警察</message>
+	<message label="100_09_b" attrib="00 00 00 00 00 00 00 00">演員</message>
+	<message label="100_09_c" attrib="00 00 00 00 00 00 00 00">社長</message>
+	<message label="100_09_d" attrib="00 00 00 00 00 00 00 00">其他</message>
+	<message label="100_09_e" attrib="00 00 00 00 00 00 00 00">沒有特別想當的</message>
+	<message label="101_09" attrib="00 00 07 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />嗯？<delay20 />你找到新的夢想了？<delay frames="40" />
+<anim id="FaintSmile" target="actor" targetSpec="" />告訴我你現在的夢想吧！<tag a="110" b="6" />。</message>
+	<message label="101_09_a" attrib="00 00 00 00 00 00 00 00">警察</message>
+	<message label="101_09_b" attrib="00 00 00 00 00 00 00 00">演員</message>
+	<message label="101_09_c" attrib="00 00 00 00 00 00 00 00">社長</message>
+	<message label="101_09_d" attrib="00 00 00 00 00 00 00 00">其他</message>
+	<message label="101_09_e" attrib="00 00 00 00 00 00 00 00">沒有特別想當的</message>
+	<message label="102_09" attrib="00 00 07 00 00 00 00 00">那就請你再告訴我一次吧。<delay20 />
+<tag a="110" b="3" />
+<anim id="QuestionMark" target="actor" targetSpec="" />現在的夢想到底是什麼咧？<tag a="110" b="6" />。</message>
+	<message label="102_09_a" attrib="00 00 00 00 00 00 00 00">警察</message>
+	<message label="102_09_b" attrib="00 00 00 00 00 00 00 00">演員</message>
+	<message label="102_09_c" attrib="00 00 00 00 00 00 00 00">社長</message>
+	<message label="102_09_d" attrib="00 00 00 00 00 00 00 00">其他</message>
+	<message label="102_09_e" attrib="00 00 00 00 00 00 00 00">沒有特別想當的</message>
+	<message label="103_09" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />居然是警察嗎！？<delay frames="40" />
+<anim id="Smiling" target="actor" targetSpec="" />當然沒什麼不好，<delay20 />
+我覺得很適合你咧！
+<anim id="AbsentMindedness" target="actor" targetSpec="" />如果我再年輕個十歲，<delay8 />
+就也能給那些壞蛋好看了！<pageBreak /><anim id="ShyBoy" target="actor" targetSpec="" />不過現在只要稍微活動一下，
+就氣喘吁吁啦。<delay20 />
+<anim id="WrySmile" target="actor" targetSpec="" />頂多只能幫忙帶個路吧！<tag a="110" b="6" />。</message>
+	<message label="104_09" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />哦～<delay8 />演員嗎？<delay frames="40" />
+<anim id="FaintSmile" target="actor" targetSpec="" />感覺你不管是要擔任<delay20 />俊美角色
+或者搞笑角色都沒問題咧，<tag a="110" b="6" />。
+<anim id="Explain" target="actor" targetSpec="" />我會幫你跟周遭朋友宣傳，<delay8 />
+努力讓你變得更有名<tag a="110" b="0" /><pageBreak /><anim id="Grin" target="actor" targetSpec="" />所以你可以<delay8 />先幫我簽個兩三張簽名嗎？<delay20 />
+<anim id="BigSmile" target="actor" targetSpec="" />記得要寫上「給<tag a="110" b="10" />」咧！</message>
+	<message label="105_09" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />原來如此，<delay8 />原來如此，<delay20 />真是遠大的夢想咧！<delay frames="40" />
+<anim id="Pardon" target="actor" targetSpec="" />居然想要成為社長嗎？<delay frames="40" />
+<anim id="Nodding" target="actor" targetSpec="" />真是太棒啦！
+雖然由我來說也怪怪的，<delay20 />
+不過希望你能夠成為一個站在最前線打拼，<delay8 />
+<anim id="FaintSmile" target="actor" targetSpec="" />努力領導屬下的社長！<tag a="110" b="6" />。</message>
+	<message label="106_09" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />原來如此，<delay20 />
+<tag a="140" b="13" arg="0xcd00" />嗎？<delay frames="40" />
+<anim id="Smiling" target="actor" targetSpec="" />很棒的夢想啊。<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />我相信<tag a="110" b="3" /><delay8 />
+一定可以成功實現夢想，<delay frames="40" />
+<anim id="BigSmile" target="actor" targetSpec="" />我也會為你加油打氣咧！<tag a="110" b="6" />。</message>
+	<message label="107_09" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />原來如此，<delay8 />是這樣啊。<delay frames="40" />
+畢竟夢想和目標這種東西自然就會湧現，<delay frames="40" />
+<anim id="FaintSmile" target="actor" targetSpec="" />總有一天你也一定會找到啦！<tag a="110" b="6" />。</message>
+	<message label="100_10" attrib="00 00 07 00 00 00 00 00"><tag a="110" b="3" />的興趣是什麼咧？
+你平常都在做什麼消遣，
+通通告訴我吧！<tag a="110" b="6" />。</message>
+	<message label="100_10_a" attrib="00 00 00 00 00 00 00 00">拍照</message>
+	<message label="100_10_b" attrib="00 00 00 00 00 00 00 00">閱讀</message>
+	<message label="100_10_c" attrib="00 00 00 00 00 00 00 00">做陶藝</message>
+	<message label="100_10_d" attrib="00 00 00 00 00 00 00 00">其他</message>
+	<message label="100_10_e" attrib="00 00 00 00 00 00 00 00">沒什麼興趣</message>
+	<message label="101_10" attrib="00 00 07 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />哦？<delay8 />你找到新的興趣了？<delay20 />
+<anim id="EmotEnd" target="actor" targetSpec="" />告訴我你現在的興趣吧！<tag a="110" b="6" />。</message>
+	<message label="101_10_a" attrib="00 00 00 00 00 00 00 00">拍照</message>
+	<message label="101_10_b" attrib="00 00 00 00 00 00 00 00">閱讀</message>
+	<message label="101_10_c" attrib="00 00 00 00 00 00 00 00">做陶藝</message>
+	<message label="101_10_d" attrib="00 00 00 00 00 00 00 00">其他</message>
+	<message label="101_10_e" attrib="00 00 00 00 00 00 00 00">沒什麼興趣</message>
+	<message label="102_10" attrib="00 00 07 00 00 00 00 00">那就請你再告訴我一次吧。<delay20 />
+<tag a="110" b="3" />
+<anim id="QuestionMark" target="actor" targetSpec="" />現在的興趣到底是什麼咧？<tag a="110" b="6" />。</message>
+	<message label="102_10_a" attrib="00 00 00 00 00 00 00 00">拍照</message>
+	<message label="102_10_b" attrib="00 00 00 00 00 00 00 00">閱讀</message>
+	<message label="102_10_c" attrib="00 00 00 00 00 00 00 00">做陶藝</message>
+	<message label="102_10_d" attrib="00 00 00 00 00 00 00 00">其他</message>
+	<message label="102_10_e" attrib="00 00 00 00 00 00 00 00">沒什麼興趣</message>
+	<message label="103_10" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />你有個不錯的興趣咧！<delay20 />
+照相機真的很棒，<delay8 />
+能夠把一瞬間變成永恆。
+<anim id="Assent" target="actor" targetSpec="" />如果需要模特兒的話，我隨時都OK！<delay frames="40" />
+<anim id="Hello" target="actor" targetSpec="" />不過別忘了多洗一張給我啊？<delay20 />
+<anim id="Laughing" target="actor" targetSpec="" />哇～哈哈！</message>
+	<message label="104_10" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />你有個不錯的興趣啊，
+讀書是種好習慣咧！<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />話說回來，<delay8 /><anim id="WrySmile" target="actor" targetSpec="" />我其實一直覺得
+那種小字密密麻麻的書本
+看起來很痛苦<tag a="110" b="0" />
+<anim id="OhGeez" target="actor" targetSpec="" />真希望他們印書時字體選大一點，<delay8 />
+就算書要變得超厚也沒關係咧！<tag a="110" b="6" />。</message>
+	<message label="105_10" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />嘿～<delay8 />你的興趣居然是陶藝嗎！<delay20 />
+<anim id="Smiling" target="actor" targetSpec="" />還不賴嘛！<pageBreak /><anim id="ShyBoy" target="actor" targetSpec="" />雖然我的手不算巧，<delay20 />
+不過姑且試著去做，<delay8 />
+總是能做得出很有趣的作品咧！
+<anim id="EmotEnd" target="actor" targetSpec="" />然後，因為需要進行比較細膩的操作，<delay8 />
+<anim id="Hello" target="actor" targetSpec="" />似乎也可以預防老人痴呆咧！<delay frames="40" />
+<anim id="Thinking" target="actor" targetSpec="" /><tag a="110" b="0" /><delay20 />要不我也努力練練看吧，<tag a="110" b="6" />。<delay8 /><anim id="FaintSmile" target="actor" targetSpec="" /></message>
+	<message label="106_10" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />嘿～<delay8 /><tag a="140" b="13" arg="0xcd00" />嗎？<delay frames="40" />
+你肯定是<delay8 />廢寢忘食地投入其中，對吧？<pageBreak /><anim id="ShyBoy" target="actor" targetSpec="" />做自己喜歡的事情時，<delay8 />
+時間總是一轉眼就過去了！<delay frames="40" />
+<anim id="FaintSmile" target="actor" targetSpec="" />區區一小時，眨眼就不見啦，<tag a="110" b="6" />。</message>
+	<message label="107_10" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />原來如此，是這樣啊？<delay frames="40" />
+不過<delay8 />沒有特別的興趣……其實也不錯啦。<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />畢竟你<delay8 />感覺就是那種
+什麼事情都能享受的類型！<delay20 />
+這種生活方式其實也不賴啦！<tag a="110" b="6" />。</message>
+	<message label="100_11" attrib="00 00 07 00 00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />感覺<delay8 />你應該擁有某種
+非常驚人的特技<tag a="110" b="0" /><delay20 />
+<anim id="Pardon" target="actor" targetSpec="" />我沒說錯吧？<delay20 />你有什麼特技嗎？<tag a="110" b="6" />。</message>
+	<message label="100_11_a" attrib="00 00 00 00 00 00 00 00">修理東西</message>
+	<message label="100_11_b" attrib="00 00 00 00 00 00 00 00">游泳</message>
+	<message label="100_11_c" attrib="00 00 00 00 00 00 00 00">變魔術</message>
+	<message label="100_11_d" attrib="00 00 00 00 00 00 00 00">其他</message>
+	<message label="100_11_e" attrib="00 00 00 00 00 00 00 00">沒什麼特技</message>
+	<message label="101_11" attrib="00 00 07 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />哦，<delay8 />你學會了新的特技嗎？<delay20 />
+<anim id="EmotEnd" target="actor" targetSpec="" />到底是什麼特技，告訴我吧！<tag a="110" b="6" />。</message>
+	<message label="101_11_a" attrib="00 00 00 00 00 00 00 00">修理東西</message>
+	<message label="101_11_b" attrib="00 00 00 00 00 00 00 00">游泳</message>
+	<message label="101_11_c" attrib="00 00 00 00 00 00 00 00">變魔術</message>
+	<message label="101_11_d" attrib="00 00 00 00 00 00 00 00">其他</message>
+	<message label="101_11_e" attrib="00 00 00 00 00 00 00 00">沒什麼特技</message>
+	<message label="102_11" attrib="00 00 07 00 00 00 00 00">那就請你再告訴我一次吧。<delay20 />
+<tag a="110" b="3" />
+<anim id="QuestionMark" target="actor" targetSpec="" />現在的特技到底是什麼咧？<tag a="110" b="6" />。</message>
+	<message label="102_11_a" attrib="00 00 00 00 00 00 00 00">修理東西</message>
+	<message label="102_11_b" attrib="00 00 00 00 00 00 00 00">游泳</message>
+	<message label="102_11_c" attrib="00 00 00 00 00 00 00 00">變魔術</message>
+	<message label="102_11_d" attrib="00 00 00 00 00 00 00 00">其他</message>
+	<message label="102_11_e" attrib="00 00 00 00 00 00 00 00">沒什麼特技</message>
+	<message label="103_11" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />嘿～<delay8 />擅長修理東西嗎？<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />那還真是厲害咧！<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />如果我也有東西得修的話，<delay8 />
+<anim id="Nodding" target="actor" targetSpec="" />就拜託你幫忙好了……<pageBreak /><anim id="Serious" target="actor" targetSpec="" />保險起見，我還是先問一下<tag a="110" b="0" /><delay20 />
+<anim id="Confused" target="actor" targetSpec="" />你擅長的應該不是那種<delay8 />
+敲打電視讓它恢復的修理吧！？<tag a="110" b="6" />。</message>
+	<message label="104_11" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />嘿～<delay8 />你擅長游泳嗎？<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />那還真厲害咧！<delay frames="40" />
+<anim id="ShyBoy" target="actor" targetSpec="" />我是個完全不會游泳的旱鴨子啊……
+<anim id="Frantic" target="actor" targetSpec="" />啊，<delay8 />不過如果有浮板或泳圈，<delay20 />
+我姑且還是浮得起來啦，<tag a="110" b="6" />。</message>
+	<message label="105_11" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />魔術嗎！<delay20 />
+這麼一說，<delay8 />
+感覺你的確原本手就滿巧的咧！
+<anim id="Eh" target="actor" targetSpec="" />說到魔術，<delay20 />
+<anim id="Explain" target="actor" targetSpec="" />我以前也曾經<delay8 />被外甥纏著要表演……<pageBreak /><anim id="Blushing" target="actor" targetSpec="" />只好變了個超級容易被看穿的魔術，
+結果<delay8 />外甥還是非常開心……<delay frames="40" />
+<anim id="FaintSmile" target="actor" targetSpec="" />那時候<delay8 />我也很高興咧，<tag a="110" b="6" />。</message>
+	<message label="106_11" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" /><tag a="140" b="13" arg="0xcd00" />嗎？<delay frames="40" />
+<anim id="FaintSmile" target="actor" targetSpec="" />既然你都說是「特技」了，<delay8 />
+那一定很厲害！
+<anim id="EmotEnd" target="actor" targetSpec="" />有機會的話，就露一手給我看看吧！<delay frames="40" />
+<anim id="Hello" target="actor" targetSpec="" />嘿嘿，<delay8 />我很期待咧！<tag a="110" b="6" />。</message>
+	<message label="107_11" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />是這樣嗎？<delay frames="40" />
+不過<delay8 />我覺得應該只是你沒有注意到，
+其實<anim id="FaintSmile" target="actor" targetSpec="" />早就擁有驚人特技了！<tag a="110" b="6" />。</message>
+</msbt>

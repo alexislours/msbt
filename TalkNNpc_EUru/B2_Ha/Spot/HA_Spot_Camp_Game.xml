@@ -1,0 +1,77 @@
+<msbt attribsize="8">
+	<message label="001" attrib="00 00 01 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Привет! <delay20 />Сыграем в игру?<delay frames="40" /> <anim id="Grin" target="actor" targetSpec="" />Да не
+бойся, в этот раз не будем<tag a="110" b="0" /><delay20 /> силой
+мериться.<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Если выиграешь, можешь забирать
+у меня <tag a="50" b="23" arg="0xcd01" /><tag a="125" b="0" arg="0x0" />.<delay frames="40" />
+<anim id="Hello" target="actor" targetSpec="" />Как тебе эта идея?</message>
+	<message label="001_a" attrib="00 00 00 00 00 00 00 00">Играем!</message>
+	<message label="001_b" attrib="00 00 00 00 00 00 00 00">Я пас.</message>
+	<message label="002" attrib="00 00 01 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Отлично!<delay20 /> Правила рассказать? <delay20 />Или
+ты любишь риск? <tag a="50" b="3" /><tag a="110" b="5" />!</message>
+	<message label="002_a" attrib="00 00 00 00 00 00 00 00">Правила!</message>
+	<message label="002_b" attrib="00 00 00 00 00 00 00 00">Риск!</message>
+	<message label="003" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Ну ладно<tag a="110" b="0" /><delay20 /> Значит, я выиграл.<10_4 />
+<anim id="OhGeez" target="actor" targetSpec="" />В другой раз сыграем.
+<tag a="50" b="3" /><tag a="110" b="5" />!</message>
+	<message label="004" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Тогда рискнем!<delay frames="40" /> <anim id="NpcShuffle" target="actor" targetSpec="" />Приготовься к бою<tag a="110" b="0" /></message>
+	<message label="005" attrib="00 00 00 00 00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Итак<tag a="110" b="0" /> кто же выйдет победителем?</message>
+	<message label="006_01" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Отличная игра! <delay20 />Поздравляю!<delay20 />
+Мо<tag a="50" b="24" arg="0x11 0xcd00 0x2 0x439 0x2 0x44f 0x2 0x435 0x2 0x438" /> <tag a="125" b="0" arg="0x0" />
+переходит к тебе!</message>
+	<message label="006_02" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Итак, <delay8 />ты одержал<gender2 m="" f="а" /> безоговорочную
+победу!<delay frames="40" /><anim id="BigSmile" target="actor" targetSpec="" /> Прими мои поздравления!
+<delay20 />И <tag a="50" b="23" arg="0xcd01" /><tag a="125" b="0" arg="0x0" />!</message>
+	<message label="006_03" attrib="00 00 00 00 00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Какое сенсационное поражение<tag a="110" b="0" /></message>
+	<message label="007_01" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />А теперь <delay20 />бегом в душ
+и переодеваться!
+<tag a="50" b="3" /><tag a="110" b="5" />.</message>
+	<message label="007_03" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Ну что ж, всегда можно взять
+реванш. <delay20 />А теперь — в душ!
+<tag a="50" b="3" /><tag a="110" b="5" />!</message>
+	<message label="008" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Вот это я понимаю — спортивный
+настрой!<delay20 /> Итак<tag a="110" b="0" /><delay20 /><anim id="Eh" target="actor" targetSpec="" /> Стоп. <delay20 />У тебя же все
+карманы полные. <tag a="50" b="3" /><tag a="110" b="5" />!<pageBreak /><anim id="OhGeez" target="actor" targetSpec="" />Если ты выиграешь, ты не сможешь
+забрать себе <tag a="50" b="23" arg="0xcd01" /><tag a="125" b="0" arg="0x0" />.<pageBreak /><anim id="Serious" target="actor" targetSpec="" />А какой мне смысл тогда играть?
+<delay frames="40" /><anim id="Negative" target="actor" targetSpec="" />Нет ставок — нет и кардионагрузки!
+Я так даже не вспотею.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Вот освободишь карманы, тогда
+и приходи. Сыграем этот решающий
+матч!</message>
+	<message label="100" attrib="00 00 00 00 00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />Хочешь знать правила<delay20 /> — слушай!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Ты же знаешь карточные масти?<delay20 />
+<colour id="6" />♥Червы<colour id="65535" />, <colour id="6" />♦бубны<colour id="65535" />, <colour id="7" />♠пики
+<colour id="65535" />и <colour id="7" />♣трефы<colour id="65535" />.<pageBreak /><anim id="Grin" target="actor" targetSpec="" />Готовься прокачать эти знания!<delay20 />
+Тебе нужно будет угадать масть
+верхней карты.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Угадаешь — получишь от меня
+<tag a="50" b="23" arg="0xcd01" /><tag a="125" b="0" arg="0x0" />.<delay frames="40" />
+<anim id="Hello" target="actor" targetSpec="" />Да, вот так просто!<pageBreak /><anim id="NpcShuffle" target="actor" targetSpec="" />Итак,<delay20 /> приготовься<tag a="110" b="0" /> Начинаем
+игру!!!</message>
+	<message label="101" attrib="00 00 05 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />А сейчас — решающий момент!<delay20 />
+Какой масти верхняя карта?
+<tag a="50" b="3" /><tag a="110" b="5" />!</message>
+	<message label="101_a" attrib="00 00 00 00 00 00 00 00"><colour id="6" />♥Червы<colour id="65535" /></message>
+	<message label="101_b" attrib="00 00 00 00 00 00 00 00"><colour id="6" />♦Бубны<colour id="65535" /></message>
+	<message label="101_c" attrib="00 00 00 00 00 00 00 00"><colour id="7" />♠Пики<colour id="65535" /></message>
+	<message label="101_d" attrib="00 00 00 00 00 00 00 00"><colour id="7" />♣Трефы<colour id="65535" /></message>
+	<message label="102_01" attrib="00 00 00 00 00 00 00 00"><anim id="HappyDance" target="actor" targetSpec="" />Правильный ответ — <tag a="140" b="14" arg="0xcd00" />!<delay20 /> Это
+сокрушительная победа!<delay20 /> Го-о-ол!!!</message>
+	<message label="102_02" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Э-эх! <delay20 />Это <tag a="140" b="14" arg="0xcd00" />.<delay20 /> Мяч вне игры.
+<delay20 /><anim id="Negative" target="actor" targetSpec="" />Обидно!</message>
+	<message label="200" attrib="00 00 00 00 00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />Значит, так! <delay20 />Слушай правила!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Каждая карта имеет свою масть:
+<colour id="6" />♥червы<colour id="65535" />, <colour id="6" />♦бубны<colour id="65535" />, <colour id="7" />♠пики<colour id="65535" />, <colour id="7" />♣трефы<colour id="65535" />.<delay20 />
+Масти бывают <colour id="6" />красные <colour id="65535" />и <colour id="7" />черные<colour id="65535" />.<pageBreak /><anim id="Grin" target="actor" targetSpec="" />Приготовься прокачать эти знания!<delay20 />
+Угадай цвет масти верхней карты:
+<colour id="6" />красный <colour id="65535" />или <colour id="7" />черный<colour id="65535" />.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Угадаешь правильно — получишь от
+меня <tag a="50" b="23" arg="0xcd01" /><tag a="125" b="0" arg="0x0" />.<delay frames="40" />
+<anim id="Hello" target="actor" targetSpec="" />Да-да, просто за победу в игре!<pageBreak /><anim id="NpcShuffle" target="actor" targetSpec="" />Итак, готовься,<delay20 /> начинаем игру!!!</message>
+	<message label="201" attrib="00 00 01 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />На старт!<delay20 /> Итак, какого цвета масть
+верхней карты?</message>
+	<message label="201_a" attrib="00 00 00 00 00 00 00 00"><colour id="6" />Красного!<colour id="65535" /></message>
+	<message label="201_b" attrib="00 00 00 00 00 00 00 00"><colour id="7" />Черного!<colour id="65535" /></message>
+	<message label="202_01" attrib="00 00 00 00 00 00 00 00"><anim id="HappyDance" target="actor" targetSpec="" />Правильный ответ — <colour id="6" />красного<colour id="65535" />!<delay20 /> Это
+сокрушительная победа!<delay20 /> Го-о-ол!!!</message>
+	<message label="202_02" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Э-эх! <delay20 />Масть <colour id="7" />черного <colour id="65535" />цвета.<delay20 /> Мяч вне
+игры. <delay20 /><anim id="Negative" target="actor" targetSpec="" />Обидно!</message>
+	<message label="202_03" attrib="00 00 00 00 00 00 00 00"><anim id="HappyDance" target="actor" targetSpec="" />Правильный ответ — <colour id="7" />черного<colour id="65535" />!<delay20 /> Это
+сокрушительная победа! Го-о-ол!!!</message>
+	<message label="202_04" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Э-эх! <delay20 />Масть <colour id="6" />красного <colour id="65535" />цвета.<delay20 /> Мяч вне
+игры. <delay20 /><anim id="Negative" target="actor" targetSpec="" />Обидно!</message>
+</msbt>

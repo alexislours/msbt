@@ -1,0 +1,900 @@
+<msbt attribsize="2">
+	<message label="0001" attrib="08 00">你的名字是
+<colour id="2" /><tag a="115" b="0" arg="0xcd00" /><colour id="65535" />，
+确定吗？</message>
+	<message label="0001_a" attrib="01 00">再想想</message>
+	<message label="0001_b" attrib="01 00">OK！</message>
+	<message label="0003" attrib="08 00">给岛取名为
+“<colour id="0" /><tag a="115" b="2" arg="0xcd00" /><colour id="65535" />”，
+是吗？</message>
+	<message label="0003_a" attrib="01 00">再想想</message>
+	<message label="0003_b" attrib="01 00">OK！</message>
+	<message label="0004" attrib="01 00">无法输入该词语哦！</message>
+	<message label="0004_a" attrib="01 00">返回</message>
+	<message label="0005" attrib="01 00">最多可以输入5个数字哦！</message>
+	<message label="0005_a" attrib="01 00">返回</message>
+	<message label="0011" attrib="20 09">确定要删除
+<tag a="110" b="1" />的保存数据吗？
+※之后的操作将无法取消。</message>
+	<message label="0011_a" attrib="01 01"><colour id="6" />删除<colour id="65535" /></message>
+	<message label="0011_b" attrib="01 02">还是算了</message>
+	<message label="0012" attrib="20 09">确定要删除
+<tag a="115" b="0" arg="0xcd01" />的保存数据吗？
+※之后的操作将无法取消。</message>
+	<message label="0012_a" attrib="01 01"><colour id="6" />删除<colour id="65535" /></message>
+	<message label="0012_b" attrib="01 02">还是算了</message>
+	<message label="0101" attrib="08 00">要制作
+<colour id="1" /><tag a="125" b="0" arg="0x0" /><colour id="65535" />吗？</message>
+	<message label="0101_a" attrib="01 00">算了</message>
+	<message label="0101_b" attrib="01 05">我要制作！</message>
+	<message label="0102" attrib="06 09">材料不够哦！</message>
+	<message label="0102_a" attrib="01 06">结束</message>
+	<message label="0103" attrib="06 09">口袋已满，
+无法收下DIY做成的物品哦！</message>
+	<message label="0103_a" attrib="01 06">结束</message>
+	<message label="0104" attrib="01 09">改造时，请选择
+和现在不同的设计吧！</message>
+	<message label="0104_a" attrib="01 06">结束</message>
+	<message label="0105" attrib="01 00">部分家具可以使用
+我的设计改造。<pageBreak /><colour id="0" />※通过我的设计改造的家具
+不可以放置在地面上。
+※如果重新描绘使用过的我的设计，
+之前的成品的设计也会随之改变。<colour id="65535" /></message>
+	<message label="0105_a" attrib="01 00">结束</message>
+	<message label="0201" attrib="06 09">你没有可登录的曲目哦！</message>
+	<message label="0201_a" attrib="01 06">结束</message>
+	<message label="0202" attrib="06 09">口袋已满，拿不下了哦！</message>
+	<message label="0202_a" attrib="01 06">结束</message>
+	<message label="0301" attrib="06 09">口袋已满，拿不下了哦！</message>
+	<message label="0301_a" attrib="01 06">结束</message>
+	<message label="0310" attrib="02 00">请等一下！</message>
+	<message label="0321" attrib="01 09">未读的信息
+是无法设置为喜爱的哦！</message>
+	<message label="0322" attrib="01 09">礼物是
+无法设置为喜爱的哦！</message>
+	<message label="0331" attrib="01 09">喜爱的心意卡
+是不能丢弃的哦！</message>
+	<message label="0332" attrib="01 09">最多只能把<tag a="90" b="2" arg="0x0" />封
+添加到喜爱列表哦！</message>
+	<message label="0333" attrib="01 09">附带有礼物的心意卡
+是不能丢弃的哦！</message>
+	<message label="0402" attrib="01 09">请输入未来的日期吧！</message>
+	<message label="0501" attrib="01 09">脱下的衣物没地方放了哦！</message>
+	<message label="0502" attrib="01 09">选择要登录的物品吧！</message>
+	<message label="0503" attrib="01 09">没有可以卸下的物品哦。</message>
+	<message label="0504" attrib="01 00"><colour id="0" />现在可以使用衣柜
+进行变身棒的搭配编辑了！<colour id="65535" /><pageBreak />预先<colour id="1" />编辑变身棒的搭配<colour id="65535" />后，
+能使用<colour id="1" />变身棒<colour id="65535" />，
+就能变身为已登录的搭配。<pageBreak /><colour id="0" />※因为变身并非是换装，
+所以实际的穿着并不会改变。<colour id="65535" /></message>
+	<message label="0551" attrib="01 09">你身上没有穿戴
+可以搭配的物品哦！</message>
+	<message label="0552" attrib="01 09">搭配无法全部收进
+家居收纳哦！</message>
+	<message label="0601" attrib="01 09">里数不足。</message>
+	<message label="0602" attrib="01 00">这里是<colour id="1" />Nook集里游＋<colour id="65535" />
+会员限定的兑换物品。
+<colour id="0" />※Nook集里游＋是面向
+“我的房子”合约客户的服务。<colour id="65535" /></message>
+	<message label="0603" attrib="01 09"><colour id="1" />邮寄<colour id="65535" />的兑换物品
+1天只能申请5件。</message>
+	<message label="0802" attrib="12 00"><colour id="0" />〔联机游戏的注意事项〕<colour id="65535" />
+联机游戏时，<colour id="1" />名字<colour id="65535" />、<colour id="1" />聊天内容<colour id="65535" />、<colour id="1" />布告栏
+<colour id="65535" />和<colour id="1" />整座岛<colour id="65535" />、<colour id="1" />房间<colour id="65535" />、<colour id="1" />我的设计<colour id="65535" />等
+玩家自己制作的<colour id="1" />文字<colour id="65535" />和<colour id="1" />图形<colour id="65535" />，
+一起玩的其他玩家也能看到。
+请注意交流的内容，
+享受沟通的乐趣吧。</message>
+	<message label="0802_a" attrib="01 00">明白了。</message>
+	<message label="0803" attrib="06 09">已满员，无法外出。</message>
+	<message label="0803_a" attrib="01 04">返回</message>
+	<message label="0921" attrib="06 06">一次外出
+最多只能发布2张。</message>
+	<message label="0921_a" attrib="01 06">OK！</message>
+	<message label="0922" attrib="06 09">一次外出
+最多只能发布2张哦。</message>
+	<message label="0922_a" attrib="01 04">返回</message>
+	<message label="0951" attrib="08 00">真的要删除所有手写的内容吗？
+（此操作无法撤销！）</message>
+	<message label="0951_a" attrib="01 00">还是算了吧</message>
+	<message label="0951_b" attrib="01 00">删除</message>
+	<message label="0952" attrib="08 00">要停止书写吗？</message>
+	<message label="0952_a" attrib="01 00">继续书写</message>
+	<message label="0952_b" attrib="01 00">停止</message>
+	<message label="0953" attrib="08 00">要取消键盘编辑吗？
+<colour id="0" />※本次输入的内容会消失。<colour id="65535" /></message>
+	<message label="0953_a" attrib="01 00">继续写</message>
+	<message label="0953_b" attrib="01 00">取消</message>
+	<message label="1001" attrib="08 00">生日是
+<tag a="90" b="35" arg="0xcd00" />月<tag a="90" b="36" arg="0xcd00" />日，
+可以吗？</message>
+	<message label="1001_a" attrib="01 00">重新输入</message>
+	<message label="1001_b" attrib="01 05">OK！</message>
+	<message label="1101" attrib="02 00">正在搜索商品……</message>
+	<message label="1102" attrib="06 09">没有找到商品。</message>
+	<message label="1102_a" attrib="01 00">结束</message>
+	<message label="1103" attrib="06 09">铃钱不足。</message>
+	<message label="1103_a" attrib="01 00">结束</message>
+	<message label="1104" attrib="08 00">要以<colour id="1" /><tag a="90" b="26" arg="0x0" /><colour id="65535" />订购
+<colour id="1" /><tag a="125" b="0" arg="0x0" /><colour id="65535" />吗？</message>
+	<message label="1104_a" attrib="01 00">算了</message>
+	<message label="1104_b" attrib="01 00">订购</message>
+	<message label="1105" attrib="0c 00"><colour id="1" />要以<colour id="1" /><tag a="90" b="26" arg="0x0" /><colour id="1" />订购
+<colour id="1" /><tag a="125" b="0" arg="0x0" /><colour id="1" />吗？<colour id="65535" /></message>
+	<message label="1105_a" attrib="01 00">订购</message>
+	<message label="1105_b" attrib="01 00">赠送</message>
+	<message label="1105_c" attrib="01 00">算了</message>
+	<message label="1108" attrib="06 06">订购完成！
+商品会在之后
+通过邮递送到你自己家。</message>
+	<message label="1108_a" attrib="01 06">好的！</message>
+	<message label="1109" attrib="06 06">已收到了
+<colour id="2" /><tag a="115" b="0" arg="0xcd00" /><colour id="65535" />的订单！</message>
+	<message label="1109_a" attrib="01 06">好的！</message>
+	<message label="1111" attrib="06 09">每人每天
+最多只能订购5件商品。</message>
+	<message label="1111_a" attrib="01 00">关闭</message>
+	<message label="1112" attrib="08 00">需要支付<colour id="1" /><tag a="90" b="26" arg="0x0" /><colour id="65535" />，
+要寄出去吗？</message>
+	<message label="1112_a" attrib="01 00">返回</message>
+	<message label="1112_b" attrib="01 00">OK！</message>
+	<message label="1113" attrib="08 00">要删除卡片内容，
+并取消订购
+<colour id="1" />“<tag a="125" b="0" arg="0x0" />”<colour id="65535" />吗？</message>
+	<message label="1113_a" attrib="01 00">还要写</message>
+	<message label="1113_b" attrib="01 00">删除并取消</message>
+	<message label="1114" attrib="06 00">这是非卖品，
+无法订购。</message>
+	<message label="1114_a" attrib="01 00">结束</message>
+	<message label="1201" attrib="08 00">真的要删除
+<tag a="115" b="3" arg="0xcd00" />吗？</message>
+	<message label="1201_a" attrib="01 00">还是算了</message>
+	<message label="1201_b" attrib="01 00">删除</message>
+	<message label="1202" attrib="08 00">真的要删除
+<tag a="115" b="0" arg="0xcd00" />制作的
+<tag a="115" b="3" arg="0xcd00" />吗？</message>
+	<message label="1202_a" attrib="01 00">还是算了</message>
+	<message label="1202_b" attrib="01 00">删除</message>
+	<message label="1203" attrib="01 00">请选择可以删除的我的设计。</message>
+	<message label="1203_a" attrib="01 00">OK！</message>
+	<message label="1204" attrib="08 00">真的要删除
+<tag a="115" b="0" arg="0xcd00" />保存的
+<tag a="115" b="3" arg="0xcd00" />吗？</message>
+	<message label="1204_a" attrib="01 00">还是算了</message>
+	<message label="1204_b" attrib="01 00">删除</message>
+	<message label="1300" attrib="02 00">正在删除保存数据<tag a="110" b="0" />
+<colour id="0" />请勿接触电源键。<colour id="65535" /></message>
+	<message label="1308" attrib="1c 00">已被设置为无法对应的日期。
+请从HOME菜单结束游戏，
+将日期设置为2000年1月1日至
+2060年12月31日之间后重新启动。</message>
+	<message label="1310" attrib="20 00">保存数据已损坏。
+要删除损坏的保存数据吗？</message>
+	<message label="1310_a" attrib="1a 05">从头开始游戏</message>
+	<message label="1310_b" attrib="1a 02">取消</message>
+	<message label="1311" attrib="1c 00">保存数据无法正常读取，
+因此无法开始游戏。<pageBreak />请从HOME菜单结束游戏。</message>
+	<message label="1312" attrib="05 06">保存数据已删除。<pageBreak />即将开始游戏。</message>
+	<message label="1312_a" attrib="01 06">OK</message>
+	<message label="1325" attrib="01 00">语言设置似乎与上次游戏时不同。</message>
+	<message label="1326" attrib="01 00">角色的名字和游戏内的显示
+将会改变，就这样开始游戏吗？</message>
+	<message label="1327" attrib="03 00">请在HOME菜单恢复语言设置后
+重新启动游戏。</message>
+	<message label="1328" attrib="14 00">キャラクターの<ruby a="4" b="6">なまえ</ruby>名前や
+ゲーム<ruby a="2" b="4">ない</ruby>内の<ruby a="4" b="8">ひょうじ</ruby>表示が<ruby a="2" b="2">か</ruby>変わってしまいますが、
+このまま<ruby a="2" b="4">はじ</ruby>始めますか？
+
+角色的名字和游戏内的显示
+将会改变，就这样开始游戏吗？</message>
+	<message label="1328_a" attrib="0e 00">いいえ / 否</message>
+	<message label="1328_b" attrib="0e 00">はい / 是</message>
+	<message label="1329" attrib="14 00">Character names and UI elements
+vary from language to language.
+Do you still want to start playing?
+
+角色的名字和游戏内的显示
+将会改变，就这样开始游戏吗？</message>
+	<message label="1329_a" attrib="0e 00">No / 否</message>
+	<message label="1329_b" attrib="0e 00">Yes / 是</message>
+	<message label="1330" attrib="14 00">Le nom des personnages et certains
+éléments d'interface peuvent différer
+d'une langue à l'autre. Continuer?
+
+角色的名字和游戏内的显示
+将会改变，就这样开始游戏吗？</message>
+	<message label="1330_a" attrib="0e 00">Non / 否</message>
+	<message label="1330_b" attrib="0e 00">Oui / 是</message>
+	<message label="1331" attrib="14 00">Los nombres de los personajes y otros
+aspectos del juego pueden cambiar
+según el idioma. ¿Quieres continuar?
+
+角色的名字和游戏内的显示
+将会改变，就这样开始游戏吗？</message>
+	<message label="1331_a" attrib="0e 00">No / 否</message>
+	<message label="1331_b" attrib="0e 00">Sí / 是</message>
+	<message label="1332" attrib="14 00">Character names and UI elements
+vary from language to language.
+Do you still want to start playing?
+
+角色的名字和游戏内的显示
+将会改变，就这样开始游戏吗？</message>
+	<message label="1332_a" attrib="0e 00">No / 否</message>
+	<message label="1332_b" attrib="0e 00">Yes / 是</message>
+	<message label="1333" attrib="14 00">Los nombres de los personajes y otros
+aspectos del juego pueden cambiar
+según el idioma. ¿Quieres continuar?
+
+角色的名字和游戏内的显示
+将会改变，就这样开始游戏吗？</message>
+	<message label="1333_a" attrib="0e 00">No / 否</message>
+	<message label="1333_b" attrib="0e 00">Sí / 是</message>
+	<message label="1334" attrib="14 00">Le nom des personnages et certains
+éléments d'interface peuvent différer
+d'une langue à l'autre. Continuer ?
+
+角色的名字和游戏内的显示
+将会改变，就这样开始游戏吗？</message>
+	<message label="1334_a" attrib="0e 00">Non / 否</message>
+	<message label="1334_b" attrib="0e 00">Oui / 是</message>
+	<message label="1335" attrib="14 00">Namen von Figuren, Menüs usw.
+können sich in anderen Sprachen
+unterscheiden. Trotzdem fortfahren?
+
+角色的名字和游戏内的显示
+将会改变，就这样开始游戏吗？</message>
+	<message label="1335_a" attrib="0e 00">Nein / 否</message>
+	<message label="1335_b" attrib="0e 00">Ja / 是</message>
+	<message label="1336" attrib="14 00">I nomi dei personaggi e altri aspetti
+del gioco possono cambiare in base
+alla lingua. Vuoi davvero continuare?
+
+角色的名字和游戏内的显示
+将会改变，就这样开始游戏吗？</message>
+	<message label="1336_a" attrib="0e 00">No / 否</message>
+	<message label="1336_b" attrib="0e 00">Sì / 是</message>
+	<message label="1337" attrib="14 00">Namen van personages en scherm-
+elementen zijn per taal anders. Wil je
+nog steeds beginnen met spelen?
+
+角色的名字和游戏内的显示
+将会改变，就这样开始游戏吗？</message>
+	<message label="1337_a" attrib="0e 00">Nee / 否</message>
+	<message label="1337_b" attrib="0e 00">Ja / 是</message>
+	<message label="1338" attrib="14 00">Имена персонажей и элементы
+интерфейса различаются в разных
+языках. Все равно начать игру?
+
+角色的名字和游戏内的显示
+将会改变，就这样开始游戏吗？</message>
+	<message label="1338_a" attrib="0e 00">Нет / 否</message>
+	<message label="1338_b" attrib="0e 00">Да / 是</message>
+	<message label="1339" attrib="14 00">캐릭터의 이름과
+게임 내 표시가 달라집니다
+이대로 시작하시겠습니까?
+
+角色的名字和游戏内的显示
+将会改变，就这样开始游戏吗？</message>
+	<message label="1339_a" attrib="0e 00">아니요 / 否</message>
+	<message label="1339_b" attrib="0e 00">예 / 是</message>
+	<message label="1340" attrib="14 00">角色的名字和游戏内的显示
+将会改变，就这样开始游戏吗？
+
+角色的名字和游戏内的显示
+将会改变，就这样开始游戏吗？</message>
+	<message label="1340_a" attrib="0e 00">否 / 否</message>
+	<message label="1340_b" attrib="0e 00">是 / 是</message>
+	<message label="1341" attrib="14 00">角色名稱或遊戲內的顯示將會改變，
+要直接開始遊戲嗎？
+
+角色的名字和游戏内的显示
+将会改变，就这样开始游戏吗？</message>
+	<message label="1341_a" attrib="0e 00">否 / 否</message>
+	<message label="1341_b" attrib="0e 00">是 / 是</message>
+	<message label="1342" attrib="10 00"><ruby a="8" b="6">ホーム</ruby>HOMEメニューの　<ruby a="4" b="8">せってい</ruby>設定で
+<ruby a="2" b="4">もと</ruby>元の<ruby a="4" b="6">げんご</ruby>言語に　<ruby a="2" b="4">もど</ruby>戻してから
+ゲームを<ruby a="6" b="10">さいきどう</ruby>再起動してください。
+
+请在HOME菜单恢复语言设置后
+重新启动游戏。</message>
+	<message label="1343" attrib="10 00">Please revert your language settings
+via the System Settings in the
+HOME Menu and restart the game.
+
+请在HOME菜单恢复语言设置后
+重新启动游戏。</message>
+	<message label="1344" attrib="10 00">Réinitialise les paramètres de langue
+dans les paramètres de la console via
+le menu HOME, et redémarre le jeu.
+
+请在HOME菜单恢复语言设置后
+重新启动游戏。</message>
+	<message label="1345" attrib="10 00">Accede a la configuración de la
+consola desde el menú HOME, revierte
+los ajustes de idioma y reinicia el juego.
+
+请在HOME菜单恢复语言设置后
+重新启动游戏。</message>
+	<message label="1346" attrib="10 00">Please revert your language settings
+via the System Settings in the
+HOME Menu and restart the game.
+
+请在HOME菜单恢复语言设置后
+重新启动游戏。</message>
+	<message label="1347" attrib="10 00">Accede a la configuración de la
+consola desde el menú HOME, revierte
+los ajustes de idioma y reinicia el juego.
+
+请在HOME菜单恢复语言设置后
+重新启动游戏。</message>
+	<message label="1348" attrib="10 00">Réinitialise les paramètres de langue
+depuis les paramètres de la console
+du menu HOME et redémarre le jeu.
+
+请在HOME菜单恢复语言设置后
+重新启动游戏。</message>
+	<message label="1349" attrib="10 00">Setze deine Spracheinstellungen in den
+ Systemeinstellungen im HOME-Menü
+zurück und starte das Spiel erneut.
+
+请在HOME菜单恢复语言设置后
+重新启动游戏。</message>
+	<message label="1350" attrib="10 00">Reimposta la lingua della console
+in Impostazioni di sistema nel menu
+HOME e riavvia il gioco.
+
+请在HOME菜单恢复语言设置后
+重新启动游戏。</message>
+	<message label="1351" attrib="10 00">Stel via de systeeminstellingen in het
+HOME-menu je oorspronkelijke taal
+in en start de game opnieuw op.
+
+请在HOME菜单恢复语言设置后
+重新启动游戏。</message>
+	<message label="1352" attrib="10 00">Восстановите настройки языка,
+перейдя в системные настройки из
+меню HOME, и перезапустите игру.
+
+请在HOME菜单恢复语言设置后
+重新启动游戏。</message>
+	<message label="1353" attrib="10 00">HOME 메뉴의 설정에서
+원래 언어로 되돌린 후
+게임을 다시 시작해주세요.
+
+请在HOME菜单恢复语言设置后
+重新启动游戏。</message>
+	<message label="1354" attrib="10 00">请在HOME菜单恢复语言设置后
+重新启动游戏。
+
+请在HOME菜单恢复语言设置后
+重新启动游戏。</message>
+	<message label="1355" attrib="10 00">請於HOME選單恢復語言設定後，
+再重新啟動遊戲。
+
+请在HOME菜单恢复语言设置后
+重新启动游戏。</message>
+	<message label="1356" attrib="12 03"><ruby a="4" b="8">ぜんかい</ruby>前回プレイ<ruby a="2" b="2">じ</ruby>時と
+<ruby a="8" b="14">げんごせってい</ruby>言語設定が<ruby a="2" b="4">こと</ruby>異なるようです。
+
+语言设置似乎与上次游戏时不同。</message>
+	<message label="1356_a" attrib="0e 03">つぎへ / 下一页</message>
+	<message label="1357" attrib="12 03">It looks like your language settings
+have changed since the last time
+you played.
+
+语言设置似乎与上次游戏时不同。</message>
+	<message label="1357_a" attrib="0e 03">Next / 下一页</message>
+	<message label="1358" attrib="12 03">Les paramètres de langue ont été
+modifiés depuis la dernière fois que
+tu as joué.
+
+语言设置似乎与上次游戏时不同。</message>
+	<message label="1358_a" attrib="0e 03">Suivant / 下一页</message>
+	<message label="1359" attrib="12 03">Los ajustes de idioma cambiaron
+desde la última vez que jugaste.
+
+语言设置似乎与上次游戏时不同。</message>
+	<message label="1359_a" attrib="0e 03">Siguiente / 下一页</message>
+	<message label="1360" attrib="12 03">It looks like your language settings
+have changed since the last time
+you played.
+
+语言设置似乎与上次游戏时不同。</message>
+	<message label="1360_a" attrib="0e 03">Next / 下一页</message>
+	<message label="1361" attrib="12 03">Los ajustes de idioma han cambiado
+desde la última vez que jugaste.
+
+语言设置似乎与上次游戏时不同。</message>
+	<message label="1361_a" attrib="0e 03">Siguiente / 下一页</message>
+	<message label="1362" attrib="12 03">Les paramètres de langue ont été
+modifiés depuis la dernière fois que
+tu as joué.
+
+语言设置似乎与上次游戏时不同。</message>
+	<message label="1362_a" attrib="0e 03">Suivant / 下一页</message>
+	<message label="1363" attrib="12 03">Anscheinend haben sich deine
+Spracheinstellungen seit dem letzten
+Spielen geändert.
+
+语言设置似乎与上次游戏时不同。</message>
+	<message label="1363_a" attrib="0e 03">Weiter / 下一页</message>
+	<message label="1364" attrib="12 03">Le impostazioni relative alla lingua
+sono cambiate dall'ultima volta che
+hai giocato.
+
+语言设置似乎与上次游戏时不同。</message>
+	<message label="1364_a" attrib="0e 03">Avanti / 下一页</message>
+	<message label="1365" attrib="12 03">Het lijkt erop dat je taalinstellingen
+zijn gewijzigd sinds je voor het
+laatst hebt gespeeld.
+
+语言设置似乎与上次游戏时不同。</message>
+	<message label="1365_a" attrib="0e 03">Volgende / 下一页</message>
+	<message label="1366" attrib="12 03">Похоже, что настройки языка
+изменились с последнего
+сеанса игры.
+
+语言设置似乎与上次游戏时不同。</message>
+	<message label="1366_a" attrib="0e 03">Далее / 下一页</message>
+	<message label="1367" attrib="12 03">지난번 플레이 때와
+언어 설정이 다릅니다
+
+语言设置似乎与上次游戏时不同。</message>
+	<message label="1367_a" attrib="0e 03">다음 / 下一页</message>
+	<message label="1368" attrib="12 03">语言设置似乎与上次游戏时不同。
+
+语言设置似乎与上次游戏时不同。</message>
+	<message label="1368_a" attrib="0e 03">下一页 / 下一页</message>
+	<message label="1370" attrib="12 03">語言設定似乎與上次遊玩時不同。
+
+语言设置似乎与上次游戏时不同。</message>
+	<message label="1370_a" attrib="0e 03">下一頁 / 下一页</message>
+	<message label="1501" attrib="08 00">确定不进行任何更改吗？</message>
+	<message label="1501_a" attrib="01 00">还是继续吧！</message>
+	<message label="1501_b" attrib="01 00">不做更改</message>
+	<message label="1502" attrib="08 00">要把刚才更改的颜色
+全部还原吗？</message>
+	<message label="1502_a" attrib="01 00">还要更改</message>
+	<message label="1502_b" attrib="01 00">还原</message>
+	<message label="1601" attrib="01 09">无法读取amiibo。</message>
+	<message label="1602" attrib="0d 09">所使用的手柄
+无法读取amiibo。
+请使用支持amiibo的手柄。
+<colour id="1" />＊有线连接的Pro手柄无法读取amiibo。<colour id="65535" /></message>
+	<message label="1605" attrib="01 09"><colour id="3" /><tag a="115" b="1" arg="0xcd00" /><colour id="65535" />
+已经在摄影棚了哦！</message>
+	<message label="1606" attrib="01 09">无法将<colour id="3" /><tag a="115" b="1" arg="0xcd00" /><colour id="65535" />
+呼叫至摄影棚。</message>
+	<message label="1607" attrib="01 00">最多只能呼叫10位。</message>
+	<message label="1608" attrib="01 09">没有可以呼叫的空间。</message>
+	<message label="1609" attrib="07 00">已读取到豆狸和粒狸。
+要呼叫哪位呢？</message>
+	<message label="1609_a" attrib="01 00">豆狸</message>
+	<message label="1609_b" attrib="01 00">粒狸</message>
+	<message label="1610" attrib="01 09">无法将村民
+呼叫至摄影棚。</message>
+	<message label="1612" attrib="01 09">由于已开启飞行模式，
+无法读取amiibo。
+
+＊可以在快速设置（<colour id="1" />长按<colour id="65535" />）中关闭。</message>
+	<message label="1613" attrib="01 09">这不是amiibo。</message>
+	<message label="1614" attrib="01 09">不支持此amiibo。</message>
+	<message label="1701" attrib="06 09">和现在的家相比
+没有任何变化哦！</message>
+	<message label="1701_a" attrib="01 04">返回</message>
+	<message label="1801" attrib="06 09"><tag a="115" b="0" arg="0xcd00" />
+还没有家，所以无法寄送哦！</message>
+	<message label="1801_a" attrib="01 04">返回</message>
+	<message label="2001" attrib="06 09">钱不够哦！</message>
+	<message label="2001_a" attrib="01 06">结束</message>
+	<message label="2002" attrib="06 09">口袋已满，
+所以无法购物哦！</message>
+	<message label="2002_a" attrib="01 06">结束</message>
+	<message label="2003" attrib="06 09">口袋和收纳已满，
+所以无法购物哦！</message>
+	<message label="2003_a" attrib="01 06">结束</message>
+	<message label="2004" attrib="08 00">要购买商品吗？</message>
+	<message label="2004_a" attrib="01 00">还是算了</message>
+	<message label="2004_b" attrib="01 05">买了！</message>
+	<message label="2005" attrib="07 00">要就这么穿着吗？</message>
+	<message label="2005_a" attrib="01 00">换回原来的穿着</message>
+	<message label="2005_b" attrib="01 05">就这样！</message>
+	<message label="2201" attrib="01 09">目前没有存款。</message>
+	<message label="2202" attrib="01 09">存款额度已达上限。</message>
+	<message label="2203" attrib="01 09">因为会超过持有上限，无法提款。</message>
+	<message label="2301" attrib="08 00">汇款过来时，
+超过账户上限的钱会消失，
+没问题吗？</message>
+	<message label="2301_a" attrib="01 00">返回</message>
+	<message label="2301_b" attrib="01 00">还是要卖</message>
+	<message label="3001" attrib="01 00">在商店的<colour id="1" />收购<colour id="65535" />中，
+可以换取<colour id="1" />3000铃钱<colour id="65535" />的兑换券。
+<colour id="0" />※此券会当场发行。<colour id="65535" /></message>
+	<message label="3002" attrib="01 00">带着去机场，
+就能参加特别的旅行。
+详情请在机场咨询。
+<colour id="0" />※此券会当场发行。<colour id="65535" /></message>
+	<message label="3003" attrib="01 00">包含6件耐久性优良的道具的
+DIY手册集。
+<colour id="0" />※兑换后会当场向客人的手机
+发送数据。<colour id="65535" /></message>
+	<message label="3004" attrib="01 00">将可以使用能轻松替换
+喜爱道具的<colour id="1" />收藏环<colour id="65535" />。
+<colour id="0" />※兑换后会当场打印使用说明。<colour id="65535" /></message>
+	<message label="3005" attrib="01 00">介绍可以通过<colour id="1" />穿衣镜·梳妆台<colour id="65535" />等
+进行形象改造的帅气发型。
+<colour id="0" />※兑换后会当场打印。<colour id="65535" /></message>
+	<message label="3006" attrib="01 00">介绍可以通过<colour id="1" />穿衣镜·梳妆台<colour id="65535" />等
+进行形象改造的流行发型。
+<colour id="0" />※兑换后会当场打印。<colour id="65535" /></message>
+	<message label="3007" attrib="01 00">介绍可以通过<colour id="1" />穿衣镜·梳妆台<colour id="65535" />等
+进行形象改造的各种发色。
+<colour id="0" />※兑换后会当场打印。<colour id="65535" /></message>
+	<message label="3008" attrib="01 00">介绍可以携带更多物品外出的
+口袋收纳技巧。
+<colour id="0" />※兑换后会当场打印。<colour id="65535" /></message>
+	<message label="3009" attrib="01 00">介绍可以携带更多物品外出的
+口袋收纳诀窍。
+<colour id="0" />※兑换后会当场打印。<colour id="65535" /></message>
+	<message label="3010" attrib="01 00">客人的<colour id="1" />我的设计<colour id="65535" />软件中
+会新增专业的设计功能。
+<colour id="0" />※软件会当场更新。<colour id="65535" /></message>
+	<message label="3011" attrib="01 00">只有通过里数兑换才能获得的
+特别的DIY手册。
+对岛屿建设很有帮助。
+<colour id="0" />※手册会当场打印。<colour id="65535" /></message>
+	<message label="3012" attrib="01 00">只有通过里数兑换才能获得的
+特别物品。
+对岛屿建设很有帮助。
+<colour id="0" />※会通过邮寄送达。<colour id="65535" /></message>
+	<message label="3013" attrib="01 00">围住房子周围或植物的
+<colour id="1" />栅栏<colour id="65535" />的DIY手册。
+对创建岛屿很有帮助。
+<colour id="0" />※手册会当场打印。<colour id="65535" /></message>
+	<message label="3014" attrib="01 00">可以更换手机壳
+设计的工具组。
+请在<colour id="1" />作业台<colour id="65535" />进行更换。
+<colour id="0" />※会通过邮寄送达。<colour id="65535" /></message>
+	<message label="3015" attrib="01 00">将在手机软件的<colour id="1" />岛屿创作家<colour id="65535" />里
+新增<colour id="1" />悬崖施工许可证<colour id="65535" />，
+可以进行悬崖的建造和削平。
+<colour id="0" />※软件会当场更新。<colour id="65535" /></message>
+	<message label="3016" attrib="01 00">将在手机软件的<colour id="1" />岛屿创作家<colour id="65535" />里
+新增<colour id="1" />河流施工许可证<colour id="65535" />，
+可以进行河流和池塘的建造和填埋。
+<colour id="0" />※软件会当场更新。<colour id="65535" /></message>
+	<message label="3017" attrib="01 00">将在手机软件的<colour id="1" />岛屿创作家<colour id="65535" />里
+新增<colour id="1" />许可证<colour id="65535" />，
+可以铺设指定设计的<colour id="1" />道路<colour id="65535" />。
+<colour id="0" />※软件会当场更新。<colour id="65535" /></message>
+	<message label="3018" attrib="01 00">将在手机软件的<colour id="1" />岛屿创作家<colour id="65535" />里
+新增<colour id="1" />许可证<colour id="65535" />，
+可以铺设自己设计的<colour id="1" />道路<colour id="65535" />。
+<colour id="0" />※软件会当场更新。<colour id="65535" /></message>
+	<message label="3019" attrib="01 00">Nook Inc.的原创物品。
+敬请享受集齐整套搭配的乐趣。
+<colour id="0" />※会通过邮寄送达。<colour id="65535" /></message>
+	<message label="3020" attrib="01 00">Nook Inc.的原创物品。
+敬请享受集齐整套装饰的乐趣。
+<colour id="0" />※会通过邮寄送达。<colour id="65535" /></message>
+	<message label="5001" attrib="01 00">〔<colour id="1" />照相机<colour id="65535" />〕
+利用此照相机的功能，
+可以使用各种各样的滤镜和效果
+拍摄相片。<pageBreak /><colour id="0" />所拍摄的相片
+会保存在HOME菜单的相册中，
+使用同一主机的其他用户
+也能查看这些相片。<colour id="65535" /></message>
+	<message label="5011" attrib="01 00">〔<colour id="1" />Nook集里游<colour id="65535" />〕
+欢迎参加
+Nook集里游计划！<pageBreak />本项计划
+会根据你在岛上的活动情况，
+赠予相应的<colour id="1" />里数<colour id="65535" />作为礼物。<pageBreak />累积的里数可以通过岛上<colour id="1" />服务处<colour id="65535" />的<colour id="1" />设备<colour id="65535" />
+兑换成各式各样的优惠和物品。
+请一边享受岛上的生活，
+一边让里数为你的生活增添便利吧！</message>
+	<message label="5012" attrib="01 00">〔<colour id="1" />Nook集里游<colour id="65535" />升级成带＋的啦！〕
+随着客人的会员等级升高，
+现在可以使用
+<colour id="1" />Nook集里游＋<colour id="65535" />的服务了！<pageBreak /><colour id="1" />Nook集里游＋<colour id="65535" />是一项
+能够让你在每天的生活中
+更轻松地获得里数的服务。<pageBreak />因为会有<colour id="1" />Nook集里游＋<colour id="65535" />会员
+限定的礼物可供交换，
+今后请一定要多多使用哦！</message>
+	<message label="5021" attrib="01 00">〔<colour id="1" />生物图鉴<colour id="65535" />〕
+此软件可以用来查看捕捉到的
+各种虫类和鱼类的信息。</message>
+	<message label="5031" attrib="01 00">〔<colour id="1" />DIY手册<colour id="65535" />〕
+此软件可以用来查看
+目前所学DIY手册的信息。<pageBreak />可以添加经常制作的喜爱的物品，
+使用起来非常方便，
+请一定要在DIY中多多使用哦！</message>
+	<message label="5041" attrib="01 00">〔<colour id="1" />召集居民<colour id="65535" />〕
+使用此软件，可以最多邀请4名
+居住在这个岛上的其他居民（玩家），
+享受一起游戏的<colour id="1" />派对模式<colour id="65535" />。<pageBreak />※开始游戏前，请准备好
+和游戏人数相同的手柄。</message>
+	<message label="5051" attrib="01 00">〔<colour id="1" />我的设计<colour id="65535" />〕
+此软件可以制作“我的设计”，
+该设计可作为服装穿在身上，
+或是贴在各个地方。<pageBreak />保存在软件中的“我的设计”
+会和居住在岛上的其他居民共享。<pageBreak /><colour id="0" />※你所制作的“我的设计”
+可能会通过外出等联机游戏的方式
+被其他人看到。<pageBreak />※请不要书写侵犯他人权利的内容，
+不要泄露自己或他人隐私的信息，
+或是书写令人不快的内容。<colour id="65535" /></message>
+	<message label="5052" attrib="01 00">〔<colour id="1" />专业设计<colour id="65535" />〕
+感谢你升级到专业设计！<pageBreak />在专业设计中，
+你可以使用
+·编辑调色盘的颜色
+·制作专业的我的设计
+请使用表现力更高的
+专业编辑功能，
+充分享受“我的设计”的乐趣！</message>
+	<message label="5053" attrib="01 00"><colour id="0" />〔关于的我的设计〕<colour id="65535" />
+并非你本人制作的我的设计，
+选择时会带有<colour id="0" /><colour id="65535" />标记。<pageBreak />带有<colour id="0" /><colour id="65535" />标记的我的设计
+是无法进行改画的，
+所以如果想编辑这个格子，
+请先删除我的设计。</message>
+	<message label="5061" attrib="01 00">〔<colour id="1" />地图<colour id="65535" />〕
+此软件可以用来查看
+你当前所在岛屿的整体地图。<pageBreak />另外，按可以开启或关闭
+在平常行动中所显示的迷你地图。</message>
+	<message label="5081" attrib="01 00">〔<colour id="1" />护照<colour id="65535" />〕
+你的护照信息。
+<colour id="0" />※此信息会在外出等场合
+被与你联机的对方看到。<colour id="65535" /><pageBreak />护照上的<colour id="1" />照片<colour id="65535" />、<colour id="1" />个性签名<colour id="65535" />和<colour id="1" />头衔<colour id="65535" />
+可以随时更新。
+作为沟通的渠道，
+请务必及时更新。</message>
+	<message label="5091" attrib="01 00">〔<colour id="0" />紧急逃脱服务<colour id="65535" />〕
+在岛上如果遇上道路拥堵，
+或是无法动弹等紧急状况时，
+请使用此服务。<pageBreak />会迅速将客人送至自己家
+或是服务处等地方。
+<colour id="0" />※要使用此服务，必须要有
+Nook集里游计划的里数。<colour id="65535" /></message>
+	<message label="5111" attrib="01 00">〔<colour id="1" />岛屿创作家<colour id="65535" />〕
+使用这个软件，
+可以亲手进行岛屿的开发施工。<pageBreak />可铺设的道路或可进行的施工种类
+能够通过狸端机
+兑换Nook里数来增加。<pageBreak />另外,根据施工的不同,
+也会有身体无法动作的时候,
+因此也配置了可以整理周围的
+<colour id="1" />整理服务<colour id="65535" />。
+※详细的操作方法
+请确认软件内的“<colour id="1" />查看使用方法<colour id="65535" />”。<pageBreak />请使用岛屿创作家，
+按自己的心意
+挑战岛屿的建造吧！</message>
+	<message label="5121" attrib="01 00">〔<colour id="1" />Nook购物<colour id="65535" />〕
+Nook购物已成为
+任何时候在任何地点
+都能使用的手机软件了！
+请根据客人自己的风格
+尽情享受自由的购物生活吧。</message>
+	<message label="5201_00_01" attrib="0e 00"><colour id="0" />＜派对模式的游玩方法＞<colour id="65535" />
+在派对模式中，
+一人为<colour id="1" />队长<colour id="65535" />，其余居民为<colour id="1" />队员<colour id="65535" />，
+大家一起在岛上享受悠闲时光。
+
+<colour id="1" />队长<colour id="65535" />和<colour id="1" />队员<colour id="65535" />可以做的事并不相同，
+但玩家可以随时进行更改。
+<colour id="1" />＜队长可以做的事＞<colour id="65535" />
+可以像平常一样游玩。
+
+<colour id="1" />＜更改队长＞
+<colour id="65535" />请轻挥<colour id="1" />队长<colour id="65535" />的手柄，
+或在手机的<colour id="1" />召集居民<colour id="65535" />软件
+选择<colour id="1" />更改队长<colour id="65535" />。<pageBreak /><colour id="1" />＜队员可以做的事＞<colour id="65535" />
+虽然无法聊天或使用手机和口袋，
+但可以使用道具，移动家具，
+协助<colour id="1" />队长<colour id="65535" />。
+
+<colour id="1" />队员<colour id="65535" />使用道具获得的物品
+会被放入<colour id="1" />服务处<colour id="65535" />的<colour id="1" />回收箱<colour id="65535" />｡</message>
+	<message label="5201_00_02" attrib="0e 00"><colour id="0" />＜横握Joy-Con的操作方法＞<colour id="65535" />
+<colour id="1" />＜队长＞
+<colour id="65535" /> 打开手机
+<colour id="1" /><colour id="65535" /> 切换视角 / 替换道具
+
+<colour id="1" />＜队员＞
+<colour id="65535" />　道具的装备和替换</message>
+	<message label="5201_00_03" attrib="0e 00"><colour id="1" />＜横握Joy-Con的操作：队长＞
+ <colour id="65535" />打开手机 / <colour id="1" /> <colour id="65535" />反应
+<colour id="1" /><colour id="65535" /> 操作镜头 / 替换道具
+
+<colour id="1" />＜横握Joy-Con的操作：队员＞
+ <colour id="65535" />道具的装备和替换
+<colour id="1" /> <colour id="65535" />反应 / <colour id="1" /><colour id="65535" /> 重复反应</message>
+	<message label="5201_00_04" attrib="0e 00"><colour id="1" /><colour id="0" />＜操作方法＞<colour id="1" />
+＜队长＞<colour id="65535" />
+和平常的操作相同。
+
+<colour id="1" />＜队员＞
+<colour id="65535" />　道具的装备和替换</message>
+	<message label="5201_00_05" attrib="0e 00"><colour id="1" />＜队长的操作＞<colour id="65535" />
+和平常的操作相同。
+
+<colour id="1" />＜队员的操作＞
+<colour id="65535" />　道具的装备和替换
+<colour id="1" />　<colour id="65535" />反应
+<colour id="1" /><colour id="65535" />　重复反应</message>
+	<message label="5201_01" attrib="0e 00"><colour id="0" />＜派对模式的游玩方法＞<colour id="65535" />
+在派对模式中，
+一人为<colour id="1" />队长<colour id="65535" />，其余居民为<colour id="1" />队员<colour id="65535" />，
+大家一起在岛上享受悠闲时光。
+
+<colour id="1" />队长<colour id="65535" />和<colour id="1" />队员<colour id="65535" />可以做的事并不相同，
+但玩家可以随时进行更改。
+<colour id="1" />＜队长可以做的事＞<colour id="65535" />
+可以像平常一样游玩。
+
+<colour id="1" />＜更改队长＞
+<colour id="65535" />请轻挥<colour id="1" />队长<colour id="65535" />的手柄，
+或在手机的<colour id="1" />召集居民<colour id="65535" />软件
+选择<colour id="1" />更改队长<colour id="65535" />。<pageBreak /><colour id="1" />＜队员可以做的事＞<colour id="65535" />
+虽然无法聊天或使用手机和口袋，
+但可以使用道具，移动家具，
+协助<colour id="1" />队长<colour id="65535" />。
+
+<colour id="1" />队员<colour id="65535" />使用道具获得的物品
+会被放入<colour id="1" />服务处<colour id="65535" />的<colour id="1" />回收箱<colour id="65535" />｡
+<colour id="0" />＜横握Joy-Con的操作方法＞<colour id="65535" />
+<colour id="1" />＜队长＞
+<colour id="65535" /> 打开手机
+<colour id="1" /><colour id="65535" /> 切换视角 / 替换道具
+
+<colour id="1" />＜队员＞
+<colour id="65535" />　道具的装备和替换</message>
+	<message label="5201_02" attrib="0e 00"><colour id="0" />＜派对模式的游玩方法＞<colour id="65535" />
+在派对模式中，
+一人为<colour id="1" />队长<colour id="65535" />，其余居民为<colour id="1" />队员<colour id="65535" />，
+大家一起在岛上享受悠闲时光。
+
+<colour id="1" />队长<colour id="65535" />和<colour id="1" />队员<colour id="65535" />可以做的事并不相同，
+但玩家可以随时进行更改。
+<colour id="1" />＜队长可以做的事＞<colour id="65535" />
+可以像平常一样游玩。
+
+<colour id="1" />＜更改队长＞
+<colour id="65535" />请轻挥<colour id="1" />队长<colour id="65535" />的手柄，
+或在手机的<colour id="1" />召集居民<colour id="65535" />软件
+选择<colour id="1" />更改队长<colour id="65535" />。<pageBreak /><colour id="1" />＜队员可以做的事＞<colour id="65535" />
+虽然无法聊天或使用手机和口袋，
+但可以使用道具，移动家具，
+协助<colour id="1" />队长<colour id="65535" />。
+
+<colour id="1" />队员<colour id="65535" />使用道具获得的物品
+会被放入<colour id="1" />服务处<colour id="65535" />的<colour id="1" />回收箱<colour id="65535" />｡
+<colour id="1" />＜横握Joy-Con的操作：队长＞
+ <colour id="65535" />打开手机 / <colour id="1" /> <colour id="65535" />反应
+<colour id="1" /><colour id="65535" /> 操作镜头 / 替换道具
+
+<colour id="1" />＜横握Joy-Con的操作：队员＞
+ <colour id="65535" />道具的装备和替换
+<colour id="1" /> <colour id="65535" />反应 / <colour id="1" /><colour id="65535" /> 重复反应</message>
+	<message label="5201_03" attrib="0e 00"><colour id="0" />＜派对模式的游玩方法＞<colour id="65535" />
+在派对模式中，
+一人为<colour id="1" />队长<colour id="65535" />，其余居民为<colour id="1" />队员<colour id="65535" />，
+大家一起在岛上享受悠闲时光。
+
+<colour id="1" />队长<colour id="65535" />和<colour id="1" />队员<colour id="65535" />可以做的事并不相同，
+但玩家可以随时进行更改。
+<colour id="1" />＜队长可以做的事＞<colour id="65535" />
+可以像平常一样游玩。
+
+<colour id="1" />＜更改队长＞
+<colour id="65535" />请轻挥<colour id="1" />队长<colour id="65535" />的手柄，
+或在手机的<colour id="1" />召集居民<colour id="65535" />软件
+选择<colour id="1" />更改队长<colour id="65535" />。<pageBreak /><colour id="1" />＜队员可以做的事＞<colour id="65535" />
+虽然无法聊天或使用手机和口袋，
+但可以使用道具，移动家具，
+协助<colour id="1" />队长<colour id="65535" />。
+
+<colour id="1" />队员<colour id="65535" />使用道具获得的物品
+会被放入<colour id="1" />服务处<colour id="65535" />的<colour id="1" />回收箱<colour id="65535" />｡
+<colour id="1" /><colour id="0" />＜操作方法＞<colour id="1" />
+＜队长＞<colour id="65535" />
+和平常的操作相同。
+
+<colour id="1" />＜队员＞
+<colour id="65535" />　道具的装备和替换</message>
+	<message label="5201_04" attrib="0e 00"><colour id="0" />＜派对模式的游玩方法＞<colour id="65535" />
+在派对模式中，
+一人为<colour id="1" />队长<colour id="65535" />，其余居民为<colour id="1" />队员<colour id="65535" />，
+大家一起在岛上享受悠闲时光。
+
+<colour id="1" />队长<colour id="65535" />和<colour id="1" />队员<colour id="65535" />可以做的事并不相同，
+但玩家可以随时进行更改。
+<colour id="1" />＜队长可以做的事＞<colour id="65535" />
+可以像平常一样游玩。
+
+<colour id="1" />＜更改队长＞
+<colour id="65535" />请轻挥<colour id="1" />队长<colour id="65535" />的手柄，
+或在手机的<colour id="1" />召集居民<colour id="65535" />软件
+选择<colour id="1" />更改队长<colour id="65535" />。<pageBreak /><colour id="1" />＜队员可以做的事＞<colour id="65535" />
+虽然无法聊天或使用手机和口袋，
+但可以使用道具，移动家具，
+协助<colour id="1" />队长<colour id="65535" />。
+
+<colour id="1" />队员<colour id="65535" />使用道具获得的物品
+会被放入<colour id="1" />服务处<colour id="65535" />的<colour id="1" />回收箱<colour id="65535" />｡
+<colour id="1" />＜队长的操作＞<colour id="65535" />
+和平常的操作相同。
+
+<colour id="1" />＜队员的操作＞
+<colour id="65535" />　道具的装备和替换
+<colour id="1" />　<colour id="65535" />反应
+<colour id="1" /><colour id="65535" />　重复反应</message>
+	<message label="5202" attrib="01 00"><colour id="0" />恭喜你完成
+“我的房子”！<colour id="65535" />
+～舒适生活的建议～<pageBreak /><colour id="1" /> 开关电源
+ 更改布置模式
+ 打开收纳<colour id="65535" /><pageBreak /><colour id="1" />＜ 开关电源＞<colour id="65535" />
+可以打开或关闭
+房间的照明。<pageBreak /><colour id="1" />＜ 更改布置模式＞
+<colour id="65535" />可以轻松更改
+房间整体布置的功能。<pageBreak /><colour id="1" />＜ 打开收纳＞
+<colour id="65535" />可以打开家中的收纳，取出家具。
+※在自己家打开口袋的话，
+就能选择家具或衣物进行收纳。</message>
+	<message label="8001" attrib="07 00"><colour id="6" />※此Nintendo Switch中的
+<tag a="110" b="33" />上，
+目前有未与任何用户关联的
+居民数据。<pageBreak />要作为未与用户关联的居民
+继续游戏吗？
+还是要作为新的居民移居呢？<colour id="65535" /></message>
+	<message label="8001_a" attrib="01 01">以现有居民继续</message>
+	<message label="8001_b" attrib="01 00">新移居</message>
+	<message label="8002" attrib="01 00">那么，即将作为新的移居者
+开始游戏。</message>
+	<message label="8003" attrib="05 00">目前，有<colour id="1" />1个<colour id="65535" />居民数据
+未与用户关联。<pageBreak />要以这位居民
+继续游戏吗？</message>
+	<message label="8003_a" attrib="00 00">显示居民信息</message>
+	<message label="8004" attrib="05 00">目前，有<colour id="1" />多个<colour id="65535" />居民数据
+未与用户关联。
+要以哪位居民继续游戏呢？</message>
+	<message label="8004_a" attrib="00 00">显示居民信息</message>
+	<message label="8005" attrib="07 00">要再次从头开始重选吗？
+或是，要结束游戏吗？</message>
+	<message label="8005_a" attrib="01 01">结束游戏</message>
+	<message label="8005_b" attrib="01 00">重选</message>
+	<message label="8006" attrib="03 00">请从HOME菜单
+结束游戏。</message>
+	<message label="8007" attrib="08 00">要以居民<colour id="2" /><tag a="115" b="0" arg="0xcd00" /><colour id="65535" />
+继续游戏吗？</message>
+	<message label="8007_a" attrib="01 00">重新考虑</message>
+	<message label="8007_b" attrib="01 05">是的</message>
+	<message label="8008" attrib="01 00">即将以居民<colour id="2" /><tag a="110" b="1" /><colour id="65535" />
+继续游戏。</message>
+	<message label="8009" attrib="07 00"><colour id="6" />※此Nintendo Switch中的
+<tag a="110" b="33" />上，
+已登录了8个居民数据。<pageBreak />请选择是要删除居民数据
+重新开始，
+还是以目前未与用户关联的
+居民继续游戏。<colour id="65535" /></message>
+	<message label="8009_a" attrib="01 01">以现有居民继续</message>
+	<message label="8009_b" attrib="01 00">新移居</message>
+	<message label="8010" attrib="01 00">要新移居的话，
+必须删除1人的居民数据。<pageBreak />请从目前未与用户关联的
+居民数据中，
+选择要删除的居民。
+<colour id="6" />※岛民代表无法删除。<colour id="65535" /></message>
+	<message label="8010_a" attrib="01 00">显示居民信息</message>
+	<message label="8011" attrib="01 00">要新移居的话，
+必须删除1人的居民数据。<pageBreak />请从目前未与用户关联的
+居民数据中，
+选择要删除的居民。</message>
+	<message label="8011_a" attrib="01 00">显示居民信息</message>
+	<message label="8012" attrib="1a 00">目前未与用户关联的居民
+是<tag a="110" b="33" />的
+岛民代表，
+所以此居民数据无法删除。<pageBreak />要删除其他的居民数据，
+请用想删除的居民开始游戏，
+在标题画面的保存数据设置里
+进行删除。</message>
+	<message label="8013" attrib="03 00">要关闭此画面，
+请从HOME菜单
+结束游戏。</message>
+</msbt>

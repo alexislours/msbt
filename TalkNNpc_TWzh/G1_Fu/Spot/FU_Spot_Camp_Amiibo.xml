@@ -1,0 +1,93 @@
+<msbt attribsize="8">
+	<message label="001" attrib="00 00 00 00 00 00 13 00"><tag a="60" b="20" /></message>
+	<message label="001_01" attrib="00 00 00 00 00 00 13 00"><tag a="100" b="5" /><colour id="1" />我是<tag a="115" b="1" arg="0xcd00" />。<delay frames="40" />
+由於目前正在準備搬家，<delay20 />
+無法回覆，<tag a="110" b="6" />。<colour id="65535" /><endTag a="100" b="5" /></message>
+	<message label="001_02" attrib="00 00 00 00 00 00 13 00"><tag a="100" b="5" /><colour id="1" />謝謝你的聯繫，<delay frames="40" />
+<tag a="115" b="1" arg="0xcd00" />正在準備搬家，<delay20 />
+因此無法回覆，<tag a="110" b="6" />。<colour id="65535" /><endTag a="100" b="5" /></message>
+	<message label="001_03" attrib="00 00 00 00 00 00 13 00"><tag a="100" b="5" /><colour id="1" />你好，<delay20 />我是<tag a="115" b="1" arg="0xcd00" />。<delay frames="40" />
+目前正在準備搬家，<delay20 />無法回覆，<tag a="110" b="6" />。<colour id="65535" /><endTag a="100" b="5" /></message>
+	<message label="001_04" attrib="00 00 00 00 00 00 13 00"><tag a="100" b="5" /><colour id="1" />我是<tag a="115" b="1" arg="0xcd00" />。<delay frames="40" />
+很抱歉，<delay frames="30" />因為目前正在準備搬家，<delay20 />
+所以無法回覆，<tag a="110" b="6" />。<colour id="65535" /><endTag a="100" b="5" /></message>
+	<message label="102" attrib="00 00 00 00 00 00 13 00"><tag a="60" b="20" /></message>
+	<message label="102_01" attrib="00 00 00 00 00 00 13 00"><tag a="110" b="0" /><delay20 /><anim id="Eh" target="actor" targetSpec="" />咦？<delay frames="30" />
+你願意邀請我去<delay8 />
+<tag a="110" b="34" />的<colour id="1" />露營地<colour id="65535" />嗎？<delay frames="40" />
+<anim id="HappyDance" target="actor" targetSpec="" />我太高興了～！<delay frames="40" />
+<anim id="Nodding" target="actor" targetSpec="" />我立刻整理行李<delay8 />準備出發，<tag a="110" b="6" />。<anim id="FaintSmile" target="actor" targetSpec="" /></message>
+	<message label="102_02" attrib="00 00 00 00 00 00 13 00"><tag a="110" b="0" /><delay20 /><anim id="Aha" target="actor" targetSpec="" />你要邀請我到
+<tag a="110" b="34" />的<colour id="1" />露營地<colour id="65535" />嗎？<delay frames="40" />
+<anim id="HappyDance" target="actor" targetSpec="" />哇～<delay20 />我好高興～
+<anim id="EmotEnd" target="actor" targetSpec="" />那麼<delay8 /><anim id="FaintSmile" target="actor" targetSpec="" />我現在就過去，<tag a="110" b="6" />。</message>
+	<message label="102_03" attrib="00 00 00 00 00 00 13 00"><tag a="110" b="0" /><delay20 /><anim id="BigSmile" target="actor" targetSpec="" />去<tag a="110" b="34" />的<colour id="1" />露營地<colour id="65535" />
+就可以了嗎？<delay frames="30" />
+<anim id="Nodding" target="actor" targetSpec="" />原來如此，<delay20 />我明白了。
+<anim id="EmotEnd" target="actor" targetSpec="" />那麼<delay8 /><anim id="Hello" target="actor" targetSpec="" />我會立刻準備出發的！<tag a="110" b="6" />。</message>
+	<message label="102_04" attrib="00 00 00 00 00 00 13 00"><tag a="110" b="0" /><delay20 /><anim id="BigSmile" target="actor" targetSpec="" />我明白了！<delay frames="40" />
+<anim id="FaintSmile" target="actor" targetSpec="" />你是說<tag a="110" b="34" />的
+<colour id="1" />露營地<colour id="65535" />對吧。<pageBreak /><anim id="HappyDance" target="actor" targetSpec="" />謝謝你的邀請！<delay frames="40" />
+<anim id="FaintSmile" target="actor" targetSpec="" />我立刻就出發到那裡去，<delay20 />
+<anim id="Greeting" target="actor" targetSpec="" />到時要請多關照囉，<tag a="110" b="6" />。</message>
+	<message label="202" attrib="00 00 00 00 00 00 13 00"><tag a="60" b="20" /></message>
+	<message label="202_01" attrib="00 00 00 00 00 00 13 00"><tag a="110" b="0" /><delay20 /><anim id="Surprised" target="actor" targetSpec="" />咦！？<delay20 />要邀請我去
+<tag a="110" b="34" />的<colour id="1" />露營地<colour id="65535" /><tag a="110" b="0" />？<delay frames="40" />
+<anim id="Frantic" target="actor" targetSpec="" />我想去！<delay frames="30" />麻煩你了。
+<anim id="EmotEnd" target="actor" targetSpec="" />我會立刻準備出發，<delay8 />
+<anim id="FaintSmile" target="actor" targetSpec="" />請在那邊等我過去喔，<tag a="110" b="6" />。</message>
+	<message label="202_02" attrib="00 00 00 00 00 00 13 00"><anim id="Nodding" target="actor" targetSpec="" />原來如此<tag a="110" b="0" /><delay20 />
+<tag a="110" b="34" />的<colour id="1" />露營地<colour id="65535" />呀<tag a="110" b="0" /><pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />嗯嗯，<delay20 />我有興趣！<delay frames="40" />
+請務必讓我去那裡玩，<tag a="110" b="6" />。</message>
+	<message label="202_03" attrib="00 00 00 00 00 00 13 00"><tag a="110" b="0" /><delay20 /><anim id="Aha" target="actor" targetSpec="" />咦，<delay20 />邀請我去
+<tag a="110" b="34" />的<colour id="1" />露營地<colour id="65535" />嗎？<delay frames="30" />
+<anim id="HappyDance" target="actor" targetSpec="" />聽起來很有趣呢～
+<anim id="FaintSmile" target="actor" targetSpec="" />我會立刻整理行李，<delay20 />
+請等我過去喔，<tag a="110" b="6" />。</message>
+	<message label="202_04" attrib="00 00 00 00 00 00 13 00"><tag a="110" b="0" /><delay20 /><anim id="Aha" target="actor" targetSpec="" />哎呀，<delay20 />可以嗎？<delay frames="40" />
+<anim id="EmotEnd" target="actor" targetSpec="" />去<colour id="1" />露營地<colour id="65535" />打擾你們<tag a="110" b="0" /><delay frames="30" />
+那麼<tag a="110" b="0" /><delay8 /><anim id="Assent" target="actor" targetSpec="" />我要去！<tag a="110" b="6" />。</message>
+	<message label="301" attrib="00 00 00 00 00 00 13 00"><tag a="60" b="20" /></message>
+	<message label="301_01" attrib="00 00 00 00 00 00 13 00">你好！<delay20 />我是<tag a="110" b="10" />。<delay frames="40" />
+<anim id="Eh" target="actor" targetSpec="" />哇，<delay20 />是<tag a="110" b="4" />。<delay frames="40" />
+<anim id="Hello" target="actor" targetSpec="" />請問怎麼了嗎？<tag a="110" b="6" />。</message>
+	<message label="301_02" attrib="00 00 00 00 00 00 13 00">你好，<delay20 />我是<tag a="110" b="10" />。<delay frames="40" />
+<anim id="Eh" target="actor" targetSpec="" />哎呀，<delay8 />是<tag a="110" b="4" />呀。<pageBreak /><anim id="Restless" target="actor" targetSpec="" />那個<tag a="110" b="0" /><delay20 />請問是不是有什麼事<delay8 />
+不方便當面說呢？<tag a="110" b="6" />。</message>
+	<message label="301_03" attrib="00 00 00 00 00 00 13 00">喂，<delay8 />我是<tag a="110" b="10" />。<delay frames="40" />
+<anim id="Eh" target="actor" targetSpec="" />呃，<delay20 /><tag a="110" b="4" />！？<pageBreak /><anim id="Laughing" target="actor" targetSpec="" />呵呵呵，<delay20 />我們明明住在同座島上，
+卻用這種方法說話，<delay20 />
+真是有趣呢，<tag a="110" b="6" />。</message>
+	<message label="301_04" attrib="00 00 00 00 00 00 13 00">喂，<delay8 />你好，我是<tag a="110" b="10" /><tag a="110" b="0" /><delay frames="30" />
+<anim id="Eh" target="actor" targetSpec="" /><tag a="110" b="4" />？<delay frames="40" />
+<anim id="Hello" target="actor" targetSpec="" />請問發生了什麼事嗎？<tag a="110" b="6" />。</message>
+	<message label="302" attrib="00 00 00 00 00 00 13 00"><tag a="60" b="20" /></message>
+	<message label="302_01" attrib="00 00 00 00 00 00 13 00"><tag a="110" b="0" /><delay20 /><anim id="Worried" target="actor" targetSpec="" />唔……<delay20 />
+<anim id="QuestionMark" target="actor" targetSpec="" />要在島上的<colour id="1" />露營地<colour id="65535" />露營嗎？<pageBreak /><anim id="Thinking" target="actor" targetSpec="" />嗯～<delay20 />雖然那麼做也不錯，<delay8 />
+不過那是提供給遊客們的設施<tag a="110" b="0" /><delay20 />
+<anim id="Worried" target="actor" targetSpec="" />抱歉我就先不考慮了，<tag a="110" b="6" />。</message>
+	<message label="302_02" attrib="00 00 00 00 00 00 13 00"><tag a="110" b="0" /><delay20 /><anim id="Surprised" target="actor" targetSpec="" />咦，<delay20 />
+問我要不要去<colour id="1" />露營地<colour id="65535" />露營嗎？<delay frames="40" />
+<anim id="Restless" target="actor" targetSpec="" />呃，<delay20 />你是說在自己住的島上<tag a="110" b="0" />
+<anim id="WrySmile" target="actor" targetSpec="" />聽起來好像很有趣，<delay8 />
+但我還是先算了。<delay frames="40" />
+<anim id="Worried" target="actor" targetSpec="" />抱歉喔，<tag a="110" b="6" />。</message>
+	<message label="302_03" attrib="00 00 00 00 00 00 13 00"><tag a="110" b="0" /><delay20 /><anim id="Thinking" target="actor" targetSpec="" />嗯～<delay20 />
+即使你叫我去島上的<colour id="1" />露營地<colour id="65535" /><tag a="110" b="0" /><delay frames="30" />
+<anim id="QuestionMark" target="actor" targetSpec="" />是要找我去露營嗎？
+<anim id="WrySmile" target="actor" targetSpec="" />難得你提議去露營，<delay8 />
+但我還是先算了。<delay frames="40" />
+<anim id="Worried" target="actor" targetSpec="" />真抱歉喔，<tag a="110" b="6" />。</message>
+	<message label="302_04" attrib="00 00 00 00 00 00 13 00"><tag a="110" b="0" /><delay20 /><anim id="Surprised" target="actor" targetSpec="" />咦～<delay20 />
+要在島上的<colour id="1" />露營地<colour id="65535" />露營嗎？<delay8 /><delay frames="30" />讓我去？<pageBreak /><anim id="Thinking" target="actor" targetSpec="" />嗯～<delay20 />我覺得有點<tag a="110" b="0" /><delay frames="30" />
+<anim id="Confused" target="actor" targetSpec="" />對不起！<delay frames="30" />先不要好了，<tag a="110" b="6" />。</message>
+	<message label="401" attrib="00 00 00 00 00 00 13 00"><tag a="60" b="20" /></message>
+	<message label="401_01" attrib="00 00 00 00 00 00 13 00">你好，<delay8 />我是<tag a="110" b="10" />。<delay frames="40" />
+<anim id="QuestionMark" target="actor" targetSpec="" />請問有什麼事嗎？<tag a="110" b="6" />。</message>
+	<message label="401_02" attrib="00 00 00 00 00 00 13 00"><anim id="FaintSmile" target="actor" targetSpec="" />你好，<delay8 />我是<tag a="110" b="10" />。<delay frames="40" />
+<anim id="EmotEnd" target="actor" targetSpec="" />嗯……<delay20 /><anim id="Hello" target="actor" targetSpec="" />請問有什麼事嗎？<tag a="110" b="6" />。</message>
+	<message label="401_03" attrib="00 00 00 00 00 00 13 00"><anim id="FaintSmile" target="actor" targetSpec="" />喂？<delay8 />你好，<delay20 />我是<tag a="110" b="10" />！<delay frames="40" />
+嗯……<delay20 /><anim id="QuestionMark" target="actor" targetSpec="" />請問找我有什麼事嗎？<tag a="110" b="6" />。</message>
+	<message label="401_04" attrib="00 00 00 00 00 00 13 00"><anim id="Smiling" target="actor" targetSpec="" />你好，<delay8 />我是<tag a="110" b="10" />。<delay frames="40" />
+<anim id="Hello" target="actor" targetSpec="" />有什麼事請說吧，<tag a="110" b="6" />。</message>
+</msbt>

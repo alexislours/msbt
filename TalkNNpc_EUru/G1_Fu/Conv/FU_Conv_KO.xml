@@ -1,0 +1,77 @@
+<msbt attribsize="8">
+	<message label="001" attrib="00 00 00 00 00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="110" b="3" />, не выручишь?
+<anim id="Worried" target="actor" targetSpec="" />Ты же знаешь, что на пикнике
+можно отлично провести время<delay20 />?<pageBreak /><anim id="Serious" target="actor" targetSpec="" />Помоги мне убедить в этом
+<tag a="50" b="23" arg="0xcd01" /><tag a="110" b="31" arg="0xcd01" />!<delay20 /> <tag a="50" b="3" /><tag a="110" b="5" />!</message>
+	<message label="002" attrib="00 00 00 00 00 00 00 00"><anim id="OhGeez" target="actor" targetSpec="" />Да ну вас <delay20 />с вашими пикниками.<delay40 />
+Тащить еще <anim id="Negative" target="actor" targetSpec="" />все из дома на улицу!<delay20 />
+<tag a="50" b="3" /><tag a="110" b="5" />!</message>
+	<message label="003" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />На свежем воздухе даже простое
+блюдо <anim id="Hello" target="actor" targetSpec="" />становится чем-то
+особенным.<delay8 /><pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />И тебе даже не нужно будет
+готовить.<delay8 /> <anim id="Assent" target="actor" targetSpec="" />Я на всех наготовлю.<anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak /><tag a="110" b="31" arg="0xcd01" />, <anim id="QuestionMark" target="actor" targetSpec="" />ты что хочешь?</message>
+	<message label="004" attrib="00 00 00 00 00 00 00 00">Я бы не хотел доставлять <anim id="ShyBoy" target="actor" targetSpec="" />тебе
+хлопот.<delay20 /><anim id="EmotEnd" target="actor" targetSpec="" /> Кроме того, я <anim id="Hesitate" target="actor" targetSpec="" />даже не знаю,
+что я хочу.<delay8 /><anim id="EmotEnd" target="actor" targetSpec="" /></message>
+	<message label="005" attrib="00 00 10 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Это не доставит мне никаких
+хлопот!<delay40 /><anim id="FaintSmile" target="actor" targetSpec="" /><delay8 /> <20_2 arg="0" /><20_2 arg="3" /><tag a="50" b="3" /><tag a="110" b="3" />, что
+посоветуешь? <tag a="50" b="3" /><tag a="110" b="5" />!</message>
+	<message label="005_a" attrib="00 00 00 00 00 00 00 00">Бутерброды.</message>
+	<message label="005_b" attrib="00 00 00 00 00 00 00 00">Пирожки.</message>
+	<message label="005_c" attrib="00 00 00 00 00 00 00 00">Блины с семгой.</message>
+	<message label="005_d" attrib="00 00 00 00 00 00 00 00">Салат.</message>
+	<message label="005_e" attrib="00 00 00 00 00 00 00 00">Манную кашу.</message>
+	<message label="006" attrib="00 00 00 00 00 00 00 00"><20_2 arg="2" /><20_3 arg="7" /><anim id="WrySmile" target="actor" targetSpec="" />Классика! Но этим меня <anim id="Laughing" target="actor" targetSpec="" />не
+накормишь.<anim id="EmotEnd" target="actor" targetSpec="" /><delay8 /><pageBreak />Если бы ты еще <anim id="Hesitate" target="actor" targetSpec="" />испекла один из
+своих <anim id="FaintSmile" target="mainNpc" targetSpec="" />фирменных пирогов<tag a="110" b="0" /><anim id="FaintSmile" target="actor" targetSpec="" /></message>
+	<message label="007" attrib="00 00 00 00 00 00 00 00"><20_2 arg="2" /><anim id="Thinking" target="actor" targetSpec="" />Гм<tag a="110" b="0" /><delay8 /> <20_3 arg="7" />Неплохой вариант,<delay20 /> но я еще
+люблю <anim id="Grin" target="actor" targetSpec="" /><delay20 />их во что-нибудь макать,<anim id="Pardon" target="mainNpc" targetSpec="" /><delay20 />
+например в сметану. <tag a="50" b="3" /><tag a="110" b="5" />!<anim id="EmotEnd" target="actor" targetSpec="" /></message>
+	<message label="008" attrib="00 00 00 00 00 00 00 00"><20_2 arg="2" /><anim id="TakenAback" target="actor" targetSpec="" />С семгой, говоришь? <delay20 /><anim id="Worried" target="actor" targetSpec="" />Не слишком
+ли шикарно для пикника?<delay20 />
+<tag a="50" b="3" /><tag a="110" b="5" />!<pageBreak /><anim id="Hesitate" target="actor" targetSpec="" /><anim id="Hesitate" target="actor" targetSpec="" />Но если мы собираемся устроить
+шикарный пикник,<delay20 /> то можешь <anim id="Grin" target="actor" targetSpec="" /><anim id="FaintSmile" target="mainNpc" targetSpec="" />еще
+грильяж в шоколаде сделать.</message>
+	<message label="009" attrib="00 00 00 00 00 00 00 00"><20_2 arg="2" /><anim id="Thinking" target="actor" targetSpec="" />Салат будет трудно есть на свежем
+воздухе.<delay8 /> <20_3 arg="7" /><anim id="WrySmile" target="actor" targetSpec="" />Разве только фруктовый
+салат <anim id="FaintSmile" target="mainNpc" targetSpec="" />в желе<tag a="110" b="0" /></message>
+	<message label="010" attrib="00 00 00 00 00 00 00 00"><20_0 arg="P0&gt;N1,N0&gt;N1" /><anim id="Serious" target="actor" targetSpec="" />Я что маленький, что ли?<delay20 /> <20_3 arg="7" /><anim id="WrySmile" target="actor" targetSpec="" />Но если
+ты ее польешь шоколадным соусом,
+<anim id="FaintSmile" target="mainNpc" targetSpec="" />то я не откажусь<tag a="110" b="0" /></message>
+	<message label="101" attrib="00 00 00 00 00 00 00 00">Иногда я думаю, <anim id="Worried" target="actor" targetSpec="" />что мне стоит чаще
+писать своим родителям.<pageBreak /><tag a="50" b="3" /><tag a="110" b="31" arg="0xcd01" />, <anim id="QuestionMark" target="actor" targetSpec="" />ты часто пишешь
+своим родителям?</message>
+	<message label="102" attrib="00 00 00 00 00 00 00 00">Нет. <delay8 /><anim id="Negative" target="actor" targetSpec="" />Я не очень люблю письма
+писать<tag a="110" b="0" /><anim id="EmotEnd" target="actor" targetSpec="" /> Кроме того, я даже
+не знаю, <anim id="OhGeez" target="actor" targetSpec="" />что писать.</message>
+	<message label="103" attrib="00 00 00 00 00 00 00 00"><20_2 arg="3" /><anim id="FaintSmile" target="actor" targetSpec="" />Наверняка они будут рады<delay20 /> получить
+от тебя весточку, почитать
+о твоих делах.<delay20 /> <tag a="50" b="3" /><tag a="110" b="5" />!</message>
+	<message label="104" attrib="00 00 00 00 00 00 00 00">Вот так, что ли? <anim id="AbsentMindedness" target="actor" targetSpec="" />«Дорогие мама
+и папа! Моя соседка говорит, что
+<anim id="TakenAback" target="mainNpc" targetSpec="" />мне нужно вам чаще писать».</message>
+	<message label="105" attrib="00 00 00 00 00 00 00 00"><20_2 arg="3" /><anim id="Nodding" target="actor" targetSpec="" />Ну, <delay8 />это неплохое начало<tag a="110" b="0" />
+<anim id="FaintSmile" target="actor" targetSpec="" />А что ты дальше писать будешь?</message>
+	<message label="106" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Дальше?<delay20 /> <anim id="OhGeez" target="actor" targetSpec="" />Это все, что я могу
+<anim id="TakenAback" target="mainNpc" targetSpec="" />придумать.</message>
+	<message label="107" attrib="00 00 00 00 00 00 00 00"><20_2 arg="3" /><anim id="Worried" target="actor" targetSpec="" />Но<tag a="110" b="0" /> это так звучит, <anim id="Frantic" target="actor" targetSpec="" /><anim id="WrySmile" target="subNpc" targetSpec="" />будто я тебе
+постоянно на нервы действую.<anim id="EmotEnd" target="actor" targetSpec="" /></message>
+	<message label="108" attrib="00 00 00 00 00 00 00 00"><anim id="Worried" target="mainNpc" targetSpec="" />Да ладно.<delay8 /> <anim id="WrySmile" target="actor" targetSpec="" />Когда они это прочитают,
+они будут знать, что у меня есть
+соседи, <anim id="Laughing" target="actor" targetSpec="" /><anim id="FaintSmile" target="mainNpc" targetSpec="" />которые обо мне заботятся.<anim id="FaintSmile" target="actor" targetSpec="" /></message>
+	<message label="201" attrib="00 00 00 00 00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />Правильно говорят: <anim id="FaintSmile" target="actor" targetSpec="" /><anim id="Serious" target="subNpc" targetSpec="" />«Как аукнется,
+так и откликнется», <tag a="110" b="5" />.</message>
+	<message label="202" attrib="00 00 00 00 00 00 00 00"><20_2 arg="4" /><anim id="Outraged" target="actor" targetSpec="" />Это еще что означает?<anim id="TakenAback" target="mainNpc" targetSpec="" /><delay20 /><anim id="EmotEnd" target="actor" targetSpec="" /><anim id="EmotEnd" target="mainNpc" targetSpec="" />
+Разве я <anim id="Sighing" target="actor" targetSpec="" /><anim id="Worried" target="mainNpc" targetSpec="" />такой зануда,
+<tag a="110" b="31" arg="0xcd00" />?</message>
+	<message label="203" attrib="00 00 00 00 00 00 00 00"><anim id="Worried" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="110" b="5" />, извини, если я тебя
+огорчила.<delay8 /> <anim id="Hesitate" target="actor" targetSpec="" />Ты можешь быть милым,
+<anim id="FaintSmile" target="actor" targetSpec="" /><anim id="FaintSmile" target="subNpc" targetSpec="" />если захочешь, <tag a="110" b="31" arg="0xcd01" />.</message>
+	<message label="204" attrib="00 00 00 00 00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />Может, мне надо говорить, как ты<tag a="110" b="0" /><delay8 />
+<anim id="WrySmile" target="actor" targetSpec="" />И вставлять в разговор такие
+выражения, <anim id="Aha" target="mainNpc" targetSpec="" />как «<tag a="110" b="5" />».<anim id="EmotEnd" target="mainNpc" targetSpec="" /><pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Как ты на это смотришь,
+<anim id="Smiling" target="mainNpc" targetSpec="" /><tag a="110" b="5" />?</message>
+	<message label="205" attrib="00 00 00 00 00 00 00 00"><anim id="Laughing" target="actor" targetSpec="" />Это совершенно меняет весь твой
+тон! <delay40 /><anim id="FaintSmile" target="subNpc" targetSpec="" />Так смешно слышать, как ты
+произносишь «<tag a="50" b="3" /><tag a="110" b="5" />!»</message>
+</msbt>

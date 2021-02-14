@@ -1,0 +1,93 @@
+<msbt attribsize="8">
+	<message label="001" attrib="00 00 02 00 00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />실은 말야아, <delay8 /><tag a="115" b="1" arg="0xcd00" /><tag a="110" b="13" />한테<delay20 />
+예～전에 빌려 놓고서<delay20 />
+아직 안 갖다준 물건이 있거든～<pageBreak /><anim id="Worried" target="actor" targetSpec="" />혹시 화났으면 어떡하나아～<delay20 />
+싶어서 <delay20 />괜히 더<delay8 />
+돌려주질 못하겠더라구우<tag a="110" b="0" /><pageBreak /><anim id="Confused" target="actor" targetSpec="" /><tag a="110" b="4" /><gender5 m="아" f="야" />!<delay20 />
+나 대신 니가 돌려주면
+안 될까아～? <tag a="110" b="6" />?</message>
+	<message label="001_a" attrib="00 00 00 00 00 00 00 00">좋아</message>
+	<message label="001_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="player" targetSpec="" />용기를 내!</message>
+	<message label="002" attrib="00 00 02 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />저번에 <delay8 /><tag a="115" b="1" arg="0xcd00" /><tag a="110" b="13" /><gender5 m="이" f="가" /><delay20 />
+놀러왔을 때 말이지이<delay20 />
+깜빡 놓고 간 물건이 있거드은～<pageBreak /><anim id="Thinking" target="actor" targetSpec="" />아마 잃어버려서 난처할 테니까아<delay20 />
+당장이라도 갖다주고 싶은데에<delay20 />
+내가 마침 볼일이 있어서 말이지이<tag a="110" b="0" /><pageBreak /><anim id="QuestionMark" target="actor" targetSpec="" />너가 <delay8 />나 대신<delay20 />
+전해주고 오면 안 될까아～? <tag a="110" b="6" />?</message>
+	<message label="002_a" attrib="00 00 00 00 00 00 00 00">갖다줄게</message>
+	<message label="002_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="player" targetSpec="" />미안해</message>
+	<message label="003" attrib="00 00 02 00 00 00 00 00">아까 <delay8 />우리 집 우편함을 살펴봤더니이<delay20 />
+<anim id="TakenAback" target="actor" targetSpec="" /><tag a="115" b="1" arg="0xcd00" /><tag a="110" b="13" />한테 가야 할<delay20 />
+소포가 들어 있지 뭐야아～<pageBreak /><anim id="Thinking" target="actor" targetSpec="" />배달할 집을<delay20 />
+착각했나 봐아～<pageBreak /><anim id="Worried" target="actor" targetSpec="" />기다리고 있을지도 모르니까아<delay20 />
+얼른 갖다주고 싶은데에<tag a="110" b="0" /><pageBreak /><anim id="IdeaBulb" target="actor" targetSpec="" /><tag a="110" b="4" /><gender5 m="아" f="야" />!<delay frames="40" />
+<anim id="EmotEnd" target="actor" targetSpec="" />나보단 너가 더 빠를 거 같애!<delay20 />
+<anim id="Greeting" target="actor" targetSpec="" />이 소포 <delay8 />부탁해도 될까아～? <tag a="110" b="6" />?</message>
+	<message label="003_a" attrib="00 00 00 00 00 00 00 00">나한테 맡겨!</message>
+	<message label="003_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="player" targetSpec="" />너도 할 수 있어!</message>
+	<message label="004" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />진짜루우?!<delay frames="60" />
+<anim id="Smiling" target="actor" targetSpec="" />우와아～<delay20 /> 고마워어～<delay frames="40" />
+그럼 이것 좀 전해줘～! <tag a="110" b="6" />!</message>
+	<message label="005" attrib="00 00 00 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />고마워어～!<delay20 /> 덕분에 살았다아～<delay frames="40" />
+<anim id="Smiling" target="actor" targetSpec="" />그럼 이거 부탁할게에～ <tag a="110" b="6" />!</message>
+	<message label="006" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />고마워어～<delay frames="40" />
+그럼 <delay8 />이 소포 너한테 맡길게에～ <tag a="110" b="6" />!</message>
+	<message label="007" attrib="00 00 00 00 00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />히잉～<delay frames="40" />
+<anim id="Nodding" target="actor" targetSpec="" />역시 내가 직접<delay20 />
+돌려주러 가야겠지이～? <tag a="110" b="6" />?</message>
+	<message label="008" attrib="00 00 00 00 00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />히잉～<delay frames="40" />
+<anim id="EmotEnd" target="actor" targetSpec="" />너도 바쁜가 보구나아～?<delay frames="40" />
+<anim id="FaintSmile" target="actor" targetSpec="" />나중에 내가 다녀올게에～ <tag a="110" b="6" />!</message>
+	<message label="009" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />그래, 니 말이 맞아～<delay frames="40" />
+나도 <delay8 />할 수 있다구우!<delay20 />
+<anim id="SmugFace" target="actor" targetSpec="" />내가 얼른 갖다주고 올게에～ <tag a="110" b="6" />!</message>
+	<message label="101" attrib="00 00 02 00 00 00 00 00">너한테 부탁이 하나 있는데에～<delay frames="40" />
+<anim id="Hesitate" target="actor" targetSpec="" /><tag a="115" b="1" arg="0xcd00" /><gender5 m="을" f="를" /> 위해서<delay20 />
+이 선물을 준비했거든<tag a="110" b="0" /><pageBreak /><anim id="Greeting" target="actor" targetSpec="" />나 대신 너가<delay20 />
+갖다줬으면 해서어～<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />내가 직접 주는 거보다<delay20 />
+너가 갖다주는 게<delay20 />
+<anim id="Grin" target="actor" targetSpec="" />더 깜짝 선물이 될 거 같애～<pageBreak /><anim id="Pardon" target="actor" targetSpec="" /><tag a="110" b="4" /><gender5 m="아" f="야" />!<delay20 />
+갖다주면 안 될까아～? <tag a="110" b="6" />?</message>
+	<message label="101_a" attrib="00 00 00 00 00 00 00 00">갖다줄게</message>
+	<message label="101_b" attrib="00 00 00 00 00 00 00 00">지금은 힘들 것 같아</message>
+	<message label="102" attrib="00 00 02 00 00 00 00 00"><anim id="Sighing" target="actor" targetSpec="" />나 있지이, <tag a="115" b="1" arg="0xcd00" /><tag a="110" b="13" /><gender5 m="이" f="" />랑<delay20 />
+간식을 누가 더 먹을지로 다투고 말았어<tag a="110" b="0" /><pageBreak /><anim id="SadSpiral" target="actor" targetSpec="" />얼른 화해하고 다시 같이<delay20 />
+간식을 나눠 먹고 싶은데에<delay20 />
+용기가 나질 않아서어～<tag a="110" b="0" /><pageBreak /><anim id="Frantic" target="actor" targetSpec="" /><tag a="110" b="4" /><gender5 m="아" f="야" />,<delay20 /> 부탁이야아～<delay frames="40" />
+화해하잔 뜻으로 준비한 선물을<delay20 />
+나 대신 전해주면 안 될까아～? <tag a="110" b="6" />?</message>
+	<message label="102_a" attrib="00 00 00 00 00 00 00 00">전해줄게</message>
+	<message label="102_b" attrib="00 00 00 00 00 00 00 00"><anim id="EmotEnd" target="player" targetSpec="" />용기를 내!</message>
+	<message label="103" attrib="00 00 00 00 00 00 00 00"><anim id="HappyDance" target="actor" targetSpec="" />고마워어～<delay frames="40" />
+<tag a="115" b="1" arg="0xcd00" /><tag a="110" b="13" />,<delay20 />
+분명 깜짝 놀라겠지이～? <tag a="110" b="6" />?</message>
+	<message label="104" attrib="00 00 00 00 00 00 00 00"><anim id="WrySmile" target="actor" targetSpec="" />휴우, 다행이다아～<delay frames="40" />
+이런 일을 맡겨서 미안해!<delay frames="40" />
+<anim id="EmotEnd" target="actor" targetSpec="" />그럼 <delay8 />이걸 부탁할게에～ <tag a="110" b="6" />!</message>
+	<message label="105" attrib="00 00 00 00 00 00 00 00">그렇구나아～<delay frames="40" />
+<anim id="FaintSmile" target="actor" targetSpec="" />그럼 <delay8 />내가 직접 갖다줄게에!<delay frames="40" />
+<tag a="115" b="1" arg="0xcd00" /><tag a="110" b="13" />도 만날 겸～ <tag a="110" b="6" />!</message>
+	<message label="106" attrib="00 00 00 00 00 00 00 00">히잉～<delay frames="40" />
+<anim id="Nodding" target="actor" targetSpec="" />역시 내가 제대로<delay20 />
+사과해야겠지이～? <tag a="110" b="6" />?</message>
+	<message label="108" attrib="00 00 00 00 00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />오늘 안에 갖다주면 좋겠어～<delay frames="40" />
+부탁할게에～ <tag a="110" b="6" />～</message>
+	<message label="109" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />오늘은 벌써 캄캄해졌으니까아<delay20 />
+<anim id="EmotEnd" target="actor" targetSpec="" />내일 안에만 갖다주면<delay20 />
+<anim id="Greeting" target="actor" targetSpec="" />될 거 같애～ <tag a="110" b="6" />～</message>
+	<message label="201" attrib="00 00 00 00 00 00 00 00"><anim id="Confused" target="actor" targetSpec="" /><tag a="115" b="1" arg="0xcd00" /><tag a="110" b="0" /><delay20 />
+화났으면 어떡하지이～?<delay frames="40" />
+<anim id="Worried" target="actor" targetSpec="" />잊지 말구 꼭 돌려주고 와줘어～ <tag a="110" b="6" />!</message>
+	<message label="202" attrib="00 00 00 00 00 00 00 00">놓고 간 물건을<delay20 />
+<anim id="Greeting" target="actor" targetSpec="" />꼭 <tag a="115" b="1" arg="0xcd00" /><tag a="110" b="13" />한테<delay20 />
+전달해줘어～ <tag a="110" b="6" />!</message>
+	<message label="203" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />너한테 맡긴 소포,<delay20 />
+<tag a="115" b="1" arg="0xcd00" /><tag a="110" b="13" />한테<delay20 />
+<anim id="Greeting" target="actor" targetSpec="" />실수 없이 잘 전달해줘어～ <tag a="110" b="6" />!</message>
+	<message label="204" attrib="00 00 00 00 00 00 00 00">그 선물 있지이,<delay20 /> <anim id="Greeting" target="actor" targetSpec="" />꼭 내가 준 거라고<delay20 />
+<tag a="115" b="1" arg="0xcd00" /><tag a="110" b="13" />한테
+전해줘어～ <tag a="110" b="6" />!</message>
+	<message label="205" attrib="00 00 00 00 00 00 00 00"><anim id="Restless" target="actor" targetSpec="" />그 화해의 선물 말야아,<delay20 />
+되도록 빨리 전해주면 좋겠어～<pageBreak /><tag a="110" b="0" /><anim id="Worried" target="actor" targetSpec="" /><tag a="115" b="1" arg="0xcd00" /><tag a="110" b="13" /><gender5 m="이" f="가" /><delay20 />
+그걸 받고 마음이 풀릴까아～? <tag a="110" b="6" />?</message>
+</msbt>
