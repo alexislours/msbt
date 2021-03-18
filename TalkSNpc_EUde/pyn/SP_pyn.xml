@@ -50,7 +50,7 @@ Glückseier <colour id="65535" />versteckt.<pageBreak /><anim id="Greeting" targ
 bringst du sie zu mir.<pageBreak /><anim id="Negative" target="actor" targetSpec="" />In Gebäuden drin brauchst du
 nicht zu suchen.
 <delay frames="40" /><size value="75" />Da lassen sie mich nichts verstecken...<size value="100" />
-<anim id="HappyDance" target="actor" targetSpec="" />Bäume,<delay8 /> Felsen,<delay8 /> Gewässer, <delay8 />Erde,
+<anim id="HappyDance" target="actor" targetSpec="" />Bäume,<delay8 /> Felsen,<delay8 /> Angelgewässer, <delay8 />Erde,
 <delay8 />Himmel<tag a="110" b="0" /> <delay20 />Lass dir kein einziges
 Glücksei entgehen!</message>
 	<message label="016" attrib="00 00 00 00">Und zuuuuuusätzlich zu diesem
@@ -59,6 +59,20 @@ Bombentipp<tag a="110" b="0" /> <delay8 />Hier, <delay8 />bitte schön!</message
 <colour id="1" />Häschentag-Bett<colour id="65535" />!<anim id="Nodding" target="actor" targetSpec="" /> Grundmaterial
 dafür sind natürlich Glückseier!
 <tag a="10" b="6" />Und nun<delay8 /> <anim id="Dance" target="actor" targetSpec="" />noch eine Hammer-
+Ankündigung!<delay frames="50" />
+<anim id="Worried" target="actor" targetSpec="" /><size value="75" />Hoffentlich versprech ich nicht zu viel<tag a="110" b="0" /><size value="100" /><endTag a="10" b="6" /><pageBreak /><anim id="BigSmile" target="actor" targetSpec="" />Ich habe überall auf der Insel weitere
+<colour id="1" />Bastelanleitungen <colour id="65535" />für Häschentag-
+Krempel versteckt!<pageBreak />Je näher der Häschentag rückt, <delay20 /><anim id="Smiling" target="actor" targetSpec="" />desto
+mehr Anleitungen gibt es zu finden!<pageBreak />Wenn du ALLE Anleitungen findest<tag a="110" b="0" />
+<delay8 />und <colour id="1" />ALLE davon nachbastelst<colour id="65535" />,<delay20 /><anim id="Clapping" target="actor" targetSpec="" /> dann
+kriegst du einen Wahnsinnspreis!<delay frames="50" /><anim id="FaintSmile" target="actor" targetSpec="" />
+<anim id="Hello" target="actor" targetSpec="" />Also such wie der Fluch und bastel
+mit Hastel! <delay20 /><size value="75" />Das ergibt keinen Sinn, <delay8 />aber
+klingt doch ganz gut, <delay8 />oder?<size value="100" /><pageBreak /><anim id="Laughing" target="actor" targetSpec="" />Einen wi-<delay8 />wa-<delay8 />wunderschönen
+<colour id="1" />Häschentag <colour id="65535" />wünsche ich dir!</message>
+	<message label="017_01" attrib="00 00 00 00"><colour id="1" />10 Wasser-Glückseier<colour id="65535" />,<delay8 /><anim id="Nodding" target="actor" targetSpec="" /> damit
+deine Eiersammlung ein bisschen
+ausge-pi-pa-polstert wird!<pageBreak /><tag a="10" b="6" />Und nun<delay8 /> <anim id="Dance" target="actor" targetSpec="" />noch eine Hammer-
 Ankündigung!<delay frames="50" />
 <anim id="Worried" target="actor" targetSpec="" /><size value="75" />Hoffentlich versprech ich nicht zu viel<tag a="110" b="0" /><size value="100" /><endTag a="10" b="6" /><pageBreak /><anim id="BigSmile" target="actor" targetSpec="" />Ich habe überall auf der Insel weitere
 <colour id="1" />Bastelanleitungen <colour id="65535" />für Häschentag-
@@ -90,9 +104,9 @@ nichts, <delay8 />ja? <delay20 />Soll ja eine Überraschung
 bleiben.</message>
 	<message label="022" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />In Gebäuden drin gibt's keine
 Glückseier, <delay8 />oh nein!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Nur im Freien sollst du sie suchen,<delay8 />
-dann sind sie ganz bald dein!<pageBreak /><anim id="HappyDance" target="actor" targetSpec="" />Bäume, <delay8 />Felsen, <delay8 />Gewässer, <delay8 />Erde,
-<delay8 />Himmel<tag a="110" b="0" /> <delay20 />Finde sie, <delay8 />bevor sie
-bedeckt sind mit Schimmel!<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" /><size value="75" />Keine Angst, <delay8 />die sind jahrelang haltbar.
+dann sind sie ganz bald dein!<pageBreak /><anim id="HappyDance" target="actor" targetSpec="" />Bäume, <delay8 />Felsen, <delay8 />Angelgewässer,
+<delay8 />Erde, <delay8 />Himmel<tag a="110" b="0" /> <delay20 />Finde sie, <delay8 />bevor
+sie bedeckt sind mit Schimmel!<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" /><size value="75" />Keine Angst, <delay8 />die sind jahrelang haltbar.
 <delay20 />Ich hab das nur gesagt, <delay8 />weil es sich reimt...<size value="100" /></message>
 	<message label="023" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Denk dran, <delay8 />auch nach den
 versteckten <colour id="1" />Bastelanleitungen
@@ -178,6 +192,12 @@ solltest du schnellstens loshoppeln.
 <anim id="Cheering" target="actor" targetSpec="" />Denn nur wer <colour id="1" />alles davon bastelt<colour id="65535" />,
 <delay8 />erhält eine exklusive Belohnung.<delay20 />
 <anim id="Laughing" target="actor" targetSpec="" />Viel Glückeldi-<delay8 />Erfolg!</message>
+	<message label="108_01" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" /><colour id="1" />10 Fels-Glückseier<colour id="65535" /> für <gender2 m="den modernen" f="die moderne" />
+<gender2 m="Eiermann" f="Eierfrau" /> von vor-<delay8 />vor-<delay8 />vorgestern!<pageBreak />Also dann<tag a="110" b="0" /><delay20 /><anim id="Dance" target="actor" targetSpec="" /> Wenn du alle
+<colour id="1" />Bastelanleitungen<colour id="65535" /> finden willst,<delay8 />
+solltest du schnellstens loshoppeln.<pageBreak /><anim id="Cheering" target="actor" targetSpec="" />Denn nur wer <colour id="1" />alles davon bastelt<colour id="65535" />,
+<delay8 />erhält eine exklusive Belohnung.<delay20 />
+<anim id="Laughing" target="actor" targetSpec="" />Viel Glückeldi-<delay8 />Erfolg!</message>
 	<message label="109" attrib="00 00 00 00">Und außerdem: <delay20 />Hier, <delay8 />für<tag a="110" b="0" /><anim id="QuestionMark" target="actor" targetSpec="" /> <delay20 />Nanu?<delay20 />
 Deine Ti-To-Tasche ist voll!<delay20 /> Voll
 blöd ist das.
@@ -194,6 +214,16 @@ mitgebracht habe!</message>
 ein <colour id="1" />Häschentag-Tor<colour id="65535" />!<delay frames="40" /> Das wird aus
 Glückseiern zusammengebaut.
 <tag a="10" b="6" /><anim id="Dance" target="actor" targetSpec="" />Und jetzt verkünde ich noch etwas
+Grandioses!<delay frames="40" /> <anim id="EmotEnd" target="actor" targetSpec="" /><size value="75" />Hörst du mir überhaupt zu?
+<delay20 />Egal, <delay8 />ich sag's jetzt einfach.<size value="100" /><endTag a="10" b="6" /><pageBreak /><anim id="BigSmile" target="actor" targetSpec="" />Überall auf der Insel sind
+<colour id="1" />Bastelanleitungen <colour id="65535" />mit <colour id="1" />Häschentag<colour id="65535" />-
+Bezug versteckt.<pageBreak />Wer alle davon findet<delay8 /> UND <colour id="1" />alle
+davon nachbastelt<colour id="65535" />, <delay8 />erhält einen
+ganz besonderen Preis!
+<anim id="Hello" target="actor" targetSpec="" />Also schwing den Puschel!</message>
+	<message label="113_01" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" /><colour id="1" />10 Fels-Glückseier<colour id="65535" />,<delay8 /> weil du so lange
+Löffel hast!<delay frames="40" /> Eine fi-fa-felsenfeste
+Investition in deine Zukunft,<delay8 /> was?!<pageBreak /><tag a="10" b="6" /><anim id="Dance" target="actor" targetSpec="" />Und jetzt verkünde ich noch etwas
 Grandioses!<delay frames="40" /> <anim id="EmotEnd" target="actor" targetSpec="" /><size value="75" />Hörst du mir überhaupt zu?
 <delay20 />Egal, <delay8 />ich sag's jetzt einfach.<size value="100" /><endTag a="10" b="6" /><pageBreak /><anim id="BigSmile" target="actor" targetSpec="" />Überall auf der Insel sind
 <colour id="1" />Bastelanleitungen <colour id="65535" />mit <colour id="1" />Häschentag<colour id="65535" />-
@@ -386,7 +416,7 @@ dann verfliegen all deine Sorgen!<10_7 arg="180" /></message>
 Glückseier.<delay frames="40" /> <anim id="Greeting" target="actor" targetSpec="" />Finde sie ALLE!<delay20 /><anim id="Greeting" target="actor" targetSpec="" />
 Bring sie mir ALLE!</message>
 	<message label="192" attrib="00 00 00 00"><anim id="HappyDance" target="actor" targetSpec="" />Im Freien soll deine Suche
-geschehen<tag a="110" b="0" /><pageBreak />Bäume,<delay8 /> Felsen,<delay8 /> Gewässer, <delay8 />Erde,
+geschehen<tag a="110" b="0" /><pageBreak />Bäume,<delay8 /> Felsen,<delay8 /> Angelgewässer, <delay8 />Erde,
 <delay8 />Himmel<tag a="110" b="0" /> <delay20 />Lass dir kein einziges
 Glücksei entgehen!</message>
 	<message label="193" attrib="00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Bei meinem flauschigen Puschel!<delay frames="40" />
@@ -404,6 +434,13 @@ platt! <delay frames="40" /><anim id="HappyDance" target="actor" targetSpec="" /
 und alle deine Ahnen!
 <anim id="Nodding" target="actor" targetSpec="" />Ich weiß gar nicht, <delay8 />was ich da noch
 sagen soll.<delay20 /> Außer vielleicht<tag a="110" b="0" /></message>
+	<message label="200_01" attrib="00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Wie-wo-was?<delay20 /> Du hast alle
+Anleitungen gefunden UND
+nachgebastelt?!<pageBreak /><anim id="HappyDance" target="actor" targetSpec="" />Aber dein größtes Ei musst du erst
+noch legen!<delay20 /> Indem du ein Spielzeug
+baust,<delay8 /> das so aussieht<tag a="110" b="0" /><delay20 /> <anim id="EmotEnd" target="actor" targetSpec="" />wie ICH!<pageBreak /><anim id="BigSmile" target="actor" targetSpec="" />Ge-ni-na-nau!<delay20 /> Einen <colour id="1" />Stehauf-Ohs<colour id="65535" />,
+<delay8 />wie er in dieser Anleitung steht!<delay frames="40" />
+Dann soll der Hauptpreis dein sein!</message>
 	<message label="201" attrib="00 00 00 00"><tag a="10" b="12" /><tag a="10" b="6" /><anim id="Laughing" target="actor" targetSpec="" /><size value="150" />Ätschibätsch!<delay20 /> Es geht
 noch weiter!<delay frames="30" /> <size value="100" /><size value="75" /><tag a="110" b="0" /><anim id="EmotEnd" target="actor" targetSpec="" />Hasst du mich jetzt?<size value="100" /><endTag a="10" b="6" /><pageBreak /><anim id="Explain" target="actor" targetSpec="" />Ich habe noch EINE letzte
 Bastelanleitung für dich!<delay frames="30" />
@@ -425,9 +462,20 @@ fertig!
 <anim id="Hello" target="actor" targetSpec="" />Fi-fa-fe-fo-fantastisch!<pageBreak /><anim id="Clapping" target="actor" targetSpec="" />Glückwunsch, <delay8 />Gratulation!<delay frames="30" />
 <anim id="Nodding" target="actor" targetSpec="" />Deinen Preis hast du dir jetzt
 mehr als verdient!</message>
+	<message label="204_01" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Dein überglückliches Grinsen verrät
+dich<tag a="110" b="0" /> <delay20 /><anim id="Aha" target="actor" targetSpec="" />Du hast all meine Bastel-
+anleitungen nachgebastelt!<pageBreak /><anim id="Hello" target="actor" targetSpec="" />Fi-fa-fe-fo-fantastisch, <delay8 />du bist
+echt das Gelbe vom Eiersalat!<pageBreak /><anim id="Clapping" target="actor" targetSpec="" />Glückwunsch, <delay8 />Gratulation!<delay frames="30" />
+<anim id="Nodding" target="actor" targetSpec="" />Deinen Preis hast du dir jetzt
+mehr als verdient!</message>
 	<message label="205" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Eine Anleitung für einen
 <colour id="1" />Häschentag-Stab<colour id="65535" />!<delay frames="40" /> <size value="75" /><anim id="Serious" target="actor" targetSpec="" /><tag a="110" b="0" />Und sag jetzt bloß
 nicht „Schon wieder nur eine Anleitung“!<pageBreak /><size value="100" /><anim id="EmotEnd" target="actor" targetSpec="" />Nach all diesen Bastelfreuden
+ist es Zeit für einen letzten
+Häschentanz! <delay20 />Uuuuuund<tag a="110" b="0" /></message>
+	<message label="205_01" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Nämlich diesen ei-ei-einwandfreien
+<colour id="1" />Häschentag-Stab<colour id="65535" />!<delay frames="40" /> <size value="75" /><anim id="Serious" target="actor" targetSpec="" /><tag a="110" b="0" />Den kriegen wirklich
+nur die hoppel-di-hoppligsten aller Langohren!<pageBreak /><size value="100" /><anim id="EmotEnd" target="actor" targetSpec="" />Und nach all diesen Bastelfreuden
 ist es Zeit für einen letzten
 Häschentanz! <delay20 />Uuuuuund<tag a="110" b="0" /></message>
 	<message label="206" attrib="00 00 00 00">Ein Gewinner bist du! <delay frames="30" />Ein Gewinner
@@ -458,10 +506,26 @@ solltest du schnellstens loshoppeln.
 <anim id="Cheering" target="actor" targetSpec="" />Denn nur wer <colour id="1" />alles davon bastelt<colour id="65535" />,<delay8 />
 erhält eine exklusive Belohnung.<delay20 />
 <anim id="Laughing" target="actor" targetSpec="" />Viel Glückeldi-<delay8 />Dusel!</message>
+	<message label="222_01" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Bitte schön, <delay8 />die <colour id="1" />10 Fels-Glückseier<colour id="65535" />,
+<delay8 />die du vorhin-<delay8 />ding-<delay8 />dingeling nicht
+tragen konntest.<pageBreak />Also dann<tag a="110" b="0" /><delay20 /><anim id="Dance" target="actor" targetSpec="" /> Wenn du alle
+<colour id="1" />Bastelanleitungen<colour id="65535" /> finden willst,<delay8 />
+solltest du schnellstens loshoppeln.<pageBreak /><anim id="Cheering" target="actor" targetSpec="" />Denn nur wer <colour id="1" />alles davon bastelt<colour id="65535" />,<delay8 />
+erhält eine exklusive Belohnung.<delay20 />
+<anim id="Laughing" target="actor" targetSpec="" />Viel Glückeldi-<delay8 />Dusel!</message>
 	<message label="223" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Hier also endlich die Bastelanleitung
 für das <colour id="1" />Häschentag-Tor<colour id="65535" />!<delay frames="40" /> Es wird aus
 Glückseiern zusammengebaut.
 <tag a="10" b="6" /><anim id="Dance" target="actor" targetSpec="" />Und jetzt verkünde ich noch etwas
+Grandioses!<delay frames="40" /> <anim id="EmotEnd" target="actor" targetSpec="" /><size value="75" />Hörst du mir überhaupt zu?
+<delay20 />Egal, <delay8 />ich sag's jetzt einfach.<size value="100" /><endTag a="10" b="6" /><pageBreak /><anim id="BigSmile" target="actor" targetSpec="" />Überall auf der Insel sind
+<colour id="1" />Bastelanleitungen <colour id="65535" />mit <colour id="1" />Häschentag<colour id="65535" />-
+Bezug versteckt.<pageBreak />Wer alle davon findet<delay8 /> UND <colour id="1" />alle
+davon nachbastelt<colour id="65535" />, <delay8 />erhält einen
+ganz besonderen Preis!
+<anim id="Hello" target="actor" targetSpec="" />Also schwing den Bi-Ba-Bürzel!</message>
+	<message label="223_01" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Hier endlich die <colour id="1" />10 Fels-Glückseier<colour id="65535" />,
+<delay8 />lieber Barock als Biedermeier!<pageBreak /><tag a="10" b="6" /><anim id="Dance" target="actor" targetSpec="" />Und jetzt verkünde ich noch etwas
 Grandioses!<delay frames="40" /> <anim id="EmotEnd" target="actor" targetSpec="" /><size value="75" />Hörst du mir überhaupt zu?
 <delay20 />Egal, <delay8 />ich sag's jetzt einfach.<size value="100" /><endTag a="10" b="6" /><pageBreak /><anim id="BigSmile" target="actor" targetSpec="" />Überall auf der Insel sind
 <colour id="1" />Bastelanleitungen <colour id="65535" />mit <colour id="1" />Häschentag<colour id="65535" />-
@@ -475,4 +539,11 @@ du eben keinen Platz hattest.
 <anim id="BigSmile" target="actor" targetSpec="" />Sobald du damit einen <colour id="1" />Stehauf-Ohs
 <colour id="65535" />gebastelt hast,<delay8 /> bekommst du deinen
 Preis. <delay20 /><anim id="Laughing" target="actor" targetSpec="" />Diesmal wirklich!</message>
+	<message label="230" attrib="00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Wie jetzt? <delay8 />Was jetzt?<delay8 /> Ist das ein
+Witz?<delay20 /> Du weißt noch nicht<tag a="110" b="0" /><delay8 /><anim id="Eh" target="actor" targetSpec="" />
+was<colour id="1" /> Basteln <colour id="65535" />ist?!<pageBreak /><anim id="Sighing" target="actor" targetSpec="" />Hi-<delay8 />ha-<delay8 />höchst problemathematisch!
+<delay20 />Wer nicht basteln kann,<delay8 /> der hat am
+Häschentag nur halb so viel Spaß!<pageBreak /><anim id="Assent" target="actor" targetSpec="" />Aber hey,<delay8 /> ist schon okay!<delay20 /> Meld dich
+einfach im <colour id="1" />Servicecenter<colour id="65535" /> für den
+Bastelkurs an,<delay8 /> das hilft-<delay8 />di-<delay8 />bilft!</message>
 </msbt>

@@ -62,8 +62,10 @@ mais il va falloir revoir ce que
 tu veux vendre.</message>
 	<message label="025" attrib="00 00 00 00"><anim id="Worried" target="mainNpc" targetSpec="" /><anim id="Worried" target="subNpc" targetSpec="" />Ah<tag a="110" b="0" /><delay20 /> Toutes mes excuses<tag a="110" b="0" /><delay40 /> La
 maison n'accepte pas les <colour id="1" />fausses
-<colour id="65535" />œuvres d'art<tag a="110" b="0" /><pageBreak /><anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" />Je suis vraiment désolé, mais il va
-falloir revoir ce que tu veux vendre.</message>
+<colour id="65535" />œuvres d'art<tag a="110" b="0" /><pageBreak /><anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" />Je suis vraiment désolé, mais on va
+devoir faire comme si rien de tout ça
+ne s'était produit<tag a="110" b="0" /><pageBreak />Tu disais donc que tu voulais nous
+vendre quelque chose<tag a="110" b="0" /></message>
 	<message label="031" attrib="02 00 00 00"><anim id="Nodding" target="mainNpc" targetSpec="" /><anim id="FaintSmile" target="subNpc" targetSpec="" /><tag a="50" b="3" /><tag a="50" b="2" /><tag a="125" b="0" arg="0x0" />!<10_4 />
 <anim id="FaintSmile" target="mainNpc" targetSpec="" />Alors,<delay8 /> je te rachète ça pour
 <tag a="90" b="26" arg="0x0" />.</message>
@@ -319,7 +321,7 @@ profites-en!<tag a="100" b="4" /><delay8 /> <size value="75" />Amène-nous ceux 
 	<message label="122" attrib="02 00 00 00"><anim id="Smiling" target="mainNpc" targetSpec="" /><anim id="Smiling" target="subNpc" targetSpec="" /><tag a="50" b="3" /><tag a="50" b="2" /><tag a="125" b="0" arg="0x0" />! Je te <tag a="50" b="17" arg="0x12 0xcd00 0x4 0x6c 0x65 0x4 0x6c 0x61 0x0" /> rachète au double de son prix habituel, ce qui nous fait<tag a="110" b="0" /><pageBreak /><tag a="110" b="0" /> <tag a="90" b="24" arg="0x0" />.<delay20 /><anim id="QuestionMark" target="mainNpc" targetSpec="" /><anim id="QuestionMark" target="subNpc" targetSpec="" /> Ça te va?</message>
 	<message label="122_a" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Marché conclu!</message>
 	<message label="122_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />En fait, non.</message>
-	<message label="131" attrib="04 00 00 00"><tag a="50" b="3" /><tag a="50" b="1" /><tag a="125" b="0" arg="0x0" /> se vend <anim id="Nodding" target="subNpc" targetSpec="" />à l'unité ou par lot.<delay20 /><anim id="QuestionMark" target="mainNpc" targetSpec="" /> Combien en veux-tu?</message>
+	<message label="131" attrib="04 00 00 00"><tag a="50" b="3" /><tag a="50" b="1" /><tag a="125" b="0" arg="0x200" /> se vendent <anim id="Nodding" target="subNpc" targetSpec="" />à l'unité ou par lot.<delay20 /><anim id="QuestionMark" target="mainNpc" targetSpec="" /> Combien en veux-tu?</message>
 	<message label="131_a" attrib="00 00 00 00">1. (<colour id="1" /><tag a="90" b="12" arg="0x0" /> <colour id="65535" />)</message>
 	<message label="131_b" attrib="00 00 00 00">5. (<colour id="1" /><tag a="90" b="13" arg="0x1" /> <colour id="65535" />)</message>
 	<message label="131_c" attrib="00 00 00 00">Laisse tomber.</message>

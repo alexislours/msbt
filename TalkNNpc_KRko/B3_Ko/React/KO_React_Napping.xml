@@ -2,11 +2,11 @@
 	<message label="001" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
 	<message label="001_01" attrib="00 00 00 00 00 00 00 00"><size value="75" />윽<tag a="110" b="0" /> 거대 바퀴?!<delay frames="40" />
 다가오지 마<tag a="110" b="0" /><delay8 /> 그, 그만<tag a="110" b="0" /><tag a="110" b="0" /><size value="100" />
-<anim id="Surprised" target="actor" targetSpec="" />헉!!<10_7 arg="80" /></message>
+<anim id="Surprised" target="actor" targetSpec="" />헉!!<anim id="EmotEnd" target="actor" targetSpec="" /><10_7 arg="80" /></message>
 	<message label="001_02" attrib="00 00 00 00 00 00 00 00"><tag a="110" b="0" />으으음<tag a="110" b="0" /><delay20 />
-<anim id="Sleepy" target="actor" targetSpec="" />으으응<tag a="110" b="0" /><tag a="110" b="0" /><10_7 arg="80" /></message>
+<anim id="Sleepy" target="actor" targetSpec="" />으으응<tag a="110" b="0" /><tag a="110" b="0" /><anim id="EmotEnd" target="actor" targetSpec="" /><10_7 arg="80" /></message>
 	<message label="001_03" attrib="00 00 00 00 00 00 00 00">쿨<tag a="110" b="0" /><delay8 /> 쿠우우우우울<tag a="110" b="0" /><delay frames="40" />
-<anim id="Shocked" target="actor" targetSpec="" />으억!<10_7 arg="80" /></message>
+<anim id="Shocked" target="actor" targetSpec="" />으억!<anim id="EmotEnd" target="actor" targetSpec="" /><10_7 arg="80" /></message>
 	<message label="010" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
 	<message label="010_01" attrib="00 00 00 00 00 00 00 00"><anim id="Angry" target="actor" targetSpec="" />허, <delay8 />헉! 뭐야?!<delay frames="40" />
 뭘 실실 웃는 건데<tag a="110" b="0" /><delay20 />
@@ -34,7 +34,7 @@
 내용이<delay8 /> 하나도 기억 안 나! <tag a="110" b="6" />!</message>
 	<message label="013_02" attrib="00 00 00 00 00 00 00 00">잠깐 눈 좀 붙이려고 했는데<delay8 />
 <anim id="OhGeez" target="actor" targetSpec="" />이 시간까지 자 버렸네<delay frames="40" />
-<anim id="EmotEnd" target="actor" targetSpec="" />깨워줘서<delay8 /> 고맙다, <anim id="FaintSmile" target="actor" targetSpec="" /><tag a="110" b="6" /></message>
+<anim id="73" target="actor" targetSpec="" />깨워줘서<delay8 /> 고맙다, <anim id="FaintSmile" target="actor" targetSpec="" /><tag a="110" b="6" /></message>
 	<message label="014" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
 	<message label="014_01" attrib="00 00 00 00 00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />뭐야, <delay8 />아직 밤이잖아<delay frames="40" />
 <anim id="Sleepy" target="actor" targetSpec="" />조금만 더 자야겠어<tag a="110" b="0" /></message>
@@ -43,7 +43,7 @@
 역시 어려운 책은 나랑 안 맞아, <tag a="110" b="6" /></message>
 	<message label="015" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
 	<message label="015_01" attrib="00 00 00 00 00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />으응?!<delay20 /> 내가<delay8 /> 여기서 자고 있었냐?!<delay frames="40" />
-<anim id="EmotEnd" target="actor" targetSpec="" />니가 깨워줬구나<delay20 />
+<anim id="73" target="actor" targetSpec="" />니가 깨워줬구나<delay20 />
 <anim id="FaintSmile" target="actor" targetSpec="" />진짜 고맙다, <delay8 /><tag a="110" b="3" />!</message>
 	<message label="015_02" attrib="00 00 00 00 00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />어이쿠<tag a="110" b="0" /><delay20 />
 어느 틈에 잠든 거지?<pageBreak /><anim id="Silent" target="actor" targetSpec="" /><tag a="110" b="3" /> <delay8 />너,<delay20 />

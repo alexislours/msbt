@@ -2,11 +2,11 @@
 	<message label="001" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
 	<message label="001_01" attrib="00 00 00 00 00 00 00 00"><size value="75" />嘻嘻<tag a="110" b="0" />真好吃～<delay frames="40" />
 我还要吃<tag a="110" b="0" /><delay frames="60" /><size value="100" />
-<anim id="Sleepy" target="actor" targetSpec="" /><delay20 />哈——欠～～～<10_7 arg="120" /></message>
-	<message label="001_02" attrib="00 00 00 00 00 00 00 00"><colour id="5" />呼～～<colour id="65535" /><delay frames="40" /><colour id="5" />呼<colour id="65535" /><tag a="110" b="0" /><delay frames="60" />
-<anim id="Sleepy" target="actor" targetSpec="" /><delay20 />唔、嗯<tag a="110" b="0" /><10_7 arg="120" /></message>
+<anim id="Sleepy" target="actor" targetSpec="" /><delay20 />哈——欠～～～<anim id="EmotEnd" target="actor" targetSpec="" /><10_7 arg="120" /></message>
+	<message label="001_02" attrib="00 00 00 00 00 00 00 00"><colour id="5" />呼～～<colour id="65535" /><delay frames="40" /><colour id="5" />呼<tag a="110" b="0" /><colour id="65535" /><delay frames="60" />
+<anim id="Sleepy" target="actor" targetSpec="" /><delay20 />唔、嗯<tag a="110" b="0" /><anim id="EmotEnd" target="actor" targetSpec="" /><10_7 arg="120" /></message>
 	<message label="001_03" attrib="00 00 00 00 00 00 00 00">唔嗯、唔嗯<tag a="110" b="0" /><delay frames="60" />
-<anim id="Sleepy" target="actor" targetSpec="" /><delay20 />哈——欠～～<10_7 arg="120" /></message>
+<anim id="Sleepy" target="actor" targetSpec="" /><delay20 />哈——欠～～<anim id="EmotEnd" target="actor" targetSpec="" /><10_7 arg="120" /></message>
 	<message label="010" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
 	<message label="010_01" attrib="00 00 00 00 00 00 00 00">明明我才刚刚起床，<delay20 />
 但吃完早饭、填饱了肚子，<delay20 />
@@ -35,7 +35,7 @@
 <anim id="BigSmile" target="actor" targetSpec="" /><delay8 />真是太舒服了～<tag a="110" b="6" />。<delay8 /><anim id="FaintSmile" target="actor" targetSpec="" /></message>
 	<message label="014" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
 	<message label="014_01" attrib="00 00 00 00 00 00 00 00"><anim id="ShyBoy" target="actor" targetSpec="" />刚才准备睡觉时，<delay8 />一不小心睡着了～<delay frames="40" />
-<anim id="EmotEnd" target="actor" targetSpec="" />这次是真的<delay20 />
+<anim id="73" target="actor" targetSpec="" />这次是真的<delay20 />
 <anim id="Greeting" target="actor" targetSpec="" />要说晚安了哦～<tag a="110" b="6" />。</message>
 	<message label="014_02" attrib="00 00 00 00 00 00 00 00">早上好～<delay20 /><tag a="110" b="4" />～<delay frames="40" />
 <tag a="110" b="0" /><anim id="Eh" target="actor" targetSpec="" />嗯？<delay8 />还没到早上啊～<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />我刚才<delay8 />好像在吃早饭呢……<delay20 />
@@ -43,7 +43,7 @@
 <anim id="Love" target="actor" targetSpec="" />莫名有种赚到了的感觉呢～<tag a="110" b="6" />。</message>
 	<message label="015" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
 	<message label="015_01" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />啊！<delay frames="40" />我怎么睡着了？！<delay frames="40" />
-<anim id="EmotEnd" target="actor" targetSpec="" /><tag a="110" b="4" />～<delay20 />
+<anim id="73" target="actor" targetSpec="" /><tag a="110" b="4" />～<delay20 />
 <anim id="Greeting" target="actor" targetSpec="" />谢谢你叫醒我～<tag a="110" b="6" />。</message>
 	<message label="015_02" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />我竟然在这种地方睡着了！<delay20 />
 自己都被吓了一跳呢～<delay frames="40" />

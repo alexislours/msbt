@@ -1,11 +1,11 @@
 <msbt attribsize="8">
 	<message label="001" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
-	<message label="001_01" attrib="00 00 00 00 00 00 00 00"><colour id="5" /><anim id="Sleep" target="actor" targetSpec="" />Zzz... Chrrr... Püüüh...<delay20 /><colour id="65535" />
-<anim id="Shocked" target="actor" targetSpec="" />Oh!<10_7 arg="90" /></message>
-	<message label="001_02" attrib="00 00 00 00 00 00 00 00"><anim id="Sleep" target="actor" targetSpec="" /><colour id="5" />Hnnn... Hmmm...<delay20 /><colour id="65535" />
-<anim id="Pardon" target="actor" targetSpec="" />Hngf?!<10_7 arg="90" /></message>
-	<message label="001_03" attrib="00 00 00 00 00 00 00 00"><anim id="Sleep" target="actor" targetSpec="" />Heheheh... Heheheheh...<delay20 />
-<anim id="Eh" target="actor" targetSpec="" />Ha-HA?<10_7 arg="90" /></message>
+	<message label="001_01" attrib="00 00 00 00 00 00 00 00"><colour id="5" /><anim id="Sleep" target="actor" targetSpec="" />Zzz...<delay8 /> Chrrr...<delay8 /> Püüüh...<delay20 /><colour id="65535" />
+<anim id="Shocked" target="actor" targetSpec="" />Oh!<anim id="EmotEnd" target="actor" targetSpec="" /><10_7 arg="90" /></message>
+	<message label="001_02" attrib="00 00 00 00 00 00 00 00"><anim id="Sleep" target="actor" targetSpec="" /><colour id="5" />Hnnn...<delay8 /> Hmmm...<delay20 /><colour id="65535" />
+<anim id="Pardon" target="actor" targetSpec="" />Hngf?!<anim id="EmotEnd" target="actor" targetSpec="" /><10_7 arg="90" /></message>
+	<message label="001_03" attrib="00 00 00 00 00 00 00 00"><anim id="Sleep" target="actor" targetSpec="" />Heheheh...<delay8 /> Heheheheh...<delay20 />
+<anim id="Eh" target="actor" targetSpec="" />Ha-HA?<anim id="EmotEnd" target="actor" targetSpec="" /><10_7 arg="90" /></message>
 	<message label="010" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
 	<message label="010_01" attrib="00 00 00 00 00 00 00 00"><anim id="OhGeez" target="actor" targetSpec="" />Ah... <delay20 />Warum kommen einem die
 schönsten Träume immer dann,<delay8 />
@@ -30,7 +30,7 @@ Image aufzupolieren.
 	<message label="012" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
 	<message label="012_01" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Wo bin ich?<delay20 /> <anim id="TakenAback" target="actor" targetSpec="" />Wer bist du?<delay20 />
 <anim id="Frantic" target="actor" targetSpec="" />WAS PASSIERT HIER?!<pageBreak /><anim id="OhGeez" target="actor" targetSpec="" />Oh. <delay20 />Ich muss eingeschlafen sein.</message>
-	<message label="012_02" attrib="00 00 00 00 00 00 00 00"><anim id="Frantic" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="110" b="3" />! <delay20 />Ich werde dich retten!<delay20 /> Lass meine Hand nicht los!<pageBreak />...<anim id="Blushing" target="actor" targetSpec="" />Moment mal. <delay20 />Da muss ich wohl
+	<message label="012_02" attrib="00 00 00 00 00 00 00 00"><anim id="Frantic" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="110" b="3" />! <delay20 />Ich werde dich retten!<delay20 /> Lass meine Hand nicht los!<pageBreak /><anim id="73" target="actor" targetSpec="" /><tag a="110" b="0" /><delay frames="40" /><anim id="Blushing" target="actor" targetSpec="" />Moment mal. <delay20 />Da muss ich wohl
 geträumt haben. <delay40 />Du hast nichts
 gehört, <delay8 /><tag a="110" b="3" />.</message>
 	<message label="013" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>

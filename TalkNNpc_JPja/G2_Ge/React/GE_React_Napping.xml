@@ -1,11 +1,11 @@
 <msbt attribsize="8">
 	<message label="001" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
 	<message label="001_01" attrib="00 00 00 00 00 00 00 00"><colour id="5" />スゥ～<delay20 />　スゥ～～<tag a="110" b="0" /><colour id="65535" /><delay40 />
-<anim id="Sleepy" target="actor" targetSpec="" />ムニャ<tag a="110" b="0" /><tag a="110" b="0" />　ふぁあ？<10_7 arg="90" /></message>
+<anim id="Sleepy" target="actor" targetSpec="" />ムニャ<tag a="110" b="0" /><tag a="110" b="0" />　ふぁあ？<anim id="EmotEnd" target="actor" targetSpec="" /><10_7 arg="90" /></message>
 	<message label="001_02" attrib="00 00 00 00 00 00 00 00"><tag a="110" b="0" />う～ん<tag a="110" b="0" /><tag a="110" b="0" />
-それ<tag a="110" b="0" />アタイの～<tag a="110" b="0" /><tag a="110" b="0" /><delay20 /><anim id="Sleepy" target="actor" targetSpec="" />ふぇ？<10_7 arg="120" /></message>
+それ<tag a="110" b="0" />アタイの～<tag a="110" b="0" /><tag a="110" b="0" /><delay20 /><anim id="Sleepy" target="actor" targetSpec="" />ふぇ？<anim id="EmotEnd" target="actor" targetSpec="" /><10_7 arg="120" /></message>
 	<message label="001_03" attrib="00 00 00 00 00 00 00 00">んんぅ～<tag a="110" b="0" />そのドレスで<tag a="110" b="0" />
-<tag a="110" b="0" /><anim id="Sleepy" target="actor" targetSpec="" /><tag a="110" b="0" />ふわぁ～<tag a="110" b="0" /><10_7 arg="120" /></message>
+<tag a="110" b="0" /><anim id="Sleepy" target="actor" targetSpec="" /><tag a="110" b="0" />ふわぁ～<tag a="110" b="0" /><anim id="EmotEnd" target="actor" targetSpec="" /><10_7 arg="120" /></message>
 	<message label="010" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
 	<message label="010_01" attrib="00 00 00 00 00 00 00 00"><anim id="Blushing" target="actor" targetSpec="" />さっき　<ruby a="2" b="2">お</ruby>起きたばっかなのに<delay20 />
 また　ねちゃってたよ～、<tag a="110" b="6" /></message>
@@ -14,19 +14,19 @@
 <anim id="OhGeez" target="actor" targetSpec="" />つかれが　たまってるのかな～、<tag a="110" b="6" /></message>
 	<message label="011" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
 	<message label="011_01" attrib="00 00 00 00 00 00 00 00"><anim id="Blushing" target="actor" targetSpec="" />えへへ、<delay20 /><ruby a="2" b="2">た</ruby>立ったまま　ねちゃってた？<delay40 />
-<anim id="EmotEnd" target="actor" targetSpec="" /><ruby a="4" b="6">きのう</ruby>昨日<delay20 />　マンガ<ruby a="2" b="2">よ</ruby>読んでたら　やめられなくなって<delay8 />
+<anim id="73" target="actor" targetSpec="" /><ruby a="4" b="6">きのう</ruby>昨日<delay20 />　マンガ<ruby a="2" b="2">よ</ruby>読んでたら　やめられなくなって<delay8 />
 <anim id="ShyBoy" target="actor" targetSpec="" /><ruby a="2" b="2">よ</ruby>夜ふかし　しちゃったんだよねー！　<tag a="110" b="6" /></message>
 	<message label="011_02" attrib="00 00 00 00 00 00 00 00">えへへ、<delay20 /><anim id="Sleepy" target="actor" targetSpec="" /><ruby a="2" b="2">お</ruby>起こしてくれて　サンキュー<delay frames="60" />
 <anim id="ShyBoy" target="actor" targetSpec="" /><ruby a="4" b="6">きのう</ruby>昨日は<delay8 />　アニメ<ruby a="4" b="8">いっきょ</ruby>一挙<ruby a="4" b="8">ほうそう</ruby>放送だったから<delay20 />
 <ruby a="2" b="2">よ</ruby>夜ふかししちゃったの！
-<anim id="EmotEnd" target="actor" targetSpec="" />いつまでも　<anim id="Assent" target="actor" targetSpec="" />オールナイトよゆう～！<delay40 />
+<anim id="73" target="actor" targetSpec="" />いつまでも　<anim id="Assent" target="actor" targetSpec="" />オールナイトよゆう～！<delay40 />
 <tag a="110" b="0" /><anim id="WrySmile" target="actor" targetSpec="" />なんて<ruby a="2" b="4">おも</ruby>思ってたら<delay8 />　ダメだね、<tag a="110" b="6" /></message>
 	<message label="012" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
 	<message label="012_01" attrib="00 00 00 00 00 00 00 00"><anim id="Sleepy" target="actor" targetSpec="" />え～っと<tag a="110" b="0" /><delay20 />ここどこだっけ<tag a="110" b="0" /><pageBreak /><anim id="Eh" target="actor" targetSpec="" />ヤバーイ、<delay40 /><anim id="Blushing" target="actor" targetSpec="" />アタイ　ねぼけてる～？<delay40 />
 <anim id="ShyBoy" target="actor" targetSpec="" /><ruby a="2" b="4">そと</ruby>外の<ruby a="4" b="6">くうき</ruby>空気が　ちょー<ruby a="4" b="4">きも</ruby>気持ちよくって<delay20 />
 つい<tag a="110" b="0" />ね？　<tag a="110" b="6" /></message>
 	<message label="012_02" attrib="00 00 00 00 00 00 00 00"><anim id="Blushing" target="actor" targetSpec="" />やだ～、<delay20 />アタイ
-いつの<ruby a="2" b="2">ま</ruby>間に　ねむってたんだろ～<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" /><ruby a="6" b="12">さんぽちゅう</ruby>散歩中に　きゅうけいしてたら<delay20 />
+いつの<ruby a="2" b="2">ま</ruby>間に　ねむってたんだろ～<pageBreak /><anim id="73" target="actor" targetSpec="" /><ruby a="6" b="12">さんぽちゅう</ruby>散歩中に　きゅうけいしてたら<delay20 />
 ちょー<ruby a="4" b="4">きも</ruby>気持ちよくなって<delay8 />
 <anim id="Laughing" target="actor" targetSpec="" />ねちゃってたみたい～！　<tag a="110" b="6" /></message>
 	<message label="013" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
@@ -45,7 +45,7 @@
 <anim id="Blushing" target="actor" targetSpec="" />テヘヘ<tag a="110" b="0" />　<tag a="110" b="4" />、<delay20 />
 <ruby a="2" b="2">お</ruby>起こしてくれて　ありがとねー！
 <anim id="Nodding" target="actor" targetSpec="" />まだ　やることあったから　<ruby a="2" b="4">たす</ruby>助かったよ！<delay40 />
-<anim id="EmotEnd" target="actor" targetSpec="" /><ruby a="4" b="6">きょう</ruby>今日<ruby a="2" b="6">じゅう</ruby>中に<delay20 />　<tag a="110" b="11" arg="0xcd00" /><tag a="110" b="13" />から
+<anim id="73" target="actor" targetSpec="" /><ruby a="4" b="6">きょう</ruby>今日<ruby a="2" b="6">じゅう</ruby>中に<delay20 />　<tag a="110" b="11" arg="0xcd00" /><tag a="110" b="13" />から
 <anim id="EmotEnd" target="actor" targetSpec="" /><ruby a="2" b="2">か</ruby>借りてるマンガを　<ruby a="4" b="6">どくは</ruby>読破するんだ～！　<tag a="110" b="6" /></message>
 	<message label="015" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
 	<message label="015_01" attrib="00 00 00 00 00 00 00 00"><anim id="Oops" target="actor" targetSpec="" />ヤバーイ！<delay40 />

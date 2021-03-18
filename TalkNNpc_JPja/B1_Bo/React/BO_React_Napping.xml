@@ -2,11 +2,11 @@
 	<message label="001" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
 	<message label="001_01" attrib="00 00 00 00 00 00 00 00"><size value="75" />うふふ<tag a="110" b="0" />　おいしいなぁ～<delay frames="40" />
 まだまだ　たべちゃうんだからぁ<tag a="110" b="0" /><delay frames="60" /><size value="100" />
-<anim id="Sleepy" target="actor" targetSpec="" /><delay20 />ふぁぁ～～～<10_7 arg="120" /></message>
+<anim id="Sleepy" target="actor" targetSpec="" /><delay20 />ふぁぁ～～～<anim id="EmotEnd" target="actor" targetSpec="" /><10_7 arg="120" /></message>
 	<message label="001_02" attrib="00 00 00 00 00 00 00 00"><colour id="5" />ス～～　<delay frames="40" />ス～～<tag a="110" b="0" /><colour id="65535" /><delay frames="60" />
-<anim id="Sleepy" target="actor" targetSpec="" /><delay20 />う、う～ん<tag a="110" b="0" /><10_7 arg="120" /></message>
+<anim id="Sleepy" target="actor" targetSpec="" /><delay20 />う、う～ん<tag a="110" b="0" /><anim id="EmotEnd" target="actor" targetSpec="" /><10_7 arg="120" /></message>
 	<message label="001_03" attrib="00 00 00 00 00 00 00 00">むにゃむにゃ<tag a="110" b="0" /><delay frames="60" />
-<anim id="Sleepy" target="actor" targetSpec="" /><delay20 />ふわぁぁ～～<10_7 arg="120" /></message>
+<anim id="Sleepy" target="actor" targetSpec="" /><delay20 />ふわぁぁ～～<anim id="EmotEnd" target="actor" targetSpec="" /><10_7 arg="120" /></message>
 	<message label="010" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
 	<message label="010_01" attrib="00 00 00 00 00 00 00 00">さっき　おきたばっかりなのに、<delay20 />
 <ruby a="2" b="4">あさ</ruby>朝ごはんで　おなかが　いっぱいになったら<delay20 />
@@ -35,7 +35,7 @@
 <anim id="BigSmile" target="actor" targetSpec="" /><delay8 />サイコーだよねぇ～、<tag a="110" b="6" /><delay8 /><anim id="FaintSmile" target="actor" targetSpec="" /></message>
 	<message label="014" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
 	<message label="014_01" attrib="00 00 00 00 00 00 00 00"><anim id="ShyBoy" target="actor" targetSpec="" />ねるじゅんびの　とちゅうで<delay8 />　ねちゃってた～<delay frames="40" />
-<anim id="EmotEnd" target="actor" targetSpec="" /><ruby a="2" b="4">いま</ruby>今からが　ホントの<delay20 />
+<anim id="73" target="actor" targetSpec="" /><ruby a="2" b="4">いま</ruby>今からが　ホントの<delay20 />
 <anim id="Greeting" target="actor" targetSpec="" />おやすみなさいだよぉ～、<tag a="110" b="6" /></message>
 	<message label="014_02" attrib="00 00 00 00 00 00 00 00">おはよ～、<delay20 /><tag a="110" b="4" /><delay frames="40" />
 <tag a="110" b="0" /><anim id="Eh" target="actor" targetSpec="" />って、<delay8 />まだ　<ruby a="2" b="4">よる</ruby>夜かぁ～<pageBreak /><anim id="Nodding" target="actor" targetSpec="" /><ruby a="2" b="4">いま</ruby>今　ボク、<delay8 /><ruby a="2" b="4">あさ</ruby>朝ごはんを　<ruby a="2" b="2">た</ruby>食べてたんだけど<delay20 />
@@ -43,7 +43,7 @@
 <anim id="Love" target="actor" targetSpec="" />なんだか　トクしちゃった<ruby a="4" b="6">きぶん</ruby>気分～、<tag a="110" b="6" /></message>
 	<message label="015" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
 	<message label="015_01" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />あれ！<delay frames="40" />　いつの<ruby a="2" b="2">ま</ruby>間にか　ねちゃってた？！<delay frames="40" />
-<anim id="EmotEnd" target="actor" targetSpec="" /><tag a="110" b="4" /><delay20 />
+<anim id="73" target="actor" targetSpec="" /><tag a="110" b="4" /><delay20 />
 <anim id="Greeting" target="actor" targetSpec="" />おこしてくれて　ありがと～、<tag a="110" b="6" /></message>
 	<message label="015_02" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />こんなところで　ねちゃうなんて、<delay20 />
 <ruby a="4" b="6">じぶん</ruby>自分でも　ビックリだぁ～<delay frames="40" />

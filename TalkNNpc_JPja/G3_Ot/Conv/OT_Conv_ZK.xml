@@ -1,6 +1,6 @@
 <msbt attribsize="8">
 	<message label="001" attrib="00 00 00 00 00 00 00 00">あら、<delay8 /><tag a="110" b="4" /><pageBreak /><20_2 arg="5" /><tag a="110" b="31" arg="0xcd01" /><tag a="110" b="13" />が<anim id="FaintSmile" target="subNpc" targetSpec="" /><delay8 />
-アタシを　ヒロイン<ruby a="2" b="4">やく</ruby>役にして<delay8 />
+アタシを　ヒロイン<ruby a="2" b="4">やく</ruby>役にして<delay20 />
 <20_2 arg="6" /><ruby a="4" b="8">えんげき</ruby>演劇を　やりたいんだって</message>
 	<message label="002" attrib="00 00 05 00 00 00 00 00"><anim id="IdeaBulb" target="actor" targetSpec="" />そうだ！<20_2 arg="2" /><delay frames="40" />　<20_3 arg="8" />せっかくだから<delay20 />
 <tag a="110" b="4" />も<delay8 />
@@ -37,9 +37,9 @@
 まぶしいお<ruby a="4" b="6">ひさま</ruby>日様は<delay20 />
 <anim id="EmotEnd" target="actor" targetSpec="" /><ruby a="2" b="4">おな</ruby>同じく　<ruby a="2" b="6">かがや</ruby>輝くボクに<delay8 />　ピッタリってわけだ<anim id="FaintSmile" target="mainNpc" targetSpec="" /><pageBreak /><ruby a="4" b="8">たびびと</ruby>旅人のマントを　<ruby a="2" b="2">ふ</ruby>吹き<ruby a="2" b="2">と</ruby>飛ばそうとする<ruby a="4" b="8">きたかぜ</ruby>北風<anim id="Nodding" target="mainNpc" targetSpec="" /><10_4 />
 <anim id="OhGeez" target="actor" targetSpec="" /><anim id="AbsentMindedness" target="mainNpc" targetSpec="" /><ruby a="2" b="6">あたた</ruby>暖かい<ruby a="4" b="4">ひざ</ruby>陽射しなら、<delay20 />すぐにマントを<delay8 />
-<ruby a="2" b="2">ぬ</ruby>脱がすことができるっていうのにね<tag a="110" b="0" /><pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />そう！<anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="Dance" target="actor" targetSpec="" /><delay frames="40" />　テーマは<delay20 />　<ruby a="2" b="4">あい</ruby>愛！<anim id="WrySmile" target="mainNpc" targetSpec="" /><10_4 />
-<20_3 arg="7" /><tag a="110" b="31" arg="0xcd00" /><tag a="110" b="13" /><anim id="Eh" target="mainNpc" targetSpec="" />、<delay frames="40" /><20_3 arg="5" /><20_2 arg="3" />キミには
-<delay20 /><ruby a="2" b="4">つめ</ruby>冷たい<ruby a="4" b="8">きたかぜ</ruby>北風が　<anim id="BigSmile" target="actor" targetSpec="" /><ruby a="4" b="8">てきにん</ruby>適任だと<ruby a="2" b="4">おも</ruby>思うよ！<delay20 /><anim id="Angry" target="mainNpc" targetSpec="" /><delay20 /><anim id="FaintSmile" target="actor" targetSpec="" /><anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" /></message>
+<ruby a="2" b="2">ぬ</ruby>脱がすことが　できるっていうのにね<tag a="110" b="0" /><pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />そう！<anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="Dance" target="actor" targetSpec="" /><delay frames="40" />　テーマは<delay20 />　<ruby a="2" b="4">あい</ruby>愛！<anim id="WrySmile" target="mainNpc" targetSpec="" /><10_4 />
+<20_3 arg="7" /><tag a="110" b="31" arg="0xcd00" /><tag a="110" b="13" /><anim id="Eh" target="mainNpc" targetSpec="" />、<delay frames="40" />
+<20_3 arg="5" /><20_2 arg="3" />キミには　<delay20 /><ruby a="2" b="4">つめ</ruby>冷たい<ruby a="4" b="8">きたかぜ</ruby>北風が　<anim id="BigSmile" target="actor" targetSpec="" /><ruby a="4" b="8">てきにん</ruby>適任だと<ruby a="2" b="4">おも</ruby>思うよ！<delay20 /><anim id="Angry" target="mainNpc" targetSpec="" /><delay20 /><anim id="FaintSmile" target="actor" targetSpec="" /><anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" /></message>
 	<message label="013" attrib="00 00 00 00 00 00 00 00"><anim id="Outraged" target="actor" targetSpec="" />どういう<ruby a="4" b="4">いみ</ruby>意味？！<anim id="Shocked" target="subNpc" targetSpec="" /><delay frames="40" />　<ruby a="2" b="4">なに</ruby>何が<anim id="Dance" target="actor" targetSpec="" /><delay20 />　テーマは<ruby a="2" b="4">あい</ruby>愛、<delay frames="80" /><anim id="Angry" target="actor" targetSpec="" />よ！<10_4 />
 <anim id="Outraged" target="actor" targetSpec="" />アナタは<anim id="Confused" target="subNpc" targetSpec="" />　お<ruby a="4" b="6">ひさま</ruby>日様じゃなくって、<delay20 />
 <ruby a="6" b="10">のうてんき</ruby>脳天気なだけ！<delay frames="40" />　アタシ、<delay20 />やめるわ！<anim id="EmotEnd" target="actor" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" /></message>
@@ -49,7 +49,7 @@
 <anim id="Negative" target="actor" targetSpec="" />とても<ruby a="2" b="6">むずか</ruby>難しいことなんだ<delay20 />、<tag a="110" b="5" /><anim id="Worried" target="actor" targetSpec="" /></message>
 	<message label="015" attrib="00 00 00 00 00 00 00 00"><anim id="Surprised" target="subNpc" targetSpec="" /><anim id="Surprised" target="mainNpc" targetSpec="" /><ruby a="2" b="4">いし</ruby>石コロ？！<delay frames="80" />
 <tag a="110" b="0" /><delay frames="40" />なんて<10_4 />
-<20_2 arg="5" /><tag a="110" b="0" /><tag a="110" b="0" />なんて　<ruby a="2" b="6">むずか</ruby>難しい<ruby a="2" b="4">やく</ruby>役なんだ！<anim id="TakenAback" target="mainNpc" targetSpec="" /><pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />これは　キミからの　<ruby a="6" b="16">ちょうせんじょう</ruby>挑戦状！<delay frames="40" />
+<20_2 arg="5" /><tag a="110" b="0" />なんて　<ruby a="2" b="6">むずか</ruby>難しい<ruby a="2" b="4">やく</ruby>役なんだ！<anim id="TakenAback" target="mainNpc" targetSpec="" /><pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />これは　キミからの　<ruby a="6" b="16">ちょうせんじょう</ruby>挑戦状！<delay frames="40" />
 <anim id="Grin" target="actor" targetSpec="" />そうだろう？<anim id="ColdChill" target="mainNpc" targetSpec="" /><pageBreak /><anim id="Negative" target="actor" targetSpec="" />ああ、<delay20 /><ruby a="2" b="4">いし</ruby>石コロという　<ruby a="4" b="8">たいやく</ruby>大役を<ruby a="2" b="4">まえ</ruby>前に<delay20 />
 <anim id="SmugFace" target="actor" targetSpec="" />ボクは<delay8 />　<ruby a="4" b="10">かんじょう</ruby>感情の<ruby a="2" b="4">たか</ruby>高ぶりを　<ruby a="2" b="4">おさ</ruby>抑えられない！！<anim id="EmotEnd" target="actor" targetSpec="" /><anim id="EmotEnd" target="mainNpc" targetSpec="" />
 </message>
@@ -68,7 +68,7 @@
 	<message label="103_a" attrib="00 00 00 00 00 00 00 00"><ruby a="2" b="2">に</ruby>似てた！</message>
 	<message label="103_b" attrib="00 00 00 00 00 00 00 00">そうでもない</message>
 	<message label="104" attrib="00 00 00 00 00 00 00 00"><anim id="TakenAback" target="subNpc" targetSpec="" /><anim id="SmugFace" target="actor" targetSpec="" />ほらね！<20_2 arg="3" /><10_4 />
-<20_2 arg="7" /><anim id="Angry" target="subNpc" targetSpec="" /><anim id="Nodding" target="actor" targetSpec="" /><ruby a="4" b="6">じぶん</ruby>自分じゃ　<ruby a="4" b="4">きづ</ruby>気付いてないのかもしれないけど<delay20 />
+<20_2 arg="7" /><anim id="Angry" target="subNpc" targetSpec="" /><anim id="Nodding" target="actor" targetSpec="" /><ruby a="4" b="6">じぶん</ruby>自分じゃ　<ruby a="4" b="4">きづ</ruby>気付いてないのかも　しれないけど<delay20 />
 <anim id="Grin" target="actor" targetSpec="" />アナタのしゃべり<ruby a="2" b="4">かた</ruby>方、<delay8 />キザったらしいわよ<anim id="EmotEnd" target="actor" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" /></message>
 	<message label="105" attrib="00 00 00 00 00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />キミ<ruby a="2" b="4">たち</ruby>達に<20_2 arg="4" />　そんな<ruby a="2" b="4">ふう</ruby>風に<ruby a="2" b="4">おも</ruby>思われていたなんて<delay frames="40" />
 <anim id="SadSpiral" target="actor" targetSpec="" />ショックで　<anim id="Eh" target="mainNpc" targetSpec="" /><ruby a="2" b="2">た</ruby>立ち<ruby a="2" b="4">なお</ruby>直れそうにないよ！<pageBreak /><anim id="WrySmile" target="actor" targetSpec="" />ボクの<ruby a="2" b="6">こころ</ruby>心は<delay8 />　キミ<ruby a="2" b="4">たち</ruby>達が<ruby a="2" b="4">おも</ruby>思う<ruby a="4" b="8">いじょう</ruby>以上に
@@ -79,7 +79,7 @@
 <anim id="WrySmile" target="actor" targetSpec="" /><ruby a="2" b="4">こわ</ruby>壊れないから<delay8 />　<ruby a="4" b="8">あんしん</ruby>安心するといいわ、<tag a="110" b="6" /></message>
 	<message label="107" attrib="00 00 00 00 00 00 00 00"><anim id="TakenAback" target="mainNpc" targetSpec="" /><anim id="BigSmile" target="actor" targetSpec="" />ほらね！<20_2 arg="4" /><10_4 />
 <20_2 arg="5" /><anim id="Hello" target="actor" targetSpec="" />そんなイヤミなしゃべり<ruby a="2" b="4">かた</ruby>方、<delay8 />してないのさ<delay frames="40" />
-<anim id="Nodding" target="actor" targetSpec="" /><anim id="Confused" target="mainNpc" targetSpec="" /><ruby a="4" b="6">あくい</ruby>悪意のある　モノマネは<delay20 />　<anim id="SmugFace" target="actor" targetSpec="" />やめてもらおうか<pageBreak /><anim id="OhGeez" target="actor" targetSpec="" />まあ、<delay8 />シットしてしまう<ruby a="4" b="4">きも</ruby>気持ちもわかるよ<anim id="Eh" target="mainNpc" targetSpec="" /><delay20 />
+<anim id="Nodding" target="actor" targetSpec="" /><anim id="Confused" target="mainNpc" targetSpec="" /><ruby a="4" b="6">あくい</ruby>悪意のある　モノマネは<delay20 />　<anim id="SmugFace" target="actor" targetSpec="" />やめてもらおうか<pageBreak /><anim id="OhGeez" target="actor" targetSpec="" />まあ、<delay8 />シットしてしまう<ruby a="4" b="4">きも</ruby>気持ちも　わかるよ<anim id="Eh" target="mainNpc" targetSpec="" /><delay20 />
 ボクのしゃべり<ruby a="2" b="4">かた</ruby>方、<delay20 /><anim id="EmotEnd" target="actor" targetSpec="" /><delay8 /><ruby a="4" b="8">さいこう</ruby>最高にジェントルだしね<10_4 />
 <anim id="BigSmile" target="actor" targetSpec="" />マネしていいよ！<delay20 />　<anim id="Laughing" target="actor" targetSpec="" />ハッハー！<anim id="ColdChill" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="actor" targetSpec="" /><anim id="EmotEnd" target="mainNpc" targetSpec="" /></message>
 	<message label="108" attrib="00 00 00 00 00 00 00 00"><20_2 arg="6" />なんか<20_2 arg="3" /><tag a="110" b="0" /><delay frames="40" />
@@ -88,8 +88,8 @@
 	<message label="109" attrib="00 00 00 00 00 00 00 00"><tag a="110" b="0" /><anim id="QuestionMark" target="actor" targetSpec="" />そうだっけ？<delay20 />　でもキミ、<delay20 />この<ruby a="2" b="4">まえ</ruby>前は<delay20 />
 「<anim id="HappyDance" target="actor" targetSpec="" /><ruby a="4" b="8">しょくご</ruby>食後の　<tag a="135" b="1" arg="0xcd00" />は　<ruby a="2" b="4">はず</ruby>外せないわ<delay frames="40" />
 <anim id="Love" target="actor" targetSpec="" /><ruby a="2" b="6">こころ</ruby>心のスペシャルケアよ」<delay frames="40" /><anim id="QuestionMark" target="actor" targetSpec="" />って<ruby a="2" b="2">い</ruby>言ってたよね？<anim id="EmotEnd" target="actor" targetSpec="" /><anim id="EmotEnd" target="mainNpc" targetSpec="" /></message>
-	<message label="110" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />あら！<20_2 arg="3" /><delay20 />　それとこれとは<delay8 />
-<anim id="EmotEnd" target="subNpc" targetSpec="" /><ruby a="2" b="6">はなし</ruby>話は　べつ<tag a="110" b="0" /><pageBreak /><anim id="Eh" target="actor" targetSpec="" />ちょっと、<ruby a="2" b="2">ま</ruby>待って<tag a="110" b="0" /><delay frames="40" />
+	<message label="110" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />あら！<20_2 arg="3" /><delay20 />
+それとこれとは　<delay8 /><anim id="EmotEnd" target="subNpc" targetSpec="" /><ruby a="2" b="6">はなし</ruby>話が　べつ<tag a="110" b="0" /><pageBreak /><anim id="Eh" target="actor" targetSpec="" />ちょっと、<ruby a="2" b="2">ま</ruby>待って<tag a="110" b="0" /><delay frames="40" />
 <ruby a="2" b="4">いま</ruby>今の　<ruby a="4" b="4">きも</ruby>気持ち<ruby a="2" b="4">わる</ruby>悪いしゃべり<ruby a="2" b="4">かた</ruby>方、<delay20 /><anim id="QuestionMark" target="actor" targetSpec="" /><ruby a="2" b="4">なに</ruby>何かしら？<delay frames="40" />
 <anim id="Eh" target="subNpc" targetSpec="" />まさかと<ruby a="2" b="4">おも</ruby>思うけど、<delay20 />アタシのモノマネ？<anim id="EmotEnd" target="actor" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" /></message>
 	<message label="111" attrib="00 00 02 00 00 00 00 00"><anim id="SmugFace" target="actor" targetSpec="" />その<ruby a="2" b="4">とお</ruby>通りだよ！<20_2 arg="4" /><delay20 /><anim id="TakenAback" target="mainNpc" targetSpec="" />　<tag a="110" b="31" arg="0xcd00" /><tag a="110" b="13" />！<delay frames="40" />
@@ -116,8 +116,8 @@
 <anim id="Love" target="subNpc" targetSpec="" />だからもう、<anim id="Frantic" target="actor" targetSpec="" /><delay8 />くねくねするのは
 やめてちょうだい<tag a="110" b="0" />、<tag a="110" b="6" /></message>
 	<message label="201" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="subNpc" targetSpec="" /><tag a="110" b="31" arg="0xcd01" /><tag a="110" b="13" />、<delay20 />
-<anim id="BigSmile" target="actor" targetSpec="" /><ruby a="4" b="6">きょう</ruby>今日の　アタシの
-コーディネート、<delay20 /><anim id="Hello" target="actor" targetSpec="" />どうかしら？<anim id="EmotEnd" target="subNpc" targetSpec="" /><pageBreak /><anim id="Negative" target="actor" targetSpec="" /><ruby a="4" b="8">さいきん</ruby>最近、<delay8 />マンネリ<ruby a="4" b="4">ぎみ</ruby>気味な<ruby a="2" b="2">き</ruby>気がしてて、<delay frames="40" />
+<anim id="BigSmile" target="actor" targetSpec="" /><ruby a="4" b="6">きょう</ruby>今日の　アタシの　コーディネート、<delay20 />
+<anim id="Hello" target="actor" targetSpec="" />どうかしら？<anim id="EmotEnd" target="subNpc" targetSpec="" /><pageBreak /><anim id="Negative" target="actor" targetSpec="" /><ruby a="4" b="8">さいきん</ruby>最近、<delay8 />マンネリ<ruby a="4" b="4">ぎみ</ruby>気味な<ruby a="2" b="2">き</ruby>気がしてて、<delay frames="40" />
 <anim id="Nodding" target="actor" targetSpec="" /><ruby a="2" b="4">ひと</ruby>人の<ruby a="4" b="6">いけん</ruby>意見も　<ruby a="2" b="2">と</ruby>取り<ruby a="2" b="2">い</ruby>入れようかなって<anim id="Nodding" target="subNpc" targetSpec="" /><10_4 />
 <anim id="Hello" target="actor" targetSpec="" /><ruby a="4" b="10">しょうじき</ruby>正直に　<ruby a="2" b="2">い</ruby>言ってくれていいのよ、<delay20 /><tag a="110" b="6" /><anim id="Aha" target="subNpc" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" /></message>
 	<message label="202" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="mainNpc" targetSpec="" /><tag a="110" b="0" /><20_2 arg="4" /><anim id="Serious" target="actor" targetSpec="" /><ruby a="2" b="6">うつく</ruby>美しい<anim id="EmotEnd" target="actor" targetSpec="" /><anim id="EmotEnd" target="mainNpc" targetSpec="" /></message>

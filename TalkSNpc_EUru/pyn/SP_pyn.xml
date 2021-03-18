@@ -38,14 +38,25 @@
 <anim id="Explain" target="actor" targetSpec="" />Я спрятал на острове <colour id="1" />6 видов яиц<colour id="65535" />.<pageBreak /><anim id="Greeting" target="actor" targetSpec="" />Тебе нужно найти их<tag a="110" b="0" /><delay8 />
 <delay8 /><anim id="Dance" target="actor" targetSpec="" />и мне принести!<pageBreak /><anim id="Negative" target="actor" targetSpec="" />В магазинах, в домах я не прятал —
 ты что! <delay frames="40" /><anim id="Smiling" target="actor" targetSpec="" />Яйца лежат на природе,
-прыг-скок!<pageBreak /><anim id="HappyDance" target="actor" targetSpec="" />На деревьях,<delay8 /> в камнях,<delay8 />
-в воде поищи!<pageBreak /><anim id="HappyDance" target="actor" targetSpec="" />И на небо гляди, <delay8 />и под
+прыг-скок!<pageBreak /><anim id="HappyDance" target="actor" targetSpec="" />Порыбачь,<delay8 /> на деревьях, в камнях
+поищи!<pageBreak /><anim id="HappyDance" target="actor" targetSpec="" />И на небо гляди, <delay8 />и под
 ноги смотри!<delay8 /> Вот такие дела,
 два «ха-ха», три «хи-хи»!</message>
 	<message label="016" attrib="00 00 00 00">А это тебе, держи!</message>
 	<message label="017" attrib="00 00 00 00">Это инструкция для <colour id="1" />кровати
 «День зайцев»<delay20 /><colour id="65535" />. <anim id="Nodding" target="actor" targetSpec="" />Ты сможешь
 собрать ее из найденных яиц.<pageBreak /><tag a="10" b="6" />А теперь<delay20 /> <anim id="Dance" target="actor" targetSpec="" />важное объявление!<delay frames="65" />
+<anim id="Worried" target="actor" targetSpec="" /><size value="75" />Надеюсь, всем понравится<tag a="110" b="0" /><size value="100" /><endTag a="10" b="6" /><pageBreak /><anim id="BigSmile" target="actor" targetSpec="" />Я прячу по всему острову
+<colour id="1" />инструкции «Сделай сам»
+<colour id="65535" />ко Дню зайцев!<delay frames="50" /><anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak />И чем ближе День зайцев<tag a="110" b="0" /><anim id="BigSmile" target="actor" targetSpec="" />
+тем больше инструкций
+я буду прятать!<pageBreak />Если найдешь <colour id="1" />все мои инструкции
+«Сделай сам»<colour id="65535" /> и смастеришь по ним
+все предметы<tag a="110" b="0" /><anim id="Dance" target="actor" targetSpec="" /> получишь подарок!<pageBreak /><anim id="HappyDance" target="actor" targetSpec="" />Прыг-скок,<delay20 /> хэй-хэй-хэй!<delay20 />
+Это будет распрекрасный<delay8 />
+Зайцев день!<delay frames="60" /><anim id="EmotEnd" target="actor" targetSpec="" /></message>
+	<message label="017_01" attrib="00 00 00 00">Хэй-хэй-хэй! Не зевай!<delay20 /> <anim id="Nodding" target="actor" targetSpec="" /><colour id="1" />Водяных яиц
+десяток<colour id="65535" /> в свой набор получай!<pageBreak /><tag a="10" b="6" />А теперь<delay20 /> <anim id="Dance" target="actor" targetSpec="" />важное объявление!<delay frames="65" />
 <anim id="Worried" target="actor" targetSpec="" /><size value="75" />Надеюсь, всем понравится<tag a="110" b="0" /><size value="100" /><endTag a="10" b="6" /><pageBreak /><anim id="BigSmile" target="actor" targetSpec="" />Я прячу по всему острову
 <colour id="1" />инструкции «Сделай сам»
 <colour id="65535" />ко Дню зайцев!<delay frames="50" /><anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak />И чем ближе День зайцев<tag a="110" b="0" /><anim id="BigSmile" target="actor" targetSpec="" />
@@ -73,8 +84,8 @@
 <anim id="BigSmile" target="actor" targetSpec="" />Пусть сюрприз будет!<delay frames="60" /><anim id="EmotEnd" target="actor" targetSpec="" /></message>
 	<message label="022" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />В домах ни за что
 ты яиц не найдешь.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Айда на природу!
-Прыг-скок, вперед!<pageBreak /><anim id="HappyDance" target="actor" targetSpec="" />Ищи на деревьях, в камнях
-и в воде! Ах да, и на небо
+Прыг-скок, вперед!<pageBreak /><anim id="HappyDance" target="actor" targetSpec="" />Ищи на деревьях, в камнях,
+на крючке! Ах да, и на небо
 не забудь поглядеть!</message>
 	<message label="023" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Не забывай искать <colour id="1" />инструкции
 «Сделай сам» ко Дню зайцев<colour id="65535" />,
@@ -142,6 +153,12 @@
 сам»<colour id="65535" />, которые я спрятал.<pageBreak />Тех, кто <colour id="1" />смастерит все по моим
 инструкциям «Сделай сам»<delay8 /><colour id="65535" />, ждет
 особый приз! <delay20 />Пора искать!</message>
+	<message label="108_01" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Как для кого?<delay20 /> Для тебя!<delay frames="40" /> <anim id="Dance" target="actor" targetSpec="" />В знак
+благодарности<delay20 /><anim id="EmotEnd" target="actor" targetSpec="" /> <colour id="1" />10 каменных яиц<colour id="65535" />!<pageBreak />Вот!<delay20 /><anim id="Explain" target="actor" targetSpec="" /> А теперь прыг-скок искать
+<colour id="1" />инструкции «Сделай сам»<colour id="65535" />, которые
+я спрятал.<pageBreak /><anim id="Cheering" target="actor" targetSpec="" />Тех, кто <colour id="1" />смастерит все по моим
+инструкциям «Сделай сам»<delay8 /><colour id="65535" />, ждет
+особый приз!<pageBreak /><anim id="Frantic" target="actor" targetSpec="" />Пора искать!<delay20 /> Поторопись!</message>
 	<message label="109" attrib="00 00 00 00">Это тебе!<delay20 /> <anim id="QuestionMark" target="actor" targetSpec="" />Погоди, это мне
 кажется?<delay20 /> У тебя же карманы
 полные.<delay20 /> Какая незадача!<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Освободи место,<delay8 /> и тогда
@@ -156,6 +173,18 @@
 	<message label="113" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Это <delay8 /><colour id="1" />инструкция арки на День
 зайцев<colour id="65535" />!<delay frames="40" /> Смастери из яиц, которые
 найдешь.<pageBreak /><tag a="10" b="6" /><anim id="Dance" target="actor" targetSpec="" />А теперь внимание!<tag a="10" b="6" /><delay20 /><endTag a="10" b="6" /> У меня
+очень важное объявление!<delay frames="50" />
+<anim id="EmotEnd" target="actor" targetSpec="" /><size value="75" />Ты точно слушаешь?<delay20 /> Точно?<delay20 /> Ну ладно!<size value="100" /><endTag a="10" b="6" /><pageBreak /><anim id="BigSmile" target="actor" targetSpec="" />Я спрятал по всему острову
+<colour id="1" />инструкции «Сделай сам» <colour id="65535" />на
+День зайцев!<pageBreak />Кто <colour id="1" />все инструкции найдет<colour id="65535" /> и все
+предметы соберет, тот отличный
+подарок домой унесет!<delay20 />
+<anim id="Hello" target="actor" targetSpec="" />А теперь<delay8 /> прыг-попрыг,<delay8 />
+айда искать!<delay20 /> А я буду тут
+ждать и плясать.</message>
+	<message label="113_01" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Это <delay8 /><colour id="1" />10 каменных яиц<colour id="65535" />!<delay frames="40" /> Если ты из
+них что-нибудь смастеришь,
+они не пропадут даром.<pageBreak /><tag a="10" b="6" /><anim id="Dance" target="actor" targetSpec="" />А теперь внимание!<delay20 /> У меня
 очень важное объявление!<delay frames="50" />
 <anim id="EmotEnd" target="actor" targetSpec="" /><size value="75" />Ты точно слушаешь?<delay20 /> Точно?<delay20 /> Ну ладно!<size value="100" /><endTag a="10" b="6" /><pageBreak /><anim id="BigSmile" target="actor" targetSpec="" />Я спрятал по всему острову
 <colour id="1" />инструкции «Сделай сам» <colour id="65535" />на
@@ -332,8 +361,8 @@
 <anim id="Negative" target="actor" targetSpec="" />У тебя еще нет всех видов яиц!<pageBreak />Яйца бывают шести видов.<delay frames="40" />
 <anim id="Greeting" target="actor" targetSpec="" />Найди все и принеси мне!</message>
 	<message label="192" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Айда на природу!
-Прыг-скок, вперед!<pageBreak /><anim id="HappyDance" target="actor" targetSpec="" />Ищи на деревьях, в камнях
-и в воде! Ах да, и на небо
+Прыг-скок, вперед!<pageBreak /><anim id="HappyDance" target="actor" targetSpec="" />Ищи на деревьях, в камнях,
+на крючке! Ах да, и на небо
 не забудь поглядеть!</message>
 	<message label="193" attrib="00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Во так-так!<delay frames="40" /> <anim id="Nodding" target="actor" targetSpec="" />Ты собрал<gender2 m="" f="а" /> все виды
 яиц, но<tag a="110" b="0" /><pageBreak /><anim id="Worried" target="actor" targetSpec="" />У тебя в карманах нет места.<delay frames="40" />
@@ -345,6 +374,13 @@
 мной на острове инструкции?!<pageBreak /><anim id="TakenAback" target="actor" targetSpec="" />Расписная скорлупа!<delay20 /> Я не ожидал,<delay8 />
 что ты со всем справишься!<delay8 /> У меня
 больше нет заданий<tag a="110" b="0" /></message>
+	<message label="200_01" attrib="00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Что ты говоришь?<delay20 /> Я не ослышался?<delay20 />
+Ты использовал<gender2 m="" f="а" /> все спрятанные
+мной на острове инструкции?!<pageBreak /><anim id="HappyDance" target="actor" targetSpec="" />Тогда тебе последнее задание.<delay20 />
+Меня аж трясет от нетерпения.<delay20 />
+Смастери что-то<tag a="110" b="0" /><delay20 /> <anim id="EmotEnd" target="actor" targetSpec="" />вроде меня!<pageBreak /><anim id="BigSmile" target="actor" targetSpec="" />Смастери <colour id="1" />неваляшку-Зиппера<colour id="65535" />,<delay8 /><anim id="EmotEnd" target="actor" targetSpec="" />
+и я вручу тебе приз!<delay20 /><anim id="Nodding" target="actor" targetSpec="" /> Клянусь
+ушами!</message>
 	<message label="201" attrib="00 00 00 00"><tag a="10" b="12" /><tag a="10" b="6" /><anim id="Laughing" target="actor" targetSpec="" /><size value="150" />Кроме одного!<delay frames="30" /><size value="100" /><size value="75" /><pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" /><anim id="Serious" target="actor" targetSpec="" />Неужели ты думаешь, что все так просто?!<delay20 />
 Ну и молодежь пошла.<size value="100" /><endTag a="10" b="6" /><pageBreak /><anim id="Explain" target="actor" targetSpec="" />Прежде чем я смогу вручить тебе
 подарок, у меня будет для тебя еще
@@ -366,11 +402,22 @@
 Свое обещание<delay8 /> я не забыл<tag a="110" b="0" />
 <anim id="EmotEnd" target="actor" targetSpec="" />Держи свой заслуженный особый
 приз!</message>
+	<message label="204_01" attrib="00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Только посмотрите — твое лицо
+сияет как расписное яйцо<tag a="110" b="0" /><pageBreak />Все задания и заданьица<delay8 />
+выполнил<gender2 m="" f="а" /> ты для зайца?!<pageBreak /><anim id="Clapping" target="actor" targetSpec="" />Ура! Ура! Тра-ля-ля!<delay20 />
+Я знал, что надежда вся на тебя!<delay frames="40" /><anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak />Свое обещание<delay8 /> я не забыл<tag a="110" b="0" />
+<anim id="EmotEnd" target="actor" targetSpec="" />Держи свой заслуженный особый
+приз!</message>
 	<message label="205" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Редчайшая инструкция для
 <colour id="1" />палочки на День зайцев<colour id="65535" />!<delay frames="40" /><pageBreak /><size value="75" /><anim id="Serious" target="actor" targetSpec="" />Что значит «инструкция как инструкция»?<delay20 />
 Скажи спасибо, что вообще приз дают.<pageBreak /><size value="100" /><anim id="EmotEnd" target="actor" targetSpec="" />После таких яичных подвигов<delay8 />
 <anim id="Clapping" target="actor" targetSpec="" />еще одна поделка на День зайцев
 не составит труда!<delay frames="40" /> Готов<gender2 m="" f="а" />?!</message>
+	<message label="205_01" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Держи — вот твоя <colour id="1" />палочка на День
+зайцев<colour id="65535" />!<delay20 /> Это твоя награда за
+прилежание и послушание.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />После таких яичных подвигов<delay8 /> <anim id="Clapping" target="actor" targetSpec="" />ноги
+зайца сами пускаются в пляс!<delay frames="40" />
+Готов<gender2 m="" f="а" /> к моему особому танцу?!</message>
 	<message label="206" attrib="00 00 00 00">Поздравляю победител<gender2 m="я" f="ьницу" />!
 Усердн<gender2 m="ого" f="ую" /> яйцемастерител<gender2 m="я" f="ьницу" />!<anim id="Dance" target="actor" targetSpec="" /><delay frames="50" /><10_7 arg="130" /></message>
 	<message label="207" attrib="00 00 00 00"><anim id="HappyDance" target="actor" targetSpec="" />Прыг-скок-поскок!<delay20 />
@@ -394,9 +441,27 @@
 кто <colour id="1" />смастерит все предметы по
 инструкциям ко Дню зайцев<colour id="65535" />!<delay frames="40" /><anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak /><anim id="Frantic" target="actor" targetSpec="" />Не теряй времени попусту.<delay20 />
 Прыг-прыгай за инструкциями!</message>
+	<message label="222_01" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Вот <colour id="1" />10 каменных яиц<colour id="65535" />, про которые
+я тебе говорил! Подари мне улыбку
+и спрячь их в корзинку.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Я прыгаю от радости, что ты
+в День зайцев так стараешься!<delay8 />
+Но у нас еще дел невпроворот.<pageBreak /><anim id="QuestionMark" target="actor" targetSpec="" />Попробуй найти все <colour id="1" />инструкции
+«Сделай сам»<colour id="65535" /> ко Дню зайцев,
+которые я спрятал на острове!<pageBreak /><anim id="Cheering" target="actor" targetSpec="" />У меня есть особый приз для того,
+кто <colour id="1" />смастерит все предметы по
+инструкциям ко Дню зайцев<colour id="65535" />!<delay frames="40" /><anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak /><anim id="Frantic" target="actor" targetSpec="" />Не теряй времени попусту.<delay20 />
+Прыг-прыгай за инструкциями!</message>
 	<message label="223" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Это инструкция для <colour id="1" /><delay8 />арки на День
 зайцев<colour id="65535" />!<delay frames="40" /> Извини, я не мог дать ее
 тебе раньше.<delay20 /> Ищи яйца и мастери.<pageBreak /><tag a="10" b="6" /><anim id="Dance" target="actor" targetSpec="" />А сейчас — <delay20 />внимание!<delay20 />
+Важное объявление!<delay frames="50" />
+<anim id="EmotEnd" target="actor" targetSpec="" /><size value="75" />Ты вообще слушаешь?<delay20 /> Но я все равно расскажу.<size value="100" /><endTag a="10" b="6" /><pageBreak /><anim id="BigSmile" target="actor" targetSpec="" /><colour id="1" />Инструкции «Сделай сам»<colour id="65535" /> ко Дню
+зайцев спрятаны по всему острову!<pageBreak />Особая награда ждет того, кто
+найдет их и <colour id="1" />смастерит все предметы
+по инструкциям ко Дню зайцев<colour id="65535" />!<pageBreak /><anim id="Hello" target="actor" targetSpec="" />Ну, давай<delay8 /> скачи!<delay20 /> Я буду ждать.</message>
+	<message label="223_01" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Вот <colour id="1" />10 каменных яиц<colour id="65535" />!<delay frames="40" /> Извини, я не
+мог передать их тебе раньше —
+ни лично, ни почтой.<pageBreak /><tag a="10" b="6" /><anim id="Dance" target="actor" targetSpec="" />А сейчас — <delay20 />внимание!<delay20 />
 Важное объявление!<delay frames="50" />
 <anim id="EmotEnd" target="actor" targetSpec="" /><size value="75" />Ты вообще слушаешь?<delay20 /> Но я все равно расскажу.<size value="100" /><endTag a="10" b="6" /><pageBreak /><anim id="BigSmile" target="actor" targetSpec="" /><colour id="1" />Инструкции «Сделай сам»<colour id="65535" /> ко Дню
 зайцев спрятаны по всему острову!<pageBreak />Особая награда ждет того, кто
@@ -408,4 +473,10 @@
 <anim id="Explain" target="actor" targetSpec="" />Как я уже говорил, <delay8 />если ты
 ее смастеришь, я вручу тебе
 шикарный приз.<delay frames="40" /> <anim id="BigSmile" target="actor" targetSpec="" />Честное заячье!<delay frames="50" /><anim id="EmotEnd" target="actor" targetSpec="" /></message>
+	<message label="230" attrib="00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Ну и ну! <delay8 />Трам-пам-пам!<delay8 />
+<anim id="QuestionMark" target="actor" targetSpec="" />Ты не слыхал<gender2 m="" f="а" /> про «<colour id="1" />Сделай сам<colour id="65535" />»?!<pageBreak /><anim id="Sighing" target="actor" targetSpec="" />Пренеприятная проблема.<delay20 /> День
+зайцев без «<colour id="1" />Сделай сам<colour id="65535" />» — как
+заяц без праздничных яиц!<pageBreak /><anim id="Assent" target="actor" targetSpec="" />Не унывай!<delay20 /> Лучше прыг-прыгай
+на урок «<colour id="1" />Сделай сам<colour id="65535" />» в <colour id="1" />бюро услуг<colour id="65535" />.<delay20 />
+<anim id="Nodding" target="actor" targetSpec="" />Скок-поскок! Ноги в руки и вперед!</message>
 </msbt>

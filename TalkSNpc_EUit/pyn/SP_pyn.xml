@@ -40,16 +40,16 @@ Uova qui!<delay8 /> Uova là!<delay20 />
 Dove si nasconderan?<delay20 />
 Loro non te lo diran!<10_7 arg="180" /></message>
 	<message label="015" attrib="00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Tutto chiaro?<delay frames="40" /> <anim id="Thinking" target="actor" targetSpec="" />Sì? <delay8 />No? <delay20 />Forse?
-<delay20 /><anim id="EmotEnd" target="actor" targetSpec="" />OK, proviamo così<tag a="110" b="0" /><pageBreak /><anim id="Explain" target="actor" targetSpec="" />Ci sono <colour id="1" />6 tipi di uova <colour id="65535" />nascosti
+<delay20 /><anim id="EmotEnd" target="actor" targetSpec="" />OK, proviamo così<tag a="110" b="0" /><pageBreak /><anim id="Explain" target="actor" targetSpec="" />Ci sono <colour id="1" />6 tipi di uova <colour id="65535" />nascoste
 per tutta l'isola.<pageBreak /><anim id="Greeting" target="actor" targetSpec="" />Quindi, mio gioioso ovetto,<delay8 /> tu dovrai
 andare a cercarle<delay20 /><anim id="Dance" target="actor" targetSpec="" /> per poi portarle qui
 da me, il tuo amico saltellante!
 Ma attenzione: <delay8 /><anim id="Negative" target="actor" targetSpec="" />le mie uova non si
 trovano all'interno di edifici, <delay8 />no, no.
 <delay frames="40" /><anim id="Smiling" target="actor" targetSpec="" />Sono nascoste all'aperto!
-<anim id="HappyDance" target="actor" targetSpec="" />Controlla sugli alberi,<delay8 /> tra le rocce,<delay8 />
-perfino in acqua.<pageBreak /><anim id="HappyDance" target="actor" targetSpec="" />Scruta i cieli <delay8 />e guarda a terra,<delay8 />
-questo è il mio consiglio!</message>
+<anim id="HappyDance" target="actor" targetSpec="" />Controlla sugli alberi,<delay8 /> guarda tra le
+rocce<delay8 /> e prova anche con la pesca.<pageBreak /><anim id="HappyDance" target="actor" targetSpec="" />E non dimenticare di scrutare il cielo,
+<delay8 />dai retta a me!</message>
 	<message label="016" attrib="00 00 00 00">Ed ecco qui qualcosina che
 ho fatto apposta per te!</message>
 	<message label="017" attrib="00 00 00 00">È lo schema fai da te per un
@@ -66,6 +66,18 @@ uno spettacolare regalo da me!
 <anim id="Laughing" target="actor" targetSpec="" />Sbarabing sbaraboing, credi a me!<delay20 />
 Sarà la caccia all'uovo più fantastica
 che sia mai esistita!</message>
+	<message label="017_01" attrib="00 00 00 00">Ecco <colour id="1" />10 uova acquatiche<colour id="65535" />, tutte per
+te!<delay20 /> <anim id="Nodding" target="actor" targetSpec="" />Gioia e tripudio! La tua collezione
+di uova è cresciuta! Sbarabing!<pageBreak /><tag a="10" b="6" />E ora<delay20 /> <anim id="Dance" target="actor" targetSpec="" />un grande annuncio!<delay frames="65" />
+<anim id="Worried" target="actor" targetSpec="" /><size value="75" />Ti piacerà da matti, già lo so<tag a="110" b="0" /><size value="100" /><endTag a="10" b="6" /><pageBreak /><anim id="Clapping" target="actor" targetSpec="" />Ho nascosto degli <colour id="1" />schemi fai da te <colour id="65535" />in
+giro per l'isola!<delay frames="50" /><anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak />A mano a mano che ci avvicineremo
+al giorno della caccia all'uovo<tag a="110" b="0" /> <anim id="BigSmile" target="actor" targetSpec="" />io
+nasconderò sempre più schemi!<pageBreak />Se trovi <colour id="1" />tutti<colour id="65535" /> <colour id="1" />questi<colour id="65535" /> <colour id="1" />schemi fai da te
+<colour id="65535" />e realizzi i relativi articoli<tag a="110" b="0" /><anim id="Dance" target="actor" targetSpec="" /><delay20 /> riceverai
+uno spettacolare regalo da me!
+<anim id="HappyDance" target="actor" targetSpec="" />Sbarabing sbaraboing, credi a me!<delay20 />
+Sarà la caccia all'uovo più fantastica
+che sia mai esistita!<delay frames="60" /><anim id="EmotEnd" target="actor" targetSpec="" /></message>
 	<message label="018" attrib="00 00 00 00">E poi ho qualcosina di gioiosamente
 ballonzoloso per te che<tag a="110" b="0" /><pageBreak /><anim id="Eh" target="actor" targetSpec="" />Baboing, aspetta un attimo!<delay8 />
 Hai le tasche piene.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Vieni a parlarmi quando ti sarai
@@ -83,14 +95,13 @@ La <colour id="1" />caccia all'uovo<colour id="65535" /> cade il giorno
 isola in questa fortunata occasione!<pageBreak /><anim id="Silent" target="actor" targetSpec="" />Nel frattempo, fai finta di non
 avermi mai visto,<delay8 /> OK?<delay20 /> Dev'essere
 una sorpresa!</message>
-	<message label="022" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />All'interno di edifici, uova
-non troverai. <delay8 />Bada bene,
-lì non ne ho messe mai.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Fuori è il luogo gioioso,
-<delay8 />tra gli spazi aperti, <delay8 />dove
-il mio tesoro ti attende copioso!
-<anim id="HappyDance" target="actor" targetSpec="" />Cerca tra gli alberi, le rocce
-e l'acqua corrente. <delay8 />Senza
-dimenticare il cielo soprastante!</message>
+	<message label="022" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />All'interno di edifici, le mie uova
+non troverai. <delay8 />Ascoltami bene,
+ovetto, lì non ne ho messe mai.
+<anim id="Explain" target="actor" targetSpec="" />Fuori è il luogo gioioso, <delay8 />dove
+il mio tesoro ti attende copioso!<pageBreak /><anim id="HappyDance" target="actor" targetSpec="" />Tra gli alberi e le rocce devi cercare,
+e di andare a pesca non dimenticare.<pageBreak /><delay8 />Anche scrutare il cielo ti può aiutare.
+Ascolta a me e non ti puoi sbagliare!</message>
 	<message label="023" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Non dimenticare di cercare
 gli <colour id="1" />schemi a tema caccia all'uovo
 <colour id="65535" />disseminati in tutta l'isola.
@@ -165,7 +176,7 @@ Loro non te lo diran!<10_7 arg="180" /></message>
 ancora andare alla ricerca di uova
 in questo giorno speciale!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Usa bene il tempo a disposizione
 <delay8 />e cerca di trovare i <colour id="1" />6 tipi di uova
-<colour id="65535" />nascosti in giro per l'isola!</message>
+<colour id="65535" />nascoste in giro per l'isola!</message>
 	<message label="106" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Se li trovi tutti,<delay8 /> ti ricompenserò con
 qualcosa di speciale!</message>
 	<message label="107" attrib="00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Ecco qua, ovetto!<delay20 /> Per te<tag a="110" b="0" /></message>
@@ -178,6 +189,18 @@ di trovare tutti gli altri <colour id="1" />schemi<colour id="65535" /> della
 <anim id="Cheering" target="actor" targetSpec="" />Ho una ricompensa uovolosa per
 chiunque riuscirà a <colour id="1" />realizzare tutti
 i relativi progetti fai da te<colour id="65535" />!<delay20 />
+<anim id="Laughing" target="actor" targetSpec="" />Orsù, andiam.<delay20 /> Tempo più non
+perdiam!</message>
+	<message label="108_01" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />E ho anche una sorpresa per un
+ovetto molto speciale<tag a="110" b="0" /> <anim id="BigSmile" target="actor" targetSpec="" />Esatto,<delay8 /> mi
+riferisco a te!<delay frames="40" />
+<anim id="EmotEnd" target="actor" targetSpec="" />Ecco <colour id="1" />10 uova rocciose <colour id="65535" /><delay20 /><anim id="Dance" target="actor" targetSpec="" />per
+ringraziarti di tutto quello che fai.<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Ora <delay20 />saltella per tutta l'isola e cerca
+di trovare tutti gli altri <colour id="1" />schemi <colour id="65535" />della
+<colour id="1" />caccia all'uovo<colour id="65535" /> che ho nascosto.
+<anim id="Cheering" target="actor" targetSpec="" />Ho una ricompensa uovolosa per
+chiunque riuscirà a <colour id="1" />realizzare tutti
+i relativi progetti fai da te<colour id="65535" />!
 <anim id="Laughing" target="actor" targetSpec="" />Orsù, andiam.<delay20 /> Tempo più non
 perdiam!</message>
 	<message label="109" attrib="00 00 00 00">E poi ho questa cosa per te<tag a="110" b="0" />
@@ -203,9 +226,21 @@ che trovi, <delay20 />sarà una meraviglia.
 <tag a="10" b="6" /><anim id="Dance" target="actor" targetSpec="" />E ora,<delay20 /> prestami orecchio!<delay20 /> Ho
 un annuncio grandioso da fare!<delay frames="50" />
 <anim id="EmotEnd" target="actor" targetSpec="" /><size value="75" />Mi stai ascoltando?<delay20 /> Beh, io lo dico lo stesso.<size value="100" /><endTag a="10" b="6" /><pageBreak /><anim id="BigSmile" target="actor" targetSpec="" />Ho nascosto degli <colour id="1" />schemi <colour id="65535" />a tema
-<colour id="1" />caccia all'uovo<colour id="65535" /> in tutta l'isola!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Il fortunato ovetto che troverà <colour id="1" />tutti
-i tipi di schema e realizzerà <colour id="65535" />i relativi
-progetti fai da te<tag a="110" b="0" />
+<colour id="1" />caccia all'uovo<colour id="65535" /> in tutta l'isola!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Il fortunato ovetto che <colour id="1" />troverà tutti
+i tipi di schema e realizzerà i relativi
+progetti fai da te<colour id="65535" /><tag a="110" b="0" />
+<anim id="EmotEnd" target="actor" targetSpec="" />... avrà una ricompensa molto
+speciale! <anim id="Hello" target="actor" targetSpec="" />Ora zampe in spalla<delay8 /> e
+sotto con la caccia!<delay20 /> Io aspetterò qui.</message>
+	<message label="113_01" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Ecco <colour id="1" />10 uova rocciose<colour id="65535" /> per te.<delay frames="40" /> Se le
+utilizzi per realizzare uno schema,<delay8 />
+il risultato sarà una meraviglia!<pageBreak /><tag a="10" b="6" /><anim id="Dance" target="actor" targetSpec="" />E ora,<delay20 /> prestami orecchio!<delay20 />
+Ho un annuncio grandioso da fare!<delay frames="50" />
+<anim id="EmotEnd" target="actor" targetSpec="" /><size value="75" />Mi stai ascoltando?<delay20 /> Beh, io lo dico lo stesso.<size value="100" /><endTag a="10" b="6" />
+<anim id="BigSmile" target="actor" targetSpec="" />Ho nascosto degli <colour id="1" />schemi <colour id="65535" />a tema
+<colour id="1" />caccia all'uovo<colour id="65535" /> in tutta l'isola!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Il fortunato ovetto che <colour id="1" />troverà tutti
+i tipi di schema e realizzerà i relativi
+progetti fai da te<colour id="65535" /><tag a="110" b="0" />
 <anim id="EmotEnd" target="actor" targetSpec="" />... avrà una ricompensa molto
 speciale! <anim id="Hello" target="actor" targetSpec="" />Ora zampe in spalla<delay8 /> e
 sotto con la caccia!<delay20 /> Io aspetterò qui.</message>
@@ -404,9 +439,9 @@ i tipi di uova! <delay20 />Ce ne sono sei diversi.
 	<message label="192" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Là fuori dovrai cercare<delay20 />
 e ti auguro di trovare<delay20 />
 di uova un grande mare!
-<anim id="HappyDance" target="actor" targetSpec="" />Guarda in tutti gli angoletti,<delay8 />
-tra gli alberi, le rocce e in acqua<delay8 />
-e in alto in alto, oltre i tetti!</message>
+<anim id="HappyDance" target="actor" targetSpec="" />Vai a pesca e guarda in tutti gli
+angoletti.<delay8 /> Tra gli alberi, le rocce
+e anche in alto,<delay8 /> oltre i tetti!</message>
 	<message label="193" attrib="00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Oh, sbaraboing! <delay8 />Hai trovato tutti
 e sei i tipi diversi di uova!<pageBreak /><anim id="OhGeez" target="actor" targetSpec="" />Peccato che non possa darti niente.
 <delay8 />Vedi, hai le tasche piene<tag a="110" b="0" /> come un
@@ -423,6 +458,14 @@ provato,<delay8 /> ma non immaginavo che
 ci saresti riuscito, ovetto!
 <anim id="WrySmile" target="actor" targetSpec="" />A questo punto, <delay8 />non ho più altro
 da chiederti<tag a="110" b="0" /></message>
+	<message label="200_01" attrib="00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Le mie lunghe orecchie mi tradiscono<delay20 />
+o hai realizzato tutti gli oggetti degli
+schemi che avevo nascosto?
+<anim id="HappyDance" target="actor" targetSpec="" />Un'ultima sfida ti attende.<delay20 /> E ciò mi
+rallegra.<delay20 /> Devi realizzare un giocattolo
+che somigli<tag a="110" b="0" /><delay20 /> <anim id="EmotEnd" target="actor" targetSpec="" />proprio a me!<pageBreak /><anim id="BigSmile" target="actor" targetSpec="" />Sì, sbaraboing! È un <colour id="1" />misirizzi Ovidio<colour id="65535" />!<delay frames="40" />
+<anim id="EmotEnd" target="actor" targetSpec="" />Se realizzi questo schema, riceverai
+un superpremio!<delay20 /><anim id="Nodding" target="actor" targetSpec="" /> Parola di coniglio!</message>
 	<message label="201" attrib="00 00 00 00"><tag a="10" b="12" /><tag a="10" b="6" /><anim id="Laughing" target="actor" targetSpec="" /><size value="150" />SOLO UN'ULTIMA COSA!<delay frames="30" />
 <size value="100" /><size value="75" /><anim id="EmotEnd" target="actor" targetSpec="" /><anim id="Serious" target="actor" targetSpec="" />Pensavi davvero che sarebbe stato così facile?<delay20 />
 Mi piaci, ovetto mio,<delay8 /> ma non posso mica viziarti.<size value="100" /><endTag a="10" b="6" /><pageBreak /><anim id="Explain" target="actor" targetSpec="" />Ti chiedo umilmente scusa,<delay8 /> ma c'è
@@ -450,15 +493,27 @@ Sapevo che non mi avresti deluso.
 <anim id="EmotEnd" target="actor" targetSpec="" />Beh, io non ho dimenticato la mia
 promessa<tag a="110" b="0" /> <delay20 /><anim id="EmotEnd" target="actor" targetSpec="" />Ecco il tuo specialissimo
 premio.<delay20 /> Con le mie congratulazioni!</message>
+	<message label="204_01" attrib="00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Boing boing!<delay20 /> Il tuo sguardo dice
+tutto. <delay20 />Tu hai completato ogni mia
+sfida,<delay8 /> grande e piccina, vero?
+<anim id="Clapping" target="actor" targetSpec="" />Yuppitì yuppitè!<delay20 /> Sapevo di poter
+contare su di te!<delay frames="40" /><anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Beh, io non ho dimenticato la mia
+promessa<tag a="110" b="0" /> <delay20 /><anim id="EmotEnd" target="actor" targetSpec="" />Ecco il tuo specialissimo
+premio.<delay20 /> Con le mie congratulazioni!</message>
 	<message label="205" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Si tratta di uno schema fai da te
 per l'incredibile <colour id="1" />bacchetta caccia
 all'uovo<colour id="65535" />!<delay frames="40" />
 <size value="75" /><anim id="Serious" target="actor" targetSpec="" />Come sarebbe a dire,<delay8 /> "è solo un altro schema"?<delay20 />
 A coniglio donante non si guarda in bocca<tag a="110" b="0" /><delay8 /> o alla
 schiena,<delay8 /> se è per quello.
-<size value="100" /><anim id="EmotEnd" target="actor" targetSpec="" />Ciononostante,<delay8 /> per aver eccelso nel
+<size value="100" /><anim id="EmotEnd" target="actor" targetSpec="" />Comunque sia,<delay8 /> per aver eccelso nel
 fai da te, <anim id="Clapping" target="actor" targetSpec="" /><delay20 />meriti una mia celebrazione
 all'altezza!<delay frames="40" /> Siamo pronti?</message>
+	<message label="205_01" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />Ed eccoti la <colour id="1" />bacchetta caccia
+all'uovo<colour id="65535" />!<delay20 /> È il mio dono per te, per
+aver balzellato senza sosta qua e là.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Comunque sia, per aver eccelso nel
+fai da te,<delay20 /> <anim id="Clapping" target="actor" targetSpec="" />meriti una celebrazione
+all'altezza! <delay frames="50" /><anim id="EmotEnd" target="actor" targetSpec="" />Siamo pronti?</message>
 	<message label="206" attrib="00 00 00 00">Hai vinto!<delay8 /> Mi hai sbaragliato!<delay20 />
 Nella <colour id="1" />caccia all'uovo<colour id="65535" /> hai trionfato!<anim id="Dance" target="actor" targetSpec="" /><delay frames="50" /><10_7 arg="130" /></message>
 	<message label="207" attrib="00 00 00 00"><anim id="HappyDance" target="actor" targetSpec="" />Ma il divertimento non finisce qui,
@@ -493,10 +548,37 @@ tutti gli oggetti<colour id="65535" />!
 <anim id="Frantic" target="actor" targetSpec="" />Su, ovetto!<delay8 /> Non c'è tempo da
 perdere.<delay20 /> Muovi quelle zampe
 e cerca dappertutto!</message>
+	<message label="222_01" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Sono le <colour id="1" />10 uova rocciose<colour id="65535" /> di cui ti
+parlavo.<delay20 /> Quindi sorridi! Non voglio
+vedere nessun broncio!<pageBreak /><anim id="Explain" target="actor" targetSpec="" />Sono felice di vederti partecipare a
+questo evento con tanto entusiasmo,
+<delay8 />però c'è ancora molto da fare.
+<anim id="QuestionMark" target="actor" targetSpec="" />Riuscirai a trovare tutti gli <colour id="1" />schemi
+fai da te <colour id="65535" />speciali che ho nascosto
+in giro per l'isola?
+<anim id="Cheering" target="actor" targetSpec="" />Sappi che ho in serbo un premio
+speciale per te,<delay8 /> se riuscirai a <colour id="1" />creare
+tutti gli oggetti<colour id="65535" />!
+<anim id="Frantic" target="actor" targetSpec="" />Su, ovetto!<delay8 /> Non c'è tempo da
+perdere.<delay20 /> Muovi quelle zampe
+e cerca dappertutto!</message>
 	<message label="223" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />È lo schema per l'<colour id="1" />arco caccia all'uovo
 <colour id="65535" />che non ho potuto darti prima.<delay20 />
 Crealo con le uova che troverai!
 <tag a="10" b="6" /><anim id="Dance" target="actor" targetSpec="" />E devo anche darti una grande
+notizia!<delay20 /> Non riesco a stare
+fermo per l'agitazione<tag a="110" b="0" /><endTag a="10" b="6" />
+<anim id="Cheering" target="actor" targetSpec="" />Devi sapere che ci sono altri <colour id="1" />schemi
+fai da te <colour id="65535" />speciali nascosti in giro per
+tutta l'isola!
+<anim id="Nodding" target="actor" targetSpec="" />Inoltre,<delay8 /> ho un premio speciale per te,<delay8 />
+se <colour id="1" />realizzerai tutti gli oggetti<colour id="65535" /> degli
+schemi che ho nascosto!
+<anim id="Laughing" target="actor" targetSpec="" />Ti auguro tanta uovosa fortuna,
+<delay8 />bidiboing!</message>
+	<message label="223_01" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Ecco le <colour id="1" />10 uova rocciose<colour id="65535" />!<delay frames="40" /> Mi dispiace
+non avertele potute dare prima, né
+zampa a zampa, né tramite corriere.<pageBreak /><tag a="10" b="6" /><anim id="Dance" target="actor" targetSpec="" />E devo anche darti una grande
 notizia!<delay20 /> Non riesco a stare
 fermo per l'agitazione<tag a="110" b="0" /><endTag a="10" b="6" />
 <anim id="Cheering" target="actor" targetSpec="" />Devi sapere che ci sono altri <colour id="1" />schemi
@@ -513,4 +595,11 @@ sbiriboingoloso se realizzi questo
 oggetto.
 <anim id="BigSmile" target="actor" targetSpec="" />Te lo prometto sul mio onore
 di coniglio portafortuna!</message>
+	<message label="230" attrib="00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />Sei in difficoltà ovetto? <delay8 />Forse un po'
+confus<gender2 m="o" f="a" />?<delay8 /> Me ne sono accorto<tag a="110" b="0" /><delay20 />
+<anim id="Eh" target="actor" targetSpec="" />Non sei a tuo agio con il <colour id="1" />fai da te<colour id="65535" />?<pageBreak /><anim id="Sighing" target="actor" targetSpec="" />Direi che abbiamo un problemone!<delay20 />
+Non puoi goderti la magia della
+caccia all'uovo senza il <colour id="1" />fai da te<colour id="65535" />!<pageBreak /><anim id="Assent" target="actor" targetSpec="" />Ma io ho la soluzione!<delay20 /> Iscriviti a un
+corso di <colour id="1" />fai da te<colour id="65535" /> al <colour id="1" />centro servizi<colour id="65535" />.<delay20 />
+<anim id="Nodding" target="actor" targetSpec="" />Dai, muovi quelle zampe e bidiboing!</message>
 </msbt>

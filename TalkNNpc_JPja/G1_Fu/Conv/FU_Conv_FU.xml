@@ -1,17 +1,14 @@
 <msbt attribsize="8">
 	<message label="001" attrib="00 00 00 00 00 00 00 00"><anim id="IdeaBulb" target="mainNpc" targetSpec="" />あ、<delay20 />そういう<ruby a="6" b="12">ほうこうせい</ruby>方向性ですか<tag a="110" b="0" /><delay20 />
 なるほど～<anim id="Nodding" target="subNpc" targetSpec="" /><delay40 />
-<anim id="Explain" target="mainNpc" targetSpec="" />でも　ビックリの<ruby a="2" b="2">ど</ruby>度<ruby a="2" b="2">あ</ruby>合いで<ruby a="2" b="2">い</ruby>言うと<tag a="110" b="0" />
-<20_3 arg="6" /><anim id="Hello" target="mainNpc" targetSpec="" />あ、<delay8 /><tag a="110" b="4" />！<20_3 arg="8" /><delay40 />
+<anim id="Explain" target="mainNpc" targetSpec="" />でも　ビックリの<ruby a="2" b="2">ど</ruby>度<ruby a="2" b="2">あ</ruby>合いで<ruby a="2" b="2">い</ruby>言うと<tag a="110" b="0" /><pageBreak /><20_3 arg="6" /><anim id="Hello" target="mainNpc" targetSpec="" />あ、<delay8 /><tag a="110" b="4" />！<20_3 arg="8" /><delay40 />
 <ruby a="2" b="2">き</ruby>聞こえちゃいました？<pageBreak /><anim id="Smiling" target="mainNpc" targetSpec="" /><ruby a="2" b="4">いま</ruby>今、<delay8 /><tag a="110" b="11" arg="0xcd00" /><tag a="110" b="13" />に<ruby a="2" b="4">おく</ruby>贈る<delay20 />
-<anim id="FaintSmile" target="subNpc" targetSpec="" />サプライズプレゼントの<delay8 />
-<ruby a="4" b="8">そうだん</ruby>相談をしているんです</message>
+<anim id="FaintSmile" target="subNpc" targetSpec="" />サプライズプレゼントの<delay8 />　<ruby a="4" b="8">そうだん</ruby>相談をしているんです</message>
 	<message label="002" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="subNpc" targetSpec="" />そうなんです～<20_2 arg="4" /><delay40 />
 <anim id="Restless" target="subNpc" targetSpec="" />プレゼントの<ruby a="4" b="6">こうほ</ruby>候補が　いくつかあって、<delay20 />
-どうしようかしらって<anim id="Nodding" target="mainNpc" targetSpec="" /><tag a="110" b="0" />
-<20_3 arg="7" /><anim id="IdeaBulb" target="subNpc" targetSpec="" />そうだ！<20_2 arg="5" /><delay40 />　<anim id="Hello" target="subNpc" targetSpec="" /><tag a="110" b="4" />にも<delay20 />
-<ruby a="4" b="6">いけん</ruby>意見を　きいてみるのは<delay8 />
-どうでしょう？　<tag a="110" b="6" /></message>
+どうしようかしらって<anim id="Nodding" target="mainNpc" targetSpec="" /><tag a="110" b="0" /><pageBreak /><20_3 arg="7" /><anim id="IdeaBulb" target="subNpc" targetSpec="" />そうだ！<20_2 arg="5" /><delay40 />
+<anim id="Hello" target="subNpc" targetSpec="" /><tag a="110" b="4" />にも　<delay20 /><ruby a="4" b="6">いけん</ruby>意見を
+きいてみるのは　<delay8 />どうでしょう？　<tag a="110" b="6" /></message>
 	<message label="003" attrib="00 00 10 00 00 00 00 00"><anim id="FaintSmile" target="mainNpc" targetSpec="" />それがいいですね！<20_2 arg="3" /><pageBreak /><20_3 arg="0" /><tag a="110" b="4" />だったら<delay20 />
 <anim id="QuestionMark" target="mainNpc" targetSpec="" />どんな　サプライズプレゼントが<delay20 />
 うれしいですか？　<tag a="110" b="6" /><anim id="FaintSmile" target="subNpc" targetSpec="" /></message>
@@ -21,8 +18,7 @@
 	<message label="003_d" attrib="00 00 00 00 00 00 00 00"><ruby a="4" b="8">ほんにん</ruby>本人のぬいぐるみ</message>
 	<message label="003_e" attrib="00 00 00 00 00 00 00 00"><ruby a="4" b="10">ひゃっぽん</ruby>百本の　<ruby a="4" b="8">はなたば</ruby>花束</message>
 	<message label="007" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="mainNpc" targetSpec="" />やっぱり　ハンドメイドのプレゼントが<delay8 /><20_2 arg="7" />
-<anim id="FaintSmile" target="subNpc" targetSpec="" /><ruby a="2" b="6">こころ</ruby>心がこもっていて　いいですよね！<pageBreak /><20_3 arg="5" /><20_3 arg="7" /><anim id="Smiling" target="mainNpc" targetSpec="" />そうと<ruby a="2" b="2">き</ruby>決まれば<delay20 />
-さっそく　<ruby a="4" b="8">じゅんび</ruby>準備しましょう？</message>
+<anim id="FaintSmile" target="subNpc" targetSpec="" /><ruby a="2" b="6">こころ</ruby>心がこもっていて　いいですよね！<pageBreak /><20_3 arg="5" /><20_3 arg="7" /><anim id="Smiling" target="mainNpc" targetSpec="" />そうと<ruby a="2" b="2">き</ruby>決まれば　<delay20 />さっそく　<ruby a="4" b="8">じゅんび</ruby>準備しましょう？</message>
 	<message label="008" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="subNpc" targetSpec="" />そうですね！<20_2 arg="4" /><delay40 />
 <anim id="AbsentMindedness" target="subNpc" targetSpec="" />まず、<delay8 />デザインを<ruby a="2" b="2">き</ruby>決めて<tag a="110" b="0" /><delay20 />
 <ruby a="4" b="10">ざいりょう</ruby>材料を<ruby a="2" b="4">あつ</ruby>集めて<tag a="110" b="0" /></message>
@@ -31,13 +27,12 @@
 ワクワクしてきました！　<tag a="110" b="6" /></message>
 	<message label="010" attrib="00 00 00 00 00 00 00 00"><anim id="Aha" target="mainNpc" targetSpec="" />やっぱり！<delay40 /><20_2 arg="7" /><anim id="Smiling" target="subNpc" targetSpec="" />
 <anim id="HappyDance" target="mainNpc" targetSpec="" />サプライズって、<delay8 />インパクトが<delay8 />
-<ruby a="4" b="6">だいじ</ruby>大事ですから　<delay20 /><ruby a="2" b="6">ちょう</ruby>超<ruby a="4" b="6">おおも</ruby>大盛りにしなくっちゃ！
-<20_3 arg="5" /><20_3 arg="7" /><anim id="Nodding" target="actor" targetSpec="" />そうと<ruby a="2" b="2">き</ruby>決まれば<delay20 />
-さっそく　<ruby a="4" b="8">じゅんび</ruby>準備しましょう？</message>
+<ruby a="4" b="6">だいじ</ruby>大事ですから　<delay20 /><ruby a="2" b="6">ちょう</ruby>超<ruby a="4" b="6">おおも</ruby>大盛りに　しなくっちゃ！
+<20_3 arg="5" /><20_3 arg="7" /><anim id="Nodding" target="actor" targetSpec="" />そうと<ruby a="2" b="2">き</ruby>決まれば　<delay20 />さっそく　<ruby a="4" b="8">じゅんび</ruby>準備しましょう？</message>
 	<message label="011" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="subNpc" targetSpec="" />うでに　よりをかけて<20_2 arg="4" />　<ruby a="2" b="4">つく</ruby>作りましょうね！<delay40 />
 <anim id="IdeaBulb" target="subNpc" targetSpec="" />そうだ！　<delay8 />わたしのお<ruby a="2" b="4">うち</ruby>家で<delay20 />
 <anim id="FaintSmile" target="subNpc" targetSpec="" /><ruby a="4" b="8">いっしょ</ruby>一緒に　<ruby a="4" b="8">じゅんび</ruby>準備しませんか？<anim id="Eh" target="mainNpc" targetSpec="" />
-<anim id="Blushing" target="subNpc" targetSpec="" /><ruby a="4" b="8">さいきん</ruby>最近、<delay8 />すごい　あわだて<ruby a="2" b="2">き</ruby>器を　<delay8 /><ruby a="2" b="2">か</ruby>買ったんです<anim id="FaintSmile" target="mainNpc" targetSpec="" /><delay40 />
+<anim id="Blushing" target="subNpc" targetSpec="" /><ruby a="4" b="8">さいきん</ruby>最近、<delay8 />すごい　あわだて<ruby a="2" b="2">き</ruby>器を<ruby a="2" b="2">か</ruby>買ったんです<anim id="FaintSmile" target="mainNpc" targetSpec="" /><delay40 />
 ぜひ、<delay8 />その<ruby a="4" b="8">せいのう</ruby>性能を　お<ruby a="2" b="2">み</ruby>見せしたくって<tag a="110" b="0" /></message>
 	<message label="012" attrib="00 00 00 00 00 00 00 00"><anim id="HappyFlower" target="mainNpc" targetSpec="" />わぁ～、<20_2 arg="3" /><delay20 />わたしも　ちょうど<delay20 />
 <ruby a="4" b="8">さいしん</ruby>最新のゴムベラを　<ruby a="2" b="2">か</ruby>買ったんですよ～<anim id="Eh" target="subNpc" targetSpec="" /><pageBreak /><anim id="Grin" target="mainNpc" targetSpec="" /><ruby a="2" b="4">いま</ruby>今までの<ruby a="2" b="4">もの</ruby>物とは　<ruby a="4" b="10">だんりょく</ruby>弾力が<ruby a="2" b="4">ちが</ruby>違うんです！<anim id="FaintSmile" target="subNpc" targetSpec="" /><delay40 />
@@ -56,14 +51,12 @@
 	<message label="016" attrib="00 00 00 00 00 00 00 00"><anim id="HappyDance" target="mainNpc" targetSpec="" />いいですね～<delay40 /><20_2 arg="7" />
 <ruby a="4" b="6">じぶん</ruby>自分そっくりの　ぬいぐるみを<delay20 />
 もらったら、<delay8 /><anim id="Smiling" target="subNpc" targetSpec="" />きっとビックリしますよね
-<20_3 arg="5" /><20_3 arg="7" /><anim id="Nodding" target="mainNpc" targetSpec="" />そうと<ruby a="2" b="2">き</ruby>決まれば<delay20 />
-さっそく　<ruby a="4" b="8">じゅんび</ruby>準備しましょう？</message>
+<20_3 arg="5" /><20_3 arg="7" /><anim id="Nodding" target="mainNpc" targetSpec="" />そうと<ruby a="2" b="2">き</ruby>決まれば　<delay20 />さっそく　<ruby a="4" b="8">じゅんび</ruby>準備しましょう？</message>
 	<message label="017" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="subNpc" targetSpec="" />じゃあ　<20_2 arg="4" />わたし、<delay20 /><ruby a="4" b="10">ざいりょう</ruby>材料を<ruby a="4" b="6">ようい</ruby>用意しますね<delay40 />
 <anim id="Thinking" target="subNpc" targetSpec="" />あと、<delay8 /><ruby a="4" b="8">かたがみ</ruby>型紙を<ruby a="2" b="4">つく</ruby>作りたいので<delay20 />
 <ruby a="4" b="8">ほんにん</ruby>本人の<ruby a="4" b="8">しゃしん</ruby>写真があると　いいんですけど<tag a="110" b="0" /></message>
 	<message label="018" attrib="00 00 00 00 00 00 00 00">それなら　<20_2 arg="3" /><delay8 />わたしが　<ruby a="2" b="2">と</ruby>撮ってきますよ<anim id="Eh" target="subNpc" targetSpec="" /><delay40 />
-<anim id="Assent" target="mainNpc" targetSpec="" /><ruby a="4" b="8">しゃしん</ruby>写真を<ruby a="2" b="2">と</ruby>撮るの、<delay8 />
-<ruby a="4" b="8">けっこう</ruby>結構　<ruby a="4" b="6">とくい</ruby>得意なんです！　<tag a="110" b="6" /><anim id="HappyDance" target="subNpc" targetSpec="" /></message>
+<anim id="Assent" target="mainNpc" targetSpec="" /><ruby a="4" b="8">しゃしん</ruby>写真を<ruby a="2" b="2">と</ruby>撮るの、<delay8 /><ruby a="4" b="8">けっこう</ruby>結構　<ruby a="4" b="6">とくい</ruby>得意なんです！　<tag a="110" b="6" /><anim id="HappyDance" target="subNpc" targetSpec="" /></message>
 	<message label="019" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="mainNpc" targetSpec="" /><ruby a="4" b="8">はなたば</ruby>花束って　<ruby a="4" b="6">すてき</ruby>素敵ですよね！<delay40 /><20_2 arg="7" />
 <anim id="Thinking" target="mainNpc" targetSpec="" />でも　<delay8 />お<ruby a="2" b="4">はな</ruby>花を<ruby a="4" b="10">ひゃっぽん</ruby>百本も<delay20 />
 どうやって　<ruby a="4" b="6">ようい</ruby>用意しましょう？</message>
@@ -85,14 +78,14 @@
 <anim id="FaintSmile" target="subNpc" targetSpec="" />うふふ、<delay20 /><tag a="110" b="31" arg="0xcd00" /><tag a="110" b="13" />の<delay8 />
 おすすめも　<anim id="Eh" target="mainNpc" targetSpec="" /><ruby a="2" b="2">き</ruby>聞きたいです～、<tag a="110" b="6" /></message>
 	<message label="103" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="mainNpc" targetSpec="" />わたしは<20_2 arg="3" />　やっぱり<delay20 />
-<anim id="AbsentMindedness" target="mainNpc" targetSpec="" /><ruby a="4" b="8">まんてん</ruby>満天の<ruby a="2" b="4">ほし</ruby>星の<ruby a="2" b="4">した</ruby>下<tag a="110" b="0" /><delay8 />ランタンの<ruby a="2" b="4">あか</ruby>灯りで<delay20 />
+<anim id="AbsentMindedness" target="mainNpc" targetSpec="" /><ruby a="4" b="8">まんてん</ruby>満天の<ruby a="2" b="4">ほし</ruby>星の<ruby a="2" b="4">した</ruby>下<tag a="110" b="0" />　<delay8 />ランタンの<ruby a="2" b="4">あか</ruby>灯りで<delay20 />
 <ruby a="2" b="4">ほん</ruby>本を<ruby a="2" b="2">よ</ruby>読むのが　<delay8 /><anim id="FaintSmile" target="mainNpc" targetSpec="" />いいですね～、<tag a="110" b="6" /></message>
 	<message label="104" attrib="00 00 00 00 00 00 00 00"><anim id="HappyDance" target="subNpc" targetSpec="" />わぁ～<20_2 arg="4" />　<delay20 />それも<ruby a="4" b="6">すてき</ruby>素敵です～<delay40 />
 <anim id="FaintSmile" target="mainNpc" targetSpec="" /><ruby a="4" b="6">いちど</ruby>一度　<ruby a="2" b="4">ため</ruby>試してみようかしら？　<tag a="110" b="6" /><anim id="EmotEnd" target="mainNpc" targetSpec="" /></message>
 	<message label="105" attrib="00 00 00 00 00 00 00 00"><anim id="Hello" target="mainNpc" targetSpec="" />よかったら<20_2 arg="3" />　<ruby a="4" b="8">いっしょ</ruby>一緒にやってみませんか？<delay40 />
 <anim id="BigSmile" target="mainNpc" targetSpec="" /><ruby a="2" b="4">ほし</ruby>星の<ruby a="2" b="4">した</ruby>下で　<delay8 /><ruby a="6" b="12">どくしょかい</ruby>読書会！<delay8 /><anim id="FaintSmile" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="mainNpc" targetSpec="" /></message>
 	<message label="106" attrib="00 00 00 00 00 00 00 00"><anim id="Pardon" target="subNpc" targetSpec="" />まぁ！<20_2 arg="4" />　<delay20 />とっても<ruby a="4" b="6">すてき</ruby>素敵なアイデアですね<delay40 />
-<anim id="Restless" target="subNpc" targetSpec="" />でも<tag a="110" b="0" /><delay8 /><ruby a="2" b="4">ほし</ruby>星が<ruby a="2" b="2">で</ruby>出ていなかったら<delay20 />
+<anim id="Restless" target="subNpc" targetSpec="" />でも<tag a="110" b="0" />　<delay8 /><ruby a="2" b="4">ほし</ruby>星が<ruby a="2" b="2">で</ruby>出ていなかったら<delay20 />
 <anim id="Eh" target="mainNpc" targetSpec="" />どうしましょう？　<tag a="110" b="6" /></message>
 	<message label="107" attrib="00 00 00 00 00 00 00 00"><anim id="Thinking" target="mainNpc" targetSpec="" />その<ruby a="2" b="4">とき</ruby>時は<20_2 arg="3" /><tag a="110" b="0" /><delay frames="60" />
 <anim id="QuestionMark" target="mainNpc" targetSpec="" />お<ruby a="2" b="4">ちゃ</ruby>茶と　クッキーを　<ruby a="2" b="2">も</ruby>持ち<ruby a="2" b="2">よ</ruby>寄って<delay20 />
@@ -114,9 +107,9 @@
 	<message label="204" attrib="00 00 00 00 00 00 00 00"><anim id="IdeaBulb" target="subNpc" targetSpec="" />まぁ、<20_2 arg="4" /><delay20 />そうなんですね？<delay40 />
 <anim id="Nodding" target="subNpc" targetSpec="" />どうりで　<delay8 /><tag a="110" b="31" arg="0xcd00" /><tag a="110" b="13" />、<delay20 />
 <anim id="FaintSmile" target="subNpc" targetSpec="" /><ruby a="4" b="6">きょう</ruby>今日は　<delay8 />ちょっと<ruby a="4" b="6">すてき</ruby>素敵だと<ruby a="2" b="4">おも</ruby>思いました<anim id="Blushing" target="mainNpc" targetSpec="" />
-<anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="Hesitate" target="subNpc" targetSpec="" /><tag a="110" b="0" />あの～<delay40 />
-わたしも　その<ruby a="2" b="4">はな</ruby>話し<ruby a="2" b="4">かた</ruby>方、<delay20 /><ruby a="2" b="4">つか</ruby>使ってみても<delay8 />
-いいでしょうか？</message>
+<anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="Hesitate" target="subNpc" targetSpec="" />あの～<tag a="110" b="0" /><delay40 />
+わたしも　その<ruby a="2" b="4">はな</ruby>話し<ruby a="2" b="4">かた</ruby>方、<delay20 />
+<ruby a="2" b="4">つか</ruby>使ってみても　<delay8 />いいでしょうか？</message>
 	<message label="205" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="mainNpc" targetSpec="" />もちろん<20_2 arg="3" />　いいですよ！<delay frames="60" /><anim id="FaintSmile" target="subNpc" targetSpec="" />
 <anim id="HappyDance" target="mainNpc" targetSpec="" /><tag a="110" b="31" arg="0xcd01" /><tag a="110" b="13" />と　<delay8 />おそろいの
 <ruby a="2" b="4">はな</ruby>話し<ruby a="2" b="4">かた</ruby>方ができるなんて　<delay8 />うれしいです</message>

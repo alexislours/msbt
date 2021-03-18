@@ -58,10 +58,11 @@ ist es Sonntag geworden,<delay8 /> und wir
 können keine Rüben mehr ankaufen.<pageBreak /><anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" />Möchtest du etwas anderes zum
 Verkauf auswählen?</message>
 	<message label="025" attrib="00 00 00 00"><anim id="Worried" target="mainNpc" targetSpec="" /><anim id="Worried" target="subNpc" targetSpec="" />Oh<tag a="110" b="0" /><delay8 /> Tut uns wirklich leid, <delay8 />aber<tag a="110" b="0" /><delay8 />
-Der Handel mit Fälschungen wurde
-uns untersagt.
-<anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" />Bitte wähle etwas anderes zum
-Verkauf aus.</message>
+der Handel mit Fälschungen ist
+uns untersagt.<pageBreak /><anim id="EmotEnd" target="mainNpc" targetSpec="" /><anim id="EmotEnd" target="subNpc" targetSpec="" />Bitte entschuldige die
+Unannehmlichkeiten, <delay8 />aber<tag a="110" b="0" /><pageBreak />Beginnen wir doch noch mal von
+vorn und tun so, <delay8 />als wäre nichts
+gewesen, <delay8 />ja?</message>
 	<message label="031" attrib="02 00 00 00"><anim id="Nodding" target="mainNpc" targetSpec="" /><anim id="FaintSmile" target="subNpc" targetSpec="" /><tag a="50" b="3" /><tag a="50" b="2" /><tag a="125" b="0" arg="0x0" />!<10_4 />
 <anim id="FaintSmile" target="mainNpc" targetSpec="" />Dafür können wir dir
 <tag a="90" b="26" arg="0x0" /> anbieten.</message>
@@ -326,7 +327,7 @@ Wir zahlen dir den doppelten Preis<tag a="110" b="0" /><delay20 />
 <tag a="90" b="24" arg="0x0" />.<delay frames="40" /><anim id="QuestionMark" target="mainNpc" targetSpec="" /><anim id="QuestionMark" target="subNpc" targetSpec="" /> Einverstanden?</message>
 	<message label="122_a" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Abgemacht!</message>
 	<message label="122_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />Lieber nicht.</message>
-	<message label="131" attrib="04 00 00 00">Von <tag a="50" b="17" arg="0x12 0xcd00 0x6 0x64 0x65 0x6d 0x6 0x64 0x65 0x72 0x6 0x64 0x65 0x6d" /> <tag a="50" b="23" arg="0xcd02" /><tag a="125" b="0" arg="0x0" /> <anim id="Nodding" target="subNpc" targetSpec="" />kannst du auch mehrere auf einmal kaufen. <delay20 /><anim id="QuestionMark" target="mainNpc" targetSpec="" />Wie viele dürfen es sein?</message>
+	<message label="131" attrib="04 00 00 00"><anim id="Nodding" target="subNpc" targetSpec="" />Von <tag a="50" b="17" arg="0x12 0xcd00 0x6 0x64 0x65 0x6d 0x6 0x64 0x65 0x72 0x6 0x64 0x65 0x6d" /> <tag a="50" b="23" arg="0xcd02" /><tag a="125" b="0" arg="0x0" /> kannst du auch mehrere Exemplare kaufen. <delay20 /><anim id="QuestionMark" target="mainNpc" targetSpec="" />Wie viele möchtest du?</message>
 	<message label="131_a" attrib="00 00 00 00">1 (<colour id="1" /><tag a="90" b="12" arg="0x0" /> <colour id="65535" />).</message>
 	<message label="131_b" attrib="00 00 00 00">5 (<colour id="1" /><tag a="90" b="13" arg="0x1" /> <colour id="65535" />).</message>
 	<message label="131_c" attrib="00 00 00 00">Doch nicht...</message>

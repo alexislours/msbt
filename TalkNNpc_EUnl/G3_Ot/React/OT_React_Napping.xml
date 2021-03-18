@@ -1,10 +1,10 @@
 <msbt attribsize="8">
 	<message label="001" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
 	<message label="001_01" attrib="00 00 00 00 00 00 00 00"><colour id="5" />Zzzz<tag a="110" b="0" /><colour id="65535" /><delay8 /><colour id="5" />zzzz<tag a="110" b="0" /><colour id="65535" /><delay8 /><colour id="5" />zzzz<tag a="110" b="0" /><colour id="65535" /> <anim id="Shocked" target="actor" targetSpec="" /><colour id="5" />Znrk!<colour id="65535" /><delay frames="40" />
-<anim id="Sleepy" target="actor" targetSpec="" /><colour id="5" />Mmmph,<delay20 /> mrrrmph<tag a="110" b="0" /><colour id="65535" /><10_7 arg="60" /></message>
+<anim id="Sleepy" target="actor" targetSpec="" /><colour id="5" />Mmmph,<delay20 /> mrrrmph<tag a="110" b="0" /><colour id="65535" /><anim id="EmotEnd" target="actor" targetSpec="" /><10_7 arg="60" /></message>
 	<message label="001_02" attrib="00 00 00 00 00 00 00 00"><colour id="5" />Zzz<tag a="110" b="0" /><colour id="65535" /><delay8 /> <colour id="5" />Zzz<tag a="110" b="0" /><colour id="65535" /> zalig<tag a="110" b="0" /><delay8 /> <colour id="5" />Zzz<tag a="110" b="0" /><colour id="65535" /> Och, wat
-enig<tag a="110" b="0" /><delay8 /> <colour id="5" />Zzz<tag a="110" b="0" /><colour id="65535" /> <anim id="Sleepy" target="actor" targetSpec="" /><colour id="5" />Hmmmnnn<tag a="110" b="0" /><colour id="65535" /> <colour id="5" />Hmph?<colour id="65535" /><10_7 arg="120" /></message>
-	<message label="001_03" attrib="00 00 00 00 00 00 00 00"><anim id="Sleepy" target="actor" targetSpec="" /><colour id="5" />Zzznt<tag a="110" b="0" /><colour id="65535" /> huuuu<tag a="110" b="0" /> wua<tag a="110" b="0" /><10_7 arg="120" /></message>
+enig<tag a="110" b="0" /><delay8 /> <colour id="5" />Zzz<tag a="110" b="0" /><colour id="65535" /> <anim id="Sleepy" target="actor" targetSpec="" /><colour id="5" />Hmmmnnn<tag a="110" b="0" /><colour id="65535" /> <colour id="5" />Hmph?<colour id="65535" /><anim id="EmotEnd" target="actor" targetSpec="" /><10_7 arg="120" /></message>
+	<message label="001_03" attrib="00 00 00 00 00 00 00 00"><anim id="Sleepy" target="actor" targetSpec="" /><colour id="5" />Zzznt<tag a="110" b="0" /><colour id="65535" /> huuuu<tag a="110" b="0" /> wua<tag a="110" b="0" /><anim id="EmotEnd" target="actor" targetSpec="" /><10_7 arg="120" /></message>
 	<message label="010" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
 	<message label="010_01" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />O!<delay8 /> Och hemeltje!<delay8 /> Moest je me wakker
 maken?<delay20 /> <anim id="Blushing" target="actor" targetSpec="" />Gut,<delay8 /> ik ben nog altijd moe.<delay20 />
@@ -35,15 +35,15 @@ moet je wel niet van me denken?</message>
 gepraat in mijn slaap.<delay frames="40" /> <anim id="Worried" target="actor" targetSpec="" />Wat als ik iets
 gênants heb gezegd, <tag a="110" b="6" />?</message>
 	<message label="014" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
-	<message label="014_01" attrib="00 00 00 00 00 00 00 00"><anim id="Blushing" target="actor" targetSpec="" />O, ik ben weggedoezeld, of niet?<delay20 /> Dat
-gebeurt vaker rond dit uur.<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Hoog tijd voor mijn schoonheids-
+	<message label="014_01" attrib="00 00 00 00 00 00 00 00"><anim id="Blushing" target="actor" targetSpec="" />O, ik ben weggedoezeld, of niet?<delay20 /> <anim id="73" target="actor" targetSpec="" />Dat
+gebeurt vaker rond dit uur.<pageBreak /><anim id="Grin" target="actor" targetSpec="" />Hoog tijd voor mijn schoonheids-
 slaapje dus, <tag a="110" b="5" />!</message>
 	<message label="014_02" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Lieve deugd<tag a="110" b="0" /><delay8 /> Op deze manier in
 slaap vallen,<delay8 /> is slecht voor mijn
 postuur!<delay20 /> <anim id="Hello" target="actor" targetSpec="" />Gelukkig heb je me gewekt.</message>
 	<message label="015" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
 	<message label="015_01" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Hemeltjelief!<delay8 /> Sliep ik?<delay frames="40" /> <anim id="Blushing" target="actor" targetSpec="" />Staand, op
-deze plek, <tag a="110" b="5" />?!<pageBreak />Bedankt dat je me hebt gewekt.<delay20 /> <anim id="Smiling" target="actor" targetSpec="" />Een
+deze plek, <tag a="110" b="5" />?!<pageBreak /><anim id="73" target="actor" targetSpec="" />Bedankt dat je me hebt gewekt.<delay20 /> <anim id="Smiling" target="actor" targetSpec="" />Een
 volgende keer kan ik beter eerder
 naar huis gaan, geloof ik.</message>
 	<message label="015_02" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Nee!<delay8 /> Ik sliep toch niet?<delay20 /> <anim id="Oops" target="actor" targetSpec="" />Zomaar in

@@ -27,7 +27,7 @@
 달걀도 있을 것 같단 말이지<pageBreak /><anim id="Explain" target="actor" targetSpec="" />왜냐면 <delay8 />오늘은 평소보다
 땅에 수상쩍은 곳이 많이 보이거든<delay20 />
 <anim id="Nodding" target="actor" targetSpec="" />그럼 안 봐도 뻔하지 않냐? <tag a="110" b="6" />?</message>
-	<message label="102" attrib="00 00 00 00 00 00 00 00"><anim id="Hello" target="actor" targetSpec="" />달걀 모으기는 잘 되어 가냐?<delay frames="50" /> <anim id="Explain" target="actor" targetSpec="" />그러고 보니 <delay8 />
+	<message label="102" attrib="00 00 00 00 00 00 00 00"><anim id="Hello" target="actor" targetSpec="" />달걀 모으기는 잘돼 가냐?<delay frames="50" /> <anim id="Explain" target="actor" targetSpec="" />그러고 보니 <delay8 />
 마일 여행권으로 갈 수 있는 섬의 바위에서<delay8 />
 달걀이 나온다는 이야기를 들었어!<pageBreak /><anim id="Thinking" target="actor" targetSpec="" />어쩌면 <delay8 />이 <tag a="110" b="32" />의 바위에서도 나오는 거 아냐?<delay frames="50" />
 <anim id="EmotEnd" target="actor" targetSpec="" />일은 해보지 않고서는 모르지!<delay frames="40" />
@@ -37,4 +37,53 @@
 <anim id="Shocked" target="actor" targetSpec="" />아니 글쎄 달걀이었지 뭐냐!<pageBreak /><anim id="Negative" target="actor" targetSpec="" />설마 <delay8 />물속에도
 달걀이 있을 거라곤 생각도 못했는데<delay frames="40" />
 <anim id="WrySmile" target="actor" targetSpec="" />물고기 녀석들도 놀랐을 거야, <tag a="110" b="6" />!</message>
+	<message label="110" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
+	<message label="110_01" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />안녕, <tag a="110" b="3" />!<delay frames="40" />
+<anim id="HappyDance" target="actor" targetSpec="" />오늘은 이스터 축제야!<delay20 />
+부지런히 달걀을 모아보자고! <tag a="110" b="6" />!</message>
+	<message label="110_02" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" /><anim id="FaintSmile" target="actor" targetSpec="" />오늘은 이스터 때문에 섬 전체가 떠들썩해!<delay frames="40" />
+<anim id="EmotEnd" target="actor" targetSpec="" />여기저기 숨어 있는 달걀을 찾는다고<delay20 />
+<anim id="Laughing" target="actor" targetSpec="" /><tag a="110" b="32" /> 녀석들이 온통 난리라고, <tag a="110" b="6" />!</message>
+	<message label="111" attrib="00 00 02 00 00 00 00 00">야, <delay8 /><tag a="110" b="3" /><delay frames="40" />
+<anim id="FaintSmile" target="actor" targetSpec="" />나랑 달걀 교환 안 할래?<10_4 />
+<anim id="Nodding" target="actor" targetSpec="" />그러니까<tag a="110" b="0" /><pageBreak /><anim id="Explain" target="actor" targetSpec="" />내 <tag a="125" b="0" arg="0x0" /><gender5 m="이" f="" />랑<delay20 />
+네가 가진 <colour id="1" />다른 종류의 달걀<colour id="65535" />을<delay20 /><colour id="1" />
+<anim id="Hello" target="actor" targetSpec="" />3개<colour id="65535" />씩 <delay8 />바꾸는 건 어떠냐? <tag a="110" b="6" />?</message>
+	<message label="111_a" attrib="00 00 00 00 00 00 00 00">좋아!</message>
+	<message label="111_b" attrib="00 00 00 00 00 00 00 00">그건 좀<tag a="110" b="0" /></message>
+	<message label="112" attrib="00 00 02 00 00 00 00 00">여어, <tag a="110" b="3" />!<delay frames="40" />
+<anim id="Hello" target="actor" targetSpec="" />달걀 남는 거 없냐?<delay frames="40" />
+<anim id="Pardon" target="actor" targetSpec="" />너만 괜찮으면 <delay8 />내 거랑 교환하자!<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />내 <tag a="125" b="0" arg="0x0" /><gender5 m="이" f="" />랑<delay20 />
+네가 가진 <colour id="1" />다른 종류의 달걀<colour id="65535" />을 <colour id="1" />3개<colour id="65535" />씩 말이야!<delay frames="40" />
+<anim id="FaintSmile" target="actor" targetSpec="" />어때, <delay20 />괜찮지 않냐? <tag a="110" b="6" />?</message>
+	<message label="112_a" attrib="00 00 00 00 00 00 00 00">좋아!</message>
+	<message label="112_b" attrib="00 00 00 00 00 00 00 00">그건 좀<tag a="110" b="0" /></message>
+	<message label="113" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />오, 역시!<delay frames="40" />
+딱 내가 기대한 대답이야!<delay frames="40" />
+그럼 <delay8 />어떤 달걀이랑 바꿀지 골라줘!</message>
+	<message label="114" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />헤헷, <delay20 />그렇게 나오셔야지!<delay frames="40" />
+<anim id="Smiling" target="actor" targetSpec="" />이것도 이스터의 즐거움 중 하나 아니겠냐!<delay frames="40" />
+자, <delay8 />뭐랑 교환할지 결정해줘!</message>
+	<message label="116" attrib="00 00 00 00 00 00 00 00">고맙다, <tag a="110" b="3" />!<delay frames="40" />
+네 덕분에 달걀 종류가 늘었어<delay frames="40" />
+<anim id="FaintSmile" target="actor" targetSpec="" />나중에 또 교환하자! <tag a="110" b="6" />!</message>
+	<message label="117" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />호오, <delay20 />이쪽도 맛있어 보이는데?<delay frames="40" />
+<anim id="EmotEnd" target="actor" targetSpec="" />종류별로 각각 개성이 있어서<delay20 />
+<anim id="Laughing" target="actor" targetSpec="" />달걀은 참 재미있는 것 같아, <tag a="110" b="6" />!</message>
+	<message label="118" attrib="00 00 00 00 00 00 00 00">엇, <delay8 />내가 무리한 부탁을 했나 보다<delay frames="40" />
+<anim id="ShyBoy" target="actor" targetSpec="" />꼭 필요하고 그런 건 아니니까<delay20 />
+너무 신경 쓰지 마라!<anim id="FaintSmile" target="actor" targetSpec="" /> <tag a="110" b="6" />!</message>
+	<message label="119" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />아차, <delay8 />그렇구만<tag a="110" b="0" /><delay frames="40" />
+뭐, 그럼 어쩔 수 없지<delay frames="40" />
+<anim id="Smiling" target="actor" targetSpec="" />마음이 바뀌면 교환해줘! <tag a="110" b="6" />!</message>
+	<message label="120" attrib="00 00 02 00 00 00 00 00">그 <colour id="1" /><tag a="125" b="0" arg="0x1" /><colour id="65535" /><gender5 m="이" f="" />랑<delay20 />
+<colour id="1" /><tag a="125" b="0" arg="0x0" /><colour id="65535" /><gender5 m="이" f="" />랑<delay20 />
+<anim id="Greeting" target="actor" targetSpec="" /><colour id="1" />3개<colour id="65535" />씩 교환하는 거 맞지? <tag a="110" b="6" />!</message>
+	<message label="120_a" attrib="00 00 00 00 00 00 00 00">맞아!</message>
+	<message label="120_b" attrib="00 00 00 00 00 00 00 00">역시 그만둘래</message>
+	<message label="121" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />오케이!<delay frames="40" />
+그럼 <delay8 />바로 교환하자!</message>
+	<message label="122" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" /><tag a="110" b="0" />근데 <delay20 />너 주머니가 가득 차서
+더 못 들고 갈 것 같은데?<delay frames="40" />
+<anim id="Negative" target="actor" targetSpec="" />이 얘긴 나중에 다시 하자, <tag a="110" b="6" />!</message>
 </msbt>

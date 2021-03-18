@@ -2,11 +2,11 @@
 	<message label="001" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
 	<message label="001_01" attrib="00 00 00 00 00 00 00 00"><size value="75" />음냐아<tag a="110" b="0" /> 넘 맛있다아～<delay frames="40" />
 아직 한참 더 먹을 수 있다구우<tag a="110" b="0" /><delay frames="60" /><size value="100" />
-<anim id="Sleepy" target="actor" targetSpec="" /><delay20 />흐아암～～～<10_7 arg="120" /></message>
+<anim id="Sleepy" target="actor" targetSpec="" /><delay20 />흐아암～～～<anim id="EmotEnd" target="actor" targetSpec="" /><10_7 arg="120" /></message>
 	<message label="001_02" attrib="00 00 00 00 00 00 00 00"><colour id="5" />쿠울～～ <delay frames="40" />쿨～～<tag a="110" b="0" /><colour id="65535" /><delay frames="60" />
-<anim id="Sleepy" target="actor" targetSpec="" /><delay20 />우, 우웅～<tag a="110" b="0" /><10_7 arg="120" /></message>
+<anim id="Sleepy" target="actor" targetSpec="" /><delay20 />우, 우웅～<tag a="110" b="0" /><anim id="EmotEnd" target="actor" targetSpec="" /><10_7 arg="120" /></message>
 	<message label="001_03" attrib="00 00 00 00 00 00 00 00">음냐 음냐아<tag a="110" b="0" /><delay frames="60" />
-<anim id="Sleepy" target="actor" targetSpec="" /><delay20 />흐아아암～～<10_7 arg="120" /></message>
+<anim id="Sleepy" target="actor" targetSpec="" /><delay20 />흐아아암～～<anim id="EmotEnd" target="actor" targetSpec="" /><10_7 arg="120" /></message>
 	<message label="010" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
 	<message label="010_01" attrib="00 00 00 00 00 00 00 00">방금 막 일어났는데에<delay20 />
 아침밥을 배부르게 실컷 먹었더니<delay20 />
@@ -34,14 +34,14 @@
 낮잠 자면 <anim id="BigSmile" target="actor" targetSpec="" /><delay8 />정말 최고라구우～ <tag a="110" b="6" />～<delay8 /><anim id="FaintSmile" target="actor" targetSpec="" /></message>
 	<message label="014" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
 	<message label="014_01" attrib="00 00 00 00 00 00 00 00"><anim id="ShyBoy" target="actor" targetSpec="" />잠잘 준비를 하다가<delay8 /> 잠들어 버렸네～<delay frames="40" />
-<anim id="EmotEnd" target="actor" targetSpec="" />이제 진짜로 <delay8 /><anim id="Greeting" target="actor" targetSpec="" />잘 거야아～ <tag a="110" b="6" />!</message>
+<anim id="73" target="actor" targetSpec="" />이제 진짜로 <delay8 /><anim id="Greeting" target="actor" targetSpec="" />잘 거야아～ <tag a="110" b="6" />!</message>
 	<message label="014_02" attrib="00 00 00 00 00 00 00 00"><tag a="110" b="4" /><gender5 m="아" f="야" />! <delay20 />좋은 아침～<delay frames="40" />
 <tag a="110" b="0" /><anim id="Eh" target="actor" targetSpec="" />어? <delay8 />아직 밤이구나아～<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />나 있지이, <delay8 />방금 아침밥을 먹었는데에<delay20 />
 그게 다 꿈이었나 봐아～<delay frames="40" />
 <anim id="Love" target="actor" targetSpec="" />그럼 또 먹을 수 있겠다아! <tag a="110" b="6" />!</message>
 	<message label="015" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
 	<message label="015_01" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />앗!<delay frames="40" /> 어느 틈에 잠들었지이?!<delay frames="40" />
-<anim id="EmotEnd" target="actor" targetSpec="" /><tag a="110" b="4" /><gender5 m="아" f="야" />!<delay20 />
+<anim id="73" target="actor" targetSpec="" /><tag a="110" b="4" /><gender5 m="아" f="야" />!<delay20 />
 <anim id="Greeting" target="actor" targetSpec="" />깨워줘서 고마워어～ <tag a="110" b="6" />～</message>
 	<message label="015_02" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />이런 데서 잠이 들다니이<delay20 />
 내가 생각해도 놀랍네에～<delay frames="40" />

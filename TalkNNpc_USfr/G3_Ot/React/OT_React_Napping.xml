@@ -1,11 +1,11 @@
 <msbt attribsize="8">
 	<message label="001" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
 	<message label="001_01" attrib="00 00 00 00 00 00 00 00">Zzzz<tag a="110" b="0" /><delay8 /> zzzz<tag a="110" b="0" /><delay8 /> zzzz<tag a="110" b="0" /><delay8 /> <anim id="Shocked" target="actor" targetSpec="" />Zrrr!<delay frames="40" />
-<anim id="Sleepy" target="actor" targetSpec="" />... C'est fou...<delay20 /> Zzzzz<tag a="110" b="0" /><10_7 arg="60" /></message>
+<anim id="Sleepy" target="actor" targetSpec="" />... C'est fou...<delay20 /> Zzzzz<tag a="110" b="0" /><anim id="EmotEnd" target="actor" targetSpec="" /><10_7 arg="60" /></message>
 	<message label="001_02" attrib="00 00 00 00 00 00 00 00">Zzz<tag a="110" b="0" /><delay8 /> Zzz<tag a="110" b="0" /><delay8 /> Magnifique<tag a="110" b="0" /><delay8 /> Zzz<tag a="110" b="0" /><delay8 />
 C'est trop d'honneur<tag a="110" b="0" /><delay8 /> Zzz<tag a="110" b="0" /><delay8 />
-<anim id="Sleepy" target="actor" targetSpec="" />Hmmmnnn<tag a="110" b="0" /> Hein?<10_7 arg="120" /></message>
-	<message label="001_03" attrib="00 00 00 00 00 00 00 00"><anim id="Sleepy" target="actor" targetSpec="" /><colour id="5" />Zzzzzzkr<tag a="110" b="0" /><colour id="65535" /> Hmm?<delay8 /> <colour id="5" />Zzzzz<tag a="110" b="0" /><colour id="65535" /><10_7 arg="120" /></message>
+<anim id="Sleepy" target="actor" targetSpec="" />Hmmmnnn<tag a="110" b="0" /> Hein?<anim id="EmotEnd" target="actor" targetSpec="" /><10_7 arg="120" /></message>
+	<message label="001_03" attrib="00 00 00 00 00 00 00 00"><anim id="Sleepy" target="actor" targetSpec="" /><colour id="5" />Zzzzzzkr<tag a="110" b="0" /><colour id="65535" /> Hmm?<delay8 /> <colour id="5" />Zzzzz<tag a="110" b="0" /><colour id="65535" /><anim id="EmotEnd" target="actor" targetSpec="" /><10_7 arg="120" /></message>
 	<message label="010" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
 	<message label="010_01" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Oh!<delay8 /> Que se passe-t-il?<delay8 />
 Je dormais?<delay20 /><pageBreak /><anim id="Blushing" target="actor" targetSpec="" />Je ne sais plus où me mettre<tag a="110" b="0" />
@@ -43,7 +43,7 @@ filet de bave.<delay8 /> <anim id="WrySmile" target="actor" targetSpec="" />L'ho
 gênant en dormant, <tag a="110" b="6" /><tag a="110" b="0" /></message>
 	<message label="014" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
 	<message label="014_01" attrib="00 00 00 00 00 00 00 00"><anim id="Blushing" target="actor" targetSpec="" />Je me suis encore endormie,
-on dirait.<delay20 /> Il va vraiment falloir
+on dirait.<delay20 /><anim id="73" target="actor" targetSpec="" /> Il va vraiment falloir
 que j'aille me coucher plus tôt<tag a="110" b="0" /><pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Grâce à toi, au moins,<delay8 /> je vais finir
 la nuit dans mon lit, <tag a="110" b="6" /><tag a="110" b="0" /></message>
 	<message label="014_02" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Tu m'as sauvé la vie!<delay8 /> <anim id="ShyBoy" target="actor" targetSpec="" />Imagine si

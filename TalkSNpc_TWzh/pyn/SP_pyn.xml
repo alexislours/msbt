@@ -33,12 +33,21 @@
 <anim id="QuestionMark" target="actor" targetSpec="" />明白了嗎？<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />在島的各個地方<delay8 />
 藏有<colour id="1" />6種不同的蛋<colour id="65535" />，<delay20 />
 要找到它們<delay8 />並收集起來喔！<pageBreak /><anim id="Explain" target="actor" targetSpec="" />蛋是不會藏在建築物裡面的，<delay20 />
-所以只要在外面找<delay8 />就可以了！<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />不管是樹木、<delay8 />岩石、<delay8 />水中<tag a="110" b="0" /><delay20 />
-還有地面和<delay8 />空中，<delay8 />都不要錯過喔！</message>
+所以只要在外面找<delay8 />就可以了！<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />不管是樹木、<delay8 />岩石、<delay8 />土裡<tag a="110" b="0" /><delay20 />
+還是空中，<delay8 />都不要錯過了！<delay frames="30" />
+<anim id="Laughing" target="actor" targetSpec="" />釣魚的時候可能也會有所收穫喔！</message>
 	<message label="016" attrib="00 00 00 00">接下來，<delay8 />
 好的，<delay8 />就是這個！</message>
 	<message label="017" attrib="00 00 00 00">這是<colour id="1" /><delay20 />復活節床鋪<colour id="65535" />的方程式！<delay frames="40" />
 要用收集到的蛋<delay8 />來製作喔～！<pageBreak /><tag a="10" b="6" /><anim id="Dance" target="actor" targetSpec="" />然後然後，<delay20 />重大消息報告～！<delay frames="50" />
+<anim id="EmotEnd" target="actor" targetSpec="" /><size value="75" />噓～噓～！<delay20 />是什麼呢～～～？<size value="100" /><endTag a="10" b="6" /><pageBreak /><anim id="BigSmile" target="actor" targetSpec="" />那就是！<delay frames="30" />這座島上還藏有很多<delay8 />
+跟復活節有關的<colour id="1" />ＤＩＹ方程式<colour id="65535" />喔～！<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />藏起來的方程式，<delay8 />一直到復活節那天，<delay20 />
+每天都會增加喔！<pageBreak />如果<delay8 />你找到所有我藏起來的方程式，<delay8 />
+並且<colour id="1" />每一種<colour id="65535" />都進行<colour id="1" />ＤＩＹ<colour id="65535" />的話，<delay20 />
+<anim id="Hello" target="actor" targetSpec="" />我就會送你特別的獎勵～！<pageBreak />總而言之，<delay20 />
+<anim id="Laughing" target="actor" targetSpec="" />一起感受復活節的歡樂吧～！</message>
+	<message label="017_01" attrib="00 00 00 00">是<colour id="1" />10顆魚兒蛋<colour id="65535" />喔！<delay frames="40" />
+也收集其他的蛋看看吧～！<pageBreak /><tag a="10" b="6" /><anim id="Dance" target="actor" targetSpec="" />然後然後，<delay20 />重大消息報告～！<delay frames="50" />
 <anim id="EmotEnd" target="actor" targetSpec="" /><size value="75" />噓～噓～！<delay20 />是什麼呢～～～？<size value="100" /><endTag a="10" b="6" /><pageBreak /><anim id="BigSmile" target="actor" targetSpec="" />那就是！<delay frames="30" />這座島上還藏有很多<delay8 />
 跟復活節有關的<colour id="1" />ＤＩＹ方程式<colour id="65535" />喔～！<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />藏起來的方程式，<delay8 />一直到復活節那天，<delay20 />
 每天都會增加喔！<pageBreak />如果<delay8 />你找到所有我藏起來的方程式，<delay8 />
@@ -62,8 +71,9 @@
 很期待，對吧～！<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />到了那一天，<delay8 />
 我還會再來這座島上的～！<pageBreak /><anim id="Serious" target="actor" targetSpec="" />在那之前，<delay20 />我的事情都是秘密喔<tag a="110" b="0" /></message>
 	<message label="022" attrib="00 00 00 00">蛋<delay8 />是不會藏在建築物裡面的～！<10_4 />
-<anim id="Nodding" target="actor" targetSpec="" />只要在外面找<delay8 />就可以了！<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />不管是樹木、<delay8 />岩石、<delay8 />水中<tag a="110" b="0" /><delay20 />
-還是地面和<delay8 />空中，<delay8 />都不要錯過喔！</message>
+<anim id="Nodding" target="actor" targetSpec="" />只要在外面找<delay8 />就可以了！<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />不管是樹木、<delay8 />岩石、<delay8 />土裡<tag a="110" b="0" /><delay20 />
+還是空中<delay8 />，<delay8 />都不要錯過了！<delay frames="30" />
+<anim id="Laughing" target="actor" targetSpec="" />釣魚的時候可能也會有所收穫喔！</message>
 	<message label="023" attrib="00 00 00 00">島上還藏有<delay8 /><colour id="1" />ＤＩＹ方程式<colour id="65535" />，<delay20 />
 你在找蛋的時候也順便找一下吧！<pageBreak /><anim id="Explain" target="actor" targetSpec="" />藏起來的方程式，<delay8 />一直到復活節那天，<delay8 />
 每天都會增加喔～！<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />如果你找到所有我藏起來的方程式，<delay8 />
@@ -125,6 +135,11 @@
 跟復活節有關的<colour id="1" />ＤＩＹ方程式<colour id="65535" />，<delay20 />
 <anim id="Dance" target="actor" targetSpec="" />你能全部都<delay8 />找出來嗎～？<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />我還準備了特別的獎勵，<delay20 />
 要送給<colour id="1" />每一種<colour id="65535" />都進行<colour id="1" />ＤＩＹ<colour id="65535" />的人喔～！<pageBreak />那麼，<delay8 /><anim id="Laughing" target="actor" targetSpec="" />要加油喔～</message>
+	<message label="108_01" attrib="00 00 00 00">我要把<delay20 /><colour id="1" /><anim id="BigSmile" target="actor" targetSpec="" />10顆岩石蛋<colour id="65535" />
+送給今天來參加活動的你～！<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />好的好的，<delay20 />我在島上藏了很多<delay8 />
+跟復活節有關的<colour id="1" />ＤＩＹ方程式<colour id="65535" />，<delay20 />
+<anim id="Dance" target="actor" targetSpec="" />你能全部都<delay8 />找出來嗎～？<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />我還準備了特別的獎勵，<delay20 />
+要送給<colour id="1" />每一種<colour id="65535" />都進行<colour id="1" />ＤＩＹ<colour id="65535" />的人喔～！<pageBreak />那麼，<delay8 /><anim id="Laughing" target="actor" targetSpec="" />要加油喔～</message>
 	<message label="109" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />接下來，我要給你這個～！<delay frames="30" />
 <tag a="110" b="0" /><anim id="EmotEnd" target="actor" targetSpec="" />我是很想給你啦，<delay20 />
 但<delay8 />你的口袋好像滿了呢～！<pageBreak />你先減少一些持有物品<delay8 />
@@ -141,6 +156,12 @@
 跟復活節有關的<delay8 /><colour id="1" />ＤＩＹ方程式<colour id="65535" />～！<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" /><delay8 />我還準備了特別的獎勵，<delay8 />
 <anim id="Hello" target="actor" targetSpec="" />要送給找到所有我藏起來的方程式，<delay20 />
 並且<colour id="1" />每一種<colour id="65535" />都進行<colour id="1" />ＤＩＹ<colour id="65535" />的人喔～！<pageBreak />所以說，<delay8 /><anim id="Laughing" target="actor" targetSpec="" />要加油喔～</message>
+	<message label="113_01" attrib="00 00 00 00">是<colour id="1" />10顆岩石蛋<colour id="65535" />喔！<delay frames="40" />
+也收集其他的蛋看看吧～！<pageBreak /><tag a="10" b="6" /><anim id="Dance" target="actor" targetSpec="" />然後然後，<delay20 />重大消息報告～！<delay frames="40" />
+<size value="75" />噓～噓～！<delay20 />是什麼呢～～～？<size value="100" /><endTag a="10" b="6" /><pageBreak /><anim id="BigSmile" target="actor" targetSpec="" />那就是！<delay frames="30" />這座島上還藏有很多<delay8 />
+跟復活節有關的<delay8 /><colour id="1" />ＤＩＹ方程式<colour id="65535" />～！<pageBreak /><anim id="Nodding" target="actor" targetSpec="" /><delay8 />我還準備了特別的獎勵，<delay8 />
+<anim id="Hello" target="actor" targetSpec="" />要送給找到所有我藏起來的方程式，<delay20 />
+並且<colour id="1" />每一種<colour id="65535" />都進行<colour id="1" />ＤＩＹ<colour id="65535" />的人喔～！<pageBreak /><anim id="Laughing" target="actor" targetSpec="" />所以說，<delay8 />要加油喔～</message>
 	<message label="121" attrib="00 00 00 00"><tag a="10" b="6" /><anim id="Laughing" target="actor" targetSpec="" />嘿！<delay20 />
 <size value="150" />你好～！<size value="100" /><endTag a="10" b="6" /><pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />我來這座島上通知大家，新的季節來臨囉！<delay frames="30" />
 <anim id="Nodding" target="actor" targetSpec="" />我是幸運兔<colour id="3" />蹦蹦<colour id="65535" />～！<delay frames="30" />
@@ -301,8 +322,9 @@
 	<message label="191" attrib="00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />咦咦咦？<delay frames="30" />
 蛋的種類<delay8 />不齊全喔～？<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />蛋一共有6種！<delay frames="40" />
 你要全～部都收集齊，<delay8 />再拿過來喔！</message>
-	<message label="192" attrib="00 00 00 00"><tag a="110" b="0" /><tag a="110" b="0" /><pageBreak />樹木、<delay8 />岩石、<delay8 />水中<tag a="110" b="0" /><delay20 />
-<anim id="Nodding" target="actor" targetSpec="" />還有地面<delay8 />和空中，<delay8 />都不要錯過喔！</message>
+	<message label="192" attrib="00 00 00 00"><tag a="110" b="0" /><tag a="110" b="0" /><pageBreak />樹木、<delay8 />岩石、<delay8 />土裡<tag a="110" b="0" /><delay20 />
+還有空中，<delay8 />都不要錯過了！<delay frames="30" />
+<anim id="Laughing" target="actor" targetSpec="" />釣魚的時候可能也會有所收穫喔！</message>
 	<message label="193" attrib="00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />喔～！<delay frames="40" />
 <anim id="Nodding" target="actor" targetSpec="" />你真的<delay8 />收集到
 所～有種類的蛋了<tag a="110" b="0" /><pageBreak /><anim id="Worried" target="actor" targetSpec="" />不過，<delay20 />你的口袋是不是滿了？<delay frames="40" />
@@ -317,6 +339,15 @@
 應該很辛苦吧？<delay frames="30" />
 <anim id="Nodding" target="actor" targetSpec="" />你真的很努力啊～！<pageBreak />那麼，<delay8 />要來囉～<delay frames="40" />
 預～備！</message>
+	<message label="200_01" attrib="00 00 00 00"><anim id="QuestionMark" target="actor" targetSpec="" />咦咦咦？<delay frames="30" />難道<delay8 />你<tag a="110" b="0" /><delay20 />
+<anim id="Pardon" target="actor" targetSpec="" />已經找到所有我藏起來的方程式，<delay20 />
+並且<delay8 />全部製作過了？<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />好厲害～！<delay20 />
+應該很辛苦吧？<delay frames="30" />
+<anim id="Nodding" target="actor" targetSpec="" />你真的很努力啊～！<pageBreak /><colour id="1" /><anim id="BigSmile" target="actor" targetSpec="" /><colour id="65535" />接下來<delay8 />只要製作<colour id="1" />蹦蹦不倒娃娃<colour id="65535" /><delay8 />
+就全部完成了喔！<delay40 />
+<anim id="Nodding" target="actor" targetSpec="" />來，<delay8 />這是最後一個挑戰了～！<pageBreak />如果<delay8 />你把這個也製作出來，<delay8 />
+<anim id="Greeting" target="actor" targetSpec="" />這次<delay8 />我真的會給你特別獎勵喔！<pageBreak /><anim id="Laughing" target="actor" targetSpec="" />只差最後一步了，<delay8 />
+加油<delay8 />加油～！</message>
 	<message label="201" attrib="00 00 00 00"><tag a="10" b="12" /><tag a="10" b="6" /><anim id="Laughing" target="actor" targetSpec="" /><size value="150" />開～～～玩笑的！<delay frames="30" />
 <size value="100" /><size value="75" /><tag a="110" b="0" /><anim id="EmotEnd" target="actor" targetSpec="" />啊，<delay frames="30" />難道你<delay8 />生氣了？<size value="100" /><endTag a="10" b="6" /><pageBreak /><anim id="Explain" target="actor" targetSpec="" />其實呢，<delay8 />我特別為今天<delay20 />
 準備了另外一個方程式喔～！<delay frames="30" />
@@ -334,9 +365,16 @@
 全～～～部都製作過了！！<delay frames="40" />
 <anim id="Laughing" target="actor" targetSpec="" />好厲害～<delay frames="30" />恭喜你～！<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />為了表揚<delay20 /><anim id="Nodding" target="actor" targetSpec="" />超級、<delay8 />超～級<delay8 />努力的你，<delay20 />
 我要給你特別的獎勵！</message>
+	<message label="204_01" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />看你那個表情，<delay8 />難道<tag a="110" b="0" /><delay20 />
+<colour id="1" /><anim id="Aha" target="actor" targetSpec="" /><colour id="65535" />你把我準備的方程式物品<delay8 />
+全～～～部都製作出來了嗎？！<pageBreak /><anim id="Clapping" target="actor" targetSpec="" />好厲害～<delay frames="30" />恭喜你～！<delay frames="40" /><anim id="EmotEnd" target="actor" targetSpec="" /><pageBreak />為了表揚<delay20 /><anim id="Nodding" target="actor" targetSpec="" />超級、<delay8 />超～級<delay8 />努力的你，<delay20 />
+我要給你特別的獎勵！</message>
 	<message label="205" attrib="00 00 00 00">這是可以製作出<colour id="1" /><anim id="BigSmile" target="actor" targetSpec="" />復活節棒<colour id="65535" />的<delay8 />
 歡樂方程式喔～！<delay frames="40" />
 <anim id="EmotEnd" target="actor" targetSpec="" /><size value="75" /><tag a="110" b="0" />你可別說<delay8 />「怎麼又是方程式」這種話喔。<size value="100" /><pageBreak />那麼，<delay20 />最後就用特別的版本來慶祝吧！<delay frames="40" />
+預～～～備！</message>
+	<message label="205_01" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />那就是！<size value="75" /><delay8 /><size value="100" /><colour id="1" />復活節棒<colour id="65535" />喔～！<delay40 />
+<anim id="EmotEnd" target="actor" targetSpec="" />那麼，<delay20 />最後就用特別的版本來慶祝吧！<delay frames="40" />
 預～～～備！</message>
 	<message label="206" attrib="00 00 00 00">歡樂！<delay frames="30" />歡樂！<delay frames="30" />
 歡樂！<delay frames="30" />歡樂！<delay frames="30" /><anim id="Dance" target="actor" targetSpec="" /><delay frames="50" /><10_7 arg="130" /></message>
@@ -358,8 +396,21 @@
 跟復活節有關的<colour id="1" />ＤＩＹ方程式<colour id="65535" />，<delay20 />
 <anim id="Dance" target="actor" targetSpec="" />你能全部都<delay8 />找出來嗎～？<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" /><delay8 />我還準備了特別的獎勵，<delay20 />
 要送給<colour id="1" />每一種<colour id="65535" />方程式都進行<colour id="1" />ＤＩＹ<colour id="65535" />的人喔～！<pageBreak />那麼，<delay8 /><anim id="Laughing" target="actor" targetSpec="" />要加油喔～</message>
+	<message label="222_01" attrib="00 00 00 00">這是剛才沒能給你的<delay8 />
+<colour id="1" />10顆岩石蛋<colour id="65535" />喔！<delay frames="30" />
+<anim id="Hello" target="actor" targetSpec="" />我要把它送給今天來參加活動的你！<pageBreak />好的好的，<delay20 />我在島上藏了很多<delay8 />
+跟復活節有關的<colour id="1" />ＤＩＹ方程式<colour id="65535" />，<delay20 />
+<anim id="Dance" target="actor" targetSpec="" />你能全部都<delay8 />找出來嗎～？<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" /><delay8 />我還準備了特別的獎勵，<delay20 />
+要送給<colour id="1" />每一種<colour id="65535" />方程式都進行<colour id="1" />ＤＩＹ<colour id="65535" />的人喔～！<pageBreak />那麼，<delay8 /><anim id="Laughing" target="actor" targetSpec="" />要加油喔～</message>
 	<message label="223" attrib="00 00 00 00">這是剛才沒能給你的<delay8 />
 <colour id="1" />復活節拱門<colour id="65535" />的方程式！<delay frames="40" />
+要用收集到的蛋<delay8 />來製作喔！<pageBreak /><tag a="10" b="6" /><anim id="Dance" target="actor" targetSpec="" />然後，<delay20 />重大消息報告～！<delay frames="40" />
+<size value="75" />噓～噓～！<delay20 />是什麼呢～～～？<size value="100" /><endTag a="10" b="6" /><pageBreak /><anim id="BigSmile" target="actor" targetSpec="" />那就是！<delay frames="30" />這座島上還藏有很多<delay8 />
+跟復活節有關的<delay8 /><colour id="1" />ＤＩＹ方程式<colour id="65535" />喔～！<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" /><delay8 />我還準備了特別的獎勵，<delay20 />
+<anim id="Hello" target="actor" targetSpec="" />要送給找到所有我藏起來的方程式，
+並且<colour id="1" />每一種<colour id="65535" />都進行<colour id="1" />ＤＩＹ<colour id="65535" />的人喔～！<pageBreak />所以說，<delay8 /><anim id="Laughing" target="actor" targetSpec="" />要加油喔～</message>
+	<message label="223_01" attrib="00 00 00 00">這是剛才沒能給你的<delay8 />
+<colour id="1" />10顆岩石蛋<colour id="65535" />！<delay frames="40" />
 要用收集到的蛋<delay8 />來製作喔！<pageBreak /><tag a="10" b="6" /><anim id="Dance" target="actor" targetSpec="" />然後，<delay20 />重大消息報告～！<delay frames="40" />
 <size value="75" />噓～噓～！<delay20 />是什麼呢～～～？<size value="100" /><endTag a="10" b="6" /><pageBreak /><anim id="BigSmile" target="actor" targetSpec="" />那就是！<delay frames="30" />這座島上還藏有很多<delay8 />
 跟復活節有關的<delay8 /><colour id="1" />ＤＩＹ方程式<colour id="65535" />喔～！<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" /><delay8 />我還準備了特別的獎勵，<delay20 />
@@ -370,4 +421,10 @@
 <anim id="Nodding" target="actor" targetSpec="" />來，<delay8 />這是最後一個挑戰了～！<pageBreak />如果<delay8 />你把這個也製作出來，<delay8 />
 <anim id="Greeting" target="actor" targetSpec="" />這次<delay8 />我真的會給你特別獎勵喔！<pageBreak /><anim id="Laughing" target="actor" targetSpec="" />只差最後一步了，<delay8 />
 加油<delay8 />加油～！</message>
+	<message label="230" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />咦<tag a="110" b="0" />？<delay20 />
+你不知道<delay8 /><anim id="QuestionMark" target="actor" targetSpec="" />要怎麼<colour id="1" />ＤＩＹ<colour id="65535" />嗎？<pageBreak /><colour id="1" /><anim id="Sighing" target="actor" targetSpec="" /><colour id="65535" />哎呀，<delay8 />這下糟了～<delay20 />
+不會<colour id="1" />ＤＩＹ<colour id="65535" />的話，<delay20 />
+<anim id="Negative" target="actor" targetSpec="" />就沒辦法享受復活節的樂趣了<tag a="110" b="0" /><pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />不過<delay20 /><anim id="Assent" target="actor" targetSpec="" />也沒關係！<delay40 />
+<anim id="Nodding" target="actor" targetSpec="" /><colour id="1" />ＤＩＹ<colour id="65535" /><delay8 />可以在<colour id="1" />服務處<colour id="65535" />學到，<delay20 />
+<anim id="Hello" target="actor" targetSpec="" />記得要去學一下喔～！</message>
 </msbt>

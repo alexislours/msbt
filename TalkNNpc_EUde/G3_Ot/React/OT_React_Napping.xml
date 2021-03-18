@@ -1,10 +1,10 @@
 <msbt attribsize="8">
 	<message label="001" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
 	<message label="001_01" attrib="00 00 00 00 00 00 00 00"><colour id="5" />Zzzz<tag a="110" b="0" /> <delay8 />zzzz<tag a="110" b="0" /> <delay8 />zzzz<tag a="110" b="0" /> <anim id="Shocked" target="actor" targetSpec="" />Znrk!<delay frames="40" /><colour id="65535" />
-<anim id="Sleepy" target="actor" targetSpec="" />Mmmpf,<delay20 /> mrrrmpf<tag a="110" b="0" /><10_7 arg="60" /></message>
+<anim id="Sleepy" target="actor" targetSpec="" />Mmmpf,<delay20 /> mrrrmpf<tag a="110" b="0" /><anim id="EmotEnd" target="actor" targetSpec="" /><10_7 arg="60" /></message>
 	<message label="001_02" attrib="00 00 00 00 00 00 00 00"><colour id="5" />Zzzz<tag a="110" b="0" /><delay8 /> Zzzz<tag a="110" b="0" /><delay20 />
-<colour id="65535" /><anim id="Sleepy" target="actor" targetSpec="" />Hmmm<tag a="110" b="0" /> Hmmmna?<10_7 arg="120" /></message>
-	<message label="001_03" attrib="00 00 00 00 00 00 00 00"><anim id="Sleepy" target="actor" targetSpec="" /><colour id="5" />Gääähn<tag a="110" b="0" /><10_7 arg="120" /><colour id="65535" /></message>
+<colour id="65535" /><anim id="Sleepy" target="actor" targetSpec="" />Hmmm<tag a="110" b="0" /> Hmmmna?<anim id="EmotEnd" target="actor" targetSpec="" /><10_7 arg="120" /></message>
+	<message label="001_03" attrib="00 00 00 00 00 00 00 00"><anim id="Sleepy" target="actor" targetSpec="" /><colour id="5" />Gääähn<tag a="110" b="0" /><anim id="EmotEnd" target="actor" targetSpec="" /><10_7 arg="120" /><colour id="65535" /></message>
 	<message label="010" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
 	<message label="010_01" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Oh!<delay8 /> Du meine Güte!<delay20 />
 <anim id="Hesitate" target="actor" targetSpec="" />Hast du mich gerade aufgeweckt?<pageBreak /><anim id="Blushing" target="actor" targetSpec="" />Ich bin noch immer ganz
@@ -38,7 +38,7 @@ entspannend, <delay8 /><tag a="110" b="5" />!</message>
 <anim id="Serious" target="actor" targetSpec="" />Hoffentlich habe ich nicht im Schlaf
 gesprochen.<delay frames="40" /><anim id="Worried" target="actor" targetSpec="" /> Das wäre zu peinlich!</message>
 	<message label="014" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
-	<message label="014_01" attrib="00 00 00 00 00 00 00 00"><anim id="Blushing" target="actor" targetSpec="" />Oh, <delay8 />war ich eingeschlafen?<delay20 /> Um diese
+	<message label="014_01" attrib="00 00 00 00 00 00 00 00"><anim id="Blushing" target="actor" targetSpec="" />Oh, <delay8 />war ich eingeschlafen?<delay20 /> <anim id="73" target="actor" targetSpec="" />Um diese
 Zeit werde ich oft müde. <delay20 /><anim id="FaintSmile" target="actor" targetSpec="" />Mein Körper
 verlangt seinen Schönheitsschlaf!</message>
 	<message label="014_02" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Du meine Güte<tag a="110" b="0" /><delay8 /><anim id="ShyBoy" target="actor" targetSpec="" /> Wenn ich an Orten
@@ -49,7 +49,7 @@ mich noch erkälten!
 	<message label="015_01" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Ojemine, <delay8 />habe ich etwa geschlafen?<delay frames="40" />
 <anim id="Blushing" target="actor" targetSpec="" />Und zu allem Überfluss auch noch
 hier draußen?
-Ich danke dir, <delay8 />dass du mich geweckt
+<anim id="73" target="actor" targetSpec="" />Ich danke dir, <delay8 />dass du mich geweckt
 hast.<delay20 /><anim id="Smiling" target="actor" targetSpec="" /> Höchste Zeit, <delay8 />dass ich nach
 Hause komme, <delay8 /><tag a="110" b="5" />.</message>
 	<message label="015_02" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Nein!<delay8 /> Ich war doch nicht eingedöst,

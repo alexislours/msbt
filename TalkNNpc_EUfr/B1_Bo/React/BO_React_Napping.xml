@@ -2,13 +2,13 @@
 	<message label="001" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
 	<message label="001_01" attrib="00 00 00 00 00 00 00 00"><size value="75" />Hmm<tag a="110" b="0" /> C'est trop bon<tag a="110" b="0" /> Viens là, toi<tag a="110" b="0" /><delay frames="40" /> Tu seras
 bien au chaud dans mon bidon<tag a="110" b="0" /><delay frames="60" />
-<size value="100" /><anim id="Sleepy" target="actor" targetSpec="" /><delay20 />Houuuuuaaaah<tag a="110" b="0" /><10_7 arg="120" /></message>
+<size value="100" /><anim id="Sleepy" target="actor" targetSpec="" /><delay20 />Houuuuuaaaah<tag a="110" b="0" /><anim id="EmotEnd" target="actor" targetSpec="" /><10_7 arg="120" /></message>
 	<message label="001_02" attrib="00 00 00 00 00 00 00 00">Zzz<tag a="110" b="0" /><delay frames="40" /> Zzz<tag a="110" b="0" /><delay frames="60" />
-<anim id="Sleepy" target="actor" targetSpec="" /><delay20 />Hmmm ?<delay20 /> Hmmm<tag a="110" b="0" /><10_7 arg="120" /></message>
+<anim id="Sleepy" target="actor" targetSpec="" /><delay20 />Hmmm ?<delay20 /> Hmmm<tag a="110" b="0" /><anim id="EmotEnd" target="actor" targetSpec="" /><10_7 arg="120" /></message>
 	<message label="001_03" attrib="00 00 00 00 00 00 00 00">Encore une part de quatre-quarts,
-Mémé<tag a="110" b="0" /><delay frames="60" /> <anim id="Sleepy" target="actor" targetSpec="" /><delay20 />Houaaaaaaaah<tag a="110" b="0" /><10_7 arg="120" /></message>
+Mémé<tag a="110" b="0" /><delay frames="60" /> <anim id="Sleepy" target="actor" targetSpec="" /><delay20 />Houaaaaaaaah<tag a="110" b="0" /><anim id="EmotEnd" target="actor" targetSpec="" /><10_7 arg="120" /></message>
 	<message label="010" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
-	<message label="010_01" attrib="00 00 00 00 00 00 00 00">Je viens de me lever,<delay20 /> mais après le
+	<message label="010_01" attrib="00 00 00 00 00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Je viens de me lever,<delay20 /> mais après le
 petit déjeuner copieux que j'ai
 avalé,<delay20 /><anim id="ShyBoy" target="actor" targetSpec="" /> je ferais bien une sieste !</message>
 	<message label="010_02" attrib="00 00 00 00 00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />Bonjour !<delay20 /> Tu trouves pas que c'est
@@ -18,7 +18,7 @@ s'être réveillé le matin ?<pageBreak /><anim id="Laughing" target="actor" tar
 	<message label="011_01" attrib="00 00 00 00 00 00 00 00"><anim id="WrySmile" target="actor" targetSpec="" />Je me suis couché super tard hier
 soir<tag a="110" b="0" /> ou super tôt ce matin, ça
 dépend comment on le voit<tag a="110" b="0" /></message>
-	<message label="011_02" attrib="00 00 00 00 00 00 00 00">J'ai eu un mal fou à m'endormir, hier
+	<message label="011_02" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />J'ai eu un mal fou à m'endormir, hier
 soir,<delay20 /><anim id="Oops" target="actor" targetSpec="" /> alors je suis pas encore bien
 réveillé, <tag a="110" b="6" /><tag a="110" b="0" /></message>
 	<message label="012" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
@@ -29,18 +29,18 @@ pendant ma promenade digestive<tag a="110" b="0" /></message>
 <anim id="Frantic" target="actor" targetSpec="" />Non, je dormais pas !<delay20 /> Je clignais
 des yeux très lentement, c'est tout.</message>
 	<message label="013" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
-	<message label="013_01" attrib="00 00 00 00 00 00 00 00">Hein ?<delay frames="40" /><anim id="QuestionMark" target="actor" targetSpec="" /> Je me suis endormi ?<delay20 />
+	<message label="013_01" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Hein ?<delay frames="40" /><anim id="QuestionMark" target="actor" targetSpec="" /> Je me suis endormi ?<delay20 />
 Pour quoi faire ?</message>
 	<message label="013_02" attrib="00 00 00 00 00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />J'adore faire la sieste !<delay frames="40" /> Après le
 petit déjeuner<tag a="110" b="0" /> et le goûter du
-matin<tag a="110" b="0" /> et le déjeuner<tag a="110" b="0" /><pageBreak /><tag a="110" b="0" /> et le goûter de l'après-midi<tag a="110" b="0" />
+matin<tag a="110" b="0" /> et le déjeuner<tag a="110" b="0" /><pageBreak /><anim id="73" target="actor" targetSpec="" /><tag a="110" b="0" /> et le goûter de l'après-midi<tag a="110" b="0" />
 et aussi le dîner<tag a="110" b="0" /> sans oublier
 le goûter du soir<tag a="110" b="0" /></message>
 	<message label="014" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
 	<message label="014_01" attrib="00 00 00 00 00 00 00 00"><anim id="ShyBoy" target="actor" targetSpec="" />On dirait que je me suis endormi
 alors que je me préparais à aller me
 coucher !<pageBreak /><anim id="Greeting" target="actor" targetSpec="" />Bon, cette fois, c'est la bonne !</message>
-	<message label="014_02" attrib="00 00 00 00 00 00 00 00">Bonjour, <tag a="110" b="3" /> !<delay frames="40" />
+	<message label="014_02" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Bonjour, <tag a="110" b="3" /> !<delay frames="40" />
 <tag a="110" b="0" /><anim id="Eh" target="actor" targetSpec="" /> Hein ? Il fait encore nuit ?<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />J'étais en train de prendre mon petit
 déjeuner,<delay20 /> mais on dirait que c'était
 un rêve, alors ça me fera<tag a="110" b="0" />

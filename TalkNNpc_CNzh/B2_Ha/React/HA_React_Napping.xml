@@ -2,11 +2,11 @@
 	<message label="001" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
 	<message label="001_01" attrib="00 00 00 00 00 00 00 00"><size value="75" />9997<tag a="110" b="0" />9998<tag a="110" b="0" />9999<tag a="110" b="0" /><size value="100" /><delay20 /><size value="75" />
 呜哦！<size value="100" /><delay20 /><size value="75" />我可以无限<delay8 />深蹲下去！<size value="100" /><delay frames="50" />
-<anim id="Sleepy" target="actor" targetSpec="" />呼～～啊<tag a="110" b="0" /><10_7 arg="120" /></message>
-	<message label="001_02" attrib="00 00 00 00 00 00 00 00"><size value="75" />等等、<delay8 />别这样<tag a="110" b="0" /><delay20 /><size value="100" />
+<anim id="Sleepy" target="actor" targetSpec="" />呼～～啊<tag a="110" b="0" /><anim id="EmotEnd" target="actor" targetSpec="" /><10_7 arg="120" /></message>
+	<message label="001_02" attrib="00 00 00 00 00 00 00 00"><size value="75" />等等，<delay8 />别这样<tag a="110" b="0" /><delay20 /><size value="100" />
 <10_10 />把肌肉还给我！！<delay frames="40" /><10_9 />
-<tag a="110" b="0" /><anim id="Shocked" target="actor" targetSpec="" />啊！<10_7 arg="60" /></message>
-	<message label="001_03" attrib="00 00 00 00 00 00 00 00"><colour id="5" />呼<tag a="110" b="0" /><colour id="65535" /><delay frames="30" /><10_10 /><anim id="Surprised" target="actor" targetSpec="" />唔啊！！<10_9 /><10_7 arg="60" /></message>
+<tag a="110" b="0" /><anim id="Shocked" target="actor" targetSpec="" />啊！<anim id="EmotEnd" target="actor" targetSpec="" /><10_7 arg="60" /></message>
+	<message label="001_03" attrib="00 00 00 00 00 00 00 00"><colour id="5" />呼<tag a="110" b="0" /><colour id="65535" /><delay frames="30" /><10_10 /><anim id="Surprised" target="actor" targetSpec="" />唔啊！！<10_9 /><anim id="EmotEnd" target="actor" targetSpec="" /><10_7 arg="60" /></message>
 	<message label="010" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
 	<message label="010_01" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />怎么了？<delay20 /><tag a="110" b="3" /><tag a="110" b="0" /><pageBreak /><anim id="Eh" target="actor" targetSpec="" />哎？<delay20 />你看我睡着了就叫醒我？<delay frames="40" />
 <anim id="Thinking" target="actor" targetSpec="" />好奇怪啊，<delay20 />我感觉自己<delay8 />
@@ -25,17 +25,17 @@
 <anim id="ColdChill" target="actor" targetSpec="" />但一醒过来，<delay8 />就给忘了<tag a="110" b="0" /><tag a="110" b="6" />。</message>
 	<message label="012" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
 	<message label="012_01" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />嘿嘿，怎么啦？<delay20 />
-<tag a="110" b="3" />？<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" /><tag a="110" b="0" /><anim id="Shocked" target="actor" targetSpec="" />诶？<delay20 />应该问我自己刚才在干什么啊？<delay frames="30" />
+<tag a="110" b="3" />？<pageBreak /><anim id="73" target="actor" targetSpec="" /><tag a="110" b="0" /><anim id="Shocked" target="actor" targetSpec="" />诶？<delay20 />应该问我自己刚才在干什么啊？<delay frames="30" />
 <anim id="Frantic" target="actor" targetSpec="" />请告诉我吧！<tag a="110" b="6" />。</message>
 	<message label="012_02" attrib="00 00 00 00 00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />呜呜<tag a="110" b="0" /><delay8 />
 我在奇怪的地方睡着了，<delay20 />
 搞得身上到处都很痛啊。<tag a="110" b="6" />。</message>
 	<message label="013" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
 	<message label="013_01" attrib="00 00 00 00 00 00 00 00"><anim id="TakenAback" target="actor" targetSpec="" />呜哦？！<delay8 /><tag a="110" b="3" />！<delay frames="40" />
-<anim id="EmotEnd" target="actor" targetSpec="" />我刚巧<delay20 />正在冥想呢！<delay frames="30" />
+<anim id="73" target="actor" targetSpec="" />我刚巧<delay20 />正在冥想呢！<delay frames="30" />
 <tag a="110" b="0" /><anim id="Frantic" target="actor" targetSpec="" />搞什么啦，<delay20 />你那个怀疑的眼神！</message>
 	<message label="013_02" attrib="00 00 00 00 00 00 00 00"><anim id="Laughing" target="actor" targetSpec="" />嗨！！<delay20 /><tag a="110" b="3" />！<10_4 />
-<anim id="EmotEnd" target="actor" targetSpec="" /><tag a="110" b="0" />嗯？<delay8 /><anim id="QuestionMark" target="actor" targetSpec="" />你刚才睡着了吧？<pageBreak /><anim id="ShyBoy" target="actor" targetSpec="" />当然，<delay8 />如果你达到了像我一样的境界，<delay20 />
+<anim id="73" target="actor" targetSpec="" /><tag a="110" b="0" />嗯？<delay8 /><anim id="QuestionMark" target="actor" targetSpec="" />你问我刚才是不是睡着了？<pageBreak /><anim id="ShyBoy" target="actor" targetSpec="" />当然，<delay8 />如果你达到了像我一样的境界，<delay20 />
 就可以在任何状态下都能睡着了，<delay20 />
 <anim id="SmugFace" target="actor" targetSpec="" />我平时就是这么锻炼自己的！<tag a="110" b="6" />。</message>
 	<message label="014" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>

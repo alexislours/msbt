@@ -316,6 +316,8 @@ la comunicazione all'aeroporto.</message>
 	<message label="1124_a" attrib="01 00">OK</message>
 	<message label="1125" attrib="01 09">Al momento non puoi ordinare nulla.</message>
 	<message label="1125_a" attrib="01 00">OK</message>
+	<message label="1126" attrib="06 09">Non puoi ordinare questo articolo.</message>
+	<message label="1126_a" attrib="01 00">OK</message>
 	<message label="1201" attrib="08 00">Vuoi davvero cancellare il modello
 <colour id="1" /><tag a="115" b="3" arg="0xcd00" /><colour id="65535" />?</message>
 	<message label="1201_a" attrib="01 00">In realtà, no</message>
@@ -1087,6 +1089,10 @@ Vuoi selezionare un'altra voce?</message>
 	<message label="2450_b" attrib="01 00">Sì</message>
 	<message label="2446_a" attrib="01 00">Torna al menu</message>
 	<message label="2446_b" attrib="01 00">Modifica</message>
+	<message label="2451" attrib="08 00">Hai finito di usare il Portale
+dei modelli personalizzati?</message>
+	<message label="2451_a" attrib="01 00">No</message>
+	<message label="2451_b" attrib="01 00">Sì</message>
 	<message label="2501" attrib="01 09">Ogni giocatore può inviare fino a
 2 messaggi online al giorno tramite
 il Catalogo Nook.</message>
@@ -1181,6 +1187,10 @@ aver scambiato miglia.<colour id="65535" /></message>
 sperimentare con lenti a contatto
 di nuovi colori! <colour id="0" />Riceverai la stampa
 subito dopo aver scambiato miglia.<colour id="65535" /></message>
+	<message label="3025" attrib="01 00">Aggiunge nuovi oggetti realizzabili con
+la funzione modelli pro nell'applicazione
+<colour id="1" />I miei modelli<colour id="65535" />. <colour id="0" />L'applicazione sarà
+aggiornata immediatamente.<colour id="65535" /></message>
 	<message label="3026" attrib="01 00">Impara a esprimere varie emozioni per
 rendere la tua vita sull'isola ancora
 più divertente. <colour id="0" />Riceverai la stampa
@@ -1189,6 +1199,10 @@ subito dopo aver scambiato miglia.<colour id="65535" /></message>
 davanti a uno <colour id="1" />specchio<colour id="65535" /> o una <colour id="1" />toletta<colour id="65535" />!
 <colour id="0" />Riceverai la stampa subito dopo
 aver scambiato miglia.<colour id="65535" /></message>
+	<message label="3028" attrib="01 00">Permette di accedere al <colour id="1" />portale dei
+modelli personalizzati<colour id="65535" /> tramite l'app
+<colour id="1" />I miei modelli<colour id="65535" />. <colour id="0" />L'applicazione sarà
+aggiornata immediatamente.<colour id="65535" /></message>
 	<message label="5001" attrib="01 00"><colour id="1" />Fotocamera<colour id="65535" />
 Ti permette di scattare delle foto
 e applicarvi vari filtri ed effetti.<pageBreak /><colour id="0" />Le immagini saranno salvate
@@ -1267,6 +1281,22 @@ personalmente sono contrassegnati
 dall'icona <colour id="0" /><colour id="65535" />.<pageBreak />Non è possibile modificare tali
 modelli. Se vuoi usare gli slot che
 occupano, dovrai prima cancellarli.</message>
+	<message label="5054" attrib="01 00"><colour id="1" />Modelli pro<colour id="65535" />
+Grazie per aver aggiornato di nuovo
+la tua applicazione <colour id="1" />I miei modelli<colour id="65535" />.<pageBreak />Ora puoi creare modelli pro per le
+sagome per le foto, le bandierine,
+gli ombrelli e i ventagli uchiwa.<pageBreak />Inoltre, adesso hai a disposizione
+50 slot di salvataggio aggiuntivi per i
+modelli personalizzati e i modelli pro!<pageBreak />Ci auguriamo che le nuove funzioni
+ti permettano di creare modelli pro
+ancora più creativi e divertenti!</message>
+	<message label="5055" attrib="01 00">Ora puoi accedere al <colour id="1" />portale 
+dei modelli personalizzati<colour id="65535" /> tramite
+l'applicazione <colour id="1" />I miei modelli<colour id="65535" />.<pageBreak />Potrai usufruire di modelli da ogni
+angolo del mondo in qualsiasi
+momento!<pageBreak /><colour id="0" />Per usare questa funzione, devi
+disporre di un'iscrizione attiva a
+Nintendo Switch Online.<colour id="65535" /></message>
 	<message label="5061" attrib="01 00"><colour id="1" />Mappa<colour id="65535" />
 Consulta la mappa per sapere
 la tua posizione attuale.<pageBreak />Premi <colour id="1" /><colour id="65535" /> per cambiare le impostazioni
@@ -1531,24 +1561,27 @@ per depositarli qui.</message>
 a tutti quelli con cui stai giocando.<pageBreak />Puoi rileggere i messaggi precedenti
 con l'app <colour id="1" />Archivio chat<colour id="65535" /> sul tuo Nook
 Phone.</message>
-	<message label="5301" attrib="0e 09">In <colour id="1" />Gioco cooperativo<colour id="65535" />, le modifiche
-ai modelli personalizzati che indossi
+	<message label="5301" attrib="0e 09">In <colour id="1" />Gioco cooperativo<colour id="65535" />, le modifiche ai
+modelli personalizzati che stai usando
 non saranno visibili automaticamente.
-Se vuoi sfoggiare le modifiche a un
-modello personalizzato, seleziona il
-modello modificato, quindi <colour id="1" />Indossa<colour id="65535" />.</message>
-	<message label="5302" attrib="0e 09">Stai indossando un modello
-personalizzato che hai modificato.
 
-Se vuoi sfoggiare le modifiche a un
-modello personalizzato, seleziona il
-modello modificato, quindi <colour id="1" />Indossa<colour id="65535" />.</message>
-	<message label="5302_01" attrib="0e 09">Hai salvato il modello personalizzato
-che indossi al momento.
+Se vuoi sfoggiare le modifiche del
+modello personalizzato, seleziona
+di nuovo il modello modificato.</message>
+	<message label="5302" attrib="0e 09">Hai sovrascritto un modello
+personalizzato che stai usando
+in questo momento.
 
-Se vuoi indossare il nuovo modello,
-sceglilo e poi seleziona <colour id="1" />Indossa
-<colour id="65535" />quando il sogno è finito.</message>
+Se vuoi sfoggiare le modifiche del
+modello personalizzato, seleziona
+di nuovo il modello modificato.</message>
+	<message label="5302_01" attrib="0e 09">Hai sovrascritto un modello
+personalizzato che stai usando
+in questo momento.
+Per sfoggiare le modifiche del
+modello personalizzato, seleziona
+di nuovo il modello quando il sogno
+è finito.</message>
 	<message label="5303" attrib="01 09">Il completo creato con la bacchetta
 include un modello personalizzato.<pageBreak />Il modello incluso nel completo
 non scomparirà nemmeno se

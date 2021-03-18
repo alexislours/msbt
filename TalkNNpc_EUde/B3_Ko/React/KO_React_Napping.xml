@@ -1,13 +1,13 @@
 <msbt attribsize="8">
 	<message label="001" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
-	<message label="001_01" attrib="00 00 00 00 00 00 00 00"><size value="75" />Mmmm...<delay20 /> Klappe zu, ihr Wolken...<delay20 /> Die Löffel
+	<message label="001_01" attrib="00 00 00 00 00 00 00 00"><size value="75" />Mmmm...<delay20 /> Klappe zu,<delay8 /> ihr Wolken...<delay20 /> Die Löffel
 wollen schlafen...<delay20 /> Frag das Fahrrad doch selbst...<delay20 />
-<size value="100" /><anim id="Surprised" target="actor" targetSpec="" />HÄ, WAS?!<10_7 arg="120" /></message>
-	<message label="001_02" attrib="00 00 00 00 00 00 00 00"><size value="75" />Schmeckt nach Holz...<delay20 /> Fiese Banane...<delay20 /> Traue nie
-einer sprechenden Karotte...<delay20 />
-<size value="100" /><anim id="Sleepy" target="actor" targetSpec="" />Mmmm.<10_7 arg="120" /></message>
+<size value="100" /><anim id="Surprised" target="actor" targetSpec="" />HÄ,<delay8 /> WAS?!<anim id="EmotEnd" target="actor" targetSpec="" /><10_7 arg="120" /></message>
+	<message label="001_02" attrib="00 00 00 00 00 00 00 00"><size value="75" />Schmeckt nach Holz...<delay20 /> Fiese Banane...<delay20 />
+Traue nie einer sprechenden Karotte...<delay20 />
+<size value="100" /><anim id="Sleepy" target="actor" targetSpec="" />Mmmm.<anim id="EmotEnd" target="actor" targetSpec="" /><10_7 arg="120" /></message>
 	<message label="001_03" attrib="00 00 00 00 00 00 00 00"><colour id="5" />Zzz<tag a="110" b="0" /><delay8 /> zzzz<tag a="110" b="0" /><delay8 /> ZZZZ!<delay frames="40" /><colour id="65535" />
-<anim id="Shocked" target="actor" targetSpec="" />Gah!<10_7 arg="120" /></message>
+<anim id="Shocked" target="actor" targetSpec="" />Gah!<anim id="EmotEnd" target="actor" targetSpec="" /><10_7 arg="120" /></message>
 	<message label="010" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
 	<message label="010_01" attrib="00 00 00 00 00 00 00 00"><anim id="Angry" target="actor" targetSpec="" />Was gibt's da zu feixen?<pageBreak /><anim id="Serious" target="actor" targetSpec="" />Egal, was du gehört hast, <delay8 />als ich
 eine kleine Runde gepoft hab...<delay20 />

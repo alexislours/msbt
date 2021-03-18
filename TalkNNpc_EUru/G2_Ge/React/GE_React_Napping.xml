@@ -2,11 +2,11 @@
 	<message label="001" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
 	<message label="001_01" attrib="00 00 00 00 00 00 00 00">Хр-р-р<tag a="110" b="0" /><delay20 /> Хр-р-р<tag a="110" b="0" /> Хр-р-р<tag a="110" b="0" /><delay20 />
 Папусик<tag a="110" b="0" /> Хр-р-р<tag a="110" b="0" /> Мамусик<tag a="110" b="0" />
-а где<tag a="110" b="0" /> хр-р-р<tag a="110" b="0" /><delay40 /> <anim id="Sleepy" target="actor" targetSpec="" />м-м-м<tag a="110" b="0" /><delay40 /> А?<10_7 arg="90" /></message>
+а где<tag a="110" b="0" /> хр-р-р<tag a="110" b="0" /><delay40 /> <anim id="Sleepy" target="actor" targetSpec="" />м-м-м<tag a="110" b="0" /><delay40 /> А?<anim id="EmotEnd" target="actor" targetSpec="" /><10_7 arg="90" /></message>
 	<message label="001_02" attrib="00 00 00 00 00 00 00 00">Хм-м<tag a="110" b="0" /> Привет, диджей Жук<tag a="110" b="0" />
-<delay20 /><anim id="Sleepy" target="actor" targetSpec="" />Что?<10_7 arg="90" /></message>
+<delay20 /><anim id="Sleepy" target="actor" targetSpec="" />Что?<anim id="EmotEnd" target="actor" targetSpec="" /><10_7 arg="90" /></message>
 	<message label="001_03" attrib="00 00 00 00 00 00 00 00">Хм<tag a="110" b="0" /> вот это платье<tag a="110" b="0" /> с блестками<tag a="110" b="0" />
-<anim id="Sleepy" target="actor" targetSpec="" />Хр-р-р<tag a="110" b="0" /><10_7 arg="90" /></message>
+<anim id="Sleepy" target="actor" targetSpec="" />Хр-р-р<tag a="110" b="0" /><anim id="EmotEnd" target="actor" targetSpec="" /><10_7 arg="90" /></message>
 	<message label="010" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
 	<message label="010_01" attrib="00 00 00 00 00 00 00 00"><anim id="Blushing" target="actor" targetSpec="" />Я недавно встала, но,<delay20 /> кажется,
 снова заснула!<delay40 /><anim id="Thinking" target="actor" targetSpec="" /> Хм<tag a="110" b="0" /><delay20 /> Наверное,
@@ -15,17 +15,17 @@
 заснула!<delay8 /> Странно<tag a="110" b="0" /><delay40 /> <anim id="OhGeez" target="actor" targetSpec="" />Наверное,
 просто устала.</message>
 	<message label="011" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
-	<message label="011_01" attrib="00 00 00 00 00 00 00 00"><anim id="Blushing" target="actor" targetSpec="" />Ой, я что, стоя заснула?<delay40 /> <anim id="EmotEnd" target="actor" targetSpec="" />Я вчера
+	<message label="011_01" attrib="00 00 00 00 00 00 00 00"><anim id="Blushing" target="actor" targetSpec="" />Ой, я что, стоя заснула?<delay40 /> <anim id="73" target="actor" targetSpec="" />Я вчера
 всю ночь не спала,<delay8 /> читала комиксы.</message>
 	<message label="011_02" attrib="00 00 00 00 00 00 00 00"><anim id="Sleepy" target="actor" targetSpec="" />Ох, спасибо, что разбудил<gender2 m="" f="а" />!<delay frames="60" /> Я всю
 ночь играла в Мегапекарню 3
-(Черный хлеб).<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />До утра не могла побороть Темного
+(Черный хлеб).<pageBreak /><anim id="73" target="actor" targetSpec="" />До утра не могла побороть Темного
 булочника.</message>
 	<message label="012" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
 	<message label="012_01" attrib="00 00 00 00 00 00 00 00"><anim id="Sleepy" target="actor" targetSpec="" />М-м<tag a="110" b="0" /><delay20 /> где я<tag a="110" b="0" /><pageBreak /><anim id="Eh" target="actor" targetSpec="" />С ума сойти,<delay40 /> <anim id="Blushing" target="actor" targetSpec="" />неужели я заснула?<delay40 />
 На свежем воздухе так хорошо<delay20 />
 расслабилась<tag a="110" b="0" /></message>
-	<message label="012_02" attrib="00 00 00 00 00 00 00 00"><anim id="Blushing" target="actor" targetSpec="" /><10_5 />С ума сойти<endTag a="10" b="5" /><delay8 />! Как я так заснула?<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Устала ходить, решила присесть
+	<message label="012_02" attrib="00 00 00 00 00 00 00 00"><anim id="Blushing" target="actor" targetSpec="" /><10_5 />С ума сойти<endTag a="10" b="5" /><delay8 />! Как я так заснула?<pageBreak /><anim id="73" target="actor" targetSpec="" />Устала ходить, решила присесть
 отдохнуть и<delay20 /> расслабилась<tag a="110" b="0" />
 <anim id="Laughing" target="actor" targetSpec="" />Странно.<delay20 /> Очень<delay20 /> странно.<delay20 /></message>
 	<message label="013" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
@@ -40,10 +40,8 @@
 	<message label="014_01" attrib="00 00 00 00 00 00 00 00"><anim id="Restless" target="actor" targetSpec="" />Обалдеть, я заснула!<delay40 /> <anim id="Blushing" target="actor" targetSpec="" />Я танцевала
 два часа без остановки и потом
 просто упала от усталости.</message>
-	<message label="014_02" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />А, я заснула?<delay40 /> <anim id="Blushing" target="actor" targetSpec="" />Ой<tag a="110" b="0" /> Спасибо, что
-разбудил<gender2 m="" f="а" />, <tag a="110" b="3" />!<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />У меня еще куча дел. <delay20 /><anim id="EmotEnd" target="actor" targetSpec="" />Мне нужно
-перелопатить все комиксы,
-<anim id="EmotEnd" target="actor" targetSpec="" />которые я взяла у <tag a="50" b="23" arg="0xcd03" /><tag a="110" b="11" arg="0xcd00" />!</message>
+	<message label="014_02" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />А, я заснула?<delay40 /> <anim id="73" target="actor" targetSpec="" /><anim id="Blushing" target="actor" targetSpec="" />Ой<tag a="110" b="0" /> Спасибо, что
+разбудил<gender2 m="" f="а" />, <tag a="110" b="3" />!</message>
 	<message label="015" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
 	<message label="015_01" attrib="00 00 00 00 00 00 00 00"><anim id="Oops" target="actor" targetSpec="" /><10_5 />Обалдеть<endTag a="10" b="5" /><delay8 />!<delay8 /> Как поздно!<delay40 />
 <delay40 />Надо домой бежать!</message>

@@ -2,11 +2,11 @@
 	<message label="001" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
 	<message label="001_01" attrib="00 00 00 00 00 00 00 00"><colour id="5" />Zzz<tag a="110" b="0" /> <delay8 />zzz<tag a="110" b="0" /> <delay8 />zzz<tag a="110" b="0" /><delay8 /> Hmnnnh...<delay20 />
 Zzz<tag a="110" b="0" /><colour id="65535" /> <delay8 />Wo ist<tag a="110" b="0" /> <delay8 />mein Mikro<tag a="110" b="0" /> <delay8 /><colour id="5" />zzz<tag a="110" b="0" /><delay20 />
-<anim id="Sleepy" target="actor" targetSpec="" />Mngh<tag a="110" b="0" /> <delay20 />Ngah?<colour id="65535" /><10_7 arg="90" /></message>
+<anim id="Sleepy" target="actor" targetSpec="" />Mngh<tag a="110" b="0" /> <delay20 />Ngah?<colour id="65535" /><anim id="EmotEnd" target="actor" targetSpec="" /><10_7 arg="90" /></message>
 	<message label="001_02" attrib="00 00 00 00 00 00 00 00"><tag a="110" b="0" />Hmnnn... <delay20 />Käfer, <delay8 />Käfer, <delay8 />Käfer...<delay20 />
-...<delay20 /><anim id="Sleepy" target="actor" targetSpec="" />Hwah?<10_7 arg="90" /></message>
+...<delay20 /><anim id="Sleepy" target="actor" targetSpec="" />Hwah?<anim id="EmotEnd" target="actor" targetSpec="" /><10_7 arg="90" /></message>
 	<message label="001_03" attrib="00 00 00 00 00 00 00 00">Nnnm... <delay20 />Dieses Kleid... <delay20 />hab doch gar
-nicht... <delay20 /><anim id="Sleepy" target="actor" targetSpec="" />Hrrrah...<10_7 arg="90" /></message>
+nicht... <delay20 /><anim id="Sleepy" target="actor" targetSpec="" />Hrrrah...<anim id="EmotEnd" target="actor" targetSpec="" /><10_7 arg="90" /></message>
 	<message label="010" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
 	<message label="010_01" attrib="00 00 00 00 00 00 00 00"><anim id="Blushing" target="actor" targetSpec="" />Ich bin gerade erst aufgewacht, <delay8 />aber
 dann einfach wieder eingeschlafen!<delay20 />
@@ -16,11 +16,11 @@ dann bin ich doch wieder wegge-
 pennt! <delay20 />Hm<tag a="110" b="0" /> <delay8 /><anim id="OhGeez" target="actor" targetSpec="" />Brauche wohl Schlaf.</message>
 	<message label="011" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
 	<message label="011_01" attrib="00 00 00 00 00 00 00 00"><anim id="Blushing" target="actor" targetSpec="" />Argh! <delay20 />Bin ich echt im Stehen
-eingepennt?<delay20 /> <anim id="EmotEnd" target="actor" targetSpec="" />Ich hab gestern<delay8 /> <anim id="ShyBoy" target="actor" targetSpec="" />die
+eingepennt?<delay20 /> <anim id="73" target="actor" targetSpec="" />Ich hab gestern<delay8 /> <anim id="ShyBoy" target="actor" targetSpec="" />die
 ganze Nacht Comics gelesen...</message>
 	<message label="011_02" attrib="00 00 00 00 00 00 00 00"><anim id="Sleepy" target="actor" targetSpec="" />Danke, <delay8 />dass du mich aufgeweckt
 hast!<delay20 /> <anim id="ShyBoy" target="actor" targetSpec="" />Ich hab die ganze Nacht
-„Süßholz und Sauerteig 3“ gespielt.<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Ich wollte ja schlafen gehn, <delay8 />aber
+„Süßholz und Sauerteig 3“ gespielt.<pageBreak /><anim id="73" target="actor" targetSpec="" />Ich wollte ja schlafen gehn, <delay8 />aber
 den Glutenator aufzuhalten, <delay8 />war
 halt wichtiger<tag a="110" b="0" /></message>
 	<message label="012" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
@@ -28,7 +28,7 @@ halt wichtiger<tag a="110" b="0" /></message>
 <anim id="Blushing" target="actor" targetSpec="" />Hier war einfach alles so voll ruhig
 und entspannend, <delay8 /><tag a="110" b="5" /><tag a="110" b="0" /></message>
 	<message label="012_02" attrib="00 00 00 00 00 00 00 00"><anim id="Blushing" target="actor" targetSpec="" />Och nö! <delay20 />Wie bin ich denn
-eingeschlafen?!<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />Ich wollte nur kurz Pause machen,<delay8 />
+eingeschlafen?!<pageBreak /><anim id="73" target="actor" targetSpec="" />Ich wollte nur kurz Pause machen,<delay8 />
 und alles war so gemütlich, <delay8 />und<tag a="110" b="0" /><delay8 />
 <anim id="Laughing" target="actor" targetSpec="" />Okay. <delay8 />Wow. <delay20 />Echt komisches Gefühl.</message>
 	<message label="013" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
@@ -46,7 +46,7 @@ gebraucht...</message>
 Stunden Schnelltanzen geübt hab.</message>
 	<message label="014_02" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Wie jetzt, <delay8 />ich hab geschlafen?!<delay20 />
 <anim id="Blushing" target="actor" targetSpec="" />Upsi... <delay20 />Danke, <delay8 />dass du mich
-aufgeweckt hast, <delay8 /><tag a="110" b="3" />!<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Ich hab noch so viel zu tun. <delay20 /><anim id="EmotEnd" target="actor" targetSpec="" />Muss
+aufgeweckt hast, <delay8 /><tag a="110" b="3" />!<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Ich hab noch so viel zu tun. <delay20 /><anim id="73" target="actor" targetSpec="" />Muss
 alle <anim id="EmotEnd" target="actor" targetSpec="" />Comics lesen, <delay8 />die ich mir von
 <tag a="110" b="11" arg="0xcd00" /> geliehen hab!</message>
 	<message label="015" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>

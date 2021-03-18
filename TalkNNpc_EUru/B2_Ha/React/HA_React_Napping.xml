@@ -2,11 +2,11 @@
 	<message label="001" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
 	<message label="001_01" attrib="00 00 00 00 00 00 00 00"><size value="75" />Десять тысяч приседаний<tag a="110" b="0" /> и я даже не
 запыхался! Может, я могу их вечно
-делать?<delay frames="40" /> <size value="100" /><anim id="Sleepy" target="actor" targetSpec="" />Ох<tag a="110" b="0" /> как я устал!<10_7 arg="120" /></message>
+делать?<delay frames="40" /> <size value="100" /><anim id="Sleepy" target="actor" targetSpec="" />Хр-р-пс-с<tag a="110" b="0" /><anim id="EmotEnd" target="actor" targetSpec="" /><10_7 arg="120" /></message>
 	<message label="001_02" attrib="00 00 00 00 00 00 00 00"><size value="75" />Не-е-ет<tag a="110" b="0" /> только не это<tag a="110" b="0" />
 <size value="100" /><10_10 />Верните мои бицепсы!<delay frames="40" /><10_9 />
-<anim id="Shocked" target="actor" targetSpec="" />А-а-а!!!<10_7 arg="60" /></message>
-	<message label="001_03" attrib="00 00 00 00 00 00 00 00">Хр-р<tag a="110" b="0" /><delay frames="40" /> <10_10 /><anim id="Surprised" target="actor" targetSpec="" />Ой!!!<10_9 /><10_7 arg="60" /></message>
+<anim id="Shocked" target="actor" targetSpec="" />А-а-а!!!<anim id="EmotEnd" target="actor" targetSpec="" /><10_7 arg="60" /></message>
+	<message label="001_03" attrib="00 00 00 00 00 00 00 00">Хр-р<tag a="110" b="0" /><delay frames="40" /> <10_10 /><anim id="Surprised" target="actor" targetSpec="" />Ой!!!<10_9 /><anim id="EmotEnd" target="actor" targetSpec="" /><10_7 arg="60" /></message>
 	<message label="010" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
 	<message label="010_01" attrib="00 00 00 00 00 00 00 00"><anim id="TakenAback" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="110" b="3" />? Ты что здесь
 делаешь? Я же тебя за зонтом
@@ -26,19 +26,19 @@
 знаю.</message>
 	<message label="012" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
 	<message label="012_01" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="110" b="3" />! Ты что здесь
-делаешь?<delay frames="40" /> <anim id="Shocked" target="actor" targetSpec="" />То есть нет, погоди<tag a="110" b="0" /><delay20 />
+делаешь?<anim id="73" target="actor" targetSpec="" /><delay frames="40" /> <anim id="Shocked" target="actor" targetSpec="" />То есть нет, погоди<tag a="110" b="0" /><delay20 />
 Это я что здесь делаю?!</message>
 	<message label="012_02" attrib="00 00 00 00 00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Ох<tag a="110" b="0" /> Как неудобно. Теперь все
 тело болит!</message>
 	<message label="013" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
-	<message label="013_01" attrib="00 00 00 00 00 00 00 00"><anim id="TakenAback" target="actor" targetSpec="" />Ой!!! <tag a="50" b="3" /><tag a="110" b="3" />, привет!
-Это я так<tag a="110" b="0" /> медитировал.<delay frames="40" /> <anim id="OhGeez" target="actor" targetSpec="" />Да, точно!
+	<message label="013_01" attrib="00 00 00 00 00 00 00 00"><anim id="TakenAback" target="actor" targetSpec="" />Ой!!! <tag a="50" b="3" /><tag a="110" b="3" />, привет!<delay frames="40" />
+<anim id="73" target="actor" targetSpec="" />Это я так<tag a="110" b="0" /> медитировал.<delay frames="40" /> <anim id="OhGeez" target="actor" targetSpec="" />Да, точно!
 <delay20 />Медитировал мышцами!</message>
 	<message label="013_02" attrib="00 00 00 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" /><tag a="50" b="3" /><tag a="110" b="3" />! Как прошла
 церемония награждения?
-Кто получил Лучший пряник?<pageBreak /><anim id="Oops" target="actor" targetSpec="" />Ой, я думал, ты<tag a="110" b="0" /><delay20 /> Мне такой
+Кто получил Лучший пряник?<pageBreak /><anim id="73" target="actor" targetSpec="" /><anim id="Oops" target="actor" targetSpec="" />Ой, я думал, ты<tag a="110" b="0" /><delay20 /> Мне такой
 странный сон приснился!
-<tag a="50" b="3" /><tag a="110" b="5" />!</message>
+<tag a="50" b="3" /><tag a="110" b="6" />!</message>
 	<message label="014" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
 	<message label="014_01" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Ох, кажется, я заснул.<delay frames="40" /> <anim id="Nodding" target="actor" targetSpec="" />Я сегодня
 кругов сто пробежал вокруг

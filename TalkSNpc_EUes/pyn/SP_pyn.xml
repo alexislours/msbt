@@ -24,10 +24,8 @@ El conejo de la suerte me llaman,
 	<message label="012" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Esta es mi estación favorita del año,
 ¿sabes por qué?<delay20 /><anim id="EmotEnd" target="actor" targetSpec="" /> ¡Porque se celebra
 la <colour id="1" />Caza del Huevo<colour id="65535" />!
-<anim id="FaintSmile" target="actor" targetSpec="" />Aún faltan unos días para la fecha,
-pero ya he empezado a prepararlo
-todo.
-<anim id="Sighing" target="actor" targetSpec="" /><size value="75" />Acabaría antes si no me interrumpieran
+<anim id="FaintSmile" target="actor" targetSpec="" />Ya estoy de aquí para allá
+preparándolo todo.<pageBreak /><anim id="Sighing" target="actor" targetSpec="" /><size value="75" />Acabaría antes si no me interrumpieran
 todo el rato.<size value="100" /><pageBreak /><anim id="Nodding" target="actor" targetSpec="" />Ya que has tenido la suerte de
 encontrarme,<delay8 /><anim id="Smiling" target="actor" targetSpec="" /> voy a compartir
 contigo un secretito<tag a="110" b="0" /></message>
@@ -46,9 +44,12 @@ diferentes por tooooda la isla.<pageBreak /><anim id="Dance" target="actor" targ
 ¡boing-boing!<pageBreak /><anim id="Negative" target="actor" targetSpec="" />No he escondido ninguno dentro de
 una casa o un edificio,<delay8 /><anim id="Smiling" target="actor" targetSpec="" /> ¡no pierdas
 el tiempo buscando por ahí!
-<anim id="HappyDance" target="actor" targetSpec="" />¡Busca por tierra, agua y aire,
-no te dejes ni un rincón!<pageBreak /><anim id="HappyDance" target="actor" targetSpec="" />En un árbol, en una roca<tag a="110" b="0" /><delay8 />
-¡A saber dónde estarán,<delay8 /> boing!</message>
+<anim id="HappyDance" target="actor" targetSpec="" />Agita los árboles, golpea las piedras,<delay8 />
+indaga y excava,<delay8 /> otea y dispara,<delay8 />
+¡a ver lo que pescas!
+¡Busca por tierra, agua y aire,<delay8 />
+<anim id="Laughing" target="actor" targetSpec="" />no te dejes ni un rincón!<delay20 />
+¡A saber dónde estarán,<delay8 /> <anim id="Greeting" target="actor" targetSpec="" />boing!</message>
 	<message label="016" attrib="00 00 00 00">Y, para que empieces con buen pie,<delay8 />
 ¡esto es para ti!</message>
 	<message label="017" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Es un proyecto de bricolaje para
@@ -56,6 +57,17 @@ hacer una <colour id="1" />cama Caza del Huevo<colour id="65535" />.<pageBreak /
 que encuentres, ¡bieeen!<pageBreak /><tag a="10" b="6" /><tag a="10" b="6" /><anim id="Dance" target="actor" targetSpec="" /><endTag a="10" b="6" />¡Y ya solo me queda una última cosa
 que contarte!<delay20 /><anim id="Grin" target="actor" targetSpec="" /> <size value="75" />Lo vas a flipar<tag a="110" b="0" /><size value="100" /><endTag a="10" b="6" /><pageBreak /><anim id="BigSmile" target="actor" targetSpec="" />¡He escondido otros <colour id="1" />proyectos<colour id="65535" />
 como este por la isla!<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />A medida que se acerque el día de
+la <colour id="1" />Caza del Huevo<colour id="65535" />, esconderé más
+proyectos.
+Si encuentras y <colour id="1" />fabricas todos esos
+proyectos<colour id="65535" /><tag a="110" b="0" /><delay20 /><anim id="Clapping" target="actor" targetSpec="" /> ¡te daré un premio
+superguay!
+<anim id="HappyDance" target="actor" targetSpec="" />¡Madre mía, cuánta diversión
+nos espera!<delay20 /> ¡Yupi-yupi-ya!</message>
+	<message label="017_01" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Son <colour id="1" />10 huevos acuáticos<colour id="65535" />,
+¡para ti para siempre!<pageBreak /><tag a="10" b="6" /><tag a="10" b="6" /><anim id="Dance" target="actor" targetSpec="" /><endTag a="10" b="6" />¡Y ya solo me queda una última cosa
+que contarte!<delay20 /><anim id="Grin" target="actor" targetSpec="" /> <size value="75" />Lo vas a flipar<tag a="110" b="0" /><size value="100" /><endTag a="10" b="6" /><pageBreak /><anim id="BigSmile" target="actor" targetSpec="" />¡He escondido muchos <colour id="1" />proyectos<colour id="65535" />
+increíbles por la isla!<pageBreak /><anim id="Smiling" target="actor" targetSpec="" />A medida que se acerque el día de
 la <colour id="1" />Caza del Huevo<colour id="65535" />, esconderé más
 proyectos.
 Si encuentras y <colour id="1" />fabricas todos esos
@@ -88,8 +100,8 @@ ni edificios,<delay8 /> mejor busca
 en otros sitios.
 <anim id="Smiling" target="actor" targetSpec="" />Mi consejo es que mires fuera,
 el exterior tienes que explorar.<pageBreak /><anim id="HappyDance" target="actor" targetSpec="" />Busca y busca sin cesar,<delay8 />
-en árboles, en rocas, en el aire<delay8 />
-¡y hasta en el mar!</message>
+en árboles, en rocas, en el aire<tag a="110" b="0" /><delay8 />
+¡y hasta anímate a pescar!</message>
 	<message label="023" attrib="00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />Recuerda buscar los <colour id="1" />proyectos de
 bricolaje<colour id="65535" /> que también he ocultado
 por la isla.
@@ -184,6 +196,18 @@ especial para quien los encuentre
 y los <colour id="1" />fabrique todos<colour id="65535" />.
 <anim id="Cheering" target="actor" targetSpec="" />¡Date prisa! ¡Te deseo mucha suerte,
 boing-boing!</message>
+	<message label="108_01" attrib="00 00 00 00"><anim id="Hesitate" target="actor" targetSpec="" />He preparado un regalito especial
+para celebrar este día.<pageBreak /><anim id="Clapping" target="actor" targetSpec="" />¡Nada más y nada menos que
+<colour id="1" />10 huevos rupestres<colour id="65535" />!<delay20 /><anim id="FaintSmile" target="actor" targetSpec="" /> Para ti
+enteramente, amiguit<gender2 m="o" f="a" />.
+<anim id="Dance" target="actor" targetSpec="" />Será mejor que te pongas a buscar
+ya si quieres encontrar todos
+los <colour id="1" />proyectos <colour id="65535" />que he escondido.
+<anim id="Nodding" target="actor" targetSpec="" />Tengo reservada una sorpresa muy
+especial para quien los encuentre
+y los <colour id="1" />fabrique todos<colour id="65535" />.
+<anim id="Cheering" target="actor" targetSpec="" />¡Date prisa! ¡Te deseo mucha suerte,
+boing-boing!</message>
 	<message label="109" attrib="00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />Ah, y esto es para ti.<delay8 /><anim id="Surprised" target="actor" targetSpec="" /> ¿Oooh?<delay20 />
 Tienes los bolsillos hasta los topes,
 amiguit<gender2 m="o" f="a" />.
@@ -203,6 +227,14 @@ hacer un <colour id="1" />arco Caza del Huevo<colour id="65535" />!<pageBreak />
 que encuentres, ¡bieeen!<pageBreak /><tag a="10" b="6" /><tag a="10" b="6" /><anim id="Dance" target="actor" targetSpec="" /><endTag a="10" b="6" />¡Y ya solo me queda una última cosa
 que contarte!<delay20 /><anim id="Grin" target="actor" targetSpec="" /> <size value="75" />Lo vas a flipar<tag a="110" b="0" /><size value="100" /><endTag a="10" b="6" /><pageBreak /><anim id="BigSmile" target="actor" targetSpec="" />¡He escondido otros <colour id="1" />proyectos<colour id="65535" />
 como este por la isla!<pageBreak />Si encuentras y <colour id="1" />fabricas todos esos
+proyectos<colour id="65535" /><tag a="110" b="0" /><delay20 /><anim id="Clapping" target="actor" targetSpec="" /> ¡te daré un premio
+supergenial!
+<anim id="HappyDance" target="actor" targetSpec="" />¡Ponte a ello que se acaba el tiempo!<delay20 />
+¡Yupi-yupi-ya!</message>
+	<message label="113_01" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />¡Son <colour id="1" />10 huevos rupestres<colour id="65535" />!<delay20 />
+Para ti para siempre, ¡bieeen!<pageBreak /><tag a="10" b="6" /><anim id="Dance" target="actor" targetSpec="" />¡Y ya solo me queda una última cosa
+que contarte!<delay20 /><anim id="Grin" target="actor" targetSpec="" /> <size value="75" />Lo vas a flipar<tag a="110" b="0" /><size value="100" /><endTag a="10" b="6" /><pageBreak /><anim id="BigSmile" target="actor" targetSpec="" />¡He escondido un montón de
+<colour id="1" />proyectos<colour id="65535" /> fabulosos por la isla!<pageBreak />Si encuentras y <colour id="1" />fabricas todos esos
 proyectos<colour id="65535" /><tag a="110" b="0" /><delay20 /><anim id="Clapping" target="actor" targetSpec="" /> ¡te daré un premio
 supergenial!
 <anim id="HappyDance" target="actor" targetSpec="" />¡Ponte a ello que se acaba el tiempo!<delay20 />
@@ -404,8 +436,8 @@ de huevo.<10_4 /> <anim id="EmotEnd" target="actor" targetSpec="" />Hay seis dif
 <anim id="Greeting" target="actor" targetSpec="" />Encuéntralos y tráemelos, ¡boing!</message>
 	<message label="192" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />Mi consejo es que mires fuera,<delay8 />
 el exterior tienes que explorar.<pageBreak /><anim id="HappyDance" target="actor" targetSpec="" />Busca y busca sin cesar,<delay8 />
-en árboles, en rocas, en el aire<delay8 />
-¡y hasta en el mar!</message>
+en árboles, en rocas, en el aire<tag a="110" b="0" /><delay8 />
+¡y hasta anímate a pescar!</message>
 	<message label="193" attrib="00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />¡Oooh! ¡Aaaah!<delay8 /> ¡Has encontrado
 los seis huevos diferentes!<pageBreak /><anim id="Worried" target="actor" targetSpec="" />Es una pena que tengas los bolsillos
 tan llenos,<delay8 /> porque así no puedo darte
@@ -422,6 +454,21 @@ intentarlo,<delay8 /> ¡pero nunca pensé
 que lo lograrías!
 <anim id="WrySmile" target="actor" targetSpec="" />Pues ya no me queda nada más
 que pedirte<tag a="110" b="0" /></message>
+	<message label="200_01" attrib="00 00 00 00"><anim id="Surprised" target="actor" targetSpec="" />¿Perdona?<delay8 /> ¿Has fabricado todos
+y cada uno de los proyectos que
+escondí?
+<anim id="TakenAback" target="actor" targetSpec="" />¡Madre mía!<delay20 /> Suponía que ibas a
+intentarlo,<delay8 /> ¡pero nunca pensé
+que lo lograrías!
+<anim id="HappyDance" target="actor" targetSpec="" />Bien, pues solo nos queda la última
+prueba,<delay8 /> que es fenomenal,<delay8 /> pues
+trata de alguien muy especial.
+<anim id="BigSmile" target="actor" targetSpec="" />Tendrás que fabricar un <colour id="1" />tentetieso
+Coti Conejal<colour id="65535" />, o sea,<delay8 /><anim id="EmotEnd" target="actor" targetSpec="" /> ¡un muñeco
+de mí!
+<anim id="Nodding" target="actor" targetSpec="" />Y te prometo que después de esto
+te daré tu merecido premio.<delay20 />
+<anim id="Assent" target="actor" targetSpec="" />¡Palabra de conejo de la suerte!</message>
 	<message label="201" attrib="00 00 00 00"><tag a="10" b="6" /><tag a="10" b="12" /><anim id="Laughing" target="actor" targetSpec="" /><size value="150" />¡Excepto una cosa!<delay frames="30" /><size value="100" /><endTag a="10" b="6" /><pageBreak /><anim id="Explain" target="actor" targetSpec="" />Lo siento, pero he de pedirte que
 fabriques este último proyecto.<delay20 />
 <anim id="Grin" target="actor" targetSpec="" /><size value="75" />Las cosas buenas hay que currárselas.<size value="100" /></message>
@@ -444,9 +491,22 @@ estaba contigo!<delay8 /> ¡Yupi-yupi-ya!
 <anim id="Smiling" target="actor" targetSpec="" />Como te prometí,<delay8 /> aquí tienes
 el premio que has ganado con
 tanto esfuerzo.</message>
+	<message label="204_01" attrib="00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />Tu cara lo dice todo, amiguit<gender2 m="o" f="a" />.<delay20 />
+¿Has logrado fabricar toditos
+todos los proyectos?
+<anim id="Clapping" target="actor" targetSpec="" />¡Increíble!<delay20 /> Has hecho cuanto te
+he pedido.<delay20 /> ¡Sabía que la suerte
+estaba contigo!<delay8 /> ¡Yupi-yupi-ya!
+<anim id="Smiling" target="actor" targetSpec="" />Como te prometí,<delay8 /> aquí tienes
+el premio que has ganado
+con tanto esfuerzo.</message>
 	<message label="205" attrib="00 00 00 00"><anim id="Clapping" target="actor" targetSpec="" />¡Es el proyecto de bricolaje para
 hacer una <colour id="1" />varita Caza del Huevo<colour id="65535" />!<pageBreak /><size value="75" /><anim id="Serious" target="actor" targetSpec="" />Sí, es otro proyecto.<delay20 /> No te quejes.<delay20 />
 Por lo menos a ti te dan un premio<tag a="110" b="0" /><size value="100" /><pageBreak /><anim id="HappyDance" target="actor" targetSpec="" />Una hazaña como esta se merece
+una canción a su altura, ¿no crees?<delay20 />
+<anim id="EmotEnd" target="actor" targetSpec="" />¡Vamos allá!</message>
+	<message label="205_01" attrib="00 00 00 00"><anim id="Clapping" target="actor" targetSpec="" />¡Es una hermosa <colour id="1" />varita
+Caza del Huevo<colour id="65535" />!<pageBreak /><anim id="HappyDance" target="actor" targetSpec="" />Una hazaña como esta se merece
 una canción a su altura, ¿no crees?<delay20 />
 <anim id="EmotEnd" target="actor" targetSpec="" />¡Vamos allá!</message>
 	<message label="206" attrib="00 00 00 00">¡Has ganado!<delay8 /> ¡Lo has logrado!<delay20 />
@@ -479,6 +539,17 @@ especial para quien consiga
 <colour id="1" />fabricarlos todos<colour id="65535" />.
 <anim id="Cheering" target="actor" targetSpec="" />¡Ponte en marcha, que el tiempo
 corre!<delay8 /> ¡Boooing!</message>
+	<message label="222_01" attrib="00 00 00 00"><anim id="Smiling" target="actor" targetSpec="" />¡Son los <colour id="1" />10 huevos rupestres
+<colour id="65535" />que te prometí!<pageBreak /><anim id="Dance" target="actor" targetSpec="" />Estoy encantado de que participes
+en esta celebración y te deseo
+mucha suerte.<pageBreak /><anim id="QuestionMark" target="actor" targetSpec="" />¿Serás capaz de encontrar todos
+los <colour id="1" />proyectos <colour id="65535" />que he escondido
+por la isla?
+<anim id="BigSmile" target="actor" targetSpec="" />Tengo reservado un regalo muy
+especial para quien consiga
+<colour id="1" />fabricarlos todos<colour id="65535" />.
+<anim id="Cheering" target="actor" targetSpec="" />¡Ponte en marcha, que el tiempo
+corre!<delay8 /> ¡Boooing!</message>
 	<message label="223" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Es un proyecto para hacer un <colour id="1" />arco
 Caza del Huevo<colour id="65535" />.<delay20 /> Siento no haber
 podido dártelo antes.
@@ -489,8 +560,23 @@ como este por la isla!<pageBreak /><anim id="FaintSmile" target="actor" targetSp
 proyectos<colour id="65535" /><tag a="110" b="0" /><delay20 /><anim id="Clapping" target="actor" targetSpec="" /> ¡te daré un premio
 superguay!
 <anim id="HappyDance" target="actor" targetSpec="" />¡A buscar, a buscar!<delay20 /> ¡Yupi-yupi-ya!</message>
+	<message label="223_01" attrib="00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Son <colour id="1" />10 huevos rupestres<colour id="65535" />.<delay20 /> Siento
+no haber podido dártelos antes.<pageBreak /><tag a="10" b="6" /><anim id="Dance" target="actor" targetSpec="" />¡Y ya solo me queda una última cosa
+que contarte!<delay20 /><anim id="Grin" target="actor" targetSpec="" /> <size value="75" />Lo vas a flipar<tag a="110" b="0" /><size value="100" /><endTag a="10" b="6" /><pageBreak /><anim id="BigSmile" target="actor" targetSpec="" />¡He escondido <colour id="1" />proyectos <colour id="65535" />increíbles
+por toda la isla!<pageBreak /><anim id="FaintSmile" target="actor" targetSpec="" />Si encuentras y <colour id="1" />fabricas todos esos
+proyectos<colour id="65535" /><tag a="110" b="0" /><delay20 /><anim id="Clapping" target="actor" targetSpec="" /> ¡te daré un premio
+superguay!
+<anim id="HappyDance" target="actor" targetSpec="" />¡A buscar, a buscar!<delay20 /> ¡Yupi-yupi-ya!</message>
 	<message label="224" attrib="00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />¡Es un proyecto de bricolaje para
 hacer un <colour id="1" />tentetieso Coti Conejal<colour id="65535" />!<pageBreak /><anim id="Dance" target="actor" targetSpec="" />Si fabricas esto, te prometo que
 te daré tu merecido premio.<delay20 />
 <anim id="Nodding" target="actor" targetSpec="" />Esta vez sí que sí.</message>
+	<message label="230" attrib="00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Pero pero pero<tag a="110" b="0" /><delay20 /> ¡No tienes ni idea
+de <colour id="1" />bricolaje<colour id="65535" />!<delay20 /><anim id="Sighing" target="actor" targetSpec="" /> Pues vaya problemón
+nos traemos entre manos.
+<anim id="Negative" target="actor" targetSpec="" />¡Una <colour id="1" />Caza del Huevo<colour id="65535" /> sin <colour id="1" />bricolaje<colour id="65535" />
+no es lo mismo ni por asomo!<pageBreak /><anim id="Assent" target="actor" targetSpec="" />¡Pero no pasa nada!<delay20 /> Solo tienes que
+participar en el <colour id="1" />taller<colour id="65535" /> que ofrecen en
+la <colour id="1" />oficina de gestión vecinal<colour id="65535" /><tag a="110" b="0" /><delay8 /> ¡y ya!
+<anim id="Hello" target="actor" targetSpec="" />¡Que no se te pase!<delay20 /> ¡Yupi-yupi-ya!</message>
 </msbt>

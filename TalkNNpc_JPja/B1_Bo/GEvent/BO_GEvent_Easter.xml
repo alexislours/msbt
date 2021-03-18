@@ -17,7 +17,7 @@
 <anim id="Greeting" target="actor" targetSpec="" />がんばってみるのも　いいかもねぇ、<tag a="110" b="6" /></message>
 	<message label="012" attrib="00 00 00 00 00 00 00 00"><anim id="Explain" target="actor" targetSpec="" />そういえば、<delay20 />はまべで
 メッセージボトルを　<ruby a="2" b="2">み</ruby>見かけたんだけど、<delay20 />
-<anim id="Nodding" target="actor" targetSpec="" />まるで　たまごみたいな　もようだったんだよぉ<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />もしも、<delay8 /><ruby a="2" b="6">かたち</ruby>形もたまごみたいだったら<delay20 />
+<anim id="Nodding" target="actor" targetSpec="" />まるで　たまごみたいな　もようだったんだぁ<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />もし、<delay8 /><ruby a="2" b="6">かたち</ruby>形も　たまごみたいだったら<delay20 />
 <anim id="Laughing" target="actor" targetSpec="" />まちがえて　<ruby a="2" b="2">た</ruby>食べちゃってたかも～<delay frames="50" />
 <anim id="Hello" target="actor" targetSpec="" />キミも　<ruby a="2" b="2">み</ruby>見に<ruby a="2" b="2">い</ruby>行ってみるといいよぉ、<tag a="110" b="6" /></message>
 	<message label="101" attrib="00 00 00 00 00 00 00 00"><anim id="Hello" target="actor" targetSpec="" />たまごあつめの　ちょうしはどう？<delay frames="50" />
@@ -43,8 +43,56 @@
 フルーツのなってない木を　ゆらしたら、
 たまごが　おちてきたんだぁ～<pageBreak />たまごのなる木！
 大発見だねぇ、<tag a="110" b="6" /></message>
-	<message label="106" attrib="00 00 00 00 00 00 00 00">さっき<delay8 />　おサカナ<ruby a="2" b="2">つ</ruby>釣りをしてたらね、<delay20 />
-<anim id="Shocked" target="actor" targetSpec="" />なんと　ビックリ！<delay frames="50" />
+	<message label="106" attrib="00 00 00 00 00 00 00 00">さっき<delay8 />　<ruby a="2" b="2">つ</ruby>釣りをしてたら、<delay20 /><anim id="Shocked" target="actor" targetSpec="" />なんと　ビックリ！<delay frames="50" />
 <anim id="Laughing" target="actor" targetSpec="" />たまごが　<ruby a="2" b="2">つ</ruby>釣れちゃったんだよぉ～<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />きっと　おサカナさんたちも　<ruby a="2" b="4">みず</ruby>水の<ruby a="2" b="4">なか</ruby>中で<delay8 />
 <anim id="FaintSmile" target="actor" targetSpec="" />イースターを　<ruby a="2" b="4">たの</ruby>楽しんでるんだろうね、<tag a="110" b="6" /></message>
+	<message label="110" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
+	<message label="110_01" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />やっほぉ～、<delay20 /><tag a="110" b="4" />！<delay frames="40" />
+<anim id="Smiling" target="actor" targetSpec="" /><ruby a="4" b="6">きょう</ruby>今日は　<ruby a="2" b="4">たの</ruby>楽しいおまつり、<delay20 />イースターだからね<delay frames="40" />
+<anim id="SmugFace" target="actor" targetSpec="" />たまご、<delay8 />あつめまくっちゃうよぉ！　<tag a="110" b="6" /></message>
+	<message label="110_02" attrib="00 00 00 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" /><ruby a="4" b="6">きょう</ruby>今日は　<ruby a="2" b="4">たの</ruby>楽しいイースターの　おまつりだぁ！<delay frames="40" />
+<anim id="HappyFlower" target="actor" targetSpec="" />あちこちにかくれてる　カワイイたまご、<delay20 />
+がんばって　さがしちゃお～！　<tag a="110" b="6" /></message>
+	<message label="111" attrib="00 00 02 00 00 00 00 00"><anim id="Aha" target="actor" targetSpec="" />あっ、<delay8 /><tag a="110" b="4" />！<delay frames="30" />
+<anim id="FaintSmile" target="actor" targetSpec="" />ちょうどいいところに～！<delay frames="40" />
+キミに　そうだんが　あるんだよねぇ<pageBreak /><anim id="Hesitate" target="actor" targetSpec="" />ボクの　<delay20 /><tag a="125" b="0" arg="0x0" />と<delay8 />
+キミがもってる　<colour id="1" />ほかのしゅるいのたまご<colour id="65535" />を、<delay20 /><colour id="1" />
+<anim id="Hello" target="actor" targetSpec="" />3コ<colour id="65535" />ずつ　こうかんしてくれない？　<tag a="110" b="6" /></message>
+	<message label="111_a" attrib="00 00 00 00 00 00 00 00">いいよ！</message>
+	<message label="111_b" attrib="00 00 00 00 00 00 00 00">ゴメンね</message>
+	<message label="112" attrib="00 00 02 00 00 00 00 00"><anim id="FaintSmile" target="actor" targetSpec="" />ねぇねぇ、<delay8 /><tag a="110" b="4" /><delay frames="30" />
+ボクと　たまごのこうかん　してくれない？<delay frames="40" />
+<anim id="ShyBoy" target="actor" targetSpec="" />ちょっと　あつめすぎちゃって<tag a="110" b="0" /><pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />ボクの　<tag a="125" b="0" arg="0x0" />と<delay8 />
+<colour id="1" />ほかのしゅるいのたまご<colour id="65535" />を<colour id="1" />　3コ<colour id="65535" />ずつ<tag a="110" b="0" /><delay frames="40" /><colour id="1" />
+<anim id="Greeting" target="actor" targetSpec="" /><colour id="65535" />こうかんできたら　うれしいなぁ、<tag a="110" b="6" /></message>
+	<message label="112_a" attrib="00 00 00 00 00 00 00 00">いいよ！</message>
+	<message label="112_b" attrib="00 00 00 00 00 00 00 00">ゴメンね</message>
+	<message label="113" attrib="00 00 00 00 00 00 00 00"><anim id="BigSmile" target="actor" targetSpec="" />うわぁい、<delay8 />やったぁ～！<delay frames="40" />
+<anim id="Smiling" target="actor" targetSpec="" />そう<ruby a="2" b="2">い</ruby>言ってくれると　<ruby a="2" b="4">おも</ruby>思ってたよぉ<10_4 />
+それじゃ、<delay8 />どのたまごと　こうかんする～？</message>
+	<message label="114" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />え、<delay8 />ホントに　いいの？！<delay frames="40" />
+<anim id="HappyDance" target="actor" targetSpec="" />わぁい、<delay20 /><ruby a="2" b="2">き</ruby>聞いてみて　よかったぁ～！<10_4 />
+<anim id="FaintSmile" target="actor" targetSpec="" />それじゃ、<delay8 />キミも　たまごをえらんでねぇ</message>
+	<message label="116" attrib="00 00 00 00 00 00 00 00"><anim id="Greeting" target="actor" targetSpec="" />どうも　ありがとねぇ～！<delay frames="40" />
+<anim id="EmotEnd" target="actor" targetSpec="" />キミのおかげで<delay8 />　たすかったよぉ<delay frames="40" />
+<anim id="FaintSmile" target="actor" targetSpec="" />また　よろしく～！　<tag a="110" b="6" /></message>
+	<message label="117" attrib="00 00 00 00 00 00 00 00">こっちのたまごも　カラフルでカワイイねぇ～<delay frames="40" />
+<anim id="FaintSmile" target="actor" targetSpec="" />こうかんしてくれて、<delay20 />
+ホントに　ありがと～！　<tag a="110" b="6" /></message>
+	<message label="118" attrib="00 00 00 00 00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />う～ん、<delay8 />ダメかぁ<tag a="110" b="0" /><delay frames="60" />
+<anim id="EmotEnd" target="actor" targetSpec="" />まぁ、<delay8 />いいやぁ！<delay frames="40" />
+<anim id="FaintSmile" target="actor" targetSpec="" />ほかのコにも　<ruby a="2" b="2">き</ruby>聞いてみよ～っと、<tag a="110" b="6" /></message>
+	<message label="119" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />あれ？<delay frames="40" />　<anim id="Negative" target="actor" targetSpec="" />ムリなら　しかたないねぇ<delay frames="40" />
+<anim id="EmotEnd" target="actor" targetSpec="" />まぁ、<delay20 />あまっても　<ruby a="2" b="2">た</ruby>食べちゃうだけだから<delay8 />
+<anim id="Laughing" target="actor" targetSpec="" /><ruby a="2" b="2">き</ruby>気にしないで　いいよぉ～、<tag a="110" b="6" /></message>
+	<message label="120" attrib="00 00 02 00 00 00 00 00">その　<colour id="1" /><tag a="125" b="0" arg="0x1" /><colour id="65535" />を<delay20 />
+ボクの　<colour id="1" /><tag a="125" b="0" arg="0x0" /><colour id="65535" />と<delay20 />
+<colour id="1" />3コ<colour id="65535" />ずつ　こうかんするんだね？　<tag a="110" b="6" /></message>
+	<message label="120_a" attrib="00 00 00 00 00 00 00 00">そうだよ</message>
+	<message label="120_b" attrib="00 00 00 00 00 00 00 00">やっぱり　やめとく</message>
+	<message label="121" attrib="00 00 00 00 00 00 00 00">よ～し！<delay frames="40" />
+<anim id="Smiling" target="actor" targetSpec="" />それじゃあ、<delay8 />はじめよ～！</message>
+	<message label="122" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" /><tag a="110" b="0" />でも　キミ、<delay8 />もちものいっぱいだねぇ<delay frames="40" />
+<anim id="EmotEnd" target="actor" targetSpec="" />それじゃ、もてそうにないし<delay20 />
+<anim id="FaintSmile" target="actor" targetSpec="" />こうかんは　またあとにしようかぁ、<tag a="110" b="6" /></message>
 </msbt>

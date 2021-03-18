@@ -1,11 +1,11 @@
 <msbt attribsize="8">
 	<message label="001" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
 	<message label="001_01" attrib="00 00 00 00 00 00 00 00"><size value="75" />Ш-ш-ш<tag a="110" b="0" /> Потише, занавески<tag a="110" b="0" /> ложки уже
-спят<tag a="110" b="0" /> спросите сами у велосипеда<tag a="110" b="0" /> <size value="100" /><anim id="Surprised" target="actor" targetSpec="" />А?!<10_7 arg="120" /></message>
+спят<tag a="110" b="0" /> спросите сами у велосипеда<tag a="110" b="0" /> <size value="100" /><anim id="Surprised" target="actor" targetSpec="" />А?!<anim id="EmotEnd" target="actor" targetSpec="" /><10_7 arg="120" /></message>
 	<message label="001_02" attrib="00 00 00 00 00 00 00 00"><size value="75" />На вкус вроде телевизор<tag a="110" b="0" /> страшный банан<tag a="110" b="0" />
-не доверяй говорящей морковке<tag a="110" b="0" /> <size value="100" /><anim id="Sleepy" target="actor" targetSpec="" />Х-р-р-р...<10_7 arg="120" /></message>
+не доверяй говорящей морковке<tag a="110" b="0" /> <size value="100" /><anim id="Sleepy" target="actor" targetSpec="" />Х-р-р-р...<anim id="EmotEnd" target="actor" targetSpec="" /><10_7 arg="120" /></message>
 	<message label="001_03" attrib="00 00 00 00 00 00 00 00">Хр-р-р-р<tag a="110" b="0" /><delay8 /> хр-р-р-р<tag a="110" b="0" /> Хр-р-р-р!<delay frames="40" />
-<anim id="Shocked" target="actor" targetSpec="" />А!<10_7 arg="120" /></message>
+<anim id="Shocked" target="actor" targetSpec="" />А!<anim id="EmotEnd" target="actor" targetSpec="" /><10_7 arg="120" /></message>
 	<message label="010" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
 	<message label="010_01" attrib="00 00 00 00 00 00 00 00"><anim id="Angry" target="actor" targetSpec="" />Чего это ты лыбишься?<pageBreak /><anim id="Serious" target="actor" targetSpec="" />Послушай, козявка,<delay20 /> если ты что-то
 слышал<gender2 m="" f="а" />, пока я спал, оставим это
@@ -27,7 +27,7 @@
 Не помню что.<delay frames="40" /> <anim id="ShyBoy" target="actor" targetSpec="" />Но мне понравилось.</message>
 	<message label="013_02" attrib="00 00 00 00 00 00 00 00"><anim id="OhGeez" target="actor" targetSpec="" />Я хотел слегка прикорнуть,
 но немного перестарался.<delay frames="40" />
-<anim id="FaintSmile" target="actor" targetSpec="" />Спасибо, что разбудил<gender2 m="" f="а" />.</message>
+<anim id="73" target="actor" targetSpec="" /><anim id="FaintSmile" target="actor" targetSpec="" />Спасибо, что разбудил<gender2 m="" f="а" />.</message>
 	<message label="014" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
 	<message label="014_01" attrib="00 00 00 00 00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />Сейчас вроде ночь. Если ты не
 против, я буду дальше спать<tag a="110" b="0" />
@@ -35,7 +35,7 @@
 	<message label="014_02" attrib="00 00 00 00 00 00 00 00"><anim id="ShyBoy" target="actor" targetSpec="" />Говорят, что читать книгу на ночь
 помогает заснуть. <delay8 />Бессовестно врут!</message>
 	<message label="015" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
-	<message label="015_01" attrib="00 00 00 00 00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Я что, заснул прямо тут? Спасибо,
+	<message label="015_01" attrib="00 00 00 00 00 00 00 00"><anim id="Worried" target="actor" targetSpec="" />Я что, заснул прямо тут? <anim id="73" target="actor" targetSpec="" />Спасибо,
 что разбудил<gender2 m="" f="а" />, <tag a="110" b="3" /><tag a="110" b="0" />
 <delay frames="40" /><anim id="FaintSmile" target="actor" targetSpec="" />Я у тебя в долгу!</message>
 	<message label="015_02" attrib="00 00 00 00 00 00 00 00"><anim id="Serious" target="actor" targetSpec="" />Похоже, я заснул на прогулке.

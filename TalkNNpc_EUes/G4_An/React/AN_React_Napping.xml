@@ -1,16 +1,16 @@
 <msbt attribsize="8">
 	<message label="001" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
 	<message label="001_01" attrib="00 00 00 00 00 00 00 00"><anim id="Sleepy" target="actor" targetSpec="" />No<tag a="110" b="0" /><delay20 /> Nadie se mete conmigo<tag a="110" b="0" /><delay20 />
-Te vas a enterar.<delay20 /> ¿Eh?<10_7 arg="120" /></message>
+Te vas a enterar.<delay20 /> ¿Eh?<anim id="EmotEnd" target="actor" targetSpec="" /><10_7 arg="120" /></message>
 	<message label="001_02" attrib="00 00 00 00 00 00 00 00"><anim id="Sleepy" target="actor" targetSpec="" />Brum<tag a="110" b="0" /> <delay8 />brum<tag a="110" b="0" /><delay8 /> Melena al viento<tag a="110" b="0" /><delay8 />
-Piso el acelerador<tag a="110" b="0" /><delay8 /><10_7 arg="120" /></message>
+Piso el acelerador<tag a="110" b="0" /><anim id="EmotEnd" target="actor" targetSpec="" /><10_7 arg="120" /></message>
 	<message label="001_03" attrib="00 00 00 00 00 00 00 00"><anim id="Sleepy" target="actor" targetSpec="" />A la porra las ataduras<tag a="110" b="0" /><delay8 /> Pienso
-ser libre<tag a="110" b="0" /><delay8 /> ¡liiiibreee!<10_7 arg="120" /></message>
+ser libre<tag a="110" b="0" /><delay8 /> ¡liiiibreee!<anim id="EmotEnd" target="actor" targetSpec="" /><10_7 arg="120" /></message>
 	<message label="010" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
 	<message label="010_01" attrib="00 00 00 00 00 00 00 00"><anim id="Blushing" target="actor" targetSpec="" />Qué vergüenza<tag a="110" b="0" /><delay8 /><anim id="OhGeez" target="actor" targetSpec="" /> Ya sabía yo que
 pasar de la siesta no era buena idea.</message>
 	<message label="010_02" attrib="00 00 00 00 00 00 00 00"><anim id="OhGeez" target="actor" targetSpec="" />Qué poco me mola que la peña
-me vea mientras duermo<tag a="110" b="0" /><delay8 /><anim id="Frantic" target="actor" targetSpec="" /> Oye,
+me vea mientras duermo<tag a="110" b="0" /><delay8 /><anim id="Frantic" target="actor" targetSpec="" /> Oye,<delay8 />
 no me has oído roncar, ¿verdad?</message>
 	<message label="011" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
 	<message label="011_01" attrib="00 00 00 00 00 00 00 00"><anim id="Blushing" target="actor" targetSpec="" />¡Menudo jolgorio anoche!<delay8 /> Hacía
@@ -20,14 +20,14 @@ tiempo que no bailaba tanto, tú.<delay8 />
 sobre policías, pero siempre dan
 los capítulos a saco de tarde<tag a="110" b="0" />
 <anim id="OhGeez" target="actor" targetSpec="" />Llevo toda la semana quedándome
-a ver la tele hasta las mil; <delay8 /><anim id="Negative" target="actor" targetSpec="" />¡no veas
+a ver la tele hasta las mil; <delay8 />¡no veas
 la de sueño atrasado que tengo!</message>
 	<message label="012" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
 	<message label="012_01" attrib="00 00 00 00 00 00 00 00"><anim id="Blushing" target="actor" targetSpec="" />¡Otra siesta que se me acaba yendo
 de las manos! <delay8 /><anim id="OhGeez" target="actor" targetSpec="" />Tengo que aprender a
 sobar con moderación, <tag a="110" b="6" />.</message>
 	<message label="012_02" attrib="00 00 00 00 00 00 00 00"><anim id="Thinking" target="actor" targetSpec="" />Tengo una colega que dice que
-siempre sueña despierta, <anim id="Nodding" target="actor" targetSpec="" />así que
+siempre sueña despierta, <delay8 /><anim id="Nodding" target="actor" targetSpec="" />así que
 estaba probando a hacer lo mismo.
 <anim id="Blushing" target="actor" targetSpec="" />¡Se ve que me ha salido mal
 el experimento, tí<gender2 m="o" f="a" />!</message>
@@ -55,6 +55,6 @@ Tengo que pensar en mi reputación.</message>
 	<message label="015_02" attrib="00 00 00 00 00 00 00 00"><anim id="TakenAback" target="actor" targetSpec="" />¿Cómo me he podido quedar frita?<delay8 />
 ¡Con lo temprano que es! <delay8 /><anim id="Scheming" target="actor" targetSpec="" />Bueno,
 al menos para mí, claro.
-<anim id="OhGeez" target="actor" targetSpec="" />¿Estaré perdiendo facultades?<delay8 />
-<anim id="Blushing" target="actor" targetSpec="" />No, un día malo lo tiene cualquiera.</message>
+<anim id="OhGeez" target="actor" targetSpec="" />¿Estaré perdiendo facultades?<delay20 />
+<anim id="SmugFace" target="actor" targetSpec="" />No, un día malo lo tiene cualquiera.</message>
 </msbt>

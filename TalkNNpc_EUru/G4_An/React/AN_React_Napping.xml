@@ -2,23 +2,23 @@
 	<message label="001" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
 	<message label="001_01" attrib="00 00 00 00 00 00 00 00">Хр-р-р<tag a="110" b="0" /> бросаешь мне вызов?<delay20 />
 Хорошо, гм<tag a="110" b="0" /> танцевальный
-поединок<tag a="110" b="0" /><anim id="Sleepy" target="actor" targetSpec="" /> Что?<10_7 arg="120" /></message>
+поединок<tag a="110" b="0" /><anim id="Sleepy" target="actor" targetSpec="" /> Что?<anim id="EmotEnd" target="actor" targetSpec="" /><10_7 arg="120" /></message>
 	<message label="001_02" attrib="00 00 00 00 00 00 00 00">М-м-м, а как же пицца<tag a="110" b="0" /> удобрение
-для цветов<tag a="110" b="0" /> мои орхидеи<tag a="110" b="0" /><anim id="Sleepy" target="actor" targetSpec="" /> А?<10_7 arg="120" /></message>
+для цветов<tag a="110" b="0" /> мои орхидеи<tag a="110" b="0" /><anim id="Sleepy" target="actor" targetSpec="" /> А?<anim id="EmotEnd" target="actor" targetSpec="" /><10_7 arg="120" /></message>
 	<message label="001_03" attrib="00 00 00 00 00 00 00 00">Хр-р-р<tag a="110" b="0" /> исполнить песню на бис?
 Но<tag a="110" b="0" /> у меня вместо гитары шишка<tag a="110" b="0" />
-<anim id="Sleepy" target="actor" targetSpec="" />А?<10_7 arg="120" /></message>
+<anim id="Sleepy" target="actor" targetSpec="" />А?<anim id="EmotEnd" target="actor" targetSpec="" /><10_7 arg="120" /></message>
 	<message label="010" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
 	<message label="010_01" attrib="00 00 00 00 00 00 00 00"><anim id="Blushing" target="actor" targetSpec="" />Ты, это<tag a="110" b="0" /> ничего не видел<gender2 m="" f="а" />, ладно?<delay frames="40" />
 <anim id="Sighing" target="actor" targetSpec="" />Я отлично спала ночью, не знаю,
 что это со мной.</message>
 	<message label="010_02" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />М-да, ну и вид у меня, наверное,
-был.<delay frames="40" /> <anim id="EmotEnd" target="actor" targetSpec="" />А я-то думала, что выспалась<tag a="110" b="0" />
+был.<delay frames="40" /> <anim id="73" target="actor" targetSpec="" />А я-то думала, что выспалась<tag a="110" b="0" />
 <anim id="Sleepy" target="actor" targetSpec="" />а вот и нет.</message>
 	<message label="011" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
 	<message label="011_01" attrib="00 00 00 00 00 00 00 00"><anim id="Grin" target="actor" targetSpec="" />Наверное, пора уже прекращать
 полуночничать... на время.</message>
-	<message label="011_02" attrib="00 00 00 00 00 00 00 00"><anim id="ShyBoy" target="actor" targetSpec="" />Позвонила вчера старому приятелю,
+	<message label="011_02" attrib="00 00 00 00 00 00 00 00"><anim id="73" target="actor" targetSpec="" /><anim id="ShyBoy" target="actor" targetSpec="" />Позвонила вчера старому приятелю,
 и мы с ним заболтались<tag a="110" b="0" /> до самого
 утра.<delay frames="40" /> <anim id="Sleepy" target="actor" targetSpec="" />Но я ничуть не жалею!</message>
 	<message label="012" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
@@ -26,9 +26,9 @@
 в небо и начинаю витать в облаках.<delay8 />
 Действует, как снотворное.</message>
 	<message label="012_02" attrib="00 00 00 00 00 00 00 00"><anim id="Nodding" target="actor" targetSpec="" />Дай, думаю, отдохну немного<tag a="110" b="0" /><delay8 />
-<anim id="Laughing" target="actor" targetSpec="" />и тут же отключилась! А-ха-ха!</message>
+<anim id="73" target="actor" targetSpec="" />и тут же отключилась!<delay20 /> <anim id="Laughing" target="actor" targetSpec="" />А-ха-ха!</message>
 	<message label="013" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
-	<message label="013_01" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />А? Я что, задремала?<delay frames="40" /> <anim id="ShyBoy" target="actor" targetSpec="" />И главный
+	<message label="013_01" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />А? Я что, задремала?<anim id="73" target="actor" targetSpec="" /><delay frames="40" /> <anim id="ShyBoy" target="actor" targetSpec="" />И главный
 вопрос: <delay20 />я что, храпела?</message>
 	<message label="013_02" attrib="00 00 00 00 00 00 00 00"><anim id="OhGeez" target="actor" targetSpec="" />Я тут немного прикорнула от скуки.
 <delay20 />Просто сидела и<tag a="110" b="0" /><delay20 /> заснула. <delay20 /><anim id="Grin" target="actor" targetSpec="" />Зато сон
@@ -44,6 +44,6 @@
 мне давно пора спать.<delay frames="40" /> <anim id="Eh" target="actor" targetSpec="" />Стоп<tag a="110" b="0" /> когда
 это мне вообще было пора спать?</message>
 	<message label="015_02" attrib="00 00 00 00 00 00 00 00"><anim id="TakenAback" target="actor" targetSpec="" />Я что, уснула? Но еще так<tag a="110" b="0" /> рано.<delay frames="40" />
-<anim id="Worried" target="actor" targetSpec="" />Надеюсь, это не возрастное.<delay frames="40" /><anim id="Assent" target="actor" targetSpec="" /> Ведь
+<anim id="73" target="actor" targetSpec="" /><anim id="Worried" target="actor" targetSpec="" />Надеюсь, это не возрастное.<delay frames="40" /><anim id="Assent" target="actor" targetSpec="" /> Ведь
 я в самом расцвете сил!</message>
 </msbt>

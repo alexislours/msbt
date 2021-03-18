@@ -214,10 +214,9 @@
 <anim id="QuestionMark" target="actor" targetSpec="" />要兑换奖品吗？</message>
 	<message label="045_a" attrib="00 00 00 00">兑换</message>
 	<message label="045_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />下次再说</message>
-	<message label="046" attrib="02 00 00 00"><anim id="Eh" target="actor" targetSpec="" />啊，你的点数已经攒到
-<colour id="1" /><tag a="90" b="8" arg="0x1" />点<colour id="65535" />了，
-所以不用那么急也可以的。<pageBreak /><anim id="Nodding" target="actor" targetSpec="" />现在你有<colour id="1" /><tag a="90" b="8" arg="0x1" />点<colour id="65535" />，<delay40 />
-要用<tag a="90" b="1" arg="0x0" />点
+	<message label="046" attrib="02 00 00 00"><anim id="Eh" target="actor" targetSpec="" />啊，你的点数已经攒到<delay20 />
+<colour id="1" /><anim id="Nodding" target="actor" targetSpec="" /><tag a="90" b="8" arg="0x1" />点<colour id="65535" />了，<delay20 />
+所以不用那么急也可以的。<pageBreak /><anim id="EmotEnd" target="actor" targetSpec="" />现在<delay20 />你要用<colour id="1" /><tag a="90" b="1" arg="0x0" />点<colour id="65535" /><delay20 />
 <anim id="QuestionMark" target="actor" targetSpec="" />来兑换奖品吗？</message>
 	<message label="046_a" attrib="00 00 00 00">兑换</message>
 	<message label="046_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />下次再说</message>
@@ -242,7 +241,7 @@
 	<message label="051" attrib="02 00 00 00"><anim id="Surprised" target="actor" targetSpec="" />诶？！这么多？！<pageBreak /><colour id="4" />（咽口水<tag a="110" b="0" />）
 <anim id="Hesitate" target="actor" targetSpec="" /><colour id="65535" />嘻嘻<tag a="110" b="0" />就算有什么陷阱，
 我也发誓绝不会后悔！<pageBreak /><anim id="QuestionMark" target="actor" targetSpec="" />全部加起来，
-我出<tag a="90" b="26" arg="0x3" />，怎么样？</message>
+我出<tag a="90" b="20" arg="0x3" />，怎么样？</message>
 	<message label="051_a" attrib="00 00 00 00">那就拜托你了</message>
 	<message label="051_b" attrib="00 00 00 00"><anim id="Negative" target="actor" targetSpec="" />还是算了</message>
 	<message label="052" attrib="02 00 00 00"><anim id="Aha" target="actor" targetSpec="" />这是<tag a="110" b="0" />

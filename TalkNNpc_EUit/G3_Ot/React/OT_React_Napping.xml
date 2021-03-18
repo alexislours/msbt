@@ -1,10 +1,10 @@
 <msbt attribsize="8">
 	<message label="001" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
 	<message label="001_01" attrib="00 00 00 00 00 00 00 00">Zzzzz<tag a="110" b="0" /> <delay8 />Zzzzz<tag a="110" b="0" /> <delay8 />Zzzzz<tag a="110" b="0" /> <anim id="Shocked" target="actor" targetSpec="" />Zzznk!<delay frames="40" />
-<anim id="Sleepy" target="actor" targetSpec="" />Mmmfffiuuu<tag a="110" b="0" /><delay20 /> Mmmfffiuuu<tag a="110" b="0" /><10_7 arg="60" /></message>
+<anim id="Sleepy" target="actor" targetSpec="" />Mmmfffiuuu<tag a="110" b="0" /><delay20 /> Mmmfffiuuu<tag a="110" b="0" /><anim id="EmotEnd" target="actor" targetSpec="" /><10_7 arg="60" /></message>
 	<message label="001_02" attrib="00 00 00 00 00 00 00 00">Zzz<tag a="110" b="0" /><delay8 /> Zzz<tag a="110" b="0" /> Che bello<tag a="110" b="0" /><delay8 /> Zzz<tag a="110" b="0" /> Che gentile<tag a="110" b="0" /><delay frames="13" /> Zzzzz<tag a="110" b="0" /> <anim id="Sleepy" target="actor" targetSpec="" />Mhmmnnn<tag a="110" b="0" />
-Mhfff?<10_7 arg="120" /></message>
-	<message label="001_03" attrib="00 00 00 00 00 00 00 00"><anim id="Sleepy" target="actor" targetSpec="" />Zzznort<tag a="110" b="0" /> Uhuuu<tag a="110" b="0" /> Uhaaa<tag a="110" b="0" /><10_7 arg="120" /></message>
+Mhfff?<anim id="EmotEnd" target="actor" targetSpec="" /><10_7 arg="120" /></message>
+	<message label="001_03" attrib="00 00 00 00 00 00 00 00"><anim id="Sleepy" target="actor" targetSpec="" />Zzznort<tag a="110" b="0" /> Uhuuu<tag a="110" b="0" /> Uhaaa<tag a="110" b="0" /><anim id="EmotEnd" target="actor" targetSpec="" /><10_7 arg="120" /></message>
 	<message label="010" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
 	<message label="010_01" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Oh!<delay8 /> Chi mi ha svegliato?<delay20 /> <anim id="Blushing" target="actor" targetSpec="" />Non riesco 
 a tenere gli occhi aperti<tag a="110" b="0" /><delay8 /> Come mi
@@ -36,14 +36,14 @@ Non ho <delay8 />resistito!</message>
 Spero di non aver detto niente di
 imbarazzante, <tag a="110" b="6" />.</message>
 	<message label="014" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
-	<message label="014_01" attrib="00 00 00 00 00 00 00 00"><anim id="Blushing" target="actor" targetSpec="" />Oh, mi ero addormentata?<delay20 /> Sono
+	<message label="014_01" attrib="00 00 00 00 00 00 00 00"><anim id="73" target="actor" targetSpec="" />Oh, mi ero addormentata?<delay20 /> <anim id="Blushing" target="actor" targetSpec="" />Sono
 sempre assonnata a quest'ora.<delay20 />
 <anim id="FaintSmile" target="actor" targetSpec="" />Il sonno è un alleato della bellezza!</message>
 	<message label="014_02" attrib="00 00 00 00 00 00 00 00"><anim id="Shocked" target="actor" targetSpec="" />Non oso pensarci<tag a="110" b="0" /><delay8 /><anim id="ShyBoy" target="actor" targetSpec="" /> Dormendo qui
 potrei prendere un malanno!<delay20 />
 <anim id="Hello" target="actor" targetSpec="" />Grazie per avermi svegliata!</message>
 	<message label="015" attrib="00 00 00 00 00 00 00 00"><tag a="60" b="20" /></message>
-	<message label="015_01" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Oh!<delay8 /> Stavo dormendo?<delay frames="40" /> <anim id="Blushing" target="actor" targetSpec="" />Qui?<pageBreak />Beh,<delay8 /> allora grazie per avermi
+	<message label="015_01" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />Oh!<delay8 /> Stavo dormendo?<delay frames="40" /> <anim id="Blushing" target="actor" targetSpec="" />Qui?<pageBreak /><anim id="73" target="actor" targetSpec="" />Beh,<delay8 /> allora grazie per avermi
 svegliata.<delay20 /><anim id="Smiling" target="actor" targetSpec="" /> La prossima volta devo
 tornare a casa prima che mi ricapiti!</message>
 	<message label="015_02" attrib="00 00 00 00 00 00 00 00"><anim id="Eh" target="actor" targetSpec="" />No! Che dici?!<delay8 /> Non stavo <delay8 />dormendo!<delay20 />
